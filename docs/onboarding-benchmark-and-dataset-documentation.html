@@ -79,7 +79,13 @@
                   white-space: normal; text-decoration: none; cursor: default; }
   .sources-hover:hover .sources-list, .sources-hover:focus .sources-list { display: block; }
   /* pipeline */
-  .stage + .stage { margin-top: 48px; padding-top: 40px; border-top: 1px solid var(--line); }
+  .stagenav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 32px; }
+  .stagenav button { padding: 4px 12px; border: 1px solid var(--line); border-radius: 3px; background: #fff;
+                     font: inherit; color: var(--muted); cursor: pointer; }
+  .stagenav button:hover { color: var(--ink); }
+  .stagenav button.on { color: var(--accent); border-color: var(--accent); }
+  .stage { display: none; }
+  .stage.on { display: block; }
   @media (max-width: 640px) {
     .page { padding: 24px 20px 64px; }
     .src { grid-template-columns: minmax(0, 1fr); gap: 24px; }
@@ -97,46 +103,56 @@
     <a href="#tables" data-tab="tables">Tables</a>
     <a href="#sources" data-tab="sources">Sources</a>
     <a href="#pipeline" data-tab="pipeline">Pipeline</a>
-    <a href="#library" data-tab="library">Library</a>
   </nav>
 </header>
 
 <main>
 
 <!-- ============ DATASET ============ -->
-<section class="panel on" id="dataset">
+<section class="panel on" id="tab-dataset">
   <div class="dataset">
     <h2>Benchmark dataset</h2>
-<pre>benchmark-data/
-  datasets.json                one row per benchmark
-  ground_truth_projects.json   the answer key: my real projects
-  generated_categories.json    each category list the import agent generates
-  source_items.json            one row per item
-  analyses.json                one row per agent pass over an item
-  README.md                    how the dataset was built
-  FAILURES                     items that could not be copied or generated
-  authentic/                   your own data from the past year, relevant and irrelevant,
-                               so it holds all the papers and work you care about
-    &lt;source&gt;/                  one folder per onboarding source (see Sources)
-  synthetic/                   generated data about me (David) and my projects, mixed with
-                               unrelated items, mostly on the platforms I don't use; each
-                               written in the platform's own file type
-    PERSON.md                  a summary of me drawn from the authentic data, used to
-                               generate the synthetic data
-    &lt;source&gt;/                  the same folders</pre>
+<pre>onboarding-benchmark/
+  docs/                          this page
+  skills/                        the three skills the import agent runs
+    wave1-categories-v1/         builds the category list
+    wave2-shallow-sort-v1/       files each item from a short sample
+    deep-pass-v1/                rereads items in full, decides what gets imported
+  prompts/                       the same passes as prompt modules (wave1, merge, wave2, deep)
+  scripts/                       import scripts that build the dataset
+    synth/                       one generator per source for the synthetic data
+  dataset/
+    tables/
+      datasets.json              one row per benchmark
+      ground_truth_projects.json ground truth classification of my own projects (kept out of git)
+      generated_categories.json  each category list the import agent generates
+      source_items.json          one row per item (kept out of git; each source folder has its own)
+      analyses.json              one row per agent pass over an item
+    authentic/                   my own data from the past year, relevant and irrelevant,
+                                 so it holds all the papers and work I care about
+      &lt;source&gt;/                  one folder per onboarding source (see Sources)
+    synthetic/                   generated data about me (David) and my projects, mixed with
+                                 unrelated items, mostly on the platforms I don't use; each
+                                 written in the platform's own file type
+      PERSON.md                  a summary of me drawn from the authentic data, used to
+                                 generate the synthetic data
+      ground_truth_labels.json   the projects each synthetic item belongs to
+      &lt;source&gt;/                  the same folders
+    PROGRESS.md                  collection status
+    FAILURES.md                  items that could not be copied or generated</pre>
   </div>
 </section>
 
 <!-- ============ TABLES ============ -->
-<section class="panel" id="tables">
+<section class="panel" id="tab-tables">
   <h2>Tables</h2>
   <table class="tx">
-    <tr><th>name</th><th>what it holds</th><th>links to</th></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-datasets"><td><code>datasets</code></td><td>one row per benchmark (reference date 2026-10-17, path to <code>PERSON.md</code>)</td><td><code>source_items.dataset_id</code> → <code>datasets.id</code></td></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-gtprojects"><td><code>ground_truth_projects</code></td><td>the answer key: my real projects with a one-line description each, plus <code>project_none</code>. Never shown to the import agent</td><td><code>source_items.ground_truth.project_ids</code> → <code>ground_truth_projects.id</code></td></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-gencats"><td><code>generated_categories</code></td><td>each category list the import agent generates in a run (wave 1 draft, confirmed list). Scored against <code>ground_truth_projects</code></td><td><code>analyses.category_set_id</code> → <code>generated_categories.id</code>; each row has a <code>run_id</code></td></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-stage0" data-same="1"><td><code>source_items</code></td><td>one row per item (existing)</td><td></td></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-analysis1" data-same="1"><td><code>analyses</code></td><td>one row per agent pass over an item (existing)</td><td><code>analyses.item_id</code> → <code>source_items.id</code></td></tr>
+    <tr><th>name</th><th>description</th></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-datasets"><td><code>datasets</code></td><td>one row per benchmark</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-gtprojects"><td><code>ground_truth_projects</code></td><td>ground truth classification of my own projects</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-gencats"><td><code>generated_categories</code></td><td>each category list the import agent generates in a run</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-stage0" data-same="1"><td><code>source_items</code></td><td>one row per item</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-analysis1" data-same="1"><td><code>analyses</code></td><td>one row per agent pass over an item</td></tr>
   </table>
   <dialog id="txmodal" aria-labelledby="txmodal-title">
     <button class="txm-close" type="button" aria-label="Close">×</button>
@@ -145,7 +161,7 @@
 </section>
 
 <!-- ============ SOURCES ============ -->
-<section class="panel" id="sources">
+<section class="panel" id="tab-sources">
   <div class="src">
     <div class="srclist" id="srclist"></div>
     <div id="srcdetail"></div>
@@ -153,9 +169,16 @@
 </section>
 
 <!-- ============ PIPELINE ============ -->
-<section class="panel" id="pipeline">
+<section class="panel" id="tab-pipeline">
+  <div class="stagenav" id="stagenav">
+    <button type="button" data-stage="stage0" class="on">Stage 0: source rows</button>
+    <button type="button" data-stage="wave1">Wave 1: category list</button>
+    <button type="button" data-stage="wave2">Wave 2: shallow pass</button>
+    <button type="button" data-stage="deep">Deep pass</button>
+    <button type="button" data-stage="library">Library</button>
+  </div>
 
-  <div class="stage" id="stage0">
+  <div class="stage on" id="st-stage0">
     <h2>Stage 0: source rows</h2>
     <p>An import script per platform copies each original into <code>benchmark-data/</code>, hashes it and writes one <code>source_items</code> row per item, in code with no model, and leaves <code>library_item_id</code> null.</p>
     <div data-json="j-stage0" data-label="source_items"></div>
@@ -191,7 +214,7 @@
     </details>
   </div>
 
-  <div class="stage" id="wave1">
+  <div class="stage" id="st-wave1">
     <h2>Wave 1: category list</h2>
     <p>Wave 1 asks each source the same question in parallel: what has this person worked on? ChatGPT and Claude are each sent a profile prompt in the signed-in browser and answer from memory. One agent run on the Mac reads the Claude Code and Codex session logs and local git history. One merge agent then turns the three profiles, the project title and description, and any categories the person typed into the category list. It reads no individual items.</p>
     <div data-json="j-profiles" data-label="the three profiles (one per source)"></div>
@@ -205,7 +228,7 @@
     </details>
   </div>
 
-  <div class="stage" id="wave2">
+  <div class="stage" id="st-wave2">
     <h2>Wave 2: shallow pass</h2>
     <p>Wave 2 runs concurrently over everything else, including the ChatGPT and Claude chat lists, Claude Code and Codex sessions, Drive, Gmail, notes, PDFs, GitHub and Overleaf. It reads metadata and a short snippet against <code>catset_v2</code>. Items that fit no category become proposed categories, which go back to the list after a duplicate check. The person then picks which categories go to the deep pass.</p>
     <h3>How wave 2 runs</h3>
@@ -247,7 +270,7 @@
     </details>
   </div>
 
-  <div class="stage" id="deep">
+  <div class="stage" id="st-deep">
     <h2>Deep pass</h2>
     <p>The deep pass is the only step that writes to the library. It reads the whole of each item in a picked category, re-judges it, and decides import, skip or pending. On import, code (not the agent) inserts or reuses a library row and writes <code>library_item_id</code> back to the source row.</p>
     <h3>How the deep pass runs</h3>
@@ -270,10 +293,8 @@
     </details>
   </div>
 
-</section>
 
-<!-- ============ LIBRARY ============ -->
-<section class="panel" id="library">
+  <div class="stage" id="st-library">
   <h2>Before the deep pass</h2>
   <p class="muted">No <code>library</code> rows for these items. Stage 0, wave 1 and wave 2 add only <code>analyses</code> rows.</p>
 
@@ -338,6 +359,8 @@
       <tr><td>3</td><td>3</td><td>2</td><td>1 (item_003, none)</td><td>0</td></tr>
     </table>
   </details>
+  </div>
+
 </section>
 
 </main>
@@ -1058,10 +1081,19 @@ function showSource(id) {
 }
 
 // tabs
-const TABS = ["dataset", "tables", "sources", "pipeline", "library"];
+const TABS = ["dataset", "tables", "sources", "pipeline"];
+const STAGES = ["stage0", "wave1", "wave2", "deep", "library"];
+function openStage(name) {
+  document.querySelectorAll("#stagenav button").forEach(b => b.classList.toggle("on", b.dataset.stage === name));
+  document.querySelectorAll("#tab-pipeline .stage").forEach(st => st.classList.toggle("on", st.id === "st-" + name));
+}
+document.querySelectorAll("#stagenav button").forEach(b => b.addEventListener("click", () => {
+  openStage(b.dataset.stage);
+  history.replaceState(null, "", "#pipeline/" + b.dataset.stage);
+}));
 function openTab(name) {
   document.querySelectorAll("#tabs a").forEach(a => a.classList.toggle("on", a.dataset.tab === name));
-  document.querySelectorAll("section.panel").forEach(p => p.classList.toggle("on", p.id === name));
+  document.querySelectorAll("section.panel").forEach(p => p.classList.toggle("on", p.id === "tab-" + name));
   window.scrollTo(0, 0);
 }
 document.querySelectorAll("#tabs a").forEach(a => a.addEventListener("click", e => {
@@ -1069,8 +1101,10 @@ document.querySelectorAll("#tabs a").forEach(a => a.addEventListener("click", e 
   openTab(a.dataset.tab);
   history.replaceState(null, "", "#" + a.dataset.tab);
 }));
-const start = location.hash.slice(1);
-if (TABS.includes(start)) openTab(start);
+const [start, stage] = location.hash.slice(1).split("/");
+if (start === "library") { openTab("pipeline"); openStage("library"); }
+else if (TABS.includes(start)) openTab(start);
+if (start === "pipeline" && STAGES.includes(stage)) openStage(stage);
 
 showSource("overleaf");
 </script>

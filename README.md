@@ -1,5 +1,7 @@
 # benchmark-data
 
+**Documentation:** [Onboarding Benchmark and Dataset Documentation](docs/onboarding-benchmark-and-dataset-documentation.html), covering the dataset, tables, sources, pipeline and library. GitHub shows its source; to read it, open the file in a browser after cloning.
+
 Benchmark for Engelbart's context import: one person's digital footprint (`authentic/`, real data) plus synthetic data about the same person (`synthetic/`). Collection status is in `PROGRESS.md`. Everything that could not be collected or filled in is in `FAILURES.md`. Each tool folder keeps its own `MANIFEST.csv` (one row per collected file) and a `source_items.json` (that folder's slice of the table below).
 
 ## Tables

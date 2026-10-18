@@ -1,0 +1,1017 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Onboarding Benchmark and Dataset Documentation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --ink: #1a1a1a; --muted: #6e6e6e; --line: #e8e8e8; --code: #f6f6f6; --accent: #2f6b4f; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: #fff; }
+  body { font: 14px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color: var(--ink); }
+  .page { max-width: 1040px; margin: 0 auto; padding: 40px 40px 96px; }
+  header h1 { margin: 0 0 4px; font-size: 18px; font-weight: 600; }
+  header p { margin: 0 0 28px; color: var(--muted); }
+  nav { display: flex; gap: 28px; margin-bottom: 40px; }
+  nav a { color: var(--muted); text-decoration: none; text-underline-offset: 6px; }
+  nav a:hover { color: var(--ink); }
+  nav a.on { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; }
+  section.panel { display: none; }
+  section.panel.on { display: block; }
+  h2 { margin: 0 0 4px; font-size: 16px; font-weight: 600; }
+  h3 { margin: 28px 0 6px; font-size: 14px; font-weight: 600; }
+  p { margin: 0 0 12px; max-width: 760px; }
+  .muted { color: var(--muted); }
+  code { font: 12.5px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; overflow-wrap: anywhere; }
+  .codehead { display: flex; justify-content: space-between; gap: 16px; margin: 20px 0 6px; color: var(--muted); font-size: 12.5px; }
+  .copy { border: 0; background: none; padding: 0; font: inherit; color: var(--muted); cursor: pointer; }
+  .copy:hover { color: var(--ink); }
+  pre { margin: 0; padding: 14px 16px; background: var(--code); border-radius: 3px;
+        font: 12.5px/1.55 ui-monospace, SFMono-Regular, Menlo, monospace; color: #333;
+        white-space: pre-wrap; overflow-wrap: anywhere; }
+  table { border-collapse: collapse; width: 100%; margin: 6px 0 16px; font-size: 13px; }
+  th, td { text-align: left; vertical-align: top; padding: 6px 16px 6px 0; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+  th { font-weight: 500; color: var(--muted); }
+  ul { margin: 4px 0 12px; padding-left: 18px; max-width: 760px; }
+  details { margin: 20px 0 0; }
+  summary { color: var(--muted); cursor: pointer; }
+  details[open] summary { margin-bottom: 8px; }
+  details > :not(summary) { margin-left: 0; }
+  /* sources */
+  .src { display: grid; grid-template-columns: 168px minmax(0, 1fr); gap: 48px; align-items: start; }
+  .srclist { position: sticky; top: 24px; max-height: calc(100vh - 48px); overflow-y: auto; }
+  .srclist .grp { margin: 18px 0 2px; font-size: 12px; color: var(--muted); }
+  .srclist .grp:first-child { margin-top: 0; }
+  .srclist button { display: block; width: 100%; padding: 2px 0; border: 0; background: none; text-align: left; font: inherit; color: var(--ink); cursor: pointer; }
+  .srclist button:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .srclist button.on { color: var(--accent); }
+  .facts { display: grid; grid-template-columns: 104px minmax(0, 1fr); gap: 4px 16px; margin: 16px 0 0; }
+  .facts dt { color: var(--muted); }
+  .facts dd { margin: 0; min-width: 0; }
+  .facts ul { margin: 0; }
+  .dataset { margin-bottom: 40px; padding-bottom: 32px; border-bottom: 1px solid var(--line); }
+  .dataset pre { margin: 12px 0; }
+  table.tx td:first-child { white-space: nowrap; overflow-wrap: normal; width: 1%; }
+  table.tx tr.tx-row { cursor: pointer; }
+  table.tx tr.tx-row:hover td { background: #fafafa; }
+  table.tx tr.tx-row:focus { outline: none; }
+  table.tx tr.tx-row:focus-visible td { background: #f3f3f3; }
+  /* tables modal */
+  #txmodal { width: 90vw; max-width: 760px; max-height: 80vh; padding: 0; overflow: hidden;
+             border: 1px solid var(--line); border-radius: 3px; background: #fff; color: var(--ink); }
+  #txmodal::backdrop { background: rgba(255, 255, 255, 0.7); }
+  #txmodal .txm-body { max-height: 80vh; overflow-y: auto; padding: 32px 36px; }
+  #txmodal h2 { margin: 0 0 4px; padding-right: 32px; }
+  #txmodal h2 code { font-size: 14px; }
+  #txmodal .txm-desc { margin: 0; color: var(--muted); }
+  #txmodal pre { white-space: pre; overflow-wrap: normal; overflow-x: auto; }
+  #txmodal .txm-note { margin: 8px 0 0; }
+  #txmodal .txm-close { position: absolute; top: 12px; right: 16px; border: 0; background: none; padding: 2px 4px;
+                        font-family: inherit; font-size: 18px; line-height: 1; color: var(--muted); cursor: pointer; }
+  #txmodal .txm-close:hover { color: var(--ink); }
+  /* sources hover */
+  .sources-hover { position: relative; cursor: help; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; outline: none; }
+  .sources-hover:focus-visible { color: var(--ink); }
+  .sources-list { display: none; position: absolute; left: 0; top: 100%; margin-top: 4px; z-index: 10;
+                  width: max-content; max-width: min(320px, calc(100vw - 48px)); padding: 6px 10px;
+                  background: #fff; border: 1px solid var(--line); border-radius: 3px;
+                  font-size: 13px; font-weight: 400; line-height: 1.5; color: var(--ink);
+                  white-space: normal; text-decoration: none; cursor: default; }
+  .sources-hover:hover .sources-list, .sources-hover:focus .sources-list { display: block; }
+  /* pipeline */
+  .stage + .stage { margin-top: 48px; padding-top: 40px; border-top: 1px solid var(--line); }
+  @media (max-width: 640px) {
+    .page { padding: 24px 20px 64px; }
+    .src { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+    .srclist { position: static; max-height: none; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+<header>
+  <h1>Onboarding Benchmark and Dataset Documentation</h1>
+  <p>A dataset of all my authentic data across <span class="sources-hover" tabindex="0" title="ChatGPT, Claude, Claude Code, Codex, Overleaf, Zotero, GitHub, Google Drive, Gmail, Notion, Linear, Granola, Evernote, Apple Notes, PDFs and local files">sources<span class="sources-list" role="tooltip">ChatGPT, Claude, Claude Code, Codex, Overleaf, Zotero, GitHub, Google Drive, Gmail, Notion, Linear, Granola, Evernote, Apple Notes, PDFs and local files</span></span>, plus synthetic data to fill the gaps for the tools in that list I don't use. The benchmark measures how accurately Claude Code and Codex classify the data against the ground truth, which is my own classification of my own data.</p>
+  <nav id="tabs">
+    <a href="#dataset" data-tab="dataset" class="on">Dataset</a>
+    <a href="#tables" data-tab="tables">Tables</a>
+    <a href="#sources" data-tab="sources">Sources</a>
+    <a href="#pipeline" data-tab="pipeline">Pipeline</a>
+    <a href="#library" data-tab="library">Library</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- ============ DATASET ============ -->
+<section class="panel on" id="dataset">
+  <div class="dataset">
+    <h2>Benchmark dataset</h2>
+<pre>benchmark-data/
+  datasets.json                one row per benchmark
+  ground_truth_projects.json   the answer key: my real projects
+  generated_categories.json    each category list the import agent generates
+  source_items.json            one row per item
+  analyses.json                one row per agent pass over an item
+  README.md                    how the dataset was built
+  FAILURES                     items that could not be copied or generated
+  authentic/                   your own data from the past year, relevant and irrelevant,
+                               so it holds all the papers and work you care about
+    &lt;source&gt;/                  one folder per onboarding source (see Sources)
+  synthetic/                   generated data about me (David) and my projects, mixed with
+                               unrelated items, mostly on the platforms I don't use; each
+                               written in the platform's own file type
+    PERSON.md                  a summary of me drawn from the authentic data, used to
+                               generate the synthetic data
+    &lt;source&gt;/                  the same folders</pre>
+  </div>
+</section>
+
+<!-- ============ TABLES ============ -->
+<section class="panel" id="tables">
+  <h2>Tables</h2>
+  <table class="tx">
+    <tr><th>name</th><th>what it holds</th><th>links to</th></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-datasets"><td><code>datasets</code></td><td>one row per benchmark (reference date 2026-10-17, path to <code>PERSON.md</code>)</td><td><code>source_items.dataset_id</code> → <code>datasets.id</code></td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-gtprojects"><td><code>ground_truth_projects</code></td><td>the answer key: my real projects with a one-line description each, plus <code>project_none</code>. Never shown to the import agent</td><td><code>source_items.ground_truth.project_ids</code> → <code>ground_truth_projects.id</code></td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-gencats"><td><code>generated_categories</code></td><td>each category list the import agent generates in a run (wave 1 draft, confirmed list). Scored against <code>ground_truth_projects</code></td><td><code>analyses.category_set_id</code> → <code>generated_categories.id</code>; each row has a <code>run_id</code></td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-stage0" data-same="1"><td><code>source_items</code></td><td>one row per item (existing)</td><td></td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-analysis1" data-same="1"><td><code>analyses</code></td><td>one row per agent pass over an item (existing)</td><td><code>analyses.item_id</code> → <code>source_items.id</code></td></tr>
+  </table>
+  <dialog id="txmodal" aria-labelledby="txmodal-title">
+    <button class="txm-close" type="button" aria-label="Close">×</button>
+    <div class="txm-body"></div>
+  </dialog>
+</section>
+
+<!-- ============ SOURCES ============ -->
+<section class="panel" id="sources">
+  <div class="src">
+    <div class="srclist" id="srclist"></div>
+    <div id="srcdetail"></div>
+  </div>
+</section>
+
+<!-- ============ PIPELINE ============ -->
+<section class="panel" id="pipeline">
+
+  <div class="stage" id="stage0">
+    <h2>Stage 0: source rows</h2>
+    <p>An import script per platform copies each original into <code>benchmark-data/</code>, hashes it and writes one <code>source_items</code> row per item, in code with no model, and leaves <code>library_item_id</code> null.</p>
+    <div data-json="j-stage0" data-label="source_items"></div>
+    <details>
+      <summary>Notes</summary>
+      <p>Titles, dates and platform ids come straight from the export; missing values stay <code>null</code>. Listing an item never adds it to the library.</p>
+      <h3>The three items followed through the pipeline</h3>
+      <table>
+        <tr><th>id</th><th>source</th><th>title</th><th>what it really is (ground truth, hidden from the agent)</th></tr>
+        <tr><td><code>item_001</code></td><td>ChatGPT</td><td>"Thoughts"</td><td>TutorTrace evaluation design. The vague title is a deliberate hard case.</td></tr>
+        <tr><td><code>item_002</code></td><td>Google Drive</td><td>"Untitled document"</td><td>A draft of the Engelbart import benchmark.</td></tr>
+        <tr><td><code>item_003</code></td><td>Google Drive</td><td>"Lease renewal 2026"</td><td>Personal clutter that belongs to no project.</td></tr>
+      </table>
+      <p>Engelbart project being onboarded: <code>project_id = 7c1e…</code> ("Engelbart").</p>
+      <h3>Fields in a source item</h3>
+      <p>These come from the <code>source_items</code> JSON in the Gronola note, with <code>library_item_id</code> added afterward. Two more are additions on this page: <code>modeled_on</code> on synthetic items (the <code>/goal</code> manifest rule) and per-source keys inside <code>metadata</code>.</p>
+      <table>
+        <tr><th>field</th><th>meaning</th></tr>
+        <tr><td><code>id</code></td><td>internal id, stable across content changes</td></tr>
+        <tr><td><code>provenance</code></td><td><code>authentic</code> or <code>synthetic</code></td></tr>
+        <tr><td><code>modeled_on</code> (addition)</td><td>synthetic only: the authentic item it imitates, or null</td></tr>
+        <tr><td><code>source</code> / <code>source_id</code></td><td>the subfolder name, and the platform's own id (conversation id, Drive file id, Overleaf project id, vault path…)</td></tr>
+        <tr><td><code>content_type</code></td><td>conversation, note, page, document, spreadsheet, email_thread, latex_project, paper, pdf, repository, issue, meeting, transcript, web_page, memory, history_db</td></tr>
+        <tr><td><code>created_at</code> / <code>modified_at</code></td><td>authentic: the original timestamps, never changed. Synthetic: generated, bursty across the year before 2026-10-17</td></tr>
+        <tr><td><code>path</code></td><td>the stored file or folder, relative to <code>benchmark-data/</code>. The row holds metadata; the file holds the content</td></tr>
+        <tr><td><code>content_hash</code></td><td>hash of the stored content; updated when the content changes, with the old version kept</td></tr>
+        <tr><td><code>library_item_id</code></td><td>null until the deep pass imports the item</td></tr>
+        <tr><td><code>metadata</code></td><td>source-specific: format, folder, account, counts… Varies per tool (see the Sources tab)</td></tr>
+        <tr><td><code>ground_truth</code></td><td>hidden from the agent. <code>unlabeled</code> until reviewed; <code>reviewed</code> with empty <code>project_ids</code> means "belongs to no project"</td></tr>
+      </table>
+      <h3>Project ids used as ground truth in the samples</h3>
+      <p><code>project_engelbart</code>, <code>project_engelbart_import</code>, <code>project_tutortrace</code>, <code>project_idetrace</code>, <code>project_custody_verification</code>, <code>project_berkeley</code>, <code>project_spec_design</code>. They are rows in <code>ground_truth_projects</code> (see the Dataset tab).</p>
+    </details>
+  </div>
+
+  <div class="stage" id="wave1">
+    <h2>Wave 1: category list</h2>
+    <p>Wave 1 reads the chats cheaply, together with the profile and the person's own categories, and proposes the category list the person then confirms; it only reads.</p>
+    <div data-json="j-catset0" data-label="catset_v0: the user's typed categories plus the profile's projects"></div>
+    <div data-json="j-analysis1" data-label="analysis_001 for item_001 (provisional)"></div>
+    <div data-json="j-catset2" data-label="catset_v2: confirmed"></div>
+    <details>
+      <summary>Notes</summary>
+      <p>"Cheaply" means the title, the first user message, the last user message, and a digest of the person's turns. Any assignments wave 1 makes along the way are provisional.</p>
+      <p>The title "Thoughts" gives the agent nothing. The opening message alone puts <code>item_001</code> under TutorTrace, at medium confidence, and flags it for a deeper read.</p>
+      <p>Merging the proposals from all wave 1 analyses gives <code>catset_v1</code>, a draft. The person confirms it with one edit, making "Engelbart import quality" a sub-topic of Engelbart. Everything after this point runs against the result, <code>catset_v2</code>.</p>
+    </details>
+  </div>
+
+  <div class="stage" id="wave2">
+    <h2>Wave 2: shallow pass</h2>
+    <p>Wave 2 runs concurrently over Drive, Gmail, notes, PDFs and the rest, reading metadata and a short snippet against <code>catset_v2</code>, and the person then picks which categories go to the deep pass.</p>
+    <div data-json="j-wave2" data-label="analyses"></div>
+    <details>
+      <summary>Notes</summary>
+      <p>For these two Drive items the snippet is the title, the folder and the first ~300 words.</p>
+      <p><code>item_003</code> was settled by a free signal (its folder), with no model call. It still gets an analysis row, so the report can count it as "looked at, none". Wave 2 examines irrelevant material too, and examining an item doesn't import it.</p>
+      <h3>What the person sees and picks</h3>
+      <table>
+        <tr><th>category</th><th>items</th><th>picked</th></tr>
+        <tr><td>TutorTrace</td><td>1 (item_001)</td><td>yes</td></tr>
+        <tr><td>Engelbart › import quality</td><td>1 (item_002)</td><td>yes</td></tr>
+        <tr><td>none</td><td>1 (item_003)</td><td>—</td></tr>
+      </table>
+    </details>
+  </div>
+
+  <div class="stage" id="deep">
+    <h2>Deep pass</h2>
+    <p>The deep pass reads the whole of each item in a picked category, revises the assignment, and on import inserts or reuses a library row and writes <code>library_item_id</code> back to the source row.</p>
+    <div data-json="j-deep" data-label="analyses (parent_analysis_id points at the shallow row)"></div>
+    <div data-json="j-after" data-label="source_items after the deep pass: only library_item_id changes"></div>
+    <details>
+      <summary>Notes</summary>
+      <p>Compare <code>analysis_001</code> with <code>analysis_004</code>. Both the category set (<code>catset_v0</code> → <code>catset_v2</code>) and the reading depth changed, and <code>category_set_id</code> is what separates the two causes. Here the category itself didn't change, so the rise from 0.55 to 0.93 came from the deeper read.</p>
+      <p>Writing <code>library_item_id</code> back is what keeps a retry from creating a second library row.</p>
+    </details>
+  </div>
+
+</section>
+
+<!-- ============ LIBRARY ============ -->
+<section class="panel" id="library">
+  <h2>Before the deep pass</h2>
+  <p class="muted">No <code>library</code> rows for these items. Stage 0, wave 1 and wave 2 add only <code>analyses</code> rows.</p>
+
+  <h2 style="margin-top:36px">After the deep pass</h2>
+  <p class="muted">One column per new <code>library</code> row; <code>item_003</code> was looked at and never imported.</p>
+  <table class="tx">
+    <tr><th>column</th><th><code>e2a8…11</code></th><th><code>f3b9…22</code></th></tr>
+    <tr><td>id</td><td><code>e2a8…11</code></td><td><code>f3b9…22</code></td></tr>
+    <tr><td>name</td><td>Thoughts</td><td>Untitled document</td></tr>
+    <tr><td>type</td><td>md</td><td>md</td></tr>
+    <tr><td>path</td><td><code>~/.engelbart/assets/md/e2a8…11/Thoughts.md</code></td><td><code>~/.engelbart/assets/md/f3b9…22/Untitled document.md</code></td></tr>
+    <tr><td>project_id</td><td><code>7c1e…</code></td><td><code>7c1e…</code></td></tr>
+    <tr><td>source</td><td>ChatGPT</td><td>Google Docs</td></tr>
+    <tr><td>category</td><td>chat</td><td>document</td></tr>
+    <tr><td>item_date</td><td>2026-09-02</td><td>2026-10-17</td></tr>
+    <tr><td>origin_url</td><td><code>https://chatgpt.com/c/6713f0a2…</code></td><td><code>https://docs.google.com/document/d/1Qx9fK3bT0aLm2…/edit</code></td></tr>
+    <tr><td>place</td><td>null</td><td>My Drive</td></tr>
+    <tr><td>messages</td><td>42</td><td>null</td></tr>
+    <tr><td>tags</td><td><code>{}</code></td><td><code>{}</code></td></tr>
+  </table>
+
+  <h2 style="margin-top:36px">library_categories</h2>
+  <p class="muted">A proposed join table, not in the code: <code>library.project_id</code> is the Engelbart project, so linking a row to one or more categories needs a separate table.</p>
+  <table>
+    <tr><th>library_item_id</th><th>category_id</th><th>category_set_id</th><th>analysis_id</th></tr>
+    <tr><td><code>e2a8…11</code></td><td>project_tutortrace</td><td>catset_v2</td><td>analysis_004</td></tr>
+    <tr><td><code>f3b9…22</code></td><td>project_engelbart_import</td><td>catset_v2</td><td>analysis_005</td></tr>
+  </table>
+
+  <details>
+    <summary>Notes</summary>
+    <p>Library columns are copied from <code>LIBRARY_SCHEMA</code> in <code>src/main/store/db.cjs</code>; unlisted columns are null or their default. The link back to the app goes in <code>origin_url</code>, not <code>url</code>, following the comment in <code>db.cjs</code>.</p>
+
+    <h3>What each source becomes in the library</h3>
+    <p>When the deep pass imports an item, today's import tools decide its library shape:</p>
+    <table>
+      <tr><th>source</th><th>library entry today</th></tr>
+      <tr><td>ChatGPT, Claude</td><td>one Markdown file of the chat's turns, named by title (<code>import_web_chats</code>)</td></tr>
+      <tr><td>Claude Code, Codex</td><td>one Markdown file of what you asked and what the assistant answered (<code>import_chats</code>)</td></tr>
+      <tr><td>Overleaf</td><td>the unzipped project folder, the main <code>.tex</code> saved as a note, and up to three compiled PDFs</td></tr>
+      <tr><td>Google Drive</td><td>Docs as Markdown with pictures, Sheets as a CSV table (first tab only), Slides as text, other files as they are</td></tr>
+      <tr><td>Gmail</td><td>one note per thread, messages in order, attachment names only</td></tr>
+      <tr><td>Apple Notes</td><td>one Markdown note per note, pictures saved</td></tr>
+      <tr><td>PDFs</td><td>the PDF as a file, tagged <code>paper</code> when it looks like one</td></tr>
+      <tr><td>GitHub</td><td>a <code>folder</code> row tagged <code>git</code></td></tr>
+      <tr><td>Granola, Linear, Notion, Evernote</td><td>notes the agent writes itself with <code>add_note</code>; no import-by-id tool yet</td></tr>
+    </table>
+
+    <h3>Rules the example relies on</h3>
+    <ul>
+      <li><b>Only the deep pass writes to the library.</b> Stage 0, wave 1 and wave 2 only add <code>analyses</code> rows.</li>
+      <li><b>Reuse before insert.</b> If <code>library_item_id</code> is already set, or a library row already matches the item's <code>origin_url</code> or file, the deep pass links that row (<code>"op": "reuse"</code>) instead of inserting.</li>
+      <li><b>One library row per item, whatever its categories.</b> An item in two categories gets one row and two <code>library_categories</code> links.</li>
+      <li><b>Unsure stays pending.</b> A deep pass that ends below the confidence threshold sets <code>"decision": "pending"</code>, writes nothing to the library, and the item appears in the "unsure" group.</li>
+      <li><b><code>ground_truth</code> never reaches the agent.</b> The benchmark compares it with the final decision and assignments afterward.</li>
+    </ul>
+
+    <h3>End-of-run report for this example</h3>
+    <table>
+      <tr><th>found</th><th>looked at</th><th>brought in</th><th>skipped</th><th>unsure</th></tr>
+      <tr><td>3</td><td>3</td><td>2</td><td>1 (item_003, none)</td><td>0</td></tr>
+    </table>
+  </details>
+</section>
+
+</main>
+</div>
+
+<!-- ============ DATASET JSON ============ -->
+<script type="application/json" id="j-datasets">
+{ "id": "benchmark_001", "reference_date": "2026-10-17", "person_path": "synthetic/PERSON.md", "description": "David's real digital footprint plus synthetic data about David." }
+</script>
+<script type="application/json" id="j-gtprojects">
+[
+  { "id": "project_engelbart", "dataset_id": "benchmark_001", "name": "Engelbart", "description": "Research notebook that keeps track of where each thought came from: agents, workspaces, onboarding.", "status": "draft" },
+  { "id": "project_engelbart_import", "dataset_id": "benchmark_001", "name": "Engelbart import quality", "description": "Onboarding context import, its category sort and this benchmark.", "status": "draft" },
+  { "id": "project_tutortrace", "dataset_id": "benchmark_001", "name": "TutorTrace", "description": "Dataset and taxonomy of learner behavioral states in AI-assisted programming (UIST '26).", "status": "draft" },
+  { "id": "project_idetrace", "dataset_id": "benchmark_001", "name": "IDETrace", "description": "Dataset for predicting novice programmer behavior in AI-assisted coding (NeurIPS '26).", "status": "draft" },
+  { "id": "project_custody_verification", "dataset_id": "benchmark_001", "name": "Custody of verification", "description": "Research on who keeps responsibility for checking AI-assisted work.", "status": "draft" },
+  { "id": "project_berkeley", "dataset_id": "benchmark_001", "name": "Berkeley research", "description": "Berkeley lab outreach and fellowship collaborations.", "status": "draft" },
+  { "id": "project_spec_design", "dataset_id": "benchmark_001", "name": "Specification design", "description": "Teaching people to specify system behavior for AI coding agents.", "status": "draft" },
+  { "id": "project_none", "dataset_id": "benchmark_001", "name": "None", "description": "Items that belong to no project.", "status": "draft" }
+]
+</script>
+<script type="application/json" id="j-gencats">
+{
+  "id": "catset_v2", "run_id": "run_001", "dataset_id": "benchmark_001",
+  "categories": [
+    { "id": "project_engelbart", "label": "Engelbart", "description": "Research notebook, agents, onboarding.", "origin": "user" },
+    { "id": "project_engelbart_import", "label": "Engelbart import quality", "parent_id": "project_engelbart", "description": "Context import, benchmark, category sort.", "origin": "wave1" },
+    { "id": "project_tutortrace", "label": "TutorTrace", "description": "Learner-behavior dataset and taxonomy (UIST '26).", "origin": "profile" },
+    { "id": "other", "label": "Other / new topic", "origin": "system" }
+  ],
+  "created_at": "2026-10-18T04:06:30Z"
+}
+</script>
+
+<!-- ============ PIPELINE JSON ============ -->
+<script type="application/json" id="j-stage0">
+{
+  "source_items": [
+    {
+      "id": "item_001", "dataset_id": "benchmark_001", "provenance": "authentic", "source": "chatgpt",
+      "source_id": "6713f0a2-41c8-8003-9f1e-2b7d0c55a9e1", "title": "Thoughts", "content_type": "conversation",
+      "created_at": "2026-09-01T10:00:00Z", "modified_at": "2026-09-02T12:00:00Z", "ingested_at": "2026-10-18T04:00:00Z",
+      "path": "authentic/chatgpt/item_001.json", "source_url": "https://chatgpt.com/c/6713f0a2-41c8-8003-9f1e-2b7d0c55a9e1",
+      "content_hash": "sha256:a41f…01", "library_item_id": null,
+      "metadata": { "format": "json", "language": "en", "message_count": 42, "tags": [] },
+      "ground_truth": { "status": "reviewed", "project_ids": ["project_tutortrace"], "notes": "Evaluation design for the guided/dependent help-seeking task." }
+    },
+    {
+      "id": "item_002", "dataset_id": "benchmark_001", "provenance": "authentic", "source": "google-docs",
+      "source_id": "1Qx9fK3bT0aLm2…", "title": "Untitled document", "content_type": "document",
+      "created_at": "2026-10-15T18:20:00Z", "modified_at": "2026-10-17T22:05:00Z", "ingested_at": "2026-10-18T04:00:02Z",
+      "path": "authentic/google-docs/item_002.docx", "source_url": "https://docs.google.com/document/d/1Qx9fK3bT0aLm2…/edit",
+      "content_hash": "sha256:b7c2…02", "library_item_id": null,
+      "metadata": { "format": "docx", "language": "en", "word_count": 2310, "folder": "My Drive", "tags": [] },
+      "ground_truth": { "status": "reviewed", "project_ids": ["project_engelbart_import"], "notes": "Benchmark design draft." }
+    },
+    {
+      "id": "item_003", "dataset_id": "benchmark_001", "provenance": "authentic", "source": "google-docs",
+      "source_id": "1Zr0pL8wQe…", "title": "Lease renewal 2026", "content_type": "document",
+      "created_at": "2026-06-03T09:12:00Z", "modified_at": "2026-06-03T09:40:00Z", "ingested_at": "2026-10-18T04:00:03Z",
+      "path": "authentic/google-docs/item_003.docx", "source_url": "https://docs.google.com/document/d/1Zr0pL8wQe…/edit",
+      "content_hash": "sha256:c9d0…03", "library_item_id": null,
+      "metadata": { "format": "docx", "language": "en", "word_count": 640, "folder": "Personal", "tags": [] },
+      "ground_truth": { "status": "reviewed", "project_ids": [], "notes": "Personal. Belongs to no project." }
+    }
+  ]
+}
+</script>
+<script type="application/json" id="j-catset0">
+{
+  "id": "catset_v0", "run_id": "run_001",
+  "projects": [
+    { "id": "project_engelbart", "label": "Engelbart", "description": "Research notebook, agents, onboarding.", "origin": "user" },
+    { "id": "project_tutortrace", "label": "TutorTrace", "description": "Learner-behavior dataset and taxonomy (UIST '26).", "origin": "profile" }
+  ]
+}
+</script>
+<script type="application/json" id="j-analysis1">
+{
+  "id": "analysis_001", "item_id": "item_001", "run_id": "run_001",
+  "parent_analysis_id": null, "category_set_id": "catset_v0",
+  "content_hash": "sha256:a41f…01", "stage": "wave1_category_discovery", "status": "completed", "error": null,
+  "started_at": "2026-10-18T04:01:00Z", "completed_at": "2026-10-18T04:01:04Z",
+  "model": "REPLACE_WITH_MODEL_ID", "prompt_version": "wave1_discovery_v1",
+  "config": { "sampling_strategy": "user_turns_digest", "max_input_tokens": 800 },
+  "sample": {
+    "metadata_fields_read": ["title", "created_at", "modified_at"],
+    "unit": "message", "index_base": 0, "range_end": "exclusive",
+    "ranges": [ { "start": 0, "end": 1 }, { "start": 40, "end": 41 } ],
+    "digest": "first sentence of each user turn, 400 chars",
+    "units_read": 2, "total_units": 42, "coverage_fraction": 0.047619,
+    "input_snapshot_path": "runs/run_001/inputs/item_001.txt"
+  },
+  "result": {
+    "project_assignments": [
+      { "project_id": "project_tutortrace", "confidence": 0.55,
+        "evidence": [ { "unit": "message", "index": 0, "quote": "ok so for the help-seeking classifier, how do we validate the labels" } ] }
+    ],
+    "proposed_projects": [
+      { "id": "project_engelbart_import", "label": "Engelbart import quality", "description": "Context import, benchmark, category sort.", "evidence_item_ids": ["item_017", "item_022"] }
+    ],
+    "summary": "Validating labels for a help-seeking classifier.",
+    "needs_deeper_read": true
+  },
+  "usage": { "input_tokens": 620, "output_tokens": 140, "cost_usd": null }
+}
+</script>
+<script type="application/json" id="j-catset2">
+{
+  "id": "catset_v2", "run_id": "run_001",
+  "confirmed_at": "2026-10-18T04:06:30Z",
+  "projects": [
+    { "id": "project_engelbart", "label": "Engelbart", "description": "Research notebook, agents, onboarding.", "origin": "user" },
+    { "id": "project_engelbart_import", "label": "Engelbart import quality", "parent_id": "project_engelbart", "description": "Context import, benchmark, category sort.", "origin": "wave1" },
+    { "id": "project_tutortrace", "label": "TutorTrace", "description": "Learner-behavior dataset and taxonomy (UIST '26).", "origin": "profile" },
+    { "id": "other", "label": "Other / new topic", "origin": "system" }
+  ]
+}
+</script>
+<script type="application/json" id="j-wave2">
+[
+  {
+    "id": "analysis_002", "item_id": "item_002", "run_id": "run_001",
+    "parent_analysis_id": null, "category_set_id": "catset_v2",
+    "content_hash": "sha256:b7c2…02", "stage": "wave2_shallow", "status": "completed", "error": null,
+    "started_at": "2026-10-18T04:07:10Z", "completed_at": "2026-10-18T04:07:13Z",
+    "model": "REPLACE_WITH_MODEL_ID", "prompt_version": "wave2_shallow_v1",
+    "config": { "sampling_strategy": "head_words", "max_input_tokens": 600 },
+    "sample": {
+      "metadata_fields_read": ["title", "folder", "modified_at"],
+      "unit": "word", "index_base": 0, "range_end": "exclusive",
+      "ranges": [ { "start": 0, "end": 300 } ],
+      "units_read": 300, "total_units": 2310, "coverage_fraction": 0.12987,
+      "input_snapshot_path": "runs/run_001/inputs/item_002.txt"
+    },
+    "result": {
+      "project_assignments": [
+        { "project_id": "project_engelbart_import", "confidence": 0.7,
+          "evidence": [ { "unit": "word", "index": 41, "quote": "personas: founder with many projects, single-project user" } ] }
+      ],
+      "proposed_projects": [],
+      "summary": "Draft plan for a benchmark of context import.",
+      "needs_deeper_read": true
+    },
+    "usage": { "input_tokens": 480, "output_tokens": 110, "cost_usd": null }
+  },
+  {
+    "id": "analysis_003", "item_id": "item_003", "run_id": "run_001",
+    "parent_analysis_id": null, "category_set_id": "catset_v2",
+    "content_hash": "sha256:c9d0…03", "stage": "wave2_shallow", "status": "completed", "error": null,
+    "started_at": "2026-10-18T04:07:10Z", "completed_at": "2026-10-18T04:07:11Z",
+    "model": null, "prompt_version": "wave2_free_signals_v1",
+    "config": { "sampling_strategy": "metadata_only" },
+    "sample": {
+      "metadata_fields_read": ["title", "folder"],
+      "unit": "word", "units_read": 0, "total_units": 640, "coverage_fraction": 0.0,
+      "input_snapshot_path": null
+    },
+    "result": {
+      "project_assignments": [],
+      "proposed_projects": [],
+      "summary": "Personal folder, lease document.",
+      "decided_by": "free_signal: folder=Personal",
+      "needs_deeper_read": false
+    },
+    "usage": { "input_tokens": 0, "output_tokens": 0, "cost_usd": null }
+  }
+]
+</script>
+<script type="application/json" id="j-deep">
+[
+  {
+    "id": "analysis_004", "item_id": "item_001", "run_id": "run_001",
+    "parent_analysis_id": "analysis_001", "category_set_id": "catset_v2",
+    "content_hash": "sha256:a41f…01", "stage": "deep", "status": "completed", "error": null,
+    "started_at": "2026-10-18T04:09:00Z", "completed_at": "2026-10-18T04:09:21Z",
+    "model": "REPLACE_WITH_MODEL_ID", "prompt_version": "deep_v1",
+    "config": { "sampling_strategy": "full", "max_input_tokens": 24000 },
+    "sample": {
+      "metadata_fields_read": ["title", "created_at", "modified_at"],
+      "unit": "message", "index_base": 0, "range_end": "exclusive",
+      "ranges": [ { "start": 0, "end": 42 } ],
+      "units_read": 42, "total_units": 42, "coverage_fraction": 1.0,
+      "input_snapshot_path": "runs/run_001/inputs/item_001.deep.txt"
+    },
+    "result": {
+      "project_assignments": [
+        { "project_id": "project_tutortrace", "confidence": 0.93,
+          "evidence": [
+            { "unit": "message", "index": 0, "quote": "ok so for the help-seeking classifier, how do we validate the labels" },
+            { "unit": "message", "index": 21, "quote": "guided vs dependent, held out by student not by session" }
+          ] }
+      ],
+      "proposed_projects": [],
+      "summary": "Label validation and held-out split for TutorTrace's guided/dependent task.",
+      "needs_deeper_read": false,
+      "decision": "import",
+      "library_action": { "op": "insert", "library_item_id": "e2a8…11" }
+    },
+    "usage": { "input_tokens": 9800, "output_tokens": 260, "cost_usd": null }
+  },
+  {
+    "id": "analysis_005", "item_id": "item_002", "run_id": "run_001",
+    "parent_analysis_id": "analysis_002", "category_set_id": "catset_v2",
+    "content_hash": "sha256:b7c2…02", "stage": "deep", "status": "completed", "error": null,
+    "started_at": "2026-10-18T04:09:00Z", "completed_at": "2026-10-18T04:09:14Z",
+    "model": "REPLACE_WITH_MODEL_ID", "prompt_version": "deep_v1",
+    "config": { "sampling_strategy": "full", "max_input_tokens": 24000 },
+    "sample": {
+      "metadata_fields_read": ["title", "folder", "modified_at"],
+      "unit": "word", "index_base": 0, "range_end": "exclusive",
+      "ranges": [ { "start": 0, "end": 2310 } ],
+      "units_read": 2310, "total_units": 2310, "coverage_fraction": 1.0,
+      "input_snapshot_path": "runs/run_001/inputs/item_002.deep.txt"
+    },
+    "result": {
+      "project_assignments": [
+        { "project_id": "project_engelbart_import", "confidence": 0.95,
+          "evidence": [ { "unit": "word", "index": 1204, "quote": "score omissions, commissions and duplicates per persona" } ] }
+      ],
+      "proposed_projects": [],
+      "summary": "Benchmark design: personas, scoring and synthetic data.",
+      "needs_deeper_read": false,
+      "decision": "import",
+      "library_action": { "op": "insert", "library_item_id": "f3b9…22" }
+    },
+    "usage": { "input_tokens": 3900, "output_tokens": 210, "cost_usd": null }
+  }
+]
+</script>
+<script type="application/json" id="j-after">
+[
+  { "id": "item_001", "library_item_id": "e2a8…11" },
+  { "id": "item_002", "library_item_id": "f3b9…22" },
+  { "id": "item_003", "library_item_id": null }
+]
+</script>
+<script>
+const SOURCES = [
+  // Notes
+  { id: "obsidian", label: "Obsidian", group: "Notes", mix: "auth", checked: "code",
+    stored: "Vault folder copied whole: <code>.md</code> notes, attachments (png, pdf), and the <code>.obsidian/</code> config",
+    item: "one <code>.md</code> note", unit: "line / word",
+    route: "<code>list_note_files</code> over the vault folder, then <code>import_note_files</code>. Only <code>.md</code>, <code>.markdown</code>, <code>.txt</code> are listed.",
+    hard: ["Notes in the default vault that are just welcome or daily notes (noise)", "Wikilinks to notes outside the date window"],
+    s: { prov: "authentic", source_id: "Engelbart/Agent handoff protocol.md", title: "Agent handoff protocol", content_type: "note",
+      created_at: "2026-08-12T16:03:00Z", modified_at: "2026-09-30T21:44:00Z",
+      path: "authentic/obsidian/mathetic/Engelbart/Agent handoff protocol.md",
+      source_url: "obsidian://open?vault=mathetic&file=Engelbart%2FAgent%20handoff%20protocol",
+      metadata: { format: "md", language: "en", vault: "mathetic", folder: "Engelbart", word_count: 1840, frontmatter_tags: ["spec", "agents"], wikilinks_out: 12, attachments: [] },
+      gt: { status: "reviewed", project_ids: ["project_engelbart"], notes: "Spec for agent handoffs." } } },
+
+  { id: "notion", label: "Notion", group: "Notes", mix: "syn", checked: "code",
+    stored: "Notion's \"Markdown &amp; CSV\" export: one <code>.md</code> per page (id suffix in the filename), databases as <code>.csv</code>, folders mirroring the page tree",
+    item: "one page (a database row is also a page)", unit: "block / word",
+    route: "Official MCP server, read tools only: <code>notion-search</code> plus <code>notion-list-recent / shared / private / favorite-pages</code> and <code>notion-fetch</code>. No full workspace walk. The pre-run health check skips Notion (no <code>reads</code> entry in <code>connect-sources.cjs</code>).",
+    hard: ["An old page deep in the tree that is not recent, shared or favorited", "Database rows that only make sense with the database's columns"],
+    s: { prov: "synthetic", modeled_on: "authentic/granola/item_granola_001", source_id: "1a7f3c2e-9b0d-4e51-a8c6-77e2d0f4b913", title: "Weekly sync — Oct 6", content_type: "page",
+      created_at: "2026-10-06T17:00:00Z", modified_at: "2026-10-06T18:12:00Z",
+      path: "synthetic/notion/Team wiki/Meetings/Weekly sync — Oct 6 1a7f3c2e9b0d4e51a8c677e2d0f4b913.md",
+      source_url: "https://www.notion.so/Weekly-sync-Oct-6-1a7f3c2e9b0d4e51a8c677e2d0f4b913",
+      metadata: { format: "md", language: "en", workspace: "synthetic person's workspace", parent_path: ["Team wiki", "Meetings"], is_database_row: true, database: "Meetings", properties: { Date: "2026-10-06", Attendees: ["Collaborator A", "Collaborator B"] }, word_count: 620 },
+      gt: { status: "unlabeled", project_ids: [], notes: "" } } },
+
+  { id: "apple-notes", label: "Apple Notes", group: "Notes", mix: "auth", checked: "code",
+    stored: "No native export. One <code>.html</code> body per note (what macOS Automation returns), plus an <code>_attachments/</code> folder for pictures",
+    item: "one note", unit: "line / word",
+    route: "<code>apple_notes_folders</code> → <code>apple_notes_list</code> (500 default) → <code>import_apple_notes</code> (200 per call). HTML converted to Markdown, pictures saved, Recently Deleted excluded. Locked and pinned notes aren't handled.",
+    hard: ["A pinned reading list last edited more than a year ago", "A locked note", "Folders like Recipes or Shopping"],
+    s: { prov: "authentic", source_id: "x-coredata://5E1D…/ICNote/p1423", title: "reading list", content_type: "note",
+      created_at: "2025-03-11T02:20:00Z", modified_at: "2025-09-02T19:05:00Z",
+      path: "authentic/apple-notes/iCloud/Notes/reading list.html", source_url: null,
+      metadata: { format: "html", language: "en", account: "iCloud", folder: "Notes", pinned: true, locked: false, word_count: 210, attachments: [ { type: "image/png", path: "authentic/apple-notes/iCloud/Notes/reading list_attachments/IMG_0412.png" } ] },
+      gt: { status: "reviewed", project_ids: ["project_engelbart"], notes: "Tools-for-thought reading list. Outside the one-year window but pinned: tests the cutoff bypass." } } },
+
+  { id: "onenote", label: "OneNote", group: "Notes", mix: "syn", checked: "unchecked",
+    stored: "One <code>.html</code> per page, the shape OneNote's API returns page content in, under notebook/section folders",
+    item: "one page", unit: "word",
+    route: "On the onboarding app list. I haven't seen which reader handles it.",
+    hard: ["Subpages (page_level 1) that only make sense under their parent page"],
+    s: { prov: "synthetic", modeled_on: "authentic/obsidian/item_obsidian_014", source_id: "0-8c1e5f0d2b7a4a19b3e0d6f1c2a9e744!1-3F2A…", title: "Pilot session notes", content_type: "page",
+      created_at: "2026-04-22T14:10:00Z", modified_at: "2026-04-23T09:31:00Z",
+      path: "synthetic/onenote/Lab notebook/Pilot study/Pilot session notes.html", source_url: null,
+      metadata: { format: "html", language: "en", notebook: "Lab notebook", section: "Pilot study", page_level: 0, word_count: 480 },
+      gt: { status: "unlabeled", project_ids: [], notes: "" } } },
+
+  { id: "google-docs", label: "Google Drive / Docs", group: "Notes", mix: "both", checked: "code",
+    stored: "Docs as <code>.docx</code>, Sheets as <code>.xlsx</code> (every tab), Slides as <code>.pptx</code>, other files as they are, in folders mirroring Drive (My Drive, Shared with me)",
+    item: "one file", unit: "word (Docs), row (Sheets), slide (Slides)",
+    route: "No list tool today. The agent reads Drive search and folder pages with <code>browser_*</code> tools, then <code>import_google_files</code> by <code>{id, kind}</code>: Docs → Markdown, Sheets → first tab only as CSV, Slides → text. Planned: a paged <code>drive_files</code> list with a count.",
+    hard: ["Multi-tab sheet", "\"Untitled document\" / \"Doc1\"", "Files in Shared with me", "A second Google account (<code>/u/1</code>)"],
+    s: { prov: "authentic", source_id: "1kV0x7bQnR3…", title: "Berkeley labs + contacts", content_type: "spreadsheet",
+      created_at: "2026-08-26T20:14:00Z", modified_at: "2026-10-09T03:02:00Z",
+      path: "authentic/google-docs/u0/My Drive/Berkeley labs + contacts.xlsx",
+      source_url: "https://docs.google.com/spreadsheets/d/1kV0x7bQnR3…/edit",
+      metadata: { format: "xlsx", kind: "sheet", mime_type: "application/vnd.google-apps.spreadsheet", account: "u/0", folder: "My Drive", owner: "me", shared_with_me: false, tabs: ["Labs", "Contacts", "Status"], rows_total: 212 },
+      gt: { status: "reviewed", project_ids: ["project_berkeley"], notes: "Multi-tab sheet. Today's import keeps only the first tab." } } },
+
+  { id: "evernote", label: "Evernote", group: "Notes", mix: "syn", checked: "code",
+    stored: "One <code>.enex</code> (XML) file per notebook, notes inside it with their resources",
+    item: "one note inside a notebook's <code>.enex</code>", unit: "word",
+    route: "Official MCP server (beta), search tools only: <code>search_notebooks</code>, <code>search_notes</code>, <code>semantic_search</code>, <code>search_tags</code>, <code>search_spaces</code>. No list. Web fallback kept.",
+    hard: ["Notes only reachable by search", "Personal notebooks mixed with work"],
+    s: { prov: "synthetic", modeled_on: null, source_id: "c3f1a2b4-7d0e-4f9a-b2c1-08e5d6a7f390", title: "Sheet-pan gnocchi", content_type: "note",
+      created_at: "2026-02-14T01:40:00Z", modified_at: "2026-02-14T01:52:00Z",
+      path: "synthetic/evernote/Personal.enex", source_url: null,
+      metadata: { format: "enex", language: "en", notebook: "Personal", note_index: 7, tags: ["recipes"], resources: 1, word_count: 180 },
+      gt: { status: "reviewed", project_ids: [], notes: "Personal clutter." } } },
+
+  // Meetings
+  { id: "granola", label: "Granola", group: "Meetings", mix: "auth", checked: "code",
+    stored: "One <code>.md</code> per meeting (Granola's notes) plus a <code>.transcript.txt</code> beside it",
+    item: "one meeting (notes + transcript)", unit: "transcript line",
+    route: "Official MCP server: <code>list_meetings</code>, <code>list_meeting_folders</code>, <code>get_meetings</code>, transcripts. The skill lists meetings in the plan's time range; the agent writes each as a note with <code>add_note</code>. No import-by-id tool, no counts.",
+    hard: ["Short meetings with generic titles (\"Sync\")", "Onboarding calls that mention several projects"],
+    s: { prov: "authentic", source_id: "not_8Gq2…", title: "Context import strategy session", content_type: "meeting",
+      created_at: "2026-10-17T19:00:00Z", modified_at: "2026-10-17T19:41:00Z",
+      path: "authentic/granola/2026-10-17 Context import strategy session.md", source_url: null,
+      metadata: { format: "md", language: "en", transcript_path: "authentic/granola/2026-10-17 Context import strategy session.transcript.txt", folder: null, attendees_count: 2, duration_min: 38, has_ai_notes: true },
+      gt: { status: "reviewed", project_ids: ["project_engelbart_import"], notes: "" } } },
+
+  { id: "google-meet", label: "Google Meet", group: "Meetings", mix: "auth", checked: "code",
+    stored: "Transcript Google Docs as <code>.docx</code> from the Meet Recordings folder; recordings (<code>.mp4</code>) optional",
+    item: "one meeting transcript", unit: "word / speaker turn",
+    route: "Not a separate reader: transcripts are Google Docs. The Drive skill points the agent at Drive searches like <code>q=Transcript</code> or the Meet Recordings folder, then <code>import_google_files</code>.",
+    hard: ["Transcript and Gemini \"notes by Gemini\" doc for the same meeting (near-duplicates)"],
+    s: { prov: "authentic", source_id: "1Tm4Rr9…", title: "Engelbart sync - 2026/09/03 14:02 PDT - Transcript", content_type: "transcript",
+      created_at: "2026-09-03T21:47:00Z", modified_at: "2026-09-03T21:48:00Z",
+      path: "authentic/google-meet/u0/Meet Recordings/Engelbart sync - 2026-09-03 14-02 PDT - Transcript.docx",
+      source_url: "https://docs.google.com/document/d/1Tm4Rr9…/edit",
+      metadata: { format: "docx", kind: "doc", account: "u/0", folder: "Meet Recordings", recording_path: null, speakers: 3, word_count: 7400 },
+      gt: { status: "reviewed", project_ids: ["project_engelbart"], notes: "" } } },
+
+  { id: "zoom", label: "Zoom", group: "Meetings", mix: "syn", checked: "unchecked",
+    stored: "Zoom's local recording folder per meeting (<code>~/Documents/Zoom/&lt;date time topic&gt;/</code>): <code>.m4a</code>/<code>.mp4</code> and a <code>.vtt</code> or <code>closed_caption.txt</code> transcript",
+    item: "one meeting folder", unit: "caption cue",
+    route: "On the onboarding app list. I haven't seen which reader handles it.",
+    hard: ["Audio-only folder with no transcript"],
+    s: { prov: "synthetic", modeled_on: "authentic/google-meet/item_google-meet_003", source_id: "2026-05-12 10.00.03 Advisor 1-1", title: "Advisor 1-1", content_type: "transcript",
+      created_at: "2026-05-12T17:00:03Z", modified_at: "2026-05-12T17:43:10Z",
+      path: "synthetic/zoom/2026-05-12 10.00.03 Advisor 1-1/closed_caption.vtt", source_url: null,
+      metadata: { format: "vtt", language: "en", folder: "2026-05-12 10.00.03 Advisor 1-1", media: ["audio1849302217.m4a"], duration_min: 42, cues: 611 },
+      gt: { status: "unlabeled", project_ids: [], notes: "" } } },
+
+  // Email
+  { id: "gmail", label: "Gmail", group: "Email", mix: "both", checked: "code",
+    stored: "One folder per thread with one <code>.eml</code> per message and an <code>attachments/</code> folder (or an <code>.mbox</code> from Takeout), per account",
+    item: "one thread", unit: "message",
+    route: "<code>gmail_accounts</code> (each <code>/mail/u/N</code>) → <code>gmail_search</code> with agent-written queries → <code>import_gmail_threads</code> from the print view. One note per thread, attachment names only, capped per call and per session. Planned: bulk listing by label or date with counts.",
+    hard: ["Thread with attachments", "Second account", "Newsletters and receipts"],
+    s: { prov: "authentic", source_id: "18f2a9c4d0e7b3a1", title: "Re: IRB amendment for the delayed-transfer study", content_type: "email_thread",
+      created_at: "2026-08-05T15:12:00Z", modified_at: "2026-08-11T13:30:00Z",
+      path: "authentic/gmail/u1/18f2a9c4d0e7b3a1/", source_url: "https://mail.google.com/mail/u/1/#all/18f2a9c4d0e7b3a1",
+      metadata: { format: "eml", language: "en", account: "u/1", messages: ["01.eml", "02.eml", "03.eml", "04.eml"], labels: ["INBOX", "IMPORTANT"], participants_count: 3, attachments: [ { name: "Protocol_v3.0.pdf", path: "authentic/gmail/u1/18f2a9c4d0e7b3a1/attachments/Protocol_v3.0.pdf" } ] },
+      gt: { status: "reviewed", project_ids: ["project_custody_verification"], notes: "Today's importer keeps the attachment name only." } } },
+
+  // AI chats
+  { id: "chatgpt", label: "ChatGPT", group: "AI chats", mix: "auth", checked: "code",
+    stored: "Official export (<code>conversations.json</code>, all chats in one file) split into one <code>.json</code> per conversation; scraped stopgap until the export arrives",
+    item: "one conversation", unit: "message",
+    route: "<code>web_chats</code> calls the site's own endpoints from the hidden signed-in page: 100 per page, cap 2,000, plus a separate walk of each Project. <code>web_chat_read</code> for 6,000 characters; <code>import_web_chats</code> saves Markdown.",
+    hard: ["Vague title (\"Thoughts\", \"New chat\")", "Chat inside a ChatGPT Project", "Relevant passage buried in a long unrelated chat"],
+    s: { prov: "authentic", source_id: "6713f0a2-41c8-8003-9f1e-2b7d0c55a9e1", title: "Thoughts", content_type: "conversation",
+      created_at: "2026-09-01T10:00:00Z", modified_at: "2026-09-02T12:00:00Z",
+      path: "authentic/chatgpt/conversations/6713f0a2-41c8-8003-9f1e-2b7d0c55a9e1.json",
+      source_url: "https://chatgpt.com/c/6713f0a2-41c8-8003-9f1e-2b7d0c55a9e1",
+      metadata: { format: "json", language: "en", export_file: "exports/chatgpt/conversations.json", stopgap: true, chatgpt_project: "TutorTrace", message_count: 42 },
+      gt: { status: "reviewed", project_ids: ["project_tutortrace"], notes: "Vague title, and it sits inside a Project, so the main list leaves it out." } } },
+
+  { id: "claude", label: "Claude", group: "AI chats", mix: "auth", checked: "code",
+    stored: "Official Anthropic export (<code>conversations.json</code>, <code>projects.json</code>) split into one <code>.json</code> per conversation",
+    item: "one conversation", unit: "message (your turns; tool output left out)",
+    route: "<code>web_chats</code>: finds the organization, lists <code>chat_conversations</code> 100 at a time tagged with project names, cap 2,000. Full message tree includes tool output, so snippets are noisier.",
+    hard: ["Chat with attached documents and artifacts", "Project chats"],
+    s: { prov: "authentic", source_id: "9d1c4e7a-2b3f-4a60-8e15-5c0b7d9f2a61", title: "Discover reading guide format", content_type: "conversation",
+      created_at: "2026-10-02T06:11:00Z", modified_at: "2026-10-02T07:40:00Z",
+      path: "authentic/claude/conversations/9d1c4e7a-2b3f-4a60-8e15-5c0b7d9f2a61.json",
+      source_url: "https://claude.ai/chat/9d1c4e7a-2b3f-4a60-8e15-5c0b7d9f2a61",
+      metadata: { format: "json", language: "en", export_file: "exports/claude/conversations.json", stopgap: false, project: "Engelbart", message_count: 18, attachments: 2, artifacts: 1 },
+      gt: { status: "reviewed", project_ids: ["project_engelbart"], notes: "" } } },
+
+  { id: "claude-code", label: "Claude Code", group: "AI chats", mix: "auth", checked: "code",
+    stored: "Session files copied as they are: <code>~/.claude/projects/&lt;folder&gt;/&lt;session&gt;.jsonl</code>",
+    item: "one session", unit: "user turn",
+    route: "<code>list_chats</code> / <code>read_chat</code> / <code>import_chats</code> read the files directly. Title from Claude Code's own title, then summary, then first prompt. Sidechains and <code>entrypoint sdk-cli</code> runs are flagged <code>automated</code> and skipped by default (the 836 skipped).",
+    hard: ["Automated-looking session that holds real work", "Long pasted logs swamping the snippet"],
+    s: { prov: "authentic", source_id: "4b0e9c2d-7f1a-4e83-9a6c-1d2e3f405a7b", title: "Windows-port catch-up to 0.1.19", content_type: "conversation",
+      created_at: "2026-10-16T02:15:00Z", modified_at: "2026-10-16T05:58:00Z",
+      path: "authentic/claude-code/-Users-divadbaroon-Desktop-engelbart-canvas/4b0e9c2d-7f1a-4e83-9a6c-1d2e3f405a7b.jsonl", source_url: null,
+      metadata: { format: "jsonl", language: "en", cwd: "/Users/divadbaroon/Desktop/engelbart-canvas", git_branch: "windows-port", entrypoint: "cli", is_sidechain: false, automated: false, user_turns: 23, lines: 1412 },
+      gt: { status: "reviewed", project_ids: ["project_engelbart"], notes: "Folder alone decides the project." } } },
+
+  { id: "codex", label: "Codex", group: "AI chats", mix: "auth", checked: "code",
+    stored: "Session files copied as they are: <code>~/.codex/sessions/YYYY/MM/DD/rollout-*.jsonl</code>",
+    item: "one session", unit: "user turn",
+    route: "Same readers as Claude Code. Injected pseudo-messages (environment context, permissions, subagent notices) are stripped. <code>codex exec</code> runs count as automated.",
+    hard: ["<code>codex exec</code> run that did real work", "Trivial one-line sessions"],
+    s: { prov: "authentic", source_id: "rollout-2026-09-14T22-10-05-0199a3c1-5e2f-7b40-9d18-6a0c2e4f8b13", title: "add the brainstormPrompt flow to the setup pages", content_type: "conversation",
+      created_at: "2026-09-15T05:10:05Z", modified_at: "2026-09-15T05:41:22Z",
+      path: "authentic/codex/2026/09/14/rollout-2026-09-14T22-10-05-0199a3c1-5e2f-7b40-9d18-6a0c2e4f8b13.jsonl", source_url: null,
+      metadata: { format: "jsonl", language: "en", cwd: "/Users/divadbaroon/Projects/berkeley-research", originator: "codex_exec", automated: true, user_turns: 1, lines: 388 },
+      gt: { status: "reviewed", project_ids: ["project_berkeley"], notes: "Flagged automated, but holds real work." } } },
+
+  { id: "cursor", label: "Cursor", group: "AI chats", mix: "syn", checked: "unchecked",
+    stored: "Cursor keeps chats in SQLite (<code>workspaceStorage/&lt;hash&gt;/state.vscdb</code>, as far as I know). For the benchmark: one <code>.json</code> per chat extracted from it, with the source DB noted",
+    item: "one chat", unit: "message",
+    route: "On the onboarding app list. I haven't seen which reader handles it.",
+    hard: ["Chat whose workspace folder no longer exists"],
+    s: { prov: "synthetic", modeled_on: "authentic/claude-code/item_claude-code_041", source_id: "composer:7e2c91b0-4d3a-4f58-a0e6-2b9c1d7f5e04", title: "Fix telemetry segmenter off-by-one", content_type: "conversation",
+      created_at: "2026-03-03T23:02:00Z", modified_at: "2026-03-03T23:27:00Z",
+      path: "synthetic/cursor/workspaceStorage/a91f…/composer-7e2c91b0.json", source_url: null,
+      metadata: { format: "json", language: "en", origin_db: "state.vscdb (SQLite)", workspace: "~/Projects/telemetry-pipeline", message_count: 14 },
+      gt: { status: "unlabeled", project_ids: [], notes: "" } } },
+
+  { id: "grok", label: "Grok", group: "AI chats", mix: "syn", checked: "unchecked",
+    stored: "One <code>.json</code> per conversation, in the shape of Grok's account data export (unverified)",
+    item: "one conversation", unit: "message",
+    route: "On the onboarding app list. I haven't seen which reader handles it.",
+    hard: [],
+    s: { prov: "synthetic", modeled_on: "authentic/chatgpt/item_chatgpt_212", source_id: "b04d7e21-93fa-4c6b-8e52-f1a0c3d9e7b8", title: "is a 0.72 AUROC good", content_type: "conversation",
+      created_at: "2026-07-28T04:55:00Z", modified_at: "2026-07-28T05:01:00Z",
+      path: "synthetic/grok/conversations/b04d7e21-93fa-4c6b-8e52-f1a0c3d9e7b8.json", source_url: null,
+      metadata: { format: "json", language: "en", message_count: 6 },
+      gt: { status: "unlabeled", project_ids: [], notes: "" } } },
+
+  { id: "gemini", label: "Gemini", group: "AI chats", mix: "syn", checked: "unchecked",
+    stored: "Google Takeout's \"My Activity → Gemini Apps\" file (JSON), one entry per prompt and reply (unverified)",
+    item: "one activity entry (Takeout doesn't group by conversation)", unit: "entry",
+    route: "On the onboarding app list. I haven't seen which reader handles it.",
+    hard: ["No conversation grouping in the export, so one chat becomes many entries"],
+    s: { prov: "synthetic", modeled_on: null, source_id: "takeout:gemini:2026-04-02T18:21:44Z", title: "Summarize this paper on affective computing", content_type: "conversation",
+      created_at: "2026-04-02T18:21:44Z", modified_at: "2026-04-02T18:21:44Z",
+      path: "synthetic/gemini/MyActivity.json", source_url: null,
+      metadata: { format: "json", language: "en", origin: "Google Takeout, My Activity, Gemini Apps", account: "u/0", entry_index: 311 },
+      gt: { status: "unlabeled", project_ids: [], notes: "" } } },
+
+  { id: "perplexity", label: "Perplexity", group: "AI chats", mix: "syn", checked: "unchecked",
+    stored: "One <code>.md</code> per thread with its cited sources (I don't know of a bulk export)",
+    item: "one thread", unit: "turn",
+    route: "On the onboarding app list. I haven't seen which reader handles it.",
+    hard: [],
+    s: { prov: "synthetic", modeled_on: null, source_id: "cheapest-flights-sfo-to-iad-thanksgiving-QvL8…", title: "cheapest flights SFO to IAD thanksgiving", content_type: "conversation",
+      created_at: "2026-10-09T16:40:00Z", modified_at: "2026-10-09T16:44:00Z",
+      path: "synthetic/perplexity/threads/cheapest-flights-sfo-to-iad-thanksgiving.md", source_url: null,
+      metadata: { format: "md", language: "en", turns: 3, sources_cited: 8 },
+      gt: { status: "reviewed", project_ids: [], notes: "Personal clutter." } } },
+
+  // AI chats (memory)
+  { id: "assistant-memory", label: "Assistant memory", group: "AI chats", mix: "both", checked: "code",
+    stored: "One <code>.md</code> per assistant: saved memory entries plus custom instructions, read from the settings page",
+    item: "one assistant's memory set", unit: "memory entry",
+    route: "Connect builds <code>MEMORY.md</code> from what the assistants remember. The beta flow sends the profile prompt and deletes the chat; the benchmark reads settings pages instead and sends nothing.",
+    hard: ["One item spanning several projects"],
+    s: { prov: "authentic", source_id: "chatgpt:memory", title: "ChatGPT saved memories and custom instructions", content_type: "memory",
+      created_at: null, modified_at: "2026-10-17T00:00:00Z",
+      path: "authentic/assistant-memory/chatgpt.md", source_url: "https://chatgpt.com/#settings/Personalization",
+      metadata: { format: "md", language: "en", assistant: "chatgpt", memory_entries: 37, custom_instructions: true, read_from: "settings page, no prompt sent" },
+      gt: { status: "reviewed", project_ids: ["project_engelbart", "project_tutortrace", "project_idetrace"], notes: "One row, several projects." } } },
+
+  // Papers
+  { id: "zotero", label: "Zotero", group: "Papers", mix: "auth", checked: "code",
+    stored: "Per item: <code>item.bib</code> (BibTeX), the attached PDF, and notes/annotations; <code>library.bib</code> per library; group libraries in their own folders",
+    item: "one Zotero item with its attachments", unit: "page (PDF) / field (metadata)",
+    route: "Synced local mirror at <code>~/.engelbart/.zotero</code>, group libraries included. <code>zotero_collections</code>, <code>zotero_items</code> (500 default, 2,000 max), <code>import_zotero_items</code> (300 per call). PDFs fetched on demand. Closest to complete.",
+    hard: ["Same paper in Zotero, Downloads and Drive", "Item with no PDF attached"],
+    s: { prov: "authentic", source_id: "groups/6141877/items/ABCD1234", title: "Developing an artificial intelligence literacy framework: Evaluation of a literacy course for senior secondary students using a project-based learning approach", content_type: "paper",
+      created_at: "2026-07-02T18:30:00Z", modified_at: "2026-07-02T18:31:00Z",
+      path: "authentic/zotero/groups/6141877/ABCD1234/", source_url: "https://www.zotero.org/groups/6141877/items/ABCD1234",
+      metadata: { format: "bibtex", language: "en", library: "group 6141877 (Sophia1)", item_type: "journalArticle", year: 2024, collections: ["AI literacy"], files: ["item.bib", "attachment.pdf", "notes.md"], doi: null, annotations: 4 },
+      gt: { status: "unlabeled", project_ids: [], notes: "" } } },
+
+  { id: "overleaf", label: "Overleaf", group: "Papers", mix: "auth", checked: "code",
+    stored: "LaTeX project folder from the project zip: <code>.tex</code> files, <code>.bib</code>, figures, styles, plus the compiled PDF",
+    item: "one project", unit: "line of <code>.tex</code>",
+    route: "<code>overleaf_projects</code> scrapes the project list (<code>ol-prefetchedProjectsBlob</code>, cap 500). <code>import_overleaf_projects</code> downloads <code>/project/&lt;id&gt;/download/zip</code> (20 per call), saves the <code>.tex</code> with <code>\\documentclass</code> (main.tex first) as a note and up to three PDFs. Needs approval.",
+    hard: ["Archived project", "Several near-identical copies of the same paper (camera-ready, copy)"],
+    s: { prov: "authentic", source_id: "66a1f0c2e4b9d83a7c5e1f20", title: "[UIST '26] Camera Ready TutorTrace", content_type: "latex_project",
+      created_at: "2026-07-22T03:10:00Z", modified_at: "2026-08-02T06:48:00Z",
+      path: "authentic/overleaf/66a1f0c2e4b9d83a7c5e1f20/", source_url: "https://www.overleaf.com/project/66a1f0c2e4b9d83a7c5e1f20",
+      metadata: { format: "latex", main_file: "main.tex", file_count: 46, tex_files: ["main.tex", "sections/intro.tex", "sections/taxonomy.tex", "sections/eval.tex"], bib_files: ["refs.bib"], compiled_pdf: "output.pdf", owner: "me", archived: false },
+      gt: { status: "reviewed", project_ids: ["project_tutortrace"], notes: "" } } },
+
+  { id: "pdfs", label: "PDFs on the Mac", group: "Papers", mix: "both", checked: "code",
+    stored: "The <code>.pdf</code> copied as it is, under folders mirroring where it was found (Downloads, Desktop, iCloud…)",
+    item: "one PDF file", unit: "page",
+    route: "<code>list_pdfs</code> (300 default, 1,000 max) with a paper / book / personal guess and an optional first-pages check (80 max), then <code>import_pdfs</code> (200 per call), tagged <code>paper</code>. No truncation signal.",
+    hard: ["Four copies of the same paper (<code>-2</code>, <code>-3</code>, <code>-4</code>)", "Receipts and statements", "Old but central paper"],
+    s: { prov: "authentic", source_id: "~/Downloads/_UIST_26___Camera_Ready__TutorTrace__…__Copy_-3.pdf", title: "TutorTrace: A Dataset and Taxonomy for Classifying Learner Behavioral States during AI-Assisted Programming Education", content_type: "pdf",
+      created_at: "2026-10-05T06:28:00Z", modified_at: "2026-10-05T06:28:00Z",
+      path: "authentic/pdfs/Downloads/_UIST_26___Camera_Ready__TutorTrace__…__Copy_-3.pdf", source_url: null,
+      metadata: { format: "pdf", folder: "~/Downloads", size_bytes: 2841733, pages: 14, kind_guess: "paper", pdf_title: "TutorTrace: A Dataset and Taxonomy for Classifying Learner Behavioral States during AI-Assisted Programming Education" },
+      gt: { status: "reviewed", project_ids: ["project_tutortrace"], notes: "Duplicate: same content as the -2 and -4 copies and the Overleaf compile." } } },
+
+  // Code
+  { id: "github", label: "GitHub", group: "Code", mix: "auth", checked: "code",
+    stored: "A git clone per repo, plus <code>&lt;repo&gt;.repo.json</code> with the API metadata (owner, fork, parent, pushed_at)",
+    item: "one repository", unit: "file (README first)",
+    route: "<code>github_repos</code> pages through GitHub App installations, newest push first, but trims each repo to full name, URL, description and private flag. <code>shapeRepo</code> has <code>pushedAt</code> and owner; fork status isn't collected. Orgs without the App are silently missing.",
+    hard: ["Fork you built on", "Org repo you never committed to", "Old fork never pushed"],
+    s: { prov: "authentic", source_id: "Mathetic-PBC/engelbart-canvas", title: "Mathetic-PBC/engelbart-canvas", content_type: "repository",
+      created_at: "2026-08-30T19:02:00Z", modified_at: "2026-10-17T23:58:00Z",
+      path: "authentic/github/Mathetic-PBC/engelbart-canvas/", source_url: "https://github.com/Mathetic-PBC/engelbart-canvas",
+      metadata: { format: "git", repo_json: "authentic/github/Mathetic-PBC/engelbart-canvas.repo.json", owner: "Mathetic-PBC", owner_type: "Organization", private: true, fork: false, parent: null, default_branch: "main", pushed_at: "2026-10-17T23:58:00Z", my_commits_in_window: null, description: null, readme_path: "README.md" },
+      gt: { status: "reviewed", project_ids: ["project_engelbart"], notes: "" } } },
+
+  // Other
+  { id: "websites", label: "Websites", group: "Other", mix: "both", checked: "code",
+    stored: "Saved page as a single <code>.html</code>, with the URL in the row",
+    item: "one page", unit: "word",
+    route: "<code>links_in_notes</code> returns the most-used links (200 default, 1,000 max) and the agent adds them with <code>add_to_library</code>. Stage pages are saved as html.",
+    hard: ["Same URL with tracking parameters (near-duplicate)", "Shopping or news pages"],
+    s: { prov: "authentic", source_id: "https://maggieappleton.com/garden-history", title: "A Brief History & Ethos of the Digital Garden", content_type: "web_page",
+      created_at: null, modified_at: "2026-10-17T06:24:00Z",
+      path: "authentic/websites/maggieappleton.com/garden-history.html", source_url: "https://maggieappleton.com/garden-history",
+      metadata: { format: "html", language: "en", saved_at: "2026-10-17T06:24:00Z", found_via: ["links_in_notes", "browser-history"], word_count: 4100 },
+      gt: { status: "reviewed", project_ids: ["project_engelbart"], notes: "" } } },
+
+  // Other
+  { id: "linear", label: "Linear", group: "Other", mix: "auth", checked: "code",
+    stored: "One <code>.json</code> per issue in the API's shape (comments included); project documents as <code>.md</code>",
+    item: "one issue, project or document", unit: "field / comment",
+    route: "Official MCP server, read-only: <code>list_issues</code>, <code>list_projects</code>, <code>list_documents</code>, <code>list_teams</code>, <code>list_cycles</code>. The skill filters <code>list_issues</code> by words from the plan and drops old closed issues, so it searches rather than lists. Agent writes notes with <code>add_note</code>.",
+    hard: ["Closed issue older than the window that still matters"],
+    s: { prov: "authentic", source_id: "MATH-92", title: "Orchestrator agent that routes between Brainstorm and Discover", content_type: "issue",
+      created_at: "2026-10-06T22:14:00Z", modified_at: "2026-10-12T18:03:00Z",
+      path: "authentic/linear/issues/MATH-92.json", source_url: "https://linear.app/mathetic/issue/MATH-92",
+      metadata: { format: "json", language: "en", team: "Mathetic", project: "Engelbart", state: "Backlog", priority: 2, labels: [], comments: 3, assignee: "me" },
+      gt: { status: "reviewed", project_ids: ["project_engelbart"], notes: "" } } },
+
+  // Other
+  { id: "browser-history", label: "Browser history", group: "Other", mix: "both", checked: "code",
+    stored: "Copies of each browser profile's database: Chrome/Brave <code>History</code> (SQLite) and <code>Bookmarks</code> (JSON), Safari <code>History.db</code> and <code>Bookmarks.plist</code>, Firefox <code>places.sqlite</code>",
+    item: "one profile's history database (bookmarks alongside)", unit: "visit / URL",
+    route: "History and bookmarks tool, default 50 most-visited sites, Chromium only; Safari needs Full Disk Access. A discovery hint that feeds Drive, Overleaf and paper ids to the other importers.",
+    hard: ["Drive file visited often but linked from nowhere else"],
+    s: { prov: "authentic", source_id: "chrome:Default:History", title: "Chrome · Default profile history", content_type: "history_db",
+      created_at: null, modified_at: "2026-10-17T23:59:00Z",
+      path: "authentic/browser-history/chrome/Default/History", source_url: null,
+      metadata: { format: "sqlite", browser: "chrome", profile: "Default", bookmarks_path: "authentic/browser-history/chrome/Default/Bookmarks", url_rows: 48211, visits_in_window: 131902 },
+      gt: { status: "unlabeled", project_ids: [], notes: "Discovery source. Score it by whether the ids it points to get found, not as an import." } } },
+
+  { id: "local-notes", label: "Local notes and docs", group: "Other", mix: "both", checked: "code",
+    stored: "Files copied as found: <code>.md</code>, <code>.txt</code>, <code>.docx</code>, <code>.html</code> outside Obsidian",
+    item: "one file", unit: "word",
+    route: "<code>list_note_files</code> / <code>import_note_files</code>, which only accept <code>.md</code>, <code>.markdown</code>, <code>.txt</code> (<code>NOTE_EXT</code> in <code>readers.cjs</code>). <code>.docx</code> and <code>.html</code> are on the TODO, and the lister and importer have to change together.",
+    hard: ["<code>.docx</code> draft that today's lister can't see"],
+    s: { prov: "authentic", source_id: "~/Documents/spec design outline.docx", title: "spec design outline", content_type: "document",
+      created_at: "2026-06-18T05:40:00Z", modified_at: "2026-06-21T22:12:00Z",
+      path: "authentic/local-notes/Documents/spec design outline.docx", source_url: null,
+      metadata: { format: "docx", language: "en", folder: "~/Documents", size_bytes: 48213, word_count: 2900 },
+      gt: { status: "reviewed", project_ids: ["project_spec_design"], notes: "Invisible to list_note_files today (.docx isn't in NOTE_EXT)." } } },
+];
+
+function fakeHash(s) {
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
+  const hex = (h >>> 0).toString(16).padStart(8, "0");
+  return "sha256:" + hex.slice(0, 4) + "…" + hex.slice(-2);
+}
+
+function buildRow(src, i) {
+  const s = src.s;
+  const row = {
+    id: "item_" + src.id + "_001",
+    dataset_id: "benchmark_001",
+    provenance: s.prov,
+  };
+  if (s.prov === "synthetic") row.modeled_on = s.modeled_on ?? null;
+  Object.assign(row, {
+    source: src.id,
+    source_id: s.source_id,
+    title: s.title,
+    content_type: s.content_type,
+    created_at: s.created_at,
+    modified_at: s.modified_at,
+    ingested_at: "2026-10-18T04:00:" + String(i).padStart(2, "0") + "Z",
+    path: s.path,
+    source_url: s.source_url,
+    content_hash: fakeHash(src.id + s.source_id),
+    library_item_id: null,
+    metadata: s.metadata,
+    ground_truth: s.gt,
+  });
+  return row;
+}
+
+function el(tag, attrs, children) {
+  const n = document.createElement(tag);
+  if (attrs) for (const k in attrs) {
+    if (k === "text") n.textContent = attrs[k];
+    else if (k === "html") n.innerHTML = attrs[k];
+    else n.setAttribute(k, attrs[k]);
+  }
+  (children || []).forEach(c => n.append(c));
+  return n;
+}
+
+function codeBlock(obj, label) {
+  const text = JSON.stringify(obj, null, 2);
+  const copy = el("button", { class: "copy", type: "button", text: "Copy" });
+  copy.addEventListener("click", () => {
+    navigator.clipboard.writeText(text).then(() => {
+      copy.textContent = "Copied";
+      setTimeout(() => { copy.textContent = "Copy"; }, 1200);
+    });
+  });
+  const frag = document.createDocumentFragment();
+  frag.append(el("div", { class: "codehead" }, [el("span", { text: label }), copy]));
+  frag.append(el("pre", { text: text }));
+  return frag;
+}
+
+document.querySelectorAll("[data-json]").forEach(ph => {
+  const obj = JSON.parse(document.getElementById(ph.dataset.json).textContent);
+  ph.replaceWith(codeBlock(obj, ph.dataset.label));
+});
+
+// tables: click a row to open its sample in a modal
+const txModal = document.getElementById("txmodal");
+const txBody = txModal.querySelector(".txm-body");
+let txOpener = null;
+function openTx(row) {
+  const name = row.cells[0].textContent;
+  const obj = JSON.parse(document.getElementById(row.dataset.jsonId).textContent);
+  txBody.textContent = "";
+  const h = el("h2", { id: "txmodal-title" }, [el("code", { text: name })]);
+  txBody.append(h, el("p", { class: "txm-desc", html: row.cells[1].innerHTML }));
+  txBody.append(codeBlock(obj, name));
+  if (row.dataset.same) txBody.append(el("p", { class: "muted txm-note", text: "Same sample as the Pipeline tab." }));
+  txOpener = row;
+  txModal.showModal();
+  txBody.scrollTop = 0;
+}
+document.querySelectorAll("table.tx tr.tx-row").forEach(row => {
+  row.addEventListener("click", () => openTx(row));
+  row.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openTx(row); }
+  });
+});
+txModal.querySelector(".txm-close").addEventListener("click", () => txModal.close());
+txModal.addEventListener("click", e => { if (e.target === txModal) txModal.close(); });
+txModal.addEventListener("close", () => { if (txOpener) txOpener.focus(); txOpener = null; });
+
+// source list
+const list = document.getElementById("srclist");
+let lastGroup = null;
+SOURCES.forEach(src => {
+  if (src.group !== lastGroup) {
+    list.append(el("div", { class: "grp", text: src.group }));
+    lastGroup = src.group;
+  }
+  const b = el("button", { type: "button", "data-id": src.id, text: src.label });
+  b.addEventListener("click", () => showSource(src.id));
+  list.append(b);
+});
+
+function fact(dl, term, node) {
+  dl.append(el("dt", { text: term }));
+  const dd = el("dd");
+  if (typeof node === "string") dd.innerHTML = node; else dd.append(node);
+  dl.append(dd);
+}
+
+function showSource(id) {
+  const i = SOURCES.findIndex(s => s.id === id);
+  const src = SOURCES[i];
+  list.querySelectorAll("button").forEach(b => b.classList.toggle("on", b.dataset.id === id));
+  const d = document.getElementById("srcdetail");
+  d.textContent = "";
+  d.append(el("h2", { text: src.label }));
+  d.append(el("div", { class: "muted", text: src.id + "/" }));
+
+  const facts = el("dl", { class: "facts" });
+  fact(facts, "Stored as", src.stored);
+  fact(facts, "One source item =", src.item);
+  d.append(facts);
+
+  d.append(codeBlock(buildRow(src, i), "source_items row"));
+
+  const notes = el("dl", { class: "facts" });
+  fact(notes, "Analysis unit", "<code>" + src.unit + "</code> <span class=\"muted\">(what <code>sample.unit</code> counts)</span>");
+  fact(notes, "Engelbart today", src.route + " <span class=\"muted\">(" + (src.checked === "code"
+    ? "from the Onboarding 3 code reading"
+    : "not checked; the file type above is a best guess at the platform's export, so check it against what the /goal run produced") + ")</span>");
+  if (src.hard && src.hard.length) {
+    const ul = el("ul");
+    src.hard.forEach(h => ul.append(el("li", { html: h })));
+    fact(notes, "Hard cases to plant", ul);
+  }
+  const det = el("details", null, [el("summary", { text: "Notes" }), notes]);
+  if (src.s.prov === "synthetic") det.append(el("p", { class: "muted", html: "<code>modeled_on</code> is an addition from the <code>/goal</code> manifest rule, not part of the original schema." }));
+  d.append(det);
+}
+
+// tabs
+const TABS = ["dataset", "tables", "sources", "pipeline", "library"];
+function openTab(name) {
+  document.querySelectorAll("#tabs a").forEach(a => a.classList.toggle("on", a.dataset.tab === name));
+  document.querySelectorAll("section.panel").forEach(p => p.classList.toggle("on", p.id === name));
+  window.scrollTo(0, 0);
+}
+document.querySelectorAll("#tabs a").forEach(a => a.addEventListener("click", e => {
+  e.preventDefault();
+  openTab(a.dataset.tab);
+  history.replaceState(null, "", "#" + a.dataset.tab);
+}));
+const start = location.hash.slice(1);
+if (TABS.includes(start)) openTab(start);
+
+showSource("overleaf");
+</script>
+</body>
+</html>

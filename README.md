@@ -1,10 +1,12 @@
 # Onboarding Benchmark
 
-Write-up: [Onboarding Benchmark and Dataset Documentation](https://claude.ai/artifact/BNBu3qZwb9h4ktsdgw6Vk2)
+A benchmark of how accurately Claude Code and Codex sort a person's data into their projects during Engelbart's onboarding. It builds a dataset from the person's real accounts plus synthetic data, then scores each pass against the person's own classification.
+
+Documentation: [Onboarding Benchmark and Dataset Documentation](https://claude.ai/artifact/BNBu3qZwb9h4ktsdgw6Vk2)
 
 ```
 onboarding-benchmark/
-├── docs/                          the write-up as an HTML file
+├── docs/                          the documentation as an HTML file
 ├── skills/
 │   ├── wave1-categories-v1/       builds the category list
 │   ├── wave2-shallow-sort-v1/     files each item from a short sample

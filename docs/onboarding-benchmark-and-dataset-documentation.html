@@ -193,24 +193,48 @@
 
   <div class="stage" id="wave1">
     <h2>Wave 1: category list</h2>
-    <p>Wave 1 reads the chats cheaply, together with the profile and the person's own categories, and proposes the category list the person then confirms; it only reads.</p>
-    <div data-json="j-catset0" data-label="catset_v0: the user's typed categories plus the profile's projects"></div>
-    <div data-json="j-analysis1" data-label="analysis_001 for item_001 (provisional)"></div>
+    <p>Wave 1 asks each source the same question in parallel: what has this person worked on? ChatGPT and Claude are each sent a profile prompt in the signed-in browser and answer from memory. One agent run on the Mac reads the Claude Code and Codex session logs and local git history. One merge agent then turns the three profiles, the project title and description, and any categories the person typed into the category list. It reads no individual items.</p>
+    <div data-json="j-profiles" data-label="the three profiles (one per source)"></div>
+    <div data-json="j-catset0" data-label="catset_v1: draft from the merge agent"></div>
     <div data-json="j-catset2" data-label="catset_v2: confirmed"></div>
     <details>
       <summary>Notes</summary>
-      <p>"Cheaply" means the title, the first user message, the last user message, and a digest of the person's turns. Any assignments wave 1 makes along the way are provisional.</p>
-      <p>The title "Thoughts" gives the agent nothing. The opening message alone puts <code>item_001</code> under TutorTrace, at medium confidence, and flags it for a deeper read.</p>
-      <p>Merging the proposals from all wave 1 analyses gives <code>catset_v1</code>, a draft. The person confirms it with one edit, making "Engelbart import quality" a sub-topic of Engelbart. Everything after this point runs against the result, <code>catset_v2</code>.</p>
+      <p>The three profile requests don't depend on each other, so they start together. If one is slow, the merge agent runs on what has arrived and runs again when the rest come in, so the first screen doesn't wait.</p>
+      <p>Claude Code keeps session transcripts only for a limited time, so its logs may cover weeks, not the year. Local git history fills in the earlier work. The time window is only a hint to ChatGPT and Claude; wave 2 enforces the real cutoff.</p>
+      <p>The merge agent keeps the person's typed categories as written, merges the same project under different names, adds Other / new topic, and records which profiles back each category. A category backed by only one source is flagged. The person confirms the draft with one edit, making 'Engelbart import quality' a sub-topic of Engelbart; everything after runs against <code>catset_v2</code>.</p>
     </details>
   </div>
 
   <div class="stage" id="wave2">
     <h2>Wave 2: shallow pass</h2>
-    <p>Wave 2 runs concurrently over Drive, Gmail, notes, PDFs and the rest, reading metadata and a short snippet against <code>catset_v2</code>, and the person then picks which categories go to the deep pass.</p>
+    <p>Wave 2 runs concurrently over everything else, including the ChatGPT and Claude chat lists, Claude Code and Codex sessions, Drive, Gmail, notes, PDFs, GitHub and Overleaf. It reads metadata and a short snippet against <code>catset_v2</code>. Items that fit no category become proposed categories, which go back to the list after a duplicate check. The person then picks which categories go to the deep pass.</p>
+    <h3>How wave 2 runs</h3>
+    <ul>
+      <li>Listing: every source starts listing in code at the beginning, so nothing waits on the model. Sources read through the signed-in browser (ChatGPT, Claude, Drive, Gmail) may take turns; local sources don't.</li>
+      <li>Batches: each batch holds one source only, about 50 items, and goes to the shared <code>wave2-shallow-sort</code> skill in one call that returns one result per item. Code splits the answer into one <code>analyses</code> row per item. Batch size can vary by source: smaller for long chat digests, larger for metadata-only items like repos.</li>
+      <li>Free signals first: a session's folder, a Drive folder or a Gmail label can settle an item with no model call. It still gets an <code>analyses</code> row.</li>
+      <li>Slots: 4 slots run at once (a setting). Each slot takes one source and sorts it batch by batch; when it finishes, it takes the next source in line. Once no sources are left in line, free slots help with batches from sources still running.</li>
+      <li>Nothing is imported: wave 2 only adds <code>analyses</code> rows.</li>
+    </ul>
+    <p class="muted">4 slots is a starting point; the benchmark compares 2, 4 and 8 for total time, rate-limit errors and accuracy.</p>
+    <table>
+      <tr><th>source</th><th>what the snippet holds</th></tr>
+      <tr><td>ChatGPT, Claude</td><td>title, date, project, first and last user message, digest of the person's turns (assistant replies left out)</td></tr>
+      <tr><td>Claude Code, Codex</td><td>folder, title, first prompt, digest of typed turns (tool output left out)</td></tr>
+      <tr><td>Gmail</td><td>subject, people, date, label, first lines</td></tr>
+      <tr><td>Drive</td><td>title, folder, type, modified date, first ~300 words</td></tr>
+      <tr><td>PDFs</td><td>filename, folder, size, paper/book/personal guess; first page only if still unclear</td></tr>
+      <tr><td>Notes, Obsidian, Apple Notes</td><td>title, folder, modified date, first lines (short notes whole)</td></tr>
+      <tr><td>GitHub</td><td>name, description, owner, last push, fork parent, README opening</td></tr>
+      <tr><td>Overleaf, Zotero</td><td>title, abstract or opening of the main .tex</td></tr>
+      <tr><td>Linear, Notion, Granola, Evernote</td><td>title, project or folder, opening text</td></tr>
+    </table>
+    <div data-json="j-analysis1" data-label="analysis_001 for item_001 (ChatGPT chat)"></div>
     <div data-json="j-wave2" data-label="analyses"></div>
     <details>
       <summary>Notes</summary>
+      <p><code>usage</code> on each row is that item's share of its batch call.</p>
+      <p>For the ChatGPT chat the snippet is the title, the first and last user message, and a digest of the person's turns. The title 'Thoughts' gives nothing; the opening message puts <code>item_001</code> under TutorTrace at medium confidence and flags it for a deeper read. It also proposes 'Custody of verification', a project none of the three profiles named.</p>
       <p>For these two Drive items the snippet is the title, the folder and the first ~300 words.</p>
       <p><code>item_003</code> was settled by a free signal (its folder), with no model call. It still gets an analysis row, so the report can count it as "looked at, none". Wave 2 examines irrelevant material too, and examining an item doesn't import it.</p>
       <h3>What the person sees and picks</h3>
@@ -225,13 +249,24 @@
 
   <div class="stage" id="deep">
     <h2>Deep pass</h2>
-    <p>The deep pass reads the whole of each item in a picked category, revises the assignment, and on import inserts or reuses a library row and writes <code>library_item_id</code> back to the source row.</p>
+    <p>The deep pass is the only step that writes to the library. It reads the whole of each item in a picked category, re-judges it, and decides import, skip or pending. On import, code (not the agent) inserts or reuses a library row and writes <code>library_item_id</code> back to the source row.</p>
+    <h3>How the deep pass runs</h3>
+    <ul>
+      <li>Unsure items first: items wave 2 marked unsure or <code>needs_deeper_read</code> get their deep read before the person picks, so the counts they choose from are reliable. Anything still unclear is shown as its own 'unsure' group.</li>
+      <li>Full read: code gives the agent the whole item, or a large part of a long one. Folder items (an Overleaf project, a repo) are given file by file, with each unit naming its file.</li>
+      <li>Fresh judgment: the deep-pass skill re-judges from the full text without anchoring on the wave 2 result, quotes evidence, and gives a one-line reason when the assignment changes.</li>
+      <li>Decision: import (belongs to a picked category with high confidence), skip (belongs to none), or pending (still unclear; waits for the person and writes nothing).</li>
+      <li>Library write, by code: reuse a matching row (by <code>library_item_id</code>, <code>origin_url</code> or file) or create one through the existing import tool for that source, link it to its categories in <code>library_categories</code>, and write <code>library_item_id</code> back so a retry doesn't duplicate it.</li>
+      <li>Running: one item or a few per call, since inputs are large, on the same 4 slots as wave 2. It runs in the background, resumes after time limits, and later runs only handle new or changed items.</li>
+    </ul>
     <div data-json="j-deep" data-label="analyses (parent_analysis_id points at the shallow row)"></div>
     <div data-json="j-after" data-label="source_items after the deep pass: only library_item_id changes"></div>
+    <div data-json="j-report" data-label="report at the end of the run"></div>
     <details>
       <summary>Notes</summary>
-      <p>Compare <code>analysis_001</code> with <code>analysis_004</code>. Both the category set (<code>catset_v0</code> → <code>catset_v2</code>) and the reading depth changed, and <code>category_set_id</code> is what separates the two causes. Here the category itself didn't change, so the rise from 0.55 to 0.93 came from the deeper read.</p>
+      <p>Compare <code>analysis_001</code> with <code>analysis_004</code>. Both use <code>catset_v2</code>, so the rise from 0.55 to 0.93 came only from the deeper read. <code>category_set_id</code> is what lets you tell that apart from a change in categories.</p>
       <p>Writing <code>library_item_id</code> back is what keeps a retry from creating a second library row.</p>
+      <p>The report is what the person sees at the end: found, looked at, brought in, skipped and unsure, per source. It says what each judgment was based on, so the limits are visible.</p>
     </details>
   </div>
 
@@ -286,6 +321,7 @@
       <tr><td>GitHub</td><td>a <code>folder</code> row tagged <code>git</code></td></tr>
       <tr><td>Granola, Linear, Notion, Evernote</td><td>notes the agent writes itself with <code>add_note</code>; no import-by-id tool yet</td></tr>
     </table>
+    <p><b>Open:</b> some imports make several library rows for one item (Overleaf: a folder, a note and up to three PDFs). A single <code>library_item_id</code> can't record that; it needs to become a list, or point to one primary row with the others linked to it.</p>
 
     <h3>Rules the example relies on</h3>
     <ul>
@@ -370,22 +406,34 @@
   ]
 }
 </script>
+<script type="application/json" id="j-profiles">
+[
+  { "id": "profile_chatgpt", "run_id": "run_001", "source": "chatgpt", "method": "profile prompt in the signed-in browser, answered from memory; chat deleted afterwards", "window_hint": "past year", "path": "runs/run_001/profiles/chatgpt.md", "projects_named": ["Engelbart", "TutorTrace"], "completed_at": "2026-10-18T04:01:40Z" },
+  { "id": "profile_claude", "run_id": "run_001", "source": "claude", "method": "same prompt on claude.ai, answered from memory; chat deleted afterwards", "window_hint": "past year", "path": "runs/run_001/profiles/claude.md", "projects_named": ["Engelbart", "TutorTrace"], "completed_at": "2026-10-18T04:01:55Z" },
+  { "id": "profile_local", "run_id": "run_001", "source": "claude-code+codex", "method": "agent run on the Mac reading ~/.claude/projects, ~/.codex/sessions and local git logs", "coverage_from": "2026-08-04", "git_history_from": "2025-08-01", "path": "runs/run_001/profiles/local.md", "projects_named": ["Engelbart", "Engelbart import quality", "TutorTrace"], "completed_at": "2026-10-18T04:03:10Z" }
+]
+</script>
 <script type="application/json" id="j-catset0">
 {
-  "id": "catset_v0", "run_id": "run_001",
+  "id": "catset_v1", "run_id": "run_001",
+  "inputs": { "profiles": ["profile_chatgpt", "profile_claude", "profile_local"], "user_categories": ["Engelbart"], "project_description": true },
+  "created_at": "2026-10-18T04:03:40Z",
   "projects": [
-    { "id": "project_engelbart", "label": "Engelbart", "description": "Research notebook, agents, onboarding.", "origin": "user" },
-    { "id": "project_tutortrace", "label": "TutorTrace", "description": "Learner-behavior dataset and taxonomy (UIST '26).", "origin": "profile" }
+    { "id": "project_engelbart", "label": "Engelbart", "description": "Research notebook, agents, onboarding.", "origin": "user", "backed_by": ["user", "profile_chatgpt", "profile_claude", "profile_local"] },
+    { "id": "project_engelbart_import", "label": "Engelbart import quality", "description": "Context import, benchmark, category sort.", "origin": "wave1", "backed_by": ["profile_local"], "flag": "single_source" },
+    { "id": "project_tutortrace", "label": "TutorTrace", "description": "Learner-behavior dataset and taxonomy (UIST '26).", "origin": "profile", "backed_by": ["profile_chatgpt", "profile_claude", "profile_local"] },
+    { "id": "other", "label": "Other / new topic", "origin": "system", "backed_by": [] }
   ]
 }
 </script>
 <script type="application/json" id="j-analysis1">
 {
   "id": "analysis_001", "item_id": "item_001", "run_id": "run_001",
-  "parent_analysis_id": null, "category_set_id": "catset_v0",
-  "content_hash": "sha256:a41f…01", "stage": "wave1_category_discovery", "status": "completed", "error": null,
-  "started_at": "2026-10-18T04:01:00Z", "completed_at": "2026-10-18T04:01:04Z",
-  "model": "REPLACE_WITH_MODEL_ID", "prompt_version": "wave1_discovery_v1",
+  "parent_analysis_id": null, "category_set_id": "catset_v2",
+  "content_hash": "sha256:a41f…01", "stage": "wave2_shallow", "status": "completed", "error": null,
+  "started_at": "2026-10-18T04:07:10Z", "completed_at": "2026-10-18T04:07:14Z",
+  "model": "REPLACE_WITH_MODEL_ID", "prompt_version": "wave2_shallow_v1",
+  "batch": { "id": "batch_chatgpt_001", "size": 30, "slot": 1 },
   "config": { "sampling_strategy": "user_turns_digest", "max_input_tokens": 800 },
   "sample": {
     "metadata_fields_read": ["title", "created_at", "modified_at"],
@@ -401,7 +449,7 @@
         "evidence": [ { "unit": "message", "index": 0, "quote": "ok so for the help-seeking classifier, how do we validate the labels" } ] }
     ],
     "proposed_projects": [
-      { "id": "project_engelbart_import", "label": "Engelbart import quality", "description": "Context import, benchmark, category sort.", "evidence_item_ids": ["item_017", "item_022"] }
+      { "label": "Custody of verification", "description": "Who keeps responsibility for checking AI-assisted work.", "evidence_item_ids": ["item_031", "item_044"] }
     ],
     "summary": "Validating labels for a help-seeking classifier.",
     "needs_deeper_read": true
@@ -429,6 +477,7 @@
     "content_hash": "sha256:b7c2…02", "stage": "wave2_shallow", "status": "completed", "error": null,
     "started_at": "2026-10-18T04:07:10Z", "completed_at": "2026-10-18T04:07:13Z",
     "model": "REPLACE_WITH_MODEL_ID", "prompt_version": "wave2_shallow_v1",
+    "batch": { "id": "batch_google-docs_001", "size": 50, "slot": 2 },
     "config": { "sampling_strategy": "head_words", "max_input_tokens": 600 },
     "sample": {
       "metadata_fields_read": ["title", "folder", "modified_at"],
@@ -454,6 +503,7 @@
     "content_hash": "sha256:c9d0…03", "stage": "wave2_shallow", "status": "completed", "error": null,
     "started_at": "2026-10-18T04:07:10Z", "completed_at": "2026-10-18T04:07:11Z",
     "model": null, "prompt_version": "wave2_free_signals_v1",
+    "batch": null,
     "config": { "sampling_strategy": "metadata_only" },
     "sample": {
       "metadata_fields_read": ["title", "folder"],
@@ -538,6 +588,17 @@
   { "id": "item_002", "library_item_id": "f3b9…22" },
   { "id": "item_003", "library_item_id": null }
 ]
+</script>
+<script type="application/json" id="j-report">
+{
+  "run_id": "run_001",
+  "by_source": [
+    { "source": "chatgpt", "found": 1, "looked_at": 1, "brought_in": 1, "skipped": 0, "unsure": 0 },
+    { "source": "google-docs", "found": 2, "looked_at": 2, "brought_in": 1, "skipped": 1, "unsure": 0 }
+  ],
+  "totals": { "found": 3, "looked_at": 3, "brought_in": 2, "skipped": 1, "unsure": 0 },
+  "judged_from": "wave 2 snippets for everything; full text for items in picked categories and unsure items"
+}
 </script>
 <script>
 const SOURCES = [
@@ -753,7 +814,7 @@ const SOURCES = [
   { id: "assistant-memory", label: "Assistant memory", group: "AI chats", mix: "both", checked: "code",
     stored: "One <code>.md</code> per assistant: saved memory entries plus custom instructions, read from the settings page",
     item: "one assistant's memory set", unit: "memory entry",
-    route: "Connect builds <code>MEMORY.md</code> from what the assistants remember. The beta flow sends the profile prompt and deletes the chat; the benchmark reads settings pages instead and sends nothing.",
+    route: "Wave 1 sends each assistant a profile prompt in the signed-in browser, stores the answer under runs/&lt;run&gt;/profiles/, and deletes the chat. The dataset folder holds the ground-truth copy: saved memory entries and custom instructions read from the settings page, which sends nothing.",
     hard: ["One item spanning several projects"],
     s: { prov: "authentic", source_id: "chatgpt:memory", title: "ChatGPT saved memories and custom instructions", content_type: "memory",
       created_at: null, modified_at: "2026-10-17T00:00:00Z",

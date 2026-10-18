@@ -17,7 +17,7 @@ Check this file before starting any tool. Status values: TODO, IN PROGRESS, DONE
 | google-meet | DONE (rechecked, none exist) | no Meet recordings/transcripts/Gemini notes in either Drive; MANIFEST cross-references 15 meeting-notes Docs in google-docs; logged |
 | zoom | DONE | local recordings (1 meeting); zoom.us web not signed in (logged) |
 | gmail | DONE (rechecked) | davidbarron410@gmail.com: 11,316 messages / 10,860 threads as raw .eml (4.9 GB; all mail 2025-10-17→, plus Sent/Starred/Important of any age); spot-check 2 longest threads match Gmail API counts. dbarron410@vt.edu Gmail: 1 message (attachment body unavailable) |
-| chatgpt | IN PROGRESS | STOPGAP from chatgpt.com; 2,360 conversations listed; download heavily rate-limited (background loop) |
+| chatgpt | DONE (scope: last year) | STOPGAP from chatgpt.com; 2,360 listed; 148 collected (all 139 from the last year + 9 older); 2,212 older not collected (David's choice); logged |
 | claude | DONE (rechecked) | STOPGAP from claude.ai: 2,182 conversations (paged count = 2,182), 10 projects (docs, files, conversation lists); memory + profile in assistant-memory |
 | claude-code | DONE (rechecked) | 1708 sessions / 4164 files in projects match source; + history.jsonl, plans, desktop session metadata, claude-vault derived indexes (12437 manifest rows) |
 | codex | DONE (rechecked) | 95/95 rollouts present (state DB lists 96; 1 rollout missing at source), history, indexes, DBs |
@@ -35,7 +35,7 @@ Check this file before starting any tool. Status values: TODO, IN PROGRESS, DONE
 | browser-history | DONE | Chrome x3 profiles + Codex app browser; Safari blocked |
 | local-notes | DONE | 152 note-type files (md/txt/docx/html/pages) outside Obsidian & repos |
 | local-files (added) | DONE | 871 other loose files |
-| outlook (added) | IN PROGRESS | 1392 cached attachments; mail bodies need outlook.office.com |
+| outlook (added) | BLOCKED (mail) | 1,392 cached attachments collected; outlook.office.com has no raw-source/Save-as option, so mail is not collected; options for David in FAILURES |
 | slack (added) | DONE | Mathetic workspace via Slack MCP: 27 conversations (15 channels, 12 DMs), ~742 messages, 27 threads, 102 files, 12 user profiles |
 
 ## Schema layer

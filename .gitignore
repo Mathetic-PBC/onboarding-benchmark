@@ -1,14 +1,17 @@
-# Real personal data: never committed (mail, chats, Drive, Slack DMs, browser history...)
-authentic/
+# The real data lives outside this repo, in the folder the /goal run builds.
+# dataset/authentic/ only holds empty source_items.json placeholders; anything else there stays out.
+dataset/authentic/**/*
+!dataset/authentic/*/
+!dataset/authentic/*/source_items.json
 _incoming/
 exports/
 
-# Built from the real data: titles, paths and snippets of personal items
-/source_items.json
-_scripts/item_ids.json
-
-# The answer key, kept away from anything the benchmarked agent can read
-/ground_truth_projects.json
+# Built from the real data, and the answer key
+source_items.json
+!dataset/authentic/*/source_items.json
+!dataset/synthetic/*/source_items.json
+scripts/item_ids.json
+ground_truth_projects.json
 
 __pycache__/
 *.pyc

@@ -9,9 +9,10 @@ Sources (all under _incoming/):
                             natives:  gdrive/davidbarron410@gmail.com/<id>.<ext>; binaries: gdrive_bin/davidbarron410@gmail.com/<id>.bin
 File names are the Drive title plus the export extension; a title used twice in one folder gets ' (<id[:8]>)' appended.
 mtime = Drive modifiedTime. Items with no content (folders, sites, scripts, shortcuts, failed downloads) are listed in
-<account>/_collection/not_collected.json and logged in FAILURES.md.
+<account>/_collection/not_collected.json (with the reason; per-file download errors come from _incoming/gdrive_bin/*fail*.json)
+and logged in FAILURES.md. Each run rebuilds the account's manifest rows and removes copies it no longer produces.
 """
-import datetime, json, os, re, shutil, sys
+import datetime, glob, json, os, re, shutil, sys
 sys.path.insert(0, os.path.dirname(__file__))
 from bm import Manifest, ROOT, set_mtime
 
@@ -33,7 +34,12 @@ def safe(t):
 def place(acct, items):
     """items: {id: dict(title, mime, modified, created, owner, why, url, size)}"""
     m = Manifest('authentic', 'google-docs')
+    m.rows = {k: v for k, v in m.rows.items() if not k.startswith(acct + '/')}  # rebuilt from scratch for this account
     base = os.path.join(OUT, acct)
+    fails = {}
+    for ff in glob.glob(os.path.join(INC, 'gdrive_bin', '*fail*.json')):
+        fails.update(json.load(open(ff)))
+    placed = set()
     os.makedirs(os.path.join(base, '_collection'), exist_ok=True)
     used, missing, n = {}, [], 0
     for fid in sorted(items):
@@ -50,8 +56,10 @@ def place(acct, items):
             t = it['title']
             ext = t.rsplit('.', 1)[1] if '.' in t[-6:] else MIME_EXT.get(it['mime'], '')
         if not src or not os.path.exists(src) or os.path.getsize(src) == 0:
-            missing.append({'id': fid, 'title': it['title'], 'mime': it['mime'], 'kind': kind or 'binary',
-                            'reason': 'no content (Drive folder/site/script/shortcut)' if kind in ('folder', 'site', 'script', 'shortcut') else 'download failed', 'meta': it})
+            if kind in ('folder', 'site', 'script', 'shortcut'): reason = f'no content (Drive {kind})'
+            elif it['mime'].startswith('unknown'): reason = 'no file extension and no download: probably a folder (Drive web list does not show the type)'
+            else: reason = 'download failed: ' + fails.get(fid, 'no file received')
+            missing.append({'id': fid, 'title': it['title'], 'mime': it['mime'], 'kind': kind or 'binary', 'reason': reason, 'meta': it})
             continue
         sub = 'my-drive' if it.get('owner') in (acct, None, '') else 'shared-with-me'
         title = safe(it['title'])
@@ -65,6 +73,7 @@ def place(acct, items):
         dst = os.path.join(base, sub, name)
         os.makedirs(os.path.dirname(dst), exist_ok=True)
         shutil.copyfile(src, dst)
+        placed.add(dst)
         t = ts_of(it.get('modified'))
         if t: set_mtime(dst, t)
         n += 1
@@ -75,6 +84,10 @@ def place(acct, items):
         if it.get('note'): notes.append(it['note'])
         m.add(os.path.relpath(dst, os.path.join(ROOT, 'authentic/google-docs')), 'google-docs', acct, it.get('modified') or '',
               source=it.get('url') or f'https://drive.google.com/file/d/{fid}', notes='; '.join(notes))
+    stale = [os.path.join(dp, f) for sub in ('my-drive', 'shared-with-me') for dp, _, fs in os.walk(os.path.join(base, sub)) for f in fs
+             if os.path.join(dp, f) not in placed]
+    for f in stale: os.remove(f)  # our own copies from an earlier run whose name changed
+    if stale: print('removed', len(stale), 'stale copies')
     json.dump(missing, open(os.path.join(base, '_collection/not_collected.json'), 'w'), indent=1, ensure_ascii=False)
     m.add(f'{acct}/_collection/drive_selection.json', 'google-docs', acct, '', notes='Drive metadata for every selected file + selection reason')
     m.add(f'{acct}/_collection/not_collected.json', 'google-docs', acct, '', notes=f'{len(missing)} selected Drive items with no collectable content')

@@ -16,6 +16,8 @@ The prompts for each pass are in `skills/`: `wave1-categories-v1` builds the
 category list, `wave2-shallow-sort-v1` files items from a short sample, and
 `deep-pass-v1` rereads them in full and decides what gets imported.
 
-Real data never goes in this repo: `authentic/`, `_incoming/` and the answer
-key are gitignored. Only the scripts, the table schemas and the synthetic data
-are committed.
+`dataset/` has the tables (`dataset/tables/`) and one folder per source on
+each side (`dataset/authentic/`, `dataset/synthetic/`). The real data never goes
+in this repo: it stays in the folder the collection run builds, and
+`dataset/authentic/` only holds empty placeholders. The import and build
+scripts are in `scripts/`.

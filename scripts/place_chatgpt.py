@@ -3,7 +3,7 @@
 _incoming/chatgpt/index/conversations.json   conversation list (2,360 rows, /backend-api/conversations paging)
 _incoming/chatgpt/conversations/<id>.json    full conversation (/backend-api/conversation/<id>: mapping tree, all nodes)
 Output: authentic/chatgpt/dbarron410@vt.edu/conversations/<id>.json (mtime = update_time) and _collection/conversations_index.json.
-Conversations listed but not downloaded are written to _collection/not_collected.json.
+Conversations listed but not downloaded (all older than the 1-year scope; David chose to stop there) are written to _collection/not_collected.json.
 """
 import datetime, json, os, shutil, sys
 sys.path.insert(0, os.path.dirname(__file__))
@@ -48,5 +48,5 @@ for c in idx:
           source=f'https://chatgpt.com/c/{c["id"]}', notes='; '.join(notes))
     n += 1
 json.dump(missing, open(os.path.join(DST, '_collection/not_collected.json'), 'w'), indent=1, ensure_ascii=False)
-m.add(f'{ACCT}/_collection/not_collected.json', 'chatgpt', ACCT, '', notes=f'{len(missing)} listed conversations not downloaded (rate limit)')
+m.add(f'{ACCT}/_collection/not_collected.json', 'chatgpt', ACCT, '', notes=f'{len(missing)} listed conversations not downloaded: all last updated before 2025-10-17 (David chose to stop after the last year because of the rate limit)')
 print('placed', n, 'missing', len(missing), 'rows', m.save())

@@ -12,7 +12,12 @@ onboarding-benchmark/
 │   ├── wave2-shallow-sort-v1/     files each item from a short sample
 │   └── deep-pass-v1/              rereads items in full, decides what gets imported
 ├── prompts/
-│   └── import-pipeline.cjs        the first pass, merge, shallow pass and deep pass prompts
+│   ├── wave1.cjs                  first pass: builds the category list
+│   ├── merge.cjs                  merges proposed categories into one list
+│   ├── wave2.cjs                  shallow pass: files items from a short opening
+│   ├── deep.cjs                   deep pass: rereads items, decides import, skip or pending
+│   ├── shared.cjs                 rule blocks the prompts share
+│   └── index.cjs                  all of them, with versions and hashes
 ├── scripts/                       import and build scripts
 └── dataset/
     ├── tables/

@@ -1,0 +1,15 @@
+# Real personal data: never committed (mail, chats, Drive, Slack DMs, browser history...)
+authentic/
+_incoming/
+exports/
+
+# Built from the real data: titles, paths and snippets of personal items
+/source_items.json
+_scripts/item_ids.json
+
+# The answer key, kept away from anything the benchmarked agent can read
+/ground_truth_projects.json
+
+__pycache__/
+*.pyc
+.DS_Store

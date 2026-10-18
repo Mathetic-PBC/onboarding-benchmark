@@ -11,6 +11,8 @@ onboarding-benchmark/
 │   ├── wave1-categories-v1/       builds the category list
 │   ├── wave2-shallow-sort-v1/     files each item from a short sample
 │   └── deep-pass-v1/              rereads items in full, decides what gets imported
+├── prompts/
+│   └── import-pipeline.cjs        the first pass, merge, shallow pass and deep pass prompts
 ├── scripts/                       import and build scripts
 └── dataset/
     ├── tables/

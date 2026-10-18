@@ -1,0 +1,163 @@
+{
+ "uuid": "8855c373-f0a1-4f4b-a6a9-331e4764e93d",
+ "name": "Cut UIST talk script to 15 min",
+ "summary": "",
+ "model": "claude-fable-5-1",
+ "created_at": "2026-09-29T05:29:58.764835Z",
+ "updated_at": "2026-09-29T05:34:58.224336Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true,
+  "paprika_mode": "auto",
+  "thinking_mode": "auto",
+  "chat_memory_mode": "enabled",
+  "enabled_artifacts_attachments": false
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "auto",
+ "chat_messages": [
+  {
+   "uuid": "9771f43f-371a-4bb3-98e6-2c329bac1b31",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-29T05:30:00.000000Z",
+     "stop_timestamp": "2026-09-29T05:30:00.000000Z",
+     "type": "text",
+     "text": "uist talk 10/7, 15 min + 5 Q&A, session \"learning & tutoring\". my script runs ~19 min when i read it out loud. sections + my timing:\n1. hook story (student stuck for 9 min with the assistant open) 1:30\n2. problem + rq 2:00\n3. related work 2:30\n4. tutortrace system 3:30\n5. labeling + kappa .71 2:00\n6. results 3:30\n7. cross-course 1:30\n8. limitations + privacy 1:30\n9. takeaways 1:00\nwhere do i cut 4 min",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-09-29T05:30:00.000000Z",
+   "updated_at": "2026-09-29T05:30:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "bf9ca4fd-2ebb-479c-97fc-71dab7a26a2f",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-29T05:30:02.000000Z",
+     "stop_timestamp": "2026-09-29T05:30:25.289000Z",
+     "type": "text",
+     "text": "Cut where the paper already does the work and the audience won't miss it live:\n\n| Section | Now | Target | How |\n|---|---|---|---|\n| 1. Hook | 1:30 | 1:15 | Trim the setup, keep the 9-minute detail |\n| 2. Problem + RQ | 2:00 | 1:30 | One slide, RQs as one sentence each |\n| 3. Related work | 2:30 | **0:45** | Three-bucket positioning slide, no paper-by-paper |\n| 4. System | 3:30 | 3:00 | Show one demo clip instead of describing each panel |\n| 5. Labeling | 2:00 | 1:30 | Kappa 0.71, 3 raters, one example window |\n| 6. Results | 3:30 | 3:15 | Keep, it's the core |\n| 7. Cross-course | 1:30 | 1:15 | One plot |\n| 8. Limitations | 1:30 | 1:00 | Privacy in one sentence + pointer to paper |\n| 9. Takeaways | 1:00 | 0:45 | Three bullets |\n| **Total** | 19:00 | **14:15** | |\n\nThat leaves 45 s of buffer, which you'll use: live talks run longer than read-throughs once there's a clicker and a mic.\n\nRelated work is the biggest cut. At UIST, people care where you sit relative to others, not who did what.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-09-29T05:30:25.289000Z",
+   "updated_at": "2026-09-29T05:30:25.289000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "9771f43f-371a-4bb3-98e6-2c329bac1b31"
+  },
+  {
+   "uuid": "87fec190-cc97-4250-b073-f641a6482111",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-29T05:32:46.289000Z",
+     "stop_timestamp": "2026-09-29T05:32:46.289000Z",
+     "type": "text",
+     "text": "won't reviewers/people be annoyed if related work is 45s",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-09-29T05:32:46.289000Z",
+   "updated_at": "2026-09-29T05:32:46.289000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "bf9ca4fd-2ebb-479c-97fc-71dab7a26a2f"
+  },
+  {
+   "uuid": "fd6f05d0-d07f-4854-ba48-a09e1e0070f1",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-29T05:32:48.289000Z",
+     "stop_timestamp": "2026-09-29T05:33:05.763000Z",
+     "type": "text",
+     "text": "Not in a talk. The audience is in a session that already shares your area; they know the landscape. One slide like \"Help-seeking studies · Telemetry/keystroke models · LLM-in-CS1 tools → we combine replay + labeled states\" is enough. If someone asks about a specific paper in Q&A, that's a good question to get, and you can answer it there.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-09-29T05:33:05.763000Z",
+   "updated_at": "2026-09-29T05:33:05.763000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "87fec190-cc97-4250-b073-f641a6482111"
+  },
+  {
+   "uuid": "3f0bd402-ed9b-4f2d-83c2-53eedef0b6f2",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-29T05:34:35.763000Z",
+     "stop_timestamp": "2026-09-29T05:34:35.763000Z",
+     "type": "text",
+     "text": "ok, and the privacy thing might come up in Q&A anyway since a reviewer asked",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2026-09-29T05:34:35.763000Z",
+   "updated_at": "2026-09-29T05:34:35.763000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "fd6f05d0-d07f-4854-ba48-a09e1e0070f1"
+  },
+  {
+   "uuid": "72097df7-5932-4615-8615-d76f5561694a",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-29T05:34:37.763000Z",
+     "stop_timestamp": "2026-09-29T05:34:56.380000Z",
+     "type": "text",
+     "text": "Likely, yes. Prepare a 30-second answer you can say without slides:\n\n> \"Everything was collected with consent under IRB, de-identified before analysis, and we don't think telemetry should be used for grading. The point is to prompt an instructor to check in, not to monitor students. We discuss retention and visibility in the limitations section.\"\n\nHaving that ready lets you cut the slide to one sentence without worrying.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2026-09-29T05:34:56.380000Z",
+   "updated_at": "2026-09-29T05:34:56.380000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "3f0bd402-ed9b-4f2d-83c2-53eedef0b6f2"
+  }
+ ],
+ "current_leaf_message_uuid": "72097df7-5932-4615-8615-d76f5561694a"
+}

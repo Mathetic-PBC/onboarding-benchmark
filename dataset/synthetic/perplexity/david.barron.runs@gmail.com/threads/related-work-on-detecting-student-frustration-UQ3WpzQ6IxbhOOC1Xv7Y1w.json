@@ -1,0 +1,85 @@
+{
+ "uuid": "21f62921-ddf8-43e6-9b3a-0cea1a54a29b",
+ "slug": "related-work-on-detecting-student-frustration-UQ3WpzQ6IxbhOOC1Xv7Y1w",
+ "title": "Detecting frustration in tutoring transcripts",
+ "thread_url": "https://www.perplexity.ai/search/related-work-on-detecting-student-frustration-UQ3WpzQ6IxbhOOC1Xv7Y1w",
+ "created_at": "2026-02-10T19:20:00Z",
+ "updated_at": "2026-02-11T19:30:23Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "c2e21fc2-321f-46f2-ba01-aaa10e331a0a",
+   "query_str": "related work on detecting student frustration from text only (chat logs w an ai tutor), not video or sensors. for a class project",
+   "answer": "Text-only frustration detection draws on three bodies of work [1][2][3]:\n\n**1. Affect detection in intelligent tutoring systems (ITS).** Earlier ITS research detected frustration, confusion and boredom mostly from *interaction logs* (hint requests, response times, repeated errors) rather than text. These \"sensor-free\" detectors are a useful baseline because they show which behaviors co-occur with frustration [1].\n\n**2. Dialogue-based affect detection.** Work on tutorial dialogue systems used linguistic features of student turns — negations, short answers, hedges, expletives, second-person complaints (\"you're not helping\") — plus conversation-level features like turn length shrinking over time [2].\n\n**3. LLM-era studies of student–chatbot logs.** Recent papers analyze logs from course chatbots and code assistants. They report that frustration often shows up as **repeated near-identical prompts**, demands for the full answer, and abrupt session endings, more than explicit emotional words [3][4]. Ostrowski et al. (L@S 2025) found repeated near-identical prompts were the strongest predictor of \"stalling\" in LLM-assisted CS1 sessions, which is a close behavioral cousin of frustration [4].\n\n**Labeling approaches:** most studies use trained coders on turn or window segments with a small affect scheme (e.g., frustrated / confused / engaged / neutral) and report Cohen's or Krippendorff's agreement; agreement on frustration is typically moderate, lower than for engagement [2].",
+   "sources": [
+    {
+     "name": "Sensor-free affect detection in tutoring systems: a review",
+     "url": "https://www.edmreviewjournal.org/sensor-free-affect",
+     "snippet": "Survey of log-based detectors for frustration, confusion and boredom."
+    },
+    {
+     "name": "Linguistic cues of affect in tutorial dialogue",
+     "url": "https://www.dialoguelearningsociety.org/papers/linguistic-affect-cues",
+     "snippet": "Features of student turns associated with frustration and confusion."
+    },
+    {
+     "name": "What students type when they're stuck: an analysis of course chatbot logs",
+     "url": "https://www.csedresearch.net/papers/stuck-chatbot-logs",
+     "snippet": "Analysis of prompts in a course chatbot showing repetition and answer-demanding as frustration markers."
+    },
+    {
+     "name": "Productive Struggle or Silent Stalling? Telemetry Signals of Help-Seeking in LLM-Assisted CS1 (Ostrowski et al., L@S '25)",
+     "url": "https://dl.acm.org/doi/10.1145/3698205.3729841",
+     "snippet": "Repeated near-identical prompts and long idle gaps after errors predicted stalling; TA-labeled 30-second windows."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "claude-sonnet",
+   "created_at": "2026-02-10T19:20:00Z",
+   "updated_at": "2026-02-10T19:20:22Z"
+  },
+  {
+   "uuid": "dc3bfacd-fbf3-4fc3-a55d-1d4d2feccd27",
+   "query_str": "what features would be realistic for 3 people in 10 weeks. we have ~400 transcripts",
+   "answer": "With ~400 transcripts and 10 weeks, keep it interpretable [1][2]:\n\n- **Lexical:** counts of negations, all-caps words, exclamation/question marks, and a small frustration lexicon (e.g., \"still\", \"again\", \"doesn't work\", \"just give me\") normalized per turn.\n- **Repetition:** similarity between consecutive student turns (e.g., normalized edit distance or embedding cosine). This is cheap and, per Ostrowski et al., one of the strongest signals [2].\n- **Conversation dynamics:** student turn length trend, time between turns (if you have timestamps), and whether the session ends right after a tutor turn.\n- **Tutor-side context:** whether the previous tutor turn contained code, a question back, or a refusal — frustration often follows unhelpful responses.\n\nLabel a stratified sample (say 60 transcripts, segmented into turns) with all three of you, compute agreement on ~20% overlap, and train a simple logistic regression or gradient-boosted model. A per-feature ablation is a better class deliverable than squeezing F1.",
+   "sources": [
+    {
+     "name": "Feature engineering for affect detection with small datasets",
+     "url": "https://www.edmreviewjournal.org/small-data-affect",
+     "snippet": "Recommends interpretable features and simple models when labeled data is limited."
+    },
+    {
+     "name": "Productive Struggle or Silent Stalling? (Ostrowski et al., L@S '25)",
+     "url": "https://dl.acm.org/doi/10.1145/3698205.3729841",
+     "snippet": "Prompt repetition measured as edit distance between consecutive prompts."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "claude-sonnet",
+   "created_at": "2026-02-10T19:28:59Z",
+   "updated_at": "2026-02-10T19:29:22Z"
+  },
+  {
+   "uuid": "035a7acf-3ceb-4cdc-938e-a80c8b252009",
+   "query_str": "whats a reasonable kappa to aim for on frustration labels",
+   "answer": "For affect labels from text, published agreement is often in the **0.4–0.7 Cohen's kappa** range, and frustration tends to be at the lower end compared with categories like \"engaged\" [1][2]. Many papers treat ≥0.6 as acceptable for affect, while ≥0.7 is considered good. If you land around 0.5, report it honestly, show the confusion matrix between raters, and refine the codebook definitions where disagreements cluster (frustration vs confusion is the usual one) [2].",
+   "sources": [
+    {
+     "name": "Inter-rater reliability in affect annotation: a meta-analysis",
+     "url": "https://www.affectivesignals.org/irr-meta-analysis",
+     "snippet": "Pooled agreement estimates by affect category and modality."
+    },
+    {
+     "name": "Reporting agreement for subjective annotations",
+     "url": "https://www.methodsforhci.org/reporting-agreement",
+     "snippet": "Guidance on thresholds, confusion matrices and codebook iteration."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "gpt-5",
+   "created_at": "2026-02-11T19:29:53Z",
+   "updated_at": "2026-02-11T19:30:13Z"
+  }
+ ]
+}

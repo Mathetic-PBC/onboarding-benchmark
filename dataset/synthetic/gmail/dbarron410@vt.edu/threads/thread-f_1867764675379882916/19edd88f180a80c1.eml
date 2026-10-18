@@ -1,0 +1,55 @@
+From: David Barron <dbarron410@vt.edu>
+To: Yan Chen <ychen.prime@vt.edu>
+Subject: Re: rebuttal plan =?utf-8?b?4oCU?= UIST #1187
+Date: Thu, 18 Jun 2026 21:40:00 -0400
+Message-ID:
+ <CAqAwR5OBAoWDExym2inOKbfuXhrmq3MBIU21Q2FpCbzsEAH4ZDenX@mail.gmail.com>
+In-Reply-To:
+ <CAPoNwKhl3+QhVvv0gZ_Y40IaZkf1NLqlz5ehz+_gXN1PqdGRLEKem@mail.gmail.com>
+References:
+ <CAIQdDpBbpm8+mcGBt8K8pGwyGBrvalNrNE_8wyohLUWuPSJZnrvtf@mail.gmail.com>
+ <CAHZCDZuCCQ2RroALhFyTcS4fBVsE6ZKXjdoqL9Etgm3iX+rDUWknx@mail.gmail.com>
+ <CA0be1FdC_G65tboxUqDN+CD4nmPGPuh3IRd23F7RmHrFLNZe1Us0x@mail.gmail.com>
+ <CAPoNwKhl3+QhVvv0gZ_Y40IaZkf1NLqlz5ehz+_gXN1PqdGRLEKem@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1867764675379882916
+X-Gmail-Labels: Sent
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Rebuttal submitted (4,880 characters). Thanks Yan.
+
+On Wed, Jun 17, 2026 at 10:05 AM Yan Chen <ychen.prime@vt.edu> wrote:
+> Edits made directly in Overleaf. Mostly cuts in the privacy paragraph. It r=
+eads well now. Submit when ready.
+>
+> On Mon, Jun 15, 2026 at 10:30 PM David Barron <dbarron410@vt.edu> wrote:
+>> Draft is in the Overleaf rebuttal project, 4,620 characters. Per-pair kapp=
+as are 0.69 / 0.71 / 0.74. I scoped the cross-course promise to state distrib=
+utions as you suggested.
+>>
+>> On Fri, Jun 12, 2026 at 9:15 AM Yan Chen <ychen.prime@vt.edu> wrote:
+>>> Good plan. On (2), promise only what we can deliver by camera-ready: a cr=
+oss-course comparison of state distributions, not a full re-labeling. On (3),=
+ R3 is the 2.5; be concrete and short. Monday is fine.
+>>>
+>>> On Fri, Jun 12, 2026 at 12:40 AM David Barron <dbarron410@vt.edu> wrote:
+>>>> Hi Yan,
+>>>>
+>>>> Reviews are in (4 / 3.5 / 3 / 2.5). The three concerns that come up in m=
+ore than one review:
+>>>>
+>>>> 1. Label reliability (R2, R4): is kappa 0.71 across 3 raters good enough=
+, and were raters independent of the system design?
+>>>> 2. Generalization (R1, R3, R4): one course, one semester.
+>>>> 3. Telemetry privacy (R3): what do students consent to, and can instruct=
+ors identify students in replays?
+>>>>
+>>>> Plan: (1) report per-pair kappa and note that one rater (Xiaohang) wasn'=
+t involved in the guide's design; (2) promise a cross-course analysis using t=
+he spring CS 2114 data we already have consent for, plus a limitations sectio=
+n; (3) describe the consent text and the pseudonymized replay view.
+>>>>
+>>>> Draft by Monday?
+>>>>
+>>>> David

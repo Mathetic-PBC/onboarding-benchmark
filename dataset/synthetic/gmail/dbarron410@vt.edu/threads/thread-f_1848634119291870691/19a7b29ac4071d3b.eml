@@ -1,0 +1,45 @@
+From: Minsun <msun.prime@vt.edu>
+To: David Barron <dbarron410@vt.edu>, Yan Chen <ychen.prime@vt.edu>,
+ Xiaohang <xhang.prime@vt.edu>
+Subject: Re: section B telemetry drop + hotfix (deployment #2)
+Date: Wed, 12 Nov 2025 22:02:00 -0500
+Message-ID:
+ <CAcdOxxXsU7D78MP1OCF_0icOoFFJXCC0NWrShSudYUR29yE1stf5Z@mail.gmail.com>
+In-Reply-To:
+ <CASjU4I5+0KKJf50OCXo+bPvPotHW3w5O72lPZq9Yu2p9zcfNvycly@mail.gmail.com>
+References:
+ <CAJn8DybQWYqeO65uftuMewjU64ZSY55eF9Afc0Qv34E+aYYbid+_T@mail.gmail.com>
+ <CASjU4I5+0KKJf50OCXo+bPvPotHW3w5O72lPZq9Yu2p9zcfNvycly@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1848634119291870691
+X-Gmail-Labels: Inbox,Opened
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+I'll add a `degraded=3Dtrue` column for those windows in the export. The rest=
+ of section B looked normal after 4:10.
+
+On Wed, Nov 12, 2025 at 9:15 PM Yan Chen <ychen.prime@vt.edu> wrote:
+> Thanks David, good catch and good fix. Agree with excluding the affected wi=
+ndows from agreement but flagging them. Please document the incident in the d=
+eployment log so we can describe it honestly in the paper.
+>
+> Yan
+>
+> On Wed, Nov 12, 2025 at 7:48 PM David Barron <dbarron410@vt.edu> wrote:
+>> Hi all,
+>>
+>> Quick report on today's deployment in CS 3114.
+>>
+>> - 87 students across two sections, 3 TAs. Consent opt-outs: 4.
+>> - Section B: the websocket reconnect logic didn't resend buffered events a=
+fter a dropped connection. Comparing client counters to the server log, we lo=
+st about 12% of section B's telemetry events between 3:30 and the hotfix at 4=
+:10 pm. Section A was unaffected.
+>> - Hotfix: the client now buffers events locally and replays them with sequ=
+ence numbers on reconnect; the server dedupes by (session, seq).
+>>
+>> For labeling, I propose we exclude section B windows from 3:30-4:10 from t=
+he agreement analysis but keep them in the dataset with a flag.
+>>
+>> David

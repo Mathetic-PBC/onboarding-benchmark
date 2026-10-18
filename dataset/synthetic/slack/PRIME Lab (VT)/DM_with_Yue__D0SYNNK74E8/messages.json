@@ -1,0 +1,79 @@
+[
+  {
+    "ts": "1774665032.626881",
+    "user": "U0SYNRUS5ER",
+    "user_name": "Yue",
+    "datetime": "2026-03-27 19:30:32 PDT",
+    "text": "for the video, do you want captions burned in or a separate .srt"
+  },
+  {
+    "ts": "1774665355.712980",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-03-27 19:35:55 PDT",
+    "text": "burned in, PCS strips sidecar files sometimes"
+  },
+  {
+    "ts": "1777603827.298808",
+    "user": "U0SYNRUS5ER",
+    "user_name": "Yue",
+    "datetime": "2026-04-30 19:50:27 PDT",
+    "text": "for the datasheet \"deidentification\" section: we remove names, emails and free-text comments, and hash ids. anything else?"
+  },
+  {
+    "ts": "1777604283.578566",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-04-30 19:58:03 PDT",
+    "text": "file paths in the IDE events, they sometimes contain usernames (`/Users/jsmith/...`). strip them to the basename"
+  },
+  {
+    "ts": "1777604438.672133",
+    "user": "U0SYNRUS5ER",
+    "user_name": "Yue",
+    "datetime": "2026-04-30 20:00:38 PDT",
+    "text": "oh good one"
+  },
+  {
+    "ts": "1781619354.926185",
+    "user": "U0SYNRUS5ER",
+    "user_name": "Yue",
+    "datetime": "2026-06-16 07:15:54 PDT",
+    "text": "labeling the cs 1114 windows with minsun today. 300 windows, stratified by state using my single-rater labels. ok?"
+  },
+  {
+    "ts": "1781619654.416308",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-06-16 07:20:54 PDT",
+    "text": "perfect, stratified is right. thank you for doing this in rebuttal week"
+  },
+  {
+    "ts": "1785020423.804649",
+    "user": "U0SYNRUS5ER",
+    "user_name": "Yue",
+    "datetime": "2026-07-25 16:00:23 PDT",
+    "text": "updating the datasheet \"splits\" paragraph: \"Splits are grouped by student; no student appears in more than one split. Version 1 splits (random by window) are deprecated because of leakage.\" ok?"
+  },
+  {
+    "ts": "1785021020.852739",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-07-25 16:10:20 PDT",
+    "text": "yes, and add the numbers: best baseline 0.81 → 0.74"
+  },
+  {
+    "ts": "1786682410.613266",
+    "user": "U0SYNRUS5ER",
+    "user_name": "Yue",
+    "datetime": "2026-08-13 21:40:10 PDT",
+    "text": "camera-ready: do we list my vt email or personal? acm wants one"
+  },
+  {
+    "ts": "1786682742.889439",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-08-13 21:45:42 PDT",
+    "text": "vt is fine"
+  }
+]

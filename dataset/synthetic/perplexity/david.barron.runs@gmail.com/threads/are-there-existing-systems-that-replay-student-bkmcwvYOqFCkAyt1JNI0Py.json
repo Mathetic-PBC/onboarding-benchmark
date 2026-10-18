@@ -1,0 +1,88 @@
+{
+ "uuid": "8edbcab9-ce91-4b79-9e89-8d4d611835fb",
+ "slug": "are-there-existing-systems-that-replay-student-bkmcwvYOqFCkAyt1JNI0Py",
+ "title": "Session replay tools for labeling programming behavior",
+ "thread_url": "https://www.perplexity.ai/search/are-there-existing-systems-that-replay-student-bkmcwvYOqFCkAyt1JNI0Py",
+ "created_at": "2026-03-24T05:10:00Z",
+ "updated_at": "2026-03-24T05:20:24Z",
+ "collection": {
+  "uuid": "eed80aee-0bf6-468d-9e04-939088cec800",
+  "title": "UIST related work"
+ },
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "654d9469-ae4d-4b13-9f97-b02eb3130d17",
+   "query_str": "are there existing systems that replay student coding sessions for instructors (not just for research labeling). need to make sure our replay contribution is new",
+   "answer": "There's prior work in three flavors [1][2][3]:\n\n**1. Research replay/annotation tools.** Tools that reconstruct code from keystroke logs so researchers can step through a session and annotate it. These are built for analysts, not instructors, and typically show only code — not assistant chat or run output [1].\n\n**2. Live-coding and classroom monitoring.** Systems that show instructors many students' editors in real time (grids of code, error counts). They support *live* oversight but usually not playback of a single student's process [2].\n\n**3. Process-based feedback / \"code playback\" in autograders.** Some platforms let instructors scrub through the history of a submission to check authorship or academic integrity [3].\n\n**What seems open:** a replay that **aligns editor activity, runs/tests, and LLM-assistant prompts on one timeline**, designed for TAs/instructors to understand *why* a student was stuck, and evaluated with instructors. The Ostrowski et al. L@S '25 paper used replay only as a labeling instrument [4].",
+   "sources": [
+    {
+     "name": "Reconstructing programming sessions from keystroke logs for analysis",
+     "url": "https://www.csedresearch.net/tools/session-reconstruction",
+     "snippet": "A research tool for stepping through code histories and annotating them."
+    },
+    {
+     "name": "Monitoring many novice programmers in real time",
+     "url": "https://www.hciedu-review.org/classroom-monitoring",
+     "snippet": "Instructor grids of live student code and errors."
+    },
+    {
+     "name": "Code playback for authorship verification",
+     "url": "https://www.computingeducationconf.org/papers/code-playback-integrity",
+     "snippet": "Using edit history to check submission authorship."
+    },
+    {
+     "name": "Productive Struggle or Silent Stalling? (Ostrowski et al., L@S '25)",
+     "url": "https://dl.acm.org/doi/10.1145/3698205.3729841",
+     "snippet": "Replay as a TA labeling instrument."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "sonar",
+   "created_at": "2026-03-24T05:10:00Z",
+   "updated_at": "2026-03-24T05:10:17Z"
+  },
+  {
+   "uuid": "a9ff1419-97a7-4219-a042-a4594a28bd38",
+   "query_str": "anything that does replay + ai chat on the same timeline specifically",
+   "answer": "I couldn't find a published system that does exactly that for instructors [1][2]. Closest are (a) learning-analytics dashboards that list a student's assistant prompts alongside submission history, but as separate panels without a shared timeline, and (b) research visualizations in papers that plot prompt events over keystroke activity as static figures [2]. Worth stating carefully in your paper: \"to our knowledge\" plus the closest two examples.",
+   "sources": [
+    {
+     "name": "AI assistant analytics for instructors: a design survey",
+     "url": "https://www.hciedu-review.org/ai-assistant-analytics",
+     "snippet": "Dashboards listing prompts and submissions as separate views."
+    },
+    {
+     "name": "Visualizing prompt and edit events in programming sessions",
+     "url": "https://www.csedresearch.net/papers/prompt-edit-visualization",
+     "snippet": "Static timeline figures combining assistant prompts and edits."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "pplx_pro",
+   "created_at": "2026-03-24T05:17:03Z",
+   "updated_at": "2026-03-24T05:17:19Z"
+  },
+  {
+   "uuid": "ccaef402-ba98-4a29-baa1-a5f5bdb12605",
+   "query_str": "ok and what do reviewers typically ask for an eval of a tool like this at uist",
+   "answer": "For an instructor-facing system at UIST, reviewers commonly expect [1][2]:\n- **A technical contribution description** (how the timeline is aligned, latency, scale) — UIST weighs the system itself.\n- **An evaluation with the target users**: a lab study with instructors/TAs on real sessions (task: diagnose why a student stalled), comparing against a baseline like raw logs or code-only replay.\n- **Label reliability** if you use labeled states — report agreement (e.g., kappa) among raters [2].\n- **Generalization**: whether it works beyond one course or one assistant, or a clear limitation statement.\n- **Privacy/ethics** of recording students.",
+   "sources": [
+    {
+     "name": "What UIST reviewers look for in systems papers",
+     "url": "https://www.hcipapersguide.org/uist-systems-reviewing",
+     "snippet": "Common expectations for systems contributions and evaluations."
+    },
+    {
+     "name": "Evaluating instructor tools: methods and pitfalls",
+     "url": "https://www.hciedu-review.org/evaluating-instructor-tools",
+     "snippet": "Study designs and baselines for teaching-support systems."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "claude-sonnet",
+   "created_at": "2026-03-24T05:20:00Z",
+   "updated_at": "2026-03-24T05:20:16Z"
+  }
+ ]
+}

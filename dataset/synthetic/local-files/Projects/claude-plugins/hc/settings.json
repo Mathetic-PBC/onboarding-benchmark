@@ -1,0 +1,20 @@
+{
+  "name": "hc",
+  "version": "0.13.1",
+  "compaction": {
+    "trigger_tokens": 170000,
+    "ask_focus_hint": true,
+    "keep_verbatim": [
+      "TODO block",
+      "failing test names",
+      "file paths touched",
+      "env var names"
+    ],
+    "max_summary_tokens": 6000
+  },
+  "rules_file": "hc-rules.md",
+  "log": {
+    "path": "logs/hc.jsonl",
+    "level": "info"
+  }
+}

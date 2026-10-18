@@ -1,0 +1,8 @@
+ISE 6664 final pres 4/30 — my part (models slide, ~2 min)
+
+- three approaches, same 600 annotated turns, 5-fold
+- lexicon 0.48: misses sarcasm ("great, another error")
+- fine-tuned 0.63: best, but needs labels
+- zero-shot LLM 0.59: over-predicts mild frustration on terse messages
+- takeaway: text alone gets you to ~0.6; timing features would help (TutorTrace-ish)
+- hand off to Jordan for the survival curve

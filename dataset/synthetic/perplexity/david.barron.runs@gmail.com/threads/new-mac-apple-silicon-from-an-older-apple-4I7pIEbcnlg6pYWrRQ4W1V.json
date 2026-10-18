@@ -1,0 +1,49 @@
+{
+ "uuid": "63e9d11e-03ac-42fd-9d8d-c1507d4d9313",
+ "slug": "new-mac-apple-silicon-from-an-older-apple-4I7pIEbcnlg6pYWrRQ4W1V",
+ "title": "Migrating Homebrew to a new Mac",
+ "thread_url": "https://www.perplexity.ai/search/new-mac-apple-silicon-from-an-older-apple-4I7pIEbcnlg6pYWrRQ4W1V",
+ "created_at": "2026-08-06T02:50:00Z",
+ "updated_at": "2026-08-06T02:55:08Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "2a57cb86-ba9b-4e40-8cbf-bc715789ce08",
+   "query_str": "new mac (apple silicon) from an older apple silicon one. best way to move homebrew stuff without migration assistant copying junk",
+   "answer": "Use a **Brewfile** to reinstall cleanly instead of copying `/opt/homebrew` [1][2]:\n\nOn the old Mac:\n```bash\nbrew bundle dump --file=~/Brewfile --describe\n```\nReview the file and delete anything you no longer use. Copy it over (AirDrop, iCloud, git dotfiles repo).\n\nOn the new Mac:\n```bash\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\nbrew bundle --file=~/Brewfile\n```\nThis installs formulae, casks and (optionally) Mac App Store apps listed via `mas` [1]. Things a Brewfile won't move: config files (`~/.zshrc`, `~/.gitconfig`, `~/.ssh` — copy those deliberately), language-version managers' installed versions (pyenv/nvm), and app-specific settings [2].",
+   "sources": [
+    {
+     "name": "Homebrew Bundle documentation",
+     "url": "https://docs.brew.sh/Brew-Bundle-and-Brewfile",
+     "snippet": "Dumping and restoring installed packages with a Brewfile."
+    },
+    {
+     "name": "Setting up a new Mac for development without Migration Assistant",
+     "url": "https://www.devsetupnotes.com/new-mac-clean-setup",
+     "snippet": "Dotfiles, SSH keys and what to copy manually."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-08-06T02:50:00Z",
+   "updated_at": "2026-08-06T02:50:18Z"
+  },
+  {
+   "uuid": "045f2dcd-2fc9-4ed4-a9e0-d17b09407c7a",
+   "query_str": "ssh keys — copy or make new ones",
+   "answer": "Either is fine; many people **generate new keys per machine** (`ssh-keygen -t ed25519`), add them to GitHub, and revoke the old machine's key when it's retired — so a lost or sold laptop can't access anything [1]. Copying `~/.ssh` works too, but then the same key lives on two machines.",
+   "sources": [
+    {
+     "name": "Managing SSH keys across machines",
+     "url": "https://www.devsetupnotes.com/ssh-keys",
+     "snippet": "Per-device keys versus copying existing keys."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-08-06T02:54:58Z",
+   "updated_at": "2026-08-06T02:55:06Z"
+  }
+ ]
+}

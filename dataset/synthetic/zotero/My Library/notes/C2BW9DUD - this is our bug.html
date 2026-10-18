@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>this is our bug</title>
+</head>
+<body>
+<div data-schema-version="9"><h1>IDETrace leakage - found 07-24</h1>
+<p><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FmyLibrary%2Fitems%2FGSEDVCQM%22%5D%7D%5D%7D">(<span class="citation-item">Ferreira and Kowalczyk, 2023</span>)</span> this paper describes exactly what happened: windows from the same student in train and test. random split over windows, sklearn default. ugh</p>
+<ul>
+<li>their off-task drop was 17 pts, struggle 14. ours: macro-F1 0.81 -&gt; 0.74 with GroupKFold on student_id. in line with them</li>
+<li>do the student-id probe they suggest and report it (my quick run: way above chance, ~0.5 top-1 over 160 students)</li>
+<li>rebuttal: report BOTH numbers, say we found it ourselves, cite this + Kaufman 2012</li>
+<li>fix split script: group by student id, then also hold out a lab section as a sanity check</li>
+</ul>
+</div>
+</body>
+</html>

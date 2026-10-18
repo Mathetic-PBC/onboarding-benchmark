@@ -1,0 +1,60 @@
+{
+  "issue": {
+    "id": "PIL-30",
+    "uuid": "9dc80618-7096-4026-8ac5-f63e16052d2a",
+    "title": "ChatGPT shared links create duplicate conversations",
+    "description": "A conversation opened from a shared link gets its own id in the export. Match on (title, hash of first user message, create_time within 1 s) and link it to the original instead of importing a second copy.",
+    "projectMilestone": null,
+    "priority": {
+      "value": 4,
+      "name": "Low"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-30/chatgpt-shared-links-create-duplicate-conversations",
+    "gitBranchName": "david/pil-30-chatgpt-shared-links-create-duplicate-conversations",
+    "createdAt": "2026-10-14T17:30:04.231Z",
+    "updatedAt": "2026-10-14T17:30:04.231Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Todo",
+    "statusType": "unstarted",
+    "labels": [
+      "Bug",
+      "Import"
+    ],
+    "createdBy": "David Barron",
+    "assignee": null,
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-30",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-14T17:30:04.231Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": []
+}

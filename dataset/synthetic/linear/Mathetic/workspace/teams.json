@@ -1,0 +1,16 @@
+{
+  "teams": [
+    {
+      "id": "137c7620-700e-4029-b71f-abf91cac1790",
+      "key": "PIL",
+      "parentId": null,
+      "displayName": "Pilots",
+      "icon": "Users",
+      "name": "Pilots",
+      "visibility": "public",
+      "createdAt": "2026-09-15T03:04:04.509Z",
+      "updatedAt": "2026-10-14T01:30:42.364Z"
+    }
+  ],
+  "hasNextPage": false
+}

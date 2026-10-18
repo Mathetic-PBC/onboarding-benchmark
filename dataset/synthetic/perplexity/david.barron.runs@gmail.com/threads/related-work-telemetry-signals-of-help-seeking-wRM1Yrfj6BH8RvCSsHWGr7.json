@@ -1,0 +1,104 @@
+{
+ "uuid": "b33e239d-a93e-4cf7-be51-012f21d83439",
+ "slug": "related-work-telemetry-signals-of-help-seeking-wRM1Yrfj6BH8RvCSsHWGr7",
+ "title": "Telemetry and help-seeking in LLM-assisted CS1",
+ "thread_url": "https://www.perplexity.ai/search/related-work-telemetry-signals-of-help-seeking-wRM1Yrfj6BH8RvCSsHWGr7",
+ "created_at": "2026-03-13T02:50:00Z",
+ "updated_at": "2026-03-13T03:04:10Z",
+ "collection": {
+  "uuid": "eed80aee-0bf6-468d-9e04-939088cec800",
+  "title": "UIST related work"
+ },
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "88cf73f6-ac76-4e62-b47b-2e145a8ddf29",
+   "query_str": "related work: telemetry signals of help seeking / struggle in intro programming with llm assistants. need papers from 2023-2025, prefer CHI/UIST/L@S/SIGCSE/ICER",
+   "answer": "Here are the main clusters, with representative work [1][2][3][4]:\n\n**1. Telemetry-based struggle detection (pre-LLM baseline).** Keystroke and compile/run logs have long been used to predict struggle, e.g., error-quotient style metrics and idle-time features in CS1. These give you the classic signals: repeated errors, long pauses after failures, rapid edit–run cycles [1].\n\n**2. Help-seeking with LLM assistants in CS1.**\n- *Ostrowski et al., \"Productive Struggle or Silent Stalling? Telemetry Signals of Help-Seeking in LLM-Assisted CS1\" (L@S '25)* — instrumented a CS1 course (N=212), TAs labeled 1,904 thirty-second windows as productive struggle / stalling / help-seeking / off-task; a gradient-boosted classifier reached ~0.71 macro-F1. Repeated near-identical prompts and idle gaps after errors predicted stalling [2].\n- Classroom studies of course-specific assistants with guardrails (no full solutions) report that students shift help-seeking from office hours to the assistant, and that a minority of students make most requests [3].\n\n**3. Instructor-facing tools.** Dashboards that surface struggling students in real time from editor telemetry; most are evaluated in lab settings, few in live lectures [4].\n\n**Gaps you could position against:** most work labels windows *offline* from logs; few systems let instructors or TAs see *replayed* struggle in context, and few combine editor telemetry with assistant prompts on the same timeline.",
+   "sources": [
+    {
+     "name": "Predicting novice programmer struggle from keystroke data: a review",
+     "url": "https://www.csedresearch.net/reviews/keystroke-struggle",
+     "snippet": "Survey of keystroke and compilation metrics used to detect struggling novices."
+    },
+    {
+     "name": "Productive Struggle or Silent Stalling? Telemetry Signals of Help-Seeking in LLM-Assisted CS1 (Ostrowski, Lindqvist, Bello, Chandrasekar — L@S '25)",
+     "url": "https://dl.acm.org/doi/10.1145/3698205.3729841",
+     "snippet": "N=212 CS1 students; 1,904 TA-labeled 30-second windows; stalling predicted by repeated near-identical prompts and idle gaps after errors."
+    },
+    {
+     "name": "Guardrailed AI teaching assistants in introductory programming: a semester deployment",
+     "url": "https://www.computingeducationconf.org/papers/guardrailed-ta-deployment",
+     "snippet": "Usage patterns and help-seeking shifts after deploying a course assistant."
+    },
+    {
+     "name": "Real-time instructor dashboards for programming classrooms",
+     "url": "https://www.hciedu-review.org/realtime-dashboards",
+     "snippet": "Overview of live dashboards built on editor telemetry and their evaluations."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "gpt-5",
+   "created_at": "2026-03-13T02:50:00Z",
+   "updated_at": "2026-03-13T02:50:32Z"
+  },
+  {
+   "uuid": "137b710f-811e-443b-b530-071479e74936",
+   "query_str": "the ostrowski one — is there an arxiv version too, numbers look slightly different in what i remember",
+   "answer": "Yes. There's an **arXiv preprint (v1, July 2025)** and the **L@S '25 camera-ready**; the numbers differ slightly [1][2]:\n- Classifier macro-F1: **0.69** in the arXiv v1 vs **0.71** in the camera-ready.\n- Inter-rater agreement (Cohen's kappa on a 10% overlap sample): **0.62** in v1 vs **0.64** in the camera-ready.\n\nCite the published L@S version in a paper, and use its numbers [2].",
+   "sources": [
+    {
+     "name": "arXiv:2507.01842v1 — Productive Struggle or Silent Stalling?",
+     "url": "https://arxiv.org/abs/2507.01842",
+     "snippet": "Preprint version, 3 Jul 2025."
+    },
+    {
+     "name": "ACM Digital Library — L@S '25 proceedings entry",
+     "url": "https://dl.acm.org/doi/10.1145/3698205.3729841",
+     "snippet": "Camera-ready version with updated results."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "pplx_pro",
+   "created_at": "2026-03-13T02:57:36Z",
+   "updated_at": "2026-03-13T02:57:50Z"
+  },
+  {
+   "uuid": "ab4e0d61-62f5-4b35-8494-e4125e1a8955",
+   "query_str": "do they do anything with replay or is it all offline classification",
+   "answer": "Based on the paper's method description, TAs labeled **replayed sessions** to produce the training labels, but the replay was a labeling instrument, not a system contribution or something instructors used live [1]. The contribution is the telemetry analysis and the classifier; the discussion recommends surfacing stalling flags as prompts for a human check-in rather than automatic interventions [1]. So a system that makes replay itself the instructor-facing interface would be a distinct contribution relative to this paper.",
+   "sources": [
+    {
+     "name": "Productive Struggle or Silent Stalling? (L@S '25), Method and Discussion",
+     "url": "https://dl.acm.org/doi/10.1145/3698205.3729841",
+     "snippet": "TA labeling from replayed sessions; recommendations for human check-ins."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "pplx_pro",
+   "created_at": "2026-03-13T03:00:14Z",
+   "updated_at": "2026-03-13T03:00:30Z"
+  },
+  {
+   "uuid": "2c4b0b73-d8a4-41e4-9554-290ea7aabf77",
+   "query_str": "ok give me a 3 sentence related work paragraph positioning against it",
+   "answer": "Recent work has begun to characterize help-seeking in LLM-assisted introductory programming from telemetry: Ostrowski et al. labeled 1,904 thirty-second windows from a 212-student CS1 course and showed that repeated near-identical prompts and idle gaps after errors predict stalling, reaching 0.71 macro-F1 [1]. Like most prior struggle-detection work [2], this analysis treats replay as an offline labeling instrument and outputs per-window classifications. In contrast, our system makes the replayed, aligned timeline of editor activity and assistant prompts the primary interface, so that instructors and TAs can inspect *why* a student stalled rather than only *that* they did.",
+   "sources": [
+    {
+     "name": "Productive Struggle or Silent Stalling? (L@S '25)",
+     "url": "https://dl.acm.org/doi/10.1145/3698205.3729841",
+     "snippet": "Window labels, features and classifier results."
+    },
+    {
+     "name": "Predicting novice programmer struggle from keystroke data: a review",
+     "url": "https://www.csedresearch.net/reviews/keystroke-struggle",
+     "snippet": "Offline classification as the dominant paradigm."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "pplx_pro",
+   "created_at": "2026-03-13T03:03:51Z",
+   "updated_at": "2026-03-13T03:04:08Z"
+  }
+ ]
+}

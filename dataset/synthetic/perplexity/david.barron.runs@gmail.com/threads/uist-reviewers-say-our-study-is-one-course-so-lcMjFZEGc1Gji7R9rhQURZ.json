@@ -1,0 +1,49 @@
+{
+ "uuid": "2420aa00-6317-4221-b92c-ae9257f149a2",
+ "slug": "uist-reviewers-say-our-study-is-one-course-so-lcMjFZEGc1Gji7R9rhQURZ",
+ "title": "Responding to \"only one course\" in a rebuttal",
+ "thread_url": "https://www.perplexity.ai/search/uist-reviewers-say-our-study-is-one-course-so-lcMjFZEGc1Gji7R9rhQURZ",
+ "created_at": "2026-06-16T04:20:00Z",
+ "updated_at": "2026-06-16T04:26:18Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "8160c10d-c37e-4c24-a997-d057513953ec",
+   "query_str": "uist reviewers say our study is one course so generalization is unclear. rebuttal is 2 days. what's a credible response that isnt overpromising",
+   "answer": "A credible rebuttal on generalization usually combines **acknowledgment, evidence you already have, and a bounded commitment** [1][2]:\n\n1. **Acknowledge directly**: \"We agree a single-course deployment limits claims about generalization.\"\n2. **Point to existing evidence**, if any: multiple sections, different TAs, variation in assignments, or a second smaller dataset. Even a modest additional analysis (e.g., results split by section) shows robustness within the data you have.\n3. **Commit to something feasible for camera-ready**: e.g., \"We will add a cross-course analysis on [dataset] and an explicit Limitations section scoping our claims to CS1-style courses.\" Only promise analyses you can finish in the camera-ready window [2].\n4. **Reframe the contribution** if appropriate: for a systems paper, the claim may be that the *technique* works, with deployment as a demonstration rather than a population-level finding [1].\n\nAvoid promising new user studies you can't run in time; program committees notice and it can hurt trust in the rest of the rebuttal [2].",
+   "sources": [
+    {
+     "name": "Writing effective HCI rebuttals",
+     "url": "https://www.hcipapersguide.org/rebuttals",
+     "snippet": "Structure and tone for responding to reviewer concerns."
+    },
+    {
+     "name": "What to promise (and not) in a conditional-accept rebuttal",
+     "url": "https://www.academicwritingguide.org/rebuttal-promises",
+     "snippet": "Feasible commitments for camera-ready revisions."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-06-16T04:20:00Z",
+   "updated_at": "2026-06-16T04:20:24Z"
+  },
+  {
+   "uuid": "9d718be3-ffe8-40bd-b9ef-936196cd5a6d",
+   "query_str": "reviewers also asked about label reliability. we have fleiss 0.71, 3 raters. enough to just state it?",
+   "answer": "State it with context: \"Three raters labeled all windows; agreement was substantial (Fleiss' κ = 0.71),\" plus **per-category agreement** or the main confusion (e.g., stalling vs productive struggle), and how disagreements were resolved (discussion, majority vote) [1]. If a reviewer specifically doubted reliability, adding one sentence on the calibration procedure helps more than the number alone [1].",
+   "sources": [
+    {
+     "name": "Reporting agreement for subjective annotations",
+     "url": "https://www.methodsforhci.org/reporting-agreement",
+     "snippet": "What to report beyond a single kappa value."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-06-16T04:25:39Z",
+   "updated_at": "2026-06-16T04:25:59Z"
+  }
+ ]
+}

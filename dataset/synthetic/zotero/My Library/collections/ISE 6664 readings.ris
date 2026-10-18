@@ -1,0 +1,170 @@
+TY  - BOOK
+TI  - Affective Computing
+AU  - Picard, Rosalind W.
+PY  - 1997
+DA  - 2026/01/14/
+PB  - MIT Press
+CY  - Cambridge, MA
+LA  - en
+KW  - affective computing
+ER  - 
+
+TY  - BOOK
+TI  - Emotional Design: Why We Love (or Hate) Everyday Things
+AU  - Norman, Donald A.
+PY  - 2004
+DA  - 2026/01/21/
+PB  - Basic Books
+CY  - New York
+LA  - en
+KW  - emotional design
+ER  - 
+
+TY  - JOUR
+TI  - A Circumplex Model of Affect
+AU  - Russell, James A.
+T2  - Journal of Personality and Social Psychology
+VL  - 39
+IS  - 6
+SP  - 1161
+EP  - 1178
+PY  - 1980
+DA  - 2026/01/27/
+LA  - en
+KW  - affect
+KW  - valence
+KW  - arousal
+ER  - 
+
+TY  - JOUR
+TI  - Dynamics of Affective States during Complex Learning
+AU  - D'Mello, Sidney
+AU  - Graesser, Art
+T2  - Learning and Instruction
+VL  - 22
+IS  - 2
+SP  - 145
+EP  - 157
+PY  - 2012
+DA  - 2026/02/03/
+LA  - en
+KW  - confusion
+KW  - affect dynamics
+ER  - 
+
+TY  - JOUR
+TI  - Frustration Markers in Text-Based Tutoring Dialogues: A Lexicon and Validation Study
+AU  - Albrecht, Selma
+AU  - Nwosu, Chidi
+T2  - International Journal of Artificial Intelligence in Education
+VL  - 32
+IS  - 4
+SP  - 901
+EP  - 930
+PY  - 2022
+DA  - 2026/02/03/
+AB  - We present a lexicon of 214 textual markers of frustration in learner turns of text-based tutoring dialogues, grouped into six categories. Markers were derived from 1,800 annotated dialogues and validated against in-session self-reports from 240 learners. A simple marker count correlated with self-reported frustration at r = 0.47, comparable to a fine-tuned classifier (r = 0.52) and far more interpretable. Repetition of a prior question with added negation was the single strongest marker.
+LA  - en
+KW  - frustration
+KW  - affect detection
+KW  - tutoring dialogue
+KW  - lexicon
+L1  - storage/2VQEJQPK/Albrecht and Nwosu - 2022 - Frustration Markers in Text-Based Tutoring Dialogues A Lexicon and Validation Study.pdf
+N1  - <div data-schema-version="9"><h1>ISE 6664 project - frustration in AI tutoring transcripts</h1><p><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FmyLibrary%2Fitems%2FM776BWFS%22%5D%7D%5D%7D">(<span class="citation-item">Albrecht and Nwosu, 2022</span>)</span> use their 6 categories as our first-pass codebook, adapted to code tutoring.</p><ul><li>repetition w negation strongest marker (OR 3.9). in our transcripts this looks like re-asking the assistant the same thing w &quot;no&quot; / &quot;still&quot;</li><li>terse replies ambiguous -&gt; baseline per learner (Jordan&#x27;s idea of z-scoring reply length per student)</li><li>r = 0.47 for marker counts, transformer 0.52. we don&#x27;t have self-reports so we validate against our own hand labels instead</li></ul><p>split: Maya takes lexicon adaptation, Jordan the per-student baselines, me the transcript sampling + coding tool</p></div>
+ER  - 
+
+TY  - JOUR
+TI  - Better to Be Frustrated than Bored: The Incidence, Persistence, and Impact of Learners' Cognitive-Affective States during Interactions with Three Different Computer-Based Learning Environments
+AU  - Baker, Ryan S. J. d.
+AU  - D'Mello, Sidney K.
+AU  - Rodrigo, Ma. Mercedes T.
+AU  - Graesser, Arthur C.
+T2  - International Journal of Human-Computer Studies
+VL  - 68
+IS  - 4
+SP  - 223
+EP  - 241
+PY  - 2010
+DA  - 2026/02/10/
+LA  - en
+KW  - boredom
+KW  - frustration
+ER  - 
+
+TY  - CPAPER
+TI  - Confusion Is Not Frustration: Distinguishing Epistemic Affect in Chat-Based Tutoring Logs
+AU  - Gallo, Marco
+AU  - Stein, Hedda
+T2  - Proceedings of the 16th International Conference on Educational Data Mining
+T3  - EDM '23
+SP  - 77
+EP  - 88
+PY  - 2023
+DA  - 2026/02/10/
+PB  - International Educational Data Mining Society
+CY  - Bengaluru, India
+AB  - Detectors of negative affect in tutoring logs often merge confusion and frustration. We annotated 6,200 learner turns from a chat-based statistics tutor with separate labels and found that the two states have different textual signatures and different consequences: confusion followed by a resolving explanation predicted higher post-test scores, while frustration did not. A detector that separates the two improves the usefulness of affect-triggered interventions.
+LA  - en
+KW  - confusion
+KW  - frustration
+KW  - epistemic emotions
+KW  - chat logs
+L1  - storage/TJUIPJCX/Gallo and Stein - 2023 - Confusion Is Not Frustration Distinguishing Epistemic Affect in Chat-Based Tutoring Logs.pdf
+N1  - <div data-schema-version="9"><p><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FmyLibrary%2Fitems%2FEQRTZG28%22%5D%7D%5D%7D">(<span class="citation-item">Gallo and Stein, 2023</span>)</span> key distinction for our codebook: confusion != frustration. resolved confusion is GOOD (6 pt post-test gain), frustration is not.</p><ul><li>confused cues: &quot;but&quot;, hedges, restating. frustrated: repetition, giving up, complaining about the tutor</li><li>they label &quot;both&quot; (230 turns). we should allow both too</li><li>Dr. Brooks will like this for the theory section (link to appraisal stuff from lecture 5)</li></ul></div>
+ER  - 
+
+TY  - JOUR
+TI  - The Role of Positive Emotions in Positive Psychology: The Broaden-and-Build Theory of Positive Emotions
+AU  - Fredrickson, Barbara L.
+T2  - American Psychologist
+VL  - 56
+IS  - 3
+SP  - 218
+EP  - 226
+PY  - 2001
+DA  - 2026/03/02/
+LA  - en
+KW  - positive emotions
+ER  - 
+
+TY  - CPAPER
+TI  - Apologies, Empathy, and Persistence: How Conversational Tutors' Affective Responses Shape Learner Effort
+AU  - Yamada, Kei
+AU  - Ortiz, Lucía
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+T3  - CHI '24
+SP  - 1
+EP  - 14
+PY  - 2024
+DA  - 2026/03/02/
+PB  - ACM
+CY  - Honolulu, HI, USA
+AB  - When a learner expresses frustration, a conversational tutor can ignore it, apologize, or acknowledge the feeling and reframe the difficulty. In a Wizard-of-Oz study with 96 participants solving logic puzzles, we compared these three response styles. Acknowledge-and-reframe increased the number of puzzles attempted after a failure by 28% relative to ignoring, while apologizing had no effect on persistence and lowered perceived tutor competence. Participants described scripted empathy as hollow when it repeated.
+LA  - en
+KW  - empathy
+KW  - conversational agents
+KW  - Wizard of Oz
+KW  - persistence
+L1  - storage/MACZTLLN/Yamada and Ortiz - 2024 - Apologies, Empathy, and Persistence How Conversational Tutors' Affective Responses Shape Learner Effort.pdf
+ER  - 
+
+TY  - CPAPER
+TI  - Designing for Recovery: Affective Design Patterns After Failure in Learning Software
+AU  - Whitfield, Nora
+T2  - Proceedings of the 2021 ACM Designing Interactive Systems Conference
+T3  - DIS '21
+SP  - 1250
+EP  - 1262
+PY  - 2021
+DA  - 2026/04/27/
+PB  - ACM
+CY  - Virtual Event, USA
+AB  - Learning software is full of failure: wrong answers, failed tests, broken builds. We reviewed 41 learning applications and interviewed 12 designers to collect patterns for the moment after a learner fails. We describe nine patterns, from "name the next smallest step" to "make the failure cheap to retry", and discuss their affective rationale with reference to broaden-and-build theory and emotional design.
+LA  - en
+KW  - affective design
+KW  - design patterns
+KW  - failure
+KW  - learning software
+L1  - storage/FXW69H4W/Whitfield - 2021 - Designing for Recovery Affective Design Patterns After Failure in Learning Software.pdf
+ER  - 
+

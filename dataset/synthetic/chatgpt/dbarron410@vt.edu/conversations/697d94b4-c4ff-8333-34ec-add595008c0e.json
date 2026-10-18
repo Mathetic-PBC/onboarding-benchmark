@@ -1,0 +1,219 @@
+{
+ "title": "Untitled",
+ "create_time": 1769837748.12,
+ "update_time": 1769837973.6471217,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "e783ce57-0cef-4e2c-9521-471d3fc4b9de"
+   ]
+  },
+  "e783ce57-0cef-4e2c-9521-471d3fc4b9de": {
+   "id": "e783ce57-0cef-4e2c-9521-471d3fc4b9de",
+   "message": {
+    "id": "e783ce57-0cef-4e2c-9521-471d3fc4b9de",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1769837748.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4. im black, rated ~1650 rapid. this is the najdorf with bg5 and i always get crushed. is there a simpler line for black or should i just not play the najdorf"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_959ca47a95794eca7de7202b5f",
+     "message_source": null,
+     "turn_exchange_id": "271a2390-0330-46e9-9e2d-9609aad4591c",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "e2cf498e-84c5-4747-a714-47b33659f1a9"
+   ]
+  },
+  "e2cf498e-84c5-4747-a714-47b33659f1a9": {
+   "id": "e2cf498e-84c5-4747-a714-47b33659f1a9",
+   "message": {
+    "id": "e2cf498e-84c5-4747-a714-47b33659f1a9",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1769837759.986,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "At 1650 rapid, the 6.Bg5 Najdorf is a very sharp line where memorized theory matters a lot, and if you get crushed there regularly, it's reasonable to sidestep it.\n\n**If you want to keep the Najdorf:** the most practical answer to 6.Bg5 at club level is **6…e6 7.f4 Qc7** or **7…Be7** with …Qc7, …Nbd7, …b5. These are more solid than the Poisoned Pawn (7…Qb6) and the plans are easier to learn: castle or keep the king in the center, play …b5–b4 to hit the c3 knight, and don't grab material early.\n\n**If you want something simpler against 1.e4 overall:**\n- **Classical Sicilian (2…Nc6 and …d6 without …a6):** 6.Bg5 is the Richter-Rauzer, also theoretical but more positional.\n- **Taimanov / Kan (2…e6):** flexible, fewer forced lines, less exposure to Bg5 attacks.\n- **Caro-Kann (1…c6):** if you'd rather not play the Sicilian at all; solid, structurally simple.\n\nA middle path: play **2…e6** and go Kan/Taimanov. You keep Sicilian-style counterplay without facing the Bg5 complex."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_959ca47a95794eca7de7202b5f",
+     "message_type": "next",
+     "turn_exchange_id": "271a2390-0330-46e9-9e2d-9609aad4591c",
+     "model_slug": "gpt-5-2",
+     "default_model_slug": "gpt-5-2",
+     "resolved_model_slug": "gpt-5-2",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "e783ce57-0cef-4e2c-9521-471d3fc4b9de"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "e783ce57-0cef-4e2c-9521-471d3fc4b9de",
+   "children": [
+    "a01250b7-e46b-4895-90af-6e7e1d603e79"
+   ]
+  },
+  "a01250b7-e46b-4895-90af-6e7e1d603e79": {
+   "id": "a01250b7-e46b-4895-90af-6e7e1d603e79",
+   "message": {
+    "id": "a01250b7-e46b-4895-90af-6e7e1d603e79",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1769837953.986,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "kan it is. whats the main plan"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_f3bca1936b9ae7b78731a8d90f",
+     "message_source": null,
+     "turn_exchange_id": "a297d9be-fe67-4a52-a5d0-786ee4bdec7d",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "e2cf498e-84c5-4747-a714-47b33659f1a9",
+   "children": [
+    "3dba7de5-d4bc-4681-b423-7a9528ff248e"
+   ]
+  },
+  "3dba7de5-d4bc-4681-b423-7a9528ff248e": {
+   "id": "3dba7de5-d4bc-4681-b423-7a9528ff248e",
+   "message": {
+    "id": "3dba7de5-d4bc-4681-b423-7a9528ff248e",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1769837971.81,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Kan (1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6):\n- Develop flexibly: …Qc7, …Nf6, …b5, …Bb7, …d6 or …d5 depending on White's setup.\n- Against 5.Bd3 (most common), …Bc5 or …Nf6 with …Qc7; aim for …d6 and a hedgehog-like structure if White plays c4.\n- Typical breaks: …b5–b4, …d5 once you're developed, or …Nc6 to trade White's strong d4 knight.\n- Don't rush …d5 before castling; the e-file opens toward your king.\n\nPlay 10–15 games and review where you're losing."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_f3bca1936b9ae7b78731a8d90f",
+     "message_type": "next",
+     "turn_exchange_id": "a297d9be-fe67-4a52-a5d0-786ee4bdec7d",
+     "model_slug": "gpt-5-2",
+     "default_model_slug": "gpt-5-2",
+     "resolved_model_slug": "gpt-5-2",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "a01250b7-e46b-4895-90af-6e7e1d603e79"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "a01250b7-e46b-4895-90af-6e7e1d603e79",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "3dba7de5-d4bc-4681-b423-7a9528ff248e",
+ "plugin_ids": null,
+ "conversation_id": "697d94b4-c4ff-8333-34ec-add595008c0e",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-2",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "697d94b4-c4ff-8333-34ec-add595008c0e"
+}

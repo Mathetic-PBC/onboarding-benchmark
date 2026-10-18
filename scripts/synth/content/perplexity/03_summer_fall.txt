@@ -1,0 +1,487 @@
+### CONV student-level-leakage-edm
+title: Student-level data leakage in educational ML
+start: 2026-05-04 23:30
+projects: project_idetrace
+---
+@user
+for a dataset paper on student coding sessions (30s windows), should train/test be split by window, session, or student? what do EDM papers do
+@assistant
+**Split by student** for the main benchmark split [1][2]. Windows from the same student share idiosyncrasies (typing rhythm, coding style, which bugs they make), so a window-level or even session-level random split lets a model recognize the *student* rather than the behavior, inflating scores.
+
+What the literature shows [1][2][3]:
+- Studies that compared splits on educational log data report sizeable drops in performance when moving from random-row to student-level splits; the gap is larger for models with many features or deep models that can memorize individuals [1].
+- Many EDM/L@S papers now use **grouped cross-validation by student** (e.g., `GroupKFold` with student id as the group) and call out leakage explicitly [2].
+- Ostrowski et al. (L@S '25) reported both a session-level result and the drop when same-student windows were kept out of the comparison baseline, precisely to make leakage visible [3].
+
+For a NeurIPS Datasets & Benchmarks submission, reviewers will also look for: the split files released with the dataset, the grouping variable documented in the datasheet, and baselines reported on the official split [2].
+[src] The cost of ignoring student identity in educational data splits | https://www.edmreviewjournal.org/student-level-splits | Performance comparison of random-row vs student-grouped splits on log data.
+[src] Evaluation practices in educational data mining: a review | https://www.edmreviewjournal.org/evaluation-practices | Grouped cross-validation and leakage reporting in recent EDM papers.
+[src] Productive Struggle or Silent Stalling? (Ostrowski et al., L@S '25) | https://dl.acm.org/doi/10.1145/3698205.3729841 | Reports the drop when same-student windows are excluded from the baseline.
+@user +4m
+in sklearn whats the cleanest way. i also want the label distribution roughly balanced across folds
+@assistant
+Use **`StratifiedGroupKFold`** (scikit-learn ≥ 1.0) [1]:
+
+```python
+from sklearn.model_selection import StratifiedGroupKFold
+cv = StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=0)
+for train_idx, test_idx in cv.split(X, y, groups=df["student_id"]):
+    assert set(df.student_id.iloc[train_idx]).isdisjoint(df.student_id.iloc[test_idx])
+```
+
+It keeps each student in exactly one fold while trying to balance class proportions. For a single fixed train/test split, take one fold as test, or use `GroupShuffleSplit` and check the label distribution afterwards [1][2]. Keep the assertion in your pipeline — it's the cheapest leakage test there is.
+[src] scikit-learn — StratifiedGroupKFold | https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedGroupKFold.html | Cross-validator with non-overlapping groups and stratification.
+[src] Practical leakage checks for ML pipelines | https://www.mlpitfalls.net/leakage-checks | Assertions and audits to catch train/test contamination.
+@user +2m
+should i also group by course section or is student enough
+@assistant
+Student-level grouping is the minimum. If you want to claim generalization to **new classrooms**, also report a **leave-one-section-out** (or leave-one-course-out) split as a secondary evaluation, since sections differ in instructor, assignment timing and TA behavior [1]. Many benchmark papers report an "in-distribution" student split and an "out-of-distribution" section/course split side by side [1][2].
+[src] Evaluation practices in educational data mining: a review | https://www.edmreviewjournal.org/evaluation-practices | Out-of-distribution evaluation by course or section.
+[src] Datasets and benchmarks for learning analytics: recommended splits | https://www.learninganalyticsbench.org/recommended-splits | ID vs OOD splits in education benchmarks.
+
+### CONV croissant-metadata-neurips
+title: Croissant metadata for NeurIPS D&B
+start: 2026-05-05 22:15
+projects: project_idetrace
+---
+@user
+neurips datasets and benchmarks track — do i need croissant metadata and how long does it take to make
+@assistant
+Recent NeurIPS Datasets & Benchmarks calls have **required a Croissant metadata file** describing the dataset (with Responsible AI fields) for submissions that introduce data, along with hosting the data somewhere reviewers can access [1][2]. Check this year's call for the exact requirement and deadline wording.
+
+Effort: if your data is on a platform that generates Croissant automatically (several dataset hubs do), it's minutes plus editing descriptions. Writing it by hand for a custom layout (e.g., sessions → windows → labels CSVs) usually takes **a few hours**: define the file objects, the record sets and fields, then validate with the official checker [2][3]. Leave time for the RAI fields (collection process, consent, known biases) — they overlap with your datasheet, so write those once and reuse.
+[src] NeurIPS Datasets and Benchmarks Track — call for papers | https://neurips.cc/Conferences/2026/CallForDatasetsBenchmarks | Submission requirements including metadata and hosting.
+[src] Croissant: a metadata format for ML datasets — overview | https://mlcommons.org/working-groups/data/croissant/ | Format description and Responsible AI extension.
+[src] Writing Croissant metadata by hand: a walkthrough | https://www.mldatasetguides.org/croissant-walkthrough | Step-by-step example with validation.
+@user +3m
+deadline is tomorrow lol. minimum viable version?
+@assistant
+Minimum viable: one Croissant JSON-LD with (1) dataset name, description, license, URL, citation; (2) a `FileObject`/`FileSet` for each CSV; (3) one `RecordSet` per table with typed fields (`student_id`, `session_id`, `window_start`, `label`); (4) the required RAI fields filled briefly. Run the validator and fix errors until it passes [1]. Polish descriptions during the rebuttal period if the venue allows updating the hosted metadata.
+[src] Writing Croissant metadata by hand: a walkthrough | https://www.mldatasetguides.org/croissant-walkthrough | Minimal required fields and validation workflow.
+
+### CONV rebuttal-generalization-one-course
+title: Responding to "only one course" in a rebuttal
+start: 2026-06-16 00:20
+projects: project_tutortrace
+---
+@user
+uist reviewers say our study is one course so generalization is unclear. rebuttal is 2 days. what's a credible response that isnt overpromising
+@assistant
+A credible rebuttal on generalization usually combines **acknowledgment, evidence you already have, and a bounded commitment** [1][2]:
+
+1. **Acknowledge directly**: "We agree a single-course deployment limits claims about generalization."
+2. **Point to existing evidence**, if any: multiple sections, different TAs, variation in assignments, or a second smaller dataset. Even a modest additional analysis (e.g., results split by section) shows robustness within the data you have.
+3. **Commit to something feasible for camera-ready**: e.g., "We will add a cross-course analysis on [dataset] and an explicit Limitations section scoping our claims to CS1-style courses." Only promise analyses you can finish in the camera-ready window [2].
+4. **Reframe the contribution** if appropriate: for a systems paper, the claim may be that the *technique* works, with deployment as a demonstration rather than a population-level finding [1].
+
+Avoid promising new user studies you can't run in time; program committees notice and it can hurt trust in the rest of the rebuttal [2].
+[src] Writing effective HCI rebuttals | https://www.hcipapersguide.org/rebuttals | Structure and tone for responding to reviewer concerns.
+[src] What to promise (and not) in a conditional-accept rebuttal | https://www.academicwritingguide.org/rebuttal-promises | Feasible commitments for camera-ready revisions.
+@user +5m
+reviewers also asked about label reliability. we have fleiss 0.71, 3 raters. enough to just state it?
+@assistant
+State it with context: "Three raters labeled all windows; agreement was substantial (Fleiss' κ = 0.71)," plus **per-category agreement** or the main confusion (e.g., stalling vs productive struggle), and how disagreements were resolved (discussion, majority vote) [1]. If a reviewer specifically doubted reliability, adding one sentence on the calibration procedure helps more than the number alone [1].
+[src] Reporting agreement for subjective annotations | https://www.methodsforhci.org/reporting-agreement | What to report beyond a single kappa value.
+
+### CONV inner-sunset-vs-mission-runner
+title: Inner Sunset vs Mission for a runner without a car
+start: 2026-07-14 21:40
+projects: project_none
+---
+@user
+moving to sf in august, no car, i run a lot. inner sunset vs mission vs somewhere else? budget ~1800 for a room
+@assistant
+For a runner without a car, the main trade-offs are **park access, fog/weather, and transit** [1][2]:
+
+**Inner Sunset**
+- Next to **Golden Gate Park** — miles of soft-surface and paved loops, easy long runs to Ocean Beach [1].
+- Foggier and cooler, especially in summer; quieter, more residential.
+- N-Judah light rail downtown; slower to the east side of the city.
+- Rooms at your budget are common in shared flats [2].
+
+**Mission**
+- Sunniest, warmest neighborhood; lots of food and nightlife.
+- **Dolores Park** is close but small; longer runs mean heading to the Embarcadero or up to Twin Peaks (hilly) [1].
+- Best transit hub: BART plus several Muni lines — good if you commute to SoMa or the East Bay.
+- Rooms around $1,600–2,000 are typical, often in older flats [2].
+
+**Also consider:** **Inner Richmond** (north side of GGP, similar to Inner Sunset, slightly cheaper), **Cole Valley/Haight** (between GGP and transit), and **Marina/Cow Hollow** (flat waterfront running to the Golden Gate Bridge, but pricier) [2][3].
+
+If running is your top priority, Inner Sunset or Inner Richmond is the strongest pick.
+[src] Running in San Francisco: best neighborhoods for runners | https://www.sfrunningguide.com/neighborhoods | Park access and terrain by neighborhood.
+[src] San Francisco room rental price survey | https://www.bayarearentals.info/sf-room-prices | Typical room prices by neighborhood.
+[src] SF microclimates explained | https://www.sfweatherwise.com/microclimates | Fog and temperature differences across the city.
+@user +6m
+im going to be in a house in soma-ish area actually (incubator) for the first months. where do people run from there
+@assistant
+From SoMa the go-to options are [1][2]:
+- **Embarcadero waterfront** — flat, out-and-back north past the Ferry Building toward Fort Mason/Crissy Field; 10–20 km easily.
+- **Mission Creek / China Basin paths** — short loops near the ballpark.
+- **Crissy Field to the Golden Gate Bridge** — the classic long run; ~8 km each way from the Ferry Building.
+- Weekends: Muni to **Golden Gate Park** for soft surfaces.
+[src] Running in San Francisco: best neighborhoods for runners | https://www.sfrunningguide.com/neighborhoods | Waterfront routes from downtown.
+[src] Classic SF running routes | https://www.sfrunningguide.com/routes | Embarcadero, Crissy Field and Golden Gate Bridge routes with distances.
+@user +2m
+how bad is the fog for running in august
+@assistant
+August is peak fog season on the west side (Sunset, Richmond, Ocean Beach): mornings are often gray, windy and ~13–16 °C [1]. The east side (SoMa, Mission, Embarcadero) clears more often by late morning. For running it's actually pleasant — cool and humid — just bring a light layer and expect wind on the waterfront [1].
+[src] SF microclimates explained | https://www.sfweatherwise.com/microclimates | Summer fog patterns by neighborhood.
+
+### CONV sublet-scam-signs-sf
+title: Signs of a sublet scam in SF
+start: 2026-07-21 22:05
+projects: project_none
+mode: CONCISE
+---
+@user
+signs a sf sublet listing is a scam. guy wants deposit via zelle before showing, says hes abroad
+@assistant
+That combination hits the **two biggest red flags** [1][2]: the "landlord" is unavailable/abroad, and they want money via a non-reversible method (Zelle, wire, crypto, gift cards) **before you see the place**. Other common signs:
+- Rent well below market for the area.
+- Photos that appear on other listings (reverse-image search them).
+- Pressure to decide fast; refusal to video-call from inside the unit.
+- No lease or a generic template with no address details [2].
+
+Don't send money. Ask for a live video walkthrough and verify ownership (county property records) before any payment, and use a method with buyer protection [1].
+[src] How to spot rental scams | https://consumer.ftc.gov/articles/rental-listing-scams | Common rental-scam tactics and how to protect yourself.
+[src] Avoiding sublet scams in the Bay Area | https://www.bayarearentals.info/sublet-scams | Local red flags and verification steps.
+
+### CONV reporting-f1-drop-after-leakage-fix
+title: Reporting a metric drop after fixing leakage
+start: 2026-07-25 23:10
+projects: project_idetrace
+---
+@user
+found a leakage bug in our neurips d&b submission — same students in train and test. fixed with group split by student id, macro f1 0.81 -> 0.74. rebuttal is in 4 days. how do i report this without tanking the paper
+@assistant
+Report it **proactively and transparently** — reviewers generally respond better to authors who find and fix their own leakage than to ones who get caught [1][2]. A structure that works:
+
+1. **Lead with the correction:** "During the rebuttal period we identified that our random window-level split placed windows from the same student in both train and test. We re-ran all baselines with a split grouped by student id."
+2. **Report both numbers** in a small table: original (leaky) 0.81 vs corrected 0.74 macro-F1, for each baseline. Showing all baselines dropping similarly signals the issue was the split, not a single model [2].
+3. **Explain why the corrected number matters for a benchmark:** student-grouped evaluation measures generalization to unseen learners, which is the intended use case [1].
+4. **Commit to updating the official split** in the released dataset and the datasheet, and add a leakage-check script to the repo.
+
+For a datasets paper, the contribution is the dataset and its evaluation protocol; a lower but honest number on a well-defined split arguably *strengthens* it [2].
+[src] Leakage and reproducibility in ML-based science | https://www.mlpitfalls.net/leakage-reproducibility | How leakage inflates results and how to report corrections.
+[src] Responding to reviewers when your results change | https://www.academicwritingguide.org/results-changed | Strategies for transparent corrections during review.
+@user +5m
+should the 0.81 stay anywhere in the camera ready
+@assistant
+Usually only in a brief note or appendix if at all — e.g., "an earlier version used a window-level split, which overestimated performance (0.81); all reported results use the student-grouped split." Including it once is useful as a **cautionary data point for others using the dataset**, but the headline results should be the corrected ones [1].
+[src] Leakage and reproducibility in ML-based science | https://www.mlpitfalls.net/leakage-reproducibility | Documenting corrected evaluations.
+
+### CONV golden-gate-park-loops
+title: Golden Gate Park running loops
+start: 2026-08-02 08:15
+projects: project_endurance_training
+space: Training
+---
+@user
+golden gate park running loops with distances, need something for 75-90 min zone 2 runs
+@assistant
+Common routes for long easy runs in Golden Gate Park [1][2]:
+- **Full park out-and-back (Stanyan to Ocean Beach and back):** about **10 km / 6.2 mi** round trip along JFK Drive or the parallel paths. Add the beach path for more.
+- **JFK Drive + MLK Drive loop:** roughly **11–12 km / 7 mi** around the park's perimeter roads; mostly gentle grades.
+- **Soft-surface options:** the bridle paths and the track around the polo field (~1.1 km per lap of the outer path) are easier on legs [2].
+- **Extending to 90 min:** park loop plus Ocean Beach (Great Highway path) south toward Sloat and back adds 5–8 km [1].
+
+At Zone 2 pace, a park loop plus a beach out-and-back typically fills 75–90 minutes.
+[src] Golden Gate Park running guide | https://www.sfrunningguide.com/golden-gate-park | Main loops, distances and surfaces in the park.
+[src] Classic SF running routes | https://www.sfrunningguide.com/routes | Ocean Beach and Great Highway extensions.
+@user +3m
+any water fountains along those
+@assistant
+Yes — there are drinking fountains near the main museum concourse, the polo field, the Beach Chalet area at the ocean end, and several playgrounds along JFK [1]. Some are seasonal or occasionally out of order, so on 90-minute runs carry a soft flask as backup [1].
+[src] Golden Gate Park running guide | https://www.sfrunningguide.com/golden-gate-park | Water fountains and restrooms along routes.
+
+### CONV migrate-homebrew-new-mac
+title: Migrating Homebrew to a new Mac
+start: 2026-08-05 22:50
+projects: project_none
+---
+@user
+new mac (apple silicon) from an older apple silicon one. best way to move homebrew stuff without migration assistant copying junk
+@assistant
+Use a **Brewfile** to reinstall cleanly instead of copying `/opt/homebrew` [1][2]:
+
+On the old Mac:
+```bash
+brew bundle dump --file=~/Brewfile --describe
+```
+Review the file and delete anything you no longer use. Copy it over (AirDrop, iCloud, git dotfiles repo).
+
+On the new Mac:
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew bundle --file=~/Brewfile
+```
+This installs formulae, casks and (optionally) Mac App Store apps listed via `mas` [1]. Things a Brewfile won't move: config files (`~/.zshrc`, `~/.gitconfig`, `~/.ssh` — copy those deliberately), language-version managers' installed versions (pyenv/nvm), and app-specific settings [2].
+[src] Homebrew Bundle documentation | https://docs.brew.sh/Brew-Bundle-and-Brewfile | Dumping and restoring installed packages with a Brewfile.
+[src] Setting up a new Mac for development without Migration Assistant | https://www.devsetupnotes.com/new-mac-clean-setup | Dotfiles, SSH keys and what to copy manually.
+@user +4m
+ssh keys — copy or make new ones
+@assistant
+Either is fine; many people **generate new keys per machine** (`ssh-keygen -t ed25519`), add them to GitHub, and revoke the old machine's key when it's retired — so a lost or sold laptop can't access anything [1]. Copying `~/.ssh` works too, but then the same key lives on two machines.
+[src] Managing SSH keys across machines | https://www.devsetupnotes.com/ssh-keys | Per-device keys versus copying existing keys.
+
+### CONV preseed-investor-retention-questions
+title: What angels ask about retention at pre-seed
+start: 2026-08-19 22:30
+projects: project_mathetic_company
+---
+@user
+first call with an angel tomorrow. pre-seed, research notebook tool, ~3 pilot users. what will they ask about retention and "who pays", and what's a good answer when we basically have no data
+@assistant
+At pre-seed with a handful of pilots, investors know you don't have retention curves; they're testing **whether you understand what retention would mean and how you'll learn it** [1][2]. Likely questions:
+
+**Retention**
+- "How often does a user come back, and why?" — have a concrete *usage loop* (e.g., "a researcher returns when starting a new writing session and needs to find where an idea came from").
+- "What would good retention look like for you?" — name a metric (weekly active researchers, notebooks revisited per week) and a target for the next 3 months [1].
+- "What happened with the pilots?" — anecdotes are fine if specific: what they did in week 2, not just week 1.
+
+**Who pays**
+- Individual researchers (prosumer subscription) vs labs/departments (seat licenses) vs institutions. Pick a primary hypothesis and say what would change your mind [2].
+- Willingness-to-pay evidence: even "2 of 3 pilots said they'd pay $X" or a pre-order is useful.
+
+**Good answer when there's no data:** "We don't have retention data yet. Our plan is X pilots by [date], measuring Y weekly; we'll know by [date] whether the loop works." Specific learning plans beat inflated numbers [1][3].
+[src] What angel investors look for at pre-seed | https://www.startupfundingnotes.com/preseed-angels | Founder, insight and learning-plan focus at the earliest stage.
+[src] Pricing hypotheses for B2B and prosumer tools | https://www.saaspricingguide.com/prosumer-vs-team | Choosing between individual and team pricing early on.
+[src] Talking about traction when you don't have any | https://www.startupfundingnotes.com/no-traction-yet | Framing pilots and learning milestones honestly.
+@user +3m
+what retention metric makes sense for a notebook people use in bursts (paper deadlines)
+@assistant
+For bursty usage, weekly active rates look noisy. Better options [1]:
+- **Monthly active researchers** or **"active in N of last 4 weeks"**.
+- **Return-on-trigger**: share of users who come back at their next writing burst (e.g., within 7 days of creating a new project/draft).
+- **Depth per session**: notebooks revisited or sources traced per active week, which captures value even when frequency is irregular.
+Say explicitly that usage is deadline-driven and that you measure retention across bursts, not week to week [1].
+[src] Measuring retention for episodic-use products | https://www.saasmetricsnotes.com/episodic-retention | Alternatives to weekly retention for irregular-use tools.
+
+### CONV grocery-stores-mission-mealprep
+title: Grocery stores near Mission Dolores for meal prep
+start: 2026-08-27 19:40
+projects: project_none
+mode: CONCISE
+---
+@user
+cheap grocery stores near mission dolores / soma for weekly meal prep (rice, chicken, frozen veg, eggs)
+@assistant
+Good budget options around the Mission and SoMa [1][2]:
+- **Discount grocery chains with SoMa locations** — usually the cheapest for staples like rice, eggs and frozen vegetables.
+- **Independent produce markets on Mission Street (16th–24th)** — very cheap fruit and vegetables, good for weekly bulk buys.
+- **Large-format supermarkets near the SoMa/Mission edge** — wider selection, frequent sales on chicken thighs.
+- **Warehouse club** (membership) south of Market — worth it for bulk rice, frozen chicken and eggs if you have space and a way to carry it [2].
+Tip: produce on Mission Street plus staples from a discount chain usually beats one-stop shopping on price [1].
+[src] Budget grocery shopping in San Francisco | https://www.sfcheapeats.com/grocery-guide | Neighborhood-by-neighborhood guide to affordable stores.
+[src] Warehouse clubs vs supermarkets: unit price comparison | https://www.budgetkitchenlab.com/warehouse-vs-supermarket | When bulk buying saves money.
+
+### CONV elena-park-background
+title: Elena Park research background
+start: 2026-09-06 23:00
+projects: project_berkeley_research_chats
+space: Berkeley chats prep
+---
+@user
+background on elena park, phd student at uc berkeley (learning sciences / education). what does she work on, any papers. i have a research chat with her wednesday
+@assistant
+Based on public pages, **Elena Park** is a PhD student in UC Berkeley's Graduate School of Education working in the learning sciences, with interests in **how students build explanations while working with computational tools** and in **classroom discourse around AI-generated feedback** [1][2].
+
+What's visible publicly:
+- A **lab/group page** lists her projects on students' self-explanations in introductory data science activities and on how teachers mediate AI feedback in classrooms [1].
+- A **conference poster/short paper** (learning-sciences venue, 2025) on coding students' written reflections after receiving automated hints, using a qualitative codebook [2].
+- A **workshop paper** on design-based research methods for studying AI tools in classrooms [3].
+
+Possible conversation hooks:
+- Her qualitative coding of student reflections vs your labeled telemetry windows — how each approach defines "struggle."
+- How she keeps track of evolving codebooks and memos over a long project (relevant to research-notebook needs).
+- Design-based research cycles and where notes and decisions get lost.
+
+I couldn't verify a full publication list; check her Google Scholar or lab page before the call.
+[src] Berkeley School of Education — learning sciences group, people | https://bse.berkeley.edu/learning-sciences/people | Graduate student profiles and project descriptions.
+[src] Students' written reflections after automated hints (poster abstract) | https://www.learningsciencesconf.org/2025/posters/reflections-after-hints | Qualitative analysis of student reflections following automated hints.
+[src] Design-based research with classroom AI tools (workshop paper) | https://www.learningsciencesconf.org/2025/workshops/dbr-ai-tools | Methods for iterative classroom studies of AI tools.
+@user +4m
+what does design based research actually involve in practice, so i dont sound dumb
+@assistant
+**Design-based research (DBR)** studies learning by iteratively designing an intervention in a real setting, testing it, and refining both the design and the theory behind it [1]. In practice:
+- **Cycles**: design → implement in a real classroom → collect data (observations, artifacts, interviews, logs) → analyze → revise; often 2–4 cycles over a year or more.
+- **Dual goals**: improve the intervention *and* produce "humble theory" about how learning works in that context.
+- **Heavy documentation**: design conjectures, field notes and analytic memos accumulate across cycles; tracking *why* a design changed is a known pain point [1][2].
+Good question to ask her: how she records design decisions between cycles.
+[src] Design-based research: an introduction | https://www.learningsciencesreview.org/design-based-research | Principles and typical cycle structure.
+[src] Documenting design decisions in DBR projects | https://www.learningsciencesreview.org/dbr-documentation | Conjecture maps, memos and decision logs.
+
+### CONV semi-structured-interview-30min
+title: Running a 30-minute semi-structured research interview
+start: 2026-09-08 21:20
+projects: project_berkeley_research_chats
+space: Berkeley chats prep
+---
+@user
+how to run a 30 min semi structured interview with phd students about how they keep track of research ideas. we're building a tool but i dont want it to be a sales pitch
+@assistant
+A structure that fits 30 minutes and avoids pitching [1][2]:
+
+**0–3 min — Framing.** Say you're trying to understand how researchers work, there are no right answers, and you'll ask permission before recording. Don't describe your product.
+
+**3–20 min — Recent concrete episodes.** Ask about *specific recent* behavior rather than opinions:
+- "Think of the last time you had an idea for a paper. Where did it first get written down?"
+- "Walk me through finding something you read months ago. What did you try first?"
+- "When did you last lose track of where an idea came from? What happened?"
+Follow up with "what happened next?" and "can you show me?" (screen-share their actual notes if they're comfortable).
+
+**20–27 min — Tools and workarounds.** "What tools are involved, and what do you do that feels like a workaround?" Listen for copy-paste chains, duplicate notes, screenshot folders.
+
+**27–30 min — Close.** "Anything I should have asked?" and permission for follow-up.
+
+**Avoid:** leading questions ("Would a tool that X help?"), hypotheticals about future behavior, and showing a demo until after the interview — if at all [2].
+[src] Interviewing users without leading them | https://www.uxresearchnotes.com/non-leading-interviews | Past-behavior questions and follow-up prompts.
+[src] Semi-structured interviews in HCI: a practical guide | https://www.methodsforhci.org/semi-structured-interviews | Time-boxed protocols and consent.
+@user +3m
+should i record + transcribe or just take notes
+@assistant
+Record and transcribe if they consent — you'll catch exact phrasing you'd lose in notes, and you can be present in the conversation [1]. Still jot 3–5 timestamped highlights during the call so synthesis is faster. Tell them how recordings are stored and that they can stop recording at any time [1].
+[src] Semi-structured interviews in HCI: a practical guide | https://www.methodsforhci.org/semi-structured-interviews | Recording, consent and note-taking during interviews.
+
+### CONV ben-adeyemi-background
+title: Ben Adeyemi research background
+start: 2026-09-14 22:40
+projects: project_berkeley_research_chats
+space: Berkeley chats prep
+---
+@user
+ben adeyemi, statistics postdoc at berkeley. what's his research, i'm talking to him wed on zoom
+@assistant
+Public pages describe **Ben Adeyemi** as a postdoctoral scholar in UC Berkeley's Department of Statistics working on **reproducibility of data analyses** and **tools for tracking analytic decisions** (sometimes framed as the "garden of forking paths" problem) [1][2].
+
+Visible work:
+- A **preprint** on recording analyst decisions in exploratory data analysis so that results can be traced back to the choices that produced them [2].
+- A **workshop talk** on multiverse analysis — running an analysis across many reasonable specification choices and reporting the distribution of results [3].
+- Teaching materials for a reproducible-research module (notebooks, version control, literate programming) [1].
+
+Hooks for your chat:
+- How he records *why* an analysis choice was made, not just the code — very close to "where did this thought come from."
+- What breaks in Jupyter/R Markdown-based provenance in real projects.
+- Whether statisticians would trust automatically captured provenance or prefer explicit logs.
+
+As with any profile assembled from search, confirm details on his department page.
+[src] UC Berkeley Statistics — postdoctoral scholars | https://statistics.berkeley.edu/people/postdocs | Postdoc profiles and research interests.
+[src] Recording analytic decisions in exploratory data analysis (preprint) | https://www.statsmethodsarchive.org/preprints/recording-analytic-decisions | Proposes logging analyst choices to make results traceable.
+[src] Multiverse analysis in practice (workshop talk abstract) | https://www.reproducibilityworkshop.org/2025/multiverse-in-practice | Reporting results across many defensible specifications.
+@user +3m
+explain multiverse analysis in 3 sentences
+@assistant
+A multiverse analysis acknowledges that a single dataset can be analyzed in many defensible ways (different exclusion rules, variable codings, model specifications) [1]. Instead of reporting one path, you run the analysis across all reasonable combinations of choices and show how the result varies. If the conclusion holds across most of the "multiverse," it's robust; if it flips depending on choices, that fragility is itself the finding [1].
+[src] Multiverse analysis in practice (workshop talk abstract) | https://www.reproducibilityworkshop.org/2025/multiverse-in-practice | Definition and reporting of multiverse analyses.
+
+### CONV how-much-travel-funding
+title: how much
+start: 2026-09-22 15:30
+projects: project_vt_phd_admin
+mode: CONCISE
+notes: HARD CASE: vague title — title is just "how much"; the thread is about conference travel funding for the UIST talk (VT travel request).
+---
+@user
+how much does conference travel funding usually cover for phd students presenting a paper, like department + graduate school grants
+@assistant
+It varies by university, but typical patterns in US PhD programs [1][2]:
+- **Graduate school travel grants** for presenting: often a fixed amount per academic year, commonly a few hundred dollars (e.g., $300–$600) for domestic conferences, sometimes more for international ones.
+- **Department funds** frequently match or top up graduate school awards, especially for first-author presenters.
+- **Advisor grants** often cover the remainder (registration, flights, hotel) if the work was grant-funded.
+- **Conference student volunteer programs / travel awards** can waive registration [2].
+
+Most programs require the request **before travel** and reimbursement with itemized receipts afterward. Check your graduate school's travel-funding page for the per-year cap and deadlines [1].
+[src] Graduate student conference travel funding: a comparison | https://www.gradfinanceguide.org/travel-funding | Typical caps and matching arrangements at US universities.
+[src] Student volunteer and travel award programs at ACM conferences | https://www.acmstudentnotes.org/travel-awards | Registration waivers and travel grants for students.
+
+### CONV california-car-insurance-transfer
+title: Transferring car insurance from Virginia to California
+start: 2026-09-30 21:15
+projects: project_none
+---
+@user
+moved from virginia to california in august, car still has VA plates + VA insurance. what do i have to do and by when
+@assistant
+California generally requires new residents to **register their vehicle within 20 days** of establishing residency (e.g., taking a job or renting a home) [1]. Steps:
+1. **Switch insurance to a California policy** first — insurers price by garaging address, and a VA policy may not be valid long-term for a car kept in CA [2].
+2. **Smog check** (required for most gasoline vehicles being registered in CA for the first time) [1].
+3. **DMV visit** with your VA title or registration, proof of CA insurance, smog certificate and ID; pay registration fees and possibly use tax.
+4. **Driver's license**: new residents are expected to get a CA license within 10 days [1].
+If you're a student or temporary, rules differ — but a co-founder moving for work counts as a resident.
+[src] California DMV — new residents | https://www.dmv.ca.gov/portal/vehicle-registration/new-registration/new-residents | Registration and license timelines for people moving to California.
+[src] Changing car insurance when you move states | https://www.insuranceexplainer.net/moving-states | Why insurance must reflect your garaging address.
+@user +3m
+is california insurance usually way more expensive
+@assistant
+Often yes, particularly in San Francisco: urban CA ZIP codes have higher average premiums than most of Virginia due to theft, claims frequency and repair costs [1]. California restricts some rating factors (e.g., credit score), so your driving record and mileage matter more. Get quotes with your actual garaging ZIP and low annual mileage if you rarely drive [1].
+[src] Changing car insurance when you move states | https://www.insuranceexplainer.net/moving-states | Premium differences across states and cities.
+
+### CONV fifteen-minute-conference-talk
+title: Pacing a 15-minute conference talk
+start: 2026-10-05 21:10
+projects: project_tutortrace
+---
+@user
+giving a 15 min + 5 q&a talk at uist on wednesday. how many slides and how do i not run over
+@assistant
+Common guidance for 15-minute research talks [1][2]:
+- **~12–16 slides** for content (about one per minute), plus title and a closing slide. Systems talks with demo videos can have fewer slides, since a 60–90 s video replaces several.
+- **Structure:** problem (2 min) → key insight (1–2 min) → system walkthrough/demo (4–5 min) → evaluation highlights (4 min) → limitations + takeaway (1–2 min).
+- **Practice with a timer** at least 3 full times; most people run ~10–15% longer live than in rehearsal, so aim for **13 minutes** in practice [2].
+- **Mark checkpoints** in your notes (e.g., "by slide 8 → 7:00") so you know whether to compress while presenting.
+- **Have cut-able slides** near the end (extra results) that you can skip without breaking the story.
+- Session chairs usually show time cards at 5, 2 and 0 minutes; agree with the chair beforehand if a demo video has audio [1].
+[src] How to give a good conference talk | https://www.hcipapersguide.org/conference-talks | Slide counts, structure and rehearsal for short talks.
+[src] Timing short research talks | https://www.academicwritingguide.org/talk-timing | Checkpoints and buffer strategies.
+@user +4m
+q&a prep — what do people usually ask about a classroom telemetry system
+@assistant
+Likely questions [1]:
+- **Generalization**: does it work beyond one course/assistant?
+- **Label reliability**: how were states labeled and how much did raters agree?
+- **Privacy**: did students know they were recorded; could instructors use it for grading?
+- **Instructor workload**: how long does it take a TA to use per student?
+- **Deployment**: what would it take for another course to adopt it?
+Prepare a one-sentence answer plus one supporting number for each, and a backup slide for the two you expect most [1].
+[src] How to give a good conference talk | https://www.hcipapersguide.org/conference-talks | Preparing for Q&A with backup slides.
+
+### CONV carb-loading-half-marathon
+title: Carb loading for a half marathon
+start: 2026-10-11 19:30
+projects: project_endurance_training
+space: Training
+---
+@user
+carb loading for a half marathon on thursday, im ~66kg. how many grams per kg and starting when. goal ~1:25
+@assistant
+For a half marathon (~85 minutes at your goal), a **full multi-day carb load isn't necessary**, but topping off glycogen helps [1][2]:
+- **24–36 hours before**: about **7–10 g carbohydrate per kg** per day → roughly **460–660 g/day** at 66 kg. Shift toward lower-fiber sources (white rice, bread, pasta, potatoes, juice) so it sits well.
+- **Race morning (2–3 h before)**: **1–2 g/kg** → ~70–135 g (e.g., bagel + banana + honey) [2].
+- **During**: for ~85 minutes, one gel around 35–45 minutes is optional; many runners at that duration take one gel for a late boost [1].
+
+Practice the race-morning breakfast before a long run this weekend, not for the first time on race day [2].
+[src] Carbohydrate loading for endurance events: current recommendations | https://www.sportsnutritionreview.org/carb-loading | Guidance by event duration and body mass.
+[src] Pre-race meals and timing | https://www.trainingsciencejournal.com/pre-race-meals | Grams per kg and timing before endurance races.
+@user +2m
+thursday morning race, so wed is the main day?
+@assistant
+Yes — make **Wednesday** the high-carb day (~7–10 g/kg), and keep Tuesday normal-to-slightly-higher. Eat your last big meal Wednesday early evening so it's digested, then the planned breakfast Thursday 2–3 hours before the start [1].
+[src] Carbohydrate loading for endurance events: current recommendations | https://www.sportsnutritionreview.org/carb-loading | Timing the high-carbohydrate day.
+
+### CONV post-half-recovery
+title: Recovery after a half marathon
+start: 2026-10-16 09:20
+projects: project_endurance_training
+space: Training
+mode: CONCISE
+---
+@user
+ran a half yesterday (1:24:51, pr). quads wrecked. when can i run again and should i do easy runs or rest
+@assistant
+Congrats on the PR. Typical guidance [1][2]:
+- **Days 1–3**: rest or very light cross-training (easy spin, walking). Quad soreness (DOMS) usually peaks 24–72 h after racing, especially with downhills.
+- **Days 3–7**: short easy runs (20–40 min) at a truly easy effort once you can run without altered gait.
+- **Week 2**: back to normal aerobic volume; hold off on hard workouts until about **7–10 days** after a half [2].
+A rough rule some coaches use is one easy day per mile raced before the next hard session — about 13 days for a half [1].
+[src] Recovering from a half marathon | https://www.runnersphysiology.net/half-marathon-recovery | Timeline for returning to easy and hard running.
+[src] Muscle damage and DOMS after racing | https://www.trainingsciencejournal.com/doms-after-racing | Time course of soreness and recovery.

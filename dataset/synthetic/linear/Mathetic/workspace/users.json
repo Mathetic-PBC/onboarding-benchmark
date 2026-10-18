@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+      "name": "David Barron",
+      "email": "david@mathetic.com",
+      "displayName": "david",
+      "isAdmin": true,
+      "isGuest": false,
+      "isActive": true,
+      "createdAt": "2026-09-15T03:02:21.273Z",
+      "updatedAt": "2026-09-15T03:05:33.631Z",
+      "status": "Offline (last seen 2026-10-17T05:41:12.000Z)"
+    },
+    {
+      "id": "cb2896e3-8076-499e-adca-cc4ee127e9e7",
+      "name": "Hudson",
+      "email": "hudson@mathetic.com",
+      "displayName": "hudson",
+      "isAdmin": true,
+      "isGuest": false,
+      "isActive": true,
+      "createdAt": "2026-09-15T03:10:41.143Z",
+      "updatedAt": "2026-09-15T03:12:11.973Z",
+      "status": "Offline (last seen 2026-10-16T23:58:40.000Z)"
+    }
+  ],
+  "hasNextPage": false
+}

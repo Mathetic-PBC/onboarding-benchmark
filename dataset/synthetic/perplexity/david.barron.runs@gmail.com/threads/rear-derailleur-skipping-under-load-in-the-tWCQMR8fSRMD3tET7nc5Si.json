@@ -1,0 +1,38 @@
+{
+ "uuid": "f9497121-ad28-474c-a429-1949796aaa29",
+ "slug": "rear-derailleur-skipping-under-load-in-the-tWCQMR8fSRMD3tET7nc5Si",
+ "title": "Rear derailleur skipping gears fix",
+ "thread_url": "https://www.perplexity.ai/search/rear-derailleur-skipping-under-load-in-the-tWCQMR8fSRMD3tET7nc5Si",
+ "created_at": "2026-01-14T23:25:00Z",
+ "updated_at": "2026-01-14T23:25:22Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "de9ad620-ad49-4236-8338-9e919f19c90a",
+   "query_str": "rear derailleur skipping under load in the middle cogs, chain is 2 years old, how to fix without a shop",
+   "answer": "Skipping under load in the middle of the cassette usually comes from one of three things [1][2]:\n\n1. **Cable tension (most likely).** Shift to a middle cog and turn the barrel adjuster on the derailleur (or shifter) counter-clockwise a quarter turn at a time while pedaling. If it hesitates going to a larger cog, add tension; if it hesitates going to a smaller cog, reduce tension.\n2. **Worn chain + cassette.** A 2-year-old chain on a bike you ride regularly may be past 0.5–0.75% stretch. Check with a chain checker (~$10). If the chain is worn, replace it — and if the *new* chain skips on the old cassette, the cassette is worn too [2].\n3. **Bent derailleur hanger.** If the bike fell on its drive side, the hanger can bend so the pulley isn't aligned with the cogs. Look from behind: the pulleys should be in line with the cog. A hanger alignment tool fixes this, or a shop does it in 5 minutes [3].\n\nStart with cable tension (free, 5 minutes), then measure the chain.",
+   "sources": [
+    {
+     "name": "Indexing a rear derailleur: barrel adjuster basics",
+     "url": "https://www.bikemaintenancebasics.com/rear-indexing",
+     "snippet": "Quarter-turn adjustments to cable tension to fix hesitant or skipping shifts."
+    },
+    {
+     "name": "When to replace a chain and cassette",
+     "url": "https://www.cyclewrench.org/chain-wear-guide",
+     "snippet": "Chain wear thresholds and why a worn cassette skips with a new chain."
+    },
+    {
+     "name": "Derailleur hanger alignment explained",
+     "url": "https://www.bikemaintenancebasics.com/hanger-alignment",
+     "snippet": "Symptoms of a bent hanger and how alignment is checked."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-01-14T23:25:00Z",
+   "updated_at": "2026-01-14T23:25:20Z"
+  }
+ ]
+}

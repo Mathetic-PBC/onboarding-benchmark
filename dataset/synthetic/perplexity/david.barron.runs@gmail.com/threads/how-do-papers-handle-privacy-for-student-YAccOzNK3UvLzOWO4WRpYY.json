@@ -1,0 +1,62 @@
+{
+ "uuid": "6ce97613-7e96-4a56-8e70-4af61e4ec709",
+ "slug": "how-do-papers-handle-privacy-for-student-YAccOzNK3UvLzOWO4WRpYY",
+ "title": "Privacy of student telemetry in research",
+ "thread_url": "https://www.perplexity.ai/search/how-do-papers-handle-privacy-for-student-YAccOzNK3UvLzOWO4WRpYY",
+ "created_at": "2026-03-14T03:40:00Z",
+ "updated_at": "2026-03-14T03:43:47Z",
+ "collection": {
+  "uuid": "eed80aee-0bf6-468d-9e04-939088cec800",
+  "title": "UIST related work"
+ },
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "fb2075a7-9809-455e-96ac-75c5a995f6ae",
+   "query_str": "how do papers handle privacy for student keystroke/telemetry data. ferpa + irb, what do they usually write",
+   "answer": "Typical practice in computing-education papers [1][2][3]:\n\n- **IRB approval and consent.** Most studies run under an IRB protocol where data collection is part of normal course activity but *research use* requires opt-in consent; non-consenting students' data is excluded from analysis. Papers state the protocol was approved and how consent was collected.\n- **FERPA.** Telemetry tied to identifiable students is part of the education record. Research use generally relies on consent or on de-identification; papers usually say data was de-identified before analysis and access restricted to the research team [1].\n- **De-identification steps:** replacing student IDs with random codes, stripping names/emails from code comments and prompts, and removing free-text fields that could identify someone [2].\n- **Instructor separation.** Many protocols ensure the instructor doesn't know who consented until grades are submitted, to avoid coercion [2].\n- **Data release.** If datasets are released, keystroke timing is sometimes coarsened and prompts are scrubbed, because typing rhythms and writing style can be re-identifying [3].\n\nReviewers at HCI venues increasingly ask about **students' awareness of being recorded** and whether instructors could use the data for grading — address both explicitly.",
+   "sources": [
+    {
+     "name": "FERPA and research: a guide for computing education researchers",
+     "url": "https://www.csedresearch.net/guides/ferpa-research",
+     "snippet": "When consent is required and what counts as de-identified."
+    },
+    {
+     "name": "Ethical collection of programming process data",
+     "url": "https://www.computingeducationconf.org/papers/ethics-process-data",
+     "snippet": "Consent workflows and instructor separation in classroom studies."
+    },
+    {
+     "name": "Re-identification risks in keystroke datasets",
+     "url": "https://www.privacyinlearning.org/keystroke-reidentification",
+     "snippet": "Typing dynamics as a biometric and implications for dataset release."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "claude-sonnet",
+   "created_at": "2026-03-14T03:40:00Z",
+   "updated_at": "2026-03-14T03:40:21Z"
+  },
+  {
+   "uuid": "75605afc-712e-45b4-9bfc-c9b4b20407a3",
+   "query_str": "is keystroke timing really identifying enough to matter",
+   "answer": "Yes — keystroke dynamics are used as a **behavioral biometric** for authentication, and studies have shown individuals can be distinguished from typing rhythms with modest amounts of text [1]. For a released dataset, the practical mitigations are coarsening timestamps (e.g., to 1 s), dropping inter-key intervals, or releasing derived features only [1][2].",
+   "sources": [
+    {
+     "name": "Re-identification risks in keystroke datasets",
+     "url": "https://www.privacyinlearning.org/keystroke-reidentification",
+     "snippet": "Typing rhythm as a re-identifying signal."
+    },
+    {
+     "name": "Releasing educational process data responsibly",
+     "url": "https://www.privacyinlearning.org/responsible-release",
+     "snippet": "Coarsening and feature-only release strategies."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "pplx_pro",
+   "created_at": "2026-03-14T03:43:27Z",
+   "updated_at": "2026-03-14T03:43:37Z"
+  }
+ ]
+}

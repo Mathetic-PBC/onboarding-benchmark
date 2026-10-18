@@ -1,0 +1,54 @@
+{
+ "uuid": "911e29fb-f897-4476-a406-9b46b2b719c7",
+ "slug": "first-call-with-an-angel-tomorrow-pre-seed-wqrCAYnizjQhDx1VnNZQZA",
+ "title": "What angels ask about retention at pre-seed",
+ "thread_url": "https://www.perplexity.ai/search/first-call-with-an-angel-tomorrow-pre-seed-wqrCAYnizjQhDx1VnNZQZA",
+ "created_at": "2026-08-20T05:30:00Z",
+ "updated_at": "2026-08-20T05:34:22Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "648fcc2c-6987-4dc5-ab11-14965f3597fd",
+   "query_str": "first call with an angel tomorrow. pre-seed, research notebook tool, ~3 pilot users. what will they ask about retention and \"who pays\", and what's a good answer when we basically have no data",
+   "answer": "At pre-seed with a handful of pilots, investors know you don't have retention curves; they're testing **whether you understand what retention would mean and how you'll learn it** [1][2]. Likely questions:\n\n**Retention**\n- \"How often does a user come back, and why?\" — have a concrete *usage loop* (e.g., \"a researcher returns when starting a new writing session and needs to find where an idea came from\").\n- \"What would good retention look like for you?\" — name a metric (weekly active researchers, notebooks revisited per week) and a target for the next 3 months [1].\n- \"What happened with the pilots?\" — anecdotes are fine if specific: what they did in week 2, not just week 1.\n\n**Who pays**\n- Individual researchers (prosumer subscription) vs labs/departments (seat licenses) vs institutions. Pick a primary hypothesis and say what would change your mind [2].\n- Willingness-to-pay evidence: even \"2 of 3 pilots said they'd pay $X\" or a pre-order is useful.\n\n**Good answer when there's no data:** \"We don't have retention data yet. Our plan is X pilots by [date], measuring Y weekly; we'll know by [date] whether the loop works.\" Specific learning plans beat inflated numbers [1][3].",
+   "sources": [
+    {
+     "name": "What angel investors look for at pre-seed",
+     "url": "https://www.startupfundingnotes.com/preseed-angels",
+     "snippet": "Founder, insight and learning-plan focus at the earliest stage."
+    },
+    {
+     "name": "Pricing hypotheses for B2B and prosumer tools",
+     "url": "https://www.saaspricingguide.com/prosumer-vs-team",
+     "snippet": "Choosing between individual and team pricing early on."
+    },
+    {
+     "name": "Talking about traction when you don't have any",
+     "url": "https://www.startupfundingnotes.com/no-traction-yet",
+     "snippet": "Framing pilots and learning milestones honestly."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-08-20T05:30:00Z",
+   "updated_at": "2026-08-20T05:30:29Z"
+  },
+  {
+   "uuid": "b57bdb77-edc7-4fc9-8a2b-266240346a28",
+   "query_str": "what retention metric makes sense for a notebook people use in bursts (paper deadlines)",
+   "answer": "For bursty usage, weekly active rates look noisy. Better options [1]:\n- **Monthly active researchers** or **\"active in N of last 4 weeks\"**.\n- **Return-on-trigger**: share of users who come back at their next writing burst (e.g., within 7 days of creating a new project/draft).\n- **Depth per session**: notebooks revisited or sources traced per active week, which captures value even when frequency is irregular.\nSay explicitly that usage is deadline-driven and that you measure retention across bursts, not week to week [1].",
+   "sources": [
+    {
+     "name": "Measuring retention for episodic-use products",
+     "url": "https://www.saasmetricsnotes.com/episodic-retention",
+     "snippet": "Alternatives to weekly retention for irregular-use tools."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-08-20T05:33:55Z",
+   "updated_at": "2026-08-20T05:34:12Z"
+  }
+ ]
+}

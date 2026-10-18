@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20251119T052000Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Voice tutors that talk while you code — what the first classroom pilots show</title>
+    <created>20251119T040500Z</created>
+    <updated>20251119T052000Z</updated>
+    <tag>clip</tag>
+    <tag>ai-tutors</tag>
+    <tag>voice</tag>
+    <tag>sophia</tag>
+    <note-attributes>
+      <author>David Barron</author>
+      <source>web.clip7</source>
+      <source-url>https://thelearningstack.net/2025/11/voice-tutors-in-the-ide</source-url>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><blockquote>my note: relevant to Sophia for Educators. their "interruptibility" point is basically what we argued for the IDE voice agent — the tutor should wait for a pause in editing, not fire on every error. also the teacher-side simulation idea in the last section = our simulated-student testing.</blockquote><hr/><h3>Voice tutors that talk while you code: what the first classroom pilots show</h3><div>By Rosa Delgado, The Learning Stack, November 2025</div><div><br/></div><div>A new class of programming tutors does not wait for a typed question. They sit inside the editor, listen when invited, and answer out loud. Over the past year several university courses have piloted these voice-first assistants in introductory programming labs. The early reports are mixed in an interesting way: students like talking to them, instructors worry about what they say, and almost everyone underestimates how much timing matters.</div><div><br/></div><div><b>Talking changes the question.</b> In the pilots, students who spoke to the tutor asked longer and more exploratory questions than students who typed. A typed prompt tends to be "fix this error"; a spoken one is closer to "I think the loop is wrong but I'm not sure why the index goes past the end". Instructors read that difference as a sign that voice invites students to explain their own reasoning, which is the part of help-seeking they actually want to encourage.</div><div><br/></div><div><b>Interruptions are the main complaint.</b> Tutors that offered help automatically after an error were described as "a backseat driver". Several teams moved to a rule where the tutor only speaks after the student pauses editing for a while, or after the same error repeats. One lab assistant described the best version as "the TA who walks by, sees you're thinking, and keeps walking".</div><div><br/></div><div><b>Teachers want to rehearse the tutor.</b> The strongest request from instructors was not a better model. It was a way to test the tutor before students see it: feed it typical student mistakes, listen to what it says, and adjust its instructions. Some teams built simple simulators that replay anonymized student sessions against a configured tutor so a teacher can hear how it behaves on a bad day.</div><div><br/></div><div><b>What is still unknown.</b> None of the pilots measured learning outcomes carefully, and most ran for a few weeks. Accessibility questions (noisy labs, students who are not comfortable speaking English aloud) came up in every report and were not solved. The open question for the next round is less "can it explain code" and more "when should it say anything at all".</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

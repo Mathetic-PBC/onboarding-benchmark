@@ -1,1 +1,734 @@
-[]
+[
+ {
+  "id": "item_034469",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "019c217f-3230-7262-beec-cd49bcd6e48a",
+  "title": "HDBSCAN sweep on forum posts",
+  "content_type": "conversation",
+  "created_at": "2026-02-03T03:15:10Z",
+  "modified_at": "2026-02-03T03:17:49Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/02/02/rollout-2026-02-02T22-15-10-019c217f-3230-7262-beec-cd49bcd6e48a.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:e58e06ebd33b21a778cad13b8c99ad84042170ce6bef243ba35d23825260ca90",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Projects/Dynamite",
+   "originator": "codex_cli_rs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034470",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "019c2c1a-40e0-7536-9791-05474813e70a",
+  "title": "LLM labels for 41 clusters",
+  "content_type": "conversation",
+  "created_at": "2026-02-05T04:40:44Z",
+  "modified_at": "2026-02-05T04:42:50Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/02/04/rollout-2026-02-04T23-40-44-019c2c1a-40e0-7536-9791-05474813e70a.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:fbf0e3dac7dd597b8e37822488d3f53b6b11fdcd24768c5607ca4f4254ce045f",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Projects/Dynamite",
+   "originator": "codex_cli_rs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034471",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "019c4a72-4df8-7aa9-82d5-525bd2f66543",
+  "title": "Hand-check sheet for cluster labels",
+  "content_type": "conversation",
+  "created_at": "2026-02-11T02:05:31Z",
+  "modified_at": "2026-02-11T03:16:51Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/02/10/rollout-2026-02-10T21-05-31-019c4a72-4df8-7aa9-82d5-525bd2f66543.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:d0f29ab309184f2d2f96cfa8c331da027c2c7f5a00ad17116222a51d9098587e",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 5,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Projects/Dynamite",
+   "originator": "codex_cli_rs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034472",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "019c557a-4390-743b-94a5-3724f7c474c0",
+  "title": "Reproducible UMAP figure",
+  "content_type": "conversation",
+  "created_at": "2026-02-13T05:30:02Z",
+  "modified_at": "2026-02-13T05:31:56Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/02/13/rollout-2026-02-13T00-30-02-019c557a-4390-743b-94a5-3724f7c474c0.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:3cf135ca99692751ee123efe9255a9bbaeabb5f884bcbfcb1d7f4b3b77d1b50d",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Projects/Dynamite",
+   "originator": "codex_cli_rs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034473",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "019ccee4-ff40-7c6e-87d7-1a92c6d59e78",
+  "title": "2025 transactions by category (tax prep)",
+  "content_type": "conversation",
+  "created_at": "2026-03-08T19:20:40Z",
+  "modified_at": "2026-03-08T19:21:39Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/03/08/rollout-2026-03-08T15-20-40-019ccee4-ff40-7c6e-87d7-1a92c6d59e78.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:30a0942489f04ef983bd93e2fae03ca67b6c4ba51102d5209ee5e14b96a44d70",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Documents/taxes-2025",
+   "originator": "codex_cli_rs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "2025 taxes (personal); synthetic amounts"
+  }
+ },
+ {
+  "id": "item_034474",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "019d2d69-f520-743f-a02f-36ee97214545",
+  "title": "Inter-rater agreement for UIST paper",
+  "content_type": "conversation",
+  "created_at": "2026-03-27T03:50:12Z",
+  "modified_at": "2026-03-27T03:51:15Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/03/26/rollout-2026-03-26T23-50-12-019d2d69-f520-743f-a02f-36ee97214545.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:3320e5064ac29fe69e2832a9f9b674f7e35b7a130b9b3e719c7de4c2d8d7b39e",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Desktop/Dataset/TutorTrace_dataset_and_benchmark",
+   "originator": "codex_cli_rs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034475",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "019df165-8318-7f90-9e1e-c6971db5ac2b",
+  "title": "Datasheet composition stats",
+  "content_type": "conversation",
+  "created_at": "2026-05-04T05:10:55Z",
+  "modified_at": "2026-05-04T05:12:16Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/05/04/rollout-2026-05-04T01-10-55-019df165-8318-7f90-9e1e-c6971db5ac2b.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:8c4be635b960b9426e93b52f93cae8b5e4ad29012905e49c3ce8970fc14dd8c0",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Desktop/IDETrace",
+   "originator": "codex_cli_rs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034476",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "019f8266-e040-7dfd-8b50-6a2f626fc3ab",
+  "title": "Compare SF sublet costs",
+  "content_type": "conversation",
+  "created_at": "2026-07-21T02:00:08Z",
+  "modified_at": "2026-07-21T02:01:01Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/07/20/rollout-2026-07-20T22-00-08-019f8266-e040-7dfd-8b50-6a2f626fc3ab.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:84e4fb5c70a6699958c00cc7880c873c489ee713cb10d0ce6a2590f3a82eed17",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Projects/sublet-hunt",
+   "originator": "codex_cli_rs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "SF sublet search (personal)"
+  }
+ },
+ {
+  "id": "item_034477",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "019f9752-d928-737d-b665-2e863ea5880e",
+  "title": "Check v1 split for student leakage",
+  "content_type": "conversation",
+  "created_at": "2026-07-25T03:30:17Z",
+  "modified_at": "2026-07-25T03:31:20Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/07/24/rollout-2026-07-24T23-30-17-019f9752-d928-737d-b665-2e863ea5880e.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:ee9b96fb0a0d00e22075272f0840e7f36f247adbee4c2834c0e3bb2b412891a3",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Projects/idetrace-splits",
+   "originator": "codex_cli_rs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "IDETrace leakage bug found 2026-07-24"
+  }
+ },
+ {
+  "id": "item_034478",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "019f9a71-8a00-76c2-b10c-86036a14c6e9",
+  "title": "Grouped-by-student split v2",
+  "content_type": "conversation",
+  "created_at": "2026-07-25T18:02:40Z",
+  "modified_at": "2026-07-25T18:03:53Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/07/25/rollout-2026-07-25T14-02-40-019f9a71-8a00-76c2-b10c-86036a14c6e9.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:36fb8f7ce1cd17cf0669b483a48d8001a428e0b6f66860ef1032121972008d07",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Projects/idetrace-splits",
+   "originator": "codex_cli_rs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034479",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "019fa176-2798-71bd-a03c-89b35e58c800",
+  "title": "Rerun baselines on grouped split",
+  "content_type": "conversation",
+  "created_at": "2026-07-27T02:45:03Z",
+  "modified_at": "2026-07-27T03:10:18Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/07/26/rollout-2026-07-26T22-45-03-019fa176-2798-71bd-a03c-89b35e58c800.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:cd9ed79e7be4bd312a2f98c53198907d5ab16c2dcdd9077daf518d9e54134fd8",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Projects/idetrace-splits",
+   "originator": "codex_cli_rs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034480",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "019fa645-e3d0-77ca-9478-4d517469acc0",
+  "title": "Seed robustness for grouped split",
+  "content_type": "conversation",
+  "created_at": "2026-07-28T01:10:26Z",
+  "modified_at": "2026-07-28T01:26:25Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/07/27/rollout-2026-07-27T21-10-26-019fa645-e3d0-77ca-9478-4d517469acc0.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:bb6dca43e612fd4b1602d17c898f32f7db20bd59fc163011692a0e9f56abe7f3",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Projects/idetrace-splits",
+   "originator": "codex_cli_rs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034481",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "019fac03-a5a0-774b-87e3-b54aa18ed338",
+  "title": "LaTeX table for NeurIPS rebuttal",
+  "content_type": "conversation",
+  "created_at": "2026-07-29T03:55:48Z",
+  "modified_at": "2026-07-29T03:56:41Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/07/28/rollout-2026-07-28T23-55-48-019fac03-a5a0-774b-87e3-b54aa18ed338.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:00d40d951bddcd977728b612c9881e9e683339021554dd199adf5d61732dcd83",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Projects/idetrace-splits",
+   "originator": "codex_cli_rs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034482",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "019fac87-be08-7327-8dfe-151bafa07be6",
+  "title": "Run pytest and fix any failing tests. Don't ask questions; just make the change.",
+  "content_type": "conversation",
+  "created_at": "2026-07-29T06:20:05Z",
+  "modified_at": "2026-07-29T06:20:41Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/07/29/rollout-2026-07-29T02-20-05-019fac87-be08-7327-8dfe-151bafa07be6.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:68d47a039a396b84f7c6ecaa22f74e31cff52d281fd95032e7a597af7bda9d06",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Projects/idetrace-splits",
+   "originator": "codex_exec"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "HARD CASE: automated-looking session with real work — codex exec run with a generic prompt; real fix: student-id normalization in the grouped split"
+  }
+ },
+ {
+  "id": "item_034483",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "01a022f1-47a8-71ef-9228-f2373d7fd97d",
+  "title": "Compaction log parser",
+  "content_type": "conversation",
+  "created_at": "2026-08-21T06:10:33Z",
+  "modified_at": "2026-08-21T06:11:39Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/08/20/rollout-2026-08-20T23-10-33-01a022f1-47a8-71ef-9228-f2373d7fd97d.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:378acc44eea47001e2d6d9d35457d8dc1845ea262f8c72aa97a177c4c7900ef7",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Projects/claude-plugins",
+   "originator": "codex_cli_rs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_claude_code_plugins"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034484",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "01a06ae5-5ea0-7885-856d-6dfac5a2ba5d",
+  "title": "Compaction stats by day",
+  "content_type": "conversation",
+  "created_at": "2026-09-04T05:30:12Z",
+  "modified_at": "2026-09-04T05:31:17Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/09/03/rollout-2026-09-03T22-30-12-01a06ae5-5ea0-7885-856d-6dfac5a2ba5d.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:041a0c7a85a48ad5eae7251a3828f2e51d231137b585014fe1cbac3d55eb2786",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Projects/claude-plugins",
+   "originator": "codex_cli_rs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_claude_code_plugins"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034485",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "01a0a88d-c738-7d3a-b7cd-9e620af9edd6",
+  "title": "Make compaction parser robust",
+  "content_type": "conversation",
+  "created_at": "2026-09-16T04:50:59Z",
+  "modified_at": "2026-09-16T04:52:18Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/09/15/rollout-2026-09-15T21-50-59-01a0a88d-c738-7d3a-b7cd-9e620af9edd6.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:2f944f116f01fcd8de93e598679eb7d6b6cb336677f00791651f4e98d4b097c6",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Projects/claude-plugins",
+   "originator": "codex_cli_rs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_claude_code_plugins"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034486",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "01a0d6a6-4118-71a6-bf2d-294ee760d9e5",
+  "title": "LiteLLM proxy config for Bart",
+  "content_type": "conversation",
+  "created_at": "2026-09-25T03:40:15Z",
+  "modified_at": "2026-09-25T03:41:31Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/09/24/rollout-2026-09-24T20-40-15-01a0d6a6-4118-71a6-bf2d-294ee760d9e5.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:4baa7d03d31234365b9c7879a8536377b7d1a2e56544cd6798bf228e08c7435c",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Desktop/engelbart-litellm",
+   "originator": "codex_cli_rs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034487",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "01a0e52b-b128-7223-8698-f8d874b71ef6",
+  "title": "Stockfish blunder phases in blitz losses",
+  "content_type": "conversation",
+  "created_at": "2026-09-27T23:20:41Z",
+  "modified_at": "2026-09-27T23:43:23Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/09/27/rollout-2026-09-27T16-20-41-01a0e52b-b128-7223-8698-f8d874b71ef6.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:f8f8fde5d1884ba1a2d476549f0da80833f782b843a91c1d7a3de7c8da25e624",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Projects/chess-stats",
+   "originator": "codex_cli_rs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "online chess (personal)"
+  }
+ },
+ {
+  "id": "item_034488",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "01a11b02-aa90-7fa4-a82f-58de1292f7ad",
+  "title": "Run pytest and fix any failing tests. Don't ask questions; just make the change.",
+  "content_type": "conversation",
+  "created_at": "2026-10-08T10:15:22Z",
+  "modified_at": "2026-10-08T10:15:58Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/sessions/2026/10/08/rollout-2026-10-08T03-15-22-01a11b02-aa90-7fa4-a82f-58de1292f7ad.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:ca596326c1ffaaa28c5aa1b1332400be043e93db67c42a56763e1e07ab655dea",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/sessions/YYYY/MM/DD/rollout-*.jsonl record types",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "~/.codex (local)",
+   "cwd": "/Users/divadbaroon/Desktop/engelbart-litellm",
+   "originator": "codex_exec"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "HARD CASE: automated-looking session with real work — codex exec run with a generic prompt; real fix: broken fallback alias for bart-deep in the LiteLLM proxy config"
+  }
+ },
+ {
+  "id": "item_034489",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "codex-home/history.jsonl",
+  "title": "history.jsonl",
+  "content_type": "prompt_history",
+  "created_at": "2026-02-03T03:15:43Z",
+  "modified_at": "2026-10-08T10:15:25Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/codex-home/history.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:4ff2a02a31b7e13f19e7f96ddaee905a3db561723b088534bd61453c155be1d0",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/codex-home/history.jsonl line shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "~/.codex"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_claude_code_plugins",
+    "project_dynamite",
+    "project_engelbart",
+    "project_idetrace",
+    "project_none",
+    "project_tutortrace"
+   ],
+   "notes": "prompt history across all synthetic rollouts"
+  }
+ },
+ {
+  "id": "item_034490",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "codex",
+  "source_id": "codex-home/session_index.jsonl",
+  "title": "session_index.jsonl",
+  "content_type": "data",
+  "created_at": "2026-02-03T03:15:10Z",
+  "modified_at": "2026-09-27T23:20:44Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/codex/codex-home/session_index.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:504f12ce9d8dca4622d210c9e1880d0a28e4a6776368b94fc784a076854b9a39",
+  "library_item_id": null,
+  "modeled_on": "authentic/codex/codex-home/session_index.jsonl line shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "~/.codex"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_claude_code_plugins",
+    "project_dynamite",
+    "project_engelbart",
+    "project_idetrace",
+    "project_none",
+    "project_tutortrace"
+   ],
+   "notes": "thread names for the interactive rollouts"
+  }
+ }
+]

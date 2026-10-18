@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20261014T034500Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Bay Area Half — race plan (Oct 15)</title>
+    <created>20260928T043000Z</created>
+    <updated>20261014T034500Z</updated>
+    <tag>race</tag>
+    <tag>half-marathon</tag>
+    <tag>plan</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>Thu Oct 15, 7:00 am start. With Owen (he flies in Tue night, crashes on the incubator couch).</div><div><br/></div><div><en-media hash="67fdfeed767c27b924b12e6185611112" type="image/png"/></div><div>Course profile from the race site (sketched): flat first 6.8 mi, ~120 ft climb miles 7-8, descent mile 9, flat-ish run-in.</div><div><br/></div><h3>Goal</h3><ul><li>A: 1:24:59 or better (6:29/mi)</li><li>B: sub-1:26</li><li>C: finish strong, no blow-up on the hill</li></ul><div><br/></div><h3>Splits plan</h3><table style="border-collapse:collapse"><tr><td style="border:1px solid #ccc;padding:4px"><b>miles</b></td><td style="border:1px solid #ccc;padding:4px"><b>pace</b></td><td style="border:1px solid #ccc;padding:4px"><b>notes</b></td></tr><tr><td style="border:1px solid #ccc;padding:4px">1-3</td><td style="border:1px solid #ccc;padding:4px">6:32-6:35</td><td style="border:1px solid #ccc;padding:4px">let Owen go. he's running 6:16s</td></tr><tr><td style="border:1px solid #ccc;padding:4px">4-6</td><td style="border:1px solid #ccc;padding:4px">6:27-6:29</td><td style="border:1px solid #ccc;padding:4px">settle, HR should be ~172</td></tr><tr><td style="border:1px solid #ccc;padding:4px">7-8</td><td style="border:1px solid #ccc;padding:4px">effort, not pace (6:40s ok)</td><td style="border:1px solid #ccc;padding:4px">the climb. don't chase pace</td></tr><tr><td style="border:1px solid #ccc;padding:4px">9</td><td style="border:1px solid #ccc;padding:4px">6:25</td><td style="border:1px solid #ccc;padding:4px">use the downhill, relax shoulders</td></tr><tr><td style="border:1px solid #ccc;padding:4px">10-13.1</td><td style="border:1px solid #ccc;padding:4px">6:20 -&gt; whatever's left</td><td style="border:1px solid #ccc;padding:4px"></td></tr></table><div><br/></div><h3>Fuel</h3><ul><li>2.5 h before: bagel + PB + banana, coffee.</li><li>Gel at mile 4.5 and mile 8.5 (caffeinated one at 8.5). water at every station, sip.</li></ul><div><br/></div><h3>Logistics</h3><ul><li>Bib pickup Wed 4-7 pm.</li><li>Leave the house 5:55.</li><li>Bag check closes 6:45.</li></ul></en-note>]]>
+    </content>
+    <resource>
+      <data encoding="base64">
+iVBORw0KGgoAAAANSUhEUgAAAUoAAAB4CAIAAAAbjixAAAAD6ElEQVR42u3d0W3bMBCAYc3SFbpN
+BuiQfegu7gTdoC1gIDAiS6JISjqevuCeUugHfPQXGinQTo/H42+nLykpqVCpye6kpPC2OykpvKWk
+pPCWkpLCW0pKCm8pKSm8pU5Iffvx3a7wlsLb2vGWwlsKb6nLU/9t//z9q4twa8dbCm8pvKXO5d0u
+3NrxlgqUetp+Dt54S+Ft7XhLjca7Xbi14y0VJfXFNt54SyXn3SLc2vGWisu78QK3drylQqTe2m68
+wK0db6nQvFsucGvHWwpvKbylDkut2G4Rbu14S+EthbfUpbwrhFs73lIXpzZtV1/g1o631DC89wq3
+drylxuBdcYFbO95SV6bKbeONt1Rm3nuFWzveUnhL4S3VO7XX9t5fsFk73lIj8d51gVs73lLj8S4U
+bu14S12TqrO96wK3dryl8JbCWyoM70Lh1o631AWpRtt44y2VnPemcGvHW2pI3iUXuLXjLXV2qott
+vPGWysx7U7i14y2FtxPEW6pHqqPtzV+wWTveUgPzXr/ArR1vqeF5Lwm3drylzkt1t71+gVs73lJ4
+O0G8paLyXhJu7XhLnZQ6zjbeeEsl5z0Xbu14S2Xg/fYCt3a8pc5IHW377QVu7XhLJeE9v8CtHW8p
+vJ0g3lK1qXNsz4U7Qbyl8HaCeEsNwvtTuBPEW+rY1Jm2v1zgThBvqYS8n8KdIN5S2Xh/XuBOEG+p
+A1OX2MYbb6nMvJ/CnSDeUng7QbyldqYutL3r/wl2gnhLDca7/D8SdYJ4S+GNt91JxbDdVzjedieF
+N97e/XiP9gs2vO1OKpbtjhc43nYnFZR3u3C87U4qIu8uFzjedicV0TbeeEtl5t0uHG+7k8Ibb5Dy
+pmLabv8FG97e/VJxeTde4Hh790tF510tHG/v/runItt+Ff46ThBvqbS8C8Hj7d2Pd3TehcLn4PH2
+7r91agjbXbTf4e/Y8JbKwPt88HhL4Z0WPN5Sg6US2+4OHm8pvH2kx1sK7xuDx1vq8BTbV4HHWwrv
+tODxlsLbR3q8pdi+MXi8pfBOCx5vKbzTgi/lXfHBYOmRmKk0L2QlVfgI21nBT/N/+3bpY8Dm9+dv
+ml6pkkc6pu72QvDOCn56/Qc63v4MKP9+xSPdU17I3kfwTgx+WvqDig8GS4/ETKV5ISupwkcIyQp+
+mh/80k+Fze+vvGkaUyWPeCHVL4SHrDOtnPHe71c80j3lhex9BO/MvK3AGLyNMXgbY/A2xuBtjMHb
+GIO3MXgbY/A2xuBtjDmP98fHx59OX1JSUqFSeEtJ4W13UlJ4S0lJ4S0lJYW3lJQU3lJSUnhLSeFt
+d1JSeDsGKamAqX9sVydQgAt88gAAAABJRU5ErkJggg==
+      </data>
+      <mime>image/png</mime>
+      <width>330</width>
+      <height>120</height>
+      <resource-attributes>
+        <file-name>bay-half-elevation.png</file-name>
+      </resource-attributes>
+    </resource>
+  </note>
+</en-export>

@@ -1,0 +1,39 @@
+{
+ "dbarron410@vt.edu/TutorTrace UIST26 rebuttal.zip": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "HARD CASE: same paper in several places — refs.bib carries the ostrowski2025productive entry (also in zotero, pdfs, gmail, google-docs, slack); rebuttal submitted 2026-06-18; project id 2148729fc39271632d909176; owner dbarron410@vt.edu; access owner (owner); 3 files; main .tex: ['response_matrix.tex']; last updated by dbarron410@vt.edu"
+ },
+ "dbarron410@vt.edu/Copy of TutorTrace UIST26 rebuttal.zip": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "HARD CASE: near-duplicate — Overleaf \"Copy of\" the rebuttal project made two days after submission; same three files, a few edits (camera-ready TODO block, one reworded sentence, status column updated); refs.bib identical incl. ostrowski2025productive; project id 5b5ee7087e7c7de7f3e00c59; owner dbarron410@vt.edu; access owner (owner); 3 files; main .tex: ['response_matrix.tex']; last updated by dbarron410@vt.edu"
+ },
+ "dbarron410@vt.edu/IDETrace NeurIPS rebuttal.zip": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "author response reporting the leakage fix (macro-F1 0.81 -> 0.74, grouped by student id); project id 5686e1f714b974663c711622; owner dbarron410@vt.edu; access owner (owner); 3 files; main .tex: ['split_numbers.tex']; last updated by dbarron410@vt.edu"
+ },
+ "dbarron410@vt.edu/ISE 6664 Final Report.zip": {
+  "project_ids": [
+   "project_ise6664_affective_computing"
+  ],
+  "notes": "team report with Maya Torres and Jordan Lee (Dr. Alan Brooks); ~14 pages double-spaced; project id 5bceab8e1d36a071060b995f; owner dbarron410@vt.edu; access owner (owner); 12 files; main .tex: ['main.tex']; last updated by dbarron410@vt.edu"
+ },
+ "dbarron410@vt.edu/Mathetic one-pager.zip": {
+  "project_ids": [
+   "project_engelbart",
+   "project_mathetic_company"
+  ],
+  "notes": "one-page company/product summary for the Surplus program and the first Marcus Oyelaran call (2026-08-20); project id 12c6261e48fe43009ec8c1c9; owner dbarron410@vt.edu; access owner (owner); 2 files; main .tex: ['onepager.tex']; last updated by dbarron410@vt.edu"
+ },
+ "dbarron410@vt.edu/UIST26 talk script (beamer).zip": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "beamer slides with \\note{} speaker script for the 2026-10-07 UIST talk (session \"Learning & Tutoring\", chair Tomás Reyes); project id 179f1a8ff837d369da10948c; owner dbarron410@vt.edu; access owner (owner); 2 files; main .tex: ['talk.tex']; last updated by dbarron410@vt.edu"
+ }
+}

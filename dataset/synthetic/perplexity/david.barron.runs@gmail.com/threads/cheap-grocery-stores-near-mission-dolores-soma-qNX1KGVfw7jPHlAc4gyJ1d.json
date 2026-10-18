@@ -1,0 +1,33 @@
+{
+ "uuid": "9648f259-fe3c-4ad0-be39-0e7bff6e885e",
+ "slug": "cheap-grocery-stores-near-mission-dolores-soma-qNX1KGVfw7jPHlAc4gyJ1d",
+ "title": "Grocery stores near Mission Dolores for meal prep",
+ "thread_url": "https://www.perplexity.ai/search/cheap-grocery-stores-near-mission-dolores-soma-qNX1KGVfw7jPHlAc4gyJ1d",
+ "created_at": "2026-08-28T02:40:00Z",
+ "updated_at": "2026-08-28T02:40:23Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "d09b9366-849d-49b3-99a0-263f5662ec25",
+   "query_str": "cheap grocery stores near mission dolores / soma for weekly meal prep (rice, chicken, frozen veg, eggs)",
+   "answer": "Good budget options around the Mission and SoMa [1][2]:\n- **Discount grocery chains with SoMa locations** — usually the cheapest for staples like rice, eggs and frozen vegetables.\n- **Independent produce markets on Mission Street (16th–24th)** — very cheap fruit and vegetables, good for weekly bulk buys.\n- **Large-format supermarkets near the SoMa/Mission edge** — wider selection, frequent sales on chicken thighs.\n- **Warehouse club** (membership) south of Market — worth it for bulk rice, frozen chicken and eggs if you have space and a way to carry it [2].\nTip: produce on Mission Street plus staples from a discount chain usually beats one-stop shopping on price [1].",
+   "sources": [
+    {
+     "name": "Budget grocery shopping in San Francisco",
+     "url": "https://www.sfcheapeats.com/grocery-guide",
+     "snippet": "Neighborhood-by-neighborhood guide to affordable stores."
+    },
+    {
+     "name": "Warehouse clubs vs supermarkets: unit price comparison",
+     "url": "https://www.budgetkitchenlab.com/warehouse-vs-supermarket",
+     "snippet": "When bulk buying saves money."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-08-28T02:40:00Z",
+   "updated_at": "2026-08-28T02:40:12Z"
+  }
+ ]
+}

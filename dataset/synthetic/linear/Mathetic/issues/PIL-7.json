@@ -1,0 +1,80 @@
+{
+  "issue": {
+    "id": "PIL-7",
+    "uuid": "74ac101d-f140-49c9-8878-7912686d980b",
+    "title": "Pilot feedback form",
+    "description": "8 questions, sent right after the session and again one week later. Same questions both times so we can see what changed. Include \"what would make you stop using it\".",
+    "projectMilestone": {
+      "id": "c2bb2232-6ce1-4441-9ea9-578ad0dd9061",
+      "name": "Pilot kit ready"
+    },
+    "priority": {
+      "value": 3,
+      "name": "Medium"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-7/pilot-feedback-form",
+    "gitBranchName": "david/pil-7-pilot-feedback-form",
+    "createdAt": "2026-09-20T19:00:56.364Z",
+    "updatedAt": "2026-09-25T01:00:33.121Z",
+    "archivedAt": null,
+    "completedAt": "2026-09-25T01:00:33.121Z",
+    "startedAt": "2026-09-23T17:00:22.161Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [
+      "Onboarding"
+    ],
+    "createdBy": "Hudson",
+    "assignee": "Hudson",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-7",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-09-20T19:00:56.364Z",
+        "endedAt": "2026-09-23T17:00:22.161Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-09-23T17:00:22.161Z",
+        "endedAt": "2026-09-25T01:00:33.121Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-09-25T01:00:33.121Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": []
+}

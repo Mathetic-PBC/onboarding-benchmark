@@ -1,0 +1,5 @@
+derailleur fix (5/10)
+- symptom: skips 3rd-5th cog under load, since the 5/9 crash
+- hanger bent, visible from behind
+- barrel adjuster 1/2 turn ccw -> better not fixed
+- shop: new hanger $28 + $35 labor, ready 5/12

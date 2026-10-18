@@ -1,0 +1,93 @@
+{
+  "issue": {
+    "id": "PIL-9",
+    "uuid": "eaf4fdcf-1ae7-49db-8def-1477d20fea70",
+    "title": "Pilot thank-you gift cards ($100)",
+    "description": "One per pilot after the debrief. Paid from the Mathetic PBC card, keep the receipts in the Drive finance folder.",
+    "projectMilestone": null,
+    "priority": {
+      "value": 4,
+      "name": "Low"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-9/pilot-thank-you-gift-cards-100",
+    "gitBranchName": "david/pil-9-pilot-thank-you-gift-cards-100",
+    "createdAt": "2026-09-20T19:10:36.988Z",
+    "updatedAt": "2026-10-14T22:00:44.258Z",
+    "archivedAt": null,
+    "completedAt": "2026-10-14T22:00:44.258Z",
+    "startedAt": "2026-10-09T20:00:54.776Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [
+      "Ops"
+    ],
+    "createdBy": "Hudson",
+    "assignee": "Hudson",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-9",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-09-20T19:10:36.988Z",
+        "endedAt": "2026-10-09T20:00:54.776Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-09T20:00:54.776Z",
+        "endedAt": "2026-10-14T22:00:44.258Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-10-14T22:00:44.258Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": [
+    {
+      "id": "f2c7132c-b6e9-48c6-a37d-0a7c9f9b800b",
+      "body": "Priya's sent (she asked for the bookstore one). Daniel's after Tuesday, tracked in PIL-34.",
+      "attachments": [],
+      "createdAt": "2026-10-10T16:40:17.558Z",
+      "updatedAt": "2026-10-10T16:40:17.558Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "cb2896e3-8076-499e-adca-cc4ee127e9e7",
+        "name": "Hudson"
+      },
+      "onBehalfOf": null
+    }
+  ]
+}

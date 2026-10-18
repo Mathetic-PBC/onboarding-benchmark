@@ -1,0 +1,184 @@
+{
+  "issue": {
+    "id": "PIL-14",
+    "uuid": "7928fae2-437f-4b54-be78-0797808a123e",
+    "title": "Claude import missed ~140 of Priya's conversations",
+    "description": "From Priya's session (10/9). Her Claude export has 612 conversations; Engelbart showed 471 after import. The import log says `found: 471`, so we never saw the other 141 (not skipped, not deduped).\n\nRepro with our own exports before touching code.",
+    "projectMilestone": {
+      "id": "752d1e60-9eb6-4c7b-a102-c1e5d03b5518",
+      "name": "Import fixes from pilot feedback shipped"
+    },
+    "priority": {
+      "value": 1,
+      "name": "Urgent"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-14/claude-import-missed-140-of-priyas-conversations",
+    "gitBranchName": "david/pil-14-claude-import-missed-140-of-priyas-conversations",
+    "createdAt": "2026-10-09T18:20:57.130Z",
+    "updatedAt": "2026-10-13T01:05:03.732Z",
+    "archivedAt": null,
+    "completedAt": "2026-10-13T01:05:03.732Z",
+    "startedAt": "2026-10-09T21:00:36.673Z",
+    "canceledAt": null,
+    "dueDate": "2026-10-12",
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [
+      "Bug",
+      "Import",
+      "Pilot feedback"
+    ],
+    "createdBy": "David Barron",
+    "assignee": "David Barron",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-14",
+    "attachments": [
+      {
+        "id": "6b1b48de-d8dd-488b-9283-99e0b55aad79",
+        "title": "PR #212: Claude import: read projects.json, key conversations by uuid",
+        "subtitle": null,
+        "url": "https://github.com/Mathetic-PBC/engelbart/pull/212"
+      }
+    ],
+    "documents": [
+      {
+        "id": "b10eb47f-cf44-421a-8830-a5d4b745ec35",
+        "title": "Import dedupe rules v0"
+      }
+    ],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-09T18:20:57.130Z",
+        "endedAt": "2026-10-09T21:00:36.673Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-09T21:00:36.673Z",
+        "endedAt": "2026-10-12T04:30:09.906Z"
+      },
+      {
+        "state": {
+          "id": "e3a46dc9-6296-4c54-ae33-c9bf85d6982a",
+          "name": "In Review",
+          "type": "started"
+        },
+        "startedAt": "2026-10-12T04:30:09.906Z",
+        "endedAt": "2026-10-13T01:05:03.732Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-10-13T01:05:03.732Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [
+        {
+          "id": "PIL-23",
+          "title": "Re-run Priya's import end to end after PIL-14 / PIL-15"
+        }
+      ],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": [
+    {
+      "id": "5ffef55d-7bda-44e9-8123-67a7f3e80000",
+      "body": "Re-ran Priya's export (she sent the zip again): 612/612. Merged.",
+      "attachments": [],
+      "createdAt": "2026-10-13T01:00:27.169Z",
+      "updatedAt": "2026-10-13T01:00:27.169Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      },
+      "onBehalfOf": null
+    },
+    {
+      "id": "3f80a532-87e0-4c3f-ad23-c2aa84dba936",
+      "body": "No, the ChatGPT path already keys on `conversation_id`. Only Claude. Added a test with 3 untitled chats on the same day.",
+      "attachments": [],
+      "createdAt": "2026-10-10T16:30:28.991Z",
+      "updatedAt": "2026-10-10T16:30:28.991Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      },
+      "onBehalfOf": null
+    },
+    {
+      "id": "6b8a5983-8c1e-4ea4-80af-96544c1ca866",
+      "body": "Is the untitled collapse also hitting ChatGPT? Their export has untitled ones too.",
+      "attachments": [],
+      "createdAt": "2026-10-10T16:00:15.457Z",
+      "updatedAt": "2026-10-10T16:00:15.457Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "cb2896e3-8076-499e-adca-cc4ee127e9e7",
+        "name": "Hudson"
+      },
+      "onBehalfOf": null
+    },
+    {
+      "id": "dd0c2764-9d1a-43d1-ac25-189ea06f5056",
+      "body": "Priya's numbers: 97 project conversations + 44 untitled = 141. Fix: read `projects.json` and attach project conversations; dedupe key is now the conversation `uuid` only (rule 3 in *Import dedupe rules v0*).",
+      "attachments": [],
+      "createdAt": "2026-10-10T08:15:22.547Z",
+      "updatedAt": "2026-10-10T08:15:22.547Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      },
+      "onBehalfOf": null
+    },
+    {
+      "id": "3b3a8ee5-8625-489c-8fa8-cad7c2445717",
+      "body": "Repro with my own export: 38 missing. Every missing one is either\n(a) inside a Claude Project, or\n(b) untitled (`\"name\": \"\"`).\n\n(a) the parser only walks top-level conversations and drops anything with a `project_uuid` it can't resolve, because we never read `projects.json`.\n(b) the dedupe key was `(name, created_at[:10])`, so all untitled chats from the same day collapsed into the first one.",
+      "attachments": [],
+      "createdAt": "2026-10-09T23:40:56.320Z",
+      "updatedAt": "2026-10-09T23:40:56.320Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      },
+      "onBehalfOf": null
+    }
+  ]
+}

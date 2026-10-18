@@ -1,0 +1,49 @@
+{
+ "conversation": {
+  "conversationId": "d8f85191-09d6-4c74-966b-a92165a473c0",
+  "title": "AUKUS Submarines Timeline",
+  "createTime": "2026-09-23T04:40:00.000Z",
+  "modifyTime": "2026-09-23T04:43:16.225Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "b4cd2d1a-0ba9-4c1c-9af2-b9b11fa9bc8b",
+   "message": "aukus submarine timeline, when does australia actually get subs",
+   "sender": "human",
+   "createTime": "2026-09-23T04:40:00.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "caafe25a-3ce2-4016-a2a2-4fb55feaa181",
+   "message": "In phases, as announced:\n1. **Rotations first.** US and UK submarines rotate through Western Australia from the late 2020s.\n2. **Virginia-class purchases.** Australia buys several US Virginia-class boats starting in the early 2030s — some used, some new — depending on US production capacity.\n3. **SSN-AUKUS.** A new design, built in the UK and Australia, with the first Australian-built boats in the early 2040s.\n\nThe critical dependency is US submarine shipyard output. If US yards can't build fast enough for both the US Navy and Australia, phase 2 is the part most likely to slip.",
+   "sender": "assistant",
+   "createTime": "2026-09-23T04:40:15.990Z",
+   "parentResponseId": "b4cd2d1a-0ba9-4c1c-9af2-b9b11fa9bc8b",
+   "model": "grok-4",
+   "webSearchResults": [
+    {
+     "title": "Australia's nuclear submarine pathway, explained",
+     "url": "https://defenceanalysis.example.org/aukus-pathway",
+     "preview": "The optimal pathway timeline and the industrial-base constraints in the US."
+    }
+   ]
+  },
+  {
+   "responseId": "971b8f0c-cc36-4121-bd33-32f95539cc01",
+   "message": "so basically 2040s lol",
+   "sender": "human",
+   "createTime": "2026-09-23T04:43:09.990Z",
+   "parentResponseId": "caafe25a-3ce2-4016-a2a2-4fb55feaa181"
+  },
+  {
+   "responseId": "037430bb-8999-4095-bbff-dc97780b8050",
+   "message": "For subs Australia builds itself, yes. For subs Australia operates, the 2030s — if US yards deliver.",
+   "sender": "assistant",
+   "createTime": "2026-09-23T04:43:16.225Z",
+   "parentResponseId": "971b8f0c-cc36-4121-bd33-32f95539cc01",
+   "model": "grok-4"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+# Surplus Residents #demo-day — synthetic
+@2026-10-05
+09:00 lena | <join>
+09:04 david | <join>
+09:05 hudson | <join>
+09:10 lena | Pitch practice, Wednesdays 4pm in the living room:
+  10/7: three teams (sign-up sheet)
+  10/14: Mathetic + two teams
+  10/21, 10/28, 11/4, 11/11: rotating
+  11/17: full dress rehearsal with the AV setup
+  Format: 3 min pitch, 5 min feedback. No slides for the first round, just talk.
+~r +1:5
+
+@2026-10-06
+22:10 david | first draft of our 3 min (Hudson presenting, i drive the demo):
+  1. problem: a researcher's thinking is spread across 15 tools; when you come back to an idea you can't find where it came from
+  2. engelbart: imports your chats, papers and notes and keeps the trail of where each thought came from
+  3. demo: connect screen → import → click a note → "where did this come from" trail
+  4. traction: 2 pilots this month (berkeley + cmu), 3rd being recruited
+  5. ask: pre-seed, closing by demo day
+~p project_mathetic_company project_engelbart
+> 22:40 hudson | swap 4 and 5? lena said the ask goes last but traction should come right after the demo
+> 22:45 david | yes, so demo → traction → ask
+
+@2026-10-14
+17:05 lena | Feedback for Mathetic from today:
+  • The demo is the pitch. Open with it, not the problem slide.
+  • "15 tools" is abstract. Name the three tools your pilot actually used.
+  • You said "pilots" six times and never said what success is. Define it.
+  • 3:40, over by 40 seconds.
+~r pray:2
+~p project_mathetic_company project_engelbart
+> 17:20 david | super useful, thank you. success = weekly active 3 of 4 weeks + says they'd pay. we literally wrote that down in linear today lol
+> 17:22 lena | Put it on the slide.
+
+@2026-10-15
+23:10 hudson | v2 opening: "Last Friday a Berkeley PhD student imported 600 Claude chats, her Zotero library and her Downloads folder. Then she clicked one note and saw the three conversations it came from." then straight into the demo
+~r fire:2
+~p project_mathetic_company project_engelbart
+> 23:20 david | it's 612, and only after the fix lol. maybe just "hundreds of claude chats". love the rest
+> 23:24 hudson | "hundreds" it is
+
+@2026-10-16
+11:30 lena | Next practice is Wed 10/21. Mathetic, you're going first again since you went over.
+~r joy:2

@@ -1,0 +1,146 @@
+Channel: #uist26 (C0SYNVU80MK)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-08-14 22:25:08 PDT === 
+Message TS: 1786771508.579980
+camera-ready submitted through TAPS. done done
+Reactions: tada (4), heart (2)
+
+=== Message from Rezky (U0SYNS0GL2E) at 2026-08-12 14:30:40 PDT === 
+Message TS: 1786570240.823623
+fig 3 re-exported as a vector pdf, TAPS should be happy now
+Reactions: pray (1)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-08-10 23:05:26 PDT === 
+Message TS: 1786428326.402440
+camera-ready todo (due fri 8/14):
+- [x] cross-course analysis → section 6.3
+- [x] limitations
+- [ ] de-anonymize (names, VT, CS 3114, acknowledgments)
+- [ ] ACM rights form + TAPS
+- [ ] fig 3 at 300 dpi
+Reactions: +1 (2)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-07-02 16:15:28 PDT === 
+Message TS: 1783034128.670188
+conditionally accepted!!! conditions: add the cross-course analysis + limitations section, as promised
+Reactions: tada (5)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-06-18 14:45:34 PDT === 
+Message TS: 1781819134.113518
+rebuttal submitted. promised: cross-course analysis (cs 1114, n=23, 300 windows, κ=0.69) + a limitations section on telemetry privacy and single-institution data
+Reactions: +1 (4)
+
+=== Message from Yue (U0SYNRUS5ER) at 2026-06-17 08:00:49 PDT === 
+Message TS: 1781708449.607732
+cs 1114 windows: 300 labeled by me + minsun, kappa 0.69. stalled-after-error share is 14% vs 17% in 3114
+Thread: 1 replies (latest: 2026-06-17 08:05:56 PDT)
+Reactions: fire (3)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-06-15 19:10:32 PDT === 
+Message TS: 1781575832.001037
+rebuttal draft v1 is in overleaf, `rebuttal.tex`. 4,980 of 5,000 chars lol. <@U0SYNWFLRZV|Yan Chen> when you have a moment
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-06-11 05:30:04 PDT === 
+Message TS: 1781181004.153887
+uist reviews are out. scores 4, 3.5, 3, 2.5 (1AC + 3). main asks:
+1. label reliability: how were raters calibrated, is 0.71 good enough
+2. generalization beyond one course (cs 3114 only)
+3. privacy of keystroke + prompt telemetry
+rebuttal due thu 6/18. drafting tonight
+Thread: 3 replies (latest: 2026-06-11 06:42:54 PDT)
+Reactions: eyes (3)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-03-31 20:12:30 PDT === 
+Message TS: 1775013150.462755
+SUBMITTED. paper + video + supplement. thank you all 🙏
+Thread: 2 replies (latest: 2026-03-31 20:20:39 PDT)
+Reactions: tada (5), partying_face (3), sob (2)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-03-31 17:58:34 PDT === 
+Message TS: 1775005114.903404
+final pass done. uploading
+
+=== Message from Rezky (U0SYNS0GL2E) at 2026-03-30 16:40:03 PDT === 
+Message TS: 1774914003.523214
+anonymized the guide: removed "VT", "CS 3114" and our names from the header and the example screenshots
+Thread: 1 replies (latest: 2026-03-30 16:44:10 PDT)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-03-30 11:05:18 PDT === 
+Message TS: 1774893918.961976
+status: 10 pages + refs ✅  figures final ✅  video v2 with narration ✅ (thx yue)  supplementary zip ❌ (need to anonymize the labeling guide first)
+Reactions: +1 (3)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-03-28 22:20:44 PDT === 
+Message TS: 1774761644.057855
+down to 10.4 pages. cutting the second deployment-logistics paragraph and merging tables 3+4
+
+=== Message from Yue (U0SYNRUS5ER) at 2026-03-27 18:30:50 PDT === 
+Message TS: 1774661450.495638
+video figure first cut (2:58): <https://drive.google.com/file/d/1aQ7tUe5Vb0Hn2kLsXp8RmW4cZoJ9yDf3/view|tutortrace_video_v1.mp4>. no narration yet
+Thread: 2 replies (latest: 2026-03-27 19:12:02 PDT)
+
+=== Message from Minsun (U0SYN15CS2P) at 2026-03-26 20:55:43 PDT === 
+Message TS: 1774583743.861343
+read the whole thing. biggest issue: section 5 says kappa 0.71 but table 2 still has 0.68 from november
+Thread: 1 replies (latest: 2026-03-26 20:58:19 PDT)
+Reactions: scream (1)
+
+=== Message from Rezky (U0SYNS0GL2E) at 2026-03-25 10:10:40 PDT === 
+Message TS: 1774458640.580493
+fig 3 (replay viewer with state lanes) v4 is in overleaf → `figures/replay_lanes_v4.pdf`. colorblind-safe palette, stalled-after-error is the orange lane
+Thread: 2 replies (latest: 2026-03-25 10:50:35 PDT)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-03-24 13:42:47 PDT === 
+Message TS: 1774384967.734173
+abstract registered. PCS id uist26a-1187
+Reactions: white_check_mark (3)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-03-23 06:00:52 PDT === 
+Message TS: 1774270852.115192
+crunch week plan (deadline tue 3/31 AoE = wed 4/1 7:59am ET):
+mon 3/23: restructure contributions per Yan
+tue 3/24: abstract registered in PCS (title + abstract + authors)
+wed 3/25: figures freeze except fig 4
+thu 3/26: full read by Minsun + Yue
+fri 3/27: video figure first cut
+sat–mon: polish, cut to 10 pages
+tue 3/31: submit by 9pm ET, no heroics
+Reactions: muscle (4), sweat_smile (2)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-03-15 23:14:12 PDT === 
+Message TS: 1773641652.390306
+first full draft is in overleaf. 11 pages, over by 1. related work is rough
+Thread: 2 replies (latest: 2026-03-16 15:05:17 PDT)
+Reactions: eyes (2)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-02-19 20:40:19 PST === 
+Message TS: 1771562419.636244
+outline is in overleaf: <https://www.overleaf.com/project/65d3f1a0c9e4b2a7f1e08d3b|TutorTrace UIST26>. sections 1–3 have bullets, 4–6 are empty. the claim: a TA-facing replay of labeled help-seeking states lets TAs triage who to visit, in close to real time
+Reactions: eyes (2)
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-02-12 07:45:57 PST === 
+Message TS: 1770911157.582297
+Plan for TutorTrace @ UIST 2026. Deadline March 31 (AoE), abstract registration March 24.
+Owners: David (lead; intro, system, study), Minsun (labeling + reliability), Rezky (replay viewer + figures), Yue (analysis + video figure).
+First full draft to me by March 16, please.
+Reactions: +1 (4)
+
+=== Message from Yue (U0SYNRUS5ER) at 2026-02-12 07:40:11 PST === 
+Message TS: 1770910811.724722
+<@U0SYNRUS5ER|Yue> has joined the channel
+
+=== Message from Rezky (U0SYNS0GL2E) at 2026-02-12 07:31:31 PST === 
+Message TS: 1770910291.552479
+<@U0SYNS0GL2E|Rezky> has joined the channel
+
+=== Message from Minsun (U0SYN15CS2P) at 2026-02-12 07:30:09 PST === 
+Message TS: 1770910209.272972
+<@U0SYN15CS2P|Minsun> has joined the channel
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-02-12 07:29:40 PST === 
+Message TS: 1770910180.100383
+<@U0SYNZSPT5P|David Barron> has joined the channel
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-02-12 07:28:15 PST === 
+Message TS: 1770910095.892870
+<@U0SYNWFLRZV|Yan Chen> has joined the channel

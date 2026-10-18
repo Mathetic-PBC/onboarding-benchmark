@@ -1,0 +1,31 @@
+{
+  "pilot": "Priya",
+  "generated": "2026-10-10T09:14:00-07:00",
+  "groups": [
+    {
+      "key": "doi:10.1145/3698205.3729841",
+      "title": "Productive Struggle or Silent Stalling? (Ostrowski et al. 2025)",
+      "copies": [
+        "zotero/storage/8KQ2M1/Ostrowski2025.pdf",
+        "~/Downloads/Ostrowski2025_LAS_camera_ready.pdf"
+      ],
+      "action": "merge"
+    },
+    {
+      "key": "title:copy-of",
+      "title": "TA dashboard study plan / Copy of TA dashboard study plan",
+      "action": "group as versions"
+    },
+    {
+      "key": "chat:dup-export",
+      "title": "31 Claude chats present in both Aug and Oct export zips",
+      "action": "merge by conversation id"
+    }
+  ],
+  "missing": {
+    "claude": {
+      "expected": 1400,
+      "imported": 1262
+    }
+  }
+}

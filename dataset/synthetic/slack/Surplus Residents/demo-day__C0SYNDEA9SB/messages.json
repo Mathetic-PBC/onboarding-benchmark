@@ -1,0 +1,58 @@
+[
+  {
+    "ts": "1791216026.871585",
+    "user": "U0SYN4FPGQV",
+    "user_name": "Lena Hoffmann",
+    "datetime": "2026-10-05 09:00:26 PDT",
+    "text": "<@U0SYN4FPGQV|Lena Hoffmann> has joined the channel"
+  },
+  {
+    "ts": "1791216249.739566",
+    "user": "U0SYNVW3EYJ",
+    "user_name": "David Barron <david@mathetic.com>",
+    "datetime": "2026-10-05 09:04:09 PDT",
+    "text": "<@U0SYNVW3EYJ|David Barron> has joined the channel"
+  },
+  {
+    "ts": "1791216344.911525",
+    "user": "U0SYN5ZJ8LX",
+    "user_name": "Hudson Mitchell-Pullman",
+    "datetime": "2026-10-05 09:05:44 PDT",
+    "text": "<@U0SYN5ZJ8LX|Hudson Mitchell-Pullman> has joined the channel"
+  },
+  {
+    "ts": "1791216654.390920",
+    "user": "U0SYN4FPGQV",
+    "user_name": "Lena Hoffmann",
+    "datetime": "2026-10-05 09:10:54 PDT",
+    "text": "Pitch practice, Wednesdays 4pm in the living room:\n10/7: three teams (sign-up sheet)\n10/14: Mathetic + two teams\n10/21, 10/28, 11/4, 11/11: rotating\n11/17: full dress rehearsal with the AV setup\nFormat: 3 min pitch, 5 min feedback. No slides for the first round, just talk.\nReactions: +1 (5)"
+  },
+  {
+    "ts": "1791349808.673755",
+    "user": "U0SYNVW3EYJ",
+    "user_name": "David Barron <david@mathetic.com>",
+    "datetime": "2026-10-06 22:10:08 PDT",
+    "text": "first draft of our 3 min (Hudson presenting, i drive the demo):\n1. problem: a researcher's thinking is spread across 15 tools; when you come back to an idea you can't find where it came from\n2. engelbart: imports your chats, papers and notes and keeps the trail of where each thought came from\n3. demo: connect screen → import → click a note → \"where did this come from\" trail\n4. traction: 2 pilots this month (berkeley + cmu), 3rd being recruited\n5. ask: pre-seed, closing by demo day\nThread: 2 replies (latest: 2026-10-06 22:45:45 PDT)"
+  },
+  {
+    "ts": "1792022730.838677",
+    "user": "U0SYN4FPGQV",
+    "user_name": "Lena Hoffmann",
+    "datetime": "2026-10-14 17:05:30 PDT",
+    "text": "Feedback for Mathetic from today:\n• The demo is the pitch. Open with it, not the problem slide.\n• \"15 tools\" is abstract. Name the three tools your pilot actually used.\n• You said \"pilots\" six times and never said what success is. Define it.\n• 3:40, over by 40 seconds.\nThread: 2 replies (latest: 2026-10-14 17:22:10 PDT)\nReactions: pray (2)"
+  },
+  {
+    "ts": "1792131031.505432",
+    "user": "U0SYN5ZJ8LX",
+    "user_name": "Hudson Mitchell-Pullman",
+    "datetime": "2026-10-15 23:10:31 PDT",
+    "text": "v2 opening: \"Last Friday a Berkeley PhD student imported 600 Claude chats, her Zotero library and her Downloads folder. Then she clicked one note and saw the three conversations it came from.\" then straight into the demo\nThread: 2 replies (latest: 2026-10-15 23:24:02 PDT)\nReactions: fire (2)"
+  },
+  {
+    "ts": "1792175403.165995",
+    "user": "U0SYN4FPGQV",
+    "user_name": "Lena Hoffmann",
+    "datetime": "2026-10-16 11:30:03 PDT",
+    "text": "Next practice is Wed 10/21. Mathetic, you're going first again since you went over.\nReactions: joy (2)"
+  }
+]

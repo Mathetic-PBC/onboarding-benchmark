@@ -1,0 +1,164 @@
+{
+ "uuid": "bcf6f6f6-7b90-456d-8a20-5869c4819cbd",
+ "name": "Codebook for frustration signals in tutoring transcripts",
+ "summary": "",
+ "model": "claude-sonnet-4-6",
+ "created_at": "2026-02-05T03:14:58.960674Z",
+ "updated_at": "2026-02-05T03:21:42.056342Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "off",
+ "chat_messages": [
+  {
+   "uuid": "0b4c91b0-2158-4789-b0d3-955e10cac805",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-02-05T03:15:00.000000Z",
+     "stop_timestamp": "2026-02-05T03:15:00.000000Z",
+     "type": "text",
+     "text": "class project for ISE 6664 (affective design & computing, dr brooks). team is me, maya torres, jordan lee. topic: \"frustration signals in AI-tutoring transcripts\". jordan got 412 consented transcripts from a CS1 help bot (student <-> LLM tutor). we need a codebook for what counts as frustration in the student turns. text only, no audio/video. give me a first pass, 6-8 codes max",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-02-05T03:15:00.000000Z",
+   "updated_at": "2026-02-05T03:15:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "5b98d952-4218-4204-86de-a40d4baa2fa0",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-02-05T03:15:02.000000Z",
+     "stop_timestamp": "2026-02-05T03:15:29.087000Z",
+     "type": "text",
+     "text": "A first-pass codebook for student turns, text only. Each code is a property of a single turn; a turn can have more than one.\n\n| Code | Definition | Example (made up) | Not this |\n|---|---|---|---|\n| **REPEAT** | Student resends the same or nearly the same request after an answer | \"how do i fix the index error\" → (answer) → \"how do i fix this index error\" | A genuinely new question on the same bug |\n| **NEG-EVAL** | Explicit negative judgment of the tutor or task | \"that doesn't help\", \"this is useless\" | Neutral correction: \"I meant the second loop\" |\n| **SELF-NEG** | Negative statement about self or ability | \"i'm so bad at this\", \"i'll never get recursion\" | Plain uncertainty: \"not sure if this is right\" |\n| **INTENSITY** | Typographic intensity: all caps, repeated punctuation, expletives | \"WHY IS IT STILL BROKEN???\" | Caps in code or acronyms |\n| **TERSE-DROP** | Sharp drop in turn length after longer turns, with no new info | \"ok\", \"no\", \"still no\" after multi-sentence turns | Short acknowledgments after a successful fix |\n| **GIVE-UP** | Statement of quitting or request to just get the answer | \"just give me the code\", \"forget it\" | Asking for an example to learn from |\n| **DEFLECT** | Changing topic away from the task mid-error | \"can we do the next problem instead\" | Moving on after solving |\n\nNotes for the team:\n- Code **turns**, then derive a session-level label (\"frustrated at any point\") from them. Easier to get agreement on turns.\n- REPEAT and TERSE-DROP need context (previous turns), so coders should read the session, not single turns in isolation.\n- I'd pilot this on 20 sessions each, then compare before refining. Expect REPEAT vs. legit follow-up to be the main disagreement.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-02-05T03:15:29.087000Z",
+   "updated_at": "2026-02-05T03:15:29.087000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "0b4c91b0-2158-4789-b0d3-955e10cac805"
+  },
+  {
+   "uuid": "2485160a-12eb-4de8-a9e6-3f9bac52b47f",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-02-05T03:17:48.087000Z",
+     "stop_timestamp": "2026-02-05T03:17:48.087000Z",
+     "type": "text",
+     "text": "dr brooks said in class frustration is \"blocked goal + negative valence\". should the codebook be tied to that",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-02-05T03:17:48.087000Z",
+   "updated_at": "2026-02-05T03:17:48.087000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "5b98d952-4218-4204-86de-a40d4baa2fa0"
+  },
+  {
+   "uuid": "33b34d56-cc72-4868-936a-627204ae9baa",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-02-05T03:17:50.087000Z",
+     "stop_timestamp": "2026-02-05T03:18:08.377000Z",
+     "type": "text",
+     "text": "Yes, and it helps you organize the codes rather than just listing them. Map each code to one or both components:\n\n- **Blocked goal** (behavioral evidence): REPEAT, TERSE-DROP, GIVE-UP, DEFLECT\n- **Negative valence** (expressed affect): NEG-EVAL, SELF-NEG, INTENSITY\n\nThen a session-level rule like: *frustrated* = at least one blocked-goal code **and** at least one valence code within a 5-turn window. That gives you a definition that's grounded in the course framing, and it lets you report the two components separately (e.g. many sessions show blocked goals without negative valence, which is interesting by itself: struggle without visible frustration).",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-02-05T03:18:08.377000Z",
+   "updated_at": "2026-02-05T03:18:08.377000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "2485160a-12eb-4de8-a9e6-3f9bac52b47f"
+  },
+  {
+   "uuid": "40d927a4-d50d-49ff-a608-c70761851bda",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-02-05T03:21:25.377000Z",
+     "stop_timestamp": "2026-02-05T03:21:25.377000Z",
+     "type": "text",
+     "text": "nice that last part could be a finding. ok put the codebook + rule in a format i can paste into the project knowledge",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2026-02-05T03:21:25.377000Z",
+   "updated_at": "2026-02-05T03:21:25.377000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "33b34d56-cc72-4868-936a-627204ae9baa"
+  },
+  {
+   "uuid": "ab3355c9-ed41-47d2-a426-d7bd20f00879",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-02-05T03:21:27.377000Z",
+     "stop_timestamp": "2026-02-05T03:21:40.783000Z",
+     "type": "text",
+     "text": "**Codebook v1 — Frustration signals (ISE 6664, D. Barron / M. Torres / J. Lee)**\n\nUnit: student turn. Multiple codes allowed.\n\nBlocked goal\n- REPEAT — same/near-same request resent after an answer.\n- TERSE-DROP — turn length drops sharply after longer turns, no new info.\n- GIVE-UP — quits or asks for the answer outright.\n- DEFLECT — changes topic away from an unresolved error.\n\nNegative valence\n- NEG-EVAL — negative judgment of tutor or task.\n- SELF-NEG — negative statement about own ability.\n- INTENSITY — caps, repeated punctuation, expletives (not in code).\n\nSession rule\n- Frustrated = ≥1 blocked-goal code and ≥1 valence code within any 5 consecutive student turns.\n- Report blocked-goal-only and valence-only sessions separately.\n\nProcess\n- Pilot: 20 sessions per coder, compare, revise to v2.\n- Agreement: Cohen's kappa per pair on session label; percent agreement per code.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2026-02-05T03:21:40.783000Z",
+   "updated_at": "2026-02-05T03:21:40.783000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "40d927a4-d50d-49ff-a608-c70761851bda"
+  }
+ ],
+ "current_leaf_message_uuid": "ab3355c9-ed41-47d2-a426-d7bd20f00879",
+ "project_uuid": "6e186c15-d8b4-48ad-8ad3-db529caac689",
+ "project": {
+  "uuid": "6e186c15-d8b4-48ad-8ad3-db529caac689",
+  "name": "ISE 6664 report"
+ }
+}

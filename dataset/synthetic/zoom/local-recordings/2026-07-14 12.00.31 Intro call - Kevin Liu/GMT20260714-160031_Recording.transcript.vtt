@@ -1,0 +1,185 @@
+WEBVTT
+
+1
+00:00:02.216 --> 00:00:05.855
+Kevin Liu: Hey David, Kevin here. Can you hear me okay?
+
+2
+00:00:13.611 --> 00:00:20.173
+David Barron: Yeah, I can hear you. Hey Kevin. Um, before we start, do you mind if I record this?
+
+3
+00:00:20.470 --> 00:00:25.984
+David Barron: I'm in the middle of a lot of things and I'd rather not take notes.
+
+4
+00:00:27.322 --> 00:00:33.328
+Kevin Liu: Not at all, go for it. I'll give you permission to record. There, you should have it.
+
+5
+00:00:35.039 --> 00:00:37.516
+David Barron: Got it, thanks. Okay, it's recording.
+
+6
+00:00:38.617 --> 00:00:45.035
+Kevin Liu: Great. So, thanks for taking the call. I know my message was a bit out of the blue.
+
+7
+00:00:46.264 --> 00:00:51.610
+David Barron: Yeah, no worries. I'll be honest, I'm mostly curious. I'm not really looking right now.
+
+8
+00:00:52.204 --> 00:00:56.564
+Kevin Liu: Totally understood, most of the people I reach out to aren't.
+
+9
+00:00:56.777 --> 00:01:04.345
+Kevin Liu: So let me give you thirty seconds on who we are, and then I'd love to hear what you're working on.
+
+10
+00:01:06.129 --> 00:01:07.229
+David Barron: Sure.
+
+11
+00:01:08.043 --> 00:01:13.915
+Kevin Liu: So I'm on the talent team at Ferrous Labs. We build build-and-test observability for engineering teams.
+
+12
+00:01:14.286 --> 00:01:23.786
+Kevin Liu: Basically, when your CI is slow or flaky, we show you which tests, which steps, which commits, and we've been adding an agent that proposes fixes.
+
+13
+00:01:24.233 --> 00:01:28.898
+Kevin Liu: We're about sixty people, Series B, remote-first with a hub in Seattle.
+
+14
+00:01:29.749 --> 00:01:32.759
+David Barron: Okay. And the role is what, exactly?
+
+15
+00:01:33.852 --> 00:01:40.647
+Kevin Liu: It's a founding engineer on what we're calling the AI developer experience team. Small team, four people right now.
+
+16
+00:01:41.004 --> 00:01:48.820
+Kevin Liu: The work is on how developers interact with the agent: when it suggests something, how it explains itself, how you trust it.
+
+17
+00:01:49.133 --> 00:01:56.737
+Kevin Liu: We saw your work on telemetry and help-seeking and thought, well, that's basically the same problem with students instead of engineers.
+
+18
+00:02:01.612 --> 00:02:04.913
+David Barron: Huh. Yeah, that's a pretty fair read, actually.
+
+19
+00:02:05.163 --> 00:02:13.474
+David Barron: A lot of what we look at is when a person is stuck versus making progress, from their editor and their AI chats.
+
+20
+00:02:19.546 --> 00:02:23.656
+Kevin Liu: Right, exactly. So the hiring manager was really interested in that.
+
+21
+00:02:24.027 --> 00:02:30.828
+Kevin Liu: And the research side, like, you know how to instrument things and then actually look at the data.
+
+22
+00:02:36.219 --> 00:02:45.237
+David Barron: Yeah. So, um, the thing is, I'm about to go on leave from my PhD. Starting this fall. I'm co-founding a company with a friend.
+
+23
+00:02:46.306 --> 00:02:48.636
+Kevin Liu: Oh, nice! Congratulations. What's the company?
+
+24
+00:02:49.883 --> 00:02:59.186
+David Barron: Thanks. It's early. We're building a research notebook, a tool for researchers that remembers where their ideas came from. Like, which paper, which conversation, which chat.
+
+25
+00:02:59.602 --> 00:03:03.629
+David Barron: I'm moving out to San Francisco in August for it.
+
+26
+00:03:04.458 --> 00:03:12.286
+Kevin Liu: That's super cool. Honestly that's very adjacent to what we do, provenance for code changes. Is it, like, an AI product?
+
+27
+00:03:13.690 --> 00:03:19.915
+David Barron: AI is a big part of it, yeah. But it's early, I don't want to oversell it.
+
+28
+00:03:21.187 --> 00:03:25.791
+Kevin Liu: Fair enough. So I'm guessing a full-time role is a no for now.
+
+29
+00:03:26.519 --> 00:03:33.287
+David Barron: Yeah, for now it's a no. I really appreciate you reaching out though, and the role does sound interesting.
+
+30
+00:03:34.175 --> 00:03:41.930
+Kevin Liu: No, totally, and I'd rather know now. Can I ask, would you be open to me checking in, say, in six months?
+
+31
+00:03:42.093 --> 00:03:46.385
+Kevin Liu: Things change, and if the company thing evolves, our door's open.
+
+32
+00:03:47.685 --> 00:03:50.503
+David Barron: Sure, that's fine. Six months is fine.
+
+33
+00:03:51.742 --> 00:04:00.127
+Kevin Liu: Great. And one more thing, and feel free to say no. Do you know anyone from your lab, or from VT, who might fit?
+
+34
+00:04:00.532 --> 00:04:04.073
+Kevin Liu: Someone with a research background who likes building tools?
+
+35
+00:04:05.264 --> 00:04:13.898
+David Barron: Um, maybe. Let me think about it. Most people in my lab are mid-PhD so they're not looking yet. I'll keep it in mind.
+
+36
+00:04:15.620 --> 00:04:22.935
+Kevin Liu: That'd be great. I'll send you the job description so you have something to forward if anyone comes to mind.
+
+37
+00:04:24.543 --> 00:04:29.523
+David Barron: Sounds good. Is it okay if I ask one thing? Out of curiosity.
+
+38
+00:04:30.271 --> 00:04:31.371
+Kevin Liu: Of course.
+
+39
+00:04:31.740 --> 00:04:36.487
+David Barron: How do you measure whether people trust the agent's suggestions? Like, acceptance rate?
+
+40
+00:04:37.984 --> 00:04:41.955
+Kevin Liu: Ha, you'd have to ask the team, I'm the recruiter.
+
+41
+00:04:42.328 --> 00:04:49.083
+Kevin Liu: But I know they look at acceptance, and at how often a suggestion gets reverted within a day.
+
+42
+00:04:49.532 --> 00:04:53.349
+Kevin Liu: That's the one I hear them talk about the most.
+
+43
+00:04:54.897 --> 00:04:58.630
+David Barron: Revert within a day. Okay, that's a good one. Cool.
+
+44
+00:04:59.481 --> 00:05:08.319
+Kevin Liu: I'll pass along that you asked, they'll love that. Alright David, I'll let you go. Good luck with the move and with the company.
+
+45
+00:05:09.452 --> 00:05:11.737
+David Barron: Thanks Kevin, appreciate it. Take care.
+
+46
+00:05:13.144 --> 00:05:14.516
+Kevin Liu: You too. Bye.

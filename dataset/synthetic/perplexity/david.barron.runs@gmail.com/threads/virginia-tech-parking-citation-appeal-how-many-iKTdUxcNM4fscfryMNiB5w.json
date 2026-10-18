@@ -1,0 +1,33 @@
+{
+ "uuid": "4792f1f4-3e5b-4e2f-984f-0ae2359fcbdc",
+ "slug": "virginia-tech-parking-citation-appeal-how-many-iKTdUxcNM4fscfryMNiB5w",
+ "title": "VT parking ticket appeal deadline",
+ "thread_url": "https://www.perplexity.ai/search/virginia-tech-parking-citation-appeal-how-many-iKTdUxcNM4fscfryMNiB5w",
+ "created_at": "2026-02-25T16:05:00Z",
+ "updated_at": "2026-02-25T16:05:32Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "e19d6a1c-14ec-4922-9d15-332b1e18d8d2",
+   "query_str": "virginia tech parking citation appeal how many days do i have",
+   "answer": "Virginia Tech Parking Services generally requires citation appeals to be submitted **online within 10 business days** of the citation date through the parking portal; after that the citation stands and must be paid [1][2]. Include photos and your permit number if you're appealing on signage or a valid-permit basis. Check the date printed on your citation and the current policy page, since deadlines can change by academic year [1].",
+   "sources": [
+    {
+     "name": "Virginia Tech Parking Services — citations and appeals",
+     "url": "https://parking.vt.edu/citations.html",
+     "snippet": "How to pay or appeal a parking citation and appeal deadlines."
+    },
+    {
+     "name": "VT parking regulations (current academic year)",
+     "url": "https://parking.vt.edu/regulations.html",
+     "snippet": "Full regulations including the appeals process."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "sonar",
+   "created_at": "2026-02-25T16:05:00Z",
+   "updated_at": "2026-02-25T16:05:20Z"
+  }
+ ]
+}

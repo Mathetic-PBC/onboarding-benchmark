@@ -1,0 +1,307 @@
+{
+ "title": "Grad student taxes 1098-T",
+ "create_time": 1773020755.12,
+ "update_time": 1773021046.3756964,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "2238e42f-7963-4b82-8dad-cbe0203845a5"
+   ]
+  },
+  "2238e42f-7963-4b82-8dad-cbe0203845a5": {
+   "id": "2238e42f-7963-4b82-8dad-cbe0203845a5",
+   "message": {
+    "id": "2238e42f-7963-4b82-8dad-cbe0203845a5",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1773020755.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "filing 2025 taxes. im a phd student, GRA with a stipend (W-2 from VT) and tuition is waived. got a 1098-T showing box 1 tuition and box 5 scholarships. does the tuition waiver count as income? using freetaxusa"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_9ad4fef3b3770dc68fbcb6748b",
+     "message_source": null,
+     "turn_exchange_id": "13aaef06-aa9e-4b2f-91f3-0deea027ae8a",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "de4b4228-6609-4b88-b12b-89a90f57a042"
+   ]
+  },
+  "de4b4228-6609-4b88-b12b-89a90f57a042": {
+   "id": "de4b4228-6609-4b88-b12b-89a90f57a042",
+   "message": {
+    "id": "de4b4228-6609-4b88-b12b-89a90f57a042",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1773020775.502,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "General rules (not tax advice for your specific case):\n\n- **GRA stipend on a W-2:** wages, taxable as normal. Already reported via the W-2.\n- **Tuition waiver / remission:** for graduate students, a *qualified tuition reduction* for teaching or research assistants is generally excluded from income under IRC §117(d) if it's for the GRA/GTA's own tuition. It usually doesn't show up as income on the W-2.\n- **1098-T:** box 1 = qualified tuition billed/paid, box 5 = scholarships/grants (which may include the waiver). If box 5 ≥ box 1 and the excess is only tuition-related, typically nothing extra is taxable. If box 5 > box 1 (e.g., a fellowship that also covered living costs), the **excess is taxable income** reported as scholarship income.\n- **Education credits:** if your tuition was fully covered by tax-free assistance, you generally can't also claim the American Opportunity / Lifetime Learning Credit on those same expenses.\n\nIn FreeTaxUSA: enter the 1098-T under education; it will compute whether any scholarship is taxable. If box 5 ≤ box 1, expect $0 additional.\n\nWhen in doubt, VT's graduate school or a VITA site can confirm how your waiver is coded."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_9ad4fef3b3770dc68fbcb6748b",
+     "message_type": "next",
+     "turn_exchange_id": "13aaef06-aa9e-4b2f-91f3-0deea027ae8a",
+     "model_slug": "gpt-5-3",
+     "default_model_slug": "gpt-5-3",
+     "resolved_model_slug": "gpt-5-3",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "2238e42f-7963-4b82-8dad-cbe0203845a5"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "2238e42f-7963-4b82-8dad-cbe0203845a5",
+   "children": [
+    "c3397f7e-34f9-4819-ac61-3fc7d4c254db"
+   ]
+  },
+  "c3397f7e-34f9-4819-ac61-3fc7d4c254db": {
+   "id": "c3397f7e-34f9-4819-ac61-3fc7d4c254db",
+   "message": {
+    "id": "c3397f7e-34f9-4819-ac61-3fc7d4c254db",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1773020960.502,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "box 1 = 14,286 box 5 = 14,286. so nothing?"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_57895bfe4c89860e3aa3c218a4",
+     "message_source": null,
+     "turn_exchange_id": "20576658-4c22-4131-ba4c-64be817b4542",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "de4b4228-6609-4b88-b12b-89a90f57a042",
+   "children": [
+    "e85f5f65-f73d-4ac5-aa11-923a1ca8b96a"
+   ]
+  },
+  "e85f5f65-f73d-4ac5-aa11-923a1ca8b96a": {
+   "id": "e85f5f65-f73d-4ac5-aa11-923a1ca8b96a",
+   "message": {
+    "id": "e85f5f65-f73d-4ac5-aa11-923a1ca8b96a",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1773020967.148,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Most likely nothing additional is taxable from the 1098-T, since scholarships equal qualified tuition, and you can't take an education credit on those expenses. Your taxable income is the W-2 stipend. Keep the 1098-T with your records."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_57895bfe4c89860e3aa3c218a4",
+     "message_type": "next",
+     "turn_exchange_id": "20576658-4c22-4131-ba4c-64be817b4542",
+     "model_slug": "gpt-5-3",
+     "default_model_slug": "gpt-5-3",
+     "resolved_model_slug": "gpt-5-3",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "c3397f7e-34f9-4819-ac61-3fc7d4c254db"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "c3397f7e-34f9-4819-ac61-3fc7d4c254db",
+   "children": [
+    "59c585d2-f8b0-495d-a360-a69522f33c4d"
+   ]
+  },
+  "59c585d2-f8b0-495d-a360-a69522f33c4d": {
+   "id": "59c585d2-f8b0-495d-a360-a69522f33c4d",
+   "message": {
+    "id": "59c585d2-f8b0-495d-a360-a69522f33c4d",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1773021028.148,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "also i lived in virginia all of 2025, any VA specific thing"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_f35d9a7a20dc66a139868af6f9",
+     "message_source": null,
+     "turn_exchange_id": "d2931785-5006-4c8e-a95b-1ddb14c54f1f",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "e85f5f65-f73d-4ac5-aa11-923a1ca8b96a",
+   "children": [
+    "2f095e8e-de52-44df-bb70-f7c4c8e0bac3"
+   ]
+  },
+  "2f095e8e-de52-44df-bb70-f7c4c8e0bac3": {
+   "id": "2f095e8e-de52-44df-bb70-f7c4c8e0bac3",
+   "message": {
+    "id": "2f095e8e-de52-44df-bb70-f7c4c8e0bac3",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1773021045.415,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "For a full-year Virginia resident with W-2 income only, the VA return (Form 760) is usually straightforward: it starts from federal AGI, and VA withholding from your W-2 box 17 applies. A few things to check in the software: the VA standard deduction, and whether you qualify for any VA subtractions (not common for a typical GRA). File both federal and VA in FreeTaxUSA. The state return has a small fee there."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_f35d9a7a20dc66a139868af6f9",
+     "message_type": "next",
+     "turn_exchange_id": "d2931785-5006-4c8e-a95b-1ddb14c54f1f",
+     "model_slug": "gpt-5-3",
+     "default_model_slug": "gpt-5-3",
+     "resolved_model_slug": "gpt-5-3",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "59c585d2-f8b0-495d-a360-a69522f33c4d"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "59c585d2-f8b0-495d-a360-a69522f33c4d",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "2f095e8e-de52-44df-bb70-f7c4c8e0bac3",
+ "plugin_ids": null,
+ "conversation_id": "69ae2653-057b-8327-0da6-6af4e0f6310b",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-3",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "69ae2653-057b-8327-0da6-6af4e0f6310b"
+}

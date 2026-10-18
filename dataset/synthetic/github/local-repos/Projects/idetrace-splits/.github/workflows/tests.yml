@@ -1,0 +1,11 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install pandas scikit-learn pyyaml pytest pyarrow
+      - run: python -m pytest -q -k "not v1_is_unchanged"   # v1 splits are local-only

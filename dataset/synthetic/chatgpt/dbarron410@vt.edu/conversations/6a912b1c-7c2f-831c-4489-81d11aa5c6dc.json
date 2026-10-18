@@ -1,0 +1,305 @@
+{
+ "title": "Landing page headline options",
+ "create_time": 1787898652.12,
+ "update_time": 1787898864.943904,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "8fa1d382-745b-4ff5-8eda-4bcb362da2e9"
+   ]
+  },
+  "8fa1d382-745b-4ff5-8eda-4bcb362da2e9": {
+   "id": "8fa1d382-745b-4ff5-8eda-4bcb362da2e9",
+   "message": {
+    "id": "8fa1d382-745b-4ff5-8eda-4bcb362da2e9",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1787898652.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "landing page for engelbart. current headline \"Engelbart: your AI research notebook\". hudson thinks its generic and i agree. core idea: it remembers where your thoughts came from: which chat, paper, note. give 10 headline options, short, no buzzwords like \"supercharge\""
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_d8738cb9a9925ba5c4bfb9b151",
+     "message_source": null,
+     "turn_exchange_id": "47fd0c37-b745-4c4b-9cc0-f33eb4ac3d6a",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "3c12db6c-598e-4a37-973b-25165a803b4b"
+   ]
+  },
+  "3c12db6c-598e-4a37-973b-25165a803b4b": {
+   "id": "3c12db6c-598e-4a37-973b-25165a803b4b",
+   "message": {
+    "id": "3c12db6c-598e-4a37-973b-25165a803b4b",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1787898661.3,
+    "update_time": null,
+    "content": {
+     "content_type": "reasoning_recap",
+     "content": "Thought for 9s"
+    },
+    "status": "finished_successfully",
+    "end_turn": false,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_d8738cb9a9925ba5c4bfb9b151",
+     "message_type": "next",
+     "turn_exchange_id": "47fd0c37-b745-4c4b-9cc0-f33eb4ac3d6a",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "reasoning_status": "reasoning_ended",
+     "finished_duration_sec": 9,
+     "reasoning_start_time": 1787898652.4,
+     "reasoning_end_time": 1787898661.2,
+     "cot_version": "v5",
+     "thinking_effort": "standard",
+     "can_save": false,
+     "parent_id": "8fa1d382-745b-4ff5-8eda-4bcb362da2e9"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "8fa1d382-745b-4ff5-8eda-4bcb362da2e9",
+   "children": [
+    "7c9bef07-ba9c-4607-85d9-9c2dd9f4db45"
+   ]
+  },
+  "7c9bef07-ba9c-4607-85d9-9c2dd9f4db45": {
+   "id": "7c9bef07-ba9c-4607-85d9-9c2dd9f4db45",
+   "message": {
+    "id": "7c9bef07-ba9c-4607-85d9-9c2dd9f4db45",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1787898667.248,
+    "update_time": 1787898673.1783276,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "1. **Every idea, with its sources.**\n2. **Remember where your thinking came from.**\n3. **A notebook that keeps the trail.**\n4. **Your research, with receipts.**\n5. **Know where every idea started.**\n6. **Thoughts, traced.**\n7. **From chat to paper, nothing loses its source.**\n8. **The notebook that remembers why.**\n9. **Your ideas, and everything that led to them.**\n10. **Stop losing the thread.**\n\n#2 is closest to your own phrasing; #4 is the most memorable but slightly cute; #10 is broad but immediately relatable for researchers."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_d8738cb9a9925ba5c4bfb9b151",
+     "message_type": "next",
+     "turn_exchange_id": "47fd0c37-b745-4c4b-9cc0-f33eb4ac3d6a",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "3c12db6c-598e-4a37-973b-25165a803b4b"
+    },
+    "recipient": "all",
+    "channel": "final"
+   },
+   "parent": "3c12db6c-598e-4a37-973b-25165a803b4b",
+   "children": [
+    "15765158-1aa4-4d1c-8635-a4a79872ece8"
+   ]
+  },
+  "15765158-1aa4-4d1c-8635-a4a79872ece8": {
+   "id": "15765158-1aa4-4d1c-8635-a4a79872ece8",
+   "message": {
+    "id": "15765158-1aa4-4d1c-8635-a4a79872ece8",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1787898847.248,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "2 and 10 are good. subhead for 2?"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_0d9167978a38dd5535ae4078e1",
+     "message_source": null,
+     "turn_exchange_id": "58968954-4b29-4c57-a8ad-ddf888ffddf2",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "7c9bef07-ba9c-4607-85d9-9c2dd9f4db45",
+   "children": [
+    "d795af18-6946-41db-95d5-cae35e713462"
+   ]
+  },
+  "d795af18-6946-41db-95d5-cae35e713462": {
+   "id": "d795af18-6946-41db-95d5-cae35e713462",
+   "message": {
+    "id": "d795af18-6946-41db-95d5-cae35e713462",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1787898856.5479999,
+    "update_time": null,
+    "content": {
+     "content_type": "reasoning_recap",
+     "content": "Thought for 9s"
+    },
+    "status": "finished_successfully",
+    "end_turn": false,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_0d9167978a38dd5535ae4078e1",
+     "message_type": "next",
+     "turn_exchange_id": "58968954-4b29-4c57-a8ad-ddf888ffddf2",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "reasoning_status": "reasoning_ended",
+     "finished_duration_sec": 9,
+     "reasoning_start_time": 1787898847.648,
+     "reasoning_end_time": 1787898856.448,
+     "cot_version": "v5",
+     "thinking_effort": "standard",
+     "can_save": false,
+     "parent_id": "15765158-1aa4-4d1c-8635-a4a79872ece8"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "15765158-1aa4-4d1c-8635-a4a79872ece8",
+   "children": [
+    "da592685-6cea-4bea-8165-cd0f6c8a22dd"
+   ]
+  },
+  "da592685-6cea-4bea-8165-cd0f6c8a22dd": {
+   "id": "da592685-6cea-4bea-8165-cd0f6c8a22dd",
+   "message": {
+    "id": "da592685-6cea-4bea-8165-cd0f6c8a22dd",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1787898863.909,
+    "update_time": 1787898868.641583,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "- \"Engelbart imports your chats, papers and notes, and links every idea back to where it came from.\"\n- \"Bring in your AI chats, PDFs and notes. Engelbart keeps the trail from each idea to its source.\"\n- \"One notebook for your research, where every note knows its origins.\"\n\nThe second is clearest about what it does; the first is shortest."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_0d9167978a38dd5535ae4078e1",
+     "message_type": "next",
+     "turn_exchange_id": "58968954-4b29-4c57-a8ad-ddf888ffddf2",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "d795af18-6946-41db-95d5-cae35e713462"
+    },
+    "recipient": "all",
+    "channel": "final"
+   },
+   "parent": "d795af18-6946-41db-95d5-cae35e713462",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "da592685-6cea-4bea-8165-cd0f6c8a22dd",
+ "plugin_ids": null,
+ "conversation_id": "6a912b1c-7c2f-831c-4489-81d11aa5c6dc",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-6-thinking",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "6a912b1c-7c2f-831c-4489-81d11aa5c6dc"
+}

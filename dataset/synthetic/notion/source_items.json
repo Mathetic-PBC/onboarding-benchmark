@@ -1,1 +1,2291 @@
-[]
+[
+ {
+  "id": "item_035065",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Bike — rear derailleur skipping 7b9735afe70c91b78cad66e6915abee2.md",
+  "title": "Bike — rear derailleur skipping 7b9735afe70c91b78cad66e6915abee2.md",
+  "content_type": "note",
+  "created_at": "2026-03-08T18:15:00Z",
+  "modified_at": "2026-03-11T22:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Bike — rear derailleur skipping 7b9735afe70c91b78cad66e6915abee2.md",
+  "source_url": null,
+  "content_hash": "sha256:538a86e01dd8404d49e22f91f1b2c55cfac6b4dd2ca9b22478f9211c3f04dab3",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035066",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Car — registration + insurance a78df2ac262d8133530ebb29981fac04.md",
+  "title": "Car — registration + insurance a78df2ac262d8133530ebb29981fac04.md",
+  "content_type": "note",
+  "created_at": "2026-02-24T14:40:00Z",
+  "modified_at": "2026-03-03T17:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Car — registration + insurance a78df2ac262d8133530ebb29981fac04.md",
+  "source_url": null,
+  "content_hash": "sha256:1d9b3430a3a7a1629d9ea2a1f153336ee8598d87ed651190dd86656d45c4f0ab",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035067",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Chess study plan ea2b8ee2094fa234496e79e9080b96fd.md",
+  "title": "Chess study plan ea2b8ee2094fa234496e79e9080b96fd.md",
+  "content_type": "note",
+  "created_at": "2026-02-16T03:30:00Z",
+  "modified_at": "2026-02-20T04:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Chess study plan ea2b8ee2094fa234496e79e9080b96fd.md",
+  "source_url": null,
+  "content_hash": "sha256:8c30fd413bd004298740b26068c31ef14bb7c9099b8df400aa8f358150b4e4f4",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035068",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Dublin trip — Niamh wedding f0649ba4f7c153d1fbadc41f710e4d9e.md",
+  "title": "Dublin trip — Niamh wedding f0649ba4f7c153d1fbadc41f710e4d9e.md",
+  "content_type": "note",
+  "created_at": "2026-03-19T01:40:00Z",
+  "modified_at": "2026-04-06T02:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Dublin trip — Niamh wedding f0649ba4f7c153d1fbadc41f710e4d9e.md",
+  "source_url": null,
+  "content_hash": "sha256:713bbf7a41197103f386f3eae5063ead6dbc2266769b1688065fbcffb9476007",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "family logistics only (personal clutter)"
+  }
+ },
+ {
+  "id": "item_035069",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Geopolitics reading notes 604c696cd3d89609334334d3268a504b.md",
+  "title": "Geopolitics reading notes 604c696cd3d89609334334d3268a504b.md",
+  "content_type": "note",
+  "created_at": "2026-02-22T03:10:00Z",
+  "modified_at": "2026-03-16T03:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Geopolitics reading notes 604c696cd3d89609334334d3268a504b.md",
+  "source_url": null,
+  "content_hash": "sha256:47995b3503a7df3e67f289d82ac54233a82bf32b671daff0b4cbfce17deeee27",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035070",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Getting Started 4c3c2b120f3aba155f8580694c13ec60.md",
+  "title": "Getting Started 4c3c2b120f3aba155f8580694c13ec60.md",
+  "content_type": "note",
+  "created_at": "2026-01-27T03:41:00Z",
+  "modified_at": "2026-01-27T03:58:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Getting Started 4c3c2b120f3aba155f8580694c13ec60.md",
+  "source_url": null,
+  "content_hash": "sha256:80952f2f90eeb42f5f435a58845fb1b4e9d4a3ef508da0f5348f663a6e8e45cb",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "default onboarding page, lightly edited"
+  }
+ },
+ {
+  "id": "item_035071",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Gift ideas db3b88688a30d1dcb15475ad3704c68a.md",
+  "title": "Gift ideas db3b88688a30d1dcb15475ad3704c68a.md",
+  "content_type": "note",
+  "created_at": "2026-03-01T17:30:00Z",
+  "modified_at": "2026-03-23T00:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Gift ideas db3b88688a30d1dcb15475ad3704c68a.md",
+  "source_url": null,
+  "content_hash": "sha256:bb4c3409623ef21173d3d1d3cf72ad2e4d0b8882976ec41bd25a0f527b017ee8",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035072",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Habit tracker 6ed3dee9c7e80fa2772bcd680100c3d2.md",
+  "title": "Habit tracker 6ed3dee9c7e80fa2772bcd680100c3d2.md",
+  "content_type": "note",
+  "created_at": "2026-01-27T04:05:00Z",
+  "modified_at": "2026-02-15T04:52:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Habit tracker 6ed3dee9c7e80fa2772bcd680100c3d2.md",
+  "source_url": null,
+  "content_hash": "sha256:322dea1a5deb6ab60432ad94f5f1d089992c97b120c667b621f40749ceb99453",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035073",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Hint timing pilot 926a9be29d8fba1afa30bc856f298289.csv",
+  "title": "Hint timing pilot 926a9be29d8fba1afa30bc856f298289.csv",
+  "content_type": "data",
+  "created_at": "2026-02-12T02:25:00Z",
+  "modified_at": "2026-03-06T04:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Hint timing pilot 926a9be29d8fba1afa30bc856f298289.csv",
+  "source_url": null,
+  "content_hash": "sha256:784048abe8932f04de92a4f1d63e721276aa5fb9bc2c85fa23df8297ae321639",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "csv",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_hint_timing_study"
+   ],
+   "notes": "HARD CASE: project in only one tool — the hint-timing pilot exists only in this Notion database (database view CSV)"
+  }
+ },
+ {
+  "id": "item_035074",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Hint timing pilot 926a9be29d8fba1afa30bc856f298289/Analysis plan 798c822fb677bbe142a17c8fdb5091e8.md",
+  "title": "Analysis plan 798c822fb677bbe142a17c8fdb5091e8.md",
+  "content_type": "note",
+  "created_at": "2026-02-23T03:15:00Z",
+  "modified_at": "2026-03-02T04:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Hint timing pilot 926a9be29d8fba1afa30bc856f298289/Analysis plan 798c822fb677bbe142a17c8fdb5091e8.md",
+  "source_url": null,
+  "content_hash": "sha256:ccf6e2820cd6cfb81aa7cbe48cd2018e7281589db8809f8567d99f01595650bf",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_hint_timing_study"
+   ],
+   "notes": "HARD CASE: project in only one tool — the hint-timing pilot exists only in this Notion database (analysis plan)"
+  }
+ },
+ {
+  "id": "item_035075",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Hint timing pilot 926a9be29d8fba1afa30bc856f298289/CS1 lab logistics 58ff2da9ee09f87b5df7060e05ac5178.md",
+  "title": "CS1 lab logistics 58ff2da9ee09f87b5df7060e05ac5178.md",
+  "content_type": "note",
+  "created_at": "2026-02-14T20:20:00Z",
+  "modified_at": "2026-02-27T21:45:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Hint timing pilot 926a9be29d8fba1afa30bc856f298289/CS1 lab logistics 58ff2da9ee09f87b5df7060e05ac5178.md",
+  "source_url": null,
+  "content_hash": "sha256:7785d90d59cdb1486c3f3dbdf83d29bb6a2da969283a16d360a76eda64b37caf",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_hint_timing_study"
+   ],
+   "notes": "HARD CASE: project in only one tool — the hint-timing pilot exists only in this Notion database (lab logistics)"
+  }
+ },
+ {
+  "id": "item_035076",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Hint timing pilot 926a9be29d8fba1afa30bc856f298289/Consent form draft 58b115d30a6611bb0fd9496c286da497.md",
+  "title": "Consent form draft 58b115d30a6611bb0fd9496c286da497.md",
+  "content_type": "note",
+  "created_at": "2026-02-19T01:40:00Z",
+  "modified_at": "2026-02-25T02:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Hint timing pilot 926a9be29d8fba1afa30bc856f298289/Consent form draft 58b115d30a6611bb0fd9496c286da497.md",
+  "source_url": null,
+  "content_hash": "sha256:ba9630090a7bd8c671157c2d18861972f07ded67ad53f5b0a061d276aded29b3",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_hint_timing_study"
+   ],
+   "notes": "HARD CASE: project in only one tool — the hint-timing pilot exists only in this Notion database (consent draft)"
+  }
+ },
+ {
+  "id": "item_035077",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Hint timing pilot 926a9be29d8fba1afa30bc856f298289/Kickoff — when should the hint appear db452af7a2fbac7c58b0cb3749560ed0.md",
+  "title": "Kickoff — when should the hint appear db452af7a2fbac7c58b0cb3749560ed0.md",
+  "content_type": "note",
+  "created_at": "2026-02-12T02:30:00Z",
+  "modified_at": "2026-02-12T15:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Hint timing pilot 926a9be29d8fba1afa30bc856f298289/Kickoff — when should the hint appear db452af7a2fbac7c58b0cb3749560ed0.md",
+  "source_url": null,
+  "content_hash": "sha256:5b64c097eb85597b90c502d1ef210ea01e604946680306cecfc0666855726da2",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_hint_timing_study"
+   ],
+   "notes": "HARD CASE: project in only one tool — the hint-timing pilot exists only in this Notion database (kickoff, 2026-02-11)"
+  }
+ },
+ {
+  "id": "item_035078",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Hint timing pilot 926a9be29d8fba1afa30bc856f298289/Parking this 57f41e45d2f8991f3b12b0f511f21ff8.md",
+  "title": "Parking this 57f41e45d2f8991f3b12b0f511f21ff8.md",
+  "content_type": "note",
+  "created_at": "2026-03-06T04:05:00Z",
+  "modified_at": "2026-03-06T04:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Hint timing pilot 926a9be29d8fba1afa30bc856f298289/Parking this 57f41e45d2f8991f3b12b0f511f21ff8.md",
+  "source_url": null,
+  "content_hash": "sha256:26248d3dec89da84ffd37dc3d56e911247215ad9591dc50a6776c5dd9572bc9c",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_hint_timing_study"
+   ],
+   "notes": "HARD CASE: project in only one tool — the hint-timing pilot exists only in this Notion database (decision to park the pilot, ~2026-03-05; never revived)"
+  }
+ },
+ {
+  "id": "item_035079",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Hint timing pilot 926a9be29d8fba1afa30bc856f298289/Study design cab7ab6151545950413775347fa5db32.md",
+  "title": "Study design cab7ab6151545950413775347fa5db32.md",
+  "content_type": "note",
+  "created_at": "2026-02-13T04:10:00Z",
+  "modified_at": "2026-02-18T03:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Hint timing pilot 926a9be29d8fba1afa30bc856f298289/Study design cab7ab6151545950413775347fa5db32.md",
+  "source_url": null,
+  "content_hash": "sha256:9685f14374867d8f8a17648508fe2a8ca1aad4c3e09b6ac460decebc777db6cc",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_hint_timing_study"
+   ],
+   "notes": "HARD CASE: project in only one tool — the hint-timing pilot exists only in this Notion database (study design)"
+  }
+ },
+ {
+  "id": "item_035080",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Hint timing pilot 926a9be29d8fba1afa30bc856f298289_all.csv",
+  "title": "Hint timing pilot 926a9be29d8fba1afa30bc856f298289_all.csv",
+  "content_type": "data",
+  "created_at": "2026-02-12T02:25:00Z",
+  "modified_at": "2026-03-06T04:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Hint timing pilot 926a9be29d8fba1afa30bc856f298289_all.csv",
+  "source_url": null,
+  "content_hash": "sha256:cac27eb375ff1563ccab7bd13819eb9c7b4a61193167f060b454ab2eabbc2597",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "csv",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_hint_timing_study"
+   ],
+   "notes": "HARD CASE: near-duplicate — Notion exports both the view CSV and the _all CSV of the same database; also HARD CASE: project in only one tool (hint-timing pilot)"
+  }
+ },
+ {
+  "id": "item_035081",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Juno graveyard 4a5dba462ed76efec8cc17e23f840383.md",
+  "title": "Juno graveyard 4a5dba462ed76efec8cc17e23f840383.md",
+  "content_type": "note",
+  "created_at": "2026-02-07T05:20:00Z",
+  "modified_at": "2026-02-07T06:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Juno graveyard 4a5dba462ed76efec8cc17e23f840383.md",
+  "source_url": null,
+  "content_hash": "sha256:84938a72a178606433ccb057b77cd3986d75aa2bc140a008b361b700a40589cf",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_juno"
+   ],
+   "notes": "retrospective on the older Juno project; mentions the notebook idea only in passing"
+  }
+ },
+ {
+  "id": "item_035082",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277.md",
+  "title": "Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277.md",
+  "content_type": "note",
+  "created_at": "2026-02-02T15:20:00Z",
+  "modified_at": "2026-03-21T04:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277.md",
+  "source_url": null,
+  "content_hash": "sha256:0e28c3509c3573f72fc1e93e80db9f2704bd7dbf39e5e273a8029c7f4bddae09",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035083",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Competitor teardown 9ddf951d7027964ce40bc8d6af713ee1.md",
+  "title": "Competitor teardown 9ddf951d7027964ce40bc8d6af713ee1.md",
+  "content_type": "note",
+  "created_at": "2026-03-03T03:10:00Z",
+  "modified_at": "2026-03-10T03:55:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Competitor teardown 9ddf951d7027964ce40bc8d6af713ee1.md",
+  "source_url": null,
+  "content_hash": "sha256:ddd1a4e5331989a39f50bc7b5781ddcbb1a8a75398cc40151e5ecc0be70c638f",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035084",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Hiring wishlist 9b1bf402783015ee2beb50ea9f594ed2.md",
+  "title": "Hiring wishlist 9b1bf402783015ee2beb50ea9f594ed2.md",
+  "content_type": "note",
+  "created_at": "2026-02-19T02:00:00Z",
+  "modified_at": "2026-03-01T03:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Hiring wishlist 9b1bf402783015ee2beb50ea9f594ed2.md",
+  "source_url": null,
+  "content_hash": "sha256:0b7803dd15661d5190d1c37f34403724e194b4d2aa5ac4094357e5e147ac681a",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035085",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Incorporation checklist (PBC) 655054821998fb9732ed371ff4f52967.md",
+  "title": "Incorporation checklist (PBC) 655054821998fb9732ed371ff4f52967.md",
+  "content_type": "note",
+  "created_at": "2026-03-13T00:15:00Z",
+  "modified_at": "2026-03-20T02:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Incorporation checklist (PBC) 655054821998fb9732ed371ff4f52967.md",
+  "source_url": null,
+  "content_hash": "sha256:871474a706760989e68c8fc3f9e734f28885d8aaa64a68bfbd21daca8e488e66",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035086",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Investor CRM 49a576057d1d47311f76d3ecce1017b2.csv",
+  "title": "Investor CRM 49a576057d1d47311f76d3ecce1017b2.csv",
+  "content_type": "data",
+  "created_at": "2026-02-20T03:20:00Z",
+  "modified_at": "2026-03-14T15:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Investor CRM 49a576057d1d47311f76d3ecce1017b2.csv",
+  "source_url": null,
+  "content_hash": "sha256:26e92fd6799f6bc258899ae922c546824f7176e4367295a979d6e81cc5770950",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "csv",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "investor CRM view export (\"Active\" view: hides Not-now rows and some columns)"
+  }
+ },
+ {
+  "id": "item_035087",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Investor CRM 49a576057d1d47311f76d3ecce1017b2/Northfield Angels be9880c7a657cf8690818ae4b3395cb6.md",
+  "title": "Northfield Angels be9880c7a657cf8690818ae4b3395cb6.md",
+  "content_type": "note",
+  "created_at": "2026-02-27T02:40:00Z",
+  "modified_at": "2026-03-14T15:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Investor CRM 49a576057d1d47311f76d3ecce1017b2/Northfield Angels be9880c7a657cf8690818ae4b3395cb6.md",
+  "source_url": null,
+  "content_hash": "sha256:5001b400f12108d77aa3d2e04294a69760868ba0b35081d33ea2c890bfb9b6e7",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035088",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Investor CRM 49a576057d1d47311f76d3ecce1017b2/Surplus (incubator) 683631b76c2834b4160da993d7e5b093.md",
+  "title": "Surplus (incubator) 683631b76c2834b4160da993d7e5b093.md",
+  "content_type": "note",
+  "created_at": "2026-02-20T15:15:00Z",
+  "modified_at": "2026-03-13T22:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Investor CRM 49a576057d1d47311f76d3ecce1017b2/Surplus (incubator) 683631b76c2834b4160da993d7e5b093.md",
+  "source_url": null,
+  "content_hash": "sha256:c579b8cec73c011411b53de41d14779f3d5a9ebf7e96b14a6bf04a561328d81c",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035089",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Investor CRM 49a576057d1d47311f76d3ecce1017b2/Thiel Fellowship bcfa33234717c5faae04b386c3e47e90.md",
+  "title": "Thiel Fellowship bcfa33234717c5faae04b386c3e47e90.md",
+  "content_type": "note",
+  "created_at": "2026-02-20T03:30:00Z",
+  "modified_at": "2026-03-11T03:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Investor CRM 49a576057d1d47311f76d3ecce1017b2/Thiel Fellowship bcfa33234717c5faae04b386c3e47e90.md",
+  "source_url": null,
+  "content_hash": "sha256:f5c60db8f4910cc94458a3eb98b012956e373799a9e16464f0d82bffb3c674f8",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035090",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Investor CRM 49a576057d1d47311f76d3ecce1017b2/VT alumni angel network 29e939944a7f9e3ae83062ee5ee9c11f.md",
+  "title": "VT alumni angel network 29e939944a7f9e3ae83062ee5ee9c11f.md",
+  "content_type": "note",
+  "created_at": "2026-03-02T14:50:00Z",
+  "modified_at": "2026-03-02T15:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Investor CRM 49a576057d1d47311f76d3ecce1017b2/VT alumni angel network 29e939944a7f9e3ae83062ee5ee9c11f.md",
+  "source_url": null,
+  "content_hash": "sha256:85f260178f4aeb0f4caa7f7a5f689933d9b304e5acb1c6c65eaf027259f05ffe",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035091",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Investor CRM 49a576057d1d47311f76d3ecce1017b2_all.csv",
+  "title": "Investor CRM 49a576057d1d47311f76d3ecce1017b2_all.csv",
+  "content_type": "data",
+  "created_at": "2026-02-20T03:20:00Z",
+  "modified_at": "2026-03-14T15:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Investor CRM 49a576057d1d47311f76d3ecce1017b2_all.csv",
+  "source_url": null,
+  "content_hash": "sha256:924dfbe2e117828a29681b88184fb61c872eff3d20ef0676f958a8072c6c684a",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "csv",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "HARD CASE: near-duplicate — Notion exports both the view CSV and the _all CSV of the same database (here the view also filters out one row)"
+  }
+ },
+ {
+  "id": "item_035092",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Meeting notes e6135c9d7a85aee2f010e7fab5c6e3c7.csv",
+  "title": "Meeting notes e6135c9d7a85aee2f010e7fab5c6e3c7.csv",
+  "content_type": "data",
+  "created_at": "2026-02-02T15:55:00Z",
+  "modified_at": "2026-04-09T04:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Meeting notes e6135c9d7a85aee2f010e7fab5c6e3c7.csv",
+  "source_url": null,
+  "content_hash": "sha256:eb52c8cf69752c7458ac9d8cb0dbdc76a091135c56aa4561163270f9240a5485",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "csv",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "meeting notes database view export (David + Hudson syncs, Jan 30 – Apr 8 2026)"
+  }
+ },
+ {
+  "id": "item_035093",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Meeting notes e6135c9d7a85aee2f010e7fab5c6e3c7/Do we keep Notion 20035dd99268590906efad04c0bc91f9.md",
+  "title": "Do we keep Notion 20035dd99268590906efad04c0bc91f9.md",
+  "content_type": "note",
+  "created_at": "2026-04-09T01:30:00Z",
+  "modified_at": "2026-04-09T04:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Meeting notes e6135c9d7a85aee2f010e7fab5c6e3c7/Do we keep Notion 20035dd99268590906efad04c0bc91f9.md",
+  "source_url": null,
+  "content_hash": "sha256:805a220c26054ef6eedd08414cc597b787d7aa04127b7661f16b445a21229f2b",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035094",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Meeting notes e6135c9d7a85aee2f010e7fab5c6e3c7/Interview debrief (5 researchers) 58cd3f328fab409df28cacba0859ac2b.md",
+  "title": "Interview debrief (5 researchers) 58cd3f328fab409df28cacba0859ac2b.md",
+  "content_type": "note",
+  "created_at": "2026-02-17T02:00:00Z",
+  "modified_at": "2026-02-17T03:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Meeting notes e6135c9d7a85aee2f010e7fab5c6e3c7/Interview debrief (5 researchers) 58cd3f328fab409df28cacba0859ac2b.md",
+  "source_url": null,
+  "content_hash": "sha256:f2d8e342c031a1e21a2d6d22dfcef1d7e6084117a58b7b02a3e243fb4a1b62e3",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035095",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Meeting notes e6135c9d7a85aee2f010e7fab5c6e3c7/Kickoff — is this a company eed3afa3580336c462c21c03ce0a1f04.md",
+  "title": "Kickoff — is this a company eed3afa3580336c462c21c03ce0a1f04.md",
+  "content_type": "note",
+  "created_at": "2026-02-02T16:00:00Z",
+  "modified_at": "2026-02-02T16:35:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Meeting notes e6135c9d7a85aee2f010e7fab5c6e3c7/Kickoff — is this a company eed3afa3580336c462c21c03ce0a1f04.md",
+  "source_url": null,
+  "content_hash": "sha256:62128fe5ffcb5cf21b42404473b51149e434fb490068d11e8b0cae130dc54f0c",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035096",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Meeting notes e6135c9d7a85aee2f010e7fab5c6e3c7/Notion setup + who does what 38103ff47e79676ada89f1bc8d303908.md",
+  "title": "Notion setup + who does what 38103ff47e79676ada89f1bc8d303908.md",
+  "content_type": "note",
+  "created_at": "2026-02-02T19:05:00Z",
+  "modified_at": "2026-02-02T20:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Meeting notes e6135c9d7a85aee2f010e7fab5c6e3c7/Notion setup + who does what 38103ff47e79676ada89f1bc8d303908.md",
+  "source_url": null,
+  "content_hash": "sha256:57f1dc6a13403d8a1d9b6d55954dbcd8460b01884ac64030db65a01718a05172",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035097",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Meeting notes e6135c9d7a85aee2f010e7fab5c6e3c7/Pause until UIST is in c7a9901ef784022020096610900f4d51.md",
+  "title": "Pause until UIST is in c7a9901ef784022020096610900f4d51.md",
+  "content_type": "note",
+  "created_at": "2026-03-21T03:10:00Z",
+  "modified_at": "2026-03-21T03:35:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Meeting notes e6135c9d7a85aee2f010e7fab5c6e3c7/Pause until UIST is in c7a9901ef784022020096610900f4d51.md",
+  "source_url": null,
+  "content_hash": "sha256:fe8f954633f3a297fd5232bb5d5e080410b4e0db889e62e5249d38c8be5de9be",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035098",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Meeting notes e6135c9d7a85aee2f010e7fab5c6e3c7/Thiel app + naming b72de0c5ecbed2587cb4ebf2b276fbfd.md",
+  "title": "Thiel app + naming b72de0c5ecbed2587cb4ebf2b276fbfd.md",
+  "content_type": "note",
+  "created_at": "2026-03-07T03:00:00Z",
+  "modified_at": "2026-03-07T04:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Meeting notes e6135c9d7a85aee2f010e7fab5c6e3c7/Thiel app + naming b72de0c5ecbed2587cb4ebf2b276fbfd.md",
+  "source_url": null,
+  "content_hash": "sha256:9c73b79856a123e1dc02b133e8764e63515cbff5fb05902d639eea46470f322e",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035099",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Meeting notes e6135c9d7a85aee2f010e7fab5c6e3c7_all.csv",
+  "title": "Meeting notes e6135c9d7a85aee2f010e7fab5c6e3c7_all.csv",
+  "content_type": "data",
+  "created_at": "2026-02-02T15:55:00Z",
+  "modified_at": "2026-04-09T04:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Meeting notes e6135c9d7a85aee2f010e7fab5c6e3c7_all.csv",
+  "source_url": null,
+  "content_hash": "sha256:84e72079e019f64e118ffeefbfbe1d9baafae3dc13f60f4f03582613a8d70586",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "csv",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "HARD CASE: near-duplicate — Notion exports both the view CSV and the _all CSV of the same database"
+  }
+ },
+ {
+  "id": "item_035100",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Papert Lab notebook abdec77cf734a5899d74ef69447a83e3.md",
+  "title": "Papert Lab notebook abdec77cf734a5899d74ef69447a83e3.md",
+  "content_type": "note",
+  "created_at": "2026-01-29T04:10:00Z",
+  "modified_at": "2026-02-09T06:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Papert Lab notebook abdec77cf734a5899d74ef69447a83e3.md",
+  "source_url": null,
+  "content_hash": "sha256:9b8fd1e30a92269d002d3cbb3b81264aac989797acf9445179530cf4599205c6",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "first \"Papert Lab notebook\" page (2026-01-28), pre-Engelbart product idea"
+  }
+ },
+ {
+  "id": "item_035101",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Papert Lab notebook abdec77cf734a5899d74ef69447a83e3/Name brainstorm 7e12431ef84eab86de02e4d424e94bce.md",
+  "title": "Name brainstorm 7e12431ef84eab86de02e4d424e94bce.md",
+  "content_type": "note",
+  "created_at": "2026-02-10T05:30:00Z",
+  "modified_at": "2026-03-07T04:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Papert Lab notebook abdec77cf734a5899d74ef69447a83e3/Name brainstorm 7e12431ef84eab86de02e4d424e94bce.md",
+  "source_url": null,
+  "content_hash": "sha256:fe49ec1267be06e81ab464c0080cab57391fe4df834f423c193457f9278950d0",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035102",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Papert Lab notebook abdec77cf734a5899d74ef69447a83e3/Researcher interview guide 7b9c4adf1a4a23316b948485ef247c1e.md",
+  "title": "Researcher interview guide 7b9c4adf1a4a23316b948485ef247c1e.md",
+  "content_type": "note",
+  "created_at": "2026-02-05T03:00:00Z",
+  "modified_at": "2026-02-16T04:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Papert Lab notebook abdec77cf734a5899d74ef69447a83e3/Researcher interview guide 7b9c4adf1a4a23316b948485ef247c1e.md",
+  "source_url": null,
+  "content_hash": "sha256:c00c89bade218738e06bb96cdc94d709dc9a707f9fe5204ecbf8f5ebd1159b4b",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035103",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Product principles 16c0531d90eae52cb8f4d3446afcc657.md",
+  "title": "Product principles 16c0531d90eae52cb8f4d3446afcc657.md",
+  "content_type": "note",
+  "created_at": "2026-02-26T04:20:00Z",
+  "modified_at": "2026-03-04T05:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Product principles 16c0531d90eae52cb8f4d3446afcc657.md",
+  "source_url": null,
+  "content_hash": "sha256:bce83efc7910fd3c61cb2842b1f915e01c9218f813f1935ac7d0196830f0202b",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035104",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Values 0f98b864c4fc05822d9542d4f447dc51.md",
+  "title": "Values 0f98b864c4fc05822d9542d4f447dc51.md",
+  "content_type": "note",
+  "created_at": "2026-02-04T03:45:00Z",
+  "modified_at": "2026-02-11T02:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Mathetic HQ 4d5cd6176a16ee3a1faf43ed9ec0a277/Values 0f98b864c4fc05822d9542d4f447dc51.md",
+  "source_url": null,
+  "content_hash": "sha256:dbe1d23a2704969c91540644242969b1c92705ae341627d5e6e7b41e4d6df489",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion / Mathetic HQ (teamspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035105",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Movies + shows 35b24dcb88a1efb9ec3f9a65d1d67e30.md",
+  "title": "Movies + shows 35b24dcb88a1efb9ec3f9a65d1d67e30.md",
+  "content_type": "note",
+  "created_at": "2026-02-23T02:05:00Z",
+  "modified_at": "2026-04-05T03:50:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Movies + shows 35b24dcb88a1efb9ec3f9a65d1d67e30.md",
+  "source_url": null,
+  "content_hash": "sha256:8035018bff5ec7948c347b6054186ef9790779249944e59d23483ec7c0495d0c",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035106",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/New Mac setup ce1fd635a4267d8bfea127ca1af116bd.md",
+  "title": "New Mac setup ce1fd635a4267d8bfea127ca1af116bd.md",
+  "content_type": "note",
+  "created_at": "2026-08-05T01:15:00Z",
+  "modified_at": "2026-08-07T03:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/New Mac setup ce1fd635a4267d8bfea127ca1af116bd.md",
+  "source_url": null,
+  "content_hash": "sha256:9afeb2474fd346d032ab6ef00a25589f10ab8b49be8a86da3e7505fb6e45bbc5",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "straggler page from Aug 2026 (new Mac); mentions Notion abandoned in April"
+  }
+ },
+ {
+  "id": "item_035107",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Notes 610fa8ed3f3bec6469d556a9f7d34cc6.md",
+  "title": "Notes 610fa8ed3f3bec6469d556a9f7d34cc6.md",
+  "content_type": "note",
+  "created_at": "2026-02-06T02:30:00Z",
+  "modified_at": "2026-02-06T02:58:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Notes 610fa8ed3f3bec6469d556a9f7d34cc6.md",
+  "source_url": null,
+  "content_hash": "sha256:296074331f481a4558bd3d45e2689977d3b6f54db06fb6bfc811d05dcd7c0c2e",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "HARD CASE: vague title — page called \"Notes\" holds a pricing/first-user call with Hudson (company)"
+  }
+ },
+ {
+  "id": "item_035108",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Podcast + listening queue b005d7d31ded7fc8ddd6c22b6948bb48.md",
+  "title": "Podcast + listening queue b005d7d31ded7fc8ddd6c22b6948bb48.md",
+  "content_type": "note",
+  "created_at": "2026-04-03T03:15:00Z",
+  "modified_at": "2026-04-03T03:31:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Podcast + listening queue b005d7d31ded7fc8ddd6c22b6948bb48.md",
+  "source_url": null,
+  "content_hash": "sha256:1227912619a2f34642b2ec7f95d39971580c76d19268b037053e419fe48492c5",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035109",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af.csv",
+  "title": "Reading list 373fa9c637f1c9a762cf7d6983ecb1af.csv",
+  "content_type": "data",
+  "created_at": "2026-01-30T03:05:00Z",
+  "modified_at": "2026-09-21T05:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af.csv",
+  "source_url": null,
+  "content_hash": "sha256:1cd06d1be013e889867b7b6873185e7b852cc42ae20568af9f7dffe8ce1e2a5a",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "csv",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_tutortrace"
+   ],
+   "notes": "reading list database (view export); mixes reading-group papers with personal books"
+  }
+ },
+ {
+  "id": "item_035110",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/As We May Think 1db2d7be9b923d087c9e731f928fb0c3.md",
+  "title": "As We May Think 1db2d7be9b923d087c9e731f928fb0c3.md",
+  "content_type": "note",
+  "created_at": "2026-01-30T03:10:00Z",
+  "modified_at": "2026-02-06T05:35:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/As We May Think 1db2d7be9b923d087c9e731f928fb0c3.md",
+  "source_url": null,
+  "content_hash": "sha256:870f13f5dc249d86b567efc855dc62eba2e1a112041c68748addd99044334791",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": "reading-group summary (own words)"
+  }
+ },
+ {
+  "id": "item_035111",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/Augmenting Human Intellect A Conceptual Framework 1f7ad1eb718db9b69fe7d36736d41604.md",
+  "title": "Augmenting Human Intellect A Conceptual Framework 1f7ad1eb718db9b69fe7d36736d41604.md",
+  "content_type": "note",
+  "created_at": "2026-01-30T14:20:00Z",
+  "modified_at": "2026-02-14T04:58:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/Augmenting Human Intellect A Conceptual Framework 1f7ad1eb718db9b69fe7d36736d41604.md",
+  "source_url": null,
+  "content_hash": "sha256:0ef2915c58a37787d02008d98487a0092d42e6949bbd7da33cf990d84cde0f9a",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": "reading-group summary (own words)"
+  }
+ },
+ {
+  "id": "item_035112",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/Chess Structures A Grandmaster Guide 6c20e95318cb2317ac70c7cb2a4e6643.md",
+  "title": "Chess Structures A Grandmaster Guide 6c20e95318cb2317ac70c7cb2a4e6643.md",
+  "content_type": "note",
+  "created_at": "2026-02-16T03:40:00Z",
+  "modified_at": "2026-04-03T02:00:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/Chess Structures A Grandmaster Guide 6c20e95318cb2317ac70c7cb2a4e6643.md",
+  "source_url": null,
+  "content_hash": "sha256:ca531c0b03df8be27db2cb1b863a0f3041cbf0f69b626e436c7f550d1c3c3b3e",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035113",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/Danger Zone c1491ef6d88f618c4e134bcec4fa4a4b.md",
+  "title": "Danger Zone c1491ef6d88f618c4e134bcec4fa4a4b.md",
+  "content_type": "note",
+  "created_at": "2026-03-09T00:00:00Z",
+  "modified_at": "2026-09-21T05:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/Danger Zone c1491ef6d88f618c4e134bcec4fa4a4b.md",
+  "source_url": null,
+  "content_hash": "sha256:7d3864a584c484d362f1488fbfcacfa22d060a7258eebef37d346cc8bbd95be6",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "straggler edit Sep 2026"
+  }
+ },
+ {
+  "id": "item_035114",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/Man-Computer Symbiosis d7e3fd7c3b962f7144a3e8bf49fe22b8.md",
+  "title": "Man-Computer Symbiosis d7e3fd7c3b962f7144a3e8bf49fe22b8.md",
+  "content_type": "note",
+  "created_at": "2026-01-30T03:14:00Z",
+  "modified_at": "2026-02-06T05:41:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/Man-Computer Symbiosis d7e3fd7c3b962f7144a3e8bf49fe22b8.md",
+  "source_url": null,
+  "content_hash": "sha256:5a2f87a58b5c9682cdf0268cb614b7761b00d76916847be1a65d08c30a5156a2",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": "reading-group summary (own words)"
+  }
+ },
+ {
+  "id": "item_035115",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/Mindstorms Children, Computers, and Powerful Ideas 46fe9608c2878f84d289675a2621af2a.md",
+  "title": "Mindstorms Children, Computers, and Powerful Ideas 46fe9608c2878f84d289675a2621af2a.md",
+  "content_type": "note",
+  "created_at": "2026-02-04T02:45:00Z",
+  "modified_at": "2026-02-21T03:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/Mindstorms Children, Computers, and Powerful Ideas 46fe9608c2878f84d289675a2621af2a.md",
+  "source_url": null,
+  "content_hash": "sha256:062b7b6fbfc34b101677862e72f3461f01f638d4aa171ad1956b7b07d08d0f26",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": "reading-group summary (own words)"
+  }
+ },
+ {
+  "id": "item_035116",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/On Grand Strategy 7983a318a26ad9eff9f6a5362e8006f2.md",
+  "title": "On Grand Strategy 7983a318a26ad9eff9f6a5362e8006f2.md",
+  "content_type": "note",
+  "created_at": "2026-06-08T01:40:00Z",
+  "modified_at": "2026-07-20T03:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/On Grand Strategy 7983a318a26ad9eff9f6a5362e8006f2.md",
+  "source_url": null,
+  "content_hash": "sha256:3da84dd42b9ae1d0c65c6428291d6b6ed95166edb92ea0a44338030908a01971",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "straggler (Jun–Jul 2026)"
+  }
+ },
+ {
+  "id": "item_035117",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/Personal Dynamic Media 9daf30391e56059012cfa005ede3f277.md",
+  "title": "Personal Dynamic Media 9daf30391e56059012cfa005ede3f277.md",
+  "content_type": "note",
+  "created_at": "2026-02-21T03:40:00Z",
+  "modified_at": "2026-03-06T02:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/Personal Dynamic Media 9daf30391e56059012cfa005ede3f277.md",
+  "source_url": null,
+  "content_hash": "sha256:2eb4ff3b1ea9fcda1f1412269373f9f7be7ec5b3b9321fbcde47ce40a12bd622",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": "reading-group summary (own words)"
+  }
+ },
+ {
+  "id": "item_035118",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/Productive Struggle or Silent Stalling Telemetry Signals of Help-Seeking in LLM-Assisted CS1 17b6f9745265f4c6c326af787130a920.md",
+  "title": "Productive Struggle or Silent Stalling Telemetry Signals of Help-Seeking in LLM-Assisted CS1 17b6f9745265f4c6c326af787130a920.md",
+  "content_type": "note",
+  "created_at": "2026-03-26T05:20:00Z",
+  "modified_at": "2026-03-27T04:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/Productive Struggle or Silent Stalling Telemetry Signals of Help-Seeking in LLM-Assisted CS1 17b6f9745265f4c6c326af787130a920.md",
+  "source_url": null,
+  "content_hash": "sha256:27e1b7785d33822bb25cbdd8d0ab7a2e32e82cf0c37ce30b909274489ee010db",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_tutortrace"
+   ],
+   "notes": "the fictional Ostrowski 2025 paper as a reading-list row (also appears in zotero/pdfs/gmail/etc.)"
+  }
+ },
+ {
+  "id": "item_035119",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/Strategy A History 2ddeae92182507677032bfac02b71d66.md",
+  "title": "Strategy A History 2ddeae92182507677032bfac02b71d66.md",
+  "content_type": "note",
+  "created_at": "2026-02-22T03:05:00Z",
+  "modified_at": "2026-03-02T04:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/Strategy A History 2ddeae92182507677032bfac02b71d66.md",
+  "source_url": null,
+  "content_hash": "sha256:0c78bf94e6897ab0bcb03da0d661cb23d5cef141878c61fb15573a2aae03e4ca",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035120",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/The Rise and Fall of the Great Powers be3055badb27b7d8798ea8805fa7516c.md",
+  "title": "The Rise and Fall of the Great Powers be3055badb27b7d8798ea8805fa7516c.md",
+  "content_type": "note",
+  "created_at": "2026-03-16T03:30:00Z",
+  "modified_at": "2026-08-31T04:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/The Rise and Fall of the Great Powers be3055badb27b7d8798ea8805fa7516c.md",
+  "source_url": null,
+  "content_hash": "sha256:005d5b93f265b3839e3d125b485ffef1a6d230f48252fe151634bf5e33b658eb",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "straggler edit Aug 2026"
+  }
+ },
+ {
+  "id": "item_035121",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/The Sleepwalkers 2d23cff17ff34ee9b33a8af5628f3296.md",
+  "title": "The Sleepwalkers 2d23cff17ff34ee9b33a8af5628f3296.md",
+  "content_type": "note",
+  "created_at": "2026-02-08T02:30:00Z",
+  "modified_at": "2026-03-01T03:45:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af/The Sleepwalkers 2d23cff17ff34ee9b33a8af5628f3296.md",
+  "source_url": null,
+  "content_hash": "sha256:c78664c7666b41485187df5df44e43690adb278728e45d5e673654c1674a1a84",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035122",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af_all.csv",
+  "title": "Reading list 373fa9c637f1c9a762cf7d6983ecb1af_all.csv",
+  "content_type": "data",
+  "created_at": "2026-01-30T03:05:00Z",
+  "modified_at": "2026-09-21T05:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Reading list 373fa9c637f1c9a762cf7d6983ecb1af_all.csv",
+  "source_url": null,
+  "content_hash": "sha256:ad91c50ddd0d5ba705fba984c69cec52134cff4f62282f9de4847d22b0116fbc",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "csv",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: near-duplicate — Notion exports both the view CSV and the _all CSV of the same database"
+  }
+ },
+ {
+  "id": "item_035123",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Recipes to try 0a257c57eab0d8bd04d5d7f68a023bda.md",
+  "title": "Recipes to try 0a257c57eab0d8bd04d5d7f68a023bda.md",
+  "content_type": "note",
+  "created_at": "2026-02-01T23:30:00Z",
+  "modified_at": "2026-03-02T00:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Recipes to try 0a257c57eab0d8bd04d5d7f68a023bda.md",
+  "source_url": null,
+  "content_hash": "sha256:275188a1bf4f3522f7f899978d7bf733eb57012c393e19cda86dd3acb321b79a",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035124",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/SF apartment search 1dd660e3d02645b49041ff41f85d39bb.md",
+  "title": "SF apartment search 1dd660e3d02645b49041ff41f85d39bb.md",
+  "content_type": "note",
+  "created_at": "2026-07-15T02:05:00Z",
+  "modified_at": "2026-08-13T04:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/SF apartment search 1dd660e3d02645b49041ff41f85d39bb.md",
+  "source_url": null,
+  "content_hash": "sha256:fb041409d6e0bc0b754aab6b812af3859c3235f07be0ced0811e193ba1a08599",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035125",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/SF apartment search 1dd660e3d02645b49041ff41f85d39bb/Questions to ask 06883006c51e43ca3f66d884787b5ef1.md",
+  "title": "Questions to ask 06883006c51e43ca3f66d884787b5ef1.md",
+  "content_type": "note",
+  "created_at": "2026-07-15T13:30:00Z",
+  "modified_at": "2026-07-24T23:55:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/SF apartment search 1dd660e3d02645b49041ff41f85d39bb/Questions to ask 06883006c51e43ca3f66d884787b5ef1.md",
+  "source_url": null,
+  "content_hash": "sha256:00184bda79666a62085d9b2657b5875b7c030f6808b733c78d74666576631779",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035126",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/SF apartment search 1dd660e3d02645b49041ff41f85d39bb/Viewings log f48b9c23c3052ffef00b69062d744cb8.md",
+  "title": "Viewings log f48b9c23c3052ffef00b69062d744cb8.md",
+  "content_type": "note",
+  "created_at": "2026-07-25T00:10:00Z",
+  "modified_at": "2026-08-13T04:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/SF apartment search 1dd660e3d02645b49041ff41f85d39bb/Viewings log f48b9c23c3052ffef00b69062d744cb8.md",
+  "source_url": null,
+  "content_hash": "sha256:2bf2f4c9f9a1dd75e3fb0c831da46d2bb2bef854c736a133af8fb122c106e034",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035127",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Subscriptions audit 306999e8466b998d9f7dd0a7cee611a1.md",
+  "title": "Subscriptions audit 306999e8466b998d9f7dd0a7cee611a1.md",
+  "content_type": "note",
+  "created_at": "2026-01-31T18:05:00Z",
+  "modified_at": "2026-01-31T18:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Subscriptions audit 306999e8466b998d9f7dd0a7cee611a1.md",
+  "source_url": null,
+  "content_hash": "sha256:c4cf6f643920a509c7e4a7d19fcb82e6e0795a7b939643a567810e2d4fe9c3d7",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035128",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/TACode — handoff (archived) 151b5b9d17739f8114d961414b566c5e.md",
+  "title": "TACode — handoff (archived) 151b5b9d17739f8114d961414b566c5e.md",
+  "content_type": "note",
+  "created_at": "2026-01-30T20:40:00Z",
+  "modified_at": "2026-01-30T21:25:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/TACode — handoff (archived) 151b5b9d17739f8114d961414b566c5e.md",
+  "source_url": null,
+  "content_hash": "sha256:9bd338f2b7a15a0313cc435a539a769216fe9a466dc7267657f9669f7941d5d2",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tacode"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035129",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Taxes 2025 0f788c9d8fb3769e489c10a3a783428f.md",
+  "title": "Taxes 2025 0f788c9d8fb3769e489c10a3a783428f.md",
+  "content_type": "note",
+  "created_at": "2026-03-14T15:20:00Z",
+  "modified_at": "2026-04-11T20:45:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Taxes 2025 0f788c9d8fb3769e489c10a3a783428f.md",
+  "source_url": null,
+  "content_hash": "sha256:3249282b9110fe33e08700e26a9dc3024c4722bfec8f1385dc88ee448d783620",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035130",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Training dashboard 631b3a09cfb6a22bb2510d96820baa21.md",
+  "title": "Training dashboard 631b3a09cfb6a22bb2510d96820baa21.md",
+  "content_type": "note",
+  "created_at": "2026-01-27T12:02:00Z",
+  "modified_at": "2026-04-19T22:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Training dashboard 631b3a09cfb6a22bb2510d96820baa21.md",
+  "source_url": null,
+  "content_hash": "sha256:a933f951a04069be813d8eb4af6479f10eb6927a0dc489c0c00f0314497aa192",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035131",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Training dashboard 631b3a09cfb6a22bb2510d96820baa21/Zone 2 HR drift log 50405a25f007ea52c1a23ab4d8239ecf.md",
+  "title": "Zone 2 HR drift log 50405a25f007ea52c1a23ab4d8239ecf.md",
+  "content_type": "note",
+  "created_at": "2026-02-03T13:10:00Z",
+  "modified_at": "2026-03-29T14:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Training dashboard 631b3a09cfb6a22bb2510d96820baa21/Zone 2 HR drift log 50405a25f007ea52c1a23ab4d8239ecf.md",
+  "source_url": null,
+  "content_hash": "sha256:f1b3babf24985a07fa4e9bd8a8b8ce2655c751ed625234e9579480c4ce086de1",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035132",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Untitled 3c6814984ba3bdd504d7916839e8028c.md",
+  "title": "Untitled 3c6814984ba3bdd504d7916839e8028c.md",
+  "content_type": "note",
+  "created_at": "2026-01-31T05:44:00Z",
+  "modified_at": "2026-01-31T06:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Untitled 3c6814984ba3bdd504d7916839e8028c.md",
+  "source_url": null,
+  "content_hash": "sha256:1b7e1726742690c45af68c40865abcac1752b07c27aa4b9c928c6c72be4dae33",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": "HARD CASE: vague title — second \"Untitled\" page (different id) holding reading-group prep on Licklider"
+  }
+ },
+ {
+  "id": "item_035133",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Untitled 83574298c9e2c0bd2498575c34c0df99.md",
+  "title": "Untitled 83574298c9e2c0bd2498575c34c0df99.md",
+  "content_type": "note",
+  "created_at": "2026-02-09T00:02:00Z",
+  "modified_at": "2026-02-09T00:09:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Untitled 83574298c9e2c0bd2498575c34c0df99.md",
+  "source_url": null,
+  "content_hash": "sha256:3bc2bb0468d1560a9c0523ff3ecc40cd258a277c20604e865f3d1ea731d8723b",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: vague title — \"Untitled\" page that is a grocery / meal-prep list (personal clutter)"
+  }
+ },
+ {
+  "id": "item_035134",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/VT parking ticket appeal 82fb6e597e58f76f3c73f6cd7565c14a.md",
+  "title": "VT parking ticket appeal 82fb6e597e58f76f3c73f6cd7565c14a.md",
+  "content_type": "note",
+  "created_at": "2026-02-04T15:05:00Z",
+  "modified_at": "2026-02-12T21:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/VT parking ticket appeal 82fb6e597e58f76f3c73f6cd7565c14a.md",
+  "source_url": null,
+  "content_hash": "sha256:baba608867a2a4b69a414916025cdd9f69154390296846b5aa92ad24ea5ae66e",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035135",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Weekly planner 1e1af55254365340f561798645825af3.md",
+  "title": "Weekly planner 1e1af55254365340f561798645825af3.md",
+  "content_type": "note",
+  "created_at": "2026-01-27T04:30:00Z",
+  "modified_at": "2026-02-09T03:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Weekly planner 1e1af55254365340f561798645825af3.md",
+  "source_url": null,
+  "content_hash": "sha256:cade34e09399d3f3b3f640a13aa944f7abd61e4d076a7e7e8e688ec8c389b85a",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite",
+    "project_ise6664_affective_computing",
+    "project_mathetic_company",
+    "project_tutortrace"
+   ],
+   "notes": "index page for two weekly plans that mix several projects"
+  }
+ },
+ {
+  "id": "item_035136",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Weekly planner 1e1af55254365340f561798645825af3/Week of Feb 2 5285cbe76dbde5a77fc3289a38fd4a07.md",
+  "title": "Week of Feb 2 5285cbe76dbde5a77fc3289a38fd4a07.md",
+  "content_type": "note",
+  "created_at": "2026-02-02T03:15:00Z",
+  "modified_at": "2026-02-08T04:48:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Weekly planner 1e1af55254365340f561798645825af3/Week of Feb 2 5285cbe76dbde5a77fc3289a38fd4a07.md",
+  "source_url": null,
+  "content_hash": "sha256:34bb974e3ad3cea89f86ced42cdeef8575b098492040c437f09f3481be84bc37",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite",
+    "project_endurance_training",
+    "project_ise6664_affective_computing",
+    "project_mathetic_company",
+    "project_tutortrace"
+   ],
+   "notes": "weekly plan spanning several projects"
+  }
+ },
+ {
+  "id": "item_035137",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "notion",
+  "source_id": "David's Notion/Weekly planner 1e1af55254365340f561798645825af3/Week of Jan 26 fbb23065963485a251dbb37dd48bfa07.md",
+  "title": "Week of Jan 26 fbb23065963485a251dbb37dd48bfa07.md",
+  "content_type": "note",
+  "created_at": "2026-01-27T04:36:00Z",
+  "modified_at": "2026-02-01T02:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/notion/David's Notion/Weekly planner 1e1af55254365340f561798645825af3/Week of Jan 26 fbb23065963485a251dbb37dd48bfa07.md",
+  "source_url": null,
+  "content_hash": "sha256:90eaff905d62fbb01301396cd67128763bacebb0e10596b8ce47e3c931839c4c",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "David's Notion"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite",
+    "project_endurance_training",
+    "project_engelbart",
+    "project_ise6664_affective_computing",
+    "project_mathetic_company",
+    "project_tutortrace"
+   ],
+   "notes": "weekly plan spanning several projects"
+  }
+ }
+]

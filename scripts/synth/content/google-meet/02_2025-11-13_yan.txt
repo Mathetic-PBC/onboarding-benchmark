@@ -1,0 +1,63 @@
+title: David / Yan 1:1
+start: 2025-11-13 14:00
+attendees: David Barron, Yan Chen
+projects: project_vizpi
+docs: both
+=== transcript
+David Barron: Hey. Sorry, I'm two minutes late, I was in the lab server room thing. Can you hear me?
+Yan Chen: Yes. No problem. How did it go yesterday? I saw your Slack message at like midnight.
+David Barron: Ha, yeah. Um. So, mostly good, one real problem. The good part is everything ran, both sections, all eighty-seven students had the extension loaded, and the hash table lab did exactly what we hoped. Like, a huge cluster of people stuck on the wraparound around minute twenty-five.
+Yan Chen: Okay, good. And the problem?
+David Barron: The problem is the websocket reconnect. In section B, the wifi in that room was really flaky, and when clients reconnected, the buffered events weren't getting flushed. They were getting, um, dropped. The client thought it had sent them, cleared the buffer, but the socket was already dead.
+Yan Chen: Oh no. How much did we lose?
+David Barron: So I did the count this morning. Section B lost about twelve percent of telemetry events until the hotfix. Section A was basically fine, under one percent.
+Yan Chen: Twelve percent of section B, or of everything?
+David Barron: Of section B, from three thirty until ten past four. I pushed a hotfix at four ten that holds the buffer until the server acks. After four ten the loss in B is also under one percent.
+Yan Chen: Okay. So it's a forty-minute window in one section.
+David Barron: Yeah. And I know which events are missing, sort of, because the sequence numbers have gaps. So we can at least mark those windows as incomplete instead of pretending they're idle.
+Yan Chen: That's important. Don't let a dropped window look like a stalled student.
+David Barron: Right, yeah, that was my worry exactly. A gap in keystrokes looks like stalling.
+Yan Chen: Hmm. So, you said the dry run tested reconnect. Why didn't it catch this?
+David Barron: Um. Honestly because in the dry run I toggled offline in dev tools, which closes the socket cleanly. On the real wifi the socket just hangs, it doesn't close, so the client keeps writing into it for like thirty seconds before it times out. Different failure.
+Yan Chen: Okay. That's a good lesson. Write it in the deployment notes.
+David Barron: Yeah, I already started a postmortem doc. I'll clean it up.
+Yan Chen: And for the analysis, what do you want to do with section B before four ten?
+David Barron: I think we label it anyway but add a flag. Then in the paper, if we have a paper, we can report results with and without those windows.
+Yan Chen: I agree. Report both. Reviewers like that.
+David Barron: Okay. Um, then labeling. So the sprint starts tomorrow, Friday, through next Friday the twenty-first. Minsun and Xiaohang both confirmed.
+Yan Chen: How many windows do you have?
+David Barron: After the idle filter it's two thousand three hundred and forty thirty-second windows. Both sections.
+Yan Chen: That's a lot for one week.
+David Barron: It's about seven eighty each if we split three ways. I want a fifteen percent overlap so we can compute agreement, so it's a bit more than that.
+Yan Chen: Which labels? The same scheme as the spring?
+David Barron: Same scheme for now, productive struggle, stalling, help-seeking, off-task. But, um, I think we're missing something. When I watched the replays last night there's this pattern where a student hits a runtime error and then just... doesn't touch anything for like a minute. And it's not off-task, they're reading the error. Sometimes it's productive, sometimes they're just frozen.
+Yan Chen: Hmm. So stalling but specifically after an error?
+David Barron: Yeah, like "stalled after error". I don't know if it should be its own label or a modifier.
+Yan Chen: Let's discuss it at lab meeting Monday. Bring examples. If Minsun and Xiaohang see it too, add it to the guide.
+David Barron: Okay. That would be guide v3 then.
+Yan Chen: Fine. But don't change the guide in the middle of the sprint without telling everyone. That will hurt agreement.
+David Barron: Right, yeah. I'll do a short calibration session tomorrow with ten windows before we start for real.
+Yan Chen: Good. What about the TA visited button, did they use it?
+David Barron: Oh, yeah, actually that was great. Forty-one visits logged. Mostly in section A because the TAs there were more into it.
+Yan Chen: Okay. And John, was he happy?
+David Barron: He was happy. He said the heat map was the first time he could see the whole room at once. He asked if he could use it for the next lab too, without the research part.
+Yan Chen: Hmm, we can talk about that. Not this semester probably.
+David Barron: Yeah, I told him I'd ask you.
+Yan Chen: Okay. Um... sorry, my screen froze for a second. Are you still there?
+David Barron: I'm here. You froze for like five seconds.
+Yan Chen: The VPN. Okay. Anything else?
+David Barron: No, I think that's it. I'm going to sleep tonight, finally.
+Yan Chen: Please do. Good work yesterday, really.
+David Barron: Thanks. Bye.
+=== gemini
+summary: David Barron debriefed Yan Chen on VizPI deployment #2 in CS 3114. All 87 students ran the extension, but a websocket reconnect bug dropped about 12% of telemetry events in section B until a hotfix at 4:10 PM. They agreed to flag the affected windows and report results with and without them, and confirmed the labeling sprint of 2,340 thirty-second windows with Minsun and Xiaohang from November 14 to November 21. David proposed a possible "stalled after error" label for Monday's lab meeting.
+detail: Deployment outcome: David Barron reported that both lab sections ran and the hash table lab produced a large cluster of students stuck on the wraparound bug around minute 25. John Wenskovitch liked the live heat map and asked to reuse it in later labs; Yan Chen wants to discuss that later.
+detail: Reconnect bug: Flaky wifi in section B left sockets hanging rather than closing, so the client cleared buffered events that were never received. About 12% of section B events were lost between 3:30 PM and 4:10 PM, when David Barron pushed a hotfix that holds the buffer until the server acknowledges. Section A loss was under 1%. The dry run missed this because toggling offline in dev tools closes the socket cleanly.
+detail: Handling missing data: Sequence-number gaps identify missing events, so affected windows will be flagged as incomplete rather than treated as idle. Yan Chen stressed that dropped data must not look like stalling and asked for results reported with and without the flagged windows.
+detail: Labeling sprint: The sprint runs Friday, November 14 through Friday, November 21 with Minsun and Xiaohang. After the idle filter there are 2,340 thirty-second windows, split three ways with about 15% overlap for agreement. David Barron will run a ten-window calibration session first.
+detail: Possible new label: David Barron observed students freezing for about a minute after runtime errors and proposed a "stalled after error" label or modifier. Yan Chen asked him to bring examples to Monday's lab meeting and not to change the guide mid-sprint without telling everyone.
+detail: TA visits: TAs logged 41 visits with the new button, mostly in section A.
+next: [ ] David Barron will finish the deployment postmortem, including why the dry run missed the hanging-socket failure.
+next: [ ] David Barron will flag section B windows before 4:10 PM as incomplete in the dataset.
+next: [ ] David Barron will run a ten-window calibration session with Minsun and Xiaohang before the sprint.
+next: [ ] David Barron will bring "stalled after error" replay examples to Monday's lab meeting.

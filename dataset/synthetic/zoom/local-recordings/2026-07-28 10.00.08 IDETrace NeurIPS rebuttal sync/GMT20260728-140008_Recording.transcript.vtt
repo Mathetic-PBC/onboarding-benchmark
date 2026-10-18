@@ -1,0 +1,321 @@
+WEBVTT
+
+1
+00:00:02.210 --> 00:00:08.323
+Yan Chen: Okay, I think everyone's here. David, you asked to record, I gave you permission. Go ahead.
+
+2
+00:00:09.180 --> 00:00:15.752
+David Barron: Thanks. Recording's on. It's mostly so Yue can catch up, since she's dialing in from the airport later.
+
+3
+00:00:17.115 --> 00:00:26.531
+Yan Chen: Good. So, we have one day. The rebuttal goes up tomorrow, the twenty-ninth. I want to leave today with every response assigned and the numbers final.
+
+4
+00:00:26.835 --> 00:00:32.091
+Yan Chen: David, can you start with the leakage issue, so everyone has the same picture?
+
+5
+00:00:33.518 --> 00:00:43.313
+David Barron: Yeah. So, on Friday, the twenty-fourth, I was doing per-student error analysis for the reviewer who asked about failure cases, and the counts didn't add up.
+
+6
+00:00:43.386 --> 00:00:48.140
+David Barron: Some students had windows in the test set and also in train.
+
+7
+00:00:48.688 --> 00:00:53.781
+David Barron: The split script was splitting at the window level, not the student level.
+
+8
+00:00:54.166 --> 00:01:00.184
+David Barron: So thirty-second windows from the same student, sometimes from the same session, were on both sides.
+
+9
+00:01:00.617 --> 00:01:05.865
+David Barron: The model could basically learn a student's typing rhythm and recognize them in test.
+
+10
+00:01:06.406 --> 00:01:11.277
+Xiaohang: And it wasn't a few students, right? It was most of them.
+
+11
+00:01:12.115 --> 00:01:20.081
+David Barron: It was most of them. Around ninety percent of test students also had windows in train. So it's not a corner case.
+
+12
+00:01:21.180 --> 00:01:22.465
+Yan Chen: And the fix?
+
+13
+00:01:23.593 --> 00:01:31.984
+David Barron: The fix is a split grouped by student id. Every student is entirely in train, entirely in validation, or entirely in test.
+
+14
+00:01:32.213 --> 00:01:39.888
+David Barron: Same proportions as before, seventy, ten, twenty, by student instead of by window. I reran the main model over the weekend.
+
+15
+00:01:40.420 --> 00:01:41.607
+Yan Chen: And the number.
+
+16
+00:01:42.342 --> 00:01:46.209
+David Barron: Macro-F1 goes from point eight one to point seven four.
+
+17
+00:01:47.743 --> 00:01:49.220
+Yan Chen: Okay. Seven points.
+
+18
+00:01:50.616 --> 00:01:59.046
+David Barron: Yeah. It hurts but it's, um, it's the real number. The per-class drop is mostly on the stalled class and the help-seeking class.
+
+19
+00:01:59.248 --> 00:02:01.608
+David Barron: Productive and off-task barely move.
+
+20
+00:02:10.687 --> 00:02:13.043
+Minsun: That actually makes sense to me.
+
+21
+00:02:13.470 --> 00:02:24.671
+Minsun: Stalled windows are the ones where the student does the same thing over and over, so if the model has seen that student before it can just memorize their pattern.
+
+22
+00:02:26.440 --> 00:02:27.737
+David Barron: Exactly, yeah.
+
+23
+00:02:28.497 --> 00:02:34.677
+Yan Chen: So my position, and I want to check everyone agrees: we report both numbers in the rebuttal.
+
+24
+00:02:34.898 --> 00:02:47.033
+Yan Chen: We say clearly that we found a split error after submission, we describe it, we give the corrected number, and we say the revised paper and the released splits use the grouped split.
+
+25
+00:02:47.491 --> 00:02:49.909
+Yan Chen: No hiding it in a footnote.
+
+26
+00:02:51.052 --> 00:02:54.883
+Rezky: Agree. If a reviewer finds it later it's much worse.
+
+27
+00:02:56.199 --> 00:03:00.232
+Xiaohang: Agree. And honestly point seven four is still above every baseline.
+
+28
+00:03:01.603 --> 00:03:04.106
+Yan Chen: Is it? With the new split?
+
+29
+00:03:05.353 --> 00:03:11.252
+Xiaohang: That's the thing I need to confirm. I reran logistic regression and the GRU yesterday.
+
+30
+00:03:11.618 --> 00:03:19.565
+Xiaohang: Logistic regression goes from point six six to point six one, the GRU from point seven three to point six eight.
+
+31
+00:03:19.978 --> 00:03:24.844
+Xiaohang: I haven't rerun the CodeBERT baseline yet, it takes about six hours.
+
+32
+00:03:25.922 --> 00:03:28.343
+Yan Chen: Can you have it by tonight?
+
+33
+00:03:29.976 --> 00:03:35.903
+Xiaohang: If I start it right after this, yes. I'll have it by six or seven.
+
+34
+00:03:36.765 --> 00:03:43.425
+Yan Chen: Good. Then the table in the general response has old and new numbers side by side, every row.
+
+35
+00:03:43.695 --> 00:03:47.459
+Yan Chen: David, you write the general response, including the leakage paragraph.
+
+36
+00:03:47.958 --> 00:03:57.439
+David Barron: Yep. I already have a draft of the leakage paragraph, it's about a hundred and fifty words. I'll put it in the doc after this call.
+
+37
+00:03:58.889 --> 00:04:06.464
+Yan Chen: Keep it plain. What happened, what we changed, what the new numbers are, what we release. Don't apologize three times.
+
+38
+00:04:07.528 --> 00:04:09.200
+David Barron: Ha. Okay. One apology.
+
+39
+00:04:10.067 --> 00:04:16.604
+Yan Chen: Now the individual reviewers. Reviewer one, the baselines. That's David too, since it's mostly the new table.
+
+40
+00:04:17.130 --> 00:04:21.677
+David Barron: Okay. Reviewer one also asked whether we tried a non-neural sequence model.
+
+41
+00:04:22.138 --> 00:04:31.963
+David Barron: I think we can say the GRU covers sequence and logistic regression covers the non-neural side, and offer an HMM in the revision if they want it.
+
+42
+00:04:33.140 --> 00:04:37.585
+Yan Chen: Don't offer things we won't do. Just answer what they asked.
+
+43
+00:04:38.764 --> 00:04:39.864
+David Barron: Fair. Okay.
+
+44
+00:04:40.638 --> 00:04:46.155
+Yan Chen: Reviewer two, label quality. Minsun, that's yours. They want agreement statistics and the taxonomy justification.
+
+45
+00:04:51.113 --> 00:04:59.874
+Minsun: Yes. I have the agreement on the four-hundred-window overlap set, Krippendorff's alpha was point six eight overall. I can break it down per class.
+
+46
+00:05:00.367 --> 00:05:04.211
+Minsun: Stalled versus help-seeking is the pair with the most disagreement.
+
+47
+00:05:05.499 --> 00:05:09.305
+Yan Chen: Say that. And say what the adjudication process was.
+
+48
+00:05:10.684 --> 00:05:19.607
+Minsun: Okay. I'll also add one sentence on how the taxonomy came from the VizPI labeling guide, since that's where the stalled-after-error state came from.
+
+49
+00:05:20.538 --> 00:05:23.405
+Yan Chen: Good. Reviewer three: privacy, consent, license. Rezky.
+
+50
+00:05:26.863 --> 00:05:33.979
+Rezky: Yes. So they asked three things. Was there IRB approval, how was consent collected, and what is the license.
+
+51
+00:05:34.347 --> 00:05:40.370
+Rezky: IRB, yes, I have the protocol number, I'll just cite that it was approved and exempt-reviewed.
+
+52
+00:05:40.501 --> 00:05:47.040
+Rezky: Consent was opt-in at the start of the semester, students could withdraw any time and twelve did.
+
+53
+00:05:47.103 --> 00:05:52.857
+Rezky: License is CC BY-NC 4.0 with a data use agreement for the raw keystroke files.
+
+54
+00:05:53.873 --> 00:05:54.973
+Yan Chen: And de-identification.
+
+55
+00:05:55.828 --> 00:06:04.575
+Rezky: Right. Student ids are hashed with a salt we don't release, and we strip file paths and any string literals that match name patterns.
+
+56
+00:06:04.719 --> 00:06:07.110
+Rezky: I'll describe that in two sentences.
+
+57
+00:06:08.795 --> 00:06:14.678
+Yan Chen: Good. Reviewer four, generalization. Yue's not here yet. Does anyone know where she is with it?
+
+58
+00:06:16.064 --> 00:06:24.223
+Minsun: She messaged me. She has the per-course breakdown, CS1 versus CS2, and she's joining in a few minutes, she's at the gate.
+
+59
+00:06:24.842 --> 00:06:29.475
+Yue: Hi, sorry, I'm here. Can you hear me? It's very loud here.
+
+60
+00:06:36.600 --> 00:06:40.910
+Yan Chen: We can hear you. Yue, the generalization response, where are you?
+
+61
+00:06:41.732 --> 00:06:50.494
+Yue: Yes, so, um, I have the per-course numbers but they were on the old split. I need David's new split file to redo them.
+
+62
+00:06:51.988 --> 00:07:00.024
+David Barron: It's on the lab drive, and the script is in the PR, the one called grouped split. The output is split_by_student.json.
+
+63
+00:07:01.674 --> 00:07:08.962
+Yue: Okay, I'll rerun on the plane, I have the data locally. Should I report train on CS1, test on CS2?
+
+64
+00:07:10.109 --> 00:07:17.704
+Yan Chen: Yes, that's the one they asked for. Train on one course, test on the other, both directions if you can.
+
+65
+00:07:19.167 --> 00:07:25.452
+Yue: Okay. Both directions. I'll put the numbers in the doc before I land, so maybe five p.m.
+
+66
+00:07:25.989 --> 00:07:32.894
+Yan Chen: Good. Now, timing. Everyone's draft in the shared doc by six tonight. I'll do a pass at nine.
+
+67
+00:07:33.030 --> 00:07:37.395
+Yan Chen: David, you check the character limits, it's five thousand per response.
+
+68
+00:07:38.638 --> 00:07:44.320
+David Barron: Yep. I'll do the counting and the formatting. Do we post tonight or tomorrow morning?
+
+69
+00:07:45.167 --> 00:07:50.583
+Yan Chen: Tomorrow morning. Nobody posts anything without me reading it. We post by noon tomorrow.
+
+70
+00:07:52.014 --> 00:07:58.436
+Xiaohang: One question. Should we update the numbers in the paper PDF now, or only in the rebuttal?
+
+71
+00:07:59.693 --> 00:08:09.153
+Yan Chen: Only the rebuttal for now. We say the revised version will use the grouped split everywhere. If they allow a revised PDF, we do it then.
+
+72
+00:08:09.940 --> 00:08:11.040
+Xiaohang: Okay.
+
+73
+00:08:12.319 --> 00:08:16.599
+Minsun: Should we also mention it in the datasheet, the split issue?
+
+74
+00:08:17.733 --> 00:08:23.216
+Rezky: I can add a line to the datasheet changelog. Version one point one, grouped splits.
+
+75
+00:08:24.829 --> 00:08:27.141
+Yan Chen: Yes, do that. Anything else? David?
+
+76
+00:08:31.749 --> 00:08:37.498
+David Barron: Just, um, thanks everyone for moving fast on this. I know it's a bad week.
+
+77
+00:08:37.567 --> 00:08:42.323
+David Barron: And I'll send a summary of who's doing what right after this.
+
+78
+00:08:43.370 --> 00:08:46.123
+Yan Chen: Good. Okay. Let's go. Yue, safe flight.
+
+79
+00:08:46.593 --> 00:08:47.905
+Yue: Thank you! Bye.
+
+80
+00:08:48.827 --> 00:08:50.804
+David Barron: Okay, stopping the recording.

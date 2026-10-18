@@ -1,0 +1,55 @@
+title: ISE 6664 project sync
+start: 2026-02-24 19:00
+attendees: David Barron, Maya Torres, Jordan Lee
+projects: project_ise6664_affective_computing
+docs: transcript
+=== transcript
+Maya Torres: Hi! Okay, I think we're all here. Jordan, your camera's off, is that on purpose?
+Jordan Lee: Yeah, sorry, I'm eating. I'll turn it on in a sec.
+David Barron: No worries. Hi.
+Maya Torres: Okay, so, the proposal is due next Thursday, right? March fifth?
+Jordan Lee: March fifth, yeah. Two pages.
+Maya Torres: Okay. So we need to actually pick the topic tonight. Last time we had three ideas. David, you had the tutoring one?
+David Barron: Yeah. So, um, the idea is frustration signals in AI tutoring transcripts. Like, students talking to an AI tutor in text, and can we detect when they're getting frustrated just from the conversation. Without any sensors.
+Jordan Lee: That's the one I liked the most, honestly. The other two needed hardware.
+Maya Torres: Yeah, the EDA wristband one, I checked and the lab only has two of those, and they're booked by the 5000-level class.
+David Barron: Okay, so that's out.
+Maya Torres: So what data would we use? Do you have data?
+David Barron: Um, so this is where I have to be careful. My lab has chat logs from a CS course, but they're under our IRB, and I don't think I can use them for a class project without an amendment.
+Jordan Lee: Oh. Okay.
+David Barron: So I was thinking we use a public dataset. There are a couple of public tutoring dialogue datasets, math mostly. One of them has student turns with, like, self-reported affect at the end of each session.
+Maya Torres: Self-reported is good. That gives us a label.
+David Barron: Yeah, coarse, but a label. And then we can annotate a subset ourselves at the turn level. Like frustration, confusion, boredom, engaged. The classic ones from the affect literature, D'Mello and Graesser.
+Jordan Lee: Dr. Brooks would love that, he cited D'Mello like four times in the first two weeks.
+Maya Torres: [laughs] He really did.
+David Barron: Ha, yeah. Okay so, um, research question, roughly: which conversational features predict frustration in AI tutoring dialogues, and do they match the signals from the physiological literature.
+Maya Torres: What features? Like sentiment?
+David Barron: Sentiment, but also stuff that's more behavioral. Message length dropping. Repeating the same question. All caps. Short replies like "idk" or "just tell me". Response latency if the dataset has timestamps.
+Jordan Lee: "Just tell me" is so real.
+Maya Torres: Okay, I like it. How do we split the work?
+Jordan Lee: I can do the dataset side. Download, clean, figure out the format. I did a lot of pandas stuff at my internship.
+David Barron: Great. I can do the features and the model. Probably a simple logistic regression and then maybe a fine-tuned small model if there's time.
+Maya Torres: Then I'll do the annotation protocol and the literature part. I've done annotation before, in my master's, with emotion labels in speech.
+David Barron: Oh perfect, you're the most qualified person for that then.
+Maya Torres: [laughs] Maybe. Okay. And we all annotate?
+David Barron: Yeah, we should all annotate a shared subset so we can report agreement. Like two hundred turns each, with a hundred overlapping.
+Jordan Lee: Is that a lot? I don't know how long it takes.
+Maya Torres: It's maybe, um, a hundred an hour if the turns are short. So a few hours each.
+Jordan Lee: Okay, that's fine.
+David Barron: Um, one thing, I'm pretty underwater until the end of March. I have a paper deadline on the thirty-first. So my part will be slower in March and then I'll catch up in April.
+Maya Torres: That's fine, the annotation and data stuff happen first anyway.
+Jordan Lee: Yeah, makes sense.
+Maya Torres: Okay, so the proposal. I'll write the motivation and lit review, Jordan writes the data section, David writes the method. Draft by Monday?
+David Barron: Monday works. Can we use a Google Doc?
+Maya Torres: I'll make one and share it. Do you want it in the class drive or mine?
+Jordan Lee: Yours is fine.
+Maya Torres: Okay. And we should ask Dr. Brooks about the dataset in office hours, just to make sure public data is okay for the project.
+David Barron: Yeah. Can you ask him Thursday? I can't make his office hours, I have lab meeting.
+Maya Torres: Sure, I'll ask.
+Jordan Lee: Sorry, my internet is... can you hear me?
+Maya Torres: You're breaking up a bit.
+Jordan Lee: Okay, I'll just say, I'll send the dataset links in the group chat tonight.
+David Barron: Sounds good.
+Maya Torres: Okay, I think that's it. Proposal draft Monday, check with Brooks Thursday.
+David Barron: Cool. Thanks both. Bye.
+Jordan Lee: Bye!

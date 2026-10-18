@@ -1,0 +1,31 @@
+From: David Barron <dbarron410@vt.edu>
+To: Yan Chen <ychen.prime@vt.edu>
+Subject: rebuttal plan =?utf-8?b?4oCU?= UIST #1187
+Date: Fri, 12 Jun 2026 00:40:00 -0400
+Message-ID:
+ <CAIQdDpBbpm8+mcGBt8K8pGwyGBrvalNrNE_8wyohLUWuPSJZnrvtf@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1867764675379882916
+X-Gmail-Labels: Sent
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Yan,
+
+Reviews are in (4 / 3.5 / 3 / 2.5). The three concerns that come up in more t=
+han one review:
+
+1. Label reliability (R2, R4): is kappa 0.71 across 3 raters good enough, and=
+ were raters independent of the system design?
+2. Generalization (R1, R3, R4): one course, one semester.
+3. Telemetry privacy (R3): what do students consent to, and can instructors i=
+dentify students in replays?
+
+Plan: (1) report per-pair kappa and note that one rater (Xiaohang) wasn't inv=
+olved in the guide's design; (2) promise a cross-course analysis using the sp=
+ring CS 2114 data we already have consent for, plus a limitations section; (3=
+) describe the consent text and the pseudonymized replay view.
+
+Draft by Monday?
+
+David

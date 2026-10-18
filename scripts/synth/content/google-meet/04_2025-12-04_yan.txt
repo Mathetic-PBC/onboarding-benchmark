@@ -1,0 +1,54 @@
+title: David / Yan 1:1
+start: 2025-12-04 14:00
+attendees: David Barron, Yan Chen
+projects: project_cs3604_gta, project_vizpi
+docs: transcript
+=== transcript
+Yan Chen: Hi David.
+David Barron: Hi. Um, can you hear me? I'm in the grad lounge, it's a little loud.
+Yan Chen: I can hear you. You sound tired.
+David Barron: Ha. Yeah. It's finals season. So, I was going to keep this short today if that's okay, it's mostly status.
+Yan Chen: Sure. Go.
+David Barron: So, two things. The labeling guide v3 is done, like actually finalized, and I want to show you the agreement numbers. And then the 3604 grading situation, because it's going to eat the next two weeks.
+Yan Chen: Okay. Labeling first.
+David Barron: Okay, so the sprint finished on the Saturday after the deadline, so a day late, but before Thanksgiving. All two thousand three hundred and forty windows have at least one label. The overlap set is three hundred and fifty-one windows. Agreement across the three of us, um, on the overlap, before adjudication, is kappa point six eight.
+Yan Chen: With the new state?
+David Barron: With the new state, yes. Without stalled-after-error, if you collapse it back into stalling, it's point six two. So the new label actually helped.
+Yan Chen: That's a nice result. That's the opposite of what usually happens when you add a category.
+David Barron: Yeah, I was surprised. I think it's because it's so mechanical. The error event is right there.
+Yan Chen: Okay. Write that down for the paper. The comparison with and without.
+David Barron: I have it in the notebook. Um, and the guide v3 PDF is in the drive now. Twelve pages. Mostly examples.
+Yan Chen: Good. And the incomplete windows from section B?
+David Barron: Yue's flag. So we have the count now. If we use a threshold of three or more missing events, it's eighty-eight windows that are actually affected. The rest were like one missing keystroke batch.
+Yan Chen: Eighty-eight is fine. Report the threshold.
+David Barron: Yep. Okay, so, 3604.
+Yan Chen: Yes.
+David Barron: So I'm grading P4 right now and then the final project. P4 is sixty-four submissions, I'm through forty. The final project is due on the tenth and grades are due on the fifteenth. So I have, like, five days to grade sixty-four final projects.
+Yan Chen: Is there another grader?
+David Barron: There's the undergrad TA but they only do the code style part. The design part is me.
+Yan Chen: Hmm. How long per project?
+David Barron: If I'm fast, twelve minutes. So like thirteen hours. It's fine, it's just, it's the whole weekend.
+Yan Chen: Okay. Don't plan any research work next week then. I mean it.
+David Barron: Okay. Um, there's also a regrade thing I wanted your advice on, because I don't know how hard to push.
+Yan Chen: Okay.
+David Barron: So, a student on P4 submitted two days late and used, um, two late days. But the syllabus says late days can't be used on P4 because it feeds into the final project. It's in the syllabus, but it was only in one sentence, and they're saying it wasn't announced on Canvas.
+Yan Chen: Was it announced on Canvas?
+David Barron: Um. I checked. It was announced for P3, not P4. The P4 announcement didn't repeat it.
+Yan Chen: Hmm. Who is the instructor's position?
+David Barron: I haven't asked yet. I wanted to know if I should just give the points back or escalate.
+Yan Chen: Don't decide it yourself. Write it up neutrally, what the syllabus says, what Canvas says, what the student says, and send it to the instructor. It's their policy. Your job is just to make it easy to decide.
+David Barron: Okay. Yeah. That's fair. I was kind of stressing about it.
+Yan Chen: It's very common. Every semester there's one of these.
+David Barron: Ha, okay.
+Yan Chen: [audio cuts] ... the ... sorry, can you hear me now?
+David Barron: You cut out for a second. I got "every semester there's one of these".
+Yan Chen: Okay, I was saying, also keep a copy of the email. Just in case.
+David Barron: Yeah, will do.
+Yan Chen: Okay. After grades are due, what's the plan for the break?
+David Barron: Um, I'm going home for like ten days. I was going to start sketching the paper over break, just the outline.
+Yan Chen: Outline is fine. Don't write the whole thing. Rest a bit.
+David Barron: Okay.
+Yan Chen: We'll meet in January when the semester starts. Send me the guide and the agreement numbers by email so I have them.
+David Barron: Will do. Thanks Yan.
+Yan Chen: Good luck with grading.
+David Barron: Thanks. Bye.

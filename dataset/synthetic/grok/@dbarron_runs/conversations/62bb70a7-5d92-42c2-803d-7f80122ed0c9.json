@@ -1,0 +1,57 @@
+{
+ "conversation": {
+  "conversationId": "62bb70a7-5d92-42c2-803d-7f80122ed0c9",
+  "title": "Half Marathon Taper Plan",
+  "createTime": "2026-10-04T05:40:00.000Z",
+  "modifyTime": "2026-10-04T05:43:59.336Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "a9ed9d12-6926-450c-bdaa-72e617b64581",
+   "message": "half is oct 15. im at about 10.5 h/week. how do i taper without feeling flat. last time i tapered i felt like garbage on race day",
+   "sender": "human",
+   "createTime": "2026-10-04T05:40:00.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "ef011b43-5698-4a92-b1f9-df8f82555215",
+   "message": "Feeling flat usually means you cut *intensity* too much or cut volume too abruptly. Fix both:\n\n**12 days out (now):**\n- Days 12–8: volume ~75% of normal (~7.5–8 h). Keep one threshold session (e.g. 3×8 min at LT) and one HM-pace session (2×12 min).\n- Days 7–4: volume ~55% (~5.5 h). Tuesday: 4×5 min at HM pace with 2 min jog. Everything else easy, short.\n- Days 3–1: short and snappy. 30–40 min easy + 4–6 strides each day. Day before: 20–25 min easy + strides, or off if that's what you're used to.\n\n**Anti-flat rules:**\n- Don't add rest days you don't normally take. Shorter is better than fewer.\n- Strides almost every day in the last week keep the legs \"awake.\"\n- Don't try anything new — no new shoes, no new gels, no deep massage in the last 3 days.\n- Expect to feel sluggish around days 5–3. That's normal; it doesn't predict race day.\n\nHow did your last taper look?",
+   "sender": "assistant",
+   "createTime": "2026-10-04T05:40:18.774Z",
+   "parentResponseId": "a9ed9d12-6926-450c-bdaa-72e617b64581",
+   "model": "grok-4"
+  },
+  {
+   "responseId": "9644a4a3-931f-4e72-892c-44881159baba",
+   "message": "i took like 3 full days off before. and only easy running for the last week",
+   "sender": "human",
+   "createTime": "2026-10-04T05:42:22.774Z",
+   "parentResponseId": "ef011b43-5698-4a92-b1f9-df8f82555215"
+  },
+  {
+   "responseId": "5325f876-5173-493d-8896-f37002b102fd",
+   "message": "That's the culprit. Three full days off + no intensity for a week = legs that forgot how to go fast. This time: no more than one day off, and keep short bits at race pace until 3 days out. You should feel bouncy, not rested to death.",
+   "sender": "assistant",
+   "createTime": "2026-10-04T05:42:42.263Z",
+   "parentResponseId": "9644a4a3-931f-4e72-892c-44881159baba",
+   "model": "grok-4"
+  },
+  {
+   "responseId": "042741c0-a8fc-4601-bb92-4ab5ac59a3ae",
+   "message": "should i do the cross training (bike, elliptical) during taper or cut it first",
+   "sender": "human",
+   "createTime": "2026-10-04T05:43:40.263Z",
+   "parentResponseId": "5325f876-5173-493d-8896-f37002b102fd"
+  },
+  {
+   "responseId": "a215d26b-1744-453e-9e5a-831278df55e8",
+   "message": "Cut cross-training first. Keep the running sessions (shortened), drop most elliptical and bike volume. It keeps the run-specific stimulus while the total load drops. A 30 min easy spin is fine if you're restless.",
+   "sender": "assistant",
+   "createTime": "2026-10-04T05:43:59.336Z",
+   "parentResponseId": "042741c0-a8fc-4601-bb92-4ab5ac59a3ae",
+   "model": "grok-4"
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+body { font-family: ui-sans-serif, system-ui; margin: 0; color: #1d1d1f; }
+main { max-width: 760px; margin: 40px auto; padding: 0 16px; }
+.cell { border-left: 3px solid #e5e5e5; padding: 6px 12px; margin: 14px 0; }
+.cell:focus-within { border-color: #4c72b0; }
+.chip { display: inline-block; font-size: 12px; background: #f1f1f4; border-radius: 10px; padding: 1px 8px; margin: 2px 4px 0 0; }
+.trail { font-size: 13px; color: #555; border-top: 1px dashed #ddd; margin-top: 8px; padding-top: 6px; }
+:root { --accent: #3b5ba9; }
+h1 { font-weight: 650; letter-spacing: -0.01em; }
+.chip:hover { background: #e3e8f5; cursor: pointer; }
+.search { width: 100%; padding: 8px 10px; border: 1px solid #ddd; border-radius: 8px; }

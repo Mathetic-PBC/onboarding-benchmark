@@ -1,0 +1,29 @@
+From: David Barron <dbarron410@vt.edu>
+To: Rezky <rezky.prime@vt.edu>
+Subject: TACode handoff: repo, deploy, open issues
+Date: Tue, 11 Nov 2025 22:40:00 -0500
+Message-ID:
+ <CArHtwRX4Wx1o7r2kyXuvnEBNlVUhhNUVq_SudJElvGBVSjdgRnnor@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1848554343629279816
+X-Gmail-Labels: Sent
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Rezky,
+
+As discussed in lab meeting, here's the TACode handoff. I'm stepping back so =
+I can focus on VizPI/TutorTrace.
+
+- Repo: PRIME-Lab/tacode (you're now an admin). main is deployable; the `queu=
+e-v2` branch is half-finished, don't merge it as is.
+- Deploy: the course VM, `make deploy` from the repo root. The .env template =
+is in the lab password manager under "TACode prod".
+- Open issues that matter: #41 (office-hours queue doesn't clear at midnight)=
+, #44 (Canvas roster sync fails for cross-listed sections), #47 (TA notes exp=
+ort as CSV).
+- The spring instructor wants the queue running by the first week of classes.
+
+Happy to do a 30-minute walkthrough Thursday.
+
+David

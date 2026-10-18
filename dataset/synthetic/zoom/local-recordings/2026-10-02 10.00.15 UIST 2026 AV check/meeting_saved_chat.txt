@@ -1,0 +1,14 @@
+10:01:07 From Tomás Reyes to Everyone:
+	Session: Learning & Tutoring, Wed Oct 7. Your slot 10:50-11:10 (15 min talk + 5 min Q&A)
+10:01:23 From Tomás Reyes to Everyone:
+	Please email me a 1-sentence bio + name pronunciation
+10:02:10 From Kai (UIST AV) to Everyone:
+	Lectern: HDMI + USB-C, wireless clicker (USB receiver), lavalier mic
+10:02:59 From Kai (UIST AV) to Everyone:
+	Zoom: Share > check "Share sound" for the video
+10:04:39 From Tomás Reyes to Everyone:
+	Backup video (max 15:00, MP4) to the conference portal by Mon Oct 5
+10:06:35 From Kai (UIST AV) to Everyone:
+	Projector test: Tue Oct 6 coffee break, same room
+10:07:02 From David Barron to Everyone:
+	thank you both!

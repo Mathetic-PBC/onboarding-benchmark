@@ -1,0 +1,66 @@
+{
+ "memories": [
+  {
+   "memoryId": "298cf165-1ce8-4b68-92bc-b12047dec608",
+   "text": "Ran the half marathon in 1:24:51 on Oct 15, 2026.",
+   "createTime": "2026-10-17T01:20:00Z",
+   "source": "conversation"
+  },
+  {
+   "memoryId": "88ead48c-a329-4a1d-8e16-b12b25f82966",
+   "text": "Is working on Engelbart's import: deduplicating the same paper found in Zotero and Downloads while keeping both provenance pointers.",
+   "createTime": "2026-10-12T07:30:00Z",
+   "source": "conversation"
+  },
+  {
+   "memoryId": "fc790eed-2430-4822-a8a7-404a3a0d8ec8",
+   "text": "Is giving a 15-minute UIST talk on TutorTrace on Oct 7, 2026.",
+   "createTime": "2026-09-28T04:40:00Z",
+   "source": "conversation"
+  },
+  {
+   "memoryId": "07be07c0-4c96-4477-92b8-1378c92f3e51",
+   "text": "Lives in San Francisco since August 2026.",
+   "createTime": "2026-08-10T02:00:00Z",
+   "source": "conversation"
+  },
+  {
+   "memoryId": "dfb2fc4a-f53d-48bc-8981-5dff0362c062",
+   "text": "Training block 'Block 4' (Aug–Oct 2026): 9–11 hours/week, building to a half marathon on Oct 15.",
+   "createTime": "2026-08-03T00:10:00Z",
+   "source": "conversation"
+  },
+  {
+   "memoryId": "f6866896-ffc7-46f4-a7bd-a00a8ab8180b",
+   "text": "Is interested in constraint-based creativity (PlotPact: writing prompts with rules).",
+   "createTime": "2026-06-09T02:30:00Z",
+   "source": "conversation"
+  },
+  {
+   "memoryId": "cd588fc4-5c32-454e-808f-c1bd43967839",
+   "text": "Makes boom bap beats in FL Studio and asked about sample clearance before uploading to SoundCloud.",
+   "createTime": "2026-05-25T03:58:00Z",
+   "source": "conversation"
+  },
+  {
+   "memoryId": "63bc3b88-7ccc-41db-8128-a02c91b6b38a",
+   "text": "Wants sources for news claims and prefers X posts from primary accounts over aggregators.",
+   "createTime": "2026-03-03T02:05:00Z",
+   "source": "conversation"
+  },
+  {
+   "memoryId": "b45a74ee-ea72-429a-ac0a-8915346755ea",
+   "text": "Is a former competitive miler doing multi-year aerobic base building: Zone 2 running plus cycling and elliptical.",
+   "createTime": "2026-02-12T12:40:00Z",
+   "source": "conversation"
+  },
+  {
+   "memoryId": "83291695-944c-4696-b94e-2d6fc3d031ee",
+   "text": "Follows US–China relations, chip export controls and grand strategy (Mackinder, Spykman, Mearsheimer).",
+   "createTime": "2026-02-06T03:14:00Z",
+   "source": "conversation"
+  }
+ ],
+ "memoryEnabled": true,
+ "referencePastConversations": true
+}

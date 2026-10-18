@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20260104T230200Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>2026 base-building plan — overview</title>
+    <created>20251228T202000Z</created>
+    <updated>20260104T230200Z</updated>
+    <tag>plan</tag>
+    <tag>2026</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>Year 2 of the multi-year aerobic plan. Not chasing races until fall.</div><div><br/></div><h3>Principles</h3><ul><li>80-90% of time in Z1/Z2. One quality session/week max during base, none during heavy work weeks.</li><li>Volume measured in <b>hours</b>, not miles: 8 h -&gt; 11 h/week by end of summer.</li><li>Running 4-5x/week, cycling 2x, elliptical when legs need a break.</li><li>Long run grows 90' -&gt; 120' by August, never more than +10'/2 weeks.</li><li>Down week every 4th week (~70% volume).</li></ul><div><br/></div><h3>Blocks</h3><table style="border-collapse:collapse"><tr><td style="border:1px solid #ccc;padding:4px"><b>block</b></td><td style="border:1px solid #ccc;padding:4px"><b>dates</b></td><td style="border:1px solid #ccc;padding:4px"><b>hours/wk</b></td><td style="border:1px solid #ccc;padding:4px"><b>focus</b></td></tr><tr><td style="border:1px solid #ccc;padding:4px">1</td><td style="border:1px solid #ccc;padding:4px">Jan 5 - Feb 28</td><td style="border:1px solid #ccc;padding:4px">8-9</td><td style="border:1px solid #ccc;padding:4px">consistency, strides 2x/wk</td></tr><tr><td style="border:1px solid #ccc;padding:4px">2</td><td style="border:1px solid #ccc;padding:4px">Mar 2 - Apr 26</td><td style="border:1px solid #ccc;padding:4px">8-9</td><td style="border:1px solid #ccc;padding:4px">hold volume through UIST deadline; 1 threshold/wk when possible</td></tr><tr><td style="border:1px solid #ccc;padding:4px">3</td><td style="border:1px solid #ccc;padding:4px">May 4 - Jul 26</td><td style="border:1px solid #ccc;padding:4px">9-10</td><td style="border:1px solid #ccc;padding:4px">long run to 110', hills</td></tr><tr><td style="border:1px solid #ccc;padding:4px">4</td><td style="border:1px solid #ccc;padding:4px">Aug 10 - Oct 15</td><td style="border:1px solid #ccc;padding:4px">9-11</td><td style="border:1px solid #ccc;padding:4px">half marathon specific (fall race w/ Owen?)</td></tr></table><div><br/></div><h3>Checks</h3><ul><li>Resting HR (Garmin, 7-day avg): 49 now. want &lt; 46 by summer.</li><li>Easy pace at 150 bpm: 8:15 now. want &lt; 7:45.</li><li>Monthly: 30' TT or a 5k effort, just to see.</li></ul></en-note>]]>
+    </content>
+  </note>
+</en-export>

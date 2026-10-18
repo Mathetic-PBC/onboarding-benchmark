@@ -1,0 +1,57 @@
+{
+ "uuid": "40c93587-d6f5-481d-bfdc-8ded7264e3d6",
+ "slug": "ben-adeyemi-statistics-postdoc-at-berkeley-what-Z99vPWpWFVsRKFkpiiYjre",
+ "title": "Ben Adeyemi research background",
+ "thread_url": "https://www.perplexity.ai/search/ben-adeyemi-statistics-postdoc-at-berkeley-what-Z99vPWpWFVsRKFkpiiYjre",
+ "created_at": "2026-09-15T05:40:00Z",
+ "updated_at": "2026-09-15T05:44:06Z",
+ "collection": {
+  "uuid": "38d5d4fa-5161-4440-9d09-aec8ffbce1f9",
+  "title": "Berkeley chats prep"
+ },
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "ddfd2d1c-9067-4a3b-99e1-27e17e0c083a",
+   "query_str": "ben adeyemi, statistics postdoc at berkeley. what's his research, i'm talking to him wed on zoom",
+   "answer": "Public pages describe **Ben Adeyemi** as a postdoctoral scholar in UC Berkeley's Department of Statistics working on **reproducibility of data analyses** and **tools for tracking analytic decisions** (sometimes framed as the \"garden of forking paths\" problem) [1][2].\n\nVisible work:\n- A **preprint** on recording analyst decisions in exploratory data analysis so that results can be traced back to the choices that produced them [2].\n- A **workshop talk** on multiverse analysis — running an analysis across many reasonable specification choices and reporting the distribution of results [3].\n- Teaching materials for a reproducible-research module (notebooks, version control, literate programming) [1].\n\nHooks for your chat:\n- How he records *why* an analysis choice was made, not just the code — very close to \"where did this thought come from.\"\n- What breaks in Jupyter/R Markdown-based provenance in real projects.\n- Whether statisticians would trust automatically captured provenance or prefer explicit logs.\n\nAs with any profile assembled from search, confirm details on his department page.",
+   "sources": [
+    {
+     "name": "UC Berkeley Statistics — postdoctoral scholars",
+     "url": "https://statistics.berkeley.edu/people/postdocs",
+     "snippet": "Postdoc profiles and research interests."
+    },
+    {
+     "name": "Recording analytic decisions in exploratory data analysis (preprint)",
+     "url": "https://www.statsmethodsarchive.org/preprints/recording-analytic-decisions",
+     "snippet": "Proposes logging analyst choices to make results traceable."
+    },
+    {
+     "name": "Multiverse analysis in practice (workshop talk abstract)",
+     "url": "https://www.reproducibilityworkshop.org/2025/multiverse-in-practice",
+     "snippet": "Reporting results across many defensible specifications."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-09-15T05:40:00Z",
+   "updated_at": "2026-09-15T05:40:27Z"
+  },
+  {
+   "uuid": "3dbce9d1-4d6b-420c-88e0-47e168c5ae9d",
+   "query_str": "explain multiverse analysis in 3 sentences",
+   "answer": "A multiverse analysis acknowledges that a single dataset can be analyzed in many defensible ways (different exclusion rules, variable codings, model specifications) [1]. Instead of reporting one path, you run the analysis across all reasonable combinations of choices and show how the result varies. If the conclusion holds across most of the \"multiverse,\" it's robust; if it flips depending on choices, that fragility is itself the finding [1].",
+   "sources": [
+    {
+     "name": "Multiverse analysis in practice (workshop talk abstract)",
+     "url": "https://www.reproducibilityworkshop.org/2025/multiverse-in-practice",
+     "snippet": "Definition and reporting of multiverse analyses."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-09-15T05:43:41Z",
+   "updated_at": "2026-09-15T05:43:59Z"
+  }
+ ]
+}

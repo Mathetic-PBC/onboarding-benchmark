@@ -1,0 +1,159 @@
+{
+ "uuid": "df6afb0a-459c-4d36-90b9-cb1815479053",
+ "name": "Licklider symbiosis vs Engelbart augmenting",
+ "summary": "",
+ "model": "claude-sonnet-4-6",
+ "created_at": "2026-02-02T03:09:58.670110Z",
+ "updated_at": "2026-02-02T03:15:47.165732Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "off",
+ "chat_messages": [
+  {
+   "uuid": "0c90a5f9-7375-418d-b75d-0a6eb63cc21c",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-02-02T03:10:00.000000Z",
+     "stop_timestamp": "2026-02-02T03:10:00.000000Z",
+     "type": "text",
+     "text": "reading group this week: licklider \"man-computer symbiosis\" (1960) and engelbart \"augmenting human intellect\" (1962). whats the actual difference between them, people treat them as the same thing. be concise",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-02-02T03:10:00.000000Z",
+   "updated_at": "2026-02-02T03:10:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "8a33af24-48b3-4745-b051-32563df93831",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-02-02T03:10:02.000000Z",
+     "stop_timestamp": "2026-02-02T03:10:13.937000Z",
+     "type": "text",
+     "text": "They share the goal (computers helping people think) but differ in where the gain comes from.\n\n**Licklider, \"Man-Computer Symbiosis\" (1960)**\n- A **partnership**: human sets goals and judges; machine does the routine, clerical parts of thinking.\n- Motivated by his own time study: most of his \"thinking\" time went to finding and preparing information.\n- Focus on real-time interaction and the machine as a cooperating partner.\n- Expected the partnership to be an interim stage before machines got smarter.\n\n**Engelbart, \"Augmenting Human Intellect\" (1962)**\n- **Augmentation of a system**: the human plus language, artifacts, methodology and training (H-LAM/T) as one system to improve.\n- The gain comes as much from new **methods and conventions** as from the machine.\n- \"Bootstrapping\": use the tools to improve the tools and the team using them.\n- Explicitly about complex problems and collective work, not just individual speed.\n\nIn short: Licklider asks how the machine can share the work; Engelbart asks how to redesign the whole system of tools and practices so humans get more capable.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-02-02T03:10:13.937000Z",
+   "updated_at": "2026-02-02T03:10:13.937000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "0c90a5f9-7375-418d-b75d-0a6eb63cc21c"
+  },
+  {
+   "uuid": "9a61d681-ad93-4171-9891-a3e6a91073b4",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-02-02T03:13:01.937000Z",
+     "stop_timestamp": "2026-02-02T03:13:01.937000Z",
+     "type": "text",
+     "text": "which one is closer to what LLM assistants are today",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-02-02T03:13:01.937000Z",
+   "updated_at": "2026-02-02T03:13:01.937000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "8a33af24-48b3-4745-b051-32563df93831"
+  },
+  {
+   "uuid": "2661e1e4-c299-4e5a-a475-336f12e7e1ae",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-02-02T03:13:03.937000Z",
+     "stop_timestamp": "2026-02-02T03:13:24.886000Z",
+     "type": "text",
+     "text": "Mostly Licklider. Today's assistants are partners you converse with in real time that take over routine parts of a task, and the human sets goals and judges. That's his picture almost exactly.\n\nEngelbart's part is mostly missing: few people change their *methods* around these tools in a deliberate way, and almost nothing bootstraps (the tools aren't improving the practice of the group using them). A discussion question for the group: what would an LLM tool look like if it were designed in Engelbart's sense, as part of a researcher's whole system of artifacts and habits, rather than as a chat partner?",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-02-02T03:13:24.886000Z",
+   "updated_at": "2026-02-02T03:13:24.886000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "9a61d681-ad93-4171-9891-a3e6a91073b4"
+  },
+  {
+   "uuid": "304d6c9d-ea9c-4d07-8624-f2fe2b72acb7",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-02-02T03:15:26.886000Z",
+     "stop_timestamp": "2026-02-02T03:15:26.886000Z",
+     "type": "text",
+     "text": "lol thats literally what we're trying to build with the notebook. ok good discussion q. also bush 1945 – where does memex fit",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2026-02-02T03:15:26.886000Z",
+   "updated_at": "2026-02-02T03:15:26.886000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "2661e1e4-c299-4e5a-a475-336f12e7e1ae"
+  },
+  {
+   "uuid": "205492e8-1ecc-4c3b-b69d-f326ac734af5",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-02-02T03:15:28.886000Z",
+     "stop_timestamp": "2026-02-02T03:15:45.520000Z",
+     "type": "text",
+     "text": "Bush's \"As We May Think\" (1945) comes first and is about **memory and association**: the memex stores a researcher's records and lets them build and share \"trails\" of linked items. It's less about computation and more about retrieval by association.\n\nSo a rough lineage for the group:\n- **Bush**: keep your records and the trails between them.\n- **Licklider**: let a machine share the routine parts of thinking, in real time.\n- **Engelbart**: redesign the system of tools, methods and training together, and bootstrap.\n\nIf your notebook keeps where each thought came from, that's Bush's trail idea most directly.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2026-02-02T03:15:45.520000Z",
+   "updated_at": "2026-02-02T03:15:45.520000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "304d6c9d-ea9c-4d07-8624-f2fe2b72acb7"
+  }
+ ],
+ "current_leaf_message_uuid": "205492e8-1ecc-4c3b-b69d-f326ac734af5"
+}

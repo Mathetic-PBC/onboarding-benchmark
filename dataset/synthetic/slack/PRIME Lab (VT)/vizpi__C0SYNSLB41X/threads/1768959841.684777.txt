@@ -1,0 +1,13 @@
+=== THREAD PARENT MESSAGE ===
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-01-20 17:44:01 PST
+Message TS: 1768959841.684777
+update on cursor: i'm dropping it. the agent kept rewriting files i didn't ask about (it "cleaned up" the socket hook twice). back to plain vscode + claude code for vizpi_frontend
+
+=== THREAD REPLIES (1 total) ===
+
+--- Reply 1 of 1 ---
+From: Rezky (U0SYNS0GL2E)
+Time: 2026-01-20 17:50:55 PST
+Message TS: 1768960255.135571
+same experience with the auto-imports honestly

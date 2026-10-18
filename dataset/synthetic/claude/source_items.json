@@ -1,1 +1,1497 @@
-[]
+[
+ {
+  "id": "item_034394",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "0cf1afc3-7da0-43c5-bcc6-1be7a2f28866",
+  "title": "Import summary screen wording",
+  "content_type": "conversation",
+  "created_at": "2026-09-30T05:17:58Z",
+  "modified_at": "2026-09-30T05:22:22Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/0cf1afc3-7da0-43c5-bcc6-1be7a2f28866.json",
+  "source_url": "https://claude.ai/chat/0cf1afc3-7da0-43c5-bcc6-1be7a2f28866",
+  "content_hash": "sha256:83830158f462aeffe84a4c0791e863a6a00eea57c5d5eba043007c4d44063a41",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-fable-5-1",
+   "project": "Engelbart onboarding",
+   "parent_id": "claude-project:3a75e460-2126-424d-9bb5-0e9e7ff852cd",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "HARD CASE: chats inside projects — chat inside the Claude project 'Engelbart onboarding'"
+  }
+ },
+ {
+  "id": "item_034395",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "13bb7ccb-4d6a-47fb-a073-31ab1e606e65",
+  "title": "Big batch chili for the week",
+  "content_type": "conversation",
+  "created_at": "2025-12-07T23:29:58Z",
+  "modified_at": "2025-12-07T23:35:50Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/13bb7ccb-4d6a-47fb-a073-31ab1e606e65.json",
+  "source_url": "https://claude.ai/chat/13bb7ccb-4d6a-47fb-a073-31ab1e606e65",
+  "content_hash": "sha256:341c2f70e5eb1fbbde3e5119c67214efc00af7f272e6832788b5fda8d5a0cf1e",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-4-5-20251101",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034396",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "1b705667-2f27-4b49-af5e-6f20d744063a",
+  "title": "Presentation outline + Q&A prep",
+  "content_type": "conversation",
+  "created_at": "2026-04-29T02:39:58Z",
+  "modified_at": "2026-04-29T02:44:03Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/1b705667-2f27-4b49-af5e-6f20d744063a.json",
+  "source_url": "https://claude.ai/chat/1b705667-2f27-4b49-af5e-6f20d744063a",
+  "content_hash": "sha256:c60253ddcf4a2f30389888ccea297584fcfd218cc8c822db1284da183e15b420",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-sonnet-4-6",
+   "project": "ISE 6664 report",
+   "parent_id": "claude-project:6e186c15-d8b4-48ad-8ad3-db529caac689",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "HARD CASE: chats inside projects — chat inside the Claude project 'ISE 6664 report'"
+  }
+ },
+ {
+  "id": "item_034397",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "1cdea0f6-6588-4855-94b9-ece17801ba06",
+  "title": "Taper for half marathon 10/15",
+  "content_type": "conversation",
+  "created_at": "2026-10-01T04:44:58Z",
+  "modified_at": "2026-10-01T04:50:43Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/1cdea0f6-6588-4855-94b9-ece17801ba06.json",
+  "source_url": "https://claude.ai/chat/1cdea0f6-6588-4855-94b9-ece17801ba06",
+  "content_hash": "sha256:c7c509a36d16316097acb059aa039b73edfb739cf03417de5d11709a7b0d8363",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-5",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034398",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "21d0b180-999c-40bd-8a09-796746c1fb74",
+  "title": "Claude import stops at 200 chats",
+  "content_type": "conversation",
+  "created_at": "2026-10-10T17:51:58Z",
+  "modified_at": "2026-10-10T17:58:05Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/21d0b180-999c-40bd-8a09-796746c1fb74.json",
+  "source_url": "https://claude.ai/chat/21d0b180-999c-40bd-8a09-796746c1fb74",
+  "content_hash": "sha256:4bcce16868bd9672d509be1505f9fda6cd06f7a834f3d1a0d81dbd8d0aa100a4",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-5",
+   "project": "Engelbart onboarding",
+   "parent_id": "claude-project:3a75e460-2126-424d-9bb5-0e9e7ff852cd",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "HARD CASE: chats inside projects — chat inside the Claude project 'Engelbart onboarding'"
+  }
+ },
+ {
+  "id": "item_034399",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "29dbfc08-2cf1-469e-8f31-96f33cc15279",
+  "title": "Rook endgame I lost",
+  "content_type": "conversation",
+  "created_at": "2026-10-05T06:29:58Z",
+  "modified_at": "2026-10-05T06:32:23Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/29dbfc08-2cf1-469e-8f31-96f33cc15279.json",
+  "source_url": "https://claude.ai/chat/29dbfc08-2cf1-469e-8f31-96f33cc15279",
+  "content_hash": "sha256:e5afe78e3558f8bc1c55a1168bdde2e617d606a1fc4a9a4f68a1dd0fcaf56cea",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-fable-5-1",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034400",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "33fac14e-cd28-48e5-9ef0-6a511d2a3998",
+  "title": "Should the connect screen have an \"Other\" group",
+  "content_type": "conversation",
+  "created_at": "2026-09-16T04:11:58Z",
+  "modified_at": "2026-09-16T04:16:30Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/33fac14e-cd28-48e5-9ef0-6a511d2a3998.json",
+  "source_url": "https://claude.ai/chat/33fac14e-cd28-48e5-9ef0-6a511d2a3998",
+  "content_hash": "sha256:ccb288ef1b31294d1e72a0d0e5ae123c0ec78355bffc66d294f5ae771de33fcb",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-fable-5-1",
+   "project": "Engelbart onboarding",
+   "parent_id": "claude-project:3a75e460-2126-424d-9bb5-0e9e7ff852cd",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "HARD CASE: chats inside projects — chat inside the Claude project 'Engelbart onboarding'"
+  }
+ },
+ {
+  "id": "item_034401",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "3897911e-fe60-404b-a655-82a06f218229",
+  "title": "Rear derailleur skipping",
+  "content_type": "conversation",
+  "created_at": "2026-05-24T20:19:58Z",
+  "modified_at": "2026-05-24T20:25:12Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/3897911e-fe60-404b-a655-82a06f218229.json",
+  "source_url": "https://claude.ai/chat/3897911e-fe60-404b-a655-82a06f218229",
+  "content_hash": "sha256:8e2f7b9dd5156ee15df9a9d9241f1928ca9e589fad0c09ea6bc6480b2214496f",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-4-7",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034402",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "3980abec-b6c1-4eed-b536-a57f3bf19fcb",
+  "title": "Caro-Kann vs London as a 1400",
+  "content_type": "conversation",
+  "created_at": "2026-01-09T04:19:58Z",
+  "modified_at": "2026-01-09T04:23:28Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/3980abec-b6c1-4eed-b536-a57f3bf19fcb.json",
+  "source_url": "https://claude.ai/chat/3980abec-b6c1-4eed-b536-a57f3bf19fcb",
+  "content_hash": "sha256:394540cca4150ae3e6088771248e60c142bdda269a051cee8c789177526d3ca9",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-4-5-20251101",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034403",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "40564455-2c3b-4140-be5c-2f34b206216a",
+  "title": "Quick conversion",
+  "content_type": "conversation",
+  "created_at": "2026-05-02T12:14:58Z",
+  "modified_at": "2026-05-02T12:16:58Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/40564455-2c3b-4140-be5c-2f34b206216a.json",
+  "source_url": "https://claude.ai/chat/40564455-2c3b-4140-be5c-2f34b206216a",
+  "content_hash": "sha256:236b842263e3fd5e5a503a26c9c8e52da714009413b1c1630feffa99e5878a8a",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-4-7",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034404",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "4c468c87-ab69-49c5-a475-a5ff44585b97",
+  "title": "Import dedupe rules for papers and chats",
+  "content_type": "conversation",
+  "created_at": "2026-09-04T06:04:58Z",
+  "modified_at": "2026-09-04T06:13:49Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/4c468c87-ab69-49c5-a475-a5ff44585b97.json",
+  "source_url": "https://claude.ai/chat/4c468c87-ab69-49c5-a475-a5ff44585b97",
+  "content_hash": "sha256:8213c89249ac7d9a68e39e8146a88f2e6bc19791f790a629bbc7c88e55ba46f1",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 8,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-fable-5-1",
+   "project": "Engelbart onboarding",
+   "parent_id": "claude-project:3a75e460-2126-424d-9bb5-0e9e7ff852cd",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "HARD CASE: chats inside projects — chat inside the Claude project 'Engelbart onboarding'"
+  }
+ },
+ {
+  "id": "item_034405",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "5a920f5c-c88f-4171-8805-b9256c280e58",
+  "title": "Pilot 2 (Daniel) and comparison with pilot 1",
+  "content_type": "conversation",
+  "created_at": "2026-10-14T01:24:58Z",
+  "modified_at": "2026-10-14T01:31:56Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/5a920f5c-c88f-4171-8805-b9256c280e58.json",
+  "source_url": "https://claude.ai/chat/5a920f5c-c88f-4171-8805-b9256c280e58",
+  "content_hash": "sha256:6c1c8674df8b6bc43d9858fefc1eee7b9672a22e576fd94b2ac5651d5e87ea75",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-fable-5-1",
+   "project": "Engelbart onboarding",
+   "parent_id": "claude-project:3a75e460-2126-424d-9bb5-0e9e7ff852cd",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "HARD CASE: chats inside projects — chat inside the Claude project 'Engelbart onboarding'"
+  }
+ },
+ {
+  "id": "item_034406",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "67930086-6294-44e6-b1e0-e3ca432ebc8a",
+  "title": "Prep for first investor call (Marcus Oyelaran)",
+  "content_type": "conversation",
+  "created_at": "2026-08-20T03:14:58Z",
+  "modified_at": "2026-08-21T03:19:16Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/67930086-6294-44e6-b1e0-e3ca432ebc8a.json",
+  "source_url": "https://claude.ai/chat/67930086-6294-44e6-b1e0-e3ca432ebc8a",
+  "content_hash": "sha256:6ebd1b4010402211e5195084d78ad311f6ef352beded58826fc031e75ea68ef5",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 8,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-5",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034407",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "6a361535-f5a0-46ec-baf6-c3cbb7e2bf7d",
+  "title": "Grand strategy reading list and arguments",
+  "content_type": "conversation",
+  "created_at": "2026-09-20T03:39:58Z",
+  "modified_at": "2026-09-20T19:26:58Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/6a361535-f5a0-46ec-baf6-c3cbb7e2bf7d.json",
+  "source_url": "https://claude.ai/chat/6a361535-f5a0-46ec-baf6-c3cbb7e2bf7d",
+  "content_hash": "sha256:115272ac28287f5af1402f2fc12c169ff8ef52ac1c1e3c1a92519676f23ea1de",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 60,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-fable-5-1",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_none"
+   ],
+   "notes": "HARD CASE: buried passage — a long grand-strategy reading chat (Kennedy, Mackinder, Spykman, Mearsheimer, Gaddis); around messages 19-24 David digresses into how Engelbart's import should keep provenance (a merged duplicate keeps every source as a lineage edge; imported items are sources with lineage, not copies), then returns to geopolitics"
+  }
+ },
+ {
+  "id": "item_034408",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "6e3b29fc-f291-4476-b1fb-0a9fbe8c192d",
+  "title": "Rebuttal paragraph on the split leakage",
+  "content_type": "conversation",
+  "created_at": "2026-07-28T02:49:58Z",
+  "modified_at": "2026-07-28T02:57:20Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/6e3b29fc-f291-4476-b1fb-0a9fbe8c192d.json",
+  "source_url": "https://claude.ai/chat/6e3b29fc-f291-4476-b1fb-0a9fbe8c192d",
+  "content_hash": "sha256:c4343e7f450c2ef6fa457661fbb50bf95cf85b154aaf4b7131abc055bdce1b31",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 8,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-4-8",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034409",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "75c28e9b-862c-4f6b-973a-ed75ac98cf6e",
+  "title": "Reply to P4 regrade request (late days)",
+  "content_type": "conversation",
+  "created_at": "2025-12-12T04:19:58Z",
+  "modified_at": "2025-12-12T04:24:57Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/75c28e9b-862c-4f6b-973a-ed75ac98cf6e.json",
+  "source_url": "https://claude.ai/chat/75c28e9b-862c-4f6b-973a-ed75ac98cf6e",
+  "content_hash": "sha256:f85190fbb8b21a2ed929c11345f629e14cacce3c88716cb7c732e9723222c4e5",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-4-5-20251101",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034410",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "7aa31c71-034b-47a4-ac8d-48496b4f0eae",
+  "title": "Moving car registration VA to CA",
+  "content_type": "conversation",
+  "created_at": "2026-08-19T04:19:58Z",
+  "modified_at": "2026-08-19T04:24:58Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/7aa31c71-034b-47a4-ac8d-48496b4f0eae.json",
+  "source_url": "https://claude.ai/chat/7aa31c71-034b-47a4-ac8d-48496b4f0eae",
+  "content_hash": "sha256:38c78e9f83cbd591fa4d7f283e27bcebba7938500ec1ffc53db1491d9071a15a",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-5",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034411",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "824d691e-f0eb-4900-a608-8512fb019553",
+  "title": "Labeling guide v3: stalled-after-error state",
+  "content_type": "conversation",
+  "created_at": "2025-11-17T02:29:58Z",
+  "modified_at": "2025-11-17T02:37:45Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/824d691e-f0eb-4900-a608-8512fb019553.json",
+  "source_url": "https://claude.ai/chat/824d691e-f0eb-4900-a608-8512fb019553",
+  "content_hash": "sha256:d32a4f13c3d0cd145dde47fd004e558d31546c82f1a1323c7b8aca09530aae97",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 8,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-sonnet-4-5-20250929",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034412",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "87460414-72e9-48ae-bf56-ba8cd578aca5",
+  "title": "Prompt for labeling HDBSCAN clusters",
+  "content_type": "conversation",
+  "created_at": "2026-01-28T04:54:58Z",
+  "modified_at": "2026-01-28T05:01:53Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/87460414-72e9-48ae-bf56-ba8cd578aca5.json",
+  "source_url": "https://claude.ai/chat/87460414-72e9-48ae-bf56-ba8cd578aca5",
+  "content_hash": "sha256:079788e84f6a20a112a24293aed056d1b65fc081b8edc19fa1145645f92d0609",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-4-5-20251101",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034413",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "8855c373-f0a1-4f4b-a6a9-331e4764e93d",
+  "title": "Cut UIST talk script to 15 min",
+  "content_type": "conversation",
+  "created_at": "2026-09-29T05:29:58Z",
+  "modified_at": "2026-09-29T05:34:58Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/8855c373-f0a1-4f4b-a6a9-331e4764e93d.json",
+  "source_url": "https://claude.ai/chat/8855c373-f0a1-4f4b-a6a9-331e4764e93d",
+  "content_hash": "sha256:f2edfb50e52526ef797e7fa2e00531b1cbc3ea7ca65e889ace818dfaab70d393",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-fable-5-1",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034414",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "893bb8ee-3a1a-4a10-9f1e-20301887b393",
+  "title": "Is this SF sublet listing a scam",
+  "content_type": "conversation",
+  "created_at": "2026-07-16T02:29:58Z",
+  "modified_at": "2026-07-16T02:33:51Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/893bb8ee-3a1a-4a10-9f1e-20301887b393.json",
+  "source_url": "https://claude.ai/chat/893bb8ee-3a1a-4a10-9f1e-20301887b393",
+  "content_hash": "sha256:9faf30a912a96fabeb1c23043abc72596a3620968c589d71d1af3d1ec9b9b9ac",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-4-8",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034415",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "8e7e3732-ff7a-4084-b217-112633224c73",
+  "title": "Report outline (14 pages)",
+  "content_type": "conversation",
+  "created_at": "2026-04-27T00:04:58Z",
+  "modified_at": "2026-04-27T00:09:44Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/8e7e3732-ff7a-4084-b217-112633224c73.json",
+  "source_url": "https://claude.ai/chat/8e7e3732-ff7a-4084-b217-112633224c73",
+  "content_hash": "sha256:a2d0881c424d398855630cb15d41064b9f4c51548414c02bf4eab5deff4c0cf6",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-4-6",
+   "project": "ISE 6664 report",
+   "parent_id": "claude-project:6e186c15-d8b4-48ad-8ad3-db529caac689",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "HARD CASE: chats inside projects — chat inside the Claude project 'ISE 6664 report'"
+  }
+ },
+ {
+  "id": "item_034416",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "996b331d-eff6-4644-89a8-3777d4e27615",
+  "title": "Onboarding + import redesign plan",
+  "content_type": "conversation",
+  "created_at": "2026-10-15T04:29:58Z",
+  "modified_at": "2026-10-17T04:39:15Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/996b331d-eff6-4644-89a8-3777d4e27615.json",
+  "source_url": "https://claude.ai/chat/996b331d-eff6-4644-89a8-3777d4e27615",
+  "content_hash": "sha256:a75f39736d2ffd67f59ad18781b0aeca8f739aec3c86762d45d0cdef447435c7",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 12,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-fable-5-1",
+   "project": "Engelbart onboarding",
+   "parent_id": "claude-project:3a75e460-2126-424d-9bb5-0e9e7ff852cd",
+   "is_starred": true,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "HARD CASE: chats inside projects — chat inside the Claude project 'Engelbart onboarding'"
+  }
+ },
+ {
+  "id": "item_034417",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "9ad7f35b-e789-4387-8f0d-91de51791768",
+  "title": "Grad student taxes: 1098-T and stipend",
+  "content_type": "conversation",
+  "created_at": "2026-03-16T00:29:58Z",
+  "modified_at": "2026-03-16T00:35:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/9ad7f35b-e789-4387-8f0d-91de51791768.json",
+  "source_url": "https://claude.ai/chat/9ad7f35b-e789-4387-8f0d-91de51791768",
+  "content_hash": "sha256:a74a3bfad513e12cbc52d74beb956d44eb898e8895c11b656a7f5e0714b14a46",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-4-6",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034418",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "a0393874-dc28-4a69-9e36-8e4e6303a629",
+  "title": "Pilot session 1 synthesis (Priya)",
+  "content_type": "conversation",
+  "created_at": "2026-10-10T02:39:58Z",
+  "modified_at": "2026-10-10T02:44:57Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/a0393874-dc28-4a69-9e36-8e4e6303a629.json",
+  "source_url": "https://claude.ai/chat/a0393874-dc28-4a69-9e36-8e4e6303a629",
+  "content_hash": "sha256:9de35f2b559f589ba3352949fc687c02f411cba62410d2ce78a46f6867c24091",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-fable-5-1",
+   "project": "Engelbart onboarding",
+   "parent_id": "claude-project:3a75e460-2126-424d-9bb5-0e9e7ff852cd",
+   "is_starred": true,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "HARD CASE: chats inside projects — chat inside the Claude project 'Engelbart onboarding'"
+  }
+ },
+ {
+  "id": "item_034419",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "ae0f4229-2073-4194-b0b4-8bf7d2533936",
+  "title": "VT parking ticket appeal",
+  "content_type": "conversation",
+  "created_at": "2025-10-24T02:04:58Z",
+  "modified_at": "2025-10-24T02:08:13Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/ae0f4229-2073-4194-b0b4-8bf7d2533936.json",
+  "source_url": "https://claude.ai/chat/ae0f4229-2073-4194-b0b4-8bf7d2533936",
+  "content_hash": "sha256:13aea56e282ed634fc6e6d6cc774c413218037efd52c45127a98b42fea9e4226",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-sonnet-4-5-20250929",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034420",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "bcf6f6f6-7b90-456d-8a20-5869c4819cbd",
+  "title": "Codebook for frustration signals in tutoring transcripts",
+  "content_type": "conversation",
+  "created_at": "2026-02-05T03:14:58Z",
+  "modified_at": "2026-02-05T03:21:42Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/bcf6f6f6-7b90-456d-8a20-5869c4819cbd.json",
+  "source_url": "https://claude.ai/chat/bcf6f6f6-7b90-456d-8a20-5869c4819cbd",
+  "content_hash": "sha256:f4e0e536187f4fc883ce99b8507398a9eecd89178436c6dbf5919a2ffba82590",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-sonnet-4-6",
+   "project": "ISE 6664 report",
+   "parent_id": "claude-project:6e186c15-d8b4-48ad-8ad3-db529caac689",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "HARD CASE: chats inside projects — chat inside the Claude project 'ISE 6664 report'"
+  }
+ },
+ {
+  "id": "item_034421",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "c20b7c91-3690-465c-b758-025b5654c24f",
+  "title": "Cohen's kappa for our coding pilot",
+  "content_type": "conversation",
+  "created_at": "2026-03-05T04:47:58Z",
+  "modified_at": "2026-03-05T04:51:15Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/c20b7c91-3690-465c-b758-025b5654c24f.json",
+  "source_url": "https://claude.ai/chat/c20b7c91-3690-465c-b758-025b5654c24f",
+  "content_hash": "sha256:3f62e124065b33c0e647349030fea1c33f1192aa5523c521ff83581317f65e68",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-4-6",
+   "project": "ISE 6664 report",
+   "parent_id": "claude-project:6e186c15-d8b4-48ad-8ad3-db529caac689",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "HARD CASE: chats inside projects — chat inside the Claude project 'ISE 6664 report'"
+  }
+ },
+ {
+  "id": "item_034422",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "c7b28679-907f-4469-8f0e-2076cac8b3a6",
+  "title": "Question guide for Berkeley research chats",
+  "content_type": "conversation",
+  "created_at": "2026-09-08T05:09:58Z",
+  "modified_at": "2026-09-08T05:13:42Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/c7b28679-907f-4469-8f0e-2076cac8b3a6.json",
+  "source_url": "https://claude.ai/chat/c7b28679-907f-4469-8f0e-2076cac8b3a6",
+  "content_hash": "sha256:cc6c41c6154da4cd66674e96b22851147f17c9fab9c2516efeb879338b03216c",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-fable-5-1",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034423",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "cbf4b71e-f221-437b-9e5a-e617167b15df",
+  "title": "Why TSMC matters for US-China",
+  "content_type": "conversation",
+  "created_at": "2026-04-13T02:44:58Z",
+  "modified_at": "2026-04-13T02:46:44Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/cbf4b71e-f221-437b-9e5a-e617167b15df.json",
+  "source_url": "https://claude.ai/chat/cbf4b71e-f221-437b-9e5a-e617167b15df",
+  "content_hash": "sha256:a7bb5ffc5142eea575b11d52b6046d188406bce72ef42e3e58a41b856ed28cb5",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-4-6",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034424",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "cfcb2089-65da-4ddc-934c-795440c0f843",
+  "title": "Email to Yan about leave of absence",
+  "content_type": "conversation",
+  "created_at": "2026-06-21T03:09:58Z",
+  "modified_at": "2026-06-21T03:15:36Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/cfcb2089-65da-4ddc-934c-795440c0f843.json",
+  "source_url": "https://claude.ai/chat/cfcb2089-65da-4ddc-934c-795440c0f843",
+  "content_hash": "sha256:599951a38a7c77b1e573fd6f02a41ace5219749dda6e6d6cb2ce8b7efea4c474",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-4-8",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vt_phd_admin"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034425",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "d3a81f19-3397-40cb-aa31-8b9aab4e13c7",
+  "title": "New Mac setup checklist",
+  "content_type": "conversation",
+  "created_at": "2026-08-05T00:09:58Z",
+  "modified_at": "2026-08-05T00:16:21Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/d3a81f19-3397-40cb-aa31-8b9aab4e13c7.json",
+  "source_url": "https://claude.ai/chat/d3a81f19-3397-40cb-aa31-8b9aab4e13c7",
+  "content_hash": "sha256:6c60d1b866f890420ed2f1c02e2279d34cfe9ba28c15c2cf1df47c398f23366d",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-5",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034426",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "d6f21589-d49d-4abb-af91-46dea8c0014e",
+  "title": "Heart rate drift on long Zone 2 runs",
+  "content_type": "conversation",
+  "created_at": "2026-06-09T00:59:58Z",
+  "modified_at": "2026-06-09T01:06:10Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/d6f21589-d49d-4abb-af91-46dea8c0014e.json",
+  "source_url": "https://claude.ai/chat/d6f21589-d49d-4abb-af91-46dea8c0014e",
+  "content_hash": "sha256:d8519a032e6eb1152b6da13d4d5aaff600f1a65c8a3a806682112b7b6a58b9e8",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-4-8",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034427",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "df6afb0a-459c-4d36-90b9-cb1815479053",
+  "title": "Licklider symbiosis vs Engelbart augmenting",
+  "content_type": "conversation",
+  "created_at": "2026-02-02T03:09:58Z",
+  "modified_at": "2026-02-02T03:15:47Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/df6afb0a-459c-4d36-90b9-cb1815479053.json",
+  "source_url": "https://claude.ai/chat/df6afb0a-459c-4d36-90b9-cb1815479053",
+  "content_hash": "sha256:db1b31c595565909b005a1f33e8834c5b4c5a7010a6b6f1e8af6531130d11b61",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-sonnet-4-6",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034428",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "e4e864bc-77ed-4fff-aee2-255f2142e142",
+  "title": "Compaction experiment results (10 tasks)",
+  "content_type": "conversation",
+  "created_at": "2026-08-20T05:39:58Z",
+  "modified_at": "2026-08-20T05:46:03Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/e4e864bc-77ed-4fff-aee2-255f2142e142.json",
+  "source_url": "https://claude.ai/chat/e4e864bc-77ed-4fff-aee2-255f2142e142",
+  "content_hash": "sha256:f12e6590ef91f5c24078244d20969c1d85de4337cd5cd466aa11fcc75de9854b",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-5",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_claude_code_plugins"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034429",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "ec8ff39b-6189-4098-bf14-34df3290d627",
+  "title": "Elliptical to running transfer",
+  "content_type": "conversation",
+  "created_at": "2025-11-03T02:39:58Z",
+  "modified_at": "2025-11-03T02:46:14Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/ec8ff39b-6189-4098-bf14-34df3290d627.json",
+  "source_url": "https://claude.ai/chat/ec8ff39b-6189-4098-bf14-34df3290d627",
+  "content_hash": "sha256:ef5b9dacf5c1a28e0b540658c730079742c33abbdc6e17200e46a13266a677f7",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-sonnet-4-5-20250929",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034430",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "ee3a7919-8a88-4818-b45e-d649d4d93a81",
+  "title": "hc plugin: what should it save on compaction",
+  "content_type": "conversation",
+  "created_at": "2026-08-14T06:29:58Z",
+  "modified_at": "2026-08-14T06:36:17Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/ee3a7919-8a88-4818-b45e-d649d4d93a81.json",
+  "source_url": "https://claude.ai/chat/ee3a7919-8a88-4818-b45e-d649d4d93a81",
+  "content_hash": "sha256:f16fedc0027e3b3486fba8224b13d3540fd6a36dc134fb8467e3050bf39537c6",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-5",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_claude_code_plugins"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034431",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "ee95c310-c319-47df-b019-09cf353919a0",
+  "title": "FL Studio sidechain + sample chop",
+  "content_type": "conversation",
+  "created_at": "2026-02-22T06:09:58Z",
+  "modified_at": "2026-02-22T06:15:19Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/ee95c310-c319-47df-b019-09cf353919a0.json",
+  "source_url": "https://claude.ai/chat/ee95c310-c319-47df-b019-09cf353919a0",
+  "content_hash": "sha256:65e428c75429b7c4d702f298984254997382cf3f82fe69f525bace591e3baaa3",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-sonnet-4-6",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034432",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "f939ae79-a92e-4d48-8941-a7fa0ba916b9",
+  "title": "Second Marcus call: SAFE questions",
+  "content_type": "conversation",
+  "created_at": "2026-10-13T04:39:58Z",
+  "modified_at": "2026-10-15T04:43:49Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/f939ae79-a92e-4d48-8941-a7fa0ba916b9.json",
+  "source_url": "https://claude.ai/chat/f939ae79-a92e-4d48-8941-a7fa0ba916b9",
+  "content_hash": "sha256:2011fe9c6596748c38c9f32bbde452a83c5e71cf9bfda431b50a468fc1653d21",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-fable-5-1",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034433",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "fa37a95a-0ee7-426a-a28b-de30f7b3b37f",
+  "title": "Connect screen copy options",
+  "content_type": "conversation",
+  "created_at": "2026-08-28T05:40:58Z",
+  "modified_at": "2026-08-28T05:48:11Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/fa37a95a-0ee7-426a-a28b-de30f7b3b37f.json",
+  "source_url": "https://claude.ai/chat/fa37a95a-0ee7-426a-a28b-de30f7b3b37f",
+  "content_hash": "sha256:c9a91586be77f7377d6001e4605d97fb8ee5727d847f823ab6c2331a6fbe1fd3",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 8,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-5",
+   "project": "Engelbart onboarding",
+   "parent_id": "claude-project:3a75e460-2126-424d-9bb5-0e9e7ff852cd",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "HARD CASE: chats inside projects — chat inside the Claude project 'Engelbart onboarding'"
+  }
+ },
+ {
+  "id": "item_034434",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "fa498091-8cd6-430b-9ad3-b8e12c32e9e0",
+  "title": "Limitations section for camera-ready",
+  "content_type": "conversation",
+  "created_at": "2026-08-13T04:04:58Z",
+  "modified_at": "2026-08-13T04:10:07Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/conversations/fa498091-8cd6-430b-9ad3-b8e12c32e9e0.json",
+  "source_url": "https://claude.ai/chat/fa498091-8cd6-430b-9ad3-b8e12c32e9e0",
+  "content_hash": "sha256:c18a1335fcc15a6d47e3c74153ee689990f720687d869df11594575ddaff9b22",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude conversation JSON (claude.ai chat_conversations API shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "model": "claude-opus-5",
+   "is_starred": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034435",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "3a75e460-2126-424d-9bb5-0e9e7ff852cd",
+  "title": "Engelbart onboarding",
+  "content_type": "project",
+  "created_at": "2026-08-26T22:12:00Z",
+  "modified_at": "2026-10-17T04:39:15Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/projects/3a75e460-2126-424d-9bb5-0e9e7ff852cd/project.json",
+  "source_url": "https://claude.ai/project/3a75e460-2126-424d-9bb5-0e9e7ff852cd",
+  "content_hash": "sha256:3dbb935a422287ec78f0556b95810596b0f739e5e02d4ae0c9ff3673b8df9416",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude/projects/<uuid>/ project dir shape (project.json, docs.json, files.json, conversations.json)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "is_starter_project": false,
+   "parts": [
+    "synthetic/claude/projects/3a75e460-2126-424d-9bb5-0e9e7ff852cd/conversations.json",
+    "synthetic/claude/projects/3a75e460-2126-424d-9bb5-0e9e7ff852cd/docs.json",
+    "synthetic/claude/projects/3a75e460-2126-424d-9bb5-0e9e7ff852cd/files.json",
+    "synthetic/claude/projects/3a75e460-2126-424d-9bb5-0e9e7ff852cd/project.json"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "HARD CASE: chats inside projects — Claude project 'Engelbart onboarding' (instructions, 2 knowledge docs, 3 files, 8 chats; the chats are separate items under conversations/)"
+  }
+ },
+ {
+  "id": "item_034436",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude",
+  "source_id": "6e186c15-d8b4-48ad-8ad3-db529caac689",
+  "title": "ISE 6664 report",
+  "content_type": "project",
+  "created_at": "2026-01-21T02:05:00Z",
+  "modified_at": "2026-04-29T02:44:03Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude/projects/6e186c15-d8b4-48ad-8ad3-db529caac689/project.json",
+  "source_url": "https://claude.ai/project/6e186c15-d8b4-48ad-8ad3-db529caac689",
+  "content_hash": "sha256:d1b6956c0075821c916e414fb5c4459a7c59647ae3b3b4a646e77e5614693357",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude/projects/<uuid>/ project dir shape (project.json, docs.json, files.json, conversations.json)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu's Organization",
+   "is_starter_project": false,
+   "parts": [
+    "synthetic/claude/projects/6e186c15-d8b4-48ad-8ad3-db529caac689/conversations.json",
+    "synthetic/claude/projects/6e186c15-d8b4-48ad-8ad3-db529caac689/docs.json",
+    "synthetic/claude/projects/6e186c15-d8b4-48ad-8ad3-db529caac689/files.json",
+    "synthetic/claude/projects/6e186c15-d8b4-48ad-8ad3-db529caac689/project.json"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "HARD CASE: chats inside projects — Claude project 'ISE 6664 report' (instructions, 2 knowledge docs, 2 files, 4 chats; the chats are separate items under conversations/)"
+  }
+ }
+]

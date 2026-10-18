@@ -1,0 +1,406 @@
+{
+ "id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Hudson x David — prep for Berkeley convos",
+ "created_at": "2026-09-08T23:57:27.000Z",
+ "updated_at": "2026-09-09T00:04:51.595Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "0ad12a261a74b22495b772442e",
+  "summary": "Hudson x David — prep for Berkeley convos",
+  "start": {
+   "dateTime": "2026-09-08T17:00:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-09-08T17:15:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true,
+    "organizer": true
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted"
+   }
+  ],
+  "organizer": {
+   "email": "david@mathetic.com"
+  },
+  "creator": {
+   "email": "david@mathetic.com"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=6aa0fdb0a4f1892b723742f2908e3147c6ed100e",
+  "status": "confirmed",
+  "location": "Surplus house, SF"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### Guide v1 (after Lena's notes)\n\n- Q4 about AI chats now conditional — only if they haven't mentioned AI tools on their own\n- Added a warm-up: \"What are you working on this semester?\"\n- Removed \"provenance\" from the consent blurb\n- Closing: \"Who else should we talk to?\" (snowball)\n\n### Logistics\n\n- Elena Park, Wed Sep 9, 10:00, Berkeley School of Education building, 3rd floor lounge\n- Priya Raman, Thu Sep 10, 14:00, her lab (Soda Hall); she asked to see \"whatever you're building\" at the end — agreed, 5 min max, after the interview\n- BART from 16th St Mission, leave 8:50\n- Hudson brings coffee cards + the printed guide; David brings laptop with Granola\n\n### Note-taking\n\n- Hudson types verbatim quotes only; David handles follow-ups\n- Tag quotes after: [lose-things] [ai-chats] [writing] [tool-graveyard] [sharing]\n\n### Action items\n\n- [ ] David — print 2 copies of guide v1\n- [ ] Hudson — make the tagging sheet\n- [ ] Both — debrief in the BART ride back each day\n",
+ "notes_plain": "Guide v1 (after Lena's notes)\n\nQ4 about AI chats now conditional — only if they haven't mentioned AI tools on their own\nAdded a warm-up: \"What are you working on this semester?\"\nRemoved \"provenance\" from the consent blurb\nClosing: \"Who else should we talk to?\" (snowball)\n\nLogistics\n\nElena Park, Wed Sep 9, 10:00, Berkeley School of Education building, 3rd floor lounge\nPriya Raman, Thu Sep 10, 14:00, her lab (Soda Hall); she asked to see \"whatever you're building\" at the end — agreed, 5 min max, after the interview\nBART from 16th St Mission, leave 8:50\nHudson brings coffee cards + the printed guide; David brings laptop with Granola\n\nNote-taking\n\nHudson types verbatim quotes only; David handles follow-ups\nTag quotes after: [lose-things] [ai-chats] [writing] [tool-graveyard] [sharing]\n\nAction items\n\nDavid — print 2 copies of guide v1\nHudson — make the tagging sheet\nBoth — debrief in the BART ride back each day\n",
+ "transcript": [
+  {
+   "id": "a55253e8-a1e6-4c9f-942d-ff044eeba17c",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:00:16.555Z",
+   "end_timestamp": "2026-09-09T00:00:19.201Z",
+   "text": "Okay quick one. Tomorrow's the first one.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "331fd179-8f78-49b6-8560-5a6f8a3dee0a",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:00:19.536Z",
+   "end_timestamp": "2026-09-09T00:00:21.714Z",
+   "text": "I'm nervous, is that weird?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "4791043d-f885-4a40-af61-4334a48661ea",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:00:23.593Z",
+   "end_timestamp": "2026-09-09T00:00:28.149Z",
+   "text": "No, I'm — yeah. A little. It's different when it's our thing.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "736d73b7-6bf3-4db1-85ea-689973e41d46",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:00:28.833Z",
+   "end_timestamp": "2026-09-09T00:00:31.632Z",
+   "text": "Did Lena look at the guide?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "339506de-8b30-4fd6-9421-390d2d63eb66",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:00:32.753Z",
+   "end_timestamp": "2026-09-09T00:00:40.904Z",
+   "text": "She did. She said it was fine. I changed a few things. Question four is conditional now, the AI chat one.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "32766db5-74e0-4631-a27f-95751717d7df",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:00:41.848Z",
+   "end_timestamp": "2026-09-09T00:00:45.110Z",
+   "text": "Only if they don't bring it up.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "e8eb4285-afc2-48e1-a363-c9c0debf363a",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:00:46.252Z",
+   "end_timestamp": "2026-09-09T00:00:56.980Z",
+   "text": "Right. And I added a warm-up, \"what are you working on this semester,\" because jumping straight into \"where did your last idea come from\" is kind of intense.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "359cf683-9cc2-4e0f-8dd7-e492a72ea6a4",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:00:58.756Z",
+   "end_timestamp": "2026-09-09T00:01:01.905Z",
+   "text": "Yeah that's a lot at ten AM.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "3f04f5ed-dff5-4785-b705-ebe227bdada4",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:01:03.368Z",
+   "end_timestamp": "2026-09-09T00:01:07.358Z",
+   "text": "And I took provenance out of the consent blurb.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0c6a013f-f26c-4e74-9483-66bb865a801e",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:01:09.371Z",
+   "end_timestamp": "2026-09-09T00:01:10.316Z",
+   "text": "Lena wins.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "44ecf5b9-e0a8-444d-81eb-1cb251a2e25d",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:01:11.666Z",
+   "end_timestamp": "2026-09-09T00:01:17.047Z",
+   "text": "Lena wins. Then at the end, \"who else should we talk to.\" Snowball.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "998d5708-a39d-4022-af68-b1761413d3a4",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:01:18.731Z",
+   "end_timestamp": "2026-09-09T00:01:21.052Z",
+   "text": "Great. Logistics. Elena's at ten?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "7b227c90-d0b8-4c75-a8a0-154df715dda6",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:01:21.247Z",
+   "end_timestamp": "2026-09-09T00:01:27.780Z",
+   "text": "Ten, School of Ed, third floor lounge. She said it's the one with the broken espresso machine.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "fb2993b9-8f90-49a7-8650-c7f749db0855",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:01:28.776Z",
+   "end_timestamp": "2026-09-09T00:01:31.552Z",
+   "text": "Iconic. And Priya's Thursday at two?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "c71ae1bc-9873-4491-a0ea-489a22a54208",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:01:33.155Z",
+   "end_timestamp": "2026-09-09T00:01:40.052Z",
+   "text": "Two, in her lab. Soda Hall. And she asked to see what we're building. At the end.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "aab6b2f3-7e9c-4a2c-8b7c-2b586172aac9",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:01:41.333Z",
+   "end_timestamp": "2026-09-09T00:01:43.095Z",
+   "text": "We said no demo.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "f5339e40-b337-4ca9-a2e7-68547dd078d7",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:01:43.631Z",
+   "end_timestamp": "2026-09-09T00:01:53.119Z",
+   "text": "For the first three. She asked though. I said five minutes after the interview. I think if someone asks it's rude to say no.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d9dd2f57-e0c8-4f85-ae29-8afb3001d4a3",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:01:54.132Z",
+   "end_timestamp": "2026-09-09T00:01:57.592Z",
+   "text": "Okay, that's fine. After. Five minutes. I'll time you.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "d03f3f29-bf7d-48bb-b7c9-fc45e41a543c",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:01:58.246Z",
+   "end_timestamp": "2026-09-09T00:02:01.494Z",
+   "text": "Please time me. BART, leave at eight fifty?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "07660dba-3abd-46a5-8bae-afdd02e61fdc",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:02:02.936Z",
+   "end_timestamp": "2026-09-09T00:02:09.026Z",
+   "text": "Eight fifty from Sixteenth Street. I'll bring the cards and the printed guide.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "d200a5f1-3361-43dc-9ba4-aeb98961eaad",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:02:10.239Z",
+   "end_timestamp": "2026-09-09T00:02:13.625Z",
+   "text": "I'll bring the laptop. Granola on, ask first.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "9db28532-c07f-44fe-a8fc-de566c502386",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:02:14.891Z",
+   "end_timestamp": "2026-09-09T00:02:18.870Z",
+   "text": "Note-taking. How do you want me to do it?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "1350637c-bcd8-4c09-97f4-e6359d46c6f1",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:02:19.527Z",
+   "end_timestamp": "2026-09-09T00:02:23.685Z",
+   "text": "Just quotes. Exact words. Don't summarize. I'll handle follow-ups.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "1cda6c85-9b49-4fc1-9e67-aa58f408d8cf",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:02:23.868Z",
+   "end_timestamp": "2026-09-09T00:02:26.521Z",
+   "text": "Quotes only. And then tags after?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "dbaca1ed-248b-4d92-8349-a74ba7bda06f",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:02:28.284Z",
+   "end_timestamp": "2026-09-09T00:02:33.584Z",
+   "text": "Yeah. I was thinking, like, five tags. Lose-things, AI-chats, writing, tool-graveyard, and sharing.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "506503b2-09b1-4e3d-9e28-d33755d6f228",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:02:35.447Z",
+   "end_timestamp": "2026-09-09T00:02:36.976Z",
+   "text": "Tool graveyard is great.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "44ac959a-ae66-440f-8d55-0f30ac4ea479",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:02:38.203Z",
+   "end_timestamp": "2026-09-09T00:02:42.169Z",
+   "text": "Everyone has one. I have like four abandoned note apps.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "18417aab-aebc-4634-81b5-5c0dee5c1d26",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:02:43.112Z",
+   "end_timestamp": "2026-09-09T00:02:44.840Z",
+   "text": "I'll make a sheet.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "912a1d50-5d54-478b-88ff-f91a0a432266",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:02:45.477Z",
+   "end_timestamp": "2026-09-09T00:02:51.128Z",
+   "text": "And then we debrief on BART back. Like, right after, while it's fresh.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "be8cd802-aa61-4aa4-803f-29f85dfd33dd",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:02:52.449Z",
+   "end_timestamp": "2026-09-09T00:02:54.528Z",
+   "text": "Okay. Anything I shouldn't do?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "2e1e7b72-7151-40e9-bb23-476467e8a5d3",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:02:55.994Z",
+   "end_timestamp": "2026-09-09T00:03:03.392Z",
+   "text": "Um. Don't say \"that's a great point.\" Don't nod at the thing we want them to say.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "672a1040-22bf-4cbb-8924-66800431e88c",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:03:04.722Z",
+   "end_timestamp": "2026-09-09T00:03:06.329Z",
+   "text": "I absolutely do that.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "cd86fc35-a19b-461b-a3d5-f26e9a337d87",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:03:07.938Z",
+   "end_timestamp": "2026-09-09T00:03:10.664Z",
+   "text": "I know. That's why I'm saying it.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "f57ada2b-f6b9-4ee4-86ef-89ee50f97e0c",
+   "document_id": "166ee11f-adeb-4dd0-8505-c260afc6e3a0",
+   "start_timestamp": "2026-09-09T00:03:11.993Z",
+   "end_timestamp": "2026-09-09T00:03:13.595Z",
+   "text": "Rude. Correct, but rude.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  }
+ ]
+}

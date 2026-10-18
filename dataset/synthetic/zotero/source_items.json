@@ -1,1 +1,1328 @@
-[]
+[
+ {
+  "id": "item_035474",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Desktop/My Library.bib",
+  "title": "My Library.bib",
+  "content_type": "bibtex",
+  "created_at": "2026-10-15T06:05:00Z",
+  "modified_at": "2026-10-15T06:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/My Library.bib",
+  "source_url": null,
+  "content_hash": "sha256:d86872a18c7612aaf3a011ddd2cec345efa8a21cb7eb2b461a4f30f165a04286",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror/library.bib (BibTeX export shape)",
+  "metadata": {
+   "format": "bib",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Desktop/My Library.bib"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_endurance_training",
+    "project_engelbart",
+    "project_idetrace",
+    "project_ise6664_affective_computing",
+    "project_mathetic_company",
+    "project_plotpact",
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: same paper in several places — Better BibTeX export of the whole library (49 entries) incl. ostrowski2025productive (also in the TutorTrace collection RIS, overleaf refs.bib, and as PDFs in pdfs/); exported 10-14 to test the Engelbart import; mixes project readings with a few unrelated items (running physiology, geopolitics)"
+  }
+ },
+ {
+  "id": "item_035475",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Downloads/Augmenting cognition.ris",
+  "title": "Augmenting cognition.ris",
+  "content_type": "bibtex",
+  "created_at": "2026-10-01T04:30:00Z",
+  "modified_at": "2026-10-01T04:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/collections/Augmenting cognition.ris",
+  "source_url": null,
+  "content_hash": "sha256:c060990d910c00f6cc89d93f18b7c73dbd15f640f4fec49bb62409ae9a6a86b8",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "ris",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Downloads/Augmenting cognition.ris"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_engelbart"
+   ],
+   "notes": "RIS export of the \"Augmenting cognition\" collection (10 items as of 2026-09-30)"
+  }
+ },
+ {
+  "id": "item_035476",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Downloads/Engelbart competitors.ris",
+  "title": "Engelbart competitors.ris",
+  "content_type": "bibtex",
+  "created_at": "2026-10-14T05:40:00Z",
+  "modified_at": "2026-10-14T05:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/collections/Engelbart competitors.ris",
+  "source_url": null,
+  "content_hash": "sha256:5d594d18adde3d00dde1aa29a53939f03b621b9aa591503408858bdab8a25474",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "ris",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Downloads/Engelbart competitors.ris"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "RIS export of the \"Engelbart competitors\" collection (6 items as of 2026-10-13)"
+  }
+ },
+ {
+  "id": "item_035477",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Downloads/IDETrace.ris",
+  "title": "IDETrace.ris",
+  "content_type": "bibtex",
+  "created_at": "2026-07-28T05:10:00Z",
+  "modified_at": "2026-07-28T05:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/collections/IDETrace.ris",
+  "source_url": null,
+  "content_hash": "sha256:36414e67c4925015953443b6f5eebfde40fd969a22ea50830b34f74d8f9f601f",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "ris",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Downloads/IDETrace.ris"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "RIS export of the \"IDETrace\" collection (6 items as of 2026-07-28)"
+  }
+ },
+ {
+  "id": "item_035478",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Downloads/ISE 6664 readings.ris",
+  "title": "ISE 6664 readings.ris",
+  "content_type": "bibtex",
+  "created_at": "2026-04-29T02:15:00Z",
+  "modified_at": "2026-04-29T02:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/collections/ISE 6664 readings.ris",
+  "source_url": null,
+  "content_hash": "sha256:112952d10b0c9f604c88c8745014c55d8cdf5f22565e0d148a453c2447bb571c",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "ris",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Downloads/ISE 6664 readings.ris"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "RIS export of the \"ISE 6664 readings\" collection (10 items as of 2026-04-28)"
+  }
+ },
+ {
+  "id": "item_035479",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Downloads/PlotPact (old).ris",
+  "title": "PlotPact (old).ris",
+  "content_type": "bibtex",
+  "created_at": "2026-01-30T04:05:00Z",
+  "modified_at": "2026-01-30T04:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/collections/PlotPact (old).ris",
+  "source_url": null,
+  "content_hash": "sha256:4a747926ce57420cebdb11af7207185c1c53cff8be6bd076a850b45fca5294cb",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "ris",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Downloads/PlotPact (old).ris"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_plotpact"
+   ],
+   "notes": "RIS export of the \"PlotPact (old)\" collection (2 items as of 2026-01-29); old PlotPact collection (items added Nov 2024), re-exported while revisiting constraint-based creativity"
+  }
+ },
+ {
+  "id": "item_035480",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Downloads/TutorTrace UIST26.ris",
+  "title": "TutorTrace UIST26.ris",
+  "content_type": "bibtex",
+  "created_at": "2026-06-16T04:40:00Z",
+  "modified_at": "2026-06-16T04:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/collections/TutorTrace UIST26.ris",
+  "source_url": null,
+  "content_hash": "sha256:e33b9a33667fc8632fd2278d2972c613ea857fb72611c049a921c2880887849c",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "ris",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Downloads/TutorTrace UIST26.ris"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: same paper in several places — RIS export of the \"TutorTrace UIST26\" collection (12 items as of 2026-06-16) incl. the Ostrowski 2025 entry with its camera-ready PDF link and reading note"
+  }
+ },
+ {
+  "id": "item_035481",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "zotero://select/library/items/6I6D4XEZ",
+  "title": "6I6D4XEZ - R2 privacy response.html",
+  "content_type": "web_page",
+  "created_at": "2026-06-14T04:31:00Z",
+  "modified_at": "2026-06-14T04:42:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/notes/6I6D4XEZ - R2 privacy response.html",
+  "source_url": null,
+  "content_hash": "sha256:a3f62d1066f60d2c1340d9d404f18db3f7d6321a8425eb51342e229a6f71b7cb",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "zotero://select/library/items/6I6D4XEZ"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "child note of brennan2026what (7UJBLN3V)"
+  }
+ },
+ {
+  "id": "item_035482",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "zotero://select/library/items/C2BW9DUD",
+  "title": "C2BW9DUD - this is our bug.html",
+  "content_type": "web_page",
+  "created_at": "2026-07-25T04:12:00Z",
+  "modified_at": "2026-07-25T04:32:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/notes/C2BW9DUD - this is our bug.html",
+  "source_url": null,
+  "content_hash": "sha256:00146f5b880b65ea0811664233885ae3baffa9ee09d4536a0bb3a0f9dda93abc",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "zotero://select/library/items/C2BW9DUD"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "child note of ferreira2023groupaware (GSEDVCQM)"
+  }
+ },
+ {
+  "id": "item_035483",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "zotero://select/library/items/CG3LEUXT",
+  "title": "CG3LEUXT - cross-course - what to promise.html",
+  "content_type": "web_page",
+  "created_at": "2026-06-15T05:47:00Z",
+  "modified_at": "2026-06-15T05:57:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/notes/CG3LEUXT - cross-course - what to promise.html",
+  "source_url": null,
+  "content_hash": "sha256:b1d15f5498cbb4cb2c228ebbbb4cafd5196a7f8bad5994724ae2368324b641e6",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "zotero://select/library/items/CG3LEUXT"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "child note of duarte2025beyond (PWTJ4BPX)"
+  }
+ },
+ {
+  "id": "item_035484",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "zotero://select/library/items/DH2I74C2",
+  "title": "DH2I74C2 - provenance numbers for pitch.html",
+  "content_type": "web_page",
+  "created_at": "2026-09-03T07:48:00Z",
+  "modified_at": "2026-09-03T08:16:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/notes/DH2I74C2 - provenance numbers for pitch.html",
+  "source_url": null,
+  "content_hash": "sha256:7b6eff871923fafdaea98c1951bd73c196f1f2886d5d902c68ab9f0cfd02cf90",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "zotero://select/library/items/DH2I74C2"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_engelbart"
+   ],
+   "notes": "child note of halvorsen2025where (SSTSV5H8)"
+  }
+ },
+ {
+  "id": "item_035485",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "zotero://select/library/items/M2GVNS6Q",
+  "title": "M2GVNS6Q - dedupe policy for import.html",
+  "content_type": "web_page",
+  "created_at": "2026-10-13T07:20:00Z",
+  "modified_at": "2026-10-13T08:03:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/notes/M2GVNS6Q - dedupe policy for import.html",
+  "source_url": null,
+  "content_hash": "sha256:f8fe60a9de68bc5ca7c178e8110195c652bc5dbc710318d31764ba415f44eabe",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "zotero://select/library/items/M2GVNS6Q"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "child note of rinaldi2025importing (BGD8BB2C)"
+  }
+ },
+ {
+  "id": "item_035486",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "zotero://select/library/items/PCITS67B",
+  "title": "PCITS67B - reading notes - ostrowski LaS25.html",
+  "content_type": "web_page",
+  "created_at": "2026-03-24T06:05:00Z",
+  "modified_at": "2026-03-24T06:51:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/notes/PCITS67B - reading notes - ostrowski LaS25.html",
+  "source_url": null,
+  "content_hash": "sha256:532f8be392f327653e0e5e0352d07a0b80ce12f94427326f54ebd2c57779dd24",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "zotero://select/library/items/PCITS67B"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "child note of ostrowski2025productive (QQR79WDT); HARD CASE: same paper in several places — reading note on the Ostrowski 2025 paper; mentions the arXiv v1 vs camera-ready copies in Downloads and Desktop/papers"
+  }
+ },
+ {
+  "id": "item_035487",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "zotero://select/library/items/PPYMVI5C",
+  "title": "PPYMVI5C - window length justification.html",
+  "content_type": "web_page",
+  "created_at": "2026-03-25T05:10:00Z",
+  "modified_at": "2026-03-25T05:28:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/notes/PPYMVI5C - window length justification.html",
+  "source_url": null,
+  "content_hash": "sha256:31c60f6c2d3877e73cbb9fdad40c757a507add9711ca11ad2fbfa12bceac33bf",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "zotero://select/library/items/PPYMVI5C"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "child note of nakamura2025labeling (MVTX3YSV)"
+  }
+ },
+ {
+  "id": "item_035488",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "zotero://select/library/items/S7LKU8FL",
+  "title": "S7LKU8FL - replay - compare to our tool.html",
+  "content_type": "web_page",
+  "created_at": "2026-03-26T04:22:00Z",
+  "modified_at": "2026-03-26T05:06:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/notes/S7LKU8FL - replay - compare to our tool.html",
+  "source_url": null,
+  "content_hash": "sha256:67ef94c3708f8c08a2ed26f68426eefcdc0f86926ffeab2f983c97dcfeff634f",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "zotero://select/library/items/S7LKU8FL"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "child note of haldane2024replaying (SKX3PQMU)"
+  }
+ },
+ {
+  "id": "item_035489",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "zotero://select/library/items/SCS8V7IU",
+  "title": "SCS8V7IU - confusion vs frustration.html",
+  "content_type": "web_page",
+  "created_at": "2026-02-11T05:40:00Z",
+  "modified_at": "2026-02-11T05:46:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/notes/SCS8V7IU - confusion vs frustration.html",
+  "source_url": null,
+  "content_hash": "sha256:feb6cbf1b0b4dc336dc48331bc193a6001235eabfd7b4fbd046842916f854bcb",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "zotero://select/library/items/SCS8V7IU"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "child note of gallo2023confusion (EQRTZG28)"
+  }
+ },
+ {
+  "id": "item_035490",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "zotero://select/library/items/SZ6IP2MK",
+  "title": "SZ6IP2MK - per-class + calibration for rebuttal.html",
+  "content_type": "web_page",
+  "created_at": "2026-07-28T03:30:00Z",
+  "modified_at": "2026-07-28T03:55:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/notes/SZ6IP2MK - per-class + calibration for rebuttal.html",
+  "source_url": null,
+  "content_hash": "sha256:030f4c341c1b9ae0e0a1e6feb412d585a9d91fe1b6b9a7f7b494b0be75248460",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "zotero://select/library/items/SZ6IP2MK"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "child note of olsen2025macro (C3ZZJDG6)"
+  }
+ },
+ {
+  "id": "item_035491",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "zotero://select/library/items/YQEJNR63",
+  "title": "YQEJNR63 - lexicon for our project.html",
+  "content_type": "web_page",
+  "created_at": "2026-02-05T04:15:00Z",
+  "modified_at": "2026-02-05T04:24:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/notes/YQEJNR63 - lexicon for our project.html",
+  "source_url": null,
+  "content_hash": "sha256:6bdf6702bdd34bf728dc5beddfcb28128b29102bf76a428ca97c06cfa0b85c81",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "zotero://select/library/items/YQEJNR63"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "child note of albrecht2022frustration (M776BWFS)"
+  }
+ },
+ {
+  "id": "item_035492",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "zotero://select/library/items/ZNP6K2UB",
+  "title": "ZNP6K2UB - trails, reading group.html",
+  "content_type": "web_page",
+  "created_at": "2026-09-03T07:15:00Z",
+  "modified_at": "2026-09-03T07:41:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/notes/ZNP6K2UB - trails, reading group.html",
+  "source_url": null,
+  "content_hash": "sha256:b6c1f416e0a8645205475ead0253c482601ff5a9165371bb6c5f92d5d433cf6a",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "zotero://select/library/items/ZNP6K2UB"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_engelbart"
+   ],
+   "notes": "child note of bush1945we (T722LKAX)"
+  }
+ },
+ {
+  "id": "item_035493",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/2VQEJQPK/Albrecht and Nwosu - 2022 - Frustration Markers in Text-Based Tutoring Dialogues A Lexicon and Validation Study.pdf",
+  "title": "Albrecht and Nwosu - 2022 - Frustration Markers in Text-Based Tutoring Dialogues A Lexicon and Validation Study.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-02-04T03:05:00Z",
+  "modified_at": "2026-02-04T03:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/2VQEJQPK/Albrecht and Nwosu - 2022 - Frustration Markers in Text-Based Tutoring Dialogues A Lexicon and Validation Study.pdf",
+  "source_url": null,
+  "content_hash": "sha256:0c1f84a19b188ead48287449488c1253a74722dfe2f3b49bd59d84f513b35a3e",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/2VQEJQPK/Albrecht and Nwosu - 2022 - Frustration Markers in Text-Based Tutoring Dialogues A Lexicon and Validation Study.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "attachment of albrecht2022frustration (M776BWFS); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035494",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/7QIRP47H/Quinlan et al. - 2025 - Datasheets for Learning Traces Documentation Practices for Educational Interaction Datasets.pdf",
+  "title": "Quinlan et al. - 2025 - Datasheets for Learning Traces Documentation Practices for Educational Interaction Datasets.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-05-05T03:12:00Z",
+  "modified_at": "2026-05-05T03:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/7QIRP47H/Quinlan et al. - 2025 - Datasheets for Learning Traces Documentation Practices for Educational Interaction Datasets.pdf",
+  "source_url": null,
+  "content_hash": "sha256:b1d965b17608f7858f3f29db48caf3583b6fae2aa253e799801b519eef211e74",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/7QIRP47H/Quinlan et al. - 2025 - Datasheets for Learning Traces Documentation Practices for Educational Interaction Datasets.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "attachment of quinlan2025datasheets (PMW6HI9Y); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035495",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/8RKB4XXK/Ellingsen and Mwangi - 2023 - Polarized versus Threshold Intensity Distribution in Sub-Elite Middle-Distance Runners A 16-Week Randomized Trial.pdf",
+  "title": "Ellingsen and Mwangi - 2023 - Polarized versus Threshold Intensity Distribution in Sub-Elite Middle-Distance Runners A 16-Week Randomized Trial.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-01-19T03:12:00Z",
+  "modified_at": "2026-01-19T03:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/8RKB4XXK/Ellingsen and Mwangi - 2023 - Polarized versus Threshold Intensity Distribution in Sub-Elite Middle-Distance Runners A 16-Week Randomized Trial.pdf",
+  "source_url": null,
+  "content_hash": "sha256:ec6270bdce3f3f9cb08168d1c6da7ee5dbadb0789e1c41957c769e0cf7198978",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/8RKB4XXK/Ellingsen and Mwangi - 2023 - Polarized versus Threshold Intensity Distribution in Sub-Elite Middle-Distance Runners A 16-Week Randomized Trial.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "attachment of ellingsen2023polarized (QGCBCUU3); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035496",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/98H2KA2P/Nakamura and Feld - 2025 - Labeling Learner States in Programming Sessions A Reliability Study of Thirty-Second Windows.pdf",
+  "title": "Nakamura and Feld - 2025 - Labeling Learner States in Programming Sessions A Reliability Study of Thirty-Second Windows.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-03-25T04:41:00Z",
+  "modified_at": "2026-03-25T04:41:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/98H2KA2P/Nakamura and Feld - 2025 - Labeling Learner States in Programming Sessions A Reliability Study of Thirty-Second Windows.pdf",
+  "source_url": null,
+  "content_hash": "sha256:8d966709cfda5224f0b69eda5deff53e85ca45e20acdc946ac68129ac66ec968",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/98H2KA2P/Nakamura and Feld - 2025 - Labeling Learner States in Programming Sessions A Reliability Study of Thirty-Second Windows.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "attachment of nakamura2025labeling (MVTX3YSV); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035497",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/9UXYYWE7/Ostrowski et al. - 2025 - Productive Struggle or Silent Stalling Telemetry Signals of Help-Seeking in LLM-Assisted CS1.pdf",
+  "title": "Ostrowski et al. - 2025 - Productive Struggle or Silent Stalling Telemetry Signals of Help-Seeking in LLM-Assisted CS1.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-06-14T03:52:00Z",
+  "modified_at": "2026-06-14T03:52:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/9UXYYWE7/Ostrowski et al. - 2025 - Productive Struggle or Silent Stalling Telemetry Signals of Help-Seeking in LLM-Assisted CS1.pdf",
+  "source_url": null,
+  "content_hash": "sha256:03cd5273fb0e82a1fb8a0411160f6ddc25cab79309c4af1a9f31a585c421320f",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/9UXYYWE7/Ostrowski et al. - 2025 - Productive Struggle or Silent Stalling Telemetry Signals of Help-Seeking in LLM-Assisted CS1.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: same paper in several places — arXiv v1 of Ostrowski 2025, attached later as the \"Preprint PDF\" of the same Zotero item (same filename as the camera-ready attachment, different storage key); near-duplicate of the camera-ready (F1 0.69 vs 0.71, kappa 0.62 vs 0.64); byte-identical to pdfs/Downloads/2507.01842v1.pdf"
+  }
+ },
+ {
+  "id": "item_035498",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/AGH87RPD/Sato and Lemaire - 2023 - Bootstrapping, Measured Toward an Operational Definition of Collective IQ in Research Teams.pdf",
+  "title": "Sato and Lemaire - 2023 - Bootstrapping, Measured Toward an Operational Definition of Collective IQ in Research Teams.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-09-14T07:18:00Z",
+  "modified_at": "2026-09-14T07:18:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/AGH87RPD/Sato and Lemaire - 2023 - Bootstrapping, Measured Toward an Operational Definition of Collective IQ in Research Teams.pdf",
+  "source_url": null,
+  "content_hash": "sha256:3ef04a1a05faf925bcce10bf7243ef5f5c989d4ea1576c302bded94868ec198c",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/AGH87RPD/Sato and Lemaire - 2023 - Bootstrapping, Measured Toward an Operational Definition of Collective IQ in Research Teams.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": "attachment of sato2023bootstrapping (EYD2WJ7A); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035499",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/BGJL7Q47/Lindgren and Mensah - 2025 - It's Like a TA That Never Sighs Novices' Mental Models of Code Assistants in CS1.pdf",
+  "title": "Lindgren and Mensah - 2025 - It's Like a TA That Never Sighs Novices' Mental Models of Code Assistants in CS1.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-03-30T02:16:00Z",
+  "modified_at": "2026-03-30T02:16:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/BGJL7Q47/Lindgren and Mensah - 2025 - It's Like a TA That Never Sighs Novices' Mental Models of Code Assistants in CS1.pdf",
+  "source_url": null,
+  "content_hash": "sha256:bb93d0d2365d2efd5ce0aa66c13b83faf69ce3cb764a7258e0fd134be5b92079",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/BGJL7Q47/Lindgren and Mensah - 2025 - It's Like a TA That Never Sighs Novices' Mental Models of Code Assistants in CS1.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "attachment of lindgren2025like (CNDI5QRX); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035500",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/BWBP6AMT/Halvorsen and Quist - 2025 - Where Did That Idea Come From Provenance Trails in Researchers' Note-Taking.pdf",
+  "title": "Halvorsen and Quist - 2025 - Where Did That Idea Come From Provenance Trails in Researchers' Note-Taking.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-09-03T06:31:00Z",
+  "modified_at": "2026-09-03T06:31:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/BWBP6AMT/Halvorsen and Quist - 2025 - Where Did That Idea Come From Provenance Trails in Researchers' Note-Taking.pdf",
+  "source_url": null,
+  "content_hash": "sha256:020a38403ee385ed15e7798226405bfc70160121115507a078b9b479b993d0a6",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/BWBP6AMT/Halvorsen and Quist - 2025 - Where Did That Idea Come From Provenance Trails in Researchers' Note-Taking.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_engelbart"
+   ],
+   "notes": "attachment of halvorsen2025where (SSTSV5H8); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035501",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/F6XX9MKF/Haldane et al. - 2024 - Replaying the Keystroke Session Reconstruction for Instructor Sense-Making in Large Programming Courses.pdf",
+  "title": "Haldane et al. - 2024 - Replaying the Keystroke Session Reconstruction for Instructor Sense-Making in Large Programming Courses.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-03-24T05:12:00Z",
+  "modified_at": "2026-03-24T05:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/F6XX9MKF/Haldane et al. - 2024 - Replaying the Keystroke Session Reconstruction for Instructor Sense-Making in Large Programming Courses.pdf",
+  "source_url": null,
+  "content_hash": "sha256:51056faec4fa8b5e422b235dc3fc963a46f97717bb504757c4cd2f1043d7f8e4",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/F6XX9MKF/Haldane et al. - 2024 - Replaying the Keystroke Session Reconstruction for Instructor Sense-Making in Large Programming Courses.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "attachment of haldane2024replaying (SKX3PQMU); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035502",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/FXW69H4W/Whitfield - 2021 - Designing for Recovery Affective Design Patterns After Failure in Learning Software.pdf",
+  "title": "Whitfield - 2021 - Designing for Recovery Affective Design Patterns After Failure in Learning Software.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-04-28T03:58:00Z",
+  "modified_at": "2026-04-28T03:58:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/FXW69H4W/Whitfield - 2021 - Designing for Recovery Affective Design Patterns After Failure in Learning Software.pdf",
+  "source_url": null,
+  "content_hash": "sha256:61cbcba3d875cad71ab5004f9ced8903faf854cd01f12ae5e67fe4cf0b8a6f6f",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/FXW69H4W/Whitfield - 2021 - Designing for Recovery Affective Design Patterns After Failure in Learning Software.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "attachment of whitfield2021designing (4Y28LSTU); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035503",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/GZM2TGTN/Brennan et al. - 2026 - What Will Students Share Consent and Comfort with Fine-Grained Telemetry in Educational IDEs.pdf",
+  "title": "Brennan et al. - 2026 - What Will Students Share Consent and Comfort with Fine-Grained Telemetry in Educational IDEs.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-06-14T03:27:00Z",
+  "modified_at": "2026-06-14T03:27:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/GZM2TGTN/Brennan et al. - 2026 - What Will Students Share Consent and Comfort with Fine-Grained Telemetry in Educational IDEs.pdf",
+  "source_url": null,
+  "content_hash": "sha256:9337f3e87c08e6d4f29996e1fb92303672d8a0d577332e2e1b6ed05abf40eb3a",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/GZM2TGTN/Brennan et al. - 2026 - What Will Students Share Consent and Comfort with Fine-Grained Telemetry in Educational IDEs.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "attachment of brennan2026what (7UJBLN3V); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035504",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/K8WEL974/Duarte and Sim - 2025 - Beyond One Course Do Behavioral-State Classifiers Transfer Across Programming Courses.pdf",
+  "title": "Duarte and Sim - 2025 - Beyond One Course Do Behavioral-State Classifiers Transfer Across Programming Courses.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-06-14T05:03:00Z",
+  "modified_at": "2026-06-14T05:03:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/K8WEL974/Duarte and Sim - 2025 - Beyond One Course Do Behavioral-State Classifiers Transfer Across Programming Courses.pdf",
+  "source_url": null,
+  "content_hash": "sha256:d7a76fde353164f33914f9be025b570d9cb6294863b4daf23ddcf40aeb017ecf",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/K8WEL974/Duarte and Sim - 2025 - Beyond One Course Do Behavioral-State Classifiers Transfer Across Programming Courses.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "attachment of duarte2025beyond (PWTJ4BPX); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035505",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/KCF8SQFY/Hartmann et al. - 2024 - NovEdit A Benchmark of Novice Program Edits for Next-Action Prediction.pdf",
+  "title": "Hartmann et al. - 2024 - NovEdit A Benchmark of Novice Program Edits for Next-Action Prediction.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-05-03T06:21:00Z",
+  "modified_at": "2026-05-03T06:21:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/KCF8SQFY/Hartmann et al. - 2024 - NovEdit A Benchmark of Novice Program Edits for Next-Action Prediction.pdf",
+  "source_url": null,
+  "content_hash": "sha256:189d28fa591e8e96a9d8cf35f8a94738c0ec2d26f86b1ef23fde4480fc153846",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/KCF8SQFY/Hartmann et al. - 2024 - NovEdit A Benchmark of Novice Program Edits for Next-Action Prediction.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "attachment of hartmann2024novedit (YZWT75VJ); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035506",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/MACZTLLN/Yamada and Ortiz - 2024 - Apologies, Empathy, and Persistence How Conversational Tutors' Affective Responses Shape Learner Effort.pdf",
+  "title": "Yamada and Ortiz - 2024 - Apologies, Empathy, and Persistence How Conversational Tutors' Affective Responses Shape Learner Effort.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-03-03T02:34:00Z",
+  "modified_at": "2026-03-03T02:34:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/MACZTLLN/Yamada and Ortiz - 2024 - Apologies, Empathy, and Persistence How Conversational Tutors' Affective Responses Shape Learner Effort.pdf",
+  "source_url": null,
+  "content_hash": "sha256:79d83667268253bbd6a0a6ee185d88c481ecd7fa05e8692dbb69a504746da43e",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/MACZTLLN/Yamada and Ortiz - 2024 - Apologies, Empathy, and Persistence How Conversational Tutors' Affective Responses Shape Learner Effort.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "attachment of yamada2024apologies (G7FT55YN); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035507",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/SIFPU33D/Marchetti - 2024 - Trails Revisited Associative Indexing in Personal Knowledge Tools Eighty Years After the Memex.pdf",
+  "title": "Marchetti - 2024 - Trails Revisited Associative Indexing in Personal Knowledge Tools Eighty Years After the Memex.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-08-27T05:47:00Z",
+  "modified_at": "2026-08-27T05:47:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/SIFPU33D/Marchetti - 2024 - Trails Revisited Associative Indexing in Personal Knowledge Tools Eighty Years After the Memex.pdf",
+  "source_url": null,
+  "content_hash": "sha256:1d4165581f758078ff2d52d442579b358fe2ee8670d55100b105a3fc235bac9d",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/SIFPU33D/Marchetti - 2024 - Trails Revisited Associative Indexing in Personal Knowledge Tools Eighty Years After the Memex.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_engelbart"
+   ],
+   "notes": "attachment of marchetti2024trails (G3IRKBM4); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035508",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/THLUX6K6/Ferreira and Kowalczyk - 2023 - Group-Aware Splits for Educational Sequence Data How Student Overlap Inflates Reported Accuracy.pdf",
+  "title": "Ferreira and Kowalczyk - 2023 - Group-Aware Splits for Educational Sequence Data How Student Overlap Inflates Reported Accuracy.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-07-25T03:46:00Z",
+  "modified_at": "2026-07-25T03:46:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/THLUX6K6/Ferreira and Kowalczyk - 2023 - Group-Aware Splits for Educational Sequence Data How Student Overlap Inflates Reported Accuracy.pdf",
+  "source_url": null,
+  "content_hash": "sha256:22d1acb729957e3480d21793fcc91896d8bd83ffd5cb09fb946e4ecf3163afb7",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/THLUX6K6/Ferreira and Kowalczyk - 2023 - Group-Aware Splits for Educational Sequence Data How Student Overlap Inflates Reported Accuracy.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "attachment of ferreira2023groupaware (GSEDVCQM); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035509",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/TJUIPJCX/Gallo and Stein - 2023 - Confusion Is Not Frustration Distinguishing Epistemic Affect in Chat-Based Tutoring Logs.pdf",
+  "title": "Gallo and Stein - 2023 - Confusion Is Not Frustration Distinguishing Epistemic Affect in Chat-Based Tutoring Logs.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-02-11T04:50:00Z",
+  "modified_at": "2026-02-11T04:50:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/TJUIPJCX/Gallo and Stein - 2023 - Confusion Is Not Frustration Distinguishing Epistemic Affect in Chat-Based Tutoring Logs.pdf",
+  "source_url": null,
+  "content_hash": "sha256:76269e2127d710e319a0b440920f2c0114f6aaf83ebfe920f817f5825471cf08",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/TJUIPJCX/Gallo and Stein - 2023 - Confusion Is Not Frustration Distinguishing Epistemic Affect in Chat-Based Tutoring Logs.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "attachment of gallo2023confusion (EQRTZG28); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035510",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/VMVVLUME/Ostrowski et al. - 2025 - Productive Struggle or Silent Stalling Telemetry Signals of Help-Seeking in LLM-Assisted CS1.pdf",
+  "title": "Ostrowski et al. - 2025 - Productive Struggle or Silent Stalling Telemetry Signals of Help-Seeking in LLM-Assisted CS1.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-03-24T05:40:00Z",
+  "modified_at": "2026-03-24T05:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/VMVVLUME/Ostrowski et al. - 2025 - Productive Struggle or Silent Stalling Telemetry Signals of Help-Seeking in LLM-Assisted CS1.pdf",
+  "source_url": null,
+  "content_hash": "sha256:3996b37103ea179ff5b8080e4f8e8b1b1243968572445780ab5990332ddd98a5",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/VMVVLUME/Ostrowski et al. - 2025 - Productive Struggle or Silent Stalling Telemetry Signals of Help-Seeking in LLM-Assisted CS1.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: same paper in several places — Ostrowski et al. 2025 camera-ready (L@S) attached in Zotero; byte-identical to pdfs/Desktop/papers/Ostrowski2025_LAS.pdf and the copies in gmail/google-docs/slack; overleaf refs.bib cites it"
+  }
+ },
+ {
+  "id": "item_035511",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/VTIAEDQZ/Draxler - 2025 - Chokepoints and Patience Export Controls as Grand Strategy in the Semiconductor Contest.pdf",
+  "title": "Draxler - 2025 - Chokepoints and Patience Export Controls as Grand Strategy in the Semiconductor Contest.pdf",
+  "content_type": "pdf",
+  "created_at": "2025-12-29T04:40:00Z",
+  "modified_at": "2025-12-29T04:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/VTIAEDQZ/Draxler - 2025 - Chokepoints and Patience Export Controls as Grand Strategy in the Semiconductor Contest.pdf",
+  "source_url": null,
+  "content_hash": "sha256:9e1a798a6d8ecc85abaa3fa816815c95594412bd31a2ca79645f1c55b4dfe64c",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/VTIAEDQZ/Draxler - 2025 - Chokepoints and Patience Export Controls as Grand Strategy in the Semiconductor Contest.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "attachment of draxler2025chokepoints (Z8VQ2L4K); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035512",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/VZWXK8U6/Vasquez et al. - 2024 - Where Did This Code Come From Detecting Assistant-Pasted Code in Student Editor Logs.pdf",
+  "title": "Vasquez et al. - 2024 - Where Did This Code Come From Detecting Assistant-Pasted Code in Student Editor Logs.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-03-27T03:58:00Z",
+  "modified_at": "2026-03-27T03:58:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/VZWXK8U6/Vasquez et al. - 2024 - Where Did This Code Come From Detecting Assistant-Pasted Code in Student Editor Logs.pdf",
+  "source_url": null,
+  "content_hash": "sha256:5b60b429918574c69cde39d8e436c7619bb70a15af125e2fe4e8c6f3947ce2b9",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/VZWXK8U6/Vasquez et al. - 2024 - Where Did This Code Come From Detecting Assistant-Pasted Code in Student Editor Logs.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "attachment of vasquez2024where (UUH4LG7M); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035513",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/Y5WP3CWQ/Rinaldi and Uddin - 2025 - Importing a Life Duplicate and Near-Duplicate Detection Across Personal Information Sources.pdf",
+  "title": "Rinaldi and Uddin - 2025 - Importing a Life Duplicate and Near-Duplicate Detection Across Personal Information Sources.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-10-13T06:04:00Z",
+  "modified_at": "2026-10-13T06:04:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/Y5WP3CWQ/Rinaldi and Uddin - 2025 - Importing a Life Duplicate and Near-Duplicate Detection Across Personal Information Sources.pdf",
+  "source_url": null,
+  "content_hash": "sha256:eb8153f05e69c40bccac75f3a6986662abcf8a851adf4d986281a04e6519ccc7",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/Y5WP3CWQ/Rinaldi and Uddin - 2025 - Importing a Life Duplicate and Near-Duplicate Detection Across Personal Information Sources.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "attachment of rinaldi2025importing (BGD8BB2C); fictional paper, fictional authors"
+  }
+ },
+ {
+  "id": "item_035514",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zotero",
+  "source_id": "~/Zotero/storage/ZAK3NB5V/Olsen and Mahmoud - 2025 - Macro-F1 Is Not Enough Calibration of Behavior Classifiers on Imbalanced Learning Logs.pdf",
+  "title": "Olsen and Mahmoud - 2025 - Macro-F1 Is Not Enough Calibration of Behavior Classifiers on Imbalanced Learning Logs.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-07-28T02:40:00Z",
+  "modified_at": "2026-07-28T02:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zotero/My Library/storage/ZAK3NB5V/Olsen and Mahmoud - 2025 - Macro-F1 Is Not Enough Calibration of Behavior Classifiers on Imbalanced Learning Logs.pdf",
+  "source_url": null,
+  "content_hash": "sha256:bc5f6d1e1d6fd790b3edb36729508feadeafb406c9621c595a1641be96a5f7b4",
+  "library_item_id": null,
+  "modeled_on": "authentic/zotero engelbart-zotero-mirror files/<KEY>/<Author Year Title>.pdf (attachment storage layout)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "My Library",
+   "original_path": "~/Zotero/storage/ZAK3NB5V/Olsen and Mahmoud - 2025 - Macro-F1 Is Not Enough Calibration of Behavior Classifiers on Imbalanced Learning Logs.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "attachment of olsen2025macro (C3ZZJDG6); fictional paper, fictional authors"
+  }
+ }
+]

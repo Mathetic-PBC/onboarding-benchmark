@@ -1,0 +1,119 @@
+{
+ "uuid": "1b705667-2f27-4b49-af5e-6f20d744063a",
+ "name": "Presentation outline + Q&A prep",
+ "summary": "",
+ "model": "claude-sonnet-4-6",
+ "created_at": "2026-04-29T02:39:58.900370Z",
+ "updated_at": "2026-04-29T02:44:03.768544Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "off",
+ "chat_messages": [
+  {
+   "uuid": "973a2a68-c95b-41c0-aa29-71c44e8eaad0",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-04-29T02:40:00.000000Z",
+     "stop_timestamp": "2026-04-29T02:40:00.000000Z",
+     "type": "text",
+     "text": "presentation thursday 4/30, 12 min + 3 Q&A, 3 speakers. outline slides please, and the 5 likeliest questions brooks asks",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-04-29T02:40:00.000000Z",
+   "updated_at": "2026-04-29T02:40:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "c7049121-5903-4131-a3a1-6518c8356258",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-04-29T02:40:02.000000Z",
+     "stop_timestamp": "2026-04-29T02:40:23.178000Z",
+     "type": "text",
+     "text": "**Slides (12 min, ~10 slides)**\n\n1. Title + team (Jordan, 0:20)\n2. Why frustration in AI tutoring matters (Jordan, 1:00) — students ask the tutor before anyone else; nobody sees the struggle.\n3. Definition: blocked goal + negative valence (David, 1:00)\n4. Data: 412 transcripts, consent, de-identification (Jordan, 1:00)\n5. Codebook: 7 codes in 2 groups (David, 1:30) — one example per group\n6. Agreement: κ = 0.62, Fleiss 0.58; the REPEAT fix (David, 1:00)\n7. Prevalence: 23.5% frustrated (David, 1:00)\n8. **Struggle without expressed frustration: 14.8%** (David, 1:30) — the headline\n9. Tutor features and frustration: regression (Maya, 2:00)\n10. Design implications + limitations (Maya, 1:30)\n\n**Likely questions**\n1. *Why text-only? Isn't frustration multimodal?* — Because that's what the tutor sees; any intervention has to work from text.\n2. *Is 0.58 Fleiss good enough?* — Moderate; it's on 30 sessions and we report it as a limitation; REPEAT fix came after.\n3. *How do you know the \"blocked-goal only\" students are frustrated at all?* — We don't claim they are; we claim they're stuck without saying so, which is the point.\n4. *Causality in the regression?* — None claimed; tutor responses and frustration influence each other.\n5. *What would you build?* — A REPEAT detector that changes strategy (ask a question back, show a smaller step) instead of re-answering.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-04-29T02:40:23.178000Z",
+   "updated_at": "2026-04-29T02:40:23.178000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "973a2a68-c95b-41c0-aa29-71c44e8eaad0"
+  },
+  {
+   "uuid": "87d49c3c-3fb5-459d-bea7-d251e5630bb6",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-04-29T02:43:53.178000Z",
+     "stop_timestamp": "2026-04-29T02:43:53.178000Z",
+     "type": "text",
+     "text": "q3 is a good one. how do i answer it without sounding defensive",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-04-29T02:43:53.178000Z",
+   "updated_at": "2026-04-29T02:43:53.178000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "c7049121-5903-4131-a3a1-6518c8356258"
+  },
+  {
+   "uuid": "6bc513b3-df19-4679-b8d8-47119da746ef",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-04-29T02:43:55.178000Z",
+     "stop_timestamp": "2026-04-29T02:44:01.982000Z",
+     "type": "text",
+     "text": "Lead with agreement, then the reframe:\n\n> \"Right, and we're careful not to call them frustrated. What we see is that they're blocked: they keep re-asking or drop off. They just don't say anything negative. That matters because a detector built on sentiment would miss all of them, and they're about one in seven sessions.\"\n\nShort, concedes the point, and lands on why it's interesting.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-04-29T02:44:01.982000Z",
+   "updated_at": "2026-04-29T02:44:01.982000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "87d49c3c-3fb5-459d-bea7-d251e5630bb6"
+  }
+ ],
+ "current_leaf_message_uuid": "6bc513b3-df19-4679-b8d8-47119da746ef",
+ "project_uuid": "6e186c15-d8b4-48ad-8ad3-db529caac689",
+ "project": {
+  "uuid": "6e186c15-d8b4-48ad-8ad3-db529caac689",
+  "name": "ISE 6664 report"
+ }
+}

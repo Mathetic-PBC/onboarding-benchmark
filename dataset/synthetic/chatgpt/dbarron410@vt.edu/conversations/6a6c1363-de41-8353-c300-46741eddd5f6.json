@@ -1,0 +1,305 @@
+{
+ "title": "Moving checklist Blacksburg to SF",
+ "create_time": 1785467747.12,
+ "update_time": 1785467916.5779343,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "d69d7829-e628-49ad-bc2c-604674f0bb51"
+   ]
+  },
+  "d69d7829-e628-49ad-bc2c-604674f0bb51": {
+   "id": "d69d7829-e628-49ad-bc2c-604674f0bb51",
+   "message": {
+    "id": "d69d7829-e628-49ad-bc2c-604674f0bb51",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1785467747.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "moving blacksburg -> sf on aug 8. flying, not driving. i have a bike, a desk monitor, clothes, a keyboard, some kitchen stuff, a mattress i dont want. make me a checklist, be concise"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_73a6929e91937ee959d4095745",
+     "message_source": null,
+     "turn_exchange_id": "01ef0c8c-3f54-4cd9-ac59-77c79d0ac022",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "caad06da-b899-4834-97eb-ffc3bcc1f48c"
+   ]
+  },
+  "caad06da-b899-4834-97eb-ffc3bcc1f48c": {
+   "id": "caad06da-b899-4834-97eb-ffc3bcc1f48c",
+   "message": {
+    "id": "caad06da-b899-4834-97eb-ffc3bcc1f48c",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1785467756.3,
+    "update_time": null,
+    "content": {
+     "content_type": "reasoning_recap",
+     "content": "Thought for 9s"
+    },
+    "status": "finished_successfully",
+    "end_turn": false,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_73a6929e91937ee959d4095745",
+     "message_type": "next",
+     "turn_exchange_id": "01ef0c8c-3f54-4cd9-ac59-77c79d0ac022",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "reasoning_status": "reasoning_ended",
+     "finished_duration_sec": 9,
+     "reasoning_start_time": 1785467747.4,
+     "reasoning_end_time": 1785467756.2,
+     "cot_version": "v5",
+     "thinking_effort": "standard",
+     "can_save": false,
+     "parent_id": "d69d7829-e628-49ad-bc2c-604674f0bb51"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "d69d7829-e628-49ad-bc2c-604674f0bb51",
+   "children": [
+    "0ff599ec-fe95-48eb-aabf-9cfdc455edd3"
+   ]
+  },
+  "0ff599ec-fe95-48eb-aabf-9cfdc455edd3": {
+   "id": "0ff599ec-fe95-48eb-aabf-9cfdc455edd3",
+   "message": {
+    "id": "0ff599ec-fe95-48eb-aabf-9cfdc455edd3",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1785467763.65,
+    "update_time": 1785467768.115041,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "**2+ weeks out (now)**\n- [ ] Decide ship vs. sell for each item. Usually sell/donate: mattress, kitchen basics, desk. Ship: monitor (if > $200), keyboard, bike (if good), clothes.\n- [ ] Bike: get a bike box from a local shop (often free) and ship via BikeFlights (roughly $70–120), or fly with it as checked luggage.\n- [ ] Book ground shipping for boxes (USPS Ground Advantage / UPS Ground). Ship to the incubator house address once confirmed.\n- [ ] List mattress + furniture on FB Marketplace / VT groups; schedule bulk trash pickup with the town if unsold.\n\n**1 week out**\n- [ ] Forward mail (USPS online, ~$1.10).\n- [ ] Cancel/transfer utilities and internet; return the router.\n- [ ] Notify landlord of move-out walk-through; photograph the apartment empty.\n- [ ] Update address: bank, credit cards, VT records (Grace Kim / registrar, since you're on leave), car insurance if keeping the car.\n\n**Last 2 days**\n- [ ] Pack a carry-on with laptop, chargers, docs, 3 days of clothes, running shoes.\n- [ ] Drop keys, get deposit return info in writing.\n\n**After landing**\n- [ ] CA: driver's license within 10 days of residency and car registration within 20 days if you bring a car; renter's insurance."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_73a6929e91937ee959d4095745",
+     "message_type": "next",
+     "turn_exchange_id": "01ef0c8c-3f54-4cd9-ac59-77c79d0ac022",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "caad06da-b899-4834-97eb-ffc3bcc1f48c"
+    },
+    "recipient": "all",
+    "channel": "final"
+   },
+   "parent": "caad06da-b899-4834-97eb-ffc3bcc1f48c",
+   "children": [
+    "a013d396-5603-4577-9f22-a54036f23aad"
+   ]
+  },
+  "a013d396-5603-4577-9f22-a54036f23aad": {
+   "id": "a013d396-5603-4577-9f22-a54036f23aad",
+   "message": {
+    "id": "a013d396-5603-4577-9f22-a54036f23aad",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1785467896.65,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "not bringing the car, selling it. anything about selling a car in VA"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_062596f5f1c34edc7560c3f616",
+     "message_source": null,
+     "turn_exchange_id": "ce96a413-b6fc-4d44-87fb-03e422596dce",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "0ff599ec-fe95-48eb-aabf-9cfdc455edd3",
+   "children": [
+    "2456ac3d-5131-4d35-9dfe-5060d41b84bb"
+   ]
+  },
+  "2456ac3d-5131-4d35-9dfe-5060d41b84bb": {
+   "id": "2456ac3d-5131-4d35-9dfe-5060d41b84bb",
+   "message": {
+    "id": "2456ac3d-5131-4d35-9dfe-5060d41b84bb",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1785467906.95,
+    "update_time": null,
+    "content": {
+     "content_type": "reasoning_recap",
+     "content": "Thought for 10s"
+    },
+    "status": "finished_successfully",
+    "end_turn": false,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_062596f5f1c34edc7560c3f616",
+     "message_type": "next",
+     "turn_exchange_id": "ce96a413-b6fc-4d44-87fb-03e422596dce",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "reasoning_status": "reasoning_ended",
+     "finished_duration_sec": 10,
+     "reasoning_start_time": 1785467897.0500002,
+     "reasoning_end_time": 1785467906.8500001,
+     "cot_version": "v5",
+     "thinking_effort": "standard",
+     "can_save": false,
+     "parent_id": "a013d396-5603-4577-9f22-a54036f23aad"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "a013d396-5603-4577-9f22-a54036f23aad",
+   "children": [
+    "fbb10e13-6a2d-477d-8d0b-44608503f71e"
+   ]
+  },
+  "fbb10e13-6a2d-477d-8d0b-44608503f71e": {
+   "id": "fbb10e13-6a2d-477d-8d0b-44608503f71e",
+   "message": {
+    "id": "fbb10e13-6a2d-477d-8d0b-44608503f71e",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1785467914.605,
+    "update_time": 1785467917.7799127,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "In Virginia, briefly:\n- Sign the title over to the buyer (seller section, odometer reading), and give a bill of sale (DMV form SUR 1 or a simple written one).\n- **Remove your plates.** In VA plates stay with the seller; return them to DMV or transfer them, and cancel insurance after the sale, not before.\n- Notify DMV of the sale (online \"Notice of Sale\"), which protects you from tolls and tickets after the handover.\n- Accept payment in cash or a cashier's check verified at the bank; avoid personal checks and payment apps for the full amount."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_062596f5f1c34edc7560c3f616",
+     "message_type": "next",
+     "turn_exchange_id": "ce96a413-b6fc-4d44-87fb-03e422596dce",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "2456ac3d-5131-4d35-9dfe-5060d41b84bb"
+    },
+    "recipient": "all",
+    "channel": "final"
+   },
+   "parent": "2456ac3d-5131-4d35-9dfe-5060d41b84bb",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "fbb10e13-6a2d-477d-8d0b-44608503f71e",
+ "plugin_ids": null,
+ "conversation_id": "6a6c1363-de41-8353-c300-46741eddd5f6",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-6-thinking",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "6a6c1363-de41-8353-c300-46741eddd5f6"
+}

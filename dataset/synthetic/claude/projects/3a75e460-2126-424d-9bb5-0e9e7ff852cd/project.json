@@ -1,0 +1,32 @@
+{
+ "uuid": "3a75e460-2126-424d-9bb5-0e9e7ff852cd",
+ "name": "Engelbart onboarding",
+ "description": "Onboarding flow, connect screen and import rules for Engelbart (Mathetic). Pilot feedback goes here too.",
+ "is_private": true,
+ "creator": {
+  "uuid": "b3854b67-95b0-4ed0-8f10-1cddf22e84ee",
+  "full_name": "David Barron"
+ },
+ "is_starred": true,
+ "is_starter_project": false,
+ "is_harmony_project": false,
+ "type": null,
+ "subtype": null,
+ "settings": {},
+ "archiver": null,
+ "archived_at": null,
+ "created_at": "2026-08-26T22:12:00.000000+00:00",
+ "updated_at": "2026-10-17T04:39:15.879704+00:00",
+ "permissions": [
+  "chat_project:chat:create",
+  "chat_project:chat:view"
+ ],
+ "docs_count": 2,
+ "files_count": 3,
+ "moved_to": null,
+ "prompt_template": "This project is for Engelbart's onboarding and import work (Mathetic). Engelbart is a research notebook that remembers where a researcher's thoughts came from. The onboarding flow is: sign up → connect sources → import → notebook.\n\nWhen I ask for copy: be concise, plain, no marketing language, no exclamation marks. Give options when I ask for options.\nWhen I ask about import logic: be concrete (rules, code in TypeScript, test cases). Don't speculate about pilot users beyond what my notes say.\nUse the knowledge docs as the current state of the connect screen and the dedupe rules. If something I say contradicts them, point it out.",
+ "organization_role": "none",
+ "pending_access_request_count": null,
+ "cowork_bound_device": null,
+ "memory_general_enabled": true
+}

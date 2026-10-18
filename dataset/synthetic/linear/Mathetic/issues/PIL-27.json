@@ -1,0 +1,64 @@
+{
+  "issue": {
+    "id": "PIL-27",
+    "uuid": "14aba3e0-5595-439a-bf90-5f7e1bd9adff",
+    "title": "Connect screen: say what each source will read before connecting",
+    "description": "One line under each tile: \"Reads: conversations.json from your Claude export\", \"Reads: PDFs and their Zotero metadata\". Both pilots asked \"what is it going to look at\".",
+    "projectMilestone": {
+      "id": "752d1e60-9eb6-4c7b-a102-c1e5d03b5518",
+      "name": "Import fixes from pilot feedback shipped"
+    },
+    "priority": {
+      "value": 3,
+      "name": "Medium"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-27/connect-screen-say-what-each-source-will-read-before-connecting",
+    "gitBranchName": "david/pil-27-connect-screen-say-what-each-source-will-read-before",
+    "createdAt": "2026-10-13T20:00:04.103Z",
+    "updatedAt": "2026-10-13T20:00:04.103Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Todo",
+    "statusType": "unstarted",
+    "labels": [
+      "Improvement",
+      "Onboarding",
+      "Pilot feedback"
+    ],
+    "createdBy": "David Barron",
+    "assignee": null,
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-27",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-13T20:00:04.103Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": []
+}

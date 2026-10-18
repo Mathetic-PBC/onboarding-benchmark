@@ -1,0 +1,163 @@
+{
+ "uuid": "1cdea0f6-6588-4855-94b9-ece17801ba06",
+ "name": "Taper for half marathon 10/15",
+ "summary": "",
+ "model": "claude-opus-5",
+ "created_at": "2026-10-01T04:44:58.908376Z",
+ "updated_at": "2026-10-01T04:50:43.743622Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true,
+  "paprika_mode": "auto",
+  "thinking_mode": "auto",
+  "chat_memory_mode": "enabled",
+  "enabled_artifacts_attachments": false
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "auto",
+ "chat_messages": [
+  {
+   "uuid": "62b8693a-62c0-4c8c-9fea-9e9857543ba5",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-10-01T04:45:00.000000Z",
+     "stop_timestamp": "2026-10-01T04:45:00.000000Z",
+     "type": "text",
+     "text": "half marathon oct 15 (bay area). training block 4 since august, 9-11h/week mostly zone 2 running + some cycling, 1 workout/week (tempo or 3x2mi at threshold). goal sub 1:25. how should i taper the last 2 weeks",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-10-01T04:45:00.000000Z",
+   "updated_at": "2026-10-01T04:45:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "8db3190c-15c5-4b99-81b3-dc5d73114281",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-10-01T04:45:02.000000Z",
+     "stop_timestamp": "2026-10-01T04:45:22.952000Z",
+     "type": "text",
+     "text": "For a half with your volume, a two-week taper that cuts volume but keeps some intensity:\n\n**Week of Oct 5 (10 days out)**\n- Total volume ~70% of normal (≈ 7 h).\n- Keep one quality session: e.g., Tue 3 × 2 km at half-marathon pace (~4:02/km) with 2 min jog.\n- Long run 75 min easy, a few strides.\n\n**Race week (Oct 12–15)**\n- Volume ~40–50% of normal.\n- Mon: 40 min easy.\n- Tue: 30 min easy + 4 × 1 km at race pace, full recovery.\n- Wed: 20–30 min easy + 4 strides, or rest if you feel flat.\n- Thu: **race**.\n\nPrinciples: cut volume, not intensity entirely; keep frequency similar so you don't feel stale; drop cycling in race week unless it's very easy spinning.\n\nSub-1:25 = 6:29/mile, 4:02/km. If your threshold workouts have been at ~6:15–6:20/mile, that goal is realistic.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-10-01T04:45:22.952000Z",
+   "updated_at": "2026-10-01T04:45:22.952000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "62b8693a-62c0-4c8c-9fea-9e9857543ba5"
+  },
+  {
+   "uuid": "b0343859-6938-4e2d-8cdd-628e2d47ae54",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-10-01T04:47:31.952000Z",
+     "stop_timestamp": "2026-10-01T04:47:31.952000Z",
+     "type": "text",
+     "text": "my 3x2mi last week was 6:12, 6:10, 6:08 with 2min rest. so maybe faster than 1:25?",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-10-01T04:47:31.952000Z",
+   "updated_at": "2026-10-01T04:47:31.952000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "8db3190c-15c5-4b99-81b3-dc5d73114281"
+  },
+  {
+   "uuid": "3381c8ba-9c58-41dd-b140-5564e257c17d",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-10-01T04:47:33.952000Z",
+     "stop_timestamp": "2026-10-01T04:47:45.956000Z",
+     "type": "text",
+     "text": "Those splits suggest you're in shape for something around 1:22–1:24, depending on the course and the day. A sensible plan: go out at 6:25–6:28 for the first 5 km, check how it feels, and only push from mile 8 if you're still controlled. Starting at 1:22 pace and fading costs more than a negative split gains.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-10-01T04:47:45.956000Z",
+   "updated_at": "2026-10-01T04:47:45.956000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "b0343859-6938-4e2d-8cdd-628e2d47ae54"
+  },
+  {
+   "uuid": "fd9ed71e-4cf9-4fcd-b76e-1e17f686f218",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-10-01T04:50:23.956000Z",
+     "stop_timestamp": "2026-10-01T04:50:23.956000Z",
+     "type": "text",
+     "text": "owen is going to try for 1:22. should i go with him",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2026-10-01T04:50:23.956000Z",
+   "updated_at": "2026-10-01T04:50:23.956000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "3381c8ba-9c58-41dd-b140-5564e257c17d"
+  },
+  {
+   "uuid": "5780bf31-a8c9-4a40-a35e-d23588563527",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-10-01T04:50:25.956000Z",
+     "stop_timestamp": "2026-10-01T04:50:41.905000Z",
+     "type": "text",
+     "text": "Only if his early pace matches your plan. Running with someone helps, but if 6:15s feel like work at mile 2, let him go and run your own race. Agree beforehand that it's fine to split up.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2026-10-01T04:50:41.905000Z",
+   "updated_at": "2026-10-01T04:50:41.905000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "fd9ed71e-4cf9-4fcd-b76e-1e17f686f218"
+  }
+ ],
+ "current_leaf_message_uuid": "5780bf31-a8c9-4a40-a35e-d23588563527"
+}

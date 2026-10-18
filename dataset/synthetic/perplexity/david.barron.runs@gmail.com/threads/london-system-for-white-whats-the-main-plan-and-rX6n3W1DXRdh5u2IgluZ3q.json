@@ -1,0 +1,54 @@
+{
+ "uuid": "a2914eab-aba9-4854-ace4-bc1b97170750",
+ "slug": "london-system-for-white-whats-the-main-plan-and-rX6n3W1DXRdh5u2IgluZ3q",
+ "title": "London System main ideas",
+ "thread_url": "https://www.perplexity.ai/search/london-system-for-white-whats-the-main-plan-and-rX6n3W1DXRdh5u2IgluZ3q",
+ "created_at": "2026-02-19T03:00:00Z",
+ "updated_at": "2026-02-19T03:04:51Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "e79ca612-cbdc-446f-9ffd-ded7f0fea80f",
+   "query_str": "london system for white, whats the main plan and what do i do vs kings indian setups",
+   "answer": "**The London System** is a 1.d4 setup built around a quick **Bf4**, then e3, Nf3, c3, Bd3, Nbd2 and castling short [1]. The plans:\n\n- **Solid pyramid** (c3–d4–e3) and the f4 bishop outside the pawn chain.\n- **Kingside pressure**: Ne5 supported by f4 in some lines, Qf3/Qh5 ideas, and the Bd3 aiming at h7.\n- **Flexibility**: you play roughly the same moves against most Black setups, which is why it's popular at club level [2].\n\n**Against King's Indian setups (…Nf6, …g6, …Bg7, …d6, …O-O):**\n- The f4 bishop can be hit by …Nh5, so many players prefer **h3** early to keep a retreat on h2 [2].\n- Black usually aims for **…e5**; you can meet that with dxe5 and play against the d6 pawn, or keep the tension with Bh2.\n- A popular plan is **e4** instead of e3 (a \"London–Pirc hybrid\"), grabbing more center since Black isn't contesting d5 [3].",
+   "sources": [
+    {
+     "name": "London System — opening overview",
+     "url": "https://www.chessopeningsguide.net/london-system",
+     "snippet": "Typical move order and plans for White."
+    },
+    {
+     "name": "Handling ...g6 setups in the London",
+     "url": "https://www.chessclubblog.com/london-vs-kid",
+     "snippet": "Ideas against King's Indian and Pirc structures, including h3 and Bh2."
+    },
+    {
+     "name": "Club player's repertoire: London system",
+     "url": "https://www.chesstrainer.org/repertoire-london",
+     "snippet": "Plans and model games."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "pplx_pro",
+   "created_at": "2026-02-19T03:00:00Z",
+   "updated_at": "2026-02-19T03:00:20Z"
+  },
+  {
+   "uuid": "46b09e55-7de1-4cae-8a17-8fc4ad1c5f77",
+   "query_str": "ok what about vs the jobava thing people play with nc3",
+   "answer": "The Jobava London (1.d4 + Nc3 + Bf4) is a sharper cousin: White keeps c-pawn options open and often plays **Nb5** hitting c7, or castles queenside and pushes kingside pawns [1]. It's more aggressive and less theory-heavy than mainline openings, but the c-pawn stays behind the knight, so the solid pyramid structure is gone [1]. If you like the standard London's calm structure, it's a different style of game.",
+   "sources": [
+    {
+     "name": "Jobava London explained",
+     "url": "https://www.chessopeningsguide.net/jobava-london",
+     "snippet": "Move order, Nb5 ideas and opposite-side castling plans."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "claude-sonnet",
+   "created_at": "2026-02-19T03:04:33Z",
+   "updated_at": "2026-02-19T03:04:50Z"
+  }
+ ]
+}

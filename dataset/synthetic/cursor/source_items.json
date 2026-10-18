@@ -1,1 +1,1249 @@
-[]
+[
+ {
+  "id": "item_034491",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "097c9f8c-0fd2-4b65-b238-a9451ef6854b",
+  "title": "Timeline slow with 40k events",
+  "content_type": "conversation",
+  "created_at": "2025-11-25T02:30:05Z",
+  "modified_at": "2025-11-25T02:30:55Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:47c777c103417fab82b69081e6e5a18269c499c388354ed718c154eb567652fd",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "chat",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034492",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "0b91fe22-e654-4f1b-bba6-cd2d441c3716",
+  "title": "Fitness / fatigue chart (CTL/ATL)",
+  "content_type": "conversation",
+  "created_at": "2025-12-15T01:30:27Z",
+  "modified_at": "2025-12-15T01:32:01Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:f7c5a38541ec671f325b6e954c45d35fca31b4fc79054330c4bfe96afe9e297e",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034493",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "0cfb4e04-c68c-4553-b953-afdceb2ca89c",
+  "title": "First HDBSCAN pass",
+  "content_type": "conversation",
+  "created_at": "2026-01-15T03:45:11Z",
+  "modified_at": "2026-01-15T03:46:11Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:962d75807929fbf9b984a93b17c014fff3e62cbdce6bde9ae1903af0b394d9ef",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034494",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "0dd1a7f9-e33e-4996-9253-04e7df7faf8f",
+  "title": "Labeling progress per rater",
+  "content_type": "conversation",
+  "created_at": "2025-11-20T03:50:30Z",
+  "modified_at": "2025-11-20T03:52:04Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:3228dc12905932f3c89ccc79d670c3fe3a2dc29a7b42d666f4902f0ccc3b2e14",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034495",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "0e7a1803-9e63-4d51-b0b4-4c711daeb826",
+  "title": "Garmin CSV import + weekly volume chart",
+  "content_type": "conversation",
+  "created_at": "2025-11-17T00:40:13Z",
+  "modified_at": "2025-11-17T00:41:10Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:156858fa8271eee7013e0a082a41bd4130e5157a1b19738866033ac1be7dfe8c",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034496",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "146f4d6c-c436-4cb2-b628-57150bf65544",
+  "title": "Convert HEIC photos to JPG",
+  "content_type": "conversation",
+  "created_at": "2025-12-21T18:10:33Z",
+  "modified_at": "2025-12-21T18:11:36Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:06d5b7059d1fd398483539379fe12dcf01549064dd5bc023eb261c1236f01f10",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "chat",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034497",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "172539b0-e1a8-4573-adb5-d4922c35e0f4",
+  "title": "Export labeling windows for sprint",
+  "content_type": "conversation",
+  "created_at": "2025-11-14T16:30:12Z",
+  "modified_at": "2025-11-14T16:31:33Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:c5829c4fd1da6d3ef0147f53a3d9767035c7d279f6ee8e12c082783b479791ec",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "labeling sprint 11-14 -> 11-21 (2,340 windows)"
+  }
+ },
+ {
+  "id": "item_034498",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "2094f713-1174-4f05-a74d-ae8b85facac8",
+  "title": "Canvas-based timeline ticks",
+  "content_type": "conversation",
+  "created_at": "2025-12-02T21:45:22Z",
+  "modified_at": "2025-12-02T21:46:55Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:6045dccbafb6f5aa72828d9ad06163443186caf7a79decf9ed970216b95d7656",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034499",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "2e19b73f-2269-468d-83b2-a3d2b5140b54",
+  "title": "Strava API instead of CSV?",
+  "content_type": "conversation",
+  "created_at": "2025-12-28T16:05:50Z",
+  "modified_at": "2025-12-28T16:06:53Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:4995ab4e8d72b7418052aa4fc3cc220c500c364c1be8c1ae8cefbec4fa5a1f70",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "chat",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034500",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "409330f4-5885-4e7c-abb2-c163d5beb537",
+  "title": "Why is HDBSCAN noise so high",
+  "content_type": "conversation",
+  "created_at": "2026-01-16T01:20:37Z",
+  "modified_at": "2026-01-16T01:21:45Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:5fde7bc45f788bf88b48215cba0bdaa5b6b77c0bac3a1fcc73bacde0109ca189",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "chat",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034501",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "42579440-c5a4-4ba7-a5c0-d9c827a6db75",
+  "title": "CS 3604 P4 late days",
+  "content_type": "conversation",
+  "created_at": "2025-12-12T03:20:15Z",
+  "modified_at": "2025-12-12T03:21:49Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:0515e5664c8cc897af09d227d326bc5c70a9c94b240f094e6cbe8edfa07fb248",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": "CS 3604 P4 late-day regrade dispute (Fall 2025)"
+  }
+ },
+ {
+  "id": "item_034502",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "55b031fe-0ea5-4e92-a356-a1e459c37da7",
+  "title": "Replay timeline component",
+  "content_type": "conversation",
+  "created_at": "2025-11-06T02:10:14Z",
+  "modified_at": "2025-11-06T02:14:15Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:cae36a01e7d4c454f16597bbc20184f26dbb7acb2e1c95a2c93d54cfbd4dcb67",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 4,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034503",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "6bc13aa2-891d-450e-bf52-171ae7af139c",
+  "title": "Timeline zoom + keyboard stepping",
+  "content_type": "conversation",
+  "created_at": "2025-11-07T04:30:41Z",
+  "modified_at": "2025-11-07T04:31:29Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:b2beff4fe2d569b90197ba5db8765095cc84b5eedff045f3547dc556d0150216",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034504",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "6bd93eb4-6e22-4e8e-b28b-dd0d4c0f1b3a",
+  "title": "Label picker: stalled-after-error",
+  "content_type": "conversation",
+  "created_at": "2025-11-18T01:15:59Z",
+  "modified_at": "2025-11-18T01:17:33Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:d54552c04bca23ec5f736b7e914599676f8641d47bc667bb4791d79df6498c56",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "labeling guide v3 state"
+  }
+ },
+ {
+  "id": "item_034505",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "73a9914f-47ff-4869-95a9-8720f4a292ec",
+  "title": "Sort clusters by size in browser",
+  "content_type": "conversation",
+  "created_at": "2026-01-21T03:30:48Z",
+  "modified_at": "2026-01-21T03:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:6faae60acd89ed97d317d38b5a85c4ab2f72b8d060680571e58af2bd3682bac9",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 5,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": "last composer of the trial: agent rewrote files he did not ask about (reason the trial was dropped, PERSON §7)"
+  }
+ },
+ {
+  "id": "item_034506",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "794131ac-037b-47df-b336-dbe672d75c88",
+  "title": "How to cluster 3k discussion posts",
+  "content_type": "conversation",
+  "created_at": "2026-01-08T03:00:31Z",
+  "modified_at": "2026-01-08T03:01:43Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:31adf5a06c02deeac651fa33b76b8fd30e645f57b80c753d0b8fa6cc833b1943",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "chat",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034507",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "84ee9ba9-1a41-4084-901e-edf4bbdf42d8",
+  "title": "Queue telemetry while disconnected",
+  "content_type": "conversation",
+  "created_at": "2025-11-12T04:55:03Z",
+  "modified_at": "2025-11-12T04:56:15Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:3df527b022f40695c43d097878469ab4782a4a923d4d18760fd30b2d263664c8",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034508",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "932d8cc9-06a8-4e4b-b0e1-fbbec06234a1",
+  "title": "UMAP before HDBSCAN",
+  "content_type": "conversation",
+  "created_at": "2026-01-17T04:50:22Z",
+  "modified_at": "2026-01-17T04:51:40Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:c0c36efd60216249efdcf746767f8ce255b9e289e3fe78791d8cd46ea2218ac9",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034509",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "9e710b0d-4382-469e-873c-a2b227ba78f0",
+  "title": "Postmortem for Yan: reconnect bug",
+  "content_type": "conversation",
+  "created_at": "2025-11-13T15:20:48Z",
+  "modified_at": "2025-11-13T15:22:17Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:ed8f537115dccda203cee0354ab6173f32400f3138d27740976480604c915657",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "chat",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034510",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "9f4c4b07-76ff-4a90-8453-7e65c7778a33",
+  "title": "Time in zone 2 from HR",
+  "content_type": "conversation",
+  "created_at": "2025-11-30T23:10:44Z",
+  "modified_at": "2025-11-30T23:11:49Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:a4fe90480726bf920365fa03104a24e045e7a65a40105f94c36f3b16d3ab64c4",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034511",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "aa5966b4-29f4-4c8e-889a-86edab574b2b",
+  "title": "Cluster browser page",
+  "content_type": "conversation",
+  "created_at": "2026-01-20T02:40:05Z",
+  "modified_at": "2026-01-20T02:41:20Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:b5d66cc04ba3009f341c9d1b81da995fad0236e5676de7d5297e18739ef26b25",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034512",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "badef72f-13f8-4489-88d3-d25e22226421",
+  "title": "URGENT section B events dropping",
+  "content_type": "conversation",
+  "created_at": "2025-11-12T20:52:36Z",
+  "modified_at": "2025-11-12T22:20:35Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:b6a041887b6a3fd14e50097b061aafd73aea71df6b407ca07823cd519a145e0f",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 6,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "VizPI deployment #2 (2025-11-12) reconnect hotfix; ties to PERSON §7 story"
+  }
+ },
+ {
+  "id": "item_034513",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "c8925ee4-7995-4fef-a7ad-b9e2a7b051b1",
+  "title": "Scale meal-prep recipe ingredients",
+  "content_type": "conversation",
+  "created_at": "2026-01-10T22:45:02Z",
+  "modified_at": "2026-01-10T22:46:34Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:e12d18686e928761ca3b9af8d4714df68f952bd8847748035c0e310594ae6128",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034514",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "db8f4c9d-ee43-4bcc-aa2a-c31a7058b38b",
+  "title": "Replay position in URL?",
+  "content_type": "conversation",
+  "created_at": "2025-11-08T19:05:09Z",
+  "modified_at": "2025-11-08T19:05:55Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:beff7fa31eeb3b0fa498dab4bd4d5b36565a12d72404d70eb8f9f715a27418db",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "chat",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034515",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "ea3e679e-cf71-42af-a2b5-353332639e75",
+  "title": "Clock time per move from PGN",
+  "content_type": "conversation",
+  "created_at": "2025-11-29T20:30:20Z",
+  "modified_at": "2025-11-29T20:31:42Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:e7699dce50a33d056c82f42c633ccb46fa0eb70026c85871d1d211586b03ebe3",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034516",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "ecbbdc94-6b90-44ee-bf40-87b9b3253125",
+  "title": "Forum export → posts.jsonl",
+  "content_type": "conversation",
+  "created_at": "2026-01-13T02:30:16Z",
+  "modified_at": "2026-01-13T02:31:02Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:9b08a25af3411d09fe58c6b0e7fc44178c66e91220be1b4463335433253bf27c",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034517",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "f647b5d3-5b18-4941-a81f-c8c9f331d9ba",
+  "title": "Strip quoted text from replies",
+  "content_type": "conversation",
+  "created_at": "2026-01-14T04:15:58Z",
+  "modified_at": "2026-01-14T04:16:53Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:a16fdb4c5f9856c7fe96799f90d3b1bb5ecc7c28832daf1020dadfdaa2576a7d",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034518",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "fd9c6bbf-0b98-40a3-aa53-9da8b5196c70",
+  "title": "Websocket reconnect with backoff",
+  "content_type": "conversation",
+  "created_at": "2025-11-11T03:40:27Z",
+  "modified_at": "2025-11-11T03:48:20Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:8c1e5006e3e2b4d4f7be6c1330498dd991f187166072378b4b35d489116d3780",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 4,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034519",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "feb726c6-5a97-499e-a3cc-3b08a70ec09c",
+  "title": "2025 year in review page",
+  "content_type": "conversation",
+  "created_at": "2026-01-03T21:20:09Z",
+  "modified_at": "2026-01-03T21:21:26Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:0758628897e9b6d6c7caddd53afd40e216e5967e34060f17ab8b730ce4c8fdcb",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034520",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "ff01ab3b-b28f-4ec0-bea5-ee17e7f2516b",
+  "title": "Flaky reconnect test",
+  "content_type": "conversation",
+  "created_at": "2025-12-10T04:10:40Z",
+  "modified_at": "2025-12-10T04:12:10Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/globalStorage/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:6ca8d5c5a3b98765b36b42879f1d48b2a493dc6eef65a2cce61b87033eb95f53",
+  "library_item_id": null,
+  "modeled_on": "Cursor globalStorage state.vscdb (ItemTable + cursorDiskKV); no authentic Cursor data",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": 2,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "mode": "agent",
+   "format_detail": "rows in cursorDiskKV of state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "container DB: one item per composerData:<id> row (+ its bubbleId rows)"
+  }
+ },
+ {
+  "id": "item_034521",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "~/Library/Application Support/Cursor/User/workspaceStorage/45f9e3324d2145c9549678ba3cc65ee1/state.vscdb",
+  "title": "state.vscdb",
+  "content_type": "file",
+  "created_at": "2026-01-08T03:00:31Z",
+  "modified_at": "2026-01-21T03:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/workspaceStorage/45f9e3324d2145c9549678ba3cc65ee1/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:e8ff977cbc1916df80c50d3afcd621b41103ad822f3fcf6bb69b64c3e985b6d4",
+  "library_item_id": null,
+  "modeled_on": "Cursor workspaceStorage/<hash>/state.vscdb (composer.composerData)",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "original_path": "~/Library/Application Support/Cursor/User/workspaceStorage/45f9e3324d2145c9549678ba3cc65ee1/state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": "composer list for Dynamite"
+  }
+ },
+ {
+  "id": "item_034522",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "~/Library/Application Support/Cursor/User/workspaceStorage/45f9e3324d2145c9549678ba3cc65ee1/workspace.json",
+  "title": "workspace.json",
+  "content_type": "data",
+  "created_at": "2026-01-08T03:00:31Z",
+  "modified_at": "2026-01-08T03:00:31Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/workspaceStorage/45f9e3324d2145c9549678ba3cc65ee1/workspace.json",
+  "source_url": null,
+  "content_hash": "sha256:5b28fef0879bbe24c8f24081acf1ffb85094d56a4dae0fb36d73959ff683502d",
+  "library_item_id": null,
+  "modeled_on": "VS Code/Cursor workspaceStorage/<hash>/workspace.json",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "original_path": "~/Library/Application Support/Cursor/User/workspaceStorage/45f9e3324d2145c9549678ba3cc65ee1/workspace.json"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": "workspace folder /Users/divadbaroon/Projects/Dynamite"
+  }
+ },
+ {
+  "id": "item_034523",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "~/Library/Application Support/Cursor/User/workspaceStorage/58080b3b74437c34efed525198e62e2d/state.vscdb",
+  "title": "state.vscdb",
+  "content_type": "file",
+  "created_at": "2025-11-06T02:10:14Z",
+  "modified_at": "2025-12-10T04:12:10Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/workspaceStorage/58080b3b74437c34efed525198e62e2d/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:0837142a36a7eee86c03ada4f32b1782877532cd97b5692f73bcbedbcf7948f1",
+  "library_item_id": null,
+  "modeled_on": "Cursor workspaceStorage/<hash>/state.vscdb (composer.composerData)",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "original_path": "~/Library/Application Support/Cursor/User/workspaceStorage/58080b3b74437c34efed525198e62e2d/state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "composer list for vizpi_frontend"
+  }
+ },
+ {
+  "id": "item_034524",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "~/Library/Application Support/Cursor/User/workspaceStorage/58080b3b74437c34efed525198e62e2d/workspace.json",
+  "title": "workspace.json",
+  "content_type": "data",
+  "created_at": "2025-11-06T02:10:14Z",
+  "modified_at": "2025-11-06T02:10:14Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/workspaceStorage/58080b3b74437c34efed525198e62e2d/workspace.json",
+  "source_url": null,
+  "content_hash": "sha256:94b250deee0b29117397a053e7dd16127425b5b289c1fefb77051065b713919f",
+  "library_item_id": null,
+  "modeled_on": "VS Code/Cursor workspaceStorage/<hash>/workspace.json",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "original_path": "~/Library/Application Support/Cursor/User/workspaceStorage/58080b3b74437c34efed525198e62e2d/workspace.json"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "workspace folder /Users/divadbaroon/Projects/Vizpi/vizpi_frontend"
+  }
+ },
+ {
+  "id": "item_034525",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "~/Library/Application Support/Cursor/User/workspaceStorage/ac8f2f1d9d9ae4149c674423844ee9ff/state.vscdb",
+  "title": "state.vscdb",
+  "content_type": "file",
+  "created_at": "2025-11-29T20:30:20Z",
+  "modified_at": "2026-01-10T22:46:34Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/workspaceStorage/ac8f2f1d9d9ae4149c674423844ee9ff/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:0eb5b9d1da024b999683960a0bf9cdcea56fd59044ba2e9aad8e744cce62218d",
+  "library_item_id": null,
+  "modeled_on": "Cursor workspaceStorage/<hash>/state.vscdb (composer.composerData)",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "original_path": "~/Library/Application Support/Cursor/User/workspaceStorage/ac8f2f1d9d9ae4149c674423844ee9ff/state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta",
+    "project_none"
+   ],
+   "notes": "composer list for scratch"
+  }
+ },
+ {
+  "id": "item_034526",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "~/Library/Application Support/Cursor/User/workspaceStorage/ac8f2f1d9d9ae4149c674423844ee9ff/workspace.json",
+  "title": "workspace.json",
+  "content_type": "data",
+  "created_at": "2025-11-29T20:30:20Z",
+  "modified_at": "2025-11-29T20:30:20Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/workspaceStorage/ac8f2f1d9d9ae4149c674423844ee9ff/workspace.json",
+  "source_url": null,
+  "content_hash": "sha256:15a014bbda9f14aef4974255e1d7b8277584d1d322d510bb150e5c66a64d651c",
+  "library_item_id": null,
+  "modeled_on": "VS Code/Cursor workspaceStorage/<hash>/workspace.json",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "original_path": "~/Library/Application Support/Cursor/User/workspaceStorage/ac8f2f1d9d9ae4149c674423844ee9ff/workspace.json"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "workspace folder /Users/divadbaroon/Desktop/scratch"
+  }
+ },
+ {
+  "id": "item_034527",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "~/Library/Application Support/Cursor/User/workspaceStorage/eb13868eefccdfd31901b0efdfa7a47c/state.vscdb",
+  "title": "state.vscdb",
+  "content_type": "file",
+  "created_at": "2025-11-17T00:40:13Z",
+  "modified_at": "2026-01-03T21:21:26Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/workspaceStorage/eb13868eefccdfd31901b0efdfa7a47c/state.vscdb",
+  "source_url": null,
+  "content_hash": "sha256:13f1b3660300db8673c43e9d908f42781e049fbd094e66b63420247e2a94ca56",
+  "library_item_id": null,
+  "modeled_on": "Cursor workspaceStorage/<hash>/state.vscdb (composer.composerData)",
+  "metadata": {
+   "format": "vscdb",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "original_path": "~/Library/Application Support/Cursor/User/workspaceStorage/eb13868eefccdfd31901b0efdfa7a47c/state.vscdb"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "composer list for training-dashboard"
+  }
+ },
+ {
+  "id": "item_034528",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "cursor",
+  "source_id": "~/Library/Application Support/Cursor/User/workspaceStorage/eb13868eefccdfd31901b0efdfa7a47c/workspace.json",
+  "title": "workspace.json",
+  "content_type": "data",
+  "created_at": "2025-11-17T00:40:13Z",
+  "modified_at": "2025-11-17T00:40:13Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/cursor/User/workspaceStorage/eb13868eefccdfd31901b0efdfa7a47c/workspace.json",
+  "source_url": null,
+  "content_hash": "sha256:55fbcfeffcdc598ea01fdee8b42b6bc82ad7851027097d7b052173ec2a057eb9",
+  "library_item_id": null,
+  "modeled_on": "VS Code/Cursor workspaceStorage/<hash>/workspace.json",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Cursor (local, trial)",
+   "original_path": "~/Library/Application Support/Cursor/User/workspaceStorage/eb13868eefccdfd31901b0efdfa7a47c/workspace.json"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "workspace folder /Users/divadbaroon/Projects/training-dashboard"
+  }
+ }
+]

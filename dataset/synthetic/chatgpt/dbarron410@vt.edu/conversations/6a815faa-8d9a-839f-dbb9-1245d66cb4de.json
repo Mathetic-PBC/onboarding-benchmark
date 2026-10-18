@@ -1,0 +1,305 @@
+{
+ "title": "Claude Code plugin hook not firing",
+ "create_time": 1786863530.12,
+ "update_time": 1786863704.6604252,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "617b4ea2-0bda-4c28-9190-8dfefdaf4b9c"
+   ]
+  },
+  "617b4ea2-0bda-4c28-9190-8dfefdaf4b9c": {
+   "id": "617b4ea2-0bda-4c28-9190-8dfefdaf4b9c",
+   "message": {
+    "id": "617b4ea2-0bda-4c28-9190-8dfefdaf4b9c",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1786863530.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "writing a claude code plugin (hc). PostToolUse hook isnt firing. hooks/hooks.json:\n\n```json\n{\n  \"hooks\": {\n    \"PostToolUse\": [\n      { \"matcher\": \"Edit|Write\", \"command\": \"node ${CLAUDE_PLUGIN_ROOT}/hooks/log-edit.js\" }\n    ]\n  }\n}\n```\n\nplugin shows as installed in /plugin. nothing logs"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_f27c5dc46a8c43f1610b7d9326",
+     "message_source": null,
+     "turn_exchange_id": "d89a4022-cb01-4ee9-a494-fd2405cf5187",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "6721f63a-6a17-42b5-aa2c-c23b48686f8a"
+   ]
+  },
+  "6721f63a-6a17-42b5-aa2c-c23b48686f8a": {
+   "id": "6721f63a-6a17-42b5-aa2c-c23b48686f8a",
+   "message": {
+    "id": "6721f63a-6a17-42b5-aa2c-c23b48686f8a",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1786863540.3,
+    "update_time": null,
+    "content": {
+     "content_type": "reasoning_recap",
+     "content": "Thought for 10s"
+    },
+    "status": "finished_successfully",
+    "end_turn": false,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_f27c5dc46a8c43f1610b7d9326",
+     "message_type": "next",
+     "turn_exchange_id": "d89a4022-cb01-4ee9-a494-fd2405cf5187",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "reasoning_status": "reasoning_ended",
+     "finished_duration_sec": 10,
+     "reasoning_start_time": 1786863530.4,
+     "reasoning_end_time": 1786863540.2,
+     "cot_version": "v5",
+     "thinking_effort": "standard",
+     "can_save": false,
+     "parent_id": "617b4ea2-0bda-4c28-9190-8dfefdaf4b9c"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "617b4ea2-0bda-4c28-9190-8dfefdaf4b9c",
+   "children": [
+    "7f5fecc1-6f4f-46e3-b0d6-53bb8fa9f3d6"
+   ]
+  },
+  "7f5fecc1-6f4f-46e3-b0d6-53bb8fa9f3d6": {
+   "id": "7f5fecc1-6f4f-46e3-b0d6-53bb8fa9f3d6",
+   "message": {
+    "id": "7f5fecc1-6f4f-46e3-b0d6-53bb8fa9f3d6",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1786863546.765,
+    "update_time": 1786863550.0177684,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Your shape is missing a level. Each matcher entry needs a `hooks` array of hook objects with a `type`:\n\n```json\n{\n  \"hooks\": {\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Edit|Write\",\n        \"hooks\": [\n          { \"type\": \"command\", \"command\": \"node ${CLAUDE_PLUGIN_ROOT}/hooks/log-edit.js\" }\n        ]\n      }\n    ]\n  }\n}\n```\n\nOther things to check:\n- Hooks load at session start. Restart the session (or reload plugins) after editing.\n- Run `claude --debug` to see whether the hook matched and what the command printed or exited with.\n- Your script receives the event JSON on **stdin**, not as args. Read it with `process.stdin`.\n\nI'm fairly confident about the nested `hooks` array, but double-check against the current Claude Code hooks docs, since the plugin format has changed between versions."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_f27c5dc46a8c43f1610b7d9326",
+     "message_type": "next",
+     "turn_exchange_id": "d89a4022-cb01-4ee9-a494-fd2405cf5187",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "6721f63a-6a17-42b5-aa2c-c23b48686f8a"
+    },
+    "recipient": "all",
+    "channel": "final"
+   },
+   "parent": "6721f63a-6a17-42b5-aa2c-c23b48686f8a",
+   "children": [
+    "dc75782b-2009-41a3-921b-70d2fc9c235c"
+   ]
+  },
+  "dc75782b-2009-41a3-921b-70d2fc9c235c": {
+   "id": "dc75782b-2009-41a3-921b-70d2fc9c235c",
+   "message": {
+    "id": "dc75782b-2009-41a3-921b-70d2fc9c235c",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1786863688.765,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "that was it. works now. how do i get the file path from stdin in the script"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_32f9469b1b84cc0b70334d0b4a",
+     "message_source": null,
+     "turn_exchange_id": "4b0a99af-03e0-4b8c-b522-48082f3be713",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "7f5fecc1-6f4f-46e3-b0d6-53bb8fa9f3d6",
+   "children": [
+    "aa593fd0-3d6c-47ca-b14f-1156f636d6ee"
+   ]
+  },
+  "aa593fd0-3d6c-47ca-b14f-1156f636d6ee": {
+   "id": "aa593fd0-3d6c-47ca-b14f-1156f636d6ee",
+   "message": {
+    "id": "aa593fd0-3d6c-47ca-b14f-1156f636d6ee",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1786863697.065,
+    "update_time": null,
+    "content": {
+     "content_type": "reasoning_recap",
+     "content": "Thought for 8s"
+    },
+    "status": "finished_successfully",
+    "end_turn": false,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_32f9469b1b84cc0b70334d0b4a",
+     "message_type": "next",
+     "turn_exchange_id": "4b0a99af-03e0-4b8c-b522-48082f3be713",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "reasoning_status": "reasoning_ended",
+     "finished_duration_sec": 8,
+     "reasoning_start_time": 1786863689.1650002,
+     "reasoning_end_time": 1786863696.9650002,
+     "cot_version": "v5",
+     "thinking_effort": "standard",
+     "can_save": false,
+     "parent_id": "dc75782b-2009-41a3-921b-70d2fc9c235c"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "dc75782b-2009-41a3-921b-70d2fc9c235c",
+   "children": [
+    "a19b1b94-4f12-4f46-a395-f35d83a81c5b"
+   ]
+  },
+  "a19b1b94-4f12-4f46-a395-f35d83a81c5b": {
+   "id": "a19b1b94-4f12-4f46-a395-f35d83a81c5b",
+   "message": {
+    "id": "a19b1b94-4f12-4f46-a395-f35d83a81c5b",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1786863702.861,
+    "update_time": 1786863707.0175385,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "```js\n// hooks/log-edit.js\nlet raw = \"\";\nprocess.stdin.on(\"data\", (c) => (raw += c));\nprocess.stdin.on(\"end\", () => {\n  const evt = JSON.parse(raw);\n  const file = evt.tool_input?.file_path;\n  const line = `${new Date().toISOString()}\\t${evt.tool_name}\\t${file}\\n`;\n  require(\"fs\").appendFileSync(require(\"path\").join(process.env.HOME, \".hc-edits.log\"), line);\n});\n```\n\nPrint `raw` once to a temp file first to confirm the field names in your version."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_32f9469b1b84cc0b70334d0b4a",
+     "message_type": "next",
+     "turn_exchange_id": "4b0a99af-03e0-4b8c-b522-48082f3be713",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "aa593fd0-3d6c-47ca-b14f-1156f636d6ee"
+    },
+    "recipient": "all",
+    "channel": "final"
+   },
+   "parent": "aa593fd0-3d6c-47ca-b14f-1156f636d6ee",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "a19b1b94-4f12-4f46-a395-f35d83a81c5b",
+ "plugin_ids": null,
+ "conversation_id": "6a815faa-8d9a-839f-dbb9-1245d66cb4de",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-6-thinking",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "6a815faa-8d9a-839f-dbb9-1245d66cb4de"
+}

@@ -1,0 +1,305 @@
+{
+ "title": "Delaware PBC basics",
+ "create_time": 1787112654.12,
+ "update_time": 1787112838.0314023,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "03a60435-eb01-453c-a787-f65fc19de7b9"
+   ]
+  },
+  "03a60435-eb01-453c-a787-f65fc19de7b9": {
+   "id": "03a60435-eb01-453c-a787-f65fc19de7b9",
+   "message": {
+    "id": "03a60435-eb01-453c-a787-f65fc19de7b9",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1787112654.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "we incorporated mathetic as a delaware public benefit corporation. what do we actually have to do differently vs a normal c corp. be concise, dont speculate on legal stuff you're not sure about"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_cdf59840dc9168073089ee4041",
+     "message_source": null,
+     "turn_exchange_id": "51d6cfa8-6a5f-43ea-b69c-705bfa1ec73f",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "eed870bb-4f38-4a6c-86b4-fc8c289bfc05"
+   ]
+  },
+  "eed870bb-4f38-4a6c-86b4-fc8c289bfc05": {
+   "id": "eed870bb-4f38-4a6c-86b4-fc8c289bfc05",
+   "message": {
+    "id": "eed870bb-4f38-4a6c-86b4-fc8c289bfc05",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1787112666.3,
+    "update_time": null,
+    "content": {
+     "content_type": "reasoning_recap",
+     "content": "Thought for 12s"
+    },
+    "status": "finished_successfully",
+    "end_turn": false,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_cdf59840dc9168073089ee4041",
+     "message_type": "next",
+     "turn_exchange_id": "51d6cfa8-6a5f-43ea-b69c-705bfa1ec73f",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "reasoning_status": "reasoning_ended",
+     "finished_duration_sec": 12,
+     "reasoning_start_time": 1787112654.4,
+     "reasoning_end_time": 1787112666.2,
+     "cot_version": "v5",
+     "thinking_effort": "standard",
+     "can_save": false,
+     "parent_id": "03a60435-eb01-453c-a787-f65fc19de7b9"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "03a60435-eb01-453c-a787-f65fc19de7b9",
+   "children": [
+    "0d8a620b-c9bd-4998-90de-dd06d685c23f"
+   ]
+  },
+  "0d8a620b-c9bd-4998-90de-dd06d685c23f": {
+   "id": "0d8a620b-c9bd-4998-90de-dd06d685c23f",
+   "message": {
+    "id": "0d8a620b-c9bd-4998-90de-dd06d685c23f",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1787112674.059,
+    "update_time": 1787112677.106572,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "At a high level (confirm specifics with your lawyer/registered agent):\n\n1. **Stated public benefit.** Your certificate of incorporation names a specific public benefit. Directors must balance stockholders' financial interests, the interests of those materially affected, and that benefit.\n2. **Biennial benefit report to stockholders.** Delaware requires a PBC to give stockholders a statement on its promotion of the public benefit at least every two years. It doesn't have to be public or third-party certified unless your charter says so.\n3. **Name / notices.** PBC status must be disclosed (e.g., \"PBC\" in the name, which you have, and in stock certificates/notices).\n4. **Same as any Delaware corp:** annual franchise tax + annual report to the state, due **March 1** each year. Use the assumed par value capital method for franchise tax; the default authorized-shares method can produce a scary-looking bill for startups.\n5. **Investors:** some investors ask about the PBC structure. Most early-stage investors are fine with it, but be ready to explain your benefit statement in one sentence."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_cdf59840dc9168073089ee4041",
+     "message_type": "next",
+     "turn_exchange_id": "51d6cfa8-6a5f-43ea-b69c-705bfa1ec73f",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "eed870bb-4f38-4a6c-86b4-fc8c289bfc05"
+    },
+    "recipient": "all",
+    "channel": "final"
+   },
+   "parent": "eed870bb-4f38-4a6c-86b4-fc8c289bfc05",
+   "children": [
+    "47cd41d6-ead7-4c06-b0ee-55b672dca8ed"
+   ]
+  },
+  "47cd41d6-ead7-4c06-b0ee-55b672dca8ed": {
+   "id": "47cd41d6-ead7-4c06-b0ee-55b672dca8ed",
+   "message": {
+    "id": "47cd41d6-ead7-4c06-b0ee-55b672dca8ed",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1787112826.059,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "so first annual report is march 1 2027?"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_e6a80715c29c6a0662d6138b0b",
+     "message_source": null,
+     "turn_exchange_id": "8106dce4-9ad2-4b10-9c87-f46cefacb7ed",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "0d8a620b-c9bd-4998-90de-dd06d685c23f",
+   "children": [
+    "508eb4f8-3806-45ae-808b-897221f7e454"
+   ]
+  },
+  "508eb4f8-3806-45ae-808b-897221f7e454": {
+   "id": "508eb4f8-3806-45ae-808b-897221f7e454",
+   "message": {
+    "id": "508eb4f8-3806-45ae-808b-897221f7e454",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1787112832.359,
+    "update_time": null,
+    "content": {
+     "content_type": "reasoning_recap",
+     "content": "Thought for 6s"
+    },
+    "status": "finished_successfully",
+    "end_turn": false,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_e6a80715c29c6a0662d6138b0b",
+     "message_type": "next",
+     "turn_exchange_id": "8106dce4-9ad2-4b10-9c87-f46cefacb7ed",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "reasoning_status": "reasoning_ended",
+     "finished_duration_sec": 6,
+     "reasoning_start_time": 1787112826.459,
+     "reasoning_end_time": 1787112832.259,
+     "cot_version": "v5",
+     "thinking_effort": "standard",
+     "can_save": false,
+     "parent_id": "47cd41d6-ead7-4c06-b0ee-55b672dca8ed"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "47cd41d6-ead7-4c06-b0ee-55b672dca8ed",
+   "children": [
+    "9b1252e4-6b8a-497a-b968-30f225f4d94c"
+   ]
+  },
+  "9b1252e4-6b8a-497a-b968-30f225f4d94c": {
+   "id": "9b1252e4-6b8a-497a-b968-30f225f4d94c",
+   "message": {
+    "id": "9b1252e4-6b8a-497a-b968-30f225f4d94c",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1787112837.482,
+    "update_time": 1787112840.9566157,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "If you incorporated in 2026, yes. The first annual report and franchise tax payment are due by **March 1, 2027**, covering calendar year 2026. Put it on the calendar with a reminder in mid-February. Your registered agent will likely email you too."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_e6a80715c29c6a0662d6138b0b",
+     "message_type": "next",
+     "turn_exchange_id": "8106dce4-9ad2-4b10-9c87-f46cefacb7ed",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "508eb4f8-3806-45ae-808b-897221f7e454"
+    },
+    "recipient": "all",
+    "channel": "final"
+   },
+   "parent": "508eb4f8-3806-45ae-808b-897221f7e454",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "9b1252e4-6b8a-497a-b968-30f225f4d94c",
+ "plugin_ids": null,
+ "conversation_id": "6a852cce-b468-831c-bbdd-c795ba9e0762",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-6-thinking",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "6a852cce-b468-831c-bbdd-c795ba9e0762"
+}

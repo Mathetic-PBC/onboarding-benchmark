@@ -1,0 +1,219 @@
+{
+ "title": "Scale chickpea curry recipe",
+ "create_time": 1766017247.12,
+ "update_time": 1766017471.6788318,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "88c3e5fc-2c2c-4125-a2fa-16b9a85d716b"
+   ]
+  },
+  "88c3e5fc-2c2c-4125-a2fa-16b9a85d716b": {
+   "id": "88c3e5fc-2c2c-4125-a2fa-16b9a85d716b",
+   "message": {
+    "id": "88c3e5fc-2c2c-4125-a2fa-16b9a85d716b",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1766017247.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "recipe serves 4: 2 cans chickpeas, 1 can coconut milk, 1 onion, 3 garlic, 1 tbsp curry powder, 1 can diced tomatoes, spinach 2 cups. i want 10 servings for the week of grading. scale it + does coconut milk freeze ok"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_fd4f8ab1961879330fdb69bea2",
+     "message_source": null,
+     "turn_exchange_id": "61a0461e-de1f-451d-b381-4c10a1979a0f",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "49187456-2fc1-4d12-9e78-aae6566e691f"
+   ]
+  },
+  "49187456-2fc1-4d12-9e78-aae6566e691f": {
+   "id": "49187456-2fc1-4d12-9e78-aae6566e691f",
+   "message": {
+    "id": "49187456-2fc1-4d12-9e78-aae6566e691f",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1766017268.387,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "**Scaled to 10 servings (×2.5):**\n- Chickpeas: 5 cans\n- Coconut milk: 2.5 cans (use 2 full-fat + 1 light, or 3 if you like it richer)\n- Onions: 2–3\n- Garlic: 7–8 cloves\n- Curry powder: 2.5 tbsp (taste; spices don't always need full linear scaling, so start with 2 and add)\n- Diced tomatoes: 2.5 cans (2 cans + a big spoon of tomato paste works)\n- Spinach: 5 cups, added at the end\n\nUse your biggest pot; brown onions in two batches if the pot is crowded or they'll steam.\n\n**Freezing:** coconut-milk curries freeze fine for 2–3 months. The sauce can separate a little on thawing; stir well while reheating and it comes back. Freeze **without** the spinach if possible and add fresh when reheating; frozen spinach in curry goes slimy but is still edible."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_fd4f8ab1961879330fdb69bea2",
+     "message_type": "next",
+     "turn_exchange_id": "61a0461e-de1f-451d-b381-4c10a1979a0f",
+     "model_slug": "gpt-5-1",
+     "default_model_slug": "gpt-5-1",
+     "resolved_model_slug": "gpt-5-1",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "88c3e5fc-2c2c-4125-a2fa-16b9a85d716b"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "88c3e5fc-2c2c-4125-a2fa-16b9a85d716b",
+   "children": [
+    "88d668c9-c7aa-4b27-9d3b-1d1af27a61e2"
+   ]
+  },
+  "88d668c9-c7aa-4b27-9d3b-1d1af27a61e2": {
+   "id": "88d668c9-c7aa-4b27-9d3b-1d1af27a61e2",
+   "message": {
+    "id": "88d668c9-c7aa-4b27-9d3b-1d1af27a61e2",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1766017453.387,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "should i add protein or is chickpeas enough"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_3ecb566ea71a7f0c6d9076b2b7",
+     "message_source": null,
+     "turn_exchange_id": "4eac0abb-5b79-45bc-b07a-97e3fa48d460",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "49187456-2fc1-4d12-9e78-aae6566e691f",
+   "children": [
+    "a0ea30ff-effe-4e1c-a82b-c9a90d2b05f7"
+   ]
+  },
+  "a0ea30ff-effe-4e1c-a82b-c9a90d2b05f7": {
+   "id": "a0ea30ff-effe-4e1c-a82b-c9a90d2b05f7",
+   "message": {
+    "id": "a0ea30ff-effe-4e1c-a82b-c9a90d2b05f7",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1766017469.813,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Chickpeas give ~11–12 g protein per serving at this scale, which is modest. Easy adds: serve with Greek yogurt on top (+8–10 g), cook in some paneer or tofu cubes (+10 g), or add a cup of red lentils with an extra cup of water (+5 g per serving and thicker sauce)."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_3ecb566ea71a7f0c6d9076b2b7",
+     "message_type": "next",
+     "turn_exchange_id": "4eac0abb-5b79-45bc-b07a-97e3fa48d460",
+     "model_slug": "gpt-5-1",
+     "default_model_slug": "gpt-5-1",
+     "resolved_model_slug": "gpt-5-1",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "88d668c9-c7aa-4b27-9d3b-1d1af27a61e2"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "88d668c9-c7aa-4b27-9d3b-1d1af27a61e2",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "a0ea30ff-effe-4e1c-a82b-c9a90d2b05f7",
+ "plugin_ids": null,
+ "conversation_id": "694348df-2f69-836f-8b08-fa01f621539e",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-1",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "694348df-2f69-836f-8b08-fa01f621539e"
+}

@@ -1,0 +1,40 @@
+{
+ "tool": "gemini",
+ "read_at": "2026-10-17",
+ "accounts": {
+  "davidbarron410@gmail.com": {
+   "saved_info_page": "https://gemini.google.com/u/1/saved-info",
+   "saved_info": [
+    {
+     "id": "si_686e5a57be198097",
+     "text": "My training log is a Google Sheet with tabs per week; columns are Date, Activity (Run/Bike/Elliptical), Minutes, Avg HR, Distance.",
+     "created": "2025-11-25"
+    },
+    {
+     "id": "si_4e3491e4f77d256f",
+     "text": "Zone 2 for me is roughly 138–148 bpm.",
+     "created": "2026-01-07"
+    },
+    {
+     "id": "si_46160bcd4dce70b4",
+     "text": "I'm travelling to Dublin in summer 2026 for my cousin Niamh's wedding; I'm vegetarian-flexible and prefer public transport.",
+     "created": "2026-05-25"
+    },
+    {
+     "id": "si_55df9f03b87eb446",
+     "text": "For VT travel funding, my advisor is Dr. Yan Chen and the coordinator is Grace Kim.",
+     "created": "2026-09-21"
+    }
+   ],
+   "custom_instructions": null,
+   "custom_gems": []
+  },
+  "dbarron410@vt.edu": {
+   "saved_info_page": "https://gemini.google.com/u/0/saved-info",
+   "saved_info": null,
+   "page_text": "Saved info is not available for this Workspace account",
+   "custom_instructions": null,
+   "custom_gems": []
+  }
+ }
+}

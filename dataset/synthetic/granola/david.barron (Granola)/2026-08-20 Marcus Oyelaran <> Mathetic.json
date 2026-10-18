@@ -1,0 +1,605 @@
+{
+ "id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Marcus Oyelaran <> Mathetic",
+ "created_at": "2026-08-20T17:58:36.000Z",
+ "updated_at": "2026-08-20T18:11:24.557Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "ead468951bf1a603c54e05250f",
+  "summary": "Marcus Oyelaran <> Mathetic",
+  "start": {
+   "dateTime": "2026-08-20T11:00:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-08-20T11:30:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true
+   },
+   {
+    "email": "marcus@northfieldangels.com",
+    "displayName": "Marcus Oyelaran",
+    "responseStatus": "accepted"
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted",
+    "organizer": true
+   }
+  ],
+  "organizer": {
+   "email": "hudson@mathetic.com"
+  },
+  "creator": {
+   "email": "hudson@mathetic.com"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=8763e3b7bbfe3cf68d304dd52b3e9612e128fd6f",
+  "status": "confirmed",
+  "hangoutLink": "https://meet.google.com/dqg-lkuj-mov"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Marcus Oyelaran",
+    "email": "marcus@northfieldangels.com"
+   },
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### Marcus / Northfield Angels\n\n- Angel with Northfield Angels; writes $25k–$100k checks, usually alongside a lead\n- Background: ran product at an edtech company for 6 years; has seen \"research tools\" fail on retention many times\n- Was introduced through a Surplus alum\n\n### What we pitched\n\n- Engelbart: notebook for researchers that remembers where each thought came from\n- Day-one import of chats, papers, notes, repos and drive so it's useful immediately\n- Early users: PhD students and postdocs; first research chats at Berkeley start Sep 9\n\n### Marcus's questions\n\n- **Retention**: \"Researchers try every tool once. What makes week 4 look different from week 1?\"\n  - Our answer: the import means the history is already there; recall gets better the more you write\n  - He wasn't convinced; wants to see a cohort, even a tiny one\n- **Who pays**: individual students won't; PIs rarely pay for personal tools; institutions are slow\n  - He suggested looking at postdocs and industry research labs, where the budget is clearer\n- **Why now**: AI chats have become where a lot of research thinking happens and nobody owns that history\n- **Team**: asked how David's PhD leave works — leave effective Fall 2026, can return\n\n### Signals\n\n- Interested but too early; \"come back when you have people using it every week\"\n- Offered to look at the pricing page draft and to intro one research-lab buyer\n\n### Next steps\n\n- [ ] Hudson — send follow-up note with memo + timeline to pilots (target: first pilots in October)\n- [ ] David — get 3–5 weekly users before the next call\n- [ ] Marcus — intro to an industry research-ops contact\n- [ ] Reconnect mid-October with retention numbers\n",
+ "notes_plain": "Marcus / Northfield Angels\n\nAngel with Northfield Angels; writes $25k–$100k checks, usually alongside a lead\nBackground: ran product at an edtech company for 6 years; has seen \"research tools\" fail on retention many times\nWas introduced through a Surplus alum\n\nWhat we pitched\n\nEngelbart: notebook for researchers that remembers where each thought came from\nDay-one import of chats, papers, notes, repos and drive so it's useful immediately\nEarly users: PhD students and postdocs; first research chats at Berkeley start Sep 9\n\nMarcus's questions\n\nRetention: \"Researchers try every tool once. What makes week 4 look different from week 1?\"\n  Our answer: the import means the history is already there; recall gets better the more you write\n  He wasn't convinced; wants to see a cohort, even a tiny one\nWho pays: individual students won't; PIs rarely pay for personal tools; institutions are slow\n  He suggested looking at postdocs and industry research labs, where the budget is clearer\nWhy now: AI chats have become where a lot of research thinking happens and nobody owns that history\nTeam: asked how David's PhD leave works — leave effective Fall 2026, can return\n\nSignals\n\nInterested but too early; \"come back when you have people using it every week\"\nOffered to look at the pricing page draft and to intro one research-lab buyer\n\nNext steps\n\nHudson — send follow-up note with memo + timeline to pilots (target: first pilots in October)\nDavid — get 3–5 weekly users before the next call\nMarcus — intro to an industry research-ops contact\nReconnect mid-October with retention numbers\n",
+ "transcript": [
+  {
+   "id": "802a2018-3b20-4587-bc0e-3e66a5f5d7bc",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:00:17.169Z",
+   "end_timestamp": "2026-08-20T18:00:20.831Z",
+   "text": "Hey, good morning. Can you hear me okay?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "ca45b22b-353f-48bd-a619-4e87247c16d8",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:00:22.472Z",
+   "end_timestamp": "2026-08-20T18:00:26.296Z",
+   "text": "Morning Marcus! Yeah, loud and clear. David's here too.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "928b4096-3f8c-4666-b0ce-045a3fe5ad19",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:00:27.075Z",
+   "end_timestamp": "2026-08-20T18:00:30.672Z",
+   "text": "Hi, um, hi Marcus. Thanks for making time.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "25e4ab57-3aa2-4452-9dd4-9e3a9302d0d4",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:00:31.532Z",
+   "end_timestamp": "2026-08-20T18:00:40.803Z",
+   "text": "Of course. Jess from your Surplus cohort said I should talk to you two, and she's usually right. Where are you both?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "6674ba1a-fc30-4bf7-aecc-9cb8bab09030",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:00:42.649Z",
+   "end_timestamp": "2026-08-20T18:00:50.308Z",
+   "text": "We're at the Surplus house in SF. Different rooms, same Wi-Fi, or, uh, sometimes the same Wi-Fi.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "715dd156-2007-4b37-a12a-83ddb59ca330",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:00:51.086Z",
+   "end_timestamp": "2026-08-20T18:00:57.732Z",
+   "text": "Ha. I remember those houses. Okay, tell me the thing. Short version, then I'll interrupt.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "94676438-b26d-49b0-a0a3-acb412fd6b60",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:00:59.585Z",
+   "end_timestamp": "2026-08-20T18:01:14.468Z",
+   "text": "Short version. We're building Engelbart. It's a research notebook that remembers where every thought came from. You connect your chats, your papers, your notes, and when you write, it shows you the trail behind an idea.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "0a513153-3cdf-4876-8701-98c4a7005edf",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:01:15.782Z",
+   "end_timestamp": "2026-08-20T18:01:17.071Z",
+   "text": "Who's it for?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "46f5f0f8-b874-4e2a-b51f-3f1894f73788",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:01:19.023Z",
+   "end_timestamp": "2026-08-20T18:01:29.923Z",
+   "text": "Right now, PhD students and postdocs. I'm, um, I'm a PhD student myself, at Virginia Tech, HCI. I'm on leave as of this fall to do this.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "a924c520-8aad-4153-827d-8c2e65c332be",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:01:31.021Z",
+   "end_timestamp": "2026-08-20T18:01:34.704Z",
+   "text": "Okay. On leave meaning you can go back?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "18ba0782-d1f5-421a-ba14-c518728e2dd5",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:01:36.650Z",
+   "end_timestamp": "2026-08-20T18:01:44.394Z",
+   "text": "Yeah. It's a formal leave, it's effective fall semester. My advisor knows, she's — she's been supportive actually.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "f51e63f0-bc4b-40ff-99eb-648d69cbb3d8",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:01:46.030Z",
+   "end_timestamp": "2026-08-20T18:02:05.860Z",
+   "text": "Good, that's honest. So let me just say up front, I ran product at an edtech company for six years and I've watched maybe a dozen research tools come and go. They all have great week one. What does week four look like for you?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "450a2b04-b281-4a9b-8644-05800e605b2d",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:02:07.345Z",
+   "end_timestamp": "2026-08-20T18:02:22.235Z",
+   "text": "So the thing that's different for us is the import. Most tools start empty, so the user does all the work of filling it. We import your history on day one, so in week four you're not—",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "dfd74263-2d7e-469c-9ed0-1851158b1f44",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:02:22.321Z",
+   "end_timestamp": "2026-08-20T18:02:30.145Z",
+   "text": "But that's still week one. The import is a week-one moment. I'm asking why they come back.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "c74f2b53-2368-4621-b949-02ab6b6d4818",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:02:31.742Z",
+   "end_timestamp": "2026-08-20T18:02:51.561Z",
+   "text": "Um. Yeah. I think — honestly, I think the answer is when you're writing. Like when you sit down to write a related work section and it surfaces the chat from three months ago where you argued with Claude about the exact paper you need.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "500f4d3f-f82d-4534-8d7d-d6fa5f21583b",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:02:53.350Z",
+   "end_timestamp": "2026-08-20T18:02:56.556Z",
+   "text": "Has that happened to anyone but you?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "4a1ea731-6471-45ce-9b3d-92ae61754786",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:02:57.226Z",
+   "end_timestamp": "2026-08-20T18:03:01.363Z",
+   "text": "It's happened to me. And to Hudson. So, no.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "418d0c9d-70ff-4904-8166-d32f10e3c4a3",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:03:02.342Z",
+   "end_timestamp": "2026-08-20T18:03:07.045Z",
+   "text": "Okay. I appreciate that. Most people would lie to me there.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "c8254520-81ea-4888-ad09-181b515e05b7",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:03:07.331Z",
+   "end_timestamp": "2026-08-20T18:03:13.776Z",
+   "text": "We're starting research chats at Berkeley in a couple weeks. The first one's the ninth.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "cf54e821-9a93-45aa-87d7-c62f99461ad9",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:03:14.650Z",
+   "end_timestamp": "2026-08-20T18:03:16.773Z",
+   "text": "Research chats meaning user interviews?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "41e46e76-e0e2-4c11-84e3-1fcb98203b14",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:03:17.275Z",
+   "end_timestamp": "2026-08-20T18:03:23.878Z",
+   "text": "Kind of. We're not pitching. We're asking how people keep track of where ideas come from.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "966473cd-94b7-43df-831d-24f0b87b230a",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:03:25.631Z",
+   "end_timestamp": "2026-08-20T18:03:30.553Z",
+   "text": "That's good. Do that. Now, the question I always ask. Who pays?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "90da07cd-d845-419d-908f-c5b34b499cdb",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:03:32.537Z",
+   "end_timestamp": "2026-08-20T18:03:34.088Z",
+   "text": "Yeah. Lena warned us.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "593ec266-93f9-4739-8978-356bcf8d8696",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:03:34.907Z",
+   "end_timestamp": "2026-08-20T18:03:44.733Z",
+   "text": "Lena's right. Students don't pay. They'll pay for ChatGPT because it does their homework, sorry, but they won't pay for a notebook.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "0ed24e20-5813-43ea-8b4e-b8a233962a52",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:03:45.505Z",
+   "end_timestamp": "2026-08-20T18:03:46.715Z",
+   "text": "That's — yeah.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "7bbd77fc-9ebb-44f4-a295-9ba15bacdf3c",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:03:47.322Z",
+   "end_timestamp": "2026-08-20T18:03:48.209Z",
+   "text": "And PIs?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "b28b37dc-3aad-4d86-b5d3-a59290ec92d6",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:03:50.108Z",
+   "end_timestamp": "2026-08-20T18:04:01.313Z",
+   "text": "My honest data point is my advisor would pay for compute. She would not pay for a notebook. I asked her, kind of, indirectly.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "4da17d56-5b51-4f74-95a6-4174677a1f8c",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:04:03.451Z",
+   "end_timestamp": "2026-08-20T18:04:04.425Z",
+   "text": "Right. Institutions?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "d61b1186-9305-420f-bc6a-9324b147c1cf",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:04:05.852Z",
+   "end_timestamp": "2026-08-20T18:04:07.154Z",
+   "text": "Slow. We know.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "71d91c9d-2307-4ae2-bf98-685e0113fc3a",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:04:08.775Z",
+   "end_timestamp": "2026-08-20T18:04:32.706Z",
+   "text": "Slow is generous. So here's what I'd look at. Postdocs. They have a little discretionary money, they're under pressure to publish, and they're, um, they're more desperate about their own time than students are. And industry research labs. A research-ops person at a big lab has a budget line for exactly this kind of thing.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "0f168659-b126-4a45-9570-7809e3e12a87",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:04:34.101Z",
+   "end_timestamp": "2026-08-20T18:04:38.062Z",
+   "text": "That's interesting, we haven't talked to anyone in research ops.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "0d4b1b7f-9aa7-4e56-b5b5-8bbfd171c9d5",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:04:38.795Z",
+   "end_timestamp": "2026-08-20T18:04:42.246Z",
+   "text": "I can probably intro you to one. No promises.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "53e565d8-93b8-4f75-95da-e2388950327e",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:04:43.448Z",
+   "end_timestamp": "2026-08-20T18:04:45.225Z",
+   "text": "That would be great.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ec310c45-35d5-476f-be81-974bb9fbf8d2",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:04:45.511Z",
+   "end_timestamp": "2026-08-20T18:04:47.553Z",
+   "text": "Pricing, what are you thinking?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "80ad3adc-6a51-4137-9d4a-02018de93818",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:04:48.861Z",
+   "end_timestamp": "2026-08-20T18:04:53.261Z",
+   "text": "Fifteen a month individual. Lab license is a question mark.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "fead7c19-9113-4225-95bf-9a6cacfe7c88",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:04:54.210Z",
+   "end_timestamp": "2026-08-20T18:05:01.967Z",
+   "text": "Fifteen's fine for now. Don't over-think pricing at this stage. Think about who feels the pain enough to expense it.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "1f863edd-6759-44ce-b363-acd8ec04bace",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:05:02.605Z",
+   "end_timestamp": "2026-08-20T18:05:10.395Z",
+   "text": "Can I ask what you'd want to see? Like before it'd make sense to talk about investing.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "bac07191-18f3-4be9-83dc-8353c96ea8af",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:05:10.713Z",
+   "end_timestamp": "2026-08-20T18:05:26.738Z",
+   "text": "Sure. Not revenue. People using it every week. Even five. If you show me five researchers who open it every week for a month, and they didn't have to, that's interesting. Right now you're very early.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "233eed0c-8395-41cf-8875-f7984b3c4878",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:05:28.530Z",
+   "end_timestamp": "2026-08-20T18:05:29.386Z",
+   "text": "Totally fair.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "9a539ebf-2d88-4c7e-abf2-1e18c8848493",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:05:31.086Z",
+   "end_timestamp": "2026-08-20T18:05:37.619Z",
+   "text": "Why now, by the way? People have been building research notebooks for twenty years.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "e45b6f9f-c4b1-4430-82d0-bb20a9477011",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:05:39.191Z",
+   "end_timestamp": "2026-08-20T18:05:57.730Z",
+   "text": "Because the thinking moved. Like, three years ago my ideas were in my notes. Now half of them are in chats with Claude or ChatGPT, and those are just... gone, basically. Nobody keeps that history in a useful place. That's the change.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "acf6924f-0577-4cd5-9d0a-642b930b5c07",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:05:58.812Z",
+   "end_timestamp": "2026-08-20T18:06:03.156Z",
+   "text": "That's actually the best thing you've said. Lead with that.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "3700cf36-9e2b-4885-87a4-c6aac26f4a5e",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:06:04.366Z",
+   "end_timestamp": "2026-08-20T18:06:07.163Z",
+   "text": "Writing that down. \"Lead with the chats.\"",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "3673b52f-6a72-436b-8a26-c23901c8ac6a",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:06:08.612Z",
+   "end_timestamp": "2026-08-20T18:06:12.259Z",
+   "text": "And the name, Engelbart, as in Doug Engelbart?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "b4af7a7d-90e7-4a26-99ed-1d35fd695f35",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:06:13.055Z",
+   "end_timestamp": "2026-08-20T18:06:20.238Z",
+   "text": "Yeah. Augmenting human intellect. I've been in a reading group on that stuff, Engelbart, Bush, Licklider.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "93970120-f351-4634-8dd5-f14e7845c056",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:06:20.464Z",
+   "end_timestamp": "2026-08-20T18:06:27.463Z",
+   "text": "Nerds will love it. Normal people will think it's a law firm. Doesn't matter yet.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "5cd0ed2d-7a90-4655-b7d3-29a0227b154f",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:06:28.976Z",
+   "end_timestamp": "2026-08-20T18:06:29.899Z",
+   "text": "Ha. Fair.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "53ef154e-3311-4662-85ec-b03f53c35e88",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:06:31.148Z",
+   "end_timestamp": "2026-08-20T18:06:41.431Z",
+   "text": "Okay, I have a hard stop in five. Send me whatever memo you have, and a timeline for pilots. When do you expect people actually using it?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "87e56452-f5c1-4d12-a23a-ad8adb958f88",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:06:42.638Z",
+   "end_timestamp": "2026-08-20T18:06:44.689Z",
+   "text": "October. First pilots early October.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "697d562c-e5ed-4d8d-9b5f-41695b943fc5",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:06:46.642Z",
+   "end_timestamp": "2026-08-20T18:06:50.847Z",
+   "text": "Then let's talk mid-October. Bring numbers, even ugly ones.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "b3b9098f-23de-4f7b-807a-2fcf648e4b35",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:06:52.972Z",
+   "end_timestamp": "2026-08-20T18:06:56.434Z",
+   "text": "Will do. Thank you, this was really useful.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "3759a6b2-8a92-4672-96c2-612f99de3ec3",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:06:58.524Z",
+   "end_timestamp": "2026-08-20T18:07:07.066Z",
+   "text": "Good luck, guys. And David — keep the leave option open as long as you can. No shame in it.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "533c99c0-5727-4ffa-b772-b783f31e4ce5",
+   "document_id": "42855a20-c489-4bb7-95bb-4e4fb7234cb0",
+   "start_timestamp": "2026-08-20T18:07:07.584Z",
+   "end_timestamp": "2026-08-20T18:07:08.557Z",
+   "text": "Yeah. Thanks.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  }
+ ]
+}

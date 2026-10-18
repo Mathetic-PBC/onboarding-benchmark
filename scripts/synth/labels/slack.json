@@ -1,0 +1,648 @@
+{
+ "PRIME Lab (VT)/files/F0SYN8WD0AZ__Ostrowski2025_arXiv_v1.pdf": {
+  "project_ids": [
+   "project_tutortrace",
+   "project_vizpi"
+  ],
+  "notes": "HARD CASE: same paper in several places — Ostrowski et al. 2025 arXiv v1 PDF shared by Minsun in #paper-reading (same bytes as the copies in zotero/pdfs/gmail; camera-ready v2 elsewhere is a near-duplicate)"
+ },
+ "PRIME Lab (VT)/files/F0SYNWKVZDE__VizPI_labeling_guide_v3.pdf": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "Slack file 'VizPI_labeling_guide_v3' shared in #labeling (adds stalled-after-error)"
+ },
+ "PRIME Lab (VT)/files/F0SYN03RLCR__dep2_section_event_loss.csv": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "Slack file 'dep2_section_event_loss.csv': per-bucket telemetry loss, deployment #2"
+ },
+ "PRIME Lab (VT)/files/F0SYN0G1VHD__idetrace_f1_random_vs_grouped.csv": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "Slack file: IDETrace baselines, random-window vs student-grouped split (leakage fix)"
+ },
+ "Surplus Residents/files/F0SYNNVXPCW__Surplus_Resident_Handbook_Cohort7.pdf": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "Slack file: Surplus resident handbook pinned in #announcements"
+ },
+ "PRIME Lab (VT)/general__C0SYNYCEN6N/messages.json": {
+  "project_ids": [
+   "project_idetrace",
+   "project_mathetic_company",
+   "project_tutortrace",
+   "project_vizpi",
+   "project_vt_phd_admin"
+  ],
+  "notes": "#general: 18 messages parsed from history.txt, oldest first — lab-wide channel: deployment, deadlines, lab logistics, the leave announcement"
+ },
+ "PRIME Lab (VT)/general__C0SYNYCEN6N/history.txt": {
+  "project_ids": [
+   "project_idetrace",
+   "project_mathetic_company",
+   "project_tutortrace",
+   "project_vizpi",
+   "project_vt_phd_admin"
+  ],
+  "notes": "#general: 18 messages, raw connector pages (newest first) — lab-wide channel: deployment, deadlines, lab logistics, the leave announcement"
+ },
+ "PRIME Lab (VT)/general__C0SYNYCEN6N/threads/1762988749.372295.txt": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "#general: thread under message 1762988749.372295"
+ },
+ "PRIME Lab (VT)/general__C0SYNYCEN6N/threads/1765204217.485571.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "#general: thread under message 1765204217.485571"
+ },
+ "PRIME Lab (VT)/general__C0SYNYCEN6N/threads/1769572093.774083.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "#general: thread under message 1769572093.774083"
+ },
+ "PRIME Lab (VT)/general__C0SYNYCEN6N/threads/1783034465.337259.txt": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "#general: thread under message 1783034465.337259"
+ },
+ "PRIME Lab (VT)/general__C0SYNYCEN6N/threads/1785771011.049595.txt": {
+  "project_ids": [
+   "project_mathetic_company",
+   "project_vt_phd_admin"
+  ],
+  "notes": "announcement of the leave of absence (PERSON.md §7); mentions UIST camera-ready and IDETrace rebuttal in passing"
+ },
+ "PRIME Lab (VT)/vizpi__C0SYNSLB41X/messages.json": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "#vizpi: 19 messages parsed from history.txt, oldest first — VizPI CS 3114 deployments, reconnect bug, Cursor trial, handoff"
+ },
+ "PRIME Lab (VT)/vizpi__C0SYNSLB41X/history.txt": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "#vizpi: 19 messages, raw connector pages (newest first) — VizPI CS 3114 deployments, reconnect bug, Cursor trial, handoff"
+ },
+ "PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1761069721.220538.txt": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "#vizpi: thread under message 1761069721.220538"
+ },
+ "PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1762402558.610885.txt": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "#vizpi: thread under message 1762402558.610885"
+ },
+ "PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1762532449.643696.txt": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "#vizpi: thread under message 1762532449.643696"
+ },
+ "PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1762981813.108060.txt": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "#vizpi: thread under message 1762981813.108060"
+ },
+ "PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1763048429.177668.txt": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "#vizpi: thread under message 1763048429.177668"
+ },
+ "PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1768959841.684777.txt": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "#vizpi: thread under message 1768959841.684777"
+ },
+ "PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1771963507.178730.txt": {
+  "project_ids": [
+   "project_tutortrace",
+   "project_vizpi"
+  ],
+  "notes": "#vizpi: thread under message 1771963507.178730"
+ },
+ "PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1785874856.443204.txt": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "#vizpi: thread under message 1785874856.443204"
+ },
+ "PRIME Lab (VT)/labeling__C0SYNRXUA9Z/messages.json": {
+  "project_ids": [
+   "project_tutortrace",
+   "project_vizpi"
+  ],
+  "notes": "#labeling: 10 messages parsed from history.txt, oldest first — Nov 2025 labeling sprint (guide v3, kappa)"
+ },
+ "PRIME Lab (VT)/labeling__C0SYNRXUA9Z/history.txt": {
+  "project_ids": [
+   "project_tutortrace",
+   "project_vizpi"
+  ],
+  "notes": "#labeling: 10 messages, raw connector pages (newest first) — Nov 2025 labeling sprint (guide v3, kappa)"
+ },
+ "PRIME Lab (VT)/labeling__C0SYNRXUA9Z/threads/1763263862.677098.txt": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "#labeling: thread under message 1763263862.677098"
+ },
+ "PRIME Lab (VT)/labeling__C0SYNRXUA9Z/threads/1763396153.042015.txt": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "#labeling: thread under message 1763396153.042015"
+ },
+ "PRIME Lab (VT)/labeling__C0SYNRXUA9Z/threads/1763586170.073888.txt": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "#labeling: thread under message 1763586170.073888"
+ },
+ "PRIME Lab (VT)/labeling__C0SYNRXUA9Z/threads/1763768431.975827.txt": {
+  "project_ids": [
+   "project_tutortrace",
+   "project_vizpi"
+  ],
+  "notes": "#labeling: thread under message 1763768431.975827"
+ },
+ "PRIME Lab (VT)/labeling__C0SYNRXUA9Z/threads/1781275529.160847.txt": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "#labeling: thread under message 1781275529.160847"
+ },
+ "PRIME Lab (VT)/uist26__C0SYNVU80MK/messages.json": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "#uist26: 26 messages parsed from history.txt, oldest first — TutorTrace UIST 2026: crunch, rebuttal, camera-ready"
+ },
+ "PRIME Lab (VT)/uist26__C0SYNVU80MK/history.txt": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "#uist26: 26 messages, raw connector pages (newest first) — TutorTrace UIST 2026: crunch, rebuttal, camera-ready"
+ },
+ "PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1773641652.390306.txt": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "#uist26: thread under message 1773641652.390306"
+ },
+ "PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1774458640.580493.txt": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "#uist26: thread under message 1774458640.580493"
+ },
+ "PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1774583743.861343.txt": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "#uist26: thread under message 1774583743.861343"
+ },
+ "PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1774661450.495638.txt": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "#uist26: thread under message 1774661450.495638"
+ },
+ "PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1774914003.523214.txt": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "#uist26: thread under message 1774914003.523214"
+ },
+ "PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1775013150.462755.txt": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "#uist26: thread under message 1775013150.462755"
+ },
+ "PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1781181004.153887.txt": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "#uist26: thread under message 1781181004.153887"
+ },
+ "PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1781708449.607732.txt": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "#uist26: thread under message 1781708449.607732"
+ },
+ "PRIME Lab (VT)/idetrace__C0SYNC99ZVR/messages.json": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "#idetrace: 16 messages parsed from history.txt, oldest first — IDETrace NeurIPS D&B: submission, leakage bug, rebuttal"
+ },
+ "PRIME Lab (VT)/idetrace__C0SYNC99ZVR/history.txt": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "#idetrace: 16 messages, raw connector pages (newest first) — IDETrace NeurIPS D&B: submission, leakage bug, rebuttal"
+ },
+ "PRIME Lab (VT)/idetrace__C0SYNC99ZVR/threads/1776890442.749558.txt": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "#idetrace: thread under message 1776890442.749558"
+ },
+ "PRIME Lab (VT)/idetrace__C0SYNC99ZVR/threads/1777601736.805050.txt": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "#idetrace: thread under message 1777601736.805050"
+ },
+ "PRIME Lab (VT)/idetrace__C0SYNC99ZVR/threads/1784868055.241815.txt": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "#idetrace: thread under message 1784868055.241815"
+ },
+ "PRIME Lab (VT)/idetrace__C0SYNC99ZVR/threads/1785018614.011172.txt": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "#idetrace: thread under message 1785018614.011172"
+ },
+ "PRIME Lab (VT)/random__C0SYNJRKKDM/messages.json": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "#random: 13 messages parsed from history.txt, oldest first — off-topic lab chatter (cake, chess, snow, a 5k, a beat)"
+ },
+ "PRIME Lab (VT)/random__C0SYNJRKKDM/history.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "#random: 13 messages, raw connector pages (newest first) — off-topic lab chatter (cake, chess, snow, a 5k, a beat)"
+ },
+ "PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1761339347.126950.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "#random: thread under message 1761339347.126950"
+ },
+ "PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1762132553.440946.txt": {
+  "project_ids": [
+   "project_endurance_training"
+  ],
+  "notes": "#random: thread under message 1762132553.440946"
+ },
+ "PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1765422915.609907.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "#random: thread under message 1765422915.609907"
+ },
+ "PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1769431257.913086.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "#random: thread under message 1769431257.913086"
+ },
+ "PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1770237043.380765.txt": {
+  "project_ids": [
+   "project_music_production"
+  ],
+  "notes": "#random: thread under message 1770237043.380765"
+ },
+ "PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1773331822.193888.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "#random: thread under message 1773331822.193888"
+ },
+ "PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1775772320.825582.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "#random: thread under message 1775772320.825582"
+ },
+ "PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1779289224.034314.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "#random: thread under message 1779289224.034314"
+ },
+ "PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1784572218.993824.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "#random: thread under message 1784572218.993824"
+ },
+ "PRIME Lab (VT)/paper-reading__C0SYN8VUQGK/messages.json": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_idetrace",
+   "project_tutortrace",
+   "project_vizpi"
+  ],
+  "notes": "HARD CASE: same paper in several places — #paper-reading holds the Ostrowski et al. 2025 PDF share (file in files/) and its discussion; #paper-reading: 12 messages parsed from history.txt, oldest first"
+ },
+ "PRIME Lab (VT)/paper-reading__C0SYN8VUQGK/history.txt": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_idetrace",
+   "project_tutortrace",
+   "project_vizpi"
+  ],
+  "notes": "HARD CASE: same paper in several places — #paper-reading holds the Ostrowski et al. 2025 PDF share (file in files/) and its discussion; #paper-reading: 12 messages, raw connector pages (newest first)"
+ },
+ "PRIME Lab (VT)/paper-reading__C0SYN8VUQGK/threads/1763604308.355803.txt": {
+  "project_ids": [
+   "project_tutortrace",
+   "project_vizpi"
+  ],
+  "notes": "HARD CASE: same paper in several places — Minsun shares the Ostrowski et al. 2025 arXiv v1 PDF; the thread discusses it against the VizPI labeling sprint"
+ },
+ "PRIME Lab (VT)/paper-reading__C0SYN8VUQGK/threads/1771475407.092909.txt": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "#paper-reading: thread under message 1771475407.092909"
+ },
+ "PRIME Lab (VT)/paper-reading__C0SYN8VUQGK/threads/1776301810.815419.txt": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group"
+  ],
+  "notes": "#paper-reading: thread under message 1776301810.815419"
+ },
+ "PRIME Lab (VT)/DM_with_Yan_Chen__D0SYNCY7CFK/messages.json": {
+  "project_ids": [
+   "project_cs3604_gta",
+   "project_idetrace",
+   "project_tutortrace",
+   "project_vizpi",
+   "project_vt_phd_admin"
+  ],
+  "notes": "DM with Yan Chen: 29 messages parsed from history.txt, oldest first — advisor DMs: scheduling, UIST pitch, rebuttal, leave of absence, travel funding, talk"
+ },
+ "PRIME Lab (VT)/DM_with_Yan_Chen__D0SYNCY7CFK/history.txt": {
+  "project_ids": [
+   "project_cs3604_gta",
+   "project_idetrace",
+   "project_tutortrace",
+   "project_vizpi",
+   "project_vt_phd_admin"
+  ],
+  "notes": "DM with Yan Chen: 29 messages, raw connector pages (newest first) — advisor DMs: scheduling, UIST pitch, rebuttal, leave of absence, travel funding, talk"
+ },
+ "PRIME Lab (VT)/DM_with_Minsun__D0SYNHWH4DR/messages.json": {
+  "project_ids": [
+   "project_tutortrace",
+   "project_vizpi"
+  ],
+  "notes": "DM with Minsun: 15 messages parsed from history.txt, oldest first"
+ },
+ "PRIME Lab (VT)/DM_with_Minsun__D0SYNHWH4DR/history.txt": {
+  "project_ids": [
+   "project_tutortrace",
+   "project_vizpi"
+  ],
+  "notes": "DM with Minsun: 15 messages, raw connector pages (newest first)"
+ },
+ "PRIME Lab (VT)/DM_with_Xiaohang__D0SYNCECCC3/messages.json": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "DM with Xiaohang: 16 messages parsed from history.txt, oldest first — IDETrace student-id join and grouped splits"
+ },
+ "PRIME Lab (VT)/DM_with_Xiaohang__D0SYNCECCC3/history.txt": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "DM with Xiaohang: 16 messages, raw connector pages (newest first) — IDETrace student-id join and grouped splits"
+ },
+ "PRIME Lab (VT)/DM_with_Rezky__D0SYNF9FHAH/messages.json": {
+  "project_ids": [
+   "project_tutortrace",
+   "project_vizpi"
+  ],
+  "notes": "DM with Rezky: 13 messages parsed from history.txt, oldest first"
+ },
+ "PRIME Lab (VT)/DM_with_Rezky__D0SYNF9FHAH/history.txt": {
+  "project_ids": [
+   "project_tutortrace",
+   "project_vizpi"
+  ],
+  "notes": "DM with Rezky: 13 messages, raw connector pages (newest first)"
+ },
+ "PRIME Lab (VT)/DM_with_Yue__D0SYNNK74E8/messages.json": {
+  "project_ids": [
+   "project_idetrace",
+   "project_tutortrace"
+  ],
+  "notes": "DM with Yue: 11 messages parsed from history.txt, oldest first"
+ },
+ "PRIME Lab (VT)/DM_with_Yue__D0SYNNK74E8/history.txt": {
+  "project_ids": [
+   "project_idetrace",
+   "project_tutortrace"
+  ],
+  "notes": "DM with Yue: 11 messages, raw connector pages (newest first)"
+ },
+ "PRIME Lab (VT)/conversations.md": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "conversation list from the connector (12 conversations); index only"
+ },
+ "PRIME Lab (VT)/users/U0SYNZSPT5P.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "user profile: David Barron (directory metadata)"
+ },
+ "PRIME Lab (VT)/users/U0SYNWFLRZV.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "user profile: Yan Chen (directory metadata)"
+ },
+ "PRIME Lab (VT)/users/U0SYN15CS2P.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "user profile: Minsun (directory metadata)"
+ },
+ "PRIME Lab (VT)/users/U0SYN2JB5HW.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "user profile: Xiaohang (directory metadata)"
+ },
+ "PRIME Lab (VT)/users/U0SYNS0GL2E.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "user profile: Rezky (directory metadata)"
+ },
+ "PRIME Lab (VT)/users/U0SYNRUS5ER.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "user profile: Yue (directory metadata)"
+ },
+ "Surplus Residents/announcements__C0SYNLFX1AX/messages.json": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "#announcements: 12 messages parsed from history.txt, oldest first — incubator program announcements (Lena)"
+ },
+ "Surplus Residents/announcements__C0SYNLFX1AX/history.txt": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "#announcements: 12 messages, raw connector pages (newest first) — incubator program announcements (Lena)"
+ },
+ "Surplus Residents/announcements__C0SYNLFX1AX/threads/1787677538.341233.txt": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "#announcements: thread under message 1787677538.341233"
+ },
+ "Surplus Residents/demo-day__C0SYNDEA9SB/messages.json": {
+  "project_ids": [
+   "project_engelbart",
+   "project_mathetic_company"
+  ],
+  "notes": "#demo-day: 8 messages parsed from history.txt, oldest first — pitch practice and feedback for demo day"
+ },
+ "Surplus Residents/demo-day__C0SYNDEA9SB/history.txt": {
+  "project_ids": [
+   "project_engelbart",
+   "project_mathetic_company"
+  ],
+  "notes": "#demo-day: 8 messages, raw connector pages (newest first) — pitch practice and feedback for demo day"
+ },
+ "Surplus Residents/demo-day__C0SYNDEA9SB/threads/1791349808.673755.txt": {
+  "project_ids": [
+   "project_engelbart",
+   "project_mathetic_company"
+  ],
+  "notes": "#demo-day: thread under message 1791349808.673755"
+ },
+ "Surplus Residents/demo-day__C0SYNDEA9SB/threads/1792022730.838677.txt": {
+  "project_ids": [
+   "project_engelbart",
+   "project_mathetic_company"
+  ],
+  "notes": "#demo-day: thread under message 1792022730.838677"
+ },
+ "Surplus Residents/demo-day__C0SYNDEA9SB/threads/1792131031.505432.txt": {
+  "project_ids": [
+   "project_engelbart",
+   "project_mathetic_company"
+  ],
+  "notes": "#demo-day: thread under message 1792131031.505432"
+ },
+ "Surplus Residents/housing__C0SYNFHV2TW/messages.json": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "#housing: 9 messages parsed from history.txt, oldest first — house logistics: groceries, chores, bike shop, dishwasher"
+ },
+ "Surplus Residents/housing__C0SYNFHV2TW/history.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "#housing: 9 messages, raw connector pages (newest first) — house logistics: groceries, chores, bike shop, dishwasher"
+ },
+ "Surplus Residents/housing__C0SYNFHV2TW/threads/1786309212.053607.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "#housing: thread under message 1786309212.053607"
+ },
+ "Surplus Residents/housing__C0SYNFHV2TW/threads/1786680310.881702.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "#housing: thread under message 1786680310.881702"
+ },
+ "Surplus Residents/housing__C0SYNFHV2TW/threads/1787237139.837055.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "#housing: thread under message 1787237139.837055"
+ },
+ "Surplus Residents/housing__C0SYNFHV2TW/threads/1787807731.090471.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "#housing: thread under message 1787807731.090471"
+ },
+ "Surplus Residents/housing__C0SYNFHV2TW/threads/1789270255.141184.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "#housing: thread under message 1789270255.141184"
+ },
+ "Surplus Residents/housing__C0SYNFHV2TW/threads/1792099836.846342.txt": {
+  "project_ids": [
+   "project_endurance_training"
+  ],
+  "notes": "#housing: thread under message 1792099836.846342"
+ },
+ "Surplus Residents/DM_with_Lena_Hoffmann__D0SYN5WSF9J/messages.json": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "DM with Lena Hoffmann: 16 messages parsed from history.txt, oldest first — program lead DMs: desk, residency agreement, check-in, intro to Daniel Osei"
+ },
+ "Surplus Residents/DM_with_Lena_Hoffmann__D0SYN5WSF9J/history.txt": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "DM with Lena Hoffmann: 16 messages, raw connector pages (newest first) — program lead DMs: desk, residency agreement, check-in, intro to Daniel Osei"
+ },
+ "Surplus Residents/conversations.md": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "conversation list from the connector (4 conversations); index only"
+ },
+ "Surplus Residents/users/U0SYNVW3EYJ.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "user profile: David Barron (directory metadata)"
+ },
+ "Surplus Residents/users/U0SYN5ZJ8LX.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "user profile: Hudson Mitchell-Pullman (directory metadata)"
+ },
+ "Surplus Residents/users/U0SYN4FPGQV.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "user profile: Lena Hoffmann (directory metadata)"
+ },
+ "Surplus Residents/users/U0SYNVE4VUN.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "user profile: Sam Whitaker (directory metadata)"
+ }
+}

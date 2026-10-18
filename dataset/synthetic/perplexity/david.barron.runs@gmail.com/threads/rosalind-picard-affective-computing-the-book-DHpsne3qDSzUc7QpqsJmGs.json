@@ -1,0 +1,59 @@
+{
+ "uuid": "8861efd5-dc1a-4004-af17-d34caff3d961",
+ "slug": "rosalind-picard-affective-computing-the-book-DHpsne3qDSzUc7QpqsJmGs",
+ "title": "Picard's Affective Computing main argument",
+ "thread_url": "https://www.perplexity.ai/search/rosalind-picard-affective-computing-the-book-DHpsne3qDSzUc7QpqsJmGs",
+ "created_at": "2026-01-22T04:05:00Z",
+ "updated_at": "2026-01-22T04:10:24Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "c4bfedef-09db-4547-88f9-4a3218631c48",
+   "query_str": "rosalind picard affective computing (the book) main argument in like 5 bullets, for a class reading response",
+   "answer": "Here's the core argument of *Affective Computing* (Picard, 1997), condensed [1][2]:\n\n- **Emotion is part of intelligence, not opposed to it.** Drawing on neuroscience of decision-making, the book argues that emotion plays a functional role in attention, memory and rational choice, so machines meant to interact intelligently with people should account for it [1].\n- **Computers can recognize affect from signals.** Facial expression, voice, posture and physiological measures (e.g., skin conductance, heart rate) carry information about affective state that pattern-recognition methods can model, imperfectly [2].\n- **Computers can express or simulate affect** in ways that change how people interact with them — which raises design choices about when that is appropriate.\n- **Recognition is probabilistic and person-dependent.** The same signal can mean different things for different people and contexts, so models should be personalized and uncertain rather than declare \"the user is angry\" [2].\n- **Ethics and privacy are central, not an afterthought.** Sensing emotion is intimate data; the book discusses consent, user control and the risk of manipulation [3].\n\nFor a reading response, a good angle is the tension between bullet 2 and bullet 4: most deployed \"emotion AI\" treats labels as ground truth, while the book itself stresses uncertainty.",
+   "sources": [
+    {
+     "name": "Affective Computing (book) — overview",
+     "url": "https://en.wikipedia.org/wiki/Affective_computing",
+     "snippet": "Background on the field and the 1997 book that named it."
+    },
+    {
+     "name": "Signals for affect recognition: a tutorial review",
+     "url": "https://www.affectivesignals.org/tutorial-review",
+     "snippet": "Overview of facial, vocal and physiological channels used in affect recognition and their reliability."
+    },
+    {
+     "name": "The ethics of emotion recognition systems",
+     "url": "https://www.techpolicyreview.net/emotion-recognition-ethics",
+     "snippet": "Discusses consent, accuracy and manipulation risks in deployed emotion-sensing products."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-01-22T04:05:00Z",
+   "updated_at": "2026-01-22T04:05:28Z"
+  },
+  {
+   "uuid": "9a45d61f-b3b5-4577-880d-cb8cfeadeb5b",
+   "query_str": "is the \"emotion is part of rational decision making\" thing from damasio",
+   "answer": "Yes — that strand leans heavily on Antonio Damasio's somatic marker work (popularized in *Descartes' Error*, 1994), which argued that patients with damage to emotion-related brain regions made poor real-world decisions despite intact reasoning on tests [1][2]. Picard uses it as motivation: if emotion is part of good decision-making in humans, ignoring it in human–computer interaction is a design gap. In your response you could note that the somatic marker hypothesis has been debated since, so it's a motivating argument rather than settled science [2].",
+   "sources": [
+    {
+     "name": "Somatic marker hypothesis — overview",
+     "url": "https://en.wikipedia.org/wiki/Somatic_marker_hypothesis",
+     "snippet": "Summary of the hypothesis and the main critiques."
+    },
+    {
+     "name": "Emotion and decision-making: twenty years after the somatic marker hypothesis",
+     "url": "https://www.cogneurosciencereview.org/somatic-markers-20-years",
+     "snippet": "Review of supporting and conflicting evidence."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-01-22T04:09:50Z",
+   "updated_at": "2026-01-22T04:10:12Z"
+  }
+ ]
+}

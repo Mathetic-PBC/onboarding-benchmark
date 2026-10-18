@@ -1,0 +1,15 @@
+{
+  "script": "make_splits.py",
+  "run_at": "2026-07-24T23:32:10-04:00",
+  "window_random": {
+    "folds": 5,
+    "students_overlap_fold1": 38,
+    "macro_f1_mean": 0.81
+  },
+  "grouped_by_student": {
+    "folds": 5,
+    "students_overlap_fold1": 0,
+    "macro_f1_mean": 0.74
+  },
+  "decision": "report both in rebuttal; grouped split is the default from v1.1"
+}

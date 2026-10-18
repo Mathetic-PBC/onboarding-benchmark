@@ -1,0 +1,219 @@
+{
+ "title": "TACode handoff notes",
+ "create_time": 1762919436.12,
+ "update_time": 1762919579.9638858,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "92aa6723-0f1c-415e-8373-5b2c905e98dc"
+   ]
+  },
+  "92aa6723-0f1c-415e-8373-5b2c905e98dc": {
+   "id": "92aa6723-0f1c-415e-8373-5b2c905e98dc",
+   "message": {
+    "id": "92aa6723-0f1c-415e-8373-5b2c905e98dc",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1762919436.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "handing off TACode (our TA office hours queue + code snapshot tool) to a new student in the lab. help me structure the handoff doc. stuff they need: how to run locally, where the canvas oauth creds live (dont put the secrets in the doc obviously), known bugs (queue position desyncs when 2 TAs claim the same student), whats half done (the snapshot diff view)"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_ef650a21779a535d704c9ffa13",
+     "message_source": null,
+     "turn_exchange_id": "92a5e0ff-ae29-41ab-a125-235ef885cd04",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "d61faf4b-1f86-4d86-ac86-7901e6b568c0"
+   ]
+  },
+  "d61faf4b-1f86-4d86-ac86-7901e6b568c0": {
+   "id": "d61faf4b-1f86-4d86-ac86-7901e6b568c0",
+   "message": {
+    "id": "d61faf4b-1f86-4d86-ac86-7901e6b568c0",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1762919456.723,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "**TACode handoff — structure**\n\n1. **One-paragraph overview:** what TACode does, who used it (which courses/semesters), current status.\n2. **Run it locally**\n   - Prereqs (Node/Python versions, DB)\n   - `git clone …` → `cp .env.example .env` → fill values (see §3) → `npm i` / `make dev`\n   - Seed script for a fake course + fake queue\n3. **Secrets & accounts (pointers only)**\n   - Canvas OAuth client id/secret: where they're stored (e.g., lab password manager entry name), who can grant access (Yan / you)\n   - Deployment host + who owns it\n   - Rotate-on-handoff checklist\n4. **Architecture sketch:** queue service, snapshot service, Canvas integration; one diagram.\n5. **Known bugs**\n   - Queue position desync when two TAs claim the same student simultaneously. Likely a race on the claim endpoint with no transaction/lock. Repro steps; suspected fix: make claim an atomic `UPDATE … WHERE claimed_by IS NULL` and return 409 to the loser.\n6. **Half-done work**\n   - Snapshot diff view: what exists (branch name), what's missing, the design intent.\n7. **History & decisions:** why X instead of Y, links to past discussions.\n8. **First-week tasks** for the new student: fix the claim race (small, well-scoped), then finish the diff view.\n\nKeep the doc in the repo (`HANDOFF.md`) so it versions with the code."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_ef650a21779a535d704c9ffa13",
+     "message_type": "next",
+     "turn_exchange_id": "92a5e0ff-ae29-41ab-a125-235ef885cd04",
+     "model_slug": "gpt-5-1",
+     "default_model_slug": "gpt-5-1",
+     "resolved_model_slug": "gpt-5-1",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "92aa6723-0f1c-415e-8373-5b2c905e98dc"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "92aa6723-0f1c-415e-8373-5b2c905e98dc",
+   "children": [
+    "0e6e8e9f-5ba2-4e68-8330-a45260e3fef0"
+   ]
+  },
+  "0e6e8e9f-5ba2-4e68-8330-a45260e3fef0": {
+   "id": "0e6e8e9f-5ba2-4e68-8330-a45260e3fef0",
+   "message": {
+    "id": "0e6e8e9f-5ba2-4e68-8330-a45260e3fef0",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1762919566.723,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "the claim thing. we use postgres + express. show the atomic version"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_91fcc9bce56417c37242cd1413",
+     "message_source": null,
+     "turn_exchange_id": "b86ccebe-3962-4876-949f-c1423cd46ce7",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "d61faf4b-1f86-4d86-ac86-7901e6b568c0",
+   "children": [
+    "f9874aa7-f423-4655-8e87-784d2a48f873"
+   ]
+  },
+  "f9874aa7-f423-4655-8e87-784d2a48f873": {
+   "id": "f9874aa7-f423-4655-8e87-784d2a48f873",
+   "message": {
+    "id": "f9874aa7-f423-4655-8e87-784d2a48f873",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1762919577.67,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "```js\n// POST /queue/:entryId/claim\nrouter.post(\"/queue/:entryId/claim\", async (req, res) => {\n  const { rows } = await db.query(\n    `UPDATE queue_entries\n        SET claimed_by = $1, claimed_at = now()\n      WHERE id = $2 AND claimed_by IS NULL\n      RETURNING id, student_id, claimed_by`,\n    [req.user.id, req.params.entryId]\n  );\n  if (rows.length === 0) return res.status(409).json({ error: \"already claimed\" });\n  io.to(req.params.courseId).emit(\"queue:claimed\", rows[0]);\n  res.json(rows[0]);\n});\n```\n\nThe `WHERE claimed_by IS NULL` makes Postgres decide the winner: the second TA's update matches 0 rows. On the client, handle 409 by refreshing the queue instead of showing an error."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_91fcc9bce56417c37242cd1413",
+     "message_type": "next",
+     "turn_exchange_id": "b86ccebe-3962-4876-949f-c1423cd46ce7",
+     "model_slug": "gpt-5-1",
+     "default_model_slug": "gpt-5-1",
+     "resolved_model_slug": "gpt-5-1",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "0e6e8e9f-5ba2-4e68-8330-a45260e3fef0"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "0e6e8e9f-5ba2-4e68-8330-a45260e3fef0",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "f9874aa7-f423-4655-8e87-784d2a48f873",
+ "plugin_ids": null,
+ "conversation_id": "6914040c-feb8-8365-119d-a4303a97d273",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-1",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "6914040c-feb8-8365-119d-a4303a97d273"
+}

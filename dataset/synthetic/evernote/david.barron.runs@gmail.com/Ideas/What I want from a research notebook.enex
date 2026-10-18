@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20260131T045500Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>What I want from a research notebook</title>
+    <created>20260129T053000Z</created>
+    <updated>20260131T045500Z</updated>
+    <tag>product</tag>
+    <tag>notebook</tag>
+    <tag>ideas</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>Brain dump after the Papert Lab call. The thing I actually want, as a researcher:</div><div><br/></div><ol><li><b>Remember where a thought came from.</b> If I write "leakage is probably per-student", I want one click to the chat / paper / Slack message / run log where that came from.</li><li>Pull in what I already have: chats with Claude + ChatGPT, my Zotero PDFs, notes apps, repos. I'm not going to re-type anything.</li><li>Don't make me organize. Projects should emerge from the material (cluster by project, let me fix it).</li><li>Duplicates are the enemy: same paper from Zotero and Downloads should be ONE thing with two locations.</li><li>A canvas, not just a doc. Ideas next to their sources.</li><li>Works offline-ish, fast search.</li></ol><div><br/></div><div>Anti-goals</div><ul><li>not another second-brain template system.</li><li>not a chatbot over my files that makes things up. citations or nothing.</li></ul><div><br/></div><div>Engelbart's "augmenting human intellect" is the frame. the notebook should make the trail visible.</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

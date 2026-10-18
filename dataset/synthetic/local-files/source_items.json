@@ -1,1 +1,934 @@
-[]
+[
+ {
+  "id": "item_034998",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Brewfile",
+  "title": "Brewfile",
+  "content_type": "file",
+  "created_at": "2026-08-04T15:05:00Z",
+  "modified_at": "2026-08-04T16:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Brewfile",
+  "source_url": null,
+  "content_hash": "sha256:e2ed73f07511c6d6a43df270893310bd82bf398ccd2a435bbdd9d7c33f596292",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": null,
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Brewfile"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "setup list for the new Mac"
+  }
+ },
+ {
+  "id": "item_034999",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Desktop/Engelbart/dedupe_candidates_priya.json",
+  "title": "dedupe_candidates_priya.json",
+  "content_type": "data",
+  "created_at": "2026-10-10T16:14:00Z",
+  "modified_at": "2026-10-10T16:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Desktop/Engelbart/dedupe_candidates_priya.json",
+  "source_url": null,
+  "content_hash": "sha256:e44f11ba78a8bc0370d088b64bd1956ea5ce79037a1a2fb90dc0a6e684bbce9a",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035000",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Desktop/Engelbart/import_counts_pilot1_2026-10-09.csv",
+  "title": "import_counts_pilot1_2026-10-09.csv",
+  "content_type": "data",
+  "created_at": "2026-10-09T23:55:00Z",
+  "modified_at": "2026-10-10T00:02:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Desktop/Engelbart/import_counts_pilot1_2026-10-09.csv",
+  "source_url": null,
+  "content_hash": "sha256:05d942768d2ddf99a9aa744dc020de8c6a54590ff6e45dbde56cebd4599e14cc",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "csv",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035001",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Desktop/Screenshot 2026-02-21 at 10.14.55 PM.png",
+  "title": "Screenshot 2026-02-21 at 10.14.55 PM.png",
+  "content_type": "image",
+  "created_at": "2026-02-22T03:14:00Z",
+  "modified_at": "2026-02-22T03:14:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Desktop/Screenshot 2026-02-21 at 10.14.55 PM.png",
+  "source_url": null,
+  "content_hash": "sha256:2d82ebaa8c4b52edd57232c754ed49f2432acbd4d2e845bfbb9672cc82f8d6de",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "png",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — chess screenshot on the Desktop"
+  }
+ },
+ {
+  "id": "item_035002",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Desktop/Screenshot 2026-03-30 at 11.48.22 PM.png",
+  "title": "Screenshot 2026-03-30 at 11.48.22 PM.png",
+  "content_type": "image",
+  "created_at": "2026-03-31T03:48:00Z",
+  "modified_at": "2026-03-31T03:48:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Desktop/Screenshot 2026-03-30 at 11.48.22 PM.png",
+  "source_url": null,
+  "content_hash": "sha256:c0ca2a326c04356dc308c3b323f7fea1a1c44436390a04bae8b074ba1db9ec1a",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "png",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "screenshot of a figure draft during the UIST crunch"
+  }
+ },
+ {
+  "id": "item_035003",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Desktop/Screenshot 2026-09-15 at 7.02.40 AM.png",
+  "title": "Screenshot 2026-09-15 at 7.02.40 AM.png",
+  "content_type": "image",
+  "created_at": "2026-09-15T14:02:00Z",
+  "modified_at": "2026-09-15T14:02:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Desktop/Screenshot 2026-09-15 at 7.02.40 AM.png",
+  "source_url": null,
+  "content_hash": "sha256:feac8afbcc7ecb4dbc32f2e48cc8481d11c0cf3ba1c268a0915e3bf3a8f1d2b0",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "png",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035004",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Desktop/Screenshot 2026-10-13 at 4.12.08 PM.png",
+  "title": "Screenshot 2026-10-13 at 4.12.08 PM.png",
+  "content_type": "image",
+  "created_at": "2026-10-13T23:12:00Z",
+  "modified_at": "2026-10-13T23:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Desktop/Screenshot 2026-10-13 at 4.12.08 PM.png",
+  "source_url": null,
+  "content_hash": "sha256:c1988dacdaaad5ddc28cd68fbaf2f7ced4c8a69610813cd740900337fa72d437",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "png",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "screenshot of the connect screen during pilot B"
+  }
+ },
+ {
+  "id": "item_035005",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Desktop/hc_compaction_results.json",
+  "title": "hc_compaction_results.json",
+  "content_type": "data",
+  "created_at": "2026-08-28T06:40:00Z",
+  "modified_at": "2026-08-28T07:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Desktop/hc_compaction_results.json",
+  "source_url": null,
+  "content_hash": "sha256:c49bea8cce29b76ef913a7ef3a3b9987a310e29f7d7c11f00ad8b4744c0351fb",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_claude_code_plugins"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035006",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Desktop/uist26_talk_assets.zip",
+  "title": "uist26_talk_assets.zip",
+  "content_type": "archive",
+  "created_at": "2026-10-07T05:35:00Z",
+  "modified_at": "2026-10-07T05:35:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Desktop/uist26_talk_assets.zip",
+  "source_url": null,
+  "content_hash": "sha256:1b5debcfae7e1861d8885df66b53d364b2d4c64bc1fd5e9aa2433134cf842c53",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "zip",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: zip archive of files — final talk PDF, figures and script; overlaps the Drive \"UIST26 talk assets.zip\" (later version)"
+  }
+ },
+ {
+  "id": "item_035007",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Desktop/vizpi_deploy2_event_rates.csv",
+  "title": "vizpi_deploy2_event_rates.csv",
+  "content_type": "data",
+  "created_at": "2025-11-12T22:25:00Z",
+  "modified_at": "2025-11-13T02:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Desktop/vizpi_deploy2_event_rates.csv",
+  "source_url": null,
+  "content_hash": "sha256:7659742c126d89beb9efa12754d97b610e99cf53eef78f1d9ddeec7b8ba8cf8b",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "csv",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "per-minute telemetry event rate per section, deployment #2"
+  }
+ },
+ {
+  "id": "item_035008",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Documents/Lease summary - Surplus house.docx",
+  "title": "Lease summary - Surplus house.docx",
+  "content_type": "document",
+  "created_at": "2026-08-12T04:30:00Z",
+  "modified_at": "2026-08-13T01:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Documents/Lease summary - Surplus house.docx",
+  "source_url": null,
+  "content_hash": "sha256:5cc91cac5a239615a11d963d7106c1f88e7a660e5804b820e7b2b36f673aeca2",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "fictional lease summary"
+  }
+ },
+ {
+  "id": "item_035009",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Documents/VT/cs3604_attendance_F25.csv",
+  "title": "cs3604_attendance_F25.csv",
+  "content_type": "data",
+  "created_at": "2025-10-21T21:40:00Z",
+  "modified_at": "2025-12-09T23:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Documents/VT/cs3604_attendance_F25.csv",
+  "source_url": null,
+  "content_hash": "sha256:d5a7d5b85b5000e1bdb95db6a93f2c40ff717c8d9b6079d5db2ef8ebd6881b96",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "csv",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": "attendance for project demo check-ins, 64 fictional students"
+  }
+ },
+ {
+  "id": "item_035010",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Documents/budget_aug2026.csv",
+  "title": "budget_aug2026.csv",
+  "content_type": "data",
+  "created_at": "2026-08-02T00:00:00Z",
+  "modified_at": "2026-09-01T05:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Documents/budget_aug2026.csv",
+  "source_url": null,
+  "content_hash": "sha256:b4333407a8e33a7907e629bcf46017e2f97a41a2d4fd78454ad3f985df4d4af1",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "csv",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — move-month budget"
+  }
+ },
+ {
+  "id": "item_035011",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Documents/idetrace/split_check_2026-07-24.json",
+  "title": "split_check_2026-07-24.json",
+  "content_type": "data",
+  "created_at": "2026-07-25T03:32:00Z",
+  "modified_at": "2026-07-25T03:35:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Documents/idetrace/split_check_2026-07-24.json",
+  "source_url": null,
+  "content_hash": "sha256:599c14a071dab2aa883cf064c77bedc1eacf8c4a87c3ad86ac880741b52436ed",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035012",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Downloads/Berkeley research chats - sign-up (Responses).csv",
+  "title": "Berkeley research chats - sign-up (Responses).csv",
+  "content_type": "data",
+  "created_at": "2026-09-09T05:30:00Z",
+  "modified_at": "2026-09-09T05:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Downloads/Berkeley research chats - sign-up (Responses).csv",
+  "source_url": null,
+  "content_hash": "sha256:a5b82f6c0a7392069a29b880dfafe8720b27e6977027a47edac9af0cd23af772",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "csv",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats"
+   ],
+   "notes": "form responses export"
+  }
+ },
+ {
+  "id": "item_035013",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Downloads/CA vehicle registration checklist.pdf",
+  "title": "CA vehicle registration checklist.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-08-18T04:10:00Z",
+  "modified_at": "2026-08-18T04:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Downloads/CA vehicle registration checklist.pdf",
+  "source_url": null,
+  "content_hash": "sha256:818067bbbd4f5ee3606e7b53742d3d144d4bedd4441d5aaf1072a2b5e7218da4",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035014",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Downloads/CarHaul_receipt_order_58213.pdf",
+  "title": "CarHaul_receipt_order_58213.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-08-05T13:30:00Z",
+  "modified_at": "2026-08-05T13:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Downloads/CarHaul_receipt_order_58213.pdf",
+  "source_url": null,
+  "content_hash": "sha256:a3a9699211d0d9559af7b91f6b4a82faddc1ce1dca666b593038f9f6b0d9b532",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — car shipping receipt for the move"
+  }
+ },
+ {
+  "id": "item_035015",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Downloads/Receipt-Loopbank-2026-08-30.pdf",
+  "title": "Receipt-Loopbank-2026-08-30.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-08-31T05:12:00Z",
+  "modified_at": "2026-08-31T05:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Downloads/Receipt-Loopbank-2026-08-30.pdf",
+  "source_url": null,
+  "content_hash": "sha256:b390252bb3bc749af533e585c9f4032a24c2f655701add24559b7c67656cc37e",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035016",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Downloads/UIST 2026 trip.ics",
+  "title": "UIST 2026 trip.ics",
+  "content_type": "file",
+  "created_at": "2026-10-01T05:06:00Z",
+  "modified_at": "2026-10-01T05:06:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Downloads/UIST 2026 trip.ics",
+  "source_url": null,
+  "content_hash": "sha256:ef6959cf0e93a7966483ecab9e8b5bbc85dfd2d42c469cc30da4137e5b5fa092",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "ics",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vt_phd_admin"
+   ],
+   "notes": "calendar export of the UIST travel"
+  }
+ },
+ {
+  "id": "item_035017",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Downloads/UIST2026_registration_receipt.pdf",
+  "title": "UIST2026_registration_receipt.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-09-02T21:20:00Z",
+  "modified_at": "2026-09-02T21:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Downloads/UIST2026_registration_receipt.pdf",
+  "source_url": null,
+  "content_hash": "sha256:974fdf23a3a84b22df72d078a729b23849f06f4f224d92f04ea502450743d32c",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vt_phd_admin"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035018",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Downloads/chess_games_2026-02-21.pgn",
+  "title": "chess_games_2026-02-21.pgn",
+  "content_type": "file",
+  "created_at": "2026-02-22T03:30:00Z",
+  "modified_at": "2026-02-22T03:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Downloads/chess_games_2026-02-21.pgn",
+  "source_url": null,
+  "content_hash": "sha256:375fefb11267858e56921b4dad057b802f9b845c5a36b90d311e0e97a749178a",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "pgn",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — exported chess games"
+  }
+ },
+ {
+  "id": "item_035019",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Downloads/garmin_sleep_2026-04-01_2026-10-16.csv",
+  "title": "garmin_sleep_2026-04-01_2026-10-16.csv",
+  "content_type": "data",
+  "created_at": "2026-10-17T04:50:00Z",
+  "modified_at": "2026-10-17T04:50:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Downloads/garmin_sleep_2026-04-01_2026-10-16.csv",
+  "source_url": null,
+  "content_hash": "sha256:621628bf2dcda711bbd3250d05ceaeffb9dd99f70722a41320ce5bd4153e6fc9",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "csv",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "Garmin Connect sleep export, daily rows"
+  }
+ },
+ {
+  "id": "item_035020",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Downloads/invoice_final_FINAL.pdf",
+  "title": "invoice_final_FINAL.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-09-20T01:40:00Z",
+  "modified_at": "2026-09-20T01:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Downloads/invoice_final_FINAL.pdf",
+  "source_url": null,
+  "content_hash": "sha256:07c6e38592fa39de9e23b79dbb3c6fd3a0ce50971acfabb48cb1b1d73e1e5cad",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "HARD CASE: vague title — \"invoice_final_FINAL.pdf\" is a Mathetic landing-page illustration invoice"
+  }
+ },
+ {
+  "id": "item_035021",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Downloads/receipt_valley_cycles_2026-05-12.pdf",
+  "title": "receipt_valley_cycles_2026-05-12.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-05-12T21:55:00Z",
+  "modified_at": "2026-05-12T21:55:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Downloads/receipt_valley_cycles_2026-05-12.pdf",
+  "source_url": null,
+  "content_hash": "sha256:b311d6ee505e2da879ca59fffe70391cbb34a78b68545a735d51874aff91595b",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — bike shop receipt"
+  }
+ },
+ {
+  "id": "item_035022",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Downloads/strava_export_2026-10-16/activities.csv",
+  "title": "activities.csv",
+  "content_type": "data",
+  "created_at": "2026-10-17T04:42:00Z",
+  "modified_at": "2026-10-17T04:42:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Downloads/strava_export_2026-10-16/activities.csv",
+  "source_url": null,
+  "content_hash": "sha256:e5bb77fe43b81450609fd6e7003143b59acb338ec5ffbdf8d7cc592730935742",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "csv",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "Strava bulk export activities.csv, 214 activities 2025-10-18..2026-10-16"
+  }
+ },
+ {
+  "id": "item_035023",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Music/Projects/dusk_loop_v3.zip",
+  "title": "dusk_loop_v3.zip",
+  "content_type": "archive",
+  "created_at": "2026-09-12T08:36:00Z",
+  "modified_at": "2026-09-12T08:36:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Music/Projects/dusk_loop_v3.zip",
+  "source_url": null,
+  "content_hash": "sha256:35a1d8583aa5e4a9ad3685bd0ccaa36ad088fd8626f5b2c0be160ce6a5b3f32c",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "zip",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Music"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": "HARD CASE: zip archive of files — FL Studio beat project: notes txt, synthesized preview WAV, hand-written MIDI, and a PLACEHOLDER .flp (header stub only, not a real FL project)"
+  }
+ },
+ {
+  "id": "item_035024",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Music/Samples/dusk_kick_tape.wav",
+  "title": "dusk_kick_tape.wav",
+  "content_type": "audio",
+  "created_at": "2026-08-31T05:40:00Z",
+  "modified_at": "2026-08-31T05:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Music/Samples/dusk_kick_tape.wav",
+  "source_url": null,
+  "content_hash": "sha256:f7737e263846da946a93c25c6be0c469ac4645beaa30aec8c2564f0184c9bb32",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "wav",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Music"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": "short synthesized one-bar sketch used as a kick reference"
+  }
+ },
+ {
+  "id": "item_035025",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Projects/claude-plugins/hc/settings.json",
+  "title": "settings.json",
+  "content_type": "data",
+  "created_at": "2026-08-18T04:40:00Z",
+  "modified_at": "2026-08-28T06:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Projects/claude-plugins/hc/settings.json",
+  "source_url": null,
+  "content_hash": "sha256:df5666b39903d240d6c40baf6dc702c78851da129e586356333786295b624096",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Projects"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_claude_code_plugins"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035026",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Projects/engelbart/import.config.json",
+  "title": "import.config.json",
+  "content_type": "data",
+  "created_at": "2026-09-02T23:20:00Z",
+  "modified_at": "2026-10-16T06:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Projects/engelbart/import.config.json",
+  "source_url": null,
+  "content_hash": "sha256:7865162b13436805061a600f54f8add2eb15ad60213e050844e86578e78c8e31",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Projects"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035027",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-files",
+  "source_id": "Projects/vizpi_frontend/telemetry.config.json",
+  "title": "telemetry.config.json",
+  "content_type": "data",
+  "created_at": "2025-10-30T18:00:00Z",
+  "modified_at": "2025-11-14T15:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-files/Projects/vizpi_frontend/telemetry.config.json",
+  "source_url": null,
+  "content_hash": "sha256:98657134220906c163a9542bc148c907aaded7bcb62ec92b59aac2c92934dcdf",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-files home-relative file on the Mac",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Projects"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": null
+  }
+ }
+]

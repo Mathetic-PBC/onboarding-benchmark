@@ -1,1 +1,1110 @@
-[]
+[
+ {
+  "id": "item_035138",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/.obsidian/app.json",
+  "title": "app.json",
+  "content_type": "config",
+  "created_at": "2026-01-15T02:40:00Z",
+  "modified_at": "2026-08-06T02:13:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/.obsidian/app.json",
+  "source_url": null,
+  "content_hash": "sha256:efa4c40d1a8c99843405b7dddba6b126c1572a7cb48d97b5c24cd019878f77c9",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian .obsidian/app.json shape",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [
+    "vault-config"
+   ],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "vault config"
+  }
+ },
+ {
+  "id": "item_035139",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/.obsidian/appearance.json",
+  "title": "appearance.json",
+  "content_type": "config",
+  "created_at": "2026-01-15T02:40:00Z",
+  "modified_at": "2026-02-02T05:31:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/.obsidian/appearance.json",
+  "source_url": null,
+  "content_hash": "sha256:a0250f9e85c9b4d7e898c90bfe2e36a9ff1f6fd5b8e8638ca65941d7504bf347",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian .obsidian/appearance.json shape",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [
+    "vault-config"
+   ],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "vault config"
+  }
+ },
+ {
+  "id": "item_035140",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/.obsidian/core-plugins.json",
+  "title": "core-plugins.json",
+  "content_type": "config",
+  "created_at": "2026-01-15T02:40:00Z",
+  "modified_at": "2026-08-06T02:13:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/.obsidian/core-plugins.json",
+  "source_url": null,
+  "content_hash": "sha256:e011f4af6408dd2a35ba2be67525bd4bbfd1c9619571eff574efd4930307b02d",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian .obsidian/core-plugins.json shape",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [
+    "vault-config"
+   ],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "vault config"
+  }
+ },
+ {
+  "id": "item_035141",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Daily/2026-01-14.md",
+  "title": "2026-01-14.md",
+  "content_type": "note",
+  "created_at": "2026-01-15T03:00:00Z",
+  "modified_at": "2026-01-15T04:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Daily/2026-01-14.md",
+  "source_url": null,
+  "content_hash": "sha256:b4ccedfef043b170d000c08174b32b824e9d6b1c5e7b26bd4a2fcbe9610c7248",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": "daily note (date-named title)"
+  }
+ },
+ {
+  "id": "item_035142",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Daily/2026-01-27.md",
+  "title": "2026-01-27.md",
+  "content_type": "note",
+  "created_at": "2026-01-28T04:10:00Z",
+  "modified_at": "2026-01-28T04:59:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Daily/2026-01-27.md",
+  "source_url": null,
+  "content_hash": "sha256:7d5e706b5350d2f98459b98ee590469ff06cb4ad77d76255b83dc75c8099ec02",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_dynamite",
+    "project_mathetic_company"
+   ],
+   "notes": "daily note (date-named title)"
+  }
+ },
+ {
+  "id": "item_035143",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Daily/2026-02-09.md",
+  "title": "2026-02-09.md",
+  "content_type": "note",
+  "created_at": "2026-02-10T03:45:00Z",
+  "modified_at": "2026-02-10T04:59:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Daily/2026-02-09.md",
+  "source_url": null,
+  "content_hash": "sha256:99d0e4db4c9c8ed6b6525c7143794866d585d6935bd708ca6582777502a896c9",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_tutortrace"
+   ],
+   "notes": "daily note (date-named title)"
+  }
+ },
+ {
+  "id": "item_035144",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Daily/2026-03-25.md",
+  "title": "2026-03-25.md",
+  "content_type": "note",
+  "created_at": "2026-03-25T04:30:00Z",
+  "modified_at": "2026-03-25T05:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Daily/2026-03-25.md",
+  "source_url": null,
+  "content_hash": "sha256:a7fbd76c8bf83d966b438cae965626771e803a1c58a3ea9cb3df345ad89e2eba",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "daily note (date-named title)"
+  }
+ },
+ {
+  "id": "item_035145",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Daily/2026-03-31.md",
+  "title": "2026-03-31.md",
+  "content_type": "note",
+  "created_at": "2026-03-31T23:20:00Z",
+  "modified_at": "2026-04-01T03:58:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Daily/2026-03-31.md",
+  "source_url": null,
+  "content_hash": "sha256:cbb5de59d5d85f03f15161dac8a127fc6533cfefe351840957b6569915fa22c0",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "daily note (date-named title)"
+  }
+ },
+ {
+  "id": "item_035146",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Daily/2026-04-28.md",
+  "title": "2026-04-28.md",
+  "content_type": "note",
+  "created_at": "2026-04-29T01:00:00Z",
+  "modified_at": "2026-04-29T02:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Daily/2026-04-28.md",
+  "source_url": null,
+  "content_hash": "sha256:3a2b2912d2301d942201b97b476586118cbb3b651d44610d4fe821fff887dd45",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "daily note (date-named title)"
+  }
+ },
+ {
+  "id": "item_035147",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Daily/2026-05-05.md",
+  "title": "2026-05-05.md",
+  "content_type": "note",
+  "created_at": "2026-05-06T03:30:00Z",
+  "modified_at": "2026-05-06T03:59:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Daily/2026-05-05.md",
+  "source_url": null,
+  "content_hash": "sha256:caf851aba0e4eb8ec6b50bc2ef43e39544661e35ae9cfde51b4d4036a14e2310",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "daily note (date-named title)"
+  }
+ },
+ {
+  "id": "item_035148",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Daily/2026-06-16.md",
+  "title": "2026-06-16.md",
+  "content_type": "note",
+  "created_at": "2026-06-17T02:10:00Z",
+  "modified_at": "2026-06-17T03:55:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Daily/2026-06-16.md",
+  "source_url": null,
+  "content_hash": "sha256:eb0d4dc455e8231bbafc262d34b249252a85663845c1c11d0516c9c9b48c995c",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vt_phd_admin"
+   ],
+   "notes": "daily note (date-named title)"
+  }
+ },
+ {
+  "id": "item_035149",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Daily/2026-07-24.md",
+  "title": "2026-07-24.md",
+  "content_type": "note",
+  "created_at": "2026-07-25T02:30:00Z",
+  "modified_at": "2026-07-25T03:59:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Daily/2026-07-24.md",
+  "source_url": null,
+  "content_hash": "sha256:6d852dc62e2eb7c5e8b876e855041181a4eda9867d53b8f0f115e6c62f57fcca",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "daily note (date-named title)"
+  }
+ },
+ {
+  "id": "item_035150",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Daily/2026-08-12.md",
+  "title": "2026-08-12.md",
+  "content_type": "note",
+  "created_at": "2026-08-13T05:40:00Z",
+  "modified_at": "2026-08-13T06:35:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Daily/2026-08-12.md",
+  "source_url": null,
+  "content_hash": "sha256:d206536f75d56a2085ae4a65af3071ce6da075f35ffb67d66b3cdf672672edf2",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "daily note (date-named title)"
+  }
+ },
+ {
+  "id": "item_035151",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Daily/2026-09-08.md",
+  "title": "2026-09-08.md",
+  "content_type": "note",
+  "created_at": "2026-09-09T06:00:00Z",
+  "modified_at": "2026-09-09T06:59:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Daily/2026-09-08.md",
+  "source_url": null,
+  "content_hash": "sha256:cbb7986d5ceea615afd32030d9f58d7fb082ec637dc4aa0ed3d88a2c7acc75ae",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats",
+    "project_engelbart"
+   ],
+   "notes": "daily note (date-named title)"
+  }
+ },
+ {
+  "id": "item_035152",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Daily/2026-10-06.md",
+  "title": "2026-10-06.md",
+  "content_type": "note",
+  "created_at": "2026-10-07T04:30:00Z",
+  "modified_at": "2026-10-07T06:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Daily/2026-10-06.md",
+  "source_url": null,
+  "content_hash": "sha256:753d590f17e11ad1ddc657ff6e058e6b2cae36f0747d358e4738c92ae8d75246",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "daily note (date-named title)"
+  }
+ },
+ {
+  "id": "item_035153",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Daily/2026-10-14.md",
+  "title": "2026-10-14.md",
+  "content_type": "note",
+  "created_at": "2026-10-15T05:15:00Z",
+  "modified_at": "2026-10-15T06:50:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Daily/2026-10-14.md",
+  "source_url": null,
+  "content_hash": "sha256:9b574483a30068f676d107dc76f41bb8931a85cd921803a1a6513e56fa078264",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "daily note (date-named title)"
+  }
+ },
+ {
+  "id": "item_035154",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Daily/2026-10-16.md",
+  "title": "2026-10-16.md",
+  "content_type": "note",
+  "created_at": "2026-10-17T03:10:00Z",
+  "modified_at": "2026-10-17T03:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Daily/2026-10-16.md",
+  "source_url": null,
+  "content_hash": "sha256:b69ad5bae229d24580ff3c59032b0a95624706f8f5d72e0a607dcaff358e31a2",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training",
+    "project_engelbart"
+   ],
+   "notes": "daily note (date-named title)"
+  }
+ },
+ {
+  "id": "item_035155",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Home.md",
+  "title": "Home.md",
+  "content_type": "note",
+  "created_at": "2026-01-15T03:10:00Z",
+  "modified_at": "2026-09-23T06:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Home.md",
+  "source_url": null,
+  "content_hash": "sha256:3158493bb744c98dc06c0275abc3a6ab03079650a20e0b9628bd967964ad8787",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_engelbart",
+    "project_idetrace",
+    "project_tutortrace"
+   ],
+   "notes": "vault index / map-of-content linking reading-group, research and Engelbart notes"
+  }
+ },
+ {
+  "id": "item_035156",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Inbox/Untitled.md",
+  "title": "Untitled.md",
+  "content_type": "note",
+  "created_at": "2026-02-03T04:51:00Z",
+  "modified_at": "2026-02-04T05:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Inbox/Untitled.md",
+  "source_url": null,
+  "content_hash": "sha256:b3462e93dd3794129ff1c77c2385b51f4a7dc8094e189b3f1185f225d170d298",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": "HARD CASE: vague title — \"Untitled\" inbox note; content is a reading-group follow-up (redoing Licklider's time study)"
+  }
+ },
+ {
+  "id": "item_035157",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Inbox/caro-kann lines.md",
+  "title": "caro-kann lines.md",
+  "content_type": "note",
+  "created_at": "2026-04-13T02:30:00Z",
+  "modified_at": "2026-04-15T03:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Inbox/caro-kann lines.md",
+  "source_url": null,
+  "content_hash": "sha256:ff0795b9b043bac431024e8b424992ac25ab1ee1f53531d13abc0748bd029564",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "personal clutter: chess (PERSON.md §5)"
+  }
+ },
+ {
+  "id": "item_035158",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Literature/Bush1945 - As We May Think.md",
+  "title": "Bush1945 - As We May Think.md",
+  "content_type": "note",
+  "created_at": "2026-01-14T04:20:00Z",
+  "modified_at": "2026-01-16T05:41:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Literature/Bush1945 - As We May Think.md",
+  "source_url": null,
+  "content_hash": "sha256:44f710d0327ecc18243a5d17977f3042a3755edc7503496c7a7da679545a917e",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": "own summary; no long quotes"
+  }
+ },
+ {
+  "id": "item_035159",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Literature/Engelbart1962 - Augmenting Human Intellect.md",
+  "title": "Engelbart1962 - Augmenting Human Intellect.md",
+  "content_type": "note",
+  "created_at": "2026-01-28T04:05:00Z",
+  "modified_at": "2026-02-01T05:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Literature/Engelbart1962 - Augmenting Human Intellect.md",
+  "source_url": null,
+  "content_hash": "sha256:7a5f9d3db79bc9aea224f19e233961af1635e46506c8ae40df6dfc417e04f032",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_engelbart"
+   ],
+   "notes": "own summary; no long quotes; ties reading group to the product name"
+  }
+ },
+ {
+  "id": "item_035160",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Literature/Kapur2008 - Productive Failure.md",
+  "title": "Kapur2008 - Productive Failure.md",
+  "content_type": "note",
+  "created_at": "2026-03-25T03:55:00Z",
+  "modified_at": "2026-03-25T05:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Literature/Kapur2008 - Productive Failure.md",
+  "source_url": null,
+  "content_hash": "sha256:78797583aeacc10cf419bc7ba81018b3ee9697ebcfaefcd3b1ccf9e0d2d51ade",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035161",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Literature/Kay1977 - Personal Dynamic Media.md",
+  "title": "Kay1977 - Personal Dynamic Media.md",
+  "content_type": "note",
+  "created_at": "2026-02-26T04:10:00Z",
+  "modified_at": "2026-02-27T05:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Literature/Kay1977 - Personal Dynamic Media.md",
+  "source_url": null,
+  "content_hash": "sha256:7625861357e246b59b840d7b4d56dfba5edff6755d97838014deb862293ff0be",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035162",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Literature/Licklider1960 - Man-Computer Symbiosis.md",
+  "title": "Licklider1960 - Man-Computer Symbiosis.md",
+  "content_type": "note",
+  "created_at": "2026-01-22T03:15:00Z",
+  "modified_at": "2026-01-23T06:02:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Literature/Licklider1960 - Man-Computer Symbiosis.md",
+  "source_url": null,
+  "content_hash": "sha256:cb681d28f7d129b8d0aadd8df6b6672b4f23507146a750733bb64d18adea058b",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": "own summary; no long quotes"
+  }
+ },
+ {
+  "id": "item_035163",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Literature/Nelson1965 - A File Structure for the Complex.md",
+  "title": "Nelson1965 - A File Structure for the Complex.md",
+  "content_type": "note",
+  "created_at": "2026-02-12T03:40:00Z",
+  "modified_at": "2026-02-13T05:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Literature/Nelson1965 - A File Structure for the Complex.md",
+  "source_url": null,
+  "content_hash": "sha256:85d7a85ffaf456389f8e35f29f93404cfae9147e86a1cafc04d77834e325faa3",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_engelbart"
+   ],
+   "notes": "own summary; ties versioning to Engelbart import dedupe"
+  }
+ },
+ {
+  "id": "item_035164",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Literature/Ostrowski2025 - Productive Struggle.md",
+  "title": "Ostrowski2025 - Productive Struggle.md",
+  "content_type": "note",
+  "created_at": "2026-02-10T04:30:00Z",
+  "modified_at": "2026-07-25T05:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Literature/Ostrowski2025 - Productive Struggle.md",
+  "source_url": null,
+  "content_hash": "sha256:5512cccf70801947901da58a096dce1bc7010567065d0c7be55e326df0d6ce7e",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_tutortrace"
+   ],
+   "notes": "literature note on the fictional Ostrowski et al. 2025 paper (same-paper-in-several-places story); v1 vs camera-ready numbers"
+  }
+ },
+ {
+  "id": "item_035165",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Literature/Papert1980 - Mindstorms.md",
+  "title": "Papert1980 - Mindstorms.md",
+  "content_type": "note",
+  "created_at": "2026-01-09T03:30:00Z",
+  "modified_at": "2026-03-06T05:48:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Literature/Papert1980 - Mindstorms.md",
+  "source_url": null,
+  "content_hash": "sha256:eb4c0b41fb2df0eb69934ab07fdc86c9f7cebab114dfa4bf0356a44172a131db",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_mathetic_company",
+    "project_tutortrace"
+   ],
+   "notes": "reading-group note that also explains the Mathetic/Papert Lab name and links to TutorTrace"
+  }
+ },
+ {
+  "id": "item_035166",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Projects/Engelbart - import dedupe.md",
+  "title": "Engelbart - import dedupe.md",
+  "content_type": "note",
+  "created_at": "2026-09-09T06:15:00Z",
+  "modified_at": "2026-10-16T06:58:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Projects/Engelbart - import dedupe.md",
+  "source_url": null,
+  "content_hash": "sha256:9589413c70a6e233bc269448f563fc899bf3a9fde784783e41950fac0fad60da",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035167",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Projects/Engelbart - where did this thought come from.md",
+  "title": "Engelbart - where did this thought come from.md",
+  "content_type": "note",
+  "created_at": "2026-08-14T05:50:00Z",
+  "modified_at": "2026-09-14T07:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Projects/Engelbart - where did this thought come from.md",
+  "source_url": null,
+  "content_hash": "sha256:194d82e4fc2a38dad7ce29b36e071d713e5b2a3d33ec53b71654ac9d91ed758e",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_engelbart"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035168",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Projects/IDETrace - leakage.md",
+  "title": "IDETrace - leakage.md",
+  "content_type": "note",
+  "created_at": "2026-07-25T03:40:00Z",
+  "modified_at": "2026-07-30T05:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Projects/IDETrace - leakage.md",
+  "source_url": null,
+  "content_hash": "sha256:97d1efd58094f539c3fbe51ac96e584a8e10c9097aeaebc4598e683eb0fc6dcc",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035169",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Projects/Reading group - schedule.md",
+  "title": "Reading group - schedule.md",
+  "content_type": "note",
+  "created_at": "2026-01-15T03:20:00Z",
+  "modified_at": "2026-09-03T06:44:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Projects/Reading group - schedule.md",
+  "source_url": null,
+  "content_hash": "sha256:16a74fabc5313d490e34230fa36bcaabcaecb632555daf939bc1e5688ba7c247",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035170",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Projects/TutorTrace - talk Q&A prep.md",
+  "title": "TutorTrace - talk Q&A prep.md",
+  "content_type": "note",
+  "created_at": "2026-09-23T06:05:00Z",
+  "modified_at": "2026-10-07T05:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Projects/TutorTrace - talk Q&A prep.md",
+  "source_url": null,
+  "content_hash": "sha256:8d65c57adc4c320d212fa86aeac142a75f94a934a9594055272629f6cbb4ba35",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035171",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Templates/Daily.md",
+  "title": "Daily.md",
+  "content_type": "note",
+  "created_at": "2026-01-15T02:52:00Z",
+  "modified_at": "2026-01-15T02:58:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Templates/Daily.md",
+  "source_url": null,
+  "content_hash": "sha256:7997e18dbc45990a100fa2f633bcf95449e029658a929338378d554167ea6581",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "template note (no project content)"
+  }
+ },
+ {
+  "id": "item_035172",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "obsidian",
+  "source_id": "research-vault/Templates/Literature.md",
+  "title": "Literature.md",
+  "content_type": "note",
+  "created_at": "2026-01-15T03:05:00Z",
+  "modified_at": "2026-01-28T04:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/obsidian/research-vault/Templates/Literature.md",
+  "source_url": null,
+  "content_hash": "sha256:173aa023815ab9eb94de82de62b24b9773f2271070f925a386d22d99fadc3317",
+  "library_item_id": null,
+  "modeled_on": "authentic/obsidian vault layout (.obsidian config + markdown notes with YAML frontmatter)",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "vault \"research-vault\" (~/Documents/research-vault)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "template note (no project content)"
+  }
+ }
+]

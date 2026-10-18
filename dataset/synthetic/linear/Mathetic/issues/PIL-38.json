@@ -1,0 +1,62 @@
+{
+  "issue": {
+    "id": "PIL-38",
+    "uuid": "c42bd6b9-cb12-4282-ab93-85f85476ff27",
+    "title": "First-run: explain the provenance trail in one sentence",
+    "description": "Candidate copy: \"Every note remembers where it came from. Click the trail to see the chats, papers and notes behind it.\"",
+    "projectMilestone": {
+      "id": "752d1e60-9eb6-4c7b-a102-c1e5d03b5518",
+      "name": "Import fixes from pilot feedback shipped"
+    },
+    "priority": {
+      "value": 4,
+      "name": "Low"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-38/first-run-explain-the-provenance-trail-in-one-sentence",
+    "gitBranchName": "david/pil-38-first-run-explain-the-provenance-trail-in-one-sentence",
+    "createdAt": "2026-10-15T17:30:29.599Z",
+    "updatedAt": "2026-10-15T17:30:29.599Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Todo",
+    "statusType": "unstarted",
+    "labels": [
+      "Onboarding"
+    ],
+    "createdBy": "Hudson",
+    "assignee": "Hudson",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-38",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-15T17:30:29.599Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": []
+}

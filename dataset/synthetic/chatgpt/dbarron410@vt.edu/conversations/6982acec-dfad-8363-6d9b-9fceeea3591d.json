@@ -1,0 +1,219 @@
+{
+ "title": "Appraisal theory explained simply",
+ "create_time": 1770171628.12,
+ "update_time": 1770171883.838128,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "3b8adbab-6c04-4aaf-9da1-e6f31ed8b67f"
+   ]
+  },
+  "3b8adbab-6c04-4aaf-9da1-e6f31ed8b67f": {
+   "id": "3b8adbab-6c04-4aaf-9da1-e6f31ed8b67f",
+   "message": {
+    "id": "3b8adbab-6c04-4aaf-9da1-e6f31ed8b67f",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1770171628.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "for ise 6664 (affective computing) we have to write a 1 page reading response on appraisal theory (scherer, OCC model). explain it like im smart but havent read it. how does it relate to detecting frustration in tutoring"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_e03dda6a985c32c4c03fdea201",
+     "message_source": null,
+     "turn_exchange_id": "6d45436b-2cf9-45d9-8d62-7682dbdfcfed",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "913ddb8c-6a81-4716-905a-8b84f997b590"
+   ]
+  },
+  "913ddb8c-6a81-4716-905a-8b84f997b590": {
+   "id": "913ddb8c-6a81-4716-905a-8b84f997b590",
+   "message": {
+    "id": "913ddb8c-6a81-4716-905a-8b84f997b590",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1770171645.292,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "**Appraisal theory in one paragraph:** emotions aren't triggered directly by events but by how a person *evaluates* an event relative to their goals. The same event (a failing test) produces frustration in one student and curiosity in another, depending on appraisals like: Is this relevant to my goals? Is it consistent with what I wanted? Who/what caused it? Can I cope with it? Is it fair?\n\n**Scherer's Component Process Model** formalizes this as a sequence of *stimulus evaluation checks*: novelty → intrinsic pleasantness → goal relevance/conduciveness → coping potential → norm compatibility. The emotion is the pattern of outcomes across those checks.\n\n**OCC (Ortony, Clore & Collins)** is a structural taxonomy: 22 emotion types organized by whether you're reacting to *events* (desirable/undesirable for goals), *agents' actions* (praiseworthy/blameworthy), or *objects* (appealing/unappealing). It became popular in computing because it's rule-like and implementable.\n\n**Connection to frustration in tutoring:**\n- Frustration ≈ goal-relevant + goal-obstructive + uncertain/low coping potential. In a CS tutoring transcript, that maps to: student is trying to complete the task (relevance), something blocks it (error, unhelpful hint), and they don't see how to proceed (coping).\n- That suggests features beyond sentiment words: repeated failed attempts (obstruction), hint requests after hints (low coping), language attributing blame to the system (\"this tool is useless\") versus self.\n- Appraisal theory also predicts *why frustration isn't always bad*. High coping potential turns obstruction into challenge, which is the \"productive struggle\" idea.\n\nA good reading-response angle: sentiment classifiers detect valence, but appraisal theory says frustration is about *goal obstruction × coping*, so a detector should model task state, not just words."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_e03dda6a985c32c4c03fdea201",
+     "message_type": "next",
+     "turn_exchange_id": "6d45436b-2cf9-45d9-8d62-7682dbdfcfed",
+     "model_slug": "gpt-5-3",
+     "default_model_slug": "gpt-5-3",
+     "resolved_model_slug": "gpt-5-3",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "3b8adbab-6c04-4aaf-9da1-e6f31ed8b67f"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "3b8adbab-6c04-4aaf-9da1-e6f31ed8b67f",
+   "children": [
+    "7cf5d47d-7bd4-473b-9c0f-2c3d052d4a96"
+   ]
+  },
+  "7cf5d47d-7bd4-473b-9c0f-2c3d052d4a96": {
+   "id": "7cf5d47d-7bd4-473b-9c0f-2c3d052d4a96",
+   "message": {
+    "id": "7cf5d47d-7bd4-473b-9c0f-2c3d052d4a96",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1770171868.292,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "thats really good. is OCC actually used in modern affect detection or is it outdated"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_5c1ff058707d2cf666fbe8a466",
+     "message_source": null,
+     "turn_exchange_id": "b7f55721-1d4a-4649-80bc-523cbff49b03",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "913ddb8c-6a81-4716-905a-8b84f997b590",
+   "children": [
+    "68504e4c-d5f4-4069-8404-f7074b5ddb17"
+   ]
+  },
+  "68504e4c-d5f4-4069-8404-f7074b5ddb17": {
+   "id": "68504e4c-d5f4-4069-8404-f7074b5ddb17",
+   "message": {
+    "id": "68504e4c-d5f4-4069-8404-f7074b5ddb17",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1770171881.675,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Mostly as a design vocabulary now, less as a computational model:\n\n- **Agent/game AI and virtual humans:** OCC-style appraisal still drives emotion generation for characters.\n- **Affect *detection* (sensing a person's state):** dominated by data-driven classifiers on facial, physiological, interaction-log or text features, often with dimensional (valence/arousal) or education-specific labels (boredom, confusion, frustration, engaged concentration). Those education labels come from the affect-in-learning literature more than from OCC.\n- **Where appraisal comes back:** in feature design and interpretation. It explains *which* log features should matter (obstruction, coping) and helps interpret errors.\n\nSo for your response: OCC is \"outdated as an algorithm, useful as a theory of what to measure.\""
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_5c1ff058707d2cf666fbe8a466",
+     "message_type": "next",
+     "turn_exchange_id": "b7f55721-1d4a-4649-80bc-523cbff49b03",
+     "model_slug": "gpt-5-3",
+     "default_model_slug": "gpt-5-3",
+     "resolved_model_slug": "gpt-5-3",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "7cf5d47d-7bd4-473b-9c0f-2c3d052d4a96"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "7cf5d47d-7bd4-473b-9c0f-2c3d052d4a96",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "68504e4c-d5f4-4069-8404-f7074b5ddb17",
+ "plugin_ids": null,
+ "conversation_id": "6982acec-dfad-8363-6d9b-9fceeea3591d",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-3",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "6982acec-dfad-8363-6d9b-9fceeea3591d"
+}

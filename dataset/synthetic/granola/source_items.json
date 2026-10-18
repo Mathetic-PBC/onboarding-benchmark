@@ -1,1 +1,687 @@
-[]
+[
+ {
+  "id": "item_034890",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-08-11 Surplus kickoff — Mathetic.json",
+  "title": "2026-08-11 Surplus kickoff — Mathetic.json",
+  "content_type": "data",
+  "created_at": "2026-08-11T16:57:42Z",
+  "modified_at": "2026-08-11T17:12:35Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-08-11 Surplus kickoff — Mathetic.json",
+  "source_url": null,
+  "content_hash": "sha256:ee219209a5aed4daddde390ee300f473c4045e153af3b4157e9f44b9b3dc465f",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "Surplus incubator kickoff with Lena Hoffmann (fixed event 2026-08-11)."
+  }
+ },
+ {
+  "id": "item_034891",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-08-13 Hudson x David weekly.json",
+  "title": "2026-08-13 Hudson x David weekly.json",
+  "content_type": "data",
+  "created_at": "2026-08-13T22:57:47Z",
+  "modified_at": "2026-08-13T23:11:47Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-08-13 Hudson x David weekly.json",
+  "source_url": null,
+  "content_hash": "sha256:1a7d64c28c5250cd1637bae93aa211ee89735bc81d09f23b430f6c6032595100",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "Weekly co-founder sync; camera-ready mentioned (tutortrace context) but meeting is about Engelbart scope and Lena's asks."
+  }
+ },
+ {
+  "id": "item_034892",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-08-20 Marcus Oyelaran <> Mathetic.json",
+  "title": "2026-08-20 Marcus Oyelaran <> Mathetic.json",
+  "content_type": "data",
+  "created_at": "2026-08-20T17:58:36Z",
+  "modified_at": "2026-08-20T18:11:24Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-08-20 Marcus Oyelaran <> Mathetic.json",
+  "source_url": null,
+  "content_hash": "sha256:f0342d87ac2057470630a86f82513b06777e5539f47b0c56871a37a6c503d4da",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "First angel call with Marcus Oyelaran (fixed event 2026-08-20): retention and \"who pays\"."
+  }
+ },
+ {
+  "id": "item_034893",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-08-25 Hudson x David weekly.json",
+  "title": "2026-08-25 Hudson x David weekly.json",
+  "content_type": "data",
+  "created_at": "2026-08-25T20:58:55Z",
+  "modified_at": "2026-08-25T21:07:28Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-08-25 Hudson x David weekly.json",
+  "source_url": null,
+  "content_hash": "sha256:ef1320fcbc7fc6ea478874eb9722ec96b2b60e74b2f6aa4e9f8758b88ba4722c",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "Weekly sync; Engelbart repos start (week of 2026-08-24), item schema and importer architecture."
+  }
+ },
+ {
+  "id": "item_034894",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-08-27 Surplus check-in (Lena _ Mathetic).json",
+  "title": "2026-08-27 Surplus check-in (Lena _ Mathetic).json",
+  "content_type": "data",
+  "created_at": "2026-08-27T22:28:40Z",
+  "modified_at": "2026-08-27T22:36:45Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-08-27 Surplus check-in (Lena _ Mathetic).json",
+  "source_url": null,
+  "content_hash": "sha256:f12f7cac7cd4a7d2fa0dd838e8d5d3a34723ec0bb749925adb268d24264dac1e",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "Weekly Thursday Surplus check-in with Lena; user-conversation count and metric."
+  }
+ },
+ {
+  "id": "item_034895",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-08-28 Call w_ Blacksburg landlord — lease + deposit.json",
+  "title": "2026-08-28 Call w_ Blacksburg landlord — lease + deposit.json",
+  "content_type": "data",
+  "created_at": "2026-08-29T01:00:27Z",
+  "modified_at": "2026-08-29T01:06:10Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-08-28 Call w_ Blacksburg landlord — lease + deposit.json",
+  "source_url": null,
+  "content_hash": "sha256:feb29bc852e0dc1e2eba0d907dbe2c77a800c2cec1961e23b0d024ac943259a6",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — phone call with the old Blacksburg landlord about lease transfer and deposit; unrelated to any project."
+  }
+ },
+ {
+  "id": "item_034896",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-09-01 Hudson x David weekly.json",
+  "title": "2026-09-01 Hudson x David weekly.json",
+  "content_type": "data",
+  "created_at": "2026-09-01T19:57:33Z",
+  "modified_at": "2026-09-01T20:07:08Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-09-01 Hudson x David weekly.json",
+  "source_url": null,
+  "content_hash": "sha256:eb260a77142157156e8f06b004412b9b2083f57104d3effb976ccc495451b192",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats",
+    "project_engelbart"
+   ],
+   "notes": "Weekly sync; planning the Berkeley research chats (guide draft) + importer status."
+  }
+ },
+ {
+  "id": "item_034897",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-09-03 Car insurance — move policy to CA.json",
+  "title": "2026-09-03 Car insurance — move policy to CA.json",
+  "content_type": "data",
+  "created_at": "2026-09-03T19:15:16Z",
+  "modified_at": "2026-09-03T19:24:17Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-09-03 Car insurance — move policy to CA.json",
+  "source_url": null,
+  "content_hash": "sha256:61dc6c537aa7ca267626cb9c1cd7fd946d952fdbc755abfc9a4dc6d5ce9f478f",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — support call about moving the car insurance policy from Virginia to California after the move; unrelated to any project."
+  }
+ },
+ {
+  "id": "item_034898",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-09-08 Hudson x David — prep for Berkeley convos.json",
+  "title": "2026-09-08 Hudson x David — prep for Berkeley convos.json",
+  "content_type": "data",
+  "created_at": "2026-09-08T23:57:27Z",
+  "modified_at": "2026-09-09T00:04:51Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-09-08 Hudson x David — prep for Berkeley convos.json",
+  "source_url": null,
+  "content_hash": "sha256:73a8f91621ae3db8534ebbff62f5428c41417c5a059fc52aae7e9e26bbbdfbb3",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats"
+   ],
+   "notes": "Prep the night before the first Berkeley research chat (interview guide v1, logistics)."
+  }
+ },
+ {
+  "id": "item_034899",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-09-09 Conversation — Elena Park (Berkeley, learning sciences).json",
+  "title": "2026-09-09 Conversation — Elena Park (Berkeley, learning sciences).json",
+  "content_type": "data",
+  "created_at": "2026-09-09T16:59:02Z",
+  "modified_at": "2026-09-09T17:12:57Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-09-09 Conversation — Elena Park (Berkeley, learning sciences).json",
+  "source_url": null,
+  "content_hash": "sha256:e97407379dcd6da7b50136f96b4a142232cdc4107f96473cc303014628e4b4c7",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats"
+   ],
+   "notes": "Berkeley research chat #1 (fixed event 2026-09-09) with Elena Park, learning-sciences PhD student."
+  }
+ },
+ {
+  "id": "item_034900",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-09-10 Conversation — Priya Raman (Berkeley, education + HCI).json",
+  "title": "2026-09-10 Conversation — Priya Raman (Berkeley, education + HCI).json",
+  "content_type": "data",
+  "created_at": "2026-09-10T20:57:54Z",
+  "modified_at": "2026-09-10T21:10:55Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-09-10 Conversation — Priya Raman (Berkeley, education + HCI).json",
+  "source_url": null,
+  "content_hash": "sha256:d67471102a3d7587988ae31eac9273d1abcd5ddabf1a61ad9880d01e8b6443b9",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats"
+   ],
+   "notes": "Berkeley research chat #2 (fixed event 2026-09-10) with Priya Raman; she later becomes an Engelbart pilot user (2026-10-09)."
+  }
+ },
+ {
+  "id": "item_034901",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-09-15 Hudson x David weekly.json",
+  "title": "2026-09-15 Hudson x David weekly.json",
+  "content_type": "data",
+  "created_at": "2026-09-15T22:59:08Z",
+  "modified_at": "2026-09-15T23:10:47Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-09-15 Hudson x David weekly.json",
+  "source_url": null,
+  "content_hash": "sha256:29064392b895f50d8e94d47ebeae4af5fb86b0ead875295169409a0acdf8f521",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats",
+    "project_engelbart"
+   ],
+   "notes": "Weekly sync; synthesis of the first two Berkeley conversations (Elena, Priya) and what it changes in Engelbart."
+  }
+ },
+ {
+  "id": "item_034902",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-09-17 Engelbart canvas — design review.json",
+  "title": "2026-09-17 Engelbart canvas — design review.json",
+  "content_type": "data",
+  "created_at": "2026-09-17T17:57:13Z",
+  "modified_at": "2026-09-17T18:08:24Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-09-17 Engelbart canvas — design review.json",
+  "source_url": null,
+  "content_hash": "sha256:27c5a40f3986a7e96b9a0f0ed9a9867b388e07d5e11fdffbfd2341db29030704",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "Design review of the Engelbart canvas: trail/locator model, rendering bug, connect screen."
+  }
+ },
+ {
+  "id": "item_034903",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-09-22 Hudson x David weekly.json",
+  "title": "2026-09-22 Hudson x David weekly.json",
+  "content_type": "data",
+  "created_at": "2026-09-22T21:57:18Z",
+  "modified_at": "2026-09-22T22:09:57Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-09-22 Hudson x David weekly.json",
+  "source_url": null,
+  "content_hash": "sha256:f1ccdf105130a38d366f0b55fb8016134f523af37c679b678433e4eb2b9b57ce",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "Weekly sync focused on fundraising narrative / pre-seed SAFE plan and demo-night draft."
+  }
+ },
+ {
+  "id": "item_034904",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-09-24 Untitled meeting.json",
+  "title": "2026-09-24 Untitled meeting.json",
+  "content_type": "data",
+  "created_at": "2026-09-25T04:40:24Z",
+  "modified_at": "2026-09-25T04:45:35Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-09-24 Untitled meeting.json",
+  "source_url": null,
+  "content_hash": "sha256:89f2dec10e7e55f88cbf1e53c0d901a2b3d26be6e7946cd8ab2e70d63e84c255",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "HARD CASE: vague title — ad-hoc late-night Granola note left as \"Untitled meeting\"; actually Hudson + David deciding pilot onboarding flow and what to cut before Oct 9."
+  }
+ },
+ {
+  "id": "item_034905",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-09-29 Hudson x David weekly.json",
+  "title": "2026-09-29 Hudson x David weekly.json",
+  "content_type": "data",
+  "created_at": "2026-09-29T22:59:20Z",
+  "modified_at": "2026-09-29T23:09:31Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-09-29 Hudson x David weekly.json",
+  "source_url": null,
+  "content_hash": "sha256:7042460e10c0711f69d793fd3543fc6a340abcae16f7039237d06d70fb00e8b0",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "Weekly sync; pilot build checklist before Oct 9, canvas flicker fix landed, connect screen copy."
+  }
+ },
+ {
+  "id": "item_034906",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-10-04 UIST talk dry run — TutorTrace.json",
+  "title": "2026-10-04 UIST talk dry run — TutorTrace.json",
+  "content_type": "data",
+  "created_at": "2026-10-04T19:57:31Z",
+  "modified_at": "2026-10-04T20:27:08Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-10-04 UIST talk dry run — TutorTrace.json",
+  "source_url": null,
+  "content_hash": "sha256:3f1dc3932c77e35f5dbfc4a848f30caffcc43519c2924068fa34584606912f8a",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "Dry run of the UIST 2026 TutorTrace talk (15 min + 5 Q&A, session \"Learning & Tutoring\", chair Tomás Reyes) with Hudson as audience."
+  }
+ },
+ {
+  "id": "item_034907",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-10-09 Engelbart pilot onboarding — Priya Raman.json",
+  "title": "2026-10-09 Engelbart pilot onboarding — Priya Raman.json",
+  "content_type": "data",
+  "created_at": "2026-10-09T17:29:15Z",
+  "modified_at": "2026-10-09T17:55:15Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-10-09 Engelbart pilot onboarding — Priya Raman.json",
+  "source_url": null,
+  "content_hash": "sha256:1e3aa387f3cb5bffbd7a4ffdaf0511d49a9995a386ec5bf32b3b354d1c249ff8",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "Engelbart pilot onboarding session A with Priya Raman (fixed event 2026-10-09): ~140 Claude chats missing, duplicate PDFs (Zotero + Downloads), liked the trail."
+  }
+ },
+ {
+  "id": "item_034908",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-10-12 Hudson x David weekly.json",
+  "title": "2026-10-12 Hudson x David weekly.json",
+  "content_type": "data",
+  "created_at": "2026-10-12T22:57:52Z",
+  "modified_at": "2026-10-12T23:10:26Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-10-12 Hudson x David weekly.json",
+  "source_url": null,
+  "content_hash": "sha256:50718de6e42b00cf1687f15f3d0495603ef9c2ea45c286242bd759c27b059c28",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "Weekly sync; debrief of Priya's pilot (missing Claude chats root cause, duplicate suggestions) and prep for pilot B (Daniel Osei)."
+  }
+ },
+ {
+  "id": "item_034909",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-10-13 Engelbart pilot onboarding — Daniel Osei (pilot B).json",
+  "title": "2026-10-13 Engelbart pilot onboarding — Daniel Osei (pilot B).json",
+  "content_type": "data",
+  "created_at": "2026-10-13T15:57:33Z",
+  "modified_at": "2026-10-13T16:22:52Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-10-13 Engelbart pilot onboarding — Daniel Osei (pilot B).json",
+  "source_url": null,
+  "content_hash": "sha256:86421eae9edb3c9542fa92d55f194b8301660826c64c4b9d75c092665ad854db",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "Engelbart pilot onboarding session B with Daniel Osei, CMU postdoc (fixed event 2026-10-13): wants Notion + Granola import, confused by the connect screen's \"Other\" tile."
+  }
+ },
+ {
+  "id": "item_034910",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-10-14 Marcus Oyelaran — follow-up.json",
+  "title": "2026-10-14 Marcus Oyelaran — follow-up.json",
+  "content_type": "data",
+  "created_at": "2026-10-14T17:57:46Z",
+  "modified_at": "2026-10-14T18:08:31Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-10-14 Marcus Oyelaran — follow-up.json",
+  "source_url": null,
+  "content_hash": "sha256:6d590508b75f5a5d902d2530be7299a9736a123580bf3ff0ed3f334c6954e36f",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "Second call with Marcus Oyelaran (fixed event 2026-10-14): interested in a $50k check into the pre-seed SAFE if pilots convert."
+  }
+ },
+ {
+  "id": "item_034911",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "granola",
+  "source_id": "david.barron (Granola)/2026-10-16 Hudson x David — import redesign working session.json",
+  "title": "2026-10-16 Hudson x David — import redesign working session.json",
+  "content_type": "data",
+  "created_at": "2026-10-16T21:57:18Z",
+  "modified_at": "2026-10-16T22:07:23Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/granola/david.barron (Granola)/2026-10-16 Hudson x David — import redesign working session.json",
+  "source_url": null,
+  "content_hash": "sha256:41355a1a1bee4baeb2b7466367aaae5e268177e6feeebc97a59d3a63f68e2c3f",
+  "library_item_id": null,
+  "modeled_on": "Granola document JSON (API/MCP document shape); vocabulary from authentic/granola/shared-notes share pages",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Granola (david@mathetic.com, Mathetic workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "Working session on the onboarding/import redesign after both pilots (omissions, wrong items, duplicates); decides to build an import benchmark from ground truth."
+  }
+ }
+]

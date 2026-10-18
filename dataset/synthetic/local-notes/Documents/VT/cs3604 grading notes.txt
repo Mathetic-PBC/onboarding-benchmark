@@ -1,0 +1,8 @@
+CS 3604 grading notes F25
+
+P3 (REST API): autograder misses tests outside /test — check /spec manually. 4 teams used /spec.
+P3 common deductions: no README run instructions (-2), hard-coded keys in config (-2), 500s on bad input (-3)
+P4 (React): accessibility criterion: check alt text + labels with axe; don't fail for color contrast on default theme
+late policy: 2 free late days per assignment? NO — 1 free, then -5/day. syllabus section 6.
+regrade window: 7 days after grades posted
+finals: grades due Mon 12/15 noon. final demos 12/9-12/11, 16 teams

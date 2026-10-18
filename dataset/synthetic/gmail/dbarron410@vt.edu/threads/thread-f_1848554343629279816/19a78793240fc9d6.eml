@@ -1,0 +1,40 @@
+From: Rezky <rezky.prime@vt.edu>
+To: David Barron <dbarron410@vt.edu>
+Subject: Re: TACode handoff: repo, deploy, open issues
+Date: Wed, 12 Nov 2025 09:30:00 -0500
+Message-ID:
+ <CA_J1u4+6hA_6SjqU7KJlbpaFs59AEmg8E_vND8Hf_KE8T0VGd0f4I@mail.gmail.com>
+In-Reply-To:
+ <CArHtwRX4Wx1o7r2kyXuvnEBNlVUhhNUVq_SudJElvGBVSjdgRnnor@mail.gmail.com>
+References:
+ <CArHtwRX4Wx1o7r2kyXuvnEBNlVUhhNUVq_SudJElvGBVSjdgRnnor@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1848554343629279816
+X-Gmail-Labels: Inbox,Opened
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Thanks David, this is super clear. Thursday 2pm for the walkthrough? I'll sta=
+rt with #44 since roster sync blocks everything else.
+
+Rezky
+
+On Tue, Nov 11, 2025 at 10:40 PM David Barron <dbarron410@vt.edu> wrote:
+> Hi Rezky,
+>
+> As discussed in lab meeting, here's the TACode handoff. I'm stepping back s=
+o I can focus on VizPI/TutorTrace.
+>
+> - Repo: PRIME-Lab/tacode (you're now an admin). main is deployable; the `qu=
+eue-v2` branch is half-finished, don't merge it as is.
+> - Deploy: the course VM, `make deploy` from the repo root. The .env templat=
+e is in the lab password manager under "TACode prod".
+> - Open issues that matter: #41 (office-hours queue doesn't clear at midnigh=
+t), #44 (Canvas roster sync fails for cross-listed sections), #47 (TA notes e=
+xport as CSV).
+> - The spring instructor wants the queue running by the first week of classe=
+s.
+>
+> Happy to do a 30-minute walkthrough Thursday.
+>
+> David

@@ -1,0 +1,606 @@
+{
+ "id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Hudson x David weekly",
+ "created_at": "2026-09-01T19:57:33.000Z",
+ "updated_at": "2026-09-01T20:07:08.633Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "4985be0f2f4504793daeaaae9c",
+  "summary": "Hudson x David weekly",
+  "start": {
+   "dateTime": "2026-09-01T13:00:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-09-01T13:15:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted",
+    "organizer": true
+   }
+  ],
+  "organizer": {
+   "email": "hudson@mathetic.com"
+  },
+  "creator": {
+   "email": "hudson@mathetic.com"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=d5a2131e448bba4314e306b1753cc748de04578c",
+  "status": "confirmed",
+  "location": "Surplus house, SF"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### Berkeley conversations — plan\n\n- Confirmed: Sep 9 Elena Park (learning sciences PhD), Sep 10 Priya Raman (education + HCI PhD); Sep 16 Ben Adeyemi (stats postdoc) on Zoom\n- David leads, Hudson takes notes; record only with permission (Granola on, ask first)\n- No demo in the first three; ask to see their actual setup (screen share or laptop)\n- Gift: $25 coffee card each\n\n### Interview guide draft (v0)\n\n1. Walk me through the last time you started a new project. Where did the idea come from?\n2. Show me where your notes for it live right now.\n3. When you write a paper, how do you find the thing you read / said months ago?\n4. Where do AI chats fit? Do you ever go back to old ones?\n5. What did you try that you stopped using? Why?\n6. If you could ask your past self one question about this project, what would it be?\n\n### Importer status\n\n- Claude importer done; ChatGPT importer handles branches (current_node walk) — 2 fixtures failing on deleted conversations\n- Zotero spike: Hudson found attachments are keyed by 8-char folder names in `storage/`; linked files (not stored) need the path from `itemAttachments`\n- PDF hashing: Zotero doesn't rewrite PDFs on annotation (annotations live in the DB) → byte hash OK for Zotero, still normalize text for Downloads copies\n\n### Action items\n\n- [ ] David — finalize guide, send to Lena Thu\n- [ ] Hudson — buy coffee cards; confirm rooms with Elena/Priya\n- [ ] David — fix deleted-conversation fixtures\n- [ ] Hudson — Zotero linked-file paths\n",
+ "notes_plain": "Berkeley conversations — plan\n\nConfirmed: Sep 9 Elena Park (learning sciences PhD), Sep 10 Priya Raman (education + HCI PhD); Sep 16 Ben Adeyemi (stats postdoc) on Zoom\nDavid leads, Hudson takes notes; record only with permission (Granola on, ask first)\nNo demo in the first three; ask to see their actual setup (screen share or laptop)\nGift: $25 coffee card each\n\nInterview guide draft (v0)\n\n1. Walk me through the last time you started a new project. Where did the idea come from?\n2. Show me where your notes for it live right now.\n3. When you write a paper, how do you find the thing you read / said months ago?\n4. Where do AI chats fit? Do you ever go back to old ones?\n5. What did you try that you stopped using? Why?\n6. If you could ask your past self one question about this project, what would it be?\n\nImporter status\n\nClaude importer done; ChatGPT importer handles branches (current_node walk) — 2 fixtures failing on deleted conversations\nZotero spike: Hudson found attachments are keyed by 8-char folder names in `storage/`; linked files (not stored) need the path from `itemAttachments`\nPDF hashing: Zotero doesn't rewrite PDFs on annotation (annotations live in the DB) → byte hash OK for Zotero, still normalize text for Downloads copies\n\nAction items\n\nDavid — finalize guide, send to Lena Thu\nHudson — buy coffee cards; confirm rooms with Elena/Priya\nDavid — fix deleted-conversation fixtures\nHudson — Zotero linked-file paths\n",
+ "transcript": [
+  {
+   "id": "6292b017-ec47-4f00-8c94-6f9f3500238b",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:00:15.737Z",
+   "end_timestamp": "2026-09-01T20:00:17.984Z",
+   "text": "September. How is it September.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "fda6df3d-6714-421f-ac69-2e3c7725c820",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:00:19.636Z",
+   "end_timestamp": "2026-09-01T20:00:22.811Z",
+   "text": "Don't. I still have boxes in the garage.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "819ff147-97e5-4d65-b4b2-11928383134d",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:00:23.448Z",
+   "end_timestamp": "2026-09-01T20:00:24.397Z",
+   "text": "Okay. Berkeley.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "9459309f-b856-4e89-b03d-e4ddda7ff674",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:00:25.180Z",
+   "end_timestamp": "2026-09-01T20:00:35.301Z",
+   "text": "Berkeley. So we have three. Elena Park on the ninth, Priya on the tenth, and the stats postdoc, Ben Adeyemi, on the sixteenth on Zoom.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "3138c7b4-38c8-4fcf-a012-049e44dfcc62",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:00:36.372Z",
+   "end_timestamp": "2026-09-01T20:00:37.358Z",
+   "text": "Ben confirmed?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "327047bc-4d5a-4c9f-80c2-bea4affe5b85",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:00:38.687Z",
+   "end_timestamp": "2026-09-01T20:00:45.362Z",
+   "text": "He confirmed this morning. He said Zoom only, he's got a kid at home on Wednesdays.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "526dbd08-daf2-4181-aa0a-269f1952c6f1",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:00:45.542Z",
+   "end_timestamp": "2026-09-01T20:00:47.987Z",
+   "text": "Totally. Okay, so roles. You lead?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "4408ad60-cddb-4799-8334-5dedd5e79b96",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:00:48.413Z",
+   "end_timestamp": "2026-09-01T20:00:58.664Z",
+   "text": "I lead. You take notes. And Granola on, but we ask first. Every time. \"Is it okay if we record, it's just for us.\"",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "09964675-e704-4ead-8d89-58141927668d",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:01:00.575Z",
+   "end_timestamp": "2026-09-01T20:01:02.952Z",
+   "text": "Yes. What if they say no?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "0fe8ead7-7328-47ac-8413-2df514157fa9",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:01:05.076Z",
+   "end_timestamp": "2026-09-01T20:01:06.691Z",
+   "text": "Then you type faster.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "782598a7-07f0-476c-94b8-d1876e80cc1f",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:01:07.364Z",
+   "end_timestamp": "2026-09-01T20:01:09.672Z",
+   "text": "Ha. Okay. Lena said no demo.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "3cfedde0-5763-4806-a3cd-b1861d43118a",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:01:10.016Z",
+   "end_timestamp": "2026-09-01T20:01:19.924Z",
+   "text": "No demo for the first three. I actually agree. If we demo, they'll just react to our thing. I want to see their thing.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "2778834b-286f-4283-adea-c9eaef5eb10f",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:01:21.102Z",
+   "end_timestamp": "2026-09-01T20:01:22.766Z",
+   "text": "Like literally see it?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "49d6bd7a-45f8-4e68-a72f-bfb6f0dd7d11",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:01:24.254Z",
+   "end_timestamp": "2026-09-01T20:01:36.303Z",
+   "text": "Yeah, I want to ask \"can you show me where your notes live.\" Open the laptop. People always describe their system as way more organized than it is.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "fe633060-59ef-4238-811e-f2d38517802e",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:01:36.828Z",
+   "end_timestamp": "2026-09-01T20:01:40.928Z",
+   "text": "That's so true. My Notion is a crime scene.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "60ee4860-581c-4495-9483-b632782f02e9",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:01:42.822Z",
+   "end_timestamp": "2026-09-01T20:01:48.543Z",
+   "text": "Everyone's is. Okay so, the guide. I have six questions. Can I read them?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "bbf5d33f-367f-49eb-999b-80d0e50fe8ba",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:01:50.216Z",
+   "end_timestamp": "2026-09-01T20:01:51.052Z",
+   "text": "Go.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "cb9c4c32-2af5-489b-aea2-064e3eaea68e",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:01:52.474Z",
+   "end_timestamp": "2026-09-01T20:02:00.429Z",
+   "text": "One. Walk me through the last time you started a new project. Where did the idea come from.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "2de4d038-8207-4abb-a264-9698dc8787c6",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:02:00.743Z",
+   "end_timestamp": "2026-09-01T20:02:01.691Z",
+   "text": "Good.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "71d01d7a-0a70-439f-96e5-e8d9f2fd41f9",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:02:02.306Z",
+   "end_timestamp": "2026-09-01T20:02:07.335Z",
+   "text": "Two. Show me where your notes for it live right now.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d2b21ef0-d61c-421e-9ac6-367a37dec283",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:02:09.293Z",
+   "end_timestamp": "2026-09-01T20:02:10.581Z",
+   "text": "The laptop one.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "1bfcea0a-e2ad-4a53-868e-d31a6a09d9cd",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:02:12.110Z",
+   "end_timestamp": "2026-09-01T20:02:19.060Z",
+   "text": "Three. When you write a paper, how do you find the thing you read or said months ago.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "3ae8fcd3-ba57-4f77-a7b0-c6f9cbbb938e",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:02:20.007Z",
+   "end_timestamp": "2026-09-01T20:02:21.836Z",
+   "text": "That's the money one.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "79971937-c6ee-4301-8d84-6053d2bcae5a",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:02:22.196Z",
+   "end_timestamp": "2026-09-01T20:02:30.000Z",
+   "text": "That's the money one. Four. Where do AI chats fit. Do you ever go back to old ones.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "efa416e9-ebf0-4658-88df-f9d3cf4ae76d",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:02:30.191Z",
+   "end_timestamp": "2026-09-01T20:02:34.871Z",
+   "text": "Is that leading? Like it kind of plants the idea.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "0a5a4f96-e110-46b7-8455-d4487815a46e",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:02:35.125Z",
+   "end_timestamp": "2026-09-01T20:02:41.073Z",
+   "text": "Hm. Maybe. Maybe I ask it only if they haven't brought up AI by then.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "a442a275-d897-424c-9139-63fda0375c2b",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:02:41.600Z",
+   "end_timestamp": "2026-09-01T20:02:43.464Z",
+   "text": "Yeah, make it conditional.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "f7474e2f-c2ef-432f-8d54-6022610111a6",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:02:44.063Z",
+   "end_timestamp": "2026-09-01T20:02:55.052Z",
+   "text": "Okay. Five, what did you try that you stopped using, and why. Six, if you could ask your past self one question about this project, what would it be.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "35369fa0-f865-4939-8a4e-cfaf04f1fa33",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:02:56.905Z",
+   "end_timestamp": "2026-09-01T20:03:00.472Z",
+   "text": "Six is weird. I like it but it's weird.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "626c297c-cef0-40db-a166-e52fa8badb5d",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:03:00.666Z",
+   "end_timestamp": "2026-09-01T20:03:11.380Z",
+   "text": "It's from a — I stole it from an old study. It gets people talking about what they forgot, which is the whole thing.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "4dd32e85-b616-4828-9c2f-470433a51a2f",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:03:13.312Z",
+   "end_timestamp": "2026-09-01T20:03:16.273Z",
+   "text": "Keep it. Okay. Coffee cards. Twenty-five each?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "5c7da38e-eb48-4688-8236-f9bbdc6db319",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:03:17.734Z",
+   "end_timestamp": "2026-09-01T20:03:20.348Z",
+   "text": "Twenty-five's fine. Can you buy them?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "436db412-4519-48d2-bfaa-75f3fa94c74b",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:03:22.439Z",
+   "end_timestamp": "2026-09-01T20:03:25.871Z",
+   "text": "Yeah, I'll get three, actually four in case.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "c0d57b83-4a77-48ff-89f5-2a29b757b61c",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:03:26.393Z",
+   "end_timestamp": "2026-09-01T20:03:27.669Z",
+   "text": "Cool. Okay, importers.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "9cae7164-79cd-4e57-9ac1-8626ab15b843",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:03:29.794Z",
+   "end_timestamp": "2026-09-01T20:03:30.741Z",
+   "text": "Importers.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "f44411ee-5c76-447d-88e6-eaecc2c99252",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:03:32.117Z",
+   "end_timestamp": "2026-09-01T20:03:46.753Z",
+   "text": "Claude importer's done. ChatGPT handles the branches now, the walk up from current node works. But two fixtures fail. They're deleted conversations, where the export still has the conversation but the mapping is, like, half empty.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "c2969a8f-a8ce-4381-99de-66d980ec0e0f",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:03:48.592Z",
+   "end_timestamp": "2026-09-01T20:03:49.742Z",
+   "text": "So skip them?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "9f96bf86-3d06-4947-9ab3-fddcfc32cfcc",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:03:49.935Z",
+   "end_timestamp": "2026-09-01T20:03:58.820Z",
+   "text": "Probably mark them, not skip. If someone deleted it they probably don't want it imported. But I want the count to be honest.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0ee775e1-b4f9-4844-88f7-98b5cb84a79e",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:04:00.111Z",
+   "end_timestamp": "2026-09-01T20:04:03.219Z",
+   "text": "\"Skipped two deleted conversations.\" In the UI.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "f97111c3-582e-4d01-97e0-f0e89ecf4a48",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:04:03.918Z",
+   "end_timestamp": "2026-09-01T20:04:08.486Z",
+   "text": "Yeah. That's actually a good principle. Always say what you skipped.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "cdd3d5fa-d82d-4607-ad3f-b87417dd6c3a",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:04:10.266Z",
+   "end_timestamp": "2026-09-01T20:04:17.417Z",
+   "text": "Writing that down. Zotero. So you were right about the storage folder. Eight character keys. But there's a catch.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "475473b3-46fe-4403-8e7d-d0a34de220f6",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:04:17.964Z",
+   "end_timestamp": "2026-09-01T20:04:18.830Z",
+   "text": "What?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "fbcb6724-5176-44fc-bf54-72293b0ab17a",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:04:20.335Z",
+   "end_timestamp": "2026-09-01T20:04:35.197Z",
+   "text": "Linked files. If someone adds a PDF as a link instead of storing it, it's not in storage, it's just a path somewhere on disk. You have to read it out of the item attachments table.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "0078ac4c-5ac2-43ea-9cde-d0f7b98e2059",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:04:36.134Z",
+   "end_timestamp": "2026-09-01T20:04:39.288Z",
+   "text": "And the path might not exist anymore.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "34d1c5da-c609-46af-9837-c22407e1b0f2",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:04:39.934Z",
+   "end_timestamp": "2026-09-01T20:04:42.973Z",
+   "text": "Right, so then it's a dead link.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "2069ebd3-f357-4ab9-8d2f-91e9024a3bb3",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:04:43.371Z",
+   "end_timestamp": "2026-09-01T20:04:47.512Z",
+   "text": "Okay. Also say what's dead. And the PDF hashing question?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0ae9796c-701c-49a1-b6a5-e04390783f72",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:04:49.302Z",
+   "end_timestamp": "2026-09-01T20:04:57.432Z",
+   "text": "Oh yeah. I checked. Zotero doesn't rewrite the PDF when you annotate. The annotations live in the database.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "7e304790-e0f4-4468-8e90-e979625928cd",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:04:57.861Z",
+   "end_timestamp": "2026-09-01T20:05:01.743Z",
+   "text": "Oh nice. So byte hash is fine for Zotero.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "06ca8e49-9174-49b4-81f6-b0cedadaa4f6",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:05:02.817Z",
+   "end_timestamp": "2026-09-01T20:05:10.609Z",
+   "text": "For Zotero. For Downloads copies of the same paper it's still different bytes if it came from somewhere else.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "103ab2be-f9f0-4f74-b217-a07ce8a64f8e",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:05:12.792Z",
+   "end_timestamp": "2026-09-01T20:05:21.111Z",
+   "text": "Yeah, the publisher version versus arXiv. Then we fall back to the text thing. Okay. That's actually clean.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "2e25eb99-5649-49e1-a125-18d255cbcf0f",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:05:23.161Z",
+   "end_timestamp": "2026-09-01T20:05:24.053Z",
+   "text": "Anything else?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a3206736-ce14-46f3-ae56-20dd81d67478",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:05:26.093Z",
+   "end_timestamp": "2026-09-01T20:05:34.537Z",
+   "text": "I'll send the guide to Lena Thursday. Oh, and I need to buy a nicer shirt for the talk.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "9aaf6bb3-c65c-4424-a5c6-21e3cb2caac7",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:05:35.843Z",
+   "end_timestamp": "2026-09-01T20:05:39.012Z",
+   "text": "The UIST talk is October, you're fine.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "87f3af9c-3a45-4584-8a0b-ad85d51342f1",
+   "document_id": "3bccbea2-d703-4f9d-a3df-876bda394d03",
+   "start_timestamp": "2026-09-01T20:05:39.202Z",
+   "end_timestamp": "2026-09-01T20:05:42.633Z",
+   "text": "I know, I'm just saying it so I remember.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  }
+ ]
+}

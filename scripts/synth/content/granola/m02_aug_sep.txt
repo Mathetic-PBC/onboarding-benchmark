@@ -1,0 +1,248 @@
+##### MEETING
+slug: surplus-office-hours-0827
+title: Surplus check-in (Lena / Mathetic)
+start: 2026-08-27 15:30
+scheduled_min: 30
+calendar: yes
+mode: virtual
+organizer: lena@surplus.house
+attendees: Lena Hoffmann <lena@surplus.house>; Hudson Mitchell-Pullman <hudson@mathetic.com>
+projects: project_mathetic_company
+label_notes: Weekly Thursday Surplus check-in with Lena; user-conversation count and metric.
+=== notes
+### Numbers this week
+
+- Real user conversations: 3 (target was 7)
+- Researcher list: 14 of 20 names; 9 at Berkeley
+- First Berkeley research chats booked: Sep 9 (Elena Park) and Sep 10 (Priya Raman); a third (stats postdoc) pending
+- Metric ("median hours to first useful recall") not measurable yet — nothing deployed
+
+### Lena's feedback
+
+- Problem paragraph is much better; cut the last sentence ("we believe…")
+- Stop calling them "research chats" with interviewees, just "conversations about how you work"
+- Don't show the product in the first 3 chats; listen for the words people use
+- Asked whether either of them has done formal interviews before — David has (PhD user studies); he'll write the guide
+
+### Demo night
+
+- Oct 29; each team gets 4 minutes + 2 for questions
+- Lena wants a rough 4-minute version by Oct 1
+
+### Delaware / legal
+
+- Surplus legal reviewed the SAFE template: fine, wants the MFN clause spelled out
+- Reminder that the Delaware annual report and franchise tax are due Mar 1, 2027 — Hudson owns it
+
+### Action items
+
+- [ ] David — interview guide (30 min, 6 questions, no product demo) by Sep 4
+- [ ] Hudson — fix MFN wording in SAFE; calendar reminder for DE annual report (due 2027-03-01)
+- [ ] Both — finish the 20-name list; 5 conversations next week
+=== transcript
+Lena: Hi hi. Okay, Thursday. Number first. How many?
+Hudson: Three.
+Lena: Three real ones?
+Hudson: Three real ones. One was a postdoc friend of a friend, two were people from the alumni list you sent.
+Lena: Okay. That's not seven but it's not zero. List?
+Me: Fourteen out of twenty. Nine at Berkeley. And we have two booked, the ninth and the tenth. Elena Park, she's learning sciences, and Priya Raman, education and HCI.
+Lena: Great. Those are in person?
+Me: Yeah, we'll go over to campus. There's a third, a statistics postdoc, but he's only free on Zoom, so maybe the sixteenth.
+Lena: Fine. Zoom's fine. Okay, your paragraph. I read it.
+Hudson: And?
+Lena: Much better. No "notebook," I noticed. Cut the last sentence. Every "we believe" sentence is a sentence you don't need.
+Me: Ha, that was mine.
+Lena: I know it was yours, it sounded like a paper.
+Me: It's a — yeah, it's a habit.
+Lena: Okay, metric. Did you measure it?
+Me: Um, no. There's nothing deployed to measure. We have importers working on fixtures but nobody's using anything.
+Lena: That's fine for now. Just tell me that every week until it's not true. I'd rather hear "not measurable yet" than a fake number.
+Hudson: That we can do.
+Lena: For the Berkeley conversations. Can I give you one note?
+Me: Yeah, please.
+Lena: Stop calling them research chats. When you email people. It sounds like you're doing a study on them.
+Me: Oh. Hm. I mean I kind of am. That's the PhD brain.
+Lena: Call it "a conversation about how you work." And don't show them the product in the first three. Just listen. Write down the exact words they use for the problem. If they say "I lose stuff" that's your landing page, not "provenance."
+Hudson: She's dunking on "provenance."
+Lena: I'm absolutely dunking on provenance. Nobody says provenance.
+Me: Researchers kind of say provenance.
+Lena: Do they? Then write it down if they do! That's the point. Has either of you done interviews before? Like properly?
+Me: Yeah, I've done user studies for my PhD work. Think-alouds, semi-structured interviews, the — um, the whole IRB thing.
+Lena: Then you write the guide. Thirty minutes, six questions max.
+Me: Six. Okay. By next Thursday?
+Lena: By next Thursday. Okay, demo night. October twenty-ninth. Four minutes plus two for questions.
+Hudson: Four minutes is so short.
+Lena: Four minutes is forever on stage. I want a rough version October first. Rough. Bullet points even.
+Me: October first. I have a conference talk the week after, the seventh, so, um, early is actually better for me.
+Lena: The UIST one? Good, you'll be warmed up. Legal, last thing. Our person looked at the SAFE template. It's fine. She wants the MFN clause written out instead of referenced.
+Hudson: I can fix that today.
+Lena: And somebody needs to own the Delaware annual report. It's due March first. People forget and then they're not in good standing right when they're closing a round.
+Hudson: I'll put it on the calendar. March first, 2027.
+Lena: Okay. Five conversations next week. Go.
+Me: Five. Okay.
+Hudson: Thanks Lena.
+Lena: Bye guys!
+
+##### MEETING
+slug: landlord-call
+title: Call w/ Blacksburg landlord — lease + deposit
+start: 2026-08-28 18:00
+scheduled_min: 20
+calendar: no
+mode: in-person
+organizer: david@mathetic.com
+attendees: Gary (landlord)
+projects: project_none
+label_notes: HARD CASE: personal clutter — phone call with the old Blacksburg landlord about lease transfer and deposit; unrelated to any project.
+=== notes
+### Lease
+
+- Old Blacksburg lease runs to May 31, 2027; subletter (a VT master's student) takes over Sep 1
+- Landlord OK with a formal lease assignment instead of a sublet if the new tenant passes the application — $50 fee, paid by the tenant
+- David stays on the hook until the assignment is signed
+
+### Deposit
+
+- Deposit to be returned to David once the assignment is signed, minus any damage from the walkthrough
+- Walkthrough was done Aug 7: one stained carpet patch in the bedroom, nail holes from the bookshelf
+- Gary estimates ~$120 for carpet cleaning; nail holes "normal wear"
+- Refund by mailed check or Zelle — David asked for Zelle
+
+### To do
+
+- [ ] Send Gary the walkthrough photos from Aug 7
+- [ ] Forward the new tenant's application link
+- [ ] Update forwarding address with USPS (already done? check)
+- [ ] Confirm deposit amount in writing
+=== transcript
+Gary: Hello?
+Me: Hi, Gary? It's David Barron, from the, um, the unit on the second floor. I'm on speaker, sorry, I'm in California now.
+Gary: David, right, right. California. How's the weather?
+Me: Cold, honestly. Nobody warned me about August here.
+Gary: Ha! That's what they say. Okay, so you got my email about the lease?
+Me: Yeah, that's why I'm calling. So the — the person taking over, she's a master's student, she's been there since the first basically.
+Gary: The young lady. Yes, she came by for the keys.
+Me: Right. So my question is, can we just make it official? Like instead of a sublet, put it in her name?
+Gary: We can do an assignment. She fills out the application, there's a fifty dollar fee, that's on her, and if it goes through she takes over the lease through end of May.
+Me: Okay great. And until then I'm still, um—
+Gary: Until it's signed you're still the one on the lease, yes. If she doesn't pay, I call you.
+Me: Sure. That's fair. She'll pay, she's very, uh, organized.
+Gary: They usually are, the grad students. Better than the undergrads, I'll tell you that.
+Me: Ha. Okay. And then the deposit. Does that come back to me once it's signed over?
+Gary: Once the assignment's signed, yes, I return your deposit and she pays her own. Minus anything from the walkthrough.
+Me: Right, we did that the seventh. What did you, um, what did you end up seeing?
+Gary: Let me find it. Okay. Carpet in the bedroom, there's that spot by the window.
+Me: Yeah, that was — that was there, I think, partially, but yeah.
+Gary: I'll be fair, it'll need a cleaning, maybe a hundred twenty. And the holes from the shelf.
+Me: The bookshelf, yeah. I anchored it to the wall because it was wobbly.
+Gary: Holes are normal. I'm not charging for holes. Just the carpet.
+Me: Okay, that's fair. A hundred twenty is fine. Can you put that in an email, just so I have it?
+Gary: I'll put it in writing. How do you want the money?
+Me: Can you do Zelle?
+Gary: I can do Zelle. My daughter set it up. I'll need the email or phone for it.
+Me: I'll send it in the email reply. And I'll send the photos from the walkthrough, I took a bunch.
+Gary: Sure, send the photos. Is your mail getting forwarded? I've got one envelope here, looks like a bank.
+Me: Oh. Um. I thought I did the forwarding. I'll check. Can you just hand it to her, or — actually, can you mail it on? I'll send you where.
+Gary: I'll mail it. Send me the address.
+Me: Will do. Okay, so: she does the application, I send photos, you confirm the deposit in writing.
+Gary: That's it. Good luck out there. You doing the start-up thing?
+Me: Yeah, trying to.
+Gary: Well. Eat something besides avocado toast.
+Me: Ha, I'll try. Thanks Gary.
+Gary: Take care now.
+
+##### MEETING
+slug: hudson-sync-0901
+title: Hudson x David weekly
+start: 2026-09-01 13:00
+scheduled_min: 15
+calendar: yes
+mode: in-person
+organizer: hudson@mathetic.com
+attendees: Hudson Mitchell-Pullman <hudson@mathetic.com>
+projects: project_berkeley_research_chats; project_engelbart
+label_notes: Weekly sync; planning the Berkeley research chats (guide draft) + importer status.
+=== notes
+### Berkeley conversations — plan
+
+- Confirmed: Sep 9 Elena Park (learning sciences PhD), Sep 10 Priya Raman (education + HCI PhD); Sep 16 Ben Adeyemi (stats postdoc) on Zoom
+- David leads, Hudson takes notes; record only with permission (Granola on, ask first)
+- No demo in the first three; ask to see their actual setup (screen share or laptop)
+- Gift: $25 coffee card each
+
+### Interview guide draft (v0)
+
+1. Walk me through the last time you started a new project. Where did the idea come from?
+2. Show me where your notes for it live right now.
+3. When you write a paper, how do you find the thing you read / said months ago?
+4. Where do AI chats fit? Do you ever go back to old ones?
+5. What did you try that you stopped using? Why?
+6. If you could ask your past self one question about this project, what would it be?
+
+### Importer status
+
+- Claude importer done; ChatGPT importer handles branches (current_node walk) — 2 fixtures failing on deleted conversations
+- Zotero spike: Hudson found attachments are keyed by 8-char folder names in `storage/`; linked files (not stored) need the path from `itemAttachments`
+- PDF hashing: Zotero doesn't rewrite PDFs on annotation (annotations live in the DB) → byte hash OK for Zotero, still normalize text for Downloads copies
+
+### Action items
+
+- [ ] David — finalize guide, send to Lena Thu
+- [ ] Hudson — buy coffee cards; confirm rooms with Elena/Priya
+- [ ] David — fix deleted-conversation fixtures
+- [ ] Hudson — Zotero linked-file paths
+=== transcript
+Hudson: September. How is it September.
+Me: Don't. I still have boxes in the garage.
+Hudson: Okay. Berkeley.
+Me: Berkeley. So we have three. Elena Park on the ninth, Priya on the tenth, and the stats postdoc, Ben Adeyemi, on the sixteenth on Zoom.
+Hudson: Ben confirmed?
+Me: He confirmed this morning. He said Zoom only, he's got a kid at home on Wednesdays.
+Hudson: Totally. Okay, so roles. You lead?
+Me: I lead. You take notes. And Granola on, but we ask first. Every time. "Is it okay if we record, it's just for us."
+Hudson: Yes. What if they say no?
+Me: Then you type faster.
+Hudson: Ha. Okay. Lena said no demo.
+Me: No demo for the first three. I actually agree. If we demo, they'll just react to our thing. I want to see their thing.
+Hudson: Like literally see it?
+Me: Yeah, I want to ask "can you show me where your notes live." Open the laptop. People always describe their system as way more organized than it is.
+Hudson: That's so true. My Notion is a crime scene.
+Me: Everyone's is. Okay so, the guide. I have six questions. Can I read them?
+Hudson: Go.
+Me: One. Walk me through the last time you started a new project. Where did the idea come from.
+Hudson: Good.
+Me: Two. Show me where your notes for it live right now.
+Hudson: The laptop one.
+Me: Three. When you write a paper, how do you find the thing you read or said months ago.
+Hudson: That's the money one.
+Me: That's the money one. Four. Where do AI chats fit. Do you ever go back to old ones.
+Hudson: Is that leading? Like it kind of plants the idea.
+Me: Hm. Maybe. Maybe I ask it only if they haven't brought up AI by then.
+Hudson: Yeah, make it conditional.
+Me: Okay. Five, what did you try that you stopped using, and why. Six, if you could ask your past self one question about this project, what would it be.
+Hudson: Six is weird. I like it but it's weird.
+Me: It's from a — I stole it from an old study. It gets people talking about what they forgot, which is the whole thing.
+Hudson: Keep it. Okay. Coffee cards. Twenty-five each?
+Me: Twenty-five's fine. Can you buy them?
+Hudson: Yeah, I'll get three, actually four in case.
+Me: Cool. Okay, importers.
+Hudson: Importers.
+Me: Claude importer's done. ChatGPT handles the branches now, the walk up from current node works. But two fixtures fail. They're deleted conversations, where the export still has the conversation but the mapping is, like, half empty.
+Hudson: So skip them?
+Me: Probably mark them, not skip. If someone deleted it they probably don't want it imported. But I want the count to be honest.
+Hudson: "Skipped two deleted conversations." In the UI.
+Me: Yeah. That's actually a good principle. Always say what you skipped.
+Hudson: Writing that down. Zotero. So you were right about the storage folder. Eight character keys. But there's a catch.
+Me: What?
+Hudson: Linked files. If someone adds a PDF as a link instead of storing it, it's not in storage, it's just a path somewhere on disk. You have to read it out of the item attachments table.
+Me: And the path might not exist anymore.
+Hudson: Right, so then it's a dead link.
+Me: Okay. Also say what's dead. And the PDF hashing question?
+Hudson: Oh yeah. I checked. Zotero doesn't rewrite the PDF when you annotate. The annotations live in the database.
+Me: Oh nice. So byte hash is fine for Zotero.
+Hudson: For Zotero. For Downloads copies of the same paper it's still different bytes if it came from somewhere else.
+Me: Yeah, the publisher version versus arXiv. Then we fall back to the text thing. Okay. That's actually clean.
+Hudson: Anything else?
+Me: I'll send the guide to Lena Thursday. Oh, and I need to buy a nicer shirt for the talk.
+Hudson: The UIST talk is October, you're fine.
+Me: I know, I'm just saying it so I remember.

@@ -1,0 +1,45 @@
+Channel: DM (D0SYNNK74E8)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-08-13 21:45:42 PDT === 
+Message TS: 1786682742.889439
+vt is fine
+
+=== Message from Yue (U0SYNRUS5ER) at 2026-08-13 21:40:10 PDT === 
+Message TS: 1786682410.613266
+camera-ready: do we list my vt email or personal? acm wants one
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-07-25 16:10:20 PDT === 
+Message TS: 1785021020.852739
+yes, and add the numbers: best baseline 0.81 → 0.74
+
+=== Message from Yue (U0SYNRUS5ER) at 2026-07-25 16:00:23 PDT === 
+Message TS: 1785020423.804649
+updating the datasheet "splits" paragraph: "Splits are grouped by student; no student appears in more than one split. Version 1 splits (random by window) are deprecated because of leakage." ok?
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-06-16 07:20:54 PDT === 
+Message TS: 1781619654.416308
+perfect, stratified is right. thank you for doing this in rebuttal week
+
+=== Message from Yue (U0SYNRUS5ER) at 2026-06-16 07:15:54 PDT === 
+Message TS: 1781619354.926185
+labeling the cs 1114 windows with minsun today. 300 windows, stratified by state using my single-rater labels. ok?
+
+=== Message from Yue (U0SYNRUS5ER) at 2026-04-30 20:00:38 PDT === 
+Message TS: 1777604438.672133
+oh good one
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-04-30 19:58:03 PDT === 
+Message TS: 1777604283.578566
+file paths in the IDE events, they sometimes contain usernames (`/Users/jsmith/...`). strip them to the basename
+
+=== Message from Yue (U0SYNRUS5ER) at 2026-04-30 19:50:27 PDT === 
+Message TS: 1777603827.298808
+for the datasheet "deidentification" section: we remove names, emails and free-text comments, and hash ids. anything else?
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-03-27 19:35:55 PDT === 
+Message TS: 1774665355.712980
+burned in, PCS strips sidecar files sometimes
+
+=== Message from Yue (U0SYNRUS5ER) at 2026-03-27 19:30:32 PDT === 
+Message TS: 1774665032.626881
+for the video, do you want captions burned in or a separate .srt

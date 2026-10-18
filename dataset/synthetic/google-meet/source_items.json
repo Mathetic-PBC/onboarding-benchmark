@@ -1,1 +1,812 @@
-[]
+[
+ {
+  "id": "item_034864",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2025-10-21 14:00 GMT-4) - Notes by Gemini.docx",
+  "title": "David _ Yan 1:1 (2025-10-21 14:00 GMT-4) - Notes by Gemini.docx",
+  "content_type": "document",
+  "created_at": "2025-10-21T18:22:35Z",
+  "modified_at": "2025-10-21T18:23:15Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2025-10-21 14:00 GMT-4) - Notes by Gemini.docx",
+  "source_url": null,
+  "content_hash": "sha256:cd7ee937d423653c716e41f730a3b790aa9a9ce098c5b47be2947a53da6d797d",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta",
+    "project_vizpi"
+   ],
+   "notes": "pair: David / Yan 1:1 (2025-10-21 14:00 GMT-4) transcript + Gemini notes; each doc is its own item"
+  }
+ },
+ {
+  "id": "item_034865",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2025-10-21 14:00 GMT-4) - Transcript.docx",
+  "title": "David _ Yan 1:1 (2025-10-21 14:00 GMT-4) - Transcript.docx",
+  "content_type": "document",
+  "created_at": "2025-10-21T18:13:15Z",
+  "modified_at": "2025-10-21T18:13:30Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2025-10-21 14:00 GMT-4) - Transcript.docx",
+  "source_url": null,
+  "content_hash": "sha256:e5e77d5497589aada60f339b234e3b3cf2e4acdbde3e7e40549fc820a6a081b0",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta",
+    "project_vizpi"
+   ],
+   "notes": "pair: David / Yan 1:1 (2025-10-21 14:00 GMT-4) transcript + Gemini notes; each doc is its own item"
+  }
+ },
+ {
+  "id": "item_034866",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2025-11-13 14:00 GMT-5) - Notes by Gemini.docx",
+  "title": "David _ Yan 1:1 (2025-11-13 14:00 GMT-5) - Notes by Gemini.docx",
+  "content_type": "document",
+  "created_at": "2025-11-13T19:19:17Z",
+  "modified_at": "2025-11-13T19:20:11Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2025-11-13 14:00 GMT-5) - Notes by Gemini.docx",
+  "source_url": null,
+  "content_hash": "sha256:e8aa588a3bb941be628eda08f7a36bc0be537ac02063a067e9b7dc1ac1d9dc9d",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "pair: David / Yan 1:1 (2025-11-13 14:00 GMT-5) transcript + Gemini notes; each doc is its own item"
+  }
+ },
+ {
+  "id": "item_034867",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2025-11-13 14:00 GMT-5) - Transcript.docx",
+  "title": "David _ Yan 1:1 (2025-11-13 14:00 GMT-5) - Transcript.docx",
+  "content_type": "document",
+  "created_at": "2025-11-13T19:10:58Z",
+  "modified_at": "2025-11-13T19:11:36Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2025-11-13 14:00 GMT-5) - Transcript.docx",
+  "source_url": null,
+  "content_hash": "sha256:5841ff38ce7a2ee25393943585a05ce749169a5650ed8a59a360d42592c2b4f3",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "pair: David / Yan 1:1 (2025-11-13 14:00 GMT-5) transcript + Gemini notes; each doc is its own item"
+  }
+ },
+ {
+  "id": "item_034868",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2025-12-04 14:00 GMT-5) - Transcript.docx",
+  "title": "David _ Yan 1:1 (2025-12-04 14:00 GMT-5) - Transcript.docx",
+  "content_type": "document",
+  "created_at": "2025-12-04T19:10:50Z",
+  "modified_at": "2025-12-04T19:11:39Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2025-12-04 14:00 GMT-5) - Transcript.docx",
+  "source_url": null,
+  "content_hash": "sha256:b91a55cd652dded31ed8934ba7a18b74e98ef4237f0d364319d1df246163f696",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta",
+    "project_vizpi"
+   ],
+   "notes": "transcript only; Gemini notes were not turned on"
+  }
+ },
+ {
+  "id": "item_034869",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-01-15 14:00 GMT-5) - Notes by Gemini.docx",
+  "title": "David _ Yan 1:1 (2026-01-15 14:00 GMT-5) - Notes by Gemini.docx",
+  "content_type": "document",
+  "created_at": "2026-01-15T19:17:17Z",
+  "modified_at": "2026-01-15T19:17:57Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-01-15 14:00 GMT-5) - Notes by Gemini.docx",
+  "source_url": null,
+  "content_hash": "sha256:bb09707d50e2093f95c3b868d1abada6f64a0374905f8d3510034489b71576eb",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "pair: David / Yan 1:1 (2026-01-15 14:00 GMT-5) transcript + Gemini notes; each doc is its own item"
+  }
+ },
+ {
+  "id": "item_034870",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-01-15 14:00 GMT-5) - Transcript.docx",
+  "title": "David _ Yan 1:1 (2026-01-15 14:00 GMT-5) - Transcript.docx",
+  "content_type": "document",
+  "created_at": "2026-01-15T19:11:25Z",
+  "modified_at": "2026-01-15T19:12:04Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-01-15 14:00 GMT-5) - Transcript.docx",
+  "source_url": null,
+  "content_hash": "sha256:969a188d45e4bb1381209bec3b08f122f63238084842d9ee919448c541dcce63",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "pair: David / Yan 1:1 (2026-01-15 14:00 GMT-5) transcript + Gemini notes; each doc is its own item"
+  }
+ },
+ {
+  "id": "item_034871",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-02-12 14:00 GMT-5) - Notes by Gemini.docx",
+  "title": "David _ Yan 1:1 (2026-02-12 14:00 GMT-5) - Notes by Gemini.docx",
+  "content_type": "document",
+  "created_at": "2026-02-12T19:41:10Z",
+  "modified_at": "2026-02-12T19:41:44Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-02-12 14:00 GMT-5) - Notes by Gemini.docx",
+  "source_url": null,
+  "content_hash": "sha256:d9552f13156da580ed94aaf2271d612d3fb607cb04d880cabab5a9f9116980c1",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: orphan doc — Gemini notes saved without the matching transcript (transcription was not turned on); only this doc exists for the meeting"
+  }
+ },
+ {
+  "id": "item_034872",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-03-25 14:00 GMT-4) - Notes by Gemini.docx",
+  "title": "David _ Yan 1:1 (2026-03-25 14:00 GMT-4) - Notes by Gemini.docx",
+  "content_type": "document",
+  "created_at": "2026-03-25T18:19:42Z",
+  "modified_at": "2026-03-25T18:21:03Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-03-25 14:00 GMT-4) - Notes by Gemini.docx",
+  "source_url": null,
+  "content_hash": "sha256:c956988f2247306332109723063eaa009553651ba612a3f5ed62010ce2a0d8e9",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "pair: David / Yan 1:1 (2026-03-25 14:00 GMT-4) transcript + Gemini notes; each doc is its own item"
+  }
+ },
+ {
+  "id": "item_034873",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-03-25 14:00 GMT-4) - Transcript.docx",
+  "title": "David _ Yan 1:1 (2026-03-25 14:00 GMT-4) - Transcript.docx",
+  "content_type": "document",
+  "created_at": "2026-03-25T18:13:25Z",
+  "modified_at": "2026-03-25T18:13:56Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-03-25 14:00 GMT-4) - Transcript.docx",
+  "source_url": null,
+  "content_hash": "sha256:f34823fd10abaf7ad3640a54ea2094e2c6eb0a4da5bb1582e18c4ec89d1e9e9f",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "pair: David / Yan 1:1 (2026-03-25 14:00 GMT-4) transcript + Gemini notes; each doc is its own item"
+  }
+ },
+ {
+  "id": "item_034874",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-04-23 14:00 GMT-4) - Transcript.docx",
+  "title": "David _ Yan 1:1 (2026-04-23 14:00 GMT-4) - Transcript.docx",
+  "content_type": "document",
+  "created_at": "2026-04-23T18:09:28Z",
+  "modified_at": "2026-04-23T18:09:44Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-04-23 14:00 GMT-4) - Transcript.docx",
+  "source_url": null,
+  "content_hash": "sha256:e602816b8b029683a038c5df150b522fe78ef01e83149f53579ea18ab0585e12",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "transcript only; Gemini notes were not turned on"
+  }
+ },
+ {
+  "id": "item_034875",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-05-13 14:00 GMT-4) - Transcript.docx",
+  "title": "David _ Yan 1:1 (2026-05-13 14:00 GMT-4) - Transcript.docx",
+  "content_type": "document",
+  "created_at": "2026-05-13T18:08:51Z",
+  "modified_at": "2026-05-13T18:08:57Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-05-13 14:00 GMT-4) - Transcript.docx",
+  "source_url": null,
+  "content_hash": "sha256:4b767ae2f172c4288ba301cbff017a098387f7afdd93198721047741f453bb1d",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace",
+    "project_vt_phd_admin"
+   ],
+   "notes": "transcript only; Gemini notes were not turned on"
+  }
+ },
+ {
+  "id": "item_034876",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-06-16 14:00 GMT-4) - Notes by Gemini.docx",
+  "title": "David _ Yan 1:1 (2026-06-16 14:00 GMT-4) - Notes by Gemini.docx",
+  "content_type": "document",
+  "created_at": "2026-06-16T18:17:16Z",
+  "modified_at": "2026-06-16T18:18:37Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-06-16 14:00 GMT-4) - Notes by Gemini.docx",
+  "source_url": null,
+  "content_hash": "sha256:59b6b30e8142ef1273ab5d614ec09bb7a498b5605c3de6a2371c7ffd07de9ff2",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "pair: David / Yan 1:1 (2026-06-16 14:00 GMT-4) transcript + Gemini notes; each doc is its own item"
+  }
+ },
+ {
+  "id": "item_034877",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-06-16 14:00 GMT-4) - Transcript.docx",
+  "title": "David _ Yan 1:1 (2026-06-16 14:00 GMT-4) - Transcript.docx",
+  "content_type": "document",
+  "created_at": "2026-06-16T18:09:57Z",
+  "modified_at": "2026-06-16T18:10:36Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-06-16 14:00 GMT-4) - Transcript.docx",
+  "source_url": null,
+  "content_hash": "sha256:847049fb19d5e30346b788120c3f25a5519fbbf6e51be5fae6179c7b72ded8ed",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "pair: David / Yan 1:1 (2026-06-16 14:00 GMT-4) transcript + Gemini notes; each doc is its own item"
+  }
+ },
+ {
+  "id": "item_034878",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-06-22 15:00 GMT-4) - Notes by Gemini.docx",
+  "title": "David _ Yan 1:1 (2026-06-22 15:00 GMT-4) - Notes by Gemini.docx",
+  "content_type": "document",
+  "created_at": "2026-06-22T19:20:43Z",
+  "modified_at": "2026-06-22T19:21:46Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-06-22 15:00 GMT-4) - Notes by Gemini.docx",
+  "source_url": null,
+  "content_hash": "sha256:05a5e500257aa4d225eef17456c1e954c3209d1e360391bfa8e96d2a548d2178",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vt_phd_admin"
+   ],
+   "notes": "pair: David / Yan 1:1 (2026-06-22 15:00 GMT-4) transcript + Gemini notes; each doc is its own item"
+  }
+ },
+ {
+  "id": "item_034879",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-06-22 15:00 GMT-4) - Transcript.docx",
+  "title": "David _ Yan 1:1 (2026-06-22 15:00 GMT-4) - Transcript.docx",
+  "content_type": "document",
+  "created_at": "2026-06-22T19:10:52Z",
+  "modified_at": "2026-06-22T19:11:15Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/David _ Yan 1:1 (2026-06-22 15:00 GMT-4) - Transcript.docx",
+  "source_url": null,
+  "content_hash": "sha256:65ee8a3589917db9efe155980b1d5c27096536321edca212abd00022de10286b",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vt_phd_admin"
+   ],
+   "notes": "pair: David / Yan 1:1 (2026-06-22 15:00 GMT-4) transcript + Gemini notes; each doc is its own item"
+  }
+ },
+ {
+  "id": "item_034880",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/ISE 6664 project sync (2026-02-24 19:00 GMT-5) - Transcript.docx",
+  "title": "ISE 6664 project sync (2026-02-24 19:00 GMT-5) - Transcript.docx",
+  "content_type": "document",
+  "created_at": "2026-02-25T00:09:04Z",
+  "modified_at": "2026-02-25T00:09:44Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/ISE 6664 project sync (2026-02-24 19:00 GMT-5) - Transcript.docx",
+  "source_url": null,
+  "content_hash": "sha256:127174820783ee1a18fd03f19f035e2bef4f5770d09a25438a751ab5d9b56ff8",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "transcript only; Gemini notes were not turned on"
+  }
+ },
+ {
+  "id": "item_034881",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/ISE 6664 project sync (2026-04-14 19:00 GMT-4) - Notes by Gemini.docx",
+  "title": "ISE 6664 project sync (2026-04-14 19:00 GMT-4) - Notes by Gemini.docx",
+  "content_type": "document",
+  "created_at": "2026-04-14T23:19:20Z",
+  "modified_at": "2026-04-14T23:19:41Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/ISE 6664 project sync (2026-04-14 19:00 GMT-4) - Notes by Gemini.docx",
+  "source_url": null,
+  "content_hash": "sha256:30e752fe28a39008bdbcaeca09f0f7c075da262605d9a814a8712e7df65b226a",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "pair: ISE 6664 project sync (2026-04-14 19:00 GMT-4) transcript + Gemini notes; each doc is its own item"
+  }
+ },
+ {
+  "id": "item_034882",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/ISE 6664 project sync (2026-04-14 19:00 GMT-4) - Transcript.docx",
+  "title": "ISE 6664 project sync (2026-04-14 19:00 GMT-4) - Transcript.docx",
+  "content_type": "document",
+  "created_at": "2026-04-14T23:11:04Z",
+  "modified_at": "2026-04-14T23:11:53Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/ISE 6664 project sync (2026-04-14 19:00 GMT-4) - Transcript.docx",
+  "source_url": null,
+  "content_hash": "sha256:0af18d314fa1591577b6b4ce0cc8baa1e97b896e32b730c5b58bbd8b8e7e23a4",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "pair: ISE 6664 project sync (2026-04-14 19:00 GMT-4) transcript + Gemini notes; each doc is its own item"
+  }
+ },
+ {
+  "id": "item_034883",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/ISE 6664 project sync (2026-04-28 20:00 GMT-4) - Transcript.docx",
+  "title": "ISE 6664 project sync (2026-04-28 20:00 GMT-4) - Transcript.docx",
+  "content_type": "document",
+  "created_at": "2026-04-29T00:14:09Z",
+  "modified_at": "2026-04-29T00:14:45Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/ISE 6664 project sync (2026-04-28 20:00 GMT-4) - Transcript.docx",
+  "source_url": null,
+  "content_hash": "sha256:ee0558c45e7bf06ca53c0bc51adb7f3c6454dc3012dcfe60513daa223a7b55d9",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "transcript only; Gemini notes were not turned on"
+  }
+ },
+ {
+  "id": "item_034884",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/PRIME Lab meeting (2025-11-17 11:00 GMT-5) - Notes by Gemini.docx",
+  "title": "PRIME Lab meeting (2025-11-17 11:00 GMT-5) - Notes by Gemini.docx",
+  "content_type": "document",
+  "created_at": "2025-11-17T16:21:18Z",
+  "modified_at": "2025-11-17T16:22:21Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/PRIME Lab meeting (2025-11-17 11:00 GMT-5) - Notes by Gemini.docx",
+  "source_url": null,
+  "content_hash": "sha256:3ac18ea999c469c0d80a0dd6aaeace1459e575c3115572818ebb747960a52169",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "pair: PRIME Lab meeting (2025-11-17 11:00 GMT-5) transcript + Gemini notes; each doc is its own item"
+  }
+ },
+ {
+  "id": "item_034885",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/PRIME Lab meeting (2025-11-17 11:00 GMT-5) - Transcript.docx",
+  "title": "PRIME Lab meeting (2025-11-17 11:00 GMT-5) - Transcript.docx",
+  "content_type": "document",
+  "created_at": "2025-11-17T16:11:02Z",
+  "modified_at": "2025-11-17T16:11:05Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/PRIME Lab meeting (2025-11-17 11:00 GMT-5) - Transcript.docx",
+  "source_url": null,
+  "content_hash": "sha256:460e1e70eed804ddd809d0f5f90d30997d2065678878a47528947d88169f49b8",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "pair: PRIME Lab meeting (2025-11-17 11:00 GMT-5) transcript + Gemini notes; each doc is its own item"
+  }
+ },
+ {
+  "id": "item_034886",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/PRIME Lab meeting (2026-02-04 11:00 GMT-5) - Transcript.docx",
+  "title": "PRIME Lab meeting (2026-02-04 11:00 GMT-5) - Transcript.docx",
+  "content_type": "document",
+  "created_at": "2026-02-04T16:11:24Z",
+  "modified_at": "2026-02-04T16:11:36Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/PRIME Lab meeting (2026-02-04 11:00 GMT-5) - Transcript.docx",
+  "source_url": null,
+  "content_hash": "sha256:a0ecbb4cbe190e387ad1349940fcf9b425cf7d59c39f507d7107ffe6e13201f0",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "transcript only; Gemini notes were not turned on"
+  }
+ },
+ {
+  "id": "item_034887",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/PRIME Lab meeting (2026-05-04 11:00 GMT-4) - Transcript.docx",
+  "title": "PRIME Lab meeting (2026-05-04 11:00 GMT-4) - Transcript.docx",
+  "content_type": "document",
+  "created_at": "2026-05-04T15:11:27Z",
+  "modified_at": "2026-05-04T15:11:49Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/PRIME Lab meeting (2026-05-04 11:00 GMT-4) - Transcript.docx",
+  "source_url": null,
+  "content_hash": "sha256:7dd2fe468b95caeb1d6f4e4cf809006a80e679cc7a822898df898a6fe5f09213",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "transcript only; Gemini notes were not turned on"
+  }
+ },
+ {
+  "id": "item_034888",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/PRIME Lab meeting (2026-07-27 11:00 GMT-4) - Notes by Gemini.docx",
+  "title": "PRIME Lab meeting (2026-07-27 11:00 GMT-4) - Notes by Gemini.docx",
+  "content_type": "document",
+  "created_at": "2026-07-27T15:21:06Z",
+  "modified_at": "2026-07-27T15:21:34Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/PRIME Lab meeting (2026-07-27 11:00 GMT-4) - Notes by Gemini.docx",
+  "source_url": null,
+  "content_hash": "sha256:8faac451ccd848cf63825b2455ff2986f935dd417b80e6944f7599f607aecfdb",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "pair: PRIME Lab meeting (2026-07-27 11:00 GMT-4) transcript + Gemini notes; each doc is its own item"
+  }
+ },
+ {
+  "id": "item_034889",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-meet",
+  "source_id": "dbarron410@vt.edu/Meet Recordings/PRIME Lab meeting (2026-07-27 11:00 GMT-4) - Transcript.docx",
+  "title": "PRIME Lab meeting (2026-07-27 11:00 GMT-4) - Transcript.docx",
+  "content_type": "document",
+  "created_at": "2026-07-27T15:11:19Z",
+  "modified_at": "2026-07-27T15:11:33Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-meet/dbarron410@vt.edu/Meet Recordings/PRIME Lab meeting (2026-07-27 11:00 GMT-4) - Transcript.docx",
+  "source_url": null,
+  "content_hash": "sha256:b77d91290e32f85a31f1ad5bc93b9d330480cfb0f0c110e0a0649c59bb83082d",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Google Meet / My Drive > Meet Recordings)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "pair: PRIME Lab meeting (2026-07-27 11:00 GMT-4) transcript + Gemini notes; each doc is its own item"
+  }
+ }
+]

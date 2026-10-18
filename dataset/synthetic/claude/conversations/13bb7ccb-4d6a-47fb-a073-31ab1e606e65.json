@@ -1,0 +1,159 @@
+{
+ "uuid": "13bb7ccb-4d6a-47fb-a073-31ab1e606e65",
+ "name": "Big batch chili for the week",
+ "summary": "",
+ "model": "claude-opus-4-5-20251101",
+ "created_at": "2025-12-07T23:29:58.571966Z",
+ "updated_at": "2025-12-07T23:35:50.584426Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "off",
+ "chat_messages": [
+  {
+   "uuid": "0777db0b-efbb-429a-b3a0-f88f4338c0fd",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2025-12-07T23:30:00.000000Z",
+     "stop_timestamp": "2025-12-07T23:30:00.000000Z",
+     "type": "text",
+     "text": "want to batch cook a chili sunday for lunches all week (5 lunches). high protein, not too expensive. i have a big dutch oven. give me a recipe + macros per serving roughly",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2025-12-07T23:30:00.000000Z",
+   "updated_at": "2025-12-07T23:30:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "ef87a7b2-3e0e-4705-9f59-a1cb2bd0938f",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2025-12-07T23:30:02.000000Z",
+     "stop_timestamp": "2025-12-07T23:30:14.454000Z",
+     "type": "text",
+     "text": "**Turkey & bean chili (5 big servings)**\n\nIngredients\n- 2 lb (900 g) 93% lean ground turkey\n- 2 cans (15 oz) black beans, drained and rinsed\n- 1 can (15 oz) kidney beans, drained and rinsed\n- 1 can (28 oz) crushed tomatoes\n- 1 can (15 oz) diced tomatoes\n- 1 large onion, diced\n- 1 red bell pepper, diced\n- 4 cloves garlic, minced\n- 2 tbsp chili powder, 1 tbsp cumin, 1 tsp smoked paprika, 1 tsp oregano\n- 1 tbsp tomato paste\n- 1 cup chicken broth\n- salt, pepper, 1 tbsp oil\n\nSteps\n1. Heat oil in the Dutch oven, cook onion and pepper 5–6 min.\n2. Add garlic, tomato paste and spices, stir 1 min.\n3. Add turkey, break it up, cook until no longer pink (~8 min).\n4. Add tomatoes, beans, broth. Simmer partly covered 45 min, stirring now and then.\n5. Salt to taste. Cool, split into 5 containers.\n\nRough macros per serving\n- ~520 kcal\n- ~48 g protein\n- ~45 g carbs (~15 g fiber)\n- ~15 g fat\n\nCost is roughly $18–24 total depending on the turkey, so about $4–5 per lunch.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2025-12-07T23:30:14.454000Z",
+   "updated_at": "2025-12-07T23:30:14.454000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "0777db0b-efbb-429a-b3a0-f88f4338c0fd"
+  },
+  {
+   "uuid": "e8e2ef62-9d14-4e75-acbe-e76135cb68fa",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2025-12-07T23:32:38.454000Z",
+     "stop_timestamp": "2025-12-07T23:32:38.454000Z",
+     "type": "text",
+     "text": "can i freeze 2 of them",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2025-12-07T23:32:38.454000Z",
+   "updated_at": "2025-12-07T23:32:38.454000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "ef87a7b2-3e0e-4705-9f59-a1cb2bd0938f"
+  },
+  {
+   "uuid": "5003003b-1a99-4bef-87df-882e03a0516f",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2025-12-07T23:32:40.454000Z",
+     "stop_timestamp": "2025-12-07T23:32:48.424000Z",
+     "type": "text",
+     "text": "Yes, chili freezes very well. Cool it fully first, leave a little headspace in the containers, and it keeps 2–3 months. Thaw overnight in the fridge, or microwave from frozen with a splash of water, stirring halfway.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2025-12-07T23:32:48.424000Z",
+   "updated_at": "2025-12-07T23:32:48.424000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "e8e2ef62-9d14-4e75-acbe-e76135cb68fa"
+  },
+  {
+   "uuid": "d96f79a1-ea09-4dcb-ad5e-192e934f9594",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2025-12-07T23:35:40.424000Z",
+     "stop_timestamp": "2025-12-07T23:35:40.424000Z",
+     "type": "text",
+     "text": "nice. anything to add for more carbs, im running a lot",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2025-12-07T23:35:40.424000Z",
+   "updated_at": "2025-12-07T23:35:40.424000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "5003003b-1a99-4bef-87df-882e03a0516f"
+  },
+  {
+   "uuid": "a5d4aa3d-b8c7-4bd0-8280-7a22f9fc8f63",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2025-12-07T23:35:42.424000Z",
+     "stop_timestamp": "2025-12-07T23:35:49.468000Z",
+     "type": "text",
+     "text": "Easiest options:\n- Serve over rice: 1 cup cooked adds ~200 kcal and ~45 g carbs.\n- Add a can of corn to the pot (~+15 g carbs per serving).\n- Eat with a couple of corn tortillas or a slice of cornbread.\n\nRice is the simplest for meal prep: cook a batch and pack it separately so it doesn't go mushy.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2025-12-07T23:35:49.468000Z",
+   "updated_at": "2025-12-07T23:35:49.468000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "d96f79a1-ea09-4dcb-ad5e-192e934f9594"
+  }
+ ],
+ "current_leaf_message_uuid": "a5d4aa3d-b8c7-4bd0-8280-7a22f9fc8f63"
+}

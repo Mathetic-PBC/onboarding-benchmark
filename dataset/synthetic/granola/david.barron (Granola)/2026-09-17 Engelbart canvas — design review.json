@@ -1,0 +1,516 @@
+{
+ "id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Engelbart canvas — design review",
+ "created_at": "2026-09-17T17:57:13.000Z",
+ "updated_at": "2026-09-17T18:08:24.835Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "b9fa74794df797bf5bbdabfb60",
+  "summary": "Engelbart canvas — design review",
+  "start": {
+   "dateTime": "2026-09-17T11:00:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-09-17T11:30:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true,
+    "organizer": true
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted"
+   }
+  ],
+  "organizer": {
+   "email": "david@mathetic.com"
+  },
+  "creator": {
+   "email": "david@mathetic.com"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=048366ec25c620b4335caa892f486f3bf98635e9",
+  "status": "confirmed",
+  "location": "Surplus house, SF"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### Canvas model\n\n- A **thought** = a block on the canvas (text the user wrote or pinned)\n- A **trail link** = thought → source item + locator (chat message id, doc heading/paragraph, PDF page, commit sha)\n- Trail panel opens the original at the locator; summaries only as a secondary line, clearly marked\n- Suggestions: up to 3 candidate sources per thought, user confirms with one click (confirmation = the \"useful recall\" event we log)\n\n### Rendering bug\n\n- Canvas re-renders every block when one block's trail changes → visible flicker with >300 blocks\n- Cause: trail links stored on the canvas root object, so any change invalidates everything\n- Fix: move links into a per-block store keyed by block id; memoize block components\n- David to fix before pilot build\n\n### Connect screen (first pass)\n\n- Grid of sources: Claude, ChatGPT, Zotero, Local PDFs, Google Drive, + \"Other\" (upload a zip/folder)\n- Per-source \"exclude folders\" at connect time (from Elena's IRB point)\n- After import: summary card — counts per source, skipped items with reasons, possible duplicates\n- Hudson unsure \"Other\" is clear — revisit after first pilot\n\n### From Ben (yesterday's call)\n\n- His chain for one modeling decision ran git commit → notes.md → a Slack thread → a paper (took him ~40 min to rebuild)\n- Quarto documents keep each figure next to its code; he'd want links into a specific chunk, not just the file\n- Logged as a future locator type; commit locator already planned\n\n### Action items\n\n- [ ] David — per-block trail store + memoization (fix flicker)\n- [ ] Hudson — connect screen mock with exclude-folders + summary card\n- [ ] David — log \"suggestion confirmed\" event with time since connect\n",
+ "notes_plain": "Canvas model\n\nA thought = a block on the canvas (text the user wrote or pinned)\nA trail link = thought → source item + locator (chat message id, doc heading/paragraph, PDF page, commit sha)\nTrail panel opens the original at the locator; summaries only as a secondary line, clearly marked\nSuggestions: up to 3 candidate sources per thought, user confirms with one click (confirmation = the \"useful recall\" event we log)\n\nRendering bug\n\nCanvas re-renders every block when one block's trail changes → visible flicker with >300 blocks\nCause: trail links stored on the canvas root object, so any change invalidates everything\nFix: move links into a per-block store keyed by block id; memoize block components\nDavid to fix before pilot build\n\nConnect screen (first pass)\n\nGrid of sources: Claude, ChatGPT, Zotero, Local PDFs, Google Drive, + \"Other\" (upload a zip/folder)\nPer-source \"exclude folders\" at connect time (from Elena's IRB point)\nAfter import: summary card — counts per source, skipped items with reasons, possible duplicates\nHudson unsure \"Other\" is clear — revisit after first pilot\n\nFrom Ben (yesterday's call)\n\nHis chain for one modeling decision ran git commit → notes.md → a Slack thread → a paper (took him ~40 min to rebuild)\nQuarto documents keep each figure next to its code; he'd want links into a specific chunk, not just the file\nLogged as a future locator type; commit locator already planned\n\nAction items\n\nDavid — per-block trail store + memoization (fix flicker)\nHudson — connect screen mock with exclude-folders + summary card\nDavid — log \"suggestion confirmed\" event with time since connect\n",
+ "transcript": [
+  {
+   "id": "6e88a3a2-358d-44da-a98d-2d26f0689c0c",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:00:13.940Z",
+   "end_timestamp": "2026-09-17T18:00:20.578Z",
+   "text": "Okay, canvas review. I have a, uh, a doc but let me just talk through it.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "703f164c-b62c-44bd-8aee-36d1a0705a40",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:00:21.419Z",
+   "end_timestamp": "2026-09-17T18:00:22.250Z",
+   "text": "Go.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "66bbe483-f1ae-4724-8e39-d5ce52596cc2",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:00:23.987Z",
+   "end_timestamp": "2026-09-17T18:00:34.106Z",
+   "text": "So the unit on the canvas is a thought. It's a block. Something you wrote, or something you pinned from a source.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ec7432c4-f1ad-4efc-929d-07aa76f3f163",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:00:35.576Z",
+   "end_timestamp": "2026-09-17T18:00:40.256Z",
+   "text": "Pinned meaning, like, you drag a quote out of a chat?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "061fa0d2-002d-4ce5-820d-82ef451c2090",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:00:40.874Z",
+   "end_timestamp": "2026-09-17T18:00:48.040Z",
+   "text": "Yeah. And every thought can have trail links. A trail link points to a source item plus a locator.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "9d868d46-f303-4b0e-9ff4-210de81ad10a",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:00:50.126Z",
+   "end_timestamp": "2026-09-17T18:00:52.322Z",
+   "text": "The locator thing from Tuesday.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "f5971755-7e0c-43b2-a2c7-cbfc667c6038",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:00:53.994Z",
+   "end_timestamp": "2026-09-17T18:01:05.934Z",
+   "text": "Right. For a chat it's the message id. For a doc it's a heading or paragraph. For a PDF it's a page. For a repo it's a commit.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "833c3043-ece4-46a0-9abc-fc5369ebd525",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:01:07.158Z",
+   "end_timestamp": "2026-09-17T18:01:09.794Z",
+   "text": "And Ben yesterday wanted notebook cells.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "1dc643bb-e264-4497-b131-cc9b89f32134",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:01:10.297Z",
+   "end_timestamp": "2026-09-17T18:01:27.667Z",
+   "text": "Yeah, that was a good one. His Quarto notebooks are basically his provenance, like that's where the number in the paper comes from. He wants to link to the cell. Let's put it as a future locator type.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "8b700abf-4847-42e1-aeff-b3f7e0c1f357",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:01:28.159Z",
+   "end_timestamp": "2026-09-17T18:01:32.305Z",
+   "text": "Okay. Writing. And then the trail panel opens the original.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "d8f0e52e-e75b-4604-a2cb-e4cf2ed2de64",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:01:33.509Z",
+   "end_timestamp": "2026-09-17T18:01:41.093Z",
+   "text": "Opens the original at the locator. Summaries, if any, are a second line, marked as a summary. Never instead of.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "3876422b-75b3-4232-99de-fa70cf4a6fff",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:01:42.881Z",
+   "end_timestamp": "2026-09-17T18:01:44.399Z",
+   "text": "Good. Elena would approve.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a33bf058-068a-4027-9cf1-32d470da1130",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:01:44.737Z",
+   "end_timestamp": "2026-09-17T18:01:57.564Z",
+   "text": "Elena would approve. Then suggestions. For each thought, up to three candidate sources. The user clicks to confirm. And that click is our metric. The useful recall event.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "384d2229-c8a2-4560-9663-63346f831e19",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:01:58.063Z",
+   "end_timestamp": "2026-09-17T18:02:03.095Z",
+   "text": "Oh nice, that's clean. So we log confirm with time since connect.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "36090a40-19d5-40ab-bd2e-092ee65f7df7",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:02:04.526Z",
+   "end_timestamp": "2026-09-17T18:02:07.794Z",
+   "text": "Yeah. Okay. Now the bad news. Rendering.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "dea98f7f-426a-43ed-ad9c-1e4fd6252385",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:02:09.710Z",
+   "end_timestamp": "2026-09-17T18:02:10.742Z",
+   "text": "The flicker.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "45c72560-4577-48d8-b4e7-000f29cd22b2",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:02:12.616Z",
+   "end_timestamp": "2026-09-17T18:02:23.769Z",
+   "text": "The flicker. So if you have more than like three hundred blocks and you change one trail, the whole canvas re-renders. You can see it blink.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "df256951-bd9e-48af-ab2a-66b26c8547c1",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:02:25.894Z",
+   "end_timestamp": "2026-09-17T18:02:26.885Z",
+   "text": "Why?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "c3c7b298-5065-46f9-a332-6cfc4af00d20",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:02:27.209Z",
+   "end_timestamp": "2026-09-17T18:02:38.762Z",
+   "text": "Because I was lazy. The trail links are stored on the canvas root object. So any change to any link is a change to the root, and every block re-renders.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "4edea658-0c9e-4dfe-950d-1d0041973401",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:02:39.886Z",
+   "end_timestamp": "2026-09-17T18:02:40.819Z",
+   "text": "Ha. Okay.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "8fbed82f-08d2-42e7-a0ec-df138de7e257",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:02:42.200Z",
+   "end_timestamp": "2026-09-17T18:02:52.516Z",
+   "text": "The fix is a per-block store. Links keyed by block id. And memoize the block components so they only re-render when their own stuff changes.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "52424d26-ea25-4ec5-8fc6-08e033a662f5",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:02:54.294Z",
+   "end_timestamp": "2026-09-17T18:02:55.133Z",
+   "text": "How long?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "e8038fdc-316d-473e-9f0f-a3ae005eee97",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:02:56.941Z",
+   "end_timestamp": "2026-09-17T18:03:06.326Z",
+   "text": "A day? It's not hard, I just need to do it before the pilot build or Priya will think it's broken.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e532069a-4c5f-4bd8-ae1b-de2698051089",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:03:07.357Z",
+   "end_timestamp": "2026-09-17T18:03:09.490Z",
+   "text": "She'll definitely say it's broken.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "38294c2f-0ba1-492b-ab99-75af8bb55242",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:03:09.723Z",
+   "end_timestamp": "2026-09-17T18:03:14.790Z",
+   "text": "She'll say it loudly. Which is good. Okay, connect screen. You had thoughts.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d372240e-88d3-44f5-b6c4-12f75f4170fe",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:03:14.999Z",
+   "end_timestamp": "2026-09-17T18:03:28.008Z",
+   "text": "So I sketched it. Grid of sources. Claude, ChatGPT, Zotero, Local PDFs, Google Drive. And then a tile called \"Other,\" which is upload a zip or a folder.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "533dec96-00b8-43ca-b6ae-10c59275a2cd",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:03:28.549Z",
+   "end_timestamp": "2026-09-17T18:03:29.449Z",
+   "text": "Okay.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e05b381e-f652-4419-ac88-6652b2cd69d9",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:03:30.160Z",
+   "end_timestamp": "2026-09-17T18:03:36.385Z",
+   "text": "But I'm not sure \"Other\" is clear. Like, what does someone think \"Other\" means?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "d6c19297-4a38-486a-af27-f6b235fd8625",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:03:36.818Z",
+   "end_timestamp": "2026-09-17T18:03:38.894Z",
+   "text": "Notion? Everything we don't support?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "c29e8338-3a45-48eb-91b2-33bde045b33c",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:03:39.205Z",
+   "end_timestamp": "2026-09-17T18:03:45.012Z",
+   "text": "Right. And then they click it expecting Notion and it's a file upload.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "4d9d01d5-5eb9-4c95-8005-290b2747044d",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:03:47.099Z",
+   "end_timestamp": "2026-09-17T18:03:49.640Z",
+   "text": "Hm. Maybe call it \"Upload files\"?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "188fe055-030f-4fa3-bf0c-1a547b0d03d4",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:03:50.618Z",
+   "end_timestamp": "2026-09-17T18:03:57.399Z",
+   "text": "Maybe. Let's see what the first pilot does. I don't want to bikeshed without data.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "f4a278ec-8f7d-431f-87b3-41afab6fbbef",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:03:57.615Z",
+   "end_timestamp": "2026-09-17T18:03:59.613Z",
+   "text": "Fair. Exclude folders per source?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "3671ddcc-f0dd-41db-8ab2-4bc012880b70",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:04:01.580Z",
+   "end_timestamp": "2026-09-17T18:04:08.998Z",
+   "text": "Yes, I put it in. After you pick Drive or Zotero there's an \"exclude\" step. For Elena's IRB stuff.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "1af05058-6a64-4a13-931c-31fbad53eac5",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:04:11.054Z",
+   "end_timestamp": "2026-09-17T18:04:12.405Z",
+   "text": "And after import?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "24c52759-5360-475f-bde3-04e81da481ff",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:04:13.893Z",
+   "end_timestamp": "2026-09-17T18:04:18.244Z",
+   "text": "Summary card. Counts per source, skipped items with reasons, possible duplicates.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "4e33c0b1-897f-4e7a-86a1-ca368ba63855",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:04:18.511Z",
+   "end_timestamp": "2026-09-17T18:04:20.725Z",
+   "text": "I love the skipped-with-reasons part.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "515b2e64-46ee-4549-96dc-d720620bc485",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:04:20.948Z",
+   "end_timestamp": "2026-09-17T18:04:22.294Z",
+   "text": "It's your rule.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "bdf1b4e1-afb5-4184-9e71-3fc97f9dab2b",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:04:24.297Z",
+   "end_timestamp": "2026-09-17T18:04:30.738Z",
+   "text": "It's a good rule. Okay. Can you mock the summary card with fake numbers?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "09da1f00-a0f5-451d-a1d3-dfe11e129259",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:04:32.936Z",
+   "end_timestamp": "2026-09-17T18:04:36.915Z",
+   "text": "Yeah, I'll use your Claude export as the example.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "3dc77ea9-34fb-40e9-a7f9-43ce834c77cc",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:04:37.763Z",
+   "end_timestamp": "2026-09-17T18:04:41.358Z",
+   "text": "Use the fixture one, not my real one.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "b9e80d69-cdee-4ffe-a5ea-5aacdaf42d15",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:04:43.062Z",
+   "end_timestamp": "2026-09-17T18:04:44.262Z",
+   "text": "The boring twenty?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a74d023e-ed2a-4e6b-ad40-b7fe549c79a9",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:04:44.463Z",
+   "end_timestamp": "2026-09-17T18:04:49.152Z",
+   "text": "The boring twenty. Okay. I'll do the per-block store today and tomorrow.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "2108b033-cc1e-4e8b-a3e1-88b3b87972f4",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:04:50.313Z",
+   "end_timestamp": "2026-09-17T18:04:52.427Z",
+   "text": "And the confirm event logging.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "11f2f012-0945-4268-98ef-dd1ce6bf9eaa",
+   "document_id": "aa7c82c6-a8b2-42ac-b84f-dea20c8674b3",
+   "start_timestamp": "2026-09-17T18:04:53.070Z",
+   "end_timestamp": "2026-09-17T18:04:55.835Z",
+   "text": "And the confirm event. Got it.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  }
+ ]
+}

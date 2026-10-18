@@ -1,0 +1,69 @@
+title: David / Yan 1:1
+start: 2026-03-25 14:00
+attendees: David Barron, Yan Chen
+projects: project_tutortrace
+docs: both
+=== transcript
+David Barron: Hi. Okay, I'm here. Sorry, I'm, um, running on very little sleep.
+Yan Chen: I can tell. When did you send the draft, three a.m.?
+David Barron: Three forty. Ha. Did you get to read it?
+Yan Chen: I read sections one to four this morning. I haven't read the evaluation yet. Let's go through the big things first.
+David Barron: Okay.
+Yan Chen: First, the agreement number. In the paper you write kappa point seven one, but in the guide notes from December it was point six eight. Which one is right?
+David Barron: Both, kind of. Point six eight was before adjudication, on the November overlap set, the first pass. After that we did the second round with v3 on the full overlap, three raters, me, Minsun, and Xiaohang, and Fleiss kappa is point seven one. That's the number for the final labels.
+Yan Chen: Okay. Then say exactly that. Three raters, Fleiss kappa, on how many windows?
+David Barron: Three hundred fifty-one overlap windows.
+Yan Chen: Put it in the text. Reviewers will look for the number of raters and the overlap size. And mention that one rater is an author.
+David Barron: Yeah. That's fair. Okay.
+Yan Chen: Second. The teaser figure. It's too busy. I count, um, five colors plus the heat map gradient. Nobody will understand it in five seconds.
+David Barron: Yeah, I know. I was going to simplify it. My idea was to drop the heat map from the teaser and just show one student's timeline with the three moments, error, pause, assistant prompt.
+Yan Chen: Yes. One student. Tell a story. The heat map can be figure three.
+David Barron: Okay. I'll redo it tonight.
+Yan Chen: Third, the TA study. You have eight TAs?
+David Barron: Eight, yeah. All eight finished. With the timeline they found the stuck students faster, median ninety-four seconds versus two hundred eleven, and they found more of them. Accuracy is in table two.
+Yan Chen: Good. Is it significant?
+David Barron: Wilcoxon signed-rank, p equals point zero one two on time. Accuracy is p point zero four. With eight people, I don't want to oversell it.
+Yan Chen: Don't oversell. Report effect sizes and say it's a small study.
+David Barron: Okay.
+Yan Chen: Hold on, my... sorry, the doorbell. Give me one minute.
+David Barron: Sure.
+[pause 70]
+Yan Chen: Sorry. Package. Okay, where were we?
+David Barron: TA study. Effect sizes.
+Yan Chen: Right. Okay. Fourth, the length. You're at eleven and a half pages without references. The limit is ten.
+David Barron: Ugh. Yeah. I know. I was hoping you'd tell me what to cut.
+Yan Chen: Cut the second half of the related work. The part about general learning analytics dashboards, you don't need three paragraphs, one is enough. And the implementation section has too much detail about the websocket stuff. Move it to the appendix.
+David Barron: The reconnect bug part? I kind of wanted to keep it, it's honest about the data loss.
+Yan Chen: Keep one sentence about the data loss and the flag in the evaluation. The engineering story goes to the supplementary material.
+David Barron: Okay. That's probably like three quarters of a page.
+Yan Chen: And the discussion has a lot of repetition with the intro. Tighten.
+David Barron: Okay.
+Yan Chen: What's left to do, in your list?
+David Barron: Um. So, teaser redo. The confusion matrix needs the stalled-after-error row fixed, there's a labeling bug in the plot, the class names are shifted by one. The video figure, which UIST wants a video, I haven't started.
+Yan Chen: The video is due at the same time?
+David Barron: The video can be submitted a week later, I checked. April seventh.
+Yan Chen: Okay, then don't touch the video until after the thirty-first.
+David Barron: Yeah. That was the plan. And then the abstract, I rewrote it three times.
+Yan Chen: Send me the abstract separately tonight. I'll edit it directly.
+David Barron: Okay. Um, the deadline is the thirty-first, anywhere on earth, so it's actually eight a.m. on April first for us.
+Yan Chen: Don't plan for that. Plan for the thirty-first evening. Things always break with the submission system.
+David Barron: Ha. Okay. Yeah.
+Yan Chen: Can Minsun read it this weekend?
+David Barron: She said Saturday. Xiaohang said Sunday.
+Yan Chen: Good. I'll read the evaluation tonight and send comments tomorrow morning. Then you do one full pass Friday and Saturday.
+David Barron: Okay. Thank you. Seriously.
+Yan Chen: And sleep tonight, at least six hours. You write worse when you're tired, I can see it in section four.
+David Barron: [laughs] Okay, that's fair. Bye.
+Yan Chen: Bye.
+=== gemini
+summary: David Barron and Yan Chen reviewed the TutorTrace UIST draft six days before the March 31 deadline. They clarified the label reliability number (Fleiss kappa 0.71 across three raters on 351 overlap windows after guide v3), agreed to simplify the teaser to one student's timeline, and discussed the TA study results and how to cut the paper from eleven and a half pages to the ten-page limit. The submission video will wait until after the paper deadline.
+detail: Label reliability: The draft reported kappa 0.71 while earlier notes said 0.68. David Barron explained that 0.68 was the first-pass agreement before adjudication, and 0.71 is the Fleiss kappa of three raters (David Barron, Minsun, Xiaohang) on 351 overlap windows with guide v3. Yan Chen asked that the paper state the number of raters, the overlap size, and that one rater is an author.
+detail: Teaser figure: Yan Chen found the teaser too busy with five colors and the heat map gradient. They agreed to show one student's timeline with three moments (error, pause, assistant prompt) and move the class heat map to figure three.
+detail: TA study results: All eight TAs completed the study. With the timeline, TAs found stuck students faster (median 94 versus 211 seconds, Wilcoxon p = 0.012) and more accurately (p = 0.04). Yan Chen asked David Barron to report effect sizes and describe it as a small study.
+detail: Length: The draft is eleven and a half pages without references against a ten-page limit. Yan Chen suggested cutting the learning analytics dashboard related work to one paragraph, moving reconnect implementation details to the supplementary material (keeping one sentence about the data loss flag in the evaluation), and tightening the discussion.
+detail: Remaining work: David Barron still needs to redo the teaser, fix shifted class names in the confusion matrix plot, and rewrite the abstract. The UIST video is due April 7 and will wait until after March 31. Minsun will read the draft Saturday and Xiaohang Sunday.
+next: [ ] David Barron will redo the teaser figure as a single-student timeline tonight.
+next: [ ] David Barron will send the abstract to Yan Chen separately tonight for direct edits.
+next: [ ] David Barron will fix the confusion matrix label shift and state rater count and overlap size in the text.
+next: [ ] David Barron will cut the paper to ten pages and move the reconnect engineering details to the supplement.
+next: [ ] Yan Chen will send comments on the evaluation section tomorrow morning.

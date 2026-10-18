@@ -1,1 +1,287 @@
-[]
+[
+ {
+  "id": "item_034332",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "assistant-memory",
+  "source_id": "chatgpt/memories_synthetic.json",
+  "title": "memories_synthetic.json",
+  "content_type": "data",
+  "created_at": "2025-10-27T22:44:00Z",
+  "modified_at": "2026-10-16T03:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/assistant-memory/chatgpt/memories_synthetic.json",
+  "source_url": null,
+  "content_hash": "sha256:6afbfcc6399e1cffd4dbbc76adbea82da09e2a8d3f332cced9589cffffd6bddb",
+  "library_item_id": null,
+  "modeled_on": "authentic/assistant-memory/chatgpt/memories.json shape (backend-api/memories)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (ChatGPT personal workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats",
+    "project_cs3604_gta",
+    "project_dynamite",
+    "project_endurance_training",
+    "project_engelbart",
+    "project_idetrace",
+    "project_ise6664_affective_computing",
+    "project_mathetic_company",
+    "project_music_production",
+    "project_sophia",
+    "project_tutortrace",
+    "project_vizpi",
+    "project_vt_phd_admin"
+   ],
+   "notes": "saved memories (24 entries) spanning the synthetic ChatGPT chats; profile-level item"
+  }
+ },
+ {
+  "id": "item_034333",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "assistant-memory",
+  "source_id": "chatgpt/user_system_messages_synthetic.json",
+  "title": "user_system_messages_synthetic.json",
+  "content_type": "data",
+  "created_at": "2025-11-12T21:25:00Z",
+  "modified_at": "2026-08-07T02:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/assistant-memory/chatgpt/user_system_messages_synthetic.json",
+  "source_url": null,
+  "content_hash": "sha256:11300a1ae4c08539d49462fb458570772043e7583d88d7cdecd1d5f520d57d20",
+  "library_item_id": null,
+  "modeled_on": "authentic/assistant-memory/chatgpt/user_system_messages.json shape",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (ChatGPT personal workspace)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training",
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "custom instructions (Customize ChatGPT); updated after the leave began"
+  }
+ },
+ {
+  "id": "item_034334",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "assistant-memory",
+  "source_id": "claude/account_profile_synthetic.json",
+  "title": "account_profile_synthetic.json",
+  "content_type": "data",
+  "created_at": "2025-11-20T14:00:00Z",
+  "modified_at": "2026-08-12T17:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/assistant-memory/claude/account_profile_synthetic.json",
+  "source_url": null,
+  "content_hash": "sha256:df6e734c953b7637f9999d834fd5efad342454c9b1acee64f7e6c39e117ac056",
+  "library_item_id": null,
+  "modeled_on": "authentic/assistant-memory/claude/account_profile.json shape",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "personal preferences (custom instructions); generic, mentions no project"
+  }
+ },
+ {
+  "id": "item_034335",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "assistant-memory",
+  "source_id": "claude/memory_synthetic.json",
+  "title": "memory_synthetic.json",
+  "content_type": "data",
+  "created_at": "2025-11-20T14:00:00Z",
+  "modified_at": "2026-10-17T06:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/assistant-memory/claude/memory_synthetic.json",
+  "source_url": null,
+  "content_hash": "sha256:5abce2f3a129d07862860273a01128e32afd41c1dd67c90ffacd6a0d812f3965",
+  "library_item_id": null,
+  "modeled_on": "authentic/assistant-memory/claude/memory.json shape (organizations/<org>/memory)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "claude.ai — dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats",
+    "project_claude_code_plugins",
+    "project_cs3604_gta",
+    "project_endurance_training",
+    "project_engelbart",
+    "project_idetrace",
+    "project_ise6664_affective_computing",
+    "project_mathetic_company",
+    "project_music_production",
+    "project_tutortrace",
+    "project_vizpi",
+    "project_vt_phd_admin"
+   ],
+   "notes": "memory synthesized by Claude from the synthetic Claude chats; profile-level item"
+  }
+ },
+ {
+  "id": "item_034336",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "assistant-memory",
+  "source_id": "gemini/saved_info.json",
+  "title": "saved_info.json",
+  "content_type": "data",
+  "created_at": "2025-11-26T01:00:00Z",
+  "modified_at": "2026-09-22T05:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/assistant-memory/gemini/saved_info.json",
+  "source_url": null,
+  "content_hash": "sha256:36378ec67503d533d54e629bea0e17501bde65930573abe0fcc40a413bd05f86",
+  "library_item_id": null,
+  "modeled_on": "authentic/assistant-memory/gemini/saved_info.json shape (with entries instead of the real empty state)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com; dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training",
+    "project_none",
+    "project_vt_phd_admin"
+   ],
+   "notes": "Gemini Saved info: 4 entries on the personal account; Workspace account has no Saved info page"
+  }
+ },
+ {
+  "id": "item_034337",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "assistant-memory",
+  "source_id": "grok/memories.json",
+  "title": "memories.json",
+  "content_type": "data",
+  "created_at": "2026-02-06T03:14:00Z",
+  "modified_at": "2026-10-17T01:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/assistant-memory/grok/memories.json",
+  "source_url": null,
+  "content_hash": "sha256:9ce341612732cccc4fd7e9fe8a1168e9d3ed30b188831694c77c2c9d63754971",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training",
+    "project_engelbart",
+    "project_music_production",
+    "project_none",
+    "project_plotpact",
+    "project_tutortrace"
+   ],
+   "notes": "Grok \"Personalize → Memory\" list (no real Grok data; documented settings shape); profile-level item"
+  }
+ },
+ {
+  "id": "item_034338",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "assistant-memory",
+  "source_id": "grok/personalization.json",
+  "title": "personalization.json",
+  "content_type": "data",
+  "created_at": "2026-02-06T03:20:00Z",
+  "modified_at": "2026-08-03T00:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/assistant-memory/grok/personalization.json",
+  "source_url": null,
+  "content_hash": "sha256:8308565bf681a5523ff388b4245d8444006f54750426f3d8e1e37e35772ca540",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training",
+    "project_none"
+   ],
+   "notes": "Grok custom instructions"
+  }
+ },
+ {
+  "id": "item_034339",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "assistant-memory",
+  "source_id": "perplexity/profile.json",
+  "title": "profile.json",
+  "content_type": "data",
+  "created_at": "2025-12-17T02:00:00Z",
+  "modified_at": "2026-08-09T18:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/assistant-memory/perplexity/profile.json",
+  "source_url": null,
+  "content_hash": "sha256:32c7528259ba6c2aef79b9f35cee84a45bd9638e72f5053cb65a83a6ede15b18",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats",
+    "project_endurance_training",
+    "project_idetrace",
+    "project_mathetic_company",
+    "project_tutortrace"
+   ],
+   "notes": "Perplexity profile (\"Introduce yourself\" + location + response language); no real Perplexity data"
+  }
+ }
+]

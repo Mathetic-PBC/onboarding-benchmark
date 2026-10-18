@@ -1,0 +1,13 @@
+=== THREAD PARENT MESSAGE ===
+From: Minsun (U0SYN15CS2P)
+Time: 2026-03-26 20:55:43 PDT
+Message TS: 1774583743.861343
+read the whole thing. biggest issue: section 5 says kappa 0.71 but table 2 still has 0.68 from november
+
+=== THREAD REPLIES (1 total) ===
+
+--- Reply 1 of 1 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-03-26 20:58:19 PDT
+Message TS: 1774583899.524267
+ugh good catch. fixed, table 2 now comes from the adjudicated labels

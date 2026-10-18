@@ -1,0 +1,15 @@
+<html lang="en-US">
+	<head>
+		<title>Rerun results</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="created" content="2026-07-26T09:30:00.0000000" />
+	</head>
+	<body data-absolute-enabled="true" style="font-family:Calibri;font-size:11pt">
+		<div data-id="_default" style="position:absolute;left:48px;top:120px;width:624px">
+			<h1 style="font-size:16pt;color:#1e4e79;margin-top:0pt;margin-bottom:0pt">rerun with v2 splits (Sun Jul 26) — 5 seeds each</h1>
+			<table border="1" style="border:1px solid;border-collapse:collapse"><tr><td style="border:1px solid"><span style="font-weight:bold">model</span></td><td style="border:1px solid"><span style="font-weight:bold">macro-F1 v1 (leaky)</span></td><td style="border:1px solid"><span style="font-weight:bold">macro-F1 v2 (grouped)</span></td><td style="border:1px solid"><span style="font-weight:bold">Δ</span></td></tr><tr><td style="border:1px solid">majority</td><td style="border:1px solid">0.19</td><td style="border:1px solid">0.19</td><td style="border:1px solid">0.00</td></tr><tr><td style="border:1px solid">logistic regression</td><td style="border:1px solid">0.69</td><td style="border:1px solid">0.65</td><td style="border:1px solid">−0.04</td></tr><tr><td style="border:1px solid">XGBoost</td><td style="border:1px solid">0.77</td><td style="border:1px solid">0.71</td><td style="border:1px solid">−0.06</td></tr><tr><td style="border:1px solid">GRU over events</td><td style="border:1px solid">0.79</td><td style="border:1px solid">0.72</td><td style="border:1px solid">−0.07</td></tr><tr><td style="border:1px solid">transformer (ours)</td><td style="border:1px solid">0.81</td><td style="border:1px solid">0.74</td><td style="border:1px solid">−0.07</td></tr></table>
+			<ul><li>std over seeds for transformer v2: ±0.012</li><li>ranking of models unchanged → the paper's claims about which model family wins still hold</li><li>biggest per-class drop: stalled (0.76 → 0.64). makes sense, stalled windows from one student look alike</li><li>keystroke ablation now costs 0.09 → the R2 ablation finally behaves sensibly</li></ul>
+			<p style="margin-top:0pt;margin-bottom:0pt">headline: <span style="font-weight:bold">0.81 → 0.74</span>. still well above baselines. annoying but survivable.</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,51 @@
+title: David / Yan 1:1
+start: 2026-04-23 14:00
+attendees: David Barron, Yan Chen
+projects: project_idetrace
+docs: transcript
+=== transcript
+Yan Chen: Hi David. You look more rested.
+David Barron: Ha, I am. I slept like twelve hours after the video was submitted. Hi.
+Yan Chen: Good. Okay, so, UIST is done for now. Reviews come in June. Let's talk about NeurIPS. Rezky said you want to help with the dataset paper?
+David Barron: Yeah. So, um, I talked to Rezky on Monday. The IDE logging dataset is in a pretty good state, and the Datasets and Benchmarks deadline is May sixth. So that's two weeks from yesterday.
+Yan Chen: Two weeks. That's very fast for a dataset paper.
+David Barron: It is. But a lot of it exists. Rezky has the collection pipeline, four courses, the consent and de-identification is done. What's missing is basically the benchmark part. Like, the tasks and the baselines.
+Yan Chen: And the name? I saw IDETrace in the Slack.
+David Barron: Yeah, IDETrace. Rezky came up with it. Sort of a sibling to TutorTrace.
+Yan Chen: [laughs] Okay. Fine. What are the tasks?
+David Barron: Um, so three tasks. One, help-seeking state classification on thirty-second windows, which is basically what TutorTrace does, but across four courses instead of one. Two, predicting whether a student will ask for help in the next two minutes. Three, error resolution time, like a regression.
+Yan Chen: Hmm. Three tasks in two weeks is a lot. What are the baselines?
+David Barron: Gradient boosting on the window features, a small transformer on the event sequence, and then an LLM zero-shot on a text rendering of the window. The LLM one is mostly to show it's not trivial.
+Yan Chen: Okay. And the labels for task one, where do they come from? You only labeled one course.
+David Barron: Right. So that's the honest problem. We have full human labels for CS 3114 deployment two, the two thousand three hundred forty windows. For the other three courses we'd label a sample. Rezky and Yue and me, maybe five hundred windows per course.
+Yan Chen: Five hundred per course in two weeks, plus baselines, plus writing.
+David Barron: Yeah. I know.
+Yan Chen: I think task one with labels on all four courses, and task two which needs no human labels, is enough. Drop task three or make it a stretch.
+David Barron: Okay. Yeah, error resolution time is the weakest anyway. Okay, two tasks.
+Yan Chen: And the splits. This is the most important thing for a dataset paper. How are you splitting train and test?
+David Barron: Um, right now Rezky's script does a random split over windows, eighty twenty, stratified by label.
+Yan Chen: By window. Hmm. Then the same student is in train and test.
+David Barron: Uh... yeah. I mean, yes. Is that bad for a benchmark? It's the same course, the same assignments.
+Yan Chen: It depends what you claim. If you claim the model generalizes to new students, you need to split by student. If you claim generalization to new courses, split by course. Reviewers at D&B look at this carefully.
+David Barron: Okay. I'll talk to Rezky. Maybe we offer both, a random split and a course-held-out split.
+Yan Chen: Think about it carefully. Write down what each split is for.
+David Barron: Okay. Yeah.
+Yan Chen: What about the datasheet? NeurIPS requires a datasheet.
+David Barron: Yue said she would draft the datasheet, she has the template from her last submission.
+Yan Chen: Good. And licensing, what license?
+David Barron: Um, CC BY-NC, with a data use agreement for the raw keystrokes, because of the de-identification. The aggregated features would be open.
+Yan Chen: Check that with the IRB. They have opinions on public release.
+David Barron: Yeah, Rezky already emailed them. No answer yet.
+Yan Chen: Okay. Follow up. That can block the whole submission.
+David Barron: Will do.
+Yan Chen: Who's first author?
+David Barron: Rezky. I'd be second. Which is right, it's his dataset.
+Yan Chen: Okay. Good. That's fair. And your ISE course?
+David Barron: Presentation is next Thursday, the thirtieth. The report is mostly written. Maya and Jordan did a lot.
+Yan Chen: Okay. So next two weeks, ISE presentation, then NeurIPS. Then rest in May.
+David Barron: Yeah. Then rest. Ha. There's actually... um, never mind, I'll bring it up another time.
+Yan Chen: What is it?
+David Barron: Nothing urgent, it's more of a summer thing. I'll bring it up after NeurIPS.
+Yan Chen: Okay. Lab meeting on May fourth will be the NeurIPS push. Prepare a status slide.
+David Barron: Okay. Thanks Yan.
+Yan Chen: Bye.

@@ -1,0 +1,71 @@
+{
+  "issue": {
+    "id": "PIL-8",
+    "uuid": "1434bd96-b66f-41df-b320-32bd8090c3ec",
+    "title": "Schedule pilot sessions",
+    "description": "- Priya Raman: Fri 10/9, 10:00 PT, Zoom\n- Daniel Osei: Tue 10/13, 9:00 PT / 12:00 ET, Zoom\n\nInvite 2 days before with the dmg link, the consent one-pager (PIL-3) and \"please have your Claude export downloaded\".",
+    "projectMilestone": {
+      "id": "c7f372c4-1916-4b8f-bf0f-0d7e2ecef6d7",
+      "name": "First two pilots onboarded"
+    },
+    "priority": {
+      "value": 3,
+      "name": "Medium"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-8/schedule-pilot-sessions",
+    "gitBranchName": "david/pil-8-schedule-pilot-sessions",
+    "createdAt": "2026-09-19T00:20:09.680Z",
+    "updatedAt": "2026-09-26T17:05:30.828Z",
+    "archivedAt": null,
+    "completedAt": "2026-09-26T17:05:30.828Z",
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [
+      "Ops"
+    ],
+    "createdBy": "Hudson",
+    "assignee": "Hudson",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-8",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-09-19T00:20:09.680Z",
+        "endedAt": "2026-09-26T17:05:30.828Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-09-26T17:05:30.828Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": []
+}

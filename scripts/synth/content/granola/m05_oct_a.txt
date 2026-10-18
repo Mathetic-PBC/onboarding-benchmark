@@ -1,0 +1,434 @@
+##### MEETING
+slug: hudson-sync-0929
+title: Hudson x David weekly
+start: 2026-09-29 16:00
+scheduled_min: 15
+calendar: yes
+mode: in-person
+organizer: hudson@mathetic.com
+attendees: Hudson Mitchell-Pullman <hudson@mathetic.com>
+projects: project_engelbart
+label_notes: Weekly sync; pilot build checklist before Oct 9, canvas flicker fix landed, connect screen copy.
+=== notes
+### Pilot build status (target: Sun Oct 4)
+
+- Canvas flicker fixed (per-block trail store + memoized blocks); 1,200-block test canvas scrolls smoothly
+- Importers in build: Claude, ChatGPT, Zotero, Local PDFs, "Other" (zip/folder upload)
+- Import summary card done: counts per source, skipped-with-reason list, possible duplicates
+- Not done: suggestion ranking is still naive (BM25 over titles + first 2k chars); fine for pilots
+
+### Known gaps to tell pilots up front
+
+- Claude Projects come in as loose conversations (no project membership)
+- No Google Drive (use "Other" → upload)
+- Dedupe: exact hash + "possible duplicate" badge only
+
+### Pilot script (David's doc)
+
+- 10 min setup tour → 20 min live connect + import → 15 min writing task with trail
+- Observe: hesitation on connect screen, surprise at counts, first confirmed suggestion (time it)
+- Hudson runs Granola + takes timestamps; David drives the conversation
+
+### Demo night draft
+
+- Sent rough 4-minute bullets to Lena (on time-ish, Sep 30 late)
+
+### Action items
+
+- [ ] David — full import on own accounts Sat Oct 3, file bugs
+- [ ] Hudson — pilot build deployed to staging by Sun noon
+- [ ] Hudson — send Priya calendar invite + what to bring (one paragraph in progress)
+- [ ] David — finish UIST slides before dry run Sunday
+=== transcript
+Hudson: Status day. You go first.
+Me: Flicker's fixed.
+Hudson: Yes!
+Me: Per-block store, memoized blocks. I made a test canvas with twelve hundred blocks and it scrolls fine now. Like, actually smooth.
+Hudson: Twelve hundred. Nobody will have twelve hundred.
+Me: Priya will have twelve hundred in a week if she imports all her chats.
+Hudson: Fair. Okay, importers?
+Me: Claude, ChatGPT, Zotero, local PDFs, and the upload. All in the build.
+Hudson: And the summary card works?
+Me: Summary card works. Counts per source, skipped with reasons, possible duplicates. The skipped list is kind of my favorite part of the app right now, which is a weird thing to say.
+Hudson: It's very you.
+Me: Suggestions are still dumb though. It's BM25 over the title and the first two thousand characters.
+Hudson: Is that bad for the pilots?
+Me: It's fine for pilots. If it finds one good thing in fifteen minutes that's the event. I'd rather spend time on import than ranking right now.
+Hudson: Agreed. Known gaps. Let's write the list we tell them.
+Me: Claude Projects come in loose. No Drive. Dedupe is exact match plus a badge.
+Hudson: That's three. Anything else?
+Me: Um. Big imports are slow. Like if someone has a thousand PDFs it'll take a while.
+Hudson: How long?
+Me: I don't know honestly. That's what Saturday's for. I'm doing a full import on my own stuff Saturday.
+Hudson: Okay. Pilot script. I read your doc.
+Me: Thoughts?
+Hudson: The timings are good. Ten, twenty, fifteen. I'd add: what do we do if the import is still running when we hit the writing part?
+Me: Oh. Hm. Then they write with whatever's in. It's realistic. Real users won't wait either.
+Hudson: Okay. What are we observing?
+Me: Three things. Do they hesitate on the connect screen. Are they surprised by the counts. And when's the first confirmed suggestion — time it.
+Hudson: I'll do timestamps in Granola.
+Me: Yeah, you run Granola and timestamps, I drive.
+Hudson: Do we tell Priya about the known gaps before or after she connects?
+Me: Before. Always before. If she finds the Claude Projects thing herself she'll be mad. If we say it first she'll just nod.
+Hudson: She'll nod angrily.
+Me: She'll nod angrily, but she'll nod. Okay, demo night. I sent Lena the bullets last night.
+Hudson: On time?
+Me: September thirtieth at like one AM, so technically late, technically early depending on time zone.
+Hudson: That's not how time zones work.
+Me: It's how they work for me. She replied with a thumbs up.
+Hudson: Okay. Staging.
+Me: Can you deploy the pilot build to staging by Sunday noon? I'll be doing the dry run Sunday at one.
+Hudson: Sunday noon. And I'll send Priya the invite. What should she bring?
+Me: One paragraph she's actually writing. And her laptop with Claude logged in, and Zotero.
+Hudson: Got it. Slides?
+Me: UIST slides are like eighty percent. I'll finish them before Sunday.
+Hudson: You keep saying eighty percent about everything.
+Me: Everything is eighty percent. That's the condition of being me.
+
+##### MEETING
+slug: uist-dry-run
+title: UIST talk dry run — TutorTrace
+start: 2026-10-04 13:00
+scheduled_min: 45
+calendar: yes
+mode: in-person
+organizer: david@mathetic.com
+attendees: Hudson Mitchell-Pullman <hudson@mathetic.com>
+projects: project_tutortrace
+label_notes: Dry run of the UIST 2026 TutorTrace talk (15 min + 5 Q&A, session "Learning & Tutoring", chair Tomás Reyes) with Hudson as audience.
+=== notes
+### Run 1 timing
+
+- 17:40 against a 15:00 slot — cut ~3 minutes
+- Slowest parts: dataset section (slides 6–9) and the related-work slide
+
+### Talk structure (current)
+
+1. Hook: a student stalled for 6 minutes after an error while the AI assistant sat open
+2. Problem: instructors can't see which struggle is productive
+3. TutorTrace: behavioral states from IDE + assistant telemetry (CS 3114 deployment, VizPI)
+4. Labels: 2,340 thirty-second windows; states incl. "stalled-after-error"; kappa 0.71 across 3 raters
+5. Results + the cross-course analysis promised in the rebuttal
+6. Limitations: one institution, telemetry privacy, label subjectivity
+7. Takeaways
+
+### Hudson's feedback
+
+- Cut related-work slide entirely; mention 2 papers verbally
+- Slides 6–9 → merge into one "how we labeled" slide with the state diagram
+- Hook is great — but say the 6 minutes slower, let it land
+- Say "kappa 0.71" and immediately what that means ("substantial agreement")
+- Ending is abrupt; finish on what instructors could do with it
+
+### Likely questions (prep)
+
+- Generalization beyond one course → cross-course analysis, still one university
+- Privacy of keystroke telemetry → opt-in, no content stored for prompts beyond the session, IRB
+- Why 30-second windows → piloted 10/30/60s; 30s best agreement
+- Could it run live in class? → not yet; latency fine, but false positives are costly
+
+### Logistics
+
+- AV check with Tomás done Oct 2: HDMI + USB-C at the lectern, clicker provided (bring own anyway), timing cards at 5 / 2 / stop
+- Slot: 2nd of 4 talks, 10:50–11:10; backup video (max 15:00) due on the conference portal Mon Oct 5
+- Fly Mon Oct 5; talk Wed Oct 7
+
+### Action items
+
+- [ ] David — cut to 14:30, re-run tonight alone
+- [ ] David — trim backup video to under 15:00 and upload to portal by Mon
+- [ ] Hudson — text David "slow down" at 1 pm PT Wednesday (ha)
+=== transcript
+Hudson: Okay, I'm the audience. I'm a tired UIST attendee after lunch.
+Me: Perfect. That's exactly who'll be there. Timer?
+Hudson: Timer's running. Go.
+Me: Okay. Um. "Imagine a student in an intro programming lab. They hit an error. The AI assistant is right there, open, in the side panel. And for six minutes, they don't touch it. They don't type. They just sit." ...Okay I'm going to skip the full thing, I'll do it, but let me just — no, I'll do it properly. Starting over.
+Hudson: Do it properly.
+Me: {+262} [presenting] ...so that's the motivation. Instructors can't see which struggle is productive. TutorTrace classifies learner behavioral states from IDE and assistant telemetry. We deployed in CS 3114 at Virginia Tech through VizPI...
+Hudson: Keep going, I'm just writing.
+Me: {+431} ...we labeled two thousand three hundred forty thirty-second windows. The states are, um, productive progress, help-seeking, stalled-after-error, and off-task — and three raters reached a kappa of point seven one...
+Hudson: Mm.
+Me: {+318} ...and then the cross-course analysis, which, uh, which was the thing reviewers asked for — we show the classifier holds up on a second course's data, with a drop but not a collapse... limitations, one institution, privacy of telemetry, and label subjectivity. And, um, takeaways. Thank you.
+Hudson: Seventeen forty.
+Me: Seventeen forty? Oh no.
+Hudson: Seventeen minutes forty seconds. You have fifteen.
+Me: Okay. Where was I slow?
+Hudson: Slides six through nine. The dataset part. You spend almost five minutes on how you labeled.
+Me: Because that's the part reviewers cared about!
+Hudson: Reviewers cared. The tired post-lunch people don't. They need to believe you, not audit you.
+Me: Hm. Okay.
+Hudson: Merge six to nine into one slide. The state diagram, the number of windows, the kappa. One slide.
+Me: That's... a lot on one slide.
+Hudson: Not if you just show the diagram and say the numbers.
+Me: Okay. What else?
+Hudson: Kill the related-work slide. You read eight paper names. Nobody remembers them.
+Me: The session chair might care.
+Hudson: Then mention two out loud. The Ostrowski one you always talk about and one other.
+Me: Yeah, the telemetry help-seeking paper. Okay. Fine. Cut.
+Hudson: The hook is great. But you rushed "six minutes." Say it slower. Let it sit.
+Me: "For six minutes... they don't touch it."
+Hudson: Yes. That.
+Me: Okay.
+Hudson: And when you say kappa point seven one, I don't know what that means. Is that good?
+Me: It's substantial agreement. For behavioral states it's actually good.
+Hudson: Then say that! Right after the number. "Point seven one, which is substantial agreement."
+Me: Writing that down. Okay.
+Hudson: And the ending. You said "takeaways, thank you." It just stopped.
+Me: Yeah, I didn't finish that slide.
+Hudson: End on what an instructor could actually do. Like, "imagine the TA gets a ping when someone's been stalled after an error for three minutes."
+Me: Oh that's — yeah. That's the vision slide. I had it in the paper's discussion.
+Hudson: Put it at the end. Okay, questions. Can I do questions?
+Me: Please. Be mean.
+Hudson: "This is one course at one university. Why should I believe it generalizes?"
+Me: Um, so, that was the main reviewer question too. We added a cross-course analysis, a second course with a different instructor. Performance drops but holds. It's still one university, and we say that in limitations.
+Hudson: Good. Shorter though. "Privacy. You're logging students' keystrokes."
+Me: It's opt-in, IRB approved, and we don't keep prompt content beyond the session — we keep features. Students could see their own data.
+Hudson: Good. "Why thirty seconds?"
+Me: We piloted ten, thirty, and sixty. Thirty had the best agreement. Ten was too noisy, sixty blurred states together.
+Hudson: Great answer. "Could this run live in a class?"
+Me: Not yet. Latency's fine, but a false positive — like pinging a TA about a student who's actually fine — is costly. We'd want much higher precision first.
+Hudson: That's good. You're good at questions. You're bad at time.
+Me: I'm bad at time. Known.
+Hudson: How was the AV check with the session chair?
+Me: Tomás? Fine. Friday. There's HDMI and USB-C at the lectern, and a clicker, but I'm bringing mine. Timing cards at five, two, and then stop.
+Hudson: Stop means get off.
+Me: He said at stop he lets you finish your sentence, not your section. Which is fair. And I have to upload a backup video by tomorrow, under fifteen minutes. Mine's sixteen right now.
+Hudson: Of course it is. When do you fly?
+Me: Tomorrow. Monday. Talk's Wednesday.
+Hudson: Okay. Cut to fourteen thirty and run it again tonight.
+Me: Alone, to the wall.
+Hudson: To the wall. I'll text you "slow down" on Wednesday.
+Me: Please do. Okay. Thank you. Seriously, this was really useful.
+
+##### MEETING
+slug: pilot-priya
+title: Engelbart pilot onboarding — Priya Raman
+start: 2026-10-09 10:30
+scheduled_min: 45
+calendar: yes
+mode: virtual
+organizer: hudson@mathetic.com
+attendees: Priya Raman <praman@berkeley.edu>; Hudson Mitchell-Pullman <hudson@mathetic.com>
+projects: project_engelbart
+label_notes: Engelbart pilot onboarding session A with Priya Raman (fixed event 2026-10-09): ~140 Claude chats missing, duplicate PDFs (Zotero + Downloads), liked the trail.
+=== notes
+### Setup tour (10 min)
+
+- Claude: 9 Projects + loose conversations; Zotero (~600 items); ~/Downloads full of PDFs; Obsidian daily notes (not connected — no connector yet)
+- Paragraph she brought: chapter 2 intro on "help-seeking as a design material"
+
+### Connect + import (live)
+
+- Connected: Claude export, Zotero, Local PDFs (~/Downloads), skipped ChatGPT (doesn't use it)
+- Connect screen: no hesitation on the main tiles; asked "is Obsidian under Other?" — no, Other is file upload
+- Import summary: Claude 412 conversations imported; her account page says ~550 → **~140 Claude chats missing**
+- Likely cause: export split into two files (conversations.json + a second part); importer only read the first — to verify
+- Duplicates: same papers in Zotero and Downloads shown twice; badge only showed on 9 of ~30 obvious pairs (Downloads copies are publisher PDFs, Zotero has arXiv)
+- Import time: ~11 minutes total; PDFs slowest
+
+### Writing task (15 min)
+
+- First confirmed suggestion at ~6 min into the task: a Claude chat from March where she worked out the "design material" framing
+- Reaction: "Okay that's the thing. That's where that came from." — loved the "where did this thought come from" trail
+- Wanted to see the Zotero note next to the paper in the trail, not just the PDF
+- Annoyed by duplicate suggestions (same paper twice in the 3 candidates)
+
+### Priya's asks
+
+1. Get all her Claude chats (non-negotiable)
+2. Collapse duplicate papers — at least in suggestions
+3. Claude Projects as groups
+4. Obsidian later
+
+### Action items
+
+- [ ] David — investigate missing ~140 Claude chats (multi-file export?) today
+- [ ] David — dedupe in suggestions: never show two candidates with the same DOI/title
+- [ ] Hudson — send Priya a summary + "what we'll fix" list
+- [ ] Follow-up session in 1 week
+=== transcript
+Hudson: Hi Priya! Can you hear us?
+Priya: Yep! Hi! David, how was UIST?
+Me: Hi! Good. Tired. I got back last night. The talk went fine, I didn't go over.
+Priya: Did you go over?
+Me: I just said I didn't!
+Priya: I'm just checking. Okay, I'm so excited, let's break your thing.
+Me: Ha. Please do. Okay, so, um, first: is it okay to record? Hudson's running Granola.
+Priya: Yes, record everything.
+Me: Great. So before we start, three known gaps, so you don't find them yourself. One, Claude Projects come in as loose conversations, we don't know which project they're in yet. Two, no Google Drive yet. Three, dedupe is basic.
+Priya: Oh no. The dedupe.
+Me: I know. You warned us.
+Priya: I warned you! Okay. Fine. Go.
+Me: First ten minutes, just show us your setup like last time.
+Priya: Okay so same as before. Claude, I have, let me count, nine projects now. Zotero, around six hundred items. Downloads is a disaster. And Obsidian, which I've written in twice since I saw you.
+Hudson: Twice is more than zero.
+Priya: Thank you, Hudson. And I brought a paragraph. It's the intro to chapter two, the "help-seeking as a design material" part.
+Me: Perfect. Okay, let's connect. I'll send you the link.
+Priya: Okay. Ooh. Okay, this is the connect screen. Claude, ChatGPT, Zotero, Local PDFs... and Other. Is Obsidian under Other?
+Me: Um, no. Other is uploading files. Like a zip or a folder.
+Priya: Oh. Then why is it called Other?
+Hudson: [laughs]
+Me: That's — that's a very fair question. Hudson's been saying that for three weeks.
+Priya: Okay. I'll do Claude first. It says upload my export. I have it from yesterday. Okay, uploading.
+Me: Now Zotero.
+Priya: Zotero. It found my library. And Local PDFs, I'll point it at Downloads.
+Me: You can exclude folders if there's anything private.
+Priya: Oh, there's a folder of IRB consent forms in here actually. Excluding that. Good feature.
+Me: That came from someone at Berkeley.
+Priya: Elena? She's very IRB.
+Me: I can't say. But yes.
+Priya: Ha. Okay, it's importing. There's a progress bar. It says Claude first.
+Hudson: Timestamp, import started.
+~~ 170
+Priya: Okay it says Claude done. Four hundred twelve conversations.
+Me: Hm.
+Priya: That's... wrong. I have way more than that. Hang on. My account page, let me look. It's like five fifty.
+Me: Five fifty?
+Priya: Roughly. I don't know exactly but it's way more than four twelve.
+Me: Okay. So that's like a hundred forty missing.
+Priya: A hundred forty chats is a lot of thinking, David.
+Me: I know. I know. Um. Can you show me the export folder? What files are in it?
+Priya: There's conversations dot json, and... there's a second one. It looks like a second part.
+Me: Oh. Okay. I think our importer only reads the first file. I'm, like, eighty percent sure that's it.
+Hudson: Writing down: multi-file export.
+Me: I'll check it today. Sorry. Let's keep going.
+Priya: It's okay, I'm, like, mad but in a useful way.
+Me: That's the best kind.
+Priya: Zotero's going now. And PDFs. This is slower.
+Me: PDFs are the slow part.
+~~ 340
+Priya: Okay. It's done. Summary card. Oh, I like this card. It says skipped: three items, "file unreadable." Possible duplicates: nine.
+Me: Nine?
+Priya: Nine. And I can see more than nine. Look, this paper is here twice. And this one. These are all twice.
+Me: Hm. Are those — is the Downloads one the publisher version?
+Priya: Yeah, Downloads is from the ACM library, Zotero is mostly arXiv.
+Me: Right, so the bytes are different and the title match must be failing on, like, subtitle differences or something.
+Priya: So the dedupe is basic.
+Me: The dedupe is basic.
+Priya: I told you. Okay, fine. How long did that take?
+Hudson: Eleven minutes, about.
+Priya: That's fine actually. I'd wait eleven minutes once.
+Me: Okay, writing part. Can you paste your paragraph into a new page?
+Priya: Okay. Pasted. Oh, there's little suggestions on the side.
+Me: Yeah. For each part it shows up to three sources it thinks are related.
+~~ 250
+Priya: Okay so this one... this is a paper. And this is the same paper again. Twice in three suggestions. That's annoying.
+Me: Yeah. That's bad. Okay.
+Priya: Wait, wait. This one. This is a Claude chat from March. Click.
+Me: That opens the chat at the message.
+Priya: Oh my god. Okay that's the thing. That's where that came from. That's where I came up with the design material framing, I was arguing about whether help-seeking is a behavior or a resource. I completely forgot this chat.
+Hudson: Timestamp! First confirmed suggestion.
+Priya: Can I confirm it? Like say yes this is the source?
+Me: Yes, click the check.
+Priya: Done. This is — okay. The "where did this thought come from" thing is real. I really like that.
+Me: That's — honestly that's the best thing you could have said.
+Priya: One thing though. When it shows the paper, I want my Zotero note next to it. Not just the PDF. My note is the part that says why I cared.
+Me: Ooh. Yeah. The note is attached to the item in Zotero, we should bring it along.
+Priya: Yes. The note is the thought, the PDF is just the paper.
+Hudson: That's a good line.
+Priya: You can have it.
+Me: Okay, we're almost at time. If you had to pick, what do we fix first?
+Priya: One, get all my Claude chats. That's non-negotiable. Two, stop showing me the same paper twice, at least in the suggestions. Three, Projects as groups. Four, Obsidian, later, whatever.
+Me: That's a great list. That's basically our list now.
+Priya: Can we do this again next week? When the chats are fixed?
+Me: Yes. Absolutely. Hudson will send you a summary today.
+Hudson: And a "what we'll fix" list.
+Priya: Love it. Okay. Go fix my hundred and forty chats.
+Me: Going.
+
+##### MEETING
+slug: hudson-sync-1012
+title: Hudson x David weekly
+start: 2026-10-12 16:00
+scheduled_min: 15
+calendar: yes
+mode: in-person
+organizer: hudson@mathetic.com
+attendees: Hudson Mitchell-Pullman <hudson@mathetic.com>
+projects: project_engelbart
+label_notes: Weekly sync; debrief of Priya's pilot (missing Claude chats root cause, duplicate suggestions) and prep for pilot B (Daniel Osei).
+=== notes
+### Priya pilot — root causes
+
+- **Missing ~140 Claude chats:** confirmed — her export had 2 conversation files; importer only read the first. Fixed: glob all `conversations*.json`, merge by uuid. Re-ran on her export: 553 conversations.
+- Also found: 4 conversations with empty `chat_messages` were silently dropped — now listed as skipped ("empty conversation")
+- **Duplicate PDFs:** publisher vs arXiv versions; title match failed on subtitles and "(1)" filenames. New rule: normalize title (strip subtitle after colon only for matching), compare DOI when present, first-page text similarity as tie-break. Still suggest-don't-merge.
+- **Suggestions:** collapse candidates that share a DOI or normalized title
+
+### What worked
+
+- First confirmed suggestion ~6 min into the writing task (Claude chat from March)
+- Exclude-folders used immediately (IRB folder)
+- Summary card understood without explanation
+
+### What confused
+
+- "Other" tile — Priya expected Obsidian/Notion there
+- Proposal: rename to "Upload files"; add a separate "Request a source" tile that just collects votes
+
+### Pilot B prep (Daniel Osei, Tue Oct 13, 9:00 PT / 12:00 ET)
+
+- CMU postdoc; uses Notion heavily and Granola for meetings (per his intake form)
+- Neither connector exists — be honest; use the request tile to record it
+- Keep "Other" as-is for Daniel? — decided: keep, to see if confusion repeats (n=2 before renaming)
+
+### Action items
+
+- [ ] David — ship multi-file Claude import + dedupe rules to staging tonight
+- [ ] Hudson — numbers for Marcus (Wed): pilots, imported items, time to first confirmed suggestion
+- [ ] Hudson — schedule Priya follow-up (Oct 16 or 19)
+=== transcript
+Hudson: How was the race-prep run?
+Me: Good. Easy six. I'm tapering. The half's Thursday.
+Hudson: Right, with Owen.
+Me: With Owen. He's going to beat me by like three minutes and be nice about it.
+Hudson: Okay. Priya debrief. Go.
+Me: So. The hundred forty chats. I was right. Her export had two conversation files and we only read the first one.
+Hudson: How did we miss that?
+Me: Because my export is small. It's one file. I never saw a split export.
+Hudson: Ugh. Okay. Fixed?
+Me: Fixed. We glob all the conversations files and merge by uuid. I re-ran it on her export. Five fifty-three.
+Hudson: Five fifty-three! So she was right, roughly five fifty.
+Me: She was right. And I found another thing while I was in there. Four conversations that are empty, no messages. We were just dropping them silently.
+Hudson: Silent drop. Your nemesis.
+Me: My nemesis. Now they show up as skipped, "empty conversation." So the count adds up.
+Hudson: Good. Dedupe.
+Me: Dedupe. So her duplicates were publisher PDF versus arXiv. Different bytes obviously. And the title match failed because of subtitles, and because the Downloads files have, like, "(1)" in the name and sometimes we were using the filename as the title.
+Hudson: Oh no.
+Me: Yeah. So new rule. Normalize the title — for matching only, strip after the colon, lowercase, all that. Use DOI when we have it. First-page text as a tie-break.
+Hudson: Still suggest don't merge?
+Me: Still suggest don't merge. But in the suggestions panel, we collapse candidates that share a DOI or normalized title. So she never sees the same paper twice in the three.
+Hudson: That was the most annoying part for her.
+Me: It was the most visible part. The chats were the most important part.
+Hudson: Okay. What worked? Let's not only do the bad stuff.
+Me: First confirmed suggestion, six minutes into the writing task. The March chat.
+Hudson: She was so happy.
+Me: She said "that's where that came from." I'm going to put that on a wall.
+Hudson: And exclude folders, she used it immediately.
+Me: For the IRB folder. And the summary card, she understood it with no explanation.
+Hudson: Okay. And the "Other" thing.
+Me: You were right.
+Hudson: Say it again.
+Me: You were right. She thought Obsidian would be under Other.
+Hudson: So rename to "Upload files." And maybe a separate tile, like "Request a source," that just collects votes.
+Me: I like that a lot. It's honest.
+Hudson: Do we do it before Daniel tomorrow?
+Me: Hm. Actually — no? Let's keep it for Daniel. If he's confused too, that's two out of two and we rename with a clear conscience.
+Hudson: That's very scientific of you.
+Me: It's n equals two, it's not science, but it's something.
+Hudson: Daniel's intake form says he uses Notion heavily and Granola for meetings.
+Me: We have neither.
+Hudson: We have neither. Be honest with him.
+Me: Totally. And we'll see what he does with the connect screen.
+Hudson: Nine AM our time, noon for him.
+Me: Nine. Okay. Then Marcus Wednesday.
+Hudson: I'm doing numbers for Marcus. Two pilots, items imported, time to first confirmed suggestion.
+Me: One data point for time.
+Hudson: Two after tomorrow.
+Me: Two data points. Very fundable.
+Hudson: Ugly numbers. He said ugly numbers were fine.
+Me: He did say that. Okay. I'm shipping the import fix and the dedupe rules to staging tonight.
+Hudson: And Priya follow-up, the sixteenth or the nineteenth?
+Me: Nineteenth. I'm going to be useless Thursday and Friday after the race.
+Hudson: You're always useless on Fridays.
+Me: That's slander. Accurate, but slander.

@@ -1,0 +1,21 @@
+[Event "Rated Rapid game"]
+[Site "online"]
+[Date "2026.02.21"]
+[White "dbarron_runs"]
+[Black "opponent_1622"]
+[Result "1-0"]
+[TimeControl "600"]
+[Termination "dbarron_runs won by resignation"]
+
+1. d4 d5 2. Bf4 c5 3. e3 Nc6 4. h4 Qb6 5. Nc3 Qxb2 6. Nb5 Qb4+ 7. c3 Qxb5 8. Bxb5 1-0
+
+[Event "Rated Rapid game"]
+[Site "online"]
+[Date "2026.02.21"]
+[White "opponent_1701"]
+[Black "dbarron_runs"]
+[Result "1-0"]
+[TimeControl "600"]
+[Termination "opponent_1701 won on time"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 c5 6. O-O Nc6 7. c3 Qb6 8. Na3 cxd4 9. cxd4 Bxa3 10. bxa3 Nge7 1-0

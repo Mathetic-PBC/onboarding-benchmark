@@ -1,0 +1,42 @@
+{
+ "conversation": {
+  "conversationId": "a6e41f4e-2e24-4d51-9866-38fea0770638",
+  "title": "PBC vs C-Corp For Startup",
+  "createTime": "2026-08-13T05:47:00.000Z",
+  "modifyTime": "2026-08-13T05:49:41.666Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "f2cdeb85-11d3-4e4f-b009-2b1f80b76f7b",
+   "message": "we incorporated as a delaware pbc. does that scare investors vs normal c corp. be concise",
+   "sender": "human",
+   "createTime": "2026-08-13T05:47:00.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "7abf3ba8-6e12-4b38-9fd5-4ff1c7cc8ee8",
+   "message": "Concise:\n- A Delaware PBC **is** a C-corp — same tax treatment, same stock, can raise on SAFEs and priced rounds normally.\n- The difference: directors must balance shareholder value with the stated public benefit and report on it periodically.\n- Most early-stage investors don't care much, especially for mission-driven ed/research tools. Some funds have charter limits or prefer standard C-corps, and a few worry about exit flexibility.\n- Practical admin: Delaware PBCs file a benefit report on a regular cadence along with the annual report/franchise tax.\n\nIf an investor pushes back, it's usually a conversation, not a deal-breaker.",
+   "sender": "assistant",
+   "createTime": "2026-08-13T05:47:20.139Z",
+   "parentResponseId": "f2cdeb85-11d3-4e4f-b009-2b1f80b76f7b",
+   "model": "grok-4"
+  },
+  {
+   "responseId": "ddb6153e-8930-4c99-b1b6-a8b75da22b0c",
+   "message": "ok good. annual report is march 1 right",
+   "sender": "human",
+   "createTime": "2026-08-13T05:49:35.139Z",
+   "parentResponseId": "7abf3ba8-6e12-4b38-9fd5-4ff1c7cc8ee8"
+  },
+  {
+   "responseId": "3ffe83fc-394e-487e-9fc6-479b2d3c77a7",
+   "message": "For Delaware corporations, the annual report and franchise tax are due March 1 each year. Put it on the calendar now — penalties for missing it add up fast.",
+   "sender": "assistant",
+   "createTime": "2026-08-13T05:49:41.666Z",
+   "parentResponseId": "ddb6153e-8930-4c99-b1b6-a8b75da22b0c",
+   "model": "grok-4"
+  }
+ ]
+}

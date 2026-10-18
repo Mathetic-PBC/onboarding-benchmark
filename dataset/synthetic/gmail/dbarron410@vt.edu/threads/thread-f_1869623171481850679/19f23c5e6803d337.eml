@@ -1,0 +1,25 @@
+From: UIST 2026 Program Committee <noreply@uist2026.confsys.org>
+To: David Barron <dbarron410@vt.edu>
+Subject: UIST 2026: conditional acceptance of submission #1187
+Date: Thu, 02 Jul 2026 13:00:00 -0400
+Message-ID: <77f2b3adc583c878bdbae7d3.db739351@uist2026.confsys.org>
+MIME-Version: 1.0
+X-GM-THRID: 1869623171481850679
+X-Gmail-Labels: Inbox,Opened
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear David Barron,
+
+We are pleased to inform you that your submission #1187 "TutorTrace: Replayin=
+g Help-Seeking in LLM-Assisted Programming Labs" has been conditionally accep=
+ted to UIST 2026.
+
+Conditions (from the meta-review):
+1. Add the cross-course comparison promised in the rebuttal.
+2. Add a limitations section covering generalization and telemetry privacy.
+3. Report per-pair agreement.
+
+Camera-ready versions are due August 14, 2026. Instructions will follow.
+
+UIST 2026 Program Committee

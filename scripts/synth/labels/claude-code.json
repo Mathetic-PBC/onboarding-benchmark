@@ -1,0 +1,201 @@
+{
+ "projects/-Users-divadbaroon/d15795bd-2537-43ad-945a-555ae5f0f298.jsonl": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "new Mac setup (2026-08-04); personal clutter, mentions repo names only"
+ },
+ "projects/-Users-divadbaroon-Projects-sublet-hunt/b236ae6d-10cf-4078-a577-f71c45a01a60.jsonl": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "SF sublet search (personal); listing URLs are example.org placeholders"
+ },
+ "projects/-Users-divadbaroon-Desktop-Dataset-TutorTrace-dataset-and-benchmark/c705297d-37ed-46c9-bd1e-19e6d6f4b0af.jsonl": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "UIST camera-ready figure fix (Aug 2026)"
+ },
+ "projects/-Users-divadbaroon-Projects-claude-plugins/3a957320-906c-4f8f-9f71-519f736790d9.jsonl": {
+  "project_ids": [
+   "project_claude_code_plugins"
+  ],
+  "notes": "hc plugin first scaffold (2026-08-10)"
+ },
+ "projects/-Users-divadbaroon-Desktop-Dataset-TutorTrace-dataset-and-benchmark/9aad0a7c-acdd-4c47-bca2-57e5ecc8ed48.jsonl": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "cross-course analysis promised in the UIST rebuttal; camera-ready week"
+ },
+ "projects/-Users-divadbaroon-Projects-claude-plugins/57e81dcf-628e-44d8-a92a-841652f9c2a9.jsonl": {
+  "project_ids": [
+   "project_claude_code_plugins"
+  ],
+  "notes": "compaction-experiment harness; numbers are synthetic"
+ },
+ "projects/-Users-divadbaroon-Projects-claude-plugins/e7e904b8-47ac-4efb-9bc2-3febae211862.jsonl": {
+  "project_ids": [
+   "project_claude_code_plugins"
+  ],
+  "notes": "HARD CASE: automated-looking session with real work — headless sdk-cli test-fix run; real fix to hc.py segment parsing after compaction"
+ },
+ "projects/-Users-divadbaroon-Projects-zone2-log/d0705c9c-3d0f-40b1-84d6-97f17038f6f3.jsonl": {
+  "project_ids": [
+   "project_endurance_training"
+  ],
+  "notes": "personal training script in ~/Projects/zone2-log (matches the synthetic github repo)"
+ },
+ "projects/-Users-divadbaroon-Projects-Vizpi-vizpi-backend/866129dd-fb08-412a-a700-f1218c26aac5.jsonl": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "small vizpi_backend fix (Aug 2026)"
+ },
+ "projects/-Users-divadbaroon-Projects-beat-tools/ae3eae7e-2665-4d77-91ff-4606a4a51805.jsonl": {
+  "project_ids": [
+   "project_music_production"
+  ],
+  "notes": "sample-pack renamer in ~/Projects/beat-tools (matches the synthetic github repo)"
+ },
+ "projects/-Users-divadbaroon-Projects-berkeley-research/a8ca240a-8e19-4ee9-9053-54c6157e82b2.jsonl": {
+  "project_ids": [
+   "project_berkeley_research_chats"
+  ],
+  "notes": "berkeley.mathetic.com sign-up page (Aug 2026)"
+ },
+ "projects/-Users-divadbaroon-Projects-berkeley-research/9cb4d74a-7d65-4b0a-b233-856b9111d45b.jsonl": {
+  "project_ids": [
+   "project_berkeley_research_chats"
+  ],
+  "notes": "slot timezone bug on the research-chat sign-up page"
+ },
+ "projects/-Users-divadbaroon-Projects-berkeley-research/859a62f8-6155-4326-9f7d-a880359552d6.jsonl": {
+  "project_ids": [
+   "project_berkeley_research_chats"
+  ],
+  "notes": "HARD CASE: automated-looking session with real work — headless sdk-cli test-fix run; real fix: berkeley.edu subdomain emails were rejected by the sign-up form"
+ },
+ "projects/-Users-divadbaroon-Projects-chess-stats/49c067b8-59b5-4c5e-8118-6d16af723964.jsonl": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "online chess (personal)"
+ },
+ "projects/-Users-divadbaroon-Desktop-engelbart-canvas/a2f80be0-c548-4c0f-add0-bdf6bd4a276f.jsonl": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "Engelbart canvas render bug (culling at low zoom), with an Explore subagent"
+ },
+ "projects/-Users-divadbaroon-Desktop-engelbart-canvas/d0f6ffcc-50a6-4c7b-8601-49c7d70555a0.jsonl": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "Engelbart canvas render follow-up (retina blur, edge z-order)"
+ },
+ "projects/-Users-divadbaroon-Projects-reading-digest/7b1f75b9-0940-4572-9048-f8124ee9f67d.jsonl": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "geopolitics reading (personal)"
+ },
+ "projects/-Users-divadbaroon-Desktop-engelbart-canvas/edabeac1-b684-423c-80c1-4b3c94bb77cc.jsonl": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "HARD CASE: automated-looking session with real work — headless sdk-cli test-fix run; real fix: canvas hit-testing missed cards at negative world coordinates"
+ },
+ "projects/-Users-divadbaroon-Projects-zone2-log/bd86b145-6b6c-421f-98e8-602f348405ac.jsonl": {
+  "project_ids": [
+   "project_endurance_training"
+  ],
+  "notes": "Block 4 training analysis script"
+ },
+ "projects/-Users-divadbaroon-Documents-budget/966e6322-10fb-4c95-840a-98f8fa76cd31.jsonl": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "subscriptions and receipts (personal); synthetic amounts"
+ },
+ "projects/-Users-divadbaroon-Projects-uist26-talk/2a843b7a-aba5-4828-af86-e01af7207eac.jsonl": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "UIST 2026 talk prep (repo uist26-talk)"
+ },
+ "projects/-Users-divadbaroon-Desktop-engelbart-canvas/24e9e285-c459-433b-93a8-6d727119235a.jsonl": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "Engelbart onboarding connect screen v1"
+ },
+ "projects/-Users-divadbaroon-Projects-uist26-talk/5d3729d3-8a27-4c30-9114-dbbf9e9945f2.jsonl": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "HARD CASE: automated-looking session with real work — headless sdk-cli test-fix run; real fix in the UIST talk figure script"
+ },
+ "projects/-Users-divadbaroon-Projects-beat-tools/2b9fa083-4e24-4b79-b25b-928a8c238f36.jsonl": {
+  "project_ids": [
+   "project_music_production"
+  ],
+  "notes": "BPM detector for beat-tools"
+ },
+ "projects/-Users-divadbaroon-Projects-beat-tools/cd226995-75cf-45f9-ae49-85fe1e78f573.jsonl": {
+  "project_ids": [
+   "project_music_production"
+  ],
+  "notes": "HARD CASE: automated-looking session with real work — headless sdk-cli test-fix run; real fix: renamer silently overwrote colliding samples"
+ },
+ "projects/-Users-divadbaroon-Desktop-engelbart-canvas/b92a5d98-7e50-4b64-be2e-811bfcecd78d.jsonl": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "Engelbart import dedupe after the Priya pilot (2026-10-09); subagent + persisted tool-result"
+ },
+ "projects/-Users-divadbaroon-Desktop-engelbart-canvas/62efd2ce-4acb-4aa8-916f-c6d66e36ba52.jsonl": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "HARD CASE: automated-looking session with real work — headless sdk-cli test-fix run; real fix: title cleaning merged distinct v2 drafts during import dedupe"
+ },
+ "projects/-Users-divadbaroon/4c39b360-1541-4178-9864-11fc65c5a605.jsonl": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "laptop setup / shell (personal)"
+ },
+ "projects/-Users-divadbaroon-Desktop-engelbart-canvas/1b42ffdc-9b22-424e-98f1-e4370b502161.jsonl": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "Engelbart import: chats inside Claude/ChatGPT projects were skipped (Priya pilot)"
+ },
+ "projects/-Users-divadbaroon-Desktop-engelbart-canvas/c106d0f6-c75a-4a16-ae39-5750778085f2.jsonl": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "Engelbart connect screen after pilot B (Daniel Osei, 2026-10-13)"
+ },
+ "projects/-Users-divadbaroon-Projects-claude-plugins/d60f72d9-ac44-4090-8139-119b04b82b32.jsonl": {
+  "project_ids": [
+   "project_claude_code_plugins"
+  ],
+  "notes": "compaction experiment results (LLM judge, Hudson blind arm)"
+ },
+ "claude-home/history.jsonl": {
+  "project_ids": [
+   "project_berkeley_research_chats",
+   "project_claude_code_plugins",
+   "project_endurance_training",
+   "project_engelbart",
+   "project_music_production",
+   "project_none",
+   "project_tutortrace",
+   "project_vizpi"
+  ],
+  "notes": "prompt history across all synthetic interactive sessions (spans several projects + personal)"
+ }
+}

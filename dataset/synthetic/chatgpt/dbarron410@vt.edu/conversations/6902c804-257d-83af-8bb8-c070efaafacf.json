@@ -1,0 +1,219 @@
+{
+ "title": "VT parking ticket appeal",
+ "create_time": 1761789956.12,
+ "update_time": 1761790076.7651503,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "6de0b413-017d-4c13-ba34-1978d9369361"
+   ]
+  },
+  "6de0b413-017d-4c13-ba34-1978d9369361": {
+   "id": "6de0b413-017d-4c13-ba34-1978d9369361",
+   "message": {
+    "id": "6de0b413-017d-4c13-ba34-1978d9369361",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1761789956.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "got a $35 VT parking ticket in the perry st lot at 7:58pm. signs say permit required until 5pm but the ticket says enforcement till 8pm in that lot. i think the sign is wrong/unclear. write a short appeal"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_95e31d30ccb47934aeecb972ef",
+     "message_source": null,
+     "turn_exchange_id": "025b4dca-d6c2-46cd-9e4a-fc6fe545c96d",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "a9a0c8c3-17d8-4462-b59d-2df6c94ba50e"
+   ]
+  },
+  "a9a0c8c3-17d8-4462-b59d-2df6c94ba50e": {
+   "id": "a9a0c8c3-17d8-4462-b59d-2df6c94ba50e",
+   "message": {
+    "id": "a9a0c8c3-17d8-4462-b59d-2df6c94ba50e",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1761789968.105,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "> I'm writing to appeal citation #[number] issued on [date] at 7:58 PM in the Perry Street lot.\n>\n> The posted sign at the lot entrance [describe location] reads \"Permit Required 7 AM – 5 PM.\" Relying on that sign, I parked after 5 PM believing the lot was open. The citation states enforcement until 8 PM. I've attached a photo of the sign taken [date/time].\n>\n> Since the posted hours don't match the enforcement hours on the citation, I respectfully request that the citation be voided. If the enforcement hours for this lot differ from the signage, I'd also suggest updating the sign so others aren't caught by the same discrepancy.\n>\n> Thank you for your consideration,\n> David Barron\n\nTake a clear photo of the exact sign (with the lot visible) before you submit. That photo is what wins these."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_95e31d30ccb47934aeecb972ef",
+     "message_type": "next",
+     "turn_exchange_id": "025b4dca-d6c2-46cd-9e4a-fc6fe545c96d",
+     "model_slug": "gpt-4o",
+     "default_model_slug": "gpt-4o",
+     "resolved_model_slug": "gpt-4o",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "6de0b413-017d-4c13-ba34-1978d9369361"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "6de0b413-017d-4c13-ba34-1978d9369361",
+   "children": [
+    "9192a1e9-d9f1-4f24-a4b4-8c4df82ed6b5"
+   ]
+  },
+  "9192a1e9-d9f1-4f24-a4b4-8c4df82ed6b5": {
+   "id": "9192a1e9-d9f1-4f24-a4b4-8c4df82ed6b5",
+   "message": {
+    "id": "9192a1e9-d9f1-4f24-a4b4-8c4df82ed6b5",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1761790067.105,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "the sign is a small one and there's a bigger one at the other entrance that says 8pm. should i still appeal"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_4c3a253d3bb25f924040ee40bc",
+     "message_source": null,
+     "turn_exchange_id": "fbffdffc-92ad-4164-81ca-48788b7cc3a0",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "a9a0c8c3-17d8-4462-b59d-2df6c94ba50e",
+   "children": [
+    "a008e4bf-d89c-49f3-8ccb-b0b1b43abe15"
+   ]
+  },
+  "a008e4bf-d89c-49f3-8ccb-b0b1b43abe15": {
+   "id": "a008e4bf-d89c-49f3-8ccb-b0b1b43abe15",
+   "message": {
+    "id": "a008e4bf-d89c-49f3-8ccb-b0b1b43abe15",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1761790074.661,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "You can, but your case is weaker: they'll argue the lot is signed for 8 PM at the main entrance. Mention specifically that you entered from the entrance with the 5 PM sign, include photos of both, and ask for a reduction to a warning as a first offense if a full void isn't possible. It's worth the 5 minutes, just keep expectations modest."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_4c3a253d3bb25f924040ee40bc",
+     "message_type": "next",
+     "turn_exchange_id": "fbffdffc-92ad-4164-81ca-48788b7cc3a0",
+     "model_slug": "gpt-4o",
+     "default_model_slug": "gpt-4o",
+     "resolved_model_slug": "gpt-4o",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "9192a1e9-d9f1-4f24-a4b4-8c4df82ed6b5"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "9192a1e9-d9f1-4f24-a4b4-8c4df82ed6b5",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "a008e4bf-d89c-49f3-8ccb-b0b1b43abe15",
+ "plugin_ids": null,
+ "conversation_id": "6902c804-257d-83af-8bb8-c070efaafacf",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-4o",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "6902c804-257d-83af-8bb8-c070efaafacf"
+}

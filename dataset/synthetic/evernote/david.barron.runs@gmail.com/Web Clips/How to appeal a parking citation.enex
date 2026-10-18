@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20260304T144000Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>How to appeal a parking citation</title>
+    <created>20260302T180500Z</created>
+    <updated>20260304T144000Z</updated>
+    <tag>clip</tag>
+    <tag>parking</tag>
+    <tag>admin</tag>
+    <note-attributes>
+      <author>David Barron</author>
+      <source>web.clip7</source>
+      <source-url>https://parking.example.edu/citations/appeals</source-url>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><blockquote>my note: ticket from 2/27 in the Perry St lot — the permit was on the dash, fell off the mirror. appeal within 10 business days. submitted 3/4 with the photo.</blockquote><hr/><h3>How to appeal a parking citation</h3><div>Campus Parking Services — Citations</div><div><br/></div><div>Citations may be appealed online within 10 business days of the date of issue. Appeals received after that window are not reviewed.</div><div><br/></div><div>What to include</div><ul><li>the citation number and your permit number</li><li>a short explanation of why the citation should be voided or reduced</li><li>supporting documents or photos (for example, a photo of a valid permit)</li></ul><div><br/></div><div>What does not count as grounds for appeal</div><ul><li>not seeing a sign</li><li>parking for a short time</li><li>other vehicles also parked in violation</li></ul><div><br/></div><div>You will receive a decision by email. If the appeal is denied, a second-level review can be requested within 10 business days of that decision.</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

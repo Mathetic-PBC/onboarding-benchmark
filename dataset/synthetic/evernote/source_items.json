@@ -1,1 +1,1794 @@
-[]
+[
+ {
+  "id": "item_034529",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Gear & Travel\" exported as single-note ENEX",
+  "title": "Bike — rear derailleur fix.enex",
+  "content_type": "note",
+  "created_at": "2026-05-24T20:30:00Z",
+  "modified_at": "2026-06-06T16:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Gear & Travel/Bike — rear derailleur fix.enex",
+  "source_url": null,
+  "content_hash": "sha256:2c89b290568909336698fc39a85d187bf67554748e0a58db7458fac909a5ee54",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Gear & Travel\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — bike repair note (PERSON.md §5 derailleur theme)"
+  }
+ },
+ {
+  "id": "item_034530",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Gear & Travel\" exported as single-note ENEX",
+  "title": "Carry-on essentials (master list).enex",
+  "content_type": "note",
+  "created_at": "2024-05-12T18:20:00Z",
+  "modified_at": "2025-11-23T23:45:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Gear & Travel/Carry-on essentials (master list).enex",
+  "source_url": null,
+  "content_hash": "sha256:8f08772c8ad10cb8c9d9ba93150112cb7fb13ccffaeadbc3525fdeb9982b0d8f",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Gear & Travel\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — generic packing list"
+  }
+ },
+ {
+  "id": "item_034531",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Gear & Travel\" exported as single-note ENEX",
+  "title": "Dublin wedding — logistics.enex",
+  "content_type": "note",
+  "created_at": "2026-06-08T01:05:00Z",
+  "modified_at": "2026-07-03T02:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Gear & Travel/Dublin wedding — logistics.enex",
+  "source_url": null,
+  "content_hash": "sha256:43ced55a25538ea57d2dd15be3d4d41c9a25915bc8d873411a6fb2a7d347e9aa",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Gear & Travel\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — family-logistics only"
+  }
+ },
+ {
+  "id": "item_034532",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Gear & Travel\" exported as single-note ENEX",
+  "title": "New Mac setup checklist.enex",
+  "content_type": "note",
+  "created_at": "2026-08-04T23:15:00Z",
+  "modified_at": "2026-08-07T03:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Gear & Travel/New Mac setup checklist.enex",
+  "source_url": null,
+  "content_hash": "sha256:e338525cbf33c6614b101677382167b1c1416c9815e8e5eec920b9c319dd7a11",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Gear & Travel\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — laptop setup notes (PERSON.md §5)"
+  }
+ },
+ {
+  "id": "item_034533",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Gear & Travel\" exported as single-note ENEX",
+  "title": "Race-day gear checklist.enex",
+  "content_type": "note",
+  "created_at": "2026-10-13T04:00:00Z",
+  "modified_at": "2026-10-15T04:35:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Gear & Travel/Race-day gear checklist.enex",
+  "source_url": null,
+  "content_hash": "sha256:4f76e3659f8d1dd592c9addaa93516656b17040774cf29721f1ccdb6dfe54b7b",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Gear & Travel\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034534",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Gear & Travel\" exported as single-note ENEX",
+  "title": "SF move checklist.enex",
+  "content_type": "note",
+  "created_at": "2026-07-13T00:40:00Z",
+  "modified_at": "2026-08-10T05:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Gear & Travel/SF move checklist.enex",
+  "source_url": null,
+  "content_hash": "sha256:a57d50945ab95aa0166c332a16adcaad0c8b5fd0c9cecb3895ad170fae78d55f",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Gear & Travel\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — moving checklist"
+  }
+ },
+ {
+  "id": "item_034535",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Gear & Travel\" exported as single-note ENEX",
+  "title": "UIST 2026 packing list.enex",
+  "content_type": "note",
+  "created_at": "2026-09-30T05:10:00Z",
+  "modified_at": "2026-10-06T04:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Gear & Travel/UIST 2026 packing list.enex",
+  "source_url": null,
+  "content_hash": "sha256:4e233c18b1f8519fdc552e6f5439e8b5a23134ab9732618e4a833d9414c2e06e",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Gear & Travel\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "UIST 2026 trip for the TutorTrace talk (2026-10-07); Gear & Travel notebook, packing-list format"
+  }
+ },
+ {
+  "id": "item_034536",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Ideas\" exported as single-note ENEX",
+  "title": "Beat ideas — Oct.enex",
+  "content_type": "note",
+  "created_at": "2025-10-22T05:15:00Z",
+  "modified_at": "2025-10-30T04:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Ideas/Beat ideas — Oct.enex",
+  "source_url": null,
+  "content_hash": "sha256:9d7ea787ba774619dfd8c6def67ca744bd2ab3108b73459c18b53fca1dc3347b",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Ideas\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034537",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Ideas\" exported as single-note ENEX",
+  "title": "Beat ideas — SF.enex",
+  "content_type": "note",
+  "created_at": "2026-09-06T06:20:00Z",
+  "modified_at": "2026-09-13T07:45:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Ideas/Beat ideas — SF.enex",
+  "source_url": null,
+  "content_hash": "sha256:9467db484b48f575617fc3d1b766171e43bbd7de91693edb1899f1ceb2eeaae2",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Ideas\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": "beat ideas note with an attached drum-pattern PNG resource"
+  }
+ },
+ {
+  "id": "item_034538",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Ideas\" exported as single-note ENEX",
+  "title": "Beat ideas — late night.enex",
+  "content_type": "note",
+  "created_at": "2026-04-11T05:40:00Z",
+  "modified_at": "2026-04-11T06:25:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Ideas/Beat ideas — late night.enex",
+  "source_url": null,
+  "content_hash": "sha256:9fd62eb06c67b5c82d865123794002bcf0f5f3c689605becece694b14a183b6d",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Ideas\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034539",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Ideas\" exported as single-note ENEX",
+  "title": "Drum bus chain (FL).enex",
+  "content_type": "note",
+  "created_at": "2026-06-29T02:10:00Z",
+  "modified_at": "2026-06-29T02:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Ideas/Drum bus chain (FL).enex",
+  "source_url": null,
+  "content_hash": "sha256:d40ada3cb371dd94a99bcd0119eaeed5680e5555394e8e0316ece57699dfe5e9",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Ideas\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034540",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Ideas\" exported as single-note ENEX",
+  "title": "Juno browser extension — scope.enex",
+  "content_type": "note",
+  "created_at": "2024-11-04T02:10:00Z",
+  "modified_at": "2025-01-13T00:45:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Ideas/Juno browser extension — scope.enex",
+  "source_url": null,
+  "content_hash": "sha256:2d5855d89a2786b9adba3744ab1e276cdb073f77f9f025c2978e53da4a7d457a",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Ideas\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_juno"
+   ],
+   "notes": "Juno extension scope note (2024 → Jan 2025); predates the scope year"
+  }
+ },
+ {
+  "id": "item_034541",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Ideas\" exported as single-note ENEX",
+  "title": "Juno voices — personality presets.enex",
+  "content_type": "note",
+  "created_at": "2024-07-22T02:35:00Z",
+  "modified_at": "2024-07-28T04:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Ideas/Juno voices — personality presets.enex",
+  "source_url": null,
+  "content_hash": "sha256:57aeebc4a9bd6e861d9f930a0961691847a466e476f31b5f4da83e4be36ab50f",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Ideas\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_juno"
+   ],
+   "notes": "old (2024) Juno note; predates the scope year"
+  }
+ },
+ {
+  "id": "item_034542",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Ideas\" exported as single-note ENEX",
+  "title": "Juno — feature ideas.enex",
+  "content_type": "note",
+  "created_at": "2024-03-15T03:50:00Z",
+  "modified_at": "2024-06-02T05:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Ideas/Juno — feature ideas.enex",
+  "source_url": null,
+  "content_hash": "sha256:d113f1c0abf0f7026179ee3dee9f5ddb33bef3f3421a5ad57b1de573fa7f16f8",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Ideas\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_juno"
+   ],
+   "notes": "old (2024) Juno ideas note; predates the scope year"
+  }
+ },
+ {
+  "id": "item_034543",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Ideas\" exported as single-note ENEX",
+  "title": "Sample chops to try.enex",
+  "content_type": "note",
+  "created_at": "2026-02-01T03:50:00Z",
+  "modified_at": "2026-02-08T04:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Ideas/Sample chops to try.enex",
+  "source_url": null,
+  "content_hash": "sha256:ba0bf5e88bd096f53ed39b48f3ffff1780ddc9c40c2cd0be64d95450eac2d357",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Ideas\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034544",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Ideas\" exported as single-note ENEX",
+  "title": "Startup names — brainstorm.enex",
+  "content_type": "note",
+  "created_at": "2026-01-28T04:40:00Z",
+  "modified_at": "2026-02-01T05:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Ideas/Startup names — brainstorm.enex",
+  "source_url": null,
+  "content_hash": "sha256:b1d96435c1d23b6833bf0a8e2531d28a6417e905d3c944548e1c756ca15c8d84",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Ideas\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "naming brainstorm for the company (Papert Lab → Mathetic), late Jan 2026"
+  }
+ },
+ {
+  "id": "item_034545",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Ideas\" exported as single-note ENEX",
+  "title": "Untitled Note.enex",
+  "content_type": "note",
+  "created_at": "2026-02-19T12:05:00Z",
+  "modified_at": "2026-02-19T12:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Ideas/Untitled Note.enex",
+  "source_url": null,
+  "content_hash": "sha256:e7a724c0067e45802f57fade791ca153cebae442aebada65d0459b466ae86fed",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Ideas\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "HARD CASE: vague title — default \"Untitled Note\" holding an interval workout scribble + two errands"
+  }
+ },
+ {
+  "id": "item_034546",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Ideas\" exported as single-note ENEX",
+  "title": "What I want from a research notebook.enex",
+  "content_type": "note",
+  "created_at": "2026-01-29T05:30:00Z",
+  "modified_at": "2026-01-31T04:55:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Ideas/What I want from a research notebook.enex",
+  "source_url": null,
+  "content_hash": "sha256:df7ba3dcb809472b26648c0bd805ba42123282f3645dbdc45affefd344f45040",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Ideas\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "pre-Engelbart product wishlist (late Jan 2026, Papert Lab period)"
+  }
+ },
+ {
+  "id": "item_034547",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote notebook \"Recipes\" exported as one ENEX (File > Export notebook)",
+  "title": "Recipes (notebook export).enex",
+  "content_type": "note",
+  "created_at": "2026-09-20T17:15:00Z",
+  "modified_at": "2026-09-20T17:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Recipes (notebook export).enex",
+  "source_url": null,
+  "content_hash": "sha256:554a33f5c8701f16363838cbae0697f76bdd3e33a3fe465f3e00a71e38523e5d",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote notebook \"Recipes\" exported as one ENEX (File > Export notebook)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: near-duplicate — whole-notebook export repeats every Recipes note (13 notes; \"Overnight chia pudding\" is the older pre-2026-10-04 version)"
+  }
+ },
+ {
+  "id": "item_034548",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Recipes\" exported as single-note ENEX",
+  "title": "Beef and broccoli (lean).enex",
+  "content_type": "note",
+  "created_at": "2025-12-15T00:22:00Z",
+  "modified_at": "2025-12-15T01:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Recipes/Beef and broccoli (lean).enex",
+  "source_url": null,
+  "content_hash": "sha256:be0600d36277ad75450cba285172096b18ac4fe9291e8e6f8f364f252b76245b",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Recipes\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — recipe/meal-prep note (also repeated in the Recipes whole-notebook export)"
+  }
+ },
+ {
+  "id": "item_034549",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Recipes\" exported as single-note ENEX",
+  "title": "Chicken burrito bowls (meal prep x5).enex",
+  "content_type": "note",
+  "created_at": "2024-02-11T23:20:00Z",
+  "modified_at": "2025-11-17T00:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Recipes/Chicken burrito bowls (meal prep x5).enex",
+  "source_url": null,
+  "content_hash": "sha256:241f7e7895e8d1bfaebdb3407f4e1deee888e020f776fa26724d91dd2073dfdb",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Recipes\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — recipe/meal-prep note (also repeated in the Recipes whole-notebook export)"
+  }
+ },
+ {
+  "id": "item_034550",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Recipes\" exported as single-note ENEX",
+  "title": "Chicken shawarma wraps.enex",
+  "content_type": "note",
+  "created_at": "2026-06-14T22:10:00Z",
+  "modified_at": "2026-06-14T23:35:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Recipes/Chicken shawarma wraps.enex",
+  "source_url": null,
+  "content_hash": "sha256:78fb4c09b83e93ba9d98495327d1afaab85d4dfa281f6a0388237efa8a73774d",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Recipes\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — recipe/meal-prep note (also repeated in the Recipes whole-notebook export)"
+  }
+ },
+ {
+  "id": "item_034551",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Recipes\" exported as single-note ENEX",
+  "title": "Cottage cheese pasta sauce.enex",
+  "content_type": "note",
+  "created_at": "2026-03-16T00:40:00Z",
+  "modified_at": "2026-03-16T01:02:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Recipes/Cottage cheese pasta sauce.enex",
+  "source_url": null,
+  "content_hash": "sha256:eb98abeae174f21d7407280e6d740c7d0f231a6f075434e2a04b1ea7d6a2e961",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Recipes\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — recipe/meal-prep note (also repeated in the Recipes whole-notebook export)"
+  }
+ },
+ {
+  "id": "item_034552",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Recipes\" exported as single-note ENEX",
+  "title": "Egg white muffin cups.enex",
+  "content_type": "note",
+  "created_at": "2025-11-10T01:14:00Z",
+  "modified_at": "2025-11-10T01:58:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Recipes/Egg white muffin cups.enex",
+  "source_url": null,
+  "content_hash": "sha256:82ac173b208778c76ffc4c8d01dabee333ba646faaca3d45efb825f1c41c7517",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Recipes\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — recipe/meal-prep note (also repeated in the Recipes whole-notebook export)"
+  }
+ },
+ {
+  "id": "item_034553",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Recipes\" exported as single-note ENEX",
+  "title": "Greek yogurt overnight oats.enex",
+  "content_type": "note",
+  "created_at": "2024-03-04T03:41:00Z",
+  "modified_at": "2026-01-19T02:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Recipes/Greek yogurt overnight oats.enex",
+  "source_url": null,
+  "content_hash": "sha256:d153c64699f1599a8e35c3724065c4dca698593259f8c06b470c0df704f4bd4e",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Recipes\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — recipe/meal-prep note (also repeated in the Recipes whole-notebook export)"
+  }
+ },
+ {
+  "id": "item_034554",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Recipes\" exported as single-note ENEX",
+  "title": "Lentil dal + rice.enex",
+  "content_type": "note",
+  "created_at": "2026-02-22T23:44:00Z",
+  "modified_at": "2026-02-23T00:51:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Recipes/Lentil dal + rice.enex",
+  "source_url": null,
+  "content_hash": "sha256:1306898ac0796bff96d5e87612cd8a44d531f61333887f060ee1b53a896fdb47",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Recipes\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — recipe/meal-prep note (also repeated in the Recipes whole-notebook export)"
+  }
+ },
+ {
+  "id": "item_034555",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Recipes\" exported as single-note ENEX",
+  "title": "Meal prep Sunday — shopping list template.enex",
+  "content_type": "note",
+  "created_at": "2026-01-25T16:30:00Z",
+  "modified_at": "2026-03-08T16:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Recipes/Meal prep Sunday — shopping list template.enex",
+  "source_url": null,
+  "content_hash": "sha256:aee00ec94af527f9c3b2b47a8c7f0da1c6a529b0f8ab9a77ed7af51eac28230c",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Recipes\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — recipe/meal-prep note (also repeated in the Recipes whole-notebook export)"
+  }
+ },
+ {
+  "id": "item_034556",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Recipes\" exported as single-note ENEX",
+  "title": "Overnight chia pudding.enex",
+  "content_type": "note",
+  "created_at": "2026-08-24T04:40:00Z",
+  "modified_at": "2026-10-05T03:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Recipes/Overnight chia pudding.enex",
+  "source_url": null,
+  "content_hash": "sha256:9c48cfc19ba57073621780b4eda32a8c254782dba739d8da8e4c4d0e560b5721",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Recipes\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — recipe/meal-prep note (also repeated in the Recipes whole-notebook export)"
+  }
+ },
+ {
+  "id": "item_034557",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Recipes\" exported as single-note ENEX",
+  "title": "Post-long-run smoothie.enex",
+  "content_type": "note",
+  "created_at": "2026-05-10T15:18:00Z",
+  "modified_at": "2026-05-10T15:25:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Recipes/Post-long-run smoothie.enex",
+  "source_url": null,
+  "content_hash": "sha256:3efbb4d48fddcc21e4faeee45d6be010048604fc9bbbe59d8b86bc28a1f35b57",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Recipes\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — recipe/meal-prep note (also repeated in the Recipes whole-notebook export)"
+  }
+ },
+ {
+  "id": "item_034558",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Recipes\" exported as single-note ENEX",
+  "title": "Protein pancakes.enex",
+  "content_type": "note",
+  "created_at": "2026-01-11T15:02:00Z",
+  "modified_at": "2026-01-11T15:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Recipes/Protein pancakes.enex",
+  "source_url": null,
+  "content_hash": "sha256:03df2959a316c426cd7fea7a8f5b97ffadd0a339d4881231ee82c62b4d64e6fd",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Recipes\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — recipe/meal-prep note (also repeated in the Recipes whole-notebook export)"
+  }
+ },
+ {
+  "id": "item_034559",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Recipes\" exported as single-note ENEX",
+  "title": "Sheet-pan salmon + potatoes.enex",
+  "content_type": "note",
+  "created_at": "2025-01-19T23:55:00Z",
+  "modified_at": "2025-10-26T23:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Recipes/Sheet-pan salmon + potatoes.enex",
+  "source_url": null,
+  "content_hash": "sha256:9d0f0fdc5f760341924d314f5b31598546a00f2b0bb1c9c6aad9a860b3176cde",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Recipes\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — recipe/meal-prep note (also repeated in the Recipes whole-notebook export)"
+  }
+ },
+ {
+  "id": "item_034560",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Recipes\" exported as single-note ENEX",
+  "title": "Turkey chili (big pot).enex",
+  "content_type": "note",
+  "created_at": "2024-10-27T21:03:00Z",
+  "modified_at": "2025-12-07T21:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Recipes/Turkey chili (big pot).enex",
+  "source_url": null,
+  "content_hash": "sha256:48bf466b9c33e21e4ffa6b3ca1d09431e4070eafb90b85a59afab83e4e0caf57",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Recipes\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — recipe/meal-prep note (also repeated in the Recipes whole-notebook export)"
+  }
+ },
+ {
+  "id": "item_034561",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Training\" exported as single-note ENEX",
+  "title": "2026 base-building plan — overview.enex",
+  "content_type": "note",
+  "created_at": "2025-12-28T20:20:00Z",
+  "modified_at": "2026-01-04T23:02:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Training/2026 base-building plan — overview.enex",
+  "source_url": null,
+  "content_hash": "sha256:63da339c08998b29b0e5733bf11c42a422119d62623e8b693a1575ed2e744bef",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Training\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034562",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Training\" exported as single-note ENEX",
+  "title": "Bay Area Half — race plan (Oct 15).enex",
+  "content_type": "note",
+  "created_at": "2026-09-28T04:30:00Z",
+  "modified_at": "2026-10-14T03:45:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Training/Bay Area Half — race plan (Oct 15).enex",
+  "source_url": null,
+  "content_hash": "sha256:0332382b3502d404885c394f06a5f4202de97aa31dda7ab59d84fbf7cdc7c8fb",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Training\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034563",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Training\" exported as single-note ENEX",
+  "title": "Bike + elliptical sessions.enex",
+  "content_type": "note",
+  "created_at": "2026-02-09T00:45:00Z",
+  "modified_at": "2026-02-09T01:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Training/Bike + elliptical sessions.enex",
+  "source_url": null,
+  "content_hash": "sha256:0937868c4e7ea7ee56c2b38c758389dd18250d1566967e322be9b6c3136a5789",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Training\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034564",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Training\" exported as single-note ENEX",
+  "title": "Block 3 review (May–Jul).enex",
+  "content_type": "note",
+  "created_at": "2026-07-27T00:20:00Z",
+  "modified_at": "2026-07-27T01:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Training/Block 3 review (May–Jul).enex",
+  "source_url": null,
+  "content_hash": "sha256:83927259d5b6ebe7642cbc19da9dfcb3659e5366d7fd3ece837901ba50e3a9e6",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Training\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034565",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Training\" exported as single-note ENEX",
+  "title": "Block 4 plan (Aug 10 – Oct 15).enex",
+  "content_type": "note",
+  "created_at": "2026-08-02T21:40:00Z",
+  "modified_at": "2026-08-31T02:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Training/Block 4 plan (Aug 10 – Oct 15).enex",
+  "source_url": null,
+  "content_hash": "sha256:bf13cbd611f73e4209fa08256169f0bae8c499494b2938250501618e5e7c43b2",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Training\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034566",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Training\" exported as single-note ENEX",
+  "title": "Daily macro targets (Block 4).enex",
+  "content_type": "note",
+  "created_at": "2026-08-20T03:05:00Z",
+  "modified_at": "2026-08-20T03:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Training/Daily macro targets (Block 4).enex",
+  "source_url": null,
+  "content_hash": "sha256:fb08d48c6724be7fa12ffe8704f130be805837c39f06d4508fcb64c0689248ab",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Training\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034567",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Training\" exported as single-note ENEX",
+  "title": "Long run log — Block 4.enex",
+  "content_type": "note",
+  "created_at": "2026-08-16T17:50:00Z",
+  "modified_at": "2026-10-11T18:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Training/Long run log — Block 4.enex",
+  "source_url": null,
+  "content_hash": "sha256:2b1a2928a9739f497a92dc4e17b37eed2457d041d198aeba21da36c576c1ac5b",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Training\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034568",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Training\" exported as single-note ENEX",
+  "title": "Mile time trial — 2026-03-07.enex",
+  "content_type": "note",
+  "created_at": "2026-03-07T16:05:00Z",
+  "modified_at": "2026-03-07T18:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Training/Mile time trial — 2026-03-07.enex",
+  "source_url": null,
+  "content_hash": "sha256:eda88435bd73c78725c7f42499692172be2cd68be886957a2a6fb3e1cd9dfff2",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Training\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034569",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Training\" exported as single-note ENEX",
+  "title": "Race recap — Bay Area Half 1-24-51.enex",
+  "content_type": "note",
+  "created_at": "2026-10-16T04:30:00Z",
+  "modified_at": "2026-10-16T15:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Training/Race recap — Bay Area Half 1-24-51.enex",
+  "source_url": null,
+  "content_hash": "sha256:99ff9139ec182597854cad18107893cd7abeb74981bd07b8b856e21974535d9b",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Training\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034570",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Training\" exported as single-note ENEX",
+  "title": "Running shoe rotation.enex",
+  "content_type": "note",
+  "created_at": "2026-04-12T22:30:00Z",
+  "modified_at": "2026-08-30T23:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Training/Running shoe rotation.enex",
+  "source_url": null,
+  "content_hash": "sha256:962ae871bb1cc83527a98701e38266bd298af13a0984ef321c625a435ede143a",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Training\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034571",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Training\" exported as single-note ENEX",
+  "title": "Spring race calendar ideas.enex",
+  "content_type": "note",
+  "created_at": "2026-02-16T02:50:00Z",
+  "modified_at": "2026-03-02T00:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Training/Spring race calendar ideas.enex",
+  "source_url": null,
+  "content_hash": "sha256:b487f1b4945fb28b48be5e92709e44a64d1e9cb6dc838cfcf62e269612e4a2f7",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Training\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034572",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Training\" exported as single-note ENEX",
+  "title": "Treadmill workouts for bad weather.enex",
+  "content_type": "note",
+  "created_at": "2026-01-21T03:10:00Z",
+  "modified_at": "2026-02-02T01:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Training/Treadmill workouts for bad weather.enex",
+  "source_url": null,
+  "content_hash": "sha256:c5170cd004b6e4dd5bb25419902f1606003e4e09634c8a0ffe066e45023146cf",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Training\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034573",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Training\" exported as single-note ENEX",
+  "title": "Week of 2025-11-10.enex",
+  "content_type": "note",
+  "created_at": "2025-11-10T11:40:00Z",
+  "modified_at": "2025-11-17T02:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Training/Week of 2025-11-10.enex",
+  "source_url": null,
+  "content_hash": "sha256:b0344a9a71b29b752ac06798c13d63bcd779a6c1e4a73c9cd000f486850ad5fd",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Training\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034574",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Training\" exported as single-note ENEX",
+  "title": "Zone 2 HR numbers.enex",
+  "content_type": "note",
+  "created_at": "2025-10-27T01:15:00Z",
+  "modified_at": "2025-11-03T01:44:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Training/Zone 2 HR numbers.enex",
+  "source_url": null,
+  "content_hash": "sha256:26022d90030de22b44f3d5b5031ab1daa79c37897c69b59446df5a4a2a743829",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Training\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034575",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX",
+  "title": "A grand-strategy reading list for the rest of us.enex",
+  "content_type": "note",
+  "created_at": "2026-04-20T01:50:00Z",
+  "modified_at": "2026-04-20T02:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Web Clips/A grand-strategy reading list for the rest of us.enex",
+  "source_url": null,
+  "content_hash": "sha256:5492b5ca35141a30928fd60fdfa1478a4c4a406f0bd11887e35296135cd53f87",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "geopolitics reading list clip (PERSON.md §5)"
+  }
+ },
+ {
+  "id": "item_034576",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX",
+  "title": "Chips, export controls and the long game.enex",
+  "content_type": "note",
+  "created_at": "2026-01-15T04:30:00Z",
+  "modified_at": "2026-01-15T04:41:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Web Clips/Chips, export controls and the long game.enex",
+  "source_url": null,
+  "content_hash": "sha256:78105e99fd05ef165deacea14379ff448e16fbc2b23cf3866bb740a6dcb9d8d2",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "geopolitics newsletter clip (PERSON.md §5 theme)"
+  }
+ },
+ {
+  "id": "item_034577",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX",
+  "title": "Heat and humidity- adjusting pace for fall races.enex",
+  "content_type": "note",
+  "created_at": "2026-08-28T05:20:00Z",
+  "modified_at": "2026-08-28T05:31:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Web Clips/Heat and humidity- adjusting pace for fall races.enex",
+  "source_url": null,
+  "content_hash": "sha256:94e8befe0fb3e7fdc2ecc66e04aa94f58d9855880801bc011186e23bce7e6e8d",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "running-science clip tied to his October half-marathon plan"
+  }
+ },
+ {
+  "id": "item_034578",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX",
+  "title": "How to appeal a parking citation.enex",
+  "content_type": "note",
+  "created_at": "2026-03-02T18:05:00Z",
+  "modified_at": "2026-03-04T14:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Web Clips/How to appeal a parking citation.enex",
+  "source_url": null,
+  "content_hash": "sha256:f6b65fd288c3accace98cbf772ec3a40ce02e84447760ff8efaa9df43fd480f6",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — parking-ticket appeal clip (PERSON.md §5)"
+  }
+ },
+ {
+  "id": "item_034579",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX",
+  "title": "Lactate threshold testing without a lab.enex",
+  "content_type": "note",
+  "created_at": "2026-05-28T02:30:00Z",
+  "modified_at": "2026-05-28T02:44:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Web Clips/Lactate threshold testing without a lab.enex",
+  "source_url": null,
+  "content_hash": "sha256:649d429af0161658d5751c597685c375a0ab21d993665d658326d07f99a9da51",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "running-science clip; he applies it to his own zones"
+  }
+ },
+ {
+  "id": "item_034580",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX",
+  "title": "SF neighborhoods for first-time renters.enex",
+  "content_type": "note",
+  "created_at": "2026-07-20T02:00:00Z",
+  "modified_at": "2026-07-22T03:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Web Clips/SF neighborhoods for first-time renters.enex",
+  "source_url": null,
+  "content_hash": "sha256:c33f0e73401544c873b3e7075cf365a810f4323bc15d8fd204862e3d2c7d4728",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — apartment-search clip (PERSON.md §5)"
+  }
+ },
+ {
+  "id": "item_034581",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX",
+  "title": "Taiwan Strait shipping and the insurance question.enex",
+  "content_type": "note",
+  "created_at": "2026-06-22T03:10:00Z",
+  "modified_at": "2026-06-22T03:18:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Web Clips/Taiwan Strait shipping and the insurance question.enex",
+  "source_url": null,
+  "content_hash": "sha256:3c3dd143ce7e3bc3d1543b26527d9242d0b5aca2586ac7b768fa685c5f27761e",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "geopolitics newsletter clip (PERSON.md §5 theme)"
+  }
+ },
+ {
+  "id": "item_034582",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX",
+  "title": "The Catalan for club players.enex",
+  "content_type": "note",
+  "created_at": "2026-02-03T03:15:00Z",
+  "modified_at": "2026-02-03T03:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Web Clips/The Catalan for club players.enex",
+  "source_url": null,
+  "content_hash": "sha256:3bb200ed23c5e8f5832fd5ccd600e1b364b717c2cb5a7c0ba055524aec43ff85",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "online chess study clip (PERSON.md §5)"
+  }
+ },
+ {
+  "id": "item_034583",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX",
+  "title": "Voice tutors that talk while you code — what the first classroom pilots show.enex",
+  "content_type": "note",
+  "created_at": "2025-11-19T04:05:00Z",
+  "modified_at": "2025-11-19T05:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Web Clips/Voice tutors that talk while you code — what the first classroom pilots show.enex",
+  "source_url": null,
+  "content_hash": "sha256:c481da87b0c6ba2be195c0594efabb43b6d92cbcc2b4ebb5562aee1586acf5df",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_sophia"
+   ],
+   "notes": "web clip on voice-first coding tutors with David's note linking it to Sophia for Educators"
+  }
+ },
+ {
+  "id": "item_034584",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "evernote",
+  "source_id": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX",
+  "title": "Why your easy runs feel hard- cardiac drift explained.enex",
+  "content_type": "note",
+  "created_at": "2025-12-04T03:40:00Z",
+  "modified_at": "2025-12-04T03:52:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/evernote/david.barron.runs@gmail.com/Web Clips/Why your easy runs feel hard- cardiac drift explained.enex",
+  "source_url": null,
+  "content_hash": "sha256:4c954596284c6a274d8b30e711d928db37c3c6d5ce5e48254e6f5469a083b9d2",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "enex",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Evernote (david.barron.runs@gmail.com)",
+   "original_path": "Evernote note in notebook \"Web Clips\" exported as single-note ENEX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "running-science web clip; tied to his base-building plan"
+  }
+ }
+]

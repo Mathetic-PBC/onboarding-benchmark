@@ -1,0 +1,606 @@
+{
+ "id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Hudson x David weekly",
+ "created_at": "2026-09-15T22:59:08.000Z",
+ "updated_at": "2026-09-15T23:10:47.855Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "9d8ae09c82d70815447cb45b6b",
+  "summary": "Hudson x David weekly",
+  "start": {
+   "dateTime": "2026-09-15T16:00:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-09-15T16:15:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted",
+    "organizer": true
+   }
+  ],
+  "organizer": {
+   "email": "hudson@mathetic.com"
+  },
+  "creator": {
+   "email": "hudson@mathetic.com"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=e86ec7cd987db995682d9fc35e1a075ec116f9af",
+  "status": "confirmed",
+  "location": "Surplus house, SF"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### Synthesis so far (Elena + Priya + 3 earlier calls)\n\n- Everyone has a tool graveyard; all quit \"organize up front\" tools\n- The words people use: \"lose\", \"find again\", \"which chat\", \"the real reason\" — nobody said \"provenance\" except us\n- AI chats are now a primary source of ideas for both Berkeley interviewees, and neither can search them well\n- Strong pull: tracing a claim back to its origin (Elena: methods section; Priya: \"the third reason\")\n- Strong worry: wrong summaries (Elena) and duplicates (Priya)\n\n### Product implications\n\n- Show originals, not summaries — the trail should open the actual chat turn / memo heading\n- Claude Projects must import with project membership (Priya)\n- Dedupe across Zotero / Downloads / Slack files is a launch requirement, not polish\n- Some sources are restricted (IRB data) → per-source opt-out at connect time, and say what was skipped\n- Photo/handwritten notes: real but out of scope\n\n### Lena update (Thu)\n\n- Conversations this week: 5 (hit the target for the first time)\n- Metric still not measurable; pilot build target Oct 5\n\n### Action items\n\n- [ ] David — Ben Adeyemi call tomorrow (Zoom, 11:00)\n- [ ] Hudson — tag all quotes in the sheet; count per tag\n- [ ] David — spec \"trail opens the original\" for the canvas\n- [ ] Hudson — check whether Claude export includes project membership\n",
+ "notes_plain": "Synthesis so far (Elena + Priya + 3 earlier calls)\n\nEveryone has a tool graveyard; all quit \"organize up front\" tools\nThe words people use: \"lose\", \"find again\", \"which chat\", \"the real reason\" — nobody said \"provenance\" except us\nAI chats are now a primary source of ideas for both Berkeley interviewees, and neither can search them well\nStrong pull: tracing a claim back to its origin (Elena: methods section; Priya: \"the third reason\")\nStrong worry: wrong summaries (Elena) and duplicates (Priya)\n\nProduct implications\n\nShow originals, not summaries — the trail should open the actual chat turn / memo heading\nClaude Projects must import with project membership (Priya)\nDedupe across Zotero / Downloads / Slack files is a launch requirement, not polish\nSome sources are restricted (IRB data) → per-source opt-out at connect time, and say what was skipped\nPhoto/handwritten notes: real but out of scope\n\nLena update (Thu)\n\nConversations this week: 5 (hit the target for the first time)\nMetric still not measurable; pilot build target Oct 5\n\nAction items\n\nDavid — Ben Adeyemi call tomorrow (Zoom, 11:00)\nHudson — tag all quotes in the sheet; count per tag\nDavid — spec \"trail opens the original\" for the canvas\nHudson — check whether Claude export includes project membership\n",
+ "transcript": [
+  {
+   "id": "a5e8a914-508a-46d1-8dcd-cd8850213970",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:00:26.599Z",
+   "end_timestamp": "2026-09-15T23:00:27.991Z",
+   "text": "Okay, synthesis day.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "2d32878a-d5d7-4770-87d4-e67c83ca4202",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:00:28.974Z",
+   "end_timestamp": "2026-09-15T23:00:31.591Z",
+   "text": "Synthesis day. Did you finish tagging?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "12c6ce00-b7f0-4705-8ea8-ef71d929a893",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:00:33.488Z",
+   "end_timestamp": "2026-09-15T23:00:38.376Z",
+   "text": "Mostly. Elena and Priya are done. The three earlier ones are half done.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a37b070d-40b0-4f60-ba4e-f51800c2ebd6",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:00:39.046Z",
+   "end_timestamp": "2026-09-15T23:00:41.827Z",
+   "text": "What's the — what's the top tag?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "7128533b-d74a-4e5c-bf67-05ff98768dc6",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:00:42.515Z",
+   "end_timestamp": "2026-09-15T23:00:45.684Z",
+   "text": "Tool graveyard, by a mile. Every single person.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "7fe3528f-5ba1-405a-9c32-5c6471e0de62",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:00:47.060Z",
+   "end_timestamp": "2026-09-15T23:00:48.382Z",
+   "text": "Ha. Of course.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "26d4058b-7232-4e6c-94fb-ccfd5cec0387",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:00:49.740Z",
+   "end_timestamp": "2026-09-15T23:01:01.969Z",
+   "text": "And everyone quit the ones where you organize up front. Priya said \"you can't organize ideas you haven't had yet,\" which I put at the top of the sheet.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "47df1a86-e597-4b94-8894-8cd87b85328f",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:01:02.381Z",
+   "end_timestamp": "2026-09-15T23:01:06.362Z",
+   "text": "That's going in the demo night thing. That line.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "a974114d-cb96-4a91-ab7f-5012dc29ab7a",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:01:08.414Z",
+   "end_timestamp": "2026-09-15T23:01:16.733Z",
+   "text": "Second tag is lose-things. And the words are interesting. \"Lose.\" \"Find again.\" \"Which chat.\" Elena said \"the real history.\"",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "f42b579d-c4a7-449c-a17d-6ac1016bab74",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:01:17.785Z",
+   "end_timestamp": "2026-09-15T23:01:18.979Z",
+   "text": "Nobody said provenance.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "9b20bbea-9774-4f1c-93ad-ec19a62ff6ed",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:01:20.236Z",
+   "end_timestamp": "2026-09-15T23:01:24.360Z",
+   "text": "Nobody said provenance. Except you, twice, in the interviews.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "809a433f-73ae-443e-8725-327fb2f073c5",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:01:26.285Z",
+   "end_timestamp": "2026-09-15T23:01:28.461Z",
+   "text": "Okay, Lena wins again. Fine.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "b3ef91c9-cfb5-4eb9-bcf7-c765e4121cd9",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:01:30.238Z",
+   "end_timestamp": "2026-09-15T23:01:39.995Z",
+   "text": "AI-chats tag. Both Berkeley people. Elena uses ChatGPT to argue with herself and deletes the chats. Priya lives in Claude and can't search it.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "4cedb518-0220-4bf0-b1e5-6edfee8f3a58",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:01:41.135Z",
+   "end_timestamp": "2026-09-15T23:01:48.518Z",
+   "text": "Which is kind of the two failure modes. One throws it away, one keeps it and can't find it.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "361ce7a1-53d2-470c-b95e-8d82e9062351",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:01:49.605Z",
+   "end_timestamp": "2026-09-15T23:01:52.853Z",
+   "text": "Oh that's nice. Throw away versus can't find.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a7ab9fa8-7738-468c-8eb0-d03321bcdcb5",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:01:54.903Z",
+   "end_timestamp": "2026-09-15T23:02:02.906Z",
+   "text": "And both of them, the thing that lit them up was tracing back. Elena's methods section chain, Priya's third reason.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "763ad00b-ad79-4aa0-8ca1-2735ff7429f1",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:02:04.402Z",
+   "end_timestamp": "2026-09-15T23:02:08.108Z",
+   "text": "Third reason is my favorite thing anyone's said.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "bdb139d5-9e09-4fe0-902f-12fafba05144",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:02:09.469Z",
+   "end_timestamp": "2026-09-15T23:02:18.717Z",
+   "text": "So the product thing, I think, is the trail has to open the original. Not a summary. Elena was really clear.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "c080ab0c-da0d-42c4-98e3-b760dcb22a67",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:02:20.779Z",
+   "end_timestamp": "2026-09-15T23:02:22.821Z",
+   "text": "\"My memos are my words.\"",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ed13b3b4-c704-42f7-afab-d3beb44568ff",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:02:24.638Z",
+   "end_timestamp": "2026-09-15T23:02:33.760Z",
+   "text": "Right. So if the trail says \"this came from a chat,\" clicking it should open the chat at that turn. Not a paraphrase.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "96c59eef-b3e9-457e-ad73-78a65312d288",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:02:35.809Z",
+   "end_timestamp": "2026-09-15T23:02:42.653Z",
+   "text": "That's harder for some sources though. Like for a Google Doc, the turn is... a heading?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "5069f341-0995-4d78-90fc-a42fb5db8dd8",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:02:43.053Z",
+   "end_timestamp": "2026-09-15T23:02:54.041Z",
+   "text": "A heading, or a paragraph. For a PDF it's a page. For a chat it's a message. We need a \"locator\" in the item. Like an anchor.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0766679c-4b91-405f-a05f-8d91f17add22",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:02:56.131Z",
+   "end_timestamp": "2026-09-15T23:02:57.811Z",
+   "text": "Add it to SourceItem?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "66085b1c-0501-4da8-918f-a329541aa7fb",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:02:59.942Z",
+   "end_timestamp": "2026-09-15T23:03:07.981Z",
+   "text": "Not to the item. To the link. The link from a thought to a source has a locator.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "c94cbd7f-14ac-4693-998f-53d882f7b1cf",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:03:08.475Z",
+   "end_timestamp": "2026-09-15T23:03:10.188Z",
+   "text": "Okay. You'll spec it?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "b6244ddd-41ae-4503-9480-5aa99d05c524",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:03:11.269Z",
+   "end_timestamp": "2026-09-15T23:03:15.459Z",
+   "text": "I'll spec it for the canvas. Thursday's the canvas review anyway.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "75cd6401-4aad-46bc-9811-573423e35b92",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:03:17.500Z",
+   "end_timestamp": "2026-09-15T23:03:19.448Z",
+   "text": "Cool. Priya's Claude Projects thing.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "dc6de805-b760-464f-a2fb-1ba31c2a00e4",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:03:20.669Z",
+   "end_timestamp": "2026-09-15T23:03:26.408Z",
+   "text": "Can you check whether the export has project membership? I genuinely don't know.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "75d34c43-d063-4af1-bcd0-59b5708b2efe",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:03:28.164Z",
+   "end_timestamp": "2026-09-15T23:03:33.115Z",
+   "text": "I'll check. If it doesn't we might need the, um, the browser route.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "3fec96df-4ab9-443c-905b-05c2df830475",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:03:33.563Z",
+   "end_timestamp": "2026-09-15T23:03:35.822Z",
+   "text": "Let's not. Let's see first.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "09dfbdb6-def6-42bf-bdee-c67878249fb5",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:03:36.175Z",
+   "end_timestamp": "2026-09-15T23:03:37.148Z",
+   "text": "Dedupe.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "1b13473e-19c2-4b15-afed-a4e88e210b37",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:03:38.958Z",
+   "end_timestamp": "2026-09-15T23:03:46.683Z",
+   "text": "Dedupe is not polish. After Priya I'm convinced. If the first screen shows her the paper four times, she's gone.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "910fdd67-1e36-4998-9ee8-047d49c656b4",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:03:47.709Z",
+   "end_timestamp": "2026-09-15T23:03:51.895Z",
+   "text": "And Slack files. She mentioned the Slack DM copy.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "13e1bce3-0316-4a3d-a1f5-28dc46160eab",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:03:53.408Z",
+   "end_timestamp": "2026-09-15T23:03:58.326Z",
+   "text": "Yeah, we don't do Slack yet, but when we do. Same rules.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "bcc7cb36-16ca-4910-a2b7-af743bf83eba",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:04:00.082Z",
+   "end_timestamp": "2026-09-15T23:04:01.635Z",
+   "text": "And Elena's IRB thing.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "73db1bfb-9cb2-4a9a-864f-1d351be2867c",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:04:01.879Z",
+   "end_timestamp": "2026-09-15T23:04:11.524Z",
+   "text": "That one actually changes the connect screen. You need to be able to say \"not this folder.\" At connect time. Per source.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "716c0741-a0cf-4f38-870c-3d7d5baaff08",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:04:11.946Z",
+   "end_timestamp": "2026-09-15T23:04:14.175Z",
+   "text": "And say what we skipped.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "1641a655-8119-4191-ae34-36e4058b5fb0",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:04:15.952Z",
+   "end_timestamp": "2026-09-15T23:04:22.421Z",
+   "text": "Always say what we skipped. That's the rule from the deleted chats thing too.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "84991eb3-2e0b-42ef-8c70-38004a3f5f33",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:04:22.996Z",
+   "end_timestamp": "2026-09-15T23:04:24.301Z",
+   "text": "Photos of notebooks?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "6e2bde60-0d9e-4609-803e-b9f0415e0b9a",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:04:25.147Z",
+   "end_timestamp": "2026-09-15T23:04:33.126Z",
+   "text": "Out of scope. Write it down as real, but out of scope. OCR is a rabbit hole.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0abc5d94-2e3b-4ead-9ab0-09fc90b8d43f",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:04:34.907Z",
+   "end_timestamp": "2026-09-15T23:04:40.518Z",
+   "text": "Okay. Lena. Thursday's check-in, the one we did from the BART platform after Priya.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "e6e53ac1-1f49-49da-9ce5-813057721171",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:04:41.933Z",
+   "end_timestamp": "2026-09-15T23:04:47.507Z",
+   "text": "I could barely hear it. What did she say at the end?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "63b9a386-c517-4855-927d-4ae621c933f4",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:04:49.198Z",
+   "end_timestamp": "2026-09-15T23:04:55.282Z",
+   "text": "Five conversations that week! First time we hit it. She did a little clap.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "add5d3a1-ac91-49c9-b293-7c56d9015b51",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:04:55.561Z",
+   "end_timestamp": "2026-09-15T23:04:56.546Z",
+   "text": "Ha. Nice.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e10c4b9d-ce07-43e4-9b46-e3b33f79f2a5",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:04:58.526Z",
+   "end_timestamp": "2026-09-15T23:05:03.241Z",
+   "text": "Metric still not measurable. I told her pilot build October fifth.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "c93e0118-98f8-4c8b-a097-87059b0597cb",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:05:03.500Z",
+   "end_timestamp": "2026-09-15T23:05:06.681Z",
+   "text": "October fifth is tight with the talk.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "1cd05df2-32e4-4bac-bc75-85f77316a0b9",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:05:06.957Z",
+   "end_timestamp": "2026-09-15T23:05:07.795Z",
+   "text": "Is it?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "0485c469-c2a8-4b39-9c83-313ba03e2657",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:05:09.017Z",
+   "end_timestamp": "2026-09-15T23:05:12.150Z",
+   "text": "The talk's the seventh. I fly the fifth.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "611de37e-2ac4-434c-8220-d3fb22002fcc",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:05:13.713Z",
+   "end_timestamp": "2026-09-15T23:05:17.478Z",
+   "text": "Then the build has to be done the fourth.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "d6012835-aa92-40eb-88be-1e2d2caed179",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:05:18.568Z",
+   "end_timestamp": "2026-09-15T23:05:24.816Z",
+   "text": "Ugh. Okay. The fourth. Let's — we'll see. Ben's tomorrow at eleven, by the way. Zoom.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "f8bb1d4b-af36-4e46-b8d8-36ce9e9dfce4",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:05:26.596Z",
+   "end_timestamp": "2026-09-15T23:05:28.488Z",
+   "text": "You want me on it?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a78789a7-ad78-4c8d-bcdc-39d7430febcb",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:05:29.851Z",
+   "end_timestamp": "2026-09-15T23:05:34.581Z",
+   "text": "If you can. Just listen. He's the organized one, Priya said.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "10a7672a-b1e5-445a-83b8-cfeb8ceba7db",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:05:35.501Z",
+   "end_timestamp": "2026-09-15T23:05:39.197Z",
+   "text": "\"He'll make you feel bad about everyone else.\"",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "f75c4fac-f2de-42e4-9ea9-38e92fb3fc1f",
+   "document_id": "e36050f5-549f-42b3-86e7-873dcd536c25",
+   "start_timestamp": "2026-09-15T23:05:39.904Z",
+   "end_timestamp": "2026-09-15T23:05:40.855Z",
+   "text": "Ha. Exactly.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  }
+ ]
+}

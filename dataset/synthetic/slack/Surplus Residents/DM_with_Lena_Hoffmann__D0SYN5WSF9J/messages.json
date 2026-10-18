@@ -1,0 +1,114 @@
+[
+  {
+    "ts": "1786487419.969764",
+    "user": "U0SYN4FPGQV",
+    "user_name": "Lena Hoffmann",
+    "datetime": "2026-08-11 15:30:19 PDT",
+    "text": "Hi David! Desk assignment: you and Hudson are in the back office (the one with the whiteboard wall). Your badge for the coworking side is at the front desk tomorrow."
+  },
+  {
+    "ts": "1786488307.947487",
+    "user": "U0SYNVW3EYJ",
+    "user_name": "David Barron <david@mathetic.com>",
+    "datetime": "2026-08-11 15:45:07 PDT",
+    "text": "thank you! the whiteboard wall is perfect"
+  },
+  {
+    "ts": "1786554642.657547",
+    "user": "U0SYNVW3EYJ",
+    "user_name": "David Barron <david@mathetic.com>",
+    "datetime": "2026-08-12 10:10:42 PDT",
+    "text": "quick q: is the residency agreement signed by the company or by each founder? we're a delaware PBC, hudson and i are both officers"
+  },
+  {
+    "ts": "1786556440.805053",
+    "user": "U0SYN4FPGQV",
+    "user_name": "Lena Hoffmann",
+    "datetime": "2026-08-12 10:40:40 PDT",
+    "text": "By the company. One signature from an officer is enough. Send me the legal name exactly as it is on the certificate."
+  },
+  {
+    "ts": "1786556704.936600",
+    "user": "U0SYNVW3EYJ",
+    "user_name": "David Barron <david@mathetic.com>",
+    "datetime": "2026-08-12 10:45:04 PDT",
+    "text": "Mathetic PBC"
+  },
+  {
+    "ts": "1787872842.725016",
+    "user": "U0SYN4FPGQV",
+    "user_name": "Lena Hoffmann",
+    "datetime": "2026-08-27 16:20:42 PDT",
+    "text": "How were the first two weeks? Anything about the house or the program that isn't working?"
+  },
+  {
+    "ts": "1787874605.477371",
+    "user": "U0SYNVW3EYJ",
+    "user_name": "David Barron <david@mathetic.com>",
+    "datetime": "2026-08-27 16:50:05 PDT",
+    "text": "honestly great. only thing: the office gets loud on calls, we've been taking investor calls in the car lol. is the phone booth bookable?"
+  },
+  {
+    "ts": "1787875247.411396",
+    "user": "U0SYN4FPGQV",
+    "user_name": "Lena Hoffmann",
+    "datetime": "2026-08-27 17:00:47 PDT",
+    "text": "Yes, the calendar link is in the handbook (page 4). 45 minutes max."
+  },
+  {
+    "ts": "1789506332.503846",
+    "user": "U0SYN4FPGQV",
+    "user_name": "Lena Hoffmann",
+    "datetime": "2026-09-15 14:05:32 PDT",
+    "text": "Notes from your check-in: metric = weekly active pilot users. Blocker = import reliability. Ask = intros to 2–3 researchers who would pilot. I'll introduce you to two people from cohort 5's network."
+  },
+  {
+    "ts": "1789506606.693962",
+    "user": "U0SYNVW3EYJ",
+    "user_name": "David Barron <david@mathetic.com>",
+    "datetime": "2026-09-15 14:10:06 PDT",
+    "text": "thank you!! that's exactly it"
+  },
+  {
+    "ts": "1789662016.253759",
+    "user": "U0SYN4FPGQV",
+    "user_name": "Lena Hoffmann",
+    "datetime": "2026-09-17 09:20:16 PDT",
+    "text": "Intro sent to Daniel Osei (postdoc at CMU, keeps everything in Notion). He's expecting your email."
+  },
+  {
+    "ts": "1789662662.813165",
+    "user": "U0SYNVW3EYJ",
+    "user_name": "David Barron <david@mathetic.com>",
+    "datetime": "2026-09-17 09:31:02 PDT",
+    "text": "amazing, emailing him now"
+  },
+  {
+    "ts": "1792027825.441988",
+    "user": "U0SYN4FPGQV",
+    "user_name": "Lena Hoffmann",
+    "datetime": "2026-10-14 18:30:25 PDT",
+    "text": "How did the second call with your angel go? Hudson mentioned it at lunch."
+  },
+  {
+    "ts": "1792029319.497048",
+    "user": "U0SYNVW3EYJ",
+    "user_name": "David Barron <david@mathetic.com>",
+    "datetime": "2026-10-14 18:55:19 PDT",
+    "text": "good! he's interested in a check if the pilots convert, so now we have to define \"convert\" properly. working on it"
+  },
+  {
+    "ts": "1792029613.667492",
+    "user": "U0SYN4FPGQV",
+    "user_name": "Lena Hoffmann",
+    "datetime": "2026-10-14 19:00:13 PDT",
+    "text": "Smart. Come to office hours Thursday and we'll pressure-test the definition."
+  },
+  {
+    "ts": "1792029776.702236",
+    "user": "U0SYNVW3EYJ",
+    "user_name": "David Barron <david@mathetic.com>",
+    "datetime": "2026-10-14 19:02:56 PDT",
+    "text": "will do"
+  }
+]

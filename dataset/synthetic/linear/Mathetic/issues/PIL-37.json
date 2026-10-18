@@ -1,0 +1,65 @@
+{
+  "issue": {
+    "id": "PIL-37",
+    "uuid": "a1aabb83-cac2-46a2-89b6-f460420b71e3",
+    "title": "Link versions of the same paper instead of merging (arXiv v1 vs camera-ready)",
+    "description": "Same DOI or same arXiv id but different bytes → one paper card with versions (v1, camera-ready), newest first. Never merge on title similarity alone (dedupe rule 6). Priya had 41 such pairs between Downloads (preprints) and Zotero (published versions).",
+    "projectMilestone": null,
+    "priority": {
+      "value": 3,
+      "name": "Medium"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-37/link-versions-of-the-same-paper-instead-of-merging-arxiv-v1-vs-camera",
+    "gitBranchName": "david/pil-37-link-versions-of-the-same-paper-instead-of-merging",
+    "createdAt": "2026-10-10T17:25:13.480Z",
+    "updatedAt": "2026-10-10T17:25:13.480Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Backlog",
+    "statusType": "backlog",
+    "labels": [
+      "Feature",
+      "Import"
+    ],
+    "createdBy": "David Barron",
+    "assignee": null,
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-37",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "7efa67db-eb16-4280-843f-b08b030d464f",
+          "name": "Backlog",
+          "type": "backlog"
+        },
+        "startedAt": "2026-10-10T17:25:13.480Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [
+        {
+          "id": "PIL-15",
+          "title": "Same paper imported twice (Zotero storage + ~/Downloads)"
+        }
+      ],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": []
+}

@@ -1,0 +1,100 @@
+# PRIME Lab (VT) #vizpi — synthetic
+@2025-10-21
+14:02 david | dep #1 recap (10/15, cs 3114 section A only): 41 students, recorder ran the whole session, 18,904 events. two issues:
+  1. replay timeline stutters past ~3k events (we re-render the whole track on every scrub)
+  2. help-request button fires twice on double click → duplicate rows in `help_requests`
+  both fixable before #2
+~r +1:2
+~p project_vizpi
+> 14:20 rezky | for 1 i can virtualize the track, only render the visible window ±30s
+> 14:22 david | 🙏 do it. i'll debounce the button
+
+@2025-10-23
+16:40 david | John confirmed dep #2: wed 11/12, both sections of the 3:30 lab. 87 enrolled. he'll post the consent form on canvas monday
+~r white_check_mark:2
+
+@2025-11-05
+23:15 david | trying cursor on vizpi_frontend tonight for the reconnect handling refactor. will report back if it's worth it
+~p project_vizpi
+> 23:58 david | first impression: tab-complete is great, agent mode is... enthusiastic. it rewrote `ReplayTimeline.tsx` when i asked it about the socket hook
+
+@2025-11-07
+11:20 rezky | virtualized timeline is in PR #57. scrubbing is smooth up to 25k events on my laptop. <@david> can you review
+~r eyes:1
+~p project_vizpi
+> 13:05 david | reviewed, one comment on an off-by-one at the window edge, otherwise lgtm
+
+@2025-11-10
+10:00 minsun | test plan for dep #2 (draft):
+  • 3:15 recorder up, check `/health` returns ok from both lab subnets
+  • 3:30 students open the link from canvas, consent modal
+  • 3:35 TA check: every machine shows the green recorder dot
+  • watch the event rate on the dashboard, flag any section below 40 events/min/student
+  • 4:45 stop, export, checksum
+~r +1:3
+
+@2025-11-11
+22:05 david | staging build deployed (`vizpi_frontend@b7e41c2`). heartbeat 30s, reconnect with backoff. ran 60 simulated clients for 20 min, no drops. feeling ok about tomorrow
+
+@2025-11-12
+15:18 david | recorder up, both subnets healthy
+15:47 xiaohang | section B event rate looks low on the dashboard. 38 events/min/student vs 51 in section A
+15:49 minsun | students in B are definitely typing, i'm walking around
+15:56 david | found it. after a socket drop the client reconnects but the events buffered during the gap never get flushed. `onReconnect` re-subscribes but doesn't call `flushQueue()`. section B's subnet kills idle sockets after ~60s so they hit it constantly
+  ```
+  socket.on('reconnect', () => {
+    subscribe(sessionId)
+    // missing: flushQueue(sessionId)
+  })
+  ```
+~r scream:2
+16:10 david | hotfix deployed (`a91d0f3`), no reload needed, clients pick it up on the next reconnect. B is back to ~50/min
+~r tada:3 pray:2
+~p project_vizpi
+> 16:12 rezky | nice. do the dropped ones still exist client-side?
+> 16:15 david | only until the tab closes, they're in memory not localStorage. lesson learned
+16:52 david | export finished. 87 students, checksums match. exact loss count tomorrow
+
+@2025-11-13
+10:40 david | postmortem, dep #2 reconnect bug:
+  • cause: `onReconnect` didn't flush the client queue; the section B subnet kills idle sockets after ~60s
+  • window: 3:30–4:10pm, section B only (44 students)
+  • loss: 19,412 of ~165,000 expected section B events ≈ 11.8% (server rows diffed against client seq numbers from the post-fix flush). per-bucket numbers in the csv
+  • recoverable: no, except 9 students whose tabs stayed open, their queues flushed after the hotfix
+  • fix: flush on reconnect + persist the queue to localStorage (`a91d0f3`, `c3d07aa`)
+  • for analysis: flag section B windows that overlap a seq gap as `partial_telemetry=true`, don't drop them
+~f dep2_loss
+~r +1:4 white_check_mark:2
+~p project_vizpi
+> 10:55 yan | Good write-up. Keep the flag, and mention it in any paper that uses this data.
+> 11:02 minsun | should labelers skip the partial windows?
+> 11:05 david | no, label them, we decide at analysis time. i'll add a little ⚠ icon in the labeling tool
+
+@2025-11-17
+14:30 rezky | replay timeline v2 merged: virtualized track, keyboard scrub (j/k = ±5s), error markers in red
+~r fire:3
+
+@2025-12-03
+17:12 yue | exported the dep #2 labeling sample to the labeling tool format: 2,340 windows incl. the partial ones. `exports/dep2_windows_v1.parquet` on the shared drive
+~r +1:2
+
+@2026-01-20
+20:44 david | update on cursor: i'm dropping it. the agent kept rewriting files i didn't ask about (it "cleaned up" the socket hook twice). back to plain vscode + claude code for vizpi_frontend
+~r joy:2
+~p project_vizpi
+> 20:50 rezky | same experience with the auto-imports honestly
+
+@2026-02-24
+15:05 david | for the uist paper i need the final dep #2 numbers in one place. <@yue> can you confirm: 87 students, 2,340 labeled windows, 44 students in section B, partial flag on 412 windows?
+~p project_vizpi project_tutortrace
+> 15:40 yue | confirmed. 412 partial windows, all section B
+
+@2026-04-14
+11:00 rezky | John asked if we can run vizpi in 3114 again next year. i said probably but we need to figure out who owns the frontend by then
+
+@2026-08-04
+16:20 david | handoff doc for vizpi_frontend → <@rezky>: <https://docs.google.com/document/d/1vZpHnd0fRqK7mT2cWn8yXo4sB9eJtUa6PdQcLx3Gk0/edit|vizpi_frontend handoff (Aug 2026)>
+  covers: deploy steps, the reconnect queue, the replay timeline, where the dep #1/#2 exports live, and the 3 known bugs. ping me anytime, i'll still answer here
+~r heart:3 pray:2
+~p project_vizpi
+> 16:45 rezky | thanks, will read tonight and break it before you leave lol

@@ -1,0 +1,59 @@
+topic: Barron family call - Niamh wedding
+start: 2026-06-07 13:00:20
+host: yes
+projects: project_none
+notes: HARD CASE: personal clutter — Sunday call with cousin Niamh in Dublin about wedding logistics (date, hotel block, flights, RSVP, meal choice); unrelated to any project.
+speakers: D=David Barron; N=Niamh Barron
+rate: 2.9
+=== cues
+D: Hey! Can you hear me? I'm recording this, by the way, just so I don't lose the details. Is that okay?
+N: Ha, yes, that's fine, honestly that's smart. Half the family's going to ask me the same five questions. Can you hear me alright? I'm on the laptop in the kitchen.
+D: Yeah, you're great. Little bit of echo but fine. How's everything going? It's, what, six o'clock there?
+N: Just after six, yeah. It's going. The list of things to do is getting shorter, which is the main thing.
+D: Okay, so, logistics. I wrote down a few questions. First one: it's definitely Saturday the eleventh of July?
+N: Saturday the eleventh, yes. Ceremony at two o'clock at the church, then coaches out to the reception venue. It's about forty minutes out of the city.
+D: Okay. And the coaches leave from where?
+N: From outside the church, around half four, after photos. And they'll bring people back to the hotel at the end of the night. There's a late one at half twelve and a last one at half one.
+D: Perfect, that's exactly what I wanted to know. So I don't need a car at all.
+N: You definitely don't need a car. Please don't rent a car.
+D: Ha, okay. No car. Second thing, the hotel block. You sent the group code in the email, but I wasn't sure if the rate covers breakfast.
+N: It does. The rate is a hundred and sixty-five a night with breakfast, and the block holds until the twentieth of June. After that they release the rooms, and that weekend is busy, so book before then.
+D: Okay, I'll do it today. What nights does the block cover?
+N: Thursday the ninth through Sunday the twelfth. So you can do Thursday, Friday, Saturday, out Monday, or any part of that.
+D: Cool. I'm looking at flights right now actually. There's an overnight out of Dulles on Wednesday the eighth that lands Thursday morning around seven.
+N: Oh, that's good. You'll be wrecked but that's good.
+D: Yeah, I'll sleep on the plane, or I won't, either way. And then coming back, Monday the thirteenth, there's one at about eleven in the morning.
+N: That works. Monday morning flights are fine from the hotel, it's maybe thirty minutes to the airport if you go early.
+D: Okay. Third thing, the RSVP. The card says the fifteenth?
+N: The fifteenth of June, yeah. You can just do it on the website, it's quicker than the card. And there's a meal choice: beef, salmon, or the vegetarian risotto.
+D: I'll do the salmon. I'll put that in today too.
+N: Grand. And it's just you, yeah?
+D: Just me, yeah.
+N: Okay, I'll tick that off. Oh, and Friday evening, the night before, there's a barbecue at Mum and Dad's for family and anyone who's flown in. Very casual. Starts at six.
+D: Oh nice, I'll be there. Do I need to bring anything?
+N: Nothing. Just yourself. Maybe a jacket, it gets cold in the garden even in July.
+D: Noted. Jacket. What about dress code for Saturday? The invite says "formal".
+N: Suit and tie is grand. You don't need a tux. Nobody's wearing a tux.
+D: Okay, good, because I don't own one.
+N: Ha. Now, the other thing I wanted to ask you. Would you do one of the readings? It's short. It's one of the ones from the booklet, maybe a minute long.
+D: Oh. Yeah, of course, I'd be happy to. Do you want me to pick or do you have one in mind?
+N: We have one in mind, I'll send it to you. You don't need to memorize it, it'll be printed on the lectern.
+D: Okay. Send it whenever. I'll practice it so I don't trip over anything.
+N: You'll be fine. Okay, who else is coming over from the States? I'm trying to figure out who arrives when, for the airport runs.
+D: So, my parents are coming Wednesday, I think they land Wednesday morning, so a day ahead of me. They said they're booked at the same hotel. And I'm Thursday morning.
+N: Okay. I'll put your parents down for Wednesday. Dad offered to pick people up, so I'll tell him Wednesday morning for them and, what time Thursday for you?
+D: Lands at seven-ten, so maybe eight by the time I'm through. But honestly I can just get a taxi, he doesn't have to.
+N: He'll want to. Just text him when you land.
+D: Okay, will do. Is there anything else I should know? Like, gifts, there's a registry?
+N: There's a link on the website. But honestly don't worry about it, it's mostly for the older relatives who ask.
+D: Okay. I'll take a look. I think that's all my questions. Hotel by the twentieth, RSVP by the fifteenth, salmon, reading, barbecue Friday at six, no car.
+N: That's it. You've got it all. I'll send the reading this week.
+D: Perfect. It's really good to see you. I'll see you in July.
+N: See you in July! Safe travels. Bye!
+D: Bye! Stopping the recording.
+=== chat
+@9+20 N>Everyone: Coaches: church -> reception ~4:30pm. Return coaches to hotel 12:30am and 1:30am
+@11+15 N>Everyone: Hotel group code NB0711 - €165/night incl. breakfast, block held until 20 June
+@15+10 D>Everyone: flight: Wed 8 Jul overnight IAD -> DUB, lands Thu 9 Jul ~07:10. Back Mon 13 Jul ~11:00
+@20+5 N>Everyone: RSVP + meal choice on the website by 15 June
+@26+8 N>Everyone: Fri 10 Jul family BBQ at Mum & Dad's, 6pm

@@ -1,0 +1,21 @@
+From: Minsun <msun.prime@vt.edu>
+To: David Barron <dbarron410@vt.edu>, Xiaohang <xhang.prime@vt.edu>
+Subject: labeling guide v3 =?utf-8?b?4oCU?= stalled-after-error
+Date: Wed, 19 Nov 2025 16:12:00 -0500
+Message-ID:
+ <CAdoTm1BpCswaQYDF+iwZGmh14VhN+x_x8fS93IDE4GraeO4wOqx4C@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1849254708511643485
+X-Gmail-Labels: Inbox,Opened
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Guide v3 is in the lab drive. Changes:
+
+- New state SAE (stalled-after-error): failed run/test followed by >=3D30 s w=
+ith no edit and no prompt.
+- HS now explicitly wins over SAE if a prompt happens in the same window.
+- Added 6 calibration windows (3 SAE, 3 borderline PS/SAE).
+
+Midpoint check: after the first 400 each, our pairwise kappa on the overlap i=
+s 0.68. The disagreements are almost all PS vs SAE.

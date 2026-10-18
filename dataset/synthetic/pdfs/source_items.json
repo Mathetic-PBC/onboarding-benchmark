@@ -1,1 +1,1190 @@
-[]
+[
+ {
+  "id": "item_035254",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Desktop/IDETrace/leakage_writeup_0725.pdf",
+  "title": "leakage_writeup_0725.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-07-25T18:12:00Z",
+  "modified_at": "2026-07-25T18:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Desktop/IDETrace/leakage_writeup_0725.pdf",
+  "source_url": null,
+  "content_hash": "sha256:1e54a3b61b52e699e175b0ef720c9a819f2a5a03c6a57b1a222a661c6ba41705",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop",
+   "original_path": "~/Desktop/IDETrace/leakage_writeup_0725.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "internal two-page memo for Yan before the rebuttal"
+  }
+ },
+ {
+  "id": "item_035255",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Desktop/ISE6664/ISE6664_Final_Report_Barron_Torres_Lee.pdf",
+  "title": "ISE6664_Final_Report_Barron_Torres_Lee.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-05-02T05:21:00Z",
+  "modified_at": "2026-05-02T05:21:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Desktop/ISE6664/ISE6664_Final_Report_Barron_Torres_Lee.pdf",
+  "source_url": null,
+  "content_hash": "sha256:d60c094632c88a04a2c7d7914af95c69c7d36af070ed94890487d013abe0e5ed",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop",
+   "original_path": "~/Desktop/ISE6664/ISE6664_Final_Report_Barron_Torres_Lee.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "HARD CASE: near-duplicate — final report PDF (compiled from the Overleaf project \"ISE 6664 Final Report\"); the draft sits next to it"
+  }
+ },
+ {
+  "id": "item_035256",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Desktop/ISE6664/ISE6664_Final_Report_draft.pdf",
+  "title": "ISE6664_Final_Report_draft.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-04-29T05:22:00Z",
+  "modified_at": "2026-04-29T05:22:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Desktop/ISE6664/ISE6664_Final_Report_draft.pdf",
+  "source_url": null,
+  "content_hash": "sha256:3b91e2129a922630853c6d0a89e2b6554c7c29f631db04708191ea67747724d6",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop",
+   "original_path": "~/Desktop/ISE6664/ISE6664_Final_Report_draft.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "HARD CASE: near-duplicate — draft export of the ISE 6664 report two days before the final: no design-implications section, older detector numbers, \"DRAFT\" in title"
+  }
+ },
+ {
+  "id": "item_035257",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Desktop/UIST talk/TutorTrace_UIST26_talk.pdf",
+  "title": "TutorTrace_UIST26_talk.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-10-07T06:20:00Z",
+  "modified_at": "2026-10-07T06:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Desktop/UIST talk/TutorTrace_UIST26_talk.pdf",
+  "source_url": null,
+  "content_hash": "sha256:3a21104ff67b0364e43b43d79a7d342cec337ea424374f81cf64f899725ac311",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop",
+   "original_path": "~/Desktop/UIST talk/TutorTrace_UIST26_talk.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "slides exported from the Overleaf beamer project \"UIST26 talk script (beamer)\" (no speaker notes)"
+  }
+ },
+ {
+  "id": "item_035258",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Desktop/engelbart/import_dedupe_v2.pdf",
+  "title": "import_dedupe_v2.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-10-14T08:33:00Z",
+  "modified_at": "2026-10-14T08:33:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Desktop/engelbart/import_dedupe_v2.pdf",
+  "source_url": null,
+  "content_hash": "sha256:6915d50424449b61e335f2cf599012360ac2ed5aa9b1153aaf94d7f048770b86",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop",
+   "original_path": "~/Desktop/engelbart/import_dedupe_v2.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "design doc exported to PDF for the 10-14 onboarding/import redesign"
+  }
+ },
+ {
+  "id": "item_035259",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Desktop/papers/Ferreira_Kowalczyk_2023_group_splits.pdf",
+  "title": "Ferreira_Kowalczyk_2023_group_splits.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-07-25T03:44:00Z",
+  "modified_at": "2026-07-25T03:44:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Desktop/papers/Ferreira_Kowalczyk_2023_group_splits.pdf",
+  "source_url": null,
+  "content_hash": "sha256:22d1acb729957e3480d21793fcc91896d8bd83ffd5cb09fb946e4ecf3163afb7",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop",
+   "original_path": "~/Desktop/papers/Ferreira_Kowalczyk_2023_group_splits.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "HARD CASE: same paper in several places — fictional paper, byte-identical to its Zotero attachment"
+  }
+ },
+ {
+  "id": "item_035260",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Desktop/papers/Halvorsen_Quist_2025_provenance_trails.pdf",
+  "title": "Halvorsen_Quist_2025_provenance_trails.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-09-03T06:29:00Z",
+  "modified_at": "2026-09-03T06:29:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Desktop/papers/Halvorsen_Quist_2025_provenance_trails.pdf",
+  "source_url": null,
+  "content_hash": "sha256:020a38403ee385ed15e7798226405bfc70160121115507a078b9b479b993d0a6",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop",
+   "original_path": "~/Desktop/papers/Halvorsen_Quist_2025_provenance_trails.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_engelbart"
+   ],
+   "notes": "HARD CASE: same paper in several places — fictional paper, byte-identical to its Zotero attachment"
+  }
+ },
+ {
+  "id": "item_035261",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Desktop/papers/Ostrowski2025_LAS.pdf",
+  "title": "Ostrowski2025_LAS.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-03-24T05:38:00Z",
+  "modified_at": "2026-03-24T05:38:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Desktop/papers/Ostrowski2025_LAS.pdf",
+  "source_url": null,
+  "content_hash": "sha256:3996b37103ea179ff5b8080e4f8e8b1b1243968572445780ab5990332ddd98a5",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop",
+   "original_path": "~/Desktop/papers/Ostrowski2025_LAS.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: same paper in several places — camera-ready of Ostrowski et al. 2025 (fictional); byte-identical to the Zotero attachment; near-duplicate of ~/Downloads/2507.01842v1.pdf"
+  }
+ },
+ {
+  "id": "item_035262",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Desktop/vizpi/VizPI_deploy2_TA_runsheet.pdf",
+  "title": "VizPI_deploy2_TA_runsheet.pdf",
+  "content_type": "pdf",
+  "created_at": "2025-11-12T04:34:00Z",
+  "modified_at": "2025-11-12T18:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Desktop/vizpi/VizPI_deploy2_TA_runsheet.pdf",
+  "source_url": null,
+  "content_hash": "sha256:18d3709edba13f1fee70bde4102d14c509950e81494432fd104d7c7c56d976d5",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop",
+   "original_path": "~/Desktop/vizpi/VizPI_deploy2_TA_runsheet.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "run sheet for the 2025-11-12 deployment"
+  }
+ },
+ {
+  "id": "item_035263",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/2025_taxes_checklist.pdf",
+  "title": "2025_taxes_checklist.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-03-09T02:03:00Z",
+  "modified_at": "2026-04-12T00:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/2025_taxes_checklist.pdf",
+  "source_url": null,
+  "content_hash": "sha256:497b1c87021a4ebe157b64639725890950b4425739f2e1ced81ba66afff85d2d",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/2025_taxes_checklist.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — own tax checklist (no real figures)"
+  }
+ },
+ {
+  "id": "item_035264",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/2507.01842v1.pdf",
+  "title": "2507.01842v1.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-03-24T03:48:00Z",
+  "modified_at": "2026-03-24T03:48:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/2507.01842v1.pdf",
+  "source_url": null,
+  "content_hash": "sha256:03cd5273fb0e82a1fb8a0411160f6ddc25cab79309c4af1a9f31a585c421320f",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/2507.01842v1.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: same paper in several places — arXiv v1 of Ostrowski et al. 2025 (fictional); near-duplicate of the camera-ready in Desktop/papers (F1 0.69 vs 0.71, kappa 0.62 vs 0.64); also attached in zotero as the preprint PDF"
+  }
+ },
+ {
+  "id": "item_035265",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/2602.11873v1.pdf",
+  "title": "2602.11873v1.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-06-14T03:25:00Z",
+  "modified_at": "2026-06-14T03:25:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/2602.11873v1.pdf",
+  "source_url": null,
+  "content_hash": "sha256:9337f3e87c08e6d4f29996e1fb92303672d8a0d577332e2e1b6ed05abf40eb3a",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/2602.11873v1.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: same paper in several places — fictional arXiv preprint downloaded before adding to Zotero (byte-identical attachment)"
+  }
+ },
+ {
+  "id": "item_035266",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/BAHM26_receipt_11873.pdf",
+  "title": "BAHM26_receipt_11873.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-05-01T11:21:00Z",
+  "modified_at": "2026-05-01T11:21:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/BAHM26_receipt_11873.pdf",
+  "source_url": null,
+  "content_hash": "sha256:d9e89c2b9a47b83e658d87e4d5def59c9750915e20f3171c51a17ce42c92dddc",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/BAHM26_receipt_11873.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "HARD CASE: personal clutter — race registration receipt (the same receipt is attached to the runs@ Gmail confirmation)"
+  }
+ },
+ {
+  "id": "item_035267",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/Block4_training_plan_Aug-Oct.pdf",
+  "title": "Block4_training_plan_Aug-Oct.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-08-03T01:04:00Z",
+  "modified_at": "2026-08-03T01:04:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/Block4_training_plan_Aug-Oct.pdf",
+  "source_url": null,
+  "content_hash": "sha256:dfa706734a11a5803a0972af2b366b5d3cbeb1be57ba1da308be74abe07fe29e",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/Block4_training_plan_Aug-Oct.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "personal training plan printed to PDF"
+  }
+ },
+ {
+  "id": "item_035268",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/CS3604_P4_grading_rubric.pdf",
+  "title": "CS3604_P4_grading_rubric.pdf",
+  "content_type": "pdf",
+  "created_at": "2025-11-19T03:06:00Z",
+  "modified_at": "2025-11-19T03:06:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/CS3604_P4_grading_rubric.pdf",
+  "source_url": null,
+  "content_hash": "sha256:334de673e54db9a127066f5750bc4e38360055b5831cb3d2e7827d1f53b3d48a",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/CS3604_P4_grading_rubric.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": "GTA rubric for P4 incl. the late-day policy that came up in the regrade dispute"
+  }
+ },
+ {
+  "id": "item_035269",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/IDETrace_NeurIPS26_author_response.pdf",
+  "title": "IDETrace_NeurIPS26_author_response.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-07-29T22:31:00Z",
+  "modified_at": "2026-07-29T22:31:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/IDETrace_NeurIPS26_author_response.pdf",
+  "source_url": null,
+  "content_hash": "sha256:5b90a5dcaef71a4757b58a804e51d7fe475e6315828cdb532d047136cee26cd5",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/IDETrace_NeurIPS26_author_response.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "compiled from the Overleaf project \"IDETrace NeurIPS rebuttal\""
+  }
+ },
+ {
+  "id": "item_035270",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/ISE6664_Final_Project_Guidelines_Spring2026.pdf",
+  "title": "ISE6664_Final_Project_Guidelines_Spring2026.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-04-20T14:12:00Z",
+  "modified_at": "2026-04-20T14:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/ISE6664_Final_Project_Guidelines_Spring2026.pdf",
+  "source_url": null,
+  "content_hash": "sha256:4dd72be6b33e410a38db627482dcde0cf7aed9a0f4b97d9c738f8a28bc6101ea",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/ISE6664_Final_Project_Guidelines_Spring2026.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "course handout from Dr. Brooks"
+  }
+ },
+ {
+  "id": "item_035271",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/Invoice_4471_rear_derailleur.pdf",
+  "title": "Invoice_4471_rear_derailleur.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-05-12T21:46:00Z",
+  "modified_at": "2026-05-12T21:46:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/Invoice_4471_rear_derailleur.pdf",
+  "source_url": null,
+  "content_hash": "sha256:edc7eaaf478a4623af5ce6044ce76d81b45047f15be73e5a236bf253b89eb89d",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/Invoice_4471_rear_derailleur.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — bike repair invoice (fictional shop), broken derailleur theme"
+  }
+ },
+ {
+  "id": "item_035272",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/LOA_form_Barron_signed_2026-07-31.pdf",
+  "title": "LOA_form_Barron_signed_2026-07-31.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-07-31T20:24:00Z",
+  "modified_at": "2026-07-31T20:24:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/LOA_form_Barron_signed_2026-07-31.pdf",
+  "source_url": null,
+  "content_hash": "sha256:8e651f82f1db4e6c798c6fd1ed7bb4e66dd9ecce04be0412fc17379d4171b5a3",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/LOA_form_Barron_signed_2026-07-31.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vt_phd_admin"
+   ],
+   "notes": "leave-of-absence form, signed 2026-07-31 (Grace Kim processed)"
+  }
+ },
+ {
+  "id": "item_035273",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/Labeling_Guide_v3.pdf",
+  "title": "Labeling_Guide_v3.pdf",
+  "content_type": "pdf",
+  "created_at": "2025-11-15T06:12:00Z",
+  "modified_at": "2025-11-15T06:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/Labeling_Guide_v3.pdf",
+  "source_url": null,
+  "content_hash": "sha256:9e0ee9cd69c167f8e4fb1558e0096ee4014c137e169ac4471f548a592c0e16ae",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/Labeling_Guide_v3.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vizpi"
+   ],
+   "notes": "labeling guide v3 (adds the stalled-after-error state) for the 11-14 -> 11-21 labeling sprint"
+  }
+ },
+ {
+  "id": "item_035274",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/Loopwell_receipt_88213.pdf",
+  "title": "Loopwell_receipt_88213.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-02-24T05:31:00Z",
+  "modified_at": "2026-02-24T05:31:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/Loopwell_receipt_88213.pdf",
+  "source_url": null,
+  "content_hash": "sha256:28c7822dea0c922a7570d5d78e2d3ee087c1322ffab0a5648c31febd34180b4b",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/Loopwell_receipt_88213.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": "HARD CASE: personal clutter — sample-pack receipt (fictional store)"
+  }
+ },
+ {
+  "id": "item_035275",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/Mathetic_PBC_annual_report_notice.pdf",
+  "title": "Mathetic_PBC_annual_report_notice.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-10-01T02:15:00Z",
+  "modified_at": "2026-10-01T02:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/Mathetic_PBC_annual_report_notice.pdf",
+  "source_url": null,
+  "content_hash": "sha256:c2c2b4b06b349089ef32466b52d07a780499ece37f4816ff8252fdfbbfd87e1d",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/Mathetic_PBC_annual_report_notice.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "registered-agent reminder (fictional agent); Delaware annual report due 2027-03-01"
+  }
+ },
+ {
+  "id": "item_035276",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/Mathetic_onepager.pdf",
+  "title": "Mathetic_onepager.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-08-19T05:52:00Z",
+  "modified_at": "2026-08-19T05:52:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/Mathetic_onepager.pdf",
+  "source_url": null,
+  "content_hash": "sha256:a4b545abbfab2f46755073bce22778fc5a25e7cddca074751f9d5b3e589b9534",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/Mathetic_onepager.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "compiled one-pager downloaded from the Overleaf project \"Mathetic one-pager\""
+  }
+ },
+ {
+  "id": "item_035277",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/Renters_Insurance_Policy_Summary_2026.pdf",
+  "title": "Renters_Insurance_Policy_Summary_2026.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-08-13T20:32:00Z",
+  "modified_at": "2026-08-13T20:32:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/Renters_Insurance_Policy_Summary_2026.pdf",
+  "source_url": null,
+  "content_hash": "sha256:50f8eaf36218cdd6c17a3436acd7592e7f554270a6ba9a8abbe026506d0b7fdb",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/Renters_Insurance_Policy_Summary_2026.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — renter's insurance summary after the move (fictional insurer)"
+  }
+ },
+ {
+  "id": "item_035278",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/SF_move_checklist.pdf",
+  "title": "SF_move_checklist.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-07-31T02:15:00Z",
+  "modified_at": "2026-08-08T03:50:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/SF_move_checklist.pdf",
+  "source_url": null,
+  "content_hash": "sha256:82602f886fbd961a90cc21c6b867f01472fed38b62350063e25c6b54f9496c46",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/SF_move_checklist.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — moving checklist (Blacksburg -> SF, arrive 2026-08-08)"
+  }
+ },
+ {
+  "id": "item_035279",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/Surplus_Fall2026_Residents_Handbook.pdf",
+  "title": "Surplus_Fall2026_Residents_Handbook.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-08-11T16:41:00Z",
+  "modified_at": "2026-08-11T16:41:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/Surplus_Fall2026_Residents_Handbook.pdf",
+  "source_url": null,
+  "content_hash": "sha256:ab48b50574a49bc0e849fec90bd3489fcad11d4ced083b08f610581caf25f798",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/Surplus_Fall2026_Residents_Handbook.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "incubator handbook sent by Lena Hoffmann at the 2026-08-11 kickoff"
+  }
+ },
+ {
+  "id": "item_035280",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/Travel_Funding_Request_UIST2026_Barron.pdf",
+  "title": "Travel_Funding_Request_UIST2026_Barron.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-09-24T18:06:00Z",
+  "modified_at": "2026-09-24T18:06:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/Travel_Funding_Request_UIST2026_Barron.pdf",
+  "source_url": null,
+  "content_hash": "sha256:45425ce3697e66d22c9bd43ee730a788ee8ded3c07bfb5b4de70cdd744320d7f",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/Travel_Funding_Request_UIST2026_Barron.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vt_phd_admin"
+   ],
+   "notes": "VT CS travel-funding request submitted 2026-09-24 for the UIST talk"
+  }
+ },
+ {
+  "id": "item_035281",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/TutorTrace_UIST26_camera_ready (1).pdf",
+  "title": "TutorTrace_UIST26_camera_ready (1).pdf",
+  "content_type": "pdf",
+  "created_at": "2026-09-23T05:10:00Z",
+  "modified_at": "2026-09-23T05:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/TutorTrace_UIST26_camera_ready (1).pdf",
+  "source_url": null,
+  "content_hash": "sha256:34c84c9b819f5c41e398420ea218b8847a6c0345f81501fa3d77eaeefe492288",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/TutorTrace_UIST26_camera_ready (1).pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: near-duplicate — exact duplicate download (byte-identical) of TutorTrace_UIST26_camera_ready.pdf, re-downloaded 09-22 when starting the talk slides"
+  }
+ },
+ {
+  "id": "item_035282",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/TutorTrace_UIST26_camera_ready.pdf",
+  "title": "TutorTrace_UIST26_camera_ready.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-08-15T04:41:00Z",
+  "modified_at": "2026-08-15T04:41:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/TutorTrace_UIST26_camera_ready.pdf",
+  "source_url": null,
+  "content_hash": "sha256:34c84c9b819f5c41e398420ea218b8847a6c0345f81501fa3d77eaeefe492288",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/TutorTrace_UIST26_camera_ready.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: near-duplicate — TutorTrace UIST camera-ready PDF downloaded from Overleaf on the camera-ready deadline; an exact duplicate \"(1)\" was downloaded again for talk prep"
+  }
+ },
+ {
+  "id": "item_035283",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/UIST2026_program_Learning_and_Tutoring.pdf",
+  "title": "UIST2026_program_Learning_and_Tutoring.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-09-29T04:14:00Z",
+  "modified_at": "2026-09-29T04:14:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/UIST2026_program_Learning_and_Tutoring.pdf",
+  "source_url": null,
+  "content_hash": "sha256:3cdfb2530f492413130cb46023ea80db40d9be9c8548dcef50b9abd94a1fd4bf",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/UIST2026_program_Learning_and_Tutoring.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "program excerpt for David's session; other talks in the session are fictional"
+  }
+ },
+ {
+  "id": "item_035284",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/VT_Parking_Citation_Appeal_Barron.pdf",
+  "title": "VT_Parking_Citation_Appeal_Barron.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-02-12T21:21:00Z",
+  "modified_at": "2026-02-12T21:21:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/VT_Parking_Citation_Appeal_Barron.pdf",
+  "source_url": null,
+  "content_hash": "sha256:63343e1134934ad94fb4307bece024ebf173541a614ade09aa1e569c0451a409",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/VT_Parking_Citation_Appeal_Barron.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — VT parking ticket appeal"
+  }
+ },
+ {
+  "id": "item_035285",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/Vehicle_Registration_Renewal_Notice.pdf",
+  "title": "Vehicle_Registration_Renewal_Notice.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-06-02T23:10:00Z",
+  "modified_at": "2026-06-02T23:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/Vehicle_Registration_Renewal_Notice.pdf",
+  "source_url": null,
+  "content_hash": "sha256:3f47c24695f5bdf9c0e050bd66941e0f3256b275bacf18b46a1d60cc1eb4067c",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/Vehicle_Registration_Renewal_Notice.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — car registration renewal (car insurance/registration theme)"
+  }
+ },
+ {
+  "id": "item_035286",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/caro-kann_advance_notes.pdf",
+  "title": "caro-kann_advance_notes.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-01-07T04:12:00Z",
+  "modified_at": "2026-01-07T04:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/caro-kann_advance_notes.pdf",
+  "source_url": null,
+  "content_hash": "sha256:e3e473c74e309caf9cfd5258e05c1ec4b303a6fdc2f02f1a1388cae1d935ee2b",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/caro-kann_advance_notes.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — online chess opening notes"
+  }
+ },
+ {
+  "id": "item_035287",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/meridian_wp_25-07_chokepoints.pdf",
+  "title": "meridian_wp_25-07_chokepoints.pdf",
+  "content_type": "pdf",
+  "created_at": "2025-12-29T04:35:00Z",
+  "modified_at": "2025-12-29T04:35:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/meridian_wp_25-07_chokepoints.pdf",
+  "source_url": null,
+  "content_hash": "sha256:9e1a798a6d8ecc85abaa3fa816815c95594412bd31a2ca79645f1c55b4dfe64c",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/meridian_wp_25-07_chokepoints.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: same paper in several places — fictional geopolitics working paper; byte-identical to the Zotero attachment (unrelated to projects)"
+  }
+ },
+ {
+  "id": "item_035288",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/Downloads/scan_0001.pdf",
+  "title": "scan_0001.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-08-12T01:42:00Z",
+  "modified_at": "2026-08-12T01:42:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/Downloads/scan_0001.pdf",
+  "source_url": null,
+  "content_hash": "sha256:5bf3b230a07ebeede5d05e1aaa0dc59f7c3d831d25f47a9dc2640087ace83235",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads",
+   "original_path": "~/Downloads/scan_0001.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: vague titles — scanner default name; content is the signed room-agreement addendum for the Surplus house room (fictional)"
+  }
+ },
+ {
+  "id": "item_035289",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/iCloud Drive/New_Mac_setup_checklist.pdf",
+  "title": "New_Mac_setup_checklist.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-08-05T00:31:00Z",
+  "modified_at": "2026-08-05T04:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/iCloud Drive/New_Mac_setup_checklist.pdf",
+  "source_url": null,
+  "content_hash": "sha256:5696f18ad6988dd053446c6d453eb99d893d2394a6400cdf36d8d81f752fdab9",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "iCloud Drive",
+   "original_path": "~/iCloud Drive/New_Mac_setup_checklist.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — laptop setup notes for the new Mac (2026-08-04)"
+  }
+ },
+ {
+  "id": "item_035290",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "pdfs",
+  "source_id": "~/iCloud Drive/Plan_of_Study_DBarron_PhD_CS.pdf",
+  "title": "Plan_of_Study_DBarron_PhD_CS.pdf",
+  "content_type": "pdf",
+  "created_at": "2025-10-29T19:41:00Z",
+  "modified_at": "2025-10-29T19:41:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/pdfs/iCloud Drive/Plan_of_Study_DBarron_PhD_CS.pdf",
+  "source_url": null,
+  "content_hash": "sha256:78175c22fb43fc4ddd1a7c3813af29caf05c31e004fa5a347e9a11801dcda9ac",
+  "library_item_id": null,
+  "modeled_on": "authentic/pdfs home-relative PDF layout (Desktop/, Downloads/, iCloud Drive/)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "iCloud Drive",
+   "original_path": "~/iCloud Drive/Plan_of_Study_DBarron_PhD_CS.pdf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vt_phd_admin"
+   ],
+   "notes": "PhD plan of study filed Fall 2025"
+  }
+ }
+]

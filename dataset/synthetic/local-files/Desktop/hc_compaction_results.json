@@ -1,0 +1,56 @@
+{
+  "runs": [
+    {
+      "run": 1,
+      "date": "2026-08-17",
+      "version": "0.5.0",
+      "before": 182000,
+      "after": 61000,
+      "success": false,
+      "lost": "file list"
+    },
+    {
+      "run": 2,
+      "date": "2026-08-19",
+      "version": "0.5.0",
+      "before": 176000,
+      "after": 58000,
+      "success": false,
+      "lost": "failing test name"
+    },
+    {
+      "run": 3,
+      "date": "2026-08-21",
+      "version": "0.11.0",
+      "before": 181000,
+      "after": 72000,
+      "success": true
+    },
+    {
+      "run": 4,
+      "date": "2026-08-23",
+      "version": "0.11.0",
+      "before": 190000,
+      "after": 70500,
+      "success": true
+    },
+    {
+      "run": 5,
+      "date": "2026-08-25",
+      "version": "0.13.0",
+      "before": 185000,
+      "after": 66000,
+      "success": true
+    },
+    {
+      "run": 6,
+      "date": "2026-08-27",
+      "version": "0.13.1",
+      "before": 188000,
+      "after": 64800,
+      "success": "partial",
+      "lost": "E2B env var name"
+    }
+  ],
+  "summary": "focus hint + verbatim TODO block fixes most losses; next: 10 runs per version"
+}

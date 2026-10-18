@@ -19,13 +19,17 @@ onboarding-benchmark/
 │   ├── shared.cjs                 rule blocks the prompts share
 │   └── index.cjs                  all of them, with versions and hashes
 ├── scripts/                       import and build scripts
+│   └── synth/                     one generator per source for the synthetic data
 └── dataset/
     ├── tables/
     │   ├── datasets.json
     │   ├── analyses.json
     │   └── generated_categories.json
     ├── authentic/<source>/        real data (placeholders only; real data stays out of the repo)
-    ├── synthetic/<source>/        synthetic data
+    ├── synthetic/
+    │   ├── <source>/              synthetic data (1,210 items)
+    │   ├── PERSON.md              the person the synthetic data is about
+    │   └── ground_truth_labels.json   the project each synthetic item belongs to
     ├── PROGRESS.md                collection status
     └── FAILURES.md                what couldn't be collected
 ```

@@ -1,0 +1,635 @@
+{
+ "id": "857734da-d884-4750-ac3c-72bce85d53ec",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Surplus kickoff — Mathetic",
+ "created_at": "2026-08-11T16:57:42.000Z",
+ "updated_at": "2026-08-11T17:12:35.988Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "af1e7f3f685e415dbf466410ea",
+  "summary": "Surplus kickoff — Mathetic",
+  "start": {
+   "dateTime": "2026-08-11T10:00:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-08-11T10:30:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true
+   },
+   {
+    "email": "lena@surplus.house",
+    "displayName": "Lena Hoffmann",
+    "responseStatus": "accepted",
+    "organizer": true
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted"
+   }
+  ],
+  "organizer": {
+   "email": "lena@surplus.house"
+  },
+  "creator": {
+   "email": "lena@surplus.house"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=a8c37774a6a36818707a6d098ea37ba9dd640a41",
+  "status": "confirmed",
+  "hangoutLink": "https://meet.google.com/lce-hqtm-hjk"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Lena Hoffmann",
+    "email": "lena@surplus.house"
+   },
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### Program overview\n\n- Surplus cohort runs 12 weeks: Aug 11 → Nov 3, demo night on Oct 29\n- Lena is the main point of contact; weekly 30-min check-in slot is Thursdays 3:30 pm\n- Expectation is \"one real user conversation a day\" — Lena will ask for the count every check-in\n- Office hours with alumni founders on Wednesdays, sign up through the shared sheet\n\n### House logistics\n\n- David moved in Aug 8; Hudson already in the back room with the whiteboard wall\n- Quiet hours 11 pm – 7 am in the shared rooms; the garage workroom is fine any time\n- Guest policy: give Lena a heads-up for anyone staying overnight\n- Wi-Fi drops in the garage — Lena will get the mesh node moved this week\n- Sam Whitaker is the other housemate on the second floor\n\n### What Mathetic is building (as pitched to Lena)\n\n- Engelbart: a research notebook that remembers where a researcher's thoughts came from\n- Wedge = context import: pull chats, papers, notes, repos and drive on day one so the notebook isn't empty\n- Target user for the cohort: PhD students and postdocs who live across 6+ tools\n- Lena pushed on how they'll know it's working: \"time to first useful recall\" was the best answer so far\n\n### Lena's asks for the first two weeks\n\n- Write a one-paragraph problem statement that doesn't use the word \"notebook\"\n- List 20 researchers they could talk to by end of August (Berkeley is close; use it)\n- Decide a single metric to report at check-ins\n- Get the Delaware PBC paperwork into the shared drive so Surplus legal can review the SAFE template\n\n### Action items\n\n- [ ] David — draft problem statement, send to Lena by Fri Aug 14 (after camera-ready)\n- [ ] Hudson — upload incorporation docs + cap table to the Surplus folder\n- [ ] David + Hudson — list of 20 researchers, prioritise Berkeley grad students\n- [ ] Lena — intro to two alumni who built research tools; move mesh node\n",
+ "notes_plain": "Program overview\n\nSurplus cohort runs 12 weeks: Aug 11 → Nov 3, demo night on Oct 29\nLena is the main point of contact; weekly 30-min check-in slot is Thursdays 3:30 pm\nExpectation is \"one real user conversation a day\" — Lena will ask for the count every check-in\nOffice hours with alumni founders on Wednesdays, sign up through the shared sheet\n\nHouse logistics\n\nDavid moved in Aug 8; Hudson already in the back room with the whiteboard wall\nQuiet hours 11 pm – 7 am in the shared rooms; the garage workroom is fine any time\nGuest policy: give Lena a heads-up for anyone staying overnight\nWi-Fi drops in the garage — Lena will get the mesh node moved this week\nSam Whitaker is the other housemate on the second floor\n\nWhat Mathetic is building (as pitched to Lena)\n\nEngelbart: a research notebook that remembers where a researcher's thoughts came from\nWedge = context import: pull chats, papers, notes, repos and drive on day one so the notebook isn't empty\nTarget user for the cohort: PhD students and postdocs who live across 6+ tools\nLena pushed on how they'll know it's working: \"time to first useful recall\" was the best answer so far\n\nLena's asks for the first two weeks\n\nWrite a one-paragraph problem statement that doesn't use the word \"notebook\"\nList 20 researchers they could talk to by end of August (Berkeley is close; use it)\nDecide a single metric to report at check-ins\nGet the Delaware PBC paperwork into the shared drive so Surplus legal can review the SAFE template\n\nAction items\n\nDavid — draft problem statement, send to Lena by Fri Aug 14 (after camera-ready)\nHudson — upload incorporation docs + cap table to the Surplus folder\nDavid + Hudson — list of 20 researchers, prioritise Berkeley grad students\nLena — intro to two alumni who built research tools; move mesh node\n",
+ "transcript": [
+  {
+   "id": "17aa9a44-a53d-4d6a-b46a-174088d25c9a",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:00:32.405Z",
+   "end_timestamp": "2026-08-11T17:00:42.320Z",
+   "text": "Hi! Okay, I think I have both of you. David, you're in the garage, right? I can see the bikes behind you.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "dee348d7-9ea5-4d55-b936-f59176c75418",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:00:43.558Z",
+   "end_timestamp": "2026-08-11T17:00:50.623Z",
+   "text": "Yeah, um, sorry, the Wi-Fi in here is kind of rough. If I freeze just yell.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "8c03c7d4-0875-43d3-a32f-240cd2b40042",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:00:51.423Z",
+   "end_timestamp": "2026-08-11T17:00:58.722Z",
+   "text": "That's the first thing on my list actually, the mesh node. We'll get to it. Hudson, you're upstairs?",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "bbc26251-829a-4f37-ac10-d26c34f37d96",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:00:59.264Z",
+   "end_timestamp": "2026-08-11T17:01:06.031Z",
+   "text": "I'm upstairs. I can literally hear David through the floor so if the call drops we're fine.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "46bb59b3-1feb-4b60-be11-dc64fce030ab",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:01:06.754Z",
+   "end_timestamp": "2026-08-11T17:01:10.303Z",
+   "text": "Perfect. So welcome, officially. David, you got in Saturday?",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "1feedf03-2b5c-4cf4-95a2-fae00e605ec2",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:01:12.313Z",
+   "end_timestamp": "2026-08-11T17:01:23.007Z",
+   "text": "Saturday afternoon, yeah. The flight got in late and the, uh, the boxes came Sunday. But the room's great. Thank you for holding it.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "af98e2a3-1f03-4e62-9952-271f4cfddddc",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:01:24.471Z",
+   "end_timestamp": "2026-08-11T17:01:41.072Z",
+   "text": "Of course. Okay so I want to do three things today. Program shape, house stuff, and then I want you two to pitch me what you're building like I've never heard it, because honestly I've only heard Hudson's version.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "0afeb6fc-ceb3-4c25-84f7-ef9e59e84d75",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:01:41.926Z",
+   "end_timestamp": "2026-08-11T17:01:44.518Z",
+   "text": "Which was a very good version.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "6cc95e33-9954-43f5-a5dc-9a6dafe08f87",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:01:45.877Z",
+   "end_timestamp": "2026-08-11T17:02:01.585Z",
+   "text": "It was a fast version. So program first. Twelve weeks, today through November third. Demo night is October twenty-ninth. Every Thursday at three-thirty we do a thirty minute check-in, just the three of us.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "2580caca-fe2e-4466-8d19-09cfcb2d228d",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:02:02.529Z",
+   "end_timestamp": "2026-08-11T17:02:04.266Z",
+   "text": "Thursdays three-thirty. Got it.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "9aaa5d6d-5bee-44ae-9cd9-08706d1d5ece",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:02:05.198Z",
+   "end_timestamp": "2026-08-11T17:02:17.272Z",
+   "text": "And the one thing I'll ask every single week is how many real user conversations you had. Real, meaning a person who might use this, not your friends telling you it's cool.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "dd8d4fd4-cb67-4adb-9db0-8feb098cb3f4",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:02:17.722Z",
+   "end_timestamp": "2026-08-11T17:02:22.667Z",
+   "text": "Does a Berkeley grad student who is also technically a friend count?",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "162a4944-e2d3-43ea-84fc-c8b3c853b934",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:02:24.739Z",
+   "end_timestamp": "2026-08-11T17:02:36.640Z",
+   "text": "If they'd be annoyed when it breaks, it counts. The goal is one a day. Most teams hit maybe three a week, which is fine, but I'm going to keep asking.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "3f6681ca-59fc-47ad-b033-850a1eeb0e7f",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:02:37.806Z",
+   "end_timestamp": "2026-08-11T17:02:43.288Z",
+   "text": "Okay, that's, um, that's a good forcing function honestly. We've been heads-down building.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e0075766-1bc9-47e8-9ac6-9753e4200641",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:02:45.467Z",
+   "end_timestamp": "2026-08-11T17:02:59.921Z",
+   "text": "Everyone is. Wednesdays there's alumni office hours, there's a sign-up sheet in the shared drive. Some of them are really good on fundraising, a couple are good on, like, research tooling specifically.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "424d0102-e5ec-4a5a-8628-86175da1b1a2",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:03:01.144Z",
+   "end_timestamp": "2026-08-11T17:03:02.871Z",
+   "text": "Oh nice, that's exactly—",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "e499903a-6e32-437c-bb4c-0318c1b71da8",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:03:02.764Z",
+   "end_timestamp": "2026-08-11T17:03:14.102Z",
+   "text": "I'll intro you. I'm writing that down. House stuff, quickly. Quiet hours eleven to seven in the shared rooms. The garage is yours whenever, David, it's insulated-ish.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "b7a59d9b-083e-4b26-ab16-894a07503648",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:03:15.359Z",
+   "end_timestamp": "2026-08-11T17:03:18.172Z",
+   "text": "Insulated-ish is generous. It's fine though.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d022fe75-f75e-40de-9f50-79cb797e149d",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:03:18.630Z",
+   "end_timestamp": "2026-08-11T17:03:29.074Z",
+   "text": "Overnight guests, just text me. Sam's on the second floor, you'll meet him, he's very nice, he does hardware so he'll have opinions about your desk setup.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "ba4e452d-2d89-4d34-9994-c03858b40bea",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:03:31.208Z",
+   "end_timestamp": "2026-08-11T17:03:36.494Z",
+   "text": "He already, um, he already offered to fix the bike rack, so.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d88692bb-f4e9-4a18-94fe-3544346621a5",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:03:38.011Z",
+   "end_timestamp": "2026-08-11T17:03:42.847Z",
+   "text": "That's Sam. Okay. Now. Pretend I know nothing. What is it?",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "39815e85-0f82-4d43-8d2d-a81ef0a0132a",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:03:43.406Z",
+   "end_timestamp": "2026-08-11T17:03:44.909Z",
+   "text": "David, you want to—",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "38532c78-0d22-4287-8f8c-bb6d2259e572",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:03:45.487Z",
+   "end_timestamp": "2026-08-11T17:04:06.829Z",
+   "text": "Yeah. So, um. Engelbart is a research notebook. But the thing we actually care about is that it remembers where your thoughts came from. Like when you're a PhD student your thinking is spread across, I counted for myself, like nine tools. ChatGPT, Claude, Overleaf, Zotero, Slack, email, notes apps—",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ebbdfd8e-8f32-42d2-b9f0-c9e29cb82fd6",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:04:07.023Z",
+   "end_timestamp": "2026-08-11T17:04:07.880Z",
+   "text": "Nine?",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "bda2f653-1869-43ae-9a67-61ecbebd36c8",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:04:09.256Z",
+   "end_timestamp": "2026-08-11T17:04:29.387Z",
+   "text": "Nine that I use weekly. And when you go to write the paper you can't find the conversation where the idea actually started. So the notebook imports all of that on day one, and then when you write something it can show you the trail.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "741a50b9-8f0d-4acf-a9e4-10a5f18a321c",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:04:30.823Z",
+   "end_timestamp": "2026-08-11T17:04:38.753Z",
+   "text": "Okay. Stop there for a sec. \"Imports all of that on day one.\" That's the product or that's onboarding?",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "a86fc5af-6348-4b23-b72d-54bc2739d921",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:04:40.566Z",
+   "end_timestamp": "2026-08-11T17:04:50.183Z",
+   "text": "That's — I'd say that's the wedge. If the notebook is empty on day one nobody comes back on day two.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "e51c52fb-d6e7-4c3d-9667-ca7387888702",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:04:50.678Z",
+   "end_timestamp": "2026-08-11T17:04:57.484Z",
+   "text": "Right. So how do you know it's working? Like in week six, what number do you show me?",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "286dafa9-730c-484d-943e-625315190326",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:04:59.351Z",
+   "end_timestamp": "2026-08-11T17:05:08.928Z",
+   "text": "Um. Honestly we've gone back and forth. Retention is the obvious one but six weeks is too short for that to mean much.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "df0c7184-d77b-4002-903c-cba2d8415318",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:05:09.394Z",
+   "end_timestamp": "2026-08-11T17:05:22.443Z",
+   "text": "I've been saying \"time to first useful recall.\" Like, from connecting your accounts to the first time the notebook surfaces something you'd forgotten and you actually use it.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "cb7940a7-5b7b-4129-ae14-e410b725abbf",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:05:24.545Z",
+   "end_timestamp": "2026-08-11T17:05:29.084Z",
+   "text": "I like that a lot more than retention. Can you measure it?",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "0fb51431-6483-4f04-aa4e-09b700a9ff64",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:05:29.374Z",
+   "end_timestamp": "2026-08-11T17:05:40.120Z",
+   "text": "Sort of. We'd need people to tell us, or we log when they click into a source from a suggestion. The click is measurable.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "5aba36d8-5051-4cc5-8c0d-36a129fe0cd9",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:05:41.198Z",
+   "end_timestamp": "2026-08-11T17:05:50.077Z",
+   "text": "Then that's your metric until you have a better one. Pick one and report it every Thursday. Don't change it every week.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "5a32e203-1ec8-4045-bb81-f2ef60d6aaf4",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:05:51.886Z",
+   "end_timestamp": "2026-08-11T17:05:52.720Z",
+   "text": "Fair.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "1caeeed6-92af-4d62-bb8f-336509e50139",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:05:54.057Z",
+   "end_timestamp": "2026-08-11T17:05:56.264Z",
+   "text": "Who's the user? Be specific.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "b80b80c2-9a00-474b-ae32-2c2e38036fd2",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:05:56.944Z",
+   "end_timestamp": "2026-08-11T17:06:05.540Z",
+   "text": "PhD students and postdocs, mostly in, um, HCI and CS-adjacent fields right now because that's who we know. People with six-plus tools.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "01ef8a6b-5dda-4715-a5d0-691bb4f9ec77",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:06:06.169Z",
+   "end_timestamp": "2026-08-11T17:06:08.665Z",
+   "text": "How many have you talked to?",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "5f6e7c53-1190-4dad-8599-a1be611cefea",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:06:10.461Z",
+   "end_timestamp": "2026-08-11T17:06:11.736Z",
+   "text": "Formally? Like... four?",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "415b2b6d-3131-4186-915d-cfcd82014e5a",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:06:13.611Z",
+   "end_timestamp": "2026-08-11T17:06:22.915Z",
+   "text": "Okay. So here's my ask for the first two weeks. Twenty names by end of August. You're forty minutes from Berkeley. Use it.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "dd80332a-8a2d-48cf-b69c-7a6d6b8461ac",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:06:23.561Z",
+   "end_timestamp": "2026-08-11T17:06:33.005Z",
+   "text": "Yeah, we were actually talking about doing, like, research chats there. Not pitching, just asking how people keep track of ideas.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "19340fdc-9d87-450c-9115-cc37cd6a0388",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:06:33.403Z",
+   "end_timestamp": "2026-08-11T17:06:43.013Z",
+   "text": "Perfect. Do that. Second ask: write me one paragraph on the problem, and you're not allowed to use the word notebook.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "4bea58c3-4168-48c7-8fa9-38e4f914c663",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:06:43.672Z",
+   "end_timestamp": "2026-08-11T17:06:46.558Z",
+   "text": "Oh that's — okay. That's hard actually.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d92c682f-5ae7-4769-8044-2220c2959ff7",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:06:48.160Z",
+   "end_timestamp": "2026-08-11T17:06:52.674Z",
+   "text": "That's why I ask it. When can you send it?",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "6cd1aa73-65f2-4aa9-93bd-9c000e08e08f",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:06:53.393Z",
+   "end_timestamp": "2026-08-11T17:07:00.595Z",
+   "text": "Can I say Friday? I have a paper camera-ready due Friday the fourteenth, so, um, Friday night.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e1edcdb0-6222-4eee-866f-5e4cdcf8c394",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:07:01.453Z",
+   "end_timestamp": "2026-08-11T17:07:06.181Z",
+   "text": "Friday night is fine. Is that the tutoring paper Hudson mentioned?",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "21217217-6f13-4e34-bb4d-48905cab8e57",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:07:07.494Z",
+   "end_timestamp": "2026-08-11T17:07:17.861Z",
+   "text": "Yeah, TutorTrace, it's going to UIST. It's the last thing from my, uh, from the PhD side before the leave really kicks in.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "4a2a5359-fe6b-487b-8ca5-c6e065dd88ac",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:07:18.510Z",
+   "end_timestamp": "2026-08-11T17:07:22.883Z",
+   "text": "Congrats. Okay, third thing — paperwork. You're a PBC in Delaware?",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "680833ae-5922-4edf-b6d7-b013640eeb56",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:07:24.838Z",
+   "end_timestamp": "2026-08-11T17:07:31.567Z",
+   "text": "Delaware PBC, yeah. I'll upload the incorporation stuff and the cap table to the Surplus folder.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "517e6ecb-1611-4811-a315-5872728cc6fe",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:07:33.592Z",
+   "end_timestamp": "2026-08-11T17:07:41.848Z",
+   "text": "Great, our legal person wants to look at the SAFE template before anyone signs anything with outside angels.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "f82c758e-2a19-4b93-a536-fe3d387da984",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:07:43.081Z",
+   "end_timestamp": "2026-08-11T17:07:48.514Z",
+   "text": "We have one angel conversation coming up, actually, Marcus Oyelaran, Northfield Angels.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "182c7256-dbd1-446d-8775-ec88a89cf725",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:07:49.540Z",
+   "end_timestamp": "2026-08-11T17:07:55.370Z",
+   "text": "Oh I know Northfield. They're thoughtful. They'll ask who pays. Have an answer.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "2ea10635-050a-4b78-a1bd-daf7fad2115d",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:07:56.523Z",
+   "end_timestamp": "2026-08-11T17:07:59.051Z",
+   "text": "That's, um. Yeah. That's the question.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "24fa6727-c2c8-4903-b885-41322e56cd71",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:08:00.001Z",
+   "end_timestamp": "2026-08-11T17:08:09.500Z",
+   "text": "It's always the question. Okay, I'm going to let you go. I'll move the mesh node this week, David, and I'll send two alumni intros.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "66181e22-d991-48f0-8cd3-e702d41b0ee3",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:08:11.040Z",
+   "end_timestamp": "2026-08-11T17:08:12.390Z",
+   "text": "Thank you, seriously.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e72f4865-d5c5-47aa-8070-035ec584d232",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:08:14.304Z",
+   "end_timestamp": "2026-08-11T17:08:15.199Z",
+   "text": "Thanks Lena.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "6b2daec1-c8ce-4f47-959e-e3412f052a1c",
+   "document_id": "857734da-d884-4750-ac3c-72bce85d53ec",
+   "start_timestamp": "2026-08-11T17:08:17.184Z",
+   "end_timestamp": "2026-08-11T17:08:19.988Z",
+   "text": "Welcome to Surplus. One conversation a day!",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  }
+ ]
+}

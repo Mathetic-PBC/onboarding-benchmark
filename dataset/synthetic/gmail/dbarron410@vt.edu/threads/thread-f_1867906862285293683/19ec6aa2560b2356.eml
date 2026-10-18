@@ -1,0 +1,24 @@
+From: Xiaohang <xhang.prime@vt.edu>
+To: David Barron <dbarron410@vt.edu>, Minsun <msun.prime@vt.edu>
+Subject: Re: kappa numbers for the rebuttal
+Date: Sun, 14 Jun 2026 11:05:00 -0400
+Message-ID:
+ <CAsjVrnza5WZgn1bew7XAJxMqC3BkTumMSGY7XDCzBQxCncKFCC+fB@mail.gmail.com>
+In-Reply-To:
+ <CAmKVWu3Ws5NUyvNq2wvF5fR3EvdzDVzuSPSFwD_CyPRalEfDK4kn+@mail.gmail.com>
+References:
+ <CAmKVWu3Ws5NUyvNq2wvF5fR3EvdzDVzuSPSFwD_CyPRalEfDK4kn+@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1867906862285293683
+X-Gmail-Labels: Inbox,Opened
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Reran on the final export: David=E2=80=93Minsun 0.69, David=E2=80=93Xiaohang =
+0.71, Minsun=E2=80=93Xiaohang 0.74. Fleiss' kappa across all three 0.71, same=
+ as before. Most disagreement is still PS vs SAE.
+
+On Sat, Jun 13, 2026 at 2:20 PM David Barron <dbarron410@vt.edu> wrote:
+> hey, for the uist rebuttal i need per-pair kappa on the 120-window overlap =
+sets, guide v3 labels only. overall is 0.71. can one of you rerun the script =
+on the final export so i'm not using numbers from march?

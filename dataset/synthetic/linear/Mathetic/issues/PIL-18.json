@@ -1,0 +1,64 @@
+{
+  "issue": {
+    "id": "PIL-18",
+    "uuid": "ef722061-38a3-4c61-8e1b-934d829ceb72",
+    "title": "After import, list skipped items with a reason",
+    "description": "\"Skipped 23\" with no list makes people assume the worst. Show the list: file, source, reason (unsupported type, permission denied, partial download, over size limit).",
+    "projectMilestone": {
+      "id": "752d1e60-9eb6-4c7b-a102-c1e5d03b5518",
+      "name": "Import fixes from pilot feedback shipped"
+    },
+    "priority": {
+      "value": 3,
+      "name": "Medium"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-18/after-import-list-skipped-items-with-a-reason",
+    "gitBranchName": "david/pil-18-after-import-list-skipped-items-with-a-reason",
+    "createdAt": "2026-10-10T17:40:16.907Z",
+    "updatedAt": "2026-10-10T17:40:16.907Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Todo",
+    "statusType": "unstarted",
+    "labels": [
+      "Improvement",
+      "Import",
+      "Pilot feedback"
+    ],
+    "createdBy": "David Barron",
+    "assignee": "David Barron",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-18",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-10T17:40:16.907Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": []
+}

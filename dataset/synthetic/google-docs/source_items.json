@@ -1,1 +1,2186 @@
-[]
+[
+ {
+  "id": "item_034794",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "david.barron.runs@gmail.com/my-drive/Gear/Gear list.docx",
+  "title": "Gear list.docx",
+  "content_type": "document",
+  "created_at": "2025-12-06T23:10:00Z",
+  "modified_at": "2026-08-22T15:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/david.barron.runs@gmail.com/my-drive/Gear/Gear list.docx",
+  "source_url": null,
+  "content_hash": "sha256:f6abaa36d11d133f7895fcab8ab677916793c30ad64708cd1a9608f514521060",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034795",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "david.barron.runs@gmail.com/my-drive/Training/Bay Area half - race plan.docx",
+  "title": "Bay Area half - race plan.docx",
+  "content_type": "document",
+  "created_at": "2026-10-11T04:00:00Z",
+  "modified_at": "2026-10-15T22:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/david.barron.runs@gmail.com/my-drive/Training/Bay Area half - race plan.docx",
+  "source_url": null,
+  "content_hash": "sha256:e806c612bf9f5fe00c9a4244ddf24f26e5111e8b2a8d682e28dd8140ea4c62d1",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034796",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "david.barron.runs@gmail.com/my-drive/Training/Training log 2026.xlsx",
+  "title": "Training log 2026.xlsx",
+  "content_type": "spreadsheet",
+  "created_at": "2026-01-05T00:30:00Z",
+  "modified_at": "2026-10-17T03:45:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/david.barron.runs@gmail.com/my-drive/Training/Training log 2026.xlsx",
+  "source_url": null,
+  "content_hash": "sha256:7dd44397bbe02b8f0f35feb5456ff1e426617c2bde6d8ad58d93df0cab500f31",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Sheet exported as .xlsx (all tabs)",
+  "metadata": {
+   "format": "xlsx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "HARD CASE: multi-tab sheet — Block 1..Block 4 + Races + Settings with SUM/AVERAGE formulas"
+  }
+ },
+ {
+  "id": "item_034797",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "david.barron.runs@gmail.com/my-drive/Training/Zone 2 HR drift tests.xlsx",
+  "title": "Zone 2 HR drift tests.xlsx",
+  "content_type": "spreadsheet",
+  "created_at": "2026-01-10T16:20:00Z",
+  "modified_at": "2026-09-26T19:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/david.barron.runs@gmail.com/my-drive/Training/Zone 2 HR drift tests.xlsx",
+  "source_url": null,
+  "content_hash": "sha256:abb7adc31e72395f80f0432a974288d3cb88e58d332c99a9c9e1127df412c4d5",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Sheet exported as .xlsx (all tabs)",
+  "metadata": {
+   "format": "xlsx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034798",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "david.barron.runs@gmail.com/shared-with-me/VT running club long run routes.xlsx",
+  "title": "VT running club long run routes.xlsx",
+  "content_type": "spreadsheet",
+  "created_at": "2025-10-25T12:00:00Z",
+  "modified_at": "2026-02-07T14:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/david.barron.runs@gmail.com/shared-with-me/VT running club long run routes.xlsx",
+  "source_url": null,
+  "content_hash": "sha256:490244e740ac312d9064605576fe9235ad94876cc933eb6c631c95bb004f3c0e",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/shared-with-me file",
+  "metadata": {
+   "format": "xlsx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034799",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Berkeley research chats/Berkeley research chat question bank.docx",
+  "title": "Berkeley research chat question bank.docx",
+  "content_type": "document",
+  "created_at": "2026-08-28T05:15:00Z",
+  "modified_at": "2026-09-09T04:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Berkeley research chats/Berkeley research chat question bank.docx",
+  "source_url": null,
+  "content_hash": "sha256:2ba4f27180316b334fe1a03e3ab472e12d654226f071b7b41491778fb9b7f611",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034800",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Berkeley research chats/Berkeley research chats sign-up.xlsx",
+  "title": "Berkeley research chats sign-up.xlsx",
+  "content_type": "spreadsheet",
+  "created_at": "2026-08-30T19:40:00Z",
+  "modified_at": "2026-09-17T16:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Berkeley research chats/Berkeley research chats sign-up.xlsx",
+  "source_url": null,
+  "content_hash": "sha256:c217f950bce80cc5b4c55442a7e64fc27876241463cca4116b9747253dbfb9a8",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Sheet exported as .xlsx (all tabs)",
+  "metadata": {
+   "format": "xlsx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034801",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Berkeley research chats/Synthesis - Sep 2026 chats.docx",
+  "title": "Synthesis - Sep 2026 chats.docx",
+  "content_type": "document",
+  "created_at": "2026-09-17T04:40:00Z",
+  "modified_at": "2026-09-19T18:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Berkeley research chats/Synthesis - Sep 2026 chats.docx",
+  "source_url": null,
+  "content_hash": "sha256:3fdbc58c234d212937131640bf06a27bccab4c4f3e2f94f33bc87aafdde92546",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats",
+    "project_engelbart"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034802",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Copy of Untitled spreadsheet.xlsx",
+  "title": "Copy of Untitled spreadsheet.xlsx",
+  "content_type": "spreadsheet",
+  "created_at": "2026-03-10T11:50:00Z",
+  "modified_at": "2026-10-16T15:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Copy of Untitled spreadsheet.xlsx",
+  "source_url": null,
+  "content_hash": "sha256:d14e0abdc698878f5485bc28e3842089afba8d112fea76758e537dc5cae50cd4",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Sheet exported as .xlsx (all tabs)",
+  "metadata": {
+   "format": "xlsx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "HARD CASE: vague title — \"Copy of Untitled spreadsheet\" is actually a running-shoe mileage tracker"
+  }
+ },
+ {
+  "id": "item_034803",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Mathetic/Engelbart demo script - Surplus Friday.docx",
+  "title": "Engelbart demo script - Surplus Friday.docx",
+  "content_type": "document",
+  "created_at": "2026-08-20T06:40:00Z",
+  "modified_at": "2026-08-21T20:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Mathetic/Engelbart demo script - Surplus Friday.docx",
+  "source_url": null,
+  "content_hash": "sha256:9d452912d00baea6092f5c0ffb5fdc387dd4efe79cbf93282cdb0efecfa8d036",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034804",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Mathetic/Engelbart import dedupe spec.docx",
+  "title": "Engelbart import dedupe spec.docx",
+  "content_type": "document",
+  "created_at": "2026-10-14T22:30:00Z",
+  "modified_at": "2026-10-17T06:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Mathetic/Engelbart import dedupe spec.docx",
+  "source_url": null,
+  "content_hash": "sha256:7280d2f33d3bff484d234d14e673a779a001c4ef50b6a1857f2f188e11430522",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034805",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Mathetic/Engelbart pilot onboarding script.docx",
+  "title": "Engelbart pilot onboarding script.docx",
+  "content_type": "document",
+  "created_at": "2026-10-08T06:30:00Z",
+  "modified_at": "2026-10-14T01:45:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Mathetic/Engelbart pilot onboarding script.docx",
+  "source_url": null,
+  "content_hash": "sha256:8c024a56f0662bf2fda4394194ddfe1f74bb60ca721992b70459cca09abec0cb",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034806",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Mathetic/Investor pipeline.xlsx",
+  "title": "Investor pipeline.xlsx",
+  "content_type": "spreadsheet",
+  "created_at": "2026-08-21T17:00:00Z",
+  "modified_at": "2026-10-15T16:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Mathetic/Investor pipeline.xlsx",
+  "source_url": null,
+  "content_hash": "sha256:785195092887c8ed8f89fd2aeb504012214af06ec51c68d77de2246927cbd1e6",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Sheet exported as .xlsx (all tabs)",
+  "metadata": {
+   "format": "xlsx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034807",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Mathetic/Marcus Oyelaran call prep.docx",
+  "title": "Marcus Oyelaran call prep.docx",
+  "content_type": "document",
+  "created_at": "2026-08-19T04:00:00Z",
+  "modified_at": "2026-08-21T02:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Mathetic/Marcus Oyelaran call prep.docx",
+  "source_url": null,
+  "content_hash": "sha256:09758c2f9122a28e4afd8cbbfd195efd7d14cd8c31b0b3e2ddc1802444dbbd71",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034808",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Mathetic/Mathetic cap table.xlsx",
+  "title": "Mathetic cap table.xlsx",
+  "content_type": "spreadsheet",
+  "created_at": "2026-07-15T02:10:00Z",
+  "modified_at": "2026-10-15T07:35:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Mathetic/Mathetic cap table.xlsx",
+  "source_url": null,
+  "content_hash": "sha256:4cc7dc0d9b96ee0ad80927bb8e3f7f8c0724fb8c8c5c5d86ca0e0526ae62ffce",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Sheet exported as .xlsx (all tabs)",
+  "metadata": {
+   "format": "xlsx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "HARD CASE: multi-tab sheet — Founders / SAFE notes / Option pool / Scenarios with cross-tab formulas"
+  }
+ },
+ {
+  "id": "item_034809",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Mathetic/Mathetic pre-seed v2.pptx",
+  "title": "Mathetic pre-seed v2.pptx",
+  "content_type": "slides",
+  "created_at": "2026-10-01T04:10:00Z",
+  "modified_at": "2026-10-13T06:58:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Mathetic/Mathetic pre-seed v2.pptx",
+  "source_url": null,
+  "content_hash": "sha256:79db7ef383f38f03a8f3920130eda1b5f6fc1f90631f3c12e63c077ddd0b4911",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Slides exported as .pptx",
+  "metadata": {
+   "format": "pptx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "HARD CASE: near-duplicate — v2 of the pre-seed deck: pilot slide added, pricing and traction changed"
+  }
+ },
+ {
+  "id": "item_034810",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Mathetic/Mathetic pre-seed.pptx",
+  "title": "Mathetic pre-seed.pptx",
+  "content_type": "slides",
+  "created_at": "2026-08-15T06:20:00Z",
+  "modified_at": "2026-08-20T05:45:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Mathetic/Mathetic pre-seed.pptx",
+  "source_url": null,
+  "content_hash": "sha256:cfc1374236f07e15ed441cecfc299d085fe46363d68629dd9c9ea8ea0542806f",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Slides exported as .pptx",
+  "metadata": {
+   "format": "pptx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "near-duplicate pair with \"Mathetic pre-seed v2\""
+  }
+ },
+ {
+  "id": "item_034811",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Mathetic/Papert Lab notebook - idea.docx",
+  "title": "Papert Lab notebook - idea.docx",
+  "content_type": "document",
+  "created_at": "2026-01-29T04:50:00Z",
+  "modified_at": "2026-02-03T02:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Mathetic/Papert Lab notebook - idea.docx",
+  "source_url": null,
+  "content_hash": "sha256:198f105f50f914359035cd4009dd63afc3be37e01b9694200aad1bf5909b9fc0",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034812",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Mathetic/Pilot feedback tracker.xlsx",
+  "title": "Pilot feedback tracker.xlsx",
+  "content_type": "spreadsheet",
+  "created_at": "2026-10-10T00:10:00Z",
+  "modified_at": "2026-10-14T02:02:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Mathetic/Pilot feedback tracker.xlsx",
+  "source_url": null,
+  "content_hash": "sha256:f8f8091625846b99b33db22634ced4129d7641d03290e3104a4ab341b3f7afea",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Sheet exported as .xlsx (all tabs)",
+  "metadata": {
+   "format": "xlsx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034813",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Mathetic/Surplus onboarding checklist.docx",
+  "title": "Surplus onboarding checklist.docx",
+  "content_type": "document",
+  "created_at": "2026-08-09T23:20:00Z",
+  "modified_at": "2026-08-12T17:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Mathetic/Surplus onboarding checklist.docx",
+  "source_url": null,
+  "content_hash": "sha256:92482fa316cef386ca9b6fd9b2b619e35682336270e348b6fbce82faf96ba114",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034814",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Music/Beat ideas 2026.docx",
+  "title": "Beat ideas 2026.docx",
+  "content_type": "document",
+  "created_at": "2026-01-09T06:20:00Z",
+  "modified_at": "2026-09-13T07:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Music/Beat ideas 2026.docx",
+  "source_url": null,
+  "content_hash": "sha256:210b751f0d07d8091f5bcb2bb7a3a5caf35bc3b4056282a9415280e2e7d2c30e",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034815",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Music/Sample packs bought.xlsx",
+  "title": "Sample packs bought.xlsx",
+  "content_type": "spreadsheet",
+  "created_at": "2026-02-15T04:05:00Z",
+  "modified_at": "2026-08-31T05:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Music/Sample packs bought.xlsx",
+  "source_url": null,
+  "content_hash": "sha256:84f24125a04a5c640d510dae262c5598c7a1ce3d58d3d1e5bee533e9374fc02d",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Sheet exported as .xlsx (all tabs)",
+  "metadata": {
+   "format": "xlsx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034816",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Personal/2025 taxes checklist.docx",
+  "title": "2025 taxes checklist.docx",
+  "content_type": "document",
+  "created_at": "2026-02-03T01:15:00Z",
+  "modified_at": "2026-04-04T22:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Personal/2025 taxes checklist.docx",
+  "source_url": null,
+  "content_hash": "sha256:12129d1979915b4af6127b3032553cccb82958402cad6ae528185761cab8bec9",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034817",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Personal/Bike derailleur notes.docx",
+  "title": "Bike derailleur notes.docx",
+  "content_type": "document",
+  "created_at": "2026-05-10T23:30:00Z",
+  "modified_at": "2026-05-12T22:45:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Personal/Bike derailleur notes.docx",
+  "source_url": null,
+  "content_hash": "sha256:b11c1a6873c4ec47636ff5e84e01f5e971afc46351d1bef181f4ebc91bea7c7a",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034818",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Personal/Car insurance quotes.xlsx",
+  "title": "Car insurance quotes.xlsx",
+  "content_type": "spreadsheet",
+  "created_at": "2026-08-14T03:30:00Z",
+  "modified_at": "2026-08-16T18:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Personal/Car insurance quotes.xlsx",
+  "source_url": null,
+  "content_hash": "sha256:51abec53b7ca74be1751b8389d9bc45fecf13c5db432d9966d36bf105d997e06",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Sheet exported as .xlsx (all tabs)",
+  "metadata": {
+   "format": "xlsx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034819",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Personal/Chess opening repertoire.docx",
+  "title": "Chess opening repertoire.docx",
+  "content_type": "document",
+  "created_at": "2025-12-27T20:40:00Z",
+  "modified_at": "2026-03-16T02:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Personal/Chess opening repertoire.docx",
+  "source_url": null,
+  "content_hash": "sha256:06221095023e71ecb5acda0adde6d9f1a7ab16e6373fe9679c556cbcd9f4168c",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034820",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Personal/Dublin wedding travel.docx",
+  "title": "Dublin wedding travel.docx",
+  "content_type": "document",
+  "created_at": "2026-05-13T01:05:00Z",
+  "modified_at": "2026-06-03T23:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Personal/Dublin wedding travel.docx",
+  "source_url": null,
+  "content_hash": "sha256:6ab7cc8622c91f39c2e6e20301fc0a5c184d584fecbb3322513fb3f5a17e8219",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034821",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Personal/Geopolitics reading list.docx",
+  "title": "Geopolitics reading list.docx",
+  "content_type": "document",
+  "created_at": "2025-12-01T04:10:00Z",
+  "modified_at": "2026-06-08T02:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Personal/Geopolitics reading list.docx",
+  "source_url": null,
+  "content_hash": "sha256:ac3d74838d1e9b7ba14b6d160ec40485835c95870a29c27431864792c4950fa8",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034822",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Personal/Gift ideas.docx",
+  "title": "Gift ideas.docx",
+  "content_type": "document",
+  "created_at": "2025-11-30T02:00:00Z",
+  "modified_at": "2026-09-03T03:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Personal/Gift ideas.docx",
+  "source_url": null,
+  "content_hash": "sha256:ec84124e242aea63faabf2c656dfac15d562557f3b197973ec5b1d4609c971a6",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034823",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Personal/Meal plan.docx",
+  "title": "Meal plan.docx",
+  "content_type": "document",
+  "created_at": "2026-01-18T22:30:00Z",
+  "modified_at": "2026-03-08T20:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Personal/Meal plan.docx",
+  "source_url": null,
+  "content_hash": "sha256:8b4d3216de00b5ef71ade6aa7083cd8a5eca1c988b922bb52253595d249ec53d",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034824",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Personal/Monthly subscriptions.xlsx",
+  "title": "Monthly subscriptions.xlsx",
+  "content_type": "spreadsheet",
+  "created_at": "2025-10-27T01:00:00Z",
+  "modified_at": "2026-08-21T05:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Personal/Monthly subscriptions.xlsx",
+  "source_url": null,
+  "content_hash": "sha256:25f01f37e4bb85fedd198535ea0b5d8c1bebdefa8d28961427ea63c728727bf6",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Sheet exported as .xlsx (all tabs)",
+  "metadata": {
+   "format": "xlsx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034825",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Personal/Moving checklist Blacksburg to SF.docx",
+  "title": "Moving checklist Blacksburg to SF.docx",
+  "content_type": "document",
+  "created_at": "2026-06-29T01:00:00Z",
+  "modified_at": "2026-08-13T05:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Personal/Moving checklist Blacksburg to SF.docx",
+  "source_url": null,
+  "content_hash": "sha256:0cc4869a732f42a8289d277a1f5281e06a5637ce8acac241836febfc9385ebb7",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034826",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Personal/New Mac setup.docx",
+  "title": "New Mac setup.docx",
+  "content_type": "document",
+  "created_at": "2026-08-04T13:40:00Z",
+  "modified_at": "2026-08-04T20:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Personal/New Mac setup.docx",
+  "source_url": null,
+  "content_hash": "sha256:fa2e3f328ae6bd3ce92b869ee92161d7502696a7435a2e3a796c0a179be6be9e",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034827",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Personal/Parking ticket appeal.docx",
+  "title": "Parking ticket appeal.docx",
+  "content_type": "document",
+  "created_at": "2026-01-28T15:20:00Z",
+  "modified_at": "2026-01-28T15:55:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Personal/Parking ticket appeal.docx",
+  "source_url": null,
+  "content_hash": "sha256:ffb52710701a5bee3377578edcfd8832d5496d7ed50ae13222ade5e79ac988eb",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034828",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Personal/SF apartment comparison.xlsx",
+  "title": "SF apartment comparison.xlsx",
+  "content_type": "spreadsheet",
+  "created_at": "2026-07-09T02:40:00Z",
+  "modified_at": "2026-07-31T01:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Personal/SF apartment comparison.xlsx",
+  "source_url": null,
+  "content_hash": "sha256:96ce20efb671386b223bfb8978312126c9a6ebd9ec2c651080f5540588d3340a",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Sheet exported as .xlsx (all tabs)",
+  "metadata": {
+   "format": "xlsx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034829",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Personal/Sublet message drafts.docx",
+  "title": "Sublet message drafts.docx",
+  "content_type": "document",
+  "created_at": "2026-07-10T02:10:00Z",
+  "modified_at": "2026-07-31T01:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Personal/Sublet message drafts.docx",
+  "source_url": null,
+  "content_hash": "sha256:2af7865171b91fff6f37cea3798199ceb515b81e348af37e909997370622bea1",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034830",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Portfolio/Portfolio site redesign.docx",
+  "title": "Portfolio site redesign.docx",
+  "content_type": "document",
+  "created_at": "2026-07-13T00:30:00Z",
+  "modified_at": "2026-07-20T03:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Portfolio/Portfolio site redesign.docx",
+  "source_url": null,
+  "content_hash": "sha256:6962a37e452615e790df0e816f05164eae07a2a6ef23017869c70fd4bcea943d",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_portfolio"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034831",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/Reading group/Augmenting human intellect - notes.docx",
+  "title": "Augmenting human intellect - notes.docx",
+  "content_type": "document",
+  "created_at": "2026-03-05T02:15:00Z",
+  "modified_at": "2026-03-06T04:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/Reading group/Augmenting human intellect - notes.docx",
+  "source_url": null,
+  "content_hash": "sha256:6f0bbf0a0205336dd6443fd92b5e44b0b4d2f505f321bca08fe3f06b8aafc44d",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034832",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/my-drive/claude plugins/hc compaction experiment log.xlsx",
+  "title": "hc compaction experiment log.xlsx",
+  "content_type": "spreadsheet",
+  "created_at": "2026-08-18T05:30:00Z",
+  "modified_at": "2026-08-29T06:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/my-drive/claude plugins/hc compaction experiment log.xlsx",
+  "source_url": null,
+  "content_hash": "sha256:66ef6ad734c6a65c2edcdc0302b2b72353987009ed3cf41e959091aa34c07457",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Sheet exported as .xlsx (all tabs)",
+  "metadata": {
+   "format": "xlsx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_claude_code_plugins"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034833",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/shared-with-me/Landing page copy v1.docx",
+  "title": "Landing page copy v1.docx",
+  "content_type": "document",
+  "created_at": "2026-08-25T21:10:00Z",
+  "modified_at": "2026-08-26T18:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/shared-with-me/Landing page copy v1.docx",
+  "source_url": null,
+  "content_hash": "sha256:1cdae8470c6db8efec80ae68ade92d9f282d556ca9d427eaf6f91007fdc82cd5",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/shared-with-me file",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034834",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/shared-with-me/Landing page copy v3 (Hudson edits).docx",
+  "title": "Landing page copy v3 (Hudson edits).docx",
+  "content_type": "document",
+  "created_at": "2026-09-18T17:40:00Z",
+  "modified_at": "2026-09-22T23:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/shared-with-me/Landing page copy v3 (Hudson edits).docx",
+  "source_url": null,
+  "content_hash": "sha256:4994894c84f17e30909397125093ecb981945300a823c529510da8594fde2afa",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/shared-with-me file",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034835",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "davidbarron410@gmail.com/shared-with-me/Mathetic weekly - Surplus demo notes.docx",
+  "title": "Mathetic weekly - Surplus demo notes.docx",
+  "content_type": "document",
+  "created_at": "2026-08-22T00:30:00Z",
+  "modified_at": "2026-10-17T00:55:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/davidbarron410@gmail.com/shared-with-me/Mathetic weekly - Surplus demo notes.docx",
+  "source_url": null,
+  "content_hash": "sha256:f63f857ce4e860cd0c5c02822284d3823f2ef45121a56ab225e1dd60f573e3de",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/shared-with-me file",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "davidbarron410@gmail.com"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034836",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/Admin/Leave of absence plan.docx",
+  "title": "Leave of absence plan.docx",
+  "content_type": "document",
+  "created_at": "2026-06-20T03:05:00Z",
+  "modified_at": "2026-08-06T19:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/Admin/Leave of absence plan.docx",
+  "source_url": null,
+  "content_hash": "sha256:e4fcfe95ffa2ce71758429662d4d1fa987775c52ed3860ed26e9ba8ec4da095e",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vt_phd_admin"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034837",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/Admin/Plan of study - draft.docx",
+  "title": "Plan of study - draft.docx",
+  "content_type": "document",
+  "created_at": "2025-10-28T17:20:00Z",
+  "modified_at": "2026-07-31T13:50:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/Admin/Plan of study - draft.docx",
+  "source_url": null,
+  "content_hash": "sha256:d7db9b740e87e21c822585d3d4d8c5677f728d960faadbac919069f23e6428d9",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vt_phd_admin"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034838",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/Admin/Travel funding request - UIST 2026.docx",
+  "title": "Travel funding request - UIST 2026.docx",
+  "content_type": "document",
+  "created_at": "2026-09-23T03:10:00Z",
+  "modified_at": "2026-09-24T18:35:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/Admin/Travel funding request - UIST 2026.docx",
+  "source_url": null,
+  "content_hash": "sha256:6b021b61298727dd0ba32568c08f4cef643ad1ea1ea8b74735992c4c87002335",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vt_phd_admin"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034839",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/Advising/1-1 notes with Yan 2025-26.docx",
+  "title": "1-1 notes with Yan 2025-26.docx",
+  "content_type": "document",
+  "created_at": "2025-10-23T19:10:00Z",
+  "modified_at": "2026-07-30T20:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/Advising/1-1 notes with Yan 2025-26.docx",
+  "source_url": null,
+  "content_hash": "sha256:a97f2bdee3640ccb04c8aa6393f9db235427846b3c3be199d0079e79bb0e334a",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace",
+    "project_tutortrace",
+    "project_vizpi",
+    "project_vt_phd_admin"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034840",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/CS 3604/CS 3604 F25 grading.xlsx",
+  "title": "CS 3604 F25 grading.xlsx",
+  "content_type": "spreadsheet",
+  "created_at": "2025-10-20T18:10:00Z",
+  "modified_at": "2025-12-15T21:42:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/CS 3604/CS 3604 F25 grading.xlsx",
+  "source_url": null,
+  "content_hash": "sha256:6bed4572e789371d9433948b90e1a8269772cd10c93850e2d7a303b212aa5cc9",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Sheet exported as .xlsx (all tabs)",
+  "metadata": {
+   "format": "xlsx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": "HARD CASE: multi-tab sheet — P3 / P4 / Final / Regrades / Summary with cross-tab formulas, 64 fictional students"
+  }
+ },
+ {
+  "id": "item_034841",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/CS 3604/P4 late-day regrade response.docx",
+  "title": "P4 late-day regrade response.docx",
+  "content_type": "document",
+  "created_at": "2025-11-26T02:30:00Z",
+  "modified_at": "2025-11-26T03:02:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/CS 3604/P4 late-day regrade response.docx",
+  "source_url": null,
+  "content_hash": "sha256:059ee86b7835fe51c87c3c039ab8a9a0266c7e807fbeccc6a83e6ffb2f8e3042",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034842",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/Doc1.docx",
+  "title": "Doc1.docx",
+  "content_type": "document",
+  "created_at": "2026-02-26T03:40:00Z",
+  "modified_at": "2026-02-26T05:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/Doc1.docx",
+  "source_url": null,
+  "content_hash": "sha256:75d21ce65feded32c4e5267d685d0ee04035199bc5e06447dbf27d964f56105e",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": "HARD CASE: vague title — \"Doc1\" is a reading-group response on Licklider"
+  }
+ },
+ {
+  "id": "item_034843",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/Dynamite/Cluster labels review.xlsx",
+  "title": "Cluster labels review.xlsx",
+  "content_type": "spreadsheet",
+  "created_at": "2026-01-29T01:40:00Z",
+  "modified_at": "2026-02-05T04:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/Dynamite/Cluster labels review.xlsx",
+  "source_url": null,
+  "content_hash": "sha256:a14a3f1ad3d864559ba84f44f747e4ca114755f15b25c3408f8badf318532f58",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Sheet exported as .xlsx (all tabs)",
+  "metadata": {
+   "format": "xlsx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034844",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/Dynamite/Dynamite clustering notes.docx",
+  "title": "Dynamite clustering notes.docx",
+  "content_type": "document",
+  "created_at": "2026-01-15T03:30:00Z",
+  "modified_at": "2026-02-12T23:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/Dynamite/Dynamite clustering notes.docx",
+  "source_url": null,
+  "content_hash": "sha256:123d515e497eeadce728d4ab2e42dc1d6ac75b5e2f224f7dc1f3f7ed872f78fa",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034845",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/IDETrace/IDETrace datasheet draft.docx",
+  "title": "IDETrace datasheet draft.docx",
+  "content_type": "document",
+  "created_at": "2026-04-30T01:15:00Z",
+  "modified_at": "2026-07-25T14:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/IDETrace/IDETrace datasheet draft.docx",
+  "source_url": null,
+  "content_hash": "sha256:907d40438dc167474635c8efd2a0d8dc4cdc4395ef30d8c1a369c7f404da5add",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034846",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/IDETrace/IDETrace rebuttal numbers.xlsx",
+  "title": "IDETrace rebuttal numbers.xlsx",
+  "content_type": "spreadsheet",
+  "created_at": "2026-07-25T03:40:00Z",
+  "modified_at": "2026-07-29T20:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/IDETrace/IDETrace rebuttal numbers.xlsx",
+  "source_url": null,
+  "content_hash": "sha256:7c5b7d2f37220fc5b83f422fa83d83bc60fc1b3b152fa7cff3064a52a7b5d85e",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Sheet exported as .xlsx (all tabs)",
+  "metadata": {
+   "format": "xlsx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034847",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/ISE 6664/Final report outline.docx",
+  "title": "Final report outline.docx",
+  "content_type": "document",
+  "created_at": "2026-04-21T02:30:00Z",
+  "modified_at": "2026-05-08T03:55:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/ISE 6664/Final report outline.docx",
+  "source_url": null,
+  "content_hash": "sha256:14fc9c10d0f2f446c0d651bc153d6ef693eb42253498b5a1127e3ff3c35fa6d6",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034848",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/ISE 6664/ISE 6664 project proposal.docx",
+  "title": "ISE 6664 project proposal.docx",
+  "content_type": "document",
+  "created_at": "2026-01-30T00:45:00Z",
+  "modified_at": "2026-02-06T21:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/ISE 6664/ISE 6664 project proposal.docx",
+  "source_url": null,
+  "content_hash": "sha256:fea105a9b60737cd2a50541f06570365cc44a97e728d8be50e0a05e72848aff1",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034849",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/PRIME Lab/VizPI/Deployment 2 TA briefing.pptx",
+  "title": "Deployment 2 TA briefing.pptx",
+  "content_type": "slides",
+  "created_at": "2025-11-10T01:30:00Z",
+  "modified_at": "2025-11-12T03:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/PRIME Lab/VizPI/Deployment 2 TA briefing.pptx",
+  "source_url": null,
+  "content_hash": "sha256:fe91db5a179f82ffe60c1d1ee0f5d6750c07764e6364addedb57e077b10afc59",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Slides exported as .pptx",
+  "metadata": {
+   "format": "pptx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034850",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/PRIME Lab/VizPI/Deployment 2 day-of checklist.docx",
+  "title": "Deployment 2 day-of checklist.docx",
+  "content_type": "document",
+  "created_at": "2025-11-10T15:12:00Z",
+  "modified_at": "2025-11-12T18:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/PRIME Lab/VizPI/Deployment 2 day-of checklist.docx",
+  "source_url": null,
+  "content_hash": "sha256:203990f5698acdf986543fc2298a5cc2392c4ac7bb7eef8e594239c2f4c19c0e",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034851",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/PRIME Lab/VizPI/Labeling sprint Nov 2025.xlsx",
+  "title": "Labeling sprint Nov 2025.xlsx",
+  "content_type": "spreadsheet",
+  "created_at": "2025-11-14T14:30:00Z",
+  "modified_at": "2025-11-22T04:52:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/PRIME Lab/VizPI/Labeling sprint Nov 2025.xlsx",
+  "source_url": null,
+  "content_hash": "sha256:e7a8ccfc80fa163504d46af3ae674489f20c729666d27c8fc342a7704f0fe812",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Sheet exported as .xlsx (all tabs)",
+  "metadata": {
+   "format": "xlsx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034852",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/PRIME Lab/VizPI/Section B reconnect incident 2025-11-12.docx",
+  "title": "Section B reconnect incident 2025-11-12.docx",
+  "content_type": "document",
+  "created_at": "2025-11-13T02:40:00Z",
+  "modified_at": "2025-11-13T16:22:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/PRIME Lab/VizPI/Section B reconnect incident 2025-11-12.docx",
+  "source_url": null,
+  "content_hash": "sha256:e0889b173df7cef2cc253e5c9f22a7705301081a4f9a4bb15d40739c9bdc4142",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034853",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/PRIME Lab/VizPI/VizPI labeling guide v3.docx",
+  "title": "VizPI labeling guide v3.docx",
+  "content_type": "document",
+  "created_at": "2025-11-14T04:18:00Z",
+  "modified_at": "2025-11-17T02:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/PRIME Lab/VizPI/VizPI labeling guide v3.docx",
+  "source_url": null,
+  "content_hash": "sha256:406f6d2b25978702cc5c5d35406b12a24ba5019559888e9a2d32d1581d885954",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034854",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/TACode/TACode handoff doc (Nov 2025).docx",
+  "title": "TACode handoff doc (Nov 2025).docx",
+  "content_type": "document",
+  "created_at": "2025-11-18T21:40:00Z",
+  "modified_at": "2025-11-20T15:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/TACode/TACode handoff doc (Nov 2025).docx",
+  "source_url": null,
+  "content_hash": "sha256:e76c4e611ebafb4c2bcedb071b1cd64cdbded06c56d58fcbf3017e9a2c869620",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tacode"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034855",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/TutorTrace/Copy of UIST26 talk script.docx",
+  "title": "Copy of UIST26 talk script.docx",
+  "content_type": "document",
+  "created_at": "2026-10-03T01:44:00Z",
+  "modified_at": "2026-10-07T05:17:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/TutorTrace/Copy of UIST26 talk script.docx",
+  "source_url": null,
+  "content_hash": "sha256:94fbee17200cd04a621326115e21c602f6c4ec1615b59f0ba0577517f17cbcf6",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: near-duplicate — \"Copy of\" the talk script with a new opening, an extra number and two more timing rows"
+  }
+ },
+ {
+  "id": "item_034856",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/TutorTrace/UIST26 camera-ready checklist.docx",
+  "title": "UIST26 camera-ready checklist.docx",
+  "content_type": "document",
+  "created_at": "2026-07-06T18:02:00Z",
+  "modified_at": "2026-08-14T04:47:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/TutorTrace/UIST26 camera-ready checklist.docx",
+  "source_url": null,
+  "content_hash": "sha256:1f874fe2f96fffad965b602be8f28bad1866590da502249c25953b6ac34677bf",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034857",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/TutorTrace/UIST26 rebuttal draft.docx",
+  "title": "UIST26 rebuttal draft.docx",
+  "content_type": "document",
+  "created_at": "2026-06-12T14:20:00Z",
+  "modified_at": "2026-06-18T23:52:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/TutorTrace/UIST26 rebuttal draft.docx",
+  "source_url": null,
+  "content_hash": "sha256:65ea3137242c05a60293fbce9de6a28796c3162d094e9b253fac3557db5e9b00",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034858",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/TutorTrace/UIST26 talk assets.zip",
+  "title": "UIST26 talk assets.zip",
+  "content_type": "archive",
+  "created_at": "2026-10-05T04:08:00Z",
+  "modified_at": "2026-10-05T04:08:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/TutorTrace/UIST26 talk assets.zip",
+  "source_url": null,
+  "content_hash": "sha256:27a569c00c6e1f4cd28853e1b91c0bf122d1d39517ed8aaefd79f87b06d0bf75",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive .zip upload",
+  "metadata": {
+   "format": "zip",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: zip archive of files — slides PDF, three figure PNGs and notes inside one Drive zip"
+  }
+ },
+ {
+  "id": "item_034859",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/TutorTrace/UIST26 talk script.docx",
+  "title": "UIST26 talk script.docx",
+  "content_type": "document",
+  "created_at": "2026-09-22T05:05:00Z",
+  "modified_at": "2026-10-02T06:31:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/TutorTrace/UIST26 talk script.docx",
+  "source_url": null,
+  "content_hash": "sha256:5758c4d8be1695157e8d209795c84dcd2d896703deaf208b2161a6d640529e4c",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: near-duplicate — original of \"Copy of UIST26 talk script\""
+  }
+ },
+ {
+  "id": "item_034860",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/Untitled document.docx",
+  "title": "Untitled document.docx",
+  "content_type": "document",
+  "created_at": "2026-10-14T00:55:00Z",
+  "modified_at": "2026-10-14T01:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/Untitled document.docx",
+  "source_url": null,
+  "content_hash": "sha256:a99d75229d9c83906473fe0f0f6c3a6d3c6dc9b5e6faec0a2f2d5910e86445fc",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive Google Doc exported as .docx",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "HARD CASE: vague title — \"Untitled document\" holding Engelbart connect-screen notes after pilot B"
+  }
+ },
+ {
+  "id": "item_034861",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/my-drive/papers/Ostrowski2025_LAS_camera_ready.pdf",
+  "title": "Ostrowski2025_LAS_camera_ready.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-03-26T02:41:00Z",
+  "modified_at": "2026-03-26T02:41:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/my-drive/papers/Ostrowski2025_LAS_camera_ready.pdf",
+  "source_url": null,
+  "content_hash": "sha256:3996b37103ea179ff5b8080e4f8e8b1b1243968572445780ab5990332ddd98a5",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/my-drive uploaded PDF",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: same paper in several places — Ostrowski et al. 2025 camera-ready uploaded to Drive (also in zotero, pdfs, gmail, overleaf, slack)"
+  }
+ },
+ {
+  "id": "item_034862",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/shared-with-me/ISE 6664 Final Presentation - Frustration Signals.pptx",
+  "title": "ISE 6664 Final Presentation - Frustration Signals.pptx",
+  "content_type": "slides",
+  "created_at": "2026-04-22T19:10:00Z",
+  "modified_at": "2026-04-30T13:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/shared-with-me/ISE 6664 Final Presentation - Frustration Signals.pptx",
+  "source_url": null,
+  "content_hash": "sha256:a155508fa423b15bff8b21e357e65f11e462356e7c4bd0174aa181d18c59168d",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/shared-with-me file",
+  "metadata": {
+   "format": "pptx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034863",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "google-docs",
+  "source_id": "dbarron410@vt.edu/shared-with-me/PRIME Lab meeting agenda 2025-26.docx",
+  "title": "PRIME Lab meeting agenda 2025-26.docx",
+  "content_type": "document",
+  "created_at": "2025-10-21T13:00:00Z",
+  "modified_at": "2026-06-24T14:45:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/google-docs/dbarron410@vt.edu/shared-with-me/PRIME Lab meeting agenda 2025-26.docx",
+  "source_url": null,
+  "content_hash": "sha256:de70616a31e5c51902f7f372ea305c4934a2c089ca572127ffdde5efbd6b7598",
+  "library_item_id": null,
+  "modeled_on": "authentic/google-docs/<account>/shared-with-me file",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace",
+    "project_tacode",
+    "project_tutortrace",
+    "project_vizpi"
+   ],
+   "notes": null
+  }
+ }
+]

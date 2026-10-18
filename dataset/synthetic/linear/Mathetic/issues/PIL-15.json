@@ -1,0 +1,139 @@
+{
+  "issue": {
+    "id": "PIL-15",
+    "uuid": "f1215ef7-2ed9-4945-bbde-1d83eefeed3c",
+    "title": "Same paper imported twice (Zotero storage + ~/Downloads)",
+    "description": "From Priya's session (10/9). Her library showed *Productive Struggle or Silent Stalling?* (Ostrowski et al.) twice: once from `~/Zotero/storage/8KQ2M4ZD/Ostrowski et al. - 2025 - Productive Struggle or Silent Stalling.pdf` and once from `~/Downloads/2507.01842v1.pdf`. Same bytes. She found ~30 more like it while scrolling.\n\nNobody wants two cards for one file.",
+    "projectMilestone": {
+      "id": "752d1e60-9eb6-4c7b-a102-c1e5d03b5518",
+      "name": "Import fixes from pilot feedback shipped"
+    },
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-15/same-paper-imported-twice-zotero-storage-downloads",
+    "gitBranchName": "david/pil-15-same-paper-imported-twice-zotero-storage-downloads",
+    "createdAt": "2026-10-09T18:25:11.109Z",
+    "updatedAt": "2026-10-14T03:30:28.157Z",
+    "archivedAt": null,
+    "completedAt": "2026-10-14T03:30:28.157Z",
+    "startedAt": "2026-10-10T17:00:03.338Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [
+      "Bug",
+      "Import",
+      "Pilot feedback"
+    ],
+    "createdBy": "David Barron",
+    "assignee": "David Barron",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-15",
+    "attachments": [
+      {
+        "id": "c02badc4-7266-43cd-b6d2-2b80a3dfa9ee",
+        "title": "PR #214: Dedupe PDFs by sha256 and DOI; keep all locations",
+        "subtitle": null,
+        "url": "https://github.com/Mathetic-PBC/engelbart/pull/214"
+      }
+    ],
+    "documents": [
+      {
+        "id": "b10eb47f-cf44-421a-8830-a5d4b745ec35",
+        "title": "Import dedupe rules v0"
+      }
+    ],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-09T18:25:11.109Z",
+        "endedAt": "2026-10-10T17:00:03.338Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-10T17:00:03.338Z",
+        "endedAt": "2026-10-13T06:00:28.687Z"
+      },
+      {
+        "state": {
+          "id": "e3a46dc9-6296-4c54-ae33-c9bf85d6982a",
+          "name": "In Review",
+          "type": "started"
+        },
+        "startedAt": "2026-10-13T06:00:28.687Z",
+        "endedAt": "2026-10-14T03:30:28.157Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-10-14T03:30:28.157Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [
+        {
+          "id": "PIL-37",
+          "title": "Link versions of the same paper instead of merging (arXiv v1 vs camera-ready)"
+        }
+      ],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": [
+    {
+      "id": "f3b94c23-e270-4415-8256-510425756673",
+      "body": "Shipped content-hash dedupe + DOI match. Priya's PDFs: Zotero 760 + Downloads 454 = 1,214 files → 987 unique, 227 merged. Each merged card lists every location it was found in.",
+      "attachments": [],
+      "createdAt": "2026-10-14T03:25:28.381Z",
+      "updatedAt": "2026-10-14T03:25:28.381Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      },
+      "onBehalfOf": null
+    },
+    {
+      "id": "3a977edb-7d86-47ae-a1cf-f5f3f737051d",
+      "body": "Byte-identical → same sha256, rule 1 in the dedupe doc. But some pairs are *not* identical: arXiv v1 in Downloads vs the camera-ready in Zotero. Those should become one paper with two versions, not a merge (PIL-37).",
+      "attachments": [],
+      "createdAt": "2026-10-10T17:20:27.152Z",
+      "updatedAt": "2026-10-10T17:20:27.152Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      },
+      "onBehalfOf": null
+    }
+  ]
+}

@@ -1,0 +1,705 @@
+{
+ "id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Conversation — Elena Park (Berkeley, learning sciences)",
+ "created_at": "2026-09-09T16:59:02.000Z",
+ "updated_at": "2026-09-09T17:12:57.976Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "6370b1d3c270a8cecd4a8d3546",
+  "summary": "Conversation — Elena Park (Berkeley, learning sciences)",
+  "start": {
+   "dateTime": "2026-09-09T10:00:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-09-09T10:30:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true,
+    "organizer": true
+   },
+   {
+    "email": "epark@berkeley.edu",
+    "displayName": "Elena Park",
+    "responseStatus": "accepted"
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted"
+   }
+  ],
+  "organizer": {
+   "email": "david@mathetic.com"
+  },
+  "creator": {
+   "email": "david@mathetic.com"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=1ac6d001b98c68245a6ab67210c14910e719a89c",
+  "status": "confirmed",
+  "location": "UC Berkeley"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Elena Park",
+    "email": "epark@berkeley.edu"
+   },
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### About Elena\n\n- 3rd-year PhD, learning sciences (School of Education); qualitative methods, studies how middle-school teachers adopt simulation-based curricula\n- Current project: coding classroom video + teacher interviews; dissertation proposal in spring\n\n### Where her thinking lives\n\n- Analytic memos (grounded-theory habit): ~200 memos in Google Docs, one doc per week, dated headings\n- Paper notebook for classroom observations, photographed and dropped into a Drive folder (\"never looked at again\")\n- Zotero for literature, with notes inside Zotero items; tags inconsistent\n- Uses ChatGPT to rephrase codebook definitions and to \"argue with\" her interpretations; doesn't keep or revisit the chats\n- Tool graveyard: Notion (too much setup), Obsidian (graph view \"pretty but useless\"), Scrivener for the proposal\n\n### Pain points (quotes)\n\n- \"I know I wrote a memo about this in March. I just don't know which March.\"\n- \"The photo of the notebook page is the original, and it's the one thing I can't search.\"\n- \"When my advisor asks why I changed a code, the answer is in a chat I deleted.\"\n- Wants to be able to show her advisor the \"chain\" from a field observation to a code to a claim\n\n### Reactions / signals\n\n- Strong interest in being able to trace a claim back to an observation — \"that's literally what my methods section has to do\"\n- Skeptical of AI summarizing her memos: wants her words, not a paraphrase\n- Privacy: classroom data is IRB-restricted; anything with student info can't leave approved storage\n\n### Follow-ups\n\n- [ ] Send coffee card + thank-you\n- [ ] Ask whether we can look at the structure (not content) of her memo docs\n- [ ] Note for product: handwritten/photo notes are a real source; OCR is out of scope for now\n- Referred us to two people in her cohort\n",
+ "notes_plain": "About Elena\n\n3rd-year PhD, learning sciences (School of Education); qualitative methods, studies how middle-school teachers adopt simulation-based curricula\nCurrent project: coding classroom video + teacher interviews; dissertation proposal in spring\n\nWhere her thinking lives\n\nAnalytic memos (grounded-theory habit): ~200 memos in Google Docs, one doc per week, dated headings\nPaper notebook for classroom observations, photographed and dropped into a Drive folder (\"never looked at again\")\nZotero for literature, with notes inside Zotero items; tags inconsistent\nUses ChatGPT to rephrase codebook definitions and to \"argue with\" her interpretations; doesn't keep or revisit the chats\nTool graveyard: Notion (too much setup), Obsidian (graph view \"pretty but useless\"), Scrivener for the proposal\n\nPain points (quotes)\n\n\"I know I wrote a memo about this in March. I just don't know which March.\"\n\"The photo of the notebook page is the original, and it's the one thing I can't search.\"\n\"When my advisor asks why I changed a code, the answer is in a chat I deleted.\"\nWants to be able to show her advisor the \"chain\" from a field observation to a code to a claim\n\nReactions / signals\n\nStrong interest in being able to trace a claim back to an observation — \"that's literally what my methods section has to do\"\nSkeptical of AI summarizing her memos: wants her words, not a paraphrase\nPrivacy: classroom data is IRB-restricted; anything with student info can't leave approved storage\n\nFollow-ups\n\nSend coffee card + thank-you\nAsk whether we can look at the structure (not content) of her memo docs\nNote for product: handwritten/photo notes are a real source; OCR is out of scope for now\nReferred us to two people in her cohort\n",
+ "transcript": [
+  {
+   "id": "5da2d20c-ebef-4a1d-bb92-ba53e2ceb469",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:00:17.253Z",
+   "end_timestamp": "2026-09-09T17:00:29.189Z",
+   "text": "Okay, before we start, is it okay if I record this? It's just for us, it doesn't go anywhere, and I can delete it if you want.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "34a3ae33-af6c-4d35-9df6-26e4e670c21f",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:00:30.473Z",
+   "end_timestamp": "2026-09-09T17:00:37.032Z",
+   "text": "Yeah, that's totally fine. I record everything for my own work so I'd be a hypocrite.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "704e846e-3d07-46d2-b2a4-1605450f6b22",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:00:38.631Z",
+   "end_timestamp": "2026-09-09T17:00:52.438Z",
+   "text": "Ha. Great. So, um, first thanks for doing this. Really. Hudson's going to type, I'm going to mostly ask questions. There's no product pitch, we're just trying to understand how people work.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "f1ff680a-7ea1-46ee-b134-96335c82b7bb",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:00:53.881Z",
+   "end_timestamp": "2026-09-09T17:00:58.264Z",
+   "text": "Okay. Sure. Sorry about the espresso machine, by the way.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "c02ab16d-4766-4144-bcad-a8220ed1275b",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:01:00.047Z",
+   "end_timestamp": "2026-09-09T17:01:01.245Z",
+   "text": "We were warned.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "e85de8c7-d7c0-4559-b1e5-938ab681183e",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:01:03.251Z",
+   "end_timestamp": "2026-09-09T17:01:08.588Z",
+   "text": "It's been broken since June. It's a whole thing in our department.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "26c4f3b1-0364-4fa2-bfcc-d1266d3db800",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:01:08.864Z",
+   "end_timestamp": "2026-09-09T17:01:12.508Z",
+   "text": "So, warm-up. What are you working on this semester?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "553044a4-7a3d-4320-8a2e-348f1eb76361",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:01:14.148Z",
+   "end_timestamp": "2026-09-09T17:01:33.160Z",
+   "text": "Um, so I'm a third year in learning sciences. My project is on how middle-school science teachers adopt simulation-based curricula. Like, what they keep, what they quietly drop. So I'm coding a lot of classroom video and teacher interviews right now.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "854d523c-408f-4dd0-b434-976bf8f8b1fb",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:01:35.294Z",
+   "end_timestamp": "2026-09-09T17:01:36.293Z",
+   "text": "Qualitative, mostly?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "3834763a-a25c-4a1c-a959-e6912e8eb726",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:01:38.060Z",
+   "end_timestamp": "2026-09-09T17:01:47.368Z",
+   "text": "Almost all qual. Some descriptive counts. My proposal is in the spring, so I'm kind of trying to get the codebook stable.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "891c9dae-547a-4404-9ab8-f8ee2bafe222",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:01:47.724Z",
+   "end_timestamp": "2026-09-09T17:01:55.867Z",
+   "text": "Okay. Can you walk me through the last time you started something new? Like where the idea came from?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "6cd2b754-3d85-4d5d-a964-d49fe66e5aca",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:01:56.303Z",
+   "end_timestamp": "2026-09-09T17:02:12.775Z",
+   "text": "Hm. The current, um, the codebook revision started because I was watching a video of a teacher who skipped the simulation and drew it on the board instead. And I wrote this long memo about it, like, \"is this rejection or adaptation.\"",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "1a5850ab-c750-4d11-9458-a23e1b8956d1",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:02:14.561Z",
+   "end_timestamp": "2026-09-09T17:02:16.093Z",
+   "text": "When you say memo—",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "2487daac-8c69-459f-a662-01ad30d13d58",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:02:17.464Z",
+   "end_timestamp": "2026-09-09T17:02:26.996Z",
+   "text": "Analytic memos. It's a grounded theory thing. You write little reflections as you code. I have, um, probably two hundred of them.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "1047813e-2f3b-413a-ad30-bba430b0cfa9",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:02:28.633Z",
+   "end_timestamp": "2026-09-09T17:02:30.170Z",
+   "text": "Where do they live?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e48ba7a4-1355-454f-8676-c257036bcb11",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:02:30.454Z",
+   "end_timestamp": "2026-09-09T17:02:36.665Z",
+   "text": "Google Docs. One doc per week, with dated headings. Can I just show you?",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "4ac1eeda-cf40-4e32-8fe6-55bd1f6d1954",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:02:38.851Z",
+   "end_timestamp": "2026-09-09T17:02:40.972Z",
+   "text": "Please, yeah, if that's okay.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "abf54639-8f01-41e7-a210-6bc090e43d65",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:02:42.159Z",
+   "end_timestamp": "2026-09-09T17:02:51.066Z",
+   "text": "Okay so. This folder. \"Memos 2026.\" Each one is like, \"Week of March 2,\" and then inside it's a heading per day.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "dd96f443-5000-4d1c-9675-5a261979cb6c",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:02:52.840Z",
+   "end_timestamp": "2026-09-09T17:02:55.995Z",
+   "text": "And when you need to find one?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "6ce0f679-fa76-4466-a815-0bf644e34b4d",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:02:56.763Z",
+   "end_timestamp": "2026-09-09T17:03:08.565Z",
+   "text": "Ctrl-F. Or I just, honestly I remember roughly when and I scroll. \"I know I wrote a memo about this in March. I just don't know which March.\"",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "1118519f-6888-4d52-8662-57e05cdc7302",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:03:09.001Z",
+   "end_timestamp": "2026-09-09T17:03:09.950Z",
+   "text": "Ha.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ed2b97ab-85fc-409f-bbe2-0901385b2b01",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:03:11.614Z",
+   "end_timestamp": "2026-09-09T17:03:15.705Z",
+   "text": "I'm serious. I've had three Marches in this program.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "e5f14659-b345-43b4-8226-3ce6c5c13139",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:03:17.266Z",
+   "end_timestamp": "2026-09-09T17:03:21.400Z",
+   "text": "What about the classroom observations? Are those in the docs too?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "6e4e75aa-5bde-4ed6-94fb-58576648f7b1",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:03:21.814Z",
+   "end_timestamp": "2026-09-09T17:03:32.304Z",
+   "text": "No, those are in this. Paper notebook. I take it into the classroom because a laptop is, like, weird in a seventh grade room.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "825744bb-6cda-4529-810b-c17b825a3ca3",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:03:33.319Z",
+   "end_timestamp": "2026-09-09T17:03:34.196Z",
+   "text": "And then?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "847413f6-9051-4d5b-a41c-a8bc7306428a",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:03:34.672Z",
+   "end_timestamp": "2026-09-09T17:03:44.204Z",
+   "text": "Then I take photos of the pages and put them in a Drive folder. And I never look at them again.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "15c693c6-9ac1-4eda-a864-c3be1af22084",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:03:44.491Z",
+   "end_timestamp": "2026-09-09T17:03:45.411Z",
+   "text": "Never?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "40a13389-8b42-4ea3-b46a-6ed81de9d5bb",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:03:45.842Z",
+   "end_timestamp": "2026-09-09T17:03:54.566Z",
+   "text": "Basically never. Which is bad because the photo of the notebook page is the original. It's the one thing I can't search.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "e1690a43-2dff-49fc-8114-1dd6f3b4d5e6",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:03:56.197Z",
+   "end_timestamp": "2026-09-09T17:04:07.076Z",
+   "text": "Okay. That's — yeah. Um. When you write, like for the proposal, how do you find the thing you read or wrote months ago?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "a127265f-487f-4a6c-9b9a-30d1ed28c2a0",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:04:07.827Z",
+   "end_timestamp": "2026-09-09T17:04:17.481Z",
+   "text": "For literature, Zotero. I put notes inside the Zotero items. My tags are a disaster though. I have \"teacher-agency\" and \"teacher agency\" and \"agency (teacher).\"",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "857a31ca-3472-43ec-9e93-e80632714d40",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:04:18.043Z",
+   "end_timestamp": "2026-09-09T17:04:19.066Z",
+   "text": "Three tags.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "d8e1ffdd-fb11-4fee-acc7-4d6aaa2e50cf",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:04:19.966Z",
+   "end_timestamp": "2026-09-09T17:04:28.188Z",
+   "text": "At least three. For my own ideas, the memos. And then — I don't know. I just kind of hope.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "ae3d69b5-90ae-493c-9a40-83ef1000d7e2",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:04:29.587Z",
+   "end_timestamp": "2026-09-09T17:04:37.102Z",
+   "text": "Do you use any AI tools in this? You haven't brought it up, so it's fine if not.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "bbbd5810-79eb-47f1-b058-df17a08616f2",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:04:37.822Z",
+   "end_timestamp": "2026-09-09T17:04:54.386Z",
+   "text": "Oh, ChatGPT, yeah. I use it to rephrase code definitions, like when two codes overlap and I need sharper boundaries. And sometimes I argue with it. Like I'll paste my interpretation and say \"push back on this.\"",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "90e1d5a6-2e5c-4bc8-8653-038d95f99e2a",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:04:56.558Z",
+   "end_timestamp": "2026-09-09T17:04:59.268Z",
+   "text": "Do you go back to those chats?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "99b6ba6b-35a0-4aeb-ad1d-6ac90e70096a",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:05:01.284Z",
+   "end_timestamp": "2026-09-09T17:05:17.114Z",
+   "text": "No. Never. I don't even — honestly I delete them sometimes because I'm paranoid. And then... this happened last month. My advisor asked why I split a code into two, and the real answer was in a chat I deleted.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "968ed334-52af-42dc-9a8b-92bb354c3761",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:05:18.662Z",
+   "end_timestamp": "2026-09-09T17:05:20.308Z",
+   "text": "What did you do?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "642ffe69-9c45-44ed-a7f5-a8413d0a6f8e",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:05:22.150Z",
+   "end_timestamp": "2026-09-09T17:05:27.171Z",
+   "text": "I reconstructed it. Badly. Like, I made up a reasonable version of why.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "c06663f4-4e41-46e4-ba21-cb336cfaed85",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:05:29.198Z",
+   "end_timestamp": "2026-09-09T17:05:30.221Z",
+   "text": "Hm.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "3eda771c-bdd2-4230-83bd-a502562fc0c4",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:05:30.858Z",
+   "end_timestamp": "2026-09-09T17:05:38.067Z",
+   "text": "Which is, I mean, it's fine, it was a reasonable reason. But it's not the real history.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "2f5ecd40-3176-4d9b-bd8c-1dfac605c2b4",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:05:38.345Z",
+   "end_timestamp": "2026-09-09T17:05:42.116Z",
+   "text": "Can I ask what you've tried and stopped using?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "bc40a480-a0ba-4935-9466-79afa16501ba",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:05:42.753Z",
+   "end_timestamp": "2026-09-09T17:06:04.157Z",
+   "text": "Oh god. Notion. Too much setup. I spent a weekend building a database and then never opened it. Obsidian, a friend loved it, I tried for like a month. The graph view is pretty but useless. And Scrivener, for the proposal draft, but my advisor wants Google Docs comments so I moved back.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "be00f44e-426e-4e7f-bbd3-4a2ef68bc39b",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:06:05.089Z",
+   "end_timestamp": "2026-09-09T17:06:10.179Z",
+   "text": "The graph view thing — what would have made it useful?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "765f5f84-2815-4cd3-a3d3-425f6879c99d",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:06:12.222Z",
+   "end_timestamp": "2026-09-09T17:06:23.137Z",
+   "text": "If it showed me something I didn't already know? Like it just showed me links I made. I made them. I know about them.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "0e8c7ca3-6977-4f60-af9e-ef4e8fb3a7ef",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:06:23.694Z",
+   "end_timestamp": "2026-09-09T17:06:37.818Z",
+   "text": "That's a really good point actually. Okay, last real question, it's kind of a weird one. If you could ask your past self one question about this project, what would it be?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "f72a858c-9bc6-44d8-aec4-47397df8a911",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:06:38.720Z",
+   "end_timestamp": "2026-09-09T17:06:49.897Z",
+   "text": "Hmm. \"Why did you start coding teacher talk separately from teacher action.\" Because I did it in like February and I don't remember deciding it. It just happened.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "e62dc5e0-2b35-4f7d-aa8c-40b278b1ff2e",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:06:51.560Z",
+   "end_timestamp": "2026-09-09T17:06:53.654Z",
+   "text": "And that decision matters now?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "6530c455-f1fd-4f56-82fb-d02539e8e4ad",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:06:53.957Z",
+   "end_timestamp": "2026-09-09T17:07:08.901Z",
+   "text": "It's the spine of my codebook. So yes. My methods section has to explain the chain, like, this observation led to this memo led to this code led to this claim. And I can't fully do it.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "770ffeab-3655-49fb-9a82-cfa64758559b",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:07:10.550Z",
+   "end_timestamp": "2026-09-09T17:07:14.563Z",
+   "text": "If something could show that chain, would you use it?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ea0819f1-327a-4d5b-aa88-4ef6a2c8e1fc",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:07:15.520Z",
+   "end_timestamp": "2026-09-09T17:07:22.915Z",
+   "text": "That's literally what my methods section has to do. So yes. But — can I say a caveat?",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "67981dca-1094-46d8-9e84-b6958c16d02d",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:07:23.304Z",
+   "end_timestamp": "2026-09-09T17:07:24.220Z",
+   "text": "Please.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "4b7ee8a0-513b-4c2f-b61b-06c20302fd0c",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:07:24.786Z",
+   "end_timestamp": "2026-09-09T17:07:35.332Z",
+   "text": "I don't want an AI summarizing my memos. My memos are my words. If it paraphrases them it's useless to me. It has to show me the original.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "4c798f5b-b941-4245-9926-8a394452b2b0",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:07:36.110Z",
+   "end_timestamp": "2026-09-09T17:07:38.840Z",
+   "text": "Show the original, not a summary.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "64a7471c-7331-4d5a-b703-97c4f48bbde9",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:07:40.618Z",
+   "end_timestamp": "2026-09-09T17:07:55.418Z",
+   "text": "Yes. And the other thing, the classroom data is IRB-restricted. Anything with student names, faces, can't leave approved storage. So anything that wants to \"import everything\" is a non-starter for half my stuff.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "81bf85f1-689e-4e15-8921-a754b794f398",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:07:55.722Z",
+   "end_timestamp": "2026-09-09T17:08:06.889Z",
+   "text": "That's really important, thank you. We've been talking about import as, like, the magic moment, and you're saying for some of your stuff it's the scary moment.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "a6891a34-fbc6-4227-b465-959b7129e292",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:08:07.579Z",
+   "end_timestamp": "2026-09-09T17:08:12.448Z",
+   "text": "It's the scary moment, yeah. My IRB coordinator would actually die.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "f1ce6f28-8b7b-4122-9404-fb080ab993b1",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:08:12.711Z",
+   "end_timestamp": "2026-09-09T17:08:20.055Z",
+   "text": "Okay. Um, I think that's — that's everything I had. Is there anything you think we should have asked?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "7cd279e5-4326-43ff-9871-bab52ed6c2b6",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:08:21.104Z",
+   "end_timestamp": "2026-09-09T17:08:33.405Z",
+   "text": "Maybe how people share with their advisor? Like the memo docs are shared with my advisor and she comments in them. That's half of how ideas change.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "3196f44f-69bd-403a-8f28-bc3dea883410",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:08:35.341Z",
+   "end_timestamp": "2026-09-09T17:08:40.697Z",
+   "text": "Oh, that's a great one. Okay. Last thing, who else should we talk to?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d6432b07-4a63-427c-94a0-4fd3bbd13b3f",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:08:42.175Z",
+   "end_timestamp": "2026-09-09T17:08:56.549Z",
+   "text": "Two people in my cohort. One does quant ed stuff and keeps everything in Jupyter, and one's in, um, design, and she uses Figma for everything which is insane. I'll email them.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  },
+  {
+   "id": "d7095f98-9244-477b-8c41-bb3811ec0e84",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:08:58.435Z",
+   "end_timestamp": "2026-09-09T17:09:04.666Z",
+   "text": "That would be amazing. Thank you so much. Hudson has a coffee card for you.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ae81ab73-08e9-4059-9c70-3f3cecbefb26",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:09:05.774Z",
+   "end_timestamp": "2026-09-09T17:09:07.680Z",
+   "text": "For the broken espresso machine.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "de1c36b0-7d30-492c-a40a-36a35216f88e",
+   "document_id": "8d4a25d0-5bd5-4924-9eb6-3103065926e9",
+   "start_timestamp": "2026-09-09T17:09:09.558Z",
+   "end_timestamp": "2026-09-09T17:09:12.976Z",
+   "text": "Ha. Perfect. Thanks guys, this was fun actually.",
+   "source": "microphone",
+   "speaker": "Elena Park",
+   "is_final": true
+  }
+ ]
+}

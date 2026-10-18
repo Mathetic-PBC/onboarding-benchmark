@@ -1,0 +1,49 @@
+{
+ "uuid": "fbfd8303-ff7b-4814-ab9c-5875c1442f87",
+ "slug": "virginia-state-tax-return-deadline-2026-is-it-c5ibFqVjI8liuvz7iRwDMw",
+ "title": "Virginia state tax deadline 2026",
+ "thread_url": "https://www.perplexity.ai/search/virginia-state-tax-return-deadline-2026-is-it-c5ibFqVjI8liuvz7iRwDMw",
+ "created_at": "2026-04-08T16:30:00Z",
+ "updated_at": "2026-04-08T16:34:04Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "01280492-1cec-4f8a-8fd2-38651e7ed2b9",
+   "query_str": "virginia state tax return deadline 2026, is it april 15 like federal",
+   "answer": "No — Virginia's individual income tax deadline is **May 1** (for calendar-year filers), later than the federal April 15 deadline [1]. If May 1 falls on a weekend, it moves to the next business day. Virginia also grants an **automatic 6-month extension to file** (to November 1), but **not to pay**: at least 90% of the tax owed must be paid by May 1 to avoid an extension penalty [1][2].",
+   "sources": [
+    {
+     "name": "Virginia Tax — filing deadlines",
+     "url": "https://www.tax.virginia.gov/deadlines",
+     "snippet": "Individual return due May 1; automatic extension rules."
+    },
+    {
+     "name": "State tax deadlines that differ from the federal date",
+     "url": "https://www.taxdatesguide.com/state-deadlines",
+     "snippet": "List of states with non-April-15 deadlines."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "pplx_pro",
+   "created_at": "2026-04-08T16:30:00Z",
+   "updated_at": "2026-04-08T16:30:18Z"
+  },
+  {
+   "uuid": "82fca173-d893-4e6d-8292-e8620057d7b8",
+   "query_str": "i moved nowhere this year, just one w-2 with VA withholding. any reason not to just use free file",
+   "answer": "With one W-2 and no other income, Virginia's free e-file options are usually fine [1]. Check eligibility (income limits apply to some free-file partners) and make sure the **Virginia withholding (W-2 Box 17)** is entered correctly so the refund or balance comes out right [1].",
+   "sources": [
+    {
+     "name": "Virginia Tax — free filing options",
+     "url": "https://www.tax.virginia.gov/free-file",
+     "snippet": "Free e-file options and eligibility."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "gpt-5",
+   "created_at": "2026-04-08T16:33:38Z",
+   "updated_at": "2026-04-08T16:33:47Z"
+  }
+ ]
+}

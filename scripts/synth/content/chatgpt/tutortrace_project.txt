@@ -1,0 +1,282 @@
+Chats inside the ChatGPT Project "TutorTrace UIST" (gizmo g-p-…, gizmo_type snorlax). All project_tutortrace.
+
+### CONV tt-kappa-reporting
+title: Reporting kappa for 3 raters
+start: 2026-03-26 23:41
+projects: project_tutortrace
+gizmo: tutortrace
+notes: HARD CASE: chats inside projects — ChatGPT Project "TutorTrace UIST"; kappa reporting during the UIST crunch
+---
+@user
+ok so for tutortrace we had 3 raters (me, minsun, xiaohang) label 30s windows into 5 states. 412 windows were triple labeled. i computed pairwise cohen kappa and got 0.74, 0.69, 0.70. can i just report 0.71 as "kappa across 3 raters"? reviewers at uist are going to look at this
+@assistant
+Short answer: don't report the mean of pairwise Cohen's kappas as if it were a single multi-rater statistic without saying so. Two clean options:
+
+**Option A: Fleiss' kappa (or Krippendorff's alpha)**
+Both are designed for >2 raters. If every one of the 412 windows was labeled by all three of you, Fleiss' kappa is the textbook choice. Krippendorff's alpha (nominal) is more robust if any window is missing a label and is increasingly what HCI reviewers expect.
+
+**Option B: Mean pairwise Cohen's kappa (Light's kappa)**
+Averaging pairwise Cohen's kappas is a known statistic, *Light's kappa*. That is exactly what you computed: (0.74 + 0.69 + 0.70) / 3 = 0.71. It's legitimate as long as you name it.
+
+Suggested sentence:
+
+> Three authors independently labeled a stratified sample of 412 windows. Agreement was substantial (Light's κ = 0.71; pairwise Cohen's κ = 0.69–0.74).
+
+If you have time, compute Krippendorff's alpha too and put it in a footnote. It will land very close to 0.71 if your marginals are similar across raters.
+
+Want the code for alpha from your label CSV?
+@user
+yes. csv is window_id, rater, label
+@assistant
+```python
+import pandas as pd
+import krippendorff  # pip install krippendorff
+
+df = pd.read_csv("triple_labels.csv")  # window_id, rater, label
+# reliability matrix: raters x units
+mat = df.pivot(index="rater", columns="window_id", values="label")
+
+# map string labels to ints, keep NaN for missing
+codes = {lab: i for i, lab in enumerate(sorted(df["label"].unique()))}
+mat = mat.apply(lambda col: col.map(codes))
+
+alpha = krippendorff.alpha(reliability_data=mat.to_numpy(dtype=float),
+                           level_of_measurement="nominal")
+print(f"Krippendorff's alpha (nominal): {alpha:.3f}")
+```
+
+Sanity checks before you trust the number:
+- `mat.shape` should be `(3, 412)`.
+- `mat.isna().sum().sum()` should be 0 if every window was triple labeled.
+- Print `df.groupby("rater").label.value_counts(normalize=True)`. If one rater uses "stalled" much more often than the others, that will drag alpha down more than kappa.
+@user
+alpha = 0.708. ok nice. also should i report per-class agreement? stalled-after-error is the one we disagree on most
+@assistant
+Yes, and it helps you. Reviewers trust a paper more when it shows where agreement breaks down.
+
+Report per-class agreement as one-vs-rest kappa (or per-class F1 between raters) in a small table:
+
+| State | one-vs-rest κ |
+|---|---|
+| productive | … |
+| stalled-after-error | … |
+| help-seeking | … |
+| off-task | … |
+| idle | … |
+
+Then one sentence of interpretation, e.g.: *"Disagreement concentrated in stalled-after-error vs. productive, which differ mainly in whether the student's next edit addresses the error; we resolved these by discussion and refined the guide (v3)."*
+
+That ties the reliability number to the labeling guide revision, which is the story you already have.
+@user
+be concise. one-vs-rest code
+@assistant
+```python
+from sklearn.metrics import cohen_kappa_score
+import itertools, numpy as np
+
+wide = df.pivot(index="window_id", columns="rater", values="label")
+raters = wide.columns
+for state in sorted(df.label.unique()):
+    ks = [cohen_kappa_score(wide[a] == state, wide[b] == state)
+          for a, b in itertools.combinations(raters, 2)]
+    print(f"{state:22s} {np.mean(ks):.2f}")
+```
+
+### CONV tt-abstract-150
+title: Tighten UIST abstract
+start: 2026-03-30 01:12
+projects: project_tutortrace
+gizmo: tutortrace
+notes: HARD CASE: chats inside projects — ChatGPT Project "TutorTrace UIST"; abstract cut on deadline week
+---
+@user
+need this under 150 words, dont change the claims. dont add anything we didnt do
+
+TutorTrace is a system that records fine-grained telemetry from students' programming sessions in an introductory CS course and replays them so that instructors and teaching assistants can see where students get stuck. We deployed TutorTrace in a CS2 course with 87 students over two lab sessions and collected 2,340 thirty-second windows of activity, which three researchers labeled into five behavioral states including a new "stalled-after-error" state. Agreement between the raters was substantial. We then built a classifier that uses keystroke, run, and error features to predict these states and found that it could identify stalled-after-error windows reliably. In a study with 6 TAs, we found that TAs who used the TutorTrace replay timeline identified struggling students earlier and reported that the timeline helped them prioritize which students to visit during lab. We discuss implications for designing instructor-facing telemetry tools and the privacy concerns raised by collecting such data.
+@assistant
+Here's a 138-word version. Claims and numbers unchanged:
+
+> TutorTrace records fine-grained programming telemetry from introductory CS students and replays it so instructors and teaching assistants can see where students get stuck. We deployed TutorTrace in a CS2 course (87 students, two lab sessions), collecting 2,340 thirty-second activity windows that three researchers labeled into five behavioral states, including a new *stalled-after-error* state, with substantial agreement. A classifier over keystroke, run, and error features reliably identified stalled-after-error windows. In a study with six TAs, those using TutorTrace's replay timeline identified struggling students earlier and reported that it helped them prioritize whom to visit during lab. We discuss implications for instructor-facing telemetry tools and the privacy concerns such data collection raises.
+
+Two notes:
+- "reliably" is doing work without a number. If you have the per-class F1, put it in: "(F1 = 0.xx)".
+- "earlier" is also a comparative claim with no baseline named. If the comparison is against TAs without the timeline, say "than TAs without it".
+@user
+f1 for stalled is 0.68. is that "reliably" lol
+@assistant
+Not really. 0.68 is decent for a five-class behavioral label from telemetry, but "reliably" invites a reviewer to push back. Say what it is:
+
+> A classifier over keystroke, run, and error features identified stalled-after-error windows with F1 = 0.68.
+
+That's 2 words longer and much harder to attack.
+
+### CONV tt-rebuttal-reliability
+title: Rebuttal reply on label reliability
+start: 2026-06-14 22:05
+projects: project_tutortrace
+gizmo: tutortrace
+notes: HARD CASE: chats inside projects — ChatGPT Project "TutorTrace UIST"; rebuttal phrasing (reviews 06-11, due 06-18)
+---
+@user
+uist reviews are in. R2 says: "The labeling procedure is underspecified. How were disagreements resolved, and is kappa computed before or after discussion? A kappa of 0.71 may be inflated if computed on adjudicated labels."
+
+we computed it BEFORE discussion. draft a reply, max ~120 words, not defensive
+@assistant
+Draft (112 words):
+
+> **R2, label reliability.** We thank R2 for raising this. κ = 0.71 (Light's κ; Krippendorff's α = 0.71) was computed on the three raters' *independent* labels for 412 windows, **before** any discussion or adjudication. Disagreements were then resolved by discussion, and the resolved labels, not the agreement statistic, were used for training. We will (1) state the order of computation explicitly in Sec. 4.2, (2) add per-state one-vs-rest κ, which shows disagreement concentrated in *stalled-after-error* vs. *productive*, and (3) include the labeling guide (v3) with decision rules for that boundary as supplementary material.
+
+It concedes the underspecification without conceding inflation, and every promise is cheap to keep.
+@user
+ok good. R1 asks if it generalizes beyond one course. we only have cs3114 data. yan says promise a cross course analysis. how do i say that without overpromising
+@assistant
+Promise something you can definitely run before camera-ready, scoped to data you already have or can get. Example:
+
+> **R1, generalization.** We agree this is the main limitation. Our deployment covers one course (CS2, two lab sections). For the camera-ready we will add a cross-course analysis applying the classifier, without retraining, to [N] sessions from [second course/semester], reporting per-state F1, and we will expand the Limitations section to discuss course-specific features (e.g., assignment-specific error types).
+
+Fill the brackets only if Yan has confirmed access to that data. If not, the safer version is:
+
+> …we will add a cross-course analysis on sessions from an additional course offering where available, and in any case expand the Limitations section…
+
+The second version is weaker but impossible to break.
+@user
+he said we can use the fall 2025 cs3114 section B data which is a different semester + different TA team. is that "cross course" though
+@assistant
+Not really. It's the same course, a different offering. Call it what it is, which is still useful:
+
+> …a **cross-offering** analysis on a second semester of the course (different TAs and assignments)…
+
+If a reviewer reads "cross-course" and later sees one course, that's a credibility hit at camera-ready time. "Cross-offering" plus an honest Limitations paragraph is the stronger move.
+@user +40m
+total rebuttal is at 5,410 chars and limit is 5,000. here are the 3 longest paragraphs, cut 410 chars total without dropping any promise
+
+[R2 para above]
+[R1 para with cross-offering]
+"R3, privacy. We share R3's concern. All telemetry was collected under an IRB-approved protocol (#24-0917) with opt-in consent; 9 of 96 students declined and their data was never recorded. Data is stored on university servers, keystroke content is hashed for all non-code fields, and TAs in the study saw only pseudonymous IDs. We will add a dedicated paragraph on privacy and the risks of instructor-facing surveillance to the Discussion, and we will clarify that TutorTrace is not intended for grading."
+@assistant
+Cuts (~430 chars saved):
+
+**R2:** "We thank R2 for raising this." → delete (–30). "(Light's κ; Krippendorff's α = 0.71)" → "(Light's κ)" (–28). "with decision rules for that boundary" → delete (–37).
+
+**R1:** "We agree this is the main limitation." → "Agreed." (–31). "applying the classifier, without retraining, to" → "applying the unretrained classifier to" (–10). "(e.g., assignment-specific error types)" → delete (–39).
+
+**R3:** "We share R3's concern." → delete (–23). "Data is stored on university servers, keystroke content is hashed for all non-code fields, and TAs in the study saw only pseudonymous IDs." → "Non-code keystrokes are hashed, data stays on university servers, and TAs saw only pseudonymous IDs." (–48). "we will add a dedicated paragraph on privacy and the risks of instructor-facing surveillance to the Discussion" → "we will add a Discussion paragraph on privacy and surveillance risks" (–44). "and we will clarify that" → "and clarify that" (–8).
+
+That's ~298 from these three. To get the last ~120, trim your opening thank-you line to one sentence. That's usually the cheapest place.
+
+### CONV tt-rebuttal-final-read
+title: Final read of rebuttal
+start: 2026-06-18 14:20
+projects: project_tutortrace
+gizmo: tutortrace
+notes: HARD CASE: chats inside projects — ChatGPT Project "TutorTrace UIST"; last check before rebuttal submission 06-18
+---
+@user
+last pass before i submit. anything here that reads as overpromising or passive aggressive? just flag lines, dont rewrite everything
+
+"We thank the reviewers for their careful reading. We address the three main concerns: label reliability (R2), generalization (R1, R3), and privacy (R3).
+R2 — κ was computed on independent labels before adjudication...
+R1 — ...we will add a cross-offering analysis on a second semester of the course...
+As R1 may have missed, Section 5.3 already reports a TA study with six participants.
+R3 — ..."
+@assistant
+One line to fix:
+
+- **"As R1 may have missed, Section 5.3 already reports…"** reads as passive-aggressive. Use: *"Section 5.3 reports a TA study (n = 6); we will surface it earlier in the introduction."* That way you take the blame for it being easy to miss.
+
+Everything else reads as appropriately scoped. "Cross-offering" is accurate and the privacy promise is concrete. Good to submit.
+@user
+submitted. thx
+@assistant
+Good luck. If you get a conditional accept, save this chat. The camera-ready checklist is basically the promises in this rebuttal.
+
+### CONV tt-camera-ready-privacy
+title: Camera-ready limitations + privacy
+start: 2026-08-12 22:30
+projects: project_tutortrace
+gizmo: tutortrace
+notes: HARD CASE: chats inside projects — ChatGPT Project "TutorTrace UIST"; camera-ready (due 08-14) privacy paragraph
+---
+@user
+camera ready due friday (8/14). we promised a privacy paragraph in discussion + expanded limitations. cross offering analysis is done: unretrained classifier on fall 25 section B got macro f1 0.66 vs 0.72 in-offering. stalled-after-error f1 dropped 0.68 -> 0.61. write me a limitations paragraph, academic but not hedgy, ~150 words
+@assistant
+> **Limitations.** Our data come from a single course at one institution. To probe generalization, we applied the classifier without retraining to a second offering of the course with different TAs and assignments. Macro-F1 fell from 0.72 to 0.66, and F1 for *stalled-after-error* from 0.68 to 0.61, suggesting that some features (e.g., assignment-specific error types) do not transfer. We did not evaluate other courses, languages, or institutions, and expect larger drops where error vocabularies differ. Labels were produced by three authors familiar with the course. Although agreement was substantial (Light's κ = 0.71), the labels encode our reading of student behavior rather than students' own accounts of being stuck. Finally, the TA study (n = 6) measured perceived prioritization and time-to-visit within lab sessions, not learning outcomes.
+
+148 words. The last sentence pre-empts the "does this help students learn?" question that will come up at the talk.
+@user
+now privacy paragraph. points: opt-in, 9 of 96 declined, hashing non-code keystrokes, pseudonymous ids, not for grading, risk of surveillance creep
+@assistant
+> **Privacy and surveillance.** Instructor-facing telemetry can easily become surveillance. TutorTrace collected data only from students who opted in (87 of 96; nine declined and were never recorded), hashed all keystrokes outside code files, and showed TAs pseudonymous IDs only. We designed TutorTrace to help TAs decide *whom to visit*, not to evaluate students, and it should not be used for grading. Still, the same replay that helps a TA notice a stalled student could be used to monitor effort or penalize idle time. Deployments should make the purpose explicit to students, limit retention to the course term, and give students a way to view their own timeline. Tools in this space should be judged not only by how well they detect struggle but by how they shift the power relationship between students and course staff.
+@user
+"shift the power relationship" sounds a bit much for uist. tone down the last sentence
+@assistant
+> Tools in this space should be evaluated not only on how well they detect struggle but on how they change what students can expect to have observed about them.
+
+Or, more plainly:
+
+> Detection accuracy alone is therefore an incomplete measure of such tools.
+
+### CONV tt-talk-outline
+title: UIST talk outline 15 min
+start: 2026-09-22 21:15
+projects: project_tutortrace
+gizmo: tutortrace
+notes: HARD CASE: chats inside projects — ChatGPT Project "TutorTrace UIST"; talk outline for 10-07
+---
+@user
+uist talk is oct 7, 15 min + 5 q&a, session "learning & tutoring". give me a slide outline. i want to open with a story of a student stuck, not with related work. ~14 slides max
+@assistant
+**TutorTrace talk: 15 min, 13 slides**
+
+1. **Title** (0:00–0:20). TutorTrace, authors, VT logo. Don't read it.
+2. **A student at 3:47 pm** (0:20–1:30). One student's replay: runs code, gets `IndexError`, 4 minutes of no edits, tab-switches, a near-identical re-run. "From the front of the lab, this student looks busy."
+3. **The TA's view** (1:30–2:15). 87 students, 3 TAs, a hand-raise queue. TAs triage by who asks, not who's stuck.
+4. **The question** (2:15–2:45). Can telemetry show TAs *who is stuck* in time to help?
+5. **TutorTrace system** (2:45–4:15). Capture → 30s windows → replay timeline. Short screen recording (20s).
+6. **Deployment** (4:15–5:00). CS2, 87 students, two lab sections, 2,340 windows.
+7. **Five states + stalled-after-error** (5:00–6:30). Show the one boundary that matters: productive vs stalled-after-error. Use the slide-2 student as the example.
+8. **Labeling reliability** (6:30–7:15). Light's κ = 0.71, where disagreement lived, guide v3.
+9. **Classifier** (7:15–8:30). Features, F1 = 0.68 for stalled-after-error, cross-offering drop (0.72 → 0.66 macro).
+10. **TA study** (8:30–10:30). n = 6, earlier identification, quotes from TAs about prioritizing.
+11. **What we got wrong / limitations** (10:30–11:45). One course, labels are our reading, not learning outcomes.
+12. **Privacy** (11:45–13:00). Opt-in, hashing, not for grading, the surveillance risk.
+13. **Takeaway** (13:00–14:00). Go back to the slide-2 student: "TutorTrace would have flagged her at minute 2, not minute 9." Then thank you.
+
+Leave 1 min buffer. You'll go long on slide 5.
+@user
+the "flagged at minute 2" thing, is that true? i dont want to make up a number
+@assistant
+Good instinct. Only say it if you check that specific session: find the window where the classifier first output *stalled-after-error* and the time the TA actually visited (if you have it from the TA study logs). If you don't have the visit time, say something you can verify, e.g.:
+
+> "The classifier flagged this session as stalled two minutes after the error."
+
+and drop the comparison to minute 9.
+@user
+we have it. classifier flagged at 2:10 after the error, ta visited at 8:40. ok keep it but exact numbers
+@assistant
+> "TutorTrace flagged her two minutes after the error. A TA reached her six and a half minutes later."
+
+Accurate, and it shows the gap is the triage problem, not detection.
+
+### CONV tt-qa-prep
+title: Q&A prep for UIST talk
+start: 2026-10-05 22:48
+projects: project_tutortrace
+gizmo: tutortrace
+notes: HARD CASE: chats inside projects — ChatGPT Project "TutorTrace UIST"; Q&A prep two days before the 10-07 talk
+---
+@user
+talk is wednesday. give me the 8 hardest questions someone could ask in q&a and a 2 sentence answer for each. be concise
+@assistant
+1. **"Did students learn more?"** We didn't measure learning outcomes. We measured whether TAs found stuck students sooner, which is a precondition, and a learning study is the obvious next step.
+2. **"Isn't this surveillance?"** It can be, which is why it was opt-in, pseudonymous and explicitly not for grading. The risk is real, and our Discussion argues deployments need student-visible timelines and short retention.
+3. **"Why should I trust your labels?"** Three raters, κ = 0.71 computed before adjudication, with the guide released. The weakest boundary is stalled-after-error vs. productive, and we report that.
+4. **"Does it generalize?"** Only partly. Unretrained on a second offering, macro-F1 dropped from 0.72 to 0.66, so course-specific features matter.
+5. **"Why not just use the LLM's chat logs?"** Many stuck students never ask. Telemetry catches the silent ones, and that's the population TAs miss.
+6. **"Six TAs is tiny."** Yes. It's a formative study about workflow, not an effect-size claim, and we frame it that way.
+7. **"Couldn't a simple idle timer do this?"** Idle time alone confuses reading and thinking with being stuck. The error context is what separates stalled-after-error from a pause, and it carries most of the F1.
+8. **"What would you do differently?"** Recruit a second course before building the classifier, and involve students in deciding what TAs get to see.
+@user
+tomas reyes (session chair) emailed that q&a might be cut to 3 min bc the session is running long. which 3 do i prepare hardest
+@assistant
+1, 2 and 4. Learning outcomes, surveillance and generalization are the questions UIST audiences ask most about education systems. If you get #7, you can answer it fast.

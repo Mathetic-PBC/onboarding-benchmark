@@ -1,0 +1,925 @@
+{
+ "id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Engelbart pilot onboarding — Priya Raman",
+ "created_at": "2026-10-09T17:29:15.000Z",
+ "updated_at": "2026-10-09T17:55:15.203Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "98afd86c98677950d0779b33b4",
+  "summary": "Engelbart pilot onboarding — Priya Raman",
+  "start": {
+   "dateTime": "2026-10-09T10:30:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-10-09T11:15:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true
+   },
+   {
+    "email": "praman@berkeley.edu",
+    "displayName": "Priya Raman",
+    "responseStatus": "accepted"
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted",
+    "organizer": true
+   }
+  ],
+  "organizer": {
+   "email": "hudson@mathetic.com"
+  },
+  "creator": {
+   "email": "hudson@mathetic.com"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=c405392da0e4741f185fa6e1f7d942c7e8b94d9c",
+  "status": "confirmed",
+  "hangoutLink": "https://meet.google.com/kdp-nssv-hln"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Priya Raman",
+    "email": "praman@berkeley.edu"
+   },
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### Setup tour (10 min)\n\n- Claude: 9 Projects + loose conversations; Zotero (~600 items); ~/Downloads full of PDFs; Obsidian daily notes (not connected — no connector yet)\n- Paragraph she brought: chapter 2 intro on \"help-seeking as a design material\"\n\n### Connect + import (live)\n\n- Connected: Claude export, Zotero, Local PDFs (~/Downloads), skipped ChatGPT (doesn't use it)\n- Connect screen: no hesitation on the main tiles; asked \"is Obsidian under Other?\" — no, Other is file upload\n- Import summary: Claude 412 conversations imported; her account page says ~550 → **~140 Claude chats missing**\n- Likely cause: export split into two files (conversations.json + a second part); importer only read the first — to verify\n- Duplicates: same papers in Zotero and Downloads shown twice; badge only showed on 9 of ~30 obvious pairs (Downloads copies are publisher PDFs, Zotero has arXiv)\n- Import time: ~11 minutes total; PDFs slowest\n\n### Writing task (15 min)\n\n- First confirmed suggestion at ~6 min into the task: a Claude chat from March where she worked out the \"design material\" framing\n- Reaction: \"Okay that's the thing. That's where that came from.\" — loved the \"where did this thought come from\" trail\n- Wanted to see the Zotero note next to the paper in the trail, not just the PDF\n- Annoyed by duplicate suggestions (same paper twice in the 3 candidates)\n\n### Priya's asks\n\n1. Get all her Claude chats (non-negotiable)\n2. Collapse duplicate papers — at least in suggestions\n3. Claude Projects as groups\n4. Obsidian later\n\n### Action items\n\n- [ ] David — investigate missing ~140 Claude chats (multi-file export?) today\n- [ ] David — dedupe in suggestions: never show two candidates with the same DOI/title\n- [ ] Hudson — send Priya a summary + \"what we'll fix\" list\n- [ ] Follow-up session in 1 week\n",
+ "notes_plain": "Setup tour (10 min)\n\nClaude: 9 Projects + loose conversations; Zotero (~600 items); ~/Downloads full of PDFs; Obsidian daily notes (not connected — no connector yet)\nParagraph she brought: chapter 2 intro on \"help-seeking as a design material\"\n\nConnect + import (live)\n\nConnected: Claude export, Zotero, Local PDFs (~/Downloads), skipped ChatGPT (doesn't use it)\nConnect screen: no hesitation on the main tiles; asked \"is Obsidian under Other?\" — no, Other is file upload\nImport summary: Claude 412 conversations imported; her account page says ~550 → ~140 Claude chats missing\nLikely cause: export split into two files (conversations.json + a second part); importer only read the first — to verify\nDuplicates: same papers in Zotero and Downloads shown twice; badge only showed on 9 of ~30 obvious pairs (Downloads copies are publisher PDFs, Zotero has arXiv)\nImport time: ~11 minutes total; PDFs slowest\n\nWriting task (15 min)\n\nFirst confirmed suggestion at ~6 min into the task: a Claude chat from March where she worked out the \"design material\" framing\nReaction: \"Okay that's the thing. That's where that came from.\" — loved the \"where did this thought come from\" trail\nWanted to see the Zotero note next to the paper in the trail, not just the PDF\nAnnoyed by duplicate suggestions (same paper twice in the 3 candidates)\n\nPriya's asks\n\n1. Get all her Claude chats (non-negotiable)\n2. Collapse duplicate papers — at least in suggestions\n3. Claude Projects as groups\n4. Obsidian later\n\nAction items\n\nDavid — investigate missing ~140 Claude chats (multi-file export?) today\nDavid — dedupe in suggestions: never show two candidates with the same DOI/title\nHudson — send Priya a summary + \"what we'll fix\" list\nFollow-up session in 1 week\n",
+ "transcript": [
+  {
+   "id": "d0954ceb-a837-4f42-a8ec-7f1f7af62bdf",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:30:16.314Z",
+   "end_timestamp": "2026-10-09T17:30:18.784Z",
+   "text": "Hi Priya! Can you hear us?",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "f9a1884d-0393-4bde-8d32-7bb83d6b519a",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:30:19.175Z",
+   "end_timestamp": "2026-10-09T17:30:21.468Z",
+   "text": "Yep! Hi! David, how was UIST?",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "8e5c33c8-8c7e-4c4c-96c6-b2238a70226f",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:30:23.096Z",
+   "end_timestamp": "2026-10-09T17:30:29.468Z",
+   "text": "Hi! Good. Tired. I got back last night. The talk went fine, I didn't go over.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d79486d0-9def-4035-97a8-4a70a54919ef",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:30:31.237Z",
+   "end_timestamp": "2026-10-09T17:30:33.089Z",
+   "text": "Did you go over?",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "7d8fd5ba-1c59-4b9b-bf1d-9ded8c1ad70a",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:30:34.386Z",
+   "end_timestamp": "2026-10-09T17:30:36.443Z",
+   "text": "I just said I didn't!",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "02e1dac4-7879-4e0b-90a1-b683276bc602",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:30:38.518Z",
+   "end_timestamp": "2026-10-09T17:30:42.960Z",
+   "text": "I'm just checking. Okay, I'm so excited, let's break your thing.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "3cd88815-62ca-4561-9429-7866737d21e1",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:30:44.893Z",
+   "end_timestamp": "2026-10-09T17:30:51.717Z",
+   "text": "Ha. Please do. Okay, so, um, first: is it okay to record? Hudson's running Granola.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "c39029c9-ae85-4123-88f8-93152e41dd34",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:30:52.532Z",
+   "end_timestamp": "2026-10-09T17:30:53.750Z",
+   "text": "Yes, record everything.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "a8acc6e6-b658-42e4-95f7-127935cdf927",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:30:54.020Z",
+   "end_timestamp": "2026-10-09T17:31:09.613Z",
+   "text": "Great. So before we start, three known gaps, so you don't find them yourself. One, Claude Projects come in as loose conversations, we don't know which project they're in yet. Two, no Google Drive yet. Three, dedupe is basic.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "593f71b3-2384-4d66-afa2-26e8a43d3eb3",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:31:10.984Z",
+   "end_timestamp": "2026-10-09T17:31:12.493Z",
+   "text": "Oh no. The dedupe.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "3e3124cb-40b1-4217-84dd-f73fa5d25b45",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:31:13.611Z",
+   "end_timestamp": "2026-10-09T17:31:15.706Z",
+   "text": "I know. You warned us.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "35523c24-32ac-4638-b03c-62441227e202",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:31:16.268Z",
+   "end_timestamp": "2026-10-09T17:31:18.706Z",
+   "text": "I warned you! Okay. Fine. Go.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "2bdc4e77-a12d-4834-83b3-9a168cb4cc54",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:31:19.665Z",
+   "end_timestamp": "2026-10-09T17:31:24.011Z",
+   "text": "First ten minutes, just show us your setup like last time.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "9bf928db-6565-47a5-b0aa-305acf565108",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:31:26.204Z",
+   "end_timestamp": "2026-10-09T17:31:42.009Z",
+   "text": "Okay so same as before. Claude, I have, let me count, nine projects now. Zotero, around six hundred items. Downloads is a disaster. And Obsidian, which I've written in twice since I saw you.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "595cb71a-d7d4-42d7-bee2-f76b9a18ee8b",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:31:43.111Z",
+   "end_timestamp": "2026-10-09T17:31:45.316Z",
+   "text": "Twice is more than zero.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ea69bd00-b078-4836-a245-e0684ef758db",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:31:47.282Z",
+   "end_timestamp": "2026-10-09T17:31:56.376Z",
+   "text": "Thank you, Hudson. And I brought a paragraph. It's the intro to chapter two, the \"help-seeking as a design material\" part.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "d263d1c5-973d-4ca0-99fe-599e665da66d",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:31:57.917Z",
+   "end_timestamp": "2026-10-09T17:32:01.391Z",
+   "text": "Perfect. Okay, let's connect. I'll send you the link.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "74cd2df1-6364-478a-adcd-e6c0348514a6",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:32:02.081Z",
+   "end_timestamp": "2026-10-09T17:32:10.317Z",
+   "text": "Okay. Ooh. Okay, this is the connect screen. Claude, ChatGPT, Zotero, Local PDFs... and Other. Is Obsidian under Other?",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "6203281f-9492-4528-a739-b1fdf62fd0c2",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:32:10.568Z",
+   "end_timestamp": "2026-10-09T17:32:16.032Z",
+   "text": "Um, no. Other is uploading files. Like a zip or a folder.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "14a12a76-c4c8-4ab5-93bc-c1c5724cf67a",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:32:16.187Z",
+   "end_timestamp": "2026-10-09T17:32:19.306Z",
+   "text": "Oh. Then why is it called Other?",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "d8f808dc-4eb7-497a-ae6e-702762f042b9",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:32:20.047Z",
+   "end_timestamp": "2026-10-09T17:32:20.950Z",
+   "text": "[laughs]",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "5dfa47c0-e04d-49ff-a8d8-0db7355f2fe6",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:32:22.682Z",
+   "end_timestamp": "2026-10-09T17:32:29.164Z",
+   "text": "That's — that's a very fair question. Hudson's been saying that for three weeks.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "1da2075a-ecd2-41e2-a233-15239f2b6812",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:32:31.002Z",
+   "end_timestamp": "2026-10-09T17:32:37.493Z",
+   "text": "Okay. I'll do Claude first. It says upload my export. I have it from yesterday. Okay, uploading.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "79d4cd69-0189-4107-be65-e907c09901ce",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:32:38.390Z",
+   "end_timestamp": "2026-10-09T17:32:39.287Z",
+   "text": "Now Zotero.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "9b1986bb-628a-458d-b935-ad5df14f5b5f",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:32:41.045Z",
+   "end_timestamp": "2026-10-09T17:32:46.370Z",
+   "text": "Zotero. It found my library. And Local PDFs, I'll point it at Downloads.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "bb35bc77-5f12-46c0-9f44-ef0bab9b3aa8",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:32:47.401Z",
+   "end_timestamp": "2026-10-09T17:32:50.539Z",
+   "text": "You can exclude folders if there's anything private.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "7c819519-ff36-4310-9d05-24dd567534bb",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:32:51.257Z",
+   "end_timestamp": "2026-10-09T17:32:57.756Z",
+   "text": "Oh, there's a folder of IRB consent forms in here actually. Excluding that. Good feature.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "f5235d61-f489-4798-b255-8bbb1b0a36a9",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:32:58.832Z",
+   "end_timestamp": "2026-10-09T17:33:01.444Z",
+   "text": "That came from someone at Berkeley.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d2b7615d-9981-4b10-abb8-a0db59ff83a7",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:33:03.209Z",
+   "end_timestamp": "2026-10-09T17:33:04.991Z",
+   "text": "Elena? She's very IRB.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "51f5172b-fc94-4935-aea4-f2932dc8494c",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:33:06.353Z",
+   "end_timestamp": "2026-10-09T17:33:08.691Z",
+   "text": "I can't say. But yes.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "199fbff1-0f99-4c5f-934f-0ba4128ee01f",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:33:09.771Z",
+   "end_timestamp": "2026-10-09T17:33:15.390Z",
+   "text": "Ha. Okay, it's importing. There's a progress bar. It says Claude first.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "0b5b82e5-74f6-424d-ab30-9bb9691dc761",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:33:16.083Z",
+   "end_timestamp": "2026-10-09T17:33:17.282Z",
+   "text": "Timestamp, import started.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a204b753-323e-4511-aece-ef87ca2baa26",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:36:15.170Z",
+   "end_timestamp": "2026-10-09T17:36:19.123Z",
+   "text": "Okay it says Claude done. Four hundred twelve conversations.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "65fa9bb6-d67d-4a0b-b1ff-7348da2a47c7",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:36:19.687Z",
+   "end_timestamp": "2026-10-09T17:36:20.568Z",
+   "text": "Hm.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0aa199b3-1027-4f9e-98fe-928ae19eac1e",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:36:22.214Z",
+   "end_timestamp": "2026-10-09T17:36:30.326Z",
+   "text": "That's... wrong. I have way more than that. Hang on. My account page, let me look. It's like five fifty.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "5cde20ae-36a3-4649-baff-ce5480ac9418",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:36:31.103Z",
+   "end_timestamp": "2026-10-09T17:36:32.054Z",
+   "text": "Five fifty?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d5fcbd95-a99a-43f0-8e80-518db8064b04",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:36:33.379Z",
+   "end_timestamp": "2026-10-09T17:36:38.034Z",
+   "text": "Roughly. I don't know exactly but it's way more than four twelve.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "5e9ccac1-a8f9-4704-8b97-67d598e9485b",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:36:38.225Z",
+   "end_timestamp": "2026-10-09T17:36:41.544Z",
+   "text": "Okay. So that's like a hundred forty missing.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "5824bb16-3f13-4471-a5a7-65cd141e591a",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:36:43.473Z",
+   "end_timestamp": "2026-10-09T17:36:47.314Z",
+   "text": "A hundred forty chats is a lot of thinking, David.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "45e61904-3b07-41b8-a179-1d5898041d86",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:36:48.439Z",
+   "end_timestamp": "2026-10-09T17:36:55.237Z",
+   "text": "I know. I know. Um. Can you show me the export folder? What files are in it?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0546e4f2-d15c-4535-8124-695251adac30",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:36:55.411Z",
+   "end_timestamp": "2026-10-09T17:37:01.909Z",
+   "text": "There's conversations dot json, and... there's a second one. It looks like a second part.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "e00c3038-bdd9-473d-9b63-6ac2386c262f",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:37:03.185Z",
+   "end_timestamp": "2026-10-09T17:37:09.950Z",
+   "text": "Oh. Okay. I think our importer only reads the first file. I'm, like, eighty percent sure that's it.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "450f1d6b-7b71-40e3-9cbc-e39c55ed0776",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:37:11.759Z",
+   "end_timestamp": "2026-10-09T17:37:13.463Z",
+   "text": "Writing down: multi-file export.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "edcb106c-2533-4c0d-be62-53b48468cc8b",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:37:15.346Z",
+   "end_timestamp": "2026-10-09T17:37:18.446Z",
+   "text": "I'll check it today. Sorry. Let's keep going.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "85a3f49a-c0eb-4014-994d-393b257d2f3b",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:37:19.357Z",
+   "end_timestamp": "2026-10-09T17:37:23.814Z",
+   "text": "It's okay, I'm, like, mad but in a useful way.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "d031637f-f239-40b0-a9c3-cf74006047fc",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:37:25.536Z",
+   "end_timestamp": "2026-10-09T17:37:27.166Z",
+   "text": "That's the best kind.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0c3df70e-fc98-42dc-8f2c-4167b77cc82a",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:37:27.498Z",
+   "end_timestamp": "2026-10-09T17:37:31.093Z",
+   "text": "Zotero's going now. And PDFs. This is slower.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "5871b4ad-9a11-47af-b56d-d115b8c35fd8",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:37:33.119Z",
+   "end_timestamp": "2026-10-09T17:37:35.110Z",
+   "text": "PDFs are the slow part.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "2fe13e31-1026-4ba0-b6b2-953225b78d14",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:43:08.415Z",
+   "end_timestamp": "2026-10-09T17:43:17.532Z",
+   "text": "Okay. It's done. Summary card. Oh, I like this card. It says skipped: three items, \"file unreadable.\" Possible duplicates: nine.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "a72469a4-4cb6-4c64-b383-81caed5d71ae",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:43:18.892Z",
+   "end_timestamp": "2026-10-09T17:43:19.804Z",
+   "text": "Nine?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "62499300-b64b-4545-ac5e-e71dff0aa8c6",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:43:20.558Z",
+   "end_timestamp": "2026-10-09T17:43:28.639Z",
+   "text": "Nine. And I can see more than nine. Look, this paper is here twice. And this one. These are all twice.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "80a8d7ea-af15-4746-9294-4bb8f8838ee1",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:43:30.084Z",
+   "end_timestamp": "2026-10-09T17:43:34.934Z",
+   "text": "Hm. Are those — is the Downloads one the publisher version?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "6c102b97-b190-49df-9194-0f6861d549a3",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:43:35.252Z",
+   "end_timestamp": "2026-10-09T17:43:40.145Z",
+   "text": "Yeah, Downloads is from the ACM library, Zotero is mostly arXiv.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "2c1950b2-d196-4884-a626-a0ceaf3156bc",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:43:41.415Z",
+   "end_timestamp": "2026-10-09T17:43:48.602Z",
+   "text": "Right, so the bytes are different and the title match must be failing on, like, subtitle differences or something.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "2bd4ac70-45cd-4c5e-a5e0-68e525712dd3",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:43:50.573Z",
+   "end_timestamp": "2026-10-09T17:43:52.493Z",
+   "text": "So the dedupe is basic.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "93a34cf2-22a9-42f8-9720-f25a388508a5",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:43:53.099Z",
+   "end_timestamp": "2026-10-09T17:43:54.705Z",
+   "text": "The dedupe is basic.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "478d24b9-773c-471f-bef0-79bde3f523a3",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:43:56.716Z",
+   "end_timestamp": "2026-10-09T17:44:01.085Z",
+   "text": "I told you. Okay, fine. How long did that take?",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "785cbd02-dd07-4ec5-96b3-38eb76ac5c09",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:44:02.503Z",
+   "end_timestamp": "2026-10-09T17:44:03.805Z",
+   "text": "Eleven minutes, about.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "dc91c3b2-7bb5-4d04-a5ed-aca6c382c5f3",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:44:04.681Z",
+   "end_timestamp": "2026-10-09T17:44:07.802Z",
+   "text": "That's fine actually. I'd wait eleven minutes once.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "4be77c78-674c-4608-a846-9600f4a82fc6",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:44:09.687Z",
+   "end_timestamp": "2026-10-09T17:44:14.989Z",
+   "text": "Okay, writing part. Can you paste your paragraph into a new page?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "fe851317-4c5d-4e8e-9b59-4d4c7ac13e34",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:44:16.482Z",
+   "end_timestamp": "2026-10-09T17:44:20.546Z",
+   "text": "Okay. Pasted. Oh, there's little suggestions on the side.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "70d9c1ca-ae14-41fc-89f8-0bbf3802211c",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:44:20.753Z",
+   "end_timestamp": "2026-10-09T17:44:27.018Z",
+   "text": "Yeah. For each part it shows up to three sources it thinks are related.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "fb50d4fb-0655-4e2f-97a5-20c957400b0a",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:48:37.958Z",
+   "end_timestamp": "2026-10-09T17:48:46.612Z",
+   "text": "Okay so this one... this is a paper. And this is the same paper again. Twice in three suggestions. That's annoying.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "04b51217-3964-41d6-8a74-e977504d8505",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:48:48.796Z",
+   "end_timestamp": "2026-10-09T17:48:50.531Z",
+   "text": "Yeah. That's bad. Okay.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "b33a4313-3c9a-46e2-9e72-e1461b4d5a93",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:48:51.000Z",
+   "end_timestamp": "2026-10-09T17:48:55.867Z",
+   "text": "Wait, wait. This one. This is a Claude chat from March. Click.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "639aeb50-3206-459b-9e03-1398465df129",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:48:56.342Z",
+   "end_timestamp": "2026-10-09T17:48:59.617Z",
+   "text": "That opens the chat at the message.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "9730af27-05f6-4eb3-82d0-32ead1672103",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:49:00.932Z",
+   "end_timestamp": "2026-10-09T17:49:18.458Z",
+   "text": "Oh my god. Okay that's the thing. That's where that came from. That's where I came up with the design material framing, I was arguing about whether help-seeking is a behavior or a resource. I completely forgot this chat.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "90c55e50-4f87-42a9-bbfd-9caee7cb8b9a",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:49:20.629Z",
+   "end_timestamp": "2026-10-09T17:49:22.154Z",
+   "text": "Timestamp! First confirmed suggestion.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "7dc23129-eafc-4539-9ee4-d4d09dea252c",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:49:22.983Z",
+   "end_timestamp": "2026-10-09T17:49:27.915Z",
+   "text": "Can I confirm it? Like say yes this is the source?",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "bd3bc773-5dca-4241-9614-8711c9154489",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:49:29.344Z",
+   "end_timestamp": "2026-10-09T17:49:30.921Z",
+   "text": "Yes, click the check.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "44a2ebf9-e7a3-4279-8515-57cc2b8fcf87",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:49:31.406Z",
+   "end_timestamp": "2026-10-09T17:49:40.217Z",
+   "text": "Done. This is — okay. The \"where did this thought come from\" thing is real. I really like that.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "ac8037ca-2dd6-4dc2-8fcf-55fd92648dcd",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:49:41.651Z",
+   "end_timestamp": "2026-10-09T17:49:46.567Z",
+   "text": "That's — honestly that's the best thing you could have said.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "79ee7bda-04af-4459-9bca-ce15b1bd50ff",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:49:48.412Z",
+   "end_timestamp": "2026-10-09T17:50:00.275Z",
+   "text": "One thing though. When it shows the paper, I want my Zotero note next to it. Not just the PDF. My note is the part that says why I cared.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "13c8fd6d-9fed-44c6-8b32-531df6cf0e58",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:50:01.777Z",
+   "end_timestamp": "2026-10-09T17:50:08.746Z",
+   "text": "Ooh. Yeah. The note is attached to the item in Zotero, we should bring it along.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "48b8a036-5532-4a54-9c97-575d07ccd19d",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:50:09.221Z",
+   "end_timestamp": "2026-10-09T17:50:14.806Z",
+   "text": "Yes. The note is the thought, the PDF is just the paper.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "38a43766-68f3-458b-8478-b985075cdbb3",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:50:16.303Z",
+   "end_timestamp": "2026-10-09T17:50:17.846Z",
+   "text": "That's a good line.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "2529a612-20d8-4cc3-a4f1-b028d90395c7",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:50:19.057Z",
+   "end_timestamp": "2026-10-09T17:50:20.869Z",
+   "text": "You can have it.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "fa36b454-0a10-4138-a70d-49790768fc47",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:50:21.131Z",
+   "end_timestamp": "2026-10-09T17:50:27.393Z",
+   "text": "Okay, we're almost at time. If you had to pick, what do we fix first?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "38282975-194c-46cf-8437-df7af1410328",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:50:28.268Z",
+   "end_timestamp": "2026-10-09T17:50:41.702Z",
+   "text": "One, get all my Claude chats. That's non-negotiable. Two, stop showing me the same paper twice, at least in the suggestions. Three, Projects as groups. Four, Obsidian, later, whatever.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "e3a4091d-7df9-4e28-8bd1-c1d5033cb485",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:50:42.831Z",
+   "end_timestamp": "2026-10-09T17:50:46.797Z",
+   "text": "That's a great list. That's basically our list now.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "cfb54acc-1b09-4911-b0c5-9369e0193cf3",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:50:48.369Z",
+   "end_timestamp": "2026-10-09T17:50:53.744Z",
+   "text": "Can we do this again next week? When the chats are fixed?",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "ddb9b6d3-6534-44a6-b226-ac7c04de1cd7",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:50:55.473Z",
+   "end_timestamp": "2026-10-09T17:50:59.643Z",
+   "text": "Yes. Absolutely. Hudson will send you a summary today.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "19808db4-2fe5-4875-b49b-ede6cfd0226b",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:51:01.209Z",
+   "end_timestamp": "2026-10-09T17:51:03.875Z",
+   "text": "And a \"what we'll fix\" list.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "bb47d7ba-1f1e-43cf-ac31-f79abff02e39",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:51:04.685Z",
+   "end_timestamp": "2026-10-09T17:51:09.150Z",
+   "text": "Love it. Okay. Go fix my hundred and forty chats.",
+   "source": "system",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "20d632e0-fbf0-447b-9fa7-4cd40fd3033a",
+   "document_id": "f7d32199-3855-4b50-a24e-f3976193f5d8",
+   "start_timestamp": "2026-10-09T17:51:09.307Z",
+   "end_timestamp": "2026-10-09T17:51:10.203Z",
+   "text": "Going.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  }
+ ]
+}

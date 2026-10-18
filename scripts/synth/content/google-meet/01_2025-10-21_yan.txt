@@ -1,0 +1,69 @@
+title: David / Yan 1:1
+start: 2025-10-21 14:00
+attendees: David Barron, Yan Chen
+projects: project_vizpi, project_cs3604_gta
+docs: both
+=== transcript
+Yan Chen: Hi David. Can you hear me okay? I'm on the laptop in the conference room, the mic here is sometimes weird.
+David Barron: Yeah, yeah, I can hear you fine. Um, there's a little echo but it's fine.
+Yan Chen: Okay. Let me close the door. ... Okay. So, what do you want to cover today? I know the deployment is coming up.
+David Barron: Right, so mostly the deployment. I talked to John yesterday, and the date is locked, it's November twelfth, the Wednesday lab, three thirty. So that's three weeks from tomorrow.
+Yan Chen: Good. And that's both sections?
+David Barron: Both sections. So it's eighty-seven students total across the two lab sections, and three TAs. Section A is in McBryde and section B is the one in the, um, the Torgersen room. They run at the same time, which is the annoying part, because I can only physically be in one room.
+Yan Chen: Hmm. So who is in the other room?
+David Barron: I was going to ask if Minsun could be in section B. She knows the dashboard, she was there for deployment one.
+Yan Chen: I think that's fine. Ask her directly, but I don't see a problem. She's not teaching this semester.
+David Barron: Okay, cool. Um, so the bigger thing is the telemetry pipeline. Last time we had, like, everything going through the single websocket per client, and it was fine for one section, but I'm a little nervous about eighty-seven at once.
+Yan Chen: What's the actual load? It's keystrokes?
+David Barron: It's keystroke batches every two seconds, run events, and then every prompt to the assistant. So per student it's not much, it's, um, I calculated roughly forty events a minute when they're actively typing. The server's fine with that. It's more the reconnect logic I'm worried about. When the campus wifi drops, the client has to reconnect and flush its buffer, and I've never really tested that under real conditions.
+Yan Chen: Can you simulate it? Just kill the connection on a few clients during a test?
+David Barron: Yeah, that's the plan. I want to do a dry run with like ten browser tabs and just toggle the network in dev tools. I'll do that next week.
+Yan Chen: Okay. And the data, where does it land?
+David Barron: Postgres on the lab server, same as before, and then a nightly dump to the shared drive as parquet. Xiaohang asked for parquet, so.
+Yan Chen: Good. What about consent? Is the IRB amendment covering the second deployment?
+David Barron: Yes, the amendment from August covers repeated deployments in the same course, I checked. Students who opt out, their client just doesn't send anything. Last time it was four students who opted out.
+Yan Chen: Okay. Good. Um. What do you want the students to do in the lab exactly? Is it the same assignment as last year?
+David Barron: No, John changed it. It's the, um, the hash table lab, where they implement open addressing with linear probing. Which is actually nicer for us because there's a classic error everybody hits, the wraparound, so we should see a lot of stuck moments around the same spot.
+Yan Chen: Oh, that's nice. That makes the labeling easier too, maybe.
+David Barron: Yeah, that's what I'm hoping. Like, if forty students all stall on the wraparound, we can compare who asked the assistant and who just stared at it.
+Yan Chen: Right. Okay. And then what's the plan after the deployment? Labeling?
+David Barron: So I want to start labeling basically right after. Like the Friday after, the fourteenth, through the following Friday. A one-week sprint with Minsun and Xiaohang. Thirty-second windows again.
+Yan Chen: One week is ambitious. How many windows will that be?
+David Barron: I don't know exactly yet. If it's ninety minutes of lab and we only keep active windows, I'm guessing a couple thousand. Maybe two thousand, twenty-five hundred.
+Yan Chen: That's a lot for three people in a week.
+David Barron: Yeah. I know. I was going to, um, pre-filter the idle windows automatically so we're not labeling people who left for the bathroom.
+Yan Chen: Okay. Just make sure you write down the filter rule, because reviewers will ask.
+David Barron: Yeah. Yes. Noted.
+Yan Chen: What about your TA work? You're grading for 3604 this semester, right?
+David Barron: Yeah. So that's the other thing. P3 grading is due, um, the week before the deployment. So the first week of November is going to be rough. P3 and the dry run at the same time.
+Yan Chen: How many students in 3604?
+David Barron: Sixty-four. It's not terrible, the rubric is pretty mechanical for P3, it's mostly the test suite. I made a sheet with a tab per assignment so I can, like, just batch through it.
+Yan Chen: Okay. Can you push P3 earlier? Like start this weekend?
+David Barron: Submissions close Sunday night, so I can start Monday. I'll try to get through half of them before the dry run.
+Yan Chen: Okay. I don't want you to burn out before the deployment. That's the important thing this semester.
+David Barron: Yeah, no, I know. Um, sorry, one more thing on the deployment. John asked if we can show the class dashboard to the TAs live during the lab. Like the heat map of who's stuck.
+Yan Chen: Hmm. During the lab? I'm okay with that, but then the TAs' behavior changes, right? They'll go to the stuck students.
+David Barron: That's... yeah. That's kind of the point for John, but it does contaminate the help-seeking data a bit.
+Yan Chen: I think it's fine as long as we log when a TA visits. Can the TAs mark a visit?
+David Barron: I could add a button on the dashboard. Like, tap the student, mark "visited". That's like an hour of work.
+Yan Chen: Do that. Then we know which windows had TA intervention, and we can exclude them or model them separately.
+David Barron: Okay. Yeah, that's actually a good idea. I'll add a "TA visited" event type.
+Yan Chen: [inaudible] ... sorry, someone knocked. Okay. Anything else?
+David Barron: Um, no, I think that's it. I'll send you the dry run results next week.
+Yan Chen: Sounds good. Send it on Slack is fine. And David, please write the deployment checklist down somewhere, not in your head.
+David Barron: Ha, yes. I'll put it in the lab drive.
+Yan Chen: Okay. Thanks, bye.
+David Barron: Bye.
+=== gemini
+summary: David Barron and Yan Chen planned the second VizPI classroom deployment in John Wenskovitch's CS 3114 course on November 12 at 3:30 PM, covering 87 students across two simultaneous lab sections with three TAs. They discussed telemetry pipeline risks, mainly reconnect behavior on campus wifi, agreed to add a "TA visited" event to the live dashboard, and planned a one-week labeling sprint right after the deployment. David's CS 3604 P3 grading overlaps with the dry run in early November.
+detail: Deployment logistics: David Barron confirmed with John Wenskovitch that the deployment is on Wednesday, November 12 at 3:30 PM in both CS 3114 lab sections (87 students, three TAs). Because the sections run at the same time, David will ask Minsun to staff section B; Yan Chen saw no problem with that.
+detail: Telemetry pipeline: David Barron estimated about 40 events per minute per active student (keystroke batches every two seconds, run events, and assistant prompts). His main concern is the client reconnect and buffer flush when wifi drops, which has not been tested under real conditions. He plans a dry run next week with about ten browser tabs and simulated network drops.
+detail: Data and consent: Data lands in Postgres on the lab server with a nightly parquet dump to the shared drive, as requested by Xiaohang. David Barron confirmed the August IRB amendment covers repeated deployments; opted-out students send no data.
+detail: Lab assignment: John Wenskovitch changed the lab to the open-addressing hash table assignment. David Barron expects many students to stall at the same wraparound error, which may make help-seeking comparisons and labeling easier.
+detail: TA dashboard: John Wenskovitch asked whether TAs can see the class stuck heat map live. Yan Chen agreed on the condition that TA visits are logged, so David Barron will add a "TA visited" event type so those windows can be excluded or modeled separately.
+detail: Labeling plan and TA workload: David Barron plans a labeling sprint from November 14 to November 21 with Minsun and Xiaohang on thirty-second windows, with idle windows pre-filtered by a documented rule. Yan Chen flagged the one-week timeline as ambitious and asked David to start CS 3604 P3 grading (64 students) early so it does not collide with the dry run.
+next: [ ] David Barron will ask Minsun to staff CS 3114 lab section B on November 12.
+next: [ ] David Barron will run a reconnect dry run with about ten browser tabs next week and share results with Yan Chen on Slack.
+next: [ ] David Barron will add a "TA visited" event type to the live dashboard.
+next: [ ] David Barron will write down the idle-window pre-filter rule and the deployment checklist in the lab drive.
+next: [ ] David Barron will start CS 3604 P3 grading on Monday and aim to finish half before the dry run.

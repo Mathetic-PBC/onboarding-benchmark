@@ -1,0 +1,10 @@
+model,split_v1_random_window,split_v2_grouped_student,delta
+majority,0.17,0.17,0.00
+logistic_regression,0.66,0.64,-0.02
+lightgbm_gbdt,0.81,0.74,-0.07
+transformer_events,0.79,0.70,-0.09
+gbdt_per_state:productive,0.86,0.80,-0.06
+gbdt_per_state:stuck,0.77,0.69,-0.08
+gbdt_per_state:stalled_after_error,0.84,0.75,-0.09
+gbdt_per_state:help_seeking,0.83,0.78,-0.05
+gbdt_per_state:off_task,0.75,0.68,-0.07

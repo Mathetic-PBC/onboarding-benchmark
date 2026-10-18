@@ -1,0 +1,75 @@
+From: David Barron <dbarron410@vt.edu>
+To: 4Help Service Desk <4help@vt.edu>
+Subject: RE: Outlook on new Mac keeps asking for password (Ticket INC0412877)
+Date: Thu, 06 Aug 2026 01:40:00 +0000
+Message-ID:
+ <BL1PR03MB6019DC3C3D6967CA44D39A9F@BL1PR03MB6019.namprd03.prod.outlook.com>
+In-Reply-To:
+ <DM6PR03MB4410715403B3C3BAEB7E49A5@DM6PR03MB4410.namprd03.prod.outlook.com>
+References:
+ <SJ0PR03MB62557F6EC61D736C29A2D18E@SJ0PR03MB6255.namprd03.prod.outlook.com>
+ <DM6PR03MB4410715403B3C3BAEB7E49A5@DM6PR03MB4410.namprd03.prod.outlook.com>
+MIME-Version: 1.0
+Thread-Topic: Outlook on new Mac keeps asking for password (Ticket INC0412877)
+Thread-Index: AQHdJOlpAXkBL7l2sinuB1kp94DN1AAWxVTmAC2Kq38=
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthSource: DM6PR03MB4410.namprd03.prod.outlook.com
+X-MS-Exchange-Organization-Network-Message-Id:
+ 1906b7b6-90ed-49a2-b39a-959d60c33f92
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 06 Aug 2026 01:40:00.530 (UTC)
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+That fixed it. Choosing "Microsoft 365" instead of "Exchange" was the missing=
+ step. I got the Duo browser prompt and no password boxes since. You can clos=
+e the ticket.
+
+Thanks!
+David
+
+________________________________
+From: 4Help Service Desk <4help@vt.edu>
+Sent: Wednesday, August 5, 2026 3:16 PM
+To: David Barron
+Subject: Outlook on new Mac keeps asking for password (Ticket INC0412877)
+
+Hi David,
+
+Thanks for the details, that helps. This is almost always a stale legacy-auth=
+ profile on new Macs. Please try:
+
+1. Quit Outlook. In Keychain Access, delete every item named "Exchange" or "M=
+icrosoftOffice15_2_Data:ADAL:..." (not just the Identities Cache).
+2. Open Outlook, Settings > Accounts, remove the account.
+3. Re-add it, and when you are asked which kind of account, pick "Microsoft 3=
+65" (not "Exchange"). You should get the VT Duo prompt in a browser window, n=
+ot the small grey password box.
+
+If the grey box comes back, reply here with the Outlook version and we'll do =
+a remote session.
+
+Chris
+4Help Service Desk | Virginia Tech IT
+
+________________________________
+From: David Barron <dbarron410@vt.edu>
+Sent: Wednesday, August 5, 2026 10:48 AM
+To: 4Help Service Desk
+Subject: Outlook on new Mac keeps asking for password (Ticket INC0412877)
+
+Hi,
+
+I set up a new MacBook yesterday (Duo device already added). Outlook for Mac =
+(16.88) keeps popping up a password prompt every few minutes for dbarron410@v=
+t.edu. Entering the password works for a bit and then it comes back. Web Outl=
+ook is fine, and Teams on the same Mac signs in without problems.
+
+Things I tried: removed and re-added the account, deleted the "Microsoft Offi=
+ce Identities Cache 3" keychain entries, rebooted.
+
+Thanks,
+David Barron

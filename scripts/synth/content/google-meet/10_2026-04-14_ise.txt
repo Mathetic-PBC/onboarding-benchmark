@@ -1,0 +1,65 @@
+title: ISE 6664 project sync
+start: 2026-04-14 19:00
+attendees: David Barron, Maya Torres, Jordan Lee
+projects: project_ise6664_affective_computing
+docs: both
+=== transcript
+David Barron: Hey. Okay, I turned on the transcript thing, hope that's okay. It makes notes.
+Maya Torres: Oh nice, yeah, that's fine.
+Jordan Lee: Fine with me.
+David Barron: Okay. So, um, I owe you guys an apology first, I was basically absent for three weeks with the paper. Thanks for carrying.
+Maya Torres: It's fine! Did you submit?
+David Barron: Yeah, on the thirty-first. Like, with two hours to spare, ha. Okay, so where are we?
+Jordan Lee: So the data is done. We have the, um, one thousand one hundred and sixty sessions after cleaning. I dropped the ones with fewer than six student turns. And I merged the end-of-session affect survey, so every session has the self-report.
+David Barron: Nice. How many say frustrated?
+Jordan Lee: Hm, it's a five-point scale. If we binarize at four and above, it's twenty-three percent frustrated.
+David Barron: Okay, so imbalanced but not terrible.
+Maya Torres: And the annotation is done too. We each did two hundred turns, a hundred overlapping. Well, you did a hundred and forty, David, you did the overlap ones and then stopped.
+David Barron: Yeah, sorry, I'll finish the last sixty this week.
+Maya Torres: It's fine, we have the agreement already. Krippendorff's alpha for frustration is point six four. Confusion is lower, point five one. Boredom is basically noise, point three.
+David Barron: Boredom in text is really hard to see, I think. People just, like, type less.
+Maya Torres: Yeah. I'm going to argue in the report that boredom isn't reliably annotatable from text alone. Which is kind of a finding.
+Jordan Lee: Brooks will like that, because it connects to the sensor stuff.
+David Barron: Yeah. Okay, so on my side, the features. I did them over the weekend. Um, message length slope over the last five turns, repeated questions by embedding similarity, caps ratio, "give up" phrases, like a list of forty phrases, "just tell me", "idk", "whatever", and then sentiment from an off-the-shelf model.
+Maya Torres: And?
+David Barron: Logistic regression on session-level self-report, AUC point seven two. The strongest features are the repeated question similarity and the length slope. Sentiment barely matters once you have those.
+Jordan Lee: Oh, interesting. So it's not that they're negative, it's that they're repeating themselves.
+David Barron: Yeah. Which kind of matches what I see in my lab's data too. Stalling looks like repetition. Anyway.
+Maya Torres: What about the fine-tuned model?
+David Barron: I don't think we have time. I'd rather do the error analysis properly. Like, show ten sessions where the model is wrong and why.
+Maya Torres: Agreed. That's more interesting for the presentation anyway.
+Jordan Lee: Yeah.
+Maya Torres: Okay, so the report. Brooks said twelve to fifteen pages. I made an outline, can I share?
+David Barron: Go for it.
+Maya Torres: Okay. Um, one, introduction, one page. Two, background on frustration and affect detection, two pages, that's me. Three, data, one and a half, Jordan. Four, annotation, two pages, me. Five, features and model, three pages, David. Six, results, two pages, all of us. Seven, error analysis, one and a half, David. Eight, discussion and limitations, one page. So that's fourteen pages.
+Jordan Lee: Fourteen is good. Right in the middle.
+David Barron: Can we put the limitations about the dataset being math tutoring and not programming? I want to say it might not generalize.
+Maya Torres: Yes, definitely.
+Jordan Lee: And the self-report is only at the end of the session, so we can't really say when the frustration happened.
+David Barron: Yeah, that's a big one. Session-level labels, turn-level features.
+Maya Torres: Okay, I'll add that. And the presentation is the thirtieth. Fifteen minutes plus questions.
+David Barron: Thursday the thirtieth, right?
+Maya Torres: Yes. So report draft by the twenty-sixth, and then we rehearse on the twenty-eighth?
+Jordan Lee: The twenty-eighth is a Tuesday, I'm free after seven.
+David Barron: Twenty-eighth at eight? I have a thing until seven thirty.
+Maya Torres: Eight is fine.
+Jordan Lee: Works.
+David Barron: Okay. And slides, who's making the template?
+Maya Torres: I'll do the template, everyone does their own section slides.
+David Barron: Okay. Um, I'll also make one figure of the feature importance, like a bar chart, for both report and slides.
+Jordan Lee: Can you also make the confusion matrix?
+David Barron: Yep. Both.
+Maya Torres: Great. I think that's everything. Thanks guys.
+Jordan Lee: Bye!
+David Barron: Bye.
+=== gemini
+summary: David Barron, Maya Torres, and Jordan Lee checked in on their ISE 6664 project, "Frustration signals in AI-tutoring transcripts". Jordan finished the dataset (1,160 cleaned sessions, 23% frustrated by self-report), Maya reported annotation agreement (frustration alpha 0.64, confusion 0.51, boredom 0.30), and David's logistic regression reached an AUC of 0.72, driven mostly by repeated questions and shrinking message length. They agreed on a fourteen-page report outline, a draft by April 26, and a rehearsal on April 28 at 8 PM before the April 30 presentation.
+detail: Dataset: Jordan Lee cleaned the public tutoring dialogue dataset to 1,160 sessions, dropping sessions with fewer than six student turns, and merged the end-of-session affect survey. Binarizing the five-point frustration item at four or above gives 23% frustrated sessions.
+detail: Annotation: Each team member annotated 200 turns with 100 overlapping; David Barron still has 60 turns left. Krippendorff's alpha was 0.64 for frustration, 0.51 for confusion, and about 0.30 for boredom. Maya Torres will argue that boredom is not reliably annotatable from text alone.
+detail: Features and model: David Barron built features for message-length slope over the last five turns, repeated questions by embedding similarity, caps ratio, a list of forty give-up phrases, and sentiment. A logistic regression on session-level self-report reached an AUC of 0.72; repeated-question similarity and length slope were strongest and sentiment added little. The team chose error analysis over a fine-tuned model.
+detail: Report outline: Maya Torres proposed a fourteen-page report: introduction, background, data, annotation, features and model, results, error analysis, and discussion and limitations. Limitations will include the math-tutoring domain and the mismatch between session-level labels and turn-level features.
+detail: Presentation: The final presentation is Thursday, April 30 (fifteen minutes plus questions). Maya Torres will make the slide template and each person will build their own section.
+next: [ ] David Barron will finish his remaining 60 annotation turns this week.
+next: [ ] David Barron will make the feature importance chart and the confusion matrix for the report and slides.
+next: [ ] Maya Torres will add the limitations and share the slide template.
+next: [ ] Everyone will finish report sections by April 26 and rehearse on April 28 at 8 PM.

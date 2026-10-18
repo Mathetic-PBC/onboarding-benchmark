@@ -1,0 +1,80 @@
+{
+ "uuid": "f866b798-a444-49f4-85c7-538bd4670df0",
+ "slug": "explain-engelbart-s-h-lam-t-thing-from-zM8DjzSBuSiySIby1G8Cku",
+ "title": "Engelbart's H-LAM/T framework explained",
+ "thread_url": "https://www.perplexity.ai/search/explain-engelbart-s-h-lam-t-thing-from-zM8DjzSBuSiySIby1G8Cku",
+ "created_at": "2026-02-25T04:20:00Z",
+ "updated_at": "2026-02-25T04:29:50Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "88e5c2d4-6ba6-4c38-aa2e-7933d468f4c5",
+   "query_str": "explain engelbart's H-LAM/T thing from augmenting human intellect (1962) like im prepping to lead a reading group on it",
+   "answer": "In *Augmenting Human Intellect: A Conceptual Framework* (1962), Engelbart describes the human as part of a system he calls **H-LAM/T: Human using Language, Artifacts, Methodology, in which he is Trained** [1][2]:\n\n- **Human** — the person's innate capabilities (perception, memory, reasoning).\n- **Language** — the concepts and symbols a person uses to represent and manipulate ideas.\n- **Artifacts** — physical tools, from pencils to computers.\n- **Methodology** — the procedures and strategies for using these to solve problems.\n- **Training** — the skill-building that makes the other parts usable.\n\nThe central argument: **you augment intellect by co-evolving all of these**, not just by building better artifacts [2]. A new tool without new methods and training produces little; conversely, new tools make new methods possible. Engelbart calls this the \"bootstrapping\" process — using improved tools to improve the process of improving tools [3].\n\nDiscussion questions for a reading group:\n1. Which of the five elements have modern AI tools changed most, and which have they neglected (e.g., methodology and training)?\n2. Engelbart's example of \"symbol structuring\" — rearranging and linking statements — vs today's note-taking apps: what's missing?\n3. Is \"bootstrapping\" visible anywhere in your own research workflow?",
+   "sources": [
+    {
+     "name": "Augmenting Human Intellect: A Conceptual Framework — overview",
+     "url": "https://www.dougengelbart.org/content/view/138",
+     "snippet": "Summary of the 1962 report and its H-LAM/T framing."
+    },
+    {
+     "name": "Engelbart's framework and its legacy in HCI",
+     "url": "https://www.historyofcomputing.org/engelbart-framework",
+     "snippet": "How the H-LAM/T system shaped later work on augmentation and collaboration."
+    },
+    {
+     "name": "Bootstrapping, then and now",
+     "url": "https://www.mediatheoryquarterly.org/bootstrapping",
+     "snippet": "Engelbart's improvement-of-improvement idea and its uptake."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "pplx_pro",
+   "created_at": "2026-02-25T04:20:00Z",
+   "updated_at": "2026-02-25T04:20:19Z"
+  },
+  {
+   "uuid": "f067c544-379a-4b45-ac3e-8d150db9edfa",
+   "query_str": "whats the \"capability hierarchy\" part",
+   "answer": "Engelbart describes human capabilities as a **hierarchy of processes**: complex abilities (\"write a report\", \"design a bridge\") are built out of sub-processes (\"find relevant facts\", \"outline an argument\"), which in turn rest on basic ones (reading, writing symbols, recalling) [1]. Augmentation can enter at any level; improving a low-level process (e.g., faster symbol manipulation) can ripple up through everything built on it [1][2]. That's why he spent so much effort on what look like small mechanics — editing, linking, viewing text in different ways — in the later NLS system.",
+   "sources": [
+    {
+     "name": "Augmenting Human Intellect — section on capability hierarchies",
+     "url": "https://www.dougengelbart.org/content/view/138",
+     "snippet": "Description of the repertoire hierarchy and where augmentation applies."
+    },
+    {
+     "name": "Engelbart's framework and its legacy in HCI",
+     "url": "https://www.historyofcomputing.org/engelbart-framework",
+     "snippet": "Connects the hierarchy to NLS design choices."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "pplx_pro",
+   "created_at": "2026-02-25T04:26:52Z",
+   "updated_at": "2026-02-25T04:27:16Z"
+  },
+  {
+   "uuid": "5d1ea532-0be6-4193-bb78-1d0a1d7301ef",
+   "query_str": "good. 3 more discussion qs but more provocative",
+   "answer": "1. **If an AI drafts your outline, which level of the capability hierarchy did you just give up — and does that matter for training (the \"T\")?**\n2. **Engelbart assumed users would invest heavily in learning their tools. Consumer software optimizes for zero learning. Who's right for research work?**\n3. **Bootstrapping assumed a community improving its own tools. Is a single-user AI tool even capable of bootstrapping, or does it need a group?** [1][2]",
+   "sources": [
+    {
+     "name": "Bootstrapping, then and now",
+     "url": "https://www.mediatheoryquarterly.org/bootstrapping",
+     "snippet": "Community-level improvement as the core of bootstrapping."
+    },
+    {
+     "name": "Tools for thought and the learning curve debate",
+     "url": "https://www.pkmreview.com/learning-curve-debate",
+     "snippet": "Tension between power tools and ease of use."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "pplx_pro",
+   "created_at": "2026-02-25T04:29:25Z",
+   "updated_at": "2026-02-25T04:29:45Z"
+  }
+ ]
+}

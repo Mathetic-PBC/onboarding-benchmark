@@ -1,0 +1,53 @@
+Channel: DM (D0SYNF9FHAH)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-09-30 11:30:34 PDT === 
+Message TS: 1790793034.382035
+let's goooo. tell him hi from sf
+
+=== Message from Rezky (U0SYNS0GL2E) at 2026-09-30 11:00:33 PDT === 
+Message TS: 1790791233.141784
+fyi John wants vizpi in 3114 again next spring. we're on
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-08-05 07:20:05 PDT === 
+Message TS: 1785939605.809690
+oof, adding it to the doc now. good catch
+
+=== Message from Rezky (U0SYNS0GL2E) at 2026-08-05 07:15:34 PDT === 
+Message TS: 1785939334.637016
+deployed vizpi_frontend to staging myself following the doc. one thing missing: you need `VITE_WS_URL` in the env or the reconnect logic silently does nothing
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-08-04 14:40:44 PDT === 
+Message TS: 1785879644.937918
+moving it to the lab shared drive tonight: `PRIME/vizpi/deployments/2025-11-12_dep2/`. i'll keep my drive copy too
+
+=== Message from Rezky (U0SYNS0GL2E) at 2026-08-04 14:30:05 PDT === 
+Message TS: 1785879005.146410
+read the handoff doc. q: where does the dep #2 raw export live after you leave, your drive?
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-03-25 09:42:22 PDT === 
+Message TS: 1774456942.467302
+paper palette (okabe-ito). we can change the tool later
+
+=== Message from Rezky (U0SYNS0GL2E) at 2026-03-25 09:40:35 PDT === 
+Message TS: 1774456835.787675
+do you want the lane colors to match the labeling tool or the paper palette
+
+=== Message from Rezky (U0SYNS0GL2E) at 2025-11-12 13:09:03 PST === 
+Message TS: 1762981743.562127
+it's always one line
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2025-11-12 13:08:31 PST === 
+Message TS: 1762981711.775061
+flushQueue on reconnect. one line. i'm embarrassed
+
+=== Message from Rezky (U0SYNS0GL2E) at 2025-11-12 13:05:03 PST === 
+Message TS: 1762981503.777551
+dashboard shows section B recovering. what did you change
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2025-10-21 11:33:22 PDT === 
+Message TS: 1761071602.796546
+react-window is fine, it's tiny
+
+=== Message from Rezky (U0SYNS0GL2E) at 2025-10-21 11:30:35 PDT === 
+Message TS: 1761071435.192446
+for the virtualized timeline, ok to pull in react-window? or do you want no new deps

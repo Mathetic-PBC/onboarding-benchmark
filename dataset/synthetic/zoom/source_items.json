@@ -1,1 +1,254 @@
-[]
+[
+ {
+  "id": "item_035467",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zoom",
+  "source_id": "2025-11-19 16.00.04 CS 3604 Virtual Office Hours",
+  "title": "2025-11-19 16.00.04 CS 3604 Virtual Office Hours",
+  "content_type": "meeting_recording",
+  "created_at": "2025-11-19T21:08:08Z",
+  "modified_at": "2025-11-19T21:10:39Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zoom/local-recordings/2025-11-19 16.00.04 CS 3604 Virtual Office Hours/GMT20251119-210004_Recording.transcript.vtt",
+  "source_url": null,
+  "content_hash": "sha256:32a68a4f46d1571623ef5e8ef3f48270fabd6b179cc216bf427b4f06a6707be1",
+  "library_item_id": null,
+  "modeled_on": "authentic/zoom/local-recordings/<meeting folder> layout + recording.conf",
+  "metadata": {
+   "format": "vtt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "local recordings (~/Documents/Zoom), host David Barron",
+   "parts": [
+    "synthetic/zoom/local-recordings/2025-11-19 16.00.04 CS 3604 Virtual Office Hours/GMT20251119-210004_Recording.transcript.vtt",
+    "synthetic/zoom/local-recordings/2025-11-19 16.00.04 CS 3604 Virtual Office Hours/meeting_saved_chat.txt",
+    "synthetic/zoom/local-recordings/2025-11-19 16.00.04 CS 3604 Virtual Office Hours/recording.conf"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": "Wednesday virtual office hours David hosted as CS 3604 GTA; P3 rubric questions, P4 page limit, late-day policy question that foreshadows the P4 regrade dispute."
+  }
+ },
+ {
+  "id": "item_035468",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zoom",
+  "source_id": "2026-03-03 18.30.12 ISE 6664 Guest Lecture",
+  "title": "2026-03-03 18.30.12 ISE 6664 Guest Lecture",
+  "content_type": "meeting_recording",
+  "created_at": "2026-03-03T23:45:05Z",
+  "modified_at": "2026-03-03T23:47:36Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zoom/local-recordings/2026-03-03 18.30.12 ISE 6664 Guest Lecture/GMT20260303-233012_Recording.transcript.vtt",
+  "source_url": null,
+  "content_hash": "sha256:30217d1f85553aa26902b11fade485f73358ed9221aa4334a4699da8fdd9e0f5",
+  "library_item_id": null,
+  "modeled_on": "authentic/zoom/local-recordings/<meeting folder> layout + recording.conf",
+  "metadata": {
+   "format": "vtt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "local recordings (~/Documents/Zoom), participant David Barron (recording permission granted)",
+   "parts": [
+    "synthetic/zoom/local-recordings/2026-03-03 18.30.12 ISE 6664 Guest Lecture/GMT20260303-233012_Recording.transcript.vtt",
+    "synthetic/zoom/local-recordings/2026-03-03 18.30.12 ISE 6664 Guest Lecture/meeting_saved_chat.txt",
+    "synthetic/zoom/local-recordings/2026-03-03 18.30.12 ISE 6664 Guest Lecture/recording.conf"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "Guest lecture in Dr. Alan Brooks's ISE 6664 on measuring frustration; David asks how to label frustration in AI-tutoring transcripts for the team project with Maya Torres and Jordan Lee."
+  }
+ },
+ {
+  "id": "item_035469",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zoom",
+  "source_id": "2026-06-07 13.00.20 Barron family call - Niamh wedding",
+  "title": "2026-06-07 13.00.20 Barron family call - Niamh wedding",
+  "content_type": "meeting_recording",
+  "created_at": "2026-06-07T17:06:40Z",
+  "modified_at": "2026-06-07T17:09:11Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zoom/local-recordings/2026-06-07 13.00.20 Barron family call - Niamh wedding/GMT20260607-170020_Recording.transcript.vtt",
+  "source_url": null,
+  "content_hash": "sha256:76609db9d5b682a2d118f98c1451b4e5f8271f4eb1a7f2940b065c8de19dad05",
+  "library_item_id": null,
+  "modeled_on": "authentic/zoom/local-recordings/<meeting folder> layout + recording.conf",
+  "metadata": {
+   "format": "vtt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "local recordings (~/Documents/Zoom), host David Barron",
+   "parts": [
+    "synthetic/zoom/local-recordings/2026-06-07 13.00.20 Barron family call - Niamh wedding/GMT20260607-170020_Recording.transcript.vtt",
+    "synthetic/zoom/local-recordings/2026-06-07 13.00.20 Barron family call - Niamh wedding/meeting_saved_chat.txt",
+    "synthetic/zoom/local-recordings/2026-06-07 13.00.20 Barron family call - Niamh wedding/recording.conf"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — Sunday call with cousin Niamh in Dublin about wedding logistics (date, hotel block, flights, RSVP, meal choice); unrelated to any project."
+  }
+ },
+ {
+  "id": "item_035470",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zoom",
+  "source_id": "2026-07-14 12.00.31 Intro call - Kevin Liu",
+  "title": "2026-07-14 12.00.31 Intro call - Kevin Liu",
+  "content_type": "meeting_recording",
+  "created_at": "2026-07-14T16:05:54Z",
+  "modified_at": "2026-07-14T16:08:25Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zoom/local-recordings/2026-07-14 12.00.31 Intro call - Kevin Liu/GMT20260714-160031_Recording.transcript.vtt",
+  "source_url": null,
+  "content_hash": "sha256:519162f95eba77fceaabd37e2cf510f0fec369a02daa855509d35865951ca7a8",
+  "library_item_id": null,
+  "modeled_on": "authentic/zoom/local-recordings/<meeting folder> layout + recording.conf",
+  "metadata": {
+   "format": "vtt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "local recordings (~/Documents/Zoom), participant David Barron (recording permission granted)",
+   "parts": [
+    "synthetic/zoom/local-recordings/2026-07-14 12.00.31 Intro call - Kevin Liu/GMT20260714-160031_Recording.transcript.vtt",
+    "synthetic/zoom/local-recordings/2026-07-14 12.00.31 Intro call - Kevin Liu/meeting_saved_chat.txt",
+    "synthetic/zoom/local-recordings/2026-07-14 12.00.31 Intro call - Kevin Liu/recording.conf"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "Unsolicited recruiter intro call (Kevin Liu, dev-tools startup Ferrous Labs); David declines because he is going on leave to co-found a company. Unrelated to any project."
+  }
+ },
+ {
+  "id": "item_035471",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zoom",
+  "source_id": "2026-07-28 10.00.08 IDETrace NeurIPS rebuttal sync",
+  "title": "2026-07-28 10.00.08 IDETrace NeurIPS rebuttal sync",
+  "content_type": "meeting_recording",
+  "created_at": "2026-07-28T14:09:07Z",
+  "modified_at": "2026-07-28T14:11:38Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zoom/local-recordings/2026-07-28 10.00.08 IDETrace NeurIPS rebuttal sync/GMT20260728-140008_Recording.transcript.vtt",
+  "source_url": null,
+  "content_hash": "sha256:3d32d6fe79d01de19618b4ef34becda0bf5d0c783103c6cbd79e236c25567051",
+  "library_item_id": null,
+  "modeled_on": "authentic/zoom/local-recordings/<meeting folder> layout + recording.conf",
+  "metadata": {
+   "format": "vtt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "local recordings (~/Documents/Zoom), participant David Barron (recording permission granted)",
+   "parts": [
+    "synthetic/zoom/local-recordings/2026-07-28 10.00.08 IDETrace NeurIPS rebuttal sync/GMT20260728-140008_Recording.transcript.vtt",
+    "synthetic/zoom/local-recordings/2026-07-28 10.00.08 IDETrace NeurIPS rebuttal sync/meeting_saved_chat.txt",
+    "synthetic/zoom/local-recordings/2026-07-28 10.00.08 IDETrace NeurIPS rebuttal sync/recording.conf"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "Lab Zoom the day before the IDETrace NeurIPS D&B rebuttal was posted (2026-07-29): leakage bug found 2026-07-24, grouped-by-student split, macro-F1 0.81 -> 0.74, who writes which response."
+  }
+ },
+ {
+  "id": "item_035472",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zoom",
+  "source_id": "2026-09-16 11.00.40 Berkeley research chat - Ben Adeyemi",
+  "title": "2026-09-16 11.00.40 Berkeley research chat - Ben Adeyemi",
+  "content_type": "meeting_recording",
+  "created_at": "2026-09-16T18:08:45Z",
+  "modified_at": "2026-09-16T18:11:16Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zoom/local-recordings/2026-09-16 11.00.40 Berkeley research chat - Ben Adeyemi/GMT20260916-180040_Recording.transcript.vtt",
+  "source_url": null,
+  "content_hash": "sha256:886ace123acd363f17e136b7e0cac331360e4ea2b7caeb5d474485ef49d43c64",
+  "library_item_id": null,
+  "modeled_on": "authentic/zoom/local-recordings/<meeting folder> layout + recording.conf",
+  "metadata": {
+   "format": "vtt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "local recordings (~/Documents/Zoom), host David Barron",
+   "parts": [
+    "synthetic/zoom/local-recordings/2026-09-16 11.00.40 Berkeley research chat - Ben Adeyemi/GMT20260916-180040_Recording.transcript.vtt",
+    "synthetic/zoom/local-recordings/2026-09-16 11.00.40 Berkeley research chat - Ben Adeyemi/meeting_saved_chat.txt",
+    "synthetic/zoom/local-recordings/2026-09-16 11.00.40 Berkeley research chat - Ben Adeyemi/recording.conf"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats"
+   ],
+   "notes": "Third Berkeley research chat (statistics postdoc Ben Adeyemi): how he keeps track of where ideas and modeling decisions come from (Quarto, git, Zotero, a running notes file, whiteboard photos)."
+  }
+ },
+ {
+  "id": "item_035473",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "zoom",
+  "source_id": "2026-10-02 10.00.15 UIST 2026 AV check",
+  "title": "2026-10-02 10.00.15 UIST 2026 AV check",
+  "content_type": "meeting_recording",
+  "created_at": "2026-10-02T17:07:15Z",
+  "modified_at": "2026-10-02T17:09:46Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/zoom/local-recordings/2026-10-02 10.00.15 UIST 2026 AV check/GMT20261002-170015_Recording.transcript.vtt",
+  "source_url": null,
+  "content_hash": "sha256:6014138957bf7ecc7c7ead57e45c17ea1932fb3b7c5774e1acea88980e73069f",
+  "library_item_id": null,
+  "modeled_on": "authentic/zoom/local-recordings/<meeting folder> layout + recording.conf",
+  "metadata": {
+   "format": "vtt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "local recordings (~/Documents/Zoom), participant David Barron (recording permission granted)",
+   "parts": [
+    "synthetic/zoom/local-recordings/2026-10-02 10.00.15 UIST 2026 AV check/GMT20261002-170015_Recording.transcript.vtt",
+    "synthetic/zoom/local-recordings/2026-10-02 10.00.15 UIST 2026 AV check/meeting_saved_chat.txt",
+    "synthetic/zoom/local-recordings/2026-10-02 10.00.15 UIST 2026 AV check/recording.conf"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "AV and logistics check with session chair Tomás Reyes before the TutorTrace UIST talk (2026-10-07, session Learning & Tutoring, 15 min + 5 Q&A)."
+  }
+ }
+]

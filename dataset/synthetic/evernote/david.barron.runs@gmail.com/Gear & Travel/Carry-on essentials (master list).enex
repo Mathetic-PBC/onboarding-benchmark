@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20251123T234500Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Carry-on essentials (master list)</title>
+    <created>20240512T182000Z</created>
+    <updated>20251123T234500Z</updated>
+    <tag>packing</tag>
+    <tag>travel</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>The list I copy for any trip. One carry-on + backpack, no checked bag.</div><div><br/></div><h3>Backpack</h3><ul><li>laptop + charger (USB-C 65 W), phone charger, watch charger</li><li>USB-C -&gt; HDMI adapter (presentations!)</li><li>headphones</li><li>passport / ID, wallet</li><li>water bottle (empty through security)</li><li>book or kindle</li></ul><div><br/></div><h3>Carry-on</h3><ul><li>running shoes + 2 running kits</li><li>3 shirts, 2 pants, 1 nicer outfit</li><li>socks/underwear for days + 1</li><li>toiletry bag (3-1-1 bag lives in it permanently)</li><li>light rain jacket</li></ul><div><br/></div><div>11/23/25: added watch charger after forgetting it at Thanksgiving. Garmin died day 2.</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

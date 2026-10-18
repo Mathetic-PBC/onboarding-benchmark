@@ -1,0 +1,52 @@
+{
+ "uuid": "33c09a67-9662-4529-85be-b1819d82f881",
+ "slug": "how-to-run-a-30-min-semi-structured-interview-r6S1pnZKqwWQYwXs9VdGOz",
+ "title": "Running a 30-minute semi-structured research interview",
+ "thread_url": "https://www.perplexity.ai/search/how-to-run-a-30-min-semi-structured-interview-r6S1pnZKqwWQYwXs9VdGOz",
+ "created_at": "2026-09-09T04:20:00Z",
+ "updated_at": "2026-09-09T04:24:17Z",
+ "collection": {
+  "uuid": "38d5d4fa-5161-4440-9d09-aec8ffbce1f9",
+  "title": "Berkeley chats prep"
+ },
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "17f93b5a-0203-4325-9409-8696618d9c56",
+   "query_str": "how to run a 30 min semi structured interview with phd students about how they keep track of research ideas. we're building a tool but i dont want it to be a sales pitch",
+   "answer": "A structure that fits 30 minutes and avoids pitching [1][2]:\n\n**0–3 min — Framing.** Say you're trying to understand how researchers work, there are no right answers, and you'll ask permission before recording. Don't describe your product.\n\n**3–20 min — Recent concrete episodes.** Ask about *specific recent* behavior rather than opinions:\n- \"Think of the last time you had an idea for a paper. Where did it first get written down?\"\n- \"Walk me through finding something you read months ago. What did you try first?\"\n- \"When did you last lose track of where an idea came from? What happened?\"\nFollow up with \"what happened next?\" and \"can you show me?\" (screen-share their actual notes if they're comfortable).\n\n**20–27 min — Tools and workarounds.** \"What tools are involved, and what do you do that feels like a workaround?\" Listen for copy-paste chains, duplicate notes, screenshot folders.\n\n**27–30 min — Close.** \"Anything I should have asked?\" and permission for follow-up.\n\n**Avoid:** leading questions (\"Would a tool that X help?\"), hypotheticals about future behavior, and showing a demo until after the interview — if at all [2].",
+   "sources": [
+    {
+     "name": "Interviewing users without leading them",
+     "url": "https://www.uxresearchnotes.com/non-leading-interviews",
+     "snippet": "Past-behavior questions and follow-up prompts."
+    },
+    {
+     "name": "Semi-structured interviews in HCI: a practical guide",
+     "url": "https://www.methodsforhci.org/semi-structured-interviews",
+     "snippet": "Time-boxed protocols and consent."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-09-09T04:20:00Z",
+   "updated_at": "2026-09-09T04:20:26Z"
+  },
+  {
+   "uuid": "67268334-e0d5-42c9-8105-0ade02007806",
+   "query_str": "should i record + transcribe or just take notes",
+   "answer": "Record and transcribe if they consent — you'll catch exact phrasing you'd lose in notes, and you can be present in the conversation [1]. Still jot 3–5 timestamped highlights during the call so synthesis is faster. Tell them how recordings are stored and that they can stop recording at any time [1].",
+   "sources": [
+    {
+     "name": "Semi-structured interviews in HCI: a practical guide",
+     "url": "https://www.methodsforhci.org/semi-structured-interviews",
+     "snippet": "Recording, consent and note-taking during interviews."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-09-09T04:24:03Z",
+   "updated_at": "2026-09-09T04:24:15Z"
+  }
+ ]
+}

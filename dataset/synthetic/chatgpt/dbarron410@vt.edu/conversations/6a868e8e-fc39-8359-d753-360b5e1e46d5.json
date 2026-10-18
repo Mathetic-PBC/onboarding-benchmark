@@ -1,0 +1,305 @@
+{
+ "title": "Prep for angel investor call",
+ "create_time": 1787203214.12,
+ "update_time": 1787203393.324233,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "8401b388-b9e2-4d88-b305-e938b0697807"
+   ]
+  },
+  "8401b388-b9e2-4d88-b305-e938b0697807": {
+   "id": "8401b388-b9e2-4d88-b305-e938b0697807",
+   "message": {
+    "id": "8401b388-b9e2-4d88-b305-e938b0697807",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1787203214.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "first call w an angel tmrw (marcus oyelaran, northfield angels). we're pre-revenue, building engelbart, a research notebook that remembers where your thoughts came from (imports your chats, papers, notes, keeps provenance). in surplus incubator. what will he ask and what are weak spots"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_0895edc7508312742b79766bb2",
+     "message_source": null,
+     "turn_exchange_id": "68d53067-7a8a-4a41-ba60-572c38543dcd",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "44172a9f-4482-4a7d-9d81-b8162e6e18fd"
+   ]
+  },
+  "44172a9f-4482-4a7d-9d81-b8162e6e18fd": {
+   "id": "44172a9f-4482-4a7d-9d81-b8162e6e18fd",
+   "message": {
+    "id": "44172a9f-4482-4a7d-9d81-b8162e6e18fd",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1787203224.3,
+    "update_time": null,
+    "content": {
+     "content_type": "reasoning_recap",
+     "content": "Thought for 10s"
+    },
+    "status": "finished_successfully",
+    "end_turn": false,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_0895edc7508312742b79766bb2",
+     "message_type": "next",
+     "turn_exchange_id": "68d53067-7a8a-4a41-ba60-572c38543dcd",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "reasoning_status": "reasoning_ended",
+     "finished_duration_sec": 10,
+     "reasoning_start_time": 1787203214.4,
+     "reasoning_end_time": 1787203224.2,
+     "cot_version": "v5",
+     "thinking_effort": "standard",
+     "can_save": false,
+     "parent_id": "8401b388-b9e2-4d88-b305-e938b0697807"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "8401b388-b9e2-4d88-b305-e938b0697807",
+   "children": [
+    "6f98d70a-10a4-4f60-8706-a863684583d6"
+   ]
+  },
+  "6f98d70a-10a4-4f60-8706-a863684583d6": {
+   "id": "6f98d70a-10a4-4f60-8706-a863684583d6",
+   "message": {
+    "id": "6f98d70a-10a4-4f60-8706-a863684583d6",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1787203231.436,
+    "update_time": 1787203232.017041,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Likely questions and where you're exposed:\n\n**1. \"Who pays?\"** (weak spot)\nResearchers individually? Labs? Universities? Have a crisp first answer even if it's a hypothesis: e.g., *\"PhD students and postdocs pay $15–20/month individually first; lab plans later.\"* Show you know university procurement is slow.\n\n**2. \"Why now?\"**\nPeople's research thinking is now scattered across AI chats (ChatGPT, Claude), PDFs and notes. Nobody owns provenance across them.\n\n**3. \"Retention?\"** (weak spot: no data yet)\nSay what you'll measure in pilots: weekly active use, # of notes created that cite an imported source, return after 2 weeks. Name the pilots and dates.\n\n**4. \"Why you two?\"**\nYou: HCI PhD, built research tools, lived the problem. Hudson: [his strengths]. Keep it to two sentences each.\n\n**5. \"What's the wedge vs. Notion/Obsidian + AI?\"**\nThe import + provenance trail: \"where did this thought come from,\" across sources they already use.\n\n**6. \"Competition?\"**\nDon't say \"none.\" Name 3 and say what they don't do.\n\n**7. \"How much are you raising, on what terms?\"**\nKnow your answer (pre-seed SAFE, amount, cap or \"setting terms with lead\").\n\nHave one concrete demo moment ready: an idea in a note → click → the Claude chat and the PDF it came from."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_0895edc7508312742b79766bb2",
+     "message_type": "next",
+     "turn_exchange_id": "68d53067-7a8a-4a41-ba60-572c38543dcd",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "44172a9f-4482-4a7d-9d81-b8162e6e18fd"
+    },
+    "recipient": "all",
+    "channel": "final"
+   },
+   "parent": "44172a9f-4482-4a7d-9d81-b8162e6e18fd",
+   "children": [
+    "32042e6b-c4e8-440d-bfb2-fcd0771a10e0"
+   ]
+  },
+  "32042e6b-c4e8-440d-bfb2-fcd0771a10e0": {
+   "id": "32042e6b-c4e8-440d-bfb2-fcd0771a10e0",
+   "message": {
+    "id": "32042e6b-c4e8-440d-bfb2-fcd0771a10e0",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1787203376.436,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "we dont have a pricing hypothesis lol. give me 2 options to float"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_9f207452c2a7f8b47079912bfb",
+     "message_source": null,
+     "turn_exchange_id": "1bec49e1-e521-4597-aa08-8d1aca3c9bf3",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "6f98d70a-10a4-4f60-8706-a863684583d6",
+   "children": [
+    "3245c07e-d0fd-4764-8b1b-9020d9892f92"
+   ]
+  },
+  "3245c07e-d0fd-4764-8b1b-9020d9892f92": {
+   "id": "3245c07e-d0fd-4764-8b1b-9020d9892f92",
+   "message": {
+    "id": "3245c07e-d0fd-4764-8b1b-9020d9892f92",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1787203385.736,
+    "update_time": null,
+    "content": {
+     "content_type": "reasoning_recap",
+     "content": "Thought for 9s"
+    },
+    "status": "finished_successfully",
+    "end_turn": false,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_9f207452c2a7f8b47079912bfb",
+     "message_type": "next",
+     "turn_exchange_id": "1bec49e1-e521-4597-aa08-8d1aca3c9bf3",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "reasoning_status": "reasoning_ended",
+     "finished_duration_sec": 9,
+     "reasoning_start_time": 1787203376.8360002,
+     "reasoning_end_time": 1787203385.6360002,
+     "cot_version": "v5",
+     "thinking_effort": "standard",
+     "can_save": false,
+     "parent_id": "32042e6b-c4e8-440d-bfb2-fcd0771a10e0"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "32042e6b-c4e8-440d-bfb2-fcd0771a10e0",
+   "children": [
+    "d016df77-d5cc-4e64-bd5d-40b0bfaadb31"
+   ]
+  },
+  "d016df77-d5cc-4e64-bd5d-40b0bfaadb31": {
+   "id": "d016df77-d5cc-4e64-bd5d-40b0bfaadb31",
+   "message": {
+    "id": "d016df77-d5cc-4e64-bd5d-40b0bfaadb31",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1787203392.691,
+    "update_time": 1787203396.45913,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "1. **Individual prosumer:** $15/month (or $144/year), free during pilot. Comparable to what researchers already pay for writing/AI tools; you learn willingness to pay fast.\n2. **Lab seat bundle:** $500–1,000/lab/year for up to ~10 members, paid from discretionary/grant funds, with shared project spaces. Slower to sell, but a better fit if the value is in shared lab memory.\n\nFloat #1 as the starting point and #2 as where it could go. Say you'll test it in the October pilots."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_9f207452c2a7f8b47079912bfb",
+     "message_type": "next",
+     "turn_exchange_id": "1bec49e1-e521-4597-aa08-8d1aca3c9bf3",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "3245c07e-d0fd-4764-8b1b-9020d9892f92"
+    },
+    "recipient": "all",
+    "channel": "final"
+   },
+   "parent": "3245c07e-d0fd-4764-8b1b-9020d9892f92",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "d016df77-d5cc-4e64-bd5d-40b0bfaadb31",
+ "plugin_ids": null,
+ "conversation_id": "6a868e8e-fc39-8359-d753-360b5e1e46d5",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-6-thinking",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "6a868e8e-fc39-8359-d753-360b5e1e46d5"
+}

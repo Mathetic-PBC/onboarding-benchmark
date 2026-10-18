@@ -1,0 +1,159 @@
+{
+ "uuid": "ee95c310-c319-47df-b019-09cf353919a0",
+ "name": "FL Studio sidechain + sample chop",
+ "summary": "",
+ "model": "claude-sonnet-4-6",
+ "created_at": "2026-02-22T06:09:58.940903Z",
+ "updated_at": "2026-02-22T06:15:19.446892Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "off",
+ "chat_messages": [
+  {
+   "uuid": "677c1860-ab7d-43a9-8a95-d6cde9cd0cfd",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-02-22T06:10:00.000000Z",
+     "stop_timestamp": "2026-02-22T06:10:00.000000Z",
+     "type": "text",
+     "text": "fl studio question. making a lofi-ish beat, chopped a soul sample into slicex, kick + bass are fighting the sample. i want the sample to duck when the kick hits. whats the cleanest way in fl 21",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-02-22T06:10:00.000000Z",
+   "updated_at": "2026-02-22T06:10:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "d2301de5-38ea-4d7d-9eae-646b219d6938",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-02-22T06:10:02.000000Z",
+     "stop_timestamp": "2026-02-22T06:10:12.622000Z",
+     "type": "text",
+     "text": "Sidechain compression with Fruity Limiter is the standard way in FL:\n\n1. Route the **kick** to its own mixer track (say Insert 1) and the **sample** (Slicex) to another (Insert 2).\n2. Select the kick's insert, then right-click the arrow at the bottom of Insert 2 → **Sidechain to this track**. The kick now feeds Insert 2 as a sidechain without being heard there.\n3. On Insert 2, add **Fruity Limiter** → switch to **COMP** mode.\n4. Set the **SIDECHAIN** knob (bottom right) to 1.\n5. Start with: Threshold around −20 dB, Ratio 4:1–6:1, Attack ~1–5 ms, Release ~80–150 ms. Adjust until the sample dips just enough when the kick hits.\n\nFor lofi, a gentler duck usually sounds better than an EDM pump: aim for 2–4 dB of reduction.\n\nAlternative that's quicker: **Fruity Peak Controller** or a volume automation shape (or a plugin like a \"volume shaper\") linked to the kick timing. Less natural but very predictable.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-02-22T06:10:12.622000Z",
+   "updated_at": "2026-02-22T06:10:12.622000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "677c1860-ab7d-43a9-8a95-d6cde9cd0cfd"
+  },
+  {
+   "uuid": "aea82116-1ef6-4ec6-bdf9-16d414d94888",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-02-22T06:11:50.622000Z",
+     "stop_timestamp": "2026-02-22T06:11:50.622000Z",
+     "type": "text",
+     "text": "the bass too? or just eq the sample",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-02-22T06:11:50.622000Z",
+   "updated_at": "2026-02-22T06:11:50.622000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "d2301de5-38ea-4d7d-9eae-646b219d6938"
+  },
+  {
+   "uuid": "3ac301ad-dbc6-4edc-9c59-73ebfe6d42b5",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-02-22T06:11:52.622000Z",
+     "stop_timestamp": "2026-02-22T06:12:04.056000Z",
+     "type": "text",
+     "text": "Do both, for different reasons:\n- **EQ the sample**: high-pass it around 100–150 Hz so its low end doesn't fight the bass at all. Soul samples often carry a lot of muddy low-mids; a small cut around 250–400 Hz helps too.\n- **Sidechain the bass** to the kick lightly (1–3 dB) so the kick punches through.\n\nUsually EQ'ing the sample fixes 80% of it; the sidechain is the polish.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-02-22T06:12:04.056000Z",
+   "updated_at": "2026-02-22T06:12:04.056000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "aea82116-1ef6-4ec6-bdf9-16d414d94888"
+  },
+  {
+   "uuid": "de208161-1e9e-4f78-a32d-e8328e3a8930",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-02-22T06:15:01.056000Z",
+     "stop_timestamp": "2026-02-22T06:15:01.056000Z",
+     "type": "text",
+     "text": "hp at 120 sounds way cleaner. ty",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2026-02-22T06:15:01.056000Z",
+   "updated_at": "2026-02-22T06:15:01.056000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "3ac301ad-dbc6-4edc-9c59-73ebfe6d42b5"
+  },
+  {
+   "uuid": "4b340180-ea7b-4989-a23f-e41273247177",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-02-22T06:15:03.056000Z",
+     "stop_timestamp": "2026-02-22T06:15:17.594000Z",
+     "type": "text",
+     "text": "Nice. If the sample now sounds thin on its own, that's fine; judge it in the full mix. You can add a touch of saturation on the sample bus to bring back warmth without the low end.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2026-02-22T06:15:17.594000Z",
+   "updated_at": "2026-02-22T06:15:17.594000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "de208161-1e9e-4f78-a32d-e8328e3a8930"
+  }
+ ],
+ "current_leaf_message_uuid": "4b340180-ea7b-4989-a23f-e41273247177"
+}

@@ -1,0 +1,39 @@
+From: David Barron <dbarron410@vt.edu>
+To: Yan Chen <ychen.prime@vt.edu>
+Cc: Minsun <msun.prime@vt.edu>, Xiaohang <xhang.prime@vt.edu>
+Subject: Re: practice talk feedback
+Date: Tue, 29 Sep 2026 21:45:00 -0700
+Message-ID:
+ <CAhIJvptKJoQJBja761QQff2Ya+iWVg8Hw5zs9HZLZIbzNno42qVjR@mail.gmail.com>
+In-Reply-To:
+ <CAUGh9QpXBwW1M18LFWi3GXtdIdYp0UfyL7qbn82YOmZY8AkbgFLrX@mail.gmail.com>
+References:
+ <CAUGh9QpXBwW1M18LFWi3GXtdIdYp0UfyL7qbn82YOmZY8AkbgFLrX@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1877707063296940345
+X-Gmail-Labels: Sent
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Thank you, Yan (and Minsun for the legend catch). I'll simplify slide 6, cut =
+the incident to one sentence, and reorder the limitations. I'll send the fina=
+l deck before the AV check on Friday.
+
+On Tue, Sep 29, 2026 at 3:30 PM Yan Chen <ychen.prime@vt.edu> wrote:
+> David,
+>
+> Thank you for the practice talk. Overall: clear, the demo-first structure w=
+orks, and you finished at 14:20. Comments:
+>
+> 1. Slide 6: the kappa table is too dense to read in 10 seconds. Show only t=
+he overall 0.71 and put per-pair numbers in backup.
+> 2. The section B incident: one sentence is enough; you spent a minute on it.
+> 3. Limitations slide: lead with generalization; that's the question you'll =
+get.
+> 4. Expect a privacy question. Have the pseudonymized replay screenshot read=
+y.
+>
+> Minsun noted the ordering of states on the legend differs between the demo =
+and the slides.
+>
+> Yan

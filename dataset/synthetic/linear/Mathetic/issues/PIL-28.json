@@ -1,0 +1,60 @@
+{
+  "issue": {
+    "id": "PIL-28",
+    "uuid": "04f9fc56-1dea-4c22-a1f4-28431284bc6b",
+    "title": "Obsidian: follow symlinked folders in the vault",
+    "description": "Daniel's vault has `papers/` symlinked from Dropbox; we skip symlinks, so 0 of his ~180 paper notes came in. Follow symlinks inside the vault root, guard against loops.",
+    "projectMilestone": null,
+    "priority": {
+      "value": 4,
+      "name": "Low"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-28/obsidian-follow-symlinked-folders-in-the-vault",
+    "gitBranchName": "david/pil-28-obsidian-follow-symlinked-folders-in-the-vault",
+    "createdAt": "2026-10-13T20:10:38.709Z",
+    "updatedAt": "2026-10-13T20:10:38.709Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Backlog",
+    "statusType": "backlog",
+    "labels": [
+      "Bug",
+      "Import"
+    ],
+    "createdBy": "David Barron",
+    "assignee": null,
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-28",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "7efa67db-eb16-4280-843f-b08b030d464f",
+          "name": "Backlog",
+          "type": "backlog"
+        },
+        "startedAt": "2026-10-13T20:10:38.709Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": []
+}

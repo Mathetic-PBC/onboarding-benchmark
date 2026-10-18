@@ -1,1 +1,1088 @@
-[]
+[
+ {
+  "id": "item_034912",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/147cfd47-8dc7-4c78-a06d-dc56e88ba683.json",
+  "title": "147cfd47-8dc7-4c78-a06d-dc56e88ba683.json",
+  "content_type": "data",
+  "created_at": "2026-09-28T05:36:00Z",
+  "modified_at": "2026-09-28T05:38:10Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/147cfd47-8dc7-4c78-a06d-dc56e88ba683.json",
+  "source_url": null,
+  "content_hash": "sha256:f7cd723c64d5f4f14388c775fffdf21ff42472ecbd717a2649759d4bf07d643a",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034913",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/1b870061-6916-4ecf-9be8-80a47c24a4ac.json",
+  "title": "1b870061-6916-4ecf-9be8-80a47c24a4ac.json",
+  "content_type": "data",
+  "created_at": "2026-09-02T05:20:00Z",
+  "modified_at": "2026-09-02T05:22:22Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/1b870061-6916-4ecf-9be8-80a47c24a4ac.json",
+  "source_url": null,
+  "content_hash": "sha256:7605c7bc13fd128353edacdd5dc0e63d11d0d7edfe8147ffd3a60e0b45a2c556",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034914",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/1c1a0672-74f3-4020-b0b1-18f3eb470351.json",
+  "title": "1c1a0672-74f3-4020-b0b1-18f3eb470351.json",
+  "content_type": "data",
+  "created_at": "2026-10-14T17:40:00Z",
+  "modified_at": "2026-10-14T17:44:10Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/1c1a0672-74f3-4020-b0b1-18f3eb470351.json",
+  "source_url": null,
+  "content_hash": "sha256:e043f1b16bc375283f00c9a2a09e8c4c6a6e9fcbf0a05b906fff0a1d57ab5b61",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034915",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/22897132-6f86-4b1b-bfa5-36e4fc645354.json",
+  "title": "22897132-6f86-4b1b-bfa5-36e4fc645354.json",
+  "content_type": "data",
+  "created_at": "2026-06-17T11:42:00Z",
+  "modified_at": "2026-06-17T11:46:24Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/22897132-6f86-4b1b-bfa5-36e4fc645354.json",
+  "source_url": null,
+  "content_hash": "sha256:d77faf878272d0cc3d994b326e532eb7bb3965dd18eaa65f2762ed87134ea06d",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034916",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/2ea42984-db4e-4621-bbe8-bf0208f4a8df.json",
+  "title": "2ea42984-db4e-4621-bbe8-bf0208f4a8df.json",
+  "content_type": "data",
+  "created_at": "2026-03-15T05:12:00Z",
+  "modified_at": "2026-03-15T05:17:13Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/2ea42984-db4e-4621-bbe8-bf0208f4a8df.json",
+  "source_url": null,
+  "content_hash": "sha256:e1def6b58457a87eaccb12c477288269d117b4de613ee6b8427d466bbb955609",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034917",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/383fd699-1a99-47fc-a8bb-343a39ce3aa2.json",
+  "title": "383fd699-1a99-47fc-a8bb-343a39ce3aa2.json",
+  "content_type": "data",
+  "created_at": "2026-02-13T04:30:00Z",
+  "modified_at": "2026-02-13T04:35:28Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/383fd699-1a99-47fc-a8bb-343a39ce3aa2.json",
+  "source_url": null,
+  "content_hash": "sha256:fa7bd7b255233a0cc479f19e02c9ab90fb80e736272305c97c523b5c1c083148",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_plotpact"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034918",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/3c8c6df8-967e-45af-b96f-7100d41cdca8.json",
+  "title": "3c8c6df8-967e-45af-b96f-7100d41cdca8.json",
+  "content_type": "data",
+  "created_at": "2026-04-21T02:05:00Z",
+  "modified_at": "2026-04-21T02:08:13Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/3c8c6df8-967e-45af-b96f-7100d41cdca8.json",
+  "source_url": null,
+  "content_hash": "sha256:1bb30fd5c1cad687b19c5af8fc62403cbdca47ff61f8f6e22916499332198a29",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_plotpact"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034919",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/4b3b9289-a5cd-42bd-981d-40e9c40b02f0.json",
+  "title": "4b3b9289-a5cd-42bd-981d-40e9c40b02f0.json",
+  "content_type": "data",
+  "created_at": "2026-09-04T04:13:25Z",
+  "modified_at": "2026-09-04T04:15:11Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/4b3b9289-a5cd-42bd-981d-40e9c40b02f0.json",
+  "source_url": null,
+  "content_hash": "sha256:318a5212787935cafe91f33bb40a5be0920881db54e2a1a1ed12ee785f1efd63",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034920",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/60c04823-e00e-4845-acba-3a2f53c11002.json",
+  "title": "60c04823-e00e-4845-acba-3a2f53c11002.json",
+  "content_type": "data",
+  "created_at": "2026-08-17T13:58:00Z",
+  "modified_at": "2026-08-17T14:00:44Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/60c04823-e00e-4845-acba-3a2f53c11002.json",
+  "source_url": null,
+  "content_hash": "sha256:177facde831b85c5c2fc8d1c9501d2e5e1684e49c469297fa638c825fcbe4f3e",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034921",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/62bb70a7-5d92-42c2-803d-7f80122ed0c9.json",
+  "title": "62bb70a7-5d92-42c2-803d-7f80122ed0c9.json",
+  "content_type": "data",
+  "created_at": "2026-10-04T05:40:00Z",
+  "modified_at": "2026-10-04T05:43:59Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/62bb70a7-5d92-42c2-803d-7f80122ed0c9.json",
+  "source_url": null,
+  "content_hash": "sha256:844e90eff17faa98ea34ae249074ae7cbe2137ace61e530a74337c22060f6baa",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034922",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/64c9193a-ff11-4653-90f0-12ceac15f3c2.json",
+  "title": "64c9193a-ff11-4653-90f0-12ceac15f3c2.json",
+  "content_type": "data",
+  "created_at": "2026-09-06T18:04:00Z",
+  "modified_at": "2026-09-06T18:06:41Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/64c9193a-ff11-4653-90f0-12ceac15f3c2.json",
+  "source_url": null,
+  "content_hash": "sha256:abf0b45776a7b7a12266b50950574cbd1a037dea5928d53849f0b2959576d35e",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034923",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/64ce3923-b916-4993-a898-67f9d632aa9b.json",
+  "title": "64ce3923-b916-4993-a898-67f9d632aa9b.json",
+  "content_type": "data",
+  "created_at": "2026-03-05T04:58:00Z",
+  "modified_at": "2026-03-05T05:01:17Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/64ce3923-b916-4993-a898-67f9d632aa9b.json",
+  "source_url": null,
+  "content_hash": "sha256:2e545ad6054a65ac3bb60ab95783ce06b9c87bc15b8bb5e002946bfca4144f30",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034924",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/737aa113-bc7b-4e9b-a49a-922cafb43c3d.json",
+  "title": "737aa113-bc7b-4e9b-a49a-922cafb43c3d.json",
+  "content_type": "data",
+  "created_at": "2026-05-28T03:44:00Z",
+  "modified_at": "2026-05-28T03:48:17Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/737aa113-bc7b-4e9b-a49a-922cafb43c3d.json",
+  "source_url": null,
+  "content_hash": "sha256:48fbac0af5efcc2029a80330e0d86ea48f131f1a7a027e06062f2c5d8b56e633",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034925",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/7fc16784-0dae-44d3-9d06-621ced8f93d5.json",
+  "title": "7fc16784-0dae-44d3-9d06-621ced8f93d5.json",
+  "content_type": "data",
+  "created_at": "2026-08-20T04:32:00Z",
+  "modified_at": "2026-08-20T04:34:17Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/7fc16784-0dae-44d3-9d06-621ced8f93d5.json",
+  "source_url": null,
+  "content_hash": "sha256:bd594aae3558d799810da79cb59a115e8306c7fc43e03f3cf37aa357102d06de",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034926",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/878b229c-6fb4-456b-8de9-ec1e2542bcea.json",
+  "title": "878b229c-6fb4-456b-8de9-ec1e2542bcea.json",
+  "content_type": "data",
+  "created_at": "2026-03-09T01:49:00Z",
+  "modified_at": "2026-03-09T01:50:59Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/878b229c-6fb4-456b-8de9-ec1e2542bcea.json",
+  "source_url": null,
+  "content_hash": "sha256:0dda09e5740f40209740185fbfed5cd2b8fc611c9c050070c0d80c4b6acd7d78",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034927",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/8f5d3a6d-f9a8-4ace-81ff-2346de4e34fb.json",
+  "title": "8f5d3a6d-f9a8-4ace-81ff-2346de4e34fb.json",
+  "content_type": "data",
+  "created_at": "2026-02-10T03:17:00Z",
+  "modified_at": "2026-02-10T03:22:19Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/8f5d3a6d-f9a8-4ace-81ff-2346de4e34fb.json",
+  "source_url": null,
+  "content_hash": "sha256:208dc54e347d7e645482a4c8f15be24870f421cfcddf70c627c605e89ae84e09",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034928",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/93ed50d8-1e8b-49c9-beef-59a992e964fe.json",
+  "title": "93ed50d8-1e8b-49c9-beef-59a992e964fe.json",
+  "content_type": "data",
+  "created_at": "2026-04-15T00:31:00Z",
+  "modified_at": "2026-04-15T00:32:54Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/93ed50d8-1e8b-49c9-beef-59a992e964fe.json",
+  "source_url": null,
+  "content_hash": "sha256:178bb9961b73f9bf30411944dc58d3cd7d48702e0002ec3e1ad8603f5160ff96",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034929",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/9ab0c5ef-aee3-409c-bb9a-c55ab1ef8679.json",
+  "title": "9ab0c5ef-aee3-409c-bb9a-c55ab1ef8679.json",
+  "content_type": "data",
+  "created_at": "2026-03-02T02:15:00Z",
+  "modified_at": "2026-03-02T02:20:35Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/9ab0c5ef-aee3-409c-bb9a-c55ab1ef8679.json",
+  "source_url": null,
+  "content_hash": "sha256:af1548865e60c3bd4ccf3cc307cdcb952cecdbc0fd6b8c1352dd7eaf7de43b5c",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034930",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/a45c166e-22e0-4f40-b090-61bf1c6ad713.json",
+  "title": "a45c166e-22e0-4f40-b090-61bf1c6ad713.json",
+  "content_type": "data",
+  "created_at": "2026-10-06T06:10:00Z",
+  "modified_at": "2026-10-06T06:14:55Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/a45c166e-22e0-4f40-b090-61bf1c6ad713.json",
+  "source_url": null,
+  "content_hash": "sha256:62dad948409ce30d0b608ceeae23ef1c70009e6240bd42147ea2d9cee9eebeeb",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034931",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/a5d60efc-e8a4-499a-b943-8a0efa2ffa87.json",
+  "title": "a5d60efc-e8a4-499a-b943-8a0efa2ffa87.json",
+  "content_type": "data",
+  "created_at": "2026-10-11T04:52:00Z",
+  "modified_at": "2026-10-13T06:32:57Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/a5d60efc-e8a4-499a-b943-8a0efa2ffa87.json",
+  "source_url": null,
+  "content_hash": "sha256:8a1b6a43bb28ce1f9657922d7f4a2b36d6ed742ac5397b9fe1d35ce0056eed99",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_none"
+   ],
+   "notes": "HARD CASE: buried passage — 50+ message US–China / Mackinder–Spykman thread; around messages 39–46 (two days after the 10-09 Priya pilot) David digresses about how Engelbart's import should dedupe the same paper from Zotero and ~/Downloads (content hash → DOI → normalized title, keep both provenance pointers, show v1/v2 near-duplicates as versions), then returns to geopolitics."
+  }
+ },
+ {
+  "id": "item_034932",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/a6e41f4e-2e24-4d51-9866-38fea0770638.json",
+  "title": "a6e41f4e-2e24-4d51-9866-38fea0770638.json",
+  "content_type": "data",
+  "created_at": "2026-08-13T05:47:00Z",
+  "modified_at": "2026-08-13T05:49:41Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/a6e41f4e-2e24-4d51-9866-38fea0770638.json",
+  "source_url": null,
+  "content_hash": "sha256:a67a42bce747fd82b27ef2a33861b5b264150aa72b0ed96e01929911bd455bb0",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034933",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/a8382599-5df9-448d-bb7d-91f5203210c3.json",
+  "title": "a8382599-5df9-448d-bb7d-91f5203210c3.json",
+  "content_type": "data",
+  "created_at": "2026-05-07T04:14:00Z",
+  "modified_at": "2026-05-07T04:16:07Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/a8382599-5df9-448d-bb7d-91f5203210c3.json",
+  "source_url": null,
+  "content_hash": "sha256:699b19e093f19fa9d28bd7536497bb465befe9bac570e72249ebf63eedb333f6",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034934",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/aa3739a7-2365-458b-99ca-adb591a962cc.json",
+  "title": "aa3739a7-2365-458b-99ca-adb591a962cc.json",
+  "content_type": "data",
+  "created_at": "2026-04-08T17:22:00Z",
+  "modified_at": "2026-04-08T17:24:28Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/aa3739a7-2365-458b-99ca-adb591a962cc.json",
+  "source_url": null,
+  "content_hash": "sha256:d032050f3b14063abfb98a1ee7006712a2d2a56b49e085bd4dcae7d821c5797b",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034935",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/aa724050-1d33-409d-affc-7a46834e3145.json",
+  "title": "aa724050-1d33-409d-affc-7a46834e3145.json",
+  "content_type": "data",
+  "created_at": "2026-04-14T02:48:00Z",
+  "modified_at": "2026-04-14T02:53:52Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/aa724050-1d33-409d-affc-7a46834e3145.json",
+  "source_url": null,
+  "content_hash": "sha256:45c03521074ea9f9773c92325ee4273a8145a6a000d79aea334325a8cfa99357",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034936",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/b561b232-6410-4547-8396-15a1635046e0.json",
+  "title": "b561b232-6410-4547-8396-15a1635046e0.json",
+  "content_type": "data",
+  "created_at": "2026-10-16T16:20:00Z",
+  "modified_at": "2026-10-16T16:25:30Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/b561b232-6410-4547-8396-15a1635046e0.json",
+  "source_url": null,
+  "content_hash": "sha256:e7d753d0621f9418dbb422d52fbb311fbc4f46ed55a7814936fa65fec87104e9",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034937",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/bde3c4bd-96e7-4c27-810a-39b7c5c30fd9.json",
+  "title": "bde3c4bd-96e7-4c27-810a-39b7c5c30fd9.json",
+  "content_type": "data",
+  "created_at": "2026-02-11T05:52:00Z",
+  "modified_at": "2026-02-11T05:57:21Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/bde3c4bd-96e7-4c27-810a-39b7c5c30fd9.json",
+  "source_url": null,
+  "content_hash": "sha256:5621a9b7aac842ac1759a6a2a109c926aca81cf227de7464dd59c4d889e74ffa",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034938",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/c0cd6702-bb26-4774-9b02-b3eec84aa002.json",
+  "title": "c0cd6702-bb26-4774-9b02-b3eec84aa002.json",
+  "content_type": "data",
+  "created_at": "2026-03-18T02:58:00Z",
+  "modified_at": "2026-03-18T02:59:32Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/c0cd6702-bb26-4774-9b02-b3eec84aa002.json",
+  "source_url": null,
+  "content_hash": "sha256:9c9838ecbaea790884a53400e2811fffea5b8c1479effdf776b3d47ace2b868e",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034939",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/d8ce0723-9e79-4bac-88b9-ca5fe14bb5cd.json",
+  "title": "d8ce0723-9e79-4bac-88b9-ca5fe14bb5cd.json",
+  "content_type": "data",
+  "created_at": "2026-09-14T15:05:00Z",
+  "modified_at": "2026-09-14T15:07:03Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/d8ce0723-9e79-4bac-88b9-ca5fe14bb5cd.json",
+  "source_url": null,
+  "content_hash": "sha256:2599fba146a617834d5296fcc0892bdd5972476fa17545de7422b1033bc9e675",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034940",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/d8f85191-09d6-4c74-966b-a92165a473c0.json",
+  "title": "d8f85191-09d6-4c74-966b-a92165a473c0.json",
+  "content_type": "data",
+  "created_at": "2026-09-23T04:40:00Z",
+  "modified_at": "2026-09-23T04:43:16Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/d8f85191-09d6-4c74-966b-a92165a473c0.json",
+  "source_url": null,
+  "content_hash": "sha256:ead5ef3619e1c1ad6ccbd8f097c6703ce447e8fd5b6caa8360be75480c3b5c35",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034941",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/e43e5dc1-ae10-43ea-b1b0-e20ca3e3bed0.json",
+  "title": "e43e5dc1-ae10-43ea-b1b0-e20ca3e3bed0.json",
+  "content_type": "data",
+  "created_at": "2026-06-28T02:36:00Z",
+  "modified_at": "2026-06-28T02:39:02Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/e43e5dc1-ae10-43ea-b1b0-e20ca3e3bed0.json",
+  "source_url": null,
+  "content_hash": "sha256:5cae5665c2460e16c9d0ee50aaeb422b15f86c66d810c10b7e0bbfe87f2a4207",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034942",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/e7b36986-85ff-41d2-be94-ce51211175d2.json",
+  "title": "e7b36986-85ff-41d2-be94-ce51211175d2.json",
+  "content_type": "data",
+  "created_at": "2026-08-03T01:05:00Z",
+  "modified_at": "2026-08-03T01:10:20Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/e7b36986-85ff-41d2-be94-ce51211175d2.json",
+  "source_url": null,
+  "content_hash": "sha256:57c1ccd1adccae88b44eb0c2c54c8ff6035aa6bf8b069e4bfbe9218ea67a3577",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034943",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/eacc8ba0-f810-47a9-9fe4-11b668ccd879.json",
+  "title": "eacc8ba0-f810-47a9-9fe4-11b668ccd879.json",
+  "content_type": "data",
+  "created_at": "2026-06-16T19:02:00Z",
+  "modified_at": "2026-06-16T19:04:16Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/eacc8ba0-f810-47a9-9fe4-11b668ccd879.json",
+  "source_url": null,
+  "content_hash": "sha256:fc91d5ec96f5ac9d9c89f292fad18967d8e5f813982ccc5bfb7458b28a752fab",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034944",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/f0576507-5691-48f1-b71e-4c926a507db8.json",
+  "title": "f0576507-5691-48f1-b71e-4c926a507db8.json",
+  "content_type": "data",
+  "created_at": "2026-02-05T04:41:00Z",
+  "modified_at": "2026-02-05T04:46:11Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/f0576507-5691-48f1-b71e-4c926a507db8.json",
+  "source_url": null,
+  "content_hash": "sha256:8844239bbc09f6a345e2be10027abe46993d69f8c51829c06e939f0fb765285f",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034945",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/f0e47e19-e801-43fe-89af-12fae285d37d.json",
+  "title": "f0e47e19-e801-43fe-89af-12fae285d37d.json",
+  "content_type": "data",
+  "created_at": "2026-07-13T02:15:00Z",
+  "modified_at": "2026-07-13T02:16:46Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/f0e47e19-e801-43fe-89af-12fae285d37d.json",
+  "source_url": null,
+  "content_hash": "sha256:132e5ed43e1d28dbdec2d25d695948e77020132cf6ca9ad7909f6fc8c98ba3f1",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_034946",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "grok",
+  "source_id": "@dbarron_runs/conversations/f198d84c-976c-4e41-ad60-377ef9d49d5e.json",
+  "title": "f198d84c-976c-4e41-ad60-377ef9d49d5e.json",
+  "content_type": "data",
+  "created_at": "2026-10-13T04:12:00Z",
+  "modified_at": "2026-10-13T04:15:05Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/grok/@dbarron_runs/conversations/f198d84c-976c-4e41-ad60-377ef9d49d5e.json",
+  "source_url": null,
+  "content_hash": "sha256:5feca6e018e0ed7af78b911d524748ecfcef0643295d0cb4dcf040029628c941",
+  "library_item_id": null,
+  "modeled_on": "grok.com conversation export (documented shape; no real Grok data)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Grok via X @dbarron_runs)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ }
+]

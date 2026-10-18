@@ -1,0 +1,213 @@
+{
+ "uuid": "4c468c87-ab69-49c5-a475-a5ff44585b97",
+ "name": "Import dedupe rules for papers and chats",
+ "summary": "",
+ "model": "claude-fable-5-1",
+ "created_at": "2026-09-04T06:04:58.391747Z",
+ "updated_at": "2026-09-04T06:13:49.777605Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true,
+  "paprika_mode": "auto",
+  "thinking_mode": "auto",
+  "chat_memory_mode": "enabled",
+  "enabled_artifacts_attachments": false
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "auto",
+ "chat_messages": [
+  {
+   "uuid": "c65fc38b-9ca8-4e9b-9740-9503d3ca79fd",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-04T06:05:00.000000Z",
+     "stop_timestamp": "2026-09-04T06:05:00.000000Z",
+     "type": "text",
+     "text": "need to write the dedupe rules for import. right now we just do sha256 of file bytes. problem: same paper from zotero and from ~/Downloads comes in twice when one is the arxiv version and the other is the camera ready. e.g. ostrowski 2025 (productive struggle or silent stalling) – i have v1 from arxiv in downloads and the L@S camera ready in zotero. different bytes, obviously\n\ncurrent code:\n\n```ts\nexport function dedupeKey(item: ImportedItem): string {\n  return sha256(item.bytes);\n}\n```\n\nwhat should the rules be. be concrete",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-09-04T06:05:00.000000Z",
+   "updated_at": "2026-09-04T06:05:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "fa226d92-9e76-4497-a150-5326179b762a",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-04T06:05:02.000000Z",
+     "stop_timestamp": "2026-09-04T06:05:28.193000Z",
+     "type": "text",
+     "text": "Byte hashes only catch exact copies. For papers you need a ladder of keys, from strongest to weakest, and you should only *merge* on the strong ones.\n\n**1. Exact copy** — `sha256(bytes)` equal → same file. Merge, keep both locations as provenance.\n\n**2. Same work, identified** — DOI equal (normalized: lowercase, strip `https://doi.org/`), or arXiv id equal ignoring version (`2507.01842v1` ≡ `2507.01842`). → same work. Don't merge files; group them as **versions** of one paper.\n\n**3. Same work, inferred** — no ids, but:\n- normalized title similarity ≥ 0.92 (lowercase, strip punctuation and LaTeX, collapse whitespace; token-set ratio), **and**\n- first author's last name equal, **and**\n- year within ±1 (preprints are often a year earlier).\n→ propose a version group, but mark it `confidence: inferred` so the UI can show \"looks like the same paper\".\n\n**4. Everything else** — separate items.\n\nWhere the metadata comes from:\n- Zotero: item fields (DOI, title, creators, date) are already there.\n- Downloads PDFs: XMP metadata first, then the PDF info dict, then the first page text (largest font block on page 1 is usually the title). arXiv PDFs have the id stamped in the left margin, so regex `arXiv:(\\d{4}\\.\\d{4,5})(v\\d+)?` on page 1.\n\n```ts\ntype Key = { kind: 'bytes' | 'doi' | 'arxiv' | 'title'; value: string };\n\nexport function dedupeKeys(item: ImportedItem): Key[] {\n  const keys: Key[] = [{ kind: 'bytes', value: sha256(item.bytes) }];\n  const m = item.meta;\n  if (m.doi) keys.push({ kind: 'doi', value: normDoi(m.doi) });\n  if (m.arxivId) keys.push({ kind: 'arxiv', value: m.arxivId.replace(/v\\d+$/, '') });\n  if (m.title && m.firstAuthorLast && m.year)\n    keys.push({ kind: 'title', value: `${normTitle(m.title)}|${m.firstAuthorLast.toLowerCase()}` });\n  return keys;\n}\n```\n\nFor Ostrowski: the camera-ready from Zotero has the DOI, the arXiv v1 has the arXiv id. Neither key matches the other directly, so it falls to rule 3 (title + first author + year 2025), which matches. That's the case where you want \"versions\", not a silent merge: the abstracts differ (0.69 vs 0.71 macro-F1), and a researcher may have annotated one and not the other.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-09-04T06:05:28.193000Z",
+   "updated_at": "2026-09-04T06:05:28.193000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "c65fc38b-9ca8-4e9b-9740-9503d3ca79fd"
+  },
+  {
+   "uuid": "9ac494cd-f25b-4de9-a9e0-e2ad424b483d",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-04T06:08:25.193000Z",
+     "stop_timestamp": "2026-09-04T06:08:25.193000Z",
+     "type": "text",
+     "text": "ok versions not merge, agreed. what about chats. claude export vs claude browser session will give the same conversation twice",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-09-04T06:08:25.193000Z",
+   "updated_at": "2026-09-04T06:08:25.193000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "fa226d92-9e76-4497-a150-5326179b762a"
+  },
+  {
+   "uuid": "9afb2ef4-2b83-4a35-bde1-80ddb1bf4931",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-04T06:08:27.193000Z",
+     "stop_timestamp": "2026-09-04T06:08:45.932000Z",
+     "type": "text",
+     "text": "Chats are easier because they carry stable ids.\n\n- **Same tool, same conversation id** → same item, regardless of how it arrived (export zip, browser session, re-import). Keep the newest `updated_at` version and record both arrival paths. A chat that grew since the last import should *update* the item, not create a second one.\n- **Different tools** (a ChatGPT chat and a Claude chat about the same thing) → never dedupe. They're different conversations even when the content overlaps.\n- **Branches**: ChatGPT conversations are trees. Import the current branch as the item, and keep other branches as hidden parts, not separate items.\n- **Project chats**: the project is a container item; its chats are separate items with `parent_id = project`. Don't import a chat twice because it appears both in the chat list and the project's conversation list.\n\nThat last one is a real trap: the Claude projects endpoint lists the same chats you already got from the conversations list. Key on the conversation uuid and you're fine.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-09-04T06:08:45.932000Z",
+   "updated_at": "2026-09-04T06:08:45.932000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "9ac494cd-f25b-4de9-a9e0-e2ad424b483d"
+  },
+  {
+   "uuid": "a2df2790-4219-4508-ba90-dfe1e92cd0de",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-04T06:10:10.932000Z",
+     "stop_timestamp": "2026-09-04T06:10:10.932000Z",
+     "type": "text",
+     "text": "slack file shares? someone shares a pdf in slack thats also in drive",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2026-09-04T06:10:10.932000Z",
+   "updated_at": "2026-09-04T06:10:10.932000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "9afb2ef4-2b83-4a35-bde1-80ddb1bf4931"
+  },
+  {
+   "uuid": "84d20e14-ce96-48c0-beee-219f002ab330",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-04T06:10:12.932000Z",
+     "stop_timestamp": "2026-09-04T06:10:25.616000Z",
+     "type": "text",
+     "text": "Treat the Slack message and the file as two things:\n\n- The **message** is its own item (who shared it, when, what they said about it). Never dedupe it away; the \"why\" is often in the message.\n- The **file** attached to it goes through the same paper/file ladder above. If its bytes match a Drive file, it's the same file with a second provenance edge (\"shared in #research by Hudson, 2026-08-29\").\n\nSo in the notebook the paper shows up once, with a trail: Zotero → Drive copy → shared in Slack. That trail is basically the product.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2026-09-04T06:10:25.616000Z",
+   "updated_at": "2026-09-04T06:10:25.616000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "a2df2790-4219-4508-ba90-dfe1e92cd0de"
+  },
+  {
+   "uuid": "e48d0a36-e710-4414-8a12-9785e34adf19",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-04T06:13:30.616000Z",
+     "stop_timestamp": "2026-09-04T06:13:30.616000Z",
+     "type": "text",
+     "text": "write this up as a short rules doc i can paste into the project knowledge. bullets, no prose",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 6,
+   "created_at": "2026-09-04T06:13:30.616000Z",
+   "updated_at": "2026-09-04T06:13:30.616000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "84d20e14-ce96-48c0-beee-219f002ab330"
+  },
+  {
+   "uuid": "5354364b-3630-4edc-b512-ffe8cb7f0d1e",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-04T06:13:32.616000Z",
+     "stop_timestamp": "2026-09-04T06:13:48.230000Z",
+     "type": "text",
+     "text": "**Import dedupe rules (draft, 2026-09-03)**\n\nFiles and papers\n- Same bytes (sha256) → one file; keep every location as provenance.\n- Same DOI, or same arXiv id ignoring version → one work; files become versions.\n- Title similarity ≥ 0.92 + same first-author last name + year ±1 → proposed version group, `confidence: inferred`.\n- Never merge versions into one file. Show \"2 versions\" on the paper.\n- Metadata order for loose PDFs: XMP → info dict → page-1 text (largest block = title; arXiv margin stamp).\n\nChats\n- Same tool + same conversation id → one item; newer `updated_at` wins; record each arrival path.\n- Different tools → never dedupe.\n- Branches → hidden parts of one item.\n- Project chats → separate items with `parent_id`; don't double count from project listings.\n\nMessages with files (Slack, Gmail)\n- Message and attachment are separate items.\n- Attachment goes through the file rules; a byte match adds provenance, not a new item.\n\nReporting\n- After every import: count found / imported / merged / versioned / skipped per source.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 7,
+   "created_at": "2026-09-04T06:13:48.230000Z",
+   "updated_at": "2026-09-04T06:13:48.230000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "e48d0a36-e710-4414-8a12-9785e34adf19"
+  }
+ ],
+ "current_leaf_message_uuid": "5354364b-3630-4edc-b512-ffe8cb7f0d1e",
+ "project_uuid": "3a75e460-2126-424d-9bb5-0e9e7ff852cd",
+ "project": {
+  "uuid": "3a75e460-2126-424d-9bb5-0e9e7ff852cd",
+  "name": "Engelbart onboarding"
+ }
+}

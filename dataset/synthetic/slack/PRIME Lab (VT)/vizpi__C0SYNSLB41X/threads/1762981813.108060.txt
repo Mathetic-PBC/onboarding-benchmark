@@ -1,0 +1,19 @@
+=== THREAD PARENT MESSAGE ===
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2025-11-12 13:10:13 PST
+Message TS: 1762981813.108060
+hotfix deployed (`a91d0f3`), no reload needed, clients pick it up on the next reconnect. B is back to ~50/min
+
+=== THREAD REPLIES (2 total) ===
+
+--- Reply 1 of 2 ---
+From: Rezky (U0SYNS0GL2E)
+Time: 2025-11-12 13:12:05 PST
+Message TS: 1762981925.003254
+nice. do the dropped ones still exist client-side?
+
+--- Reply 2 of 2 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2025-11-12 13:15:50 PST
+Message TS: 1762982150.820515
+only until the tab closes, they're in memory not localStorage. lesson learned

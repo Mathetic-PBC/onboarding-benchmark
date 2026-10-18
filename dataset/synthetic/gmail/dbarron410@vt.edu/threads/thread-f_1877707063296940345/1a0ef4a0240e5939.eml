@@ -1,0 +1,29 @@
+From: Yan Chen <ychen.prime@vt.edu>
+To: David Barron <dbarron410@vt.edu>
+Cc: Minsun <msun.prime@vt.edu>, Xiaohang <xhang.prime@vt.edu>
+Subject: practice talk feedback
+Date: Tue, 29 Sep 2026 18:30:00 -0400
+Message-ID:
+ <CAUGh9QpXBwW1M18LFWi3GXtdIdYp0UfyL7qbn82YOmZY8AkbgFLrX@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1877707063296940345
+X-Gmail-Labels: Inbox,Opened
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+David,
+
+Thank you for the practice talk. Overall: clear, the demo-first structure wor=
+ks, and you finished at 14:20. Comments:
+
+1. Slide 6: the kappa table is too dense to read in 10 seconds. Show only the=
+ overall 0.71 and put per-pair numbers in backup.
+2. The section B incident: one sentence is enough; you spent a minute on it.
+3. Limitations slide: lead with generalization; that's the question you'll ge=
+t.
+4. Expect a privacy question. Have the pseudonymized replay screenshot ready.
+
+Minsun noted the ordering of states on the legend differs between the demo an=
+d the slides.
+
+Yan

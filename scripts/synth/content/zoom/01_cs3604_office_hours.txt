@@ -1,0 +1,67 @@
+topic: CS 3604 Virtual Office Hours
+start: 2025-11-19 16:00:04
+host: yes
+projects: project_cs3604_gta
+notes: Wednesday virtual office hours David hosted as CS 3604 GTA; P3 rubric questions, P4 page limit, late-day policy question that foreshadows the P4 regrade dispute.
+speakers: D=David Barron; A=Alex R.; J=Jasmine T.; M=Marco D.; H=Hana K.
+rate: 2.8
+=== cues
+D: Okay, I think the recording's on. Hi, this is CS 3604 virtual office hours for Wednesday the nineteenth. I record these so people who can't make it can watch later. If you'd rather not be on the recording, just keep your camera off and ask in the chat.
+D: Alex, I see you in the waiting room, let me admit you. Hey Alex.
+A: Hey, um, can you hear me? My mic's been weird all day.
+D: Yeah, you're a little quiet but I can hear you.
+A: Okay, cool. So I had a question about P3, the grade. I got the feedback yesterday and I lost, uh, four points on the stakeholder section and I wasn't totally sure why.
+D: Sure, let me pull it up. One sec. Okay. So P3 is the case analysis, and for the stakeholder section the rubric has three rows. You need at least four stakeholders, what each one stands to gain or lose, and then you connect at least two of them to a specific principle in the ACM Code.
+A: Right, I thought I did that.
+D: You did the first two really well. The thing is, you cite the ACM Code in general, like "this violates the code", but you never point to a principle. So that row is where the four points went. If you'd said, like, 1.6, respect privacy, or 2.5 on evaluating risks, that would've been full credit.
+A: Oh. Okay, that's fair. Is there any way to, like, fix it?
+D: There's no resubmission for P3, sorry. But it's the same rubric row on the final project, so I'd just carry it forward. Honestly that's the most common thing I took points off for. I think something like a third of the class did the same thing.
+A: Okay, good to know. Thanks.
+D: Yep. Anything else?
+A: No, that was it. Thanks, David.
+D: Cool, see you. Okay, Jasmine and Marco, you both came in, welcome. Who wants to go first?
+J: I can go, mine's quick. For P4, the policy memo, is the two-page limit including references?
+D: No, references don't count. Two pages of body, eleven-point font, and then references on a separate page. The appendix doesn't count either, but please don't put actual arguments in the appendix. I'll read it but I won't grade it.
+J: Got it. And can we use the case from P3 again, or does it have to be new?
+D: It has to be a different case. You can stay in the same area, like if you did facial recognition for P3 you could do a different surveillance policy, but it can't be the same incident.
+J: Okay, cool, that helps.
+M: Um, can I ask about late days?
+D: Yeah, go ahead.
+M: So I think I have one late day left, and P4 is due Friday at eleven fifty-nine. If I submit at like twelve-oh-five, does that count as a whole late day?
+D: So the policy in the syllabus is that late days are whole days. Anything after eleven fifty-nine counts as one late day, so twelve-oh-five would use your last one.
+M: Even if it's five minutes?
+D: Yeah. Canvas marks it late and I go by the timestamp. I know it feels harsh. There's no grace period written in, at least not that I know of.
+M: Because last week someone in my section said there was, like, a fifteen-minute grace thing.
+D: Hmm. I don't think so? Let me check with the instructor and I'll post the answer in the Canvas discussion so everyone gets the same answer. I don't want to tell you one thing and then grade another way.
+M: Okay, yeah, please. And if I've already used all of them?
+D: Then it's ten percent off per day after that, up to three days, and after three days it's a zero unless you have an approved extension. So if you're out of late days, just submit what you have on time.
+M: Okay. Thanks.
+J: Wait, sorry, can I ask one more thing about P3?
+D: Sure.
+J: The feedback said my recommendation was "underspecified". What does that mean exactly?
+D: Yeah, so the recommendation row wants something someone could actually do. "The company should be more ethical" is underspecified. "The company should require an independent audit before deploying the model in a new city" is specific. Who does what, and by when.
+J: Ah, okay. That makes sense.
+D: Hana, I see you just joined. Hi.
+H: Hi! Sorry, I was in another meeting. Um, I had a question about final project teams.
+D: Sure.
+H: Our team has five people now because someone joined from another team that split up, and the spec says four. Is that okay?
+D: Five is fine if it's because of a team change. Put all five names on the proposal and add a sentence on who's doing what. I'd also email the instructor so it's on record.
+H: Okay. And the proposal's due December first, right?
+D: December first, yeah. The final project itself is due the tenth, and I'm grading all sixty-four of those, so, um, please, please label your sections the way the rubric does. It makes my life so much easier.
+H: Haha, okay, will do.
+M: Do you know when P3 grades will be final? Like if someone wants a regrade?
+D: Regrade requests are open for one week after grades come out, so for P3 that's until next Tuesday. Use the form linked in the syllabus, not email. Say which rubric row and why.
+M: Got it.
+D: Okay, anyone else? No? I'll stay on another ten minutes in case someone shows up. Otherwise see you all Friday.
+J: Thanks!
+H: Thank you!
+D: Okay, nobody else came, I'm going to stop the recording. Bye.
+=== chat
+@0+25 D>Everyone: Office hours are the same link every Wednesday 4-5pm. The recording goes up on Canvas under Media.
+@2+6 A>Everyone: sorry mic is bad, switching to headphones
+@7+12 D>Everyone: ACM Code of Ethics principles are numbered (1.1-1.7, 2.1-2.9, 3.1-3.7). Cite the number in P3/P4/final.
+@13+5 J>Everyone: is the 2 page limit with references?
+@22+10 M>D: also is there any chance i could get an extension on P4, i have two exams friday
+@24+8 D>M: I can't approve extensions, email the instructor and cc me
+@34+5 H>Everyone: joining late sorry!
+@44+12 D>Everyone: Regrade form is linked in the syllabus under Grading. 1 week window after grades are released.

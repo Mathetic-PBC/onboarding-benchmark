@@ -1,0 +1,62 @@
+{
+ "uuid": "f3127a11-245f-456e-ae6e-f254eb16c367",
+ "slug": "background-on-elena-park-phd-student-at-uc-CJPPuaUZalsAsLzsWSZiVY",
+ "title": "Elena Park research background",
+ "thread_url": "https://www.perplexity.ai/search/background-on-elena-park-phd-student-at-uc-CJPPuaUZalsAsLzsWSZiVY",
+ "created_at": "2026-09-07T06:00:00Z",
+ "updated_at": "2026-09-07T06:04:47Z",
+ "collection": {
+  "uuid": "38d5d4fa-5161-4440-9d09-aec8ffbce1f9",
+  "title": "Berkeley chats prep"
+ },
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "7c598e79-d46a-4335-8cb7-486e352da762",
+   "query_str": "background on elena park, phd student at uc berkeley (learning sciences / education). what does she work on, any papers. i have a research chat with her wednesday",
+   "answer": "Based on public pages, **Elena Park** is a PhD student in UC Berkeley's Graduate School of Education working in the learning sciences, with interests in **how students build explanations while working with computational tools** and in **classroom discourse around AI-generated feedback** [1][2].\n\nWhat's visible publicly:\n- A **lab/group page** lists her projects on students' self-explanations in introductory data science activities and on how teachers mediate AI feedback in classrooms [1].\n- A **conference poster/short paper** (learning-sciences venue, 2025) on coding students' written reflections after receiving automated hints, using a qualitative codebook [2].\n- A **workshop paper** on design-based research methods for studying AI tools in classrooms [3].\n\nPossible conversation hooks:\n- Her qualitative coding of student reflections vs your labeled telemetry windows — how each approach defines \"struggle.\"\n- How she keeps track of evolving codebooks and memos over a long project (relevant to research-notebook needs).\n- Design-based research cycles and where notes and decisions get lost.\n\nI couldn't verify a full publication list; check her Google Scholar or lab page before the call.",
+   "sources": [
+    {
+     "name": "Berkeley School of Education — learning sciences group, people",
+     "url": "https://bse.berkeley.edu/learning-sciences/people",
+     "snippet": "Graduate student profiles and project descriptions."
+    },
+    {
+     "name": "Students' written reflections after automated hints (poster abstract)",
+     "url": "https://www.learningsciencesconf.org/2025/posters/reflections-after-hints",
+     "snippet": "Qualitative analysis of student reflections following automated hints."
+    },
+    {
+     "name": "Design-based research with classroom AI tools (workshop paper)",
+     "url": "https://www.learningsciencesconf.org/2025/workshops/dbr-ai-tools",
+     "snippet": "Methods for iterative classroom studies of AI tools."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-09-07T06:00:00Z",
+   "updated_at": "2026-09-07T06:00:20Z"
+  },
+  {
+   "uuid": "ec4bd199-c94b-4702-b3d0-536dca1e5334",
+   "query_str": "what does design based research actually involve in practice, so i dont sound dumb",
+   "answer": "**Design-based research (DBR)** studies learning by iteratively designing an intervention in a real setting, testing it, and refining both the design and the theory behind it [1]. In practice:\n- **Cycles**: design → implement in a real classroom → collect data (observations, artifacts, interviews, logs) → analyze → revise; often 2–4 cycles over a year or more.\n- **Dual goals**: improve the intervention *and* produce \"humble theory\" about how learning works in that context.\n- **Heavy documentation**: design conjectures, field notes and analytic memos accumulate across cycles; tracking *why* a design changed is a known pain point [1][2].\nGood question to ask her: how she records design decisions between cycles.",
+   "sources": [
+    {
+     "name": "Design-based research: an introduction",
+     "url": "https://www.learningsciencesreview.org/design-based-research",
+     "snippet": "Principles and typical cycle structure."
+    },
+    {
+     "name": "Documenting design decisions in DBR projects",
+     "url": "https://www.learningsciencesreview.org/dbr-documentation",
+     "snippet": "Conjecture maps, memos and decision logs."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-09-07T06:04:30Z",
+   "updated_at": "2026-09-07T06:04:42Z"
+  }
+ ]
+}

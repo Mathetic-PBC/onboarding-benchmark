@@ -1,0 +1,219 @@
+{
+ "title": "Grand strategy reading list",
+ "create_time": 1776042055.12,
+ "update_time": 1776042278.8568022,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "d79160d1-9844-4024-9967-0c2311d34750"
+   ]
+  },
+  "d79160d1-9844-4024-9967-0c2311d34750": {
+   "id": "d79160d1-9844-4024-9967-0c2311d34750",
+   "message": {
+    "id": "d79160d1-9844-4024-9967-0c2311d34750",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1776042055.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "post deadline, want to actually read some grand strategy. ive read kennedy rise and fall of the great powers and mearsheimer tragedy. give me 6 more, say why each, mix of classic and recent"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_3fed24794f9d287445e93e359e",
+     "message_source": null,
+     "turn_exchange_id": "448d9f9a-6672-4acc-abe1-e9b657dfabe1",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "ca5323c5-a135-43f1-81b9-d6b0848d2949"
+   ]
+  },
+  "ca5323c5-a135-43f1-81b9-d6b0848d2949": {
+   "id": "ca5323c5-a135-43f1-81b9-d6b0848d2949",
+   "message": {
+    "id": "ca5323c5-a135-43f1-81b9-d6b0848d2949",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1776042079.544,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "1. **Thucydides, *History of the Peloponnesian War*** (Strassler's *Landmark* edition). The original case study of rising vs. established power, alliance politics and domestic politics under war pressure. Read Books 1–2 and the Melian Dialogue if you're short on time.\n2. **John Lewis Gaddis, *On Grand Strategy*.** A readable synthesis across Augustus, Philip II, Lincoln, FDR; good on the gap between aspirations and capabilities.\n3. **Hal Brands, *What Good Is Grand Strategy?*.** Short and practical. How the idea actually worked (and failed) in US administrations.\n4. **Halford Mackinder, \"The Geographical Pivot of History\" (1904) + Nicholas Spykman, *America's Strategy in World Politics*.** The heartland vs. rimland debate that still shapes how people talk about Eurasia.\n5. **Rush Doshi, *The Long Game*.** An argument about China's strategy toward the US-led order, based on Chinese Communist Party documents. Read it alongside critics who think it overstates coherence.\n6. **Lawrence Freedman, *Strategy: A History*.** Long, but the best map of how \"strategy\" evolved from military to political to business usage.\n\nPair Mearsheimer with **Ikenberry, *After Victory*** if you want the liberal-institutionalist counterpoint to offensive realism."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_3fed24794f9d287445e93e359e",
+     "message_type": "next",
+     "turn_exchange_id": "448d9f9a-6672-4acc-abe1-e9b657dfabe1",
+     "model_slug": "gpt-5-3",
+     "default_model_slug": "gpt-5-3",
+     "resolved_model_slug": "gpt-5-3",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "d79160d1-9844-4024-9967-0c2311d34750"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "d79160d1-9844-4024-9967-0c2311d34750",
+   "children": [
+    "4b88bf0e-d248-493a-929e-781dad7beb27"
+   ]
+  },
+  "4b88bf0e-d248-493a-929e-781dad7beb27": {
+   "id": "4b88bf0e-d248-493a-929e-781dad7beb27",
+   "message": {
+    "id": "4b88bf0e-d248-493a-929e-781dad7beb27",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1776042262.544,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "which one first if i have like 30 min a night"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_df62a77223113c7a321080168e",
+     "message_source": null,
+     "turn_exchange_id": "a6f1f963-a8c0-4799-b17b-df3e50fdd96d",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "ca5323c5-a135-43f1-81b9-d6b0848d2949",
+   "children": [
+    "b1ead20c-ac25-43f0-aebb-3b230c14242c"
+   ]
+  },
+  "b1ead20c-ac25-43f0-aebb-3b230c14242c": {
+   "id": "b1ead20c-ac25-43f0-aebb-3b230c14242c",
+   "message": {
+    "id": "b1ead20c-ac25-43f0-aebb-3b230c14242c",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1776042277.63,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Brands. It's short, organized in essays you can finish in a sitting or two, and gives you vocabulary for the others. Then Mackinder's essay (one night), then Doshi."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_df62a77223113c7a321080168e",
+     "message_type": "next",
+     "turn_exchange_id": "a6f1f963-a8c0-4799-b17b-df3e50fdd96d",
+     "model_slug": "gpt-5-3",
+     "default_model_slug": "gpt-5-3",
+     "resolved_model_slug": "gpt-5-3",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "4b88bf0e-d248-493a-929e-781dad7beb27"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "4b88bf0e-d248-493a-929e-781dad7beb27",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "b1ead20c-ac25-43f0-aebb-3b230c14242c",
+ "plugin_ids": null,
+ "conversation_id": "69dc4047-522d-83c7-2cf3-af7870f71531",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-3",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "69dc4047-522d-83c7-2cf3-af7870f71531"
+}

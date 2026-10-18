@@ -1,0 +1,533 @@
+### CONV eng-connect-copy
+title: Connect screen copy options
+start: 2026-08-27 22:41
+projects: project_engelbart
+project: engelbart
+---
+@user
+ok so working on the connect screen for engelbart. user lands here right after signup. we list: Claude, ChatGPT, Zotero, Google Drive, Gmail, Slack, local folders, Obsidian.
+
+current copy:
+header: "Connect your tools"
+sub: "Engelbart imports your stuff so it can help you think."
+
+this is bad lol. give me 5 header/sub options. be concise, no marketing fluff
+@assistant
+Here are five, each with a different angle:
+
+1. **Bring in where your thinking already lives**
+   Connect the tools you research in. Engelbart keeps track of where every idea came from.
+
+2. **Start from what you already have**
+   Import your chats, papers and notes so your notebook isn't empty on day one.
+
+3. **Connect your sources**
+   Every item keeps a link back to the tool and the moment it came from.
+
+4. **Your research is already scattered. Let's gather it.**
+   Pick the tools you use. You can add more later.
+
+5. **What should Engelbart read first?**
+   Choose the places your work happens. Nothing is shared or posted anywhere.
+
+If you want my pick: 3 is the most honest about what the product does (provenance), and 5 is the friendliest. 4 risks sounding like a lecture.
+@user
+i like 3. but "moment it came from" is a bit precious. also need per-source helper text, one line each, what we import and what we dont
+@assistant
+Revised header:
+
+**Connect your sources**
+Every item keeps a link back to where it came from.
+
+Per-source helper text:
+
+| Source | Helper line |
+|---|---|
+| Claude | Your chats and projects. Not your account settings or memory. |
+| ChatGPT | Your conversations, including those in Projects. Not custom GPTs. |
+| Zotero | Items, notes and attached PDFs from My Library and groups you choose. |
+| Google Drive | Docs, Sheets, Slides and PDFs in folders you pick. Not the whole Drive. |
+| Gmail | Threads with labels you choose. Nothing else from your inbox. |
+| Slack | Channels you pick from workspaces you're in. Not DMs unless you add them. |
+| Local folder | Files in one folder on this computer. We read, never change them. |
+| Obsidian | Notes and attachments from a vault. Links between notes are kept. |
+
+Two things to decide before this ships: whether Gmail defaults to "labels you choose" (safer, more setup) or "last 12 months" (easier, noisier), and whether Slack DMs are opt-in at all.
+@user
+for claude we do the export zip OR the browser session. dont mention the browser thing yet. also say roughly how long each takes
+@assistant
+Sure. I'd keep times as ranges and say what they depend on, otherwise people read them as promises.
+
+| Source | Helper line | Time |
+|---|---|---|
+| Claude | Upload your data export (.zip). Chats and projects come in; settings don't. | 1–5 min after upload |
+| ChatGPT | Upload your data export (.zip). Includes chats inside Projects. | 1–5 min |
+| Zotero | Items, notes and PDFs from libraries you choose. | 2–10 min, depends on PDFs |
+| Google Drive | Docs, Sheets, Slides and PDFs in folders you pick. | 1–10 min |
+| Gmail | Threads under labels you choose. | under 5 min for most labels |
+| Slack | Channels you pick. DMs only if you add them. | 1–3 min per channel |
+| Local folder | Files in one folder. Read only. | depends on folder size |
+| Obsidian | A vault's notes and attachments, with links kept. | under 2 min |
+
+Small note: the Claude export email can take a while to arrive, so the helper for Claude might need a "How to get your export" link, otherwise people will stall right there.
+@user
+yeah good call. what should the button say after connecting but while import is still running
+@assistant
+Three states, so the button never lies:
+
+- **Before**: `Connect`
+- **While running**: `Importing… 214 items` (live count, not a percentage, because you don't know the total up front for most sources)
+- **Done**: `Connected · 1,032 items` with a small `View` link
+
+And for the page-level button at the bottom:
+
+- While anything is still running: `Continue to notebook` (enabled) with a line under it: "Imports keep running in the background."
+- Don't block them on the import finishing. The worst onboarding is a progress bar you have to watch.
+
+If an import partially fails, show `Connected · 980 items · 52 skipped` and make "skipped" clickable so they can see why. That will also help you in pilots, since "skipped" is where silent omissions hide.
+
+### CONV eng-other-category
+title: Should the connect screen have an "Other" group
+start: 2026-09-15 21:12
+projects: project_engelbart
+project: engelbart
+---
+@user
+connect screen has 4 groups right now: AI chats, Papers, Notes, Other. hudson wants Gmail, Slack, Drive and local folders under Other. i think that's a junk drawer. thoughts? dont just agree with me
+@assistant
+Fair challenge, so here's both sides.
+
+**For Hudson's version**
+- Four groups is scannable. People look for their two or three main tools and move on.
+- Gmail/Slack/Drive aren't research-specific, so putting them last signals "optional".
+- It's easy to change later.
+
+**Against**
+- "Other" tells the user nothing about what goes there, so anyone whose main tool lives there has to open it to find it. For many researchers Drive *is* where the papers and drafts are.
+- It hides the sources that create the most duplicates (Drive copies of PDFs that are also in Zotero, Slack file shares). If people skip them now, you'll never see the dedupe problem in pilots.
+- "Other" grows. Every new connector you add without a clear home lands there.
+
+My honest take: the grouping isn't the real problem, the label is. A group defined by what's *not* in the others is fine as long as its name says what is in it.
+@user
+ok. but email isn't really a conversation for research lol, mostly noise. so i dont want "Conversations" either
+@assistant
+Agreed that email is mostly noise, but the useful part of email for researchers is specific: reviewer threads, advisor feedback, co-author back-and-forth. That *is* conversation, just low density.
+
+Options for renaming the fourth group:
+
+1. **Files & messages**: literal, a bit dull, but nobody will be confused.
+2. **Where you work with others**: Gmail, Slack, shared Drive. Accurate but long.
+3. **More sources**: honest that it's a second tier, not a junk label.
+4. Drop the groups entirely and use a search box ("Find your tool") over a flat grid with logos.
+
+If you only change one word, 3 is the least risky. If you're willing to change the layout, 4 scales best because you won't have to re-litigate groups every time you add Notion or Granola.
+@user
+search box is more work than i want before pilots. fine, ship "More sources" for now, revisit after pilots
+@assistant
+Makes sense. To make the revisit useful, log two things in the pilots:
+
+- Time from landing on the connect screen to the first click on any source.
+- Whether they open "More sources" at all, and what they were looking for when they did (ask them to think aloud).
+
+If people open it hunting for something that isn't there (Notion is my guess), that's the signal to move to the search box.
+
+### CONV eng-dedupe-rules
+title: Import dedupe rules for papers and chats
+start: 2026-09-03 23:05
+projects: project_engelbart
+project: engelbart
+---
+@user
+need to write the dedupe rules for import. right now we just do sha256 of file bytes. problem: same paper from zotero and from ~/Downloads comes in twice when one is the arxiv version and the other is the camera ready. e.g. ostrowski 2025 (productive struggle or silent stalling) – i have v1 from arxiv in downloads and the L@S camera ready in zotero. different bytes, obviously
+
+current code:
+
+```ts
+export function dedupeKey(item: ImportedItem): string {
+  return sha256(item.bytes);
+}
+```
+
+what should the rules be. be concrete
+@assistant
+Byte hashes only catch exact copies. For papers you need a ladder of keys, from strongest to weakest, and you should only *merge* on the strong ones.
+
+**1. Exact copy** — `sha256(bytes)` equal → same file. Merge, keep both locations as provenance.
+
+**2. Same work, identified** — DOI equal (normalized: lowercase, strip `https://doi.org/`), or arXiv id equal ignoring version (`2507.01842v1` ≡ `2507.01842`). → same work. Don't merge files; group them as **versions** of one paper.
+
+**3. Same work, inferred** — no ids, but:
+- normalized title similarity ≥ 0.92 (lowercase, strip punctuation and LaTeX, collapse whitespace; token-set ratio), **and**
+- first author's last name equal, **and**
+- year within ±1 (preprints are often a year earlier).
+→ propose a version group, but mark it `confidence: inferred` so the UI can show "looks like the same paper".
+
+**4. Everything else** — separate items.
+
+Where the metadata comes from:
+- Zotero: item fields (DOI, title, creators, date) are already there.
+- Downloads PDFs: XMP metadata first, then the PDF info dict, then the first page text (largest font block on page 1 is usually the title). arXiv PDFs have the id stamped in the left margin, so regex `arXiv:(\d{4}\.\d{4,5})(v\d+)?` on page 1.
+
+```ts
+type Key = { kind: 'bytes' | 'doi' | 'arxiv' | 'title'; value: string };
+
+export function dedupeKeys(item: ImportedItem): Key[] {
+  const keys: Key[] = [{ kind: 'bytes', value: sha256(item.bytes) }];
+  const m = item.meta;
+  if (m.doi) keys.push({ kind: 'doi', value: normDoi(m.doi) });
+  if (m.arxivId) keys.push({ kind: 'arxiv', value: m.arxivId.replace(/v\d+$/, '') });
+  if (m.title && m.firstAuthorLast && m.year)
+    keys.push({ kind: 'title', value: `${normTitle(m.title)}|${m.firstAuthorLast.toLowerCase()}` });
+  return keys;
+}
+```
+
+For Ostrowski: the camera-ready from Zotero has the DOI, the arXiv v1 has the arXiv id. Neither key matches the other directly, so it falls to rule 3 (title + first author + year 2025), which matches. That's the case where you want "versions", not a silent merge: the abstracts differ (0.69 vs 0.71 macro-F1), and a researcher may have annotated one and not the other.
+@user
+ok versions not merge, agreed. what about chats. claude export vs claude browser session will give the same conversation twice
+@assistant
+Chats are easier because they carry stable ids.
+
+- **Same tool, same conversation id** → same item, regardless of how it arrived (export zip, browser session, re-import). Keep the newest `updated_at` version and record both arrival paths. A chat that grew since the last import should *update* the item, not create a second one.
+- **Different tools** (a ChatGPT chat and a Claude chat about the same thing) → never dedupe. They're different conversations even when the content overlaps.
+- **Branches**: ChatGPT conversations are trees. Import the current branch as the item, and keep other branches as hidden parts, not separate items.
+- **Project chats**: the project is a container item; its chats are separate items with `parent_id = project`. Don't import a chat twice because it appears both in the chat list and the project's conversation list.
+
+That last one is a real trap: the Claude projects endpoint lists the same chats you already got from the conversations list. Key on the conversation uuid and you're fine.
+@user
+slack file shares? someone shares a pdf in slack thats also in drive
+@assistant
+Treat the Slack message and the file as two things:
+
+- The **message** is its own item (who shared it, when, what they said about it). Never dedupe it away; the "why" is often in the message.
+- The **file** attached to it goes through the same paper/file ladder above. If its bytes match a Drive file, it's the same file with a second provenance edge ("shared in #research by Hudson, 2026-08-29").
+
+So in the notebook the paper shows up once, with a trail: Zotero → Drive copy → shared in Slack. That trail is basically the product.
+@user
+write this up as a short rules doc i can paste into the project knowledge. bullets, no prose
+@assistant
+**Import dedupe rules (draft, 2026-09-03)**
+
+Files and papers
+- Same bytes (sha256) → one file; keep every location as provenance.
+- Same DOI, or same arXiv id ignoring version → one work; files become versions.
+- Title similarity ≥ 0.92 + same first-author last name + year ±1 → proposed version group, `confidence: inferred`.
+- Never merge versions into one file. Show "2 versions" on the paper.
+- Metadata order for loose PDFs: XMP → info dict → page-1 text (largest block = title; arXiv margin stamp).
+
+Chats
+- Same tool + same conversation id → one item; newer `updated_at` wins; record each arrival path.
+- Different tools → never dedupe.
+- Branches → hidden parts of one item.
+- Project chats → separate items with `parent_id`; don't double count from project listings.
+
+Messages with files (Slack, Gmail)
+- Message and attachment are separate items.
+- Attachment goes through the file rules; a byte match adds provenance, not a new item.
+
+Reporting
+- After every import: count found / imported / merged / versioned / skipped per source.
+
+### CONV eng-import-summary-copy
+title: Import summary screen wording
+start: 2026-09-29 22:18
+projects: project_engelbart
+project: engelbart
+---
+@user
+after import finishes we show a summary. right now it says "Import complete!" and a number. i want it to show per source counts + what got skipped + what got merged. draft the copy. keep it calm, not celebratory
+@assistant
+Here's a draft for the summary card:
+
+**Import finished**
+1,204 items from 6 sources. You can start working; nothing else is running.
+
+| Source | Items | Merged | Skipped |
+|---|---|---|---|
+| Claude | 341 chats, 2 projects | — | 0 |
+| ChatGPT | 188 chats | — | 3 |
+| Zotero | 412 items | 27 versions grouped | 6 PDFs unreadable |
+| Google Drive | 156 files | 19 same as Zotero | 0 |
+| Slack | 4 channels, 82 messages | 11 files already in Drive | 0 |
+| Local folder | 25 files | 2 exact copies | 1 too large |
+
+Below the table, one line each:
+- **Merged** means we found the same file or paper twice and kept one, with both locations. [See which]
+- **Skipped** means we couldn't read it. Nothing was deleted. [See why]
+
+I avoided "complete" because if anything was skipped it isn't, and people notice.
+@user
+"you can start working; nothing else is running" sounds robotic
+@assistant
+Alternatives:
+
+- "Everything's in. Your notebook is ready."
+- "All six sources are in."
+- "Done. Here's what came in."
+
+I'd go with the third: short, and it points at the table, which is the useful part.
+@user
+done it is. also what if the counts look wrong to the user, like they know they have more chats
+@assistant
+Give them a direct way to say so, right on the row:
+
+> Claude · 341 chats · **Missing some?**
+
+Clicking it opens a two-field form: "About how many did you expect?" and "Anything specific missing?" plus the import log attached automatically. That turns "it feels incomplete" into a number you can check, and it's cheap to build. Also log it as an event so you see which sources people distrust.
+
+### CONV eng-priya-synthesis
+title: Pilot session 1 synthesis (Priya)
+start: 2026-10-09 19:40
+projects: project_engelbart
+project: engelbart
+starred: true
+---
+@user
+just finished pilot onboarding with priya (berkeley, ed + hci phd). raw notes below, can you turn these into findings with severity. dont speculate beyond what's in the notes
+
+- connected claude (export zip), zotero, downloads folder, gdrive
+- import took ~11 min total, zotero longest
+- claude: she said "i have way more than this" – we showed 201 chats. she thinks ~340
+- saw ostrowski paper twice in the reading list, once from zotero once from downloads. said "this would drive me crazy at 50 papers"
+- also 3 other pdfs duped same way
+- LOVED the trail thing, clicked "where did this come from" on a note and it showed the chat + date. said "this is the thing i'd pay for"
+- asked if it reads overleaf. no.
+- connect screen: no problems, went straight to claude and zotero
+- didnt open "more sources"
+- wanted to tag things by her dissertation chapters
+@assistant
+**Pilot 1 — Priya Raman, 2026-10-09**
+
+**Critical**
+1. **Claude import incomplete.** 201 chats imported vs. ~340 expected by the user (~140 missing). The number 201 is suspicious: it's close to a page size. Verify against her export before assuming user misestimate.
+
+**High**
+2. **Duplicate papers across sources.** Ostrowski et al. 2025 appeared twice (Zotero + Downloads), plus 3 other PDFs duplicated the same way. User framed it as a scaling problem ("would drive me crazy at 50 papers").
+
+**Medium**
+3. **Import time.** ~11 min total, Zotero the longest. No complaint recorded, but no data on whether she waited or moved on.
+4. **No Overleaf import.** Asked directly. One request so far.
+
+**Positive**
+5. **Provenance trail is the value.** Used "where did this come from" unprompted and called it "the thing I'd pay for."
+6. **Connect screen worked** for her sources; went straight to Claude and Zotero.
+
+**Requests**
+7. Organize by dissertation chapters (some kind of user-defined grouping/tags).
+
+**Not observed**
+- "More sources" was never opened, so this session tells you nothing about the grouping question.
+@user
+201 is suspicious yeah. our claude fetch uses limit=200. could the extra 1 be the project chat?
+@assistant
+Plausible: 200 from the paginated list (first page only) plus 1 that came in through a project listing, which you fetch separately. That would fit the dedupe rule where project chats are keyed by uuid; if that chat wasn't on the first page, it would show up only via the project.
+
+Quick way to confirm without her data: create a test account with >200 chats, run the import, check whether you get exactly 200 + project chats. If so, the bug is that you never request the second page.
+@user
+ok ill check tmrw. one more: write 3 sentences for the update to hudson
+@assistant
+Pilot 1 with Priya went well on the core idea: she used the provenance trail unprompted and said it's what she'd pay for. Two import bugs showed up: we only brought in ~200 of her ~340 Claude chats (probably a pagination limit), and the same papers appeared twice from Zotero and Downloads. Fixing completeness and duplicates is the priority before pilot 2 on Tuesday.
+
+### CONV eng-claude-pagination
+title: Claude import stops at 200 chats
+start: 2026-10-10 10:52
+projects: project_engelbart
+project: engelbart
+---
+@user
+confirmed. test account with 260 chats -> import gives 200. log:
+
+```
+[import:claude] session ok, org=...
+[import:claude] GET /chat_conversations?limit=200 -> 200 items
+[import:claude] projects: 1 (3 conversations)
+[import:claude] dedupe: 2 already seen
+[import:claude] imported 201 conversations
+[import:claude] done in 41.2s
+```
+
+code:
+
+```ts
+async function listConversations(client: ClaudeClient) {
+  const res = await client.get(`/chat_conversations?limit=${PAGE}`);
+  return res.data as ConversationSummary[];
+}
+```
+
+fix it. and i want something that would have caught this
+@assistant
+The list call fetches one page and stops. Loop until a page comes back short:
+
+```ts
+const PAGE = 200;
+
+async function listConversations(client: ClaudeClient): Promise<ConversationSummary[]> {
+  const all: ConversationSummary[] = [];
+  const seen = new Set<string>();
+  for (let offset = 0; ; offset += PAGE) {
+    const res = await client.get(`/chat_conversations?limit=${PAGE}&offset=${offset}`);
+    const page = res.data as ConversationSummary[];
+    for (const c of page) {
+      if (!seen.has(c.uuid)) { seen.add(c.uuid); all.push(c); }
+    }
+    if (page.length < PAGE) break;
+    if (offset > 50_000) throw new Error('claude list: runaway pagination');
+  }
+  return all;
+}
+```
+
+The `seen` set matters: if a conversation gets updated during the import it can move between pages (the list is sorted by `updated_at`), and you'd otherwise get it twice or miss one. To be safe, after the loop do one more pass on the first page and add anything new.
+
+**What would have caught it**
+
+1. **A reconciliation line** in every import: `expected N (from source), fetched M, imported K, skipped S`. If the source gives a total, compare to it; if not, at least flag `fetched == PAGE` exactly as suspicious.
+2. **A test with a fake client** returning 2.5 pages:
+
+```ts
+test('claude list paginates', async () => {
+  const fake = fakeClient(Array.from({ length: 450 }, (_, i) => conv(`c${i}`)));
+  const got = await listConversations(fake);
+  expect(got).toHaveLength(450);
+});
+```
+
+3. **Same audit for every connector.** If Claude had a hard-coded page, others might too. Grep for `limit=` across `connectors/`.
+@user
+grep found the same thing in chatgpt connector (limit=100, offset never incremented) lol. ok so both fixed. priya has 341 now
+@assistant
+Good catch, and that's the third check paying off already. 341 vs her ~340 estimate is a nice confirmation.
+
+Worth adding to your pilot-2 checklist on Tuesday: before the session, ask Daniel roughly how many chats he has in each tool, so you have an expected number to compare against during the import rather than relying on him noticing.
+@user
+yep adding
+@assistant
+One more small thing for the summary screen: show the fetched count next to the imported count (`341 found · 341 imported`). If those two ever diverge, the user sees it before you do.
+
+### CONV eng-daniel-synthesis
+title: Pilot 2 (Daniel) and comparison with pilot 1
+start: 2026-10-13 18:25
+projects: project_engelbart
+project: engelbart
+---
+@user
+pilot 2 done. daniel osei, postdoc at cmu. notes:
+
+- asked him beforehand: ~120 chatgpt chats, ~60 claude, notion is his main notes thing, granola for meetings
+- connected chatgpt + claude + local folder. counts matched what he said (118 chatgpt, 61 claude). pagination fix works
+- looked for notion. opened "More sources", didnt find it, said "so what's Other for then"
+- asked for granola too, "half my research thinking is in meeting notes"
+- import 4 min
+- liked the trail but less excited than priya, said it'd matter more once notion is in
+- didnt see dupes (he had no zotero)
+- wanted to know if we upload his stuff to a server (privacy)
+
+compare with priya's session and tell me what changes in priority
+@assistant
+**Pilot 2 — Daniel Osei, 2026-10-13**
+
+- **Completeness: fixed for chats.** Counts matched his estimates (118 vs ~120 ChatGPT, 61 vs ~60 Claude). The pagination fix holds on a second account.
+- **Missing connectors are the main gap.** Notion (main notes tool) and Granola (meeting notes) were both requested; he linked the value of provenance to having them.
+- **"More sources" confused him.** He opened it looking for Notion and asked what it was for. This is the signal you said you'd wait for.
+- **Privacy question** about where his data goes. Unanswered in the product today.
+- **Duplicates not observed**, but only because he had no Zotero.
+
+**Across both pilots**
+
+| | Priya | Daniel |
+|---|---|---|
+| Chats complete | No (before fix) | Yes |
+| Duplicates | Yes, 4 papers | n/a |
+| Valued provenance | Strongly | Conditional on more sources |
+| Wanted a missing source | Overleaf | Notion, Granola |
+| Connect screen issue | None | "More sources"/"Other" |
+
+**What changes in priority**
+1. Duplicates stay high (unresolved, and only untested in pilot 2).
+2. The grouping question moves up: you now have a concrete failure, so the search-box idea is justified.
+3. Notion moves ahead of Overleaf: one person's main tool vs. a nice-to-have, and two of two pilots asked for a notes/meetings source.
+4. A short privacy line on the connect screen is cheap and should go in now.
+@user
+what would the privacy line say. we process on our server but dont train on it, and you can delete everything
+@assistant
+Under the header, small text:
+
+> Your imports are stored in your Engelbart account so we can search and link them. We don't use them to train models, and you can delete everything at any time from Settings.
+
+If "stored in your account" is ambiguous about servers, be literal: "Imports are processed and stored on Engelbart's servers…" Being plain about it reads as more trustworthy to researchers than softer wording.
+@user
+ok last: is 2 pilots enough to justify dropping "other" or am i overfitting
+@assistant
+For the specific claim "people can't find a missing tool under a vague label," one clear failure is enough to act on, because the fix is cheap and reversible and the old design has no positive evidence (Priya never opened it). You'd be overfitting if you used two pilots to decide something expensive, like which five connectors to build next. For that, ask the next few pilots to list their top three tools before they see the screen.
+
+### CONV eng-redesign-plan
+title: Onboarding + import redesign plan
+start: 2026-10-14 21:30
+projects: project_engelbart
+project: engelbart
+starred: true
+---
+@user
+ok redesign time. after 2 pilots the import has 3 problems: omissions (missed chats), duplicates (same paper twice), wrong stuff (not seen yet but i bet it happens: e.g. personal chats landing in a research project). help me plan this. i want to fix it properly not whack a mole
+@assistant
+Then start with measurement, because right now each problem was found by a pilot user noticing it. You want to find them before users do.
+
+**1. Build a ground truth.** Take one real person's sources (yours is the obvious start) and produce a list of every item that *should* be imported, with:
+- a stable item id and its source,
+- which project(s) it belongs to (or none),
+- known duplicate groups (same paper in Zotero + Downloads + a Slack share),
+- hard cases: chats inside projects, a relevant passage buried in an unrelated chat, vague titles like "Untitled", a second email account.
+
+**2. Define three metrics against it.**
+- **Omission rate** = items in ground truth not imported / items in ground truth.
+- **Duplicate rate** = extra copies of the same item or version group / items imported.
+- **Wrong-item rate** = items imported and assigned to a project they don't belong to (or imported when they shouldn't be at all) / items imported.
+
+**3. Then fix in order of what the numbers say**, re-running the benchmark after each change. Pagination was one omission cause; there will be others (archived chats, project-only chats, attachments).
+
+**4. Design changes** to queue behind the measurement:
+- Connect screen: flat grid + "Find your tool" search; drop "Other".
+- Version groups for papers (the dedupe rules doc).
+- Per-source reconciliation counts on the summary screen.
+- Notion and Granola connectors.
+@user
+the ground truth is a lot of work. can i use synthetic data
+@assistant
+Partly. The trade-offs:
+
+- **Real data** catches the failures you didn't think of (that's how pagination showed up). But it's private and you can't share it, and the labels take time.
+- **Synthetic data** lets you plant exactly the hard cases you care about and label them for free, and you can cover tools you don't use (Notion, Granola, Perplexity). But you'll only find the failures you imagined.
+
+A mix works: your real accounts as the base, plus synthetic items on platforms you barely use, each one labeled at generation time. Keep a column saying which is which so you can report metrics separately. If the importer does well on synthetic and badly on real, that's itself informative.
+@user +1d
+ok started on that. for the wrong-item rate, how do i handle an item that's mostly unrelated but has one relevant paragraph. like a long chat about meal prep where i ask one question about our data split
+@assistant
+Label it with both: the unrelated project *and* the relevant one, and note that the relevant part is buried. Then score it two ways:
+
+- **Lenient**: imported and linked to the relevant project at all → correct.
+- **Strict**: also requires the link to point at the relevant passage, not just the chat.
+
+An importer that classifies whole chats will usually tag that one "none" and miss it. That's exactly the omission you want the benchmark to expose, because the useful thought is the one hiding in the long tail.
+@user
+makes sense. what about duplicates that are intentional, like arxiv v1 and camera ready
+@assistant
+Don't count those as duplicates if they're shown as **versions** of one paper. Count it as a duplicate only if the importer shows them as two separate, unrelated papers. So in the ground truth, record version groups explicitly and score:
+
+- shown as one work with 2 versions → correct
+- shown as one file, other silently dropped → omission (the dropped version)
+- shown as two unrelated items → duplicate
+@user +1d
+writing the update for hudson + marcus tomorrow (marcus call was today, he wants to see pilot conversion). give me 4 bullets on what we're doing this week. plain
+@assistant
+- Fixed: chat imports were stopping at the first page; Claude and ChatGPT now import everything (verified on both pilots).
+- Building a benchmark of one researcher's real and synthetic sources, labeled by project, to measure missed items, duplicates and wrongly assigned items before the next pilots.
+- Redesigning the connect screen: a searchable list of tools instead of the "Other" group, and a plain privacy line.
+- Next connectors: Notion and Granola, both requested in pilot 2.
+@user
+good. anything i'm missing
+@assistant
+Two things you might want in there:
+
+- **Pilot 3 date.** Marcus asked about conversion; a date for the next pilot shows momentum more than any feature does.
+- **One number.** Even a rough one from the benchmark ("first run: X% of items missed") makes the next update comparable. Without a baseline, "we improved the import" is hard to check.

@@ -1,0 +1,24 @@
+=== THREAD PARENT MESSAGE ===
+From: David Barron <david@mathetic.com> (U0SYNVW3EYJ)
+Time: 2026-10-06 22:10:08 PDT
+Message TS: 1791349808.673755
+first draft of our 3 min (Hudson presenting, i drive the demo):
+1. problem: a researcher's thinking is spread across 15 tools; when you come back to an idea you can't find where it came from
+2. engelbart: imports your chats, papers and notes and keeps the trail of where each thought came from
+3. demo: connect screen → import → click a note → "where did this come from" trail
+4. traction: 2 pilots this month (berkeley + cmu), 3rd being recruited
+5. ask: pre-seed, closing by demo day
+
+=== THREAD REPLIES (2 total) ===
+
+--- Reply 1 of 2 ---
+From: Hudson Mitchell-Pullman (U0SYN5ZJ8LX)
+Time: 2026-10-06 22:40:44 PDT
+Message TS: 1791351644.494181
+swap 4 and 5? lena said the ask goes last but traction should come right after the demo
+
+--- Reply 2 of 2 ---
+From: David Barron <david@mathetic.com> (U0SYNVW3EYJ)
+Time: 2026-10-06 22:45:45 PDT
+Message TS: 1791351945.572111
+yes, so demo → traction → ask

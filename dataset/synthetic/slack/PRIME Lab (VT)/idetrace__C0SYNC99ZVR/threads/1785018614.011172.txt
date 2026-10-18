@@ -1,0 +1,13 @@
+=== THREAD PARENT MESSAGE ===
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-07-25 15:30:14 PDT
+Message TS: 1785018614.011172
+grouped split results: GBDT 0.74 (was 0.81), transformer 0.70 (was 0.79), LR 0.64 (was 0.66). the transformer drops the most, consistent with memorization
+
+=== THREAD REPLIES (1 total) ===
+
+--- Reply 1 of 1 ---
+From: Yue (U0SYNRUS5ER)
+Time: 2026-07-25 15:41:53 PDT
+Message TS: 1785019313.541061
+0.74 is still the best baseline. ranking doesn't change, the transformer just falls further behind gbdt

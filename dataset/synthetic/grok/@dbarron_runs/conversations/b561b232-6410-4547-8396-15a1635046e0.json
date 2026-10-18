@@ -1,0 +1,57 @@
+{
+ "conversation": {
+  "conversationId": "b561b232-6410-4547-8396-15a1635046e0",
+  "title": "Recovery After Half Marathon",
+  "createTime": "2026-10-16T16:20:00.000Z",
+  "modifyTime": "2026-10-16T16:25:30.026Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "aea42cce-4ff5-4335-8121-964673296c71",
+   "message": "ran 1:24:51 yesterday!! sub 1:25 by 9 sec lol. legs are wrecked. how long before i train normally",
+   "sender": "human",
+   "createTime": "2026-10-16T16:20:00.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "2d815638-9c7b-4edc-a8d1-3d195964e30a",
+   "message": "Congrats — that's a real result, and nailing the goal by 9 seconds means you executed the pacing well.\n\nRecovery guideline after a half:\n- **Days 1–3:** off, walks, or 20–30 min very easy spin/elliptical if you want to move. Sleep and eat normally (don't under-eat).\n- **Days 4–7:** short easy runs (30–45 min) only if the soreness is gone. No strides yet.\n- **Week 2:** back toward normal easy volume, strides OK by the end of the week.\n- **Week 3:** first quality session if everything feels fine.\n\nA common rule of thumb is ~one easy day per mile raced before hard training — so about two weeks before intensity.\n\nThen: think about Block 5. With a 1:24:51 off a long aerobic base, a 10k or a spring half are both good next targets.",
+   "sender": "assistant",
+   "createTime": "2026-10-16T16:20:15.904Z",
+   "parentResponseId": "aea42cce-4ff5-4335-8121-964673296c71",
+   "model": "grok-4"
+  },
+  {
+   "responseId": "39c38d46-100c-4544-b802-f42655612c39",
+   "message": "my buddy owen ran 1:22:10 so i have work to do haha",
+   "sender": "human",
+   "createTime": "2026-10-16T16:22:31.904Z",
+   "parentResponseId": "2d815638-9c7b-4edc-a8d1-3d195964e30a"
+  },
+  {
+   "responseId": "8fef3e30-7f8c-4569-ac35-586e4a389e72",
+   "message": "Ha — the best kind of motivation. 2:41 over 21.1 km is ~7.5 s/km. Totally closable with another year of base and a focused threshold block. Plan the rematch.",
+   "sender": "assistant",
+   "createTime": "2026-10-16T16:22:37.297Z",
+   "parentResponseId": "39c38d46-100c-4544-b802-f42655612c39",
+   "model": "grok-4"
+  },
+  {
+   "responseId": "3870732c-b9fc-4873-a2c6-4c95e57d2432",
+   "message": "spring half. rematch",
+   "sender": "human",
+   "createTime": "2026-10-16T16:25:25.297Z",
+   "parentResponseId": "8fef3e30-7f8c-4569-ac35-586e4a389e72"
+  },
+  {
+   "responseId": "d51114f1-8a63-47b2-abe9-7fa31d479bbe",
+   "message": "Love it. Take two easy weeks first, then we can sketch Block 5 around a March or April race.",
+   "sender": "assistant",
+   "createTime": "2026-10-16T16:25:30.026Z",
+   "parentResponseId": "3870732c-b9fc-4873-a2c6-4c95e57d2432",
+   "model": "grok-4"
+  }
+ ]
+}

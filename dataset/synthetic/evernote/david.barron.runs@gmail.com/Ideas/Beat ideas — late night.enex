@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20260411T062500Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Beat ideas — late night</title>
+    <created>20260411T054000Z</created>
+    <updated>20260411T062500Z</updated>
+    <tag>beats</tag>
+    <tag>fl-studio</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>Post-deadline decompress beats. UIST is in, brain is mush, this is the only thing that sounds fun.</div><div><br/></div><ul><li>160 bpm half-time feel, sparse. kick only on 1 and the "and" of 3. big room reverb on the snare, gated.</li><li>E minor, pluck lead with Sytrus preset, distortion 20%.</li><li>arrangement: 8 bar intro (filtered), 16 hook, 16 verse, 8 break (drums out, only pad + vocal chop), 16 hook.</li><li>the bounce is too long (3:40). cut verse 2.</li><li>808: tune to E, decay 600 ms, a little saturation so it shows up on laptop speakers.</li></ul><div><br/></div><div>Exported "aprilwip_03.wav". send to Owen? he has good ears for drums.</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

@@ -1,0 +1,57 @@
+{
+ "local-repos/Projects/zone2-log": {
+  "project_ids": [
+   "project_endurance_training"
+  ],
+  "notes": "personal training-analysis repo (weekly_hours.py / decoupling.py match the Claude Code sessions); branch=main; commits=20; first commit=2025-11-02T20:14:00-05:00"
+ },
+ "local-repos/Projects/uist26-talk": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "UIST 2026 talk repo (timeline.py / transitions fix match the Claude Code sessions); branch=main; commits=17; first commit=2026-09-14T21:05:00-07:00"
+ },
+ "local-repos/Projects/idetrace-splits": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "IDETrace grouped split fix (matches the Codex rollouts of 2026-07-24..29); branch=main; commits=13; first commit=2026-05-02T22:10:00-04:00"
+ },
+ "local-repos/Projects/papert-lab-proto": {
+  "project_ids": [
+   "project_engelbart",
+   "project_mathetic_company"
+  ],
+  "notes": "Jan-Feb 2026 prototype of the notebook idea (pre-Engelbart, \"Papert Lab\"); branch=main; commits=14; first commit=2026-01-26T22:10:00-05:00"
+ },
+ "local-repos/Projects/beat-tools": {
+  "project_ids": [
+   "project_music_production"
+  ],
+  "notes": "sample renamer + BPM detector (matches the Claude Code sessions); branch=main; commits=10; first commit=2026-03-14T23:30:00-04:00"
+ },
+ "github.com/divadbaroon/idetrace-splits.meta/repo.json": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "gh api read of the repo"
+ },
+ "github.com/divadbaroon/idetrace-splits.meta/issues_and_prs.json": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "issues + PRs of idetrace-splits (leakage bug, grouped split)"
+ },
+ "github.com/divadbaroon/uist26-talk.meta/repo.json": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "gh api read of the repo"
+ },
+ "github.com/divadbaroon/uist26-talk.meta/issues_and_prs.json": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "issues of uist26-talk (AV check, palette bug)"
+ }
+}

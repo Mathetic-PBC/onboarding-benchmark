@@ -1,0 +1,403 @@
+##### MEETING
+slug: surplus-kickoff
+title: Surplus kickoff — Mathetic
+start: 2026-08-11 10:00
+scheduled_min: 30
+calendar: yes
+mode: virtual
+organizer: lena@surplus.house
+attendees: Lena Hoffmann <lena@surplus.house>; Hudson Mitchell-Pullman <hudson@mathetic.com>
+projects: project_mathetic_company
+label_notes: Surplus incubator kickoff with Lena Hoffmann (fixed event 2026-08-11).
+=== notes
+### Program overview
+
+- Surplus cohort runs 12 weeks: Aug 11 → Nov 3, demo night on Oct 29
+- Lena is the main point of contact; weekly 30-min check-in slot is Thursdays 3:30 pm
+- Expectation is "one real user conversation a day" — Lena will ask for the count every check-in
+- Office hours with alumni founders on Wednesdays, sign up through the shared sheet
+
+### House logistics
+
+- David moved in Aug 8; Hudson already in the back room with the whiteboard wall
+- Quiet hours 11 pm – 7 am in the shared rooms; the garage workroom is fine any time
+- Guest policy: give Lena a heads-up for anyone staying overnight
+- Wi-Fi drops in the garage — Lena will get the mesh node moved this week
+- Sam Whitaker is the other housemate on the second floor
+
+### What Mathetic is building (as pitched to Lena)
+
+- Engelbart: a research notebook that remembers where a researcher's thoughts came from
+- Wedge = context import: pull chats, papers, notes, repos and drive on day one so the notebook isn't empty
+- Target user for the cohort: PhD students and postdocs who live across 6+ tools
+- Lena pushed on how they'll know it's working: "time to first useful recall" was the best answer so far
+
+### Lena's asks for the first two weeks
+
+- Write a one-paragraph problem statement that doesn't use the word "notebook"
+- List 20 researchers they could talk to by end of August (Berkeley is close; use it)
+- Decide a single metric to report at check-ins
+- Get the Delaware PBC paperwork into the shared drive so Surplus legal can review the SAFE template
+
+### Action items
+
+- [ ] David — draft problem statement, send to Lena by Fri Aug 14 (after camera-ready)
+- [ ] Hudson — upload incorporation docs + cap table to the Surplus folder
+- [ ] David + Hudson — list of 20 researchers, prioritise Berkeley grad students
+- [ ] Lena — intro to two alumni who built research tools; move mesh node
+=== transcript
+Lena: Hi! Okay, I think I have both of you. David, you're in the garage, right? I can see the bikes behind you.
+Me: Yeah, um, sorry, the Wi-Fi in here is kind of rough. If I freeze just yell.
+Lena: That's the first thing on my list actually, the mesh node. We'll get to it. Hudson, you're upstairs?
+Hudson: I'm upstairs. I can literally hear David through the floor so if the call drops we're fine.
+Lena: Perfect. So welcome, officially. David, you got in Saturday?
+Me: Saturday afternoon, yeah. The flight got in late and the, uh, the boxes came Sunday. But the room's great. Thank you for holding it.
+Lena: Of course. Okay so I want to do three things today. Program shape, house stuff, and then I want you two to pitch me what you're building like I've never heard it, because honestly I've only heard Hudson's version.
+Hudson: Which was a very good version.
+Lena: It was a fast version. So program first. Twelve weeks, today through November third. Demo night is October twenty-ninth. Every Thursday at three-thirty we do a thirty minute check-in, just the three of us.
+Me: Thursdays three-thirty. Got it.
+Lena: And the one thing I'll ask every single week is how many real user conversations you had. Real, meaning a person who might use this, not your friends telling you it's cool.
+Hudson: Does a Berkeley grad student who is also technically a friend count?
+Lena: If they'd be annoyed when it breaks, it counts. The goal is one a day. Most teams hit maybe three a week, which is fine, but I'm going to keep asking.
+Me: Okay, that's, um, that's a good forcing function honestly. We've been heads-down building.
+Lena: Everyone is. Wednesdays there's alumni office hours, there's a sign-up sheet in the shared drive. Some of them are really good on fundraising, a couple are good on, like, research tooling specifically.
+Hudson: Oh nice, that's exactly—
+Lena: I'll intro you. I'm writing that down. House stuff, quickly. Quiet hours eleven to seven in the shared rooms. The garage is yours whenever, David, it's insulated-ish.
+Me: Insulated-ish is generous. It's fine though.
+Lena: Overnight guests, just text me. Sam's on the second floor, you'll meet him, he's very nice, he does hardware so he'll have opinions about your desk setup.
+Me: He already, um, he already offered to fix the bike rack, so.
+Lena: That's Sam. Okay. Now. Pretend I know nothing. What is it?
+Hudson: David, you want to—
+Me: Yeah. So, um. Engelbart is a research notebook. But the thing we actually care about is that it remembers where your thoughts came from. Like when you're a PhD student your thinking is spread across, I counted for myself, like nine tools. ChatGPT, Claude, Overleaf, Zotero, Slack, email, notes apps—
+Lena: Nine?
+Me: Nine that I use weekly. And when you go to write the paper you can't find the conversation where the idea actually started. So the notebook imports all of that on day one, and then when you write something it can show you the trail.
+Lena: Okay. Stop there for a sec. "Imports all of that on day one." That's the product or that's onboarding?
+Hudson: That's — I'd say that's the wedge. If the notebook is empty on day one nobody comes back on day two.
+Lena: Right. So how do you know it's working? Like in week six, what number do you show me?
+Me: Um. Honestly we've gone back and forth. Retention is the obvious one but six weeks is too short for that to mean much.
+Hudson: I've been saying "time to first useful recall." Like, from connecting your accounts to the first time the notebook surfaces something you'd forgotten and you actually use it.
+Lena: I like that a lot more than retention. Can you measure it?
+Me: Sort of. We'd need people to tell us, or we log when they click into a source from a suggestion. The click is measurable.
+Lena: Then that's your metric until you have a better one. Pick one and report it every Thursday. Don't change it every week.
+Hudson: Fair.
+Lena: Who's the user? Be specific.
+Me: PhD students and postdocs, mostly in, um, HCI and CS-adjacent fields right now because that's who we know. People with six-plus tools.
+Lena: How many have you talked to?
+Hudson: Formally? Like... four?
+Lena: Okay. So here's my ask for the first two weeks. Twenty names by end of August. You're forty minutes from Berkeley. Use it.
+Me: Yeah, we were actually talking about doing, like, research chats there. Not pitching, just asking how people keep track of ideas.
+Lena: Perfect. Do that. Second ask: write me one paragraph on the problem, and you're not allowed to use the word notebook.
+Me: Oh that's — okay. That's hard actually.
+Lena: That's why I ask it. When can you send it?
+Me: Can I say Friday? I have a paper camera-ready due Friday the fourteenth, so, um, Friday night.
+Lena: Friday night is fine. Is that the tutoring paper Hudson mentioned?
+Me: Yeah, TutorTrace, it's going to UIST. It's the last thing from my, uh, from the PhD side before the leave really kicks in.
+Lena: Congrats. Okay, third thing — paperwork. You're a PBC in Delaware?
+Hudson: Delaware PBC, yeah. I'll upload the incorporation stuff and the cap table to the Surplus folder.
+Lena: Great, our legal person wants to look at the SAFE template before anyone signs anything with outside angels.
+Hudson: We have one angel conversation coming up, actually, Marcus Oyelaran, Northfield Angels.
+Lena: Oh I know Northfield. They're thoughtful. They'll ask who pays. Have an answer.
+Me: That's, um. Yeah. That's the question.
+Lena: It's always the question. Okay, I'm going to let you go. I'll move the mesh node this week, David, and I'll send two alumni intros.
+Me: Thank you, seriously.
+Hudson: Thanks Lena.
+Lena: Welcome to Surplus. One conversation a day!
+
+##### MEETING
+slug: hudson-sync-0813
+title: Hudson x David weekly
+start: 2026-08-13 16:00
+scheduled_min: 15
+calendar: yes
+mode: in-person
+organizer: hudson@mathetic.com
+attendees: Hudson Mitchell-Pullman <hudson@mathetic.com>
+projects: project_engelbart; project_mathetic_company
+label_notes: Weekly co-founder sync; camera-ready mentioned (tutortrace context) but meeting is about Engelbart scope and Lena's asks.
+=== notes
+### Where things are
+
+- David still finishing UIST camera-ready (due tomorrow); Engelbart work paused until Saturday
+- Hudson finished first pass of the problem-statement paragraph without the word "notebook"; David to edit
+- Cap table + incorporation docs uploaded to the Surplus folder
+
+### Engelbart scope for the next 3 weeks
+
+- Single-user only; no team features until a pilot asks
+- Import first, canvas second — the canvas is useless with nothing in it
+- First connectors: Claude + ChatGPT exports, Zotero, local PDFs, Google Drive
+- Explicitly not yet: Slack, email, Notion
+- Dedupe will matter immediately (same PDF in Zotero and Downloads) — David wants a content hash + title fuzzy match, Hudson worried about false merges
+
+### Metric
+
+- Agreed to report "time to first useful recall" to Lena every Thursday
+- Proxy: click-through from a suggested source to the original item, logged with timestamp since connect
+
+### Fundraising
+
+- Marcus Oyelaran call booked for Aug 20
+- Prep: one-page memo, no deck yet; be ready for "who pays"
+- Hudson takes the pricing hypothesis: individual researcher $15/mo vs. lab license
+
+### Action items
+
+- [ ] David — submit camera-ready Fri, then edit problem paragraph and send to Lena
+- [ ] Hudson — draft 1-page memo for Marcus by Tue
+- [ ] David — sketch repo layout (web app, importer workers, shared types) over the weekend
+- [ ] Both — 20 researcher names in the shared sheet by Aug 31
+=== transcript
+Hudson: Okay recording. Is it — yeah it's going. You look destroyed.
+Me: I'm fine. I'm fine. It's the camera-ready. The ACM template is fighting me on the figure captions.
+Hudson: Is that due today or tomorrow?
+Me: Tomorrow. Friday. I'm like ninety percent done, it's the stupid stuff now. The copyright block, the, um, the CCS concepts.
+Hudson: Okay so do you want to just do twenty minutes and go back to it?
+Me: Yeah, let's do twenty-five. I want to at least agree on scope so I'm not thinking about it all night.
+Hudson: Cool. So first, I sent you the paragraph. The no-notebook paragraph.
+Me: I saw it. I read it on my phone. It's good, it's a little long. You say "context" like four times.
+Hudson: Because it's about context!
+Me: I know, I know, but Lena's going to — she's going to circle every one. I'll edit it Saturday.
+Hudson: Fine. Second thing, I put the incorporation docs and the cap table in the Surplus folder. The latest cap table, the one with the tabs.
+Me: The one with the SAFE scenarios?
+Hudson: Yeah, that one.
+Me: Okay cool. Scope. Can we do scope?
+Hudson: Scope. So my proposal is, for three weeks, single user only. No sharing, no teams. Even though, like, labs are probably who pays eventually.
+Me: Agree. Totally agree. I don't want to build permissions before anyone has used the thing.
+Hudson: And import first.
+Me: Import first. The canvas is cool but it's, like, an empty room if nothing's in it. I keep thinking about that — when I open a new tool and it's empty I just close it.
+Hudson: Which connectors though? Because if we say "import everything" we'll do twelve bad ones.
+Me: I wrote a list on the plane. Uh. Claude and ChatGPT exports, because that's where most of the actual thinking is now. Zotero. Local PDFs. Google Drive.
+Hudson: Not Slack?
+Me: Not yet. Slack's a mess of permissions. Email too. Notion — I mean I used Notion for like two months this spring and abandoned it, I don't think—
+Hudson: People do use Notion though.
+Me: Some people. Let's wait until a pilot asks for it. If someone asks, we do it.
+Hudson: Fine. Writing down "Notion when asked."
+Me: And then the thing I'm actually worried about is duplicates. Because the second you import Zotero and Downloads you have the same PDF twice. I have, like, every paper three times.
+Hudson: How do you want to dedupe?
+Me: Content hash first. If the bytes match it's the same. Then a fuzzy title match for, like, the arXiv version versus the camera-ready.
+Hudson: That second part scares me. If you merge two things that aren't the same, that's worse than a duplicate. A duplicate is annoying, a wrong merge is lost data.
+Me: Yeah. That's fair. Maybe the fuzzy match just suggests, it doesn't merge.
+Hudson: Suggest, don't merge. I like that.
+Me: Okay. Um. Metric. Lena said pick one.
+Hudson: Time to first useful recall.
+Me: Yeah, and the proxy is the click — when they click a suggested source and open the original. We log the time since they connected.
+Hudson: Seconds since connect, or sessions since connect?
+Me: Uh, both? Store the timestamp and we can compute whatever. But report one number.
+Hudson: Report median hours to first click. Fine.
+Me: Fine.
+Hudson: Last thing, Marcus. The call's next Thursday, the twentieth.
+Me: Do we need a deck?
+Hudson: I don't think so. I think a one-page memo. Lena said he'll ask who pays, and honestly I don't have a great answer.
+Me: What's the — what's your current answer?
+Hudson: Two options. Individual researcher, like fifteen a month. Or a lab license where the PI pays.
+Me: PIs don't pay for anything. I mean. Sorry. Yan would pay for compute, she wouldn't pay for a notebook.
+Hudson: That's a data point though. That's literally the kind of thing to say on the call.
+Me: Yeah. Okay. You draft the memo, I'll read it Tuesday.
+Hudson: Tuesday. And repo stuff?
+Me: I'll sketch the layout this weekend. Web app, the importer workers, and a shared types package so the importers and the app agree on what an item is.
+Hudson: Monorepo?
+Me: Probably. Let me think about it Saturday. My brain is in LaTeX right now.
+Hudson: Go finish your paper.
+Me: Going. Oh — and the twenty names. Shared sheet, end of the month.
+Hudson: Shared sheet. Berkeley first.
+Me: Berkeley first. Okay, bye.
+
+##### MEETING
+slug: marcus-call-1
+title: Marcus Oyelaran <> Mathetic
+start: 2026-08-20 11:00
+scheduled_min: 30
+calendar: yes
+mode: virtual
+organizer: hudson@mathetic.com
+attendees: Marcus Oyelaran <marcus@northfieldangels.com>; Hudson Mitchell-Pullman <hudson@mathetic.com>
+projects: project_mathetic_company
+label_notes: First angel call with Marcus Oyelaran (fixed event 2026-08-20): retention and "who pays".
+=== notes
+### Marcus / Northfield Angels
+
+- Angel with Northfield Angels; writes $25k–$100k checks, usually alongside a lead
+- Background: ran product at an edtech company for 6 years; has seen "research tools" fail on retention many times
+- Was introduced through a Surplus alum
+
+### What we pitched
+
+- Engelbart: notebook for researchers that remembers where each thought came from
+- Day-one import of chats, papers, notes, repos and drive so it's useful immediately
+- Early users: PhD students and postdocs; first research chats at Berkeley start Sep 9
+
+### Marcus's questions
+
+- **Retention**: "Researchers try every tool once. What makes week 4 look different from week 1?"
+  - Our answer: the import means the history is already there; recall gets better the more you write
+  - He wasn't convinced; wants to see a cohort, even a tiny one
+- **Who pays**: individual students won't; PIs rarely pay for personal tools; institutions are slow
+  - He suggested looking at postdocs and industry research labs, where the budget is clearer
+- **Why now**: AI chats have become where a lot of research thinking happens and nobody owns that history
+- **Team**: asked how David's PhD leave works — leave effective Fall 2026, can return
+
+### Signals
+
+- Interested but too early; "come back when you have people using it every week"
+- Offered to look at the pricing page draft and to intro one research-lab buyer
+
+### Next steps
+
+- [ ] Hudson — send follow-up note with memo + timeline to pilots (target: first pilots in October)
+- [ ] David — get 3–5 weekly users before the next call
+- [ ] Marcus — intro to an industry research-ops contact
+- [ ] Reconnect mid-October with retention numbers
+=== transcript
+Marcus: Hey, good morning. Can you hear me okay?
+Hudson: Morning Marcus! Yeah, loud and clear. David's here too.
+Me: Hi, um, hi Marcus. Thanks for making time.
+Marcus: Of course. Jess from your Surplus cohort said I should talk to you two, and she's usually right. Where are you both?
+Hudson: We're at the Surplus house in SF. Different rooms, same Wi-Fi, or, uh, sometimes the same Wi-Fi.
+Marcus: Ha. I remember those houses. Okay, tell me the thing. Short version, then I'll interrupt.
+Hudson: Short version. We're building Engelbart. It's a research notebook that remembers where every thought came from. You connect your chats, your papers, your notes, and when you write, it shows you the trail behind an idea.
+Marcus: Who's it for?
+Me: Right now, PhD students and postdocs. I'm, um, I'm a PhD student myself, at Virginia Tech, HCI. I'm on leave as of this fall to do this.
+Marcus: Okay. On leave meaning you can go back?
+Me: Yeah. It's a formal leave, it's effective fall semester. My advisor knows, she's — she's been supportive actually.
+Marcus: Good, that's honest. So let me just say up front, I ran product at an edtech company for six years and I've watched maybe a dozen research tools come and go. They all have great week one. What does week four look like for you?
+Hudson: So the thing that's different for us is the import. Most tools start empty, so the user does all the work of filling it. We import your history on day one, so in week four you're not—
+Marcus: But that's still week one. The import is a week-one moment. I'm asking why they come back.
+Me: Um. Yeah. I think — honestly, I think the answer is when you're writing. Like when you sit down to write a related work section and it surfaces the chat from three months ago where you argued with Claude about the exact paper you need.
+Marcus: Has that happened to anyone but you?
+Me: It's happened to me. And to Hudson. So, no.
+Marcus: Okay. I appreciate that. Most people would lie to me there.
+Hudson: We're starting research chats at Berkeley in a couple weeks. The first one's the ninth.
+Marcus: Research chats meaning user interviews?
+Hudson: Kind of. We're not pitching. We're asking how people keep track of where ideas come from.
+Marcus: That's good. Do that. Now, the question I always ask. Who pays?
+Hudson: Yeah. Lena warned us.
+Marcus: Lena's right. Students don't pay. They'll pay for ChatGPT because it does their homework, sorry, but they won't pay for a notebook.
+Me: That's — yeah.
+Marcus: And PIs?
+Me: My honest data point is my advisor would pay for compute. She would not pay for a notebook. I asked her, kind of, indirectly.
+Marcus: Right. Institutions?
+Hudson: Slow. We know.
+Marcus: Slow is generous. So here's what I'd look at. Postdocs. They have a little discretionary money, they're under pressure to publish, and they're, um, they're more desperate about their own time than students are. And industry research labs. A research-ops person at a big lab has a budget line for exactly this kind of thing.
+Hudson: That's interesting, we haven't talked to anyone in research ops.
+Marcus: I can probably intro you to one. No promises.
+Me: That would be great.
+Marcus: Pricing, what are you thinking?
+Hudson: Fifteen a month individual. Lab license is a question mark.
+Marcus: Fifteen's fine for now. Don't over-think pricing at this stage. Think about who feels the pain enough to expense it.
+Me: Can I ask what you'd want to see? Like before it'd make sense to talk about investing.
+Marcus: Sure. Not revenue. People using it every week. Even five. If you show me five researchers who open it every week for a month, and they didn't have to, that's interesting. Right now you're very early.
+Hudson: Totally fair.
+Marcus: Why now, by the way? People have been building research notebooks for twenty years.
+Me: Because the thinking moved. Like, three years ago my ideas were in my notes. Now half of them are in chats with Claude or ChatGPT, and those are just... gone, basically. Nobody keeps that history in a useful place. That's the change.
+Marcus: That's actually the best thing you've said. Lead with that.
+Hudson: Writing that down. "Lead with the chats."
+Marcus: And the name, Engelbart, as in Doug Engelbart?
+Me: Yeah. Augmenting human intellect. I've been in a reading group on that stuff, Engelbart, Bush, Licklider.
+Marcus: Nerds will love it. Normal people will think it's a law firm. Doesn't matter yet.
+Me: Ha. Fair.
+Marcus: Okay, I have a hard stop in five. Send me whatever memo you have, and a timeline for pilots. When do you expect people actually using it?
+Hudson: October. First pilots early October.
+Marcus: Then let's talk mid-October. Bring numbers, even ugly ones.
+Me: Will do. Thank you, this was really useful.
+Marcus: Good luck, guys. And David — keep the leave option open as long as you can. No shame in it.
+Me: Yeah. Thanks.
+
+##### MEETING
+slug: hudson-sync-0825
+title: Hudson x David weekly
+start: 2026-08-25 14:00
+scheduled_min: 15
+calendar: yes
+mode: in-person
+organizer: hudson@mathetic.com
+attendees: Hudson Mitchell-Pullman <hudson@mathetic.com>
+projects: project_engelbart
+label_notes: Weekly sync; Engelbart repos start (week of 2026-08-24), item schema and importer architecture.
+=== notes
+### Repo setup (started this week)
+
+- Monorepo decided: `apps/web`, `workers/importers`, `packages/types`
+- Shared `SourceItem` type: id, source, source_id, title, created_at, modified_at, content_hash, parts[]
+- One importer per source; each yields items, never writes to the DB directly
+- CI: typecheck + importer fixtures on every PR; no deploy pipeline yet
+
+### Importer order
+
+1. Claude export (JSON) — David has his own export to test on
+2. ChatGPT export — conversation tree flattening needed (branches from edited messages)
+3. Zotero (local sqlite + storage folder)
+4. Local PDFs (watch ~/Downloads and ~/Desktop/papers)
+5. Google Drive — later, OAuth review takes time
+
+### Dedupe design (first cut)
+
+- Exact: sha256 over normalized bytes → same item, merge parts
+- Near: title + first-page text similarity > 0.9 → "possible duplicate" badge, never auto-merge
+- Keep both source paths so the trail can say "found in Zotero and Downloads"
+
+### Debrief from Marcus
+
+- Retention question stuck with both of us: need weekly users, not a launch
+- Follow-up memo sent Friday; Marcus replied he'll try the research-ops intro
+
+### Action items
+
+- [ ] David — Claude + ChatGPT importers with fixtures by Fri
+- [ ] Hudson — Zotero importer spike; read the sqlite schema
+- [ ] Hudson — Berkeley research-chat sign-up form + outreach email draft
+- [ ] David — write the dedupe rules down as a doc in the repo
+=== transcript
+Me: Is it on? The little — yeah okay, it's going.
+Hudson: Granola's on. Okay. Repos!
+Me: Repos. So I made the org repos this morning. Went with the monorepo.
+Hudson: Thank god. I didn't want to have the, uh, the four-repo argument.
+Me: Three folders. apps slash web, workers slash importers, packages slash types. Types is the important one.
+Hudson: What's in it?
+Me: Basically one type right now, SourceItem. id, source, source id, title, created, modified, content hash, and parts. Parts is the list of files, because some things are multi-file. Like a Zoom meeting folder is one item with ten files.
+Hudson: Do we have Zoom?
+Me: No, it's just an example. Like an email thread too. One thread, many messages.
+Hudson: Got it. And the importers just produce those?
+Me: Yeah. That's the rule. An importer yields items. It never touches the database. Then one ingestion step writes them, does dedupe, all that.
+Hudson: I like that because then we can test an importer with just files.
+Me: That's the plan. Fixtures. I'll put my own Claude export in there, scrubbed.
+Hudson: Scrubbed how?
+Me: Like, I'll cut it down to, um, twenty conversations that are boring. Nothing personal. CI runs the importers on the fixtures and checks the counts.
+Hudson: Okay. Order?
+Me: Claude first, because I have the export and it's clean JSON. Then ChatGPT, which is annoying because it's a tree.
+Hudson: A tree?
+Me: When you edit a message in ChatGPT it branches. The export keeps all the branches. So you have to pick the path that's, like, the current one. Mapping, current node, walk the parents.
+Hudson: Oh that's gross.
+Me: It's fine, it's twenty lines. Then Zotero. Then local PDFs, like watching Downloads and the papers folder on the desktop. Drive last because the OAuth review thing takes weeks.
+Hudson: I can take Zotero. I want to read the sqlite schema anyway.
+Me: Please. It's — there's a storage folder with random eight-character keys and the PDFs live in there. The sqlite tells you which key is which item.
+Hudson: Okay. And dedupe. You said you'd write rules.
+Me: I have a first cut. Exact match is sha256 of the bytes. Same bytes, same item, we merge the parts.
+Hudson: Normalized how? PDFs have metadata that changes.
+Me: Uh, good point. Hmm. For PDFs maybe hash the extracted text instead of the bytes? Because Zotero sometimes rewrites the file.
+Hudson: Does it?
+Me: I think when you annotate. I'm not sure. I'll check.
+Hudson: Okay, and the near-duplicate thing?
+Me: Title plus first-page text, similarity over point nine, we show a badge. "Possible duplicate." We never auto-merge. That's what we agreed.
+Hudson: Suggest don't merge.
+Me: Suggest don't merge. And the thing I actually think is cool, we keep both paths. So the trail can say "you have this paper in Zotero and in Downloads," which is kind of useful by itself.
+Hudson: That's a feature honestly. "You have this in three places."
+Me: Ha. Yeah. Okay. Marcus.
+Hudson: Marcus. So he replied to the memo Saturday. Short. "Thanks, will try the research-ops intro, talk in October."
+Me: That's fine. That's — what we expected.
+Hudson: The retention thing is stuck in my head though.
+Me: Mine too. Like he's right. I don't actually know if I'd use it in week four.
+Hudson: Do you use it now?
+Me: It doesn't exist now! It's three folders.
+Hudson: Fair, fair.
+Me: But, like, the honest answer is we need people using it weekly before anything. Which means the Berkeley chats matter more than I thought.
+Hudson: I'm doing the sign-up form today. And an outreach email. Can you look at the email before it goes out?
+Me: Yeah, send it to me. Don't make it sound like a pitch.
+Hudson: It's "we're curious how you keep track of ideas, thirty minutes, we'll buy coffee."
+Me: Perfect. Do we have twenty names?
+Hudson: Eleven. Lena gave us two. Priya Raman's on it, the education-HCI person.
+Me: Oh nice, she's great, I've read her stuff. Okay.
+Hudson: Anything else?
+Me: Um. The camera-ready went in, by the way. I didn't say. The fourteenth, on time.
+Hudson: You did say. You said it like four times.
+Me: Did I? Okay. I'm just relieved. Okay, I'm going to go write the ChatGPT tree thing.
+Hudson: Go walk the parents.

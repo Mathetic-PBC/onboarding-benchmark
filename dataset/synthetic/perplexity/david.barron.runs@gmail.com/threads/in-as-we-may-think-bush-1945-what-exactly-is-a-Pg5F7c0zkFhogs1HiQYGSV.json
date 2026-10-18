@@ -1,0 +1,59 @@
+{
+ "uuid": "f8c693a2-c2e9-4922-8a94-68c3061d2329",
+ "slug": "in-as-we-may-think-bush-1945-what-exactly-is-a-Pg5F7c0zkFhogs1HiQYGSV",
+ "title": "Bush's memex and associative trails",
+ "thread_url": "https://www.perplexity.ai/search/in-as-we-may-think-bush-1945-what-exactly-is-a-Pg5F7c0zkFhogs1HiQYGSV",
+ "created_at": "2026-02-10T04:50:00Z",
+ "updated_at": "2026-02-10T04:56:30Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "a79ac0dd-d2d1-47e1-9935-e9691ef6e438",
+   "query_str": "in as we may think (bush 1945) what exactly is a \"trail\" and why do people say it anticipates hypertext",
+   "answer": "In \"As We May Think\" (1945), Vannevar Bush imagines the **memex**, a desk that stores a person's books, records and notes on microfilm and lets them call up any item quickly [1]. The key idea is the **associative trail** [1][2]:\n\n- A user viewing two items can **tie them together** with a single action, creating a permanent link.\n- Many such links form a **named trail** through the material — a path someone took while thinking about a topic, with their own side notes inserted along the way.\n- Trails can be **revisited, branched and shared**: Bush imagines a researcher handing a colleague a copy of their trail on some question, so the colleague can follow the reasoning, not just the sources.\n\nWhy it's seen as anticipating hypertext [2][3]:\n- It's **association-based retrieval** rather than hierarchical indexing — Bush argues the mind works by association, so the tool should too.\n- Links are **user-created and persistent**, which is the core of later hypertext systems (Nelson's work in the 1960s, Engelbart's NLS, and eventually the web).\n\nWhat it *doesn't* have: links aren't bidirectional or addressable at a fine grain, and the trail is a linear sequence rather than a graph — differences later critics emphasize [3].",
+   "sources": [
+    {
+     "name": "As We May Think — overview",
+     "url": "https://en.wikipedia.org/wiki/As_We_May_Think",
+     "snippet": "Summary of Bush's 1945 essay and the memex."
+    },
+    {
+     "name": "From memex to the web: a short history of hypertext ideas",
+     "url": "https://www.historyofcomputing.org/memex-to-web",
+     "snippet": "Traces associative linking from Bush through Nelson and Engelbart."
+    },
+    {
+     "name": "Trails, not links: rereading the memex",
+     "url": "https://www.mediatheoryquarterly.org/rereading-memex",
+     "snippet": "Argues that Bush's trails were about recorded paths of reasoning more than links."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "pplx_pro",
+   "created_at": "2026-02-10T04:50:00Z",
+   "updated_at": "2026-02-10T04:50:27Z"
+  },
+  {
+   "uuid": "f63565a7-78c7-4566-a565-35bc3fb3b361",
+   "query_str": "so a trail is basically provenance of how someone got to an idea? thats basically the thing we keep talking about",
+   "answer": "That's a fair reading. Several commentators argue that the trail's value is less \"item A links to item B\" and more **a record of the path of thought**, with annotations, that someone else can retrace [1][2]. Modern equivalents people point to include browsing histories with annotations, research notebooks that keep source links on each note, and citation chains in literature reviews — but most tools keep the sources and lose the path, which is the part Bush cared about [2].",
+   "sources": [
+    {
+     "name": "Trails, not links: rereading the memex",
+     "url": "https://www.mediatheoryquarterly.org/rereading-memex",
+     "snippet": "Emphasis on trails as shareable records of reasoning."
+    },
+    {
+     "name": "Provenance in personal knowledge tools",
+     "url": "https://www.pkmreview.com/provenance-in-notes",
+     "snippet": "Survey of how note tools track where ideas came from, and where they don't."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "gpt-5",
+   "created_at": "2026-02-10T04:56:06Z",
+   "updated_at": "2026-02-10T04:56:28Z"
+  }
+ ]
+}

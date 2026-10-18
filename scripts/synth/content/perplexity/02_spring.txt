@@ -1,0 +1,415 @@
+### CONV grand-strategy-definition
+title: What "grand strategy" means
+start: 2026-02-20 21:35
+projects: project_none
+---
+@user
+what do people actually mean by "grand strategy", is it just foreign policy
+@assistant
+Not quite. **Grand strategy** usually means the relationship between a state's long-term ends and the full range of means it can use — military, economic, diplomatic, and sometimes cultural — under conditions of scarcity [1][2]. Foreign policy is the day-to-day conduct of relations with other states; grand strategy is the logic that (ideally) ties those choices together over decades.
+
+Common threads across definitions [2][3]:
+- **Ends vs means:** aspirations are unlimited, capabilities aren't, so grand strategy is about aligning the two.
+- **Peace and war:** it covers how a state prepares in peacetime, not only how it fights.
+- **Time horizon:** years to generations, which is why historians often describe it retrospectively (e.g., "Rome's grand strategy") rather than as a written plan.
+
+Some scholars are skeptical that states really have coherent grand strategies at all, arguing they're mostly patterns imposed after the fact [3].
+[src] Grand strategy — overview | https://en.wikipedia.org/wiki/Grand_strategy | Definitions and the history of the concept.
+[src] Ends, means and the idea of grand strategy | https://www.strategyreview.org/ends-and-means | Essay on aligning unlimited aspirations with limited capabilities.
+[src] Does grand strategy exist? A skeptical view | https://www.internationalaffairsforum.net/grand-strategy-skeptic | Argues coherent grand strategies are rarer than the literature suggests.
+@user +3m
+good intro books that arent 800 pages
+@assistant
+Short, widely recommended entry points [1][2]:
+- **John Lewis Gaddis, *On Grand Strategy* (2018)** — essays across history, built around the ends/means idea; readable in a week.
+- **Hal Brands, *What Good Is Grand Strategy?* (2014)** — focused on the US since 1945, ~200 pages.
+- **Lawrence Freedman, *Strategy: A History*** — excellent but long; dip into chapters rather than reading cover to cover.
+[src] Reading lists in strategic studies | https://www.strategyreview.org/reading-list | Introductory books on strategy and grand strategy.
+[src] Best short books on international relations | https://www.internationalaffairsforum.net/short-reads | Curated shorter books for newcomers.
+
+### CONV dublin-weather-july
+title: Dublin weather in July
+start: 2026-03-03 20:30
+projects: project_none
+mode: CONCISE
+---
+@user
+dublin weather in july, do i need a real jacket
+@assistant
+Dublin in July is mild: average highs around **19–20 °C (66–68 °F)** and lows around **11–12 °C (52–54 °F)**, with rain on roughly a third of days, usually light showers [1][2]. Bring a **light waterproof jacket** and a layer like a sweater; a heavy coat isn't needed. Evenings by the coast can feel cooler with wind [2].
+[src] Met Éireann — climate averages for Dublin | https://www.met.ie/climate/available-data/climate-averages | Monthly temperature and rainfall normals.
+[src] What to pack for Ireland in summer | https://www.irelandtravelnotes.com/pack-summer | Practical packing advice for Irish summer weather.
+
+### CONV sample-clearance-vocal-chop
+title: Do I need to clear a 2 second vocal chop
+start: 2026-03-05 00:40
+projects: project_music_production
+---
+@user
+if i chop a 2 second vocal from an old soul record and pitch it, do i legally need to clear it if i put the beat on youtube / sell leases
+@assistant
+In the US, **there's no safe length**: using a recognizable portion of a sound recording without permission can infringe even when it's very short, and pitching or chopping doesn't automatically make it non-infringing [1][2]. Two separate rights are involved:
+- the **sound recording** (usually owned by the label), and
+- the **composition** (publisher/songwriters) [1].
+
+Courts have split on how small is too small — one well-known federal appeals decision held that *any* sampling of a sound recording requires a license, while another circuit later applied a "de minimis" test where tiny, unrecognizable uses can be allowed [2]. That uncertainty is why commercial releases clear everything.
+
+Practically, for **YouTube**: Content ID may flag it, which usually means monetization goes to the rights holder or the video is blocked; a takedown is possible [3]. For **selling leases**: you're selling something you don't have rights to, which shifts risk onto your buyers and you. Options: use royalty-free/cleared sample packs, replay the melody yourself (still needs composition clearance for commercial release), or clear through a sample clearance service [3].
+
+*Not legal advice — if a placement gets serious, talk to a music lawyer.*
+[src] Sampling and copyright: the two rights you need | https://www.musiclawprimer.org/sampling-basics | Explains master vs publishing clearance for samples.
+[src] De minimis sampling: the circuit split explained | https://www.ipjournalreview.com/de-minimis-sampling | Summary of conflicting appellate approaches to very short samples.
+[src] Selling beats with samples: risks for producers | https://www.beatmakersguide.com/samples-and-leases | YouTube Content ID, leases and how producers handle uncleared samples.
+@user +5m
+how much does clearing usually cost for a small producer
+@assistant
+It varies widely: for a small independent release, masters and publishing are often negotiated separately, with **upfront fees from a few hundred to a few thousand dollars each**, sometimes plus a percentage of publishing [1][2]. Some labels simply refuse or don't respond for small requests. Clearance services charge their own fee for handling. That's why many producers use cleared sample libraries or commission original "fake vintage" samples instead [2].
+[src] What sample clearance costs in practice | https://www.musiclawprimer.org/clearance-costs | Typical fee ranges and deal structures for independent artists.
+[src] Alternatives to clearing samples | https://www.beatmakersguide.com/sample-alternatives | Licensed libraries and replays.
+
+### CONV gra-stipend-fica
+title: Do GRA stipends have FICA withheld
+start: 2026-03-09 21:00
+projects: project_none
+---
+@user
+do grad students pay FICA on a GRA stipend? my w-2 box 4 is 0 and i want to know if thats right before i file
+@assistant
+That can be correct. Under the **student FICA exception**, wages paid by a college or university to a student who is enrolled and regularly attending classes at that school are generally **exempt from Social Security and Medicare taxes** [1][2]. Most universities apply it to graduate research and teaching assistants who are enrolled at least half-time.
+
+So Box 4 (Social Security tax withheld) and Box 6 (Medicare) showing 0 is expected if you were enrolled during the pay periods. Things that can change it:
+- **Summer months** when you weren't enrolled — some schools withhold FICA for those pay periods [2].
+- Being classified as a **full-time employee** rather than a student employee.
+
+The stipend is still subject to **federal and state income tax** (Boxes 1, 2, 16, 17) [1].
+[src] IRS — Student exception to FICA tax | https://www.irs.gov/charities-non-profits/student-exception-to-fica-tax | Conditions under which student wages from a school are exempt from FICA.
+[src] Taxes for graduate assistants: a practical guide | https://www.gradfinanceguide.org/assistantship-taxes | How assistantship pay shows up on a W-2 and when FICA applies.
+@user +4m
+so i dont need to do anything special, just enter the w-2 as is
+@assistant
+Correct — enter the W-2 as issued. Tax software will use Box 1 for wages and Box 2 for federal withholding; zeros in Boxes 4 and 6 don't need an explanation [1]. Only if you think FICA *should* have been withheld (or was withheld wrongly), contact payroll for a corrected W-2c rather than adjusting it yourself [1].
+[src] Taxes for graduate assistants: a practical guide | https://www.gradfinanceguide.org/assistantship-taxes | Entering W-2s and requesting corrected forms.
+
+### CONV telemetry-help-seeking-llm-cs1
+title: Telemetry and help-seeking in LLM-assisted CS1
+start: 2026-03-12 22:50
+projects: project_tutortrace
+space: UIST related work
+notes: Related-work search for TutorTrace (UIST 2026); cites the fictional Ostrowski et al. 2025 paper.
+---
+@user
+related work: telemetry signals of help seeking / struggle in intro programming with llm assistants. need papers from 2023-2025, prefer CHI/UIST/L@S/SIGCSE/ICER
+@assistant
+Here are the main clusters, with representative work [1][2][3][4]:
+
+**1. Telemetry-based struggle detection (pre-LLM baseline).** Keystroke and compile/run logs have long been used to predict struggle, e.g., error-quotient style metrics and idle-time features in CS1. These give you the classic signals: repeated errors, long pauses after failures, rapid edit–run cycles [1].
+
+**2. Help-seeking with LLM assistants in CS1.**
+- *Ostrowski et al., "Productive Struggle or Silent Stalling? Telemetry Signals of Help-Seeking in LLM-Assisted CS1" (L@S '25)* — instrumented a CS1 course (N=212), TAs labeled 1,904 thirty-second windows as productive struggle / stalling / help-seeking / off-task; a gradient-boosted classifier reached ~0.71 macro-F1. Repeated near-identical prompts and idle gaps after errors predicted stalling [2].
+- Classroom studies of course-specific assistants with guardrails (no full solutions) report that students shift help-seeking from office hours to the assistant, and that a minority of students make most requests [3].
+
+**3. Instructor-facing tools.** Dashboards that surface struggling students in real time from editor telemetry; most are evaluated in lab settings, few in live lectures [4].
+
+**Gaps you could position against:** most work labels windows *offline* from logs; few systems let instructors or TAs see *replayed* struggle in context, and few combine editor telemetry with assistant prompts on the same timeline.
+[src] Predicting novice programmer struggle from keystroke data: a review | https://www.csedresearch.net/reviews/keystroke-struggle | Survey of keystroke and compilation metrics used to detect struggling novices.
+[src] Productive Struggle or Silent Stalling? Telemetry Signals of Help-Seeking in LLM-Assisted CS1 (Ostrowski, Lindqvist, Bello, Chandrasekar — L@S '25) | https://dl.acm.org/doi/10.1145/3698205.3729841 | N=212 CS1 students; 1,904 TA-labeled 30-second windows; stalling predicted by repeated near-identical prompts and idle gaps after errors.
+[src] Guardrailed AI teaching assistants in introductory programming: a semester deployment | https://www.computingeducationconf.org/papers/guardrailed-ta-deployment | Usage patterns and help-seeking shifts after deploying a course assistant.
+[src] Real-time instructor dashboards for programming classrooms | https://www.hciedu-review.org/realtime-dashboards | Overview of live dashboards built on editor telemetry and their evaluations.
+@user +7m
+the ostrowski one — is there an arxiv version too, numbers look slightly different in what i remember
+@assistant
+Yes. There's an **arXiv preprint (v1, July 2025)** and the **L@S '25 camera-ready**; the numbers differ slightly [1][2]:
+- Classifier macro-F1: **0.69** in the arXiv v1 vs **0.71** in the camera-ready.
+- Inter-rater agreement (Cohen's kappa on a 10% overlap sample): **0.62** in v1 vs **0.64** in the camera-ready.
+
+Cite the published L@S version in a paper, and use its numbers [2].
+[src] arXiv:2507.01842v1 — Productive Struggle or Silent Stalling? | https://arxiv.org/abs/2507.01842 | Preprint version, 3 Jul 2025.
+[src] ACM Digital Library — L@S '25 proceedings entry | https://dl.acm.org/doi/10.1145/3698205.3729841 | Camera-ready version with updated results.
+@user +2m
+do they do anything with replay or is it all offline classification
+@assistant
+Based on the paper's method description, TAs labeled **replayed sessions** to produce the training labels, but the replay was a labeling instrument, not a system contribution or something instructors used live [1]. The contribution is the telemetry analysis and the classifier; the discussion recommends surfacing stalling flags as prompts for a human check-in rather than automatic interventions [1]. So a system that makes replay itself the instructor-facing interface would be a distinct contribution relative to this paper.
+[src] Productive Struggle or Silent Stalling? (L@S '25), Method and Discussion | https://dl.acm.org/doi/10.1145/3698205.3729841 | TA labeling from replayed sessions; recommendations for human check-ins.
+@user +3m
+ok give me a 3 sentence related work paragraph positioning against it
+@assistant
+Recent work has begun to characterize help-seeking in LLM-assisted introductory programming from telemetry: Ostrowski et al. labeled 1,904 thirty-second windows from a 212-student CS1 course and showed that repeated near-identical prompts and idle gaps after errors predict stalling, reaching 0.71 macro-F1 [1]. Like most prior struggle-detection work [2], this analysis treats replay as an offline labeling instrument and outputs per-window classifications. In contrast, our system makes the replayed, aligned timeline of editor activity and assistant prompts the primary interface, so that instructors and TAs can inspect *why* a student stalled rather than only *that* they did.
+[src] Productive Struggle or Silent Stalling? (L@S '25) | https://dl.acm.org/doi/10.1145/3698205.3729841 | Window labels, features and classifier results.
+[src] Predicting novice programmer struggle from keystroke data: a review | https://www.csedresearch.net/reviews/keystroke-struggle | Offline classification as the dominant paradigm.
+
+### CONV student-telemetry-privacy
+title: Privacy of student telemetry in research
+start: 2026-03-13 23:40
+projects: project_tutortrace
+space: UIST related work
+---
+@user
+how do papers handle privacy for student keystroke/telemetry data. ferpa + irb, what do they usually write
+@assistant
+Typical practice in computing-education papers [1][2][3]:
+
+- **IRB approval and consent.** Most studies run under an IRB protocol where data collection is part of normal course activity but *research use* requires opt-in consent; non-consenting students' data is excluded from analysis. Papers state the protocol was approved and how consent was collected.
+- **FERPA.** Telemetry tied to identifiable students is part of the education record. Research use generally relies on consent or on de-identification; papers usually say data was de-identified before analysis and access restricted to the research team [1].
+- **De-identification steps:** replacing student IDs with random codes, stripping names/emails from code comments and prompts, and removing free-text fields that could identify someone [2].
+- **Instructor separation.** Many protocols ensure the instructor doesn't know who consented until grades are submitted, to avoid coercion [2].
+- **Data release.** If datasets are released, keystroke timing is sometimes coarsened and prompts are scrubbed, because typing rhythms and writing style can be re-identifying [3].
+
+Reviewers at HCI venues increasingly ask about **students' awareness of being recorded** and whether instructors could use the data for grading — address both explicitly.
+[src] FERPA and research: a guide for computing education researchers | https://www.csedresearch.net/guides/ferpa-research | When consent is required and what counts as de-identified.
+[src] Ethical collection of programming process data | https://www.computingeducationconf.org/papers/ethics-process-data | Consent workflows and instructor separation in classroom studies.
+[src] Re-identification risks in keystroke datasets | https://www.privacyinlearning.org/keystroke-reidentification | Typing dynamics as a biometric and implications for dataset release.
+@user +3m
+is keystroke timing really identifying enough to matter
+@assistant
+Yes — keystroke dynamics are used as a **behavioral biometric** for authentication, and studies have shown individuals can be distinguished from typing rhythms with modest amounts of text [1]. For a released dataset, the practical mitigations are coarsening timestamps (e.g., to 1 s), dropping inter-key intervals, or releasing derived features only [1][2].
+[src] Re-identification risks in keystroke datasets | https://www.privacyinlearning.org/keystroke-reidentification | Typing rhythm as a re-identifying signal.
+[src] Releasing educational process data responsibly | https://www.privacyinlearning.org/responsible-release | Coarsening and feature-only release strategies.
+
+### CONV vehicle-registration-va
+title: Renew Virginia car registration online
+start: 2026-03-17 12:15
+projects: project_none
+mode: CONCISE
+---
+@user
+renew virginia car registration online what do i need
+@assistant
+You can renew on the Virginia DMV website if your vehicle is eligible (no outstanding issues, insurance on file) [1]. You'll need:
+- your **renewal notice** or the plate number and last 4 of the VIN,
+- a valid **insurance** policy (Virginia checks electronically),
+- a **card** for the fee (varies by vehicle weight; plus a local fee if your locality charges one),
+- a passed **safety inspection** isn't checked at renewal, but you must have a current sticker to drive legally [1][2].
+Your new decal arrives by mail in about a week; keep the online receipt in the car until then [2].
+[src] Virginia DMV — vehicle registration renewal | https://www.dmv.virginia.gov/vehicles/registration/renew | Eligibility and steps for online renewal.
+[src] Virginia car ownership checklist | https://www.vadriverguide.net/registration-checklist | Inspections, decals and renewal timing.
+
+### CONV productive-failure-kapur
+title: Productive failure and desirable difficulties
+start: 2026-03-16 21:30
+projects: project_tutortrace
+space: UIST related work
+---
+@user
+productive failure (kapur) vs desirable difficulties (bjork) — summarize both and how theyd frame "when should a tutor intervene" in 1 paragraph each
+@assistant
+**Productive failure (Kapur).** Students are first asked to generate solutions to complex, novel problems *before* receiving instruction; they usually fail to find the canonical solution, but the generation phase activates prior knowledge and highlights critical features, so subsequent instruction is learned more deeply than with direct instruction first [1][2]. Framed for intervention: a tutor should *withhold* the solution during an initial exploration phase, as long as the student is generating and evaluating ideas, and intervene with consolidation afterwards. The key is that the failure is *productive* — the student is actively working, not stuck doing nothing.
+
+**Desirable difficulties (Bjork).** Some conditions that make learning feel harder and slow initial performance — spacing, interleaving, retrieval practice, variation — improve long-term retention and transfer [3]. Framed for intervention: help that removes *all* difficulty (e.g., handing over code) can hurt learning even if it boosts immediate success; a tutor should preserve the difficulty that drives retrieval and reasoning but remove difficulties that are merely obstacles (e.g., environment errors, unclear specs).
+
+Both frames support distinguishing **productive struggle from unproductive stalling**, which is exactly the line telemetry papers try to draw — Ostrowski et al. cite both as motivation [4].
+[src] Productive failure — overview and meta-analytic evidence | https://www.learningsciencesreview.org/productive-failure | Summary of Kapur's design and evidence for its effects.
+[src] Productive failure in mathematical problem solving | https://www.learningsciencesreview.org/pf-math | Classic studies of generation-before-instruction.
+[src] Desirable difficulties in learning — a primer | https://www.cogpsychprimer.org/desirable-difficulties | Spacing, interleaving, retrieval practice and their effects.
+[src] Productive Struggle or Silent Stalling? (Ostrowski et al., L@S '25) | https://dl.acm.org/doi/10.1145/3698205.3729841 | Cites productive failure and desirable difficulties when separating struggle from stalling.
+@user +5m
+ok can u give me the bibtex-ish refs for kapur 2008 and bjork 1994 so i can find them
+@assistant
+- Kapur, M. (2008). *Productive failure.* Cognition and Instruction, 26(3), 379–424 [1].
+- Bjork, R. A. (1994). *Memory and metamemory considerations in the training of human beings.* In J. Metcalfe & A. Shimamura (Eds.), *Metacognition: Knowing about knowing* (pp. 185–205). MIT Press [2].
+Verify page numbers against the publisher pages before pasting into your .bib.
+[src] Productive failure — overview and meta-analytic evidence | https://www.learningsciencesreview.org/productive-failure | Citation details for the original article.
+[src] Desirable difficulties in learning — a primer | https://www.cogpsychprimer.org/desirable-difficulties | Citation details for the 1994 chapter.
+
+### CONV session-replay-labeling-tools
+title: Session replay tools for labeling programming behavior
+start: 2026-03-24 01:10
+projects: project_tutortrace
+space: UIST related work
+---
+@user
+are there existing systems that replay student coding sessions for instructors (not just for research labeling). need to make sure our replay contribution is new
+@assistant
+There's prior work in three flavors [1][2][3]:
+
+**1. Research replay/annotation tools.** Tools that reconstruct code from keystroke logs so researchers can step through a session and annotate it. These are built for analysts, not instructors, and typically show only code — not assistant chat or run output [1].
+
+**2. Live-coding and classroom monitoring.** Systems that show instructors many students' editors in real time (grids of code, error counts). They support *live* oversight but usually not playback of a single student's process [2].
+
+**3. Process-based feedback / "code playback" in autograders.** Some platforms let instructors scrub through the history of a submission to check authorship or academic integrity [3].
+
+**What seems open:** a replay that **aligns editor activity, runs/tests, and LLM-assistant prompts on one timeline**, designed for TAs/instructors to understand *why* a student was stuck, and evaluated with instructors. The Ostrowski et al. L@S '25 paper used replay only as a labeling instrument [4].
+[src] Reconstructing programming sessions from keystroke logs for analysis | https://www.csedresearch.net/tools/session-reconstruction | A research tool for stepping through code histories and annotating them.
+[src] Monitoring many novice programmers in real time | https://www.hciedu-review.org/classroom-monitoring | Instructor grids of live student code and errors.
+[src] Code playback for authorship verification | https://www.computingeducationconf.org/papers/code-playback-integrity | Using edit history to check submission authorship.
+[src] Productive Struggle or Silent Stalling? (Ostrowski et al., L@S '25) | https://dl.acm.org/doi/10.1145/3698205.3729841 | Replay as a TA labeling instrument.
+@user +6m
+anything that does replay + ai chat on the same timeline specifically
+@assistant
+I couldn't find a published system that does exactly that for instructors [1][2]. Closest are (a) learning-analytics dashboards that list a student's assistant prompts alongside submission history, but as separate panels without a shared timeline, and (b) research visualizations in papers that plot prompt events over keystroke activity as static figures [2]. Worth stating carefully in your paper: "to our knowledge" plus the closest two examples.
+[src] AI assistant analytics for instructors: a design survey | https://www.hciedu-review.org/ai-assistant-analytics | Dashboards listing prompts and submissions as separate views.
+[src] Visualizing prompt and edit events in programming sessions | https://www.csedresearch.net/papers/prompt-edit-visualization | Static timeline figures combining assistant prompts and edits.
+@user +2m
+ok and what do reviewers typically ask for an eval of a tool like this at uist
+@assistant
+For an instructor-facing system at UIST, reviewers commonly expect [1][2]:
+- **A technical contribution description** (how the timeline is aligned, latency, scale) — UIST weighs the system itself.
+- **An evaluation with the target users**: a lab study with instructors/TAs on real sessions (task: diagnose why a student stalled), comparing against a baseline like raw logs or code-only replay.
+- **Label reliability** if you use labeled states — report agreement (e.g., kappa) among raters [2].
+- **Generalization**: whether it works beyond one course or one assistant, or a clear limitation statement.
+- **Privacy/ethics** of recording students.
+[src] What UIST reviewers look for in systems papers | https://www.hcipapersguide.org/uist-systems-reviewing | Common expectations for systems contributions and evaluations.
+[src] Evaluating instructor tools: methods and pitfalls | https://www.hciedu-review.org/evaluating-instructor-tools | Study designs and baselines for teaching-support systems.
+
+### CONV cohen-vs-fleiss-kappa
+title: Cohen's vs Fleiss' kappa with three raters
+start: 2026-03-25 23:55
+projects: project_tutortrace
+space: UIST related work
+---
+@user
+3 raters labeled all windows (5 categories). cohen or fleiss kappa? or average pairwise cohen
+@assistant
+With **3 raters who all labeled the same items** and nominal categories, the standard choices are [1][2]:
+
+- **Fleiss' kappa** — designed for more than two raters; treats raters as interchangeable. Most common in papers like yours.
+- **Average pairwise Cohen's kappa** (sometimes called Light's kappa) — compute Cohen's kappa for each of the 3 pairs and average. Useful if you also want to show pairwise agreement (e.g., one rater is an outlier).
+- **Krippendorff's alpha** — handles missing labels and different measurement levels; good if not every rater labeled every window [2].
+
+Recommendation: report **Fleiss' kappa** as the headline number and include the **three pairwise Cohen's kappas** in a footnote or appendix. If all raters labeled everything, Fleiss and averaged Cohen will usually be close [1].
+[src] Agreement statistics for multiple raters — a practical guide | https://www.methodsforhci.org/multi-rater-agreement | Fleiss, Light's and Krippendorff's measures compared.
+[src] Krippendorff's alpha explained | https://www.statsforannotation.org/krippendorff-alpha | When alpha is preferable and how to compute it.
+@user +4m
+we get 0.71 fleiss. how do i describe that, substantial?
+@assistant
+Under the commonly cited Landis & Koch benchmarks, **0.61–0.80 is "substantial" agreement**, so 0.71 can be described that way [1]. Many HCI papers phrase it as "substantial agreement (Fleiss' κ = 0.71)" [1][2]. Be aware that these benchmarks are conventions rather than statistical thresholds, and some reviewers prefer you also report per-category agreement so they can see which states were hard (e.g., stalling vs productive struggle) [2].
+[src] Interpreting kappa: the Landis and Koch scale and its critics | https://www.statsforannotation.org/interpreting-kappa | Benchmark ranges and their limitations.
+[src] Reporting agreement for subjective annotations | https://www.methodsforhci.org/reporting-agreement | Per-category agreement and confusion matrices.
+@user +2m
+per-category fleiss is a thing?
+@assistant
+Yes — Fleiss' original formulation gives a **kappa for each category** (agreement on "this category vs not") alongside the overall value; most stats packages (e.g., `statsmodels` doesn't, but `irr`-style R packages and some Python libraries do) can output it, or you can compute it by binarizing each category and running Fleiss on the binary labels [1]. Report it as a small table: category, n windows, per-category κ.
+[src] Agreement statistics for multiple raters — a practical guide | https://www.methodsforhci.org/multi-rater-agreement | Category-wise kappa and how to compute it.
+
+### CONV llm-assistants-instructor-dashboards
+title: LLM assistants in CS1 and instructor visibility
+start: 2026-03-28 16:20
+projects: project_tutortrace
+space: UIST related work
+---
+@user
+what do instructors actually want to see about how students use ai assistants. any interview/survey studies 2024-2025
+@assistant
+Several interview and survey studies with CS instructors converge on a few needs [1][2][3]:
+
+- **Who is stuck, not just who is using the assistant.** Usage counts alone weren't seen as useful; instructors want to know which students are struggling unproductively [1].
+- **Context for intervention.** Instructors want to see *what the student was trying to do* (the code and the prompt together) before stepping in, rather than an alert with no context [2].
+- **Over-reliance signals.** Concern about students pasting assignment text and taking full solutions; interest in seeing prompt patterns like "give me the code" [1][3].
+- **Low time cost.** TAs in large courses said any tool must take seconds per student, not minutes [2].
+- **Privacy and trust.** Some instructors were uneasy about surveillance and preferred aggregate views or opt-in individual views [3].
+[src] Instructor perspectives on generative AI in introductory programming: an interview study | https://www.computingeducationconf.org/papers/instructor-perspectives-genai | Interviews with CS1 instructors on concerns and desired visibility.
+[src] What TAs need from AI-assistant analytics | https://www.hciedu-review.org/ta-needs-ai-analytics | Survey of TAs in large courses about time cost and context.
+[src] Surveillance concerns in learning analytics for programming courses | https://www.privacyinlearning.org/surveillance-concerns | Instructor and student attitudes toward individual-level monitoring.
+@user +3m
+"low time cost" — any numbers
+@assistant
+One survey reported most TAs would spend **under a minute per flagged student** during a live lab before moving on, and preferred tools that let them triage in seconds and dig in only when needed [1]. Treat that as one study's finding rather than a general rule.
+[src] What TAs need from AI-assistant analytics | https://www.hciedu-review.org/ta-needs-ai-analytics | Time budgets TAs reported for triaging struggling students.
+
+### CONV cite-arxiv-then-las
+title: Citing a paper with both arXiv and L@S versions
+start: 2026-03-30 13:05
+projects: project_tutortrace
+notes: Same-paper hard case context: the Ostrowski 2025 paper exists as arXiv v1 and L@S camera-ready.
+---
+@user
+paper has arxiv v1 and later published at L@S 25 with slightly different numbers. which do i cite, and do i cite both
+@assistant
+Cite the **published (L@S '25) version** and use its numbers; that's the version of record [1]. Don't cite both as separate references — reviewers read that as padding, and it can look like two papers. Exceptions:
+- If you specifically discuss something that **only appears in the preprint** (e.g., an analysis cut from the camera-ready), cite the arXiv version for that point and say so [1].
+- In your `.bib`, keep **one entry** with the DOI; some people add the arXiv ID in a `note` or `eprint` field [2].
+
+Also double-check any number you quote: if you copied it from the preprint (e.g., 0.69 macro-F1), update it to the camera-ready figure [2].
+[src] Citing preprints and published versions | https://www.academicwritingguide.org/citing-preprints | Version-of-record guidance for papers with preprints.
+[src] BibTeX tips for computer science papers | https://www.latexforresearchers.org/bibtex-tips | Using DOI and eprint fields in one entry.
+@user +2m
+yep we had 0.69 from the arxiv in the draft lol. thx
+@assistant
+Common mistake — worth a quick search of the draft for any other numbers taken from the preprint (kappa was also slightly different: 0.62 in v1 vs 0.64 published) [1].
+[src] ACM Digital Library — Productive Struggle or Silent Stalling? (L@S '25) | https://dl.acm.org/doi/10.1145/3698205.3729841 | Camera-ready numbers: macro-F1 0.71, kappa 0.64.
+
+### CONV what-time-is-aoe
+title: what time is
+start: 2026-03-31 20:10
+projects: project_tutortrace
+mode: CONCISE
+notes: HARD CASE: vague title — title is only the first query fragment ("what time is"); thread is about the UIST 2026 deadline (23:59 AoE, Mar 31) in Eastern time.
+---
+@user
+what time is 23:59 AoE march 31 in eastern time
+@assistant
+**Anywhere on Earth (AoE) is UTC−12.** So 23:59 AoE on March 31 is 11:59 UTC on **April 1**, which is **7:59 AM EDT on April 1** (Eastern Daylight Time, UTC−4, is in effect in late March) [1][2]. You have until tomorrow morning Eastern time.
+[src] Anywhere on Earth (AoE) — explanation | https://www.timeanddate.com/time/zones/aoe | AoE is UTC−12, used for academic deadlines.
+[src] Eastern Daylight Time | https://www.timeanddate.com/time/zones/edt | EDT is UTC−4 from March to November.
+
+### CONV caffeine-tolerance-reset
+title: How long to reset caffeine tolerance
+start: 2026-04-01 18:00
+projects: project_none
+mode: CONCISE
+---
+@user
+how long does it take to reset caffeine tolerance. was drinking like 5 coffees a day during a deadline
+@assistant
+Most withdrawal symptoms (headache, fatigue) peak in **1–2 days** and fade within **about 7–9 days** of stopping [1]. Tolerance to caffeine's alerting effects largely reverses over a similar window, roughly **1–2 weeks** of abstinence or very low intake [1][2]. Tapering (e.g., cutting one cup every 2–3 days) avoids the worst headaches. If you don't want to fully stop, dropping to 1–2 cups/day still restores much of the effect over a couple of weeks [2].
+[src] Caffeine withdrawal: time course and symptoms | https://www.sleepandhealthreview.org/caffeine-withdrawal | Onset, peak and duration of withdrawal symptoms.
+[src] Tolerance to caffeine's effects: what the evidence says | https://www.nutritionevidence.net/caffeine-tolerance | Reversal of tolerance with abstinence or reduced intake.
+
+### CONV va-state-tax-deadline
+title: Virginia state tax deadline 2026
+start: 2026-04-08 12:30
+projects: project_none
+---
+@user
+virginia state tax return deadline 2026, is it april 15 like federal
+@assistant
+No — Virginia's individual income tax deadline is **May 1** (for calendar-year filers), later than the federal April 15 deadline [1]. If May 1 falls on a weekend, it moves to the next business day. Virginia also grants an **automatic 6-month extension to file** (to November 1), but **not to pay**: at least 90% of the tax owed must be paid by May 1 to avoid an extension penalty [1][2].
+[src] Virginia Tax — filing deadlines | https://www.tax.virginia.gov/deadlines | Individual return due May 1; automatic extension rules.
+[src] State tax deadlines that differ from the federal date | https://www.taxdatesguide.com/state-deadlines | List of states with non-April-15 deadlines.
+@user +3m
+i moved nowhere this year, just one w-2 with VA withholding. any reason not to just use free file
+@assistant
+With one W-2 and no other income, Virginia's free e-file options are usually fine [1]. Check eligibility (income limits apply to some free-file partners) and make sure the **Virginia withholding (W-2 Box 17)** is entered correctly so the refund or balance comes out right [1].
+[src] Virginia Tax — free filing options | https://www.tax.virginia.gov/free-file | Free e-file options and eligibility.
+
+### CONV us-china-chip-export-controls
+title: US–China chip export controls latest
+start: 2026-04-22 22:30
+projects: project_none
+---
+@user
+where are us-china chip export controls at right now, short version. and what's the actual strategic logic
+@assistant
+**Short version:** the US continues to restrict exports of advanced AI chips and chipmaking equipment to China, periodically tightening thresholds and adding entities, while allied countries with key equipment suppliers (notably the Netherlands and Japan) have adopted partly aligned rules [1][2]. China has responded with large subsidies for domestic chips and equipment, and with export controls on some critical minerals used in electronics [2][3].
+
+**The strategic logic** usually given [1][3]:
+- **Compute as a chokepoint:** frontier AI training depends on advanced chips and the tools to make them, which are concentrated in a few countries; restricting access is meant to slow military-relevant AI progress.
+- **Buying time vs. accelerating substitution:** critics argue controls push China to build its own supply chain faster, eroding US firms' market share; supporters argue the lead time still matters [3].
+- **Alliance management:** controls only work if allied equipment makers go along, which creates friction over lost sales.
+
+For grand-strategy framing, the debate is essentially whether technology denial is a durable advantage or a temporary one that trades long-run market position for short-run lead [3].
+[src] Explainer: US semiconductor export controls on China | https://www.techpolicyreview.net/chip-export-controls-explainer | Timeline of rules and thresholds.
+[src] Allied alignment on chipmaking equipment restrictions | https://www.internationalaffairsforum.net/allied-chip-controls | How European and Japanese rules relate to US controls.
+[src] Do export controls work? The substitution debate | https://www.strategyreview.org/export-controls-debate | Arguments on denial versus accelerated indigenous development.
+
+### CONV krippendorff-alpha-ordinal
+title: Krippendorff's alpha for an ordinal frustration scale
+start: 2026-04-27 23:45
+projects: project_ise6664_affective_computing
+---
+@user
+our class project labeled frustration on a 0-3 scale, 3 coders, some transcripts only labeled by 2. what agreement stat
+@assistant
+Use **Krippendorff's alpha with the ordinal distance metric** [1][2]. It fits your situation on both counts:
+- **Missing data:** alpha handles items labeled by only 2 of 3 coders without dropping them.
+- **Ordinal scale:** the ordinal metric treats a 1-vs-2 disagreement as smaller than 0-vs-3, which nominal kappa would treat as equally wrong.
+
+Convention: α ≥ 0.80 is considered reliable, 0.667–0.80 acceptable for tentative conclusions [2]. For a 10-week class project, report the value, the number of units, and a brief note on where disagreements clustered. In Python, the `krippendorff` package takes a coders × units matrix with `nan` for missing labels and `level_of_measurement='ordinal'` [3].
+[src] Krippendorff's alpha explained | https://www.statsforannotation.org/krippendorff-alpha | Handling missing data and choosing the distance metric.
+[src] Reliability thresholds for content analysis | https://www.methodsforhci.org/reliability-thresholds | Commonly used alpha cutoffs and their origins.
+[src] Computing Krippendorff's alpha in Python | https://www.datatoolsnotes.org/krippendorff-python | Example using a coders-by-units matrix with missing values.
+@user +4m
+we got 0.62. bad?
+@assistant
+Below the conventional 0.667 cutoff, but not unusual for frustration from text [1]. Present it honestly: say agreement was moderate, show which levels were confused (likely 1 vs 2), and consider reporting results both on the 4-point scale and on a collapsed binary (0–1 vs 2–3), which often raises agreement substantially [1][2].
+[src] Inter-rater reliability in affect annotation: a meta-analysis | https://www.affectivesignals.org/irr-meta-analysis | Typical agreement levels for frustration labels.
+[src] Collapsing ordinal scales to improve reliability | https://www.methodsforhci.org/collapsing-scales | Trade-offs of binarizing ordinal annotations.

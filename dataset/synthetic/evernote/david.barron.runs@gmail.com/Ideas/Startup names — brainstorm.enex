@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20260201T051500Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Startup names — brainstorm</title>
+    <created>20260128T044000Z</created>
+    <updated>20260201T051500Z</updated>
+    <tag>startup</tag>
+    <tag>naming</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>With Hudson, for the notebook/learning-tools thing. Working name right now: <b>Papert Lab</b>.</div><div><br/></div><div>Candidates</div><ul><li>Papert Lab — honest about the inspiration, sounds like a research group not a product.</li><li><b>Mathetic</b> — Papert's word for the art of learning (as opposed to didactics, the art of teaching). short, ownable? check.</li><li>Mindstorm — taken by everyone.</li><li>Turtle Labs — cute, LOGO reference, sounds like a kids' coding camp.</li><li>Memex — Bush. a hundred projects already use it.</li><li>Marginalia — nice but sounds like a reading app.</li><li>Augment Co — too generic.</li></ul><div><br/></div><div>Checks for the top 2</div><div><en-todo checked="true"/>mathetic .com — taken (parked). .ai/.co? Hudson checking</div><div><en-todo checked="false"/>Delaware entity name search (Mathetic, Inc. / Mathetic PBC)</div><div><en-todo checked="false"/>trademark quick search (USPTO)</div><div><en-todo checked="true"/>say it out loud 10 times: Mathetic is fine. people may say "ma-THET-ic".</div><div><br/></div><div>2/1: we both lean Mathetic for the company, keep "Papert Lab notebook" as the codename for the product idea for now.</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

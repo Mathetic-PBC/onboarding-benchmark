@@ -1,0 +1,52 @@
+{
+ "uuid": "21279cde-363e-4799-89de-fb103e86a6d8",
+ "slug": "carb-loading-for-a-half-marathon-on-thursday-im-GKtQ4Rvr3r9h6tbz8NR7zE",
+ "title": "Carb loading for a half marathon",
+ "thread_url": "https://www.perplexity.ai/search/carb-loading-for-a-half-marathon-on-thursday-im-GKtQ4Rvr3r9h6tbz8NR7zE",
+ "created_at": "2026-10-12T02:30:00Z",
+ "updated_at": "2026-10-12T02:33:24Z",
+ "collection": {
+  "uuid": "74f83dde-ba7f-4521-9b66-a8854a3e55b9",
+  "title": "Training"
+ },
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "d54eb518-bfdd-4a98-8d36-a09f37753cce",
+   "query_str": "carb loading for a half marathon on thursday, im ~66kg. how many grams per kg and starting when. goal ~1:25",
+   "answer": "For a half marathon (~85 minutes at your goal), a **full multi-day carb load isn't necessary**, but topping off glycogen helps [1][2]:\n- **24–36 hours before**: about **7–10 g carbohydrate per kg** per day → roughly **460–660 g/day** at 66 kg. Shift toward lower-fiber sources (white rice, bread, pasta, potatoes, juice) so it sits well.\n- **Race morning (2–3 h before)**: **1–2 g/kg** → ~70–135 g (e.g., bagel + banana + honey) [2].\n- **During**: for ~85 minutes, one gel around 35–45 minutes is optional; many runners at that duration take one gel for a late boost [1].\n\nPractice the race-morning breakfast before a long run this weekend, not for the first time on race day [2].",
+   "sources": [
+    {
+     "name": "Carbohydrate loading for endurance events: current recommendations",
+     "url": "https://www.sportsnutritionreview.org/carb-loading",
+     "snippet": "Guidance by event duration and body mass."
+    },
+    {
+     "name": "Pre-race meals and timing",
+     "url": "https://www.trainingsciencejournal.com/pre-race-meals",
+     "snippet": "Grams per kg and timing before endurance races."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-10-12T02:30:00Z",
+   "updated_at": "2026-10-12T02:30:11Z"
+  },
+  {
+   "uuid": "7c264300-ccb6-4670-91f0-cbc4d41cc03a",
+   "query_str": "thursday morning race, so wed is the main day?",
+   "answer": "Yes — make **Wednesday** the high-carb day (~7–10 g/kg), and keep Tuesday normal-to-slightly-higher. Eat your last big meal Wednesday early evening so it's digested, then the planned breakfast Thursday 2–3 hours before the start [1].",
+   "sources": [
+    {
+     "name": "Carbohydrate loading for endurance events: current recommendations",
+     "url": "https://www.sportsnutritionreview.org/carb-loading",
+     "snippet": "Timing the high-carbohydrate day."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-10-12T02:32:56Z",
+   "updated_at": "2026-10-12T02:33:08Z"
+  }
+ ]
+}

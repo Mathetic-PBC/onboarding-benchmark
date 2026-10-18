@@ -1,0 +1,546 @@
+{
+ "id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Hudson x David — import redesign working session",
+ "created_at": "2026-10-16T21:57:18.000Z",
+ "updated_at": "2026-10-16T22:07:23.771Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "a5228801ca656b2d7c3311f2c7",
+  "summary": "Hudson x David — import redesign working session",
+  "start": {
+   "dateTime": "2026-10-16T15:00:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-10-16T15:30:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true,
+    "organizer": true
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted"
+   }
+  ],
+  "organizer": {
+   "email": "david@mathetic.com"
+  },
+  "creator": {
+   "email": "david@mathetic.com"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=853092cfc38f30d40b00bb2a2bdcbcb4f01d1c5f",
+  "status": "confirmed",
+  "location": "Surplus house, SF"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### What the two pilots told us about import\n\n- **Omissions:** Priya's ~140 Claude chats (split export), Daniel's Granola notes (no connector), 4 empty conversations dropped silently\n- **Wrong items:** Notion ids in titles; flattened hierarchy; database rows as separate items\n- **Duplicates:** publisher vs arXiv PDFs; same paper in Zotero, Downloads and a Slack DM\n- Every one of these was found by a user, live — not by us\n\n### Decision: measure import before redesigning it\n\n- Build an import benchmark: a realistic researcher's full footprint across tools, with a hand-labelled \"what should come in\" list\n- Score each import on: items missed, items that shouldn't be there, duplicates, wrong project grouping\n- Use David's own accounts as the base (he has the messiest footprint), plus generated data for tools he barely uses\n- Every bug from the pilots becomes a test case\n\n### Connect screen v2\n\n- \"Other\" → \"Upload files\"; new \"Request a source\" tile (votes)\n- Coming soon list: Notion, Granola, Google Drive\n- After connect: per-source preview (\"we found 553 conversations, 9 projects\") before importing\n\n### Order of work\n\n1. Benchmark skeleton + labels for David's data (this weekend)\n2. Run current importer against it → baseline numbers\n3. Notion connector (hierarchy + titles), then Granola\n4. Re-run; report numbers to pilots and Marcus\n\n### Action items\n\n- [ ] David — benchmark skeleton, item schema, label format (Sat)\n- [ ] Hudson — connect screen v2 copy + \"Request a source\" tile\n- [ ] David — list every pilot bug as a benchmark case\n- [ ] Both — baseline numbers by Wed Oct 21\n",
+ "notes_plain": "What the two pilots told us about import\n\nOmissions: Priya's ~140 Claude chats (split export), Daniel's Granola notes (no connector), 4 empty conversations dropped silently\nWrong items: Notion ids in titles; flattened hierarchy; database rows as separate items\nDuplicates: publisher vs arXiv PDFs; same paper in Zotero, Downloads and a Slack DM\nEvery one of these was found by a user, live — not by us\n\nDecision: measure import before redesigning it\n\nBuild an import benchmark: a realistic researcher's full footprint across tools, with a hand-labelled \"what should come in\" list\nScore each import on: items missed, items that shouldn't be there, duplicates, wrong project grouping\nUse David's own accounts as the base (he has the messiest footprint), plus generated data for tools he barely uses\nEvery bug from the pilots becomes a test case\n\nConnect screen v2\n\n\"Other\" → \"Upload files\"; new \"Request a source\" tile (votes)\nComing soon list: Notion, Granola, Google Drive\nAfter connect: per-source preview (\"we found 553 conversations, 9 projects\") before importing\n\nOrder of work\n\n1. Benchmark skeleton + labels for David's data (this weekend)\n2. Run current importer against it → baseline numbers\n3. Notion connector (hierarchy + titles), then Granola\n4. Re-run; report numbers to pilots and Marcus\n\nAction items\n\nDavid — benchmark skeleton, item schema, label format (Sat)\nHudson — connect screen v2 copy + \"Request a source\" tile\nDavid — list every pilot bug as a benchmark case\nBoth — baseline numbers by Wed Oct 21\n",
+ "transcript": [
+  {
+   "id": "f0027838-fb4c-43c1-b072-2251dd571b6e",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:00:08.229Z",
+   "end_timestamp": "2026-10-16T22:00:11.842Z",
+   "text": "Okay. I'm still sore. Don't make me stand up.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e4baeaf9-a5ba-494e-869d-fa1926573aa5",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:00:13.657Z",
+   "end_timestamp": "2026-10-16T22:00:16.402Z",
+   "text": "How was it? You haven't said.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ce3bef5f-a28e-43f6-bed8-13f25150284e",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:00:18.158Z",
+   "end_timestamp": "2026-10-16T22:00:21.239Z",
+   "text": "One twenty-four fifty-one. Owen did one twenty-two ten.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e6e2ce6f-d25d-4d3f-9843-392d3e0b8e99",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:00:23.398Z",
+   "end_timestamp": "2026-10-16T22:00:24.588Z",
+   "text": "Is that good?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a6560724-37db-4b7a-808f-357ab8545d9c",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:00:26.735Z",
+   "end_timestamp": "2026-10-16T22:00:31.750Z",
+   "text": "For me it's good. It's a PR. Owen's just — Owen's a machine.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "1ae72a44-410a-4f2e-be6f-f2c8ff5a22f0",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:00:32.716Z",
+   "end_timestamp": "2026-10-16T22:00:38.650Z",
+   "text": "Congrats. Okay, import redesign. You booked thirty minutes, which for us is terrifying.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "1dc16d20-cad1-40ef-907e-1e5a4b0f2de1",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:00:39.328Z",
+   "end_timestamp": "2026-10-16T22:00:47.579Z",
+   "text": "I booked thirty because I think we have to change how we work on import, not just the import.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "95601bfb-9f55-4246-9ddb-8099c1a513ba",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:00:48.621Z",
+   "end_timestamp": "2026-10-16T22:00:49.495Z",
+   "text": "Okay. Explain.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "96ebbb8a-a354-4474-ad5e-f191870936c0",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:00:50.216Z",
+   "end_timestamp": "2026-10-16T22:01:02.735Z",
+   "text": "So. Look at the two pilots. Every single import problem was found by the user. Live. Priya found the hundred forty chats. Daniel found the Notion titles. Priya found the duplicates.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ac25124c-98f4-4ea0-ba8f-03005f3cc775",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:01:03.169Z",
+   "end_timestamp": "2026-10-16T22:01:05.240Z",
+   "text": "We found the empty conversations.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "d2197362-6036-4c87-857d-fe46fd1f6678",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:01:07.036Z",
+   "end_timestamp": "2026-10-16T22:01:12.110Z",
+   "text": "We found four empty conversations while fixing something she found. That's it.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "4c1e6a7c-be7d-4e97-83c6-e56e155a6855",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:01:13.709Z",
+   "end_timestamp": "2026-10-16T22:01:14.692Z",
+   "text": "Fair.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "df5d161b-fe49-46a0-bfd3-5641e5cc1e43",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:01:15.956Z",
+   "end_timestamp": "2026-10-16T22:01:38.094Z",
+   "text": "So I tried to categorize. There's three kinds of failure. Omissions — stuff that should come in and doesn't. The split export, Granola, the empty ones. Wrong items — stuff that comes in wrong or shouldn't be an item. Notion ids, flattened hierarchy, database rows as their own items. And duplicates.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "4a40ac30-aadd-42ac-97d9-1730b7539720",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:01:38.543Z",
+   "end_timestamp": "2026-10-16T22:01:40.108Z",
+   "text": "Omissions, wrong items, duplicates.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "56c55c47-e30d-4fbe-86b7-341a7de744d6",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:01:41.031Z",
+   "end_timestamp": "2026-10-16T22:01:47.102Z",
+   "text": "Yeah. And we have no way to measure any of them except \"a pilot gets mad.\"",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "84dbc700-6554-4dad-8b2b-086c3a874176",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:01:48.882Z",
+   "end_timestamp": "2026-10-16T22:01:51.164Z",
+   "text": "Okay, so what do you want?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "4a0256a5-a098-4c27-b5b8-12a81f08a668",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:01:51.326Z",
+   "end_timestamp": "2026-10-16T22:02:07.640Z",
+   "text": "A benchmark. For import. Like, a realistic researcher's whole footprint across all the tools, and a hand-labelled list of what should come in. Then we run the importer and count. Missed, extra, duplicates, and whether things land in the right project.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "8d6ca238-e55b-422f-817f-39dbe125aa2e",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:02:07.811Z",
+   "end_timestamp": "2026-10-16T22:02:09.824Z",
+   "text": "That's a lot of labelling.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "f8abbcf0-5b5e-4ba2-a9ac-abb0a12595c4",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:02:11.464Z",
+   "end_timestamp": "2026-10-16T22:02:19.898Z",
+   "text": "It's a lot of labelling. But I think it's the only way we stop finding bugs in front of people.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "785c2421-dca0-4eff-b94a-d9f41a829e65",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:02:21.691Z",
+   "end_timestamp": "2026-10-16T22:02:22.682Z",
+   "text": "Whose footprint?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ce74130a-78f3-4e26-a2fd-3ef72f74b20a",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:02:24.228Z",
+   "end_timestamp": "2026-10-16T22:02:35.057Z",
+   "text": "Mine. I'm the messiest person I know. I have stuff in like twenty tools. Two Gmails, Slack, Overleaf, Zotero, the abandoned Notion, a million PDFs.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0d1583f4-cef9-4939-9cc4-ebceb028aa46",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:02:36.331Z",
+   "end_timestamp": "2026-10-16T22:02:38.880Z",
+   "text": "You do have a terrible footprint.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "4a5edafd-98ad-4764-b95e-bb2f4c2430fd",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:02:40.299Z",
+   "end_timestamp": "2026-10-16T22:02:52.318Z",
+   "text": "It's a perfect benchmark. And for tools I barely use, like Granola or Zoom, we generate realistic data so the importer has something to chew on.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "752fa5ae-f9f4-45e5-9a51-f94878aa51cd",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:02:53.099Z",
+   "end_timestamp": "2026-10-16T22:02:56.109Z",
+   "text": "Generated data. Doesn't that make it easy?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "0616f365-4394-4afe-9392-81c9b87b8e7e",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:02:57.965Z",
+   "end_timestamp": "2026-10-16T22:03:07.667Z",
+   "text": "Not if it's realistic. Like, vague titles, duplicates, the same paper in five places, a useful thing buried in a long unrelated chat.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "c240bb68-1054-480f-8edb-26ae0716a2f6",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:03:08.928Z",
+   "end_timestamp": "2026-10-16T22:03:11.263Z",
+   "text": "Oh, like Priya's four copies.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "45f6e86b-f8e0-4ebc-9b00-72512d17e8f8",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:03:13.325Z",
+   "end_timestamp": "2026-10-16T22:03:20.913Z",
+   "text": "Exactly like that. And every pilot bug becomes a test case. The split export, the Notion ids, the \"(1)\" filenames.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e75e3dcf-2e8e-4eda-89d2-5c7e7f458165",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:03:21.167Z",
+   "end_timestamp": "2026-10-16T22:03:26.709Z",
+   "text": "Okay. I'm in. What about the connect screen? We said we'd rename \"Other.\"",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "0a7a8038-74a6-4d45-bd83-801a55bb2835",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:03:27.009Z",
+   "end_timestamp": "2026-10-16T22:03:34.101Z",
+   "text": "Yeah, do that now, it's two out of two. \"Upload files.\" And the \"Request a source\" tile.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ccc4bac9-0513-47b0-ac73-8d25409b9f39",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:03:36.210Z",
+   "end_timestamp": "2026-10-16T22:03:38.930Z",
+   "text": "And a coming-soon list. Notion, Granola, Drive.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "228228c2-93bc-46d5-8a02-a8115bf354a4",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:03:39.593Z",
+   "end_timestamp": "2026-10-16T22:03:55.598Z",
+   "text": "Yes. And one more thing. After you connect, before we import, show a preview. \"We found five fifty-three conversations in nine projects.\" So if it says four twelve, the user can tell us right away.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "a71f609b-c7e9-4207-ac16-e9be143d21b6",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:03:57.714Z",
+   "end_timestamp": "2026-10-16T22:04:03.318Z",
+   "text": "Oh, that's smart. Priya would have caught it before the import even ran.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "c5d4fb96-69bf-4c21-ab69-a24093eb3aad",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:04:04.880Z",
+   "end_timestamp": "2026-10-16T22:04:10.965Z",
+   "text": "Right. The preview is basically a cheap version of the benchmark, for the user.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "37483ae9-39bf-49ec-87f9-89b1397b0037",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:04:11.751Z",
+   "end_timestamp": "2026-10-16T22:04:12.714Z",
+   "text": "Order?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "5cdb2297-3e30-4c35-8ae4-57c6f99aa5e0",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:04:13.438Z",
+   "end_timestamp": "2026-10-16T22:04:25.989Z",
+   "text": "Benchmark skeleton and labels first. This weekend. Then run the current importer against it, get a baseline. Then Notion, then Granola. Then re-run and send the numbers to the pilots and Marcus.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "606dd749-cb28-494a-8893-aec2fb263f01",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:04:27.153Z",
+   "end_timestamp": "2026-10-16T22:04:29.746Z",
+   "text": "Marcus said don't build every connector.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a4deef65-4918-4c0c-bcc2-0f20550169ec",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:04:30.161Z",
+   "end_timestamp": "2026-10-16T22:04:36.230Z",
+   "text": "Two connectors. Notion and Granola. That's what Daniel needs and it's what makes him weekly.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "82e576af-a391-4850-bb18-60dc99b0498d",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:04:36.936Z",
+   "end_timestamp": "2026-10-16T22:04:39.587Z",
+   "text": "Okay. That's defensible. Baseline by when?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a6792066-c53d-440e-9527-13b0fb2db8fc",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:04:41.598Z",
+   "end_timestamp": "2026-10-16T22:04:42.757Z",
+   "text": "Wednesday? The twenty-first.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "20a06e5f-c2db-4dc2-bc98-2a8b6c00f0a1",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:04:42.908Z",
+   "end_timestamp": "2026-10-16T22:04:47.246Z",
+   "text": "You're going to spend the whole weekend labelling your own email.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "196b0003-a45d-4f3f-b4e4-83585ad5cfa5",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:04:48.693Z",
+   "end_timestamp": "2026-10-16T22:04:55.084Z",
+   "text": "I'm going to spend the whole weekend labelling my own email. It's fine. It's, um, it's character-building.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "b3238464-c1e0-4016-898a-3666b3cb6836",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:04:56.411Z",
+   "end_timestamp": "2026-10-16T22:04:57.998Z",
+   "text": "Do you want help?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "24d32996-a9bb-4e0c-9761-a67cb195b1b9",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:04:59.368Z",
+   "end_timestamp": "2026-10-16T22:05:05.739Z",
+   "text": "You can't label my email, it's my email. You can do the connect screen copy.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "c15b4158-6877-4260-9d13-1a153e78b9d9",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:05:06.213Z",
+   "end_timestamp": "2026-10-16T22:05:08.332Z",
+   "text": "Deal. And the request tile.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ca3fa9a2-128c-490c-94ac-a5ff7957aea7",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:05:09.006Z",
+   "end_timestamp": "2026-10-16T22:05:15.306Z",
+   "text": "And write down every pilot bug in one place so I can turn them into cases.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "8f07d6f0-7c09-4846-965f-ef685542d7cf",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:05:15.457Z",
+   "end_timestamp": "2026-10-16T22:05:18.607Z",
+   "text": "I'll make a list from both Granola notes.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "16309ae3-c862-43c2-a681-15423dc23213",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:05:19.597Z",
+   "end_timestamp": "2026-10-16T22:05:22.778Z",
+   "text": "Ha. From Granola. Which we can't import.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "10b653d6-9387-4fe1-8e38-be63ae3be7b0",
+   "document_id": "1bd2b422-d8e5-4fa2-81f4-e20fb833ae91",
+   "start_timestamp": "2026-10-16T22:05:23.789Z",
+   "end_timestamp": "2026-10-16T22:05:24.771Z",
+   "text": "Yet.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  }
+ ]
+}

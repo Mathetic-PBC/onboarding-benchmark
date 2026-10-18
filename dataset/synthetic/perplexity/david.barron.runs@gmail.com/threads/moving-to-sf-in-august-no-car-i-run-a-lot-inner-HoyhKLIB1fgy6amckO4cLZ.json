@@ -1,0 +1,75 @@
+{
+ "uuid": "716f87cd-5254-4dca-a217-2150e6e4aacc",
+ "slug": "moving-to-sf-in-august-no-car-i-run-a-lot-inner-HoyhKLIB1fgy6amckO4cLZ",
+ "title": "Inner Sunset vs Mission for a runner without a car",
+ "thread_url": "https://www.perplexity.ai/search/moving-to-sf-in-august-no-car-i-run-a-lot-inner-HoyhKLIB1fgy6amckO4cLZ",
+ "created_at": "2026-07-15T01:40:00Z",
+ "updated_at": "2026-07-15T01:49:12Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "75bf71f9-1455-495f-8d00-3ef1441e0eb7",
+   "query_str": "moving to sf in august, no car, i run a lot. inner sunset vs mission vs somewhere else? budget ~1800 for a room",
+   "answer": "For a runner without a car, the main trade-offs are **park access, fog/weather, and transit** [1][2]:\n\n**Inner Sunset**\n- Next to **Golden Gate Park** — miles of soft-surface and paved loops, easy long runs to Ocean Beach [1].\n- Foggier and cooler, especially in summer; quieter, more residential.\n- N-Judah light rail downtown; slower to the east side of the city.\n- Rooms at your budget are common in shared flats [2].\n\n**Mission**\n- Sunniest, warmest neighborhood; lots of food and nightlife.\n- **Dolores Park** is close but small; longer runs mean heading to the Embarcadero or up to Twin Peaks (hilly) [1].\n- Best transit hub: BART plus several Muni lines — good if you commute to SoMa or the East Bay.\n- Rooms around $1,600–2,000 are typical, often in older flats [2].\n\n**Also consider:** **Inner Richmond** (north side of GGP, similar to Inner Sunset, slightly cheaper), **Cole Valley/Haight** (between GGP and transit), and **Marina/Cow Hollow** (flat waterfront running to the Golden Gate Bridge, but pricier) [2][3].\n\nIf running is your top priority, Inner Sunset or Inner Richmond is the strongest pick.",
+   "sources": [
+    {
+     "name": "Running in San Francisco: best neighborhoods for runners",
+     "url": "https://www.sfrunningguide.com/neighborhoods",
+     "snippet": "Park access and terrain by neighborhood."
+    },
+    {
+     "name": "San Francisco room rental price survey",
+     "url": "https://www.bayarearentals.info/sf-room-prices",
+     "snippet": "Typical room prices by neighborhood."
+    },
+    {
+     "name": "SF microclimates explained",
+     "url": "https://www.sfweatherwise.com/microclimates",
+     "snippet": "Fog and temperature differences across the city."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-07-15T01:40:00Z",
+   "updated_at": "2026-07-15T01:40:14Z"
+  },
+  {
+   "uuid": "0bc3c277-da82-4a3f-8242-025865ee42e1",
+   "query_str": "im going to be in a house in soma-ish area actually (incubator) for the first months. where do people run from there",
+   "answer": "From SoMa the go-to options are [1][2]:\n- **Embarcadero waterfront** — flat, out-and-back north past the Ferry Building toward Fort Mason/Crissy Field; 10–20 km easily.\n- **Mission Creek / China Basin paths** — short loops near the ballpark.\n- **Crissy Field to the Golden Gate Bridge** — the classic long run; ~8 km each way from the Ferry Building.\n- Weekends: Muni to **Golden Gate Park** for soft surfaces.",
+   "sources": [
+    {
+     "name": "Running in San Francisco: best neighborhoods for runners",
+     "url": "https://www.sfrunningguide.com/neighborhoods",
+     "snippet": "Waterfront routes from downtown."
+    },
+    {
+     "name": "Classic SF running routes",
+     "url": "https://www.sfrunningguide.com/routes",
+     "snippet": "Embarcadero, Crissy Field and Golden Gate Bridge routes with distances."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-07-15T01:46:22Z",
+   "updated_at": "2026-07-15T01:46:36Z"
+  },
+  {
+   "uuid": "2371a8f8-5293-4725-9adf-b5baeff03e49",
+   "query_str": "how bad is the fog for running in august",
+   "answer": "August is peak fog season on the west side (Sunset, Richmond, Ocean Beach): mornings are often gray, windy and ~13–16 °C [1]. The east side (SoMa, Mission, Embarcadero) clears more often by late morning. For running it's actually pleasant — cool and humid — just bring a light layer and expect wind on the waterfront [1].",
+   "sources": [
+    {
+     "name": "SF microclimates explained",
+     "url": "https://www.sfweatherwise.com/microclimates",
+     "snippet": "Summer fog patterns by neighborhood."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-07-15T01:48:53Z",
+   "updated_at": "2026-07-15T01:49:10Z"
+  }
+ ]
+}

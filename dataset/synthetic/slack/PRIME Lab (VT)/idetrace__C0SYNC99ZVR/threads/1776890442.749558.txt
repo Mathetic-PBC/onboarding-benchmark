@@ -1,0 +1,19 @@
+=== THREAD PARENT MESSAGE ===
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-04-22 13:40:42 PDT
+Message TS: 1776890442.749558
+baselines plan: majority, logistic regression on hand features, GBDT (lightgbm), a small transformer over event sequences. macro-F1 over 5 states. splits 70/15/15, random by window for now
+
+=== THREAD REPLIES (2 total) ===
+
+--- Reply 1 of 2 ---
+From: Yue (U0SYNRUS5ER)
+Time: 2026-04-22 14:05:53 PDT
+Message TS: 1776891953.771195
+random by window? not by student?
+
+--- Reply 2 of 2 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-04-22 14:12:56 PDT
+Message TS: 1776892376.136724
+for now yes. the student ids are hashed differently in the fall and spring exports and joining them is a pain. let's revisit

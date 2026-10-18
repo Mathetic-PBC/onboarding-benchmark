@@ -1,0 +1,21 @@
+# PRIME Lab (VT) DM with Yue — synthetic
+@2026-03-27
+22:30 yue | for the video, do you want captions burned in or a separate .srt
+22:35 david | burned in, PCS strips sidecar files sometimes
+
+@2026-04-30
+22:50 yue | for the datasheet "deidentification" section: we remove names, emails and free-text comments, and hash ids. anything else?
+22:58 david | file paths in the IDE events, they sometimes contain usernames (`/Users/jsmith/...`). strip them to the basename
+23:00 yue | oh good one
+
+@2026-06-16
+10:15 yue | labeling the cs 1114 windows with minsun today. 300 windows, stratified by state using my single-rater labels. ok?
+10:20 david | perfect, stratified is right. thank you for doing this in rebuttal week
+
+@2026-07-25
+19:00 yue | updating the datasheet "splits" paragraph: "Splits are grouped by student; no student appears in more than one split. Version 1 splits (random by window) are deprecated because of leakage." ok?
+19:10 david | yes, and add the numbers: best baseline 0.81 → 0.74
+
+@2026-08-13
+21:40 yue | camera-ready: do we list my vt email or personal? acm wants one
+21:45 david | vt is fine

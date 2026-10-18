@@ -1,0 +1,7 @@
+beat ideas
+
+- dusk loop: Am9 -> Fmaj7 -> C -> G/B. 84 bpm. pad sidechained to kick, -6 dB duck, fast release
+- v2: swap the clap for a rim, add vinyl noise bus at -28
+- v3 (9/12): new kick (tape drums pack), cut 2nd drop, ends at 1:48. export stems + a quick wav bounce
+- "deadline" 140 bpm 808 thing from 4/1 — never finished, maybe never
+- try: resample the rhodes through the guitar amp sim

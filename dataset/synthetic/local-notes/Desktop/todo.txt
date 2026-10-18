@@ -1,0 +1,15 @@
+TODO  (updated 10/16)
+
+[ ] import v2: claude pagination past 1000 convos  <- blocks pilot 3
+[ ] dedupe by DOI, fallback title+author+year
+[ ] rename "Other" on connect screen -> "More tools"
+[ ] send Marcus pilot numbers by 10/24 (weekly actives, trails opened)
+[ ] reimburse: UIST receipts to Grace (hotel, per diem)  -- travel request went in 9/24
+[ ] Delaware PBC annual report: reminder set for 2027-03-01, nothing to do now
+[x] UIST talk 10/7
+[x] Priya onboarding 10/9
+[x] Daniel onboarding 10/13
+[x] half 10/15 (1:24:51!!)
+[ ] CA car registration (20 days after move?? already late, check)
+[ ] cancel news newsletter
+[ ] recovery week: no workouts till 10/22, easy 30-40 min only

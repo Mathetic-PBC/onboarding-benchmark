@@ -1,0 +1,44 @@
+{
+ "local-recordings/2025-11-19 16.00.04 CS 3604 Virtual Office Hours": {
+  "project_ids": [
+   "project_cs3604_gta"
+  ],
+  "notes": "Wednesday virtual office hours David hosted as CS 3604 GTA; P3 rubric questions, P4 page limit, late-day policy question that foreshadows the P4 regrade dispute."
+ },
+ "local-recordings/2026-03-03 18.30.12 ISE 6664 Guest Lecture": {
+  "project_ids": [
+   "project_ise6664_affective_computing"
+  ],
+  "notes": "Guest lecture in Dr. Alan Brooks's ISE 6664 on measuring frustration; David asks how to label frustration in AI-tutoring transcripts for the team project with Maya Torres and Jordan Lee."
+ },
+ "local-recordings/2026-06-07 13.00.20 Barron family call - Niamh wedding": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "HARD CASE: personal clutter — Sunday call with cousin Niamh in Dublin about wedding logistics (date, hotel block, flights, RSVP, meal choice); unrelated to any project."
+ },
+ "local-recordings/2026-07-14 12.00.31 Intro call - Kevin Liu": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "Unsolicited recruiter intro call (Kevin Liu, dev-tools startup Ferrous Labs); David declines because he is going on leave to co-found a company. Unrelated to any project."
+ },
+ "local-recordings/2026-07-28 10.00.08 IDETrace NeurIPS rebuttal sync": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "Lab Zoom the day before the IDETrace NeurIPS D&B rebuttal was posted (2026-07-29): leakage bug found 2026-07-24, grouped-by-student split, macro-F1 0.81 -> 0.74, who writes which response."
+ },
+ "local-recordings/2026-09-16 11.00.40 Berkeley research chat - Ben Adeyemi": {
+  "project_ids": [
+   "project_berkeley_research_chats"
+  ],
+  "notes": "Third Berkeley research chat (statistics postdoc Ben Adeyemi): how he keeps track of where ideas and modeling decisions come from (Quarto, git, Zotero, a running notes file, whiteboard photos)."
+ },
+ "local-recordings/2026-10-02 10.00.15 UIST 2026 AV check": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "AV and logistics check with session chair Tomás Reyes before the TutorTrace UIST talk (2026-10-07, session Learning & Tutoring, 15 min + 5 Q&A)."
+ }
+}

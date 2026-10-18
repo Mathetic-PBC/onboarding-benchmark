@@ -1,0 +1,38 @@
+{
+ "uuid": "11bd10ee-eec9-4359-a9b0-c061912afaf6",
+ "slug": "how-late-can-i-ship-usps-priority-mail-from-0WANx9SX1SzWp5iJBJTLtK",
+ "title": "Priority Mail cutoff before Christmas",
+ "thread_url": "https://www.perplexity.ai/search/how-late-can-i-ship-usps-priority-mail-from-0WANx9SX1SzWp5iJBJTLtK",
+ "created_at": "2025-12-17T03:10:00Z",
+ "updated_at": "2025-12-17T03:10:37Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "9f130749-32b8-4a17-bc30-f7fe873696c9",
+   "query_str": "how late can i ship usps priority mail from virginia to dublin ireland and still have it arrive before christmas",
+   "answer": "For international Priority Mail to Ireland, USPS usually recommends shipping by **about December 9–10** to have a reasonable chance of arrival before December 25 [1]. Priority Mail International is quoted at 6–10 business days, but December customs backlogs in Ireland often add a few days [2].\n\nIf you're shipping now (Dec 16), your realistic options are:\n- **Priority Mail Express International**: 3–5 business days quoted; the recommended holiday cutoff is typically around Dec 16–17, so today is borderline [1].\n- **A private carrier (DHL/FedEx/UPS) express service**: more expensive, but 2–3 business days door to door is common [3].\n\nAlso note that gifts to Ireland over €45 in value can be charged VAT and handling on arrival, which the recipient pays [2].",
+   "sources": [
+    {
+     "name": "USPS holiday shipping deadlines",
+     "url": "https://www.usps.com/holiday/shipping-deadlines.htm",
+     "snippet": "Recommended mail-by dates for international Priority Mail and Priority Mail Express International during the holiday season."
+    },
+    {
+     "name": "An Post — customs charges on parcels from outside the EU",
+     "url": "https://www.anpost.com/Help/Customs",
+     "snippet": "Parcels from non-EU countries may be subject to VAT and a handling fee before delivery."
+    },
+    {
+     "name": "Holiday shipping guide 2025: carriers compared",
+     "url": "https://www.shippingschool.net/holiday-shipping-2025",
+     "snippet": "Comparison of express international options and typical December transit times by carrier."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2025-12-17T03:10:00Z",
+   "updated_at": "2025-12-17T03:10:17Z"
+  }
+ ]
+}

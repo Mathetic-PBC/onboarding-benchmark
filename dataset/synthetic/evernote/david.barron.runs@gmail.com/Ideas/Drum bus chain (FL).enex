@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20260629T024000Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Drum bus chain (FL)</title>
+    <created>20260629T021000Z</created>
+    <updated>20260629T024000Z</updated>
+    <tag>mixing</tag>
+    <tag>fl-studio</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>Finally writing down the chain so I stop rebuilding it.</div><div><br/></div><div>Drum bus (mixer track 10, kick/snare/hats/perc routed in)</div><ol><li>Fruity parametric EQ 2: HP at 30 Hz, small cut at 300 Hz (-2 dB, Q 1.2)</li><li>Compressor: ratio 4:1, attack 10 ms, release 80 ms, ~3 dB GR on the snare hits</li><li>Soft clipper: threshold -3 dB, post gain 0</li><li>Parallel send to track 11 (smash bus): ratio 10:1, attack 1 ms, blend at 20%</li><li>Fruity Limiter only on master, ceiling -1 dB</li></ol><div><br/></div><div>808 separate (track 12): sidechain from kick, Fruity Limiter in comp mode 3:1, saturation.</div><div><br/></div><div>Template saved as "drum-bus-2026.fst".</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

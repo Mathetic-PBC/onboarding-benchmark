@@ -1,0 +1,436 @@
+{
+ "title": "CA registration question",
+ "create_time": 1788406208.12,
+ "update_time": 1788406482.6421094,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "fc5ed347-5a39-4f62-9cfc-6443b41b316c"
+   ]
+  },
+  "fc5ed347-5a39-4f62-9cfc-6443b41b316c": {
+   "id": "fc5ed347-5a39-4f62-9cfc-6443b41b316c",
+   "message": {
+    "id": "fc5ed347-5a39-4f62-9cfc-6443b41b316c",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1788406208.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "moved to SF last month, sold my car before leaving virginia. do i still need a CA drivers license if i dont have a car? i have a valid VA one"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_bc4dc206b5fec46a4f2477d27b",
+     "message_source": null,
+     "turn_exchange_id": "7c278263-ecd7-4a8d-94b7-ae3b08b7f220",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "d87b8339-33e0-49aa-88d1-f91fce07ac19"
+   ]
+  },
+  "d87b8339-33e0-49aa-88d1-f91fce07ac19": {
+   "id": "d87b8339-33e0-49aa-88d1-f91fce07ac19",
+   "message": {
+    "id": "d87b8339-33e0-49aa-88d1-f91fce07ac19",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1788406216.3,
+    "update_time": null,
+    "content": {
+     "content_type": "reasoning_recap",
+     "content": "Thought for 8s"
+    },
+    "status": "finished_successfully",
+    "end_turn": false,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_bc4dc206b5fec46a4f2477d27b",
+     "message_type": "next",
+     "turn_exchange_id": "7c278263-ecd7-4a8d-94b7-ae3b08b7f220",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "reasoning_status": "reasoning_ended",
+     "finished_duration_sec": 8,
+     "reasoning_start_time": 1788406208.4,
+     "reasoning_end_time": 1788406216.2,
+     "cot_version": "v5",
+     "thinking_effort": "standard",
+     "can_save": false,
+     "parent_id": "fc5ed347-5a39-4f62-9cfc-6443b41b316c"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "fc5ed347-5a39-4f62-9cfc-6443b41b316c",
+   "children": [
+    "b9fd0229-d49c-4b68-8f20-8147acbb98a4"
+   ]
+  },
+  "b9fd0229-d49c-4b68-8f20-8147acbb98a4": {
+   "id": "b9fd0229-d49c-4b68-8f20-8147acbb98a4",
+   "message": {
+    "id": "b9fd0229-d49c-4b68-8f20-8147acbb98a4",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1788406222.051,
+    "update_time": 1788406223.7225933,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "If you've become a California resident, CA law expects you to get a California driver's license within **10 days** of establishing residency *if you drive*. Owning a car doesn't matter. If you don't drive at all, you're not required to convert it, but your VA license will eventually expire and you can't renew it with a CA address.\n\nPractical reasons to switch anyway: a CA license or ID is handy as local proof of address, and REAL ID for flights. Make a DMV appointment online. For a valid out-of-state license you'll usually do a vision test and a written knowledge test, but no drive test.\n\nRules can change, so check dmv.ca.gov for the current requirements."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_bc4dc206b5fec46a4f2477d27b",
+     "message_type": "next",
+     "turn_exchange_id": "7c278263-ecd7-4a8d-94b7-ae3b08b7f220",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "d87b8339-33e0-49aa-88d1-f91fce07ac19"
+    },
+    "recipient": "all",
+    "channel": "final"
+   },
+   "parent": "d87b8339-33e0-49aa-88d1-f91fce07ac19",
+   "children": [
+    "8b5adbd4-4f36-4154-8836-c0d3f3b79dd2"
+   ]
+  },
+  "8b5adbd4-4f36-4154-8836-c0d3f3b79dd2": {
+   "id": "8b5adbd4-4f36-4154-8836-c0d3f3b79dd2",
+   "message": {
+    "id": "8b5adbd4-4f36-4154-8836-c0d3f3b79dd2",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1788406353.051,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "i do rent zipcars sometimes. does that count as driving lol"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_3be670d28c66fcbd060342222b",
+     "message_source": null,
+     "turn_exchange_id": "0cfbb959-294d-4d98-bb5d-680045e92798",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "b9fd0229-d49c-4b68-8f20-8147acbb98a4",
+   "children": [
+    "bcf33692-2dc0-4c6c-905f-4a33e570a034"
+   ]
+  },
+  "bcf33692-2dc0-4c6c-905f-4a33e570a034": {
+   "id": "bcf33692-2dc0-4c6c-905f-4a33e570a034",
+   "message": {
+    "id": "bcf33692-2dc0-4c6c-905f-4a33e570a034",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1788406360.351,
+    "update_time": null,
+    "content": {
+     "content_type": "reasoning_recap",
+     "content": "Thought for 7s"
+    },
+    "status": "finished_successfully",
+    "end_turn": false,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_3be670d28c66fcbd060342222b",
+     "message_type": "next",
+     "turn_exchange_id": "0cfbb959-294d-4d98-bb5d-680045e92798",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "reasoning_status": "reasoning_ended",
+     "finished_duration_sec": 7,
+     "reasoning_start_time": 1788406353.4510002,
+     "reasoning_end_time": 1788406360.2510002,
+     "cot_version": "v5",
+     "thinking_effort": "standard",
+     "can_save": false,
+     "parent_id": "8b5adbd4-4f36-4154-8836-c0d3f3b79dd2"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "8b5adbd4-4f36-4154-8836-c0d3f3b79dd2",
+   "children": [
+    "fbc7aebc-b1cd-4c23-81ef-85d0ee663a53"
+   ]
+  },
+  "fbc7aebc-b1cd-4c23-81ef-85d0ee663a53": {
+   "id": "fbc7aebc-b1cd-4c23-81ef-85d0ee663a53",
+   "message": {
+    "id": "fbc7aebc-b1cd-4c23-81ef-85d0ee663a53",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1788406365.288,
+    "update_time": 1788406369.7564359,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Yes, driving is driving, whether or not you own the car. If you're a CA resident and you drive (including car-share or rentals), you're expected to hold a California license after the 10-day window. Zipcar's own eligibility checks may also start asking for a license matching your address when you update your profile. Book the DMV appointment. Wait times in SF can be a few weeks out."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_3be670d28c66fcbd060342222b",
+     "message_type": "next",
+     "turn_exchange_id": "0cfbb959-294d-4d98-bb5d-680045e92798",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "bcf33692-2dc0-4c6c-905f-4a33e570a034"
+    },
+    "recipient": "all",
+    "channel": "final"
+   },
+   "parent": "bcf33692-2dc0-4c6c-905f-4a33e570a034",
+   "children": [
+    "8583fc0e-1d3a-4679-b626-cc30521b8464"
+   ]
+  },
+  "8583fc0e-1d3a-4679-b626-cc30521b8464": {
+   "id": "8583fc0e-1d3a-4679-b626-cc30521b8464",
+   "message": {
+    "id": "8583fc0e-1d3a-4679-b626-cc30521b8464",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1788406472.288,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "ok booking"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_c88ab51890ff0d30e740197f16",
+     "message_source": null,
+     "turn_exchange_id": "5a73dd30-3dfd-4ca2-adc8-8cde85501158",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "fbc7aebc-b1cd-4c23-81ef-85d0ee663a53",
+   "children": [
+    "f2e8beed-e64e-47ac-810f-ba5664780659"
+   ]
+  },
+  "f2e8beed-e64e-47ac-810f-ba5664780659": {
+   "id": "f2e8beed-e64e-47ac-810f-ba5664780659",
+   "message": {
+    "id": "f2e8beed-e64e-47ac-810f-ba5664780659",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1788406476.588,
+    "update_time": null,
+    "content": {
+     "content_type": "reasoning_recap",
+     "content": "Thought for 4s"
+    },
+    "status": "finished_successfully",
+    "end_turn": false,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_c88ab51890ff0d30e740197f16",
+     "message_type": "next",
+     "turn_exchange_id": "5a73dd30-3dfd-4ca2-adc8-8cde85501158",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "reasoning_status": "reasoning_ended",
+     "finished_duration_sec": 4,
+     "reasoning_start_time": 1788406472.6880002,
+     "reasoning_end_time": 1788406476.4880002,
+     "cot_version": "v5",
+     "thinking_effort": "standard",
+     "can_save": false,
+     "parent_id": "8583fc0e-1d3a-4679-b626-cc30521b8464"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "8583fc0e-1d3a-4679-b626-cc30521b8464",
+   "children": [
+    "c57127c9-e697-4885-a3a6-e7a28b3d283c"
+   ]
+  },
+  "c57127c9-e697-4885-a3a6-e7a28b3d283c": {
+   "id": "c57127c9-e697-4885-a3a6-e7a28b3d283c",
+   "message": {
+    "id": "c57127c9-e697-4885-a3a6-e7a28b3d283c",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1788406480.172,
+    "update_time": 1788406482.493521,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Good call. Bring your VA license, your SSN, and proof of your SF address (lease, incubator-house agreement, or a bank statement mailed there). For a REAL ID you'll need two address documents, so bring both if you have them."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_c88ab51890ff0d30e740197f16",
+     "message_type": "next",
+     "turn_exchange_id": "5a73dd30-3dfd-4ca2-adc8-8cde85501158",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "f2e8beed-e64e-47ac-810f-ba5664780659"
+    },
+    "recipient": "all",
+    "channel": "final"
+   },
+   "parent": "f2e8beed-e64e-47ac-810f-ba5664780659",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "c57127c9-e697-4885-a3a6-e7a28b3d283c",
+ "plugin_ids": null,
+ "conversation_id": "6a98e9c0-37e8-83f3-1e81-0d018966cb6b",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-6-thinking",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "6a98e9c0-37e8-83f3-1e81-0d018966cb6b"
+}

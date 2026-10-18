@@ -1,0 +1,68 @@
+topic: UIST 2026 AV check
+start: 2026-10-02 10:00:15
+host: no
+projects: project_tutortrace
+notes: AV and logistics check with session chair Tomás Reyes before the TutorTrace UIST talk (2026-10-07, session Learning & Tutoring, 15 min + 5 Q&A).
+speakers: T=Tomás Reyes; D=David Barron; K=Kai (UIST AV)
+rate: 2.8
+=== cues
+T: Hi David, good morning. Can you hear me?
+D: Hi Tomás, yes, I can hear you. Good morning. Is it okay if I record this? I'm terrible at remembering logistics.
+T: Of course. I'll give you permission. Kai from the AV team is here too, he'll handle the technical part.
+K: Hi David.
+D: Hi Kai. Okay, recording.
+T: Great. So, this is the AV check for the Learning and Tutoring session, Wednesday the seventh. You're the second talk of four. Fifteen minutes for the talk, five for questions, and we're strict, because the session is only eighty minutes.
+D: Okay. Second of four. So I'd start about twenty minutes in?
+T: The session starts at ten-thirty local. If the first talk runs on time, your slot is ten-fifty to eleven-ten. I'll introduce you, so please send me one sentence of bio and the right pronunciation of your name.
+D: It's "Barron" like the baron, nothing fancy. I'll send a sentence today.
+T: Perfect. Timing cards: I'll hold up five minutes, two minutes, and then stop. At stop I'll let you finish your sentence, not your section.
+D: Ha, okay, fair. Finish the sentence.
+T: Kai, do you want to do the technical part?
+K: Sure. So, David, you can present from the room laptop or plug in your own. Room laptop is Windows with PowerPoint and a PDF viewer. If you use your own, we have HDMI and USB-C at the lectern. Can I ask what you're presenting from?
+D: Keynote on a Mac, but I can export to PowerPoint or PDF. I'd rather use my own laptop because there's a short video in the talk.
+K: That's fine. Own laptop is okay. Can you share your screen now so I can check the aspect ratio and the video?
+D: Yeah, one second. Sharing. Can you see it?
+K: Yep, I see the title slide. Sixteen by nine, good. Can you jump to the video?
+D: Okay, it's slide six. It's a forty-second clip of the replay timeline. Playing it now.
+K: I can see it but I'm not hearing audio. Did you check "share sound"?
+D: Oh, no. Sorry. Let me stop and reshare. Okay, now with sound.
+K: Yes, now I hear it. In the room, audio from your laptop goes through the house system if you're on HDMI. With USB-C it should too, but bring the HDMI adapter just in case.
+D: Okay, I'll bring my USB-C to HDMI dongle.
+K: Good. Do you use presenter view?
+D: Yeah, I have speaker notes.
+K: Then please make sure your display is set to extended, not mirrored, when you plug in. We'll have two minutes at the break before the session to test it.
+D: Okay, extended. And a clicker?
+K: There's a clicker at the lectern, it works with any laptop, it's just a USB receiver. Or bring yours.
+D: I'll use yours. One less thing.
+K: Mic: you'll have a lavalier. Please clip it on the jacket or collar, not near the laptop fan. And if you walk away from the lectern, the lav still works, but stay in the lit area for the stream.
+D: Wait, it's streamed?
+T: Yes, the sessions are streamed for remote registrants and recorded. That's the other thing I wanted to mention. Please upload your pre-recorded backup video to the conference portal by Monday the fifth. If anything goes wrong in the room, we play the backup.
+D: Okay. Backup video by the fifth. Same fifteen minutes?
+T: Same length, at most fifteen. It doesn't have to be fancy, a screen recording with your voice is fine.
+D: Okay, I recorded one last week, I just need to trim it. It's about sixteen minutes right now.
+T: Please trim it. We cut at fifteen.
+D: Ha, got it.
+T: Questions. We'll have a mic runner in the room, and I'll read one or two remote questions from the Q&A channel if there's time. If nobody asks anything, I usually have a question ready, so don't worry.
+D: That's kind of you. Do you have a sense of what people ask in this session?
+T: In Learning and Tutoring, usually two kinds of questions. Generalization: does this work beyond your course. And privacy: what do students know about being logged. I saw your paper, so I'd expect both.
+D: Yeah, that's, um, those were the two big things in the reviews too. We added a limitations section and a cross-course analysis for the camera-ready, so I have a backup slide for each.
+T: Good, backup slides are smart. Put them after your closing slide so you can jump to them.
+D: Will do.
+T: Anything else from your side?
+D: Just, when should I be in the room?
+T: Fifteen minutes before the session starts, so ten-fifteen. There's a speaker-ready table next to the lectern. Kai or someone from his team will be there.
+K: And if you want, you can come to the room during the coffee break on Tuesday and test your laptop on the real projector.
+D: Oh, I'll do that, that's great.
+T: Okay. I think we're done. Send me the bio, upload the backup by Monday, and see you Wednesday.
+D: Thank you both. Bio today, backup by Monday, laptop test Tuesday at the break.
+K: See you there.
+T: See you, David.
+D: Okay, stopping the recording.
+=== chat
+@7+5 T>Everyone: Session: Learning & Tutoring, Wed Oct 7. Your slot 10:50-11:10 (15 min talk + 5 min Q&A)
+@8+6 T>Everyone: Please email me a 1-sentence bio + name pronunciation
+@12+15 K>Everyone: Lectern: HDMI + USB-C, wireless clicker (USB receiver), lavalier mic
+@18+8 K>Everyone: Zoom: Share > check "Share sound" for the video
+@30+20 T>Everyone: Backup video (max 15:00, MP4) to the conference portal by Mon Oct 5
+@45+5 K>Everyone: Projector test: Tue Oct 6 coffee break, same room
+@50+2 D>Everyone: thank you both!

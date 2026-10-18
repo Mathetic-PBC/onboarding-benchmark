@@ -1,0 +1,57 @@
+{
+ "conversation": {
+  "conversationId": "9ab0c5ef-aee3-409c-bb9a-c55ab1ef8679",
+  "title": "Grand Strategy Reading List",
+  "createTime": "2026-03-02T02:15:00.000Z",
+  "modifyTime": "2026-03-02T02:20:35.323Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "d30cb771-f577-4ce3-bc89-723354420a89",
+   "message": "give me a grand strategy reading list. ive read the classics (thucydides, sun tzu, clausewitz partially). want stuff that's actually useful for thinking about us-china, not airport books",
+   "sender": "human",
+   "createTime": "2026-03-02T02:15:00.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "b527adda-2f2b-4687-a3d9-f1240eb505aa",
+   "message": "Good — skipping the obvious. Ordered roughly from foundational to current:\n\n1. **Paul Kennedy, *The Rise and Fall of the Great Powers*** — the economic-base-vs-military-overreach argument everyone either uses or argues against.\n2. **John Lewis Gaddis, *On Grand Strategy*** — short, opinionated, good on aligning ends and means. Pairs well with his Cold War histories.\n3. **Halford Mackinder, \"The Geographical Pivot of History\" (1904)** — 25 pages. Read it in the original; most summaries flatten it.\n4. **Nicholas Spykman, *America's Strategy in World Politics*** — the rimland reply to Mackinder, and frankly closer to how US planners have actually behaved.\n5. **Hal Brands & Michael Beckley, *Danger Zone*** — the \"peaking power\" thesis on China. Controversial; read it to argue with it.\n6. **Rush Doshi, *The Long Game*** — reconstructs Chinese grand strategy from party documents. The most \"primary-source\" of the bunch.\n7. **Elbridge Colby, *The Strategy of Denial*** — the denial-defense case for prioritizing Asia. Whatever you think of it, it's shaped the debate.\n8. **Andrew Krepinevich / Net Assessment essays** — for the method of comparing systems rather than counting ships.\n\nIf you only read three: Mackinder's essay, Doshi, Colby. They argue with each other nicely.",
+   "sender": "assistant",
+   "createTime": "2026-03-02T02:15:18.574Z",
+   "parentResponseId": "d30cb771-f577-4ce3-bc89-723354420a89",
+   "model": "grok-3"
+  },
+  {
+   "responseId": "c7b2cf72-01c1-4b98-ad73-d08c12dcc692",
+   "message": "which of these disagree the most with each other",
+   "sender": "human",
+   "createTime": "2026-03-02T02:18:27.574Z",
+   "parentResponseId": "b527adda-2f2b-4687-a3d9-f1240eb505aa"
+  },
+  {
+   "responseId": "ca6aca0e-fb3f-4354-9614-f215926fe0d8",
+   "message": "Clean pairs that collide:\n\n- **Brands & Beckley vs. Doshi.** Brands/Beckley say China is peaking and therefore dangerous *soon*. Doshi reads a patient, decades-long displacement strategy. One implies a short sprint, the other a marathon.\n- **Mackinder vs. Spykman.** Heartland (whoever controls the Eurasian interior) vs. rimland (whoever controls the coastal belt). For US–China that's land corridors and Belt and Road vs. the first island chain.\n- **Colby vs. Kennedy (implicitly).** Colby wants hard prioritization of one theater; Kennedy's whole book is a warning about powers that can't match commitments to their economic base. They agree on the problem and differ on how much a superpower can still afford.\n\nRead Doshi then Brands/Beckley back to back — you'll feel the tension immediately.",
+   "sender": "assistant",
+   "createTime": "2026-03-02T02:18:43.033Z",
+   "parentResponseId": "c7b2cf72-01c1-4b98-ad73-d08c12dcc692",
+   "model": "grok-3"
+  },
+  {
+   "responseId": "64062912-0139-422a-9e4a-47c9ad1ac5d7",
+   "message": "ok ordering doshi. is there an audiobook",
+   "sender": "human",
+   "createTime": "2026-03-02T02:20:25.033Z",
+   "parentResponseId": "ca6aca0e-fb3f-4354-9614-f215926fe0d8"
+  },
+  {
+   "responseId": "3296e14e-dc6c-43e6-a4c2-0b612ee0a66b",
+   "message": "Yes, there's an unabridged audiobook. Fair warning: it's dense with document names and dates, so it's a better print read if you want to track the argument. Audio works fine for a first pass.",
+   "sender": "assistant",
+   "createTime": "2026-03-02T02:20:35.323Z",
+   "parentResponseId": "64062912-0139-422a-9e4a-47c9ad1ac5d7",
+   "model": "grok-3"
+  }
+ ]
+}

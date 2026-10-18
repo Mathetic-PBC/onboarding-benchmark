@@ -1,1 +1,195 @@
-[]
+[
+ {
+  "id": "item_035248",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "overleaf",
+  "source_id": "https://www.overleaf.com/project/5b5ee7087e7c7de7f3e00c59",
+  "title": "Copy of TutorTrace UIST26 rebuttal.zip",
+  "content_type": "archive",
+  "created_at": "2026-06-20T15:05:00Z",
+  "modified_at": "2026-06-20T20:09:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/overleaf/dbarron410@vt.edu/Copy of TutorTrace UIST26 rebuttal.zip",
+  "source_url": "https://www.overleaf.com/project/5b5ee7087e7c7de7f3e00c59",
+  "content_hash": "sha256:534615f2af23aec2dca1b7afcf1d82e4a2d9e36621fbba083dcf465224ce355d",
+  "library_item_id": null,
+  "modeled_on": "authentic/overleaf/dbarron410@vt.edu/<Project name>.zip (Overleaf \"Download Source\" zip)",
+  "metadata": {
+   "format": "zip",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "original_path": "https://www.overleaf.com/project/5b5ee7087e7c7de7f3e00c59"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: near-duplicate — Overleaf \"Copy of\" the rebuttal project made two days after submission; same three files, a few edits (camera-ready TODO block, one reworded sentence, status column updated); refs.bib identical incl. ostrowski2025productive; project id 5b5ee7087e7c7de7f3e00c59; owner dbarron410@vt.edu; access owner (owner); 3 files; main .tex: ['response_matrix.tex']; last updated by dbarron410@vt.edu"
+  }
+ },
+ {
+  "id": "item_035249",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "overleaf",
+  "source_id": "https://www.overleaf.com/project/5686e1f714b974663c711622",
+  "title": "IDETrace NeurIPS rebuttal.zip",
+  "content_type": "archive",
+  "created_at": "2026-07-25T05:31:00Z",
+  "modified_at": "2026-07-29T22:26:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/overleaf/dbarron410@vt.edu/IDETrace NeurIPS rebuttal.zip",
+  "source_url": "https://www.overleaf.com/project/5686e1f714b974663c711622",
+  "content_hash": "sha256:a7090b75857b34840ac94c542374541238aeaab9d36535565cfa01d7876b7b32",
+  "library_item_id": null,
+  "modeled_on": "authentic/overleaf/dbarron410@vt.edu/<Project name>.zip (Overleaf \"Download Source\" zip)",
+  "metadata": {
+   "format": "zip",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "original_path": "https://www.overleaf.com/project/5686e1f714b974663c711622"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "author response reporting the leakage fix (macro-F1 0.81 -> 0.74, grouped by student id); project id 5686e1f714b974663c711622; owner dbarron410@vt.edu; access owner (owner); 3 files; main .tex: ['split_numbers.tex']; last updated by dbarron410@vt.edu"
+  }
+ },
+ {
+  "id": "item_035250",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "overleaf",
+  "source_id": "https://www.overleaf.com/project/5bceab8e1d36a071060b995f",
+  "title": "ISE 6664 Final Report.zip",
+  "content_type": "archive",
+  "created_at": "2026-04-22T01:12:00Z",
+  "modified_at": "2026-05-02T05:14:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/overleaf/dbarron410@vt.edu/ISE 6664 Final Report.zip",
+  "source_url": "https://www.overleaf.com/project/5bceab8e1d36a071060b995f",
+  "content_hash": "sha256:9e997e9c923111d4600834fc4ab8e9cfbcbe32827030b3e1966b483bd3ebe8f3",
+  "library_item_id": null,
+  "modeled_on": "authentic/overleaf/dbarron410@vt.edu/<Project name>.zip (Overleaf \"Download Source\" zip)",
+  "metadata": {
+   "format": "zip",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "original_path": "https://www.overleaf.com/project/5bceab8e1d36a071060b995f"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "team report with Maya Torres and Jordan Lee (Dr. Alan Brooks); ~14 pages double-spaced; project id 5bceab8e1d36a071060b995f; owner dbarron410@vt.edu; access owner (owner); 12 files; main .tex: ['main.tex']; last updated by dbarron410@vt.edu"
+  }
+ },
+ {
+  "id": "item_035251",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "overleaf",
+  "source_id": "https://www.overleaf.com/project/12c6261e48fe43009ec8c1c9",
+  "title": "Mathetic one-pager.zip",
+  "content_type": "archive",
+  "created_at": "2026-08-14T04:50:00Z",
+  "modified_at": "2026-08-19T05:41:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/overleaf/dbarron410@vt.edu/Mathetic one-pager.zip",
+  "source_url": "https://www.overleaf.com/project/12c6261e48fe43009ec8c1c9",
+  "content_hash": "sha256:68488043e3db5be6d9461eb70aecc0c605287a497767796f93a82d16941b1b8c",
+  "library_item_id": null,
+  "modeled_on": "authentic/overleaf/dbarron410@vt.edu/<Project name>.zip (Overleaf \"Download Source\" zip)",
+  "metadata": {
+   "format": "zip",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "original_path": "https://www.overleaf.com/project/12c6261e48fe43009ec8c1c9"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "one-page company/product summary for the Surplus program and the first Marcus Oyelaran call (2026-08-20); project id 12c6261e48fe43009ec8c1c9; owner dbarron410@vt.edu; access owner (owner); 2 files; main .tex: ['onepager.tex']; last updated by dbarron410@vt.edu"
+  }
+ },
+ {
+  "id": "item_035252",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "overleaf",
+  "source_id": "https://www.overleaf.com/project/2148729fc39271632d909176",
+  "title": "TutorTrace UIST26 rebuttal.zip",
+  "content_type": "archive",
+  "created_at": "2026-06-12T04:34:00Z",
+  "modified_at": "2026-06-19T01:52:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/overleaf/dbarron410@vt.edu/TutorTrace UIST26 rebuttal.zip",
+  "source_url": "https://www.overleaf.com/project/2148729fc39271632d909176",
+  "content_hash": "sha256:7931af9464c343a105d83e28268f8060f354b3ab7d54a396dadfb69379cc58de",
+  "library_item_id": null,
+  "modeled_on": "authentic/overleaf/dbarron410@vt.edu/<Project name>.zip (Overleaf \"Download Source\" zip)",
+  "metadata": {
+   "format": "zip",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "original_path": "https://www.overleaf.com/project/2148729fc39271632d909176"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: same paper in several places — refs.bib carries the ostrowski2025productive entry (also in zotero, pdfs, gmail, google-docs, slack); rebuttal submitted 2026-06-18; project id 2148729fc39271632d909176; owner dbarron410@vt.edu; access owner (owner); 3 files; main .tex: ['response_matrix.tex']; last updated by dbarron410@vt.edu"
+  }
+ },
+ {
+  "id": "item_035253",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "overleaf",
+  "source_id": "https://www.overleaf.com/project/179f1a8ff837d369da10948c",
+  "title": "UIST26 talk script (beamer).zip",
+  "content_type": "archive",
+  "created_at": "2026-09-23T05:05:00Z",
+  "modified_at": "2026-10-07T06:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/overleaf/dbarron410@vt.edu/UIST26 talk script (beamer).zip",
+  "source_url": "https://www.overleaf.com/project/179f1a8ff837d369da10948c",
+  "content_hash": "sha256:07e14c24b0ba852282edc7f24c3380489c70ec654b5985f12d420adc47e291d9",
+  "library_item_id": null,
+  "modeled_on": "authentic/overleaf/dbarron410@vt.edu/<Project name>.zip (Overleaf \"Download Source\" zip)",
+  "metadata": {
+   "format": "zip",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "original_path": "https://www.overleaf.com/project/179f1a8ff837d369da10948c"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "beamer slides with \\note{} speaker script for the 2026-10-07 UIST talk (session \"Learning & Tutoring\", chair Tomás Reyes); project id 179f1a8ff837d369da10948c; owner dbarron410@vt.edu; access owner (owner); 2 files; main .tex: ['talk.tex']; last updated by dbarron410@vt.edu"
+  }
+ }
+]

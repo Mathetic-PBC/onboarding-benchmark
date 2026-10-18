@@ -1,0 +1,24 @@
+From: David Barron <davidbarron410@gmail.com>
+To: Hudson Mitchell-Pullman <hudson@mathetic-pbc.com>
+Subject: Re: connect screen: "add another account" sketch
+Date: Fri, 16 Oct 2026 18:02:00 -0700
+Message-ID:
+ <CASZ0214JlLjbO_AiibfpBirrzqHT9AKZRBlN8VXDlGSCpx+GikH3J@mail.gmail.com>
+In-Reply-To: <5d69c2c9c7710bc95f2bb76f.1fed0252@mathetic-pbc.com>
+References: <5d69c2c9c7710bc95f2bb76f.1fed0252@mathetic-pbc.com>
+MIME-Version: 1.0
+X-GM-THRID: 1879243436851654744
+X-Gmail-Labels: Sent
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+yes. the per-source count is the most important thing on this screen, it's ho=
+w priya would have caught the missing chats herself. one change: show "0" sou=
+rces in grey with "not connected" instead of hiding them
+
+On Fri, Oct 16, 2026 at 2:30 PM Hudson Mitchell-Pullman <hudson@mathetic-pbc.=
+com> wrote:
+> Sketch attached: each source gets its own row, with accounts listed under i=
+t and an "add another account" link. "Other" is gone; Overleaf, local folders=
+ and Slack each get a row. I also added a count per source after import so pe=
+ople notice when something is missing (the 140-chats problem).

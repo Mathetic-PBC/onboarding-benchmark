@@ -1,0 +1,164 @@
+{
+ "uuid": "8e7e3732-ff7a-4084-b217-112633224c73",
+ "name": "Report outline (14 pages)",
+ "summary": "",
+ "model": "claude-opus-4-6",
+ "created_at": "2026-04-27T00:04:58.981996Z",
+ "updated_at": "2026-04-27T00:09:44.841237Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "off",
+ "chat_messages": [
+  {
+   "uuid": "1f4bd155-b87d-4cad-982f-9562cf3374f0",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-04-27T00:05:00.000000Z",
+     "stop_timestamp": "2026-04-27T00:05:00.000000Z",
+     "type": "text",
+     "text": "report due friday after the presentation. brooks wants ACM format, max 14 pages incl refs. we have: codebook v2, kappa 0.62 (D-M), fleiss 0.58 on 30, coded all 412, 97 frustrated by our rule, 61 blocked-goal only, 23 valence only. maya did a logistic regression of frustration on tutor response features (length, code included, asks question back). give me a section outline with page budget",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-04-27T00:05:00.000000Z",
+   "updated_at": "2026-04-27T00:05:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "005a9941-91d9-4bae-a065-298c1a2ac5f5",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-04-27T00:05:02.000000Z",
+     "stop_timestamp": "2026-04-27T00:05:14.191000Z",
+     "type": "text",
+     "text": "**Page budget (14 incl. references)**\n\n1. **Introduction** (1.25 pp) — LLM tutors in CS1; frustration as blocked goal + negative valence; RQs:\n   - RQ1: How often do students show frustration in text-only tutoring sessions?\n   - RQ2: How often do blocked goals appear *without* expressed negative affect?\n   - RQ3: Which tutor response features are associated with frustration?\n2. **Related work** (1.5 pp) — affect detection in tutoring systems; frustration models (appraisal); help-seeking with LLM assistants.\n3. **Data** (1 pp) — 412 consented transcripts, source, consent, de-identification, descriptive stats (turns per session, length).\n4. **Codebook and coding** (2 pp) — the 7 codes, session rule, pilot, v1 → v2 change (REPEAT rule), agreement: κ = 0.62 (D–M, n = 60), Fleiss κ = 0.58 (3 raters, n = 30).\n5. **Results** (3 pp)\n   - 5.1 Prevalence: 97/412 frustrated (23.5%); 61 blocked-goal only (14.8%); 23 valence only (5.6%).\n   - 5.2 Code frequencies and co-occurrence (one table, one heatmap).\n   - 5.3 Maya's regression: tutor features vs. frustration (table with odds ratios + CIs).\n6. **Design implications** (1.5 pp) — what a tutor could do when it detects REPEAT, when to hand off to a human, the \"silent struggle\" group.\n7. **Limitations** (0.75 pp) — one course, text only, coder overlap small, correlational regression.\n8. **Conclusion** (0.5 pp)\n9. **References** (1.5 pp)\n\nThat's 13 pp, leaving ~1 page of slack for figures that spill.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-04-27T00:05:14.191000Z",
+   "updated_at": "2026-04-27T00:05:14.191000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "1f4bd155-b87d-4cad-982f-9562cf3374f0"
+  },
+  {
+   "uuid": "1dc6261d-12df-45d9-9dc6-9c3bdcf0a435",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-04-27T00:07:23.191000Z",
+     "stop_timestamp": "2026-04-27T00:07:23.191000Z",
+     "type": "text",
+     "text": "the 61 blocked goal only thing is our most interesting result imo, should it be its own section",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-04-27T00:07:23.191000Z",
+   "updated_at": "2026-04-27T00:07:23.191000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "005a9941-91d9-4bae-a065-298c1a2ac5f5"
+  },
+  {
+   "uuid": "13a1477f-4bf4-49fb-8580-dd2e0b401a94",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-04-27T00:07:25.191000Z",
+     "stop_timestamp": "2026-04-27T00:07:39.294000Z",
+     "type": "text",
+     "text": "Make it its own results subsection (5.2 \"Struggle without expressed frustration\") and move code frequencies to 5.3. Also reference it in the intro as the headline finding, and give it one paragraph in design implications: these are the students a sentiment-based detector would never flag. That framing is likely what Dr. Brooks will remember.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-04-27T00:07:39.294000Z",
+   "updated_at": "2026-04-27T00:07:39.294000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "1dc6261d-12df-45d9-9dc6-9c3bdcf0a435"
+  },
+  {
+   "uuid": "7bee71d6-ab9a-4496-9494-ba56af4a2716",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-04-27T00:09:31.294000Z",
+     "stop_timestamp": "2026-04-27T00:09:31.294000Z",
+     "type": "text",
+     "text": "who writes what. maya has the regression, jordan did data cleaning, i did codebook + coding",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2026-04-27T00:09:31.294000Z",
+   "updated_at": "2026-04-27T00:09:31.294000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "13a1477f-4bf4-49fb-8580-dd2e0b401a94"
+  },
+  {
+   "uuid": "ea8b9788-771f-4000-a9d3-0bdd50dd4ca8",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-04-27T00:09:33.294000Z",
+     "stop_timestamp": "2026-04-27T00:09:43.761000Z",
+     "type": "text",
+     "text": "A natural split:\n\n- **David**: intro, codebook & coding (4), results 5.1–5.2, design implications (6)\n- **Maya**: related work (affect detection part), results on regression (5.4), limitations\n- **Jordan**: data (3), related work (help-seeking part), code frequency table/heatmap (5.3), references cleanup\n\nThen one person (you, since the framing is yours) does a full read for voice consistency on Thursday night.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2026-04-27T00:09:43.761000Z",
+   "updated_at": "2026-04-27T00:09:43.761000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "7bee71d6-ab9a-4496-9494-ba56af4a2716"
+  }
+ ],
+ "current_leaf_message_uuid": "ea8b9788-771f-4000-a9d3-0bdd50dd4ca8",
+ "project_uuid": "6e186c15-d8b4-48ad-8ad3-db529caac689",
+ "project": {
+  "uuid": "6e186c15-d8b4-48ad-8ad3-db529caac689",
+  "name": "ISE 6664 report"
+ }
+}

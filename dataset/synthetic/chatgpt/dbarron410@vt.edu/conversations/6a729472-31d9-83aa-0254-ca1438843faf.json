@@ -1,0 +1,305 @@
+{
+ "title": "New MacBook dev setup",
+ "create_time": 1785894002.12,
+ "update_time": 1785894120.6351216,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "d6d15e8c-ba73-4d98-a0ca-f6691b013c1c"
+   ]
+  },
+  "d6d15e8c-ba73-4d98-a0ca-f6691b013c1c": {
+   "id": "d6d15e8c-ba73-4d98-a0ca-f6691b013c1c",
+   "message": {
+    "id": "d6d15e8c-ba73-4d98-a0ca-f6691b013c1c",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1785894002.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "new macbook arrived today. give me a fast dev setup list: homebrew, node, python, git, terminal. i use zsh, vs code + claude code, uv for python. be concise"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_f8270ab1598ade16e3743c08a9",
+     "message_source": null,
+     "turn_exchange_id": "02a41513-441c-4ca6-b75c-9d5a5b16cf45",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "af72994f-47ae-483a-9a5e-27c5bc1b5ed3"
+   ]
+  },
+  "af72994f-47ae-483a-9a5e-27c5bc1b5ed3": {
+   "id": "af72994f-47ae-483a-9a5e-27c5bc1b5ed3",
+   "message": {
+    "id": "af72994f-47ae-483a-9a5e-27c5bc1b5ed3",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1785894013.3,
+    "update_time": null,
+    "content": {
+     "content_type": "reasoning_recap",
+     "content": "Thought for 11s"
+    },
+    "status": "finished_successfully",
+    "end_turn": false,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_f8270ab1598ade16e3743c08a9",
+     "message_type": "next",
+     "turn_exchange_id": "02a41513-441c-4ca6-b75c-9d5a5b16cf45",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "reasoning_status": "reasoning_ended",
+     "finished_duration_sec": 11,
+     "reasoning_start_time": 1785894002.4,
+     "reasoning_end_time": 1785894013.2,
+     "cot_version": "v5",
+     "thinking_effort": "standard",
+     "can_save": false,
+     "parent_id": "d6d15e8c-ba73-4d98-a0ca-f6691b013c1c"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "d6d15e8c-ba73-4d98-a0ca-f6691b013c1c",
+   "children": [
+    "2d4076ca-5f07-458c-8846-c55e9a3f6b8d"
+   ]
+  },
+  "2d4076ca-5f07-458c-8846-c55e9a3f6b8d": {
+   "id": "2d4076ca-5f07-458c-8846-c55e9a3f6b8d",
+   "message": {
+    "id": "2d4076ca-5f07-458c-8846-c55e9a3f6b8d",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1785894020.868,
+    "update_time": 1785894024.5719953,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "```bash\n# 1. Xcode CLT + Homebrew\nxcode-select --install\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\necho 'eval \"$(/opt/homebrew/bin/brew shellenv)\"' >> ~/.zprofile && eval \"$(/opt/homebrew/bin/brew shellenv)\"\n\n# 2. Core tools\nbrew install git gh fnm uv ripgrep fd jq wget\nbrew install --cask visual-studio-code iterm2 rectangle\n\n# 3. Node via fnm\necho 'eval \"$(fnm env --use-on-cd)\"' >> ~/.zshrc\nfnm install --lts && fnm default lts-latest\n\n# 4. Python via uv\nuv python install 3.12\n\n# 5. Git identity + SSH\ngit config --global user.name \"David Barron\"\ngit config --global user.email \"<your email>\"\ngit config --global init.defaultBranch main\nssh-keygen -t ed25519 -C \"<your email>\"\ngh auth login   # uploads the key\n\n# 6. Claude Code\nnpm install -g @anthropic-ai/claude-code\n```\n\nThen: restore dotfiles if you have a repo, turn on FileVault, set key repeat fast (`defaults write -g KeyRepeat -int 2`), and sign into VS Code settings sync."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_f8270ab1598ade16e3743c08a9",
+     "message_type": "next",
+     "turn_exchange_id": "02a41513-441c-4ca6-b75c-9d5a5b16cf45",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "af72994f-47ae-483a-9a5e-27c5bc1b5ed3"
+    },
+    "recipient": "all",
+    "channel": "final"
+   },
+   "parent": "af72994f-47ae-483a-9a5e-27c5bc1b5ed3",
+   "children": [
+    "07cc36e2-58ed-4bba-a90f-f1bba487f93c"
+   ]
+  },
+  "07cc36e2-58ed-4bba-a90f-f1bba487f93c": {
+   "id": "07cc36e2-58ed-4bba-a90f-f1bba487f93c",
+   "message": {
+    "id": "07cc36e2-58ed-4bba-a90f-f1bba487f93c",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1785894105.868,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "key repeat command didnt do anything"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_0bbec97ab4c8dcc658d26e0f0c",
+     "message_source": null,
+     "turn_exchange_id": "4446e6f0-62d0-4fd3-b05b-627aa306781f",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "2d4076ca-5f07-458c-8846-c55e9a3f6b8d",
+   "children": [
+    "f8757a52-37d1-41a2-ad61-1719ff03a3fc"
+   ]
+  },
+  "f8757a52-37d1-41a2-ad61-1719ff03a3fc": {
+   "id": "f8757a52-37d1-41a2-ad61-1719ff03a3fc",
+   "message": {
+    "id": "f8757a52-37d1-41a2-ad61-1719ff03a3fc",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1785894113.168,
+    "update_time": null,
+    "content": {
+     "content_type": "reasoning_recap",
+     "content": "Thought for 7s"
+    },
+    "status": "finished_successfully",
+    "end_turn": false,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_0bbec97ab4c8dcc658d26e0f0c",
+     "message_type": "next",
+     "turn_exchange_id": "4446e6f0-62d0-4fd3-b05b-627aa306781f",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "reasoning_status": "reasoning_ended",
+     "finished_duration_sec": 7,
+     "reasoning_start_time": 1785894106.2680001,
+     "reasoning_end_time": 1785894113.068,
+     "cot_version": "v5",
+     "thinking_effort": "standard",
+     "can_save": false,
+     "parent_id": "07cc36e2-58ed-4bba-a90f-f1bba487f93c"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "07cc36e2-58ed-4bba-a90f-f1bba487f93c",
+   "children": [
+    "87ced664-be72-44fd-bad8-cf68dbf8c1a5"
+   ]
+  },
+  "87ced664-be72-44fd-bad8-cf68dbf8c1a5": {
+   "id": "87ced664-be72-44fd-bad8-cf68dbf8c1a5",
+   "message": {
+    "id": "87ced664-be72-44fd-bad8-cf68dbf8c1a5",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1785894119.047,
+    "update_time": 1785894123.8920403,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "It needs a logout/login (or restart) to take effect. Also set the initial delay:\n\n```bash\ndefaults write -g InitialKeyRepeat -int 15\ndefaults write -g KeyRepeat -int 2\n```\n\nThen log out and back in. If it still doesn't apply, check System Settings → Keyboard: moving the sliders there overrides the defaults values."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_0bbec97ab4c8dcc658d26e0f0c",
+     "message_type": "next",
+     "turn_exchange_id": "4446e6f0-62d0-4fd3-b05b-627aa306781f",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "f8757a52-37d1-41a2-ad61-1719ff03a3fc"
+    },
+    "recipient": "all",
+    "channel": "final"
+   },
+   "parent": "f8757a52-37d1-41a2-ad61-1719ff03a3fc",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "87ced664-be72-44fd-bad8-cf68dbf8c1a5",
+ "plugin_ids": null,
+ "conversation_id": "6a729472-31d9-83aa-0254-ca1438843faf",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-6-thinking",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "6a729472-31d9-83aa-0254-ca1438843faf"
+}

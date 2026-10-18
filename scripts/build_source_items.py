@@ -8,7 +8,7 @@ project_ids set by the generator in synthetic/ground_truth_labels.json, {source:
 reviewed (checked by David; set by hand, never by this script). library_item_id is null until Engelbart imports the item;
 synthetic rows also carry modeled_on from their manifest. Collection notes go in metadata.collection_notes. Files are plain JSON arrays.
 
-usage: python3 build_source_items.py [side/source ...]   (default: every folder)
+usage: python3 build_source_items.py [--dry] [side/source ...]   (default: every folder; --dry lists items, writes nothing)
 """
 import csv, datetime, glob, hashlib, json, os, re, subprocess, sys
 
@@ -123,11 +123,13 @@ def short(s, n=90):
 # key, source_id, title, content_type, created_at, modified_at, main (abs path), files (abs), source_url, metadata, notes
 
 def files_under(d):
+    """Every file below d, including inside hidden folders (e.g. .obsidian/); glob('**') skips those."""
     out = []
-    for p in glob.glob(os.path.join(d, '**', '*'), recursive=True) + glob.glob(os.path.join(d, '**', '.*'), recursive=True):
-        if os.path.isfile(p) and os.path.basename(p) not in SKIP_NAMES:
-            out.append(p)
-    return sorted(set(out))
+    for dp, dn, fn in os.walk(d):
+        for f in fn:
+            p = os.path.join(dp, f)
+            if f not in SKIP_NAMES and os.path.isfile(p): out.append(p)
+    return sorted(out)
 
 
 def generic_files(d, man, tool):
@@ -136,7 +138,8 @@ def generic_files(d, man, tool):
         rel = os.path.relpath(p, d)
         if '_collection' in rel.split('/'): continue
         r = man.get(rel, {})
-        orig = os.path.expanduser(r['source']) if r.get('source', '').startswith('~/') else None
+        # authentic copies may take the creation date of their original; a synthetic item's `source` is invented, never read
+        orig = os.path.expanduser(r['source']) if r.get('source', '').startswith('~/') and '/synthetic/' not in d + '/' else None
         c, m = fstat_dates(p, orig)
         yield dict(key=rel, source_id=r.get('source') or rel, title=os.path.basename(p), content_type=type_of(p), created_at=c, modified_at=m,
                    main=p, files=[p], source_url=r['source'] if r.get('source', '').startswith('http') else None,
@@ -278,6 +281,15 @@ def chatgpt(d, man):
                    metadata={'message_count': len(msgs), 'account': man.get(os.path.relpath(p, d), {}).get('account_or_library') or 'chatgpt.com',
                              'model': j.get('default_model_slug'), 'parent_id': ('chatgpt-project:' + j['gizmo_id']) if j.get('gizmo_id') else None,
                              'is_archived': j.get('is_archived'), 'collection': 'stopgap (signed-in web API)'}, notes=r.get('notes', ''))
+    for p in sorted(glob.glob(f'{d}/**/projects/*.json', recursive=True)):  # ChatGPT Projects (name, instructions, files, chat list)
+        j = json.load(open(p)); r = man.get(os.path.relpath(p, d), {})
+        j = {**j, **(j.get('gizmo') or {}), **((j.get('gizmo') or {}).get('display') or {})}  # backend-api gizmo shape
+        pid = j.get('id') or j.get('gizmo_id') or os.path.basename(p)[:-5]
+        c, m = fstat_dates(p)
+        yield dict(key=os.path.relpath(p, d), source_id=pid, title=j.get('name') or j.get('title') or pid, content_type='project',
+                   created_at=utc(j.get('created_at') or j.get('create_time')) or c, modified_at=utc(j.get('updated_at') or j.get('update_time')) or m,
+                   main=p, files=[p], source_url=f'https://chatgpt.com/g/{pid}/project', metadata={'account': r.get('account_or_library') or 'chatgpt.com'},
+                   notes=r.get('notes', ''))
 
 
 def gmail(d, man):
@@ -308,6 +320,13 @@ def gmail(d, man):
                                               'parts': [os.path.relpath(p, ROOT) for _, p, _ in msgs]}, notes=notes)
 
 
+def outlook(d, man):
+    """Mail: one item per conversation (<account>/threads/<conversation>/), like gmail. Other files (cached attachments) one per file."""
+    yield from gmail(d, man)
+    for it in generic_files(d, man, 'Outlook'):
+        if '/threads/' not in '/' + it['key']: yield it
+
+
 def zoom(d, man):
     for md in sorted(glob.glob(f'{d}/*/*')):
         if not os.path.isdir(md): continue
@@ -329,9 +348,10 @@ def github(d, man):
         yield dict(key=rel, source_id=r.get('account_or_library') if r.get('account_or_library', '').startswith('http') else r.get('source'), title=os.path.basename(rel),
                    content_type='repository', created_at=utc(first) or fstat_dates(p)[0], modified_at=utc(r.get('date')), main=p, files=fs, source_url=r.get('account_or_library') if r.get('account_or_library', '').startswith('http') else None,
                    metadata={'account': r.get('account_or_library'), 'original_path': r.get('source'), 'head': head, 'file_count': len(fs)}, notes=r.get('notes', ''))
-    # anything else (e.g. github.com exports) as files
+    # anything else (e.g. github.com issue/PR exports) as files; files inside a repo (incl. bare .git mirrors) belong to the repo item
+    repos = [rel.rstrip('/') + '/' for rel in man if os.path.isdir(os.path.join(d, rel))]
     for it in generic_files(d, man, 'GitHub'):
-        if not it['key'].startswith('local-repos/'): yield it
+        if not it['key'].startswith('local-repos/') and not any(it['key'].startswith(r) for r in repos): yield it
 
 
 def apple_notes(d, man):
@@ -352,8 +372,37 @@ def obsidian(d, man):
         yield it
 
 
-ITEMIZERS = {'claude-code': claude_code, 'codex': codex, 'claude': claude_web, 'chatgpt': chatgpt, 'zoom': zoom, 'github': github,
-             'apple-notes': apple_notes, 'obsidian': obsidian, 'gmail': gmail}
+def cursor(d, man):
+    """Cursor keeps chats inside SQLite (User/globalStorage/state.vscdb, table cursorDiskKV): one item per composer
+    (composerData:<id> plus its bubbleId:<id>:* rows), key '<db relpath>#composer=<id>', hashed over those rows. Other files
+    (workspaceStorage/<hash>/workspace.json + state.vscdb that map composers to folders) are one item each."""
+    import sqlite3
+    dbs = sorted(glob.glob(f'{d}/**/globalStorage/state.vscdb', recursive=True))
+    for db in dbs:
+        con = sqlite3.connect(f'file:{db}?mode=ro', uri=True)
+        kv = dict(con.execute("SELECT key, value FROM cursorDiskKV WHERE key LIKE 'composerData:%' OR key LIKE 'bubbleId:%'"))
+        con.close()
+        rel = os.path.relpath(db, d)
+        r = man.get(rel, {})
+        for k, v in sorted(kv.items()):
+            if not k.startswith('composerData:'): continue
+            cid = k.split(':', 1)[1]
+            j = json.loads(v)
+            bubbles = sorted((bk, bv) for bk, bv in kv.items() if bk.startswith(f'bubbleId:{cid}:'))
+            h = hashlib.sha256(k.encode() + b'\0' + (v if isinstance(v, bytes) else v.encode()))
+            for bk, bv in bubbles: h.update(bk.encode() + b'\0' + (bv if isinstance(bv, bytes) else bv.encode()))
+            first = next((json.loads(bv).get('text') for _, bv in bubbles if json.loads(bv).get('type') == 1), None)
+            yield dict(key=f'{rel}#composer={cid}', source_id=cid, title=short(j.get('name') or first or cid), content_type='conversation',
+                       created_at=utc(j.get('createdAt')), modified_at=utc(j.get('lastUpdatedAt')), main=db, files=[db], hash='sha256:' + h.hexdigest(),
+                       source_url=None, metadata={'message_count': len(bubbles), 'account': r.get('account_or_library') or 'Cursor (local)',
+                                                  'mode': j.get('unifiedMode') or j.get('forceMode'), 'format_detail': 'rows in cursorDiskKV of state.vscdb'},
+                       notes=r.get('notes', ''))
+    for it in generic_files(d, man, 'Cursor'):
+        if os.path.join(d, it['key']) not in dbs: yield it
+
+
+ITEMIZERS = {'cursor': cursor, 'claude-code': claude_code, 'codex': codex, 'claude': claude_web, 'chatgpt': chatgpt, 'zoom': zoom, 'github': github,
+             'apple-notes': apple_notes, 'obsidian': obsidian, 'gmail': gmail, 'outlook': outlook}
 LABELS = os.path.join(ROOT, 'synthetic', 'ground_truth_labels.json')  # written by the synthetic generator; hidden from the agent
 
 # ---------- build ----------
@@ -362,7 +411,7 @@ def load_ids():
     return json.load(open(IDS)) if os.path.exists(IDS) else {'next': 1, 'items': {}}
 
 
-def build(side, source, ids, labels):
+def build(side, source, ids, labels, dry=False):
     d = os.path.join(ROOT, side, source)
     man = read_manifest(d)
     fn = ITEMIZERS.get(source)
@@ -382,11 +431,11 @@ def build(side, source, ids, labels):
                 'message_count': None, 'tags': []}
         meta.update({k2: v for k2, v in it['metadata'].items() if v not in (None, '', [])} if it['metadata'] else {})
         if 'message_count' in it['metadata']: meta['message_count'] = it['metadata']['message_count']
-        if it.get('notes'): meta['collection_notes'] = it['notes']
+        if it.get('notes') and side == 'authentic': meta['collection_notes'] = it['notes']
         gt = {'status': 'unlabeled', 'project_ids': [], 'notes': None}
-        if side == 'synthetic':
+        if side == 'synthetic':  # synthetic manifest notes name hard cases and projects, so they stay in the hidden ground_truth
             lab = labels.get(source, {}).get(it['key'])
-            if lab: gt = {'status': 'generated', 'project_ids': lab.get('project_ids', []), 'notes': lab.get('notes')}
+            if lab: gt = {'status': 'generated', 'project_ids': lab.get('project_ids', []), 'notes': lab.get('notes') or it.get('notes') or None}
         old = prev.get(reg['id'], {})
         if (old.get('ground_truth') or {}).get('status') == 'reviewed': gt = old['ground_truth']  # never overwrite David's review
         row_extra = {}
@@ -396,27 +445,40 @@ def build(side, source, ids, labels):
             'id': reg['id'], 'dataset_id': DATASET, 'provenance': side, 'source': source, 'source_id': it['source_id'], 'title': it['title'],
             'content_type': it['content_type'], 'created_at': it['created_at'], 'modified_at': it['modified_at'], 'ingested_at': reg['ingested_at'],
             'path': os.path.relpath(it['main'], ROOT), 'source_url': it['source_url'],
-            'content_hash': content_hash([x for x in it['files'] if os.path.isfile(x)], it['main'] if os.path.isdir(it['main']) else os.path.dirname(it['main'])),
+            'content_hash': it.get('hash') or content_hash([x for x in it['files'] if os.path.isfile(x)], it['main'] if os.path.isdir(it['main']) else os.path.dirname(it['main'])),
             'library_item_id': old.get('library_item_id'),
             **row_extra,
             'metadata': meta,
             'ground_truth': gt,
         })
     out.sort(key=lambda x: x['id'])
+    if dry: return out
     with open(os.path.join(d, 'source_items.json'), 'w') as f:
         json.dump(out, f, indent=1, ensure_ascii=False)
     return out
 
 
 def main():
-    targets = sys.argv[1:] or [f'{s}/{x}' for s in ('authentic', 'synthetic') for x in sorted(os.listdir(os.path.join(ROOT, s))) if os.path.isdir(os.path.join(ROOT, s, x))]
+    dry = '--dry' in sys.argv  # print the items a folder yields; writes nothing (safe to run while other builds run)
+    args = [a for a in sys.argv[1:] if a != '--dry']
+    targets = args or [f'{s}/{x}' for s in ('authentic', 'synthetic') for x in sorted(os.listdir(os.path.join(ROOT, s))) if os.path.isdir(os.path.join(ROOT, s, x))]
     ids = load_ids()
     labels = json.load(open(LABELS)) if os.path.exists(LABELS) else {}
     for t in targets:
         side, source = t.split('/')
+        if dry:
+            labels = dict(labels)
+            for lf in glob.glob(os.path.join(ROOT, '_scripts', 'synth', 'labels', '*.json')):  # unmerged generator labels
+                labels.setdefault(os.path.basename(lf)[:-5], json.load(open(lf)))
+            out = build(side, source, json.loads(json.dumps(ids)), labels, dry=True)
+            gen = sum(1 for r in out if r['ground_truth']['status'] == 'generated')
+            print(f'{t}: {len(out)} items ({gen} labelled, {len(out) - gen} without a label)')
+            for r in out: print('  ', r['ground_truth']['status'][:3], r['content_type'], r['created_at'], r['modified_at'], r['path'][:110], '|', (r['title'] or '')[:60])
+            continue
         out = build(side, source, ids, labels)
         json.dump(ids, open(IDS, 'w'))
         print(f'{t}: {len(out)} items', flush=True)
+    if dry: return
     # aggregate
     allitems = []
     for f in sorted(glob.glob(os.path.join(ROOT, '*', '*', 'source_items.json'))):

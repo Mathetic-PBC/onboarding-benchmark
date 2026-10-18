@@ -1,0 +1,25 @@
+=== THREAD PARENT MESSAGE ===
+From: Xiaohang (U0SYN2JB5HW)
+Time: 2025-11-19 13:02:50 PST
+Message TS: 1763586170.073888
+bug in the labeling tool: shortcut `4` saves `help_seeking` but the button says "stalled-after-error". probably the new state shifted the enum
+
+=== THREAD REPLIES (3 total) ===
+
+--- Reply 1 of 3 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2025-11-19 13:20:08 PST
+Message TS: 1763587208.987969
+yep, enum index. fixed in labeler `v0.3.1`. did you label anything with `4` in the last ~2h? i can remap from the keypress log
+
+--- Reply 2 of 3 ---
+From: Xiaohang (U0SYN2JB5HW)
+Time: 2025-11-19 13:24:47 PST
+Message TS: 1763587487.212809
+~25 windows since lunch
+
+--- Reply 3 of 3 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2025-11-19 14:02:08 PST
+Message TS: 1763589728.515210
+remapped 27 windows from the log. sorry about that

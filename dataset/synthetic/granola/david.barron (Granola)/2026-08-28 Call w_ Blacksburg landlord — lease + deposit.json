@@ -1,0 +1,381 @@
+{
+ "id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Call w/ Blacksburg landlord — lease + deposit",
+ "created_at": "2026-08-29T01:00:27.720Z",
+ "updated_at": "2026-08-29T01:06:10.274Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "private",
+ "google_calendar_event": null,
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Gary"
+   }
+  ]
+ },
+ "notes_markdown": "### Lease\n\n- Old Blacksburg lease runs to May 31, 2027; subletter (a VT master's student) takes over Sep 1\n- Landlord OK with a formal lease assignment instead of a sublet if the new tenant passes the application — $50 fee, paid by the tenant\n- David stays on the hook until the assignment is signed\n\n### Deposit\n\n- Deposit to be returned to David once the assignment is signed, minus any damage from the walkthrough\n- Walkthrough was done Aug 7: one stained carpet patch in the bedroom, nail holes from the bookshelf\n- Gary estimates ~$120 for carpet cleaning; nail holes \"normal wear\"\n- Refund by mailed check or Zelle — David asked for Zelle\n\n### To do\n\n- [ ] Send Gary the walkthrough photos from Aug 7\n- [ ] Forward the new tenant's application link\n- [ ] Update forwarding address with USPS (already done? check)\n- [ ] Confirm deposit amount in writing\n",
+ "notes_plain": "Lease\n\nOld Blacksburg lease runs to May 31, 2027; subletter (a VT master's student) takes over Sep 1\nLandlord OK with a formal lease assignment instead of a sublet if the new tenant passes the application — $50 fee, paid by the tenant\nDavid stays on the hook until the assignment is signed\n\nDeposit\n\nDeposit to be returned to David once the assignment is signed, minus any damage from the walkthrough\nWalkthrough was done Aug 7: one stained carpet patch in the bedroom, nail holes from the bookshelf\nGary estimates ~$120 for carpet cleaning; nail holes \"normal wear\"\nRefund by mailed check or Zelle — David asked for Zelle\n\nTo do\n\nSend Gary the walkthrough photos from Aug 7\nForward the new tenant's application link\nUpdate forwarding address with USPS (already done? check)\nConfirm deposit amount in writing\n",
+ "transcript": [
+  {
+   "id": "3bed9b32-5603-433e-a089-e732aeca2584",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:00:33.720Z",
+   "end_timestamp": "2026-08-29T01:00:34.611Z",
+   "text": "Hello?",
+   "source": "microphone",
+   "speaker": "Gary",
+   "is_final": true
+  },
+  {
+   "id": "261d9cf0-e2d4-452b-b85e-58e78d7de7ab",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:00:36.356Z",
+   "end_timestamp": "2026-08-29T01:00:45.644Z",
+   "text": "Hi, Gary? It's David Barron, from the, um, the unit on the second floor. I'm on speaker, sorry, I'm in California now.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "324db40a-318a-4416-87a5-c445483a1d7a",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:00:47.412Z",
+   "end_timestamp": "2026-08-29T01:00:50.562Z",
+   "text": "David, right, right. California. How's the weather?",
+   "source": "microphone",
+   "speaker": "Gary",
+   "is_final": true
+  },
+  {
+   "id": "51b5bee1-e310-482a-b06b-67c62eab6674",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:00:50.918Z",
+   "end_timestamp": "2026-08-29T01:00:54.236Z",
+   "text": "Cold, honestly. Nobody warned me about August here.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "a97ff7e3-9a4d-436c-9a6f-89ca2a8ab67c",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:00:56.085Z",
+   "end_timestamp": "2026-08-29T01:01:01.399Z",
+   "text": "Ha! That's what they say. Okay, so you got my email about the lease?",
+   "source": "microphone",
+   "speaker": "Gary",
+   "is_final": true
+  },
+  {
+   "id": "92c31840-14c9-4f20-8cda-0610853dbe4d",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:01:01.780Z",
+   "end_timestamp": "2026-08-29T01:01:10.767Z",
+   "text": "Yeah, that's why I'm calling. So the — the person taking over, she's a master's student, she's been there since the first basically.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "8194a02a-e5ea-4c2c-97ca-e2317664eb95",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:01:12.345Z",
+   "end_timestamp": "2026-08-29T01:01:16.168Z",
+   "text": "The young lady. Yes, she came by for the keys.",
+   "source": "microphone",
+   "speaker": "Gary",
+   "is_final": true
+  },
+  {
+   "id": "588d27ae-fd49-4df2-8dbe-772493184bde",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:01:17.443Z",
+   "end_timestamp": "2026-08-29T01:01:25.338Z",
+   "text": "Right. So my question is, can we just make it official? Like instead of a sublet, put it in her name?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ad61adcb-6e02-47df-ab35-fe1e0d2c66ee",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:01:26.565Z",
+   "end_timestamp": "2026-08-29T01:01:39.915Z",
+   "text": "We can do an assignment. She fills out the application, there's a fifty dollar fee, that's on her, and if it goes through she takes over the lease through end of May.",
+   "source": "microphone",
+   "speaker": "Gary",
+   "is_final": true
+  },
+  {
+   "id": "55c135c4-750a-458c-97f9-c764717d51ce",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:01:40.685Z",
+   "end_timestamp": "2026-08-29T01:01:44.392Z",
+   "text": "Okay great. And until then I'm still, um—",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "2950b4aa-3018-432a-a0b1-14c61db266ce",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:01:44.406Z",
+   "end_timestamp": "2026-08-29T01:01:52.224Z",
+   "text": "Until it's signed you're still the one on the lease, yes. If she doesn't pay, I call you.",
+   "source": "microphone",
+   "speaker": "Gary",
+   "is_final": true
+  },
+  {
+   "id": "b685abc9-cebf-4748-aae4-81da25135119",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:01:53.065Z",
+   "end_timestamp": "2026-08-29T01:01:57.003Z",
+   "text": "Sure. That's fair. She'll pay, she's very, uh, organized.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "7238db10-4c4c-4761-b2ef-864c863968a6",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:01:58.791Z",
+   "end_timestamp": "2026-08-29T01:02:04.975Z",
+   "text": "They usually are, the grad students. Better than the undergrads, I'll tell you that.",
+   "source": "microphone",
+   "speaker": "Gary",
+   "is_final": true
+  },
+  {
+   "id": "b91b754c-a84f-48fc-88e0-fcb37a18088e",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:02:05.686Z",
+   "end_timestamp": "2026-08-29T01:02:11.980Z",
+   "text": "Ha. Okay. And then the deposit. Does that come back to me once it's signed over?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "481969af-cb8f-4855-a855-45a18d7e4791",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:02:13.162Z",
+   "end_timestamp": "2026-08-29T01:02:20.901Z",
+   "text": "Once the assignment's signed, yes, I return your deposit and she pays her own. Minus anything from the walkthrough.",
+   "source": "microphone",
+   "speaker": "Gary",
+   "is_final": true
+  },
+  {
+   "id": "1a74026b-8bd2-4475-a407-c2b620e8ea07",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:02:22.563Z",
+   "end_timestamp": "2026-08-29T01:02:28.613Z",
+   "text": "Right, we did that the seventh. What did you, um, what did you end up seeing?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "95a4e141-477a-40f8-bd92-a07194344d39",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:02:30.606Z",
+   "end_timestamp": "2026-08-29T01:02:36.631Z",
+   "text": "Let me find it. Okay. Carpet in the bedroom, there's that spot by the window.",
+   "source": "microphone",
+   "speaker": "Gary",
+   "is_final": true
+  },
+  {
+   "id": "df14d50e-aba6-4995-a4d6-013007109b88",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:02:37.532Z",
+   "end_timestamp": "2026-08-29T01:02:43.040Z",
+   "text": "Yeah, that was — that was there, I think, partially, but yeah.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "1dc4a82b-9ce7-4ebe-b831-631c4062e755",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:02:43.701Z",
+   "end_timestamp": "2026-08-29T01:02:50.251Z",
+   "text": "I'll be fair, it'll need a cleaning, maybe a hundred twenty. And the holes from the shelf.",
+   "source": "microphone",
+   "speaker": "Gary",
+   "is_final": true
+  },
+  {
+   "id": "ceaa363a-33dc-4313-9d6a-baefaea42dd8",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:02:50.639Z",
+   "end_timestamp": "2026-08-29T01:02:56.496Z",
+   "text": "The bookshelf, yeah. I anchored it to the wall because it was wobbly.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "82f7de6f-a798-45a9-9ba7-4f4c4e966f34",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:02:58.370Z",
+   "end_timestamp": "2026-08-29T01:03:03.007Z",
+   "text": "Holes are normal. I'm not charging for holes. Just the carpet.",
+   "source": "microphone",
+   "speaker": "Gary",
+   "is_final": true
+  },
+  {
+   "id": "27a6388f-2126-4272-810c-42d887627a41",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:03:04.568Z",
+   "end_timestamp": "2026-08-29T01:03:12.656Z",
+   "text": "Okay, that's fair. A hundred twenty is fine. Can you put that in an email, just so I have it?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "b55e2b0b-5753-4324-a273-8fb735ac7c0a",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:03:14.189Z",
+   "end_timestamp": "2026-08-29T01:03:18.683Z",
+   "text": "I'll put it in writing. How do you want the money?",
+   "source": "microphone",
+   "speaker": "Gary",
+   "is_final": true
+  },
+  {
+   "id": "01547faa-0ed9-407f-b07d-06ca7bc73c4b",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:03:20.123Z",
+   "end_timestamp": "2026-08-29T01:03:21.800Z",
+   "text": "Can you do Zelle?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d14d858c-ef3b-43ae-885d-17c5ac78eb97",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:03:22.060Z",
+   "end_timestamp": "2026-08-29T01:03:29.106Z",
+   "text": "I can do Zelle. My daughter set it up. I'll need the email or phone for it.",
+   "source": "microphone",
+   "speaker": "Gary",
+   "is_final": true
+  },
+  {
+   "id": "344f7f53-41ce-4b66-b463-ac7e90e6d093",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:03:29.989Z",
+   "end_timestamp": "2026-08-29T01:03:38.747Z",
+   "text": "I'll send it in the email reply. And I'll send the photos from the walkthrough, I took a bunch.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "bc727e4d-ea26-43cf-b6ca-8ffa6b974f19",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:03:39.160Z",
+   "end_timestamp": "2026-08-29T01:03:46.090Z",
+   "text": "Sure, send the photos. Is your mail getting forwarded? I've got one envelope here, looks like a bank.",
+   "source": "microphone",
+   "speaker": "Gary",
+   "is_final": true
+  },
+  {
+   "id": "d6da0295-760d-4601-a308-060003bf4fed",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:03:48.223Z",
+   "end_timestamp": "2026-08-29T01:04:01.400Z",
+   "text": "Oh. Um. I thought I did the forwarding. I'll check. Can you just hand it to her, or — actually, can you mail it on? I'll send you where.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "655b8c00-a5d6-4c17-912a-76cc0e26791d",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:04:02.005Z",
+   "end_timestamp": "2026-08-29T01:04:04.969Z",
+   "text": "I'll mail it. Send me the address.",
+   "source": "microphone",
+   "speaker": "Gary",
+   "is_final": true
+  },
+  {
+   "id": "d26c780c-6199-4d52-b09e-dc051bc2c86b",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:04:05.627Z",
+   "end_timestamp": "2026-08-29T01:04:12.700Z",
+   "text": "Will do. Okay, so: she does the application, I send photos, you confirm the deposit in writing.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "27b9da97-18e4-4cbc-b9bb-28239a1d3050",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:04:13.801Z",
+   "end_timestamp": "2026-08-29T01:04:18.539Z",
+   "text": "That's it. Good luck out there. You doing the start-up thing?",
+   "source": "microphone",
+   "speaker": "Gary",
+   "is_final": true
+  },
+  {
+   "id": "a991e3d2-322a-47c8-943a-49c473265124",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:04:19.681Z",
+   "end_timestamp": "2026-08-29T01:04:20.973Z",
+   "text": "Yeah, trying to.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "78b7e1ff-2630-489c-a3c8-84556f68a31a",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:04:21.997Z",
+   "end_timestamp": "2026-08-29T01:04:24.558Z",
+   "text": "Well. Eat something besides avocado toast.",
+   "source": "microphone",
+   "speaker": "Gary",
+   "is_final": true
+  },
+  {
+   "id": "df0f0e17-f177-4376-bfad-c34d1ab30955",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:04:26.514Z",
+   "end_timestamp": "2026-08-29T01:04:28.489Z",
+   "text": "Ha, I'll try. Thanks Gary.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "bbac70b7-ed9d-4a51-9e58-f5233d576fdd",
+   "document_id": "b4fd636e-562a-4f04-b54b-fff8603f0ddd",
+   "start_timestamp": "2026-08-29T01:04:29.947Z",
+   "end_timestamp": "2026-08-29T01:04:31.274Z",
+   "text": "Take care now.",
+   "source": "microphone",
+   "speaker": "Gary",
+   "is_final": true
+  }
+ ]
+}

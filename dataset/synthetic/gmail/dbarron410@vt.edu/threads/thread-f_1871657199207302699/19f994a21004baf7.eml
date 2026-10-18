@@ -1,0 +1,38 @@
+From: Yan Chen <ychen.prime@vt.edu>
+To: David Barron <dbarron410@vt.edu>
+Subject: Re: IDETrace: leakage bug in the train/test split
+Date: Sat, 25 Jul 2026 08:40:00 -0400
+Message-ID:
+ <CAS691GXFgYdSn7YKXTlBvOk9ZQ5hs0w_YF3Yd2LXoCLnqjx7y6zoS@mail.gmail.com>
+In-Reply-To:
+ <CASXLyi6zqANRoLPcxVvHqRn+wnBuslnbLubx6WVEQXMvdwDqF5f7M@mail.gmail.com>
+References:
+ <CASXLyi6zqANRoLPcxVvHqRn+wnBuslnbLubx6WVEQXMvdwDqF5f7M@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1871657199207302699
+X-Gmail-Labels: Inbox,Opened
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+David, I agree completely. Report both, explain the fix, release the script. =
+0.74 with a correct split is still a solid baseline for a datasets paper. Tha=
+nk you for catching it before a reviewer did.
+
+Yan
+
+On Fri, Jul 24, 2026 at 11:50 PM David Barron <dbarron410@vt.edu> wrote:
+> Hi Yan,
+>
+> I found a problem in IDETrace while preparing the NeurIPS rebuttal. The spl=
+it script assigned windows to train/test at random, so windows from the same =
+student ended up in both sets. The model was partly recognizing students, not=
+ states.
+>
+> I fixed it with a split grouped by student id. Macro-F1 drops from 0.81 to =
+0.74.
+>
+> My proposal: report both numbers in the rebuttal, explain the bug plainly, =
+and release the corrected split script. I think hiding it would be worse than=
+ the drop.
+>
+> David

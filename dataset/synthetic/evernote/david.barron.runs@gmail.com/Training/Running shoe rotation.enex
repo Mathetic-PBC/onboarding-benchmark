@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20260830T231000Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Running shoe rotation</title>
+    <created>20260412T223000Z</created>
+    <updated>20260830T231000Z</updated>
+    <tag>gear</tag>
+    <tag>shoes</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><table style="border-collapse:collapse"><tr><td style="border:1px solid #ccc;padding:4px"><b>shoe</b></td><td style="border:1px solid #ccc;padding:4px"><b>role</b></td><td style="border:1px solid #ccc;padding:4px"><b>miles (as of 8/30)</b></td><td style="border:1px solid #ccc;padding:4px"><b>retire at</b></td></tr><tr><td style="border:1px solid #ccc;padding:4px">daily trainer #1 (grey)</td><td style="border:1px solid #ccc;padding:4px">easy days</td><td style="border:1px solid #ccc;padding:4px">448</td><td style="border:1px solid #ccc;padding:4px">450 -&gt; retiring now</td></tr><tr><td style="border:1px solid #ccc;padding:4px">daily trainer #2 (blue)</td><td style="border:1px solid #ccc;padding:4px">easy days</td><td style="border:1px solid #ccc;padding:4px">112</td><td style="border:1px solid #ccc;padding:4px">450</td></tr><tr><td style="border:1px solid #ccc;padding:4px">max cushion</td><td style="border:1px solid #ccc;padding:4px">long runs</td><td style="border:1px solid #ccc;padding:4px">296</td><td style="border:1px solid #ccc;padding:4px">500</td></tr><tr><td style="border:1px solid #ccc;padding:4px">tempo shoe (no plate)</td><td style="border:1px solid #ccc;padding:4px">threshold + strides</td><td style="border:1px solid #ccc;padding:4px">188</td><td style="border:1px solid #ccc;padding:4px">350</td></tr><tr><td style="border:1px solid #ccc;padding:4px">race shoe (plate)</td><td style="border:1px solid #ccc;padding:4px">race + 1 rehearsal</td><td style="border:1px solid #ccc;padding:4px">21</td><td style="border:1px solid #ccc;padding:4px">200</td></tr></table><div><br/></div><ul><li>Rotate the two dailies, never same shoe two days in a row.</li><li>Race shoe: only the 10-mile rehearsal at goal pace + the half itself.</li><li>Old daily trainers go in the donation bag (SF Goodwill on Mission takes them).</li></ul></en-note>]]>
+    </content>
+  </note>
+</en-export>

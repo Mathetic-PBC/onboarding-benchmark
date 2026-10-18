@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20261015T043500Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Race-day gear checklist</title>
+    <created>20261013T040000Z</created>
+    <updated>20261015T043500Z</updated>
+    <tag>race</tag>
+    <tag>gear</tag>
+    <tag>checklist</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>Bay Area Half, Thu 10/15. Lay it all out Wed night.</div><div><br/></div><div><en-todo checked="true"/>race shoes (plate) — 21 mi on them, fine</div><div><en-todo checked="true"/>socks (the thin ones), shorts with gel pockets, singlet</div><div><en-todo checked="true"/>bib + 4 pins (pick up Wed 4-7)</div><div><en-todo checked="true"/>Garmin charged, set to auto-lap 1 mi, data page: lap pace / lap time / HR</div><div><en-todo checked="true"/>2 gels + 1 caffeinated gel</div><div><en-todo checked="true"/>throwaway long sleeve (old VT running club one) for the start corral</div><div><en-todo checked="true"/>anti-chafe</div><div><en-todo checked="true"/>post-race bag: dry shirt, sweats, recovery shake, phone charger</div><div><en-todo checked="true"/>ride to the start booked for 5:55 (Owen + me)</div><div><en-todo checked="true"/>breakfast staged: bagel, PB, banana, coffee pods</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

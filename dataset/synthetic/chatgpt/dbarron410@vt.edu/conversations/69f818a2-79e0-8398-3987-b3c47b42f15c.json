@@ -1,0 +1,307 @@
+{
+ "title": "Datasheet for IDETrace (NeurIPS D&B)",
+ "create_time": 1777866914.12,
+ "update_time": 1777867225.149569,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "44153cc5-220d-4715-8be7-643efcfcbe92"
+   ]
+  },
+  "44153cc5-220d-4715-8be7-643efcfcbe92": {
+   "id": "44153cc5-220d-4715-8be7-643efcfcbe92",
+   "message": {
+    "id": "44153cc5-220d-4715-8be7-643efcfcbe92",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1777866914.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "neurips datasets & benchmarks deadline is wednesday. need to fill the datasheet for IDETrace (IDE telemetry windows from CS courses, labeled with student behavior states). which datasheet questions do reviewers actually care about for an education dataset with student data"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_904480ed14ca7c4705b3f7a8b1",
+     "message_source": null,
+     "turn_exchange_id": "0f434ce0-bef4-4ad5-9241-5b814c07b1df",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "dddeac84-4207-4aa5-b2fa-705eb54026af"
+   ]
+  },
+  "dddeac84-4207-4aa5-b2fa-705eb54026af": {
+   "id": "dddeac84-4207-4aa5-b2fa-705eb54026af",
+   "message": {
+    "id": "dddeac84-4207-4aa5-b2fa-705eb54026af",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1777866930.553,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "For a student-telemetry dataset, reviewers will focus on these. Answer them concretely, not with boilerplate:\n\n**Collection & consent**\n- Who were the subjects, how were they recruited, was consent opt-in, how many declined, IRB protocol number/exemption.\n- Were students able to withdraw later? Is there a process now?\n\n**De-identification**\n- Exactly what was removed or hashed (names, emails, free-text keystrokes outside code, file paths with usernames).\n- Can windows be linked back to a student? (Pseudonymous student IDs are *necessary* for grouped splits, so explain they're random and unlinkable.)\n- Re-identification risk from code itself (unique solutions, comments with names). What you did about it.\n\n**Labels**\n- Who labeled, training, guide version, agreement (and whether it was computed pre-adjudication).\n\n**Intended & prohibited uses**\n- Explicitly: not for grading, admissions, or monitoring individual students. That's the question R3-type reviewers always ask.\n\n**Recommended splits**\n- Provide the official split and say **how** it was made. If it's by window, reviewers who know telemetry will ask about leakage.\n\n**Maintenance & license**\n- Hosting (e.g., institutional repository + Hugging Face mirror), license (CC BY-NC 4.0 is common for student data), contact, versioning."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_904480ed14ca7c4705b3f7a8b1",
+     "message_type": "next",
+     "turn_exchange_id": "0f434ce0-bef4-4ad5-9241-5b814c07b1df",
+     "model_slug": "gpt-5-3",
+     "default_model_slug": "gpt-5-3",
+     "resolved_model_slug": "gpt-5-3",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "44153cc5-220d-4715-8be7-643efcfcbe92"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "44153cc5-220d-4715-8be7-643efcfcbe92",
+   "children": [
+    "63d329c7-c86f-4789-968f-dccdff859018"
+   ]
+  },
+  "63d329c7-c86f-4789-968f-dccdff859018": {
+   "id": "63d329c7-c86f-4789-968f-dccdff859018",
+   "message": {
+    "id": "63d329c7-c86f-4789-968f-dccdff859018",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1777867029.553,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "our split is random by window right now. is that bad"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_cca607ab1355a308d731aee1ba",
+     "message_source": null,
+     "turn_exchange_id": "7e39c504-12e8-432b-a50e-ebf30e447765",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "dddeac84-4207-4aa5-b2fa-705eb54026af",
+   "children": [
+    "46fcbbe0-f5e4-4ff4-a564-4707c4676145"
+   ]
+  },
+  "46fcbbe0-f5e4-4ff4-a564-4707c4676145": {
+   "id": "46fcbbe0-f5e4-4ff4-a564-4707c4676145",
+   "message": {
+    "id": "46fcbbe0-f5e4-4ff4-a564-4707c4676145",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1777867041.646,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "It's risky. If windows from the same student appear in both train and test, models can exploit student-specific patterns and the benchmark overstates performance. A student-grouped split (all of a student's windows on one side) is the standard fix.\n\nIf you can, switch to `GroupShuffleSplit` by `student_id` before Wednesday and report that. If you truly can't rerun everything in time, at minimum say in the datasheet that the current split is window-level and that a grouped split is planned. A careful reviewer will spot it otherwise."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_cca607ab1355a308d731aee1ba",
+     "message_type": "next",
+     "turn_exchange_id": "7e39c504-12e8-432b-a50e-ebf30e447765",
+     "model_slug": "gpt-5-3",
+     "default_model_slug": "gpt-5-3",
+     "resolved_model_slug": "gpt-5-3",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "63d329c7-c86f-4789-968f-dccdff859018"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "63d329c7-c86f-4789-968f-dccdff859018",
+   "children": [
+    "4b189ac6-99bd-4180-a426-e5bfefbeb0f5"
+   ]
+  },
+  "4b189ac6-99bd-4180-a426-e5bfefbeb0f5": {
+   "id": "4b189ac6-99bd-4180-a426-e5bfefbeb0f5",
+   "message": {
+    "id": "4b189ac6-99bd-4180-a426-e5bfefbeb0f5",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1777867205.646,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "no time to rerun all baselines before weds honestly. ill add a note and fix it after"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_e862a870f363cfeec2df8add28",
+     "message_source": null,
+     "turn_exchange_id": "afb325f0-67e2-4dc8-ab4e-98e5677eae5f",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "46fcbbe0-f5e4-4ff4-a564-4707c4676145",
+   "children": [
+    "34cae05b-47cf-413b-b7cc-c12281edc0fa"
+   ]
+  },
+  "34cae05b-47cf-413b-b7cc-c12281edc0fa": {
+   "id": "34cae05b-47cf-413b-b7cc-c12281edc0fa",
+   "message": {
+    "id": "34cae05b-47cf-413b-b7cc-c12281edc0fa",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1777867224.408,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Understood. Then make the note specific so it's useful later:\n\n> *Splits.* The current train/test split is random at the window level. Because a student contributes many windows, this split may allow student-level information to appear in both train and test. We will release a student-grouped split and report results on it.\n\nAnd put a TODO in your tracker with the date, so it actually happens before reviews come back."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_e862a870f363cfeec2df8add28",
+     "message_type": "next",
+     "turn_exchange_id": "afb325f0-67e2-4dc8-ab4e-98e5677eae5f",
+     "model_slug": "gpt-5-3",
+     "default_model_slug": "gpt-5-3",
+     "resolved_model_slug": "gpt-5-3",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "4b189ac6-99bd-4180-a426-e5bfefbeb0f5"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "4b189ac6-99bd-4180-a426-e5bfefbeb0f5",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "34cae05b-47cf-413b-b7cc-c12281edc0fa",
+ "plugin_ids": null,
+ "conversation_id": "69f818a2-79e0-8398-3987-b3c47b42f15c",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-3",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "69f818a2-79e0-8398-3987-b3c47b42f15c"
+}

@@ -1,0 +1,27 @@
+From: David Barron <dbarron410@vt.edu>
+To: Yan Chen <ychen.prime@vt.edu>
+Subject: IDETrace: leakage bug in the train/test split
+Date: Fri, 24 Jul 2026 23:50:00 -0400
+Message-ID:
+ <CASXLyi6zqANRoLPcxVvHqRn+wnBuslnbLubx6WVEQXMvdwDqF5f7M@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1871657199207302699
+X-Gmail-Labels: Sent
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Yan,
+
+I found a problem in IDETrace while preparing the NeurIPS rebuttal. The split=
+ script assigned windows to train/test at random, so windows from the same st=
+udent ended up in both sets. The model was partly recognizing students, not s=
+tates.
+
+I fixed it with a split grouped by student id. Macro-F1 drops from 0.81 to 0.=
+74.
+
+My proposal: report both numbers in the rebuttal, explain the bug plainly, an=
+d release the corrected split script. I think hiding it would be worse than t=
+he drop.
+
+David

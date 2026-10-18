@@ -1,0 +1,25 @@
+# PRIME Lab (VT) DM with Rezky — synthetic
+@2025-10-21
+14:30 rezky | for the virtualized timeline, ok to pull in react-window? or do you want no new deps
+14:33 david | react-window is fine, it's tiny
+
+@2025-11-12
+16:05 rezky | dashboard shows section B recovering. what did you change
+16:08 david | flushQueue on reconnect. one line. i'm embarrassed
+16:09 rezky | it's always one line
+
+@2026-03-25
+12:40 rezky | do you want the lane colors to match the labeling tool or the paper palette
+12:42 david | paper palette (okabe-ito). we can change the tool later
+
+@2026-08-04
+17:30 rezky | read the handoff doc. q: where does the dep #2 raw export live after you leave, your drive?
+17:40 david | moving it to the lab shared drive tonight: `PRIME/vizpi/deployments/2025-11-12_dep2/`. i'll keep my drive copy too
+
+@2026-08-05
+10:15 rezky | deployed vizpi_frontend to staging myself following the doc. one thing missing: you need `VITE_WS_URL` in the env or the reconnect logic silently does nothing
+10:20 david | oof, adding it to the doc now. good catch
+
+@2026-09-30
+11:00 rezky | fyi John wants vizpi in 3114 again next spring. we're on
+11:30 david | let's goooo. tell him hi from sf

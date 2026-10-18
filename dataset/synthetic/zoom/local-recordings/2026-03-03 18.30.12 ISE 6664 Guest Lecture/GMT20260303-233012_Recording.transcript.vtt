@@ -1,0 +1,413 @@
+WEBVTT
+
+1
+00:00:03.393 --> 00:00:12.997
+Alan Brooks: Okay, it says recording in progress, good. Welcome, everybody. Tonight is the guest lecture I've been promising since January. Dr.
+
+2
+00:00:13.260 --> 00:00:27.877
+Alan Brooks: Renata Castillo runs the Affect and Learning Lab at Lakeshore State, and she's going to talk about measuring frustration, which, as you'll see, maps onto about half of your project topics.
+
+3
+00:00:28.283 --> 00:00:30.203
+Alan Brooks: Renata, take it away.
+
+4
+00:00:31.779 --> 00:00:38.050
+Renata Castillo: Thanks, Alan. Can everyone see my slides? Just give me a thumbs up.
+
+5
+00:00:38.796 --> 00:00:42.955
+Alan Brooks: Yep, we see "Measuring Frustration Without Fooling Yourself".
+
+6
+00:00:44.261 --> 00:00:49.389
+Renata Castillo: Great. So, um, I want to start with a confession.
+
+7
+00:00:49.494 --> 00:01:00.296
+Renata Castillo: I spent the first three years of my PhD building a frustration detector that, it turned out, mostly detected people who type loudly.
+
+8
+00:01:01.039 --> 00:01:03.353
+Renata Castillo: I'm only half joking.
+
+9
+00:01:03.494 --> 00:01:17.694
+Renata Castillo: The model was trained on keystroke pressure from a special keyboard, and the labels came from observers in the room, and the observers could of course also hear the keyboard.
+
+10
+00:01:17.949 --> 00:01:21.826
+Renata Castillo: So the labels and the features were entangled.
+
+11
+00:01:23.361 --> 00:01:25.779
+Renata Castillo: That's the theme for tonight.
+
+12
+00:01:26.002 --> 00:01:36.252
+Renata Castillo: Every affect measure has a ground-truth problem, and the interesting part of the work is being honest about which one you have.
+
+13
+00:01:36.798 --> 00:01:47.293
+Renata Castillo: So here's the menu. Broadly there are four families of measurement. Self-report. Observation. Physiological signals. And behavioral traces, meaning logs, clicks, text.
+
+14
+00:01:47.872 --> 00:01:59.409
+Renata Castillo: Self-report first. You ask the person. A questionnaire after the task, or experience sampling during it, where a little prompt pops up every few minutes.
+
+15
+00:01:59.648 --> 00:02:10.725
+Renata Castillo: It's cheap, it's direct, and it's biased in every way you'd expect. People under-report frustration to an experimenter, especially when the task is graded.
+
+16
+00:02:12.102 --> 00:02:23.810
+Renata Castillo: Experience sampling also interrupts the very thing you're measuring. If I ask you every three minutes whether you're frustrated, by the fourth time, you are.
+
+17
+00:02:25.033 --> 00:02:29.170
+Alan Brooks: I can confirm that from my own studies.
+
+18
+00:02:29.801 --> 00:02:34.001
+Renata Castillo: Observation. The classic in education is the BROMP protocol.
+
+19
+00:02:34.112 --> 00:02:45.056
+Renata Castillo: Trained observers code students in a fixed rotation, twenty-second windows, with a small set of states: engaged concentration, confusion, frustration, boredom, delight, surprise.
+
+20
+00:02:45.263 --> 00:02:51.653
+Renata Castillo: Reliability is decent once observers are trained, kappa around point six or higher.
+
+21
+00:02:52.192 --> 00:03:02.932
+Renata Castillo: The cost is obvious. You need trained people in the room, and they see the face and the posture but not the screen.
+
+22
+00:03:03.127 --> 00:03:13.661
+Renata Castillo: They can tell you a student looks frustrated, but not that the compiler just threw the same error for the sixth time.
+
+23
+00:03:14.292 --> 00:03:23.426
+Renata Castillo: Physiological. Electrodermal activity, heart rate, heart rate variability, sometimes facial EMG, and now a lot of webcam-based expression analysis.
+
+24
+00:03:23.748 --> 00:03:30.343
+Renata Castillo: The appeal is that it's continuous and the person doesn't have to say anything.
+
+25
+00:03:31.066 --> 00:03:34.831
+Renata Castillo: The problem is that arousal isn't valence.
+
+26
+00:03:35.142 --> 00:03:45.271
+Renata Castillo: EDA goes up when you're frustrated, it goes up when you're excited, and it goes up when the room is warm.
+
+27
+00:03:45.674 --> 00:03:50.270
+Renata Castillo: Heart rate variability drops with stress and with coffee.
+
+28
+00:03:50.512 --> 00:03:59.029
+Renata Castillo: So physiological signals are great at telling you that something happened and not great at telling you what.
+
+29
+00:04:00.362 --> 00:04:12.815
+Renata Castillo: And facial expression models, I'll be blunt, were mostly trained on posed expressions, and learners at a computer have a pretty flat face most of the time.
+
+30
+00:04:13.123 --> 00:04:21.562
+Renata Castillo: What you mostly see is the furrowed brow of concentration, which these models often call confusion or anger.
+
+31
+00:04:22.175 --> 00:04:26.079
+David Barron: Sorry, can I ask a quick clarifying question?
+
+32
+00:04:27.135 --> 00:04:28.583
+Renata Castillo: Of course.
+
+33
+00:04:29.879 --> 00:04:39.674
+David Barron: When you say webcam models confuse concentration with confusion, is that a known false positive rate, or more of an impression?
+
+34
+00:04:40.407 --> 00:04:41.895
+Renata Castillo: Good question.
+
+35
+00:04:42.222 --> 00:04:57.212
+Renata Castillo: In our own data, when we compared a commercial expression classifier against BROMP codes, about forty percent of the windows the model called "confused" were coded as engaged concentration by the observers.
+
+36
+00:04:57.448 --> 00:05:02.767
+Renata Castillo: So it's measured, in one dataset. I wouldn't generalize the number.
+
+37
+00:05:09.026 --> 00:05:10.971
+David Barron: Got it, thanks.
+
+38
+00:05:12.331 --> 00:05:20.956
+Renata Castillo: Okay, the fourth family, and the one I think most of you will end up using: behavioral traces.
+
+39
+00:05:21.063 --> 00:05:31.418
+Renata Castillo: In a programming environment that's keystrokes, compiles, errors, runs, idle time. In a tutoring system it's hint requests, attempts, time per step.
+
+40
+00:05:31.686 --> 00:05:38.562
+Renata Castillo: And now, more and more, it's text, what the student types to a chatbot.
+
+41
+00:05:39.064 --> 00:05:50.769
+Renata Castillo: The classic findings here, and I think Alan assigned some of these, are things like gaming the system, rapid repeated hint requests, and error repetition.
+
+42
+00:05:50.960 --> 00:06:05.809
+Renata Castillo: A student who hits the same compiler error several times in a row with small edits in between: that sequence is one of the more reliable behavioral correlates of frustration we have.
+
+43
+00:06:07.057 --> 00:06:19.132
+Renata Castillo: But, and this is the important but, behavioral features predict the label you trained on. If your labels came from observers, you're predicting what observers see.
+
+44
+00:06:19.397 --> 00:06:27.969
+Renata Castillo: If they came from self-report, you're predicting what students are willing to say. Neither one is frustration itself.
+
+45
+00:06:29.327 --> 00:06:33.054
+Renata Castillo: So my practical advice, slide twelve: triangulate.
+
+46
+00:06:33.345 --> 00:06:45.366
+Renata Castillo: Pick a primary label source, say so explicitly, and use a second source to check whether your detector tracks the construct or just tracks the labeler.
+
+47
+00:06:46.775 --> 00:06:57.519
+Renata Castillo: Let me show you an example from our chatbot tutoring study, because I think it's close to what some of you are doing.
+
+48
+00:06:58.783 --> 00:07:08.109
+Renata Castillo: About a hundred and twenty undergrads in a statistics course used an LLM tutor for homework. We logged every message.
+
+49
+00:07:08.447 --> 00:07:19.502
+Renata Castillo: Then we did retrospective self-report: after the session, students watched a replay of their own chat and marked the moments where they felt frustrated.
+
+50
+00:07:20.225 --> 00:07:31.420
+Renata Castillo: So what did frustration look like in text? A few things. Repair sequences, where the student rephrases the same question two or three times.
+
+51
+00:07:31.848 --> 00:07:42.437
+Renata Castillo: Messages getting shorter over time. Politeness markers dropping out, the "please" and "thanks" disappear. And my favorite, quoting the tutor back to itself.
+
+52
+00:07:42.656 --> 00:07:48.688
+Renata Castillo: "You said to use the t-test." That's almost always a bad sign.
+
+53
+00:07:49.556 --> 00:07:54.004
+Renata Castillo: What did not work well was off-the-shelf sentiment analysis.
+
+54
+00:07:54.421 --> 00:08:04.346
+Renata Castillo: Students are very polite to chatbots, more than to people, and a frustrated message often reads as neutral or even positive.
+
+55
+00:08:04.799 --> 00:08:09.298
+Renata Castillo: "Okay thanks, but I'm still getting the wrong answer."
+
+56
+00:08:10.639 --> 00:08:20.867
+Alan Brooks: Let me jump in, there's a question in the chat from Maya. She asks how you handled students who never marked anything.
+
+57
+00:08:21.485 --> 00:08:27.957
+Renata Castillo: Yes, thank you, Maya. About a fifth of the students marked zero frustration moments.
+
+58
+00:08:28.092 --> 00:08:34.527
+Renata Castillo: Some of them really weren't frustrated, the problem set was easy for them.
+
+59
+00:08:34.803 --> 00:08:41.366
+Renata Castillo: Others, when we interviewed a subset, said they just didn't want to admit it.
+
+60
+00:08:41.829 --> 00:08:48.985
+Renata Castillo: We ended up treating zero-markers separately rather than as negative examples, and I'd recommend that.
+
+61
+00:08:49.978 --> 00:08:56.189
+Renata Castillo: Okay, let me move to evaluation, because this is where projects go wrong.
+
+62
+00:08:56.640 --> 00:09:04.255
+Renata Castillo: First, base rates. Frustration is rare. In our data it was about seven percent of windows.
+
+63
+00:09:04.323 --> 00:09:12.461
+Renata Castillo: So a detector that always says "not frustrated" gets ninety-three percent accuracy. Please, please don't report accuracy.
+
+64
+00:09:12.829 --> 00:09:18.172
+Renata Castillo: Report per-class precision and recall, or macro-F1, or a precision-recall curve.
+
+65
+00:09:19.408 --> 00:09:21.493
+Renata Castillo: Second, split by person.
+
+66
+00:09:21.627 --> 00:09:34.213
+Renata Castillo: If the same student is in your training data and your test data, the model learns that student's style, your numbers look wonderful, and they mean nothing.
+
+67
+00:09:34.434 --> 00:09:37.185
+Renata Castillo: Group your splits by student.
+
+68
+00:09:37.661 --> 00:09:45.074
+Renata Castillo: Third, think about the window. Thirty seconds, two minutes, a whole conversation turn? Frustration builds.
+
+69
+00:09:45.557 --> 00:09:58.222
+Renata Castillo: A model that sees two minutes of context will look better than one that sees ten seconds, but it's less useful if you want to intervene early.
+
+70
+00:09:59.029 --> 00:10:08.748
+Renata Castillo: And fourth, the ethics piece, which I know Alan cares about. Detecting frustration is a short step from acting on it.
+
+71
+00:10:09.052 --> 00:10:21.281
+Renata Castillo: If your system detects frustration and responds, who sees that label? Is it stored? Does the instructor see a "frustrated" flag next to a student's name?
+
+72
+00:10:21.578 --> 00:10:26.226
+Renata Castillo: Students should know, and knowing changes how they behave.
+
+73
+00:10:27.178 --> 00:10:36.378
+Renata Castillo: So that's the core. I have a couple of slides on our wearables work, but I'd rather take questions. Alan?
+
+74
+00:10:46.407 --> 00:10:54.137
+Alan Brooks: Yes, let's do questions. Raise a hand or just unmute. David, I saw your hand first.
+
+75
+00:10:54.798 --> 00:11:06.664
+David Barron: Thanks. So, um, our project, with Maya and Jordan, is on frustration signals in AI-tutoring transcripts. We only have the text. No video, no physio.
+
+76
+00:11:06.983 --> 00:11:13.873
+David Barron: And we were planning to label turns ourselves, the three of us reading transcripts.
+
+77
+00:11:14.576 --> 00:11:15.676
+Renata Castillo: Okay.
+
+78
+00:11:16.908 --> 00:11:21.697
+David Barron: My worry after your talk is exactly the politeness thing.
+
+79
+00:11:22.082 --> 00:11:31.183
+David Barron: A lot of the messages we've looked at are really polite and the student is still, like, clearly stuck.
+
+80
+00:11:31.454 --> 00:11:40.136
+David Barron: So if we can't do retrospective self-report, because the data's already collected, what's the least-bad way to label?
+
+81
+00:11:40.774 --> 00:11:51.664
+Renata Castillo: That's a very real constraint. A few suggestions. One, label sequences, not single turns. Give your raters the previous three or four exchanges.
+
+82
+00:11:51.717 --> 00:11:56.174
+Renata Castillo: Frustration is much easier to see in a trajectory.
+
+83
+00:11:57.398 --> 00:12:00.830
+Renata Castillo: Two, write a codebook with behavioral anchors.
+
+84
+00:12:01.047 --> 00:12:12.782
+Renata Castillo: Instead of "student seems frustrated", use things like "student repeats a request with minimal change", "student contradicts or quotes the tutor", "message length drops sharply".
+
+85
+00:12:12.935 --> 00:12:16.975
+Renata Castillo: Raters agree more when they code observable things.
+
+86
+00:12:18.528 --> 00:12:24.979
+Renata Castillo: Three, compute agreement on a shared subset before you split up the work.
+
+87
+00:12:25.419 --> 00:12:34.976
+Renata Castillo: If your kappa on the shared set is below about point six, revise the codebook before you label the rest.
+
+88
+00:12:36.051 --> 00:12:45.133
+David Barron: That's really helpful. Is it a problem if the things in the codebook are also features in the model?
+
+89
+00:12:45.619 --> 00:12:50.903
+David Barron: Like, repeated requests is both a label anchor and a feature.
+
+90
+00:12:52.040 --> 00:12:55.466
+Renata Castillo: Ah. Yes. That's my loud-keyboard problem again.
+
+91
+00:12:55.819 --> 00:13:06.677
+Renata Castillo: If the codebook says repetition means frustration and the model then uses repetition as a feature, you'll get great numbers that are circular.
+
+92
+00:13:07.032 --> 00:13:18.522
+Renata Castillo: Either keep those anchors out of the model, or say explicitly that you're modeling the codebook and evaluate against something independent, even if it's small.
+
+93
+00:13:18.861 --> 00:13:24.462
+David Barron: Okay. Yeah, that's exactly the trap we were walking into. Thank you.
+
+94
+00:13:25.338 --> 00:13:32.240
+Renata Castillo: I'm happy to look at your codebook if Alan wants to pass it along.
+
+95
+00:13:33.464 --> 00:13:44.180
+Alan Brooks: I'll take you up on that. Jordan asks in the chat: did you ever find a physiological signal that separates frustration from confusion?
+
+96
+00:13:44.516 --> 00:13:49.659
+Renata Castillo: Short answer, no, not on its own. Both raise arousal.
+
+97
+00:13:49.798 --> 00:14:00.490
+Renata Castillo: The best separation we've seen comes from combining arousal with what's happening in the task, like whether the student just got negative feedback.
+
+98
+00:14:00.785 --> 00:14:06.394
+Renata Castillo: The context does the work. The sensor tells you when to look.
+
+99
+00:14:07.632 --> 00:14:15.905
+Alan Brooks: Great. One more? Okay, I don't see more hands. Renata, thank you so much, this was terrific.
+
+100
+00:14:16.323 --> 00:14:27.250
+Alan Brooks: Everyone, proposals are due Thursday, and if your project uses affect labels I want a paragraph on where your ground truth comes from.
+
+101
+00:14:27.550 --> 00:14:29.962
+Alan Brooks: That's straight from tonight.
+
+102
+00:14:36.299 --> 00:14:39.954
+Renata Castillo: Thanks, everyone. Good luck with the projects.
+
+103
+00:14:41.148 --> 00:14:44.664
+Alan Brooks: I'm going to stop the recording now.

@@ -1,0 +1,49 @@
+{
+ "uuid": "a707e8be-96ab-4674-aaa0-1d103f5b4c1d",
+ "slug": "paper-has-arxiv-v1-and-later-published-at-l-s-25-k7LvldWlsMs1Iti4SN66do",
+ "title": "Citing a paper with both arXiv and L@S versions",
+ "thread_url": "https://www.perplexity.ai/search/paper-has-arxiv-v1-and-later-published-at-l-s-25-k7LvldWlsMs1Iti4SN66do",
+ "created_at": "2026-03-30T17:05:00Z",
+ "updated_at": "2026-03-30T17:08:10Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "d713c240-5cc7-44c8-a99d-b088e8317379",
+   "query_str": "paper has arxiv v1 and later published at L@S 25 with slightly different numbers. which do i cite, and do i cite both",
+   "answer": "Cite the **published (L@S '25) version** and use its numbers; that's the version of record [1]. Don't cite both as separate references — reviewers read that as padding, and it can look like two papers. Exceptions:\n- If you specifically discuss something that **only appears in the preprint** (e.g., an analysis cut from the camera-ready), cite the arXiv version for that point and say so [1].\n- In your `.bib`, keep **one entry** with the DOI; some people add the arXiv ID in a `note` or `eprint` field [2].\n\nAlso double-check any number you quote: if you copied it from the preprint (e.g., 0.69 macro-F1), update it to the camera-ready figure [2].",
+   "sources": [
+    {
+     "name": "Citing preprints and published versions",
+     "url": "https://www.academicwritingguide.org/citing-preprints",
+     "snippet": "Version-of-record guidance for papers with preprints."
+    },
+    {
+     "name": "BibTeX tips for computer science papers",
+     "url": "https://www.latexforresearchers.org/bibtex-tips",
+     "snippet": "Using DOI and eprint fields in one entry."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "sonar",
+   "created_at": "2026-03-30T17:05:00Z",
+   "updated_at": "2026-03-30T17:05:15Z"
+  },
+  {
+   "uuid": "59f5792d-ecad-4c13-a1f9-44b3bf74d4b2",
+   "query_str": "yep we had 0.69 from the arxiv in the draft lol. thx",
+   "answer": "Common mistake — worth a quick search of the draft for any other numbers taken from the preprint (kappa was also slightly different: 0.62 in v1 vs 0.64 published) [1].",
+   "sources": [
+    {
+     "name": "ACM Digital Library — Productive Struggle or Silent Stalling? (L@S '25)",
+     "url": "https://dl.acm.org/doi/10.1145/3698205.3729841",
+     "snippet": "Camera-ready numbers: macro-F1 0.71, kappa 0.64."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "pplx_pro",
+   "created_at": "2026-03-30T17:07:50Z",
+   "updated_at": "2026-03-30T17:08:02Z"
+  }
+ ]
+}

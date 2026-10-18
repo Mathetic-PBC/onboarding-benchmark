@@ -1,0 +1,81 @@
+{
+  "issue": {
+    "id": "PIL-12",
+    "uuid": "5e6a83e6-a191-48d3-a34a-85808d4f9a5f",
+    "title": "Import progress: show counts per source while importing",
+    "description": "Replace \"Working…\" with a row per source: found / imported / duplicates so far. Pull the numbers from the same counters as the import log (PIL-6).",
+    "projectMilestone": {
+      "id": "c7f372c4-1916-4b8f-bf0f-0d7e2ecef6d7",
+      "name": "First two pilots onboarded"
+    },
+    "priority": {
+      "value": 3,
+      "name": "Medium"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-12/import-progress-show-counts-per-source-while-importing",
+    "gitBranchName": "david/pil-12-import-progress-show-counts-per-source-while-importing",
+    "createdAt": "2026-10-03T20:35:30.012Z",
+    "updatedAt": "2026-10-08T05:10:43.482Z",
+    "archivedAt": null,
+    "completedAt": "2026-10-08T05:10:43.482Z",
+    "startedAt": "2026-10-06T16:30:19.083Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [
+      "Onboarding",
+      "Improvement"
+    ],
+    "createdBy": "Hudson",
+    "assignee": "David Barron",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-12",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-03T20:35:30.012Z",
+        "endedAt": "2026-10-06T16:30:19.083Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-06T16:30:19.083Z",
+        "endedAt": "2026-10-08T05:10:43.482Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-10-08T05:10:43.482Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": []
+}

@@ -1,0 +1,47 @@
+From: David Barron <david.barron.runs@gmail.com>
+To: Garmin Product Support <support@garmin.com>
+Subject: Re: Case 08837215 - Forerunner not syncing sleep data
+Date: Fri, 15 May 2026 08:09:00 -0400
+Message-ID:
+ <CAit0Vw3tFBUyK_bf7XpYxRLfez9oK+1AL_2P7f6Zemn2huQ2+tCXH@mail.gmail.com>
+In-Reply-To: <04ecb3100187a7e772b3dba3.9c7ab949@garmin.com>
+References:
+ <CA8OviipgTazogoeY5scGfFsoMp_Ncs6eRT5fx9l6nqXuh7UCZ1Ano@mail.gmail.com>
+ <04ecb3100187a7e772b3dba3.9c7ab949@garmin.com>
+MIME-Version: 1.0
+X-GM-THRID: 1865131826872835292
+X-Gmail-Labels: Sent
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+that fixed it, last night's sleep and HRV showed up. thanks Mariana
+
+On Thu, May 14, 2026 at 2:26 PM Garmin Product Support <support@garmin.com> w=
+rote:
+> Hi David,
+>
+> Thanks for the detail, it helps. This is a known issue with 21.18 when the =
+watch's health data file grows past a certain size. Please try:
+>
+> 1. On the watch: Settings > System > Data Recording > Clear health data cac=
+he (this does not delete activities).
+> 2. In Garmin Connect: More > Settings > Garmin Devices > Forerunner 265 > S=
+ync now.
+> 3. If sleep still doesn't appear after the next night, reply here and we'll=
+ send the 21.22 beta, which fixes it.
+>
+> Kind regards,
+> Mariana
+> Garmin Product Support
+>
+> On Wed, May 13, 2026 at 11:12 PM David Barron <david.barron.runs@gmail.com>=
+ wrote:
+>> Hi,
+>>
+>> My Forerunner 265 has stopped syncing sleep and HRV data to Garmin Connect=
+ since about May 6. Runs sync fine. I'm on software 21.18, the iPhone app is =
+up to date, and I've already restarted both the watch and the phone. Morning =
+reports on the watch show sleep, it just never shows up in the app.
+>>
+>> Thanks,
+>> David

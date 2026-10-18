@@ -1,0 +1,35 @@
+{
+  "customViews": [
+    {
+      "id": "ad3ebec7-7ee2-4245-8667-2c65c16ffbad",
+      "name": "Pilot bugs",
+      "description": "Pilot feedback + Bug, not done",
+      "shared": true,
+      "filterData": {
+        "labels": {
+          "name": {
+            "in": [
+              "Pilot feedback",
+              "Bug"
+            ]
+          }
+        },
+        "state": {
+          "type": {
+            "nin": [
+              "completed",
+              "canceled",
+              "duplicate"
+            ]
+          }
+        }
+      },
+      "createdAt": "2026-10-10T19:00:38.315Z",
+      "owner": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      }
+    }
+  ],
+  "hasNextPage": false
+}

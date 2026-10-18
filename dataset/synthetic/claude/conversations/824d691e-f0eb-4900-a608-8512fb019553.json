@@ -1,0 +1,204 @@
+{
+ "uuid": "824d691e-f0eb-4900-a608-8512fb019553",
+ "name": "Labeling guide v3: stalled-after-error state",
+ "summary": "",
+ "model": "claude-sonnet-4-5-20250929",
+ "created_at": "2025-11-17T02:29:58.257110Z",
+ "updated_at": "2025-11-17T02:37:45.032071Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "off",
+ "chat_messages": [
+  {
+   "uuid": "c5b69f42-87eb-4d9d-9bd5-89489ecdfe24",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2025-11-17T02:30:00.000000Z",
+     "stop_timestamp": "2025-11-17T02:30:00.000000Z",
+     "type": "text",
+     "text": "we're labeling vizpi windows (30s each) from the cs3114 deployment. current states in guide v2: productive, struggling, help-seeking, idle/off-task. problem: lots of windows where student hits an error then just... sits there. minsun labels those idle, xiaohang labels struggling. i want to add a state. help me define it so they agree",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2025-11-17T02:30:00.000000Z",
+   "updated_at": "2025-11-17T02:30:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "40eb6dfc-1408-428e-95ef-a4ade5b1689b",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2025-11-17T02:30:02.000000Z",
+     "stop_timestamp": "2025-11-17T02:30:25.000000Z",
+     "type": "text",
+     "text": "The disagreement is a sign the current states conflate two things: *activity level* (idle) and *task state* (stuck). A student staring at an error is inactive but not off-task.\n\nProposed state: **Stalled-after-error**\n\n**Definition**: The window starts within 120 s after a failed run, compile error, or failing test, and the student makes **no edits and no runs** for at least 20 of the 30 seconds, with the editor still focused (or the error/output panel open).\n\n**Decision rules**\n- If the student switches to a non-course tab (if you log focus) → **idle/off-task**, not stalled.\n- If the student is editing the line the error points to, even slowly → **struggling**.\n- If the student opens the help/hint panel or messages a TA → **help-seeking** (takes priority).\n- If >120 s have passed since the error with no activity → **idle/off-task** (the error is no longer the likely cause).\n\n**Boundary examples to put in the guide**\n1. Error at 0:05, nothing until 0:30, editor focused → stalled-after-error.\n2. Error at 0:05, scrolling through the file, no edits → stalled-after-error (scrolling isn't editing).\n3. Error at 0:05, deletes and retypes the same line twice → struggling.\n4. Error 3 min ago, no activity → idle.\n\nThe 120 s cutoff is arbitrary; check it against a sample before you lock it in.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2025-11-17T02:30:25.000000Z",
+   "updated_at": "2025-11-17T02:30:25.000000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "c5b69f42-87eb-4d9d-9bd5-89489ecdfe24"
+  },
+  {
+   "uuid": "27a9bd58-f0ee-4e3d-87bb-89befd65e158",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2025-11-17T02:33:03.000000Z",
+     "stop_timestamp": "2025-11-17T02:33:03.000000Z",
+     "type": "text",
+     "text": "do we log tab focus? i think the extension logs visibilitychange but not which tab",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2025-11-17T02:33:03.000000Z",
+   "updated_at": "2025-11-17T02:33:03.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "40eb6dfc-1408-428e-95ef-a4ade5b1689b"
+  },
+  {
+   "uuid": "10d6f8ae-816b-40d9-95d3-57ebfa326221",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2025-11-17T02:33:05.000000Z",
+     "stop_timestamp": "2025-11-17T02:33:12.639000Z",
+     "type": "text",
+     "text": "`visibilitychange` gives you \"the IDE tab was hidden\", which is enough for the rule: hidden → off-task, visible and no activity → stalled. You don't need to know which other tab they went to (and it's better for privacy that you don't).\n\nOne caveat: if students use a second monitor, the IDE stays \"visible\" while they read something else. You can't detect that, so mention it in the guide as a known limitation rather than trying to infer it.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2025-11-17T02:33:12.639000Z",
+   "updated_at": "2025-11-17T02:33:12.639000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "27a9bd58-f0ee-4e3d-87bb-89befd65e158"
+  },
+  {
+   "uuid": "3effa186-225f-44e5-a7e1-bd288147a549",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2025-11-17T02:36:00.639000Z",
+     "stop_timestamp": "2025-11-17T02:36:00.639000Z",
+     "type": "text",
+     "text": "ok and how do we check the 120s cutoff",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2025-11-17T02:36:00.639000Z",
+   "updated_at": "2025-11-17T02:36:00.639000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "10d6f8ae-816b-40d9-95d3-57ebfa326221"
+  },
+  {
+   "uuid": "efa779b4-9896-46de-ad48-bac10c8b740c",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2025-11-17T02:36:02.639000Z",
+     "stop_timestamp": "2025-11-17T02:36:16.218000Z",
+     "type": "text",
+     "text": "Cheap check with the windows you already have:\n\n1. Pull every failed-run event and look at the gap until the next edit or run.\n2. Plot the distribution of those gaps (histogram, log x-axis).\n3. You'll usually see a bump of short gaps (reading the error, 5–60 s) and a long tail (left, distracted).\n\nPut the cutoff where the bump ends. If it's at 90 s or 150 s, use that and write the number in the guide with one sentence on how you got it. That also gives you a figure for the paper.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2025-11-17T02:36:16.218000Z",
+   "updated_at": "2025-11-17T02:36:16.218000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "3effa186-225f-44e5-a7e1-bd288147a549"
+  },
+  {
+   "uuid": "87113dbd-4237-4b2d-89af-ab98aeec0133",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2025-11-17T02:37:22.218000Z",
+     "stop_timestamp": "2025-11-17T02:37:22.218000Z",
+     "type": "text",
+     "text": "the bump ends ~100s. ok going with 100. write me the guide entry as it should appear in v3",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 6,
+   "created_at": "2025-11-17T02:37:22.218000Z",
+   "updated_at": "2025-11-17T02:37:22.218000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "efa779b4-9896-46de-ad48-bac10c8b740c"
+  },
+  {
+   "uuid": "a04b6215-cd63-48df-986d-37cfdb10e860",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2025-11-17T02:37:24.218000Z",
+     "stop_timestamp": "2025-11-17T02:37:43.185000Z",
+     "type": "text",
+     "text": "**4. Stalled-after-error** *(new in v3)*\n\nA window is **stalled-after-error** when all of the following hold:\n- it begins within **100 s** of a failed run, compile error, or failing test;\n- the student makes **no edits and no runs** for at least 20 s of the window;\n- the IDE tab is **visible** for the whole window.\n\nPriority: help-seeking > struggling > stalled-after-error > idle/off-task.\n\nNot stalled-after-error:\n- editing near the error, even slowly → struggling\n- IDE tab hidden → idle/off-task\n- more than 100 s since the error → idle/off-task\n\nWhy 100 s: in deployment #2, the gap between a failed run and the next edit/run had a clear mode under 100 s (reading the error); longer gaps were mostly unrelated pauses.\n\nKnown limitation: a student reading on a second monitor appears visible and inactive.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 7,
+   "created_at": "2025-11-17T02:37:43.185000Z",
+   "updated_at": "2025-11-17T02:37:43.185000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "87113dbd-4237-4b2d-89af-ab98aeec0133"
+  }
+ ],
+ "current_leaf_message_uuid": "a04b6215-cd63-48df-986d-37cfdb10e860"
+}

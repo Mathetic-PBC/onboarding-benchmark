@@ -1,0 +1,114 @@
+[
+  {
+    "ts": "1776697241.536412",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2026-04-20 08:00:41 PDT",
+    "text": "<@U0SYN2JB5HW|Xiaohang> has joined the channel"
+  },
+  {
+    "ts": "1776697302.171569",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-04-20 08:01:42 PDT",
+    "text": "<@U0SYNZSPT5P|David Barron> has joined the channel"
+  },
+  {
+    "ts": "1776697323.119064",
+    "user": "U0SYNRUS5ER",
+    "user_name": "Yue",
+    "datetime": "2026-04-20 08:02:03 PDT",
+    "text": "<@U0SYNRUS5ER|Yue> has joined the channel"
+  },
+  {
+    "ts": "1776697831.146226",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2026-04-20 08:10:31 PDT",
+    "text": "channel for IDETrace @ NeurIPS D&B. deadline May 6. what we have: ~61k thirty-second windows from 4 course offerings, IDE telemetry + labels from 3 deployments. what we need: datasheet, splits, baselines, hosting\nReactions: +1 (2)"
+  },
+  {
+    "ts": "1776890442.749558",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-04-22 13:40:42 PDT",
+    "text": "baselines plan: majority, logistic regression on hand features, GBDT (lightgbm), a small transformer over event sequences. macro-F1 over 5 states. splits 70/15/15, random by window for now\nThread: 2 replies (latest: 2026-04-22 14:12:56 PDT)"
+  },
+  {
+    "ts": "1777601736.805050",
+    "user": "U0SYNRUS5ER",
+    "user_name": "Yue",
+    "datetime": "2026-04-30 19:15:36 PDT",
+    "text": "datasheet draft is in overleaf appendix B. still need: license (cc-by-nc?), deidentification process, consent language\nThread: 1 replies (latest: 2026-04-30 19:40:09 PDT)"
+  },
+  {
+    "ts": "1777786238.266556",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-05-02 22:30:38 PDT",
+    "text": "baseline results v1: GBDT 0.81 macro-F1, transformer 0.79, LR 0.66, majority 0.17. gbdt wins on stalled-after-error, which is funny\nReactions: eyes (2), fire (1)"
+  },
+  {
+    "ts": "1778026857.983608",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2026-05-05 17:20:57 PDT",
+    "text": "dataset uploaded to the hosting bucket, croissant metadata validates ✅ doi reserved\nReactions: tada (2)"
+  },
+  {
+    "ts": "1778111889.061980",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-05-06 16:58:09 PDT",
+    "text": "submitted 🫡 openreview page looks right. thanks both\nReactions: tada (3)"
+  },
+  {
+    "ts": "1784037944.206453",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2026-07-14 07:05:44 PDT",
+    "text": "reviews are in: 6, 5, 4. R3 asks how splits were made and whether windows from one student can be in both train and test"
+  },
+  {
+    "ts": "1784868055.241815",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-07-23 21:40:55 PDT",
+    "text": "ok so R3 is right. i checked: 96% of students have windows in both train and test. we split by window, not by student. this is leakage\nThread: 4 replies (latest: 2026-07-24 06:12:50 PDT)\nReactions: scream (2)"
+  },
+  {
+    "ts": "1785018614.011172",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-07-25 15:30:14 PDT",
+    "text": "grouped split results: GBDT 0.74 (was 0.81), transformer 0.70 (was 0.79), LR 0.64 (was 0.66). the transformer drops the most, consistent with memorization\nThread: 1 replies (latest: 2026-07-25 15:41:53 PDT)\nReactions: eyes (2)\nFiles: idetrace_f1_random_vs_grouped.csv (ID: F0SYN0G1VHD, text/csv, 399 B)"
+  },
+  {
+    "ts": "1785201347.604150",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-07-27 18:15:47 PDT",
+    "text": "rebuttal plan: report both numbers in one table (random-window vs student-grouped), say the released splits are now grouped, update the datasheet. no hiding it\nReactions: +1 (3)"
+  },
+  {
+    "ts": "1785297040.010974",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2026-07-28 20:50:40 PDT",
+    "text": "new splits uploaded as `splits_v2_grouped/`. v1 kept but marked deprecated in the README\nReactions: white_check_mark (2)"
+  },
+  {
+    "ts": "1785355535.884402",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-07-29 13:05:35 PDT",
+    "text": "rebuttal posted on openreview. both numbers reported: 0.81 → 0.74 macro-F1 for the best baseline under the student-grouped split\nReactions: muscle (2)"
+  },
+  {
+    "ts": "1787160640.206938",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2026-08-19 10:30:40 PDT",
+    "text": "R3 raised their score to 6 after the rebuttal. discussion period ends 8/26\nReactions: fire (3)"
+  }
+]

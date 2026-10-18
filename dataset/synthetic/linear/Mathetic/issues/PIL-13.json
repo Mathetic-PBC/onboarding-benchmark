@@ -1,0 +1,71 @@
+{
+  "issue": {
+    "id": "PIL-13",
+    "uuid": "e97a86f6-e6c6-49e8-98fe-c32953bfc68a",
+    "title": "Recording consent line in the session invite",
+    "description": "Add: \"We'd like to record the screen share for our notes only. Say no and we won't, no problem.\" Ask again at the start of the call.",
+    "projectMilestone": {
+      "id": "c7f372c4-1916-4b8f-bf0f-0d7e2ecef6d7",
+      "name": "First two pilots onboarded"
+    },
+    "priority": {
+      "value": 4,
+      "name": "Low"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-13/recording-consent-line-in-the-session-invite",
+    "gitBranchName": "david/pil-13-recording-consent-line-in-the-session-invite",
+    "createdAt": "2026-10-05T23:00:03.766Z",
+    "updatedAt": "2026-10-06T17:20:20.272Z",
+    "archivedAt": null,
+    "completedAt": "2026-10-06T17:20:20.272Z",
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [
+      "Ops"
+    ],
+    "createdBy": "Hudson",
+    "assignee": "Hudson",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-13",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-05T23:00:03.766Z",
+        "endedAt": "2026-10-06T17:20:20.272Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-10-06T17:20:20.272Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": []
+}

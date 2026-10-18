@@ -1,0 +1,495 @@
+{
+ "id": "97197d73-bb1c-49c2-967f-d477ef285089",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Surplus check-in (Lena / Mathetic)",
+ "created_at": "2026-08-27T22:28:40.000Z",
+ "updated_at": "2026-08-27T22:36:45.098Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "c890ccf6eb2700f4bb8be30e65",
+  "summary": "Surplus check-in (Lena / Mathetic)",
+  "start": {
+   "dateTime": "2026-08-27T15:30:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-08-27T16:00:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true
+   },
+   {
+    "email": "lena@surplus.house",
+    "displayName": "Lena Hoffmann",
+    "responseStatus": "accepted",
+    "organizer": true
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted"
+   }
+  ],
+  "organizer": {
+   "email": "lena@surplus.house"
+  },
+  "creator": {
+   "email": "lena@surplus.house"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=2ebcf4ac8ccc078518524461f5ecc6e8cd69d31f",
+  "status": "confirmed",
+  "hangoutLink": "https://meet.google.com/kkn-gjhp-jpn"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Lena Hoffmann",
+    "email": "lena@surplus.house"
+   },
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### Numbers this week\n\n- Real user conversations: 3 (target was 7)\n- Researcher list: 14 of 20 names; 9 at Berkeley\n- First Berkeley research chats booked: Sep 9 (Elena Park) and Sep 10 (Priya Raman); a third (stats postdoc) pending\n- Metric (\"median hours to first useful recall\") not measurable yet — nothing deployed\n\n### Lena's feedback\n\n- Problem paragraph is much better; cut the last sentence (\"we believe…\")\n- Stop calling them \"research chats\" with interviewees, just \"conversations about how you work\"\n- Don't show the product in the first 3 chats; listen for the words people use\n- Asked whether either of them has done formal interviews before — David has (PhD user studies); he'll write the guide\n\n### Demo night\n\n- Oct 29; each team gets 4 minutes + 2 for questions\n- Lena wants a rough 4-minute version by Oct 1\n\n### Delaware / legal\n\n- Surplus legal reviewed the SAFE template: fine, wants the MFN clause spelled out\n- Reminder that the Delaware annual report and franchise tax are due Mar 1, 2027 — Hudson owns it\n\n### Action items\n\n- [ ] David — interview guide (30 min, 6 questions, no product demo) by Sep 4\n- [ ] Hudson — fix MFN wording in SAFE; calendar reminder for DE annual report (due 2027-03-01)\n- [ ] Both — finish the 20-name list; 5 conversations next week\n",
+ "notes_plain": "Numbers this week\n\nReal user conversations: 3 (target was 7)\nResearcher list: 14 of 20 names; 9 at Berkeley\nFirst Berkeley research chats booked: Sep 9 (Elena Park) and Sep 10 (Priya Raman); a third (stats postdoc) pending\nMetric (\"median hours to first useful recall\") not measurable yet — nothing deployed\n\nLena's feedback\n\nProblem paragraph is much better; cut the last sentence (\"we believe…\")\nStop calling them \"research chats\" with interviewees, just \"conversations about how you work\"\nDon't show the product in the first 3 chats; listen for the words people use\nAsked whether either of them has done formal interviews before — David has (PhD user studies); he'll write the guide\n\nDemo night\n\nOct 29; each team gets 4 minutes + 2 for questions\nLena wants a rough 4-minute version by Oct 1\n\nDelaware / legal\n\nSurplus legal reviewed the SAFE template: fine, wants the MFN clause spelled out\nReminder that the Delaware annual report and franchise tax are due Mar 1, 2027 — Hudson owns it\n\nAction items\n\nDavid — interview guide (30 min, 6 questions, no product demo) by Sep 4\nHudson — fix MFN wording in SAFE; calendar reminder for DE annual report (due 2027-03-01)\nBoth — finish the 20-name list; 5 conversations next week\n",
+ "transcript": [
+  {
+   "id": "e1370023-ecaf-4a19-a766-d91df116bf29",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:30:10.252Z",
+   "end_timestamp": "2026-08-27T22:30:13.712Z",
+   "text": "Hi hi. Okay, Thursday. Number first. How many?",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "2a3907d4-b32e-46a3-85f1-00e98d4de007",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:30:15.815Z",
+   "end_timestamp": "2026-08-27T22:30:16.753Z",
+   "text": "Three.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "5a37e7e0-304d-454f-9bc8-2287f720a9ab",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:30:18.194Z",
+   "end_timestamp": "2026-08-27T22:30:19.454Z",
+   "text": "Three real ones?",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "0739f384-c090-4d1c-ae1d-0d6b19bd3bfb",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:30:20.831Z",
+   "end_timestamp": "2026-08-27T22:30:30.142Z",
+   "text": "Three real ones. One was a postdoc friend of a friend, two were people from the alumni list you sent.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "43448f1c-ac69-4d36-8942-a90dea56717d",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:30:32.178Z",
+   "end_timestamp": "2026-08-27T22:30:36.270Z",
+   "text": "Okay. That's not seven but it's not zero. List?",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "37627af0-f80c-4d96-bf6d-0758476d2f94",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:30:37.034Z",
+   "end_timestamp": "2026-08-27T22:30:48.161Z",
+   "text": "Fourteen out of twenty. Nine at Berkeley. And we have two booked, the ninth and the tenth. Elena Park, she's learning sciences, and Priya Raman, education and HCI.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "47f195f9-b8cb-458a-9b37-403787db667c",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:30:48.929Z",
+   "end_timestamp": "2026-08-27T22:30:51.159Z",
+   "text": "Great. Those are in person?",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "b63cc6e4-49b8-455c-9ad1-3a99f6730abe",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:30:51.542Z",
+   "end_timestamp": "2026-08-27T22:31:01.247Z",
+   "text": "Yeah, we'll go over to campus. There's a third, a statistics postdoc, but he's only free on Zoom, so maybe the sixteenth.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "44d0db18-3dfc-4511-855a-963b4eda2e2a",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:31:02.685Z",
+   "end_timestamp": "2026-08-27T22:31:06.418Z",
+   "text": "Fine. Zoom's fine. Okay, your paragraph. I read it.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "69dd7543-cd18-41ae-8eb3-680f8163b57e",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:31:07.976Z",
+   "end_timestamp": "2026-08-27T22:31:09.002Z",
+   "text": "And?",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "506e458c-8f67-48ba-88f7-feacc814f2b0",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:31:10.592Z",
+   "end_timestamp": "2026-08-27T22:31:19.761Z",
+   "text": "Much better. No \"notebook,\" I noticed. Cut the last sentence. Every \"we believe\" sentence is a sentence you don't need.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "46df5947-af47-4d84-9249-ec3bb8a239b5",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:31:21.721Z",
+   "end_timestamp": "2026-08-27T22:31:23.252Z",
+   "text": "Ha, that was mine.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "a2252151-2fb5-46e4-a9dc-c8ce145f8d14",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:31:25.197Z",
+   "end_timestamp": "2026-08-27T22:31:29.014Z",
+   "text": "I know it was yours, it sounded like a paper.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "a396a598-4894-4af5-852c-d186e6d7c867",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:31:30.840Z",
+   "end_timestamp": "2026-08-27T22:31:33.822Z",
+   "text": "It's a — yeah, it's a habit.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "5ba854da-cc78-46d6-8e74-2acb21fd8670",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:31:34.670Z",
+   "end_timestamp": "2026-08-27T22:31:36.976Z",
+   "text": "Okay, metric. Did you measure it?",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "f4acc524-1ac6-4b04-bb05-ecf5953f98af",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:31:38.058Z",
+   "end_timestamp": "2026-08-27T22:31:45.592Z",
+   "text": "Um, no. There's nothing deployed to measure. We have importers working on fixtures but nobody's using anything.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0a774e2c-5d22-4080-974c-c4a4cdfd08db",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:31:47.769Z",
+   "end_timestamp": "2026-08-27T22:31:58.622Z",
+   "text": "That's fine for now. Just tell me that every week until it's not true. I'd rather hear \"not measurable yet\" than a fake number.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "b6e12e9f-16fe-4272-84e0-49af61b9929a",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:31:59.482Z",
+   "end_timestamp": "2026-08-27T22:32:01.011Z",
+   "text": "That we can do.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a263aac2-53d3-46a3-a60b-fda94347ba2c",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:32:02.522Z",
+   "end_timestamp": "2026-08-27T22:32:06.525Z",
+   "text": "For the Berkeley conversations. Can I give you one note?",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "53f8fb64-1e78-4d76-805e-b8d897333270",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:32:08.008Z",
+   "end_timestamp": "2026-08-27T22:32:08.961Z",
+   "text": "Yeah, please.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "30d62ab1-d9e9-45e3-b288-7e69687eee31",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:32:10.331Z",
+   "end_timestamp": "2026-08-27T22:32:17.939Z",
+   "text": "Stop calling them research chats. When you email people. It sounds like you're doing a study on them.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "4cd7d44d-978b-49ec-b457-2ad447273f95",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:32:19.136Z",
+   "end_timestamp": "2026-08-27T22:32:23.723Z",
+   "text": "Oh. Hm. I mean I kind of am. That's the PhD brain.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "2b54c652-4d9c-4ba3-87ed-38598008ca45",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:32:23.920Z",
+   "end_timestamp": "2026-08-27T22:32:40.291Z",
+   "text": "Call it \"a conversation about how you work.\" And don't show them the product in the first three. Just listen. Write down the exact words they use for the problem. If they say \"I lose stuff\" that's your landing page, not \"provenance.\"",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "3b566019-5e8f-4a58-a9a3-e1af457f7556",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:32:42.286Z",
+   "end_timestamp": "2026-08-27T22:32:44.094Z",
+   "text": "She's dunking on \"provenance.\"",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "1ac2d2c6-21b9-412d-b166-206d2e91169a",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:32:45.665Z",
+   "end_timestamp": "2026-08-27T22:32:48.973Z",
+   "text": "I'm absolutely dunking on provenance. Nobody says provenance.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "885a20c7-c37a-4315-949e-f1a558debca7",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:32:50.884Z",
+   "end_timestamp": "2026-08-27T22:32:53.115Z",
+   "text": "Researchers kind of say provenance.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "801df047-4593-413d-821a-e0e49c25b5ca",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:32:54.304Z",
+   "end_timestamp": "2026-08-27T22:33:02.883Z",
+   "text": "Do they? Then write it down if they do! That's the point. Has either of you done interviews before? Like properly?",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "b80f373f-7557-4ce9-8a97-ec1f2cce948e",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:33:03.877Z",
+   "end_timestamp": "2026-08-27T22:33:11.704Z",
+   "text": "Yeah, I've done user studies for my PhD work. Think-alouds, semi-structured interviews, the — um, the whole IRB thing.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ce4cda21-d7b5-4138-a35a-98a9d19b224d",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:33:12.301Z",
+   "end_timestamp": "2026-08-27T22:33:16.313Z",
+   "text": "Then you write the guide. Thirty minutes, six questions max.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "8ee608b2-d3c5-46e1-8da1-6a9b9ecb0b46",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:33:17.497Z",
+   "end_timestamp": "2026-08-27T22:33:19.828Z",
+   "text": "Six. Okay. By next Thursday?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "b896cac0-9827-41cd-a67e-b6833a6fe9a1",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:33:21.100Z",
+   "end_timestamp": "2026-08-27T22:33:27.560Z",
+   "text": "By next Thursday. Okay, demo night. October twenty-ninth. Four minutes plus two for questions.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "1e3e8d6e-7024-4600-8407-81c9dbc5383c",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:33:28.081Z",
+   "end_timestamp": "2026-08-27T22:33:30.202Z",
+   "text": "Four minutes is so short.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "01546067-4fd7-4ed5-9bc8-23ed2722b909",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:33:31.904Z",
+   "end_timestamp": "2026-08-27T22:33:39.312Z",
+   "text": "Four minutes is forever on stage. I want a rough version October first. Rough. Bullet points even.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "4e88fe78-50e8-4ab4-910f-e86489bc41f7",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:33:39.971Z",
+   "end_timestamp": "2026-08-27T22:33:48.373Z",
+   "text": "October first. I have a conference talk the week after, the seventh, so, um, early is actually better for me.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "03e0e42a-cef0-4d4f-88ce-63d8b415c79d",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:33:48.835Z",
+   "end_timestamp": "2026-08-27T22:34:02.446Z",
+   "text": "The UIST one? Good, you'll be warmed up. Legal, last thing. Our person looked at the SAFE template. It's fine. She wants the MFN clause written out instead of referenced.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "78e2610f-44fc-487c-bd3e-fafa55ad1086",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:34:02.760Z",
+   "end_timestamp": "2026-08-27T22:34:04.666Z",
+   "text": "I can fix that today.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "96f34637-a12a-4fae-941b-c5c66824253b",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:34:05.496Z",
+   "end_timestamp": "2026-08-27T22:34:17.951Z",
+   "text": "And somebody needs to own the Delaware annual report. It's due March first. People forget and then they're not in good standing right when they're closing a round.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "189947ab-23b8-4604-b943-615b06f31404",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:34:20.083Z",
+   "end_timestamp": "2026-08-27T22:34:23.559Z",
+   "text": "I'll put it on the calendar. March first, 2027.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "093ef80f-f7e8-4e59-baea-7c9826b5d0be",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:34:25.405Z",
+   "end_timestamp": "2026-08-27T22:34:28.178Z",
+   "text": "Okay. Five conversations next week. Go.",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  },
+  {
+   "id": "e9bff209-edcd-40a8-8ee5-4fbd9d3567ec",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:34:29.165Z",
+   "end_timestamp": "2026-08-27T22:34:30.082Z",
+   "text": "Five. Okay.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "3c732714-a90b-4d5c-b4c3-24f3994f4f9b",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:34:30.354Z",
+   "end_timestamp": "2026-08-27T22:34:31.219Z",
+   "text": "Thanks Lena.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "5b276c66-516e-4dc8-80df-df2f7b7112a7",
+   "document_id": "97197d73-bb1c-49c2-967f-d477ef285089",
+   "start_timestamp": "2026-08-27T22:34:33.134Z",
+   "end_timestamp": "2026-08-27T22:34:34.098Z",
+   "text": "Bye guys!",
+   "source": "system",
+   "speaker": "Lena Hoffmann",
+   "is_final": true
+  }
+ ]
+}

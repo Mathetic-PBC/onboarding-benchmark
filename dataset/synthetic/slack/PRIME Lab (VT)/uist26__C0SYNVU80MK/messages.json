@@ -1,0 +1,184 @@
+[
+  {
+    "ts": "1770910095.892870",
+    "user": "U0SYNWFLRZV",
+    "user_name": "Yan Chen",
+    "datetime": "2026-02-12 07:28:15 PST",
+    "text": "<@U0SYNWFLRZV|Yan Chen> has joined the channel"
+  },
+  {
+    "ts": "1770910180.100383",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-02-12 07:29:40 PST",
+    "text": "<@U0SYNZSPT5P|David Barron> has joined the channel"
+  },
+  {
+    "ts": "1770910209.272972",
+    "user": "U0SYN15CS2P",
+    "user_name": "Minsun",
+    "datetime": "2026-02-12 07:30:09 PST",
+    "text": "<@U0SYN15CS2P|Minsun> has joined the channel"
+  },
+  {
+    "ts": "1770910291.552479",
+    "user": "U0SYNS0GL2E",
+    "user_name": "Rezky",
+    "datetime": "2026-02-12 07:31:31 PST",
+    "text": "<@U0SYNS0GL2E|Rezky> has joined the channel"
+  },
+  {
+    "ts": "1770910811.724722",
+    "user": "U0SYNRUS5ER",
+    "user_name": "Yue",
+    "datetime": "2026-02-12 07:40:11 PST",
+    "text": "<@U0SYNRUS5ER|Yue> has joined the channel"
+  },
+  {
+    "ts": "1770911157.582297",
+    "user": "U0SYNWFLRZV",
+    "user_name": "Yan Chen",
+    "datetime": "2026-02-12 07:45:57 PST",
+    "text": "Plan for TutorTrace @ UIST 2026. Deadline March 31 (AoE), abstract registration March 24.\nOwners: David (lead; intro, system, study), Minsun (labeling + reliability), Rezky (replay viewer + figures), Yue (analysis + video figure).\nFirst full draft to me by March 16, please.\nReactions: +1 (4)"
+  },
+  {
+    "ts": "1771562419.636244",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-02-19 20:40:19 PST",
+    "text": "outline is in overleaf: <https://www.overleaf.com/project/65d3f1a0c9e4b2a7f1e08d3b|TutorTrace UIST26>. sections 1–3 have bullets, 4–6 are empty. the claim: a TA-facing replay of labeled help-seeking states lets TAs triage who to visit, in close to real time\nReactions: eyes (2)"
+  },
+  {
+    "ts": "1773641652.390306",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-03-15 23:14:12 PDT",
+    "text": "first full draft is in overleaf. 11 pages, over by 1. related work is rough\nThread: 2 replies (latest: 2026-03-16 15:05:17 PDT)\nReactions: eyes (2)"
+  },
+  {
+    "ts": "1774270852.115192",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-03-23 06:00:52 PDT",
+    "text": "crunch week plan (deadline tue 3/31 AoE = wed 4/1 7:59am ET):\nmon 3/23: restructure contributions per Yan\ntue 3/24: abstract registered in PCS (title + abstract + authors)\nwed 3/25: figures freeze except fig 4\nthu 3/26: full read by Minsun + Yue\nfri 3/27: video figure first cut\nsat–mon: polish, cut to 10 pages\ntue 3/31: submit by 9pm ET, no heroics\nReactions: muscle (4), sweat_smile (2)"
+  },
+  {
+    "ts": "1774384967.734173",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-03-24 13:42:47 PDT",
+    "text": "abstract registered. PCS id uist26a-1187\nReactions: white_check_mark (3)"
+  },
+  {
+    "ts": "1774458640.580493",
+    "user": "U0SYNS0GL2E",
+    "user_name": "Rezky",
+    "datetime": "2026-03-25 10:10:40 PDT",
+    "text": "fig 3 (replay viewer with state lanes) v4 is in overleaf → `figures/replay_lanes_v4.pdf`. colorblind-safe palette, stalled-after-error is the orange lane\nThread: 2 replies (latest: 2026-03-25 10:50:35 PDT)"
+  },
+  {
+    "ts": "1774583743.861343",
+    "user": "U0SYN15CS2P",
+    "user_name": "Minsun",
+    "datetime": "2026-03-26 20:55:43 PDT",
+    "text": "read the whole thing. biggest issue: section 5 says kappa 0.71 but table 2 still has 0.68 from november\nThread: 1 replies (latest: 2026-03-26 20:58:19 PDT)\nReactions: scream (1)"
+  },
+  {
+    "ts": "1774661450.495638",
+    "user": "U0SYNRUS5ER",
+    "user_name": "Yue",
+    "datetime": "2026-03-27 18:30:50 PDT",
+    "text": "video figure first cut (2:58): <https://drive.google.com/file/d/1aQ7tUe5Vb0Hn2kLsXp8RmW4cZoJ9yDf3/view|tutortrace_video_v1.mp4>. no narration yet\nThread: 2 replies (latest: 2026-03-27 19:12:02 PDT)"
+  },
+  {
+    "ts": "1774761644.057855",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-03-28 22:20:44 PDT",
+    "text": "down to 10.4 pages. cutting the second deployment-logistics paragraph and merging tables 3+4"
+  },
+  {
+    "ts": "1774893918.961976",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-03-30 11:05:18 PDT",
+    "text": "status: 10 pages + refs ✅  figures final ✅  video v2 with narration ✅ (thx yue)  supplementary zip ❌ (need to anonymize the labeling guide first)\nReactions: +1 (3)"
+  },
+  {
+    "ts": "1774914003.523214",
+    "user": "U0SYNS0GL2E",
+    "user_name": "Rezky",
+    "datetime": "2026-03-30 16:40:03 PDT",
+    "text": "anonymized the guide: removed \"VT\", \"CS 3114\" and our names from the header and the example screenshots\nThread: 1 replies (latest: 2026-03-30 16:44:10 PDT)"
+  },
+  {
+    "ts": "1775005114.903404",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-03-31 17:58:34 PDT",
+    "text": "final pass done. uploading"
+  },
+  {
+    "ts": "1775013150.462755",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-03-31 20:12:30 PDT",
+    "text": "SUBMITTED. paper + video + supplement. thank you all 🙏\nThread: 2 replies (latest: 2026-03-31 20:20:39 PDT)\nReactions: tada (5), partying_face (3), sob (2)"
+  },
+  {
+    "ts": "1781181004.153887",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-06-11 05:30:04 PDT",
+    "text": "uist reviews are out. scores 4, 3.5, 3, 2.5 (1AC + 3). main asks:\n1. label reliability: how were raters calibrated, is 0.71 good enough\n2. generalization beyond one course (cs 3114 only)\n3. privacy of keystroke + prompt telemetry\nrebuttal due thu 6/18. drafting tonight\nThread: 3 replies (latest: 2026-06-11 06:42:54 PDT)\nReactions: eyes (3)"
+  },
+  {
+    "ts": "1781575832.001037",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-06-15 19:10:32 PDT",
+    "text": "rebuttal draft v1 is in overleaf, `rebuttal.tex`. 4,980 of 5,000 chars lol. <@U0SYNWFLRZV|Yan Chen> when you have a moment"
+  },
+  {
+    "ts": "1781708449.607732",
+    "user": "U0SYNRUS5ER",
+    "user_name": "Yue",
+    "datetime": "2026-06-17 08:00:49 PDT",
+    "text": "cs 1114 windows: 300 labeled by me + minsun, kappa 0.69. stalled-after-error share is 14% vs 17% in 3114\nThread: 1 replies (latest: 2026-06-17 08:05:56 PDT)\nReactions: fire (3)"
+  },
+  {
+    "ts": "1781819134.113518",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-06-18 14:45:34 PDT",
+    "text": "rebuttal submitted. promised: cross-course analysis (cs 1114, n=23, 300 windows, κ=0.69) + a limitations section on telemetry privacy and single-institution data\nReactions: +1 (4)"
+  },
+  {
+    "ts": "1783034128.670188",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-07-02 16:15:28 PDT",
+    "text": "conditionally accepted!!! conditions: add the cross-course analysis + limitations section, as promised\nReactions: tada (5)"
+  },
+  {
+    "ts": "1786428326.402440",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-08-10 23:05:26 PDT",
+    "text": "camera-ready todo (due fri 8/14):\n- [x] cross-course analysis → section 6.3\n- [x] limitations\n- [ ] de-anonymize (names, VT, CS 3114, acknowledgments)\n- [ ] ACM rights form + TAPS\n- [ ] fig 3 at 300 dpi\nReactions: +1 (2)"
+  },
+  {
+    "ts": "1786570240.823623",
+    "user": "U0SYNS0GL2E",
+    "user_name": "Rezky",
+    "datetime": "2026-08-12 14:30:40 PDT",
+    "text": "fig 3 re-exported as a vector pdf, TAPS should be happy now\nReactions: pray (1)"
+  },
+  {
+    "ts": "1786771508.579980",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-08-14 22:25:08 PDT",
+    "text": "camera-ready submitted through TAPS. done done\nReactions: tada (4), heart (2)"
+  }
+]

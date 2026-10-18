@@ -1,0 +1,27 @@
+# PRIME Lab (VT) DM with Minsun — synthetic
+@2025-11-14
+08:40 minsun | do you want me to calibrate with xiaohang before batch A or just start
+08:45 david | 40 windows together first, in the lab at 10? i'll pull a mixed sample across states and both sections
+08:46 minsun | ok
+
+@2025-11-21
+19:10 minsun | honestly the stalled-after-error state made the last 3 days so much faster
+19:20 david | ty for pushing on it, it was your catch
+
+@2026-03-27
+00:10 minsun | sorry for the 11:55pm table 2 message lol
+00:12 david | no that was a save. reviewers would have eaten us
+
+@2026-03-31
+16:30 minsun | do you need me for anything tonight? otherwise i'm going to the gym and then i'm on call
+16:35 david | go, i'll ping if latex explodes
+
+@2026-06-12
+11:45 minsun | want me to write the calibration paragraph for the rebuttal? i remember it better than the doc says
+11:47 david | yes please, 3–4 sentences, i'll merge
+13:20 minsun | "Before labeling, the three raters jointly labeled 40 windows sampled across states and sections, discussed disagreements, and revised the guide (v3 added stalled-after-error). Raters then labeled independently with 15% pairwise overlap; disputed windows (n = 351) were adjudicated by discussion. Final Fleiss' κ = 0.71."
+13:25 david | perfect, pasted verbatim
+
+@2026-08-07
+14:10 minsun | the lunch was fun. you better come back to visit
+14:20 david | i will!! blacksburg in october is too nice to skip

@@ -1,0 +1,765 @@
+{
+ "id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Engelbart pilot onboarding — Daniel Osei (pilot B)",
+ "created_at": "2026-10-13T15:57:33.000Z",
+ "updated_at": "2026-10-13T16:22:52.924Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "42b933b9e49c8dbb181816b599",
+  "summary": "Engelbart pilot onboarding — Daniel Osei (pilot B)",
+  "start": {
+   "dateTime": "2026-10-13T09:00:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-10-13T09:45:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true
+   },
+   {
+    "email": "dosei@andrew.cmu.edu",
+    "displayName": "Daniel Osei",
+    "responseStatus": "accepted"
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted",
+    "organizer": true
+   }
+  ],
+  "organizer": {
+   "email": "hudson@mathetic.com"
+  },
+  "creator": {
+   "email": "hudson@mathetic.com"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=ea1519c9eadbc1c9df0ab253054f9bc3c9b8885a",
+  "status": "confirmed",
+  "hangoutLink": "https://meet.google.com/abk-gsqm-vok"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Daniel Osei",
+    "email": "dosei@andrew.cmu.edu"
+   },
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### About Daniel\n\n- Postdoc at CMU (HCII), works on accessibility of data visualizations; writes 2–3 papers/year with many co-authors\n- Main tools: Notion (lab wiki + his own project pages, \"everything goes in Notion\"), Granola for all meetings, Zotero, Overleaf; uses ChatGPT occasionally, Claude rarely\n- Paragraph he brought: grant-proposal \"preliminary work\" section\n\n### Connect screen\n\n- Looked for Notion first, then Granola — neither is there\n- Clicked **\"Other\"** expecting a list of more integrations; landed on file upload and said \"oh, this is just upload?\" — confused for ~40 s\n- Ended up exporting a Notion workspace zip (Markdown + CSV) and uploading it through Other\n- Connected Zotero (~1,100 items) and ChatGPT export\n\n### Import\n\n- Notion zip: 318 pages imported as plain files; page hierarchy lost (folders flattened, database rows became separate CSVs)\n- Notion file names carry the 32-char id suffix → titles look like \"Meeting notes 3f2a…\"; looks broken\n- Zotero fine; ChatGPT 61 conversations, 0 skipped\n- No Granola data at all — his meeting notes are where most decisions live\n\n### Writing task\n\n- First confirmed suggestion at ~9 min: a Notion page from a lab meeting (via the zip)\n- Said the trail is \"exactly what a grant reviewer asks — where did this come from\"\n- Wanted meeting notes as first-class sources: \"half my ideas are said out loud\"\n\n### Daniel's asks\n\n1. Native Notion connector (keep hierarchy, clean titles)\n2. Granola import (notes + transcript)\n3. Rename \"Other\"; show what's coming soon\n4. Shared lab spaces eventually (not now)\n\n### Action items\n\n- [ ] Hudson — rename \"Other\" → \"Upload files\" + add \"Request a source\" tile (2 of 2 pilots confused)\n- [ ] David — strip Notion id suffixes from titles; rebuild hierarchy from the zip paths\n- [ ] David — scope Granola import (API / local cache) — this week\n- [ ] Hudson — send Daniel summary + follow-up date\n",
+ "notes_plain": "About Daniel\n\nPostdoc at CMU (HCII), works on accessibility of data visualizations; writes 2–3 papers/year with many co-authors\nMain tools: Notion (lab wiki + his own project pages, \"everything goes in Notion\"), Granola for all meetings, Zotero, Overleaf; uses ChatGPT occasionally, Claude rarely\nParagraph he brought: grant-proposal \"preliminary work\" section\n\nConnect screen\n\nLooked for Notion first, then Granola — neither is there\nClicked \"Other\" expecting a list of more integrations; landed on file upload and said \"oh, this is just upload?\" — confused for ~40 s\nEnded up exporting a Notion workspace zip (Markdown + CSV) and uploading it through Other\nConnected Zotero (~1,100 items) and ChatGPT export\n\nImport\n\nNotion zip: 318 pages imported as plain files; page hierarchy lost (folders flattened, database rows became separate CSVs)\nNotion file names carry the 32-char id suffix → titles look like \"Meeting notes 3f2a…\"; looks broken\nZotero fine; ChatGPT 61 conversations, 0 skipped\nNo Granola data at all — his meeting notes are where most decisions live\n\nWriting task\n\nFirst confirmed suggestion at ~9 min: a Notion page from a lab meeting (via the zip)\nSaid the trail is \"exactly what a grant reviewer asks — where did this come from\"\nWanted meeting notes as first-class sources: \"half my ideas are said out loud\"\n\nDaniel's asks\n\n1. Native Notion connector (keep hierarchy, clean titles)\n2. Granola import (notes + transcript)\n3. Rename \"Other\"; show what's coming soon\n4. Shared lab spaces eventually (not now)\n\nAction items\n\nHudson — rename \"Other\" → \"Upload files\" + add \"Request a source\" tile (2 of 2 pilots confused)\nDavid — strip Notion id suffixes from titles; rebuild hierarchy from the zip paths\nDavid — scope Granola import (API / local cache) — this week\nHudson — send Daniel summary + follow-up date\n",
+ "transcript": [
+  {
+   "id": "10a26f4b-f074-4a6d-99cc-b6035f997e2d",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:00:13.126Z",
+   "end_timestamp": "2026-10-13T16:00:18.437Z",
+   "text": "Hey, good morning — or, sorry, it's noon here. Good morning to you.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "c098132a-cc52-4cd3-b78c-3ef847a5467b",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:00:18.873Z",
+   "end_timestamp": "2026-10-13T16:00:22.479Z",
+   "text": "Good morning! Hi Daniel. Thanks for doing this.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "710e7f72-8597-4841-aa3b-7ce49186a79a",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:00:23.765Z",
+   "end_timestamp": "2026-10-13T16:00:28.464Z",
+   "text": "Hi Daniel. Is it okay if we record? It's just for us.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "6abf47c0-fd84-44b0-94b0-fcd8656ee853",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:00:29.103Z",
+   "end_timestamp": "2026-10-13T16:00:34.093Z",
+   "text": "Sure, yeah. I'm recording too, actually, in Granola. Force of habit.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "2a92b7fa-016e-400e-a4b2-40ff5f895d4b",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:00:34.876Z",
+   "end_timestamp": "2026-10-13T16:00:37.586Z",
+   "text": "Ha, so are we. Two Granolas.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "fcb6e9a2-fa98-4db3-8cd7-9b6f1c803d6d",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:00:38.711Z",
+   "end_timestamp": "2026-10-13T16:00:39.602Z",
+   "text": "Meta.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "b6208580-f32b-4acf-a2fe-9f4360971cbc",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:00:41.686Z",
+   "end_timestamp": "2026-10-13T16:00:52.652Z",
+   "text": "Okay, so, quickly, before anything, known gaps. Claude Projects come in as loose chats, no Google Drive, and dedupe is still early, though we fixed a bunch since Friday.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "5270c597-ff21-4ea1-959e-be7593a19f8a",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:00:54.260Z",
+   "end_timestamp": "2026-10-13T16:00:58.254Z",
+   "text": "Okay. I don't really use Claude much, so that's fine.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "04ab9d87-7310-46b4-becd-077e0455f267",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:00:58.903Z",
+   "end_timestamp": "2026-10-13T16:01:04.164Z",
+   "text": "Great. Can you give us the tour? Where does your work live?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "dbb259cc-27a7-46d2-8052-a884936e7f76",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:01:05.018Z",
+   "end_timestamp": "2026-10-13T16:01:17.653Z",
+   "text": "Notion. Honestly, everything goes in Notion. Lab wiki, my project pages, reading notes, meeting notes. And Granola for all my meetings, which then I sometimes paste into Notion, sometimes not.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "abfd2433-ec14-45f9-8a94-d6ad0387250b",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:01:18.950Z",
+   "end_timestamp": "2026-10-13T16:01:19.831Z",
+   "text": "Mostly not?",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "e4978914-3518-494f-9ccf-fc5574a76133",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:01:20.917Z",
+   "end_timestamp": "2026-10-13T16:01:27.756Z",
+   "text": "Mostly not. Zotero for references. Overleaf for papers. ChatGPT sometimes, for, like, rewriting an abstract.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "b44d843d-3021-445b-9b1a-8c0e536ba0c8",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:01:28.236Z",
+   "end_timestamp": "2026-10-13T16:01:31.069Z",
+   "text": "What are you working on right now?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d85ca6d1-31f2-4ab2-a47e-a1a9a75c9f66",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:01:32.962Z",
+   "end_timestamp": "2026-10-13T16:01:40.279Z",
+   "text": "A grant proposal. Accessibility of data visualizations for blind and low-vision users. I brought the \"preliminary work\" section.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "c2b6e105-693a-4d43-b637-4fa09b61522a",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:01:42.402Z",
+   "end_timestamp": "2026-10-13T16:01:47.561Z",
+   "text": "Perfect, that's a great test actually. Okay, let me send you the link.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "450baec7-03a2-4ccc-8ee5-c4bb9a3b3091",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:01:48.000Z",
+   "end_timestamp": "2026-10-13T16:01:52.298Z",
+   "text": "Okay. Connect screen. Uh. Claude, ChatGPT, Zotero, Local PDFs... where's Notion?",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "f4bf2aa2-06e2-4cc6-857b-e6c9990ac35f",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:01:53.804Z",
+   "end_timestamp": "2026-10-13T16:01:55.879Z",
+   "text": "We don't have Notion yet.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "3a5a97e2-48cf-44d9-87ce-f25490b5ddd3",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:01:56.419Z",
+   "end_timestamp": "2026-10-13T16:01:57.369Z",
+   "text": "Oh. Granola?",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "dbb2f65d-eb96-424c-b32c-60f26c29cc09",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:01:58.216Z",
+   "end_timestamp": "2026-10-13T16:01:59.175Z",
+   "text": "Also no.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d07be2d8-1328-4458-ac95-bd52d7859b52",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:01:59.574Z",
+   "end_timestamp": "2026-10-13T16:02:03.473Z",
+   "text": "Okay. So the two things I use most aren't here.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "46e6c75e-ae0e-455b-8ea4-99bd5c47d2f0",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:02:05.229Z",
+   "end_timestamp": "2026-10-13T16:02:09.002Z",
+   "text": "Yeah. I'm sorry. That's — that's useful to hear though.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "6891a1da-7808-4a5d-b95c-cb4de6ad6840",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:02:09.798Z",
+   "end_timestamp": "2026-10-13T16:02:11.093Z",
+   "text": "I'll try Other.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "e79ae19b-a448-42e2-a416-1ee3bf5fb515",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:02:13.202Z",
+   "end_timestamp": "2026-10-13T16:02:14.832Z",
+   "text": "[quietly] Here we go.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a094823e-0714-4b01-86c8-37646edadbf6",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:02:16.519Z",
+   "end_timestamp": "2026-10-13T16:02:24.846Z",
+   "text": "Oh. \"Upload a zip or folder.\" Oh, this is just upload? I thought Other would be, like, a list of more integrations.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "ad1686bb-0ede-4937-825f-7f35434070ca",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:02:26.335Z",
+   "end_timestamp": "2026-10-13T16:02:30.566Z",
+   "text": "Yeah. That's — you're the second person to say that.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "01955bac-18db-440f-9808-45e7035e556d",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:02:32.424Z",
+   "end_timestamp": "2026-10-13T16:02:35.471Z",
+   "text": "It's a very \"Other\" thing to do.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "4033f040-85b8-479c-89a4-ff18a3560758",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:02:36.952Z",
+   "end_timestamp": "2026-10-13T16:02:38.903Z",
+   "text": "We're renaming it. This week.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "1d07f377-a98e-427b-990f-6aa9b7c43547",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:02:40.825Z",
+   "end_timestamp": "2026-10-13T16:02:45.904Z",
+   "text": "Okay, well, Notion can export a zip. Should I just do that?",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "cb301c46-f30b-408b-bf56-d48481e74ab3",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:02:46.614Z",
+   "end_timestamp": "2026-10-13T16:02:50.596Z",
+   "text": "If you're okay with it, yeah. Markdown and CSV.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d1d0b74c-b3b8-4d26-9c0f-853ace319679",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:02:52.158Z",
+   "end_timestamp": "2026-10-13T16:02:58.363Z",
+   "text": "Give me a sec. Notion... settings... export. Okay, it's emailing me a link. Hold on.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "99c5262c-4b9a-4d85-9ce5-5bf98e371853",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:04:33.491Z",
+   "end_timestamp": "2026-10-13T16:04:35.166Z",
+   "text": "Okay, got it. Uploading.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "f5e62d02-4de2-4f27-927b-dfc06db830ad",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:04:35.668Z",
+   "end_timestamp": "2026-10-13T16:04:40.484Z",
+   "text": "Can you do Zotero too, and ChatGPT if you have an export?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "6c26b225-2cf7-497d-9a2b-5fed3d7869d2",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:04:41.008Z",
+   "end_timestamp": "2026-10-13T16:04:45.324Z",
+   "text": "Zotero, yes. ChatGPT export, I have one from last month, sure.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "b41f0b59-1325-438d-8961-b78c480e16e2",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:04:47.369Z",
+   "end_timestamp": "2026-10-13T16:04:48.544Z",
+   "text": "Timestamp, import started.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "c48117e5-e50e-48df-8e3f-c46573a1b529",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:04:49.796Z",
+   "end_timestamp": "2026-10-13T16:04:53.890Z",
+   "text": "Okay, it's going. Zotero's big, it's like eleven hundred items.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "88f5b530-c2c8-4042-ae71-ff401ff5d7e4",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:04:55.381Z",
+   "end_timestamp": "2026-10-13T16:04:59.392Z",
+   "text": "Zotero's usually fine. Notion's the one I'm nervous about.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "5ebac543-7542-4518-81d3-d67ead57fb86",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:05:00.052Z",
+   "end_timestamp": "2026-10-13T16:05:00.982Z",
+   "text": "Why?",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "217e32a3-e87d-475d-bb0a-efae7b007754",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:05:02.877Z",
+   "end_timestamp": "2026-10-13T16:05:10.106Z",
+   "text": "Because a Notion export is just a pile of files. We don't really understand it yet.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "5ef53700-5578-4d2a-8933-3392de6ff958",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:09:46.593Z",
+   "end_timestamp": "2026-10-13T16:09:54.808Z",
+   "text": "Ha. Okay. Done. Summary card. Notion — well, \"Upload\" — three hundred eighteen files. Zotero, fine. ChatGPT, sixty-one conversations.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "12c23197-bebd-4d62-b2ad-cead0df5838d",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:09:55.920Z",
+   "end_timestamp": "2026-10-13T16:09:59.314Z",
+   "text": "Can you open one of the Notion ones?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "a420b2d7-b2bd-4e4f-bc4c-950cbfdf1639",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:10:00.923Z",
+   "end_timestamp": "2026-10-13T16:10:06.648Z",
+   "text": "Okay... \"Meeting notes 3f2a\" and then like thirty random characters. That's the title?",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "af4e515b-a2df-4ad9-a072-72095d7beda1",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:10:08.272Z",
+   "end_timestamp": "2026-10-13T16:10:12.171Z",
+   "text": "Oh no. That's the Notion id in the filename.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "6e385d2a-38c1-4946-ab14-949b2cb38044",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:10:13.690Z",
+   "end_timestamp": "2026-10-13T16:10:26.146Z",
+   "text": "All of them have it. And they're all flat. My lab wiki had, like, a hierarchy. Projects, then meetings under projects. It's just all in one list now.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "cd7535b4-ecbc-44db-be76-4539e21bcaf9",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:10:27.727Z",
+   "end_timestamp": "2026-10-13T16:10:32.117Z",
+   "text": "Yeah. The zip has folders, we're just ignoring them. That's fixable.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "624cab89-d3b0-47df-a209-cd0907db5d82",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:10:33.272Z",
+   "end_timestamp": "2026-10-13T16:10:41.092Z",
+   "text": "And the database. My reading list database turned into, um, a CSV and then a separate file for every row.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "39b35aa1-d457-4d8b-8689-21368cbf49da",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:10:42.928Z",
+   "end_timestamp": "2026-10-13T16:10:44.658Z",
+   "text": "Writing all of this.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "6b34885c-e7e2-401c-9cfb-010fd21591e2",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:10:45.052Z",
+   "end_timestamp": "2026-10-13T16:10:48.348Z",
+   "text": "Okay. This is really good. Painful, but good.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "bf097209-1306-4eb3-9036-5cc672e83326",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:10:48.606Z",
+   "end_timestamp": "2026-10-13T16:10:53.734Z",
+   "text": "It's fine, it's a pilot. Okay, what do I do now?",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "14876f47-2b8b-4b30-b4c4-c91461c62b40",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:10:55.146Z",
+   "end_timestamp": "2026-10-13T16:10:57.794Z",
+   "text": "Paste your preliminary-work paragraph into a page.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "a421f5d1-7b5c-40a1-87d6-7978827de86e",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:10:58.741Z",
+   "end_timestamp": "2026-10-13T16:11:04.267Z",
+   "text": "Pasted. Let me just, um, fix the end of it while it thinks.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "ecec6aa0-6fd4-4dc2-854f-9d404bec3d93",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:18:04.092Z",
+   "end_timestamp": "2026-10-13T16:18:14.704Z",
+   "text": "Okay. Suggestions. Hmm. A Zotero paper, that's right, that's my own paper. And... this is a Notion page from lab meeting in May. \"Meeting notes 3f2a\" whatever.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "a8a20e26-1410-4d06-a866-9685f57a31f7",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:18:16.513Z",
+   "end_timestamp": "2026-10-13T16:18:18.252Z",
+   "text": "Can you open it?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "672b9fb3-f127-4b99-b662-facc84a03761",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:18:19.441Z",
+   "end_timestamp": "2026-10-13T16:18:28.078Z",
+   "text": "Oh, yes. This is where we decided to pivot from sonification to tactile charts. That's exactly the thing this paragraph is about.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "6def2604-0858-4ad5-a3db-799cef40f694",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:18:29.086Z",
+   "end_timestamp": "2026-10-13T16:18:30.248Z",
+   "text": "Timestamp, confirmed suggestion.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ed8861b7-e9cb-439e-90d7-4bdcd6eb48d6",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:18:30.469Z",
+   "end_timestamp": "2026-10-13T16:18:39.989Z",
+   "text": "That's actually — okay, that's very good. That's exactly what a grant reviewer asks. Like, where did this come from, why did you pivot.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "cef30ef7-5d71-4a92-97a5-eff383e4fb46",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:18:41.567Z",
+   "end_timestamp": "2026-10-13T16:18:43.330Z",
+   "text": "That's the whole idea.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "5631de71-2dc7-4a49-8cd0-63695e353229",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:18:43.700Z",
+   "end_timestamp": "2026-10-13T16:18:56.770Z",
+   "text": "But you see the problem. That decision was in a meeting. The Notion page is me pasting a little bit from Granola. The full version is in Granola. And you can't get Granola.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "add7604a-39bb-43ba-bfe4-8c55bbc0c376",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:18:58.123Z",
+   "end_timestamp": "2026-10-13T16:18:59.007Z",
+   "text": "Right.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "50151cea-b335-4666-8cb6-f1bc35a514f0",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:19:00.782Z",
+   "end_timestamp": "2026-10-13T16:19:10.083Z",
+   "text": "Half my ideas are said out loud. In meetings. If you don't have meetings you don't have half of me.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "05f7049d-4740-448a-8a0f-271cdc8fb9fb",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:19:10.521Z",
+   "end_timestamp": "2026-10-13T16:19:16.790Z",
+   "text": "That's — yeah. I really like that. \"Half my ideas are said out loud.\"",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "4a535836-69eb-4557-9294-82c8273f5bd8",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:19:18.262Z",
+   "end_timestamp": "2026-10-13T16:19:19.789Z",
+   "text": "You can use it.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "15404ffc-3cb2-4da8-a22a-8032b09440a3",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:19:20.703Z",
+   "end_timestamp": "2026-10-13T16:19:24.480Z",
+   "text": "If we had to prioritize, what would you want first?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "2258931f-190f-4dbc-b397-8722ee2a3c52",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:19:25.085Z",
+   "end_timestamp": "2026-10-13T16:19:38.214Z",
+   "text": "Notion, properly. With the hierarchy and normal titles. Then Granola, notes and transcript. Then rename Other, honestly, just say \"coming soon: Notion, Granola,\" whatever. And then — someday — shared lab spaces. Not now.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "992c5c2e-0593-4402-8388-ee2c79864b36",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:19:40.293Z",
+   "end_timestamp": "2026-10-13T16:19:42.752Z",
+   "text": "That's a great list. Thank you.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "353692c0-8bef-4251-be08-1ad0cc66c0f2",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:19:43.744Z",
+   "end_timestamp": "2026-10-13T16:19:47.867Z",
+   "text": "Can I keep using it? Even with the Notion mess?",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "c120b16d-3264-4a40-aa5e-0a4261a70632",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:19:48.378Z",
+   "end_timestamp": "2026-10-13T16:19:51.263Z",
+   "text": "Please. We'll fix the titles this week.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "3bfc9373-da02-4bf8-a4b3-741d444952a2",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:19:51.731Z",
+   "end_timestamp": "2026-10-13T16:19:56.039Z",
+   "text": "I'll send you a summary today and a follow-up date.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "973cadc5-5667-4268-ba83-07cb74b4d49e",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:19:56.345Z",
+   "end_timestamp": "2026-10-13T16:20:02.142Z",
+   "text": "Sounds good. Thanks, guys. This is genuinely interesting, I'm not just being nice.",
+   "source": "system",
+   "speaker": "Daniel Osei",
+   "is_final": true
+  },
+  {
+   "id": "6fb3abfc-2e5d-4014-81d4-352b9dc56c25",
+   "document_id": "504d35ed-2616-4403-98ac-91c6ee795cb6",
+   "start_timestamp": "2026-10-13T16:20:02.738Z",
+   "end_timestamp": "2026-10-13T16:20:05.924Z",
+   "text": "That means a lot. Thank you, Daniel.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  }
+ ]
+}

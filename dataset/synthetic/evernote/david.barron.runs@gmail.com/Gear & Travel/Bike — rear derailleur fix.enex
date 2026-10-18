@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20260606T161000Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Bike — rear derailleur fix</title>
+    <created>20260524T203000Z</created>
+    <updated>20260606T161000Z</updated>
+    <tag>bike</tag>
+    <tag>repair</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>Problem: chain skips in the 4th/5th cog under load, ghost shifting on the trainer too. Started after the bike fell over in the bike rack 5/20.</div><div><br/></div><div>What I checked</div><ul><li>Barrel adjuster: 1/4 turn counter-clockwise x2 -&gt; better on 4th, still skips on 5th.</li><li>Derailleur hanger looks bent inward when sighting from behind. probably the real problem.</li><li>Cable not frayed.</li></ul><div><br/></div><div>Shop (Downtown Blacksburg bike shop) quote</div><ul><li>hanger alignment $15, if bent too far new hanger ~$22 + install</li><li>full tune $75 (skip)</li></ul><div><br/></div><div>6/6: hanger was bent ~4 mm. they aligned it, $15 + $6 for a new cable end. shifting perfect. Ordered a spare hanger ($22) to keep in the drawer because the rack at the apartment is cursed.</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

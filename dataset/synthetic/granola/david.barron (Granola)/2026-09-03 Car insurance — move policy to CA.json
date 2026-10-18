@@ -1,0 +1,461 @@
+{
+ "id": "c7fb83e7-0f92-4397-a068-16224df08464",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Car insurance — move policy to CA",
+ "created_at": "2026-09-03T19:15:16.680Z",
+ "updated_at": "2026-09-03T19:24:17.486Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "private",
+ "google_calendar_event": null,
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Monica"
+   }
+  ]
+ },
+ "notes_markdown": "### Policy change\n\n- Current policy is a Virginia policy; must be re-written as a California policy (can't just change the address)\n- New CA policy effective Sep 15, 2026; VA policy cancelled same day, prorated refund for the remainder of the term\n- Garaging address: Surplus house (SF) — premium goes up; quoted ~$148/mo vs. $96/mo in VA\n- Options to lower it: raise collision deductible $500 → $1,000 (about −$19/mo), low-mileage discount if under 7,500 mi/yr (needs odometer photo)\n\n### Registration\n\n- California requires registering the car within 20 days of becoming a resident; DMV appointment needed\n- Agent says the CA policy ID card is needed for DMV — emailed after policy is bound\n- Smog check needed before registration (car is older than 8 model years)\n\n### To do\n\n- [ ] Upload odometer photo in the app for low-mileage discount\n- [ ] Decide on $1,000 deductible (probably yes)\n- [ ] Book DMV appointment + smog check\n- [ ] Watch for prorated VA refund\n",
+ "notes_plain": "Policy change\n\nCurrent policy is a Virginia policy; must be re-written as a California policy (can't just change the address)\nNew CA policy effective Sep 15, 2026; VA policy cancelled same day, prorated refund for the remainder of the term\nGaraging address: Surplus house (SF) — premium goes up; quoted ~$148/mo vs. $96/mo in VA\nOptions to lower it: raise collision deductible $500 → $1,000 (about −$19/mo), low-mileage discount if under 7,500 mi/yr (needs odometer photo)\n\nRegistration\n\nCalifornia requires registering the car within 20 days of becoming a resident; DMV appointment needed\nAgent says the CA policy ID card is needed for DMV — emailed after policy is bound\nSmog check needed before registration (car is older than 8 model years)\n\nTo do\n\nUpload odometer photo in the app for low-mileage discount\nDecide on $1,000 deductible (probably yes)\nBook DMV appointment + smog check\nWatch for prorated VA refund\n",
+ "transcript": [
+  {
+   "id": "694a26d3-4515-4b95-ab0b-fe95a2a43c16",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:15:22.680Z",
+   "end_timestamp": "2026-09-03T19:15:32.460Z",
+   "text": "Thank you for calling Ridgeline, this is Monica. Can I have the policy number or the phone number on the account?",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "f4f04f0a-3a00-4ef8-8a9c-522ef5410f31",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:15:32.975Z",
+   "end_timestamp": "2026-09-03T19:15:47.771Z",
+   "text": "Hi, yeah, um, it's David Barron. I'll read you the policy number, hang on. It's on the card, okay, it's — actually can you look it up by name and date of birth? The card's in the car.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "cecba847-69a6-45d8-a18c-abf52d9112c8",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:15:49.015Z",
+   "end_timestamp": "2026-09-03T19:15:54.104Z",
+   "text": "Sure, I can do that. Go ahead with the date of birth.",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "d70c5edf-b829-4fe6-b55d-eb58a0618047",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:15:55.686Z",
+   "end_timestamp": "2026-09-03T19:15:56.652Z",
+   "text": "Sure.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "abc4676f-2f4a-4c2b-83f3-29e2ef038564",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:15:57.943Z",
+   "end_timestamp": "2026-09-03T19:16:04.490Z",
+   "text": "Thank you. Okay, I've got you, David. I see a Virginia policy. How can I help today?",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "c4cf3bdb-0c52-47f3-8cc3-3fb5b6b2a91d",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:16:05.000Z",
+   "end_timestamp": "2026-09-03T19:16:10.939Z",
+   "text": "So I moved to San Francisco last month. I need to move the insurance.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e581d42f-efa1-40a4-9912-9596e3962cd4",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:16:12.322Z",
+   "end_timestamp": "2026-09-03T19:16:25.086Z",
+   "text": "Okay, congratulations on the move. So with a state change, we can't just update the address. We'd write you a new California policy and cancel the Virginia one.",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "897a8df4-0918-4d79-9e25-9db20f00b2b4",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:16:25.568Z",
+   "end_timestamp": "2026-09-03T19:16:30.084Z",
+   "text": "Oh. Okay. Is that — is that a big deal?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "de071143-6ebf-4317-82e2-115d4e36233a",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:16:31.580Z",
+   "end_timestamp": "2026-09-03T19:16:40.964Z",
+   "text": "Not at all, I'll do it right now on the phone. You'll get a prorated refund for whatever's left on the Virginia term.",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "732f29ae-0200-42ab-aace-f22816b93b11",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:16:41.945Z",
+   "end_timestamp": "2026-09-03T19:16:42.831Z",
+   "text": "Okay great.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d9ae1205-efc6-49c0-99d9-9f643ba8492c",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:16:44.892Z",
+   "end_timestamp": "2026-09-03T19:16:48.960Z",
+   "text": "What date do you want the California policy to start?",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "ae2f3218-dd9f-490e-9aee-27b44ecf4961",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:16:50.631Z",
+   "end_timestamp": "2026-09-03T19:16:56.438Z",
+   "text": "Um. When does it need to start? I've been here since the eighth.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "c4399102-0ec0-4e55-b637-1a6aafc6a4a9",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:16:58.453Z",
+   "end_timestamp": "2026-09-03T19:17:07.953Z",
+   "text": "Generally we'd say as soon as possible. I can do today, or I can do a date in the next couple weeks.",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "99ba8ecd-7e35-4254-8fa6-4ca5e6d95565",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:17:08.262Z",
+   "end_timestamp": "2026-09-03T19:17:14.323Z",
+   "text": "Let's do the fifteenth. That's when I'll actually have a parking spot sorted.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "5ebfadb1-ff42-492d-8116-3c4d8cdadac9",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:17:16.019Z",
+   "end_timestamp": "2026-09-03T19:17:20.317Z",
+   "text": "September fifteenth. And where will the car be parked overnight?",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "9795cbe7-9135-4aae-b0f6-eacd5e00cd84",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:17:22.483Z",
+   "end_timestamp": "2026-09-03T19:17:28.684Z",
+   "text": "At the house, it's a — it's like a shared house, there's a driveway.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "830f0e96-49a2-4d02-957c-1b2c46e3153f",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:17:30.176Z",
+   "end_timestamp": "2026-09-03T19:17:33.394Z",
+   "text": "Okay, I'll need the address for the garaging.",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "f7bb8d41-d8b1-44b1-ad9b-a212f1e4e91e",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:17:34.073Z",
+   "end_timestamp": "2026-09-03T19:17:39.044Z",
+   "text": "I'll — can I type it in the chat thing? Or the app?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ef2b2a72-53f6-43f2-b9f2-73daf1434e36",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:17:40.776Z",
+   "end_timestamp": "2026-09-03T19:17:57.476Z",
+   "text": "I can send you a link to confirm it, sure. So I'll go ahead and quote with the San Francisco ZIP you have on the account. Okay. So... I'm going to be honest, it's going up.",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "da3982f0-2068-41b3-8c95-74f7d065ac17",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:17:59.398Z",
+   "end_timestamp": "2026-09-03T19:18:00.386Z",
+   "text": "How much?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "5a280279-f136-4550-9275-a9ec58fb5ab7",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:18:01.846Z",
+   "end_timestamp": "2026-09-03T19:18:07.597Z",
+   "text": "Your Virginia policy is ninety-six a month. The California quote is about a hundred forty-eight.",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "37216d47-2368-4fd0-8242-f26262f6ed38",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:18:07.975Z",
+   "end_timestamp": "2026-09-03T19:18:12.187Z",
+   "text": "Oof. Okay. Is there anything I can do about that?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0d81c544-9224-41e8-84d4-e3299ac2d77e",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:18:14.261Z",
+   "end_timestamp": "2026-09-03T19:18:25.058Z",
+   "text": "A couple things. You've got a five hundred dollar collision deductible. If you go to a thousand, that brings it down about nineteen a month.",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "0dd57d1a-fd3e-403a-9536-8a46ac1d2d6f",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:18:26.406Z",
+   "end_timestamp": "2026-09-03T19:18:29.084Z",
+   "text": "Hm. Okay. Probably yes. What else?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "687981ac-c637-4bac-ae3c-da946d2ead95",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:18:29.584Z",
+   "end_timestamp": "2026-09-03T19:18:36.392Z",
+   "text": "Do you drive much? We have a low-mileage discount if you're under seventy-five hundred miles a year.",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "603205ed-4600-4e02-8adc-3fcea60ef05f",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:18:36.644Z",
+   "end_timestamp": "2026-09-03T19:18:45.503Z",
+   "text": "Oh I barely drive. I walk or bike most places. It's mostly for, like, getting out of the city to run trails.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "19edeea1-989d-4306-a537-190691a8f5c7",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:18:46.498Z",
+   "end_timestamp": "2026-09-03T19:18:55.568Z",
+   "text": "Then you'd likely qualify. You'd upload a photo of the odometer in the app, and we verify once a year.",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "4305a023-480c-43d9-a58b-fe02b46f21ac",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:18:55.849Z",
+   "end_timestamp": "2026-09-03T19:18:58.497Z",
+   "text": "Okay, I can do that today.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e1db21c5-317d-450e-878b-62fb5431b0d9",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:18:59.754Z",
+   "end_timestamp": "2026-09-03T19:19:06.787Z",
+   "text": "Great. Once that's verified I'll apply it. Do you want me to change the deductible now?",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "5617a503-b3b2-49c0-b6dc-f1d22b99c9bc",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:19:07.958Z",
+   "end_timestamp": "2026-09-03T19:19:14.247Z",
+   "text": "Um, can I think about it until tomorrow? I'll just do it in the app.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "1324c3e1-6b62-48c4-8d2c-8588a0ed1e8a",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:19:15.666Z",
+   "end_timestamp": "2026-09-03T19:19:23.800Z",
+   "text": "Absolutely. One thing, you'll want to register the car in California. They give you twenty days once you're a resident.",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "d5af5b3b-27f4-451c-85c4-5568098fd402",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:19:25.590Z",
+   "end_timestamp": "2026-09-03T19:19:29.503Z",
+   "text": "Twenty days? I'm already — I'm at almost four weeks.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "eed0bc9c-82b8-41fb-94cf-42f51a0ef0f0",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:19:30.223Z",
+   "end_timestamp": "2026-09-03T19:19:40.084Z",
+   "text": "I'd get the appointment booked. You'll need the California ID card for the DMV, I'll email it as soon as the policy is bound.",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "dccf3aff-ee24-46b7-acee-161c314047f6",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:19:40.353Z",
+   "end_timestamp": "2026-09-03T19:19:43.795Z",
+   "text": "Okay. Do I need anything else for the DMV?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "8b024424-6a45-4435-adbc-d39810fbd933",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:19:45.734Z",
+   "end_timestamp": "2026-09-03T19:19:51.539Z",
+   "text": "Most likely a smog check, depending on the year. What year is the car?",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "e9e0ebf3-c40a-4ba0-95e8-888d178b4c0c",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:19:53.287Z",
+   "end_timestamp": "2026-09-03T19:19:54.625Z",
+   "text": "It's a 2015.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "63f7e544-7a4e-4779-9d45-ffcf7d0015eb",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:19:54.933Z",
+   "end_timestamp": "2026-09-03T19:20:00.507Z",
+   "text": "Then yes, you'll need smog. You can usually get that done the same week.",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "509db559-eab3-4a6c-937c-cd716f57eb9a",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:20:02.186Z",
+   "end_timestamp": "2026-09-03T19:20:04.846Z",
+   "text": "Okay. This is all very fun.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "8f1cd584-9e37-4f15-8a07-8098eeee2609",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:20:06.088Z",
+   "end_timestamp": "2026-09-03T19:20:19.786Z",
+   "text": "Ha, moving's a lot. Okay, I've got the California policy set to start the fifteenth, Virginia cancels the fifteenth, refund goes back to the card on file in seven to ten business days.",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "d3f3a381-2d7e-4dfb-a905-aeb7fa5ef390",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:20:20.410Z",
+   "end_timestamp": "2026-09-03T19:20:21.346Z",
+   "text": "Perfect.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "4b5755b6-3f3d-4d4a-8089-7b16fbca1e74",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:20:22.658Z",
+   "end_timestamp": "2026-09-03T19:20:25.703Z",
+   "text": "Is there anything else I can help with?",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  },
+  {
+   "id": "a0ce8855-1d79-4fb8-9ca9-235994e8b1bc",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:20:26.414Z",
+   "end_timestamp": "2026-09-03T19:20:28.997Z",
+   "text": "No, that's it. Thank you, Monica.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "8fd284c3-2747-4261-bc1f-f7a8038b9897",
+   "document_id": "c7fb83e7-0f92-4397-a068-16224df08464",
+   "start_timestamp": "2026-09-03T19:20:29.934Z",
+   "end_timestamp": "2026-09-03T19:20:34.486Z",
+   "text": "Thanks for being a Ridgeline customer, have a good one.",
+   "source": "microphone",
+   "speaker": "Monica",
+   "is_final": true
+  }
+ ]
+}

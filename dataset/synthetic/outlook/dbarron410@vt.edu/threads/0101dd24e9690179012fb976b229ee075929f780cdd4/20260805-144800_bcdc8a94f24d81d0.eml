@@ -1,0 +1,33 @@
+From: David Barron <dbarron410@vt.edu>
+To: 4Help Service Desk <4help@vt.edu>
+Subject: Outlook on new Mac keeps asking for password (Ticket INC0412877)
+Date: Wed, 05 Aug 2026 14:48:00 +0000
+Message-ID:
+ <SJ0PR03MB62557F6EC61D736C29A2D18E@SJ0PR03MB6255.namprd03.prod.outlook.com>
+MIME-Version: 1.0
+Thread-Topic: Outlook on new Mac keeps asking for password (Ticket INC0412877)
+Thread-Index: AQHdJOlpAXkBL7l2sinuB1kp94DN1A==
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthSource: MN2PR03MB5034.namprd03.prod.outlook.com
+X-MS-Exchange-Organization-Network-Message-Id:
+ 2e220142-059a-4d55-aa32-b0d0c1f6153c
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 05 Aug 2026 14:48:00.021 (UTC)
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+I set up a new MacBook yesterday (Duo device already added). Outlook for Mac =
+(16.88) keeps popping up a password prompt every few minutes for dbarron410@v=
+t.edu. Entering the password works for a bit and then it comes back. Web Outl=
+ook is fine, and Teams on the same Mac signs in without problems.
+
+Things I tried: removed and re-added the account, deleted the "Microsoft Offi=
+ce Identities Cache 3" keychain entries, rebooted.
+
+Thanks,
+David Barron

@@ -1,0 +1,31 @@
+=== THREAD PARENT MESSAGE ===
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2025-11-13 07:40:29 PST
+Message TS: 1763048429.177668
+postmortem, dep #2 reconnect bug:
+• cause: `onReconnect` didn't flush the client queue; the section B subnet kills idle sockets after ~60s
+• window: 3:30–4:10pm, section B only (44 students)
+• loss: 19,412 of ~165,000 expected section B events ≈ 11.8% (server rows diffed against client seq numbers from the post-fix flush). per-bucket numbers in the csv
+• recoverable: no, except 9 students whose tabs stayed open, their queues flushed after the hotfix
+• fix: flush on reconnect + persist the queue to localStorage (`a91d0f3`, `c3d07aa`)
+• for analysis: flag section B windows that overlap a seq gap as `partial_telemetry=true`, don't drop them
+
+=== THREAD REPLIES (3 total) ===
+
+--- Reply 1 of 3 ---
+From: Yan Chen (U0SYNWFLRZV)
+Time: 2025-11-13 07:55:54 PST
+Message TS: 1763049354.325323
+Good write-up. Keep the flag, and mention it in any paper that uses this data.
+
+--- Reply 2 of 3 ---
+From: Minsun (U0SYN15CS2P)
+Time: 2025-11-13 08:02:00 PST
+Message TS: 1763049720.454865
+should labelers skip the partial windows?
+
+--- Reply 3 of 3 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2025-11-13 08:05:12 PST
+Message TS: 1763049912.011718
+no, label them, we decide at analysis time. i'll add a little ⚠ icon in the labeling tool

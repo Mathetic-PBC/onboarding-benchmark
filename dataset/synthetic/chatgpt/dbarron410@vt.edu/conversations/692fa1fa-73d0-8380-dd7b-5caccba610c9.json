@@ -1,0 +1,219 @@
+{
+ "title": "Cardiac drift on Zone 2 runs",
+ "create_time": 1764729338.12,
+ "update_time": 1764729482.8926244,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "7c570727-fa4f-42ad-b337-d0ad4c3ad2e4"
+   ]
+  },
+  "7c570727-fa4f-42ad-b337-d0ad4c3ad2e4": {
+   "id": "7c570727-fa4f-42ad-b337-d0ad4c3ad2e4",
+   "message": {
+    "id": "7c570727-fa4f-42ad-b337-d0ad4c3ad2e4",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1764729338.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "doing zone 2 base building. on 75 min runs my HR starts at 138 and creeps to 151 by the end at the same pace. zone 2 cap is ~148. should i slow down at the end or is drift fine"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_74f73f62394adf7f63fa4cb2d3",
+     "message_source": null,
+     "turn_exchange_id": "cbdd824b-bd9e-461c-864d-ff8e4a21a1d6",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "06da171b-8668-461a-9ac8-86e8e42e74b6"
+   ]
+  },
+  "06da171b-8668-461a-9ac8-86e8e42e74b6": {
+   "id": "06da171b-8668-461a-9ac8-86e8e42e74b6",
+   "message": {
+    "id": "06da171b-8668-461a-9ac8-86e8e42e74b6",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1764729350.632,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "That's cardiac drift: HR rises over a long steady effort at constant pace, from dehydration, rising core temperature, and a gradual shift in fiber recruitment. ~10% over 75 min is common, especially indoors or in heat.\n\nPractical options:\n- **Cap by HR, accept slowing:** if the goal is strict aerobic base work, ease the pace in the last 20–30 min to stay ≤148. Many coaches recommend this for base phases.\n- **Watch the drift as a fitness marker:** use decoupling (pace:HR in the first half vs second half). Under ~5% decoupling on a long easy run suggests good aerobic durability. As your base improves, drift should shrink at the same pace.\n- **Control what you can:** drink during runs longer than an hour, start a bit slower, avoid treadmill rooms without airflow.\n\nIf you're at 151 for the last 10 minutes occasionally, it isn't ruining anything. The bigger risk is the whole run creeping into the mid-150s every day."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_74f73f62394adf7f63fa4cb2d3",
+     "message_type": "next",
+     "turn_exchange_id": "cbdd824b-bd9e-461c-864d-ff8e4a21a1d6",
+     "model_slug": "gpt-5-1",
+     "default_model_slug": "gpt-5-1",
+     "resolved_model_slug": "gpt-5-1",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "7c570727-fa4f-42ad-b337-d0ad4c3ad2e4"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "7c570727-fa4f-42ad-b337-d0ad4c3ad2e4",
+   "children": [
+    "710fadfb-8681-483c-b52d-917ac89539cb"
+   ]
+  },
+  "710fadfb-8681-483c-b52d-917ac89539cb": {
+   "id": "710fadfb-8681-483c-b52d-917ac89539cb",
+   "message": {
+    "id": "710fadfb-8681-483c-b52d-917ac89539cb",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1764729474.632,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "how do i calculate decoupling from my garmin data"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_0544f30bd13c90840599fcf0c6",
+     "message_source": null,
+     "turn_exchange_id": "09149f7f-78d7-4123-8934-67fc4fefe551",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "06da171b-8668-461a-9ac8-86e8e42e74b6",
+   "children": [
+    "6df90fcb-e72b-4614-aa1c-52f7b54ab1d1"
+   ]
+  },
+  "6df90fcb-e72b-4614-aa1c-52f7b54ab1d1": {
+   "id": "6df90fcb-e72b-4614-aa1c-52f7b54ab1d1",
+   "message": {
+    "id": "6df90fcb-e72b-4614-aa1c-52f7b54ab1d1",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1764729482.424,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Export the run (or use the lap data) and split it in half by time:\n\n1. First half: average pace (or speed) and average HR → ratio₁ = speed₁ / HR₁\n2. Second half: ratio₂ = speed₂ / HR₂\n3. Decoupling % = (ratio₁ − ratio₂) / ratio₁ × 100\n\nExample: 1st half 9:00/mi at 140 bpm, 2nd half 9:00/mi at 148 bpm → speed is equal, so decoupling = (1/140 − 1/148)/(1/140) = 5.4%.\n\nIgnore the first ~10 minutes of warm-up if HR is still settling. In a sheet, `=(A2/B2 - A3/B3)/(A2/B2)` with speed in A and HR in B."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_0544f30bd13c90840599fcf0c6",
+     "message_type": "next",
+     "turn_exchange_id": "09149f7f-78d7-4123-8934-67fc4fefe551",
+     "model_slug": "gpt-5-1",
+     "default_model_slug": "gpt-5-1",
+     "resolved_model_slug": "gpt-5-1",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "710fadfb-8681-483c-b52d-917ac89539cb"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "710fadfb-8681-483c-b52d-917ac89539cb",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "6df90fcb-e72b-4614-aa1c-52f7b54ab1d1",
+ "plugin_ids": null,
+ "conversation_id": "692fa1fa-73d0-8380-dd7b-5caccba610c9",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-1",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "692fa1fa-73d0-8380-dd7b-5caccba610c9"
+}

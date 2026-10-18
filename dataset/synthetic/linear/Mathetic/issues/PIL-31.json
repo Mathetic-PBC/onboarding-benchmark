@@ -1,0 +1,61 @@
+{
+  "issue": {
+    "id": "PIL-31",
+    "uuid": "cb40836a-6ada-4a05-92b4-8deba13a0033",
+    "title": "Google Drive shortcuts import as empty files",
+    "description": "Daniel's university Drive has many shortcuts (`application/vnd.google-apps.shortcut`). We import them as 0-byte files. Resolve the shortcut target, or skip with reason \"shortcut to a file you don't own\".",
+    "projectMilestone": null,
+    "priority": {
+      "value": 3,
+      "name": "Medium"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-31/google-drive-shortcuts-import-as-empty-files",
+    "gitBranchName": "david/pil-31-google-drive-shortcuts-import-as-empty-files",
+    "createdAt": "2026-10-13T22:00:42.990Z",
+    "updatedAt": "2026-10-13T22:00:42.990Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Backlog",
+    "statusType": "backlog",
+    "labels": [
+      "Bug",
+      "Import",
+      "Pilot feedback"
+    ],
+    "createdBy": "Hudson",
+    "assignee": null,
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-31",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "7efa67db-eb16-4280-843f-b08b030d464f",
+          "name": "Backlog",
+          "type": "backlog"
+        },
+        "startedAt": "2026-10-13T22:00:42.990Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": []
+}

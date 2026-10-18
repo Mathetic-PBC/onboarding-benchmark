@@ -1,0 +1,8 @@
+to: Minsun   subj: TACode handoff (draft 11/18)
+
+hey — writing up TACode before I forget the details. full doc in Drive (VT > TACode > handoff). short version:
+- main branch deployable, claim-timer branch half done
+- known bug: two TAs can claim the same ticket within ~1s, needs a transactional claim
+- canvas roster import breaks with cross-listed sections
+- secrets in the lab password manager, not the repo
+honestly I'd fold the queue into the VizPI TA dashboard instead of reviving it. happy to walk through it next week

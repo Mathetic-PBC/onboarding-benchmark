@@ -1,0 +1,13 @@
+=== THREAD PARENT MESSAGE ===
+From: Rezky (U0SYNS0GL2E)
+Time: 2025-11-07 08:20:49 PST
+Message TS: 1762532449.643696
+virtualized timeline is in PR #57. scrubbing is smooth up to 25k events on my laptop. <@U0SYNZSPT5P|David Barron> can you review
+
+=== THREAD REPLIES (1 total) ===
+
+--- Reply 1 of 1 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2025-11-07 10:05:44 PST
+Message TS: 1762538744.491442
+reviewed, one comment on an off-by-one at the window edge, otherwise lgtm

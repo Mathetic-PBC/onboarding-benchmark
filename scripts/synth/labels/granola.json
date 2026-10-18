@@ -1,0 +1,137 @@
+{
+ "david.barron (Granola)/2026-08-11 Surplus kickoff — Mathetic.json": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "Surplus incubator kickoff with Lena Hoffmann (fixed event 2026-08-11)."
+ },
+ "david.barron (Granola)/2026-08-13 Hudson x David weekly.json": {
+  "project_ids": [
+   "project_engelbart",
+   "project_mathetic_company"
+  ],
+  "notes": "Weekly co-founder sync; camera-ready mentioned (tutortrace context) but meeting is about Engelbart scope and Lena's asks."
+ },
+ "david.barron (Granola)/2026-08-20 Marcus Oyelaran <> Mathetic.json": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "First angel call with Marcus Oyelaran (fixed event 2026-08-20): retention and \"who pays\"."
+ },
+ "david.barron (Granola)/2026-08-25 Hudson x David weekly.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "Weekly sync; Engelbart repos start (week of 2026-08-24), item schema and importer architecture."
+ },
+ "david.barron (Granola)/2026-08-27 Surplus check-in (Lena _ Mathetic).json": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "Weekly Thursday Surplus check-in with Lena; user-conversation count and metric."
+ },
+ "david.barron (Granola)/2026-08-28 Call w_ Blacksburg landlord — lease + deposit.json": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "HARD CASE: personal clutter — phone call with the old Blacksburg landlord about lease transfer and deposit; unrelated to any project."
+ },
+ "david.barron (Granola)/2026-09-01 Hudson x David weekly.json": {
+  "project_ids": [
+   "project_berkeley_research_chats",
+   "project_engelbart"
+  ],
+  "notes": "Weekly sync; planning the Berkeley research chats (guide draft) + importer status."
+ },
+ "david.barron (Granola)/2026-09-03 Car insurance — move policy to CA.json": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "HARD CASE: personal clutter — support call about moving the car insurance policy from Virginia to California after the move; unrelated to any project."
+ },
+ "david.barron (Granola)/2026-09-08 Hudson x David — prep for Berkeley convos.json": {
+  "project_ids": [
+   "project_berkeley_research_chats"
+  ],
+  "notes": "Prep the night before the first Berkeley research chat (interview guide v1, logistics)."
+ },
+ "david.barron (Granola)/2026-09-09 Conversation — Elena Park (Berkeley, learning sciences).json": {
+  "project_ids": [
+   "project_berkeley_research_chats"
+  ],
+  "notes": "Berkeley research chat #1 (fixed event 2026-09-09) with Elena Park, learning-sciences PhD student."
+ },
+ "david.barron (Granola)/2026-09-10 Conversation — Priya Raman (Berkeley, education + HCI).json": {
+  "project_ids": [
+   "project_berkeley_research_chats"
+  ],
+  "notes": "Berkeley research chat #2 (fixed event 2026-09-10) with Priya Raman; she later becomes an Engelbart pilot user (2026-10-09)."
+ },
+ "david.barron (Granola)/2026-09-15 Hudson x David weekly.json": {
+  "project_ids": [
+   "project_berkeley_research_chats",
+   "project_engelbart"
+  ],
+  "notes": "Weekly sync; synthesis of the first two Berkeley conversations (Elena, Priya) and what it changes in Engelbart."
+ },
+ "david.barron (Granola)/2026-09-17 Engelbart canvas — design review.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "Design review of the Engelbart canvas: trail/locator model, rendering bug, connect screen."
+ },
+ "david.barron (Granola)/2026-09-22 Hudson x David weekly.json": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "Weekly sync focused on fundraising narrative / pre-seed SAFE plan and demo-night draft."
+ },
+ "david.barron (Granola)/2026-09-24 Untitled meeting.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "HARD CASE: vague title — ad-hoc late-night Granola note left as \"Untitled meeting\"; actually Hudson + David deciding pilot onboarding flow and what to cut before Oct 9."
+ },
+ "david.barron (Granola)/2026-09-29 Hudson x David weekly.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "Weekly sync; pilot build checklist before Oct 9, canvas flicker fix landed, connect screen copy."
+ },
+ "david.barron (Granola)/2026-10-04 UIST talk dry run — TutorTrace.json": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "Dry run of the UIST 2026 TutorTrace talk (15 min + 5 Q&A, session \"Learning & Tutoring\", chair Tomás Reyes) with Hudson as audience."
+ },
+ "david.barron (Granola)/2026-10-09 Engelbart pilot onboarding — Priya Raman.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "Engelbart pilot onboarding session A with Priya Raman (fixed event 2026-10-09): ~140 Claude chats missing, duplicate PDFs (Zotero + Downloads), liked the trail."
+ },
+ "david.barron (Granola)/2026-10-12 Hudson x David weekly.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "Weekly sync; debrief of Priya's pilot (missing Claude chats root cause, duplicate suggestions) and prep for pilot B (Daniel Osei)."
+ },
+ "david.barron (Granola)/2026-10-13 Engelbart pilot onboarding — Daniel Osei (pilot B).json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "Engelbart pilot onboarding session B with Daniel Osei, CMU postdoc (fixed event 2026-10-13): wants Notion + Granola import, confused by the connect screen's \"Other\" tile."
+ },
+ "david.barron (Granola)/2026-10-14 Marcus Oyelaran — follow-up.json": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "Second call with Marcus Oyelaran (fixed event 2026-10-14): interested in a $50k check into the pre-seed SAFE if pilots convert."
+ },
+ "david.barron (Granola)/2026-10-16 Hudson x David — import redesign working session.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "Working session on the onboarding/import redesign after both pilots (omissions, wrong items, duplicates); decides to build an import benchmark from ground truth."
+ }
+}

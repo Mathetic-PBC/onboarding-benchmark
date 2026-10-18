@@ -1,0 +1,19 @@
+title: David / Yan 1:1
+start: 2026-02-12 14:00
+attendees: David Barron, Yan Chen
+projects: project_tutortrace
+docs: gemini
+length: 00:26:48
+notes: HARD CASE: orphan doc — Gemini notes saved without the matching transcript (transcription was not turned on); only this doc exists for the meeting
+=== gemini
+summary: David Barron and Yan Chen reviewed the TutorTrace UIST outline and agreed on a figure list of seven figures plus one table. They cut the separate "student findings" section into the formative study, decided the TA replay study is the main evaluation, and set the first full draft for March 9. David will freeze the classifier features this week so figures can be produced from a fixed model.
+detail: Outline: Yan Chen approved the three-part structure (formative study from deployment one, system, evaluation) and asked David Barron to fold the separate student findings section into the formative study. The related work will be organized by help-seeking, learning analytics dashboards, and programming telemetry tools, not by venue.
+detail: Figure list: They agreed on seven figures: a teaser with the class heat map and one student timeline, the system architecture, the state taxonomy including stalled-after-error, the per-student replay timeline, classifier confusion matrix, TA study task accuracy and time, and a qualitative example strip. A single table will report per-state precision and recall. Yan Chen asked that the teaser be understandable without reading the caption.
+detail: Evaluation: The TA replay study (eight TAs, within-subjects, recorded November sessions) is the main evaluation. David Barron has five of eight TAs recruited; sessions are planned for the last two weeks of February. Yan Chen suggested piloting the task with Xiaohang before the first real participant.
+detail: Classifier: David Barron reported that the student-grouped cross-validation lowered the earlier number, as expected. Yan Chen asked him to freeze the feature set this week and stop tuning, so the figures and the paper use one fixed model.
+detail: Writing schedule: First full draft by March 9, internal lab review the week of March 16, final push the week of March 23, and submission by the March 31 deadline (23:59 AoE).
+next: [ ] David Barron will freeze the classifier feature set this week.
+next: [ ] David Barron will pilot the TA study task with Xiaohang before the first participant.
+next: [ ] David Barron will draft the teaser figure and share it with Yan Chen.
+next: [ ] David Barron will recruit the remaining three TAs.
+next: [ ] David Barron will send a full draft by March 9.

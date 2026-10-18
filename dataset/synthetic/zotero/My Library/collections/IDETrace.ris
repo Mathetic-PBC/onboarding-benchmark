@@ -1,0 +1,119 @@
+TY  - CPAPER
+TI  - NovEdit: A Benchmark of Novice Program Edits for Next-Action Prediction
+AU  - Hartmann, Jonas
+AU  - Ilunga, Benedicte
+AU  - Costa, Rafael
+T2  - Advances in Neural Information Processing Systems 37, Datasets and Benchmarks Track
+T3  - NeurIPS 2024
+PY  - 2024
+DA  - 2026/05/03/
+AB  - We release NovEdit, 1.2 million edit events from 3,400 consenting novice programmers across four terms, with two benchmark tasks: predicting the next action class (edit, run, delete block, seek help, idle) and predicting whether a student will recover from an error within five minutes. Sequence models outperform count-based baselines on next action (macro-F1 0.58 vs 0.47) but not on recovery (AUC 0.71 vs 0.70). We document collection, consent and splits grouped by student and term.
+LA  - en
+KW  - benchmark
+KW  - program edits
+KW  - next-action prediction
+KW  - dataset
+L1  - storage/KCF8SQFY/Hartmann et al. - 2024 - NovEdit A Benchmark of Novice Program Edits for Next-Action Prediction.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Datasheets for Datasets
+AU  - Gebru, Timnit
+AU  - Morgenstern, Jamie
+AU  - Vecchione, Briana
+AU  - Vaughan, Jennifer Wortman
+AU  - Wallach, Hanna
+AU  - Daumé III, Hal
+AU  - Crawford, Kate
+T2  - Communications of the ACM
+VL  - 64
+IS  - 12
+SP  - 86
+EP  - 92
+PY  - 2021
+DA  - 2026/05/04/
+LA  - en
+KW  - documentation
+KW  - datasets
+ER  - 
+
+TY  - CPAPER
+TI  - Datasheets for Learning Traces: Documentation Practices for Educational Interaction Datasets
+AU  - Quinlan, Moira
+AU  - Taufa, Sione
+AU  - Rao, Arjun
+T2  - Proceedings of the 15th International Learning Analytics and Knowledge Conference
+T3  - LAK '25
+SP  - 402
+EP  - 412
+PY  - 2025
+DA  - 2026/05/04/
+PB  - ACM
+CY  - Dublin, Ireland
+AB  - We audited the documentation of 37 publicly released learning-interaction datasets against an adapted datasheet. Fewer than a third reported how consent was obtained (30%) and fewer than a fifth stated how train and test splits were formed (19%). Only 4 reported the share of students who opted out. We propose a 12-question supplement for learning traces covering consent, granularity, de-identification, split units and known artifacts of the collection platform.
+LA  - en
+KW  - documentation
+KW  - datasheets
+KW  - dataset audit
+L1  - storage/7QIRP47H/Quinlan et al. - 2025 - Datasheets for Learning Traces Documentation Practices for Educational Interaction Datasets.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Group-Aware Splits for Educational Sequence Data: How Student Overlap Inflates Reported Accuracy
+AU  - Ferreira, Ana
+AU  - Kowalczyk, Piotr
+T2  - Journal of Educational Data Mining
+VL  - 15
+IS  - 2
+SP  - 44
+EP  - 67
+PY  - 2023
+DA  - 2026/07/24/
+AB  - Educational datasets are made of many short sequences from relatively few students. When windows or attempts are split into train and test sets at random, the same student appears on both sides and models can learn the student rather than the behavior. We re-ran the evaluations of eleven prediction tasks on five public-style datasets with random splits and with splits grouped by student. Grouped splits lowered reported performance by 4 to 17 points of AUC or F1, with the largest drops for tasks built from short windows. We give a checklist for detecting and reporting this leakage.
+LA  - en
+KW  - data leakage
+KW  - cross-validation
+KW  - evaluation
+KW  - sequence data
+L1  - storage/THLUX6K6/Ferreira and Kowalczyk - 2023 - Group-Aware Splits for Educational Sequence Data How Student Overlap Inflates Reported Accuracy.pdf
+N1  - <div data-schema-version="9"><h1>IDETrace leakage - found 07-24</h1><p><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FmyLibrary%2Fitems%2FGSEDVCQM%22%5D%7D%5D%7D">(<span class="citation-item">Ferreira and Kowalczyk, 2023</span>)</span> this paper describes exactly what happened: windows from the same student in train and test. random split over windows, sklearn default. ugh</p><ul><li>their off-task drop was 17 pts, struggle 14. ours: macro-F1 0.81 -&gt; 0.74 with GroupKFold on student_id. in line with them</li><li>do the student-id probe they suggest and report it (my quick run: way above chance, ~0.5 top-1 over 160 students)</li><li>rebuttal: report BOTH numbers, say we found it ourselves, cite this + Kaufman 2012</li><li>fix split script: group by student id, then also hold out a lab section as a sanity check</li></ul></div>
+ER  - 
+
+TY  - JOUR
+TI  - Leakage in Data Mining: Formulation, Detection, and Avoidance
+AU  - Kaufman, Shachar
+AU  - Rosset, Saharon
+AU  - Perlich, Claudia
+AU  - Stitelman, Ori
+T2  - ACM Transactions on Knowledge Discovery from Data
+VL  - 6
+IS  - 4
+SP  - 15:1
+EP  - 15:21
+PY  - 2012
+DA  - 2026/07/25/
+LA  - en
+KW  - data leakage
+ER  - 
+
+TY  - CPAPER
+TI  - Macro-F1 Is Not Enough: Calibration of Behavior Classifiers on Imbalanced Learning Logs
+AU  - Olsen, Erik
+AU  - Mahmoud, Layla
+T2  - Artificial Intelligence in Education: 26th International Conference, AIED 2025
+T3  - AIED 2025
+SP  - 318
+EP  - 331
+PY  - 2025
+DA  - 2026/07/27/
+PB  - Springer
+AB  - Behavior classifiers in learning analytics are usually summarized by macro-F1. We show on three datasets that models with similar macro-F1 can differ widely in calibration on minority states, which matters when predictions trigger interventions. We recommend reporting per-class F1, expected calibration error per class, and a reliability diagram for the state that will drive an intervention.
+LA  - en
+KW  - calibration
+KW  - class imbalance
+KW  - evaluation
+KW  - macro-F1
+L1  - storage/ZAK3NB5V/Olsen and Mahmoud - 2025 - Macro-F1 Is Not Enough Calibration of Behavior Classifiers on Imbalanced Learning Logs.pdf
+N1  - <div data-schema-version="9"><p><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FmyLibrary%2Fitems%2FC3ZZJDG6%22%5D%7D%5D%7D">(<span class="citation-item">Olsen and Mahmoud, 2025</span>)</span> reviewer 2 asked whether macro-F1 hides the minority states. this paper says yes.</p><ul><li>add per-class F1 table to the rebuttal (help-seeking is our minority, ~7%)</li><li>we use class weights -&gt; check ECE on the grouped split, calibrate w temperature scaling if bad</li><li>not enough time to redo everything before 07-29. per-class table yes, calibration as &quot;will add&quot;</li></ul></div>
+ER  - 
+

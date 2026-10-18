@@ -1,0 +1,105 @@
+{
+  "issue": {
+    "id": "PIL-23",
+    "uuid": "06ec5cb1-517b-46ba-a90e-40cc92b5a906",
+    "title": "Re-run Priya's import end to end after PIL-14 / PIL-15",
+    "description": "Same machine state she had on 10/9 as far as we can reproduce it: her Claude zip, ChatGPT zip, Zotero data dir copy, a listing of Downloads.",
+    "projectMilestone": {
+      "id": "752d1e60-9eb6-4c7b-a102-c1e5d03b5518",
+      "name": "Import fixes from pilot feedback shipped"
+    },
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-23/re-run-priyas-import-end-to-end-after-pil-14-pil-15",
+    "gitBranchName": "david/pil-23-re-run-priyas-import-end-to-end-after-pil-14-pil-15",
+    "createdAt": "2026-10-13T01:15:51.132Z",
+    "updatedAt": "2026-10-14T07:40:33.929Z",
+    "archivedAt": null,
+    "completedAt": "2026-10-14T07:40:33.929Z",
+    "startedAt": "2026-10-14T04:00:50.392Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [
+      "Import"
+    ],
+    "createdBy": "David Barron",
+    "assignee": "David Barron",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-23",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-13T01:15:51.132Z",
+        "endedAt": "2026-10-14T04:00:50.392Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-14T04:00:50.392Z",
+        "endedAt": "2026-10-14T07:40:33.929Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-10-14T07:40:33.929Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [
+        {
+          "id": "PIL-14",
+          "title": "Claude import missed ~140 of Priya's conversations"
+        },
+        {
+          "id": "PIL-15",
+          "title": "Same paper imported twice (Zotero storage + ~/Downloads)"
+        }
+      ],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": [
+    {
+      "id": "330a2289-17ee-4a63-adb5-bf1d51f77892",
+      "body": "Claude 612/612 · ChatGPT 288/288 · Zotero 760 + Downloads 454 PDFs → 987 unique (227 merged by hash/DOI) · 0 partial downloads. Import took 6m40s. The 312 MB book still stalls the queue (PIL-21).",
+      "attachments": [],
+      "createdAt": "2026-10-14T07:35:05.541Z",
+      "updatedAt": "2026-10-14T07:35:05.541Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      },
+      "onBehalfOf": null
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+=== THREAD PARENT MESSAGE ===
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-06-11 05:30:04 PDT
+Message TS: 1781181004.153887
+uist reviews are out. scores 4, 3.5, 3, 2.5 (1AC + 3). main asks:
+1. label reliability: how were raters calibrated, is 0.71 good enough
+2. generalization beyond one course (cs 3114 only)
+3. privacy of keystroke + prompt telemetry
+rebuttal due thu 6/18. drafting tonight
+
+=== THREAD REPLIES (3 total) ===
+
+--- Reply 1 of 3 ---
+From: Yan Chen (U0SYNWFLRZV)
+Time: 2026-06-11 06:15:25 PDT
+Message TS: 1781183725.397806
+This is a good position. For (2), offer a cross-course analysis; Yue's CS 1114 pilot data from spring may be enough. For (3), add a limitations section and describe the consent flow.
+
+--- Reply 2 of 3 ---
+From: Yue (U0SYNRUS5ER)
+Time: 2026-06-11 06:40:15 PDT
+Message TS: 1781185215.367716
+the cs 1114 pilot is 23 students, labeled by one rater only. we could label 300 windows with 2 raters by friday?
+
+--- Reply 3 of 3 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-06-11 06:42:54 PDT
+Message TS: 1781185374.475496
+yes. let's promise the analysis and say exactly what's done by rebuttal time

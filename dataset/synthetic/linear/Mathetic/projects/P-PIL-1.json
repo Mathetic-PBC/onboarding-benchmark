@@ -1,0 +1,150 @@
+{
+  "project": {
+    "id": "P-PIL-1",
+    "uuid": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "icon": "Users",
+    "color": "#4cb782",
+    "name": "Pilot program",
+    "summary": "Onboard 3 researchers onto Engelbart, fix what breaks, and get them weekly active.",
+    "description": "Pilot users run Engelbart on their own machines with their real chats, papers and notes. We watch the first import live, then check in at weeks 1, 2 and 4.\n\n**Converted pilot** (PIL-36): weekly active in 3 of the 4 weeks after onboarding (opened a note *and* followed at least one provenance link that week) and says yes to \"would you pay $15/month\" at the week-4 check-in.\n\nPilots: Priya Raman (UC Berkeley, 10/9), Daniel Osei (CMU, 10/13), pilot 3 TBD.",
+    "url": "https://linear.app/mathetic/project/pilot-program-c148eb1912ac",
+    "trashed": false,
+    "resourceCount": 3,
+    "createdAt": "2026-09-15T03:20:41.638Z",
+    "updatedAt": "2026-10-17T00:40:02.976Z",
+    "startedAt": "2026-09-15T16:00:39.531Z",
+    "completedAt": null,
+    "canceledAt": null,
+    "startDate": "2026-09-15",
+    "startDateResolution": null,
+    "targetDate": "2026-11-13",
+    "targetDateResolution": null,
+    "priority": {
+      "value": 1,
+      "name": "Urgent"
+    },
+    "labels": [],
+    "initiatives": [],
+    "lead": {
+      "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+      "name": "David Barron"
+    },
+    "leadTeam": {
+      "id": "137c7620-700e-4029-b71f-abf91cac1790",
+      "name": "Pilots",
+      "key": "PIL"
+    },
+    "status": {
+      "id": "4e2161fe-7fe2-42bb-97ba-0f6ad63fd975",
+      "name": "In Progress",
+      "type": "started"
+    },
+    "teams": [
+      {
+        "id": "137c7620-700e-4029-b71f-abf91cac1790",
+        "name": "Pilots",
+        "key": "PIL"
+      }
+    ]
+  },
+  "milestones": {
+    "milestones": [
+      {
+        "id": "c2bb2232-6ce1-4441-9ea9-578ad0dd9061",
+        "name": "Pilot kit ready",
+        "description": "Signed build, interview script, consent one-pager, feedback form. By 10/2.",
+        "progress": 100.0,
+        "sortOrder": 10,
+        "targetDate": "2026-10-02"
+      },
+      {
+        "id": "c7f372c4-1916-4b8f-bf0f-0d7e2ecef6d7",
+        "name": "First two pilots onboarded",
+        "description": "Priya (10/9) and Daniel (10/13) through a full import + debrief.",
+        "progress": 100.0,
+        "sortOrder": 20,
+        "targetDate": "2026-10-13"
+      },
+      {
+        "id": "752d1e60-9eb6-4c7b-a102-c1e5d03b5518",
+        "name": "Import fixes from pilot feedback shipped",
+        "description": "Everything labeled Pilot feedback + Bug from the first two sessions, before the 2-week check-ins.",
+        "progress": 43.75,
+        "sortOrder": 30,
+        "targetDate": "2026-10-24"
+      },
+      {
+        "id": "1547e466-169f-4c92-9da7-53136af1656f",
+        "name": "3 converted pilots",
+        "description": "Converted = weekly active in 3 of 4 weeks after onboarding + yes to paying (definition in PIL-36). Before demo day 11/19.",
+        "progress": 50.0,
+        "sortOrder": 40,
+        "targetDate": "2026-11-13"
+      }
+    ]
+  },
+  "status_updates": {
+    "statusUpdates": [
+      {
+        "id": "0d487c5b-e764-433a-b34c-b4b54405e4c4",
+        "body": "Both pilots onboarded.\n\n* Priya re-import: Claude 612/612, 987 unique PDFs from 1,214 files (PIL-23).\n* Daniel: blocked on Notion and Granola import (PIL-24, PIL-25) and confused by the connect screen's \"Other\" (PIL-26, Priya hit it too).\n* \"Converted pilot\" is defined (PIL-36) and goes on the demo day slide.\n\n**Risk:** pilot 3 isn't recruited (PIL-33), so *3 converted pilots* by 11/13 is at risk even if both current pilots convert.",
+        "health": "atRisk",
+        "url": "https://linear.app/mathetic/project/pilot-program-c148eb1912ac/activity#project-update-0d487c5b",
+        "createdAt": "2026-10-17T00:40:00.922Z",
+        "updatedAt": "2026-10-17T00:40:02.976Z",
+        "editedAt": null,
+        "archivedAt": null,
+        "diffMarkdown": "**Status**: In Progress\n\n*Progress since Oct 10*: 46% → 63%",
+        "isDiffHidden": false,
+        "user": {
+          "id": "cb2896e3-8076-499e-adca-cc4ee127e9e7",
+          "name": "Hudson"
+        },
+        "type": "project",
+        "project": {
+          "id": "302bff0d-35e6-4942-a828-96c7e04120f3",
+          "name": "Pilot program"
+        }
+      },
+      {
+        "id": "4ca0b2ed-7c29-422a-877f-d24cf05a9f54",
+        "body": "## Pilot 1 done (Priya, 10/9)\n\n* Import missed 141 of her 612 Claude conversations: everything inside Claude Projects plus untitled chats collapsing on the dedupe key. Root-caused, fix in review (PIL-14).\n* Same PDFs twice from Zotero and Downloads (PIL-15). *Import dedupe rules v0* written; hash + DOI dedupe in progress.\n* Best moment: the provenance trail. Moving it to step 1 of the tour (PIL-17).\n\nNext: Daniel on Tuesday 10/13.",
+        "health": "onTrack",
+        "url": "https://linear.app/mathetic/project/pilot-program-c148eb1912ac/activity#project-update-4ca0b2ed",
+        "createdAt": "2026-10-11T01:20:00.868Z",
+        "updatedAt": "2026-10-11T01:20:02.591Z",
+        "editedAt": null,
+        "archivedAt": null,
+        "diffMarkdown": "**Status**: In Progress\n**Target date** set to Nov 13th\n\n*Progress since Oct 3*: 31% → 46%",
+        "isDiffHidden": false,
+        "user": {
+          "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+          "name": "David Barron"
+        },
+        "type": "project",
+        "project": {
+          "id": "302bff0d-35e6-4942-a828-96c7e04120f3",
+          "name": "Pilot program"
+        }
+      }
+    ],
+    "hasNextPage": false
+  },
+  "comments": [
+    {
+      "id": "cb2e21c2-6459-4765-be48-01dfc34d3fcc",
+      "body": "Demo day is 11/19, so the \"3 converted pilots\" milestone has to land the week before. No slack in this.",
+      "attachments": [],
+      "createdAt": "2026-10-06T04:30:45.846Z",
+      "updatedAt": "2026-10-06T04:30:45.846Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "cb2896e3-8076-499e-adca-cc4ee127e9e7",
+        "name": "Hudson"
+      },
+      "onBehalfOf": null
+    }
+  ]
+}

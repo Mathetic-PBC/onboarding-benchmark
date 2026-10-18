@@ -1,0 +1,219 @@
+{
+ "title": "Cut my subscriptions",
+ "create_time": 1771810815.12,
+ "update_time": 1771810973.5007608,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "b05d537d-5b12-4f91-bce5-6051578a177f"
+   ]
+  },
+  "b05d537d-5b12-4f91-bce5-6051578a177f": {
+   "id": "b05d537d-5b12-4f91-bce5-6051578a177f",
+   "message": {
+    "id": "b05d537d-5b12-4f91-bce5-6051578a177f",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1771810815.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "list of my monthly subs: chatgpt plus 20, claude pro 20, spotify student 6, youtube premium 14, icloud 2tb 10, strava 12, chess.com diamond 14, nyt 4, notion plus 10 (barely use), cursor pro 20 (stopped using in jan), amazon prime 15. what should i cut. be blunt"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_0c0cddad835435962d81350e44",
+     "message_source": null,
+     "turn_exchange_id": "7c174beb-6878-48ae-8270-6dfe6067fb71",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "78349143-3943-4cdd-a51e-8c048010fadd"
+   ]
+  },
+  "78349143-3943-4cdd-a51e-8c048010fadd": {
+   "id": "78349143-3943-4cdd-a51e-8c048010fadd",
+   "message": {
+    "id": "78349143-3943-4cdd-a51e-8c048010fadd",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1771810838.916,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Blunt version:\n\n**Cut now:**\n- **Cursor Pro ($20):** you stopped using it in January. Cancel today.\n- **Notion Plus ($10):** \"barely use.\" Free tier covers light use.\n- **YouTube Premium ($14):** keep only if you use background play daily; otherwise it's the easiest $14.\n\n**Consider:**\n- **Chess.com Diamond ($14):** lichess is free and excellent. Keep only if you use the lessons/analysis daily.\n- **Strava ($12):** if you mainly track runs and don't use routes/segments analysis, the free tier + Garmin Connect covers it.\n- **Amazon Prime ($15):** worth it only if you order often or watch Prime Video.\n\n**Keep:** ChatGPT/Claude (work tools; maybe drop one if they overlap for you), Spotify student, iCloud, NYT at $4.\n\nCutting Cursor + Notion + YouTube = **$44/month (~$528/yr)**. Adding chess + Strava gets you to **$70/month**."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_0c0cddad835435962d81350e44",
+     "message_type": "next",
+     "turn_exchange_id": "7c174beb-6878-48ae-8270-6dfe6067fb71",
+     "model_slug": "gpt-5-3",
+     "default_model_slug": "gpt-5-3",
+     "resolved_model_slug": "gpt-5-3",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "b05d537d-5b12-4f91-bce5-6051578a177f"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "b05d537d-5b12-4f91-bce5-6051578a177f",
+   "children": [
+    "f6c956ea-b886-46ca-aaf5-0cfe7cdad7e8"
+   ]
+  },
+  "f6c956ea-b886-46ca-aaf5-0cfe7cdad7e8": {
+   "id": "f6c956ea-b886-46ca-aaf5-0cfe7cdad7e8",
+   "message": {
+    "id": "f6c956ea-b886-46ca-aaf5-0cfe7cdad7e8",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1771810954.916,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "cut cursor notion and chess. keeping strava for training"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_7961c2bdc801731f785cdaa1e6",
+     "message_source": null,
+     "turn_exchange_id": "7fb4e173-7837-47ea-9bb1-d128d15ae3c8",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "78349143-3943-4cdd-a51e-8c048010fadd",
+   "children": [
+    "756655aa-9a76-4c1e-90d9-2ec994cfbcea"
+   ]
+  },
+  "756655aa-9a76-4c1e-90d9-2ec994cfbcea": {
+   "id": "756655aa-9a76-4c1e-90d9-2ec994cfbcea",
+   "message": {
+    "id": "756655aa-9a76-4c1e-90d9-2ec994cfbcea",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1771810973.075,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "That's $44/month saved. Put a calendar reminder for any annual renewals (iCloud, Prime) so they don't surprise you."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_7961c2bdc801731f785cdaa1e6",
+     "message_type": "next",
+     "turn_exchange_id": "7fb4e173-7837-47ea-9bb1-d128d15ae3c8",
+     "model_slug": "gpt-5-3",
+     "default_model_slug": "gpt-5-3",
+     "resolved_model_slug": "gpt-5-3",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "f6c956ea-b886-46ca-aaf5-0cfe7cdad7e8"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "f6c956ea-b886-46ca-aaf5-0cfe7cdad7e8",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "756655aa-9a76-4c1e-90d9-2ec994cfbcea",
+ "plugin_ids": null,
+ "conversation_id": "699bafff-64c0-831b-01c5-d3aa136f04be",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-3",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "699bafff-64c0-831b-01c5-d3aa136f04be"
+}

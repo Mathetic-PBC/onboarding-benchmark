@@ -1,1 +1,879 @@
-[]
+[
+ {
+  "id": "item_035440",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "bookmarks/firefox-bookmarks.html",
+  "title": "firefox-bookmarks.html",
+  "content_type": "web_page",
+  "created_at": "2026-10-17T17:20:00Z",
+  "modified_at": "2026-10-17T17:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/bookmarks/firefox-bookmarks.html",
+  "source_url": null,
+  "content_hash": "sha256:342c90e8fa76bc1e9c772d79516a96e9d68459624f70f4552afdd52df4365a6e",
+  "library_item_id": null,
+  "modeled_on": "authentic/websites/bookmarks/chrome-bookmarks.html (Netscape bookmark file shape; Firefox export header)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_berkeley_research_chats",
+    "project_claude_code_plugins",
+    "project_dynamite",
+    "project_endurance_training",
+    "project_engelbart",
+    "project_idetrace",
+    "project_ise6664_affective_computing",
+    "project_mathetic_company",
+    "project_music_production",
+    "project_none",
+    "project_portfolio",
+    "project_tutortrace",
+    "project_vt_phd_admin"
+   ],
+   "notes": "HARD CASE: personal clutter mixed with work — Firefox bookmarks export, 60 links in project and personal folders"
+  }
+ },
+ {
+  "id": "item_035441",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://foundernotes.legal/financing/post-money-safe-primer",
+  "title": "A Post-Money SAFE Primer for First-Time Founders – Founder Notes.html",
+  "content_type": "web_page",
+  "created_at": "2026-07-15T01:50:00Z",
+  "modified_at": "2026-07-15T01:50:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/A Post-Money SAFE Primer for First-Time Founders – Founder Notes.html",
+  "source_url": "https://foundernotes.legal/financing/post-money-safe-primer",
+  "content_hash": "sha256:ac7b659c2a62a45af85d65f71e286bb81d6378c975c893ce93d181d776898b7b",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://foundernotes.legal/financing/post-money-safe-primer"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "fictional article saved 2026-07-14"
+  }
+ },
+ {
+  "id": "item_035442",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://foundernotes.legal/pbc/annual-report-delaware",
+  "title": "Delaware PBC Annual Reports, Explained – Founder Notes.html",
+  "content_type": "web_page",
+  "created_at": "2026-08-13T05:15:00Z",
+  "modified_at": "2026-08-13T05:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Delaware PBC Annual Reports, Explained – Founder Notes.html",
+  "source_url": "https://foundernotes.legal/pbc/annual-report-delaware",
+  "content_hash": "sha256:60ed82db99ec56c9297b9cc4cf681a3d6dc56cdbc02846b40bf1e19a24ce4d83",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://foundernotes.legal/pbc/annual-report-delaware"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "fictional article saved 2026-08-12"
+  }
+ },
+ {
+  "id": "item_035443",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://affectlab.review/overviews/frustration-detection-in-tutoring",
+  "title": "Detecting Frustration in Tutoring Dialogues_ A Short Overview – Affect Lab Review.html",
+  "content_type": "web_page",
+  "created_at": "2026-02-04T03:10:00Z",
+  "modified_at": "2026-02-04T03:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Detecting Frustration in Tutoring Dialogues_ A Short Overview – Affect Lab Review.html",
+  "source_url": "https://affectlab.review/overviews/frustration-detection-in-tutoring",
+  "content_hash": "sha256:13098607b2416acea221756af15ffd41d45a1eba49b82fc6f36fe83706fc1985",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://affectlab.review/overviews/frustration-detection-in-tutoring"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "fictional article saved 2026-02-03"
+  }
+ },
+ {
+  "id": "item_035444",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://www.statecraftquarterly.org/essays/export-controls-buy-time",
+  "title": "Do Export Controls Buy Time_ – Statecraft Quarterly.html",
+  "content_type": "web_page",
+  "created_at": "2026-05-25T03:05:00Z",
+  "modified_at": "2026-05-25T03:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Do Export Controls Buy Time_ – Statecraft Quarterly.html",
+  "source_url": "https://www.statecraftquarterly.org/essays/export-controls-buy-time",
+  "content_hash": "sha256:1b40d49b612bbda93fed75223d4e8ad33ca05e10ea7b79a60825747035a7b7fd",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://www.statecraftquarterly.org/essays/export-controls-buy-time"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "fictional article saved 2026-05-24"
+  }
+ },
+ {
+  "id": "item_035445",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://beatlab.academy/tutorials/drum-swing-lofi",
+  "title": "Getting Lo-fi Drum Swing Right – BeatLab Academy.html",
+  "content_type": "web_page",
+  "created_at": "2026-03-14T04:05:00Z",
+  "modified_at": "2026-03-14T04:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Getting Lo-fi Drum Swing Right – BeatLab Academy.html",
+  "source_url": "https://beatlab.academy/tutorials/drum-swing-lofi",
+  "content_hash": "sha256:c11e26e6f5b9571bbeb8d34bc98d5dc66ba3eef816c698cd63c4a5aacae84e6d",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://beatlab.academy/tutorials/drum-swing-lofi"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": "fictional article saved 2026-03-14"
+  }
+ },
+ {
+  "id": "item_035446",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://mlpitfalls.dev/posts/hdbscan-parameters-for-text",
+  "title": "HDBSCAN Parameters for Text Embeddings – ML Pitfalls.html",
+  "content_type": "web_page",
+  "created_at": "2026-01-20T03:20:00Z",
+  "modified_at": "2026-01-20T03:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/HDBSCAN Parameters for Text Embeddings – ML Pitfalls.html",
+  "source_url": "https://mlpitfalls.dev/posts/hdbscan-parameters-for-text",
+  "content_hash": "sha256:96b5ddafa26396c1df3cc0e9ed9388f21383af0138dde2355ef71491c668c8c7",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://mlpitfalls.dev/posts/hdbscan-parameters-for-text"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": "fictional article saved 2026-01-19"
+  }
+ },
+ {
+  "id": "item_035447",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://aerobicbase.run/articles/half-marathon-pacing-for-base-builders",
+  "title": "Half Marathon Pacing for Base Builders _ Aerobic Base.html",
+  "content_type": "web_page",
+  "created_at": "2026-10-11T04:35:00Z",
+  "modified_at": "2026-10-11T04:35:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Half Marathon Pacing for Base Builders _ Aerobic Base.html",
+  "source_url": "https://aerobicbase.run/articles/half-marathon-pacing-for-base-builders",
+  "content_hash": "sha256:8024fe33800144c03fa9b77dc2e601241af08708af85d55f596ab123d11fd9f7",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://aerobicbase.run/articles/half-marathon-pacing-for-base-builders"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "fictional article saved 2026-10-10"
+  }
+ },
+ {
+  "id": "item_035448",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://fieldnotes.researchware.dev/interviewing-researchers-without-pitching",
+  "title": "Interviewing Researchers Without Pitching _ Field Notes on Research Software.html",
+  "content_type": "web_page",
+  "created_at": "2026-08-29T06:20:00Z",
+  "modified_at": "2026-08-29T06:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Interviewing Researchers Without Pitching _ Field Notes on Research Software.html",
+  "source_url": "https://fieldnotes.researchware.dev/interviewing-researchers-without-pitching",
+  "content_hash": "sha256:cb13207d13012e54c8de3cb3ec7fcdcefe7beef95c248e11688677fc9c36fbce",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://fieldnotes.researchware.dev/interviewing-researchers-without-pitching"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats"
+   ],
+   "notes": "fictional article saved 2026-08-28"
+  }
+ },
+ {
+  "id": "item_035449",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://spokeandchain.co/howto/derailleur-hanger-alignment",
+  "title": "Is Your Derailleur Hanger Bent_ – Spoke & Chain.html",
+  "content_type": "web_page",
+  "created_at": "2026-05-10T23:10:00Z",
+  "modified_at": "2026-05-10T23:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Is Your Derailleur Hanger Bent_ – Spoke & Chain.html",
+  "source_url": "https://spokeandchain.co/howto/derailleur-hanger-alignment",
+  "content_hash": "sha256:e6359a422b6953ff217fe1e097cef85c0734a31ddb8ded543530c1f8b88cf0b8",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://spokeandchain.co/howto/derailleur-hanger-alignment"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "fictional article saved 2026-05-10"
+  }
+ },
+ {
+  "id": "item_035450",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://quietpages.design/inspiration/minimal-researcher-homepages",
+  "title": "Minimal Researcher Homepages We Like – Quiet Pages.html",
+  "content_type": "web_page",
+  "created_at": "2026-07-13T01:00:00Z",
+  "modified_at": "2026-07-13T01:00:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Minimal Researcher Homepages We Like – Quiet Pages.html",
+  "source_url": "https://quietpages.design/inspiration/minimal-researcher-homepages",
+  "content_hash": "sha256:01dbc42073afda10da104817254976ccf877c4a15e71af390f2d41bdda1a29b0",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://quietpages.design/inspiration/minimal-researcher-homepages"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_portfolio"
+   ],
+   "notes": "fictional article saved 2026-07-12"
+  }
+ },
+ {
+  "id": "item_035451",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://cs1notebook.org/posts/nobody-raises-their-hand",
+  "title": "Nobody Raises Their Hand Anymore – The CS1 Notebook.html",
+  "content_type": "web_page",
+  "created_at": "2026-03-25T03:15:00Z",
+  "modified_at": "2026-03-25T03:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Nobody Raises Their Hand Anymore – The CS1 Notebook.html",
+  "source_url": "https://cs1notebook.org/posts/nobody-raises-their-hand",
+  "content_hash": "sha256:165ba74ced91e1218226a0018057d9d436d0cbcd70f9f55e1698fdd1c4f4ef5b",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://cs1notebook.org/posts/nobody-raises-their-hand"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vizpi"
+   ],
+   "notes": "fictional article saved 2026-03-24"
+  }
+ },
+ {
+  "id": "item_035452",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://uist.acm.org/2026/presenter-instructions/",
+  "title": "Presenter Instructions – UIST 2026.html",
+  "content_type": "web_page",
+  "created_at": "2026-09-23T04:50:00Z",
+  "modified_at": "2026-09-23T04:50:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Presenter Instructions – UIST 2026.html",
+  "source_url": "https://uist.acm.org/2026/presenter-instructions/",
+  "content_hash": "sha256:30213bf0789ff2caca982756bcd9fa69e013c04ef9682de4200a92b5fc0b8242",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://uist.acm.org/2026/presenter-instructions/"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "fictional article saved 2026-09-22"
+  }
+ },
+ {
+  "id": "item_035453",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://uist.acm.org/2026/program/",
+  "title": "Program – UIST 2026.html",
+  "content_type": "web_page",
+  "created_at": "2026-09-29T05:40:00Z",
+  "modified_at": "2026-09-29T05:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Program – UIST 2026.html",
+  "source_url": "https://uist.acm.org/2026/program/",
+  "content_hash": "sha256:b681ed356498b8ce71d1e3674aaaffb67ed658ab392fe74a3c72884c73b9b7d3",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://uist.acm.org/2026/program/"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "fictional program page for the synthetic UIST 2026 (Detroit); the session and paper are synthetic"
+  }
+ },
+ {
+  "id": "item_035454",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://fieldnotes.researchware.dev/provenance-for-personal-knowledge",
+  "title": "Provenance for Personal Knowledge _ Field Notes on Research Software.html",
+  "content_type": "web_page",
+  "created_at": "2026-10-15T05:48:00Z",
+  "modified_at": "2026-10-15T05:48:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Provenance for Personal Knowledge _ Field Notes on Research Software.html",
+  "source_url": "https://fieldnotes.researchware.dev/provenance-for-personal-knowledge",
+  "content_hash": "sha256:7f459043cd3b38e5ab3193749a1304005bd5d8e2d154bfa458ab3df880a9570d",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://fieldnotes.researchware.dev/provenance-for-personal-knowledge"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "fictional article saved 2026-10-14"
+  }
+ },
+ {
+  "id": "item_035455",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://www.citywalker.guide/san-francisco/neighborhoods-for-newcomers",
+  "title": "San Francisco Neighborhoods for Newcomers (2026 Guide) – City Walker.html",
+  "content_type": "web_page",
+  "created_at": "2026-07-09T02:30:00Z",
+  "modified_at": "2026-07-09T02:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/San Francisco Neighborhoods for Newcomers (2026 Guide) – City Walker.html",
+  "source_url": "https://www.citywalker.guide/san-francisco/neighborhoods-for-newcomers",
+  "content_hash": "sha256:4b5592e34dc8a6675873da72a6003ea98ba9ad37e81975ac5862956deafee6f2",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://www.citywalker.guide/san-francisco/neighborhoods-for-newcomers"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "fictional article saved 2026-07-08"
+  }
+ },
+ {
+  "id": "item_035456",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://www.citywalker.guide/san-francisco/sublet-red-flags",
+  "title": "Seven Sublet Red Flags – City Walker.html",
+  "content_type": "web_page",
+  "created_at": "2026-07-11T00:55:00Z",
+  "modified_at": "2026-07-11T00:55:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Seven Sublet Red Flags – City Walker.html",
+  "source_url": "https://www.citywalker.guide/san-francisco/sublet-red-flags",
+  "content_hash": "sha256:55d85f09e017df6bdae181f6d02810b6873eaa83a7a2c04fb6e065e47d746ab5",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://www.citywalker.guide/san-francisco/sublet-red-flags"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "fictional article saved 2026-07-10"
+  }
+ },
+ {
+  "id": "item_035457",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://weeknightpan.com/recipes/sheet-pan-gochujang-chicken",
+  "title": "Sheet-Pan Gochujang Chicken with Broccoli – Weeknight Pan.html",
+  "content_type": "web_page",
+  "created_at": "2026-01-14T23:40:00Z",
+  "modified_at": "2026-01-14T23:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Sheet-Pan Gochujang Chicken with Broccoli – Weeknight Pan.html",
+  "source_url": "https://weeknightpan.com/recipes/sheet-pan-gochujang-chicken",
+  "content_hash": "sha256:d97f3b34159b022bfd9bd2ac55e38d5d79daef15c49a0bbfcbe161e12c75a704",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://weeknightpan.com/recipes/sheet-pan-gochujang-chicken"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "fictional article saved 2026-01-14"
+  }
+ },
+ {
+  "id": "item_035458",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://beatlab.academy/tutorials/sidechain-compression-fl-studio",
+  "title": "Sidechain Compression in FL Studio, Step by Step – BeatLab Academy.html",
+  "content_type": "web_page",
+  "created_at": "2026-07-20T04:45:00Z",
+  "modified_at": "2026-07-20T04:45:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Sidechain Compression in FL Studio, Step by Step – BeatLab Academy.html",
+  "source_url": "https://beatlab.academy/tutorials/sidechain-compression-fl-studio",
+  "content_hash": "sha256:5bffea6d95ae7439a5b215ba165fa4b65322529cbd8e7e79e6ac078661f95edf",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://beatlab.academy/tutorials/sidechain-compression-fl-studio"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": "fictional article saved 2026-07-20"
+  }
+ },
+ {
+  "id": "item_035459",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://chessclub.blog/openings/london-b2-problem",
+  "title": "The London System's b2 Problem – Chess Club Blog.html",
+  "content_type": "web_page",
+  "created_at": "2026-02-22T03:20:00Z",
+  "modified_at": "2026-02-22T03:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/The London System's b2 Problem – Chess Club Blog.html",
+  "source_url": "https://chessclub.blog/openings/london-b2-problem",
+  "content_hash": "sha256:fd37fe081557175f46105e7b8c47c3e630eacd83bac051c6c026261206ed1d42",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://chessclub.blog/openings/london-b2-problem"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "fictional article saved 2026-02-21"
+  }
+ },
+ {
+  "id": "item_035460",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://www.longmemory.press/essays/memex-at-80",
+  "title": "The Memex at 80_ What Bush Actually Proposed – Long Memory.html",
+  "content_type": "web_page",
+  "created_at": "2026-02-12T02:12:00Z",
+  "modified_at": "2026-02-12T02:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/The Memex at 80_ What Bush Actually Proposed – Long Memory.html",
+  "source_url": "https://www.longmemory.press/essays/memex-at-80",
+  "content_hash": "sha256:5c5c260ceaff76a8474db0f8d0621ec8319eac04025f9d1513334a57af464c8a",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://www.longmemory.press/essays/memex-at-80"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": "fictional article saved 2026-02-11"
+  }
+ },
+ {
+  "id": "item_035461",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://cs1notebook.org/posts/what-40-syllabi-say-about-ai",
+  "title": "What 40 CS1 Syllabi Say About AI Assistants – The CS1 Notebook.html",
+  "content_type": "web_page",
+  "created_at": "2025-11-06T02:30:00Z",
+  "modified_at": "2025-11-06T02:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/What 40 CS1 Syllabi Say About AI Assistants – The CS1 Notebook.html",
+  "source_url": "https://cs1notebook.org/posts/what-40-syllabi-say-about-ai",
+  "content_hash": "sha256:21e66551f0caf761d5489ef2094dab51b5479c0eee4535e3aabfff927a2a979f",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://cs1notebook.org/posts/what-40-syllabi-say-about-ai"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "fictional article saved 2025-11-05"
+  }
+ },
+ {
+  "id": "item_035462",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://www.longmemory.press/essays/what-the-demo-showed",
+  "title": "What the 1968 Demo Actually Showed – Long Memory.html",
+  "content_type": "web_page",
+  "created_at": "2026-03-05T03:05:00Z",
+  "modified_at": "2026-03-05T03:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/What the 1968 Demo Actually Showed – Long Memory.html",
+  "source_url": "https://www.longmemory.press/essays/what-the-demo-showed",
+  "content_hash": "sha256:e1e3d815474fe307ec82a7d16c49bb24f9ba72377d941dd427c3e0919f4247cd",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://www.longmemory.press/essays/what-the-demo-showed"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": "fictional article saved 2026-03-04"
+  }
+ },
+ {
+  "id": "item_035463",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://fieldnotes.researchware.dev/why-lab-notebooks-never-went-digital",
+  "title": "Why the Lab Notebook Never Went Digital _ Field Notes on Research Software.html",
+  "content_type": "web_page",
+  "created_at": "2026-08-27T06:40:00Z",
+  "modified_at": "2026-08-27T06:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Why the Lab Notebook Never Went Digital _ Field Notes on Research Software.html",
+  "source_url": "https://fieldnotes.researchware.dev/why-lab-notebooks-never-went-digital",
+  "content_hash": "sha256:4199fceeab4457d96d6a23990ef80bc75ef7c2e6c962eb495f48b10eb091f1db",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://fieldnotes.researchware.dev/why-lab-notebooks-never-went-digital"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "fictional article saved 2026-08-26"
+  }
+ },
+ {
+  "id": "item_035464",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://agentcraft.notes/posts/writing-a-pre-compact-hook",
+  "title": "Writing a Pre-Compact Hook That Keeps What Matters – Agentcraft Notes.html",
+  "content_type": "web_page",
+  "created_at": "2026-08-17T05:30:00Z",
+  "modified_at": "2026-08-17T05:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Writing a Pre-Compact Hook That Keeps What Matters – Agentcraft Notes.html",
+  "source_url": "https://agentcraft.notes/posts/writing-a-pre-compact-hook",
+  "content_hash": "sha256:f3054a48797be6161be9072bd27529dd1b2432a27cad1cf0d215ac782053e7b2",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://agentcraft.notes/posts/writing-a-pre-compact-hook"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_claude_code_plugins"
+   ],
+   "notes": "fictional article saved 2026-08-16"
+  }
+ },
+ {
+  "id": "item_035465",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://mlpitfalls.dev/posts/grouped-splits-and-leakage",
+  "title": "Your Split Is Leaking_ Grouped Cross-Validation for Behavioral Data – ML Pitfalls.html",
+  "content_type": "web_page",
+  "created_at": "2026-07-25T03:52:00Z",
+  "modified_at": "2026-07-25T03:52:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Your Split Is Leaking_ Grouped Cross-Validation for Behavioral Data – ML Pitfalls.html",
+  "source_url": "https://mlpitfalls.dev/posts/grouped-splits-and-leakage",
+  "content_hash": "sha256:ff725ad9932ab37a5aea1cf3bf3b67af503f9d0807085f946538e2f9bce7e092",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://mlpitfalls.dev/posts/grouped-splits-and-leakage"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "fictional article saved 2026-07-24"
+  }
+ },
+ {
+  "id": "item_035466",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "websites",
+  "source_id": "https://aerobicbase.run/articles/zone-2-without-the-hype",
+  "title": "Zone 2 Without the Hype _ Aerobic Base.html",
+  "content_type": "web_page",
+  "created_at": "2025-12-28T21:20:00Z",
+  "modified_at": "2025-12-28T21:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/websites/saved-pages/Zone 2 Without the Hype _ Aerobic Base.html",
+  "source_url": "https://aerobicbase.run/articles/zone-2-without-the-hype",
+  "content_hash": "sha256:38a2c66e8192ed2d186a5d49d16f264124c58d44105fdd4ff8492adea29f6131",
+  "library_item_id": null,
+  "modeled_on": "Chrome/Firefox \"Save Page As… Webpage, HTML only\" file (saved-from-url comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Firefox (personal Mac)",
+   "original_path": "https://aerobicbase.run/articles/zone-2-without-the-hype"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "fictional article saved 2025-12-28"
+  }
+ }
+]

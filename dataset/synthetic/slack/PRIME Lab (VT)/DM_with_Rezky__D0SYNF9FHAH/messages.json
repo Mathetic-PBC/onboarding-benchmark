@@ -1,0 +1,93 @@
+[
+  {
+    "ts": "1761071435.192446",
+    "user": "U0SYNS0GL2E",
+    "user_name": "Rezky",
+    "datetime": "2025-10-21 11:30:35 PDT",
+    "text": "for the virtualized timeline, ok to pull in react-window? or do you want no new deps"
+  },
+  {
+    "ts": "1761071602.796546",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2025-10-21 11:33:22 PDT",
+    "text": "react-window is fine, it's tiny"
+  },
+  {
+    "ts": "1762981503.777551",
+    "user": "U0SYNS0GL2E",
+    "user_name": "Rezky",
+    "datetime": "2025-11-12 13:05:03 PST",
+    "text": "dashboard shows section B recovering. what did you change"
+  },
+  {
+    "ts": "1762981711.775061",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2025-11-12 13:08:31 PST",
+    "text": "flushQueue on reconnect. one line. i'm embarrassed"
+  },
+  {
+    "ts": "1762981743.562127",
+    "user": "U0SYNS0GL2E",
+    "user_name": "Rezky",
+    "datetime": "2025-11-12 13:09:03 PST",
+    "text": "it's always one line"
+  },
+  {
+    "ts": "1774456835.787675",
+    "user": "U0SYNS0GL2E",
+    "user_name": "Rezky",
+    "datetime": "2026-03-25 09:40:35 PDT",
+    "text": "do you want the lane colors to match the labeling tool or the paper palette"
+  },
+  {
+    "ts": "1774456942.467302",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-03-25 09:42:22 PDT",
+    "text": "paper palette (okabe-ito). we can change the tool later"
+  },
+  {
+    "ts": "1785879005.146410",
+    "user": "U0SYNS0GL2E",
+    "user_name": "Rezky",
+    "datetime": "2026-08-04 14:30:05 PDT",
+    "text": "read the handoff doc. q: where does the dep #2 raw export live after you leave, your drive?"
+  },
+  {
+    "ts": "1785879644.937918",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-08-04 14:40:44 PDT",
+    "text": "moving it to the lab shared drive tonight: `PRIME/vizpi/deployments/2025-11-12_dep2/`. i'll keep my drive copy too"
+  },
+  {
+    "ts": "1785939334.637016",
+    "user": "U0SYNS0GL2E",
+    "user_name": "Rezky",
+    "datetime": "2026-08-05 07:15:34 PDT",
+    "text": "deployed vizpi_frontend to staging myself following the doc. one thing missing: you need `VITE_WS_URL` in the env or the reconnect logic silently does nothing"
+  },
+  {
+    "ts": "1785939605.809690",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-08-05 07:20:05 PDT",
+    "text": "oof, adding it to the doc now. good catch"
+  },
+  {
+    "ts": "1790791233.141784",
+    "user": "U0SYNS0GL2E",
+    "user_name": "Rezky",
+    "datetime": "2026-09-30 11:00:33 PDT",
+    "text": "fyi John wants vizpi in 3114 again next spring. we're on"
+  },
+  {
+    "ts": "1790793034.382035",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-09-30 11:30:34 PDT",
+    "text": "let's goooo. tell him hi from sf"
+  }
+]

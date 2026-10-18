@@ -1,0 +1,262 @@
+{
+ "My Library/notes/PCITS67B - reading notes - ostrowski LaS25.html": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "child note of ostrowski2025productive (QQR79WDT); HARD CASE: same paper in several places — reading note on the Ostrowski 2025 paper; mentions the arXiv v1 vs camera-ready copies in Downloads and Desktop/papers"
+ },
+ "My Library/notes/PPYMVI5C - window length justification.html": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "child note of nakamura2025labeling (MVTX3YSV)"
+ },
+ "My Library/notes/S7LKU8FL - replay - compare to our tool.html": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "child note of haldane2024replaying (SKX3PQMU)"
+ },
+ "My Library/notes/6I6D4XEZ - R2 privacy response.html": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "child note of brennan2026what (7UJBLN3V)"
+ },
+ "My Library/notes/CG3LEUXT - cross-course - what to promise.html": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "child note of duarte2025beyond (PWTJ4BPX)"
+ },
+ "My Library/notes/C2BW9DUD - this is our bug.html": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "child note of ferreira2023groupaware (GSEDVCQM)"
+ },
+ "My Library/notes/SZ6IP2MK - per-class + calibration for rebuttal.html": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "child note of olsen2025macro (C3ZZJDG6)"
+ },
+ "My Library/notes/YQEJNR63 - lexicon for our project.html": {
+  "project_ids": [
+   "project_ise6664_affective_computing"
+  ],
+  "notes": "child note of albrecht2022frustration (M776BWFS)"
+ },
+ "My Library/notes/SCS8V7IU - confusion vs frustration.html": {
+  "project_ids": [
+   "project_ise6664_affective_computing"
+  ],
+  "notes": "child note of gallo2023confusion (EQRTZG28)"
+ },
+ "My Library/notes/ZNP6K2UB - trails, reading group.html": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_engelbart"
+  ],
+  "notes": "child note of bush1945we (T722LKAX)"
+ },
+ "My Library/notes/DH2I74C2 - provenance numbers for pitch.html": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_engelbart"
+  ],
+  "notes": "child note of halvorsen2025where (SSTSV5H8)"
+ },
+ "My Library/notes/M2GVNS6Q - dedupe policy for import.html": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "child note of rinaldi2025importing (BGD8BB2C)"
+ },
+ "My Library/storage/F6XX9MKF/Haldane et al. - 2024 - Replaying the Keystroke Session Reconstruction for Instructor Sense-Making in Large Programming Courses.pdf": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "attachment of haldane2024replaying (SKX3PQMU); fictional paper, fictional authors"
+ },
+ "My Library/storage/98H2KA2P/Nakamura and Feld - 2025 - Labeling Learner States in Programming Sessions A Reliability Study of Thirty-Second Windows.pdf": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "attachment of nakamura2025labeling (MVTX3YSV); fictional paper, fictional authors"
+ },
+ "My Library/storage/VZWXK8U6/Vasquez et al. - 2024 - Where Did This Code Come From Detecting Assistant-Pasted Code in Student Editor Logs.pdf": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "attachment of vasquez2024where (UUH4LG7M); fictional paper, fictional authors"
+ },
+ "My Library/storage/BGJL7Q47/Lindgren and Mensah - 2025 - It's Like a TA That Never Sighs Novices' Mental Models of Code Assistants in CS1.pdf": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "attachment of lindgren2025like (CNDI5QRX); fictional paper, fictional authors"
+ },
+ "My Library/storage/GZM2TGTN/Brennan et al. - 2026 - What Will Students Share Consent and Comfort with Fine-Grained Telemetry in Educational IDEs.pdf": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "attachment of brennan2026what (7UJBLN3V); fictional paper, fictional authors"
+ },
+ "My Library/storage/K8WEL974/Duarte and Sim - 2025 - Beyond One Course Do Behavioral-State Classifiers Transfer Across Programming Courses.pdf": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "attachment of duarte2025beyond (PWTJ4BPX); fictional paper, fictional authors"
+ },
+ "My Library/storage/THLUX6K6/Ferreira and Kowalczyk - 2023 - Group-Aware Splits for Educational Sequence Data How Student Overlap Inflates Reported Accuracy.pdf": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "attachment of ferreira2023groupaware (GSEDVCQM); fictional paper, fictional authors"
+ },
+ "My Library/storage/KCF8SQFY/Hartmann et al. - 2024 - NovEdit A Benchmark of Novice Program Edits for Next-Action Prediction.pdf": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "attachment of hartmann2024novedit (YZWT75VJ); fictional paper, fictional authors"
+ },
+ "My Library/storage/7QIRP47H/Quinlan et al. - 2025 - Datasheets for Learning Traces Documentation Practices for Educational Interaction Datasets.pdf": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "attachment of quinlan2025datasheets (PMW6HI9Y); fictional paper, fictional authors"
+ },
+ "My Library/storage/ZAK3NB5V/Olsen and Mahmoud - 2025 - Macro-F1 Is Not Enough Calibration of Behavior Classifiers on Imbalanced Learning Logs.pdf": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "attachment of olsen2025macro (C3ZZJDG6); fictional paper, fictional authors"
+ },
+ "My Library/storage/2VQEJQPK/Albrecht and Nwosu - 2022 - Frustration Markers in Text-Based Tutoring Dialogues A Lexicon and Validation Study.pdf": {
+  "project_ids": [
+   "project_ise6664_affective_computing"
+  ],
+  "notes": "attachment of albrecht2022frustration (M776BWFS); fictional paper, fictional authors"
+ },
+ "My Library/storage/TJUIPJCX/Gallo and Stein - 2023 - Confusion Is Not Frustration Distinguishing Epistemic Affect in Chat-Based Tutoring Logs.pdf": {
+  "project_ids": [
+   "project_ise6664_affective_computing"
+  ],
+  "notes": "attachment of gallo2023confusion (EQRTZG28); fictional paper, fictional authors"
+ },
+ "My Library/storage/MACZTLLN/Yamada and Ortiz - 2024 - Apologies, Empathy, and Persistence How Conversational Tutors' Affective Responses Shape Learner Effort.pdf": {
+  "project_ids": [
+   "project_ise6664_affective_computing"
+  ],
+  "notes": "attachment of yamada2024apologies (G7FT55YN); fictional paper, fictional authors"
+ },
+ "My Library/storage/FXW69H4W/Whitfield - 2021 - Designing for Recovery Affective Design Patterns After Failure in Learning Software.pdf": {
+  "project_ids": [
+   "project_ise6664_affective_computing"
+  ],
+  "notes": "attachment of whitfield2021designing (4Y28LSTU); fictional paper, fictional authors"
+ },
+ "My Library/storage/SIFPU33D/Marchetti - 2024 - Trails Revisited Associative Indexing in Personal Knowledge Tools Eighty Years After the Memex.pdf": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_engelbart"
+  ],
+  "notes": "attachment of marchetti2024trails (G3IRKBM4); fictional paper, fictional authors"
+ },
+ "My Library/storage/BWBP6AMT/Halvorsen and Quist - 2025 - Where Did That Idea Come From Provenance Trails in Researchers' Note-Taking.pdf": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_engelbart"
+  ],
+  "notes": "attachment of halvorsen2025where (SSTSV5H8); fictional paper, fictional authors"
+ },
+ "My Library/storage/AGH87RPD/Sato and Lemaire - 2023 - Bootstrapping, Measured Toward an Operational Definition of Collective IQ in Research Teams.pdf": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group"
+  ],
+  "notes": "attachment of sato2023bootstrapping (EYD2WJ7A); fictional paper, fictional authors"
+ },
+ "My Library/storage/Y5WP3CWQ/Rinaldi and Uddin - 2025 - Importing a Life Duplicate and Near-Duplicate Detection Across Personal Information Sources.pdf": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "attachment of rinaldi2025importing (BGD8BB2C); fictional paper, fictional authors"
+ },
+ "My Library/storage/8RKB4XXK/Ellingsen and Mwangi - 2023 - Polarized versus Threshold Intensity Distribution in Sub-Elite Middle-Distance Runners A 16-Week Randomized Trial.pdf": {
+  "project_ids": [
+   "project_endurance_training"
+  ],
+  "notes": "attachment of ellingsen2023polarized (QGCBCUU3); fictional paper, fictional authors"
+ },
+ "My Library/storage/VTIAEDQZ/Draxler - 2025 - Chokepoints and Patience Export Controls as Grand Strategy in the Semiconductor Contest.pdf": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "attachment of draxler2025chokepoints (Z8VQ2L4K); fictional paper, fictional authors"
+ },
+ "My Library/storage/VMVVLUME/Ostrowski et al. - 2025 - Productive Struggle or Silent Stalling Telemetry Signals of Help-Seeking in LLM-Assisted CS1.pdf": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "HARD CASE: same paper in several places — Ostrowski et al. 2025 camera-ready (L@S) attached in Zotero; byte-identical to pdfs/Desktop/papers/Ostrowski2025_LAS.pdf and the copies in gmail/google-docs/slack; overleaf refs.bib cites it"
+ },
+ "My Library/storage/9UXYYWE7/Ostrowski et al. - 2025 - Productive Struggle or Silent Stalling Telemetry Signals of Help-Seeking in LLM-Assisted CS1.pdf": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "HARD CASE: same paper in several places — arXiv v1 of Ostrowski 2025, attached later as the \"Preprint PDF\" of the same Zotero item (same filename as the camera-ready attachment, different storage key); near-duplicate of the camera-ready (F1 0.69 vs 0.71, kappa 0.62 vs 0.64); byte-identical to pdfs/Downloads/2507.01842v1.pdf"
+ },
+ "My Library/My Library.bib": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_endurance_training",
+   "project_engelbart",
+   "project_idetrace",
+   "project_ise6664_affective_computing",
+   "project_mathetic_company",
+   "project_plotpact",
+   "project_tutortrace"
+  ],
+  "notes": "HARD CASE: same paper in several places — Better BibTeX export of the whole library (49 entries) incl. ostrowski2025productive (also in the TutorTrace collection RIS, overleaf refs.bib, and as PDFs in pdfs/); exported 10-14 to test the Engelbart import; mixes project readings with a few unrelated items (running physiology, geopolitics)"
+ },
+ "My Library/collections/TutorTrace UIST26.ris": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "HARD CASE: same paper in several places — RIS export of the \"TutorTrace UIST26\" collection (12 items as of 2026-06-16) incl. the Ostrowski 2025 entry with its camera-ready PDF link and reading note"
+ },
+ "My Library/collections/IDETrace.ris": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "RIS export of the \"IDETrace\" collection (6 items as of 2026-07-28)"
+ },
+ "My Library/collections/ISE 6664 readings.ris": {
+  "project_ids": [
+   "project_ise6664_affective_computing"
+  ],
+  "notes": "RIS export of the \"ISE 6664 readings\" collection (10 items as of 2026-04-28)"
+ },
+ "My Library/collections/Augmenting cognition.ris": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_engelbart"
+  ],
+  "notes": "RIS export of the \"Augmenting cognition\" collection (10 items as of 2026-09-30)"
+ },
+ "My Library/collections/Engelbart competitors.ris": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_engelbart",
+   "project_mathetic_company"
+  ],
+  "notes": "RIS export of the \"Engelbart competitors\" collection (6 items as of 2026-10-13)"
+ },
+ "My Library/collections/PlotPact (old).ris": {
+  "project_ids": [
+   "project_plotpact"
+  ],
+  "notes": "RIS export of the \"PlotPact (old)\" collection (2 items as of 2026-01-29); old PlotPact collection (items added Nov 2024), re-exported while revisiting constraint-based creativity"
+ }
+}

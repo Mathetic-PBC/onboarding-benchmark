@@ -1,0 +1,28 @@
+# PRIME Lab (VT) DM with Xiaohang — synthetic
+@2026-04-21
+23:00 xiaohang | the student id hashes differ between the fall and spring exports. fall used sha1(pid), spring used sha256(pid + salt)
+23:05 david | ugh. do we still have the salt
+23:10 xiaohang | maybe in the old .env on prime-gpu1. i'll look tomorrow
+
+@2026-04-22
+12:30 xiaohang | salt is gone. the spring export was made with a temporary key that got rotated
+12:35 david | ok, random split by window for now. we'll fix it later if reviewers ask
+
+@2026-05-05
+23:40 xiaohang | croissant validator complains `recordSet.field.source` is missing for `window_label`. fixing
+23:55 xiaohang | fixed, validates now
+
+@2026-07-24
+00:55 david | you up? R3's split question is real. 96% of students are in both train and test
+01:10 xiaohang | i'm up. can we join on (course, section, session_start, seat)? the seat number is in both exports
+01:12 david | trying that now
+02:05 david | match rate: 100% on 3114-f25, 1114-s26 and 2114-s26. 97.8% on 3114-s25, dropping the 41 unmatched windows
+02:07 xiaohang | good enough. write the group ids to `student_group.parquet` and i'll rerun the splits in the morning
+
+@2026-07-25
+10:20 xiaohang | `make_splits.py --group student_group_id --seed 13` → train 42,610 / val 9,114 / test 9,195 windows, zero overlapping students. pushed
+10:22 david | 🙏 rerunning baselines
+
+@2026-08-21
+06:00 xiaohang | thanks for the monitor. it's huge. i'm never going back
+06:30 david | take care of her

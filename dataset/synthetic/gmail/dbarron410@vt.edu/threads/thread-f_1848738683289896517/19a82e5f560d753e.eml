@@ -1,0 +1,34 @@
+From: Minsun <msun.prime@vt.edu>
+To: David Barron <dbarron410@vt.edu>, Xiaohang <xhang.prime@vt.edu>
+Subject: Re: labeling sprint 11/14 =?utf-8?b?4oaS?= 11/21: assignments
+Date: Fri, 14 Nov 2025 10:05:00 -0500
+Message-ID:
+ <CA11PqGcXszAfXT4hD+7UKK7QwzIhfy9ejmv4h0JoqzYKbLaz8M25r@mail.gmail.com>
+In-Reply-To:
+ <CApTxmdS7NWuZKKh6tyEXZqNMeKhXxBJcER06SDhd3jYj2fWrMcPJ9@mail.gmail.com>
+References:
+ <CALRj_eCkOy+z5exb2qTGsVxWqtbyKqZNdqF6ouk4HYXgOkyxhzMMX@mail.gmail.com>
+ <CApTxmdS7NWuZKKh6tyEXZqNMeKhXxBJcER06SDhd3jYj2fWrMcPJ9@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1848738683289896517
+X-Gmail-Labels: Inbox,Opened
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
++1. I'll write it into the guide as v3 today and add three example windows fr=
+om section A so we calibrate on the same cases.
+
+On Fri, Nov 14, 2025 at 9:20 AM Xiaohang <xhang.prime@vt.edu> wrote:
+> Agree on stalled-after-error. Definition suggestion: a run or test fails, t=
+hen no edit and no prompt for 30+ seconds. If they prompt within the window i=
+t's help-seeking instead.
+>
+> On Thu, Nov 13, 2025 at 11:30 PM David Barron <dbarron410@vt.edu> wrote:
+>> hi both, sprint plan attached. 2,340 thirty-second windows total, 780 each=
+, with 120 overlapping windows per pair so we can compute kappa. due friday 1=
+1/21.
+>>
+>> guide is still v2 (PS / HS / OT). i keep hitting windows where someone get=
+s an error, stops typing and just stares for 40 seconds, and none of our code=
+s fit. proposal: add a "stalled-after-error" state before we start, otherwise=
+ we'll relabel later

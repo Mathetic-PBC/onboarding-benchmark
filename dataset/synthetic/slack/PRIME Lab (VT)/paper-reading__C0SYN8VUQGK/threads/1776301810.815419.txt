@@ -1,0 +1,19 @@
+=== THREAD PARENT MESSAGE ===
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-04-15 18:10:10 PDT
+Message TS: 1776301810.815419
+tomorrow i'm doing Engelbart 1962, "Augmenting Human Intellect: A Conceptual Framework". not strictly lab-relevant but it's the thing i keep thinking about. sections I and II only, ~30 pages
+
+=== THREAD REPLIES (2 total) ===
+
+--- Reply 1 of 2 ---
+From: Rezky (U0SYNS0GL2E)
+Time: 2026-04-15 19:00:42 PDT
+Message TS: 1776304842.250229
+the H-LAM/T thing? i read a summary once
+
+--- Reply 2 of 2 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-04-15 19:05:08 PDT
+Message TS: 1776305108.773299
+yes. the part where artifacts, language and methods co-evolve with the human is really relevant to what we do with telemetry imo

@@ -1,0 +1,33 @@
+{
+ "uuid": "6e22277c-7277-486f-aae6-9caeb6bf8eea",
+ "slug": "dublin-weather-in-july-do-i-need-a-real-jacket-d9DB8rN9LXTrkutMUoA7Ab",
+ "title": "Dublin weather in July",
+ "thread_url": "https://www.perplexity.ai/search/dublin-weather-in-july-do-i-need-a-real-jacket-d9DB8rN9LXTrkutMUoA7Ab",
+ "created_at": "2026-03-04T01:30:00Z",
+ "updated_at": "2026-03-04T01:30:30Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "35c7f81b-d9f2-483f-98d5-9f241b4a9b7c",
+   "query_str": "dublin weather in july, do i need a real jacket",
+   "answer": "Dublin in July is mild: average highs around **19–20 °C (66–68 °F)** and lows around **11–12 °C (52–54 °F)**, with rain on roughly a third of days, usually light showers [1][2]. Bring a **light waterproof jacket** and a layer like a sweater; a heavy coat isn't needed. Evenings by the coast can feel cooler with wind [2].",
+   "sources": [
+    {
+     "name": "Met Éireann — climate averages for Dublin",
+     "url": "https://www.met.ie/climate/available-data/climate-averages",
+     "snippet": "Monthly temperature and rainfall normals."
+    },
+    {
+     "name": "What to pack for Ireland in summer",
+     "url": "https://www.irelandtravelnotes.com/pack-summer",
+     "snippet": "Practical packing advice for Irish summer weather."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "pplx_pro",
+   "created_at": "2026-03-04T01:30:00Z",
+   "updated_at": "2026-03-04T01:30:18Z"
+  }
+ ]
+}

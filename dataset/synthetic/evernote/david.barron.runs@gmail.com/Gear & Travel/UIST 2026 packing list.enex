@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20261006T043000Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>UIST 2026 packing list</title>
+    <created>20260930T051000Z</created>
+    <updated>20261006T043000Z</updated>
+    <tag>uist</tag>
+    <tag>travel</tag>
+    <tag>packing</tag>
+    <tag>conference</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>Talk: <b>Wed Oct 7</b>, session "Learning &amp; Tutoring" (chair: Tomás Reyes). 15 min + 5 Q&amp;A. TutorTrace.</div><div>AV check with Tomás on Zoom was 10/2 — 16:9, HDMI at the podium, they provide a clicker but bring mine.</div><div><br/></div><h3>Talk stuff</h3><div><en-todo checked="true"/>laptop + charger</div><div><en-todo checked="true"/>USB-C -&gt; HDMI adapter AND USB-C -&gt; USB-C (some podiums have USB-C now)</div><div><en-todo checked="true"/>my clicker + spare AAA</div><div><en-todo checked="true"/>slides as PDF on a USB stick (backup if the laptop dies)</div><div><en-todo checked="true"/>slides + demo video in Drive, offline-available</div><div><en-todo checked="true"/>demo video as standalone mp4 (don't rely on embedded video in Keynote)</div><div><en-todo checked="true"/>printed speaker notes (1 page, big font)</div><div><en-todo checked="true"/>conference badge QR (email from registration)</div><h3>Clothes</h3><div><en-todo checked="true"/>1 nicer shirt for the talk day, 2 casual</div><div><en-todo checked="true"/>running kit x2 (keep the streak through taper-ish week; half is Oct 15)</div><div><en-todo checked="true"/>light jacket</div><h3>Misc</h3><div><en-todo checked="true"/>business cards? -&gt; Mathetic ones arrived 9/30, take 30</div><div><en-todo checked="false"/>poster tube - no poster this time</div><div><en-todo checked="true"/>reimbursement: keep ALL receipts (VT travel funding approved, Grace says itemized receipts within 10 days)</div><div><br/></div><div>10/5: packed. rehearsed the opening twice more. remember: 80 seconds max before the first figure.</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

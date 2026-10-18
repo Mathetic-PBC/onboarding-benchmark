@@ -1,1 +1,1709 @@
-[]
+[
+ {
+  "id": "item_034344",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "69001f24-cecc-83e5-fc00-d7e60fdf53fb",
+  "title": "P3 rubric partial credit",
+  "content_type": "conversation",
+  "created_at": "2025-10-28T01:40:52Z",
+  "modified_at": "2025-10-28T01:44:40Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/69001f24-cecc-83e5-fc00-d7e60fdf53fb.json",
+  "source_url": "https://chatgpt.com/c/69001f24-cecc-83e5-fc00-d7e60fdf53fb",
+  "content_hash": "sha256:ace84622af6f50c670cfee44ec943dbb42aaa7a425137b965ae7c39b6fc5b3f8",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-4o",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": "title='P3 rubric partial credit'; 4 user/assistant messages"
+  }
+ },
+ {
+  "id": "item_034345",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6902c804-257d-83af-8bb8-c070efaafacf",
+  "title": "VT parking ticket appeal",
+  "content_type": "conversation",
+  "created_at": "2025-10-30T02:05:56Z",
+  "modified_at": "2025-10-30T02:07:56Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6902c804-257d-83af-8bb8-c070efaafacf.json",
+  "source_url": "https://chatgpt.com/c/6902c804-257d-83af-8bb8-c070efaafacf",
+  "content_hash": "sha256:e98e269b570506c008a836a3296708c18b88b2b26ff342f8b7fb0c4590f60a70",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-4o",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "title='VT parking ticket appeal'; 4 user/assistant messages"
+  }
+ },
+ {
+  "id": "item_034346",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6914040c-feb8-8365-119d-a4303a97d273",
+  "title": "TACode handoff notes",
+  "content_type": "conversation",
+  "created_at": "2025-11-12T03:50:36Z",
+  "modified_at": "2025-11-12T03:52:59Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6914040c-feb8-8365-119d-a4303a97d273.json",
+  "source_url": "https://chatgpt.com/c/6914040c-feb8-8365-119d-a4303a97d273",
+  "content_hash": "sha256:2f7add8c418e4e8e692c7de9b84666a0b3684007cdb4ef6841bd3a43668a1b7d",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-1",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tacode"
+   ],
+   "notes": "TACode handoff to the next student (Nov 2025)"
+  }
+ },
+ {
+  "id": "item_034347",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6914f38c-af99-8326-1e30-64269ed11ee2",
+  "title": "VizPI websocket reconnect dropping events",
+  "content_type": "conversation",
+  "created_at": "2025-11-12T20:52:28Z",
+  "modified_at": "2025-11-12T21:18:56Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6914f38c-af99-8326-1e30-64269ed11ee2.json",
+  "source_url": "https://chatgpt.com/c/6914f38c-af99-8326-1e30-64269ed11ee2",
+  "content_hash": "sha256:b93a8ccf5619e7f3ca74d14fa8b9833e4be3e48a793ada59073409d8a050c420",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 10,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-1",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "live debugging during VizPI CS 3114 deployment #2 (section B lost ~12% of events until the 4:10 pm hotfix)"
+  }
+ },
+ {
+  "id": "item_034348",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "691be878-912c-83f5-e90d-df5302704e53",
+  "title": "Agreement between labelers in pandas",
+  "content_type": "conversation",
+  "created_at": "2025-11-18T03:31:04Z",
+  "modified_at": "2025-11-18T03:35:26Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/691be878-912c-83f5-e90d-df5302704e53.json",
+  "source_url": "https://chatgpt.com/c/691be878-912c-83f5-e90d-df5302704e53",
+  "content_hash": "sha256:b43b75d7e1cfda4a446195991321992c6f38af6c8534b6f581fcf928a21bb7c3",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-1",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "labeling sprint 11-14..11-21 with Minsun and Xiaohang (2,340 windows); guide v3 adds stalled-after-error"
+  }
+ },
+ {
+  "id": "item_034349",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "691e6ba4-cf49-8323-c226-76406ee09489",
+  "title": "Sophia for Educators revisit",
+  "content_type": "conversation",
+  "created_at": "2025-11-20T01:15:16Z",
+  "modified_at": "2025-11-20T01:19:14Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/691e6ba4-cf49-8323-c226-76406ee09489.json",
+  "source_url": "https://chatgpt.com/c/691e6ba4-cf49-8323-c226-76406ee09489",
+  "content_hash": "sha256:aeda4756b83736488b5c33fb51c311cd88481b28f41c4951ce03398aca0a2c36",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-1",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_sophia"
+   ],
+   "notes": "revisiting the old Sophia for Educators idea (Nov 2025)"
+  }
+ },
+ {
+  "id": "item_034350",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "692004c3-7e4a-8386-467f-c73ba4b81410",
+  "title": "New chat",
+  "content_type": "conversation",
+  "created_at": "2025-11-21T06:20:51Z",
+  "modified_at": "2025-11-21T06:23:44Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/692004c3-7e4a-8386-467f-c73ba4b81410.json",
+  "source_url": "https://chatgpt.com/c/692004c3-7e4a-8386-467f-c73ba4b81410",
+  "content_hash": "sha256:4d9d59bcd8c98ab37189c5cb424f8772ed943a53c931eb1552ee9c2c0d47c962",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-1",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "HARD CASE: vague title — \"New chat\"; content is VizPI labeling-sprint data wrangling (end of sprint 11-21)"
+  }
+ },
+ {
+  "id": "item_034351",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "692a8e3b-b1b7-831e-b444-3e12f3ecb7ee",
+  "title": "Sidechain 808 to kick in FL Studio",
+  "content_type": "conversation",
+  "created_at": "2025-11-29T06:10:03Z",
+  "modified_at": "2025-11-29T06:13:01Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/692a8e3b-b1b7-831e-b444-3e12f3ecb7ee.json",
+  "source_url": "https://chatgpt.com/c/692a8e3b-b1b7-831e-b444-3e12f3ecb7ee",
+  "content_hash": "sha256:30360bb57c958bbc6e0035f24606e9c41fef4060bdf0d4aafdf6060b0f98707c",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-1",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": "title='Sidechain 808 to kick in FL Studio'; 4 user/assistant messages"
+  }
+ },
+ {
+  "id": "item_034352",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "692fa1fa-73d0-8380-dd7b-5caccba610c9",
+  "title": "Cardiac drift on Zone 2 runs",
+  "content_type": "conversation",
+  "created_at": "2025-12-03T02:35:38Z",
+  "modified_at": "2025-12-03T02:38:02Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/692fa1fa-73d0-8380-dd7b-5caccba610c9.json",
+  "source_url": "https://chatgpt.com/c/692fa1fa-73d0-8380-dd7b-5caccba610c9",
+  "content_hash": "sha256:dc0b3a2480af2530b9ed850ee79829b26d23a429e6c9b8f2d9810914604216b7",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-1",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "title='Cardiac drift on Zone 2 runs'; 4 user/assistant messages"
+  }
+ },
+ {
+  "id": "item_034353",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "693a430d-2abe-835d-3c2d-449f20c24053",
+  "title": "Reply to P4 late day regrade",
+  "content_type": "conversation",
+  "created_at": "2025-12-11T04:05:33Z",
+  "modified_at": "2025-12-11T04:08:22Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/693a430d-2abe-835d-3c2d-449f20c24053.json",
+  "source_url": "https://chatgpt.com/c/693a430d-2abe-835d-3c2d-449f20c24053",
+  "content_hash": "sha256:ec9d36fcc09fb881cb9f68a43cde444d018f0a7462c43fdfebfd0150597a6160",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-1",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": "the one P4 regrade dispute about the late-day policy (finals grading week)"
+  }
+ },
+ {
+  "id": "item_034354",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "694348df-2f69-836f-8b08-fa01f621539e",
+  "title": "Scale chickpea curry recipe",
+  "content_type": "conversation",
+  "created_at": "2025-12-18T00:20:47Z",
+  "modified_at": "2025-12-18T00:24:31Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/694348df-2f69-836f-8b08-fa01f621539e.json",
+  "source_url": "https://chatgpt.com/c/694348df-2f69-836f-8b08-fa01f621539e",
+  "content_hash": "sha256:650c49002d751568bf0141360084baf08733915b9a36312ee3e7616997ca99f1",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-1",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "finals grading week cooking"
+  }
+ },
+ {
+  "id": "item_034355",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "69646643-0ad4-83a2-a235-8b24ed1fc86e",
+  "title": "Taiwan chips and US export controls",
+  "content_type": "conversation",
+  "created_at": "2026-01-12T03:10:59Z",
+  "modified_at": "2026-01-12T03:13:55Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/69646643-0ad4-83a2-a235-8b24ed1fc86e.json",
+  "source_url": "https://chatgpt.com/c/69646643-0ad4-83a2-a235-8b24ed1fc86e",
+  "content_hash": "sha256:922e8e308f0927a0378052bd9714c4f6ff71b812ca6614b52e0f1206993ddbff",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-2",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "title='Taiwan chips and US export controls'; 4 user/assistant messages"
+  }
+ },
+ {
+  "id": "item_034356",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "696d9f95-f81a-8356-7054-ed19f26c0bbe",
+  "title": "Portfolio site redesign",
+  "content_type": "conversation",
+  "created_at": "2026-01-19T03:05:57Z",
+  "modified_at": "2026-01-19T03:15:21Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/696d9f95-f81a-8356-7054-ed19f26c0bbe.json",
+  "source_url": "https://chatgpt.com/c/696d9f95-f81a-8356-7054-ed19f26c0bbe",
+  "content_hash": "sha256:f2911343d7013a035efe0418460cc6cdb476b8509f6738799664860731dbbfa4",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 8,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-2",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_portfolio"
+   ],
+   "notes": "personal portfolio redesign"
+  }
+ },
+ {
+  "id": "item_034357",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6971a3b7-369b-838c-b468-1297519ed31b",
+  "title": "HDBSCAN min_cluster_size for forum posts",
+  "content_type": "conversation",
+  "created_at": "2026-01-22T04:12:39Z",
+  "modified_at": "2026-01-22T04:18:30Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6971a3b7-369b-838c-b468-1297519ed31b.json",
+  "source_url": "https://chatgpt.com/c/6971a3b7-369b-838c-b468-1297519ed31b",
+  "content_hash": "sha256:b174b6504c62e082c33827629576fe9bb9cecd4b78cb118f449e7ee722cdff2d",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-2",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": "Dynamite discussion-post clustering (3,100 posts, HDBSCAN min_cluster_size=15, 41 clusters)"
+  }
+ },
+ {
+  "id": "item_034358",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "697d94b4-c4ff-8333-34ec-add595008c0e",
+  "title": "Untitled",
+  "content_type": "conversation",
+  "created_at": "2026-01-31T05:35:48Z",
+  "modified_at": "2026-01-31T05:39:33Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/697d94b4-c4ff-8333-34ec-add595008c0e.json",
+  "source_url": "https://chatgpt.com/c/697d94b4-c4ff-8333-34ec-add595008c0e",
+  "content_hash": "sha256:eb22a2d3b84d097705ade192683418de37f8577b60d3bc3fd5ba3365f728f0d0",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-2",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: vague title — \"Untitled\"; online chess opening question"
+  }
+ },
+ {
+  "id": "item_034359",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6982acec-dfad-8363-6d9b-9fceeea3591d",
+  "title": "Appraisal theory explained simply",
+  "content_type": "conversation",
+  "created_at": "2026-02-04T02:20:28Z",
+  "modified_at": "2026-02-04T02:24:43Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6982acec-dfad-8363-6d9b-9fceeea3591d.json",
+  "source_url": "https://chatgpt.com/c/6982acec-dfad-8363-6d9b-9fceeea3591d",
+  "content_hash": "sha256:97e2b6154a0ea0d3bf322a613a148f4944d889157fc450e4c4d791c1f797248d",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-3",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "ISE 6664 (Dr. Alan Brooks) reading response help"
+  }
+ },
+ {
+  "id": "item_034360",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6989574a-cd72-833a-ebd9-78b1b1c7e217",
+  "title": "Licklider vs Engelbart vs Bush",
+  "content_type": "conversation",
+  "created_at": "2026-02-09T03:40:58Z",
+  "modified_at": "2026-02-09T03:45:07Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6989574a-cd72-833a-ebd9-78b1b1c7e217.json",
+  "source_url": "https://chatgpt.com/c/6989574a-cd72-833a-ebd9-78b1b1c7e217",
+  "content_hash": "sha256:8e024cddff04d3150402041cb18332897680c0d74221d07bba70aad918082817",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-3",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": "augmenting-cognition reading group prep"
+  }
+ },
+ {
+  "id": "item_034361",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "699bafff-64c0-831b-01c5-d3aa136f04be",
+  "title": "Cut my subscriptions",
+  "content_type": "conversation",
+  "created_at": "2026-02-23T01:40:15Z",
+  "modified_at": "2026-02-23T01:42:53Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/699bafff-64c0-831b-01c5-d3aa136f04be.json",
+  "source_url": "https://chatgpt.com/c/699bafff-64c0-831b-01c5-d3aa136f04be",
+  "content_hash": "sha256:d2f6ec416c07152ebc5d211e87e0e5e99a7b362bd68353e51f115a287dbcf0de",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-3",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "title='Cut my subscriptions'; 4 user/assistant messages"
+  }
+ },
+ {
+  "id": "item_034362",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "69a7a3e1-132b-8305-544e-3d0b9226a01d",
+  "title": "Tariffs and inflation explainer",
+  "content_type": "conversation",
+  "created_at": "2026-03-04T03:15:45Z",
+  "modified_at": "2026-03-04T03:19:24Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/69a7a3e1-132b-8305-544e-3d0b9226a01d.json",
+  "source_url": "https://chatgpt.com/c/69a7a3e1-132b-8305-544e-3d0b9226a01d",
+  "content_hash": "sha256:00bb9d0950f9a4e61f4bba29ec6beca9feea9dfde4de5c13ccf508d867a890c6",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-3",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "title='Tariffs and inflation explainer'; 4 user/assistant messages"
+  }
+ },
+ {
+  "id": "item_034363",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "69ae2653-057b-8327-0da6-6af4e0f6310b",
+  "title": "Grad student taxes 1098-T",
+  "content_type": "conversation",
+  "created_at": "2026-03-09T01:45:55Z",
+  "modified_at": "2026-03-09T01:50:46Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/69ae2653-057b-8327-0da6-6af4e0f6310b.json",
+  "source_url": "https://chatgpt.com/c/69ae2653-057b-8327-0da6-6af4e0f6310b",
+  "content_hash": "sha256:d7793f81b4ece99723a3d1c88f9b7da3049608f0b06e3c84612edde96b0426ab",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-3",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "2025 taxes (Mar–Apr 2026)"
+  }
+ },
+ {
+  "id": "item_034364",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "69c5fc59-900c-833c-0a84-a8fc2b390cc3",
+  "title": "Reporting kappa for 3 raters",
+  "content_type": "conversation",
+  "created_at": "2026-03-27T03:41:13Z",
+  "modified_at": "2026-03-27T03:49:57Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/69c5fc59-900c-833c-0a84-a8fc2b390cc3.json",
+  "source_url": "https://chatgpt.com/c/69c5fc59-900c-833c-0a84-a8fc2b390cc3",
+  "content_hash": "sha256:9c1e466bef2838317991e832c4ec6b0d28a5c51a83a7ea72c8a37d4ac828644f",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 8,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-3",
+   "parent_id": "chatgpt-project:g-p-21ecaf999dccc4d37bc652a9736257d4",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: chats inside projects — ChatGPT Project \"TutorTrace UIST\"; kappa reporting during the UIST crunch"
+  }
+ },
+ {
+  "id": "item_034365",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "69ca063e-5b93-836f-25a2-cc78e599ea6b",
+  "title": "Tighten UIST abstract",
+  "content_type": "conversation",
+  "created_at": "2026-03-30T05:12:30Z",
+  "modified_at": "2026-03-30T05:15:50Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/69ca063e-5b93-836f-25a2-cc78e599ea6b.json",
+  "source_url": "https://chatgpt.com/c/69ca063e-5b93-836f-25a2-cc78e599ea6b",
+  "content_hash": "sha256:1bf5b65c63cb49318acda9261738587b11200c2447a37898f92831bf041011b7",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-3",
+   "parent_id": "chatgpt-project:g-p-21ecaf999dccc4d37bc652a9736257d4",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: chats inside projects — ChatGPT Project \"TutorTrace UIST\"; abstract cut on deadline week"
+  }
+ },
+ {
+  "id": "item_034366",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "69d86339-d966-83f6-9ecf-bfd5c73dde97",
+  "title": "New chat",
+  "content_type": "conversation",
+  "created_at": "2026-04-10T02:40:57Z",
+  "modified_at": "2026-04-10T02:43:38Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/69d86339-d966-83f6-9ecf-bfd5c73dde97.json",
+  "source_url": "https://chatgpt.com/c/69d86339-d966-83f6-9ecf-bfd5c73dde97",
+  "content_hash": "sha256:e8b88d77270e44134bb843376f0409d107ac02b9db8edfedf6fd9306ff1f4a78",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-3",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: vague title — \"New chat\"; quick tax-form question (2025 taxes)"
+  }
+ },
+ {
+  "id": "item_034367",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "69dc4047-522d-83c7-2cf3-af7870f71531",
+  "title": "Grand strategy reading list",
+  "content_type": "conversation",
+  "created_at": "2026-04-13T01:00:55Z",
+  "modified_at": "2026-04-13T01:04:38Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/69dc4047-522d-83c7-2cf3-af7870f71531.json",
+  "source_url": "https://chatgpt.com/c/69dc4047-522d-83c7-2cf3-af7870f71531",
+  "content_hash": "sha256:597e2200ef7d16aefc45582ffd84dbf3c2ed3d80c11e9553e555dfe171d7e1f0",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-3",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "quiet week after the UIST deadline"
+  }
+ },
+ {
+  "id": "item_034368",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "69f818a2-79e0-8398-3987-b3c47b42f15c",
+  "title": "Datasheet for IDETrace (NeurIPS D&B)",
+  "content_type": "conversation",
+  "created_at": "2026-05-04T03:55:14Z",
+  "modified_at": "2026-05-04T04:00:25Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/69f818a2-79e0-8398-3987-b3c47b42f15c.json",
+  "source_url": "https://chatgpt.com/c/69f818a2-79e0-8398-3987-b3c47b42f15c",
+  "content_hash": "sha256:b93aaa2ff28e7db49223ed074e085ae9de7318c6bee63c3eac50c00a97192dc4",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-3",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "NeurIPS D&B submission week (deadline 2026-05-06)"
+  }
+ },
+ {
+  "id": "item_034369",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a03b803-9e2c-8355-6554-255e59cd9174",
+  "title": "Rear derailleur skipping gears",
+  "content_type": "conversation",
+  "created_at": "2026-05-12T23:30:11Z",
+  "modified_at": "2026-05-12T23:33:08Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a03b803-9e2c-8355-6554-255e59cd9174.json",
+  "source_url": "https://chatgpt.com/c/6a03b803-9e2c-8355-6554-255e59cd9174",
+  "content_hash": "sha256:a96eb6165af6a1e8681455a9e8c31686bc05193d05f4dbf0a05f0ee975774b70",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-3",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "title='Rear derailleur skipping gears'; 4 user/assistant messages"
+  }
+ },
+ {
+  "id": "item_034370",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a13c4a0-41e4-8347-ae20-453ed67bb707",
+  "title": "Chopping a soul sample",
+  "content_type": "conversation",
+  "created_at": "2026-05-25T03:40:16Z",
+  "modified_at": "2026-05-25T03:42:25Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a13c4a0-41e4-8347-ae20-453ed67bb707.json",
+  "source_url": "https://chatgpt.com/c/6a13c4a0-41e4-8347-ae20-453ed67bb707",
+  "content_hash": "sha256:6bd5f5a3fefe9924e379daffb15009fc84ba7d64c64c21b6cf78b2258f1f663b",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-3",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": "(quiet week after NeurIPS deadline)"
+  }
+ },
+ {
+  "id": "item_034371",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a1793b7-e522-8381-305a-d6437cc89331",
+  "title": "Wedding RSVP and gift etiquette Ireland",
+  "content_type": "conversation",
+  "created_at": "2026-05-28T01:00:39Z",
+  "modified_at": "2026-05-28T01:04:22Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a1793b7-e522-8381-305a-d6437cc89331.json",
+  "source_url": "https://chatgpt.com/c/6a1793b7-e522-8381-305a-d6437cc89331",
+  "content_hash": "sha256:b5dc62df075179b401c2fd9096f90e411e113c8240cfb772dd6251224fc529b0",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-3",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "cousin Niamh's wedding in Dublin (summer 2026), logistics only"
+  }
+ },
+ {
+  "id": "item_034372",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a20e360-d766-83ec-e996-0399e71ca920",
+  "title": "Aggregation theory summary",
+  "content_type": "conversation",
+  "created_at": "2026-06-04T02:30:56Z",
+  "modified_at": "2026-06-04T02:33:39Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a20e360-d766-83ec-e996-0399e71ca920.json",
+  "source_url": "https://chatgpt.com/c/6a20e360-d766-83ec-e996-0399e71ca920",
+  "content_hash": "sha256:9a5dc3473202bd967b3538d3577a4084d7a2567f40f2d4e0c96f33b005c4b7cb",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-5",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "title='Aggregation theory summary'; 4 user/assistant messages"
+  }
+ },
+ {
+  "id": "item_034373",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a2f5de7-8f19-8336-a7c2-422dcc053424",
+  "title": "Rebuttal reply on label reliability",
+  "content_type": "conversation",
+  "created_at": "2026-06-15T02:05:27Z",
+  "modified_at": "2026-06-15T02:52:57Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a2f5de7-8f19-8336-a7c2-422dcc053424.json",
+  "source_url": "https://chatgpt.com/c/6a2f5de7-8f19-8336-a7c2-422dcc053424",
+  "content_hash": "sha256:35554ba00daad0318c69cec6563e25107574dd87e356904fdfc48fc3025e9b7e",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 8,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-5",
+   "parent_id": "chatgpt-project:g-p-21ecaf999dccc4d37bc652a9736257d4",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: chats inside projects — ChatGPT Project \"TutorTrace UIST\"; rebuttal phrasing (reviews 06-11, due 06-18)"
+  }
+ },
+ {
+  "id": "item_034374",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a3436ff-cae0-838c-c4ad-c8830522c977",
+  "title": "Final read of rebuttal",
+  "content_type": "conversation",
+  "created_at": "2026-06-18T18:20:47Z",
+  "modified_at": "2026-06-18T18:23:44Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a3436ff-cae0-838c-c4ad-c8830522c977.json",
+  "source_url": "https://chatgpt.com/c/6a3436ff-cae0-838c-c4ad-c8830522c977",
+  "content_hash": "sha256:8901d3ea4192dc0b0848477cd4b827eccce282481d1df15df3a8c295d5065c81",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-5",
+   "parent_id": "chatgpt-project:g-p-21ecaf999dccc4d37bc652a9736257d4",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: chats inside projects — ChatGPT Project \"TutorTrace UIST\"; last check before rebuttal submission 06-18"
+  }
+ },
+ {
+  "id": "item_034375",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a373ec0-00b5-83ea-1f0d-92c04c799289",
+  "title": "Email to advisor about leave of absence",
+  "content_type": "conversation",
+  "created_at": "2026-06-21T01:30:40Z",
+  "modified_at": "2026-06-21T01:33:54Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a373ec0-00b5-83ea-1f0d-92c04c799289.json",
+  "source_url": "https://chatgpt.com/c/6a373ec0-00b5-83ea-1f0d-92c04c799289",
+  "content_hash": "sha256:84b8cf9b24a580e5a18dfe173a22da5ff6f96e19f01df9c126ab4c8f651b91c9",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-5",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vt_phd_admin"
+   ],
+   "notes": "before the 06-22 leave-of-absence 1:1 with Yan"
+  }
+ },
+ {
+  "id": "item_034376",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a56f0b6-d33e-8361-d8ac-1a99c2d5cff4",
+  "title": "SF sublet search",
+  "content_type": "conversation",
+  "created_at": "2026-07-15T02:30:14Z",
+  "modified_at": "2026-07-15T02:35:35Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a56f0b6-d33e-8361-d8ac-1a99c2d5cff4.json",
+  "source_url": "https://chatgpt.com/c/6a56f0b6-d33e-8361-d8ac-1a99c2d5cff4",
+  "content_hash": "sha256:60e1290be00eb3283798dbd2901e66724c242fc208431ac1201f03269281a0a1",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-5",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "SF apartment/sublet search before the 08-08 move (ended up at the incubator house)"
+  }
+ },
+ {
+  "id": "item_034377",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a5c06a3-861c-839f-0aad-8f3666110aa2",
+  "title": "Meal prep on $60/week",
+  "content_type": "conversation",
+  "created_at": "2026-07-18T23:05:07Z",
+  "modified_at": "2026-07-28T20:01:03Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a5c06a3-861c-839f-0aad-8f3666110aa2.json",
+  "source_url": "https://chatgpt.com/c/6a5c06a3-861c-839f-0aad-8f3666110aa2",
+  "content_hash": "sha256:db9d5b3f326f1d68e183f82ad45fd87e98f2763ad3c1b8401301ae13f459d860",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 58,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-5",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace",
+    "project_none"
+   ],
+   "notes": "HARD CASE: buried passage — 58-message meal-prep / grocery-budget chat; around messages 31–38 (2026-07-24 night) David digresses about the IDETrace leakage bug (same students' windows in train and test) and gets advice on GroupKFold / grouping the split by student id and reporting both macro-F1 numbers; then returns to food"
+  }
+ },
+ {
+  "id": "item_034378",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a680f84-7ef6-8303-b2ca-8907f01acb21",
+  "title": "Presenting corrected F1 in rebuttal",
+  "content_type": "conversation",
+  "created_at": "2026-07-28T02:10:12Z",
+  "modified_at": "2026-07-28T02:13:42Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a680f84-7ef6-8303-b2ca-8907f01acb21.json",
+  "source_url": "https://chatgpt.com/c/6a680f84-7ef6-8303-b2ca-8907f01acb21",
+  "content_hash": "sha256:dd061a84a91867ff8b990699213820b2a13c612da06b69a664c5735e82747f6b",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-6-thinking",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "NeurIPS rebuttal (posted 07-29); reports both 0.81 and 0.74"
+  }
+ },
+ {
+  "id": "item_034379",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a6c1363-de41-8353-c300-46741eddd5f6",
+  "title": "Moving checklist Blacksburg to SF",
+  "content_type": "conversation",
+  "created_at": "2026-07-31T03:15:47Z",
+  "modified_at": "2026-07-31T03:18:36Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a6c1363-de41-8353-c300-46741eddd5f6.json",
+  "source_url": "https://chatgpt.com/c/6a6c1363-de41-8353-c300-46741eddd5f6",
+  "content_hash": "sha256:66b11edc86e99e83d132216a64c7d725a76de5f624654d8e6f160aecd7208379",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-6-thinking",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "title='Moving checklist Blacksburg to SF'; 4 user/assistant messages"
+  }
+ },
+ {
+  "id": "item_034380",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a729472-31d9-83aa-0254-ca1438843faf",
+  "title": "New MacBook dev setup",
+  "content_type": "conversation",
+  "created_at": "2026-08-05T01:40:02Z",
+  "modified_at": "2026-08-05T01:42:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a729472-31d9-83aa-0254-ca1438843faf.json",
+  "source_url": "https://chatgpt.com/c/6a729472-31d9-83aa-0254-ca1438843faf",
+  "content_hash": "sha256:a59e410d282deebfaa80142934d0d4b2fd2de34b116f5184cdf18e9282147ddf",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-6-thinking",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "new Mac 2026-08-04"
+  }
+ },
+ {
+  "id": "item_034381",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a7d5664-55c0-8377-b430-8af651be3c00",
+  "title": "Camera-ready limitations + privacy",
+  "content_type": "conversation",
+  "created_at": "2026-08-13T05:30:12Z",
+  "modified_at": "2026-08-13T05:36:16Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a7d5664-55c0-8377-b430-8af651be3c00.json",
+  "source_url": "https://chatgpt.com/c/6a7d5664-55c0-8377-b430-8af651be3c00",
+  "content_hash": "sha256:8212aa20fed221d493326672da1d0cd50f094a011fd0e859566a3fb21bb9f3e0",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-6-thinking",
+   "parent_id": "chatgpt-project:g-p-21ecaf999dccc4d37bc652a9736257d4",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: chats inside projects — ChatGPT Project \"TutorTrace UIST\"; camera-ready (due 08-14) privacy paragraph"
+  }
+ },
+ {
+  "id": "item_034382",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a815faa-8d9a-839f-dbb9-1245d66cb4de",
+  "title": "Claude Code plugin hook not firing",
+  "content_type": "conversation",
+  "created_at": "2026-08-16T06:58:50Z",
+  "modified_at": "2026-08-16T07:01:44Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a815faa-8d9a-839f-dbb9-1245d66cb4de.json",
+  "source_url": "https://chatgpt.com/c/6a815faa-8d9a-839f-dbb9-1245d66cb4de",
+  "content_hash": "sha256:eb14a503679381831a135808bebc3c4fd3af68de8446fced379303e35ce83345",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-6-thinking",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_claude_code_plugins"
+   ],
+   "notes": "hc plugin — PostToolUse hook not firing"
+  }
+ },
+ {
+  "id": "item_034383",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a852cce-b468-831c-bbdd-c795ba9e0762",
+  "title": "Delaware PBC basics",
+  "content_type": "conversation",
+  "created_at": "2026-08-19T04:10:54Z",
+  "modified_at": "2026-08-19T04:13:58Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a852cce-b468-831c-bbdd-c795ba9e0762.json",
+  "source_url": "https://chatgpt.com/c/6a852cce-b468-831c-bbdd-c795ba9e0762",
+  "content_hash": "sha256:1c93b2d30bda2f5f54b4236fc75368b4995b1fc1a9ff14841cf9a8c9665dfce9",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-6-thinking",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "Mathetic PBC; annual report reminder (due 2027-03-01)"
+  }
+ },
+ {
+  "id": "item_034384",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a868e8e-fc39-8359-d753-360b5e1e46d5",
+  "title": "Prep for angel investor call",
+  "content_type": "conversation",
+  "created_at": "2026-08-20T05:20:14Z",
+  "modified_at": "2026-08-20T05:23:13Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a868e8e-fc39-8359-d753-360b5e1e46d5.json",
+  "source_url": "https://chatgpt.com/c/6a868e8e-fc39-8359-d753-360b5e1e46d5",
+  "content_hash": "sha256:3e4b3185f40cd653640de4735d40c98cc727304468455533cf371ec7143f0f34",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-6-thinking",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "prep for the first Marcus Oyelaran (Northfield Angels) call on 2026-08-20"
+  }
+ },
+ {
+  "id": "item_034385",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a912b1c-7c2f-831c-4489-81d11aa5c6dc",
+  "title": "Landing page headline options",
+  "content_type": "conversation",
+  "created_at": "2026-08-28T06:30:52Z",
+  "modified_at": "2026-08-28T06:34:24Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a912b1c-7c2f-831c-4489-81d11aa5c6dc.json",
+  "source_url": "https://chatgpt.com/c/6a912b1c-7c2f-831c-4489-81d11aa5c6dc",
+  "content_hash": "sha256:043fac941ca1f3bcb8c46a30b28ddbbb23dac778530b055284e2d4f09117568b",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-6-thinking",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "title='Landing page headline options'; 4 user/assistant messages"
+  }
+ },
+ {
+  "id": "item_034386",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a96584d-7465-8328-9365-8b6a53858510",
+  "title": "Cold email for Berkeley research chats",
+  "content_type": "conversation",
+  "created_at": "2026-09-01T04:45:01Z",
+  "modified_at": "2026-09-01T04:47:44Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a96584d-7465-8328-9365-8b6a53858510.json",
+  "source_url": "https://chatgpt.com/c/6a96584d-7465-8328-9365-8b6a53858510",
+  "content_hash": "sha256:38c49f250054f09ee3e4ca6dc7f3da3b36b33c3347ea17fafb672cd4d1f6c998",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-6-thinking",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats"
+   ],
+   "notes": "outreach for the Berkeley research chats (held 09-09, 09-10, 09-16)"
+  }
+ },
+ {
+  "id": "item_034387",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6a98e9c0-37e8-83f3-1e81-0d018966cb6b",
+  "title": "CA registration question",
+  "content_type": "conversation",
+  "created_at": "2026-09-03T03:30:08Z",
+  "modified_at": "2026-09-03T03:34:42Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6a98e9c0-37e8-83f3-1e81-0d018966cb6b.json",
+  "source_url": "https://chatgpt.com/c/6a98e9c0-37e8-83f3-1e81-0d018966cb6b",
+  "content_hash": "sha256:36fa7c5737aafc70199b007f955c090a7aea2a7c46c740443c82af4c10da7a91",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-6-thinking",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "not keeping a car; question about license"
+  }
+ },
+ {
+  "id": "item_034388",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6aaf5ca8-a0d1-8353-28ef-ce0238e8cd75",
+  "title": "How noise cancelling works",
+  "content_type": "conversation",
+  "created_at": "2026-09-20T04:10:16Z",
+  "modified_at": "2026-09-20T04:12:54Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6aaf5ca8-a0d1-8353-28ef-ce0238e8cd75.json",
+  "source_url": "https://chatgpt.com/c/6aaf5ca8-a0d1-8353-28ef-ce0238e8cd75",
+  "content_hash": "sha256:87abfc52212124d5347ac76994cd8a5ceaec160084dcdf838ba0d09f3125e199",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-6",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "title='How noise cancelling works'; 4 user/assistant messages"
+  }
+ },
+ {
+  "id": "item_034389",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6ab35266-fd8b-8381-521d-d94a7e56a9bd",
+  "title": "UIST talk outline 15 min",
+  "content_type": "conversation",
+  "created_at": "2026-09-23T04:15:34Z",
+  "modified_at": "2026-09-23T04:22:24Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6ab35266-fd8b-8381-521d-d94a7e56a9bd.json",
+  "source_url": "https://chatgpt.com/c/6ab35266-fd8b-8381-521d-d94a7e56a9bd",
+  "content_hash": "sha256:1a0790f54c4b9f84badb3f5a74d35caf166254d99cfa3a8beae73dfb4032ec56",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-6-thinking",
+   "parent_id": "chatgpt-project:g-p-21ecaf999dccc4d37bc652a9736257d4",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: chats inside projects — ChatGPT Project \"TutorTrace UIST\"; talk outline for 10-07"
+  }
+ },
+ {
+  "id": "item_034390",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6ab49bc6-9f8d-83f0-d56a-ae3a5fb434eb",
+  "title": "Travel funding justification for UIST",
+  "content_type": "conversation",
+  "created_at": "2026-09-24T03:40:54Z",
+  "modified_at": "2026-09-24T03:43:06Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6ab49bc6-9f8d-83f0-d56a-ae3a5fb434eb.json",
+  "source_url": "https://chatgpt.com/c/6ab49bc6-9f8d-83f0-d56a-ae3a5fb434eb",
+  "content_hash": "sha256:4ea913e2c1ad1325c496dedaee6a50c00610fa708c36f055f8be5a7f05521687",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-6-thinking",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vt_phd_admin"
+   ],
+   "notes": "VT travel-funding request (submitted 09-24) for the UIST talk 10-07"
+  }
+ },
+ {
+  "id": "item_034391",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6ac48ba7-0890-836b-79ee-1846a69af62b",
+  "title": "Q&A prep for UIST talk",
+  "content_type": "conversation",
+  "created_at": "2026-10-06T05:48:23Z",
+  "modified_at": "2026-10-06T05:52:29Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6ac48ba7-0890-836b-79ee-1846a69af62b.json",
+  "source_url": "https://chatgpt.com/c/6ac48ba7-0890-836b-79ee-1846a69af62b",
+  "content_hash": "sha256:a920cdef9b1e9a6f95c7d69b51e037e17102e8d0c85aae3b847962428e28a74a",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 4,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-6-thinking",
+   "parent_id": "chatgpt-project:g-p-21ecaf999dccc4d37bc652a9736257d4",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: chats inside projects — ChatGPT Project \"TutorTrace UIST\"; Q&A prep two days before the 10-07 talk"
+  }
+ },
+ {
+  "id": "item_034392",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "6acc51e7-92fa-838a-4387-fbf736c77f87",
+  "title": "Half marathon fueling plan",
+  "content_type": "conversation",
+  "created_at": "2026-10-12T03:20:07Z",
+  "modified_at": "2026-10-16T03:24:35Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/conversations/6acc51e7-92fa-838a-4387-fbf736c77f87.json",
+  "source_url": "https://chatgpt.com/c/6acc51e7-92fa-838a-4387-fbf736c77f87",
+  "content_hash": "sha256:ce3ce5e4d6706f519b6a25d1a3578edc13186312e0fa91de4e31e40cfa5d1d63",
+  "library_item_id": null,
+  "modeled_on": "authentic/chatgpt conversation JSON (backend-api shape)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "model": "gpt-5-6-thinking",
+   "is_archived": false,
+   "collection": "stopgap (signed-in web API)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "before the Bay Area half marathon on 2026-10-15 (with Owen Patel)"
+  }
+ },
+ {
+  "id": "item_034393",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "chatgpt",
+  "source_id": "g-p-21ecaf999dccc4d37bc652a9736257d4",
+  "title": "TutorTrace UIST",
+  "content_type": "project",
+  "created_at": "2026-03-25T02:40:00Z",
+  "modified_at": "2026-10-06T05:52:29Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/chatgpt/dbarron410@vt.edu/projects/g-p-21ecaf999dccc4d37bc652a9736257d4.json",
+  "source_url": "https://chatgpt.com/g/g-p-21ecaf999dccc4d37bc652a9736257d4/project",
+  "content_hash": "sha256:b6e7ecc054cfd8b1232eccf5740d914a5d770c6853ce5de8fc3a386c1d5d86ae",
+  "library_item_id": null,
+  "modeled_on": "ChatGPT Project (backend-api/gizmos/<g-p-id> response, gizmo_type snorlax)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: chats inside projects — ChatGPT Project \"TutorTrace UIST\" definition: instructions, uploaded files, 7 conversations (their JSON carries gizmo_id g-p-21ecaf999dccc4d37bc652a9736257d4)"
+  }
+ }
+]

@@ -1,0 +1,114 @@
+{
+ "uuid": "40564455-2c3b-4140-be5c-2f34b206216a",
+ "name": "Quick conversion",
+ "summary": "",
+ "model": "claude-opus-4-7",
+ "created_at": "2026-05-02T12:14:58.541336Z",
+ "updated_at": "2026-05-02T12:16:58.921160Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "off",
+ "chat_messages": [
+  {
+   "uuid": "eb6b7ee6-b758-4f53-ae29-6620dafdf044",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-05-02T12:15:00.000000Z",
+     "stop_timestamp": "2026-05-02T12:15:00.000000Z",
+     "type": "text",
+     "text": "13.1 miles in km and what pace per km is 6:30/mile",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-05-02T12:15:00.000000Z",
+   "updated_at": "2026-05-02T12:15:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "c4d75d21-979c-4044-b0f3-c0634a8184ef",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-05-02T12:15:02.000000Z",
+     "stop_timestamp": "2026-05-02T12:15:16.078000Z",
+     "type": "text",
+     "text": "- 13.1 miles = **21.08 km**\n- 6:30 per mile = **4:02 per km** (6.5 min ÷ 1.609 = 4.04 min ≈ 4:02)",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-05-02T12:15:16.078000Z",
+   "updated_at": "2026-05-02T12:15:16.078000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "eb6b7ee6-b758-4f53-ae29-6620dafdf044"
+  },
+  {
+   "uuid": "512eabd7-495a-4d5e-be73-ea03e9cd722a",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-05-02T12:16:41.078000Z",
+     "stop_timestamp": "2026-05-02T12:16:41.078000Z",
+     "type": "text",
+     "text": "and 1:25 half marathon pace per mile",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-05-02T12:16:41.078000Z",
+   "updated_at": "2026-05-02T12:16:41.078000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "c4d75d21-979c-4044-b0f3-c0634a8184ef"
+  },
+  {
+   "uuid": "5b434e30-9529-4a6e-bbb7-847255d2e351",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-05-02T12:16:43.078000Z",
+     "stop_timestamp": "2026-05-02T12:16:57.459000Z",
+     "type": "text",
+     "text": "1:25:00 for 13.1 miles = 85 min ÷ 13.1 = 6.49 min/mile ≈ **6:29 per mile** (≈ 4:02 per km).",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-05-02T12:16:57.459000Z",
+   "updated_at": "2026-05-02T12:16:57.459000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "512eabd7-495a-4d5e-be73-ea03e9cd722a"
+  }
+ ],
+ "current_leaf_message_uuid": "5b434e30-9529-4a6e-bbb7-847255d2e351"
+}

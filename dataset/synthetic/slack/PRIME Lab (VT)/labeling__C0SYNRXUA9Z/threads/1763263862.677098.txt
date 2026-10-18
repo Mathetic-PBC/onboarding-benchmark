@@ -1,0 +1,19 @@
+=== THREAD PARENT MESSAGE ===
+From: Minsun (U0SYN15CS2P)
+Time: 2025-11-15 19:31:02 PST
+Message TS: 1763263862.677098
+question: student hits an error, then sits for 2 minutes, scrolls up, scrolls down, doesn't type. guide v2 says "stuck" but "stuck" also covers people actively trying random fixes. those feel really different
+
+=== THREAD REPLIES (2 total) ===
+
+--- Reply 1 of 2 ---
+From: Xiaohang (U0SYN2JB5HW)
+Time: 2025-11-15 19:40:41 PST
+Message TS: 1763264441.441806
+agree. i've been putting the passive ones as "off-task" sometimes, which is also wrong
+
+--- Reply 2 of 2 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2025-11-15 19:52:34 PST
+Message TS: 1763265154.296453
+ok this is a real gap. let me draft a separate state. don't relabel yet, just tag these with a comment `#passive` so we can find them later

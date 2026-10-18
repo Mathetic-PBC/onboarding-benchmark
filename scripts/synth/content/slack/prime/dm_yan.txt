@@ -1,0 +1,59 @@
+# PRIME Lab (VT) DM with Dr. Yan Chen — synthetic
+@2025-10-22
+16:30 yan | David, can we move our 1:1 tomorrow to 3pm? I have a committee meeting at 2.
+16:45 david | yes 3pm works
+
+@2025-11-13
+11:10 yan | I read the postmortem. One question: does the partial telemetry in section B change the balance of the labeling sample between sections?
+11:25 david | a little. section B has 412 partial windows out of ~1,150 in the sample. i'll report results with and without them, the stalled-after-error rate barely moves (17.1% vs 16.8%)
+11:27 yan | Good. Keep both in the appendix.
+
+@2025-12-09
+21:50 david | hi Dr. Chen, quick heads up: CS 3604 finals grading is eating this week (64 students, P4 + final project), so the labeling analysis draft will slip to 12/17. sorry about that
+22:05 yan | That's fine. Grades come first.
+
+@2026-01-15
+10:00 yan | For UIST I'd like the story to be about TAs, not the classifier. Can you write me a one-paragraph pitch by Monday?
+
+@2026-01-19
+23:30 david | pitch: "In AI-assisted CS1 labs, TAs can't see who is quietly stuck. TutorTrace replays each student's session as labeled help-seeking states, including a new stalled-after-error state, so a TA can triage whom to visit next. We deployed it in two lab sections (87 students, 3 TAs) and report what TAs did with it and how reliably the states can be labeled (κ = 0.71)."
+23:31 david | the kappa is from after adjudication, which finishes in feb. i'll say "preliminary" until then
+23:58 yan | This is the right story. Use it as the first paragraph of the intro.
+
+@2026-03-31
+23:30 yan | Submitted?
+23:31 david | submitted at 11:12 ✅
+23:33 yan | Great. Take tomorrow off.
+
+@2026-06-17
+20:15 yan | I left comments on the rebuttal. Cut the second privacy paragraph to one sentence and spend the space on the cross-course numbers.
+20:40 david | done, thank you. also, could we use part of our 1:1 on monday for something non-paper? i'd like to talk about next year
+20:42 yan | Of course. Let's do 45 minutes on Meet, Monday 6/22 at 11.
+
+@2026-06-22
+12:20 david | thank you for today, really. i'll write up the leave timeline (fall 2026 start; idetrace rebuttal + uist camera-ready still on me) and send it to Grace Kim for the form
+12:31 yan | Thank you for being upfront about it. Send me the draft before you send it to Grace.
+
+@2026-06-24
+09:15 david | draft timeline:
+  • leave effective fall 2026 (aug 17)
+  • GRA ends 8/15
+  • before leaving: uist camera-ready (8/14), idetrace rebuttal (late july), vizpi_frontend handoff to rezky
+  • return: decide by march 2027 for fall 2027
+10:02 yan | Looks right. Send it.
+
+@2026-07-24
+09:30 david | heads up: idetrace has a split leakage problem (same student in train and test). grouped-split numbers by tomorrow, i'll report both in the rebuttal. it will drop the headline number
+09:48 yan | Report both. Reviewers respect it, and it's the right thing for a benchmark.
+
+@2026-07-31
+15:05 david | leave form is signed by Grace and the department, effective fall 2026. thank you for supporting this
+15:20 yan | Good luck. Keep me posted on the IDETrace decision and the UIST talk.
+
+@2026-09-22
+18:10 david | quick q: the travel funding request for UIST in October needs your approval in the portal, i'm submitting it thursday. still allowed while on leave since the paper is from my enrolled period (Grace confirmed)
+18:40 yan | I'll approve it when it comes in.
+
+@2026-10-07
+19:30 david | talk done! 15 min + 4 questions. Tomás (session chair) asked about the cross-course result. someone from a CS1 team at another university wants the labeling guide
+20:05 yan | Wonderful. Send them the public version of the guide.

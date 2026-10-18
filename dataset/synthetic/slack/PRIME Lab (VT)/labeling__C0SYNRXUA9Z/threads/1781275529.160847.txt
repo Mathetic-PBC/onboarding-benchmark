@@ -1,0 +1,19 @@
+=== THREAD PARENT MESSAGE ===
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-06-12 07:45:29 PDT
+Message TS: 1781275529.160847
+uist reviewer 2 asks about label reliability. <@U0SYN15CS2P|Minsun> do you still have the calibration notes from november? i want to describe the calibration session in the rebuttal
+
+=== THREAD REPLIES (2 total) ===
+
+--- Reply 1 of 2 ---
+From: Minsun (U0SYN15CS2P)
+Time: 2026-06-12 08:30:02 PDT
+Message TS: 1781278202.622685
+yes, in the guide doc under "calibration 11/14". 40 windows labeled together before batch A
+
+--- Reply 2 of 2 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-06-12 08:32:47 PDT
+Message TS: 1781278367.597303
+perfect ty

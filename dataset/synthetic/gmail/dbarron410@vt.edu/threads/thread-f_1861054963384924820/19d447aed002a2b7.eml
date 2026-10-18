@@ -1,0 +1,60 @@
+From: Yan Chen <ychen.prime@vt.edu>
+To: David Barron <dbarron410@vt.edu>
+Subject: Re: UIST draft for your read =?utf-8?b?4oCU?= TutorTrace
+Date: Tue, 31 Mar 2026 11:20:00 -0400
+Message-ID:
+ <CAKit9UWP2tUEowX0sRJ4ae0WuJA1AsY+aw9hkA0Sofdv3KzoI9kC9@mail.gmail.com>
+In-Reply-To:
+ <CAnZJsWBWoxDAZElgugyrJqB9_rHLBtDYOhuKjCT3NbFWVMga8aNU1@mail.gmail.com>
+References:
+ <CAkuCo0_RVA4Crg3F_h1_xLUPuBwGVpokrLlKp6KDjfjjiwtT+xndK@mail.gmail.com>
+ <CA9hloJ6zLh3ckfaMC34HqfUYBR6vWP0qBoEinASzt6ig4xoVzKaGI@mail.gmail.com>
+ <CAnZJsWBWoxDAZElgugyrJqB9_rHLBtDYOhuKjCT3NbFWVMga8aNU1@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1861054963384924820
+X-Gmail-Labels: Inbox,Opened
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+The intro is much better. Two small things in Section 6: don't claim generali=
+zation beyond CS1, and add one sentence on telemetry privacy (reviewers will =
+ask). Then submit. Good work.
+
+On Mon, Mar 30, 2026 at 11:58 PM David Barron <dbarron410@vt.edu> wrote:
+> Revised intro and contribution list (now 3 items) are in the Overleaf; heat=
+map is on page 2. Section 6 is written. I'm going to do a full read for page =
+limit tomorrow morning.
+>
+> On Mon, Mar 30, 2026 at 2:05 PM Yan Chen <ychen.prime@vt.edu> wrote:
+>> David,
+>>
+>> Read it. Lead with the system, but make the first paragraph about the inst=
+ructor's problem, not about AI. Specific comments:
+>>
+>> 1. Intro: cut the "raised hand" metaphor; it's cute but costs three senten=
+ces.
+>> 2. Contribution list: three items max. Right now there are five.
+>> 3. Section 5: say clearly that labels are TA judgments, not ground truth a=
+bout students' experience.
+>> 4. The heatmap figure is the strongest thing in the paper; move it to page=
+ 2.
+>>
+>> Send me the revised intro tonight if you can.
+>>
+>> Yan
+>>
+>> On Sun, Mar 29, 2026 at 11:12 PM David Barron <dbarron410@vt.edu> wrote:
+>>> Hi Yan,
+>>>
+>>> The full draft is attached (10 pages + references). Status:
+>>>
+>>> - Sections 1-5 complete; 6 (discussion) is a skeleton.
+>>> - Kappa across the 3 raters is 0.71 on the overlap set after guide v3.
+>>> - I excluded the section B windows affected by the Nov 12 reconnect bug f=
+rom the agreement analysis and say so in Section 5.
+>>>
+>>> Could you focus on the introduction and the framing of the contribution? =
+I'm not sure whether to lead with the system or with the deployment findings.
+>>>
+>>> Thanks,
+>>> David

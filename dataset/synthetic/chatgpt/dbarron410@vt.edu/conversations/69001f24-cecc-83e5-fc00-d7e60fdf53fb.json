@@ -1,0 +1,219 @@
+{
+ "title": "P3 rubric partial credit",
+ "create_time": 1761615652.12,
+ "update_time": 1761615880.4473586,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "30689418-0660-4717-8d1b-7e01cea73f76"
+   ]
+  },
+  "30689418-0660-4717-8d1b-7e01cea73f76": {
+   "id": "30689418-0660-4717-8d1b-7e01cea73f76",
+   "message": {
+    "id": "30689418-0660-4717-8d1b-7e01cea73f76",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1761615652.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "im a GTA for cs 3604 (professionalism in computing). grading P3 which is a 1500 word case analysis. rubric has \"identifies stakeholders (10)\" \"applies ethical framework (20)\" \"argument quality (20)\" \"writing (10)\". students keep naming frameworks but not applying them. how do i give partial credit consistently on the framework row"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_063f00e768511222420e7e61f8",
+     "message_source": null,
+     "turn_exchange_id": "cd90295f-f332-42be-b487-621e55884a32",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "0e05b5a5-b57e-4ddb-8d36-257eb4a32cec"
+   ]
+  },
+  "0e05b5a5-b57e-4ddb-8d36-257eb4a32cec": {
+   "id": "0e05b5a5-b57e-4ddb-8d36-257eb4a32cec",
+   "message": {
+    "id": "0e05b5a5-b57e-4ddb-8d36-257eb4a32cec",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1761615667.456,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Turn the 20-point row into explicit levels so you're not re-deciding every paper:\n\n| Points | What it looks like |\n|---|---|\n| 18–20 | Names a framework **and** uses its concepts to reach a conclusion about this case (e.g., runs the utilitarian calculation across the stakeholders they identified; or tests the action against Kant's universalizability). Acknowledges a limitation of the framework. |\n| 14–17 | Applies the framework to the case, but unevenly: some steps asserted rather than reasoned, or ignores one major stakeholder. |\n| 10–13 | Names and defines the framework correctly; application is a sentence or two of \"this is unethical under deontology\" with little reasoning. |\n| 5–9 | Names a framework but misdefines it, or the \"application\" is unrelated to the framework's actual logic. |\n| 0–4 | No framework, or only a dictionary-style definition. |\n\nThe line between 10–13 and 14–17 is the one you'll hit most: *does the conclusion depend on the framework's reasoning, or would they have said the same thing without it?*\n\nWrite 2–3 anchor papers (one per band) and grade against them. That keeps the 40th paper consistent with the 4th."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_063f00e768511222420e7e61f8",
+     "message_type": "next",
+     "turn_exchange_id": "cd90295f-f332-42be-b487-621e55884a32",
+     "model_slug": "gpt-4o",
+     "default_model_slug": "gpt-4o",
+     "resolved_model_slug": "gpt-4o",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "30689418-0660-4717-8d1b-7e01cea73f76"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "30689418-0660-4717-8d1b-7e01cea73f76",
+   "children": [
+    "732a525c-965b-44c6-8075-4b9e996f3740"
+   ]
+  },
+  "732a525c-965b-44c6-8075-4b9e996f3740": {
+   "id": "732a525c-965b-44c6-8075-4b9e996f3740",
+   "message": {
+    "id": "732a525c-965b-44c6-8075-4b9e996f3740",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1761615862.456,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "should i post this to students or just use it internally"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_2cb75663e4cd08b38afcd3d1a7",
+     "message_source": null,
+     "turn_exchange_id": "7bd3a9d3-ae49-40e8-9072-402ca5869036",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "0e05b5a5-b57e-4ddb-8d36-257eb4a32cec",
+   "children": [
+    "e9b02539-7197-46a8-b387-2a6d8b1c4e15"
+   ]
+  },
+  "e9b02539-7197-46a8-b387-2a6d8b1c4e15": {
+   "id": "e9b02539-7197-46a8-b387-2a6d8b1c4e15",
+   "message": {
+    "id": "e9b02539-7197-46a8-b387-2a6d8b1c4e15",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1761615878.708,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Check with the instructor first, since it's their rubric. If they agree, share it before the next assignment rather than retroactively for P3. Changing the visible criteria after submission invites regrade requests. For P3, use it internally and put a short note in feedback, e.g., \"Framework named but not applied to the stakeholders you identified (12/20).\""
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_2cb75663e4cd08b38afcd3d1a7",
+     "message_type": "next",
+     "turn_exchange_id": "7bd3a9d3-ae49-40e8-9072-402ca5869036",
+     "model_slug": "gpt-4o",
+     "default_model_slug": "gpt-4o",
+     "resolved_model_slug": "gpt-4o",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "732a525c-965b-44c6-8075-4b9e996f3740"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "732a525c-965b-44c6-8075-4b9e996f3740",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "e9b02539-7197-46a8-b387-2a6d8b1c4e15",
+ "plugin_ids": null,
+ "conversation_id": "69001f24-cecc-83e5-fc00-d7e60fdf53fb",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-4o",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "69001f24-cecc-83e5-fc00-d7e60fdf53fb"
+}

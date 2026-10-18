@@ -1,0 +1,159 @@
+{
+ "uuid": "9ad7f35b-e789-4387-8f0d-91de51791768",
+ "name": "Grad student taxes: 1098-T and stipend",
+ "summary": "",
+ "model": "claude-opus-4-6",
+ "created_at": "2026-03-16T00:29:58.983554Z",
+ "updated_at": "2026-03-16T00:35:00.488225Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "off",
+ "chat_messages": [
+  {
+   "uuid": "256c71f4-b1b8-40ff-a0cb-1d2f3c5f85dc",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-03-16T00:30:00.000000Z",
+     "stop_timestamp": "2026-03-16T00:30:00.000000Z",
+     "type": "text",
+     "text": "doing 2025 taxes. grad student at VT. i got a W-2 for my GRA, and a 1098-T. tuition was covered by a waiver. do i put the 1098-T in or skip it. not looking for official advice just how it works",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-03-16T00:30:00.000000Z",
+   "updated_at": "2026-03-16T00:30:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "ec38c37d-6ba3-44b3-b5ed-95846b29d35f",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-03-16T00:30:02.000000Z",
+     "stop_timestamp": "2026-03-16T00:30:15.757000Z",
+     "type": "text",
+     "text": "General picture (check with a tax tool or professional for your case):\n\n- **W-2 (GRA)**: wages, taxed like any job. Goes in normally.\n- **1098-T**: reports tuition billed/paid (box 1) and scholarships/grants (box 5), which usually includes tuition waivers.\n  - If box 5 ≥ box 1, you generally **can't claim an education credit**, because you didn't pay qualified expenses out of pocket.\n  - If box 5 > box 1 (scholarship exceeded tuition and fees), the excess can be **taxable income**.\n  - Most tax software asks you to enter it anyway and works this out.\n- **Tuition waiver for a GRA**: in many cases a tuition reduction for graduate assistants who do teaching or research is excluded from income, but whether it shows in box 5 depends on the school.\n\nSo: enter it, don't skip it, and see what the software concludes. If it says you owe tax on a scholarship you never received as cash, look at whether the waiver was coded as a scholarship.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-03-16T00:30:15.757000Z",
+   "updated_at": "2026-03-16T00:30:15.757000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "256c71f4-b1b8-40ff-a0cb-1d2f3c5f85dc"
+  },
+  {
+   "uuid": "4aa3ff01-75ed-4d00-8d41-82868ca7d88d",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-03-16T00:33:22.757000Z",
+     "stop_timestamp": "2026-03-16T00:33:22.757000Z",
+     "type": "text",
+     "text": "box 1 is 15,8xx and box 5 is 15,8xx too. same",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-03-16T00:33:22.757000Z",
+   "updated_at": "2026-03-16T00:33:22.757000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "ec38c37d-6ba3-44b3-b5ed-95846b29d35f"
+  },
+  {
+   "uuid": "b9de4641-c9f1-40c0-9442-a8696e7d6c4b",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-03-16T00:33:24.757000Z",
+     "stop_timestamp": "2026-03-16T00:33:36.713000Z",
+     "type": "text",
+     "text": "Then they cancel out: no education credit (nothing paid out of pocket), and no excess scholarship income. The 1098-T effectively has no effect on your return, but entering it is still the cleaner choice in case the IRS cross-checks it.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-03-16T00:33:36.713000Z",
+   "updated_at": "2026-03-16T00:33:36.713000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "4aa3ff01-75ed-4d00-8d41-82868ca7d88d"
+  },
+  {
+   "uuid": "b1bedc21-7347-4704-84cf-44060d0a8913",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-03-16T00:34:41.713000Z",
+     "stop_timestamp": "2026-03-16T00:34:41.713000Z",
+     "type": "text",
+     "text": "ok and VA state return, anything special for that",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2026-03-16T00:34:41.713000Z",
+   "updated_at": "2026-03-16T00:34:41.713000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "b9de4641-c9f1-40c0-9442-a8696e7d6c4b"
+  },
+  {
+   "uuid": "00329033-6e45-4e6c-bb56-7e195ca9b660",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-03-16T00:34:43.713000Z",
+     "stop_timestamp": "2026-03-16T00:34:58.661000Z",
+     "type": "text",
+     "text": "Usually not for this situation: Virginia starts from your federal adjusted gross income, so if the 1098-T didn't change federal, it won't change state either. The main VA-specific thing to check is that state withholding on your W-2 (box 17) went in correctly.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2026-03-16T00:34:58.661000Z",
+   "updated_at": "2026-03-16T00:34:58.661000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "b1bedc21-7347-4704-84cf-44060d0a8913"
+  }
+ ],
+ "current_leaf_message_uuid": "00329033-6e45-4e6c-bb56-7e195ca9b660"
+}

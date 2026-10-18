@@ -1,0 +1,17 @@
+<html lang="en-US">
+	<head>
+		<title>Rebuttal wording</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="created" content="2026-07-28T15:40:00.0000000" />
+	</head>
+	<body data-absolute-enabled="true" style="font-family:Calibri;font-size:11pt">
+		<div data-id="_default" style="position:absolute;left:48px;top:120px;width:624px">
+			<h1 style="font-size:16pt;color:#1e4e79;margin-top:0pt;margin-bottom:0pt">rebuttal paragraph drafts (Jul 28)</h1>
+			<h2 style="font-size:13pt;color:#2e75b5;margin-top:0pt;margin-bottom:0pt">draft 1 (too apologetic)</h2>
+			<p style="margin-top:0pt;margin-bottom:0pt">We sincerely apologize for an error in our data splitting procedure which may have inflated our results...</p>
+			<h2 style="font-size:13pt;color:#2e75b5;margin-top:0pt;margin-bottom:0pt">draft 3 (going with this, ~120 words)</h2>
+			<p style="margin-top:0pt;margin-bottom:0pt">While running the ablation requested by R2 we found that our original train/test split was made at the window level, so windows from the same student appeared in both sets. We have re-split the data grouped by student id (no student appears in more than one split) and re-ran all experiments with five seeds. Our best model's macro-F1 changes from 0.81 to 0.74; all baselines drop by similar margins and the ranking of models is unchanged. We report both numbers in the revision, release the exact split ids, and add a course-held-out evaluation (0.69). We thank R2: the ablation is what exposed the problem.</p>
+			<ul><li>Yan edits: drop "unfortunately", put the new number in the first sentence where possible</li><li>keep both numbers in a table in the revised paper, not just the text</li></ul>
+		</div>
+	</body>
+</html>

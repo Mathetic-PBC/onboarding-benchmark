@@ -1,0 +1,397 @@
+{
+ "id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Untitled meeting",
+ "created_at": "2026-09-25T04:40:24.593Z",
+ "updated_at": "2026-09-25T04:45:35.377Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "private",
+ "google_calendar_event": null,
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": []
+ },
+ "notes_markdown": "### Context\n\n- Unscheduled chat in the kitchen after David submitted the travel-funding form\n\n### Decisions\n\n- Pilot onboarding = 45 min: 10 min their setup, 20 min connect + import live, 15 min first writing task with the trail\n- Cut for the pilot build: Google Drive connector (OAuth review not done) → offer \"Upload files\" instead\n- Keep: Claude, ChatGPT, Zotero, Local PDFs\n- Import runs live during the session so we can watch failures; log every skipped item with a reason\n- Ask pilots to bring one paragraph they're actively writing\n\n### Open questions\n\n- Does Claude export include project membership? (Hudson: no — need a second pass from the project pages; not for Oct 9)\n- What to call the \"Other\" tile — leave as is for pilot A, watch what happens\n\n### To do\n\n- [ ] David — pilot script doc (timings, what to observe)\n- [ ] Hudson — consent + recording note for pilots\n- [ ] David — pre-flight: run full import on own accounts Oct 3\n",
+ "notes_plain": "Context\n\nUnscheduled chat in the kitchen after David submitted the travel-funding form\n\nDecisions\n\nPilot onboarding = 45 min: 10 min their setup, 20 min connect + import live, 15 min first writing task with the trail\nCut for the pilot build: Google Drive connector (OAuth review not done) → offer \"Upload files\" instead\nKeep: Claude, ChatGPT, Zotero, Local PDFs\nImport runs live during the session so we can watch failures; log every skipped item with a reason\nAsk pilots to bring one paragraph they're actively writing\n\nOpen questions\n\nDoes Claude export include project membership? (Hudson: no — need a second pass from the project pages; not for Oct 9)\nWhat to call the \"Other\" tile — leave as is for pilot A, watch what happens\n\nTo do\n\nDavid — pilot script doc (timings, what to observe)\nHudson — consent + recording note for pilots\nDavid — pre-flight: run full import on own accounts Oct 3\n",
+ "transcript": [
+  {
+   "id": "0101a13f-e960-474a-af5a-1f2ec312e204",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:40:30.593Z",
+   "end_timestamp": "2026-09-25T04:40:35.436Z",
+   "text": "Wait, is this on? Oh, it auto-started. Okay whatever, leave it.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "bfeb24c6-22ff-473e-bf6f-ef47d7016cd0",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:40:36.174Z",
+   "end_timestamp": "2026-09-25T04:40:37.950Z",
+   "text": "Did you submit it?",
+   "source": "microphone",
+   "speaker": "Hudson",
+   "is_final": true
+  },
+  {
+   "id": "fc336f3a-bcd1-412d-87d1-78a71c235de8",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:40:39.396Z",
+   "end_timestamp": "2026-09-25T04:40:45.729Z",
+   "text": "Submitted. Like twenty minutes ago. Travel funding is in. Grace will email if anything's wrong.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "b1b1b11f-e554-4df6-83b1-a211fbd016f0",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:40:47.125Z",
+   "end_timestamp": "2026-09-25T04:40:49.343Z",
+   "text": "Proud of you. Before eleven.",
+   "source": "microphone",
+   "speaker": "Hudson",
+   "is_final": true
+  },
+  {
+   "id": "50b8c8d1-b0e8-4655-8215-a08b75d25fe2",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:40:50.975Z",
+   "end_timestamp": "2026-09-25T04:40:58.249Z",
+   "text": "Before eleven! Okay, while we're both here. Pilot onboarding. I keep thinking about how the session actually goes.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "43f018f2-00f1-4652-a728-154b03131521",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:41:00.105Z",
+   "end_timestamp": "2026-09-25T04:41:02.000Z",
+   "text": "Yeah, let's just decide it.",
+   "source": "microphone",
+   "speaker": "Hudson",
+   "is_final": true
+  },
+  {
+   "id": "a0ceed15-bb3c-4fc4-8a61-59eaf1affefa",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:41:04.070Z",
+   "end_timestamp": "2026-09-25T04:41:10.144Z",
+   "text": "Forty-five minutes. First ten, they show us their setup. Like the Berkeley interviews.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "09d78076-35be-49e1-8dfe-e54b3a0d6a88",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:41:10.561Z",
+   "end_timestamp": "2026-09-25T04:41:11.395Z",
+   "text": "Okay.",
+   "source": "microphone",
+   "speaker": "Hudson",
+   "is_final": true
+  },
+  {
+   "id": "7e0eac9a-dc16-4b8c-87bf-d87eb7fcf307",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:41:12.967Z",
+   "end_timestamp": "2026-09-25T04:41:18.759Z",
+   "text": "Twenty, they connect stuff and we run the import live. While we watch.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d468f3ef-4900-486c-bb95-2abb0ca4a171",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:41:19.173Z",
+   "end_timestamp": "2026-09-25T04:41:20.793Z",
+   "text": "Live, live? Not pre-imported?",
+   "source": "microphone",
+   "speaker": "Hudson",
+   "is_final": true
+  },
+  {
+   "id": "ce86cc18-c731-4d56-a99e-f69b3cdc5c99",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:41:22.510Z",
+   "end_timestamp": "2026-09-25T04:41:28.226Z",
+   "text": "Live. I want to see it fail. If we pre-import, we'll hide the failures.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "08aaaa96-e62a-4669-a681-2efbb315b649",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:41:28.523Z",
+   "end_timestamp": "2026-09-25T04:41:30.135Z",
+   "text": "That's scary but right.",
+   "source": "microphone",
+   "speaker": "Hudson",
+   "is_final": true
+  },
+  {
+   "id": "a10720df-5e02-4594-a67c-fb984b79786b",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:41:31.187Z",
+   "end_timestamp": "2026-09-25T04:41:39.719Z",
+   "text": "And the last fifteen, they write. They bring a paragraph they're actually working on, and we see if the trail finds anything.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "b2a4c4f8-6a89-44a0-b392-8cae30d246a1",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:41:40.211Z",
+   "end_timestamp": "2026-09-25T04:41:43.900Z",
+   "text": "Bring a paragraph. Good. Okay, what do we cut?",
+   "source": "microphone",
+   "speaker": "Hudson",
+   "is_final": true
+  },
+  {
+   "id": "9340f872-aa7b-4a46-8ba1-819a1c934324",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:41:44.146Z",
+   "end_timestamp": "2026-09-25T04:41:44.976Z",
+   "text": "Drive.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "fd5a62c6-2a94-410e-a530-2dfa93dbd605",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:41:47.052Z",
+   "end_timestamp": "2026-09-25T04:41:47.889Z",
+   "text": "Drive?",
+   "source": "microphone",
+   "speaker": "Hudson",
+   "is_final": true
+  },
+  {
+   "id": "02a2a45e-5d9c-4351-add9-842ed8bb5fc2",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:41:48.698Z",
+   "end_timestamp": "2026-09-25T04:41:58.604Z",
+   "text": "The OAuth verification isn't done. If we put Drive on the screen and it shows the unverified-app warning, Priya will think we're a phishing site.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ead978f2-5156-42eb-b368-ce1a75e71a0d",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:41:59.315Z",
+   "end_timestamp": "2026-09-25T04:42:04.716Z",
+   "text": "Ha. Fair. So the connect screen is Claude, ChatGPT, Zotero, PDFs, and \"Other.\"",
+   "source": "microphone",
+   "speaker": "Hudson",
+   "is_final": true
+  },
+  {
+   "id": "8e6302ed-4441-4d07-96cc-c7daf89564f7",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:42:06.221Z",
+   "end_timestamp": "2026-09-25T04:42:11.831Z",
+   "text": "And \"Other\" is the file upload. Which covers Drive if they download stuff.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "122727ea-b023-4cc1-a67a-8793ced28609",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:42:13.664Z",
+   "end_timestamp": "2026-09-25T04:42:15.819Z",
+   "text": "I still don't love \"Other.\"",
+   "source": "microphone",
+   "speaker": "Hudson",
+   "is_final": true
+  },
+  {
+   "id": "7029615e-072b-4a4d-a834-675b7f81b2db",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:42:16.983Z",
+   "end_timestamp": "2026-09-25T04:42:22.160Z",
+   "text": "I know. Let's watch Priya. If she's confused we change it before Daniel.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "be748e4a-c280-475c-bfc8-4a47ca1f647f",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:42:24.073Z",
+   "end_timestamp": "2026-09-25T04:42:27.345Z",
+   "text": "Deal. Oh, I checked the Claude export thing.",
+   "source": "microphone",
+   "speaker": "Hudson",
+   "is_final": true
+  },
+  {
+   "id": "006c0167-0b7f-45e5-aeba-0e869036db16",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:42:29.458Z",
+   "end_timestamp": "2026-09-25T04:42:30.409Z",
+   "text": "And?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "3a6b7cd6-01b6-443c-84ff-80428955915a",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:42:31.549Z",
+   "end_timestamp": "2026-09-25T04:42:37.368Z",
+   "text": "No project membership. The conversations are there, but nothing says which project they were in.",
+   "source": "microphone",
+   "speaker": "Hudson",
+   "is_final": true
+  },
+  {
+   "id": "b05eaf8c-228a-4b52-8e8b-b74a304d6ca9",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:42:39.137Z",
+   "end_timestamp": "2026-09-25T04:42:43.175Z",
+   "text": "Ugh. So Priya's projects come in as the wall.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "c4239ce8-daaa-4127-9052-d46b9f29f537",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:42:43.708Z",
+   "end_timestamp": "2026-09-25T04:42:50.340Z",
+   "text": "As the wall. We'd need a second pass from the project pages. Not for the ninth.",
+   "source": "microphone",
+   "speaker": "Hudson",
+   "is_final": true
+  },
+  {
+   "id": "32b380b8-6d78-4077-82e1-9e5194510f87",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:42:50.897Z",
+   "end_timestamp": "2026-09-25T04:42:57.118Z",
+   "text": "Not for the ninth. Okay. Write it as a known gap. We tell her up front.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "6aa5edd4-f6d5-4877-9ce5-bfdde7c73acb",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:42:58.433Z",
+   "end_timestamp": "2026-09-25T04:43:01.707Z",
+   "text": "Tell her up front. I like that.",
+   "source": "microphone",
+   "speaker": "Hudson",
+   "is_final": true
+  },
+  {
+   "id": "dda4ca8c-c354-4741-874d-a1d1d5c517a8",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:43:03.458Z",
+   "end_timestamp": "2026-09-25T04:43:11.513Z",
+   "text": "And log every skipped item with a reason. If anything doesn't come in I want to know why. Like, the number.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "9472d0fa-a6ec-40e4-bb39-ee72f496b9c9",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:43:11.889Z",
+   "end_timestamp": "2026-09-25T04:43:14.625Z",
+   "text": "You're going to stare at the count.",
+   "source": "microphone",
+   "speaker": "Hudson",
+   "is_final": true
+  },
+  {
+   "id": "4666fd03-5ce5-4b1e-9be9-ac5a236fea8d",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:43:15.009Z",
+   "end_timestamp": "2026-09-25T04:43:23.419Z",
+   "text": "I'm going to stare at the count. Okay, I'll write a pilot script doc. Timings, what we watch for.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "b7f3feda-f5b1-4889-b962-066227828f00",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:43:25.086Z",
+   "end_timestamp": "2026-09-25T04:43:27.262Z",
+   "text": "I'll do the consent thing.",
+   "source": "microphone",
+   "speaker": "Hudson",
+   "is_final": true
+  },
+  {
+   "id": "6175c4e7-5770-4584-9e39-ae58e9e8ccb4",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:43:29.177Z",
+   "end_timestamp": "2026-09-25T04:43:36.254Z",
+   "text": "And I'll do a full import on my own stuff on the third, before the dry run.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "118a27bb-4512-4fc7-bce9-f63cb5b76f11",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:43:37.703Z",
+   "end_timestamp": "2026-09-25T04:43:39.627Z",
+   "text": "The third is a Saturday.",
+   "source": "microphone",
+   "speaker": "Hudson",
+   "is_final": true
+  },
+  {
+   "id": "2ab9bfa4-41f2-4ea1-8758-b733a926bed1",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:43:41.386Z",
+   "end_timestamp": "2026-09-25T04:43:42.756Z",
+   "text": "Yeah, I know.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "c3a41cbd-4876-4f3c-b701-9f868e71d9d7",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:43:44.783Z",
+   "end_timestamp": "2026-09-25T04:43:46.287Z",
+   "text": "Okay. Go to bed.",
+   "source": "microphone",
+   "speaker": "Hudson",
+   "is_final": true
+  },
+  {
+   "id": "0dcd6e97-2db0-45a6-b931-3dd68529c059",
+   "document_id": "8efcff4a-f60a-4b74-9d9e-1ae2952ee82c",
+   "start_timestamp": "2026-09-25T04:43:46.778Z",
+   "end_timestamp": "2026-09-25T04:43:52.377Z",
+   "text": "Going. Turn this off — how do you stop it — okay.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  }
+ ]
+}

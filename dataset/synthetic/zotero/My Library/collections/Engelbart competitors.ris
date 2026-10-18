@@ -1,0 +1,78 @@
+TY  - ELEC
+TI  - NotebookLM
+DA  - 2026/08/25/
+UR  - https://notebooklm.google.com/
+Y2  - 2026/08/25/22:51:00
+LA  - en
+KW  - competitor
+ER  - 
+
+TY  - ELEC
+TI  - Elicit
+DA  - 2026/08/27/
+UR  - https://elicit.com/
+Y2  - 2026/08/27/01:12:00
+LA  - en
+KW  - competitor
+ER  - 
+
+TY  - ELEC
+TI  - Heptabase
+DA  - 2026/09/01/
+UR  - https://heptabase.com/
+Y2  - 2026/09/01/23:40:00
+LA  - en
+KW  - competitor
+ER  - 
+
+TY  - JOUR
+TI  - Where Did That Idea Come From? Provenance Trails in Researchers' Note-Taking
+AU  - Halvorsen, Tor
+AU  - Quist, Amara
+T2  - Proceedings of the ACM on Human-Computer Interaction
+VL  - 9
+IS  - CSCW2
+SP  - 1
+EP  - 24
+PY  - 2025
+DA  - 2026/09/02/
+AB  - Researchers write notes across many tools and later struggle to recall where an idea came from. In a three-week diary study with 19 researchers, we asked participants to trace the origin of a sample of their own notes. After two weeks, 31% of notes had no recoverable source; most of these originated in conversations, chat with AI assistants, or reading that was not saved. Participants valued provenance most when writing related work and when revisiting abandoned projects.
+LA  - en
+KW  - provenance
+KW  - note-taking
+KW  - diary study
+KW  - researchers
+L1  - storage/BWBP6AMT/Halvorsen and Quist - 2025 - Where Did That Idea Come From Provenance Trails in Researchers' Note-Taking.pdf
+N1  - <div data-schema-version="9"><p><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FmyLibrary%2Fitems%2FSSTSV5H8%22%5D%7D%5D%7D">(<span class="citation-item">Halvorsen and Quist, 2025</span>)</span> good numbers for the deck / one-pager:</p><ul><li>31% of notes had no recoverable source after 2 weeks</li><li>AI chats = 17% of note origins, only 46% recoverable</li><li>median 3.5 min to find a recoverable source</li></ul><p>their implication = &quot;a single import of a researcher&#x27;s existing tools is a precondition&quot;. that is literally our onboarding. send to Hudson</p></div>
+ER  - 
+
+TY  - ELEC
+TI  - Obsidian
+DA  - 2026/10/12/
+UR  - https://obsidian.md/
+Y2  - 2026/10/12/22:47:00
+LA  - en
+KW  - competitor
+ER  - 
+
+TY  - CPAPER
+TI  - Importing a Life: Duplicate and Near-Duplicate Detection Across Personal Information Sources
+AU  - Rinaldi, Paola
+AU  - Uddin, Farhan
+T2  - Proceedings of the 2025 ACM SIGIR Conference on Human Information Interaction and Retrieval
+T3  - CHIIR '25
+SP  - 96
+EP  - 107
+PY  - 2025
+DA  - 2026/10/12/
+PB  - ACM
+CY  - Melbourne, Australia
+AB  - Personal information tools increasingly offer to import everything a user has: email, files, notes, chats and references. Imports produce duplicates. We collected consented exports from 14 participants across 9 source types and annotated duplicate and near-duplicate pairs. 18% of imported items had at least one duplicate. Exact hashing found 41% of duplicate pairs, title-and-size matching 73%, and content shingling 92%, but shingling also falsely merged successive versions of drafts that participants wanted kept apart. We propose a two-stage policy: merge exact duplicates silently, group near-duplicates for the user to confirm.
+LA  - en
+KW  - deduplication
+KW  - personal information management
+KW  - import
+L1  - storage/Y5WP3CWQ/Rinaldi and Uddin - 2025 - Importing a Life Duplicate and Near-Duplicate Detection Across Personal Information Sources.pdf
+N1  - <div data-schema-version="9"><h1>import dedupe - after Priya&#x27;s pilot (10-09)</h1><p><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FmyLibrary%2Fitems%2FBGD8BB2C%22%5D%7D%5D%7D">(<span class="citation-item">Rinaldi and Uddin, 2025</span>)</span> Priya saw the same paper twice (zotero + Downloads). this paper&#x27;s numbers:</p><ul><li>exact hash only catches 41% of dups. title+size 73%. shingling 92% but merges draft versions 61% of the time (bad)</li><li>policy: exact dup -&gt; merge silently, keep every location as provenance. same work (preprint vs published) -&gt; group under one entry. own drafts (v2, &quot;Copy of&quot;) -&gt; version stack, never merge</li><li>preprint vs camera-ready is the interesting case: e.g. the Ostrowski paper is in my own library as both arXiv v1 and the L@S version. those should group, not merge</li></ul><p>for the 10-14 redesign doc</p></div>
+ER  - 
+

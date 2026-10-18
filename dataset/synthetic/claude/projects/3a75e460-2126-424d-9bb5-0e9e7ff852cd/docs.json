@@ -1,0 +1,22 @@
+[
+ {
+  "uuid": "09b79734-fbda-4af6-af83-1a80f7868eda",
+  "file_name": "Connect screen v3 spec.md",
+  "content": "# Connect screen v3 (spec, 2026-09-16)\n\n## Purpose\nFirst screen after signup. The user picks the tools their research lives in. Imports start immediately and keep running in the background.\n\n## Header\n**Connect your sources**\nEvery item keeps a link back to where it came from.\n\n## Groups (v3)\n- AI chats: Claude, ChatGPT\n- Papers: Zotero, local PDF folder\n- Notes: Obsidian, Google Docs\n- More sources: Gmail (labels you choose), Slack (channels you pick), Google Drive (folders you pick), local folder\n\nOpen question: \"More sources\" replaced \"Other\" on 2026-09-15. Revisit after pilots (log whether users open it and what they look for).\n\n## Per-source row\n- Logo, name, one helper line (what we import / what we don't), time estimate range.\n- Button states: `Connect` → `Importing… N items` → `Connected · N items` (+ `View`), or `Connected · N items · K skipped` with K clickable.\n\n## Page footer\n`Continue to notebook` is always enabled. Line under it: \"Imports keep running in the background.\"\n\n## Not in v3\n- Notion, Granola, Overleaf connectors.\n- Browser-session import for Claude (export zip only in the UI).\n- Privacy line (to decide).\n",
+  "created_at": "2026-09-17T05:31:00.000000+00:00",
+  "project_uuid": "3a75e460-2126-424d-9bb5-0e9e7ff852cd",
+  "estimated_token_count": 286,
+  "content_length": 1147,
+  "cleaned_content": null
+ },
+ {
+  "uuid": "d035477d-9fe0-4149-8aed-22af6ce58acb",
+  "file_name": "Import dedupe rules draft.md",
+  "content": "# Import dedupe rules (draft, 2026-09-03)\n\nPrinciple: dedupe copies, never dedupe sources.\n\n## Files and papers\n1. Same bytes (sha256) → one file; keep every location as provenance.\n2. Same DOI, or same arXiv id ignoring version → one work; files become versions.\n3. Normalized title similarity >= 0.92 + same first-author last name + year within ±1 → proposed version group, confidence: inferred.\n4. Never merge versions into one file. Show \"2 versions\" on the paper.\n5. Metadata for loose PDFs: XMP → PDF info dict → page-1 text (largest block = title; arXiv margin stamp regex).\n\nTest case: Ostrowski et al. 2025, \"Productive Struggle or Silent Stalling?\" — arXiv v1 in ~/Downloads, L@S camera-ready in Zotero. Expected: one paper, 2 versions.\n\n## Chats\n- Same tool + same conversation id → one item; newer updated_at wins; record each arrival path (export zip, browser session).\n- Different tools → never dedupe.\n- ChatGPT branches → hidden parts of one item (current branch is the item).\n- Project chats → separate items with parent_id = project; don't double count chats that also appear in the project's conversation list.\n\n## Messages with files (Slack, Gmail)\n- Message and attachment are separate items.\n- Attachment goes through the file rules; a byte match adds a provenance edge, not a new item.\n\n## Reporting\n- After every import, per source: found / imported / merged / versioned / skipped.\n",
+  "created_at": "2026-09-04T06:52:00.000000+00:00",
+  "project_uuid": "3a75e460-2126-424d-9bb5-0e9e7ff852cd",
+  "estimated_token_count": 351,
+  "content_length": 1406,
+  "cleaned_content": null
+ }
+]

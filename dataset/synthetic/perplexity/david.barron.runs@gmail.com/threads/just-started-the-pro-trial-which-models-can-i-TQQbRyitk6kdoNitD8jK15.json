@@ -1,0 +1,33 @@
+{
+ "uuid": "7e7701b8-200f-45ec-8777-7dea448a45be",
+ "slug": "just-started-the-pro-trial-which-models-can-i-TQQbRyitk6kdoNitD8jK15",
+ "title": "Which models does Perplexity Pro use",
+ "thread_url": "https://www.perplexity.ai/search/just-started-the-pro-trial-which-models-can-i-TQQbRyitk6kdoNitD8jK15",
+ "created_at": "2026-02-05T02:15:00Z",
+ "updated_at": "2026-02-05T02:15:34Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "1a43d42d-00a0-4c0f-bb75-2dc5fe615da6",
+   "query_str": "just started the pro trial. which models can i pick and is there a limit",
+   "answer": "With Pro you can choose the model used for answers in **Settings → AI model** or per query from the model picker; options typically include Perplexity's own Sonar models plus several third-party frontier models (e.g., recent GPT, Claude and Gemini models) [1]. Pro Search (\"Copilot\"-style multi-step search) has a daily allowance that is much higher than on the free tier, and some reasoning/research modes have their own lower caps [1][2]. Your trial gives the same limits as paid Pro until it ends; you can cancel before renewal in account settings [2].",
+   "sources": [
+    {
+     "name": "Perplexity Help Center — Pro features",
+     "url": "https://www.perplexity.ai/help-center/pro-features",
+     "snippet": "Lists Pro model options and search limits."
+    },
+    {
+     "name": "Perplexity Pro trial FAQ",
+     "url": "https://www.perplexity.ai/help-center/pro-trial",
+     "snippet": "Trial terms, renewal and cancellation."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "pplx_pro",
+   "created_at": "2026-02-05T02:15:00Z",
+   "updated_at": "2026-02-05T02:15:17Z"
+  }
+ ]
+}

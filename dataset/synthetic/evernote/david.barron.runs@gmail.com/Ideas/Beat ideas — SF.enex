@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20260913T074500Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Beat ideas — SF</title>
+    <created>20260906T062000Z</created>
+    <updated>20260913T074500Z</updated>
+    <tag>beats</tag>
+    <tag>fl-studio</tag>
+    <tag>sf</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>First beats on the new Mac. Headphones only (thin walls at the house).</div><div><br/></div><div><en-media hash="2b8bf992194c53e024ec4237ac009208" type="image/png"/></div><div>Pattern for "sf-bounce" (kick / snare / hat / perc, 16 steps). 96 bpm, the hats with 2 ghost 16ths.</div><div><br/></div><ul><li>Key: D minor. chords Dm9 - Bbmaj7 - Gm7 - A7(b9).</li><li>Fog-horn sample from Crissy Field (recorded on the phone 8/30). pitch it to D, low pass, use as the intro.</li><li>Bass: Sytrus sub + a little FM grit on the top octave.</li><li>Sam suggests a live guitar line. maybe.</li></ul><div><br/></div><div>9/13: arrangement done to 2:50. needs a better hook. leaving it for after the UIST talk.</div></en-note>]]>
+    </content>
+    <resource>
+      <data encoding="base64">
+iVBORw0KGgoAAAANSUhEUgAAAUAAAABQCAIAAADnUzvSAAAB7ElEQVR42u3cMQ6DMAxAUe7CwsjG
+0oNxxJ6kM0eAsWK0pboOz0rHCInfF7ZML2NM25mu32dfYuvaO89LbBXuXdcttpJ7M+8589yq91z1
+v6rqW7IXYIABBhhggAEGGGCAAQYYYIABBhhggAEGGGCAAQYYYIABBhhggAEGGGCAAQYYYIABBhhg
+gAEGGGCAAQYYYIABBhhggAEGGGCAAQYYYIABBhhggAG+AzbGNL4Tq+NXtOrL0PF013fgvgADrC/A
+AgOsL8ACA6wvwAIDDLDAAOsLsMAA6wuwwADrCzDA+gIsMMD6AiwwwPoCLDDAAAsMsL4ACwywvgAL
+DLC+AAsMMMACA6wvwAIDrC/AAgOsrzuxjBnoTqzjHVzJk7LjczOnbOa5VXv1/U3f1BdYYID1BVhg
+gPUFWGCAAQYYYIABFhhgfQEWGGB9AQYYYIABBlhfgAUGWF+ABQZYX4ABBhhggQHWF2CBAdYXYIEB
+BhhggPUFWGCA9QVYYID1BRhggAF2J5Yxg9yJ9bRbCzOnbMcbD/X9/77h5wIMsL4ACwywvgALDDDA
+AAMMMMACA6wvwAIDrC/AAAMMMMAA6wuwwADrC7DAAOsLMMAAAywwwPoCLDDA+gIsMMAAAwwwwAAL
+DLC+AAsMsL4AAwwwwN/rBFEuEdqwpIZsAAAAAElFTkSuQmCC
+      </data>
+      <mime>image/png</mime>
+      <width>320</width>
+      <height>80</height>
+      <resource-attributes>
+        <file-name>pattern-sf-bounce.png</file-name>
+      </resource-attributes>
+    </resource>
+  </note>
+</en-export>

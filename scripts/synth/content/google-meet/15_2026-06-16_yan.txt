@@ -1,0 +1,61 @@
+title: David / Yan 1:1
+start: 2026-06-16 14:00
+attendees: David Barron, Yan Chen
+projects: project_tutortrace
+docs: both
+=== transcript
+Yan Chen: Hi David. Okay, rebuttal. Did you see my comments on the doc last night?
+David Barron: Hi, yes. I went through them this morning. I accepted most of them. There are a couple I wanted to talk about.
+Yan Chen: Okay. Let's start from the top. Overall, I think the reviews are positive. Two weak accepts, one borderline, the meta-reviewer is leaning positive. We just have to not make mistakes.
+David Barron: Yeah. That was my read too. The borderline one, R2, is the one that worries me.
+Yan Chen: R2 is the generalization one.
+David Barron: Right. So, um, the three themes across reviewers, I summarized them at the top of the doc. One, label reliability. Is kappa point seven one good enough, and one rater is an author. Two, generalization, it's one course, one assignment type. Three, privacy, the telemetry is very detailed and TAs see it live.
+Yan Chen: Yes. Those are the three. Let's do them in order. Reliability.
+David Barron: So for reliability, I think we're okay. Point seven one Fleiss across three raters is substantial agreement by the usual bands. I wrote that we'll add per-state agreement, because stalled-after-error is actually the highest, like point seven eight, and off-task is the lowest. And that the author rater's agreement with the two non-authors is the same as theirs with each other.
+Yan Chen: Is that true? Did you compute it?
+David Barron: Yeah, I computed it Sunday. Pairwise kappa author with Minsun is point seven two, author with Xiaohang point seven, Minsun with Xiaohang point seven one. So no author effect.
+Yan Chen: Good. Put the three numbers. That's a strong answer.
+David Barron: Okay. Two, generalization. This is the hard one. R2 says, um, "it is unclear whether the classifier or the interface would work in a course with different assignments or a different assistant".
+Yan Chen: What do you want to promise?
+David Barron: So here's the thing. We actually have data from more courses now, because of IDETrace. Rezky's dataset has four courses with labeled samples. I could run the TutorTrace classifier on the other three courses and report it in the camera-ready.
+Yan Chen: Hmm. Can you do it in time? Camera-ready is August fourteenth.
+David Barron: I think so. It's mostly running the existing model. The labels exist for about four hundred windows per course.
+Yan Chen: Then promise a cross-course analysis. But be careful with the wording. Don't promise it will work. Promise that you'll report it, whatever the result.
+David Barron: Right. Like "we will add a cross-course analysis on three additional courses and report performance, including where it degrades".
+Yan Chen: Yes. Exactly like that. Honest. And the IDETrace numbers aren't public yet, it's under review, so don't cite it as a result. Just say additional courses from the same institution.
+David Barron: Okay, good call. I'll rephrase.
+Yan Chen: And add a limitations section. A real one, not one paragraph in the discussion.
+David Barron: Yeah, R1 and R3 both basically asked for that. I'll add a limitations section with one course, one institution, the assistant being one specific tool, and the TA study being eight people.
+Yan Chen: Good. Privacy.
+David Barron: Privacy, um, I was going to explain the consent process, the opt-out, and that TAs only see states, not the raw keystrokes or the prompt text.
+Yan Chen: Is that true? The replay view shows the prompts.
+David Barron: Uh... the replay view does, yeah. But that's the instructor-only after-class view. The live TA view only shows the state colors.
+Yan Chen: Then say exactly that. Two views, two access levels. Don't say TAs never see prompts if instructors can.
+David Barron: Okay, yeah. Yes. I'll be precise.
+Yan Chen: Also mention that the students knew the TAs could see the heat map. Were they told?
+David Barron: Yes, John announced it at the start of the lab, and it's in the consent form.
+Yan Chen: Good. Put that.
+David Barron: Okay. Um, the word limit is five thousand characters. I'm at, um, six thousand two hundred right now.
+Yan Chen: Cut the thank-you paragraph at the start. Just one sentence. And cut the parts where you repeat the reviewer's question.
+David Barron: Ha, okay. That's probably eight hundred characters.
+Yan Chen: When is it due?
+David Barron: Thursday the eighteenth. I want to submit Wednesday night.
+Yan Chen: Okay. Send me the next version tomorrow at noon. I'll do one pass in the afternoon.
+David Barron: Okay. Um, unrelated, can we, um, can I get some time next week for the thing I mentioned in May? I heard back from the incubator.
+Yan Chen: Oh. Okay. Yes. Let's do Monday. Put something on my calendar.
+David Barron: Okay, Monday. Thanks.
+Yan Chen: Okay. Good work on this. Bye.
+David Barron: Bye.
+=== gemini
+summary: David Barron and Yan Chen worked through the TutorTrace UIST rebuttal, due June 18. The June 11 reviews raised three themes: label reliability (Fleiss kappa 0.71 across three raters, one of them an author), generalization beyond one course, and the privacy of telemetry. They agreed to report per-state and pairwise agreement, promise a cross-course analysis on three additional courses for the camera-ready (reported whatever the result), add a dedicated limitations section, and describe the two access levels precisely. David will send a revised version tomorrow at noon and scheduled a separate meeting for Monday.
+detail: Overall reviews: Yan Chen read the reviews as two weak accepts, one borderline (R2, generalization), and a meta-reviewer leaning positive. The goal of the rebuttal is to avoid mistakes.
+detail: Label reliability: David Barron will add per-state agreement (stalled-after-error is highest at about 0.78) and pairwise kappas showing no author effect: 0.72 between David and Minsun, 0.70 between David and Xiaohang, and 0.71 between Minsun and Xiaohang.
+detail: Generalization: David Barron proposed running the existing classifier on three additional courses with about 400 labeled windows each before the August 14 camera-ready. Yan Chen agreed but asked him to promise to report the results, including where performance degrades, and not to cite the IDETrace numbers because that paper is under review.
+detail: Limitations: R1 and R3 asked for limitations, so the camera-ready will add a dedicated section covering one course, one institution, a single assistant, and a TA study with eight participants.
+detail: Privacy: The rebuttal will explain consent and opt-out, that John Wenskovitch announced the heat map to students, and that there are two views: a live TA view showing only state colors and an instructor-only after-class replay view that includes prompt text. Yan Chen asked David Barron not to claim TAs never see prompts in a way that overstates protections.
+detail: Length and timeline: The draft is about 6,200 characters against a 5,000-character limit. Yan Chen suggested cutting the opening thanks and repeated reviewer questions. The rebuttal is due Thursday, June 18, and David Barron plans to submit Wednesday night.
+next: [ ] David Barron will add pairwise and per-state agreement numbers to the rebuttal.
+next: [ ] David Barron will reword the generalization response to promise a cross-course analysis on three additional courses without citing IDETrace results.
+next: [ ] David Barron will draft a dedicated limitations section for the camera-ready.
+next: [ ] David Barron will cut the rebuttal to 5,000 characters and send it to Yan Chen by noon tomorrow.
+next: [ ] David Barron will schedule a meeting with Yan Chen on Monday.

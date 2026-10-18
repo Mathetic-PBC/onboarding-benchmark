@@ -1,0 +1,12 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Inbox",
+  "attachmentFolderPath": "Attachments",
+  "showLineNumber": false,
+  "readableLineLength": true,
+  "promptDelete": false,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "vimMode": false
+}

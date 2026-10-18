@@ -1,0 +1,163 @@
+{
+ "uuid": "7aa31c71-034b-47a4-ac8d-48496b4f0eae",
+ "name": "Moving car registration VA to CA",
+ "summary": "",
+ "model": "claude-opus-5",
+ "created_at": "2026-08-19T04:19:58.772377Z",
+ "updated_at": "2026-08-19T04:24:58.470259Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true,
+  "paprika_mode": "auto",
+  "thinking_mode": "auto",
+  "chat_memory_mode": "enabled",
+  "enabled_artifacts_attachments": false
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "auto",
+ "chat_messages": [
+  {
+   "uuid": "4a4ba2ae-815f-4843-86ab-4fef1dac5ea4",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-08-19T04:20:00.000000Z",
+     "stop_timestamp": "2026-08-19T04:20:00.000000Z",
+     "type": "text",
+     "text": "moved from virginia to san francisco 8/8. car is registered in VA. how long do i have to switch to CA and whats the process. concise",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-08-19T04:20:00.000000Z",
+   "updated_at": "2026-08-19T04:20:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "b8537054-78a8-4959-ba28-ce97e1cf4214",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-08-19T04:20:02.000000Z",
+     "stop_timestamp": "2026-08-19T04:20:13.126000Z",
+     "type": "text",
+     "text": "General outline (confirm on the California DMV site, rules change):\n\n- **Deadline**: California expects you to register within **20 days** of becoming a resident (e.g., taking a job, signing a lease, or otherwise establishing residency).\n- **Driver's license**: new residents are expected to get a CA license within 10 days.\n\n**Process**\n1. **Smog check** at a licensed station (most vehicles need one when first registered in CA).\n2. **Vehicle verification** at the DMV or by a licensed verifier (they check the VIN).\n3. Submit the **Application for Title or Registration**, your VA title (or lienholder info if financed), VA registration, proof of insurance, smog certificate.\n4. Pay fees (registration, license fee based on vehicle value, possibly use tax if the car was bought recently out of state).\n\nMake an appointment; SF DMV offices are busy.\n\nAlso update your car insurance to the SF address. Rates will change, and an out-of-state policy can be a problem after you've moved.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-08-19T04:20:13.126000Z",
+   "updated_at": "2026-08-19T04:20:13.126000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "4a4ba2ae-815f-4843-86ab-4fef1dac5ea4"
+  },
+  {
+   "uuid": "6dacb153-9553-4e3e-9a3f-3c35acc0bb46",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-08-19T04:23:11.126000Z",
+     "stop_timestamp": "2026-08-19T04:23:11.126000Z",
+     "type": "text",
+     "text": "im technically still a VT student (leave of absence) does that change residency",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-08-19T04:23:11.126000Z",
+   "updated_at": "2026-08-19T04:23:11.126000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "b8537054-78a8-4959-ba28-ce97e1cf4214"
+  },
+  {
+   "uuid": "39a00fb6-62ef-4fa5-81e5-900d7b7dd1d3",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-08-19T04:23:13.126000Z",
+     "stop_timestamp": "2026-08-19T04:23:30.259000Z",
+     "type": "text",
+     "text": "Possibly. California treats some out-of-state students differently, but you're not here as a student; you moved to work full time. Living and working in SF generally makes you a resident for DMV purposes. If unsure, the DMV site has a residency definition, and when in doubt registering is the safer side.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-08-19T04:23:30.259000Z",
+   "updated_at": "2026-08-19T04:23:30.259000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "6dacb153-9553-4e3e-9a3f-3c35acc0bb46"
+  },
+  {
+   "uuid": "a055bf2c-c9a8-456a-9e5f-69e712884507",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-08-19T04:24:39.259000Z",
+     "stop_timestamp": "2026-08-19T04:24:39.259000Z",
+     "type": "text",
+     "text": "ok booking smog check this week",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2026-08-19T04:24:39.259000Z",
+   "updated_at": "2026-08-19T04:24:39.259000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "39a00fb6-62ef-4fa5-81e5-900d7b7dd1d3"
+  },
+  {
+   "uuid": "e7e64703-6b63-4e9c-b512-d3e9b3a710a3",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-08-19T04:24:41.259000Z",
+     "stop_timestamp": "2026-08-19T04:24:57.152000Z",
+     "type": "text",
+     "text": "Sounds good. Bring the VA title or loan paperwork to the DMV appointment; that's the document people most often forget.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2026-08-19T04:24:57.152000Z",
+   "updated_at": "2026-08-19T04:24:57.152000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "a055bf2c-c9a8-456a-9e5f-69e712884507"
+  }
+ ],
+ "current_leaf_message_uuid": "e7e64703-6b63-4e9c-b512-d3e9b3a710a3"
+}

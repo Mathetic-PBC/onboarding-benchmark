@@ -1,1 +1,1154 @@
-[]
+[
+ {
+  "id": "item_035028",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Desktop/PapertLab/papert lab notebook idea.md",
+  "title": "papert lab notebook idea.md",
+  "content_type": "note",
+  "created_at": "2026-01-28T06:05:00Z",
+  "modified_at": "2026-01-28T06:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Desktop/PapertLab/papert lab notebook idea.md",
+  "source_url": null,
+  "content_hash": "sha256:adc62e4d472dba8ea8c98707b3cd6f2cf8d6b7f8b412960bfabc16bb078b80f9",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035029",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Desktop/Untitled.txt",
+  "title": "Untitled.txt",
+  "content_type": "note",
+  "created_at": "2026-09-27T07:14:00Z",
+  "modified_at": "2026-09-27T07:19:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Desktop/Untitled.txt",
+  "source_url": null,
+  "content_hash": "sha256:a0d20e11dbe243249ef883382f4e633665e43704174b77bfdb2b7cdfc566498c",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: vague title — \"Untitled.txt\" with bare numbers from the UIST talk prep"
+  }
+ },
+ {
+  "id": "item_035030",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Desktop/dynamite todo.md",
+  "title": "dynamite todo.md",
+  "content_type": "note",
+  "created_at": "2026-01-21T03:40:00Z",
+  "modified_at": "2026-02-04T04:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Desktop/dynamite todo.md",
+  "source_url": null,
+  "content_hash": "sha256:8f2fff31137288a37d6ffec25fa5c4fae661b972d4d59c7e755f3060c8d24110",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_dynamite"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035031",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Desktop/engelbart/import-dedupe brain dump.md",
+  "title": "import-dedupe brain dump.md",
+  "content_type": "note",
+  "created_at": "2026-10-15T04:30:00Z",
+  "modified_at": "2026-10-15T07:48:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Desktop/engelbart/import-dedupe brain dump.md",
+  "source_url": null,
+  "content_hash": "sha256:5f540b057393f7a225b2b92312bcb35a53c48f25b28b3dff14e0b9751f6af9ce",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035032",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Desktop/investor call 2 notes.md",
+  "title": "investor call 2 notes.md",
+  "content_type": "note",
+  "created_at": "2026-10-14T18:52:00Z",
+  "modified_at": "2026-10-14T20:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Desktop/investor call 2 notes.md",
+  "source_url": null,
+  "content_hash": "sha256:ca17a8ac4f6eab122845e219a13e851d15ae168821aa8376264e85b50df94c4f",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035033",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Desktop/ise6664 presentation notes.txt",
+  "title": "ise6664 presentation notes.txt",
+  "content_type": "note",
+  "created_at": "2026-04-29T03:10:00Z",
+  "modified_at": "2026-04-30T12:55:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Desktop/ise6664 presentation notes.txt",
+  "source_url": null,
+  "content_hash": "sha256:1313a924957b3a0f0c47d4900cea9cbe8a4c30100b4bc69379597123f86e33fe",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035034",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Desktop/meeting scratch 9-10.txt",
+  "title": "meeting scratch 9-10.txt",
+  "content_type": "note",
+  "created_at": "2026-09-10T17:31:00Z",
+  "modified_at": "2026-09-10T18:24:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Desktop/meeting scratch 9-10.txt",
+  "source_url": null,
+  "content_hash": "sha256:6f66ca022c65203bff42c17a083afd5f0d5718979da80cc00217d67bdf22708f",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035035",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Desktop/new mac setup.md",
+  "title": "new mac setup.md",
+  "content_type": "note",
+  "created_at": "2026-08-04T14:05:00Z",
+  "modified_at": "2026-08-04T21:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Desktop/new mac setup.md",
+  "source_url": null,
+  "content_hash": "sha256:40be33b0f9bcab699c684e6a6063b79498a55254f98ddc3457dad7bfc4045ec2",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035036",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Desktop/notes copy.md",
+  "title": "notes copy.md",
+  "content_type": "note",
+  "created_at": "2026-10-14T16:20:00Z",
+  "modified_at": "2026-10-14T18:02:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Desktop/notes copy.md",
+  "source_url": null,
+  "content_hash": "sha256:833177a8175fc2447617fd5e667a0a2c67f50db71fbdc924adb341a34963f238",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "HARD CASE: near-duplicate — Finder copy of Desktop/notes.md with three lines changed"
+  }
+ },
+ {
+  "id": "item_035037",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Desktop/notes.md",
+  "title": "notes.md",
+  "content_type": "note",
+  "created_at": "2026-10-10T01:05:00Z",
+  "modified_at": "2026-10-14T02:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Desktop/notes.md",
+  "source_url": null,
+  "content_hash": "sha256:b13a2644384303cff550c1a1602a892ca3d5a6eafe5ec2ae8b92b5e40fd82439",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "HARD CASE: near-duplicate — original of Desktop/notes copy.md"
+  }
+ },
+ {
+  "id": "item_035038",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Desktop/pilot daniel notes.md",
+  "title": "pilot daniel notes.md",
+  "content_type": "note",
+  "created_at": "2026-10-13T20:02:00Z",
+  "modified_at": "2026-10-13T21:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Desktop/pilot daniel notes.md",
+  "source_url": null,
+  "content_hash": "sha256:18a422c24b192bdba3f9f357d64fda68f2218dc14e8dcf3f143f1869c5fc0b17",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035039",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Desktop/todo.txt",
+  "title": "todo.txt",
+  "content_type": "note",
+  "created_at": "2026-09-29T05:10:00Z",
+  "modified_at": "2026-10-17T06:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Desktop/todo.txt",
+  "source_url": null,
+  "content_hash": "sha256:8ac90e67d8287cdec68d7725dc8b7c41dd19fde015206cbab908012f6ddecd41",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training",
+    "project_engelbart",
+    "project_mathetic_company",
+    "project_none",
+    "project_vt_phd_admin"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035040",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Desktop/uist26/talk Q&A prep.md",
+  "title": "talk Q&A prep.md",
+  "content_type": "note",
+  "created_at": "2026-10-04T04:15:00Z",
+  "modified_at": "2026-10-07T06:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Desktop/uist26/talk Q&A prep.md",
+  "source_url": null,
+  "content_hash": "sha256:0085c060ab2dbe40836e4af20ae68df1cfb63c20e318a26cfc7c84ba6e87fae5",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035041",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Desktop/vizpi deploy 2 notes.txt",
+  "title": "vizpi deploy 2 notes.txt",
+  "content_type": "note",
+  "created_at": "2025-11-12T20:31:00Z",
+  "modified_at": "2025-11-13T02:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Desktop/vizpi deploy 2 notes.txt",
+  "source_url": null,
+  "content_hash": "sha256:4f3d3486e3bcadfee8c7b67fd9fea286a9c868ee0e535df7b3ed97dc840aa2f7",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Desktop"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035042",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Documents/ISE6664 reflection.docx",
+  "title": "ISE6664 reflection.docx",
+  "content_type": "document",
+  "created_at": "2026-05-08T02:30:00Z",
+  "modified_at": "2026-05-08T14:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Documents/ISE6664 reflection.docx",
+  "source_url": null,
+  "content_hash": "sha256:f7ff7ac9c5dde1f2262fb12a04ceb3640837f676e9f83e810d03a3bd721b2857",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file (.docx)",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035043",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Documents/VT/cs3604 grading notes.txt",
+  "title": "cs3604 grading notes.txt",
+  "content_type": "note",
+  "created_at": "2025-10-21T17:30:00Z",
+  "modified_at": "2025-12-11T03:45:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Documents/VT/cs3604 grading notes.txt",
+  "source_url": null,
+  "content_hash": "sha256:199b386318b4ebd7c2703ee9f4f4bd27d46529627da6b3d3afed87c5cf569506",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035044",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Documents/VT/leave questions for Grace.txt",
+  "title": "leave questions for Grace.txt",
+  "content_type": "note",
+  "created_at": "2026-07-28T01:20:00Z",
+  "modified_at": "2026-07-28T18:35:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Documents/VT/leave questions for Grace.txt",
+  "source_url": null,
+  "content_hash": "sha256:8758300e63655b59bfb2c1cdc2697c643b4295ca24746172af4a76b66c627a41",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vt_phd_admin"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035045",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Documents/VT/tacode handoff email draft.txt",
+  "title": "tacode handoff email draft.txt",
+  "content_type": "note",
+  "created_at": "2025-11-18T22:05:00Z",
+  "modified_at": "2025-11-18T22:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Documents/VT/tacode handoff email draft.txt",
+  "source_url": null,
+  "content_hash": "sha256:25d3b9e4ff29aee6c789dac0305a229bcc93700445e0c1c02a2dd58c1a62a908",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tacode"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035046",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Documents/beats/beat ideas.txt",
+  "title": "beat ideas.txt",
+  "content_type": "note",
+  "created_at": "2026-03-14T04:20:00Z",
+  "modified_at": "2026-09-12T08:35:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Documents/beats/beat ideas.txt",
+  "source_url": null,
+  "content_hash": "sha256:9c6f5ee6ed930b8030e0b0b2117c5e0fdbf1547a71cb15814bd3ca4d228ebd5a",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035047",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Documents/chess/chess notes.txt",
+  "title": "chess notes.txt",
+  "content_type": "note",
+  "created_at": "2025-10-28T02:15:00Z",
+  "modified_at": "2026-09-21T06:00:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Documents/chess/chess notes.txt",
+  "source_url": null,
+  "content_hash": "sha256:faaca2b362160b21c53492601ae50f1f9196424d8215d3d15828d6e1d5f31e8e",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035048",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Documents/geopolitics notes.md",
+  "title": "geopolitics notes.md",
+  "content_type": "note",
+  "created_at": "2025-12-03T04:30:00Z",
+  "modified_at": "2026-07-20T02:50:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Documents/geopolitics notes.md",
+  "source_url": null,
+  "content_hash": "sha256:eefd3a32a839ed3651cbe42bbb6ca144be30b49963d3d9e366b5e5d2fc67d464",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035049",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Documents/packing list - UIST Detroit.txt",
+  "title": "packing list - UIST Detroit.txt",
+  "content_type": "note",
+  "created_at": "2026-10-01T05:05:00Z",
+  "modified_at": "2026-10-04T04:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Documents/packing list - UIST Detroit.txt",
+  "source_url": null,
+  "content_hash": "sha256:06a2fb6248d3e54231a2f38da53cc1b48d3558498cf8b1fa8c1674cc35680abe",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035050",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Documents/portfolio redesign ideas.md",
+  "title": "portfolio redesign ideas.md",
+  "content_type": "note",
+  "created_at": "2026-07-13T01:05:00Z",
+  "modified_at": "2026-07-22T02:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Documents/portfolio redesign ideas.md",
+  "source_url": null,
+  "content_hash": "sha256:5a0587583044ae2cecc7748754bd614b7bd805e6b0db601e67af335c261cb4c0",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_portfolio"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035051",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Documents/reading/as we may think - notes.md",
+  "title": "as we may think - notes.md",
+  "content_type": "note",
+  "created_at": "2026-02-12T02:30:00Z",
+  "modified_at": "2026-02-12T23:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Documents/reading/as we may think - notes.md",
+  "source_url": null,
+  "content_hash": "sha256:8f6c8d341ce76483e843e47ea4f83d22eae6265c1f18a4ca614563ce714fabdd",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035052",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Documents/recipes/overnight oats.txt",
+  "title": "overnight oats.txt",
+  "content_type": "note",
+  "created_at": "2025-11-10T02:30:00Z",
+  "modified_at": "2025-11-10T02:35:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Documents/recipes/overnight oats.txt",
+  "source_url": null,
+  "content_hash": "sha256:e03aeb225ed066d842f779d3166e9eb6ed08ec1ec8d79369e4fdc3548bc5286e",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035053",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Documents/recipes/peanut noodles.md",
+  "title": "peanut noodles.md",
+  "content_type": "note",
+  "created_at": "2026-02-09T00:00:00Z",
+  "modified_at": "2026-04-12T22:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Documents/recipes/peanut noodles.md",
+  "source_url": null,
+  "content_hash": "sha256:6f4c2bd42742e8a993fb0cebc31d1b761c51a89fe3c48696b4e90e97be389fe8",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035054",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Documents/recipes/turkey chili.md",
+  "title": "turkey chili.md",
+  "content_type": "note",
+  "created_at": "2026-01-18T22:10:00Z",
+  "modified_at": "2026-01-18T22:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Documents/recipes/turkey chili.md",
+  "source_url": null,
+  "content_hash": "sha256:ff9d2e715611cb288273c536d8c4dc4b93c4c40205d720dad8962dcf19153688",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035055",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Documents/taxes 2025.txt",
+  "title": "taxes 2025.txt",
+  "content_type": "note",
+  "created_at": "2026-03-09T00:15:00Z",
+  "modified_at": "2026-05-01T23:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Documents/taxes 2025.txt",
+  "source_url": null,
+  "content_hash": "sha256:a6c60d68bae8ce61942ea936a8faaa92b5867d6dc213dc354fa6e4700469ca45",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035056",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Documents/training/training thoughts.md",
+  "title": "training thoughts.md",
+  "content_type": "note",
+  "created_at": "2025-11-03T01:40:00Z",
+  "modified_at": "2026-10-17T04:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Documents/training/training thoughts.md",
+  "source_url": null,
+  "content_hash": "sha256:e836313c06347010a3a01eb4369c25c8dad4dd55ecfbcaebfb5908b3070295c2",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Documents"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035057",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Downloads/Claude-Leakage check in split script-20260724-2311.md",
+  "title": "Claude-Leakage check in split script-20260724-2311.md",
+  "content_type": "note",
+  "created_at": "2026-07-25T03:11:00Z",
+  "modified_at": "2026-07-25T03:11:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Downloads/Claude-Leakage check in split script-20260724-2311.md",
+  "source_url": null,
+  "content_hash": "sha256:37f13c40b7cf9d0514b8663958f26547a1c01e50d81fd55e42f3f3a2d151a877",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035058",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Downloads/bike derailleur.txt",
+  "title": "bike derailleur.txt",
+  "content_type": "note",
+  "created_at": "2026-05-10T22:40:00Z",
+  "modified_at": "2026-05-12T22:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Downloads/bike derailleur.txt",
+  "source_url": null,
+  "content_hash": "sha256:af16c64d6aa133d4f9f9f96d0dbb0129924219ae1e353970f9aac5f0c2fed319",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035059",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Downloads/sublet listing notes.docx",
+  "title": "sublet listing notes.docx",
+  "content_type": "document",
+  "created_at": "2026-07-11T01:40:00Z",
+  "modified_at": "2026-07-31T01:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Downloads/sublet listing notes.docx",
+  "source_url": null,
+  "content_hash": "sha256:c2c0b8c45d9e46521df36f7af5417497f8cc2736bb56d54db1b5e61115bf3fd3",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file (.docx)",
+  "metadata": {
+   "format": "docx",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Downloads"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035060",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Projects/claude-plugins/hc-notes.md",
+  "title": "hc-notes.md",
+  "content_type": "note",
+  "created_at": "2026-08-18T06:05:00Z",
+  "modified_at": "2026-08-29T05:50:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Projects/claude-plugins/hc-notes.md",
+  "source_url": null,
+  "content_hash": "sha256:0d355c3d6e08421686c44136556628c86ee497bb0c744c417fc21b0a6ad828f2",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Projects"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_claude_code_plugins"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035061",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "Projects/engelbart-onboarding/connect-screen.html",
+  "title": "connect-screen.html",
+  "content_type": "web_page",
+  "created_at": "2026-10-15T17:20:00Z",
+  "modified_at": "2026-10-15T20:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/Projects/engelbart-onboarding/connect-screen.html",
+  "source_url": null,
+  "content_hash": "sha256:f363d00256a6f37aacce20b981c9ee5ed6589239d0d31f68a602e703342ad5fa",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Projects"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035062",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "iCloud Drive/Dublin wedding logistics.txt",
+  "title": "Dublin wedding logistics.txt",
+  "content_type": "note",
+  "created_at": "2026-05-13T00:50:00Z",
+  "modified_at": "2026-08-27T04:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/iCloud Drive/Dublin wedding logistics.txt",
+  "source_url": null,
+  "content_hash": "sha256:be2934346084d6ef9c4ca630893610167064fa5df4528d14e8a0cbf703772e1d",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "iCloud Drive"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035063",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "iCloud Drive/SF move planning.md",
+  "title": "SF move planning.md",
+  "content_type": "note",
+  "created_at": "2026-06-24T02:40:00Z",
+  "modified_at": "2026-09-07T04:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/iCloud Drive/SF move planning.md",
+  "source_url": null,
+  "content_hash": "sha256:1426103cab0f7fe900850d885a9babd5e9ac146f3c5ba939e94a4de9e1bb3c8f",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "iCloud Drive"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035064",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "local-notes",
+  "source_id": "iCloud Drive/half marathon race plan.txt",
+  "title": "half marathon race plan.txt",
+  "content_type": "note",
+  "created_at": "2026-10-12T03:15:00Z",
+  "modified_at": "2026-10-15T21:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/local-notes/iCloud Drive/half marathon race plan.txt",
+  "source_url": null,
+  "content_hash": "sha256:3b268b6938a70e3883cf6e3c2c548426b25ec0695cd3642002a8b7aef8d7c2e8",
+  "library_item_id": null,
+  "modeled_on": "authentic/local-notes home-relative note file",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "iCloud Drive"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ }
+]

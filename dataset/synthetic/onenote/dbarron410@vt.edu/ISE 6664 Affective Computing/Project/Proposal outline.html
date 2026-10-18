@@ -1,0 +1,19 @@
+<html lang="en-US">
+	<head>
+		<title>Proposal outline</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="created" content="2026-02-16T19:20:00.0000000" />
+	</head>
+	<body data-absolute-enabled="true" style="font-family:Calibri;font-size:11pt">
+		<div data-id="_default" style="position:absolute;left:48px;top:120px;width:624px">
+			<h1 style="font-size:16pt;color:#1e4e79;margin-top:0pt;margin-bottom:0pt">proposal — due Feb 20</h1>
+			<p style="margin-top:0pt;margin-bottom:0pt">title: <span style="font-weight:bold">Frustration signals in AI-tutoring transcripts</span></p>
+			<h2 style="font-size:13pt;color:#2e75b5;margin-top:0pt;margin-bottom:0pt">RQs</h2>
+			<ol><li>which observable conversational behaviours mark student frustration in LLM-tutor chats?</li><li>how reliably can human coders label frustration at the turn level?</li><li>do tutor response types (direct answer, hint, question, encouragement) differ in what follows a frustrated turn?</li></ol>
+			<h2 style="font-size:13pt;color:#2e75b5;margin-top:0pt;margin-bottom:0pt">method</h2>
+			<ul><li>sample 200 of the ~600 transcripts, stratified by length</li><li>codebook: 5 states (neutral, confused, frustrated, disengaged, satisfied) + behavioural markers</li><li>3 coders (us), 50 transcripts overlap for kappa</li><li>baseline: LIWC negemo per turn; ours: marker features + previous-turn context</li><li>transition analysis à la D'Mello &amp; Graesser</li></ul>
+			<h2 style="font-size:13pt;color:#2e75b5;margin-top:0pt;margin-bottom:0pt">risks</h2>
+			<ul><li>frustration might be rare (&lt;10% turns) → class imbalance</li><li>stats homework ≠ programming, generalization caveat</li><li>only 3 coders, all on the team (bias)</li></ul>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,121 @@
+Channel: DM (D0SYNCY7CFK)
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-10-07 20:05:32 PDT === 
+Message TS: 1791428732.392457
+Wonderful. Send them the public version of the guide.
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-10-07 19:30:56 PDT === 
+Message TS: 1791426656.546158
+talk done! 15 min + 4 questions. Tomás (session chair) asked about the cross-course result. someone from a CS1 team at another university wants the labeling guide
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-09-22 18:40:14 PDT === 
+Message TS: 1790127614.999608
+I'll approve it when it comes in.
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-09-22 18:10:06 PDT === 
+Message TS: 1790125806.792838
+quick q: the travel funding request for UIST in October needs your approval in the portal, i'm submitting it thursday. still allowed while on leave since the paper is from my enrolled period (Grace confirmed)
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-07-31 12:20:21 PDT === 
+Message TS: 1785525621.002404
+Good luck. Keep me posted on the IDETrace decision and the UIST talk.
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-07-31 12:05:19 PDT === 
+Message TS: 1785524719.677146
+leave form is signed by Grace and the department, effective fall 2026. thank you for supporting this
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-07-24 06:48:44 PDT === 
+Message TS: 1784900924.646274
+Report both. Reviewers respect it, and it's the right thing for a benchmark.
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-07-24 06:30:23 PDT === 
+Message TS: 1784899823.687019
+heads up: idetrace has a split leakage problem (same student in train and test). grouped-split numbers by tomorrow, i'll report both in the rebuttal. it will drop the headline number
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-06-24 07:02:27 PDT === 
+Message TS: 1782309747.282125
+Looks right. Send it.
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-06-24 06:15:39 PDT === 
+Message TS: 1782306939.569947
+draft timeline:
+• leave effective fall 2026 (aug 17)
+• GRA ends 8/15
+• before leaving: uist camera-ready (8/14), idetrace rebuttal (late july), vizpi_frontend handoff to rezky
+• return: decide by march 2027 for fall 2027
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-06-22 09:31:00 PDT === 
+Message TS: 1782145860.761946
+Thank you for being upfront about it. Send me the draft before you send it to Grace.
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-06-22 09:20:44 PDT === 
+Message TS: 1782145244.354955
+thank you for today, really. i'll write up the leave timeline (fall 2026 start; idetrace rebuttal + uist camera-ready still on me) and send it to Grace Kim for the form
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-06-17 17:42:49 PDT === 
+Message TS: 1781743369.525368
+Of course. Let's do 45 minutes on Meet, Monday 6/22 at 11.
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-06-17 17:40:52 PDT === 
+Message TS: 1781743252.587237
+done, thank you. also, could we use part of our 1:1 on monday for something non-paper? i'd like to talk about next year
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-06-17 17:15:22 PDT === 
+Message TS: 1781741722.278588
+I left comments on the rebuttal. Cut the second privacy paragraph to one sentence and spend the space on the cross-course numbers.
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-03-31 20:33:54 PDT === 
+Message TS: 1775014434.760059
+Great. Take tomorrow off.
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-03-31 20:31:33 PDT === 
+Message TS: 1775014293.612587
+submitted at 11:12 ✅
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-03-31 20:30:44 PDT === 
+Message TS: 1775014244.799921
+Submitted?
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-01-19 20:58:10 PST === 
+Message TS: 1768885090.062128
+This is the right story. Use it as the first paragraph of the intro.
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-01-19 20:31:46 PST === 
+Message TS: 1768883506.071948
+the kappa is from after adjudication, which finishes in feb. i'll say "preliminary" until then
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-01-19 20:30:43 PST === 
+Message TS: 1768883443.071562
+pitch: "In AI-assisted CS1 labs, TAs can't see who is quietly stuck. TutorTrace replays each student's session as labeled help-seeking states, including a new stalled-after-error state, so a TA can triage whom to visit next. We deployed it in two lab sections (87 students, 3 TAs) and report what TAs did with it and how reliably the states can be labeled (κ = 0.71)."
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-01-15 07:00:02 PST === 
+Message TS: 1768489202.366001
+For UIST I'd like the story to be about TAs, not the classifier. Can you write me a one-paragraph pitch by Monday?
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2025-12-09 19:05:51 PST === 
+Message TS: 1765335951.580530
+That's fine. Grades come first.
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2025-12-09 18:50:55 PST === 
+Message TS: 1765335055.943862
+hi Dr. Chen, quick heads up: CS 3604 finals grading is eating this week (64 students, P4 + final project), so the labeling analysis draft will slip to 12/17. sorry about that
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2025-11-13 08:27:24 PST === 
+Message TS: 1763051244.449529
+Good. Keep both in the appendix.
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2025-11-13 08:25:02 PST === 
+Message TS: 1763051102.673011
+a little. section B has 412 partial windows out of ~1,150 in the sample. i'll report results with and without them, the stalled-after-error rate barely moves (17.1% vs 16.8%)
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2025-11-13 08:10:41 PST === 
+Message TS: 1763050241.434316
+I read the postmortem. One question: does the partial telemetry in section B change the balance of the labeling sample between sections?
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2025-10-22 13:45:00 PDT === 
+Message TS: 1761165900.170049
+yes 3pm works
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2025-10-22 13:30:14 PDT === 
+Message TS: 1761165014.247370
+David, can we move our 1:1 tomorrow to 3pm? I have a committee meeting at 2.

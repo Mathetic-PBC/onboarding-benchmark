@@ -1,0 +1,163 @@
+{
+ "uuid": "c7b28679-907f-4469-8f0e-2076cac8b3a6",
+ "name": "Question guide for Berkeley research chats",
+ "summary": "",
+ "model": "claude-fable-5-1",
+ "created_at": "2026-09-08T05:09:58.675878Z",
+ "updated_at": "2026-09-08T05:13:42.555022Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true,
+  "paprika_mode": "auto",
+  "thinking_mode": "auto",
+  "chat_memory_mode": "enabled",
+  "enabled_artifacts_attachments": false
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "auto",
+ "chat_messages": [
+  {
+   "uuid": "21cdd65f-8f10-4cd4-a031-6de6e0c80f79",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-08T05:10:00.000000Z",
+     "stop_timestamp": "2026-09-08T05:10:00.000000Z",
+     "type": "text",
+     "text": "doing 3 research chats with berkeley people this month (9/9 learning sciences phd, 9/10 priya raman ed+hci, 9/16 stats postdoc on zoom). goal: understand how researchers keep track of where their ideas came from, across tools. not selling. 30 min each. write me a question guide",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-09-08T05:10:00.000000Z",
+   "updated_at": "2026-09-08T05:10:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "5173d067-5ebe-448c-be86-710179153ca3",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-08T05:10:02.000000Z",
+     "stop_timestamp": "2026-09-08T05:10:25.667000Z",
+     "type": "text",
+     "text": "**Research chat guide — \"where ideas come from\" (30 min)**\n\n*Opening (3 min)*\n- Thanks; this is research for a tool we're building, not a sales call. OK to take notes? Nothing gets quoted with your name.\n- What are you working on right now, in a sentence?\n\n*Current practice (10 min)*\n- Walk me through the last time you had an idea that ended up in a paper or draft. Where did it first show up?\n- Which tools did it pass through on the way? (Chats, notes, papers, email, Slack, meetings)\n- When you need to find something you read or discussed a few months ago, what do you do? Last time you did that, how did it go?\n\n*Breakdowns (8 min)*\n- Tell me about a time you couldn't find where something came from. What did it cost you?\n- Have you ever cited or used something and later realized you'd misremembered the source?\n- What do you keep that you never look at again?\n\n*AI tools (5 min)*\n- How do you use AI chats in your research? Do you ever go back to old chats?\n- Has an AI conversation ever been the origin of an idea you used? How did you keep track of it?\n\n*Close (4 min)*\n- If you could fix one thing about how your research notes and sources fit together, what would it be?\n- Anyone else I should talk to?\n\nTips: ask about specific last times, not general habits (\"usually\" answers are aspirational). Don't describe Engelbart until the very end, if at all.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-09-08T05:10:25.667000Z",
+   "updated_at": "2026-09-08T05:10:25.667000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "21cdd65f-8f10-4cd4-a031-6de6e0c80f79"
+  },
+  {
+   "uuid": "2a580bb0-2df1-40ad-b001-e1abc8801c4e",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-08T05:11:58.667000Z",
+     "stop_timestamp": "2026-09-08T05:11:58.667000Z",
+     "type": "text",
+     "text": "the stats postdoc probably doesn't use AI chats much. adjust?",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-09-08T05:11:58.667000Z",
+   "updated_at": "2026-09-08T05:11:58.667000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "5173d067-5ebe-448c-be86-710179153ca3"
+  },
+  {
+   "uuid": "d4228a12-87a2-4993-830e-c1c0fec829e1",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-08T05:12:00.667000Z",
+     "stop_timestamp": "2026-09-08T05:12:12.622000Z",
+     "type": "text",
+     "text": "For him, swap the AI block for code and data provenance, which is the stats version of the same problem:\n\n- When a number ends up in a paper, how do you trace it back to the script and data that produced it?\n- Do you keep notebooks, scripts, or logs of analyses you tried and dropped? Do you ever go back to them?\n- How do you keep track of why you chose one model over another?\n\nKeep the opening, breakdown and close sections the same so you can compare across all three chats.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-09-08T05:12:12.622000Z",
+   "updated_at": "2026-09-08T05:12:12.622000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "2a580bb0-2df1-40ad-b001-e1abc8801c4e"
+  },
+  {
+   "uuid": "ea826c82-a879-4ea5-a54b-a1b43aaebf07",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-08T05:13:23.622000Z",
+     "stop_timestamp": "2026-09-08T05:13:23.622000Z",
+     "type": "text",
+     "text": "great. one more thing, how do i take notes without being rude on zoom",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2026-09-08T05:13:23.622000Z",
+   "updated_at": "2026-09-08T05:13:23.622000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "d4228a12-87a2-4993-830e-c1c0fec829e1"
+  },
+  {
+   "uuid": "6136c45e-f9e2-4a49-a3e5-6094660d0f09",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-08T05:13:25.622000Z",
+     "stop_timestamp": "2026-09-08T05:13:40.668000Z",
+     "type": "text",
+     "text": "Ask at the start if you can record for your own notes (Zoom shows a recording banner, so it's transparent). If they say no, type sparse keywords during and write full notes within 15 minutes after the call, while you still remember the quotes. Either way, a short thank-you email the same day helps with the \"anyone else I should talk to\" follow-up.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2026-09-08T05:13:40.668000Z",
+   "updated_at": "2026-09-08T05:13:40.668000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "ea826c82-a879-4ea5-a54b-a1b43aaebf07"
+  }
+ ],
+ "current_leaf_message_uuid": "6136c45e-f9e2-4a49-a3e5-6094660d0f09"
+}

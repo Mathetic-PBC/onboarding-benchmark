@@ -1,0 +1,606 @@
+{
+ "id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Hudson x David weekly",
+ "created_at": "2026-08-25T20:58:55.000Z",
+ "updated_at": "2026-08-25T21:07:28.414Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "e6e91040a387f2b5cb2f0fa261",
+  "summary": "Hudson x David weekly",
+  "start": {
+   "dateTime": "2026-08-25T14:00:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-08-25T14:15:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted",
+    "organizer": true
+   }
+  ],
+  "organizer": {
+   "email": "hudson@mathetic.com"
+  },
+  "creator": {
+   "email": "hudson@mathetic.com"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=577c605da1cd0f045dd9ae439d1631f1ec4bd481",
+  "status": "confirmed",
+  "location": "Surplus house, SF"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### Repo setup (started this week)\n\n- Monorepo decided: `apps/web`, `workers/importers`, `packages/types`\n- Shared `SourceItem` type: id, source, source_id, title, created_at, modified_at, content_hash, parts[]\n- One importer per source; each yields items, never writes to the DB directly\n- CI: typecheck + importer fixtures on every PR; no deploy pipeline yet\n\n### Importer order\n\n1. Claude export (JSON) — David has his own export to test on\n2. ChatGPT export — conversation tree flattening needed (branches from edited messages)\n3. Zotero (local sqlite + storage folder)\n4. Local PDFs (watch ~/Downloads and ~/Desktop/papers)\n5. Google Drive — later, OAuth review takes time\n\n### Dedupe design (first cut)\n\n- Exact: sha256 over normalized bytes → same item, merge parts\n- Near: title + first-page text similarity > 0.9 → \"possible duplicate\" badge, never auto-merge\n- Keep both source paths so the trail can say \"found in Zotero and Downloads\"\n\n### Debrief from Marcus\n\n- Retention question stuck with both of us: need weekly users, not a launch\n- Follow-up memo sent Friday; Marcus replied he'll try the research-ops intro\n\n### Action items\n\n- [ ] David — Claude + ChatGPT importers with fixtures by Fri\n- [ ] Hudson — Zotero importer spike; read the sqlite schema\n- [ ] Hudson — Berkeley research-chat sign-up form + outreach email draft\n- [ ] David — write the dedupe rules down as a doc in the repo\n",
+ "notes_plain": "Repo setup (started this week)\n\nMonorepo decided: `apps/web`, `workers/importers`, `packages/types`\nShared `SourceItem` type: id, source, source_id, title, created_at, modified_at, content_hash, parts[]\nOne importer per source; each yields items, never writes to the DB directly\nCI: typecheck + importer fixtures on every PR; no deploy pipeline yet\n\nImporter order\n\n1. Claude export (JSON) — David has his own export to test on\n2. ChatGPT export — conversation tree flattening needed (branches from edited messages)\n3. Zotero (local sqlite + storage folder)\n4. Local PDFs (watch ~/Downloads and ~/Desktop/papers)\n5. Google Drive — later, OAuth review takes time\n\nDedupe design (first cut)\n\nExact: sha256 over normalized bytes → same item, merge parts\nNear: title + first-page text similarity > 0.9 → \"possible duplicate\" badge, never auto-merge\nKeep both source paths so the trail can say \"found in Zotero and Downloads\"\n\nDebrief from Marcus\n\nRetention question stuck with both of us: need weekly users, not a launch\nFollow-up memo sent Friday; Marcus replied he'll try the research-ops intro\n\nAction items\n\nDavid — Claude + ChatGPT importers with fixtures by Fri\nHudson — Zotero importer spike; read the sqlite schema\nHudson — Berkeley research-chat sign-up form + outreach email draft\nDavid — write the dedupe rules down as a doc in the repo\n",
+ "transcript": [
+  {
+   "id": "85e6907a-c940-40e9-9966-4d6ca0bc535e",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:00:10.680Z",
+   "end_timestamp": "2026-08-25T21:00:15.108Z",
+   "text": "Is it on? The little — yeah okay, it's going.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "59406bf2-431e-4cee-a5ee-2371ce8dde9a",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:00:15.524Z",
+   "end_timestamp": "2026-08-25T21:00:17.349Z",
+   "text": "Granola's on. Okay. Repos!",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "57680486-8c0f-4df3-a9b8-402f4367d475",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:00:18.400Z",
+   "end_timestamp": "2026-08-25T21:00:23.465Z",
+   "text": "Repos. So I made the org repos this morning. Went with the monorepo.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "25d06e72-9c1d-46a8-ae4d-a56f26fa91be",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:00:25.664Z",
+   "end_timestamp": "2026-08-25T21:00:31.291Z",
+   "text": "Thank god. I didn't want to have the, uh, the four-repo argument.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "08f150de-265c-4a12-a11d-87febe1c83d4",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:00:33.056Z",
+   "end_timestamp": "2026-08-25T21:00:39.328Z",
+   "text": "Three folders. apps slash web, workers slash importers, packages slash types. Types is the important one.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "a858000a-0617-41e2-9bfd-a4fc5d60fec6",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:00:40.361Z",
+   "end_timestamp": "2026-08-25T21:00:41.550Z",
+   "text": "What's in it?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "0aaab01b-1757-41c3-9cf5-3d7da226793c",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:00:42.354Z",
+   "end_timestamp": "2026-08-25T21:00:57.348Z",
+   "text": "Basically one type right now, SourceItem. id, source, source id, title, created, modified, content hash, and parts. Parts is the list of files, because some things are multi-file. Like a Zoom meeting folder is one item with ten files.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "c6870418-61ab-4365-89eb-c241e0f9163e",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:00:57.842Z",
+   "end_timestamp": "2026-08-25T21:00:59.698Z",
+   "text": "Do we have Zoom?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "7227b9e9-8394-4831-856e-a78a12b567b8",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:01:00.067Z",
+   "end_timestamp": "2026-08-25T21:01:06.242Z",
+   "text": "No, it's just an example. Like an email thread too. One thread, many messages.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "aca8823a-1198-40ce-9230-9b309e6cd191",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:01:08.288Z",
+   "end_timestamp": "2026-08-25T21:01:11.939Z",
+   "text": "Got it. And the importers just produce those?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "e3ea39c6-318d-4552-acf3-30783123f4ff",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:01:13.889Z",
+   "end_timestamp": "2026-08-25T21:01:23.233Z",
+   "text": "Yeah. That's the rule. An importer yields items. It never touches the database. Then one ingestion step writes them, does dedupe, all that.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "4c8e7188-f5a8-4241-a27a-aefb3625df8f",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:01:24.277Z",
+   "end_timestamp": "2026-08-25T21:01:30.352Z",
+   "text": "I like that because then we can test an importer with just files.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "bcd6bf20-6bc8-4954-add6-01ff234e912d",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:01:31.605Z",
+   "end_timestamp": "2026-08-25T21:01:36.892Z",
+   "text": "That's the plan. Fixtures. I'll put my own Claude export in there, scrubbed.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "f986bdc8-8183-43e3-a1f8-971bf2f34836",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:01:38.565Z",
+   "end_timestamp": "2026-08-25T21:01:39.398Z",
+   "text": "Scrubbed how?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "257baac3-c02c-4833-8383-a56cd20714d0",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:01:41.323Z",
+   "end_timestamp": "2026-08-25T21:01:51.132Z",
+   "text": "Like, I'll cut it down to, um, twenty conversations that are boring. Nothing personal. CI runs the importers on the fixtures and checks the counts.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "4930fd30-9b2c-4d22-ae71-d65470862409",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:01:51.644Z",
+   "end_timestamp": "2026-08-25T21:01:52.543Z",
+   "text": "Okay. Order?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "4e7eb251-1011-4cf6-8928-d570bf1e41ca",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:01:54.596Z",
+   "end_timestamp": "2026-08-25T21:02:03.363Z",
+   "text": "Claude first, because I have the export and it's clean JSON. Then ChatGPT, which is annoying because it's a tree.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "56481996-4190-4785-a59a-d0a893e401a3",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:02:04.679Z",
+   "end_timestamp": "2026-08-25T21:02:05.533Z",
+   "text": "A tree?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "054d0d14-ec45-4618-975d-9c436794725f",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:02:06.744Z",
+   "end_timestamp": "2026-08-25T21:02:21.341Z",
+   "text": "When you edit a message in ChatGPT it branches. The export keeps all the branches. So you have to pick the path that's, like, the current one. Mapping, current node, walk the parents.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "5613f327-c280-4362-ba1a-bcf10db091ba",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:02:22.867Z",
+   "end_timestamp": "2026-08-25T21:02:24.176Z",
+   "text": "Oh that's gross.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "de1402e6-ef1a-4342-9bea-75b24e0ccb6e",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:02:25.887Z",
+   "end_timestamp": "2026-08-25T21:02:37.193Z",
+   "text": "It's fine, it's twenty lines. Then Zotero. Then local PDFs, like watching Downloads and the papers folder on the desktop. Drive last because the OAuth review thing takes weeks.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "b5edb2b7-418a-4395-8081-df1a98fee975",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:02:39.015Z",
+   "end_timestamp": "2026-08-25T21:02:43.963Z",
+   "text": "I can take Zotero. I want to read the sqlite schema anyway.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "368c313a-cc5e-4fe6-8eff-470d3f4991a0",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:02:45.577Z",
+   "end_timestamp": "2026-08-25T21:02:55.978Z",
+   "text": "Please. It's — there's a storage folder with random eight-character keys and the PDFs live in there. The sqlite tells you which key is which item.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "7d08581d-0163-41de-8e1c-081a8cacb3d9",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:02:56.399Z",
+   "end_timestamp": "2026-08-25T21:02:59.976Z",
+   "text": "Okay. And dedupe. You said you'd write rules.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "b3d41249-c266-4058-a349-50d290201051",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:03:00.687Z",
+   "end_timestamp": "2026-08-25T21:03:09.722Z",
+   "text": "I have a first cut. Exact match is sha256 of the bytes. Same bytes, same item, we merge the parts.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "cf9deb69-8f4e-490d-b4c7-387c864c8de4",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:03:11.354Z",
+   "end_timestamp": "2026-08-25T21:03:14.597Z",
+   "text": "Normalized how? PDFs have metadata that changes.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "65e541b9-97e3-444e-9ed4-37487a4621b2",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:03:16.220Z",
+   "end_timestamp": "2026-08-25T21:03:24.933Z",
+   "text": "Uh, good point. Hmm. For PDFs maybe hash the extracted text instead of the bytes? Because Zotero sometimes rewrites the file.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e75bdc9d-74c6-4178-b4e9-a8f42e19d22c",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:03:26.381Z",
+   "end_timestamp": "2026-08-25T21:03:27.391Z",
+   "text": "Does it?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "f7ae2ff3-3b04-444c-ae39-a7c291de14e2",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:03:28.241Z",
+   "end_timestamp": "2026-08-25T21:03:32.699Z",
+   "text": "I think when you annotate. I'm not sure. I'll check.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "eb87b5fd-dbb4-4bbd-abfe-aba0553fe77a",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:03:34.664Z",
+   "end_timestamp": "2026-08-25T21:03:36.726Z",
+   "text": "Okay, and the near-duplicate thing?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "09e3c680-00e7-4ca6-85ca-ca09c3d18189",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:03:37.733Z",
+   "end_timestamp": "2026-08-25T21:03:47.215Z",
+   "text": "Title plus first-page text, similarity over point nine, we show a badge. \"Possible duplicate.\" We never auto-merge. That's what we agreed.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0a74fd3e-926b-465a-9759-39e7c8f600cb",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:03:48.527Z",
+   "end_timestamp": "2026-08-25T21:03:49.861Z",
+   "text": "Suggest don't merge.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "b6964248-3922-4e72-8567-c51c49e15289",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:03:51.909Z",
+   "end_timestamp": "2026-08-25T21:04:06.187Z",
+   "text": "Suggest don't merge. And the thing I actually think is cool, we keep both paths. So the trail can say \"you have this paper in Zotero and in Downloads,\" which is kind of useful by itself.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "32a53e52-1be6-4727-9713-3b390a2106b7",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:04:07.875Z",
+   "end_timestamp": "2026-08-25T21:04:11.677Z",
+   "text": "That's a feature honestly. \"You have this in three places.\"",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "aae18ef3-1c86-4338-b9fe-100235a6d500",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:04:13.293Z",
+   "end_timestamp": "2026-08-25T21:04:15.006Z",
+   "text": "Ha. Yeah. Okay. Marcus.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "c27f2a2f-00fc-419b-b253-6109c6537478",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:04:15.774Z",
+   "end_timestamp": "2026-08-25T21:04:24.176Z",
+   "text": "Marcus. So he replied to the memo Saturday. Short. \"Thanks, will try the research-ops intro, talk in October.\"",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a0ab7d94-7234-4ae0-9b98-652bc234536d",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:04:24.910Z",
+   "end_timestamp": "2026-08-25T21:04:27.805Z",
+   "text": "That's fine. That's — what we expected.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0b0f2842-d195-42be-85c6-29f3b2b0acb8",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:04:29.327Z",
+   "end_timestamp": "2026-08-25T21:04:32.839Z",
+   "text": "The retention thing is stuck in my head though.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "3b164af0-b078-4cf1-b1a0-72c91b1afe41",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:04:33.004Z",
+   "end_timestamp": "2026-08-25T21:04:40.189Z",
+   "text": "Mine too. Like he's right. I don't actually know if I'd use it in week four.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "7c03d75c-8070-40ef-b4d9-55b8bf58af73",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:04:40.409Z",
+   "end_timestamp": "2026-08-25T21:04:42.472Z",
+   "text": "Do you use it now?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "16a40247-ca86-4580-8789-f56cd0260476",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:04:44.647Z",
+   "end_timestamp": "2026-08-25T21:04:47.913Z",
+   "text": "It doesn't exist now! It's three folders.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "6f8e2b6d-b0b2-4ae4-8c8c-b7444797bd85",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:04:48.078Z",
+   "end_timestamp": "2026-08-25T21:04:48.917Z",
+   "text": "Fair, fair.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "13367504-b199-41d0-a958-b6cae7ce04bc",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:04:50.174Z",
+   "end_timestamp": "2026-08-25T21:05:00.532Z",
+   "text": "But, like, the honest answer is we need people using it weekly before anything. Which means the Berkeley chats matter more than I thought.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "194ff10e-1b3a-46ba-96ff-6b053c0acd6a",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:05:01.450Z",
+   "end_timestamp": "2026-08-25T21:05:09.659Z",
+   "text": "I'm doing the sign-up form today. And an outreach email. Can you look at the email before it goes out?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "48b4f999-900e-49e0-9bc5-e1226268241b",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:05:10.875Z",
+   "end_timestamp": "2026-08-25T21:05:16.261Z",
+   "text": "Yeah, send it to me. Don't make it sound like a pitch.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "838d2b75-af08-4d79-9c76-86121721ed35",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:05:18.049Z",
+   "end_timestamp": "2026-08-25T21:05:24.296Z",
+   "text": "It's \"we're curious how you keep track of ideas, thirty minutes, we'll buy coffee.\"",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "671b86ca-2163-4856-8270-31567018b662",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:05:26.215Z",
+   "end_timestamp": "2026-08-25T21:05:28.984Z",
+   "text": "Perfect. Do we have twenty names?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "44009973-f812-4318-accb-f483c9a6cd7e",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:05:29.567Z",
+   "end_timestamp": "2026-08-25T21:05:35.194Z",
+   "text": "Eleven. Lena gave us two. Priya Raman's on it, the education-HCI person.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "76c0cb0f-47f6-4343-a8b5-bcfa863b5c90",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:05:36.577Z",
+   "end_timestamp": "2026-08-25T21:05:39.957Z",
+   "text": "Oh nice, she's great, I've read her stuff. Okay.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "9d5112c2-35c0-44b5-97f4-3ee332a706ab",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:05:41.750Z",
+   "end_timestamp": "2026-08-25T21:05:42.757Z",
+   "text": "Anything else?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "276daebe-3b33-4bb9-bebd-843352313b8b",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:05:43.090Z",
+   "end_timestamp": "2026-08-25T21:05:49.708Z",
+   "text": "Um. The camera-ready went in, by the way. I didn't say. The fourteenth, on time.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "f20a63a3-090e-46b4-9fe8-372537cee64d",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:05:50.228Z",
+   "end_timestamp": "2026-08-25T21:05:53.701Z",
+   "text": "You did say. You said it like four times.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "4af1c96b-693f-4082-bb1d-135153f61947",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:05:54.363Z",
+   "end_timestamp": "2026-08-25T21:06:01.665Z",
+   "text": "Did I? Okay. I'm just relieved. Okay, I'm going to go write the ChatGPT tree thing.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "92f692e9-6164-444a-83e0-2e342305dd06",
+   "document_id": "802b0358-5c20-4040-9ec3-42108f3513d7",
+   "start_timestamp": "2026-08-25T21:06:03.733Z",
+   "end_timestamp": "2026-08-25T21:06:05.414Z",
+   "text": "Go walk the parents.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  }
+ ]
+}

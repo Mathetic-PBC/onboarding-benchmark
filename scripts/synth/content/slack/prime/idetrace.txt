@@ -1,0 +1,65 @@
+# PRIME Lab (VT) #idetrace — synthetic (IDETrace @ NeurIPS 2026 D&B)
+@2026-04-20
+11:00 xiaohang | <join>
+11:01 david | <join>
+11:02 yue | <join>
+11:10 xiaohang | channel for IDETrace @ NeurIPS D&B. deadline May 6. what we have: ~61k thirty-second windows from 4 course offerings, IDE telemetry + labels from 3 deployments. what we need: datasheet, splits, baselines, hosting
+~r +1:2
+
+@2026-04-22
+16:40 david | baselines plan: majority, logistic regression on hand features, GBDT (lightgbm), a small transformer over event sequences. macro-F1 over 5 states. splits 70/15/15, random by window for now
+~p project_idetrace
+> 17:05 yue | random by window? not by student?
+> 17:12 david | for now yes. the student ids are hashed differently in the fall and spring exports and joining them is a pain. let's revisit
+
+@2026-04-30
+22:15 yue | datasheet draft is in overleaf appendix B. still need: license (cc-by-nc?), deidentification process, consent language
+~p project_idetrace
+> 22:40 xiaohang | cc-by-nc-4.0 is what yan suggested
+
+@2026-05-03
+01:30 david | baseline results v1: GBDT 0.81 macro-F1, transformer 0.79, LR 0.66, majority 0.17. gbdt wins on stalled-after-error, which is funny
+~r eyes:2 fire:1
+
+@2026-05-05
+20:20 xiaohang | dataset uploaded to the hosting bucket, croissant metadata validates ✅ doi reserved
+~r tada:2
+
+@2026-05-06
+19:58 david | submitted 🫡 openreview page looks right. thanks both
+~r tada:3
+
+@2026-07-14
+10:05 xiaohang | reviews are in: 6, 5, 4. R3 asks how splits were made and whether windows from one student can be in both train and test
+
+@2026-07-24
+00:40 david | ok so R3 is right. i checked: 96% of students have windows in both train and test. we split by window, not by student. this is leakage
+~r scream:2
+~p project_idetrace
+> 00:42 david | the transformer is basically memorizing per-student typing rhythm
+> 08:50 xiaohang | ugh. the hashed id mismatch is why we didn't group in april
+> 09:10 david | built a mapping table from (course, section, session start, seat): 100% match on 3 of 4 offerings, 97.8% on the 4th, unmatched windows dropped. rerunning everything with GroupKFold by student id today
+> 09:12 david | also reread ostrowski et al. sec 4 (the paper minsun shared in #paper-reading in nov), they call out exactly this same-student leakage and report the drop. we should cite it
+
+@2026-07-25
+18:30 david | grouped split results: GBDT 0.74 (was 0.81), transformer 0.70 (was 0.79), LR 0.64 (was 0.66). the transformer drops the most, consistent with memorization
+~f f1_compare
+~r eyes:2
+~p project_idetrace
+> 18:41 yue | 0.74 is still the best baseline. ranking doesn't change, the transformer just falls further behind gbdt
+
+@2026-07-27
+21:15 david | rebuttal plan: report both numbers in one table (random-window vs student-grouped), say the released splits are now grouped, update the datasheet. no hiding it
+~r +1:3
+
+@2026-07-28
+23:50 xiaohang | new splits uploaded as `splits_v2_grouped/`. v1 kept but marked deprecated in the README
+~r white_check_mark:2
+
+@2026-07-29
+16:05 david | rebuttal posted on openreview. both numbers reported: 0.81 → 0.74 macro-F1 for the best baseline under the student-grouped split
+~r muscle:2
+
+@2026-08-19
+10:30 xiaohang | R3 raised their score to 6 after the rebuttal. discussion period ends 8/26
+~r fire:3

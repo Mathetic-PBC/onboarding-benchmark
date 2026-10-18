@@ -1,0 +1,17 @@
+{
+ "work_function": "Research",
+ "conversation_preferences": "Be concise. Don't speculate. If something depends on a fact you don't have (a number, a date, a file), ask instead of guessing. When I paste a stack trace, give the fix first. For writing, keep my voice: plain, specific, no hype words.",
+ "cowork_global_instructions": null,
+ "cowork_instructions_union": true,
+ "conversation_preferences_cloud_max_chars": 32768,
+ "conversation_preferences_over_cloud_max_chars": false,
+ "locale": "en-US",
+ "onboarding_topics": null,
+ "science_fields": [
+  "Computer science"
+ ],
+ "avatar": null,
+ "pixel_avatar": null,
+ "avatar_image_url": null,
+ "display_avatar": null
+}

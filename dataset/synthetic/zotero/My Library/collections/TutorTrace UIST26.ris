@@ -1,0 +1,229 @@
+TY  - JOUR
+TI  - Productive Failure
+AU  - Kapur, Manu
+T2  - Cognition and Instruction
+VL  - 26
+IS  - 3
+SP  - 379
+EP  - 424
+PY  - 2008
+DA  - 2026/03/24/
+LA  - en
+KW  - productive failure
+KW  - learning sciences
+ER  - 
+
+TY  - CPAPER
+TI  - Replaying the Keystroke: Session Reconstruction for Instructor Sense-Making in Large Programming Courses
+AU  - Haldane, Iris
+AU  - Okafor, Tunde
+AU  - Brandt, Lucia
+T2  - Proceedings of the ACM Technical Symposium on Computer Science Education
+T3  - SIGCSE TS '24
+SP  - 512
+EP  - 518
+PY  - 2024
+DA  - 2026/03/24/
+PB  - ACM
+CY  - Portland, OR, USA
+AB  - Instructors of large programming courses see students' final submissions but rarely the process that produced them. We built SessionReel, a tool that reconstructs a student's editing session from keystroke logs and plays it back at adjustable speed with run and error markers. In a within-subjects study, 9 instructors and 14 teaching assistants examined 40 sessions and were asked to locate the moment a student became stuck. With final code alone, participants located the stuck point within 60 seconds in 41% of sessions; with replay, 77%. Replay cost a median 3.8 minutes per session. We report which visual markers helped and argue that replay is most useful as a targeted tool for sessions already flagged by simpler signals.
+LA  - en
+KW  - replay
+KW  - instructor tools
+KW  - CS1
+KW  - keystroke data
+L1  - storage/F6XX9MKF/Haldane et al. - 2024 - Replaying the Keystroke Session Reconstruction for Instructor Sense-Making in Large Programming Courses.pdf
+N1  - <div data-schema-version="9"><p><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FmyLibrary%2Fitems%2FSKX3PQMU%22%5D%7D%5D%7D">(<span class="citation-item">Haldane et al., 2024</span>)</span> SessionReel ~ our replay viewer but instructor-facing, we&#x27;re rater-facing.</p><ul><li>markers mattered more than playback: idle bands 17/23, error ticks 14/23. we have idle bands, no error ticks in the labeling UI. add error ticks? (not before deadline lol)</li><li>3.8 min/session -&gt; argument for classifier-as-first-stage. same framing as Ostrowski discussion</li><li>4% opt-out under explicit replay consent. useful number for the privacy question if it comes up</li></ul></div>
+ER  - 
+
+TY  - CPAPER
+TI  - Productive Struggle or Silent Stalling? Telemetry Signals of Help-Seeking in LLM-Assisted CS1
+AU  - Ostrowski, Hannah
+AU  - Lindqvist, Mateo
+AU  - Bello, Aisha
+AU  - Chandrasekar, Ravi
+T2  - Proceedings of the Twelfth ACM Conference on Learning @ Scale
+T3  - L@S '25
+SP  - 112
+EP  - 123
+PY  - 2025
+DA  - 2026/03/24/
+DO  - 10.1145/3698205.3729841
+AB  - Novice programmers who use large language model (LLM) assistants alternate between productive struggle and unproductive stalling, yet instructors rarely see which is which. We instrumented an introductory programming course (N=212) with editor and assistant telemetry and asked teaching assistants to label 1,904 thirty-second windows as productive struggle, stalling, help-seeking, or off-task.
+LA  - en
+KW  - help-seeking
+KW  - telemetry
+KW  - LLM assistants
+KW  - CS1
+L1  - storage/VMVVLUME/Ostrowski et al. - 2025 - Productive Struggle or Silent Stalling Telemetry Signals of Help-Seeking in LLM-Assisted CS1.pdf
+L1  - storage/9UXYYWE7/Ostrowski et al. - 2025 - Productive Struggle or Silent Stalling Telemetry Signals of Help-Seeking in LLM-Assisted CS1.pdf
+N1  - <div data-schema-version="9"><h1>Ostrowski et al. 2025 (L@S) - notes</h1><p><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FmyLibrary%2Fitems%2FQQR79WDT%22%5D%7D%5D%7D">(<span class="citation-item">Ostrowski et al., 2025</span>)</span> closest prior work to TutorTrace. MUST cite in related work + discussion.</p><ul><li>N=212 CS1, 1,904 windows, 4 states (productive struggle / stalling / help-seeking / off-task). ours has stalled-after-error as its own state, they fold it into stalling</li><li>their kappa 0.64 (4 TAs, 10% overlap). ours 0.71 across 3 raters -&gt; say this carefully, different schemes</li><li>strongest stalling signal = near-identical repeated prompts (edit distance &lt; 15%). we see the same thing in VizPI replays, worth one sentence</li><li>they report a leakage check (0.58 when same-student windows removed). note to self: double check our own split before submission</li><li>discussion: flags as prompts for a human check-in, not auto interventions. aligns w our framing</li></ul><p>heads up: arXiv v1 (2507.01842v1) has 0.69 F1 / kappa 0.62, camera-ready has 0.71 / 0.64. cite the camera-ready numbers. I have both pdfs floating around (Downloads + Desktop/papers), the zotero one is camera-ready</p></div>
+ER  - 
+
+TY  - CPAPER
+TI  - Labeling Learner States in Programming Sessions: A Reliability Study of Thirty-Second Windows
+AU  - Nakamura, Ren
+AU  - Feld, Sarah
+T2  - Proceedings of the 2025 ACM Conference on International Computing Education Research - Volume 1
+T3  - ICER '25
+SP  - 233
+EP  - 245
+PY  - 2025
+DA  - 2026/03/25/
+PB  - ACM
+CY  - Charlottesville, VA, USA
+AB  - Studies that label novice programmers' behavioral states from logs choose a window length with little justification. We asked three trained raters to label the same 400 minutes of replayed programming sessions at three window lengths (10, 30 and 60 seconds) using a five-state scheme. Agreement was highest for 30-second windows (Fleiss' kappa 0.66), lower for 60 seconds (0.61), where windows often spanned two states, and lowest for 10 seconds (0.48), where raters lacked context. Most disagreements fell between "tinkering" and "stuck". We release our rater training materials and recommend 30-second windows with a one-window context margin.
+LA  - en
+KW  - labeling
+KW  - inter-rater reliability
+KW  - learner states
+L1  - storage/98H2KA2P/Nakamura and Feld - 2025 - Labeling Learner States in Programming Sessions A Reliability Study of Thirty-Second Windows.pdf
+N1  - <div data-schema-version="9"><p><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FmyLibrary%2Fitems%2FMVTX3YSV%22%5D%7D%5D%7D">(<span class="citation-item">Nakamura and Feld, 2025</span>)</span> cite this for why 30s windows. kappa 0.66 at 30s vs 0.48 at 10s vs 0.61 at 60s.</p><ul><li>tinkering vs stuck = 44% of their disagreements. our guide v3 &quot;stalled-after-error&quot; rule does basically what their decision rule does (no successful run + reverts) -&gt; mention</li><li>they let raters flag mixed windows (11%). we forced one label. reviewer might ask. prep a line for limitations</li></ul></div>
+ER  - 
+
+TY  - CPAPER
+TI  - Where Did This Code Come From? Detecting Assistant-Pasted Code in Student Editor Logs
+AU  - Vasquez, Dolores
+AU  - Ahmed, Kamal
+AU  - Petrov, Ilya
+T2  - Proceedings of the 24th Koli Calling International Conference on Computing Education Research
+T3  - Koli Calling '24
+SP  - 1
+EP  - 10
+PY  - 2024
+DA  - 2026/03/26/
+PB  - ACM
+CY  - Koli, Finland
+AB  - When a course permits an AI assistant, instructors still want to know how much of a submission a student wrote. We study paste events in an instrumented editor used by 296 CS1 students alongside an integrated assistant. A classifier using paste size, time since the last assistant response and token overlap with that response identified assistant-originated pastes with F1 = 0.88 against assistant logs. Across the term, 23% of final submissions contained more than half pasted assistant code, concentrated in the last 24 hours before deadlines. We discuss uses of provenance signals that support learning rather than policing.
+LA  - en
+KW  - paste detection
+KW  - LLM assistants
+KW  - academic integrity
+KW  - telemetry
+L1  - storage/VZWXK8U6/Vasquez et al. - 2024 - Where Did This Code Come From Detecting Assistant-Pasted Code in Student Editor Logs.pdf
+ER  - 
+
+TY  - JOUR
+TI  - A Coefficient of Agreement for Nominal Scales
+AU  - Cohen, Jacob
+T2  - Educational and Psychological Measurement
+VL  - 20
+IS  - 1
+SP  - 37
+EP  - 46
+PY  - 1960
+DA  - 2026/03/27/
+LA  - en
+KW  - inter-rater reliability
+ER  - 
+
+TY  - JOUR
+TI  - The Measurement of Observer Agreement for Categorical Data
+AU  - Landis, J. Richard
+AU  - Koch, Gary G.
+T2  - Biometrics
+VL  - 33
+IS  - 1
+SP  - 159
+EP  - 174
+PY  - 1977
+DA  - 2026/03/27/
+LA  - en
+KW  - inter-rater reliability
+ER  - 
+
+TY  - CPAPER
+TI  - "It's Like a TA That Never Sighs": Novices' Mental Models of Code Assistants in CS1
+AU  - Lindgren, Maja
+AU  - Mensah, Kofi
+T2  - Proceedings of the 30th ACM Conference on Innovation and Technology in Computer Science Education V. 1
+T3  - ITiCSE '25
+SP  - 88
+EP  - 94
+PY  - 2025
+DA  - 2026/03/29/
+PB  - ACM
+CY  - Nijmegen, Netherlands
+AB  - We interviewed 22 CS1 students about how they understand and use an AI code assistant permitted in their course. Students held three recurring models of the assistant: an oracle that knows the answer, a rubber duck that helps them think, and a shortcut that saves time on parts they consider unimportant. Models shifted within a single session, often after a failed run. Students who described the assistant as a rubber duck reported asking later and asking narrower questions. We discuss implications for when and how assistants should respond to novices.
+LA  - en
+KW  - mental models
+KW  - interview study
+KW  - help-seeking
+KW  - CS1
+L1  - storage/BGJL7Q47/Lindgren and Mensah - 2025 - It's Like a TA That Never Sighs Novices' Mental Models of Code Assistants in CS1.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Help Seeking and Help Design in Interactive Learning Environments
+AU  - Aleven, Vincent
+AU  - Stahl, Elmar
+AU  - Schworm, Silke
+AU  - Fischer, Frank
+AU  - Wallace, Raven
+T2  - Review of Educational Research
+VL  - 73
+IS  - 3
+SP  - 277
+EP  - 320
+PY  - 2003
+DA  - 2026/03/30/
+LA  - en
+KW  - help-seeking
+ER  - 
+
+TY  - JOUR
+TI  - The Role of Tutoring in Problem Solving
+AU  - Wood, David
+AU  - Bruner, Jerome S.
+AU  - Ross, Gail
+T2  - Journal of Child Psychology and Psychiatry
+VL  - 17
+IS  - 2
+SP  - 89
+EP  - 100
+PY  - 1976
+DA  - 2026/03/30/
+LA  - en
+KW  - scaffolding
+ER  - 
+
+TY  - JOUR
+TI  - What Will Students Share? Consent and Comfort with Fine-Grained Telemetry in Educational IDEs
+AU  - Brennan, Colm
+AU  - Zhou, Wei
+AU  - Adler, Ruth
+T2  - arXiv preprint
+M3  - arXiv:2602.11873
+PY  - 2026
+DA  - 2026/06/13/
+AB  - Research on novice programming increasingly depends on fine-grained telemetry, yet little is known about what students are willing to share. We surveyed 418 students at three universities about eight data streams, from submission history to webcam video, and four uses, from aggregate research to individual instructor review. Comfort was high for submissions (89%) and keystrokes (61%) but low for assistant prompts (38%), which students saw as revealing confusion. Restricting use to aggregate dashboards raised comfort by 22 percentage points on average. We propose a consent design that separates streams and uses.
+LA  - en
+KW  - privacy
+KW  - telemetry
+KW  - consent
+KW  - survey
+L1  - storage/GZM2TGTN/Brennan et al. - 2026 - What Will Students Share Consent and Comfort with Fine-Grained Telemetry in Educational IDEs.pdf
+N1  - <div data-schema-version="9"><h1>for the rebuttal (R2 asked about telemetry privacy)</h1><ul><li>assistant prompts least comfortable text stream: 38% comfortable, 19% if an instructor reviews individual sessions</li><li>aggregate-only raises comfort ~22 pts</li><li>their rec: store derived labels not raw prompts where possible -&gt; we can say the released dataset keeps prompt text only for consented students and ships labels + features for the rest (confirm with Yan before promising)</li><li>separate consent per stream: our IRB form already separates keystrokes vs prompts, say that</li></ul><p><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FmyLibrary%2Fitems%2F7UJBLN3V%22%5D%7D%5D%7D">(<span class="citation-item">Brennan et al., 2026</span>)</span> keep it to 3 sentences in the rebuttal, char limit is brutal</p></div>
+ER  - 
+
+TY  - CPAPER
+TI  - Beyond One Course: Do Behavioral-State Classifiers Transfer Across Programming Courses?
+AU  - Duarte, Paulo
+AU  - Sim, Hye-jin
+T2  - Proceedings of the 18th International Conference on Educational Data Mining
+T3  - EDM '25
+SP  - 141
+EP  - 152
+PY  - 2025
+DA  - 2026/06/14/
+PB  - International Educational Data Mining Society
+CY  - Palermo, Italy
+AB  - Classifiers of learner behavioral states are almost always trained and evaluated within a single course. We trained a gradient-boosted classifier on labeled windows from a Python CS1 course and evaluated it on two other courses: a Java data structures course and a block-based CS0 course. Macro-F1 fell from 0.72 in-course to 0.61 and 0.55. Per-course normalization of rate features recovered part of the gap (0.66 on data structures). Errors concentrated on the "stuck" state, whose behavioral signature depended on the language's error messages. We recommend reporting cross-course results as a standard check.
+LA  - en
+KW  - generalization
+KW  - transfer
+KW  - behavior classification
+L1  - storage/K8WEL974/Duarte and Sim - 2025 - Beyond One Course Do Behavioral-State Classifiers Transfer Across Programming Courses.pdf
+N1  - <div data-schema-version="9"><p><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FmyLibrary%2Fitems%2FPWTJ4BPX%22%5D%7D%5D%7D">(<span class="citation-item">Duarte and Sim, 2025</span>)</span> R1 + R3 both said &quot;one course&quot;. this paper is the template for the analysis we promise.</p><ul><li>they drop 0.72 -&gt; 0.61 (DS, Java) and 0.55 (CS0). per-course normalization recovers some (0.66)</li><li>stuck transfers worst, depends on error channel. our stalled-after-error is literally defined on the error channel so expect the same</li><li>promise: train on CS 3114 deployment, test on the second course data Minsun has from spring, report normalized + raw. do NOT promise a number</li></ul></div>
+ER  - 
+

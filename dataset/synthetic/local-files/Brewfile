@@ -1,0 +1,30 @@
+# new mac 2026-08-04 — brew bundle --file ~/Brewfile
+tap "homebrew/bundle"
+
+# cli
+brew "git"
+brew "gh"
+brew "node"
+brew "uv"
+brew "python@3.12"
+brew "jq"
+brew "ripgrep"
+brew "fd"
+brew "sqlite"
+brew "ffmpeg"        # bouncing beats to mp3, screen recordings
+brew "pandoc"        # paper drafts -> docx for Yan
+brew "tree"
+
+# apps
+cask "firefox"       # personal
+cask "brave-browser" # testing landing page
+cask "google-chrome" # work accounts
+cask "visual-studio-code"
+cask "iterm2"
+cask "rectangle"
+cask "zotero"
+cask "obsidian"
+cask "zoom"
+cask "slack"
+cask "spotify"
+# FL Studio: installed from the vendor site, license re-activated manually

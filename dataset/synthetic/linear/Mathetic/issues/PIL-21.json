@@ -1,0 +1,60 @@
+{
+  "issue": {
+    "id": "PIL-21",
+    "uuid": "e7227e15-2b06-47c2-a7ae-19e71ce30f50",
+    "title": "Import stalls on very large PDFs",
+    "description": "Priya has a 312 MB scanned textbook in Downloads. Hashing it on the import thread blocks the queue for ~40 s and the progress screen looks frozen. Hash in a worker, stream the file, and show \"hashing large file\" in the row.",
+    "projectMilestone": null,
+    "priority": {
+      "value": 3,
+      "name": "Medium"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-21/import-stalls-on-very-large-pdfs",
+    "gitBranchName": "david/pil-21-import-stalls-on-very-large-pdfs",
+    "createdAt": "2026-10-10T18:50:27.397Z",
+    "updatedAt": "2026-10-10T18:50:27.397Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Backlog",
+    "statusType": "backlog",
+    "labels": [
+      "Bug",
+      "Import"
+    ],
+    "createdBy": "David Barron",
+    "assignee": null,
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-21",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "7efa67db-eb16-4280-843f-b08b030d464f",
+          "name": "Backlog",
+          "type": "backlog"
+        },
+        "startedAt": "2026-10-10T18:50:27.397Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": []
+}

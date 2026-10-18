@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20251117T023000Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Week of 2025-11-10</title>
+    <created>20251110T114000Z</created>
+    <updated>20251117T023000Z</updated>
+    <tag>log</tag>
+    <tag>weekly</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>Target 9 h. Got 6 h 48. Labeling sprint + deployment data dump ate Wed.</div><div><br/></div><table style="border-collapse:collapse"><tr><td style="border:1px solid #ccc;padding:4px"><b>day</b></td><td style="border:1px solid #ccc;padding:4px"><b>session</b></td><td style="border:1px solid #ccc;padding:4px"><b>time</b></td><td style="border:1px solid #ccc;padding:4px"><b>notes</b></td></tr><tr><td style="border:1px solid #ccc;padding:4px">Mon</td><td style="border:1px solid #ccc;padding:4px">run Z2</td><td style="border:1px solid #ccc;padding:4px">1:00</td><td style="border:1px solid #ccc;padding:4px">7.2 mi @ 8:20, HR 151</td></tr><tr><td style="border:1px solid #ccc;padding:4px">Tue</td><td style="border:1px solid #ccc;padding:4px">trainer bike Z2</td><td style="border:1px solid #ccc;padding:4px">1:15</td><td style="border:1px solid #ccc;padding:4px">HR 141, podcast</td></tr><tr><td style="border:1px solid #ccc;padding:4px">Wed</td><td style="border:1px solid #ccc;padding:4px">—</td><td style="border:1px solid #ccc;padding:4px">0</td><td style="border:1px solid #ccc;padding:4px">in the lab till 11pm</td></tr><tr><td style="border:1px solid #ccc;padding:4px">Thu</td><td style="border:1px solid #ccc;padding:4px">run Z2</td><td style="border:1px solid #ccc;padding:4px">0:50</td><td style="border:1px solid #ccc;padding:4px">6.0 mi, legs flat</td></tr><tr><td style="border:1px solid #ccc;padding:4px">Fri</td><td style="border:1px solid #ccc;padding:4px">—</td><td style="border:1px solid #ccc;padding:4px">0</td><td style="border:1px solid #ccc;padding:4px"></td></tr><tr><td style="border:1px solid #ccc;padding:4px">Sat</td><td style="border:1px solid #ccc;padding:4px">long run</td><td style="border:1px solid #ccc;padding:4px">1:38</td><td style="border:1px solid #ccc;padding:4px">12.0 mi @ 8:10, HR 153, decoupling 4.1%</td></tr><tr><td style="border:1px solid #ccc;padding:4px">Sun</td><td style="border:1px solid #ccc;padding:4px">elliptical</td><td style="border:1px solid #ccc;padding:4px">0:45</td><td style="border:1px solid #ccc;padding:4px">gym before grading</td></tr></table><div><br/></div><ul><li>Sleep avg 6:20 (bad). That's the main thing.</li><li>Long run was good despite everything, 4.1% drift is my best this fall.</li><li>Next week: protect Wed. even 30' easy counts.</li></ul></en-note>]]>
+    </content>
+  </note>
+</en-export>

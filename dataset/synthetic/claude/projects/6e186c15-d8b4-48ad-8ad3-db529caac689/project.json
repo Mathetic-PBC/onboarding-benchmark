@@ -1,0 +1,32 @@
+{
+ "uuid": "6e186c15-d8b4-48ad-8ad3-db529caac689",
+ "name": "ISE 6664 report",
+ "description": "ISE 6664 Affective Design & Computing final project (Spring 2026): frustration signals in AI-tutoring transcripts.",
+ "is_private": true,
+ "creator": {
+  "uuid": "b3854b67-95b0-4ed0-8f10-1cddf22e84ee",
+  "full_name": "David Barron"
+ },
+ "is_starred": false,
+ "is_starter_project": false,
+ "is_harmony_project": false,
+ "type": null,
+ "subtype": null,
+ "settings": {},
+ "archiver": null,
+ "archived_at": null,
+ "created_at": "2026-01-21T02:05:00.000000+00:00",
+ "updated_at": "2026-04-29T02:44:03.768544+00:00",
+ "permissions": [
+  "chat_project:chat:create",
+  "chat_project:chat:view"
+ ],
+ "docs_count": 2,
+ "files_count": 2,
+ "moved_to": null,
+ "prompt_template": "Course project for ISE 6664 Affective Design & Computing (Dr. Alan Brooks, Spring 2026). Team: David Barron, Maya Torres, Jordan Lee. Topic: frustration signals in AI-tutoring transcripts (412 consented CS1 help-bot transcripts). Final presentation 2026-04-30; report max 14 pages, ACM format.\n\nUse the course definition of frustration: blocked goal + negative valence. Show calculations step by step when I ask for statistics. Keep writing in an academic register for report text, but answer my questions briefly.",
+ "organization_role": "none",
+ "pending_access_request_count": null,
+ "cowork_bound_device": null,
+ "memory_general_enabled": true
+}

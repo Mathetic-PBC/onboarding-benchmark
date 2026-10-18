@@ -1,0 +1,118 @@
+{
+  "issue": {
+    "id": "PIL-4",
+    "uuid": "9dac99f4-35e4-40f7-bfa5-13eca3440949",
+    "title": "Signed + notarized macOS build for pilots",
+    "description": "Developer ID cert on the Mathetic PBC Apple account, notarize with `notarytool` in CI, staple the ticket. Pilots should not have to right-click → Open.",
+    "projectMilestone": {
+      "id": "c2bb2232-6ce1-4441-9ea9-578ad0dd9061",
+      "name": "Pilot kit ready"
+    },
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-4/signed-notarized-macos-build-for-pilots",
+    "gitBranchName": "david/pil-4-signed-notarized-macos-build-for-pilots",
+    "createdAt": "2026-09-16T18:00:56.399Z",
+    "updatedAt": "2026-09-30T08:40:20.270Z",
+    "archivedAt": null,
+    "completedAt": "2026-09-30T08:40:20.270Z",
+    "startedAt": "2026-09-29T03:00:28.451Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [
+      "Ops"
+    ],
+    "createdBy": "David Barron",
+    "assignee": "David Barron",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-4",
+    "attachments": [
+      {
+        "id": "05d1b37e-9e83-4d27-a407-5a97adb88cef",
+        "title": "PR #198: Sign nested binaries before the app bundle; notarize in CI",
+        "subtitle": null,
+        "url": "https://github.com/Mathetic-PBC/engelbart/pull/198"
+      }
+    ],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-09-16T18:00:56.399Z",
+        "endedAt": "2026-09-29T03:00:28.451Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-09-29T03:00:28.451Z",
+        "endedAt": "2026-09-30T08:40:20.270Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-09-30T08:40:20.270Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": [
+    {
+      "id": "2c3f8855-8dcd-457f-836b-6c2107965aaa",
+      "body": "Fixed. `codesign --deep` was the problem; now signing inner binaries explicitly, then the app. `Engelbart-0.9.3.dmg` notarized + stapled, opens with a double click on a fresh account.",
+      "attachments": [],
+      "createdAt": "2026-09-30T08:35:54.045Z",
+      "updatedAt": "2026-09-30T08:35:54.045Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      },
+      "onBehalfOf": null
+    },
+    {
+      "id": "e73c3a8e-56a5-4748-8e72-12a7bec9975c",
+      "body": "Notarization fails: \"The signature of the binary is invalid\" for the bundled `rg` (ripgrep) inside `Contents/Resources/bin`. Nested binaries need `--options runtime` and their own signature before the app is signed.",
+      "attachments": [],
+      "createdAt": "2026-09-30T06:10:36.877Z",
+      "updatedAt": "2026-09-30T06:10:36.877Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      },
+      "onBehalfOf": null
+    }
+  ]
+}

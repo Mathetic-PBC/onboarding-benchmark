@@ -1,0 +1,347 @@
+### CONV usps-priority-christmas
+title: Priority Mail cutoff before Christmas
+start: 2025-12-16 22:10
+projects: project_none
+mode: CONCISE
+---
+@user
+how late can i ship usps priority mail from virginia to dublin ireland and still have it arrive before christmas
+@assistant
+For international Priority Mail to Ireland, USPS usually recommends shipping by **about December 9–10** to have a reasonable chance of arrival before December 25 [1]. Priority Mail International is quoted at 6–10 business days, but December customs backlogs in Ireland often add a few days [2].
+
+If you're shipping now (Dec 16), your realistic options are:
+- **Priority Mail Express International**: 3–5 business days quoted; the recommended holiday cutoff is typically around Dec 16–17, so today is borderline [1].
+- **A private carrier (DHL/FedEx/UPS) express service**: more expensive, but 2–3 business days door to door is common [3].
+
+Also note that gifts to Ireland over €45 in value can be charged VAT and handling on arrival, which the recipient pays [2].
+[src] USPS holiday shipping deadlines | https://www.usps.com/holiday/shipping-deadlines.htm | Recommended mail-by dates for international Priority Mail and Priority Mail Express International during the holiday season.
+[src] An Post — customs charges on parcels from outside the EU | https://www.anpost.com/Help/Customs | Parcels from non-EU countries may be subject to VAT and a handling fee before delivery.
+[src] Holiday shipping guide 2025: carriers compared | https://www.shippingschool.net/holiday-shipping-2025 | Comparison of express international options and typical December transit times by carrier.
+
+### CONV what-is-zone2-lt1
+title: what is
+start: 2026-01-08 21:40
+projects: project_endurance_training
+space: Training
+notes: HARD CASE: vague title — Perplexity kept only the first query fragment ("what is") as the title; thread is about Zone 2 vs LT1 for base training.
+---
+@user
+what is the difference between zone 2 and LT1 like are they the same thing
+@assistant
+They overlap a lot, but they're not defined the same way.
+
+**LT1 (first lactate threshold / aerobic threshold)** is a physiological point: the intensity at which blood lactate first rises meaningfully above resting levels — commonly operationalized as roughly 1.5–2.0 mmol/L or a ~0.5 mmol/L rise above baseline [1]. Below LT1 you are almost entirely on oxidative (aerobic) metabolism and fat oxidation is relatively high [2].
+
+**Zone 2** is a training-zone label, and what it means depends on whose zone system you use [3]:
+- In 5-zone systems anchored to lactate or ventilatory thresholds (common in endurance coaching), Zone 2 is defined as the band **just below LT1** — so in that system "top of Zone 2 ≈ LT1".
+- In heart-rate systems based on % of max HR (e.g., 60–70% HRmax), Zone 2 may sit noticeably below or above an individual's actual LT1, because the % of max at which LT1 occurs varies a lot between people [3].
+
+**Practical takeaway:** if you've had lactate testing or a reliable ventilatory test, set Zone 2's ceiling at or just under your measured LT1. If you're using HR formulas, treat Zone 2 as an estimate and sanity-check it with breathing (you should be able to speak in full sentences) and with HR drift over a long session [2].
+[src] Physiology of the first and second lactate thresholds — review | https://www.endurancephysiologyreview.org/articles/lactate-thresholds-primer | Defines LT1 as the first sustained rise in blood lactate above baseline and LT2 as the onset of rapid accumulation.
+[src] Aerobic base training: why easy means easy | https://www.trainingsciencejournal.com/aerobic-base-easy-volume | Explains fat oxidation and mitochondrial adaptation at intensities below the aerobic threshold.
+[src] Training zones compared: %HRmax vs threshold-anchored models | https://www.runnersphysiology.net/zones-compared | Shows how the same "Zone 2" label maps to different intensities across zone systems.
+@user +6m
+ok so if my lt1 from the test was 148 bpm on the treadmill should zone 2 runs be like 138-148
+@assistant
+That's a reasonable band. A few refinements [1][2]:
+
+- **Cap it slightly under 148**, e.g. 138–145, because HR drifts upward over long runs and in heat. If you start at 147 you'll be above LT1 by minute 50.
+- **Bike HR will be lower** for the same metabolic intensity — usually 5–10 bpm below running — so don't copy the run band onto the bike [2].
+- **Recheck every 8–12 weeks**: as your aerobic base improves, LT1 tends to move up in both pace and HR terms, so the band should move with it [1].
+- Use **pace at a fixed HR** (e.g., pace at 142 bpm on a flat route) as a simple monthly progress marker.
+[src] Heart rate drift during prolonged submaximal exercise | https://www.trainingsciencejournal.com/cardiac-drift-long-runs | Cardiac drift raises HR by several beats over 60–90 minutes at constant pace, especially in warm conditions.
+[src] Cross-training zones: cycling vs running heart rate | https://www.runnersphysiology.net/bike-vs-run-hr | Cycling HR at a matched metabolic intensity is typically lower than running HR.
+
+### CONV derailleur-skipping
+title: Rear derailleur skipping gears fix
+start: 2026-01-14 18:25
+projects: project_none
+mode: CONCISE
+---
+@user
+rear derailleur skipping under load in the middle cogs, chain is 2 years old, how to fix without a shop
+@assistant
+Skipping under load in the middle of the cassette usually comes from one of three things [1][2]:
+
+1. **Cable tension (most likely).** Shift to a middle cog and turn the barrel adjuster on the derailleur (or shifter) counter-clockwise a quarter turn at a time while pedaling. If it hesitates going to a larger cog, add tension; if it hesitates going to a smaller cog, reduce tension.
+2. **Worn chain + cassette.** A 2-year-old chain on a bike you ride regularly may be past 0.5–0.75% stretch. Check with a chain checker (~$10). If the chain is worn, replace it — and if the *new* chain skips on the old cassette, the cassette is worn too [2].
+3. **Bent derailleur hanger.** If the bike fell on its drive side, the hanger can bend so the pulley isn't aligned with the cogs. Look from behind: the pulleys should be in line with the cog. A hanger alignment tool fixes this, or a shop does it in 5 minutes [3].
+
+Start with cable tension (free, 5 minutes), then measure the chain.
+[src] Indexing a rear derailleur: barrel adjuster basics | https://www.bikemaintenancebasics.com/rear-indexing | Quarter-turn adjustments to cable tension to fix hesitant or skipping shifts.
+[src] When to replace a chain and cassette | https://www.cyclewrench.org/chain-wear-guide | Chain wear thresholds and why a worn cassette skips with a new chain.
+[src] Derailleur hanger alignment explained | https://www.bikemaintenancebasics.com/hanger-alignment | Symptoms of a bent hanger and how alignment is checked.
+
+### CONV picard-affective-computing
+title: Picard's Affective Computing main argument
+start: 2026-01-21 23:05
+projects: project_ise6664_affective_computing
+---
+@user
+rosalind picard affective computing (the book) main argument in like 5 bullets, for a class reading response
+@assistant
+Here's the core argument of *Affective Computing* (Picard, 1997), condensed [1][2]:
+
+- **Emotion is part of intelligence, not opposed to it.** Drawing on neuroscience of decision-making, the book argues that emotion plays a functional role in attention, memory and rational choice, so machines meant to interact intelligently with people should account for it [1].
+- **Computers can recognize affect from signals.** Facial expression, voice, posture and physiological measures (e.g., skin conductance, heart rate) carry information about affective state that pattern-recognition methods can model, imperfectly [2].
+- **Computers can express or simulate affect** in ways that change how people interact with them — which raises design choices about when that is appropriate.
+- **Recognition is probabilistic and person-dependent.** The same signal can mean different things for different people and contexts, so models should be personalized and uncertain rather than declare "the user is angry" [2].
+- **Ethics and privacy are central, not an afterthought.** Sensing emotion is intimate data; the book discusses consent, user control and the risk of manipulation [3].
+
+For a reading response, a good angle is the tension between bullet 2 and bullet 4: most deployed "emotion AI" treats labels as ground truth, while the book itself stresses uncertainty.
+[src] Affective Computing (book) — overview | https://en.wikipedia.org/wiki/Affective_computing | Background on the field and the 1997 book that named it.
+[src] Signals for affect recognition: a tutorial review | https://www.affectivesignals.org/tutorial-review | Overview of facial, vocal and physiological channels used in affect recognition and their reliability.
+[src] The ethics of emotion recognition systems | https://www.techpolicyreview.net/emotion-recognition-ethics | Discusses consent, accuracy and manipulation risks in deployed emotion-sensing products.
+@user +4m
+is the "emotion is part of rational decision making" thing from damasio
+@assistant
+Yes — that strand leans heavily on Antonio Damasio's somatic marker work (popularized in *Descartes' Error*, 1994), which argued that patients with damage to emotion-related brain regions made poor real-world decisions despite intact reasoning on tests [1][2]. Picard uses it as motivation: if emotion is part of good decision-making in humans, ignoring it in human–computer interaction is a design gap. In your response you could note that the somatic marker hypothesis has been debated since, so it's a motivating argument rather than settled science [2].
+[src] Somatic marker hypothesis — overview | https://en.wikipedia.org/wiki/Somatic_marker_hypothesis | Summary of the hypothesis and the main critiques.
+[src] Emotion and decision-making: twenty years after the somatic marker hypothesis | https://www.cogneurosciencereview.org/somatic-markers-20-years | Review of supporting and conflicting evidence.
+
+### CONV notion-vs-obsidian-wiki
+title: Notion vs Obsidian for a two-person company wiki
+start: 2026-02-02 23:30
+projects: project_mathetic_company
+---
+@user
+notion vs obsidian for a shared wiki between 2 cofounders. we need meeting notes, a reading list, and product specs. no budget
+@assistant
+For two people who need to **share and co-edit**, Notion is usually the easier default; Obsidian shines for a single person's linked notes [1][2].
+
+| | Notion (free plan) | Obsidian |
+|---|---|---|
+| Real-time co-editing | Yes, built in | No; needs Obsidian Sync (paid) or a git/Dropbox workaround [2] |
+| Databases (reading list with status, tags) | Native databases with views | Via community plugins (Dataview), more setup |
+| Offline / local files | Limited; cloud-first | Plain Markdown files on disk, fully offline [1] |
+| Free plan limits | Free for individuals; small teams can use the free tier with block/guest limits [3] | Free for personal use |
+| Lock-in | Export to Markdown/CSV, some formatting loss | None — it's just files |
+
+**Suggestion:** a Notion teamspace with three databases — *Meetings* (date, attendees, decisions), *Reading list* (status, who's reading, link), *Specs* (owner, status). If one of you prefers Obsidian for private thinking, keep that personal and paste conclusions into Notion.
+[src] Choosing a note-taking tool for small teams | https://www.productivitystack.io/notes-for-small-teams | Compares collaborative editing, databases and pricing across common tools.
+[src] Obsidian for teams: what works and what doesn't | https://www.pkmreview.com/obsidian-for-teams | Covers sync options and the limits of file-based collaboration.
+[src] Notion pricing explained | https://www.notionguides.net/pricing-explained | Summary of free and paid plan limits for individuals and teams.
+@user +3m
+can notion databases link to each other like a spec linking to the meeting where we decided it
+@assistant
+Yes — use a **Relation** property [1]. Add a "Decided in" relation on the *Specs* database pointing to *Meetings*; Notion creates the reverse relation automatically, so each meeting page shows which specs it produced. Add a **Rollup** if you want, e.g., the date of the most recent related meeting on each spec [1][2]. One caveat: relations only work between databases in the same workspace, so keep both in the shared teamspace.
+[src] Relations and rollups in Notion databases | https://www.notionguides.net/relations-rollups | How to connect two databases and summarize related entries.
+[src] Building a lightweight decision log | https://www.productivitystack.io/decision-log | Pattern for linking decisions to the meetings where they were made.
+
+### CONV perplexity-pro-models
+title: Which models does Perplexity Pro use
+start: 2026-02-04 21:15
+projects: project_none
+mode: CONCISE
+---
+@user
+just started the pro trial. which models can i pick and is there a limit
+@assistant
+With Pro you can choose the model used for answers in **Settings → AI model** or per query from the model picker; options typically include Perplexity's own Sonar models plus several third-party frontier models (e.g., recent GPT, Claude and Gemini models) [1]. Pro Search ("Copilot"-style multi-step search) has a daily allowance that is much higher than on the free tier, and some reasoning/research modes have their own lower caps [1][2]. Your trial gives the same limits as paid Pro until it ends; you can cancel before renewal in account settings [2].
+[src] Perplexity Help Center — Pro features | https://www.perplexity.ai/help-center/pro-features | Lists Pro model options and search limits.
+[src] Perplexity Pro trial FAQ | https://www.perplexity.ai/help-center/pro-trial | Trial terms, renewal and cancellation.
+
+### CONV mixing-headphones-200
+title: Headphones for mixing under $200
+start: 2026-02-05 22:40
+projects: project_music_production
+---
+@user
+best headphones for mixing beats under 200, i mostly do hip hop in fl studio, 808s matter
+@assistant
+For mixing with a lot of sub-bass, you want **open-back or semi-open headphones with a reasonably flat low end**, and you want to know how they deviate so you can compensate [1][2]. Common picks in that range:
+
+- **Open-back studio models around $150–200** (several brands make one): most neutral, best stereo image, but leak sound and have less sub-bass extension — you'll hear 808 *pitch* well but feel less of the sub [1].
+- **Closed-back studio monitors around $100–170**: more isolation and more low end, often with a bass or treble bump; good for tracking and late-night work [2].
+- **Pair any of them with a correction profile** (e.g., a headphone EQ plugin with a measured profile) to flatten the response — this matters more than the specific model [3].
+
+For 808s specifically: check your low end on a spectrum analyzer and on a second system (car, earbuds), because no headphone under $200 reproduces 30–40 Hz reliably [3].
+[src] Headphones for mixing: open vs closed back | https://www.homestudiohandbook.com/mixing-headphones | Explains trade-offs of open- and closed-back designs for mixing.
+[src] Budget studio headphone frequency response comparison | https://www.audiomeasurements.net/budget-studio-roundup | Measured responses of popular sub-$200 studio headphones.
+[src] Mixing low end on headphones | https://www.beatmakersguide.com/low-end-on-headphones | Using analyzers, reference tracks and correction EQ to judge sub-bass.
+@user +2m
+is headphone correction actually worth it or a gimmick
+@assistant
+It's worth it if you mix mostly on headphones. Correction can't add bass extension the driver doesn't have, but it removes the model's built-in tilts (e.g., a 6 dB treble peak) so your EQ decisions translate better to other systems [1][2]. Turn it **off when bouncing** — it should only be on your monitoring path, not the master.
+[src] Does headphone calibration improve mix translation? | https://www.audiomeasurements.net/calibration-study | Listening test comparing mixes made with and without correction.
+[src] Monitoring chain basics | https://www.homestudiohandbook.com/monitoring-chain | Why correction belongs on the monitor output, not the master bus.
+
+### CONV as-we-may-think-trails
+title: Bush's memex and associative trails
+start: 2026-02-09 23:50
+projects: project_augmenting_cognition_reading_group
+---
+@user
+in as we may think (bush 1945) what exactly is a "trail" and why do people say it anticipates hypertext
+@assistant
+In "As We May Think" (1945), Vannevar Bush imagines the **memex**, a desk that stores a person's books, records and notes on microfilm and lets them call up any item quickly [1]. The key idea is the **associative trail** [1][2]:
+
+- A user viewing two items can **tie them together** with a single action, creating a permanent link.
+- Many such links form a **named trail** through the material — a path someone took while thinking about a topic, with their own side notes inserted along the way.
+- Trails can be **revisited, branched and shared**: Bush imagines a researcher handing a colleague a copy of their trail on some question, so the colleague can follow the reasoning, not just the sources.
+
+Why it's seen as anticipating hypertext [2][3]:
+- It's **association-based retrieval** rather than hierarchical indexing — Bush argues the mind works by association, so the tool should too.
+- Links are **user-created and persistent**, which is the core of later hypertext systems (Nelson's work in the 1960s, Engelbart's NLS, and eventually the web).
+
+What it *doesn't* have: links aren't bidirectional or addressable at a fine grain, and the trail is a linear sequence rather than a graph — differences later critics emphasize [3].
+[src] As We May Think — overview | https://en.wikipedia.org/wiki/As_We_May_Think | Summary of Bush's 1945 essay and the memex.
+[src] From memex to the web: a short history of hypertext ideas | https://www.historyofcomputing.org/memex-to-web | Traces associative linking from Bush through Nelson and Engelbart.
+[src] Trails, not links: rereading the memex | https://www.mediatheoryquarterly.org/rereading-memex | Argues that Bush's trails were about recorded paths of reasoning more than links.
+@user +5m
+so a trail is basically provenance of how someone got to an idea? thats basically the thing we keep talking about
+@assistant
+That's a fair reading. Several commentators argue that the trail's value is less "item A links to item B" and more **a record of the path of thought**, with annotations, that someone else can retrace [1][2]. Modern equivalents people point to include browsing histories with annotations, research notebooks that keep source links on each note, and citation chains in literature reviews — but most tools keep the sources and lose the path, which is the part Bush cared about [2].
+[src] Trails, not links: rereading the memex | https://www.mediatheoryquarterly.org/rereading-memex | Emphasis on trails as shareable records of reasoning.
+[src] Provenance in personal knowledge tools | https://www.pkmreview.com/provenance-in-notes | Survey of how note tools track where ideas came from, and where they don't.
+
+### CONV frustration-detection-tutoring-text
+title: Detecting frustration in tutoring transcripts
+start: 2026-02-10 14:20
+projects: project_ise6664_affective_computing
+---
+@user
+related work on detecting student frustration from text only (chat logs w an ai tutor), not video or sensors. for a class project
+@assistant
+Text-only frustration detection draws on three bodies of work [1][2][3]:
+
+**1. Affect detection in intelligent tutoring systems (ITS).** Earlier ITS research detected frustration, confusion and boredom mostly from *interaction logs* (hint requests, response times, repeated errors) rather than text. These "sensor-free" detectors are a useful baseline because they show which behaviors co-occur with frustration [1].
+
+**2. Dialogue-based affect detection.** Work on tutorial dialogue systems used linguistic features of student turns — negations, short answers, hedges, expletives, second-person complaints ("you're not helping") — plus conversation-level features like turn length shrinking over time [2].
+
+**3. LLM-era studies of student–chatbot logs.** Recent papers analyze logs from course chatbots and code assistants. They report that frustration often shows up as **repeated near-identical prompts**, demands for the full answer, and abrupt session endings, more than explicit emotional words [3][4]. Ostrowski et al. (L@S 2025) found repeated near-identical prompts were the strongest predictor of "stalling" in LLM-assisted CS1 sessions, which is a close behavioral cousin of frustration [4].
+
+**Labeling approaches:** most studies use trained coders on turn or window segments with a small affect scheme (e.g., frustrated / confused / engaged / neutral) and report Cohen's or Krippendorff's agreement; agreement on frustration is typically moderate, lower than for engagement [2].
+[src] Sensor-free affect detection in tutoring systems: a review | https://www.edmreviewjournal.org/sensor-free-affect | Survey of log-based detectors for frustration, confusion and boredom.
+[src] Linguistic cues of affect in tutorial dialogue | https://www.dialoguelearningsociety.org/papers/linguistic-affect-cues | Features of student turns associated with frustration and confusion.
+[src] What students type when they're stuck: an analysis of course chatbot logs | https://www.csedresearch.net/papers/stuck-chatbot-logs | Analysis of prompts in a course chatbot showing repetition and answer-demanding as frustration markers.
+[src] Productive Struggle or Silent Stalling? Telemetry Signals of Help-Seeking in LLM-Assisted CS1 (Ostrowski et al., L@S '25) | https://dl.acm.org/doi/10.1145/3698205.3729841 | Repeated near-identical prompts and long idle gaps after errors predicted stalling; TA-labeled 30-second windows.
+@user +8m
+what features would be realistic for 3 people in 10 weeks. we have ~400 transcripts
+@assistant
+With ~400 transcripts and 10 weeks, keep it interpretable [1][2]:
+
+- **Lexical:** counts of negations, all-caps words, exclamation/question marks, and a small frustration lexicon (e.g., "still", "again", "doesn't work", "just give me") normalized per turn.
+- **Repetition:** similarity between consecutive student turns (e.g., normalized edit distance or embedding cosine). This is cheap and, per Ostrowski et al., one of the strongest signals [2].
+- **Conversation dynamics:** student turn length trend, time between turns (if you have timestamps), and whether the session ends right after a tutor turn.
+- **Tutor-side context:** whether the previous tutor turn contained code, a question back, or a refusal — frustration often follows unhelpful responses.
+
+Label a stratified sample (say 60 transcripts, segmented into turns) with all three of you, compute agreement on ~20% overlap, and train a simple logistic regression or gradient-boosted model. A per-feature ablation is a better class deliverable than squeezing F1.
+[src] Feature engineering for affect detection with small datasets | https://www.edmreviewjournal.org/small-data-affect | Recommends interpretable features and simple models when labeled data is limited.
+[src] Productive Struggle or Silent Stalling? (Ostrowski et al., L@S '25) | https://dl.acm.org/doi/10.1145/3698205.3729841 | Prompt repetition measured as edit distance between consecutive prompts.
+@user +1d
+whats a reasonable kappa to aim for on frustration labels
+@assistant
+For affect labels from text, published agreement is often in the **0.4–0.7 Cohen's kappa** range, and frustration tends to be at the lower end compared with categories like "engaged" [1][2]. Many papers treat ≥0.6 as acceptable for affect, while ≥0.7 is considered good. If you land around 0.5, report it honestly, show the confusion matrix between raters, and refine the codebook definitions where disagreements cluster (frustration vs confusion is the usual one) [2].
+[src] Inter-rater reliability in affect annotation: a meta-analysis | https://www.affectivesignals.org/irr-meta-analysis | Pooled agreement estimates by affect category and modality.
+[src] Reporting agreement for subjective annotations | https://www.methodsforhci.org/reporting-agreement | Guidance on thresholds, confusion matrices and codebook iteration.
+
+### CONV zone2-cycling-running-transfer
+title: Does Zone 2 cycling transfer to running
+start: 2026-02-12 07:30
+projects: project_endurance_training
+space: Training
+---
+@user
+how much does zone 2 cycling transfer to running fitness. im doing ~9h/wk total, maybe 4h is bike/elliptical
+@assistant
+Short version: **central aerobic adaptations transfer well; running-specific adaptations don't** [1][2].
+
+What transfers from cycling/elliptical:
+- Cardiac adaptations (stroke volume, plasma volume) — largely shared across modes [1].
+- Some mitochondrial and capillary adaptations, but mostly in the muscles that do the work; cycling loads quads and glutes more, running loads calves, hamstrings and hips differently [2].
+
+What doesn't transfer well:
+- **Musculoskeletal tolerance** to impact (tendons, bones) — this only comes from running.
+- **Running economy** and neuromuscular coordination at running speeds [2].
+
+A rough rule coaches use is that an hour of cycling is worth somewhere around 0.5–0.7 hours of running for *aerobic* purposes, with elliptical somewhat higher because it's weight-bearing and closer in movement pattern [3]. With ~5 h running + 4 h cross-training, you're getting most of the aerobic benefit of a higher-mileage week with less impact — a sensible base-building structure. Keep at least one longer run per week so the running-specific durability keeps up [3].
+[src] Cross-training and aerobic transfer: a review | https://www.trainingsciencejournal.com/cross-training-transfer | Central adaptations transfer across modes; peripheral adaptations are more specific.
+[src] Specificity of training adaptations in runners | https://www.runnersphysiology.net/specificity | Running economy and tissue tolerance require running-specific load.
+[src] How coaches convert bike time to run time | https://www.coachingendurance.com/bike-to-run-equivalents | Common equivalence ratios and their limits.
+@user +3m
+does it matter if the bike is right after the run vs separate
+@assistant
+Doing the bike **right after** an easy run is a common way to extend aerobic time while the legs are already fatigued, which can add some stimulus without more impact [1]. Separating them (AM/PM) gives better quality on each and is easier to recover from. For pure Zone 2 base, either works; the bigger factor is keeping total weekly time consistent and the intensity genuinely easy on both [1][2].
+[src] Back-to-back aerobic sessions: when to stack | https://www.coachingendurance.com/stacking-sessions | Pros and cons of stacking cross-training after runs.
+[src] Weekly volume consistency in base training | https://www.trainingsciencejournal.com/volume-consistency | Consistency of weekly aerobic time predicts base improvements more than session arrangement.
+
+### CONV london-system-idea
+title: London System main ideas
+start: 2026-02-18 22:00
+projects: project_none
+---
+@user
+london system for white, whats the main plan and what do i do vs kings indian setups
+@assistant
+**The London System** is a 1.d4 setup built around a quick **Bf4**, then e3, Nf3, c3, Bd3, Nbd2 and castling short [1]. The plans:
+
+- **Solid pyramid** (c3–d4–e3) and the f4 bishop outside the pawn chain.
+- **Kingside pressure**: Ne5 supported by f4 in some lines, Qf3/Qh5 ideas, and the Bd3 aiming at h7.
+- **Flexibility**: you play roughly the same moves against most Black setups, which is why it's popular at club level [2].
+
+**Against King's Indian setups (…Nf6, …g6, …Bg7, …d6, …O-O):**
+- The f4 bishop can be hit by …Nh5, so many players prefer **h3** early to keep a retreat on h2 [2].
+- Black usually aims for **…e5**; you can meet that with dxe5 and play against the d6 pawn, or keep the tension with Bh2.
+- A popular plan is **e4** instead of e3 (a "London–Pirc hybrid"), grabbing more center since Black isn't contesting d5 [3].
+[src] London System — opening overview | https://www.chessopeningsguide.net/london-system | Typical move order and plans for White.
+[src] Handling ...g6 setups in the London | https://www.chessclubblog.com/london-vs-kid | Ideas against King's Indian and Pirc structures, including h3 and Bh2.
+[src] Club player's repertoire: London system | https://www.chesstrainer.org/repertoire-london | Plans and model games.
+@user +4m
+ok what about vs the jobava thing people play with nc3
+@assistant
+The Jobava London (1.d4 + Nc3 + Bf4) is a sharper cousin: White keeps c-pawn options open and often plays **Nb5** hitting c7, or castles queenside and pushes kingside pawns [1]. It's more aggressive and less theory-heavy than mainline openings, but the c-pawn stays behind the knight, so the solid pyramid structure is gone [1]. If you like the standard London's calm structure, it's a different style of game.
+[src] Jobava London explained | https://www.chessopeningsguide.net/jobava-london | Move order, Nb5 ideas and opposite-side castling plans.
+
+### CONV engelbart-hlamt
+title: Engelbart's H-LAM/T framework explained
+start: 2026-02-24 23:20
+projects: project_augmenting_cognition_reading_group
+---
+@user
+explain engelbart's H-LAM/T thing from augmenting human intellect (1962) like im prepping to lead a reading group on it
+@assistant
+In *Augmenting Human Intellect: A Conceptual Framework* (1962), Engelbart describes the human as part of a system he calls **H-LAM/T: Human using Language, Artifacts, Methodology, in which he is Trained** [1][2]:
+
+- **Human** — the person's innate capabilities (perception, memory, reasoning).
+- **Language** — the concepts and symbols a person uses to represent and manipulate ideas.
+- **Artifacts** — physical tools, from pencils to computers.
+- **Methodology** — the procedures and strategies for using these to solve problems.
+- **Training** — the skill-building that makes the other parts usable.
+
+The central argument: **you augment intellect by co-evolving all of these**, not just by building better artifacts [2]. A new tool without new methods and training produces little; conversely, new tools make new methods possible. Engelbart calls this the "bootstrapping" process — using improved tools to improve the process of improving tools [3].
+
+Discussion questions for a reading group:
+1. Which of the five elements have modern AI tools changed most, and which have they neglected (e.g., methodology and training)?
+2. Engelbart's example of "symbol structuring" — rearranging and linking statements — vs today's note-taking apps: what's missing?
+3. Is "bootstrapping" visible anywhere in your own research workflow?
+[src] Augmenting Human Intellect: A Conceptual Framework — overview | https://www.dougengelbart.org/content/view/138 | Summary of the 1962 report and its H-LAM/T framing.
+[src] Engelbart's framework and its legacy in HCI | https://www.historyofcomputing.org/engelbart-framework | How the H-LAM/T system shaped later work on augmentation and collaboration.
+[src] Bootstrapping, then and now | https://www.mediatheoryquarterly.org/bootstrapping | Engelbart's improvement-of-improvement idea and its uptake.
+@user +6m
+whats the "capability hierarchy" part
+@assistant
+Engelbart describes human capabilities as a **hierarchy of processes**: complex abilities ("write a report", "design a bridge") are built out of sub-processes ("find relevant facts", "outline an argument"), which in turn rest on basic ones (reading, writing symbols, recalling) [1]. Augmentation can enter at any level; improving a low-level process (e.g., faster symbol manipulation) can ripple up through everything built on it [1][2]. That's why he spent so much effort on what look like small mechanics — editing, linking, viewing text in different ways — in the later NLS system.
+[src] Augmenting Human Intellect — section on capability hierarchies | https://www.dougengelbart.org/content/view/138 | Description of the repertoire hierarchy and where augmentation applies.
+[src] Engelbart's framework and its legacy in HCI | https://www.historyofcomputing.org/engelbart-framework | Connects the hierarchy to NLS design choices.
+@user +2m
+good. 3 more discussion qs but more provocative
+@assistant
+1. **If an AI drafts your outline, which level of the capability hierarchy did you just give up — and does that matter for training (the "T")?**
+2. **Engelbart assumed users would invest heavily in learning their tools. Consumer software optimizes for zero learning. Who's right for research work?**
+3. **Bootstrapping assumed a community improving its own tools. Is a single-user AI tool even capable of bootstrapping, or does it need a group?** [1][2]
+[src] Bootstrapping, then and now | https://www.mediatheoryquarterly.org/bootstrapping | Community-level improvement as the core of bootstrapping.
+[src] Tools for thought and the learning curve debate | https://www.pkmreview.com/learning-curve-debate | Tension between power tools and ease of use.
+
+### CONV vt-parking-ticket-appeal
+title: VT parking ticket appeal deadline
+start: 2026-02-25 11:05
+projects: project_none
+mode: CONCISE
+---
+@user
+virginia tech parking citation appeal how many days do i have
+@assistant
+Virginia Tech Parking Services generally requires citation appeals to be submitted **online within 10 business days** of the citation date through the parking portal; after that the citation stands and must be paid [1][2]. Include photos and your permit number if you're appealing on signage or a valid-permit basis. Check the date printed on your citation and the current policy page, since deadlines can change by academic year [1].
+[src] Virginia Tech Parking Services — citations and appeals | https://parking.vt.edu/citations.html | How to pay or appeal a parking citation and appeal deadlines.
+[src] VT parking regulations (current academic year) | https://parking.vt.edu/regulations.html | Full regulations including the appeals process.

@@ -1,0 +1,54 @@
+{
+  "labels": [
+    {
+      "id": "fd921624-df6c-4454-8327-acae930c29ff",
+      "name": "Bug",
+      "color": "#EB5757",
+      "description": "Something is broken.",
+      "archivedAt": null
+    },
+    {
+      "id": "c676172e-5011-455a-9923-1a0cad620138",
+      "name": "Feature",
+      "color": "#BB87FC",
+      "description": "New capability.",
+      "archivedAt": null
+    },
+    {
+      "id": "568dd0e2-3fcd-4c92-a1a6-97304cc827b7",
+      "name": "Improvement",
+      "color": "#4EA7FC",
+      "description": "Make something that works work better.",
+      "archivedAt": null
+    },
+    {
+      "id": "b8b0bc4a-1639-4df0-aace-45fc1d847a43",
+      "name": "Pilot feedback",
+      "color": "#F2994A",
+      "description": "Came out of a pilot session. Link the session in the description.",
+      "archivedAt": null
+    },
+    {
+      "id": "2cb28459-0009-4db6-8d6b-68795d6ffc97",
+      "name": "Import",
+      "color": "#26B5CE",
+      "description": "Connect / import / dedupe pipeline.",
+      "archivedAt": null
+    },
+    {
+      "id": "41cd3d0b-9dcb-451f-9978-b7a5ede9bfa8",
+      "name": "Onboarding",
+      "color": "#4CB782",
+      "description": "First-run, connect screen, tour.",
+      "archivedAt": null
+    },
+    {
+      "id": "fa253c92-967a-4713-b510-5f92c6744a9d",
+      "name": "Ops",
+      "color": "#95A2B3",
+      "description": "Logistics: builds, scheduling, paperwork, gift cards.",
+      "archivedAt": null
+    }
+  ],
+  "hasNextPage": false
+}

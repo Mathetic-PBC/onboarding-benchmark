@@ -1,0 +1,49 @@
+{
+ "conversation": {
+  "conversationId": "1c1a0672-74f3-4020-b0b1-18f3eb470351",
+  "title": "Can Grok Chats Be Exported",
+  "createTime": "2026-10-14T17:40:00.000Z",
+  "modifyTime": "2026-10-14T17:44:10.899Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "a755daa4-f623-49c5-96f8-047f24a731a4",
+   "message": "does grok have an export for my conversations? like json. building an importer for a research notebook (engelbart) and a pilot user asked for grok support",
+   "sender": "human",
+   "createTime": "2026-10-14T17:40:00.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "05353cf3-f7db-477e-bd4e-b947b5c0b145",
+   "message": "Yes — you can request a data export from your account settings; it arrives as a downloadable archive that includes your conversation history in JSON. Each conversation carries its id, title, timestamps and the list of messages with sender (human/assistant), message text, and timestamps; responses can also include web search results and referenced X posts.\n\nFor an importer, practical notes:\n- Treat the export as the source of truth; there isn't a stable public endpoint for reading a user's personal chat history.\n- Key on conversation id for dedupe across repeated exports — users will export more than once.\n- Keep the referenced-sources fields; they're useful provenance (\"this answer cited these pages\").",
+   "sender": "assistant",
+   "createTime": "2026-10-14T17:40:13.958Z",
+   "parentResponseId": "a755daa4-f623-49c5-96f8-047f24a731a4",
+   "model": "grok-4"
+  },
+  {
+   "responseId": "e9555d29-0d01-45c6-922a-b8a635f62d5b",
+   "message": "ok. so the user has to upload a zip, no oauth",
+   "sender": "human",
+   "createTime": "2026-10-14T17:42:08.958Z",
+   "parentResponseId": "05353cf3-f7db-477e-bd4e-b947b5c0b145"
+  },
+  {
+   "responseId": "2838cb7c-722a-485e-8f9f-de7c20611dbc",
+   "message": "For now, yes — a file-upload flow. Make it forgiving: accept the zip or an extracted folder, and show a count (\"found 212 conversations\") before importing so users can tell it worked.",
+   "sender": "assistant",
+   "createTime": "2026-10-14T17:42:28.899Z",
+   "parentResponseId": "e9555d29-0d01-45c6-922a-b8a635f62d5b",
+   "model": "grok-4"
+  },
+  {
+   "responseId": "818a8106-8892-48b4-a71e-4e1604c0c3fe",
+   "message": "yeah thats the same thing priya complained about with claude, she didnt know if it got everything. ok thx",
+   "sender": "human",
+   "createTime": "2026-10-14T17:44:10.899Z",
+   "parentResponseId": "2838cb7c-722a-485e-8f9f-de7c20611dbc"
+  }
+ ]
+}

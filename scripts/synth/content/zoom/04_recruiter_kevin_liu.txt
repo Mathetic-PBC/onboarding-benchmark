@@ -1,0 +1,45 @@
+topic: Intro call - Kevin Liu
+start: 2026-07-14 12:00:31
+host: no
+projects: project_none
+notes: Unsolicited recruiter intro call (Kevin Liu, dev-tools startup Ferrous Labs); David declines because he is going on leave to co-found a company. Unrelated to any project.
+speakers: K=Kevin Liu; D=David Barron
+rate: 2.9
+=== cues
+K: Hey David, Kevin here. Can you hear me okay?
+D: Yeah, I can hear you. Hey Kevin. Um, before we start, do you mind if I record this? I'm in the middle of a lot of things and I'd rather not take notes.
+K: Not at all, go for it. I'll give you permission to record. There, you should have it.
+D: Got it, thanks. Okay, it's recording.
+K: Great. So, thanks for taking the call. I know my message was a bit out of the blue.
+D: Yeah, no worries. I'll be honest, I'm mostly curious. I'm not really looking right now.
+K: Totally understood, most of the people I reach out to aren't. So let me give you thirty seconds on who we are, and then I'd love to hear what you're working on.
+D: Sure.
+K: So I'm on the talent team at Ferrous Labs. We build build-and-test observability for engineering teams. Basically, when your CI is slow or flaky, we show you which tests, which steps, which commits, and we've been adding an agent that proposes fixes. We're about sixty people, Series B, remote-first with a hub in Seattle.
+D: Okay. And the role is what, exactly?
+K: It's a founding engineer on what we're calling the AI developer experience team. Small team, four people right now. The work is on how developers interact with the agent: when it suggests something, how it explains itself, how you trust it. We saw your work on telemetry and help-seeking and thought, well, that's basically the same problem with students instead of engineers.
+D: Huh. Yeah, that's a pretty fair read, actually. A lot of what we look at is when a person is stuck versus making progress, from their editor and their AI chats.
+K: Right, exactly. So the hiring manager was really interested in that. And the research side, like, you know how to instrument things and then actually look at the data.
+D: Yeah. So, um, the thing is, I'm about to go on leave from my PhD. Starting this fall. I'm co-founding a company with a friend.
+K: Oh, nice! Congratulations. What's the company?
+D: Thanks. It's early. We're building a research notebook, a tool for researchers that remembers where their ideas came from. Like, which paper, which conversation, which chat. I'm moving out to San Francisco in August for it.
+K: That's super cool. Honestly that's very adjacent to what we do, provenance for code changes. Is it, like, an AI product?
+D: AI is a big part of it, yeah. But it's early, I don't want to oversell it.
+K: Fair enough. So I'm guessing a full-time role is a no for now.
+D: Yeah, for now it's a no. I really appreciate you reaching out though, and the role does sound interesting.
+K: No, totally, and I'd rather know now. Can I ask, would you be open to me checking in, say, in six months? Things change, and if the company thing evolves, our door's open.
+D: Sure, that's fine. Six months is fine.
+K: Great. And one more thing, and feel free to say no. Do you know anyone from your lab, or from VT, who might fit? Someone with a research background who likes building tools?
+D: Um, maybe. Let me think about it. Most people in my lab are mid-PhD so they're not looking yet. I'll keep it in mind.
+K: That'd be great. I'll send you the job description so you have something to forward if anyone comes to mind.
+D: Sounds good. Is it okay if I ask one thing? Out of curiosity.
+K: Of course.
+D: How do you measure whether people trust the agent's suggestions? Like, acceptance rate?
+K: Ha, you'd have to ask the team, I'm the recruiter. But I know they look at acceptance, and at how often a suggestion gets reverted within a day. That's the one I hear them talk about the most.
+D: Revert within a day. Okay, that's a good one. Cool.
+K: I'll pass along that you asked, they'll love that. Alright David, I'll let you go. Good luck with the move and with the company.
+D: Thanks Kevin, appreciate it. Take care.
+K: You too. Bye.
+=== chat
+@0+12 K>Everyone: Hi David! Thanks for making time
+@12+8 K>Everyone: Ferrous Labs - Founding Engineer, AI Developer Experience (remote US / Seattle)
+@30+5 K>Everyone: I'll email the JD after this. Happy to reconnect in Jan

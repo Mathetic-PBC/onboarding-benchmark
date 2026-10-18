@@ -1,0 +1,25 @@
+=== THREAD PARENT MESSAGE ===
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2025-11-12 15:05:49 PST
+Message TS: 1762988749.372295
+dep #2 done. 87 students across both sections, 3 TAs, no crashes. one real problem: websocket reconnects in section B were dropping buffered events until the hotfix at 4:10. details in #vizpi, postmortem tomorrow
+
+=== THREAD REPLIES (3 total) ===
+
+--- Reply 1 of 3 ---
+From: Yan Chen (U0SYNWFLRZV)
+Time: 2025-11-12 15:11:31 PST
+Message TS: 1762989091.595902
+Thanks David, and thanks to everyone who was in the room. Please quantify the loss before we decide anything about section B.
+
+--- Reply 2 of 3 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2025-11-12 15:14:49 PST
+Message TS: 1762989289.520677
+yep. rough guess ~12% of section B events for the whole session, all of it between 3:30 and 4:10. exact number tomorrow once i diff server rows against client sequence numbers
+
+--- Reply 3 of 3 ---
+From: Minsun (U0SYN15CS2P)
+Time: 2025-11-12 15:30:41 PST
+Message TS: 1762990241.681254
+the students didn't notice anything at least, the UI kept working

@@ -1,1 +1,1251 @@
-[]
+[
+ {
+  "id": "item_035213",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dc41dbfc33f76b7683dd39504dfafe2e7e42af91",
+  "title": "CS Seminar Thu Oct 23: \"Augmenting the Intellect, Sixty Years Later\"",
+  "content_type": "email_thread",
+  "created_at": "2025-10-20T16:10:00Z",
+  "modified_at": "2025-10-20T16:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dc41dbfc33f76b7683dd39504dfafe2e7e42af91/20251020-161000_da97d27ed1cd7e43.eml",
+  "source_url": null,
+  "content_hash": "sha256:3d03d07a41897baee211804c6193158f5f7bd0a5be9840b6d177b534046270d5",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dc41dbfc33f76b7683dd39504dfafe2e7e42af91/20251020-161000_da97d27ed1cd7e43.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035214",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dc43ced9c7493cb2482a36c75b33bd553afa5744",
+  "title": "Submission comment: Project 3 - Case Study Analysis",
+  "content_type": "email_thread",
+  "created_at": "2025-10-23T03:41:00Z",
+  "modified_at": "2025-10-23T03:41:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dc43ced9c7493cb2482a36c75b33bd553afa5744/20251023-034100_be93618394400912.eml",
+  "source_url": null,
+  "content_hash": "sha256:7cb3127d39de28a3d9a4f63c918099c2bd49390da1d77e5812a953fa12d0aea6",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dc43ced9c7493cb2482a36c75b33bd553afa5744/20251023-034100_be93618394400912.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035215",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dc4743b206501609ab23817c7b97cddb6112ca6d",
+  "title": "P3 rubric v2 + grading split",
+  "content_type": "email_thread",
+  "created_at": "2025-10-27T13:15:00Z",
+  "modified_at": "2025-10-29T12:52:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dc4743b206501609ab23817c7b97cddb6112ca6d/20251027-131500_db1dc74f87c49f3c.eml",
+  "source_url": null,
+  "content_hash": "sha256:e5b17fe536cc7960a0177d8c24c9e50edf97e3c5061e494e0d40856150908d95",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dc4743b206501609ab23817c7b97cddb6112ca6d/20251027-131500_db1dc74f87c49f3c.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dc4743b206501609ab23817c7b97cddb6112ca6d/20251029-024700_3ad91a2532090a07.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dc4743b206501609ab23817c7b97cddb6112ca6d/20251029-125200_e5b83a322ca9f8ed.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": "HARD CASE: email with attachments — CS3604_P3_rubric_v2.xlsx"
+  }
+ },
+ {
+  "id": "item_035216",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dc4dbdea7fba1c705305ea8df2d5b8474ac1c326",
+  "title": "Announcement: P4 due date and late-day policy reminder",
+  "content_type": "email_thread",
+  "created_at": "2025-11-04T19:05:00Z",
+  "modified_at": "2025-11-04T19:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dc4dbdea7fba1c705305ea8df2d5b8474ac1c326/20251104-190500_1e15e9398cb925ac.eml",
+  "source_url": null,
+  "content_hash": "sha256:d3de597caf08246ab8642219b76463c5c040ed7f715d1e54023eb405b20f77d4",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dc4dbdea7fba1c705305ea8df2d5b8474ac1c326/20251104-190500_1e15e9398cb925ac.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035217",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dc58a895b673b9d017397d88cac396da85ab95af",
+  "title": "Phishing alert: fake \"Payroll Adjustment\" messages",
+  "content_type": "email_thread",
+  "created_at": "2025-11-18T16:30:00Z",
+  "modified_at": "2025-11-18T16:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dc58a895b673b9d017397d88cac396da85ab95af/20251118-163000_f36b39b3346a37f8.eml",
+  "source_url": null,
+  "content_hash": "sha256:332588570269832d4bbf1628846045a5965e543786bea81f09d0cd6afd40b6b1",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dc58a895b673b9d017397d88cac396da85ab95af/20251118-163000_f36b39b3346a37f8.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035218",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dc68428fd4a17e5728ad6961c10e0f6e6bd167e5",
+  "title": "Reminder: Final grades due Monday, December 15 at 5:00 PM",
+  "content_type": "email_thread",
+  "created_at": "2025-12-08T13:00:00Z",
+  "modified_at": "2025-12-08T13:00:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dc68428fd4a17e5728ad6961c10e0f6e6bd167e5/20251208-130000_d2a33eb6f528bb64.eml",
+  "source_url": null,
+  "content_hash": "sha256:572288790481b2dab3b13fc3c9d4620e8716d8ce793d00f3203050815e37a9fd",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dc68428fd4a17e5728ad6961c10e0f6e6bd167e5/20251208-130000_d2a33eb6f528bb64.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035219",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dc6857cb2c77a87c585cfbd9e5297ce52e4d1aef",
+  "title": "Final project grading split + calibration",
+  "content_type": "email_thread",
+  "created_at": "2025-12-08T15:32:00Z",
+  "modified_at": "2025-12-10T14:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dc6857cb2c77a87c585cfbd9e5297ce52e4d1aef/20251208-153200_0bcaaeaf4b0626dd.eml",
+  "source_url": null,
+  "content_hash": "sha256:c40c6b0f04f077c8a1a62b0166daff3e236dbf6ef6463e16979e966cd58f37ff",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dc6857cb2c77a87c585cfbd9e5297ce52e4d1aef/20251208-153200_0bcaaeaf4b0626dd.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dc6857cb2c77a87c585cfbd9e5297ce52e4d1aef/20251210-045800_0ee7a1b67d0a298f.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dc6857cb2c77a87c585cfbd9e5297ce52e4d1aef/20251210-142000_4a3462633e1b9b14.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035220",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dc695075073ed29b607deb784c97f3a0a1f02a70",
+  "title": "Submission comment: Project 4 - Policy Memo",
+  "content_type": "email_thread",
+  "created_at": "2025-12-09T21:12:00Z",
+  "modified_at": "2025-12-09T21:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dc695075073ed29b607deb784c97f3a0a1f02a70/20251209-211200_7ed44364c9a57588.eml",
+  "source_url": null,
+  "content_hash": "sha256:033acc7bd553adfa703ad783ffc3783a05178163bf4fd68b0d521fff552984c4",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dc695075073ed29b607deb784c97f3a0a1f02a70/20251209-211200_7ed44364c9a57588.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035221",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dc6b5ed7330d1c7f81dbd34d53ffc096508b81cf",
+  "title": "Recent Canvas Notifications",
+  "content_type": "email_thread",
+  "created_at": "2025-12-12T12:00:00Z",
+  "modified_at": "2025-12-12T12:00:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dc6b5ed7330d1c7f81dbd34d53ffc096508b81cf/20251212-120000_6fd0d7eb33040655.eml",
+  "source_url": null,
+  "content_hash": "sha256:34801e5c621d892bfc412378bd7ca3d8431184bae893e0bb74f9b8f00cf5d426",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dc6b5ed7330d1c7f81dbd34d53ffc096508b81cf/20251212-120000_6fd0d7eb33040655.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035222",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dc84d25f8255c2cf0cf389aa7ff1189e54241bb4",
+  "title": "ISE 6664 - Week 1 readings and Teams channel",
+  "content_type": "email_thread",
+  "created_at": "2026-01-13T21:20:00Z",
+  "modified_at": "2026-01-13T21:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dc84d25f8255c2cf0cf389aa7ff1189e54241bb4/20260113-212000_316664af23122fb0.eml",
+  "source_url": null,
+  "content_hash": "sha256:007b18f354e45b0a43934dc0602fb91be7d835a1a58388995d487f9cef5e03c6",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dc84d25f8255c2cf0cf389aa7ff1189e54241bb4/20260113-212000_316664af23122fb0.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035223",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dc894be62accc27decda44b701cb0a5d47a8b20d",
+  "title": "HCI Seminar Wed Jan 21: \"Do students ask for help at the right time?\"",
+  "content_type": "email_thread",
+  "created_at": "2026-01-19T14:00:00Z",
+  "modified_at": "2026-01-20T13:14:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dc894be62accc27decda44b701cb0a5d47a8b20d/20260119-140000_29384b4bff06f43a.eml",
+  "source_url": null,
+  "content_hash": "sha256:134597c5225d369f633ab667528598f6365e963835f3db57f3d270b59d6adc36",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dc894be62accc27decda44b701cb0a5d47a8b20d/20260119-140000_29384b4bff06f43a.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dc894be62accc27decda44b701cb0a5d47a8b20d/20260120-033700_b25225b631e81cb6.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dc894be62accc27decda44b701cb0a5d47a8b20d/20260120-131400_32dae638ced75fd9.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035224",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dc9433133383ee18c7ee9db04c45c44bce3d1fc7",
+  "title": "Your VT password expires in 14 days",
+  "content_type": "email_thread",
+  "created_at": "2026-02-02T11:00:00Z",
+  "modified_at": "2026-02-02T11:00:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dc9433133383ee18c7ee9db04c45c44bce3d1fc7/20260202-110000_db691503101e000a.eml",
+  "source_url": null,
+  "content_hash": "sha256:83b4fe42b6861cad181701439a0dff23d096e1be14f45defb6c175cbee40f44f",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dc9433133383ee18c7ee9db04c45c44bce3d1fc7/20260202-110000_db691503101e000a.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035225",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dca59e3f5630f20f5641581b55558c9c68a05344",
+  "title": "CS Distinguished Lecture Mon Mar 2: Robust learning under distribution shift",
+  "content_type": "email_thread",
+  "created_at": "2026-02-24T15:00:00Z",
+  "modified_at": "2026-02-24T15:00:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dca59e3f5630f20f5641581b55558c9c68a05344/20260224-150000_5629e4c4de2d3ee5.eml",
+  "source_url": null,
+  "content_hash": "sha256:dbb5653cb3fe610cac5fdd931fcb7fee2fb0a26a4a587d97e38bd86aa622f6e7",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dca59e3f5630f20f5641581b55558c9c68a05344/20260224-150000_5629e4c4de2d3ee5.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035226",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dcab0b8c7100af466b311160adf9edac666b1b98",
+  "title": "Parking Citation Notice - Citation VT0418827",
+  "content_type": "email_thread",
+  "created_at": "2026-03-03T12:45:00Z",
+  "modified_at": "2026-03-03T12:45:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dcab0b8c7100af466b311160adf9edac666b1b98/20260303-124500_8a4285c928549587.eml",
+  "source_url": null,
+  "content_hash": "sha256:96ff631c473dab9d64e7809fc949e17e85a88fc01c2d5f52c44f730475e95abb",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dcab0b8c7100af466b311160adf9edac666b1b98/20260303-124500_8a4285c928549587.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035227",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dcacca29544bbb4c13276da5313ece978aca3d73",
+  "title": "ISE 6664 project check-in: Frustration signals team",
+  "content_type": "email_thread",
+  "created_at": "2026-03-05T18:02:00Z",
+  "modified_at": "2026-03-06T02:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dcacca29544bbb4c13276da5313ece978aca3d73/20260305-180200_ffdec1fe13acbc7a.eml",
+  "source_url": null,
+  "content_hash": "sha256:e0954d3f6939ca1d9c69f71aec0476d0903099f12f298f3f9f562b2eedee3c1d",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 2,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dcacca29544bbb4c13276da5313ece978aca3d73/20260305-180200_ffdec1fe13acbc7a.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dcacca29544bbb4c13276da5313ece978aca3d73/20260306-021500_abaa73dd007a3b21.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "HARD CASE: email with attachments — invite.ics"
+  }
+ },
+ {
+  "id": "item_035228",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dcad207f0c26243cd60430046e489f3d89205f55",
+  "title": "Citation appeal received - VT0418827",
+  "content_type": "email_thread",
+  "created_at": "2026-03-06T04:20:00Z",
+  "modified_at": "2026-03-19T18:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dcad207f0c26243cd60430046e489f3d89205f55/20260306-042000_559686ee436fa76f.eml",
+  "source_url": null,
+  "content_hash": "sha256:188d1f0964d8c2eb7b496e97cace51b6d451c4e7a3d78bb0c07d61d306f70572",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 2,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dcad207f0c26243cd60430046e489f3d89205f55/20260306-042000_559686ee436fa76f.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dcad207f0c26243cd60430046e489f3d89205f55/20260319-181000_d5b00c1a11863ab8.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035229",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dcbd2a8329ea0183592939214d739f9ebb9b180d",
+  "title": "Interlibrary Loan article available: TN 1184520",
+  "content_type": "email_thread",
+  "created_at": "2026-03-26T14:12:00Z",
+  "modified_at": "2026-03-26T14:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dcbd2a8329ea0183592939214d739f9ebb9b180d/20260326-141200_d439c79a96ce8339.eml",
+  "source_url": null,
+  "content_hash": "sha256:0960a68495255d60ee00bdfd06e06f9f1bc65adf1f1458c41a433200d085128e",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dcbd2a8329ea0183592939214d739f9ebb9b180d/20260326-141200_d439c79a96ce8339.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035230",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dccc82b0bc284a9193298c7aae1cccf19b5945c0",
+  "title": "Coding scheme for frustration markers - draft v1",
+  "content_type": "email_thread",
+  "created_at": "2026-04-15T02:51:00Z",
+  "modified_at": "2026-04-15T15:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dccc82b0bc284a9193298c7aae1cccf19b5945c0/20260415-025100_8e20bfd071ff2779.eml",
+  "source_url": null,
+  "content_hash": "sha256:30c35a90c3411b61dfd48fc7fa75990f27a6919f865cb26478325b6077ca537f",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dccc82b0bc284a9193298c7aae1cccf19b5945c0/20260415-025100_8e20bfd071ff2779.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dccc82b0bc284a9193298c7aae1cccf19b5945c0/20260415-134000_8eb8bd022bfc4de6.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dccc82b0bc284a9193298c7aae1cccf19b5945c0/20260415-150500_f0bf0feeefdaf508.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "HARD CASE: email with attachments — FrustrationCodingScheme_v1.docx"
+  }
+ },
+ {
+  "id": "item_035231",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dcd643a8a21a2833cc4a1515834f97a995fd17de",
+  "title": "ISE 6664 final presentations - Thursday April 30 schedule",
+  "content_type": "email_thread",
+  "created_at": "2026-04-27T12:45:00Z",
+  "modified_at": "2026-04-27T18:02:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dcd643a8a21a2833cc4a1515834f97a995fd17de/20260427-124500_cf0e475c83a529d7.eml",
+  "source_url": null,
+  "content_hash": "sha256:19d4c232d3893f0b1472650ee443c63d42983646ad887472cd795363d73bf905",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dcd643a8a21a2833cc4a1515834f97a995fd17de/20260427-124500_cf0e475c83a529d7.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dcd643a8a21a2833cc4a1515834f97a995fd17de/20260427-162000_a397babdead0a988.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dcd643a8a21a2833cc4a1515834f97a995fd17de/20260427-180200_a045dec96bda1d0c.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035232",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dcd71b7e3f943f8eb62b1ba7f1f9ae536a152f50",
+  "title": "Team sync - final presentation dry run",
+  "content_type": "email_thread",
+  "created_at": "2026-04-28T14:30:00Z",
+  "modified_at": "2026-04-28T14:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dcd71b7e3f943f8eb62b1ba7f1f9ae536a152f50/20260428-143000_313463f7384d9b4b.eml",
+  "source_url": null,
+  "content_hash": "sha256:77605bdddbe16d0776d35d96012ea0ad3b092a55cbc9e2f3dc88d783975d3b7f",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dcd71b7e3f943f8eb62b1ba7f1f9ae536a152f50/20260428-143000_313463f7384d9b4b.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "HARD CASE: email with attachments — invite.ics"
+  }
+ },
+ {
+  "id": "item_035233",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dce245b9c48fc8b33da9582ae83a211e11766857",
+  "title": "Project report feedback - Frustration signals in AI-tutoring transcripts",
+  "content_type": "email_thread",
+  "created_at": "2026-05-12T19:30:00Z",
+  "modified_at": "2026-05-13T01:08:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dce245b9c48fc8b33da9582ae83a211e11766857/20260512-193000_3e9d8f4c55c59865.eml",
+  "source_url": null,
+  "content_hash": "sha256:1faa577d7229e54409a7ee72c62930557febe4cb86dbf0e8be92a137e2c3d40a",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 2,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dce245b9c48fc8b33da9582ae83a211e11766857/20260512-193000_3e9d8f4c55c59865.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dce245b9c48fc8b33da9582ae83a211e11766857/20260513-010800_d244924428cd429a.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": "HARD CASE: email with attachments — ISE6664_FinalReport_Feedback_FrustrationSignals.pdf"
+  }
+ },
+ {
+  "id": "item_035234",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dd2349abcf9e3b1a18b820545a36d2b10e85042d",
+  "title": "Leave of Absence Request Received - David Barron (Computer Science)",
+  "content_type": "email_thread",
+  "created_at": "2026-08-03T13:12:00Z",
+  "modified_at": "2026-08-03T13:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dd2349abcf9e3b1a18b820545a36d2b10e85042d/20260803-131200_6393f51ff8531ec4.eml",
+  "source_url": null,
+  "content_hash": "sha256:bc7a03f65c0319b5ad7fa3852c4961d46aa018f6ce1b126bb433b8f8514af710",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd2349abcf9e3b1a18b820545a36d2b10e85042d/20260803-131200_6393f51ff8531ec4.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vt_phd_admin"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035235",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dd24680c432e229d166f58a1887a9639ace195bb",
+  "title": "New Duo device activated for dbarron410",
+  "content_type": "email_thread",
+  "created_at": "2026-08-04T23:22:00Z",
+  "modified_at": "2026-08-04T23:22:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dd24680c432e229d166f58a1887a9639ace195bb/20260804-232200_d413b27c7b0eb9e5.eml",
+  "source_url": null,
+  "content_hash": "sha256:517f49a3f0973af527a449912dd4ff2da7aeed6f7c52080905fa25c6609a1f71",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd24680c432e229d166f58a1887a9639ace195bb/20260804-232200_d413b27c7b0eb9e5.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035236",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dd24e9690179012fb976b229ee075929f780cdd4",
+  "title": "Outlook on new Mac keeps asking for password (Ticket INC0412877)",
+  "content_type": "email_thread",
+  "created_at": "2026-08-05T14:48:00Z",
+  "modified_at": "2026-08-06T01:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dd24e9690179012fb976b229ee075929f780cdd4/20260805-144800_bcdc8a94f24d81d0.eml",
+  "source_url": null,
+  "content_hash": "sha256:9aa8ed78dff1a77056e5cea380481ffa70d9a1e38e60a3f23eace0ea15fa2688",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd24e9690179012fb976b229ee075929f780cdd4/20260805-144800_bcdc8a94f24d81d0.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd24e9690179012fb976b229ee075929f780cdd4/20260805-191600_ccb3837683c0682b.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd24e9690179012fb976b229ee075929f780cdd4/20260806-014000_5fa6e7da13d9c746.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035237",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dd25d2fcaf855496f3630e671cba428ce22f534e",
+  "title": "Leave of Absence Approved - Fall 2026",
+  "content_type": "email_thread",
+  "created_at": "2026-08-06T18:40:00Z",
+  "modified_at": "2026-08-07T14:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dd25d2fcaf855496f3630e671cba428ce22f534e/20260806-184000_f6b84f7edab2fac7.eml",
+  "source_url": null,
+  "content_hash": "sha256:eb2c67f5a3ca9d031a91a899e01af1fe1aa074bcf97e42f6322a164b72b449d0",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd25d2fcaf855496f3630e671cba428ce22f534e/20260806-184000_f6b84f7edab2fac7.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd25d2fcaf855496f3630e671cba428ce22f534e/20260806-200500_397cb3b9d25dee70.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd25d2fcaf855496f3630e671cba428ce22f534e/20260807-142000_6947b0dc433dea90.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vt_phd_admin"
+   ],
+   "notes": "HARD CASE: email with attachments — LOA_Approval_Barron_Fall2026.pdf"
+  }
+ },
+ {
+  "id": "item_035238",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dd28cc572424284eeb84bfaf9ea6d9f44ae04709",
+  "title": "GRA appointment end date: August 15, 2026",
+  "content_type": "email_thread",
+  "created_at": "2026-08-10T13:30:00Z",
+  "modified_at": "2026-08-10T13:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dd28cc572424284eeb84bfaf9ea6d9f44ae04709/20260810-133000_e6dd02e7962fa0e5.eml",
+  "source_url": null,
+  "content_hash": "sha256:4b2dc80af3486fc00d2f9018d45d01333fed1f0db56b123846620b7d27424486",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd28cc572424284eeb84bfaf9ea6d9f44ae04709/20260810-133000_e6dd02e7962fa0e5.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vt_phd_admin"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035239",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dd2a745362216a4dff0a7b459b693b1959785094",
+  "title": "Enrollment status change: Fall 2026",
+  "content_type": "email_thread",
+  "created_at": "2026-08-12T16:05:00Z",
+  "modified_at": "2026-08-12T16:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dd2a745362216a4dff0a7b459b693b1959785094/20260812-160500_cb4492c26bcf0e00.eml",
+  "source_url": null,
+  "content_hash": "sha256:6a3dd1c05a75bf1faf5b49c363a9cb982380955b7ee5cb49b7a44e18e6896286",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd2a745362216a4dff0a7b459b693b1959785094/20260812-160500_cb4492c26bcf0e00.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vt_phd_admin"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035240",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dd3aebb985bb925793161a5d2c4776bb03931755",
+  "title": "GSA Travel Fund Program - Fall 2026 cycle now open",
+  "content_type": "email_thread",
+  "created_at": "2026-09-02T15:00:00Z",
+  "modified_at": "2026-09-02T15:00:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dd3aebb985bb925793161a5d2c4776bb03931755/20260902-150000_648de9e4541997d4.eml",
+  "source_url": null,
+  "content_hash": "sha256:c72f38efaa1c0c35384def9aaee8380d4bebc80c159de04b11f77ab5b6a40083",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd3aebb985bb925793161a5d2c4776bb03931755/20260902-150000_648de9e4541997d4.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vt_phd_admin"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035241",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dd3faf4a4e218391ebd80c8132f31774621a51e7",
+  "title": "CANCELED: Grad Seminar Thu Sept 10",
+  "content_type": "email_thread",
+  "created_at": "2026-09-08T16:30:00Z",
+  "modified_at": "2026-09-08T16:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dd3faf4a4e218391ebd80c8132f31774621a51e7/20260908-163000_10f8075a1653d711.eml",
+  "source_url": null,
+  "content_hash": "sha256:7d9466ab50ed0f590236f18ab483d6eeb71c570c910990a4c31cda66340bed41",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd3faf4a4e218391ebd80c8132f31774621a51e7/20260908-163000_10f8075a1653d711.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035242",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dd4c8547997f3ee65db93b8833a02154eb8bc57e",
+  "title": "Travel Request Submitted: UIST 2026 - TutorTrace talk (Request 4KQ7)",
+  "content_type": "email_thread",
+  "created_at": "2026-09-25T00:32:00Z",
+  "modified_at": "2026-09-25T00:32:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dd4c8547997f3ee65db93b8833a02154eb8bc57e/20260925-003200_89f2f5a555151cc5.eml",
+  "source_url": null,
+  "content_hash": "sha256:4210833715e3e3b1f1dd9ef27d8bdd0da401ff6909b23d90b86e6ece717bc422",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd4c8547997f3ee65db93b8833a02154eb8bc57e/20260925-003200_89f2f5a555151cc5.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vt_phd_admin"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035243",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dd4f55d78b1942b06cec16b52cff923b926714a4",
+  "title": "Planning your return from leave",
+  "content_type": "email_thread",
+  "created_at": "2026-09-28T14:30:00Z",
+  "modified_at": "2026-09-28T14:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dd4f55d78b1942b06cec16b52cff923b926714a4/20260928-143000_6b3dcfa6af3366a3.eml",
+  "source_url": null,
+  "content_hash": "sha256:816e51fa7cf71bfb78769e5e162756599346dd820d485c20745beaeca6e481c0",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd4f55d78b1942b06cec16b52cff923b926714a4/20260928-143000_6b3dcfa6af3366a3.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vt_phd_admin"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035244",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dd50430c0af574497b88d31f2285db870c08a2b4",
+  "title": "Travel Request Approved: UIST 2026 - TutorTrace talk (Request 4KQ7)",
+  "content_type": "email_thread",
+  "created_at": "2026-09-29T18:48:00Z",
+  "modified_at": "2026-09-29T18:48:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dd50430c0af574497b88d31f2285db870c08a2b4/20260929-184800_5bbd28a95af53b15.eml",
+  "source_url": null,
+  "content_hash": "sha256:98d25a126acd460c0c5b85f3f0f107c61a799ccafbb45a182007448458bb02eb",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd50430c0af574497b88d31f2285db870c08a2b4/20260929-184800_5bbd28a95af53b15.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vt_phd_admin"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035245",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dd5ac9450ae44ddd0cdf6548ec84b48273b0fa5c",
+  "title": "Expense Report Submitted: UIST 2026 - TutorTrace talk",
+  "content_type": "email_thread",
+  "created_at": "2026-10-13T04:14:00Z",
+  "modified_at": "2026-10-13T04:14:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dd5ac9450ae44ddd0cdf6548ec84b48273b0fa5c/20261013-041400_d1a8faf0f9a591a5.eml",
+  "source_url": null,
+  "content_hash": "sha256:11ad6eac330cffe4306d7751aa137c1191956d7d7c8d98628addcf8553ce6c47",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd5ac9450ae44ddd0cdf6548ec84b48273b0fa5c/20261013-041400_d1a8faf0f9a591a5.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vt_phd_admin"
+   ],
+   "notes": "HARD CASE: email with attachments — ExpenseReport_8F2C1D9A_receipts.pdf"
+  }
+ },
+ {
+  "id": "item_035246",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dd5b291b49e3e165527db371c7fc65b6085e4356",
+  "title": "UIST expense report - registration receipt needs the itemized version",
+  "content_type": "email_thread",
+  "created_at": "2026-10-13T15:40:00Z",
+  "modified_at": "2026-10-13T22:55:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dd5b291b49e3e165527db371c7fc65b6085e4356/20261013-154000_7cdadcb0826f7427.eml",
+  "source_url": null,
+  "content_hash": "sha256:aff27f9f2730f1410cce4679864b334af80740d6fea71715a349f5849a21457c",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 3,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd5b291b49e3e165527db371c7fc65b6085e4356/20261013-154000_7cdadcb0826f7427.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd5b291b49e3e165527db371c7fc65b6085e4356/20261013-172200_f62aee9882d887ad.eml",
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd5b291b49e3e165527db371c7fc65b6085e4356/20261013-225500_e1894bb3ed7ddc78.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vt_phd_admin"
+   ],
+   "notes": "HARD CASE: email with attachments — UIST2026_registration_receipt_itemized.pdf"
+  }
+ },
+ {
+  "id": "item_035247",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "outlook",
+  "source_id": "0101dd5d87ade5b9acc569c4e80acacb51b5bbd78c83",
+  "title": "Payment Notification: Expense Report 8F2C1D9A",
+  "content_type": "email_thread",
+  "created_at": "2026-10-16T16:02:00Z",
+  "modified_at": "2026-10-16T16:02:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/outlook/dbarron410@vt.edu/threads/0101dd5d87ade5b9acc569c4e80acacb51b5bbd78c83/20261016-160200_023259e5ab28e647.eml",
+  "source_url": null,
+  "content_hash": "sha256:9da38881437a6cb2da8eb69ff232e2f5bdf40e3ef3774a4d7bb03f9f2d03b955",
+  "library_item_id": null,
+  "modeled_on": "authentic/outlook dbarron410@vt.edu/threads/<conversation>/<yyyymmdd-hhmmss>_<id>.eml layout (Thread-Index, X-MS-Exchange headers)",
+  "metadata": {
+   "format": "eml",
+   "language": "en",
+   "message_count": 1,
+   "tags": [],
+   "account": "dbarron410@vt.edu",
+   "format_detail": "one raw .eml per message",
+   "parts": [
+    "synthetic/outlook/dbarron410@vt.edu/threads/0101dd5d87ade5b9acc569c4e80acacb51b5bbd78c83/20261016-160200_023259e5ab28e647.eml"
+   ]
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vt_phd_admin"
+   ],
+   "notes": null
+  }
+ }
+]

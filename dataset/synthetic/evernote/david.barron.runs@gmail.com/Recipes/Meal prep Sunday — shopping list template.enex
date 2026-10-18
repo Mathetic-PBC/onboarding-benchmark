@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20260308T160500Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Meal prep Sunday — shopping list template</title>
+    <created>20260125T163000Z</created>
+    <updated>20260308T160500Z</updated>
+    <tag>meal-prep</tag>
+    <tag>shopping</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>Copy this every Sunday. Kroger on Prices Fork, go before 10.</div><div><br/></div><h3>Protein</h3><div><en-todo checked="false"/>chicken thighs 2.5 lb</div><div><en-todo checked="false"/>93/7 ground turkey 2 lb (every other week)</div><div><en-todo checked="false"/>eggs 18</div><div><en-todo checked="false"/>egg whites carton</div><div><en-todo checked="false"/>nonfat greek yogurt 32 oz x2</div><div><en-todo checked="false"/>cottage cheese 24 oz</div><div><en-todo checked="false"/>whey (check tub, ~6 scoops left = buy)</div><h3>Carbs</h3><div><en-todo checked="false"/>jasmine rice (bulk)</div><div><en-todo checked="false"/>rolled oats</div><div><en-todo checked="false"/>potatoes 3 lb</div><div><en-todo checked="false"/>bananas x7</div><div><en-todo checked="false"/>frozen blueberries</div><div><en-todo checked="false"/>tortillas (high fiber)</div><h3>Veg</h3><div><en-todo checked="false"/>spinach, broccoli, bell peppers x3, onions, garlic</div><div><en-todo checked="false"/>frozen corn + green beans</div><h3>Other</h3><div><en-todo checked="false"/>salsa verde, soy sauce, chipotle in adobo</div><div><en-todo checked="false"/>coffee</div><div><br/></div><div>Budget target: under $95/week. Last 4 weeks: $88, $102 (whey), $79, $91.</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

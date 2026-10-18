@@ -1,0 +1,9 @@
+[project]
+name = "beat-tools"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+bpm = ["librosa>=0.10"]
+dev = ["pytest"]

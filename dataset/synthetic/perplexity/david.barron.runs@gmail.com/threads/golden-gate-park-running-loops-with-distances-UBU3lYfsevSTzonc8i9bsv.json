@@ -1,0 +1,52 @@
+{
+ "uuid": "df2b776d-fbe8-4c62-8710-55c964fff44b",
+ "slug": "golden-gate-park-running-loops-with-distances-UBU3lYfsevSTzonc8i9bsv",
+ "title": "Golden Gate Park running loops",
+ "thread_url": "https://www.perplexity.ai/search/golden-gate-park-running-loops-with-distances-UBU3lYfsevSTzonc8i9bsv",
+ "created_at": "2026-08-02T12:15:00Z",
+ "updated_at": "2026-08-02T12:19:03Z",
+ "collection": {
+  "uuid": "74f83dde-ba7f-4521-9b66-a8854a3e55b9",
+  "title": "Training"
+ },
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "3918ce2c-d4f8-4c6f-bfa4-ff5b07ceae37",
+   "query_str": "golden gate park running loops with distances, need something for 75-90 min zone 2 runs",
+   "answer": "Common routes for long easy runs in Golden Gate Park [1][2]:\n- **Full park out-and-back (Stanyan to Ocean Beach and back):** about **10 km / 6.2 mi** round trip along JFK Drive or the parallel paths. Add the beach path for more.\n- **JFK Drive + MLK Drive loop:** roughly **11–12 km / 7 mi** around the park's perimeter roads; mostly gentle grades.\n- **Soft-surface options:** the bridle paths and the track around the polo field (~1.1 km per lap of the outer path) are easier on legs [2].\n- **Extending to 90 min:** park loop plus Ocean Beach (Great Highway path) south toward Sloat and back adds 5–8 km [1].\n\nAt Zone 2 pace, a park loop plus a beach out-and-back typically fills 75–90 minutes.",
+   "sources": [
+    {
+     "name": "Golden Gate Park running guide",
+     "url": "https://www.sfrunningguide.com/golden-gate-park",
+     "snippet": "Main loops, distances and surfaces in the park."
+    },
+    {
+     "name": "Classic SF running routes",
+     "url": "https://www.sfrunningguide.com/routes",
+     "snippet": "Ocean Beach and Great Highway extensions."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-08-02T12:15:00Z",
+   "updated_at": "2026-08-02T12:15:17Z"
+  },
+  {
+   "uuid": "7c925344-7279-4eb2-a637-793baa94a72d",
+   "query_str": "any water fountains along those",
+   "answer": "Yes — there are drinking fountains near the main museum concourse, the polo field, the Beach Chalet area at the ocean end, and several playgrounds along JFK [1]. Some are seasonal or occasionally out of order, so on 90-minute runs carry a soft flask as backup [1].",
+   "sources": [
+    {
+     "name": "Golden Gate Park running guide",
+     "url": "https://www.sfrunningguide.com/golden-gate-park",
+     "snippet": "Water fountains and restrooms along routes."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-08-02T12:18:49Z",
+   "updated_at": "2026-08-02T12:18:58Z"
+  }
+ ]
+}

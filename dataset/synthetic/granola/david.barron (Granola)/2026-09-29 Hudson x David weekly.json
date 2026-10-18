@@ -1,0 +1,506 @@
+{
+ "id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Hudson x David weekly",
+ "created_at": "2026-09-29T22:59:20.000Z",
+ "updated_at": "2026-09-29T23:09:31.785Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "1dbea5e2e979570a5e03704031",
+  "summary": "Hudson x David weekly",
+  "start": {
+   "dateTime": "2026-09-29T16:00:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-09-29T16:15:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted",
+    "organizer": true
+   }
+  ],
+  "organizer": {
+   "email": "hudson@mathetic.com"
+  },
+  "creator": {
+   "email": "hudson@mathetic.com"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=df7f9d403856b8ba293c5cbcdb1e54576b8e2768",
+  "status": "confirmed",
+  "location": "Surplus house, SF"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### Pilot build status (target: Sun Oct 4)\n\n- Canvas flicker fixed (per-block trail store + memoized blocks); 1,200-block test canvas scrolls smoothly\n- Importers in build: Claude, ChatGPT, Zotero, Local PDFs, \"Other\" (zip/folder upload)\n- Import summary card done: counts per source, skipped-with-reason list, possible duplicates\n- Not done: suggestion ranking is still naive (BM25 over titles + first 2k chars); fine for pilots\n\n### Known gaps to tell pilots up front\n\n- Claude Projects come in as loose conversations (no project membership)\n- No Google Drive (use \"Other\" → upload)\n- Dedupe: exact hash + \"possible duplicate\" badge only\n\n### Pilot script (David's doc)\n\n- 10 min setup tour → 20 min live connect + import → 15 min writing task with trail\n- Observe: hesitation on connect screen, surprise at counts, first confirmed suggestion (time it)\n- Hudson runs Granola + takes timestamps; David drives the conversation\n\n### Demo night draft\n\n- Sent rough 4-minute bullets to Lena (on time-ish, Sep 30 late)\n\n### Action items\n\n- [ ] David — full import on own accounts Sat Oct 3, file bugs\n- [ ] Hudson — pilot build deployed to staging by Sun noon\n- [ ] Hudson — send Priya calendar invite + what to bring (one paragraph in progress)\n- [ ] David — finish UIST slides before dry run Sunday\n",
+ "notes_plain": "Pilot build status (target: Sun Oct 4)\n\nCanvas flicker fixed (per-block trail store + memoized blocks); 1,200-block test canvas scrolls smoothly\nImporters in build: Claude, ChatGPT, Zotero, Local PDFs, \"Other\" (zip/folder upload)\nImport summary card done: counts per source, skipped-with-reason list, possible duplicates\nNot done: suggestion ranking is still naive (BM25 over titles + first 2k chars); fine for pilots\n\nKnown gaps to tell pilots up front\n\nClaude Projects come in as loose conversations (no project membership)\nNo Google Drive (use \"Other\" → upload)\nDedupe: exact hash + \"possible duplicate\" badge only\n\nPilot script (David's doc)\n\n10 min setup tour → 20 min live connect + import → 15 min writing task with trail\nObserve: hesitation on connect screen, surprise at counts, first confirmed suggestion (time it)\nHudson runs Granola + takes timestamps; David drives the conversation\n\nDemo night draft\n\nSent rough 4-minute bullets to Lena (on time-ish, Sep 30 late)\n\nAction items\n\nDavid — full import on own accounts Sat Oct 3, file bugs\nHudson — pilot build deployed to staging by Sun noon\nHudson — send Priya calendar invite + what to bring (one paragraph in progress)\nDavid — finish UIST slides before dry run Sunday\n",
+ "transcript": [
+  {
+   "id": "34eec4d1-f53e-45a8-a988-088c3d49c8d8",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:00:32.285Z",
+   "end_timestamp": "2026-09-29T23:00:34.543Z",
+   "text": "Status day. You go first.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "215f856b-78b3-48c7-9a30-44c0278bd257",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:00:34.738Z",
+   "end_timestamp": "2026-09-29T23:00:35.720Z",
+   "text": "Flicker's fixed.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "8620360e-cb3e-4e92-bda7-7c53b60d258f",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:00:37.420Z",
+   "end_timestamp": "2026-09-29T23:00:38.269Z",
+   "text": "Yes!",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "62fcab3d-fa83-4843-bacb-70eb75ee2667",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:00:39.200Z",
+   "end_timestamp": "2026-09-29T23:00:48.521Z",
+   "text": "Per-block store, memoized blocks. I made a test canvas with twelve hundred blocks and it scrolls fine now. Like, actually smooth.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "998397ca-9018-45db-9929-c158622c0d2a",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:00:50.199Z",
+   "end_timestamp": "2026-09-29T23:00:53.221Z",
+   "text": "Twelve hundred. Nobody will have twelve hundred.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "fcef154e-6597-40d0-a852-8894252e38ae",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:00:54.529Z",
+   "end_timestamp": "2026-09-29T23:01:00.883Z",
+   "text": "Priya will have twelve hundred in a week if she imports all her chats.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "1609261c-4f3c-4bcf-a540-f7762fcb9d0a",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:01:02.764Z",
+   "end_timestamp": "2026-09-29T23:01:04.021Z",
+   "text": "Fair. Okay, importers?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "3898340d-403f-43a2-80f4-71c14ee95e45",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:01:05.245Z",
+   "end_timestamp": "2026-09-29T23:01:10.351Z",
+   "text": "Claude, ChatGPT, Zotero, local PDFs, and the upload. All in the build.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "08b20221-1607-49d1-be75-21c27eaa9b05",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:01:12.032Z",
+   "end_timestamp": "2026-09-29T23:01:14.279Z",
+   "text": "And the summary card works?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "778f26f0-ba7e-4999-bd66-6bbe688e5023",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:01:15.429Z",
+   "end_timestamp": "2026-09-29T23:01:30.048Z",
+   "text": "Summary card works. Counts per source, skipped with reasons, possible duplicates. The skipped list is kind of my favorite part of the app right now, which is a weird thing to say.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "936b52f0-f01c-4fcf-8f78-354f03dd5f34",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:01:30.366Z",
+   "end_timestamp": "2026-09-29T23:01:31.546Z",
+   "text": "It's very you.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "c6472f04-8185-4f4a-9b8d-be6254565988",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:01:32.752Z",
+   "end_timestamp": "2026-09-29T23:01:39.456Z",
+   "text": "Suggestions are still dumb though. It's BM25 over the title and the first two thousand characters.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0a02fd6d-18a0-4081-b99f-0cc9f3c2af1d",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:01:40.155Z",
+   "end_timestamp": "2026-09-29T23:01:42.925Z",
+   "text": "Is that bad for the pilots?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "e5eec7d6-2626-475e-8a2e-212aeb82b0e6",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:01:43.158Z",
+   "end_timestamp": "2026-09-29T23:01:54.926Z",
+   "text": "It's fine for pilots. If it finds one good thing in fifteen minutes that's the event. I'd rather spend time on import than ranking right now.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "f1c39810-95f8-4afe-b5c5-11c300ba38db",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:01:56.578Z",
+   "end_timestamp": "2026-09-29T23:02:00.675Z",
+   "text": "Agreed. Known gaps. Let's write the list we tell them.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "dffa1e1a-5fb5-45f1-85ae-c1de91b767ce",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:02:01.896Z",
+   "end_timestamp": "2026-09-29T23:02:08.155Z",
+   "text": "Claude Projects come in loose. No Drive. Dedupe is exact match plus a badge.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "31ee33a5-0d06-44a4-b982-7e18728a75f5",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:02:09.700Z",
+   "end_timestamp": "2026-09-29T23:02:11.427Z",
+   "text": "That's three. Anything else?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "6d20cc70-d174-4b35-8156-2b8d89e97cd4",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:02:11.690Z",
+   "end_timestamp": "2026-09-29T23:02:18.227Z",
+   "text": "Um. Big imports are slow. Like if someone has a thousand PDFs it'll take a while.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "305fefb7-3fdd-4967-80a7-f667344b1d4a",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:02:18.452Z",
+   "end_timestamp": "2026-09-29T23:02:19.433Z",
+   "text": "How long?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "d618f3d7-e263-477a-9621-9c1105d1f9d7",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:02:20.625Z",
+   "end_timestamp": "2026-09-29T23:02:28.227Z",
+   "text": "I don't know honestly. That's what Saturday's for. I'm doing a full import on my own stuff Saturday.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "f90a44e1-cf5a-452c-abac-f9552e9b1a00",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:02:29.728Z",
+   "end_timestamp": "2026-09-29T23:02:32.981Z",
+   "text": "Okay. Pilot script. I read your doc.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "67f25e1b-946d-4335-b81b-11bb501c9978",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:02:34.605Z",
+   "end_timestamp": "2026-09-29T23:02:35.596Z",
+   "text": "Thoughts?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "194ffc02-ae84-446d-9201-3a2c59826f61",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:02:36.605Z",
+   "end_timestamp": "2026-09-29T23:02:47.437Z",
+   "text": "The timings are good. Ten, twenty, fifteen. I'd add: what do we do if the import is still running when we hit the writing part?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ea440edb-075d-430f-bf63-b7100349411e",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:02:47.621Z",
+   "end_timestamp": "2026-09-29T23:02:54.286Z",
+   "text": "Oh. Hm. Then they write with whatever's in. It's realistic. Real users won't wait either.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "627a6503-a5a4-47d8-8d18-a11d317a1148",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:02:54.978Z",
+   "end_timestamp": "2026-09-29T23:02:57.067Z",
+   "text": "Okay. What are we observing?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a7440af7-85f1-45cf-9617-e544382b75b2",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:02:57.757Z",
+   "end_timestamp": "2026-09-29T23:03:06.840Z",
+   "text": "Three things. Do they hesitate on the connect screen. Are they surprised by the counts. And when's the first confirmed suggestion — time it.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "9355286c-17b9-4762-9fcc-4111f18a7223",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:03:08.559Z",
+   "end_timestamp": "2026-09-29T23:03:10.704Z",
+   "text": "I'll do timestamps in Granola.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a4c5f634-f66e-4256-b118-212885ef1adc",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:03:11.919Z",
+   "end_timestamp": "2026-09-29T23:03:15.466Z",
+   "text": "Yeah, you run Granola and timestamps, I drive.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "bdea9e1d-339e-4c46-9151-aa884ecdfffc",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:03:15.686Z",
+   "end_timestamp": "2026-09-29T23:03:21.727Z",
+   "text": "Do we tell Priya about the known gaps before or after she connects?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "25b37c51-d389-42bb-ac6d-bbfa366af6ee",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:03:22.332Z",
+   "end_timestamp": "2026-09-29T23:03:31.275Z",
+   "text": "Before. Always before. If she finds the Claude Projects thing herself she'll be mad. If we say it first she'll just nod.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "c76a79c3-48a2-4e96-aaaa-d4c07a414a4b",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:03:32.390Z",
+   "end_timestamp": "2026-09-29T23:03:33.562Z",
+   "text": "She'll nod angrily.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "aecc79f8-5394-4f86-a251-82693473612e",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:03:34.010Z",
+   "end_timestamp": "2026-09-29T23:03:41.091Z",
+   "text": "She'll nod angrily, but she'll nod. Okay, demo night. I sent Lena the bullets last night.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "1eb4aa66-be07-45d1-a9af-4ae13d25556c",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:03:41.390Z",
+   "end_timestamp": "2026-09-29T23:03:42.417Z",
+   "text": "On time?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "679a03a6-1511-4e0f-a03d-cf2d53489c09",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:03:42.910Z",
+   "end_timestamp": "2026-09-29T23:03:49.382Z",
+   "text": "September thirtieth at like one AM, so technically late, technically early depending on time zone.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "a5a05bce-0932-466b-b6d4-6ff5a949d1e7",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:03:51.220Z",
+   "end_timestamp": "2026-09-29T23:03:53.749Z",
+   "text": "That's not how time zones work.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "02f01de1-5197-489a-b45d-f4b3f0479800",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:03:55.402Z",
+   "end_timestamp": "2026-09-29T23:04:00.602Z",
+   "text": "It's how they work for me. She replied with a thumbs up.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "fd92e478-bd1b-4f2d-99ec-4432dafe5b0e",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:04:01.128Z",
+   "end_timestamp": "2026-09-29T23:04:02.064Z",
+   "text": "Okay. Staging.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "1cc488fd-a8fd-4a1a-859c-3d1c4b472902",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:04:03.176Z",
+   "end_timestamp": "2026-09-29T23:04:10.993Z",
+   "text": "Can you deploy the pilot build to staging by Sunday noon? I'll be doing the dry run Sunday at one.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "5b1fab5d-bedc-49d3-9810-356c8415ddc6",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:04:11.638Z",
+   "end_timestamp": "2026-09-29T23:04:16.591Z",
+   "text": "Sunday noon. And I'll send Priya the invite. What should she bring?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "b5161964-7eba-4dd0-bb89-f4eb2c695fbc",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:04:18.207Z",
+   "end_timestamp": "2026-09-29T23:04:24.172Z",
+   "text": "One paragraph she's actually writing. And her laptop with Claude logged in, and Zotero.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "c09cfad6-a003-4dc5-ad7b-1a0e939b01a5",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:04:24.342Z",
+   "end_timestamp": "2026-09-29T23:04:25.595Z",
+   "text": "Got it. Slides?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a2f5626d-c090-4180-be5a-b2f0a83b9a9d",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:04:26.016Z",
+   "end_timestamp": "2026-09-29T23:04:30.231Z",
+   "text": "UIST slides are like eighty percent. I'll finish them before Sunday.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e2732bcb-59a8-41cd-b89c-25cd8f8845ca",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:04:31.860Z",
+   "end_timestamp": "2026-09-29T23:04:34.618Z",
+   "text": "You keep saying eighty percent about everything.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ffeef0cc-8684-4297-b436-7a451ccd654a",
+   "document_id": "40d00e46-e042-4e86-bc0f-e55b144d4abf",
+   "start_timestamp": "2026-09-29T23:04:35.740Z",
+   "end_timestamp": "2026-09-29T23:04:39.785Z",
+   "text": "Everything is eighty percent. That's the condition of being me.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  }
+ ]
+}

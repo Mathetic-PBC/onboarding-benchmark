@@ -1,0 +1,80 @@
+{
+  "issue": {
+    "id": "PIL-25",
+    "uuid": "532af25e-b5c7-43c5-8fd1-17f8bf727684",
+    "title": "Granola import",
+    "description": "From Daniel's session (10/13): he records every meeting in Granola and wants those notes next to his papers. There's no official export. Options:\n\n1. paste \"Copy as Markdown\" per note\n2. Granola shared links\n3. the local cache file\n\nFigure out what's stable before building anything.",
+    "projectMilestone": {
+      "id": "752d1e60-9eb6-4c7b-a102-c1e5d03b5518",
+      "name": "Import fixes from pilot feedback shipped"
+    },
+    "priority": {
+      "value": 3,
+      "name": "Medium"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-25/granola-import",
+    "gitBranchName": "david/pil-25-granola-import",
+    "createdAt": "2026-10-13T19:45:10.972Z",
+    "updatedAt": "2026-10-14T17:10:49.591Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Todo",
+    "statusType": "unstarted",
+    "labels": [
+      "Feature",
+      "Import",
+      "Pilot feedback"
+    ],
+    "createdBy": "David Barron",
+    "assignee": "David Barron",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-25",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-13T19:45:10.972Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": [
+    {
+      "id": "db300d35-e2a8-4540-b42d-dc59e4431861",
+      "body": "The local cache is undocumented and changed between the last two versions. Not building on it. Start with shared links + markdown paste.",
+      "attachments": [],
+      "createdAt": "2026-10-14T17:10:49.591Z",
+      "updatedAt": "2026-10-14T17:10:49.591Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      },
+      "onBehalfOf": null
+    }
+  ]
+}

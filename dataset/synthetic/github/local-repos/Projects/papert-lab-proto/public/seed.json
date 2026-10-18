@@ -1,0 +1,17 @@
+[
+  {
+    "id": "demo0001",
+    "title": "TutorTrace reading notes (demo)",
+    "cells": [
+      {"id": "c1", "text": "Stalls are often *silent*: students don't ask for help when stuck.", "createdAt": "2026-02-12T02:10:00Z", "sources": ["s1"]},
+      {"id": "c2", "text": "So detect stalls from telemetry instead of waiting for a help request.", "createdAt": "2026-02-12T02:12:00Z", "sources": ["s2", "s3"]},
+      {"id": "c3", "text": "Open question: flag the TA, or nudge the student directly?", "createdAt": "2026-02-12T02:15:00Z", "sources": ["s4"]}
+    ],
+    "sources": [
+      {"id": "s1", "kind": "pdf", "title": "Productive Struggle or Silent Stalling? (Ostrowski et al. 2025)", "ref": "papers/ostrowski2025.pdf", "addedAt": "2026-02-12T02:09:00Z"},
+      {"id": "s2", "kind": "cell", "title": "Stalls are often silent", "ref": "c1", "addedAt": "2026-02-12T02:12:00Z"},
+      {"id": "s3", "kind": "chat", "title": "ChatGPT: features for detecting stuck students", "ref": "chatgpt:demo", "addedAt": "2026-02-12T02:12:00Z"},
+      {"id": "s4", "kind": "cell", "title": "detect stalls from telemetry", "ref": "c2", "addedAt": "2026-02-12T02:15:00Z"}
+    ]
+  }
+]

@@ -1,0 +1,133 @@
+{
+ "gizmo": {
+  "id": "g-p-21ecaf999dccc4d37bc652a9736257d4",
+  "organization_id": null,
+  "short_url": "g-p-21ecaf999dccc4d37bc652a9736257d4-tutortrace-uist",
+  "author": {
+   "display_name": "David Barron",
+   "is_verified": false
+  },
+  "voice": null,
+  "workspace_id": null,
+  "model": null,
+  "instructions": "This project is for the TutorTrace paper (UIST 2026; PRIME Lab, Virginia Tech; advisor Yan Chen). Co-labelers: Minsun and Xiaohang. Use the uploaded submission, labeling guide, reviews and rebuttal as ground truth. Never invent numbers: if a number is not in the files or in my message, ask. Keep paper prose concise and non-hedgy; UIST style (ACM sigconf). Key facts: 87 students in a CS2 course (CS 3114), 2,340 thirty-second windows, five states incl. stalled-after-error, Light's kappa 0.71 (3 raters, computed before adjudication), TA study n=6. Talk: 2026-10-07, 15 min + 5 Q&A, session \"Learning & Tutoring\", chair Tomás Reyes.",
+  "settings": {},
+  "display": {
+   "name": "TutorTrace UIST",
+   "description": "",
+   "prompt_starters": [],
+   "profile_picture_url": null,
+   "emoji": null,
+   "theme": null
+  },
+  "share_recipient": "private",
+  "created_at": "2026-03-25T02:40:00Z",
+  "updated_at": "2026-10-06T05:52:29Z",
+  "num_interactions": 7,
+  "categories": [],
+  "version": null,
+  "live_version": null,
+  "training_disabled": null,
+  "sharing_targets": [],
+  "appeal_info": null,
+  "vanity_metrics": {},
+  "workspace_approved": null,
+  "gizmo_type": "snorlax",
+  "context_stuffing_budget": null,
+  "is_project": true
+ },
+ "files": [
+  {
+   "id": "file-cea7ebff68b5867dec11f2",
+   "type": "application/pdf",
+   "name": "tutortrace_uist26_submission.pdf",
+   "size": 2871402,
+   "created_at": "2026-03-25T02:44:00Z",
+   "file_size_tokens": null,
+   "is_owner": true
+  },
+  {
+   "id": "file-1ef6000dfdfb603993878a",
+   "type": "application/pdf",
+   "name": "labeling_guide_v3.pdf",
+   "size": 412880,
+   "created_at": "2026-03-25T02:45:00Z",
+   "file_size_tokens": null,
+   "is_owner": true
+  },
+  {
+   "id": "file-a93e0a021d080107f01f2f",
+   "type": "text/plain",
+   "name": "uist26_reviews_paper1187.txt",
+   "size": 18244,
+   "created_at": "2026-06-15T02:01:00Z",
+   "file_size_tokens": null,
+   "is_owner": true
+  },
+  {
+   "id": "file-08f9295e008cbb2ebf9f23",
+   "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "name": "rebuttal_v4.docx",
+   "size": 31920,
+   "created_at": "2026-06-18T03:30:00Z",
+   "file_size_tokens": null,
+   "is_owner": true
+  },
+  {
+   "id": "file-896230b211c50d7e74327a",
+   "type": "application/pdf",
+   "name": "tutortrace_camera_ready_v2.pdf",
+   "size": 3104557,
+   "created_at": "2026-08-13T05:26:00Z",
+   "file_size_tokens": null,
+   "is_owner": true
+  },
+  {
+   "id": "file-75f55677f48b19f54430bb",
+   "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "name": "uist_talk_script_v2.docx",
+   "size": 24310,
+   "created_at": "2026-10-05T04:12:00Z",
+   "file_size_tokens": null,
+   "is_owner": true
+  }
+ ],
+ "conversations": [
+  {
+   "id": "69c5fc59-900c-833c-0a84-a8fc2b390cc3",
+   "title": "Reporting kappa for 3 raters",
+   "create_time": "2026-03-27T03:41:13Z"
+  },
+  {
+   "id": "69ca063e-5b93-836f-25a2-cc78e599ea6b",
+   "title": "Tighten UIST abstract",
+   "create_time": "2026-03-30T05:12:30Z"
+  },
+  {
+   "id": "6a2f5de7-8f19-8336-a7c2-422dcc053424",
+   "title": "Rebuttal reply on label reliability",
+   "create_time": "2026-06-15T02:05:27Z"
+  },
+  {
+   "id": "6a3436ff-cae0-838c-c4ad-c8830522c977",
+   "title": "Final read of rebuttal",
+   "create_time": "2026-06-18T18:20:47Z"
+  },
+  {
+   "id": "6a7d5664-55c0-8377-b430-8af651be3c00",
+   "title": "Camera-ready limitations + privacy",
+   "create_time": "2026-08-13T05:30:12Z"
+  },
+  {
+   "id": "6ab35266-fd8b-8381-521d-d94a7e56a9bd",
+   "title": "UIST talk outline 15 min",
+   "create_time": "2026-09-23T04:15:34Z"
+  },
+  {
+   "id": "6ac48ba7-0890-836b-79ee-1846a69af62b",
+   "title": "Q&A prep for UIST talk",
+   "create_time": "2026-10-06T05:48:23Z"
+  }
+ ],
+ "memory_scope": "project_enabled"
+}

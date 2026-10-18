@@ -1,0 +1,62 @@
+{
+ "uuid": "b5901e3d-f93a-4709-ad17-4539dc36ffe6",
+ "slug": "what-is-the-difference-between-zone-2-and-lt1-JJfgT7BNkY6m3Tb7bziSpR",
+ "title": "what is",
+ "thread_url": "https://www.perplexity.ai/search/what-is-the-difference-between-zone-2-and-lt1-JJfgT7BNkY6m3Tb7bziSpR",
+ "created_at": "2026-01-09T02:40:00Z",
+ "updated_at": "2026-01-09T02:47:00Z",
+ "collection": {
+  "uuid": "74f83dde-ba7f-4521-9b66-a8854a3e55b9",
+  "title": "Training"
+ },
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "8c16a568-7b61-42d9-b91e-790580a128e5",
+   "query_str": "what is the difference between zone 2 and LT1 like are they the same thing",
+   "answer": "They overlap a lot, but they're not defined the same way.\n\n**LT1 (first lactate threshold / aerobic threshold)** is a physiological point: the intensity at which blood lactate first rises meaningfully above resting levels — commonly operationalized as roughly 1.5–2.0 mmol/L or a ~0.5 mmol/L rise above baseline [1]. Below LT1 you are almost entirely on oxidative (aerobic) metabolism and fat oxidation is relatively high [2].\n\n**Zone 2** is a training-zone label, and what it means depends on whose zone system you use [3]:\n- In 5-zone systems anchored to lactate or ventilatory thresholds (common in endurance coaching), Zone 2 is defined as the band **just below LT1** — so in that system \"top of Zone 2 ≈ LT1\".\n- In heart-rate systems based on % of max HR (e.g., 60–70% HRmax), Zone 2 may sit noticeably below or above an individual's actual LT1, because the % of max at which LT1 occurs varies a lot between people [3].\n\n**Practical takeaway:** if you've had lactate testing or a reliable ventilatory test, set Zone 2's ceiling at or just under your measured LT1. If you're using HR formulas, treat Zone 2 as an estimate and sanity-check it with breathing (you should be able to speak in full sentences) and with HR drift over a long session [2].",
+   "sources": [
+    {
+     "name": "Physiology of the first and second lactate thresholds — review",
+     "url": "https://www.endurancephysiologyreview.org/articles/lactate-thresholds-primer",
+     "snippet": "Defines LT1 as the first sustained rise in blood lactate above baseline and LT2 as the onset of rapid accumulation."
+    },
+    {
+     "name": "Aerobic base training: why easy means easy",
+     "url": "https://www.trainingsciencejournal.com/aerobic-base-easy-volume",
+     "snippet": "Explains fat oxidation and mitochondrial adaptation at intensities below the aerobic threshold."
+    },
+    {
+     "name": "Training zones compared: %HRmax vs threshold-anchored models",
+     "url": "https://www.runnersphysiology.net/zones-compared",
+     "snippet": "Shows how the same \"Zone 2\" label maps to different intensities across zone systems."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-01-09T02:40:00Z",
+   "updated_at": "2026-01-09T02:40:20Z"
+  },
+  {
+   "uuid": "c850096b-1d56-4bea-9b5e-87907a6689f3",
+   "query_str": "ok so if my lt1 from the test was 148 bpm on the treadmill should zone 2 runs be like 138-148",
+   "answer": "That's a reasonable band. A few refinements [1][2]:\n\n- **Cap it slightly under 148**, e.g. 138–145, because HR drifts upward over long runs and in heat. If you start at 147 you'll be above LT1 by minute 50.\n- **Bike HR will be lower** for the same metabolic intensity — usually 5–10 bpm below running — so don't copy the run band onto the bike [2].\n- **Recheck every 8–12 weeks**: as your aerobic base improves, LT1 tends to move up in both pace and HR terms, so the band should move with it [1].\n- Use **pace at a fixed HR** (e.g., pace at 142 bpm on a flat route) as a simple monthly progress marker.",
+   "sources": [
+    {
+     "name": "Heart rate drift during prolonged submaximal exercise",
+     "url": "https://www.trainingsciencejournal.com/cardiac-drift-long-runs",
+     "snippet": "Cardiac drift raises HR by several beats over 60–90 minutes at constant pace, especially in warm conditions."
+    },
+    {
+     "name": "Cross-training zones: cycling vs running heart rate",
+     "url": "https://www.runnersphysiology.net/bike-vs-run-hr",
+     "snippet": "Cycling HR at a matched metabolic intensity is typically lower than running HR."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-01-09T02:46:29Z",
+   "updated_at": "2026-01-09T02:46:41Z"
+  }
+ ]
+}

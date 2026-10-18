@@ -1,0 +1,219 @@
+{
+ "title": "Wedding RSVP and gift etiquette Ireland",
+ "create_time": 1779930039.12,
+ "update_time": 1779930262.1682029,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "21a58da2-4e99-45d6-a56f-ca225dec12da"
+   ]
+  },
+  "21a58da2-4e99-45d6-a56f-ca225dec12da": {
+   "id": "21a58da2-4e99-45d6-a56f-ca225dec12da",
+   "message": {
+    "id": "21a58da2-4e99-45d6-a56f-ca225dec12da",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1779930039.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "my cousin niamh is getting married in dublin this summer. i'm american, going alone. whats normal for gifts at irish weddings? cash? registry? how much"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_d36b461d09d86aea66ebd3a4a8",
+     "message_source": null,
+     "turn_exchange_id": "238ea5cc-0ab2-425a-9fb9-f6628fd15611",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "2ebcd71b-a872-4d63-9039-672a26c20cc5"
+   ]
+  },
+  "2ebcd71b-a872-4d63-9039-672a26c20cc5": {
+   "id": "2ebcd71b-a872-4d63-9039-672a26c20cc5",
+   "message": {
+    "id": "2ebcd71b-a872-4d63-9039-672a26c20cc5",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1779930062.229,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "In Ireland, **cash or a cheque in a card** is very common, often handed over at the reception or placed in a card box. Some couples have a \"wedding list\" (registry), and many now include a honeymoon fund link.\n\nTypical amounts reported in Irish surveys and etiquette columns: **€100–200 per guest** for close family or friends, more for very close family; travelling a long way is widely understood to be a cost in itself, so guests coming from abroad sometimes give a little less, and nobody will mind.\n\nPractical tips:\n- Bring euro in a sealed card rather than USD. A bank transfer is also normal if the couple shares details.\n- Write a personal note. It matters more than the amount.\n- RSVP promptly and mention any dietary needs. Irish weddings are long (ceremony, drinks reception, dinner, speeches, dancing late), so plan to stay near the venue."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_d36b461d09d86aea66ebd3a4a8",
+     "message_type": "next",
+     "turn_exchange_id": "238ea5cc-0ab2-425a-9fb9-f6628fd15611",
+     "model_slug": "gpt-5-3",
+     "default_model_slug": "gpt-5-3",
+     "resolved_model_slug": "gpt-5-3",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "21a58da2-4e99-45d6-a56f-ca225dec12da"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "21a58da2-4e99-45d6-a56f-ca225dec12da",
+   "children": [
+    "05304a22-ab28-4d57-a90c-2af33349ea14"
+   ]
+  },
+  "05304a22-ab28-4d57-a90c-2af33349ea14": {
+   "id": "05304a22-ab28-4d57-a90c-2af33349ea14",
+   "message": {
+    "id": "05304a22-ab28-4d57-a90c-2af33349ea14",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1779930256.229,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "ok. and dress code says \"formal\". is a navy suit fine"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_5c70b8f0287b4c3b17133c482e",
+     "message_source": null,
+     "turn_exchange_id": "5366bc98-16c7-4fbe-824c-63fbb2884853",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "2ebcd71b-a872-4d63-9039-672a26c20cc5",
+   "children": [
+    "633a0503-32b0-4c2c-b2c4-809c63082387"
+   ]
+  },
+  "633a0503-32b0-4c2c-b2c4-809c63082387": {
+   "id": "633a0503-32b0-4c2c-b2c4-809c63082387",
+   "message": {
+    "id": "633a0503-32b0-4c2c-b2c4-809c63082387",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1779930261.748,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "A navy suit is right on target for a formal Irish wedding. Add a tie, leather shoes, and bring a light layer or an umbrella. Irish summer weather is unpredictable, and parts of the day may be outdoors."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_5c70b8f0287b4c3b17133c482e",
+     "message_type": "next",
+     "turn_exchange_id": "5366bc98-16c7-4fbe-824c-63fbb2884853",
+     "model_slug": "gpt-5-3",
+     "default_model_slug": "gpt-5-3",
+     "resolved_model_slug": "gpt-5-3",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "05304a22-ab28-4d57-a90c-2af33349ea14"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "05304a22-ab28-4d57-a90c-2af33349ea14",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "633a0503-32b0-4c2c-b2c4-809c63082387",
+ "plugin_ids": null,
+ "conversation_id": "6a1793b7-e522-8381-305a-d6437cc89331",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-3",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "6a1793b7-e522-8381-305a-d6437cc89331"
+}

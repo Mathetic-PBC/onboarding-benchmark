@@ -1,0 +1,168 @@
+{
+ "uuid": "0cf1afc3-7da0-43c5-bcc6-1be7a2f28866",
+ "name": "Import summary screen wording",
+ "summary": "",
+ "model": "claude-fable-5-1",
+ "created_at": "2026-09-30T05:17:58.838237Z",
+ "updated_at": "2026-09-30T05:22:22.934536Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true,
+  "paprika_mode": "auto",
+  "thinking_mode": "auto",
+  "chat_memory_mode": "enabled",
+  "enabled_artifacts_attachments": false
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "auto",
+ "chat_messages": [
+  {
+   "uuid": "19b51474-4424-4ae4-9ac4-99f0f65e34c2",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-30T05:18:00.000000Z",
+     "stop_timestamp": "2026-09-30T05:18:00.000000Z",
+     "type": "text",
+     "text": "after import finishes we show a summary. right now it says \"Import complete!\" and a number. i want it to show per source counts + what got skipped + what got merged. draft the copy. keep it calm, not celebratory",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-09-30T05:18:00.000000Z",
+   "updated_at": "2026-09-30T05:18:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "993ab25e-ca07-4ca8-9145-4828cfb65ea6",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-30T05:18:02.000000Z",
+     "stop_timestamp": "2026-09-30T05:18:16.198000Z",
+     "type": "text",
+     "text": "Here's a draft for the summary card:\n\n**Import finished**\n1,204 items from 6 sources. You can start working; nothing else is running.\n\n| Source | Items | Merged | Skipped |\n|---|---|---|---|\n| Claude | 341 chats, 2 projects | — | 0 |\n| ChatGPT | 188 chats | — | 3 |\n| Zotero | 412 items | 27 versions grouped | 6 PDFs unreadable |\n| Google Drive | 156 files | 19 same as Zotero | 0 |\n| Slack | 4 channels, 82 messages | 11 files already in Drive | 0 |\n| Local folder | 25 files | 2 exact copies | 1 too large |\n\nBelow the table, one line each:\n- **Merged** means we found the same file or paper twice and kept one, with both locations. [See which]\n- **Skipped** means we couldn't read it. Nothing was deleted. [See why]\n\nI avoided \"complete\" because if anything was skipped it isn't, and people notice.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-09-30T05:18:16.198000Z",
+   "updated_at": "2026-09-30T05:18:16.198000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "19b51474-4424-4ae4-9ac4-99f0f65e34c2"
+  },
+  {
+   "uuid": "b0495dcf-11d6-4548-8cdf-5e4ffc433834",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-30T05:19:53.198000Z",
+     "stop_timestamp": "2026-09-30T05:19:53.198000Z",
+     "type": "text",
+     "text": "\"you can start working; nothing else is running\" sounds robotic",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-09-30T05:19:53.198000Z",
+   "updated_at": "2026-09-30T05:19:53.198000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "993ab25e-ca07-4ca8-9145-4828cfb65ea6"
+  },
+  {
+   "uuid": "2a2c3ede-95cb-4d2a-bc35-faa39b322742",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-30T05:19:55.198000Z",
+     "stop_timestamp": "2026-09-30T05:19:58.956000Z",
+     "type": "text",
+     "text": "Alternatives:\n\n- \"Everything's in. Your notebook is ready.\"\n- \"All six sources are in.\"\n- \"Done. Here's what came in.\"\n\nI'd go with the third: short, and it points at the table, which is the useful part.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-09-30T05:19:58.956000Z",
+   "updated_at": "2026-09-30T05:19:58.956000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "b0495dcf-11d6-4548-8cdf-5e4ffc433834"
+  },
+  {
+   "uuid": "87f47e3d-d6e5-4a88-b1a2-4627fee6ff05",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-30T05:22:02.956000Z",
+     "stop_timestamp": "2026-09-30T05:22:02.956000Z",
+     "type": "text",
+     "text": "done it is. also what if the counts look wrong to the user, like they know they have more chats",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2026-09-30T05:22:02.956000Z",
+   "updated_at": "2026-09-30T05:22:02.956000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "2a2c3ede-95cb-4d2a-bc35-faa39b322742"
+  },
+  {
+   "uuid": "e1f13dd1-29e0-4c97-97d3-108b0fb31ac0",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-09-30T05:22:04.956000Z",
+     "stop_timestamp": "2026-09-30T05:22:21.871000Z",
+     "type": "text",
+     "text": "Give them a direct way to say so, right on the row:\n\n> Claude · 341 chats · **Missing some?**\n\nClicking it opens a two-field form: \"About how many did you expect?\" and \"Anything specific missing?\" plus the import log attached automatically. That turns \"it feels incomplete\" into a number you can check, and it's cheap to build. Also log it as an event so you see which sources people distrust.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2026-09-30T05:22:21.871000Z",
+   "updated_at": "2026-09-30T05:22:21.871000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "87f47e3d-d6e5-4a88-b1a2-4627fee6ff05"
+  }
+ ],
+ "current_leaf_message_uuid": "e1f13dd1-29e0-4c97-97d3-108b0fb31ac0",
+ "project_uuid": "3a75e460-2126-424d-9bb5-0e9e7ff852cd",
+ "project": {
+  "uuid": "3a75e460-2126-424d-9bb5-0e9e7ff852cd",
+  "name": "Engelbart onboarding"
+ }
+}

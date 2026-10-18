@@ -1,0 +1,62 @@
+title: David / Yan 1:1
+start: 2026-01-15 14:00
+attendees: David Barron, Yan Chen
+projects: project_tutortrace
+docs: both
+=== transcript
+Yan Chen: Happy new year, David. How was the break?
+David Barron: Good, good. Quiet. I mostly ran and slept. Happy new year.
+Yan Chen: Good. Okay, so I read your outline. Let's talk about the paper.
+David Barron: Okay, cool. Um, did you get the second version? I sent a v2 on Tuesday night.
+Yan Chen: The one with the system figure? Yes.
+David Barron: Yes, that one. Okay. So the big question for me is, um, is this a UIST paper or a CHI paper or an L@S paper. Because the outline kind of reads like two papers.
+Yan Chen: I agree, it reads like two papers. Tell me what you think the contribution is, in one sentence.
+David Barron: Um. Okay. One sentence. TutorTrace is a system that turns IDE and assistant telemetry into a timeline of help-seeking states, so instructors can see in real time who is struggling productively and who is stalled.
+Yan Chen: Okay. That's a system contribution. That's UIST.
+David Barron: Right, but then half the outline is about what we learned about students, like the stalled-after-error stuff and how they use the assistant.
+Yan Chen: That half supports the system. The labeled data is how you train and evaluate the state classifier. The findings about students become the formative study, or part of the evaluation. You don't need a separate paper.
+David Barron: Okay. So the structure is, like, formative study from deployment one, system, then evaluation on deployment two?
+Yan Chen: Yes. Deployment one is the formative part. Deployment two is the technical evaluation, the classifier against the labels. And then you need something with instructors. UIST reviewers will ask, does anybody actually use this.
+David Barron: Yeah. That's the gap. We have John's reaction from the heat map but that's not a study.
+Yan Chen: Can you do a small study with TAs? Six, eight TAs, show them replays, with and without the timeline, and ask them to find the students who need help?
+David Barron: Hmm. Yeah. Like a lab study with recorded sessions. That's doable. That doesn't need another live deployment.
+Yan Chen: Exactly. Use the recorded data from November.
+David Barron: Okay. Um, how many TAs would we need? CS 3114 has like twelve TAs total across the semester.
+Yan Chen: Eight is enough for UIST if the tasks are good. Within-subjects.
+David Barron: Okay. I'd need an IRB amendment for that though.
+Yan Chen: Submit it this month. It's a small amendment. It should be fast.
+David Barron: Okay. So the deadline is March thirty-first.
+Yan Chen: Right, end of March. So that's ten weeks. Let me think. IRB two to three weeks, study in February, analysis early March, writing in March.
+David Barron: That's... tight. But okay.
+Yan Chen: It's tight. That's why you start the amendment this week.
+David Barron: Yeah. Um, and the classifier. Right now I have a gradient boosted model on the window features, and it's okay, but I haven't done it properly with cross-validation by student.
+Yan Chen: Do that now, before you get attached to any number. Split by student, not by window.
+David Barron: Yes. Yeah. Okay.
+Yan Chen: What is your course load this semester?
+David Barron: Um, I'm taking ISE 6664, the affective computing course with Dr. Brooks. And then just research credits. No TA this semester, thankfully.
+Yan Chen: Affective computing. Is there a project?
+David Barron: Yeah, a team project. I don't know the topic yet. I was thinking something with frustration in tutoring transcripts, which is kind of adjacent.
+Yan Chen: That's fine if it's adjacent, but don't let it become a second paper in March. Keep it a course project.
+David Barron: Ha. Okay. Yes.
+Yan Chen: How many hours is the course?
+David Barron: Three credits. Tuesday Thursday evening, I think. It's mostly readings and one presentation at the end, end of April.
+Yan Chen: Okay. That's manageable.
+David Barron: Um, one more question. The name. Are we keeping TutorTrace? Minsun said it sounds like a surveillance product.
+Yan Chen: Hmm. [laughs] It's a little bit, yes. But it's descriptive. Keep it for now, we can change it before submission.
+David Barron: Okay. And the privacy angle, I should probably have a section on that anyway.
+Yan Chen: Yes, at least a paragraph in the discussion. Students know they are being logged, what is shown to TAs, what is not.
+David Barron: Okay. I'll write the IRB amendment this week and redo the classifier split.
+Yan Chen: And update the outline with the three-part structure. Send it to me before next meeting.
+David Barron: Will do. Thanks.
+Yan Chen: Okay. Good start to the year. Bye.
+=== gemini
+summary: David Barron and Yan Chen scoped the TutorTrace paper for the UIST 2026 deadline on March 31. They agreed it is a system paper: deployment one becomes the formative study, deployment two the technical evaluation of the help-seeking state classifier, plus a new within-subjects study with about eight TAs using recorded November sessions. David will submit an IRB amendment this month, redo classifier cross-validation split by student, and keep his ISE 6664 project contained.
+detail: Paper framing: David Barron's outline read like two papers. Yan Chen pushed for a one-sentence contribution, and David framed TutorTrace as a system that turns IDE and assistant telemetry into a timeline of help-seeking states for instructors. They agreed this is a UIST system contribution, with the student findings supporting the system rather than forming a separate paper.
+detail: Paper structure: The paper will use deployment one as a formative study, deployment two as the technical evaluation of the classifier against the labels, and an instructor-facing study. Yan Chen suggested a within-subjects lab study with six to eight TAs who find students needing help in recorded replays with and without the timeline.
+detail: Timeline: The UIST deadline is March 31, about ten weeks away. The plan is IRB amendment in January (two to three weeks), the TA study in February, analysis in early March, and writing in March.
+detail: Classifier evaluation: David Barron's current gradient-boosted model on window features has not been cross-validated by student. Yan Chen asked him to split by student, not by window, before reporting any number.
+detail: Course load and naming: David Barron is taking ISE 6664 with Dr. Brooks this semester (team project, final presentation at the end of April) and has no TA duties. Yan Chen asked him to keep the course project from turning into a second paper. They will keep the TutorTrace name for now despite Minsun's concern that it sounds like surveillance, and add a privacy discussion.
+next: [ ] David Barron will submit the IRB amendment for the TA replay study this week.
+next: [ ] David Barron will redo the classifier cross-validation split by student.
+next: [ ] David Barron will update the outline to the formative / system / evaluation structure and send it to Yan Chen before the next meeting.
+next: [ ] David Barron will draft a privacy paragraph covering what students know and what TAs see.

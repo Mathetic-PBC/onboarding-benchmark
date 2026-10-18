@@ -1,0 +1,109 @@
+{
+  "issue": {
+    "id": "PIL-29",
+    "uuid": "f3bed31f-9211-4579-85ae-375343ff63d5",
+    "title": "Claude chats imported twice (export zip + desktop app cache)",
+    "description": "While setting up Daniel's machine (10/13): he connected both his Claude export and the Claude desktop app folder, and every conversation present in both showed up twice. Same conversation uuid on both sides.",
+    "projectMilestone": {
+      "id": "752d1e60-9eb6-4c7b-a102-c1e5d03b5518",
+      "name": "Import fixes from pilot feedback shipped"
+    },
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-29/claude-chats-imported-twice-export-zip-desktop-app-cache",
+    "gitBranchName": "david/pil-29-claude-chats-imported-twice-export-zip-desktop-app",
+    "createdAt": "2026-10-13T21:30:39.980Z",
+    "updatedAt": "2026-10-14T20:10:29.657Z",
+    "archivedAt": null,
+    "completedAt": "2026-10-14T20:10:29.657Z",
+    "startedAt": "2026-10-13T23:00:36.861Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [
+      "Bug",
+      "Import"
+    ],
+    "createdBy": "David Barron",
+    "assignee": "David Barron",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-29",
+    "attachments": [
+      {
+        "id": "f6f3333e-3957-4e7a-9aab-d06b962769fd",
+        "title": "PR #216: Dedupe Claude conversations by uuid across sources",
+        "subtitle": null,
+        "url": "https://github.com/Mathetic-PBC/engelbart/pull/216"
+      }
+    ],
+    "documents": [
+      {
+        "id": "b10eb47f-cf44-421a-8830-a5d4b745ec35",
+        "title": "Import dedupe rules v0"
+      }
+    ],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-13T21:30:39.980Z",
+        "endedAt": "2026-10-13T23:00:36.861Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-13T23:00:36.861Z",
+        "endedAt": "2026-10-14T20:10:29.657Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-10-14T20:10:29.657Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": [
+    {
+      "id": "545173b6-9b38-4bc4-8edd-07cafe58e206",
+      "body": "Rule 3 now applies across sources, not just within one export: same Claude conversation uuid = one conversation, keep the copy with the newest `updated_at`, record both origins.",
+      "attachments": [],
+      "createdAt": "2026-10-14T20:05:50.942Z",
+      "updatedAt": "2026-10-14T20:05:50.942Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      },
+      "onBehalfOf": null
+    }
+  ]
+}

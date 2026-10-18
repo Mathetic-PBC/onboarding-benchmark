@@ -1,0 +1,67 @@
+{
+ "uuid": "5749e73e-bf58-4c26-89bd-bfec35082f22",
+ "slug": "productive-failure-kapur-vs-desirable-CiSBVSxFddLDVRcfc1QIwt",
+ "title": "Productive failure and desirable difficulties",
+ "thread_url": "https://www.perplexity.ai/search/productive-failure-kapur-vs-desirable-CiSBVSxFddLDVRcfc1QIwt",
+ "created_at": "2026-03-17T01:30:00Z",
+ "updated_at": "2026-03-17T01:36:30Z",
+ "collection": {
+  "uuid": "eed80aee-0bf6-468d-9e04-939088cec800",
+  "title": "UIST related work"
+ },
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "4f840892-ae3c-49b1-a678-a4a5e9386204",
+   "query_str": "productive failure (kapur) vs desirable difficulties (bjork) — summarize both and how theyd frame \"when should a tutor intervene\" in 1 paragraph each",
+   "answer": "**Productive failure (Kapur).** Students are first asked to generate solutions to complex, novel problems *before* receiving instruction; they usually fail to find the canonical solution, but the generation phase activates prior knowledge and highlights critical features, so subsequent instruction is learned more deeply than with direct instruction first [1][2]. Framed for intervention: a tutor should *withhold* the solution during an initial exploration phase, as long as the student is generating and evaluating ideas, and intervene with consolidation afterwards. The key is that the failure is *productive* — the student is actively working, not stuck doing nothing.\n\n**Desirable difficulties (Bjork).** Some conditions that make learning feel harder and slow initial performance — spacing, interleaving, retrieval practice, variation — improve long-term retention and transfer [3]. Framed for intervention: help that removes *all* difficulty (e.g., handing over code) can hurt learning even if it boosts immediate success; a tutor should preserve the difficulty that drives retrieval and reasoning but remove difficulties that are merely obstacles (e.g., environment errors, unclear specs).\n\nBoth frames support distinguishing **productive struggle from unproductive stalling**, which is exactly the line telemetry papers try to draw — Ostrowski et al. cite both as motivation [4].",
+   "sources": [
+    {
+     "name": "Productive failure — overview and meta-analytic evidence",
+     "url": "https://www.learningsciencesreview.org/productive-failure",
+     "snippet": "Summary of Kapur's design and evidence for its effects."
+    },
+    {
+     "name": "Productive failure in mathematical problem solving",
+     "url": "https://www.learningsciencesreview.org/pf-math",
+     "snippet": "Classic studies of generation-before-instruction."
+    },
+    {
+     "name": "Desirable difficulties in learning — a primer",
+     "url": "https://www.cogpsychprimer.org/desirable-difficulties",
+     "snippet": "Spacing, interleaving, retrieval practice and their effects."
+    },
+    {
+     "name": "Productive Struggle or Silent Stalling? (Ostrowski et al., L@S '25)",
+     "url": "https://dl.acm.org/doi/10.1145/3698205.3729841",
+     "snippet": "Cites productive failure and desirable difficulties when separating struggle from stalling."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "gpt-5",
+   "created_at": "2026-03-17T01:30:00Z",
+   "updated_at": "2026-03-17T01:30:30Z"
+  },
+  {
+   "uuid": "5802e491-5c9b-424a-be5a-f3b010a938f6",
+   "query_str": "ok can u give me the bibtex-ish refs for kapur 2008 and bjork 1994 so i can find them",
+   "answer": "- Kapur, M. (2008). *Productive failure.* Cognition and Instruction, 26(3), 379–424 [1].\n- Bjork, R. A. (1994). *Memory and metamemory considerations in the training of human beings.* In J. Metcalfe & A. Shimamura (Eds.), *Metacognition: Knowing about knowing* (pp. 185–205). MIT Press [2].\nVerify page numbers against the publisher pages before pasting into your .bib.",
+   "sources": [
+    {
+     "name": "Productive failure — overview and meta-analytic evidence",
+     "url": "https://www.learningsciencesreview.org/productive-failure",
+     "snippet": "Citation details for the original article."
+    },
+    {
+     "name": "Desirable difficulties in learning — a primer",
+     "url": "https://www.cogpsychprimer.org/desirable-difficulties",
+     "snippet": "Citation details for the 1994 chapter."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "claude-sonnet",
+   "created_at": "2026-03-17T01:35:49Z",
+   "updated_at": "2026-03-17T01:36:10Z"
+  }
+ ]
+}

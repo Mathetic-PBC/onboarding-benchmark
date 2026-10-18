@@ -1,0 +1,25 @@
+<!-- apple-notes-export {"id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p104", "account": "iCloud", "folder": "Notes", "title": "VizPI deploy 2 — lab checklist", "created": "2025-11-11T19:05:00", "modified": "2025-11-12T14:48:00", "password_protected": "false"} -->
+<div><h1>VizPI deploy 2 — CS 3114 — Wed 11/12 3:30</h1></div>
+<div><br></div>
+<ul class="checklist">
+<li class="checked">confirm room + projector w/ John</li>
+<li class="checked">backend on the lab box, pm2 restart, check /health</li>
+<li class="checked">seed 87 student accounts from the roster csv</li>
+<li class="checked">TA logins x3 (sections A and B)</li>
+<li class="checked">consent slide first 2 min</li>
+<li class="unchecked">second laptop as hot spare</li>
+<li class="checked">export telemetry right after, before anyone touches the db</li>
+</ul>
+<div><br></div>
+<div><b>during</b></div>
+<div>3:52 section B dashboard frozen, students still typing<br></div>
+<div>websocket not reconnecting after the wifi blip — events dropping<br></div>
+<div>4:10 hotfix pushed (reconnect w/ backoff + resend buffer). B looks alive again<br></div>
+<div>guess ~12% of B events lost between 3:50 and 4:10. note it in the data README<br></div>
+<div><br></div>
+<div><b>after</b></div>
+<ul>
+<li>dump done 5:30, 2 files, checksum in slack</li>
+<li>labeling sprint fri 11/14 → 11/21 w/ Minsun + Xiaohang</li>
+<li>add &quot;stalled-after-error&quot; to the guide? lots of that today</li>
+</ul>

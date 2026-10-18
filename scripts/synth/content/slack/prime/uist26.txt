@@ -1,0 +1,119 @@
+# PRIME Lab (VT) #uist26 — synthetic (TutorTrace @ UIST 2026)
+@2026-02-12
+10:28 yan | <join>
+10:29 david | <join>
+10:30 minsun | <join>
+10:31 rezky | <join>
+10:40 yue | <join>
+10:45 yan | Plan for TutorTrace @ UIST 2026. Deadline March 31 (AoE), abstract registration March 24.
+  Owners: David (lead; intro, system, study), Minsun (labeling + reliability), Rezky (replay viewer + figures), Yue (analysis + video figure).
+  First full draft to me by March 16, please.
+~r +1:4
+
+@2026-02-19
+23:40 david | outline is in overleaf: <https://www.overleaf.com/project/65d3f1a0c9e4b2a7f1e08d3b|TutorTrace UIST26>. sections 1–3 have bullets, 4–6 are empty. the claim: a TA-facing replay of labeled help-seeking states lets TAs triage who to visit, in close to real time
+~r eyes:2
+
+@2026-03-16
+02:14 david | first full draft is in overleaf. 11 pages, over by 1. related work is rough
+~r eyes:2
+~p project_tutortrace
+> 09:20 yan | I'll read today.
+> 18:05 yan | Comments are in the PDF. Main issue: the contribution list mixes the system and the dataset. Lead with the system.
+
+@2026-03-23
+09:00 david | crunch week plan (deadline tue 3/31 AoE = wed 4/1 7:59am ET):
+  mon 3/23: restructure contributions per Yan
+  tue 3/24: abstract registered in PCS (title + abstract + authors)
+  wed 3/25: figures freeze except fig 4
+  thu 3/26: full read by Minsun + Yue
+  fri 3/27: video figure first cut
+  sat–mon: polish, cut to 10 pages
+  tue 3/31: submit by 9pm ET, no heroics
+~r muscle:4 sweat_smile:2
+
+@2026-03-24
+16:42 david | abstract registered. PCS id uist26a-1187
+~r white_check_mark:3
+
+@2026-03-25
+13:10 rezky | fig 3 (replay viewer with state lanes) v4 is in overleaf → `figures/replay_lanes_v4.pdf`. colorblind-safe palette, stalled-after-error is the orange lane
+~p project_tutortrace
+> 13:25 david | 🔥 can you swap the lane order so stalled is right under stuck? reviewers will compare them
+> 13:50 rezky | done
+
+@2026-03-26
+23:55 minsun | read the whole thing. biggest issue: section 5 says kappa 0.71 but table 2 still has 0.68 from november
+~r scream:1
+~p project_tutortrace
+> 23:58 david | ugh good catch. fixed, table 2 now comes from the adjudicated labels
+
+@2026-03-27
+21:30 yue | video figure first cut (2:58): <https://drive.google.com/file/d/1aQ7tUe5Vb0Hn2kLsXp8RmW4cZoJ9yDf3/view|tutortrace_video_v1.mp4>. no narration yet
+~p project_tutortrace
+> 22:10 david | this is so good. can we open on the TA view instead of the student IDE? the TA view is the contribution
+> 22:12 yue | yes, will reorder tomorrow
+
+@2026-03-29
+01:20 david | down to 10.4 pages. cutting the second deployment-logistics paragraph and merging tables 3+4
+
+@2026-03-30
+14:05 david | status: 10 pages + refs ✅  figures final ✅  video v2 with narration ✅ (thx yue)  supplementary zip ❌ (need to anonymize the labeling guide first)
+~r +1:3
+19:40 rezky | anonymized the guide: removed "VT", "CS 3114" and our names from the header and the example screenshots
+~p project_tutortrace
+> 19:44 david | ty. also the dashboard url in fig 2 shows the lab domain, blurring it
+
+@2026-03-31
+20:58 david | final pass done. uploading
+23:12 david | SUBMITTED. paper + video + supplement. thank you all 🙏
+~r tada:5 partying_face:3 sob:2
+~p project_tutortrace
+> 23:15 minsun | 🎉🎉🎉 go sleep
+> 23:20 yan | Congratulations. Excellent work this week.
+
+@2026-06-11
+08:30 david | uist reviews are out. scores 4, 3.5, 3, 2.5 (1AC + 3). main asks:
+  1. label reliability: how were raters calibrated, is 0.71 good enough
+  2. generalization beyond one course (cs 3114 only)
+  3. privacy of keystroke + prompt telemetry
+  rebuttal due thu 6/18. drafting tonight
+~r eyes:3
+~p project_tutortrace
+> 09:15 yan | This is a good position. For (2), offer a cross-course analysis; Yue's CS 1114 pilot data from spring may be enough. For (3), add a limitations section and describe the consent flow.
+> 09:40 yue | the cs 1114 pilot is 23 students, labeled by one rater only. we could label 300 windows with 2 raters by friday?
+> 09:42 david | yes. let's promise the analysis and say exactly what's done by rebuttal time
+
+@2026-06-15
+22:10 david | rebuttal draft v1 is in overleaf, `rebuttal.tex`. 4,980 of 5,000 chars lol. <@yan> when you have a moment
+
+@2026-06-17
+11:00 yue | cs 1114 windows: 300 labeled by me + minsun, kappa 0.69. stalled-after-error share is 14% vs 17% in 3114
+~r fire:3
+~p project_tutortrace
+> 11:05 david | perfect, that's exactly the sentence for R2
+
+@2026-06-18
+17:45 david | rebuttal submitted. promised: cross-course analysis (cs 1114, n=23, 300 windows, κ=0.69) + a limitations section on telemetry privacy and single-institution data
+~r +1:4
+
+@2026-07-02
+19:15 david | conditionally accepted!!! conditions: add the cross-course analysis + limitations section, as promised
+~r tada:5
+
+@2026-08-10
+23:05 david | camera-ready todo (due fri 8/14):
+  - [x] cross-course analysis → section 6.3
+  - [x] limitations
+  - [ ] de-anonymize (names, VT, CS 3114, acknowledgments)
+  - [ ] ACM rights form + TAPS
+  - [ ] fig 3 at 300 dpi
+~r +1:2
+
+@2026-08-12
+14:30 rezky | fig 3 re-exported as a vector pdf, TAPS should be happy now
+~r pray:1
+
+@2026-08-14
+22:25 david | camera-ready submitted through TAPS. done done
+~r tada:4 heart:2

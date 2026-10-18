@@ -1,1 +1,1588 @@
-[]
+[
+ {
+  "id": "item_034947",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/documents/48eb44f4-06d6-4f5a-9bb1-aadce3571ceb.json",
+  "title": "48eb44f4-06d6-4f5a-9bb1-aadce3571ceb.json",
+  "content_type": "data",
+  "created_at": "2026-09-21T17:40:22Z",
+  "modified_at": "2026-09-22T23:35:17Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/documents/48eb44f4-06d6-4f5a-9bb1-aadce3571ceb.json",
+  "source_url": null,
+  "content_hash": "sha256:6a3e6de84a728052aa08081a9dc4d93a41affba7cb855858174af8fed6007334",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/documents/<uuid>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Pilot interview script'; project=Pilot program"
+  }
+ },
+ {
+  "id": "item_034948",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/documents/9228d54c-728c-440d-ac0b-32c3f24333a3.json",
+  "title": "9228d54c-728c-440d-ac0b-32c3f24333a3.json",
+  "content_type": "data",
+  "created_at": "2026-10-14T18:10:45Z",
+  "modified_at": "2026-10-17T04:05:05Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/documents/9228d54c-728c-440d-ac0b-32c3f24333a3.json",
+  "source_url": null,
+  "content_hash": "sha256:0538375d2ebcb0eea50868e31eedbaea1b13bc1d154920ab768465d268f07971",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/documents/<uuid>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Pilot feedback synthesis'; project=Pilot program"
+  }
+ },
+ {
+  "id": "item_034949",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/documents/b10eb47f-cf44-421a-8830-a5d4b745ec35.json",
+  "title": "b10eb47f-cf44-421a-8830-a5d4b745ec35.json",
+  "content_type": "data",
+  "created_at": "2026-10-10T18:05:29Z",
+  "modified_at": "2026-10-15T16:20:53Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/documents/b10eb47f-cf44-421a-8830-a5d4b745ec35.json",
+  "source_url": null,
+  "content_hash": "sha256:9254f15049bbf1893f773c398316085a8dfdf470c6d4a7c21e2fcaa922b46014",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/documents/<uuid>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Import dedupe rules v0'; project=Pilot program; concrete dedupe rules (content hash, DOI, Claude conversation uuid, arXiv id, ...)"
+  }
+ },
+ {
+  "id": "item_034950",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-1.json",
+  "title": "PIL-1.json",
+  "content_type": "data",
+  "created_at": "2026-09-15T04:10:27Z",
+  "modified_at": "2026-09-22T23:45:24Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-1.json",
+  "source_url": null,
+  "content_hash": "sha256:776f3a1852487beb4a4e6d0efc38941ba173911d5a0b8d84545333a60e035641",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Write the pilot interview script'; status=Done; project=Pilot program; 2 comments"
+  }
+ },
+ {
+  "id": "item_034951",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-10.json",
+  "title": "PIL-10.json",
+  "content_type": "data",
+  "created_at": "2026-10-03T20:30:03Z",
+  "modified_at": "2026-10-07T00:45:11Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-10.json",
+  "source_url": null,
+  "content_hash": "sha256:cef2d72cfb507210784cbcb415af5fcf23c2d43548dba165e28e72e1dcd9b38c",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Ask for Full Disk Access before the connect screen, not after'; status=Done; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034952",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-11.json",
+  "title": "PIL-11.json",
+  "content_type": "data",
+  "created_at": "2026-10-01T18:00:51Z",
+  "modified_at": "2026-10-06T02:30:07Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-11.json",
+  "source_url": null,
+  "content_hash": "sha256:ff32ef602e5113a2e21d4057c7f6c21d097d6dc333ed1a94a1305c5dc4d7f942",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Claude import: handle both export layouts'; status=Done; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034953",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-12.json",
+  "title": "PIL-12.json",
+  "content_type": "data",
+  "created_at": "2026-10-03T20:35:30Z",
+  "modified_at": "2026-10-08T05:10:43Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-12.json",
+  "source_url": null,
+  "content_hash": "sha256:ba6dc39c24f744105b70109533100728936eff5fb557c90087af07fbf5caf366",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Import progress: show counts per source while importing'; status=Done; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034954",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-13.json",
+  "title": "PIL-13.json",
+  "content_type": "data",
+  "created_at": "2026-10-05T23:00:03Z",
+  "modified_at": "2026-10-06T17:20:20Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-13.json",
+  "source_url": null,
+  "content_hash": "sha256:ebbc4889baebbf12b7c7d33e002a6c8765c620d18845ed2987623b0440230c0b",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Recording consent line in the session invite'; status=Done; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034955",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-14.json",
+  "title": "PIL-14.json",
+  "content_type": "data",
+  "created_at": "2026-10-09T18:20:57Z",
+  "modified_at": "2026-10-13T01:05:03Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-14.json",
+  "source_url": null,
+  "content_hash": "sha256:118cefa3efa6fe89a2950581e358539b44373a2922616f53574ad295fc34175a",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Claude import missed ~140 of Priya's conversations'; status=Done; project=Pilot program; 5 comments; Priya's 10-09 pilot bug (PERSON.md §7: import missed ~140 Claude chats)"
+  }
+ },
+ {
+  "id": "item_034956",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-15.json",
+  "title": "PIL-15.json",
+  "content_type": "data",
+  "created_at": "2026-10-09T18:25:11Z",
+  "modified_at": "2026-10-14T03:30:28Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-15.json",
+  "source_url": null,
+  "content_hash": "sha256:3783277b186fbc49c3dc1224654c5a243111941e94ac42aec62aaafc9ff07d23",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Same paper imported twice (Zotero storage + ~/Downloads)'; status=Done; project=Pilot program; 2 comments; Priya's 10-09 pilot bug (duplicate PDFs, Zotero vs Downloads); mentions the Ostrowski paper by title"
+  }
+ },
+ {
+  "id": "item_034957",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-16.json",
+  "title": "PIL-16.json",
+  "content_type": "data",
+  "created_at": "2026-10-10T07:30:42Z",
+  "modified_at": "2026-10-11T23:00:16Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-16.json",
+  "source_url": null,
+  "content_hash": "sha256:dcfc9c206796f65ef98f1d07b4dc534fb10b295a1c79bacf4bdad9f0d21483a9",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Write import dedupe rules v0'; status=Done; project=Pilot program; 1 comments"
+  }
+ },
+ {
+  "id": "item_034958",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-17.json",
+  "title": "PIL-17.json",
+  "content_type": "data",
+  "created_at": "2026-10-09T22:30:27Z",
+  "modified_at": "2026-10-15T17:00:05Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-17.json",
+  "source_url": null,
+  "content_hash": "sha256:4ef0b4742468657a9808a7d8a5211087a51daf56c0c1ab910b63b836c4d794bb",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Make the provenance trail step 1 of the tour'; status=In Progress; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034959",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-18.json",
+  "title": "PIL-18.json",
+  "content_type": "data",
+  "created_at": "2026-10-10T17:40:16Z",
+  "modified_at": "2026-10-10T17:40:16Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-18.json",
+  "source_url": null,
+  "content_hash": "sha256:5e304a34e79e2b9a9ad1c27daa9fabbd46d1967ce405573d396b8faf06125a2f",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'After import, list skipped items with a reason'; status=Todo; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034960",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-19.json",
+  "title": "PIL-19.json",
+  "content_type": "data",
+  "created_at": "2026-10-10T18:30:58Z",
+  "modified_at": "2026-10-17T02:20:29Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-19.json",
+  "source_url": null,
+  "content_hash": "sha256:bb8adf165d21aa0a48a0f7f206cc0d15e316cb12be56f8dfa7c932e70d621cef",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Zotero: take title/authors/DOI from the parent item, not the attachment filename'; status=In Review; project=Pilot program; 1 comments"
+  }
+ },
+ {
+  "id": "item_034961",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-2.json",
+  "title": "PIL-2.json",
+  "content_type": "data",
+  "created_at": "2026-09-15T04:25:47Z",
+  "modified_at": "2026-09-19T00:10:51Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-2.json",
+  "source_url": null,
+  "content_hash": "sha256:8bcb8904a19e95dd4ce225c4ea4eaef64150a0e516f02d68d63950eb9eb7b6fe",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats",
+    "project_engelbart"
+   ],
+   "notes": "'Shortlist pilot users from the Berkeley research chats'; status=Done; project=Pilot program; 1 comments"
+  }
+ },
+ {
+  "id": "item_034962",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-20.json",
+  "title": "PIL-20.json",
+  "content_type": "data",
+  "created_at": "2026-10-09T22:40:45Z",
+  "modified_at": "2026-10-10T23:30:48Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-20.json",
+  "source_url": null,
+  "content_hash": "sha256:38e65da917ede151748f5331ca1974939c032dab87ec390e6658ca694fd44da2",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Downloads scan picks up partial downloads (.crdownload, .download, .part)'; status=Done; project=Pilot program; 1 comments"
+  }
+ },
+ {
+  "id": "item_034963",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-21.json",
+  "title": "PIL-21.json",
+  "content_type": "data",
+  "created_at": "2026-10-10T18:50:27Z",
+  "modified_at": "2026-10-10T18:50:27Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-21.json",
+  "source_url": null,
+  "content_hash": "sha256:671596444b1312a57adde18e5c147fcd9b2100266c37c99243b6f3b1208763a4",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Import stalls on very large PDFs'; status=Backlog; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034964",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-22.json",
+  "title": "PIL-22.json",
+  "content_type": "data",
+  "created_at": "2026-10-13T01:10:54Z",
+  "modified_at": "2026-10-13T16:30:06Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-22.json",
+  "source_url": null,
+  "content_hash": "sha256:6851c9581636ac7614703677249ee64f7f2d721be2f69fe8c6240367a60078d9",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Follow up with Priya: fixes + re-import'; status=Done; project=Pilot program; 1 comments"
+  }
+ },
+ {
+  "id": "item_034965",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-23.json",
+  "title": "PIL-23.json",
+  "content_type": "data",
+  "created_at": "2026-10-13T01:15:51Z",
+  "modified_at": "2026-10-14T07:40:33Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-23.json",
+  "source_url": null,
+  "content_hash": "sha256:a62b6c4289de31648fbcf9b760e1fb242e596d5d5147a41de17bbcd76f4be3f4",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Re-run Priya's import end to end after PIL-14 / PIL-15'; status=Done; project=Pilot program; 1 comments"
+  }
+ },
+ {
+  "id": "item_034966",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-24.json",
+  "title": "PIL-24.json",
+  "content_type": "data",
+  "created_at": "2026-10-13T19:40:38Z",
+  "modified_at": "2026-10-17T05:50:05Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-24.json",
+  "source_url": null,
+  "content_hash": "sha256:93621e488fb85aa0704a0396ea17f9c0f9c3a69b089b732fb1ccb143a33559d0",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Notion import (Markdown & CSV export zip)'; status=In Progress; project=Pilot program; 2 comments"
+  }
+ },
+ {
+  "id": "item_034967",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-25.json",
+  "title": "PIL-25.json",
+  "content_type": "data",
+  "created_at": "2026-10-13T19:45:10Z",
+  "modified_at": "2026-10-14T17:10:49Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-25.json",
+  "source_url": null,
+  "content_hash": "sha256:feb89091e4fd46ad3d80d016bd506ac13087a0873453e7a3079d827b66bea253",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Granola import'; status=Todo; project=Pilot program; 1 comments"
+  }
+ },
+ {
+  "id": "item_034968",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-26.json",
+  "title": "PIL-26.json",
+  "content_type": "data",
+  "created_at": "2026-10-13T19:50:40Z",
+  "modified_at": "2026-10-14T22:05:34Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-26.json",
+  "source_url": null,
+  "content_hash": "sha256:af55f6bd0494e551a61ece0159303f8602a6abaea7f877417340c25fd197f931",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Connect screen: replace 'Other' with named sources'; status=In Progress; project=Pilot program; 2 comments; Daniel Osei's 10-13 pilot ask (confusing 'Other' category)"
+  }
+ },
+ {
+  "id": "item_034969",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-27.json",
+  "title": "PIL-27.json",
+  "content_type": "data",
+  "created_at": "2026-10-13T20:00:04Z",
+  "modified_at": "2026-10-13T20:00:04Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-27.json",
+  "source_url": null,
+  "content_hash": "sha256:cb722431ce2bd322c55427b3e5225f6b25ccf2a1faae76d6ed98d3d15f30a654",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Connect screen: say what each source will read before connecting'; status=Todo; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034970",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-28.json",
+  "title": "PIL-28.json",
+  "content_type": "data",
+  "created_at": "2026-10-13T20:10:38Z",
+  "modified_at": "2026-10-13T20:10:38Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-28.json",
+  "source_url": null,
+  "content_hash": "sha256:5de87ff858c444e987f13187e5fc377bca5a54e16a868371cf8b2d8471e11415",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Obsidian: follow symlinked folders in the vault'; status=Backlog; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034971",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-29.json",
+  "title": "PIL-29.json",
+  "content_type": "data",
+  "created_at": "2026-10-13T21:30:39Z",
+  "modified_at": "2026-10-14T20:10:29Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-29.json",
+  "source_url": null,
+  "content_hash": "sha256:b2c05e33bbc5c2b6415a6484800a32d780116312f5bf2a06f6038becb83e0842",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Claude chats imported twice (export zip + desktop app cache)'; status=Done; project=Pilot program; 1 comments"
+  }
+ },
+ {
+  "id": "item_034972",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-3.json",
+  "title": "PIL-3.json",
+  "content_type": "data",
+  "created_at": "2026-09-15T17:00:21Z",
+  "modified_at": "2026-09-25T19:30:36Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-3.json",
+  "source_url": null,
+  "content_hash": "sha256:e25a4daa017962a9bc7393304468674ffe2d7931d91036e88d106957f1b658e2",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "'Consent + data-handling one-pager for pilots'; status=Done; project=Pilot program; 2 comments"
+  }
+ },
+ {
+  "id": "item_034973",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-30.json",
+  "title": "PIL-30.json",
+  "content_type": "data",
+  "created_at": "2026-10-14T17:30:04Z",
+  "modified_at": "2026-10-14T17:30:04Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-30.json",
+  "source_url": null,
+  "content_hash": "sha256:8bda3cb93e6309cece8890a0c0081e4848fd4667ed65798e6b9a8862cb9e6c88",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'ChatGPT shared links create duplicate conversations'; status=Todo; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034974",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-31.json",
+  "title": "PIL-31.json",
+  "content_type": "data",
+  "created_at": "2026-10-13T22:00:42Z",
+  "modified_at": "2026-10-13T22:00:42Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-31.json",
+  "source_url": null,
+  "content_hash": "sha256:6afb603e7c7d0d7c874ab572f1e841beb04e36d4b6f3b5aba2feb09b3b2ee7ab",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Google Drive shortcuts import as empty files'; status=Backlog; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034975",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-32.json",
+  "title": "PIL-32.json",
+  "content_type": "data",
+  "created_at": "2026-10-14T16:00:32Z",
+  "modified_at": "2026-10-14T18:00:55Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-32.json",
+  "source_url": null,
+  "content_hash": "sha256:d4fafba84086b6e72a24d0e868f5b6d8ced55e477e67e6c50da8dc0c658af267",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Pilot feedback synthesis (Priya + Daniel)'; status=In Progress; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034976",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-33.json",
+  "title": "PIL-33.json",
+  "content_type": "data",
+  "created_at": "2026-10-14T16:10:44Z",
+  "modified_at": "2026-10-14T16:10:44Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-33.json",
+  "source_url": null,
+  "content_hash": "sha256:41b4d7f9750a4effa023d36db650b13fdfbf54385d443124192fc42c6af7a6dd",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats",
+    "project_engelbart"
+   ],
+   "notes": "'Recruit pilot 3'; status=Todo; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034977",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-34.json",
+  "title": "PIL-34.json",
+  "content_type": "data",
+  "created_at": "2026-10-13T19:30:12Z",
+  "modified_at": "2026-10-14T22:00:44Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-34.json",
+  "source_url": null,
+  "content_hash": "sha256:39e1bfd0760c1010d742d31f41aa84bcaad60a1c938548591c0a7498915f1e52",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "'Send Daniel's gift card'; status=Done; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034978",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-35.json",
+  "title": "PIL-35.json",
+  "content_type": "data",
+  "created_at": "2026-10-15T00:30:46Z",
+  "modified_at": "2026-10-15T00:30:46Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-35.json",
+  "source_url": null,
+  "content_hash": "sha256:81c241b55fbcf1fa6b215619811916cfb29a6e8640452e23a2082c91846960f7",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "'Pilot metrics snapshot for Marcus every 2 weeks'; status=Todo; project=None; 0 comments; company follow-up from the second Marcus Oyelaran call (2026-10-14)"
+  }
+ },
+ {
+  "id": "item_034979",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-36.json",
+  "title": "PIL-36.json",
+  "content_type": "data",
+  "created_at": "2026-10-15T00:35:18Z",
+  "modified_at": "2026-10-15T17:15:26Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-36.json",
+  "source_url": null,
+  "content_hash": "sha256:93f7ca2f27ffb4f8140289cc55bc9a64c811ca0bfb3ed8533d0870ca9be242ac",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "'Define 'converted pilot''; status=Done; project=Pilot program; 3 comments"
+  }
+ },
+ {
+  "id": "item_034980",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-37.json",
+  "title": "PIL-37.json",
+  "content_type": "data",
+  "created_at": "2026-10-10T17:25:13Z",
+  "modified_at": "2026-10-10T17:25:13Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-37.json",
+  "source_url": null,
+  "content_hash": "sha256:7f1ef85081eda1f1490763db5d8eb694364aa7ca1d73edfec5070f9223898ec1",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Link versions of the same paper instead of merging (arXiv v1 vs camera-ready)'; status=Backlog; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034981",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-38.json",
+  "title": "PIL-38.json",
+  "content_type": "data",
+  "created_at": "2026-10-15T17:30:29Z",
+  "modified_at": "2026-10-15T17:30:29Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-38.json",
+  "source_url": null,
+  "content_hash": "sha256:9c5864f4eb2f3b4e76c4b0d373cd8d6be67f13100e3040becfbafa8f27813d25",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'First-run: explain the provenance trail in one sentence'; status=Todo; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034982",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-39.json",
+  "title": "PIL-39.json",
+  "content_type": "data",
+  "created_at": "2026-09-15T17:30:31Z",
+  "modified_at": "2026-10-15T17:40:59Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-39.json",
+  "source_url": null,
+  "content_hash": "sha256:267c3de440fc150fc464a2214da41b45eb17ebada73796f7334a423c237b21a6",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Evernote ENEX import'; status=Canceled; project=Pilot program; 1 comments"
+  }
+ },
+ {
+  "id": "item_034983",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-4.json",
+  "title": "PIL-4.json",
+  "content_type": "data",
+  "created_at": "2026-09-16T18:00:56Z",
+  "modified_at": "2026-09-30T08:40:20Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-4.json",
+  "source_url": null,
+  "content_hash": "sha256:c7c601234662407ac93fb079a23bbcd3b010b38d55f4ca0a0b6d7e832db42c89",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Signed + notarized macOS build for pilots'; status=Done; project=Pilot program; 2 comments"
+  }
+ },
+ {
+  "id": "item_034984",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-40.json",
+  "title": "PIL-40.json",
+  "content_type": "data",
+  "created_at": "2026-10-13T20:20:30Z",
+  "modified_at": "2026-10-14T01:00:37Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-40.json",
+  "source_url": null,
+  "content_hash": "sha256:1c151f1209e4f95faa32a7895c5c2d7ab688ceaccacc4d2ce7f879a8ecd4552d",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Same PDF twice from ~/Desktop/papers and ~/Downloads'; status=Duplicate; project=Pilot program; 1 comments"
+  }
+ },
+ {
+  "id": "item_034985",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-5.json",
+  "title": "PIL-5.json",
+  "content_type": "data",
+  "created_at": "2026-09-16T18:05:51Z",
+  "modified_at": "2026-10-03T20:20:17Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-5.json",
+  "source_url": null,
+  "content_hash": "sha256:ad38f2a72815045414d73127bf8a967fe3bc8f959b0f1bc931a30798a7a41252",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Dry-run the full onboarding on a fresh macOS user account'; status=Done; project=Pilot program; 1 comments"
+  }
+ },
+ {
+  "id": "item_034986",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-6.json",
+  "title": "PIL-6.json",
+  "content_type": "data",
+  "created_at": "2026-09-18T17:00:05Z",
+  "modified_at": "2026-09-27T18:15:50Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-6.json",
+  "source_url": null,
+  "content_hash": "sha256:237f9e1cabc76606cf56909c910e48677d39af7efe50e56285c593580d42d16b",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Import log: per-source found / imported / skipped / duplicate counts'; status=Done; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034987",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-7.json",
+  "title": "PIL-7.json",
+  "content_type": "data",
+  "created_at": "2026-09-20T19:00:56Z",
+  "modified_at": "2026-09-25T01:00:33Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-7.json",
+  "source_url": null,
+  "content_hash": "sha256:f7db2b2f446868274e192f33c28fa72f7588b667e1a0521fd7996dc307e5b90d",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Pilot feedback form'; status=Done; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034988",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-8.json",
+  "title": "PIL-8.json",
+  "content_type": "data",
+  "created_at": "2026-09-19T00:20:09Z",
+  "modified_at": "2026-09-26T17:05:30Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-8.json",
+  "source_url": null,
+  "content_hash": "sha256:bf5a1ad83d1ee2003001a2aa179aa9b51e185fe54b32b056a700239dc8250801",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "'Schedule pilot sessions'; status=Done; project=Pilot program; 0 comments"
+  }
+ },
+ {
+  "id": "item_034989",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/issues/PIL-9.json",
+  "title": "PIL-9.json",
+  "content_type": "data",
+  "created_at": "2026-09-20T19:10:36Z",
+  "modified_at": "2026-10-14T22:00:44Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/issues/PIL-9.json",
+  "source_url": null,
+  "content_hash": "sha256:cbe3a5338fa65e7661cc1cf06d15dba94c8f1a24a73dbad159f17f10c476b29d",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/issues/<id>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "'Pilot thank-you gift cards ($100)'; status=Done; project=Pilot program; 1 comments"
+  }
+ },
+ {
+  "id": "item_034990",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/projects/P-PIL-1.json",
+  "title": "P-PIL-1.json",
+  "content_type": "data",
+  "created_at": "2026-09-15T03:20:41Z",
+  "modified_at": "2026-10-17T00:40:02Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/projects/P-PIL-1.json",
+  "source_url": null,
+  "content_hash": "sha256:4934078bb6b26563919c43be61553344f4a40f3632a38547d4195b44e17ac0c0",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/projects/P-MATH-<n>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "project 'Pilot program' (team Pilots): 4 milestones, 2 status updates"
+  }
+ },
+ {
+  "id": "item_034991",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/workspace/custom_views.json",
+  "title": "custom_views.json",
+  "content_type": "data",
+  "created_at": "2026-10-10T19:00:00Z",
+  "modified_at": "2026-10-10T19:00:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/workspace/custom_views.json",
+  "source_url": null,
+  "content_hash": "sha256:7a705a2abb7dc2d16494c44f27c868feda40e3dfaf63777a490b4f61dffad143",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/workspace/<name>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "saved view: open pilot bugs"
+  }
+ },
+ {
+  "id": "item_034992",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/workspace/cycles.json",
+  "title": "cycles.json",
+  "content_type": "data",
+  "created_at": "2026-10-05T05:00:00Z",
+  "modified_at": "2026-10-17T08:00:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/workspace/cycles.json",
+  "source_url": null,
+  "content_hash": "sha256:c2adaa9bca1e08043e3fde5d5dc81e241bb77886573b6b228a10f7074cf2d7a0",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/workspace/<name>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "Pilots team cycles"
+  }
+ },
+ {
+  "id": "item_034993",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/workspace/labels.json",
+  "title": "labels.json",
+  "content_type": "data",
+  "created_at": "2026-09-15T03:30:00Z",
+  "modified_at": "2026-09-20T18:00:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/workspace/labels.json",
+  "source_url": null,
+  "content_hash": "sha256:da1de55430229e58858733a174eefa8160402c63f733a942586cff12862ed1e5",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/workspace/<name>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "issue labels for the Pilots team"
+  }
+ },
+ {
+  "id": "item_034994",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/workspace/statuses.json",
+  "title": "statuses.json",
+  "content_type": "data",
+  "created_at": "2026-09-15T03:04:00Z",
+  "modified_at": "2026-09-15T03:04:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/workspace/statuses.json",
+  "source_url": null,
+  "content_hash": "sha256:06f2892f88d79377af818394d09d7ac48792b92ff97f13f3ad338ba737b82798",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/workspace/<name>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "workflow states for the Pilots team"
+  }
+ },
+ {
+  "id": "item_034995",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/workspace/teams.json",
+  "title": "teams.json",
+  "content_type": "data",
+  "created_at": "2026-09-15T03:04:00Z",
+  "modified_at": "2026-10-14T01:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/workspace/teams.json",
+  "source_url": null,
+  "content_hash": "sha256:e5f62ed7cd01f717f594717c1cb24c8bf127580ee6775ac0867767bde9f1e5e7",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/workspace/<name>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "team list: synthetic Pilots team (PIL)"
+  }
+ },
+ {
+  "id": "item_034996",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/workspace/users.json",
+  "title": "users.json",
+  "content_type": "data",
+  "created_at": "2026-09-15T03:12:00Z",
+  "modified_at": "2026-10-17T12:41:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/workspace/users.json",
+  "source_url": null,
+  "content_hash": "sha256:fcc8bfc416602699d53cbcb189f3f3e54043b9eeee824779a3a39e798835a863",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/workspace/<name>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "workspace members"
+  }
+ },
+ {
+  "id": "item_034997",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "linear",
+  "source_id": "Mathetic/workspace/workspace.json",
+  "title": "workspace.json",
+  "content_type": "data",
+  "created_at": "2026-09-15T03:02:00Z",
+  "modified_at": "2026-09-15T03:02:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/linear/Mathetic/workspace/workspace.json",
+  "source_url": null,
+  "content_hash": "sha256:31d66b90b78dbaf0eb9552aa87746282dd0525329b8480673ce88c490ae361c1",
+  "library_item_id": null,
+  "modeled_on": "authentic/linear/Mathetic/workspace/<name>.json shape (Linear MCP export)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Mathetic workspace (linear.app/mathetic)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "workspace metadata (synthetic export)"
+  }
+ }
+]

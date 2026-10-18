@@ -1,0 +1,34 @@
+<!-- saved from url=(0057)https://agentcraft.notes/posts/writing-a-pre-compact-hook -->
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Writing a Pre-Compact Hook That Keeps What Matters – Agentcraft Notes</title>
+<meta name="description" content="Coding agents summarize their context when it fills up. A hook can decide what survives.">
+<meta name="author" content="Sven Aldridge">
+<meta property="og:title" content="Writing a Pre-Compact Hook That Keeps What Matters – Agentcraft Notes">
+<meta property="og:site_name" content="Agentcraft Notes">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://agentcraft.notes/posts/writing-a-pre-compact-hook">
+<meta property="article:published_time" content="2026-07-30T11:00:00-04:00">
+<link rel="canonical" href="https://agentcraft.notes/posts/writing-a-pre-compact-hook">
+<link rel="stylesheet" href="./Agentcraft_Notes_files/main.css">
+<style>body{font-family:Georgia,serif;max-width:720px;margin:0 auto;padding:24px;line-height:1.6;color:#222}header nav a{margin-right:14px}
+table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:4px 8px}blockquote{border-left:3px solid #999;margin-left:0;padding-left:14px;color:#555}</style>
+</head>
+<body>
+<header><a class="site-title" href="/">Agentcraft Notes</a>
+<nav><a href="/">Home</a><a href="/archive">Archive</a><a href="/about">About</a><a href="/subscribe">Subscribe</a></nav></header>
+<main><article>
+<h1>Writing a Pre-Compact Hook That Keeps What Matters</h1>
+<p class="byline">By Sven Aldridge · <time datetime="2026-07-30">July 30, 2026</time></p>
+<p>Long coding sessions eventually fill the context window, and the agent compacts: it replaces the history with a summary. Summaries lose the details you need most, like the exact name of a failing test or an environment variable.</p>
+<h2>Hooks</h2>
+<p>Most agent CLIs expose a hook that runs before compaction. A hook script receives the session state and can add instructions to the summary prompt.</p>
+<h2>What to keep verbatim</h2>
+<ul><li>The current task in one line, written by the human</li><li>File paths touched in this session</li><li>Failing test names and the last error message</li><li>Environment variable names (never values)</li></ul>
+<h2>Measuring it</h2>
+<p>Run the same task several times with and without the hook and record context size before and after compaction and whether the task finished. Six runs will tell you if something is badly wrong; you need more to compare two good versions.</p>
+</article></main>
+<footer><p>© 2026 Agentcraft Notes. All rights reserved.</p></footer>
+<script src="./Agentcraft_Notes_files/analytics.js" async></script>
+</body></html>

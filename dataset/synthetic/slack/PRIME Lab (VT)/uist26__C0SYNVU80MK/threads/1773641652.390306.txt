@@ -1,0 +1,19 @@
+=== THREAD PARENT MESSAGE ===
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-03-15 23:14:12 PDT
+Message TS: 1773641652.390306
+first full draft is in overleaf. 11 pages, over by 1. related work is rough
+
+=== THREAD REPLIES (2 total) ===
+
+--- Reply 1 of 2 ---
+From: Yan Chen (U0SYNWFLRZV)
+Time: 2026-03-16 06:20:14 PDT
+Message TS: 1773667214.775177
+I'll read today.
+
+--- Reply 2 of 2 ---
+From: Yan Chen (U0SYNWFLRZV)
+Time: 2026-03-16 15:05:17 PDT
+Message TS: 1773698717.620436
+Comments are in the PDF. Main issue: the contribution list mixes the system and the dataset. Lead with the system.

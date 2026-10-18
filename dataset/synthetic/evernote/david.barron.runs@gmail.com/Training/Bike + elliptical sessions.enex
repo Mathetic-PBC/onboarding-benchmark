@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20260209T010500Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Bike + elliptical sessions</title>
+    <created>20260209T004500Z</created>
+    <updated>20260209T010500Z</updated>
+    <tag>cross-training</tag>
+    <tag>bike</tag>
+    <tag>elliptical</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>Cross-training menu for when running volume is capped (shins were cranky last week).</div><div><br/></div><h3>Trainer (dumb trainer + HR strap)</h3><ul><li>75' Z2 @ HR 136-148, cadence 85-90. Gear 50x17 on the trainer ~ 155 W estimate.</li><li>60' with 6 x 3' high cadence (100+) / 2' normal.</li><li>90' long Z2 on Saturdays when the long run moves to Sunday.</li></ul><div><br/></div><h3>Elliptical (gym)</h3><ul><li>45-60' Z2 = level 9, ~150 strides/min, HR 140-150.</li><li>Counts as roughly 0.8x a run for "hours" in the plan, so 60' elliptical logged as 48'.</li></ul><div><br/></div><div>Feb so far: 3 trainer sessions, 2 elliptical. Shins fine now.</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

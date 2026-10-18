@@ -1,0 +1,42 @@
+{
+ "conversation": {
+  "conversationId": "f0e47e19-e801-43fe-89af-12fae285d37d",
+  "title": "Blundering In Time Trouble",
+  "createTime": "2026-07-13T02:15:00.000Z",
+  "modifyTime": "2026-07-13T02:16:46.925Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "47fb2f3f-cb33-4e46-a517-bf8af84c75d5",
+   "message": "i keep blundering in 10+0 when i get under 1 min. any actual fix or just play more",
+   "sender": "human",
+   "createTime": "2026-07-13T02:15:00.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "61412502-3fc9-4806-aa82-ee2d36ff8176",
+   "message": "\"Play more\" helps, but a few habits fix most time-scramble blunders:\n\n1. **Don't get there.** Spend less in the opening (play your prep fast) and less on obvious recaptures. Set a rough budget: be at ~6 min by move 20.\n2. **Under 1 minute, change the decision rule.** Stop calculating; play safe, simple moves. Checks, captures, threats only for *your opponent* — just one look: \"is anything hanging after my move?\"\n3. **Premove carefully.** Only in forced recaptures or obvious pawn pushes. Premoves cause half of scramble blunders.\n4. **Simplify when ahead.** Trade pieces, not pawns.\n5. **Practice it:** play a few 3+2 games a week — you'll be more comfortable when the clock is short.\n\nAlso: if you're consistently in time trouble, try 15+10. The increment trains the habit of using time evenly.",
+   "sender": "assistant",
+   "createTime": "2026-07-13T02:15:09.839Z",
+   "parentResponseId": "47fb2f3f-cb33-4e46-a517-bf8af84c75d5",
+   "model": "grok-4"
+  },
+  {
+   "responseId": "4d05cdc9-e9d2-429b-8805-ea935f4b9faa",
+   "message": "yeah i def spend 3 min on move 8 for no reason lol",
+   "sender": "human",
+   "createTime": "2026-07-13T02:16:36.839Z",
+   "parentResponseId": "61412502-3fc9-4806-aa82-ee2d36ff8176"
+  },
+  {
+   "responseId": "95aa3097-3bd9-4fea-b9fb-c61e0cc593c8",
+   "message": "That's the pattern. If you spend 3 minutes in the opening, write down what you were unsure about after the game and look it up — that converts the time sink into prep for next time.",
+   "sender": "assistant",
+   "createTime": "2026-07-13T02:16:46.925Z",
+   "parentResponseId": "4d05cdc9-e9d2-429b-8805-ea935f4b9faa",
+   "model": "grok-4"
+  }
+ ]
+}

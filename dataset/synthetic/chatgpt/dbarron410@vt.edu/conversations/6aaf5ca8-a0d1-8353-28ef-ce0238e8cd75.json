@@ -1,0 +1,219 @@
+{
+ "title": "How noise cancelling works",
+ "create_time": 1789877416.12,
+ "update_time": 1789877574.0056362,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "db30e026-e1e4-4d76-875d-0c7297ef8048"
+   ]
+  },
+  "db30e026-e1e4-4d76-875d-0c7297ef8048": {
+   "id": "db30e026-e1e4-4d76-875d-0c7297ef8048",
+   "message": {
+    "id": "db30e026-e1e4-4d76-875d-0c7297ef8048",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1789877416.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "how does active noise cancelling actually work, short"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_8fd2c00ce734a86e7bedd6be8c",
+     "message_source": null,
+     "turn_exchange_id": "367381d8-0ba2-4fd2-97ac-d6ce1c3e909f",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "d2a3abbb-75cd-4fe2-89c6-c25b59f5f1a7"
+   ]
+  },
+  "d2a3abbb-75cd-4fe2-89c6-c25b59f5f1a7": {
+   "id": "d2a3abbb-75cd-4fe2-89c6-c25b59f5f1a7",
+   "message": {
+    "id": "d2a3abbb-75cd-4fe2-89c6-c25b59f5f1a7",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1789877427.716,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Microphones on the headphones pick up incoming ambient sound. A chip generates a sound wave that is the inverse (180° out of phase) of that noise and plays it through the speaker alongside your music. The two waves cancel each other at your ear (destructive interference).\n\nIt works best on steady low-frequency noise (plane engines, AC hum) because those are predictable and the processing has time to keep up. Sudden or high-pitched sounds (voices, clatter) are harder, so the ear cups' passive isolation does more of that work."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_8fd2c00ce734a86e7bedd6be8c",
+     "message_type": "next",
+     "turn_exchange_id": "367381d8-0ba2-4fd2-97ac-d6ce1c3e909f",
+     "model_slug": "gpt-5-6",
+     "default_model_slug": "gpt-5-6",
+     "resolved_model_slug": "gpt-5-6",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "db30e026-e1e4-4d76-875d-0c7297ef8048"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "db30e026-e1e4-4d76-875d-0c7297ef8048",
+   "children": [
+    "392ec38d-1b6c-4bd7-8a5c-84d6e0b0abf7"
+   ]
+  },
+  "392ec38d-1b6c-4bd7-8a5c-84d6e0b0abf7": {
+   "id": "392ec38d-1b6c-4bd7-8a5c-84d6e0b0abf7",
+   "message": {
+    "id": "392ec38d-1b6c-4bd7-8a5c-84d6e0b0abf7",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1789877565.716,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "why does it feel like pressure in my ears"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_80065c8bcd22848833b9446127",
+     "message_source": null,
+     "turn_exchange_id": "825cf00c-c848-4771-b457-c6412d3442c8",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "d2a3abbb-75cd-4fe2-89c6-c25b59f5f1a7",
+   "children": [
+    "d9d22120-b49e-49f8-9725-dbdc591c9134"
+   ]
+  },
+  "d9d22120-b49e-49f8-9725-dbdc591c9134": {
+   "id": "d9d22120-b49e-49f8-9725-dbdc591c9134",
+   "message": {
+    "id": "d9d22120-b49e-49f8-9725-dbdc591c9134",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1789877571.898,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "The cancelled low-frequency rumble is a sound your brain normally associates with a pressure change (like on a plane or in an elevator), so its sudden absence can register as \"pressure\" even though the actual air pressure in your ear is unchanged. Many people adapt in a few days; some headphones let you lower ANC strength, which helps."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_80065c8bcd22848833b9446127",
+     "message_type": "next",
+     "turn_exchange_id": "825cf00c-c848-4771-b457-c6412d3442c8",
+     "model_slug": "gpt-5-6",
+     "default_model_slug": "gpt-5-6",
+     "resolved_model_slug": "gpt-5-6",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "392ec38d-1b6c-4bd7-8a5c-84d6e0b0abf7"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "392ec38d-1b6c-4bd7-8a5c-84d6e0b0abf7",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "d9d22120-b49e-49f8-9725-dbdc591c9134",
+ "plugin_ids": null,
+ "conversation_id": "6aaf5ca8-a0d1-8353-28ef-ce0238e8cd75",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-6",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "6aaf5ca8-a0d1-8353-28ef-ce0238e8cd75"
+}

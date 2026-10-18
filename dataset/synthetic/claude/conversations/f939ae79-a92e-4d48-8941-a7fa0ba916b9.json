@@ -1,0 +1,163 @@
+{
+ "uuid": "f939ae79-a92e-4d48-8941-a7fa0ba916b9",
+ "name": "Second Marcus call: SAFE questions",
+ "summary": "",
+ "model": "claude-fable-5-1",
+ "created_at": "2026-10-13T04:39:58.132941Z",
+ "updated_at": "2026-10-15T04:43:49.761550Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true,
+  "paprika_mode": "auto",
+  "thinking_mode": "auto",
+  "chat_memory_mode": "enabled",
+  "enabled_artifacts_attachments": false
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "auto",
+ "chat_messages": [
+  {
+   "uuid": "72721ec2-294c-4bb9-b1a1-95b781c7a417",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-10-13T04:40:00.000000Z",
+     "stop_timestamp": "2026-10-13T04:40:00.000000Z",
+     "type": "text",
+     "text": "second call with marcus on wed 10/14. we have 2 pilots (one done 10/9, one tues 10/13). he might talk about putting money in our pre-seed SAFE. i dont really understand SAFE terms. explain cap vs discount like im smart but busy. no legal advice obviously",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-10-13T04:40:00.000000Z",
+   "updated_at": "2026-10-13T04:40:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "36ebdb3f-cb08-49ae-b97b-321951e20cac",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-10-13T04:40:02.000000Z",
+     "stop_timestamp": "2026-10-13T04:40:22.343000Z",
+     "type": "text",
+     "text": "A SAFE is an agreement where he gives you money now and gets shares later, when you raise a priced round. The two main terms decide **how many shares** he gets then:\n\n- **Valuation cap**: the maximum valuation at which his money converts. If the cap is $8M and your priced round is at $16M, he converts as if the company were worth $8M, so he gets twice the shares per dollar the new investors get. The cap rewards him for coming in early.\n- **Discount**: a percentage off the price new investors pay, e.g. 20%. If the round price is $1.00/share, he pays $0.80.\n\nIf a SAFE has both, he gets whichever gives him more shares. Many recent SAFEs are **post-money** cap only (the standard YC form), which makes the math clearer: his ownership at conversion ≈ investment / post-money cap. $50k on a $10M post-money cap ≈ 0.5%.\n\nThings to know before Wednesday:\n- What cap you and Hudson are aiming for, and why (don't let him set it by default).\n- Whether others are in the round, since he'll ask.\n- For actual terms, have a startup lawyer look before signing anything.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-10-13T04:40:22.343000Z",
+   "updated_at": "2026-10-13T04:40:22.343000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "72721ec2-294c-4bb9-b1a1-95b781c7a417"
+  },
+  {
+   "uuid": "4b981947-55a8-4a6e-96f8-e2aa8192c8cf",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-10-13T04:43:03.343000Z",
+     "stop_timestamp": "2026-10-13T04:43:03.343000Z",
+     "type": "text",
+     "text": "what if he says \"i'm in for 50 if the pilots convert\". what does convert even mean here, we have 2 pilots",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-10-13T04:43:03.343000Z",
+   "updated_at": "2026-10-13T04:43:03.343000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "36ebdb3f-cb08-49ae-b97b-321951e20cac"
+  },
+  {
+   "uuid": "5805c3c6-4bde-41d1-99fb-22535ff7a28a",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-10-13T04:43:05.343000Z",
+     "stop_timestamp": "2026-10-13T04:43:23.793000Z",
+     "type": "text",
+     "text": "Then make \"convert\" concrete together, on the call, so it doesn't stay vague:\n\n- Ask him: \"What would converting look like to you: weekly use, paying, or a lab signing up?\"\n- Offer your own definition from the first call: weekly use, 3 of 4 weeks, for pilot users after onboarding.\n- Agree on a date to check it (e.g., end of November) and how many pilots (two isn't enough; say you're onboarding more).\n\nWrite it down and send it back to him in the follow-up email. A conditional yes with a vague condition is easy to lose.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-10-13T04:43:23.793000Z",
+   "updated_at": "2026-10-13T04:43:23.793000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "4b981947-55a8-4a6e-96f8-e2aa8192c8cf"
+  },
+  {
+   "uuid": "b77cfc0a-7efb-4998-ba0d-0b85a1c72d8b",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-10-15T04:43:33.793000Z",
+     "stop_timestamp": "2026-10-15T04:43:33.793000Z",
+     "type": "text",
+     "text": "call done. he said interested in $50k into the SAFE if pilots convert, wants to see weekly use from at least 3 pilot users by end of nov",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2026-10-15T04:43:33.793000Z",
+   "updated_at": "2026-10-15T04:43:33.793000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "5805c3c6-4bde-41d1-99fb-22535ff7a28a"
+  },
+  {
+   "uuid": "d7f58950-72fe-48f3-a20b-197d1a6914e1",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-10-15T04:43:35.793000Z",
+     "stop_timestamp": "2026-10-15T04:43:48.406000Z",
+     "type": "text",
+     "text": "That's a specific, achievable bar. Next steps:\n\n1. Follow-up email today: thank him, restate \"$50k into the pre-seed SAFE if at least 3 pilot users show weekly use by end of November,\" and say you'll send a short update every two weeks.\n2. Line up 3–5 more pilots in the next two weeks, because two users can't give you three.\n3. Build the weekly-use metric into the product now (simple event log), so the November update is a number, not a story.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2026-10-15T04:43:48.406000Z",
+   "updated_at": "2026-10-15T04:43:48.406000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "b77cfc0a-7efb-4998-ba0d-0b85a1c72d8b"
+  }
+ ],
+ "current_leaf_message_uuid": "d7f58950-72fe-48f3-a20b-197d1a6914e1"
+}

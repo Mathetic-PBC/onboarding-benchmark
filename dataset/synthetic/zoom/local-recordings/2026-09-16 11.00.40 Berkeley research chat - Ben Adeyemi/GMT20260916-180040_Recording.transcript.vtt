@@ -1,0 +1,277 @@
+WEBVTT
+
+1
+00:00:02.173 --> 00:00:04.580
+David Barron: Hey Ben, can you hear me?
+
+2
+00:00:05.381 --> 00:00:10.443
+Ben Adeyemi: Yep, loud and clear. Sorry, I'm two minutes late, the seminar ran over.
+
+3
+00:00:11.178 --> 00:00:16.393
+David Barron: No worries at all. Before we start, is it okay if I record?
+
+4
+00:00:16.822 --> 00:00:22.330
+David Barron: It's just for my notes, I won't share it outside me and my co-founder.
+
+5
+00:00:23.068 --> 00:00:24.557
+Ben Adeyemi: Yeah, that's fine.
+
+6
+00:00:25.140 --> 00:00:33.876
+David Barron: Great, thanks. So, um, quick context. I'm on leave from a PhD at Virginia Tech, and I'm building a research notebook with a friend.
+
+7
+00:00:34.033 --> 00:00:38.558
+David Barron: The idea is a notebook that remembers where your thoughts came from.
+
+8
+00:00:38.814 --> 00:00:47.620
+David Barron: So these chats are me trying to understand how people actually work, not a pitch. I'm not going to try to sell you anything.
+
+9
+00:00:48.112 --> 00:00:49.292
+Ben Adeyemi: Ha, okay. Good.
+
+10
+00:00:50.381 --> 00:00:55.934
+David Barron: So maybe start with what you're working on right now, at a high level.
+
+11
+00:00:56.694 --> 00:01:01.878
+Ben Adeyemi: Sure. I'm a postdoc in stats. Mostly Bayesian hierarchical models for, um, small-area estimation.
+
+12
+00:01:02.288 --> 00:01:11.366
+Ben Adeyemi: Right now it's county-level estimates of health insurance coverage, where some counties have like twelve survey respondents and you have to borrow strength from neighbors.
+
+13
+00:01:20.219 --> 00:01:26.444
+David Barron: Okay. And what does a working day look like? Like, where does the work physically live?
+
+14
+00:01:27.799 --> 00:01:36.253
+Ben Adeyemi: Physically, it's a Quarto project. R, Stan, a bunch of Quarto documents. Everything's in a git repo. Then there's Zotero for papers.
+
+15
+00:01:36.663 --> 00:01:45.847
+Ben Adeyemi: And then there's a file called notes dot md at the root of every project, which is the honest record of what I was thinking.
+
+16
+00:01:46.630 --> 00:01:49.731
+David Barron: Oh, interesting. Tell me about notes dot md.
+
+17
+00:01:50.240 --> 00:01:57.386
+Ben Adeyemi: So it's just a dated log. Every day I work on the project I write a line or two.
+
+18
+00:01:57.545 --> 00:02:04.485
+Ben Adeyemi: "Tried the BYM2 prior, divergences in the north region, suspect the scaling." Stuff like that. It's terrible prose.
+
+19
+00:02:04.692 --> 00:02:11.906
+Ben Adeyemi: But six months later, it's the only thing that tells me why the model looks the way it does.
+
+20
+00:02:13.351 --> 00:02:16.742
+David Barron: How often do you actually go back to it?
+
+21
+00:02:17.636 --> 00:02:23.563
+Ben Adeyemi: Mostly when a reviewer asks "why did you choose this prior". Which is, like, every paper.
+
+22
+00:02:24.035 --> 00:02:31.220
+Ben Adeyemi: And then I'm grepping notes dot md and git log at the same time trying to reconstruct the decision.
+
+23
+00:02:32.872 --> 00:02:36.936
+David Barron: Can you walk me through the last time that happened?
+
+24
+00:02:38.305 --> 00:02:45.739
+Ben Adeyemi: Yeah, um, a few months ago. Reviewer asked why we used a particular spatial structure instead of the simpler one.
+
+25
+00:02:46.174 --> 00:02:55.198
+Ben Adeyemi: And I knew there was a reason. I found the git commit where I switched, the message just said "switch to BYM2, see notes".
+
+26
+00:02:55.587 --> 00:03:02.349
+Ben Adeyemi: And notes dot md for that week said "per conversation with Lauren". And I don't remember the conversation.
+
+27
+00:03:03.410 --> 00:03:04.609
+David Barron: Oh no.
+
+28
+00:03:05.703 --> 00:03:06.803
+Ben Adeyemi: Right.
+
+29
+00:03:07.248 --> 00:03:16.866
+Ben Adeyemi: So then I'm searching my Slack DMs with my advisor, my email, and eventually I find it in a Slack thread where she linked a paper.
+
+30
+00:03:17.017 --> 00:03:21.888
+Ben Adeyemi: That paper was the reason. Took me, I don't know, forty minutes.
+
+31
+00:03:22.833 --> 00:03:27.903
+David Barron: So the chain was commit, notes file, a person's name, Slack, a paper.
+
+32
+00:03:28.310 --> 00:03:32.387
+Ben Adeyemi: Exactly. Five hops. And each hop is a different app.
+
+33
+00:03:34.046 --> 00:03:40.936
+David Barron: That's, um, honestly that's almost exactly the thing we keep hearing. Do you use any AI tools in this?
+
+34
+00:03:45.343 --> 00:03:53.797
+Ben Adeyemi: Some. I use ChatGPT for Stan syntax and for debugging divergences, and sometimes Claude for writing. But those chats are a black hole.
+
+35
+00:03:54.026 --> 00:04:01.670
+Ben Adeyemi: I'll have a really good explanation of some reparameterization trick in a chat and then I can never find it again.
+
+36
+00:04:02.760 --> 00:04:07.966
+David Barron: Do you ever copy things out of the chats into notes dot md?
+
+37
+00:04:13.120 --> 00:04:20.287
+Ben Adeyemi: Sometimes. If it's important I'll paste a snippet with "from ChatGPT" in front of it. But I'm not consistent.
+
+38
+00:04:20.615 --> 00:04:26.740
+Ben Adeyemi: And I'm a bit wary of it, because half the time the explanation is subtly wrong.
+
+39
+00:04:36.564 --> 00:04:41.403
+David Barron: Yeah. Okay. What about papers? How do papers connect to the work?
+
+40
+00:04:42.272 --> 00:04:46.682
+Ben Adeyemi: Zotero, with a collection per project. I highlight in the PDF reader.
+
+41
+00:04:46.926 --> 00:04:52.600
+Ben Adeyemi: But the link from a highlight to a modeling decision is only in my head.
+
+42
+00:04:52.848 --> 00:04:57.500
+Ben Adeyemi: Or in notes dot md if I was being good that day.
+
+43
+00:05:04.637 --> 00:05:11.212
+David Barron: If you could ask your past self one question at any moment, what would it usually be?
+
+44
+00:05:12.247 --> 00:05:21.372
+Ben Adeyemi: "Why." Why this prior, why this exclusion, why did I drop those three counties. The what is in the code. The why is scattered.
+
+45
+00:05:22.770 --> 00:05:26.019
+David Barron: That's a good line. Can I steal that?
+
+46
+00:05:26.978 --> 00:05:28.200
+Ben Adeyemi: Ha, sure.
+
+47
+00:05:29.205 --> 00:05:35.579
+David Barron: Let me ask about the opposite direction. Is there anything you'd be uncomfortable with a tool reading?
+
+48
+00:05:35.682 --> 00:05:39.593
+David Barron: Like if a notebook connected to your email and Slack.
+
+49
+00:05:40.608 --> 00:05:49.414
+Ben Adeyemi: Email, yes. I'd be uncomfortable. There's reviewing stuff in there, confidential things, recommendation letters. Slack with my advisor, maybe, if I could choose channels.
+
+50
+00:05:49.469 --> 00:05:52.785
+Ben Adeyemi: Git and Zotero and my notes, totally fine.
+
+51
+00:05:54.138 --> 00:05:56.460
+David Barron: So per-source and per-channel control.
+
+52
+00:05:57.414 --> 00:06:06.745
+Ben Adeyemi: Per channel at least. And I'd want to see what it pulled in before it does anything with it. Like a list I can uncheck.
+
+53
+00:06:07.995 --> 00:06:16.312
+David Barron: That's really useful. We have a, um, a connect screen right now and it's kind of all-or-nothing per app. So that's good feedback.
+
+54
+00:06:17.325 --> 00:06:21.364
+Ben Adeyemi: Yeah, all-or-nothing on email would be a no for me.
+
+55
+00:06:22.266 --> 00:06:27.983
+David Barron: Okay. Last couple of questions. Do you ever work with collaborators in the same notes?
+
+56
+00:06:29.251 --> 00:06:36.971
+Ben Adeyemi: Not in notes dot md, that's mine. With collaborators it's a Google Doc for the paper and an Overleaf later.
+
+57
+00:06:37.067 --> 00:06:44.707
+Ben Adeyemi: And a shared Quarto site for results, which is actually nice because each figure has the code next to it.
+
+58
+00:06:46.296 --> 00:06:49.973
+David Barron: Is that site something you'd point a tool at?
+
+59
+00:06:51.572 --> 00:06:55.337
+Ben Adeyemi: Probably, yeah. It's the most cleaned-up version of the reasoning.
+
+60
+00:06:56.985 --> 00:07:04.357
+David Barron: Okay, cool. And, um, if something like this existed, what would make you actually open it? Like, what's the moment?
+
+61
+00:07:05.198 --> 00:07:06.600
+Ben Adeyemi: Reviewer responses. Honestly.
+
+62
+00:07:06.924 --> 00:07:17.441
+Ben Adeyemi: If I could paste a reviewer question and it showed me the commit, the note, the Slack thread and the paper, in order, I'd use it every revision.
+
+63
+00:07:17.847 --> 00:07:19.067
+Ben Adeyemi: That's the moment.
+
+64
+00:07:19.597 --> 00:07:27.780
+David Barron: That's super concrete. Thank you. Would you be up for trying an early version, maybe in a month or so? No pressure.
+
+65
+00:07:29.085 --> 00:07:33.255
+Ben Adeyemi: Sure, as long as I can keep email out of it.
+
+66
+00:07:34.033 --> 00:07:35.490
+David Barron: Deal. Email out.
+
+67
+00:07:35.821 --> 00:07:46.099
+David Barron: I'll send you a short note after this with what we talked about, and a link to the sign-up sheet if you want to be on the list.
+
+68
+00:07:47.512 --> 00:07:50.577
+Ben Adeyemi: Sounds good. Nice to meet you, David.
+
+69
+00:07:51.311 --> 00:07:55.015
+David Barron: You too, thanks so much Ben. Stopping the recording now.

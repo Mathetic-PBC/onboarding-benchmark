@@ -1,0 +1,49 @@
+{
+ "conversation": {
+  "conversationId": "a45c166e-22e0-4f40-b090-61bf1c6ad713",
+  "title": "Explaining Kappa Simply",
+  "createTime": "2026-10-06T06:10:00.000Z",
+  "modifyTime": "2026-10-06T06:14:55.881Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "c3df7009-29a1-497e-9005-d8ba2cbc14c5",
+   "message": "need one sentence to explain cohen's/fleiss kappa 0.71 across 3 raters to a non stats audience in a talk",
+   "sender": "human",
+   "createTime": "2026-10-06T06:10:00.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "b72a42f7-09c6-44a5-b5f3-538fc27bf443",
+   "message": "\"Three trained raters labeled the same sessions independently and agreed well beyond what chance would produce — a kappa of 0.71, which is conventionally read as substantial agreement.\"",
+   "sender": "assistant",
+   "createTime": "2026-10-06T06:10:18.499Z",
+   "parentResponseId": "c3df7009-29a1-497e-9005-d8ba2cbc14c5",
+   "model": "grok-4"
+  },
+  {
+   "responseId": "9bf75462-a064-42f0-b74b-fec8ba5326ca",
+   "message": "shorter",
+   "sender": "human",
+   "createTime": "2026-10-06T06:12:57.499Z",
+   "parentResponseId": "b72a42f7-09c6-44a5-b5f3-538fc27bf443"
+  },
+  {
+   "responseId": "ad05a7a5-b7de-4edb-9a75-6d3254a0df8c",
+   "message": "\"Our three raters agreed substantially — kappa 0.71, well above chance.\"",
+   "sender": "assistant",
+   "createTime": "2026-10-06T06:13:12.881Z",
+   "parentResponseId": "9bf75462-a064-42f0-b74b-fec8ba5326ca",
+   "model": "grok-4"
+  },
+  {
+   "responseId": "271c4bd3-5920-412b-b7ad-65c1b6aaa88c",
+   "message": "perfect",
+   "sender": "human",
+   "createTime": "2026-10-06T06:14:55.881Z",
+   "parentResponseId": "ad05a7a5-b7de-4edb-9a75-6d3254a0df8c"
+  }
+ ]
+}

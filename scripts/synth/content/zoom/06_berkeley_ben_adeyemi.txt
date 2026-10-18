@@ -1,0 +1,61 @@
+topic: Berkeley research chat - Ben Adeyemi
+start: 2026-09-16 11:00:40
+host: yes
+projects: project_berkeley_research_chats
+notes: Third Berkeley research chat (statistics postdoc Ben Adeyemi): how he keeps track of where ideas and modeling decisions come from (Quarto, git, Zotero, a running notes file, whiteboard photos).
+speakers: D=David Barron; B=Ben Adeyemi
+rate: 2.8
+=== cues
+D: Hey Ben, can you hear me?
+B: Yep, loud and clear. Sorry, I'm two minutes late, the seminar ran over.
+D: No worries at all. Before we start, is it okay if I record? It's just for my notes, I won't share it outside me and my co-founder.
+B: Yeah, that's fine.
+D: Great, thanks. So, um, quick context. I'm on leave from a PhD at Virginia Tech, and I'm building a research notebook with a friend. The idea is a notebook that remembers where your thoughts came from. So these chats are me trying to understand how people actually work, not a pitch. I'm not going to try to sell you anything.
+B: Ha, okay. Good.
+D: So maybe start with what you're working on right now, at a high level.
+B: Sure. I'm a postdoc in stats. Mostly Bayesian hierarchical models for, um, small-area estimation. Right now it's county-level estimates of health insurance coverage, where some counties have like twelve survey respondents and you have to borrow strength from neighbors.
+D: Okay. And what does a working day look like? Like, where does the work physically live?
+B: Physically, it's a Quarto project. R, Stan, a bunch of Quarto documents. Everything's in a git repo. Then there's Zotero for papers. And then there's a file called notes dot md at the root of every project, which is the honest record of what I was thinking.
+D: Oh, interesting. Tell me about notes dot md.
+B: So it's just a dated log. Every day I work on the project I write a line or two. "Tried the BYM2 prior, divergences in the north region, suspect the scaling." Stuff like that. It's terrible prose. But six months later, it's the only thing that tells me why the model looks the way it does.
+D: How often do you actually go back to it?
+B: Mostly when a reviewer asks "why did you choose this prior". Which is, like, every paper. And then I'm grepping notes dot md and git log at the same time trying to reconstruct the decision.
+D: Can you walk me through the last time that happened?
+B: Yeah, um, a few months ago. Reviewer asked why we used a particular spatial structure instead of the simpler one. And I knew there was a reason. I found the git commit where I switched, the message just said "switch to BYM2, see notes". And notes dot md for that week said "per conversation with Lauren". And I don't remember the conversation.
+D: Oh no.
+B: Right. So then I'm searching my Slack DMs with my advisor, my email, and eventually I find it in a Slack thread where she linked a paper. That paper was the reason. Took me, I don't know, forty minutes.
+D: So the chain was commit, notes file, a person's name, Slack, a paper.
+B: Exactly. Five hops. And each hop is a different app.
+D: That's, um, honestly that's almost exactly the thing we keep hearing. Do you use any AI tools in this?
+B: Some. I use ChatGPT for Stan syntax and for debugging divergences, and sometimes Claude for writing. But those chats are a black hole. I'll have a really good explanation of some reparameterization trick in a chat and then I can never find it again.
+D: Do you ever copy things out of the chats into notes dot md?
+B: Sometimes. If it's important I'll paste a snippet with "from ChatGPT" in front of it. But I'm not consistent. And I'm a bit wary of it, because half the time the explanation is subtly wrong.
+D: Yeah. Okay. What about papers? How do papers connect to the work?
+B: Zotero, with a collection per project. I highlight in the PDF reader. But the link from a highlight to a modeling decision is only in my head. Or in notes dot md if I was being good that day.
+D: If you could ask your past self one question at any moment, what would it usually be?
+B: "Why." Why this prior, why this exclusion, why did I drop those three counties. The what is in the code. The why is scattered.
+D: That's a good line. Can I steal that?
+B: Ha, sure.
+D: Let me ask about the opposite direction. Is there anything you'd be uncomfortable with a tool reading? Like if a notebook connected to your email and Slack.
+B: Email, yes. I'd be uncomfortable. There's reviewing stuff in there, confidential things, recommendation letters. Slack with my advisor, maybe, if I could choose channels. Git and Zotero and my notes, totally fine.
+D: So per-source and per-channel control.
+B: Per channel at least. And I'd want to see what it pulled in before it does anything with it. Like a list I can uncheck.
+D: That's really useful. We have a, um, a connect screen right now and it's kind of all-or-nothing per app. So that's good feedback.
+B: Yeah, all-or-nothing on email would be a no for me.
+D: Okay. Last couple of questions. Do you ever work with collaborators in the same notes?
+B: Not in notes dot md, that's mine. With collaborators it's a Google Doc for the paper and an Overleaf later. And a shared Quarto site for results, which is actually nice because each figure has the code next to it.
+D: Is that site something you'd point a tool at?
+B: Probably, yeah. It's the most cleaned-up version of the reasoning.
+D: Okay, cool. And, um, if something like this existed, what would make you actually open it? Like, what's the moment?
+B: Reviewer responses. Honestly. If I could paste a reviewer question and it showed me the commit, the note, the Slack thread and the paper, in order, I'd use it every revision. That's the moment.
+D: That's super concrete. Thank you. Would you be up for trying an early version, maybe in a month or so? No pressure.
+B: Sure, as long as I can keep email out of it.
+D: Deal. Email out. I'll send you a short note after this with what we talked about, and a link to the sign-up sheet if you want to be on the list.
+B: Sounds good. Nice to meet you, David.
+D: You too, thanks so much Ben. Stopping the recording now.
+=== chat
+@0+30 D>Everyone: Thanks for joining! Recording only for my own notes, not shared outside Mathetic.
+@11+15 B>Everyone: example notes.md line: "2026-05-02 BYM2 prior: divergences in N region, rescale ICAR (see Riebler et al.)"
+@18+5 D>Everyone: chain = commit -> notes.md -> "per conversation w/ Lauren" -> Slack DM -> paper
+@31+20 B>Everyone: email = hard no, git/zotero/notes = fine, slack = per channel
+@44+10 D>Everyone: sign-up sheet link coming by email after this. thank you!

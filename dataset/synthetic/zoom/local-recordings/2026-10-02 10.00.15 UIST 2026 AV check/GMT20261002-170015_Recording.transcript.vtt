@@ -1,0 +1,249 @@
+WEBVTT
+
+1
+00:00:01.545 --> 00:00:04.827
+Tomás Reyes: Hi David, good morning. Can you hear me?
+
+2
+00:00:05.305 --> 00:00:13.170
+David Barron: Hi Tomás, yes, I can hear you. Good morning. Is it okay if I record this? I'm terrible at remembering logistics.
+
+3
+00:00:13.963 --> 00:00:21.255
+Tomás Reyes: Of course. I'll give you permission. Kai from the AV team is here too, he'll handle the technical part.
+
+4
+00:00:22.432 --> 00:00:23.532
+Kai (UIST AV): Hi David.
+
+5
+00:00:24.794 --> 00:00:26.469
+David Barron: Hi Kai. Okay, recording.
+
+6
+00:00:26.956 --> 00:00:35.206
+Tomás Reyes: Great. So, this is the AV check for the Learning and Tutoring session, Wednesday the seventh. You're the second talk of four.
+
+7
+00:00:35.327 --> 00:00:41.884
+Tomás Reyes: Fifteen minutes for the talk, five for questions, and we're strict, because the session is only eighty minutes.
+
+8
+00:00:42.602 --> 00:00:47.040
+David Barron: Okay. Second of four. So I'd start about twenty minutes in?
+
+9
+00:00:47.946 --> 00:00:55.233
+Tomás Reyes: The session starts at ten-thirty local. If the first talk runs on time, your slot is ten-fifty to eleven-ten.
+
+10
+00:00:55.371 --> 00:01:02.294
+Tomás Reyes: I'll introduce you, so please send me one sentence of bio and the right pronunciation of your name.
+
+11
+00:01:02.741 --> 00:01:07.238
+David Barron: It's "Barron" like the baron, nothing fancy. I'll send a sentence today.
+
+12
+00:01:15.977 --> 00:01:25.059
+Tomás Reyes: Perfect. Timing cards: I'll hold up five minutes, two minutes, and then stop. At stop I'll let you finish your sentence, not your section.
+
+13
+00:01:26.501 --> 00:01:28.913
+David Barron: Ha, okay, fair. Finish the sentence.
+
+14
+00:01:30.140 --> 00:01:33.725
+Tomás Reyes: Kai, do you want to do the technical part?
+
+15
+00:01:40.390 --> 00:01:49.678
+Kai (UIST AV): Sure. So, David, you can present from the room laptop or plug in your own. Room laptop is Windows with PowerPoint and a PDF viewer.
+
+16
+00:01:49.975 --> 00:01:57.282
+Kai (UIST AV): If you use your own, we have HDMI and USB-C at the lectern. Can I ask what you're presenting from?
+
+17
+00:01:58.389 --> 00:02:08.057
+David Barron: Keynote on a Mac, but I can export to PowerPoint or PDF. I'd rather use my own laptop because there's a short video in the talk.
+
+18
+00:02:08.839 --> 00:02:17.175
+Kai (UIST AV): That's fine. Own laptop is okay. Can you share your screen now so I can check the aspect ratio and the video?
+
+19
+00:02:17.751 --> 00:02:20.981
+David Barron: Yeah, one second. Sharing. Can you see it?
+
+20
+00:02:21.869 --> 00:02:28.045
+Kai (UIST AV): Yep, I see the title slide. Sixteen by nine, good. Can you jump to the video?
+
+21
+00:02:29.625 --> 00:02:35.149
+David Barron: Okay, it's slide six. It's a forty-second clip of the replay timeline. Playing it now.
+
+22
+00:02:36.132 --> 00:02:41.456
+Kai (UIST AV): I can see it but I'm not hearing audio. Did you check "share sound"?
+
+23
+00:02:42.847 --> 00:02:47.663
+David Barron: Oh, no. Sorry. Let me stop and reshare. Okay, now with sound.
+
+24
+00:02:53.269 --> 00:03:01.013
+Kai (UIST AV): Yes, now I hear it. In the room, audio from your laptop goes through the house system if you're on HDMI.
+
+25
+00:03:01.362 --> 00:03:06.110
+Kai (UIST AV): With USB-C it should too, but bring the HDMI adapter just in case.
+
+26
+00:03:07.602 --> 00:03:11.026
+David Barron: Okay, I'll bring my USB-C to HDMI dongle.
+
+27
+00:03:12.259 --> 00:03:14.699
+Kai (UIST AV): Good. Do you use presenter view?
+
+28
+00:03:15.500 --> 00:03:17.389
+David Barron: Yeah, I have speaker notes.
+
+29
+00:03:18.690 --> 00:03:24.933
+Kai (UIST AV): Then please make sure your display is set to extended, not mirrored, when you plug in.
+
+30
+00:03:25.205 --> 00:03:30.397
+Kai (UIST AV): We'll have two minutes at the break before the session to test it.
+
+31
+00:03:31.094 --> 00:03:33.350
+David Barron: Okay, extended. And a clicker?
+
+32
+00:03:34.095 --> 00:03:41.193
+Kai (UIST AV): There's a clicker at the lectern, it works with any laptop, it's just a USB receiver. Or bring yours.
+
+33
+00:03:42.613 --> 00:03:45.151
+David Barron: I'll use yours. One less thing.
+
+34
+00:03:46.200 --> 00:03:52.849
+Kai (UIST AV): Mic: you'll have a lavalier. Please clip it on the jacket or collar, not near the laptop fan.
+
+35
+00:03:52.965 --> 00:04:00.665
+Kai (UIST AV): And if you walk away from the lectern, the lav still works, but stay in the lit area for the stream.
+
+36
+00:04:02.009 --> 00:04:03.257
+David Barron: Wait, it's streamed?
+
+37
+00:04:04.599 --> 00:04:11.597
+Tomás Reyes: Yes, the sessions are streamed for remote registrants and recorded. That's the other thing I wanted to mention.
+
+38
+00:04:11.758 --> 00:04:21.251
+Tomás Reyes: Please upload your pre-recorded backup video to the conference portal by Monday the fifth. If anything goes wrong in the room, we play the backup.
+
+39
+00:04:25.103 --> 00:04:28.517
+David Barron: Okay. Backup video by the fifth. Same fifteen minutes?
+
+40
+00:04:29.300 --> 00:04:36.359
+Tomás Reyes: Same length, at most fifteen. It doesn't have to be fancy, a screen recording with your voice is fine.
+
+41
+00:04:37.154 --> 00:04:43.691
+David Barron: Okay, I recorded one last week, I just need to trim it. It's about sixteen minutes right now.
+
+42
+00:04:49.290 --> 00:04:52.258
+Tomás Reyes: Please trim it. We cut at fifteen.
+
+43
+00:04:53.556 --> 00:04:54.738
+David Barron: Ha, got it.
+
+44
+00:04:55.529 --> 00:05:04.351
+Tomás Reyes: Questions. We'll have a mic runner in the room, and I'll read one or two remote questions from the Q&A channel if there's time.
+
+45
+00:05:04.583 --> 00:05:09.556
+Tomás Reyes: If nobody asks anything, I usually have a question ready, so don't worry.
+
+46
+00:05:11.075 --> 00:05:17.277
+David Barron: That's kind of you. Do you have a sense of what people ask in this session?
+
+47
+00:05:18.355 --> 00:05:27.494
+Tomás Reyes: In Learning and Tutoring, usually two kinds of questions. Generalization: does this work beyond your course. And privacy: what do students know about being logged.
+
+48
+00:05:27.722 --> 00:05:30.821
+Tomás Reyes: I saw your paper, so I'd expect both.
+
+49
+00:05:31.682 --> 00:05:36.713
+David Barron: Yeah, that's, um, those were the two big things in the reviews too.
+
+50
+00:05:36.979 --> 00:05:44.457
+David Barron: We added a limitations section and a cross-course analysis for the camera-ready, so I have a backup slide for each.
+
+51
+00:05:45.345 --> 00:05:51.608
+Tomás Reyes: Good, backup slides are smart. Put them after your closing slide so you can jump to them.
+
+52
+00:05:52.806 --> 00:05:53.906
+David Barron: Will do.
+
+53
+00:05:54.340 --> 00:05:56.448
+Tomás Reyes: Anything else from your side?
+
+54
+00:05:57.709 --> 00:06:01.141
+David Barron: Just, when should I be in the room?
+
+55
+00:06:06.092 --> 00:06:15.358
+Tomás Reyes: Fifteen minutes before the session starts, so ten-fifteen. There's a speaker-ready table next to the lectern. Kai or someone from his team will be there.
+
+56
+00:06:15.853 --> 00:06:24.813
+Kai (UIST AV): And if you want, you can come to the room during the coffee break on Tuesday and test your laptop on the real projector.
+
+57
+00:06:25.773 --> 00:06:28.287
+David Barron: Oh, I'll do that, that's great.
+
+58
+00:06:29.630 --> 00:06:36.293
+Tomás Reyes: Okay. I think we're done. Send me the bio, upload the backup by Monday, and see you Wednesday.
+
+59
+00:06:36.800 --> 00:06:42.087
+David Barron: Thank you both. Bio today, backup by Monday, laptop test Tuesday at the break.
+
+60
+00:06:42.749 --> 00:06:44.175
+Kai (UIST AV): See you there.
+
+61
+00:06:45.617 --> 00:06:46.954
+Tomás Reyes: See you, David.
+
+62
+00:06:48.046 --> 00:06:50.028
+David Barron: Okay, stopping the recording.

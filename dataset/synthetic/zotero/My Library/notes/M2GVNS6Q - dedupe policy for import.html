@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>dedupe policy for import</title>
+</head>
+<body>
+<div data-schema-version="9"><h1>import dedupe - after Priya&#x27;s pilot (10-09)</h1>
+<p><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FmyLibrary%2Fitems%2FBGD8BB2C%22%5D%7D%5D%7D">(<span class="citation-item">Rinaldi and Uddin, 2025</span>)</span> Priya saw the same paper twice (zotero + Downloads). this paper&#x27;s numbers:</p>
+<ul>
+<li>exact hash only catches 41% of dups. title+size 73%. shingling 92% but merges draft versions 61% of the time (bad)</li>
+<li>policy: exact dup -&gt; merge silently, keep every location as provenance. same work (preprint vs published) -&gt; group under one entry. own drafts (v2, &quot;Copy of&quot;) -&gt; version stack, never merge</li>
+<li>preprint vs camera-ready is the interesting case: e.g. the Ostrowski paper is in my own library as both arXiv v1 and the L@S version. those should group, not merge</li>
+</ul>
+<p>for the 10-14 redesign doc</p>
+</div>
+</body>
+</html>

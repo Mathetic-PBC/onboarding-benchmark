@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20260202T013000Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Treadmill workouts for bad weather</title>
+    <created>20260121T031000Z</created>
+    <updated>20260202T013000Z</updated>
+    <tag>treadmill</tag>
+    <tag>workouts</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>Blacksburg ice days. Set incline 1% always.</div><div><br/></div><ol><li><b>Easy progression</b> 50': 10' @ 6.8 mph, then +0.1 mph every 5' up to 7.5. HR cap 155.</li><li><b>Strides on the belt</b> 45' easy @ 7.0 + 6 x 20 s @ 10.0 mph, step off to the rails for recovery (carefully).</li><li><b>Hill grind</b> 40' @ 6.0 mph, incline 4-6%, keeps HR in Z2 without pounding.</li><li><b>Cruise intervals</b> (only in quality weeks) 15' WU, 4 x 6' @ 9.2 mph (6:31/mi) w/ 2' @ 6.5, 10' CD.</li><li><b>Boredom killer</b> 60' alternating 5' @ 7.0 / 5' @ 7.3 with a different podcast each segment.</li></ol><div><br/></div><div>Gym treadmill reads ~3% fast vs Garmin footpod. Trust HR, not the screen.</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

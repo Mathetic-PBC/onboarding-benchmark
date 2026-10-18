@@ -1,1 +1,866 @@
-[]
+[
+ {
+  "id": "item_034305",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p107",
+  "title": "Berkeley chats — what to ask",
+  "content_type": "note",
+  "created_at": "2026-09-08T05:10:00Z",
+  "modified_at": "2026-09-09T06:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Notes/Berkeley chats — what to ask.html",
+  "source_url": null,
+  "content_hash": "sha256:341a0c0b3ef0f7fe13b838f016fe26f6e6a8af144ddd3b0cb011fbaa9d91a461",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Notes",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats"
+   ],
+   "notes": "interview guide notes for the Berkeley research chats (Sep 2026)"
+  }
+ },
+ {
+  "id": "item_034306",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p101",
+  "title": "ClarityX",
+  "content_type": "note",
+  "created_at": "2025-10-21T05:14:00Z",
+  "modified_at": "2025-10-24T02:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Notes/ClarityX.html",
+  "source_url": null,
+  "content_hash": "sha256:3a61b260270d486d74c8f989f5b9bcf9694b1c1527092f85352762ae8905b70c",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Notes",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_clarityx"
+   ],
+   "notes": "ClarityX one-liner idea note (Oct 2025), shelved two days later"
+  }
+ },
+ {
+  "id": "item_034307",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p106",
+  "title": "Lena — kickoff questions",
+  "content_type": "note",
+  "created_at": "2026-08-11T04:40:00Z",
+  "modified_at": "2026-08-11T23:25:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Notes/Lena — kickoff questions.html",
+  "source_url": null,
+  "content_hash": "sha256:a217176e8a38aa248d72b030624af3c9e506e27bce4172f0d69b6380a47b9e5f",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Notes",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "prep for Surplus kickoff with Lena Hoffmann (2026-08-11)"
+  }
+ },
+ {
+  "id": "item_034308",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p102",
+  "title": "New Note",
+  "content_type": "note",
+  "created_at": "2026-03-26T04:52:00Z",
+  "modified_at": "2026-03-26T05:03:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Notes/New Note.html",
+  "source_url": null,
+  "content_hash": "sha256:e966d69149ff467f54d99a7b3342e1012fbb11cce59fa99fd6a524d65f666d75",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Notes",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: vague title — \"New Note\" holding TutorTrace UIST-crunch kappa numbers (3 raters, 0.71)"
+  }
+ },
+ {
+  "id": "item_034309",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p109",
+  "title": "Priya onboarding — what she said",
+  "content_type": "note",
+  "created_at": "2026-10-09T21:05:00Z",
+  "modified_at": "2026-10-09T22:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Notes/Priya onboarding — what she said.html",
+  "source_url": null,
+  "content_hash": "sha256:cc80a03d9c190fd219f853aa9336e7e0671f74e47aace06c5bbd0c3264cbed6e",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Notes",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "quick notes during Engelbart pilot onboarding with Priya Raman (2026-10-09)"
+  }
+ },
+ {
+  "id": "item_034310",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p108",
+  "title": "UIST talk — opening lines",
+  "content_type": "note",
+  "created_at": "2026-09-28T06:12:00Z",
+  "modified_at": "2026-10-06T05:58:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Notes/UIST talk — opening lines.html",
+  "source_url": null,
+  "content_hash": "sha256:65f07709eb6ff8f15f377a2829af880cbe723fe99a18ac03a022830a5db24103",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Notes",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "UIST 2026 talk opening drafts (talk 2026-10-07)"
+  }
+ },
+ {
+  "id": "item_034311",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p104",
+  "title": "VizPI deploy 2 — lab checklist",
+  "content_type": "note",
+  "created_at": "2025-11-12T03:05:00Z",
+  "modified_at": "2025-11-12T22:48:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Notes/VizPI deploy 2 — lab checklist.html",
+  "source_url": null,
+  "content_hash": "sha256:c78b6e5236d194c207798b130081bc8bfd74fad6d81c9dfa714a4e3ed7445ab1",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Notes",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "deployment-day checklist for VizPI deployment #2 (2025-11-12)"
+  }
+ },
+ {
+  "id": "item_034312",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p103",
+  "title": "asdf",
+  "content_type": "note",
+  "created_at": "2026-05-12T17:20:00Z",
+  "modified_at": "2026-05-12T17:21:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Notes/asdf.html",
+  "source_url": null,
+  "content_hash": "sha256:d2b4520a5eca70d8ec7343243fbfad6023a18b071f9fdbb252985e424515e6fd",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Notes",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: vague title — \"asdf\" errand fragment; personal clutter"
+  }
+ },
+ {
+  "id": "item_034313",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p111",
+  "title": "beat idea 92 bpm",
+  "content_type": "note",
+  "created_at": "2026-01-18T06:40:00Z",
+  "modified_at": "2026-01-18T06:52:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Notes/beat idea 92 bpm.html",
+  "source_url": null,
+  "content_hash": "sha256:e9bb750b451d5f03729edb6dd32c8ab2a98adfcdf17696d8b1b20c9f37571c75",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Notes",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": "beat idea (FL Studio)"
+  }
+ },
+ {
+  "id": "item_034314",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p112",
+  "title": "books",
+  "content_type": "note",
+  "created_at": "2025-12-01T03:10:00Z",
+  "modified_at": "2026-06-03T01:45:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Notes/books.html",
+  "source_url": null,
+  "content_hash": "sha256:590ae4ef56fe732096caee9888a6e0edb8cbebdddae7dce4a326d94d8d29fae6",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Notes",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "personal clutter: geopolitics / grand strategy reading list (PERSON.md §5)"
+  }
+ },
+ {
+  "id": "item_034315",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p110",
+  "title": "connect screen \"Other\"",
+  "content_type": "note",
+  "created_at": "2026-10-14T01:30:00Z",
+  "modified_at": "2026-10-14T02:02:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Notes/connect screen \"Other\".html",
+  "source_url": null,
+  "content_hash": "sha256:1a391df2b855858dd475afb72d22f8d27ab3bc7bdf5a3e640800cf530c91418b",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Notes",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "connect-screen feedback from pilot B (Daniel Osei, 2026-10-13)"
+  }
+ },
+ {
+  "id": "item_034316",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p105",
+  "title": "leave of absence — ask Grace",
+  "content_type": "note",
+  "created_at": "2026-07-21T03:30:00Z",
+  "modified_at": "2026-07-31T19:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Notes/leave of absence — ask Grace.html",
+  "source_url": null,
+  "content_hash": "sha256:cfcccc374edc2d62d15679449ef82c2dacbdbfbc976c69adb68dc3992ca10748",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Notes",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vt_phd_admin"
+   ],
+   "notes": "questions for Grace Kim before the leave-of-absence form (signed 2026-07-31)"
+  }
+ },
+ {
+  "id": "item_034317",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p113",
+  "title": "parking appeal",
+  "content_type": "note",
+  "created_at": "2026-02-24T21:02:00Z",
+  "modified_at": "2026-02-24T21:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Notes/parking appeal.html",
+  "source_url": null,
+  "content_hash": "sha256:c13ad94e7b95ab3d3a895280c38b3613a1a784410a7b1d52423f2c187ebd31ed",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Notes",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "personal clutter: VT parking ticket appeal (PERSON.md §5)"
+  }
+ },
+ {
+  "id": "item_034318",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p115",
+  "title": "Grocery list",
+  "content_type": "note",
+  "created_at": "2026-08-14T01:40:00Z",
+  "modified_at": "2026-08-14T02:25:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Personal/Grocery list.html",
+  "source_url": null,
+  "content_hash": "sha256:9aa6f97535a2bc14ce2eeeeee82ba9f01ad39d2be10f5eb2f0ae1dd5c115cfbe",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Personal",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — grocery list (SF)"
+  }
+ },
+ {
+  "id": "item_034319",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p116",
+  "title": "SF apartment viewings",
+  "content_type": "note",
+  "created_at": "2026-07-27T00:10:00Z",
+  "modified_at": "2026-08-03T03:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Personal/SF apartment viewings.html",
+  "source_url": null,
+  "content_hash": "sha256:ab4a9d5796e091d47ad90b482f963b2424b0517213069498324e83b557612688",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Personal",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "personal clutter: SF apartment search (Jul–Aug 2026, PERSON.md §5)"
+  }
+ },
+ {
+  "id": "item_034320",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p123",
+  "title": "chess openings to study",
+  "content_type": "note",
+  "created_at": "2026-01-05T02:10:00Z",
+  "modified_at": "2026-04-16T02:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Personal/chess openings to study.html",
+  "source_url": null,
+  "content_hash": "sha256:c2526edc07f4402097a548f47647c0435b4a190729ac633b65189d085309153f",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Personal",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "personal clutter: online chess (PERSON.md §5)"
+  }
+ },
+ {
+  "id": "item_034321",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p121",
+  "title": "derailleur",
+  "content_type": "note",
+  "created_at": "2026-05-09T16:30:00Z",
+  "modified_at": "2026-08-17T00:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Personal/derailleur.html",
+  "source_url": null,
+  "content_hash": "sha256:56a27cbe9c1c01901232bbc17ab9af0944220d9669d9a180e8b9e88ae511a8e3",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Personal",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "personal clutter: broken bike derailleur (PERSON.md §5)"
+  }
+ },
+ {
+  "id": "item_034322",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p114",
+  "title": "groceries",
+  "content_type": "note",
+  "created_at": "2026-02-01T16:20:00Z",
+  "modified_at": "2026-02-01T17:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Personal/groceries.html",
+  "source_url": null,
+  "content_hash": "sha256:a0cec8c01bfe26595d59c764ef98522c441b33d150f2138e480c25320a79b2cb",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Personal",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: personal clutter — grocery list (Blacksburg)"
+  }
+ },
+ {
+  "id": "item_034323",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p120",
+  "title": "house stuff",
+  "content_type": "note",
+  "created_at": "2026-08-09T17:05:00Z",
+  "modified_at": "2026-08-20T15:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Personal/house stuff.html",
+  "source_url": null,
+  "content_hash": "sha256:ff054ea2bb1c6625120e86df03022bd94efa4280186cc3571acc7e9d4a2d1c17",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Personal",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "personal clutter: house/Wi-Fi info at the SF house (no passwords stored)"
+  }
+ },
+ {
+  "id": "item_034324",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p118",
+  "title": "moving out — blacksburg",
+  "content_type": "note",
+  "created_at": "2026-07-22T01:00:00Z",
+  "modified_at": "2026-08-07T13:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Personal/moving out — blacksburg.html",
+  "source_url": null,
+  "content_hash": "sha256:3129e94e83ebc7934d6aadd82c97d9b3711f8b21acfd41a86fb6ebbce4dd1024",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Personal",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "personal clutter: moving checklist (move 2026-08-08)"
+  }
+ },
+ {
+  "id": "item_034325",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p119",
+  "title": "new mac setup",
+  "content_type": "note",
+  "created_at": "2026-08-04T23:30:00Z",
+  "modified_at": "2026-08-06T03:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Personal/new mac setup.html",
+  "source_url": null,
+  "content_hash": "sha256:a98e9200cf2ed09ea292e016ce8bef701b4bf04b617e2c56d93bed2f23e2b231",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Personal",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "personal clutter: laptop setup notes (new Mac 2026-08-04)"
+  }
+ },
+ {
+  "id": "item_034326",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p117",
+  "title": "packing — Dublin",
+  "content_type": "note",
+  "created_at": "2026-07-01T02:15:00Z",
+  "modified_at": "2026-07-08T11:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Personal/packing — Dublin.html",
+  "source_url": null,
+  "content_hash": "sha256:14fc4b2722d8ac8be98c646f0a60eeb89a1374da047d818f0ee8c743a7b54845",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Personal",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "personal clutter: packing list for a cousin's wedding trip (logistics only)"
+  }
+ },
+ {
+  "id": "item_034327",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p122",
+  "title": "taxes 2025",
+  "content_type": "note",
+  "created_at": "2026-03-09T00:00:00Z",
+  "modified_at": "2026-04-12T01:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Personal/taxes 2025.html",
+  "source_url": null,
+  "content_hash": "sha256:a395cb8c8406ae2146618ed7e29538438227ab315bfa228bc993f3cce4ea7f1b",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Personal",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "personal clutter: 2025 taxes checklist (no amounts or ids)"
+  }
+ },
+ {
+  "id": "item_034328",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p126",
+  "title": "Block 4 — week 3",
+  "content_type": "note",
+  "created_at": "2026-08-24T13:40:00Z",
+  "modified_at": "2026-08-31T03:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Training/Block 4 — week 3.html",
+  "source_url": null,
+  "content_hash": "sha256:b4e3116fbcb3cb72d866c1a806e8d2976e7cbe6b35b748787a5f3a9f6851d75f",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Training",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "training week in Block 4 (Aug–Oct 2026)"
+  }
+ },
+ {
+  "id": "item_034329",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p127",
+  "title": "half — splits",
+  "content_type": "note",
+  "created_at": "2026-10-15T18:30:00Z",
+  "modified_at": "2026-10-16T02:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Training/half — splits.html",
+  "source_url": null,
+  "content_hash": "sha256:b518e635d0e3f7d6582c5385eaf6043b286d77e538c556e2e14a12df16a44eaa",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Training",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "race splits for the 2026-10-15 half marathon (1:24:51)"
+  }
+ },
+ {
+  "id": "item_034330",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p125",
+  "title": "mile repeats",
+  "content_type": "note",
+  "created_at": "2026-04-19T13:10:00Z",
+  "modified_at": "2026-04-19T14:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Training/mile repeats.html",
+  "source_url": null,
+  "content_hash": "sha256:96b4a8b214c8db4f029ac33e78f47c5cc9af3e214e5d83cd8d25d04450165354",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Training",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "workout log"
+  }
+ },
+ {
+  "id": "item_034331",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "apple-notes",
+  "source_id": "x-coredata://SYNTH-FE779A3A-6B05/ICNote/p124",
+  "title": "zone 2 HR",
+  "content_type": "note",
+  "created_at": "2025-10-29T11:30:00Z",
+  "modified_at": "2025-11-19T11:55:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/apple-notes/iCloud/Training/zone 2 HR.html",
+  "source_url": null,
+  "content_hash": "sha256:460aa6fbbf9b405c6016661745011a9779374483a08e7c3e2fc43b5cb178585f",
+  "library_item_id": null,
+  "modeled_on": "authentic/apple-notes/iCloud/<folder>/<title>.html (AppleScript body HTML + apple-notes-export meta comment)",
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Apple Notes — iCloud / Training",
+   "format_detail": "note body HTML via AppleScript"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "training note: zone 2 heart-rate rules"
+  }
+ }
+]

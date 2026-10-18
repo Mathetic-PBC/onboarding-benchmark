@@ -1,0 +1,68 @@
+{
+  "issue": {
+    "id": "PIL-34",
+    "uuid": "2f3431a7-6eb3-4f42-b675-b13ad9880bd0",
+    "title": "Send Daniel's gift card",
+    "description": "Same as Priya's ($100).",
+    "projectMilestone": null,
+    "priority": {
+      "value": 4,
+      "name": "Low"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-34/send-daniels-gift-card",
+    "gitBranchName": "david/pil-34-send-daniels-gift-card",
+    "createdAt": "2026-10-13T19:30:12.023Z",
+    "updatedAt": "2026-10-14T22:00:44.258Z",
+    "archivedAt": null,
+    "completedAt": "2026-10-14T22:00:44.258Z",
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [
+      "Ops"
+    ],
+    "createdBy": "Hudson",
+    "assignee": "Hudson",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": "PIL-9",
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-34",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-13T19:30:12.023Z",
+        "endedAt": "2026-10-14T22:00:44.258Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-10-14T22:00:44.258Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": []
+}

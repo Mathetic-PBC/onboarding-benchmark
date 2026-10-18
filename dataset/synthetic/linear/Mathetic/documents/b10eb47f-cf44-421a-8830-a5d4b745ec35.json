@@ -1,0 +1,24 @@
+{
+  "id": "b10eb47f-cf44-421a-8830-a5d4b745ec35",
+  "title": "Import dedupe rules v0",
+  "content": "Rules for deciding when two imported things are the same thing. Written after Priya's session (10/9: PIL-14, PIL-15). Evaluate in this order; the first rule that matches wins. **Merging** means one card that lists every location and origin. **Linking** means separate items shown as versions or related. When in doubt we link, never merge: a wrong merge loses data, a missed merge is only clutter.\n\n## Rule 1: same content hash → merge\n\n* Key: sha256 of the file bytes (PDFs, images, docx, any file).\n* Primary location: the earliest one we saw; the others are listed under \"Also found in\".\n* Example: Priya's `~/Zotero/storage/8KQ2M4ZD/…Productive Struggle or Silent Stalling.pdf` and `~/Downloads/2507.01842v1.pdf` are byte-identical → one card.\n\n## Rule 2: same DOI → same paper\n\n* Key: DOI, lowercased, `https://doi.org/` and `doi:` prefixes stripped, trailing punctuation stripped.\n* Same DOI + same hash → already merged by rule 1.\n* Same DOI + different bytes → **link as versions** of one paper (PIL-37), newest first.\n* DOI sources: Zotero parent item, PDF metadata, first page text (regex), BibTeX.\n\n## Rule 3: same Claude conversation uuid → merge, across every source\n\n* Key: the conversation `uuid`. Applies across exports, re-exports and the Claude desktop app cache (PIL-29).\n* Keep the copy with the newest `updated_at`; record every origin.\n* **Never** key on `name`. Untitled conversations all have `name: \"\"` (this caused PIL-14).\n\n## Rule 4: same ChatGPT conversation_id → merge\n\n* Shared-link copies have their own id: handled by PIL-30, link not merge.\n\n## Rule 5: same arXiv id → same paper\n\n* Key: arXiv id without the version suffix (`2507.01842`).\n* Different version suffix (v1, v2) → link as versions.\n\n## Rule 6: title similarity alone never merges\n\n* Same or near-same title with no shared hash/DOI/arXiv id → show under \"Possible duplicates\" for the user to confirm. Reason: workshop and journal versions with the same title can have different content, and notes called \"Notes\" or \"Untitled\" are not duplicates of each other.\n\n## Rule 7: stable source ids from note tools\n\n* Notion: the 32-hex page id at the end of each exported filename. A new export of the same page updates the note.\n* Obsidian: vault-relative path + file creation time.\n* Granola: note id from the shared link.\n* Gmail: `Message-ID` header. Same Message-ID in two mailboxes → one email.\n\n## Rule 8: Zotero attachment and its parent item are one card\n\n* The parent item gives title, authors, DOI (PIL-19). The attachment gives the bytes and the path.\n\n## Rule 9: things we ignore entirely\n\n* Partial downloads: `.crdownload`, `.download`, `.part`, and any file modified in the last 60 seconds (retry next scan).\n* 0-byte files and Drive shortcuts we can't resolve (PIL-31): skipped with a reason, listed after import (PIL-18).\n\n## Not covered yet\n\n* The same text pasted into two different notes (would need near-duplicate text detection).\n* A chat that quotes a paper vs. the paper itself: related, not duplicates. That's the provenance trail's job, not dedupe's.\n",
+  "url": "https://linear.app/mathetic/document/import-dedupe-rules-v0-0716cf9f4ff2",
+  "createdAt": "2026-10-10T18:05:29.735Z",
+  "updatedAt": "2026-10-15T16:20:53.354Z",
+  "archivedAt": null,
+  "creator": {
+    "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+    "name": "David Barron"
+  },
+  "updatedBy": {
+    "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+    "name": "David Barron"
+  },
+  "project": {
+    "id": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "name": "Pilot program"
+  },
+  "initiative": null,
+  "team": null,
+  "issue": null
+}

@@ -1,0 +1,219 @@
+{
+ "title": "Email to advisor about leave of absence",
+ "create_time": 1782005440.12,
+ "update_time": 1782005634.57996,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "63a5564c-ac37-4ffd-a912-4a7b5f678025"
+   ]
+  },
+  "63a5564c-ac37-4ffd-a912-4a7b5f678025": {
+   "id": "63a5564c-ac37-4ffd-a912-4a7b5f678025",
+   "message": {
+    "id": "63a5564c-ac37-4ffd-a912-4a7b5f678025",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1782005440.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "i want to email my advisor (dr. yan chen) before our 1:1 on monday to give her a heads up that i want to talk about taking a leave of absence starting fall to work on a startup (mathetic, with my cofounder hudson). i want to be respectful and make clear i still want to finish tutortrace camera ready and idetrace rebuttal. dont make it long"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_1f9a0c0f5941379e1bbca1039c",
+     "message_source": null,
+     "turn_exchange_id": "772e34ae-2bed-47cd-8309-6c66f62e22bf",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "4e5d4fe7-b748-4729-8115-1afbb8f7ddfb"
+   ]
+  },
+  "4e5d4fe7-b748-4729-8115-1afbb8f7ddfb": {
+   "id": "4e5d4fe7-b748-4729-8115-1afbb8f7ddfb",
+   "message": {
+    "id": "4e5d4fe7-b748-4729-8115-1afbb8f7ddfb",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1782005462.432,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "> Subject: Topic for Monday's 1:1\n>\n> Hi Dr. Chen,\n>\n> I wanted to give you a heads-up before our meeting on Monday so you're not caught off guard. I'd like to talk about taking a leave of absence starting this fall to work full-time on Mathetic, the startup I've been building with Hudson Mitchell-Pullman.\n>\n> This isn't a decision to step away from the work we've started. I'm committed to finishing the TutorTrace camera-ready and the IDETrace rebuttal this summer, and I'd like to talk about how to hand off anything else responsibly.\n>\n> I'd really value your perspective on timing and on keeping the door open to coming back.\n>\n> Thank you,\n> David\n\nAdjust \"Dr. Chen\" vs \"Yan\" to however you normally address her in email."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_1f9a0c0f5941379e1bbca1039c",
+     "message_type": "next",
+     "turn_exchange_id": "772e34ae-2bed-47cd-8309-6c66f62e22bf",
+     "model_slug": "gpt-5-5",
+     "default_model_slug": "gpt-5-5",
+     "resolved_model_slug": "gpt-5-5",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "63a5564c-ac37-4ffd-a912-4a7b5f678025"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "63a5564c-ac37-4ffd-a912-4a7b5f678025",
+   "children": [
+    "5448360e-f0cb-4246-89e8-b3c6a8ecdd88"
+   ]
+  },
+  "5448360e-f0cb-4246-89e8-b3c6a8ecdd88": {
+   "id": "5448360e-f0cb-4246-89e8-b3c6a8ecdd88",
+   "message": {
+    "id": "5448360e-f0cb-4246-89e8-b3c6a8ecdd88",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1782005622.432,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "i call her yan in email. also add that i'll check with grace kim about the paperwork"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_ec59037ee06896e74a8e5cd867",
+     "message_source": null,
+     "turn_exchange_id": "efd6b79d-98ee-49b6-aa20-658398d12966",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "4e5d4fe7-b748-4729-8115-1afbb8f7ddfb",
+   "children": [
+    "14e39518-cc9a-4efe-9d12-c560eb528924"
+   ]
+  },
+  "14e39518-cc9a-4efe-9d12-c560eb528924": {
+   "id": "14e39518-cc9a-4efe-9d12-c560eb528924",
+   "message": {
+    "id": "14e39518-cc9a-4efe-9d12-c560eb528924",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1782005633.169,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "> Hi Yan,\n>\n> I wanted to give you a heads-up before our meeting on Monday so you're not caught off guard. I'd like to talk about taking a leave of absence starting this fall to work full-time on Mathetic, the startup I've been building with Hudson.\n>\n> I'm committed to finishing the TutorTrace camera-ready and the IDETrace rebuttal this summer, and I want to hand off anything else responsibly. I'll also check with Grace Kim about the leave paperwork and timeline so we know the constraints.\n>\n> I'd really value your perspective on timing and on keeping the door open to coming back.\n>\n> Thanks,\n> David"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_ec59037ee06896e74a8e5cd867",
+     "message_type": "next",
+     "turn_exchange_id": "efd6b79d-98ee-49b6-aa20-658398d12966",
+     "model_slug": "gpt-5-5",
+     "default_model_slug": "gpt-5-5",
+     "resolved_model_slug": "gpt-5-5",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "5448360e-f0cb-4246-89e8-b3c6a8ecdd88"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "5448360e-f0cb-4246-89e8-b3c6a8ecdd88",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "14e39518-cc9a-4efe-9d12-c560eb528924",
+ "plugin_ids": null,
+ "conversation_id": "6a373ec0-00b5-83ea-1f0d-92c04c799289",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-5",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "6a373ec0-00b5-83ea-1f0d-92c04c799289"
+}

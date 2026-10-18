@@ -1,0 +1,56 @@
+{
+ "conversation": {
+  "conversationId": "383fd699-1a99-47fc-a8bb-343a39ce3aa2",
+  "title": "Constraint-Based Creativity",
+  "createTime": "2026-02-13T04:30:00.000Z",
+  "modifyTime": "2026-02-13T04:35:28.569Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "05ffbdba-91f4-4349-860a-f5ae4fe86134",
+   "message": "whats the research on constraints improving creativity. like oulipo stuff but also actual studies. working on an old idea (plotpact) where people co-write stories under rules",
+   "sender": "human",
+   "createTime": "2026-02-13T04:30:00.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "42468ba2-6585-4f35-889e-94c5655bb39b",
+   "message": "Good area — both the artistic tradition and the empirical work are rich.\n\n**Tradition:**\n- **Oulipo** (1960s on): lipograms (Perec wrote a novel without the letter \"e\"), N+7 (replace each noun with the 7th noun after it in a dictionary), snowballs, constrained forms. Their claim: constraints are generative, not limiting.\n- **Exquisite corpse** (Surrealists): collaborative writing where each person sees only the end of the previous contribution. Very close to a co-writing game.\n- **Dogme 95** in film: a rule set as a creative engine.\n\n**Empirical findings (summarized):**\n- Moderate constraints tend to increase originality versus no constraints; too many constraints reduce it. An inverted-U shows up often.\n- Constraints help most when they block the \"path of least resistance\" — the first, most obvious idea.\n- Resource scarcity framings (\"you only have X\") can push people to use materials in unusual ways.\n- Group creativity research: turn-taking and partial visibility (like exquisite corpse) reduce conformity and early convergence.\n\n**For a co-writing game:**\n- Rules that block clichés (\"no character may say what they feel\") beat arbitrary ones.\n- Rotate constraints so players don't optimize around one.\n- Partial visibility of others' contributions keeps surprises.\n\nWant me to sketch a rule deck?",
+   "sender": "assistant",
+   "createTime": "2026-02-13T04:30:20.639Z",
+   "parentResponseId": "05ffbdba-91f4-4349-860a-f5ae4fe86134",
+   "model": "grok-3",
+   "webSearchResults": [
+    {
+     "title": "Constraints and creativity: an inverted-U",
+     "url": "https://creativityresearch.example.org/constraints-inverted-u",
+     "preview": "Review of studies on how the number and type of constraints affect originality."
+    }
+   ]
+  },
+  {
+   "responseId": "e1a2e547-b5ed-4a62-b65d-16f236db6a9e",
+   "message": "yes sketch a rule deck. 10 cards max",
+   "sender": "human",
+   "createTime": "2026-02-13T04:32:48.639Z",
+   "parentResponseId": "42468ba2-6585-4f35-889e-94c5655bb39b"
+  },
+  {
+   "responseId": "cd529927-d1df-4287-b029-56c44e87f6f0",
+   "message": "**PlotPact rule deck (10):**\n1. **No Names** — no character may be named this round.\n2. **Show Don't Tell** — no emotion words (sad, angry, happy…).\n3. **The Object** — introduce an object that must matter by the end.\n4. **Time Skip** — your paragraph starts at least a year later.\n5. **Unreliable** — one sentence in your paragraph must be a lie, revealed later.\n6. **Lipogram Lite** — no word containing the letter \"a.\"\n7. **One Line Only** — your whole contribution is one sentence.\n8. **Wrong Genre** — continue the story as if it were a different genre.\n9. **Echo** — reuse one exact phrase from two turns ago, with new meaning.\n10. **Close a Door** — resolve one open thread, permanently.\n\nDraw one per turn; every 4th turn, draw two. Players vote at the end on which constraint produced the best moment — that data alone is interesting.",
+   "sender": "assistant",
+   "createTime": "2026-02-13T04:32:59.569Z",
+   "parentResponseId": "e1a2e547-b5ed-4a62-b65d-16f236db6a9e",
+   "model": "grok-3"
+  },
+  {
+   "responseId": "dbc9ff57-9711-4251-a6e1-92935e11ffee",
+   "message": "lol the vote thing is a good study design actually",
+   "sender": "human",
+   "createTime": "2026-02-13T04:35:28.569Z",
+   "parentResponseId": "cd529927-d1df-4287-b029-56c44e87f6f0"
+  }
+ ]
+}

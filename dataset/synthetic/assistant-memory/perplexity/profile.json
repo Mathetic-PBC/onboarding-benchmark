@@ -1,0 +1,27 @@
+{
+ "user": {
+  "email": "david.barron.runs@gmail.com",
+  "username": "dbarron_runs",
+  "subscription_status": "none",
+  "subscription_history": [
+   {
+    "plan": "pro_trial",
+    "start": "2026-02-09",
+    "end": "2026-04-30"
+   }
+  ]
+ },
+ "personalization": {
+  "introduce_yourself": "I'm an HCI PhD student (Virginia Tech, on leave) working on tools for computing education: TutorTrace (UIST 2026) and the IDETrace dataset (NeurIPS D&B). Now co-founding a startup building a research notebook. I mostly use Perplexity for related work and quick facts. Prefer peer-reviewed sources (ACM DL, arXiv) over blogs. I also train for half marathons.",
+  "location": "San Francisco, CA",
+  "location_updated_at": "2026-08-09",
+  "previous_location": "Blacksburg, VA",
+  "response_language": "English",
+  "ai_data_retention": true
+ },
+ "spaces": [
+  "UIST related work",
+  "Berkeley chats prep",
+  "Training"
+ ]
+}

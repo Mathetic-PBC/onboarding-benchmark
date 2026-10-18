@@ -1,0 +1,72 @@
+[
+  {
+    "ts": "1763058001.387742",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2025-11-13 10:20:01 PST",
+    "text": "labeling sprint plan for dep #2:\n• 2,340 thirty-second windows (both sections, stratified sample)\n• raters: <@U0SYN15CS2P|Minsun>, <@U0SYN2JB5HW|Xiaohang>, me\n• 3 batches of 780, 15% overlap between every pair for kappa\n• guide v2 for now: <https://docs.google.com/document/d/1LbQ2v3KqPq9xYw0aZr7nMtE4cHs8uJfRgVhT5oWd1e/edit|VizPI labeling guide v2>\n• calibration fri 10am in the lab: 40 windows together before batch A\n• target: done by fri 11/21\nReactions: +1 (2), muscle (1)"
+  },
+  {
+    "ts": "1763136314.975678",
+    "user": "U0SYN15CS2P",
+    "user_name": "Minsun",
+    "datetime": "2025-11-14 08:05:14 PST",
+    "text": "calibration done, starting batch A"
+  },
+  {
+    "ts": "1763136411.838911",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2025-11-14 08:06:51 PST",
+    "text": "batch B, go"
+  },
+  {
+    "ts": "1763263862.677098",
+    "user": "U0SYN15CS2P",
+    "user_name": "Minsun",
+    "datetime": "2025-11-15 19:31:02 PST",
+    "text": "question: student hits an error, then sits for 2 minutes, scrolls up, scrolls down, doesn't type. guide v2 says \"stuck\" but \"stuck\" also covers people actively trying random fixes. those feel really different\nThread: 2 replies (latest: 2025-11-15 19:52:34 PST)"
+  },
+  {
+    "ts": "1763396153.042015",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2025-11-17 08:15:53 PST",
+    "text": "guide v3 is up. new state *stalled-after-error*: an error or failed test in the last 60s AND no edit or run for ≥45s of the window AND no help request. \"stuck\" is now only for active-but-unproductive (edits/runs that don't change the error). pdf attached, gdoc updated too\nThread: 2 replies (latest: 2025-11-17 08:42:19 PST)\nReactions: white_check_mark (2), eyes (1)\nFiles: VizPI_labeling_guide_v3.pdf (ID: F0SYNWKVZDE, application/pdf, 3.2 KB)"
+  },
+  {
+    "ts": "1763514657.554869",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2025-11-18 17:10:57 PST",
+    "text": "progress: 1,120 / 2,340. ahead of schedule\nReactions: fire (2)"
+  },
+  {
+    "ts": "1763586170.073888",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2025-11-19 13:02:50 PST",
+    "text": "bug in the labeling tool: shortcut `4` saves `help_seeking` but the button says \"stalled-after-error\". probably the new state shifted the enum\nThread: 3 replies (latest: 2025-11-19 14:02:08 PST)"
+  },
+  {
+    "ts": "1763768431.975827",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2025-11-21 15:40:31 PST",
+    "text": "done!! 2,340 / 2,340. preliminary kappa on the overlap: 0.68 (fleiss, 3 raters). stalled-after-error gets confused with \"stuck\" the most, as expected\nThread: 2 replies (latest: 2025-11-21 16:01:28 PST)\nReactions: tada (3), partying_face (2)"
+  },
+  {
+    "ts": "1771356013.707807",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-02-17 11:20:13 PST",
+    "text": "after the adjudication round on the 351 disputed windows, kappa across the 3 raters is 0.71. that's the number going into the uist paper. confusion matrix in `labels/dep2_kappa.ipynb`\nReactions: +1 (3)"
+  },
+  {
+    "ts": "1781275529.160847",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-06-12 07:45:29 PDT",
+    "text": "uist reviewer 2 asks about label reliability. <@U0SYN15CS2P|Minsun> do you still have the calibration notes from november? i want to describe the calibration session in the rebuttal\nThread: 2 replies (latest: 2026-06-12 08:32:47 PDT)"
+  }
+]

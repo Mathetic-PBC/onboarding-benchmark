@@ -1,0 +1,94 @@
+{
+  "issue": {
+    "id": "PIL-2",
+    "uuid": "bd12b44b-c7f0-4b38-81bc-109ffb4cf799",
+    "title": "Shortlist pilot users from the Berkeley research chats",
+    "description": "Candidates: the three Berkeley research chats (Elena 9/9, Priya 9/10, Ben 9/16) + Lena's intros.\n\nCriteria:\n- more than a year of AI chats (Claude or ChatGPT)\n- uses Zotero or another reference manager\n- willing to screen share for 45 min and send the import log afterwards",
+    "projectMilestone": {
+      "id": "c2bb2232-6ce1-4441-9ea9-578ad0dd9061",
+      "name": "Pilot kit ready"
+    },
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-2/shortlist-pilot-users-from-the-berkeley-research-chats",
+    "gitBranchName": "david/pil-2-shortlist-pilot-users-from-the-berkeley-research-chats",
+    "createdAt": "2026-09-15T04:25:47.564Z",
+    "updatedAt": "2026-09-19T00:10:51.048Z",
+    "archivedAt": null,
+    "completedAt": "2026-09-19T00:10:51.048Z",
+    "startedAt": "2026-09-15T16:00:39.531Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [],
+    "createdBy": "Hudson",
+    "assignee": "Hudson",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-2",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-09-15T04:25:47.564Z",
+        "endedAt": "2026-09-15T16:00:39.531Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-09-15T16:00:39.531Z",
+        "endedAt": "2026-09-19T00:10:51.048Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-09-19T00:10:51.048Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": [
+    {
+      "id": "b54a22b0-50e8-4667-9347-6f4acfc125a9",
+      "body": "Priya: yes, Fri 10/9.\nElena: wants to wait until after her quals (November).\nBen: no, his chats are on a lab account he can't export.\nLena's intro, Daniel Osei (postdoc, CMU): yes, Tue 10/13.",
+      "attachments": [],
+      "createdAt": "2026-09-19T00:05:53.284Z",
+      "updatedAt": "2026-09-19T00:05:53.284Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "cb2896e3-8076-499e-adca-cc4ee127e9e7",
+        "name": "Hudson"
+      },
+      "onBehalfOf": null
+    }
+  ]
+}

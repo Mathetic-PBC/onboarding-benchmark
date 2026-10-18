@@ -1,0 +1,53 @@
+{
+ "conversation": {
+  "conversationId": "aa3739a7-2365-458b-99ca-adb591a962cc",
+  "title": "Why Is The Fed Trending",
+  "createTime": "2026-04-08T17:22:00.000Z",
+  "modifyTime": "2026-04-08T17:24:28.407Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "15c5e2ee-e1a8-4336-b4aa-44014d659ed9",
+   "message": "why is the fed trending rn",
+   "sender": "human",
+   "createTime": "2026-04-08T17:22:00.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "3451252f-fffb-4a0c-b90c-58e2a4c49a4b",
+   "message": "From posts in the last few hours: the trend is mostly people reacting to the latest FOMC minutes. The minutes showed more officials than expected open to holding rates where they are for longer, and a couple of large accounts framed that as \"no cuts this year,\" which is what's driving the volume.\n\nWhat the minutes actually say is more hedged: the committee is data-dependent, and several members flagged sticky services inflation. Markets moved a bit on rate-cut odds but nothing dramatic.\n\nSo: real news, overhyped framing.",
+   "sender": "assistant",
+   "createTime": "2026-04-08T17:22:16.437Z",
+   "parentResponseId": "15c5e2ee-e1a8-4336-b4aa-44014d659ed9",
+   "model": "grok-3",
+   "webSearchResults": [
+    {
+     "title": "FOMC minutes show patience on cuts",
+     "url": "https://marketsdesk.example-news.com/2026/04/fomc-minutes-patience",
+     "preview": "Summary of the minutes released this afternoon and the reaction in rate futures."
+    }
+   ],
+   "xPostIds": [
+    "2041819155264655182",
+    "2041785684717812164"
+   ]
+  },
+  {
+   "responseId": "84e0bba0-cdd0-45b6-9d48-97c0a9fda32c",
+   "message": "does this matter for like a normal person with a car loan",
+   "sender": "human",
+   "createTime": "2026-04-08T17:24:19.437Z",
+   "parentResponseId": "3451252f-fffb-4a0c-b90c-58e2a4c49a4b"
+  },
+  {
+   "responseId": "fa3d9668-c426-44c5-8ab5-fa62082c66d6",
+   "message": "Only if you're taking out a *new* loan or have a variable rate. An existing fixed-rate car loan doesn't change. If you're shopping for one soon, \"rates stay higher for longer\" means don't expect quotes to drop much in the next few months.",
+   "sender": "assistant",
+   "createTime": "2026-04-08T17:24:28.407Z",
+   "parentResponseId": "84e0bba0-cdd0-45b6-9d48-97c0a9fda32c",
+   "model": "grok-3"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "uuid": "a408e0bc-57db-42e2-b6a2-31a023a236d2",
+ "slug": "notion-vs-obsidian-for-a-shared-wiki-between-2-g6UZNaU5wsvZq5iGGlSRpf",
+ "title": "Notion vs Obsidian for a two-person company wiki",
+ "thread_url": "https://www.perplexity.ai/search/notion-vs-obsidian-for-a-shared-wiki-between-2-g6UZNaU5wsvZq5iGGlSRpf",
+ "created_at": "2026-02-03T04:30:00Z",
+ "updated_at": "2026-02-03T04:34:11Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "81f9db0a-a887-4ce2-be06-316986e8b74f",
+   "query_str": "notion vs obsidian for a shared wiki between 2 cofounders. we need meeting notes, a reading list, and product specs. no budget",
+   "answer": "For two people who need to **share and co-edit**, Notion is usually the easier default; Obsidian shines for a single person's linked notes [1][2].\n\n| | Notion (free plan) | Obsidian |\n|---|---|---|\n| Real-time co-editing | Yes, built in | No; needs Obsidian Sync (paid) or a git/Dropbox workaround [2] |\n| Databases (reading list with status, tags) | Native databases with views | Via community plugins (Dataview), more setup |\n| Offline / local files | Limited; cloud-first | Plain Markdown files on disk, fully offline [1] |\n| Free plan limits | Free for individuals; small teams can use the free tier with block/guest limits [3] | Free for personal use |\n| Lock-in | Export to Markdown/CSV, some formatting loss | None — it's just files |\n\n**Suggestion:** a Notion teamspace with three databases — *Meetings* (date, attendees, decisions), *Reading list* (status, who's reading, link), *Specs* (owner, status). If one of you prefers Obsidian for private thinking, keep that personal and paste conclusions into Notion.",
+   "sources": [
+    {
+     "name": "Choosing a note-taking tool for small teams",
+     "url": "https://www.productivitystack.io/notes-for-small-teams",
+     "snippet": "Compares collaborative editing, databases and pricing across common tools."
+    },
+    {
+     "name": "Obsidian for teams: what works and what doesn't",
+     "url": "https://www.pkmreview.com/obsidian-for-teams",
+     "snippet": "Covers sync options and the limits of file-based collaboration."
+    },
+    {
+     "name": "Notion pricing explained",
+     "url": "https://www.notionguides.net/pricing-explained",
+     "snippet": "Summary of free and paid plan limits for individuals and teams."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "pplx_pro",
+   "created_at": "2026-02-03T04:30:00Z",
+   "updated_at": "2026-02-03T04:30:14Z"
+  },
+  {
+   "uuid": "c20da50f-9339-4314-b04d-7549cf1b5e87",
+   "query_str": "can notion databases link to each other like a spec linking to the meeting where we decided it",
+   "answer": "Yes — use a **Relation** property [1]. Add a \"Decided in\" relation on the *Specs* database pointing to *Meetings*; Notion creates the reverse relation automatically, so each meeting page shows which specs it produced. Add a **Rollup** if you want, e.g., the date of the most recent related meeting on each spec [1][2]. One caveat: relations only work between databases in the same workspace, so keep both in the shared teamspace.",
+   "sources": [
+    {
+     "name": "Relations and rollups in Notion databases",
+     "url": "https://www.notionguides.net/relations-rollups",
+     "snippet": "How to connect two databases and summarize related entries."
+    },
+    {
+     "name": "Building a lightweight decision log",
+     "url": "https://www.productivitystack.io/decision-log",
+     "snippet": "Pattern for linking decisions to the meetings where they were made."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "sonar",
+   "created_at": "2026-02-03T04:33:28Z",
+   "updated_at": "2026-02-03T04:33:51Z"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "uuid": "2b2b2e08-3142-47c8-82d7-835126ca30ec",
+ "slug": "how-much-does-zone-2-cycling-transfer-to-running-L8EKVsywWugh0bgaiZjYD3",
+ "title": "Does Zone 2 cycling transfer to running",
+ "thread_url": "https://www.perplexity.ai/search/how-much-does-zone-2-cycling-transfer-to-running-L8EKVsywWugh0bgaiZjYD3",
+ "created_at": "2026-02-12T12:30:00Z",
+ "updated_at": "2026-02-12T12:34:47Z",
+ "collection": {
+  "uuid": "74f83dde-ba7f-4521-9b66-a8854a3e55b9",
+  "title": "Training"
+ },
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "b85b50cb-0b88-485c-a64b-3c83550e7eb2",
+   "query_str": "how much does zone 2 cycling transfer to running fitness. im doing ~9h/wk total, maybe 4h is bike/elliptical",
+   "answer": "Short version: **central aerobic adaptations transfer well; running-specific adaptations don't** [1][2].\n\nWhat transfers from cycling/elliptical:\n- Cardiac adaptations (stroke volume, plasma volume) — largely shared across modes [1].\n- Some mitochondrial and capillary adaptations, but mostly in the muscles that do the work; cycling loads quads and glutes more, running loads calves, hamstrings and hips differently [2].\n\nWhat doesn't transfer well:\n- **Musculoskeletal tolerance** to impact (tendons, bones) — this only comes from running.\n- **Running economy** and neuromuscular coordination at running speeds [2].\n\nA rough rule coaches use is that an hour of cycling is worth somewhere around 0.5–0.7 hours of running for *aerobic* purposes, with elliptical somewhat higher because it's weight-bearing and closer in movement pattern [3]. With ~5 h running + 4 h cross-training, you're getting most of the aerobic benefit of a higher-mileage week with less impact — a sensible base-building structure. Keep at least one longer run per week so the running-specific durability keeps up [3].",
+   "sources": [
+    {
+     "name": "Cross-training and aerobic transfer: a review",
+     "url": "https://www.trainingsciencejournal.com/cross-training-transfer",
+     "snippet": "Central adaptations transfer across modes; peripheral adaptations are more specific."
+    },
+    {
+     "name": "Specificity of training adaptations in runners",
+     "url": "https://www.runnersphysiology.net/specificity",
+     "snippet": "Running economy and tissue tolerance require running-specific load."
+    },
+    {
+     "name": "How coaches convert bike time to run time",
+     "url": "https://www.coachingendurance.com/bike-to-run-equivalents",
+     "snippet": "Common equivalence ratios and their limits."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "pplx_pro",
+   "created_at": "2026-02-12T12:30:00Z",
+   "updated_at": "2026-02-12T12:30:26Z"
+  },
+  {
+   "uuid": "d1cefb2b-fb0f-4c89-b762-39993f8c53df",
+   "query_str": "does it matter if the bike is right after the run vs separate",
+   "answer": "Doing the bike **right after** an easy run is a common way to extend aerobic time while the legs are already fatigued, which can add some stimulus without more impact [1]. Separating them (AM/PM) gives better quality on each and is easier to recover from. For pure Zone 2 base, either works; the bigger factor is keeping total weekly time consistent and the intensity genuinely easy on both [1][2].",
+   "sources": [
+    {
+     "name": "Back-to-back aerobic sessions: when to stack",
+     "url": "https://www.coachingendurance.com/stacking-sessions",
+     "snippet": "Pros and cons of stacking cross-training after runs."
+    },
+    {
+     "name": "Weekly volume consistency in base training",
+     "url": "https://www.trainingsciencejournal.com/volume-consistency",
+     "snippet": "Consistency of weekly aerobic time predicts base improvements more than session arrangement."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "pplx_pro",
+   "created_at": "2026-02-12T12:34:11Z",
+   "updated_at": "2026-02-12T12:34:30Z"
+  }
+ ]
+}

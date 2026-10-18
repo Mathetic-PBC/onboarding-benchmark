@@ -1,0 +1,49 @@
+{
+ "uuid": "91055dd5-e78e-444b-82f1-b2ee25917b0d",
+ "slug": "moved-from-virginia-to-california-in-august-car-01gqxIGWLf8nCXoNzn8wUe",
+ "title": "Transferring car insurance from Virginia to California",
+ "thread_url": "https://www.perplexity.ai/search/moved-from-virginia-to-california-in-august-car-01gqxIGWLf8nCXoNzn8wUe",
+ "created_at": "2026-10-01T04:15:00Z",
+ "updated_at": "2026-10-01T04:19:24Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "a4256ff1-2ddf-4d48-aae0-58ba12a5d80d",
+   "query_str": "moved from virginia to california in august, car still has VA plates + VA insurance. what do i have to do and by when",
+   "answer": "California generally requires new residents to **register their vehicle within 20 days** of establishing residency (e.g., taking a job or renting a home) [1]. Steps:\n1. **Switch insurance to a California policy** first — insurers price by garaging address, and a VA policy may not be valid long-term for a car kept in CA [2].\n2. **Smog check** (required for most gasoline vehicles being registered in CA for the first time) [1].\n3. **DMV visit** with your VA title or registration, proof of CA insurance, smog certificate and ID; pay registration fees and possibly use tax.\n4. **Driver's license**: new residents are expected to get a CA license within 10 days [1].\nIf you're a student or temporary, rules differ — but a co-founder moving for work counts as a resident.",
+   "sources": [
+    {
+     "name": "California DMV — new residents",
+     "url": "https://www.dmv.ca.gov/portal/vehicle-registration/new-registration/new-residents",
+     "snippet": "Registration and license timelines for people moving to California."
+    },
+    {
+     "name": "Changing car insurance when you move states",
+     "url": "https://www.insuranceexplainer.net/moving-states",
+     "snippet": "Why insurance must reflect your garaging address."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-10-01T04:15:00Z",
+   "updated_at": "2026-10-01T04:15:12Z"
+  },
+  {
+   "uuid": "31d71e58-176f-4f1c-9fb8-ef67f56b2986",
+   "query_str": "is california insurance usually way more expensive",
+   "answer": "Often yes, particularly in San Francisco: urban CA ZIP codes have higher average premiums than most of Virginia due to theft, claims frequency and repair costs [1]. California restricts some rating factors (e.g., credit score), so your driving record and mileage matter more. Get quotes with your actual garaging ZIP and low annual mileage if you rarely drive [1].",
+   "sources": [
+    {
+     "name": "Changing car insurance when you move states",
+     "url": "https://www.insuranceexplainer.net/moving-states",
+     "snippet": "Premium differences across states and cities."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-10-01T04:18:56Z",
+   "updated_at": "2026-10-01T04:19:12Z"
+  }
+ ]
+}

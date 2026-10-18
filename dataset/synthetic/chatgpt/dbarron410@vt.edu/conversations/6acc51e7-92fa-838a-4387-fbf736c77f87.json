@@ -1,0 +1,436 @@
+{
+ "title": "Half marathon fueling plan",
+ "create_time": 1791775207.12,
+ "update_time": 1792121075.9827275,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "97ba8371-6532-4001-b16b-e04abd44a5c2"
+   ]
+  },
+  "97ba8371-6532-4001-b16b-e04abd44a5c2": {
+   "id": "97ba8371-6532-4001-b16b-e04abd44a5c2",
+   "message": {
+    "id": "97ba8371-6532-4001-b16b-e04abd44a5c2",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1791775207.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "half marathon thursday 10/15. goal is sub 1:25 (owen is going for 1:22). i do fine on gels in training. whats the plan for carbs the 2 days before + race morning + during. be specific, 66kg"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_5a975e461cabcff928c9caf551",
+     "message_source": null,
+     "turn_exchange_id": "e1e3e89f-9079-4efb-9d99-0b45e4a6158d",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "ddefb120-37a4-4a43-a534-2ecfdd99cff8"
+   ]
+  },
+  "ddefb120-37a4-4a43-a534-2ecfdd99cff8": {
+   "id": "ddefb120-37a4-4a43-a534-2ecfdd99cff8",
+   "message": {
+    "id": "ddefb120-37a4-4a43-a534-2ecfdd99cff8",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1791775215.3,
+    "update_time": null,
+    "content": {
+     "content_type": "reasoning_recap",
+     "content": "Thought for 8s"
+    },
+    "status": "finished_successfully",
+    "end_turn": false,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_5a975e461cabcff928c9caf551",
+     "message_type": "next",
+     "turn_exchange_id": "e1e3e89f-9079-4efb-9d99-0b45e4a6158d",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "reasoning_status": "reasoning_ended",
+     "finished_duration_sec": 8,
+     "reasoning_start_time": 1791775207.4,
+     "reasoning_end_time": 1791775215.2,
+     "cot_version": "v5",
+     "thinking_effort": "standard",
+     "can_save": false,
+     "parent_id": "97ba8371-6532-4001-b16b-e04abd44a5c2"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "97ba8371-6532-4001-b16b-e04abd44a5c2",
+   "children": [
+    "3cba17a8-84d9-4f51-8f16-ea51bcc921c7"
+   ]
+  },
+  "3cba17a8-84d9-4f51-8f16-ea51bcc921c7": {
+   "id": "3cba17a8-84d9-4f51-8f16-ea51bcc921c7",
+   "message": {
+    "id": "3cba17a8-84d9-4f51-8f16-ea51bcc921c7",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1791775221.41,
+    "update_time": 1791775223.8032837,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "**Two days out (Tue–Wed): carb load-lite**\nFor a ~85-minute race you don't need a full marathon load, but topping up glycogen helps.\n- ~7–8 g/kg/day → **460–530 g carbs/day**.\n- Mostly low-fiber: white rice, bagels, pasta, potatoes without skin, juice, pretzels, bananas.\n- Reduce fat and fiber a bit so the total isn't a huge food volume. Keep protein normal.\n\n**Race morning (start time assumed ~7:30)**\n- 3–3.5 h before: **~2 g/kg ≈ 130 g carbs.** E.g., bagel + honey + banana + small juice. Things you've eaten before long runs.\n- Sip ~500 ml water/electrolyte by 1 h before, then small sips.\n- 15 min before the start: **1 gel (~25 g)** with water.\n\n**During**\n- At 1:25 race time, a gel at **~35–40 min** (around mile 5) is enough; optionally a second at ~60 min if your stomach handles it.\n- Take each with a cup of water at an aid station.\n\n**Don't try anything new.** Use the same gel brand you trained with and the same breakfast as your last long run."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_5a975e461cabcff928c9caf551",
+     "message_type": "next",
+     "turn_exchange_id": "e1e3e89f-9079-4efb-9d99-0b45e4a6158d",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "ddefb120-37a4-4a43-a534-2ecfdd99cff8"
+    },
+    "recipient": "all",
+    "channel": "final"
+   },
+   "parent": "ddefb120-37a4-4a43-a534-2ecfdd99cff8",
+   "children": [
+    "48be29c3-5d23-4bf6-a842-4b46d1dde9be"
+   ]
+  },
+  "48be29c3-5d23-4bf6-a842-4b46d1dde9be": {
+   "id": "48be29c3-5d23-4bf6-a842-4b46d1dde9be",
+   "message": {
+    "id": "48be29c3-5d23-4bf6-a842-4b46d1dde9be",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1791775426.41,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "start is 8:00. and i wake up at like 5 anyway. ok whats the pacing plan for 1:25"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_840febb5fdb0255afd80659ca1",
+     "message_source": null,
+     "turn_exchange_id": "7e5b51fc-35e1-41a5-ba08-8ccbd2821c3f",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "3cba17a8-84d9-4f51-8f16-ea51bcc921c7",
+   "children": [
+    "c36ee401-81b3-4a41-be66-d2f2bb4b5ec3"
+   ]
+  },
+  "c36ee401-81b3-4a41-be66-d2f2bb4b5ec3": {
+   "id": "c36ee401-81b3-4a41-be66-d2f2bb4b5ec3",
+   "message": {
+    "id": "c36ee401-81b3-4a41-be66-d2f2bb4b5ec3",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1791775430.71,
+    "update_time": null,
+    "content": {
+     "content_type": "reasoning_recap",
+     "content": "Thought for 4s"
+    },
+    "status": "finished_successfully",
+    "end_turn": false,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_840febb5fdb0255afd80659ca1",
+     "message_type": "next",
+     "turn_exchange_id": "7e5b51fc-35e1-41a5-ba08-8ccbd2821c3f",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "reasoning_status": "reasoning_ended",
+     "finished_duration_sec": 4,
+     "reasoning_start_time": 1791775426.8100002,
+     "reasoning_end_time": 1791775430.6100001,
+     "cot_version": "v5",
+     "thinking_effort": "standard",
+     "can_save": false,
+     "parent_id": "48be29c3-5d23-4bf6-a842-4b46d1dde9be"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "48be29c3-5d23-4bf6-a842-4b46d1dde9be",
+   "children": [
+    "f3de7eeb-d267-4691-afca-fc70601470f2"
+   ]
+  },
+  "f3de7eeb-d267-4691-afca-fc70601470f2": {
+   "id": "f3de7eeb-d267-4691-afca-fc70601470f2",
+   "message": {
+    "id": "f3de7eeb-d267-4691-afca-fc70601470f2",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1791775433.429,
+    "update_time": 1791775436.7525997,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "1:25:00 = **6:29/mi** (4:02/km) average.\n\n- **Miles 1–3:** 6:32–6:35. Resist the start. Crowd + adrenaline make 6:15 feel easy.\n- **Miles 4–10:** settle at 6:27–6:30. Hills: hold effort, not pace.\n- **Miles 11–13.1:** whatever you have left. If you're at 1:05:00 at mile 10, you have 20 min for 3.1 mi = 6:27/mi to get under.\n\nCheckpoints: 5K ≈ 20:10, 10K ≈ 40:15, 10 mi ≈ 1:04:55."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_840febb5fdb0255afd80659ca1",
+     "message_type": "next",
+     "turn_exchange_id": "7e5b51fc-35e1-41a5-ba08-8ccbd2821c3f",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "c36ee401-81b3-4a41-be66-d2f2bb4b5ec3"
+    },
+    "recipient": "all",
+    "channel": "final"
+   },
+   "parent": "c36ee401-81b3-4a41-be66-d2f2bb4b5ec3",
+   "children": [
+    "561d6434-29cf-4407-92cf-37a2b87dc696"
+   ]
+  },
+  "561d6434-29cf-4407-92cf-37a2b87dc696": {
+   "id": "561d6434-29cf-4407-92cf-37a2b87dc696",
+   "message": {
+    "id": "561d6434-29cf-4407-92cf-37a2b87dc696",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1792121065.429,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "ran 1:24:51!! owen ran 1:22:10. negative split kinda"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_b92f774ab74c01b58d71336ae2",
+     "message_source": null,
+     "turn_exchange_id": "31b37c63-3c15-45d0-8a0d-55fc2152ea95",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "f3de7eeb-d267-4691-afca-fc70601470f2",
+   "children": [
+    "95c7ce8c-2132-476e-982a-e86b5b38bfda"
+   ]
+  },
+  "95c7ce8c-2132-476e-982a-e86b5b38bfda": {
+   "id": "95c7ce8c-2132-476e-982a-e86b5b38bfda",
+   "message": {
+    "id": "95c7ce8c-2132-476e-982a-e86b5b38bfda",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1792121070.7289999,
+    "update_time": null,
+    "content": {
+     "content_type": "reasoning_recap",
+     "content": "Thought for 5s"
+    },
+    "status": "finished_successfully",
+    "end_turn": false,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_b92f774ab74c01b58d71336ae2",
+     "message_type": "next",
+     "turn_exchange_id": "31b37c63-3c15-45d0-8a0d-55fc2152ea95",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "reasoning_status": "reasoning_ended",
+     "finished_duration_sec": 5,
+     "reasoning_start_time": 1792121065.829,
+     "reasoning_end_time": 1792121070.629,
+     "cot_version": "v5",
+     "thinking_effort": "standard",
+     "can_save": false,
+     "parent_id": "561d6434-29cf-4407-92cf-37a2b87dc696"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "561d6434-29cf-4407-92cf-37a2b87dc696",
+   "children": [
+    "36dedd29-0dbc-416a-b9eb-39e3f64ea50d"
+   ]
+  },
+  "36dedd29-0dbc-416a-b9eb-39e3f64ea50d": {
+   "id": "36dedd29-0dbc-416a-b9eb-39e3f64ea50d",
+   "message": {
+    "id": "36dedd29-0dbc-416a-b9eb-39e3f64ea50d",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1792121074.953,
+    "update_time": 1792121079.2196822,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Congratulations, sub-1:25! That's a well-executed race if you negative split. It means the conservative start worked.\n\nFor the next few days:\n- Easy days or rest for 3–5 days; legs often feel fine before tendons and muscles have actually recovered.\n- Normal carbs + protein to refill.\n- When you're ready, write down a few notes on what worked (breakfast, gel timing, pacing). It's the best input for the next block."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_b92f774ab74c01b58d71336ae2",
+     "message_type": "next",
+     "turn_exchange_id": "31b37c63-3c15-45d0-8a0d-55fc2152ea95",
+     "model_slug": "gpt-5-6-thinking",
+     "default_model_slug": "gpt-5-6-thinking",
+     "resolved_model_slug": "gpt-5-6-thinking",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "95c7ce8c-2132-476e-982a-e86b5b38bfda"
+    },
+    "recipient": "all",
+    "channel": "final"
+   },
+   "parent": "95c7ce8c-2132-476e-982a-e86b5b38bfda",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "36dedd29-0dbc-416a-b9eb-39e3f64ea50d",
+ "plugin_ids": null,
+ "conversation_id": "6acc51e7-92fa-838a-4387-fbf736c77f87",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-6-thinking",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "6acc51e7-92fa-838a-4387-fbf736c77f87"
+}

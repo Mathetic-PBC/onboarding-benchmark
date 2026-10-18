@@ -1,0 +1,42 @@
+{
+ "conversation": {
+  "conversationId": "147cfd47-8dc7-4c78-a06d-dc56e88ba683",
+  "title": "15 Minute Talk Slide Count",
+  "createTime": "2026-09-28T05:36:00.000Z",
+  "modifyTime": "2026-09-28T05:38:10.142Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "e176c725-0f1e-4495-af61-4703535583a4",
+   "message": "15 min conference talk + 5 q&a. how many slides. its a uist paper, system + study",
+   "sender": "human",
+   "createTime": "2026-09-28T05:36:00.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "f0338382-dbb0-4023-b290-cbcc0dadcbc8",
+   "message": "Typical sweet spot: **12–16 content slides** for 15 minutes, about a minute each, with a couple that go faster (title, transitions).\n\nRough budget for a system + study paper:\n- 0:00–1:30 — motivating problem (1–2 slides, ideally one concrete student/user moment)\n- 1:30–3:30 — what's missing in prior work (1–2)\n- 3:30–8:00 — the system (4–5, mostly demo video/screenshots)\n- 8:00–12:30 — study + key results (3–4, one figure each)\n- 12:30–14:30 — implications/limitations (1–2)\n- 14:30–15:00 — takeaway slide that stays up during Q&A\n\nRehearse to 13:30 so you have buffer. Session chairs cut you off.",
+   "sender": "assistant",
+   "createTime": "2026-09-28T05:36:22.445Z",
+   "parentResponseId": "e176c725-0f1e-4495-af61-4703535583a4",
+   "model": "grok-4"
+  },
+  {
+   "responseId": "487045dd-e733-4b9f-9b74-871926ae8951",
+   "message": "the takeaway slide during q&a is a good idea",
+   "sender": "human",
+   "createTime": "2026-09-28T05:37:51.445Z",
+   "parentResponseId": "f0338382-dbb0-4023-b290-cbcc0dadcbc8"
+  },
+  {
+   "responseId": "ae8b38cb-a5c4-4337-9dc5-5a941ba38dfe",
+   "message": "It does double duty — reminds the audience what to ask about and gives a good photo for anyone posting the talk. Put the paper title, one-line result, and a QR code to the paper.",
+   "sender": "assistant",
+   "createTime": "2026-09-28T05:38:10.142Z",
+   "parentResponseId": "487045dd-e733-4b9f-9b74-871926ae8951",
+   "model": "grok-4"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+[
+ {
+  "success": true,
+  "path": null,
+  "sanitized_name": null,
+  "file_kind": "document",
+  "file_uuid": "a65d453e-3fb4-49aa-b897-898a094bcdb3",
+  "file_name": "ISE6664_proposal_Barron_Torres_Lee.pdf",
+  "created_at": "2026-02-06T21:02:00.000000+00:00",
+  "user_uuid": null,
+  "size_bytes": 188604,
+  "thumbnail_asset": {
+   "url": "/api/5250f863-3eb2-421a-ab2d-824bafb442bc/files/a65d453e-3fb4-49aa-b897-898a094bcdb3/thumbnail",
+   "file_variant": "thumbnail",
+   "primary_color": "ffffff",
+   "image_width": 309,
+   "image_height": 400
+  },
+  "preview_asset": null,
+  "uuid": "a65d453e-3fb4-49aa-b897-898a094bcdb3",
+  "document_asset": {
+   "url": "/api/5250f863-3eb2-421a-ab2d-824bafb442bc/files/a65d453e-3fb4-49aa-b897-898a094bcdb3/document",
+   "file_variant": "original",
+   "page_count": 2,
+   "token_count": null
+  }
+ },
+ {
+  "success": true,
+  "path": null,
+  "sanitized_name": null,
+  "file_kind": "document",
+  "file_uuid": "4e45bad0-5c09-454d-8bf6-638c00ac6caa",
+  "file_name": "frustration_coding_pilot.xlsx",
+  "created_at": "2026-03-05T04:40:00.000000+00:00",
+  "user_uuid": null,
+  "size_bytes": 41377,
+  "thumbnail_asset": {
+   "url": "/api/5250f863-3eb2-421a-ab2d-824bafb442bc/files/4e45bad0-5c09-454d-8bf6-638c00ac6caa/thumbnail",
+   "file_variant": "thumbnail",
+   "primary_color": "ffffff",
+   "image_width": 309,
+   "image_height": 400
+  },
+  "preview_asset": null,
+  "uuid": "4e45bad0-5c09-454d-8bf6-638c00ac6caa",
+  "document_asset": {
+   "url": "/api/5250f863-3eb2-421a-ab2d-824bafb442bc/files/4e45bad0-5c09-454d-8bf6-638c00ac6caa/document",
+   "file_variant": "original",
+   "page_count": null,
+   "token_count": null
+  }
+ }
+]

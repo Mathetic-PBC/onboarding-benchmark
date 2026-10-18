@@ -1,1 +1,1228 @@
-[]
+[
+ {
+  "id": "item_034437",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "9aad0a7c-acdd-4c47-bca2-57e5ecc8ed48",
+  "title": "Cross-course generalization figure for camera-ready",
+  "content_type": "conversation",
+  "created_at": "2026-08-12T07:40:58Z",
+  "modified_at": "2026-08-12T07:51:14Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Desktop-Dataset-TutorTrace-dataset-and-benchmark/9aad0a7c-acdd-4c47-bca2-57e5ecc8ed48.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:90846be878e6b5fa5c2987072b47558d10cdc36eff7cae29e8942bc5a170d647",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 11,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Desktop-Dataset-TutorTrace-dataset-and-benchmark",
+   "cwd": "/Users/divadbaroon/Desktop/Dataset/TutorTrace_dataset_and_benchmark",
+   "git_branch": "uist",
+   "entrypoint": "cli",
+   "cli_version": "2.1.223",
+   "parts": [
+    "synthetic/claude-code/projects/-Users-divadbaroon-Desktop-Dataset-TutorTrace-dataset-and-benchmark/9aad0a7c-acdd-4c47-bca2-57e5ecc8ed48/subagents/agent-a91063ee16a68c77f.jsonl",
+    "synthetic/claude-code/projects/-Users-divadbaroon-Desktop-Dataset-TutorTrace-dataset-and-benchmark/9aad0a7c-acdd-4c47-bca2-57e5ecc8ed48/subagents/agent-a91063ee16a68c77f.meta.json"
+   ],
+   "subagent_count": 1,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Desktop-Dataset-TutorTrace-dataset-and-benchmark/9aad0a7c-acdd-4c47-bca2-57e5ecc8ed48.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "cross-course analysis promised in the UIST rebuttal; camera-ready week"
+  }
+ },
+ {
+  "id": "item_034438",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "c705297d-37ed-46c9-bd1e-19e6d6f4b0af",
+  "title": "Camera-ready figure fonts (Type 3 → TrueType)",
+  "content_type": "conversation",
+  "created_at": "2026-08-06T17:20:51Z",
+  "modified_at": "2026-08-06T17:26:12Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Desktop-Dataset-TutorTrace-dataset-and-benchmark/c705297d-37ed-46c9-bd1e-19e6d6f4b0af.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:e017e4bba466968059586656bd6901ee03f29d7af5dbf878ed1160931a631f23",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 18,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Desktop-Dataset-TutorTrace-dataset-and-benchmark",
+   "cwd": "/Users/divadbaroon/Desktop/Dataset/TutorTrace_dataset_and_benchmark",
+   "git_branch": "uist",
+   "entrypoint": "cli",
+   "cli_version": "2.1.216",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Desktop-Dataset-TutorTrace-dataset-and-benchmark/c705297d-37ed-46c9-bd1e-19e6d6f4b0af.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "UIST camera-ready figure fix (Aug 2026)"
+  }
+ },
+ {
+  "id": "item_034439",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "1b42ffdc-9b22-424e-98f1-e4370b502161",
+  "title": "Claude import misses chats inside projects",
+  "content_type": "conversation",
+  "created_at": "2026-10-15T06:30:42Z",
+  "modified_at": "2026-10-15T06:37:03Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Desktop-engelbart-canvas/1b42ffdc-9b22-424e-98f1-e4370b502161.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:687371b45429f0d756451333102f75e34926beafc91926f4f22b3673bf5cbc84",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 23,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Desktop-engelbart-canvas",
+   "cwd": "/Users/divadbaroon/Desktop/engelbart-canvas",
+   "git_branch": "feat/import-dedupe",
+   "entrypoint": "cli",
+   "cli_version": "2.1.297",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Desktop-engelbart-canvas/1b42ffdc-9b22-424e-98f1-e4370b502161.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "Engelbart import: chats inside Claude/ChatGPT projects were skipped (Priya pilot)"
+  }
+ },
+ {
+  "id": "item_034440",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "24e9e285-c459-433b-93a8-6d727119235a",
+  "title": "Connect screen: group sources by category",
+  "content_type": "conversation",
+  "created_at": "2026-09-23T05:21:27Z",
+  "modified_at": "2026-09-23T05:23:29Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Desktop-engelbart-canvas/24e9e285-c459-433b-93a8-6d727119235a.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:e344a4e08a201dd52f2e835885b04274114fd95d0eb0fde2908c513ab9701721",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 17,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Desktop-engelbart-canvas",
+   "cwd": "/Users/divadbaroon/Desktop/engelbart-canvas",
+   "git_branch": "feat/connect-screen",
+   "entrypoint": "cli",
+   "cli_version": "2.1.271",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Desktop-engelbart-canvas/24e9e285-c459-433b-93a8-6d727119235a.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "Engelbart onboarding connect screen v1"
+  }
+ },
+ {
+  "id": "item_034441",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "62efd2ce-4acb-4aa8-916f-c6d66e36ba52",
+  "title": "Run the test suite and fix any failures. Do not ask questions.",
+  "content_type": "conversation",
+  "created_at": "2026-10-11T11:10:38Z",
+  "modified_at": "2026-10-11T11:12:22Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Desktop-engelbart-canvas/62efd2ce-4acb-4aa8-916f-c6d66e36ba52.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:bbe330e307514da1e4ff9be57434616e7510b6ccbeca4725c6325faa1b96fa10",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 21,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Desktop-engelbart-canvas",
+   "cwd": "/Users/divadbaroon/Desktop/engelbart-canvas",
+   "git_branch": "feat/import-dedupe",
+   "entrypoint": "sdk-cli",
+   "cli_version": "2.1.293",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Desktop-engelbart-canvas/62efd2ce-4acb-4aa8-916f-c6d66e36ba52.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "HARD CASE: automated-looking session with real work — headless sdk-cli test-fix run; real fix: title cleaning merged distinct v2 drafts during import dedupe"
+  }
+ },
+ {
+  "id": "item_034442",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "a2f80be0-c548-4c0f-add0-bdf6bd4a276f",
+  "title": "Canvas cards vanish when zoomed out",
+  "content_type": "conversation",
+  "created_at": "2026-09-02T05:40:59Z",
+  "modified_at": "2026-09-02T05:51:29Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Desktop-engelbart-canvas/a2f80be0-c548-4c0f-add0-bdf6bd4a276f.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:995683f1d95ece3815f97b1724391a182eb0e73854b75efbba9bc3a63cda65f4",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 15,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Desktop-engelbart-canvas",
+   "cwd": "/Users/divadbaroon/Desktop/engelbart-canvas",
+   "git_branch": "fix/canvas-zoom-cull",
+   "entrypoint": "cli",
+   "cli_version": "2.1.246",
+   "parts": [
+    "synthetic/claude-code/projects/-Users-divadbaroon-Desktop-engelbart-canvas/a2f80be0-c548-4c0f-add0-bdf6bd4a276f/subagents/agent-aa8a84ced372be8dd.jsonl",
+    "synthetic/claude-code/projects/-Users-divadbaroon-Desktop-engelbart-canvas/a2f80be0-c548-4c0f-add0-bdf6bd4a276f/subagents/agent-aa8a84ced372be8dd.meta.json"
+   ],
+   "subagent_count": 1,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Desktop-engelbart-canvas/a2f80be0-c548-4c0f-add0-bdf6bd4a276f.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "Engelbart canvas render bug (culling at low zoom), with an Explore subagent"
+  }
+ },
+ {
+  "id": "item_034443",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "b92a5d98-7e50-4b64-be2e-811bfcecd78d",
+  "title": "Import dedupe: same paper from Zotero and Downloads",
+  "content_type": "conversation",
+  "created_at": "2026-10-10T07:21:35Z",
+  "modified_at": "2026-10-10T07:24:39Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Desktop-engelbart-canvas/b92a5d98-7e50-4b64-be2e-811bfcecd78d.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:66ea22ec3c40fc8156ada8ccf2ffb89f8f7548ec0ddab2f5e4b91c98213681fa",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 18,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Desktop-engelbart-canvas",
+   "cwd": "/Users/divadbaroon/Desktop/engelbart-canvas",
+   "git_branch": "feat/import-dedupe",
+   "entrypoint": "cli",
+   "cli_version": "2.1.292",
+   "parts": [
+    "synthetic/claude-code/projects/-Users-divadbaroon-Desktop-engelbart-canvas/b92a5d98-7e50-4b64-be2e-811bfcecd78d/subagents/agent-ad9eefdc9aaaf738a.jsonl",
+    "synthetic/claude-code/projects/-Users-divadbaroon-Desktop-engelbart-canvas/b92a5d98-7e50-4b64-be2e-811bfcecd78d/subagents/agent-ad9eefdc9aaaf738a.meta.json",
+    "synthetic/claude-code/projects/-Users-divadbaroon-Desktop-engelbart-canvas/b92a5d98-7e50-4b64-be2e-811bfcecd78d/tool-results/bbn4ppwm5.txt"
+   ],
+   "subagent_count": 1,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Desktop-engelbart-canvas/b92a5d98-7e50-4b64-be2e-811bfcecd78d.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "Engelbart import dedupe after the Priya pilot (2026-10-09); subagent + persisted tool-result"
+  }
+ },
+ {
+  "id": "item_034444",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "c106d0f6-c75a-4a16-ae39-5750778085f2",
+  "title": "Connect screen: replace \"Other\" with Meetings / Research / Mail",
+  "content_type": "conversation",
+  "created_at": "2026-10-16T04:41:06Z",
+  "modified_at": "2026-10-16T04:42:47Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Desktop-engelbart-canvas/c106d0f6-c75a-4a16-ae39-5750778085f2.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:010d0f7de51fef39442b25a73d1c120a03935054160fc3377b9799977ed3c1a8",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 14,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Desktop-engelbart-canvas",
+   "cwd": "/Users/divadbaroon/Desktop/engelbart-canvas",
+   "git_branch": "feat/connect-screen",
+   "entrypoint": "cli",
+   "cli_version": "2.1.298",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Desktop-engelbart-canvas/c106d0f6-c75a-4a16-ae39-5750778085f2.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "Engelbart connect screen after pilot B (Daniel Osei, 2026-10-13)"
+  }
+ },
+ {
+  "id": "item_034445",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "d0f6ffcc-50a6-4c7b-8601-49c7d70555a0",
+  "title": "Blurry edges and edges drawn over cards after pan",
+  "content_type": "conversation",
+  "created_at": "2026-09-02T18:16:24Z",
+  "modified_at": "2026-09-02T18:33:02Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Desktop-engelbart-canvas/d0f6ffcc-50a6-4c7b-8601-49c7d70555a0.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:ff82a14f74f9ededc4f0695d02bbb6bdf56131af1b9f3eadb6ba5ebc72a9c59c",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 17,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Desktop-engelbart-canvas",
+   "cwd": "/Users/divadbaroon/Desktop/engelbart-canvas",
+   "git_branch": "fix/canvas-zoom-cull",
+   "entrypoint": "cli",
+   "cli_version": "2.1.248",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Desktop-engelbart-canvas/d0f6ffcc-50a6-4c7b-8601-49c7d70555a0.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "Engelbart canvas render follow-up (retina blur, edge z-order)"
+  }
+ },
+ {
+  "id": "item_034446",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "edabeac1-b684-423c-80c1-4b3c94bb77cc",
+  "title": "Run the test suite and fix any failures. Do not ask questions.",
+  "content_type": "conversation",
+  "created_at": "2026-09-08T09:40:12Z",
+  "modified_at": "2026-09-08T09:41:15Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Desktop-engelbart-canvas/edabeac1-b684-423c-80c1-4b3c94bb77cc.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:906e2dc6551b3bac3afb45cbcbe558cb3ae567f42e7af0aafdbebe85b90a123f",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 12,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Desktop-engelbart-canvas",
+   "cwd": "/Users/divadbaroon/Desktop/engelbart-canvas",
+   "git_branch": "main",
+   "entrypoint": "sdk-cli",
+   "cli_version": "2.1.255",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Desktop-engelbart-canvas/edabeac1-b684-423c-80c1-4b3c94bb77cc.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart"
+   ],
+   "notes": "HARD CASE: automated-looking session with real work — headless sdk-cli test-fix run; real fix: canvas hit-testing missed cards at negative world coordinates"
+  }
+ },
+ {
+  "id": "item_034447",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "966e6322-10fb-4c95-840a-98f8fa76cd31",
+  "title": "Find recurring subscriptions in card CSV",
+  "content_type": "conversation",
+  "created_at": "2026-09-15T04:11:24Z",
+  "modified_at": "2026-09-15T04:11:57Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Documents-budget/966e6322-10fb-4c95-840a-98f8fa76cd31.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:f46c1039905916c8d3d95bbd4cfe45604fe90685c2a9e1a496fa8bb5ab472cf0",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 6,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Documents-budget",
+   "cwd": "/Users/divadbaroon/Documents/budget",
+   "entrypoint": "cli",
+   "cli_version": "2.1.262",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Documents-budget/966e6322-10fb-4c95-840a-98f8fa76cd31.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "subscriptions and receipts (personal); synthetic amounts"
+  }
+ },
+ {
+  "id": "item_034448",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "866129dd-fb08-412a-a700-f1218c26aac5",
+  "title": "Fix naive timestamps in telemetry CSV export",
+  "content_type": "conversation",
+  "created_at": "2026-08-19T23:23:30Z",
+  "modified_at": "2026-08-19T23:24:43Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Projects-Vizpi-vizpi-backend/866129dd-fb08-412a-a700-f1218c26aac5.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:bdf13e4807042d54789954d56dfcc89fba59a26343c9d3e244df8b6e7db3a564",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 13,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Projects-Vizpi-vizpi-backend",
+   "cwd": "/Users/divadbaroon/Projects/Vizpi/vizpi_backend",
+   "git_branch": "main",
+   "entrypoint": "cli",
+   "cli_version": "2.1.231",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Projects-Vizpi-vizpi-backend/866129dd-fb08-412a-a700-f1218c26aac5.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "small vizpi_backend fix (Aug 2026)"
+  }
+ },
+ {
+  "id": "item_034449",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "2b9fa083-4e24-4b79-b25b-928a8c238f36",
+  "title": "BPM detector for loops without BPM in name",
+  "content_type": "conversation",
+  "created_at": "2026-09-29T02:41:10Z",
+  "modified_at": "2026-09-29T02:42:32Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Projects-beat-tools/2b9fa083-4e24-4b79-b25b-928a8c238f36.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:0237fae424757fad0bc46690daf2c14f4f0f014fdf2fcc6b4de4e2c7cab4b23e",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 12,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Projects-beat-tools",
+   "cwd": "/Users/divadbaroon/Projects/beat-tools",
+   "git_branch": "main",
+   "entrypoint": "cli",
+   "cli_version": "2.1.278",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Projects-beat-tools/2b9fa083-4e24-4b79-b25b-928a8c238f36.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": "BPM detector for beat-tools"
+  }
+ },
+ {
+  "id": "item_034450",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "ae3eae7e-2665-4d77-91ff-4606a4a51805",
+  "title": "Sample pack renamer (kind_descriptor_key_bpm)",
+  "content_type": "conversation",
+  "created_at": "2026-08-24T05:50:53Z",
+  "modified_at": "2026-08-24T05:54:09Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Projects-beat-tools/ae3eae7e-2665-4d77-91ff-4606a4a51805.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:013b528ea8ff0a7a36f44cd8951e2f127e0bc62dc4a67f833c6dc3c47ab6c5d3",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 14,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Projects-beat-tools",
+   "cwd": "/Users/divadbaroon/Projects/beat-tools",
+   "git_branch": "main",
+   "entrypoint": "cli",
+   "cli_version": "2.1.236",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Projects-beat-tools/ae3eae7e-2665-4d77-91ff-4606a4a51805.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": "sample-pack renamer in ~/Projects/beat-tools (matches the synthetic github repo)"
+  }
+ },
+ {
+  "id": "item_034451",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "cd226995-75cf-45f9-ae49-85fe1e78f573",
+  "title": "Run the test suite and fix any failures. Do not ask questions.",
+  "content_type": "conversation",
+  "created_at": "2026-10-04T10:30:16Z",
+  "modified_at": "2026-10-04T10:30:59Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Projects-beat-tools/cd226995-75cf-45f9-ae49-85fe1e78f573.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:4a098da53e2e47bcc6d78bdf0e3017f56863cc694a31775cff00c4b145f9afc3",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 8,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Projects-beat-tools",
+   "cwd": "/Users/divadbaroon/Projects/beat-tools",
+   "git_branch": "main",
+   "entrypoint": "sdk-cli",
+   "cli_version": "2.1.285",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Projects-beat-tools/cd226995-75cf-45f9-ae49-85fe1e78f573.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": "HARD CASE: automated-looking session with real work — headless sdk-cli test-fix run; real fix: renamer silently overwrote colliding samples"
+  }
+ },
+ {
+  "id": "item_034452",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "859a62f8-6155-4326-9f7d-a880359552d6",
+  "title": "Run the test suite and fix any failures. Do not ask questions.",
+  "content_type": "conversation",
+  "created_at": "2026-08-29T10:05:51Z",
+  "modified_at": "2026-08-29T10:06:34Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Projects-berkeley-research/859a62f8-6155-4326-9f7d-a880359552d6.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:8ef37bb5aef9bd77ad55f1a4128fafd5fd7b864fd47fa41735043b5ac0cd89c2",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 8,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Projects-berkeley-research",
+   "cwd": "/Users/divadbaroon/Projects/berkeley-research",
+   "git_branch": "main",
+   "entrypoint": "sdk-cli",
+   "cli_version": "2.1.243",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Projects-berkeley-research/859a62f8-6155-4326-9f7d-a880359552d6.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats"
+   ],
+   "notes": "HARD CASE: automated-looking session with real work — headless sdk-cli test-fix run; real fix: berkeley.edu subdomain emails were rejected by the sign-up form"
+  }
+ },
+ {
+  "id": "item_034453",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "9cb4d74a-7d65-4b0a-b233-856b9111d45b",
+  "title": "Slot times shown in wrong timezone",
+  "content_type": "conversation",
+  "created_at": "2026-08-28T06:35:08Z",
+  "modified_at": "2026-08-28T06:35:54Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Projects-berkeley-research/9cb4d74a-7d65-4b0a-b233-856b9111d45b.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:8b08a159076b0591c46d0604d2d3e3b766ccbe63a25addadc2591a3e6eabd02d",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 7,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Projects-berkeley-research",
+   "cwd": "/Users/divadbaroon/Projects/berkeley-research",
+   "git_branch": "main",
+   "entrypoint": "cli",
+   "cli_version": "2.1.241",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Projects-berkeley-research/9cb4d74a-7d65-4b0a-b233-856b9111d45b.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats"
+   ],
+   "notes": "slot timezone bug on the research-chat sign-up page"
+  }
+ },
+ {
+  "id": "item_034454",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "a8ca240a-8e19-4ee9-9053-54c6157e82b2",
+  "title": "Berkeley research chats sign-up page",
+  "content_type": "conversation",
+  "created_at": "2026-08-25T21:11:16Z",
+  "modified_at": "2026-08-25T21:13:04Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Projects-berkeley-research/a8ca240a-8e19-4ee9-9053-54c6157e82b2.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:8a6aec9fc6c21acf91919f21a790a5935baaa4c7ff1860580ab9ddef47a76a4c",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 12,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Projects-berkeley-research",
+   "cwd": "/Users/divadbaroon/Projects/berkeley-research",
+   "git_branch": "main",
+   "entrypoint": "cli",
+   "cli_version": "2.1.238",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Projects-berkeley-research/a8ca240a-8e19-4ee9-9053-54c6157e82b2.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats"
+   ],
+   "notes": "berkeley.mathetic.com sign-up page (Aug 2026)"
+  }
+ },
+ {
+  "id": "item_034455",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "49c067b8-59b5-4c5e-8118-6d16af723964",
+  "title": "Lichess PGN: win rate by opening",
+  "content_type": "conversation",
+  "created_at": "2026-08-31T03:15:42Z",
+  "modified_at": "2026-08-31T03:16:25Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Projects-chess-stats/49c067b8-59b5-4c5e-8118-6d16af723964.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:069815ed6ac88fb7313231223f80148a32d71eb6d756201d984995b62f2bf3f1",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 8,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Projects-chess-stats",
+   "cwd": "/Users/divadbaroon/Projects/chess-stats",
+   "git_branch": "main",
+   "entrypoint": "cli",
+   "cli_version": "2.1.244",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Projects-chess-stats/49c067b8-59b5-4c5e-8118-6d16af723964.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "online chess (personal)"
+  }
+ },
+ {
+  "id": "item_034456",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "3a957320-906c-4f8f-9f71-519f736790d9",
+  "title": "Scaffold hc (human compaction) plugin",
+  "content_type": "conversation",
+  "created_at": "2026-08-11T06:06:20Z",
+  "modified_at": "2026-08-11T06:14:26Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Projects-claude-plugins/3a957320-906c-4f8f-9f71-519f736790d9.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:5a7fb3c0fc090be5aef5f73df19ea70f1ebead62629fb8021a2c5c160c24ce54",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 20,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Projects-claude-plugins",
+   "cwd": "/Users/divadbaroon/Projects/claude-plugins",
+   "git_branch": "main",
+   "entrypoint": "cli",
+   "cli_version": "2.1.221",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Projects-claude-plugins/3a957320-906c-4f8f-9f71-519f736790d9.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_claude_code_plugins"
+   ],
+   "notes": "hc plugin first scaffold (2026-08-10)"
+  }
+ },
+ {
+  "id": "item_034457",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "57e81dcf-628e-44d8-a92a-841652f9c2a9",
+  "title": "Compaction experiment: auto vs hc retention",
+  "content_type": "conversation",
+  "created_at": "2026-08-15T04:30:42Z",
+  "modified_at": "2026-08-15T04:36:28Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Projects-claude-plugins/57e81dcf-628e-44d8-a92a-841652f9c2a9.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:38e7fa53f65dc39e2266216b00771aa0ba7554087e2659aaacbc4d7cda743bf1",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 16,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Projects-claude-plugins",
+   "cwd": "/Users/divadbaroon/Projects/claude-plugins",
+   "git_branch": "compaction-exp",
+   "entrypoint": "cli",
+   "cli_version": "2.1.225",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Projects-claude-plugins/57e81dcf-628e-44d8-a92a-841652f9c2a9.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_claude_code_plugins"
+   ],
+   "notes": "compaction-experiment harness; numbers are synthetic"
+  }
+ },
+ {
+  "id": "item_034458",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "d60f72d9-ac44-4090-8139-119b04b82b32",
+  "title": "Compaction experiment: LLM-judge rescoring + plot",
+  "content_type": "conversation",
+  "created_at": "2026-10-17T05:10:49Z",
+  "modified_at": "2026-10-17T05:15:15Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Projects-claude-plugins/d60f72d9-ac44-4090-8139-119b04b82b32.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:0645c4896a910d23c148f102ccf43a3c1e2c1f4e291a801236a718cf3544c4f4",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 15,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Projects-claude-plugins",
+   "cwd": "/Users/divadbaroon/Projects/claude-plugins",
+   "git_branch": "compaction-exp",
+   "entrypoint": "cli",
+   "cli_version": "2.1.299",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Projects-claude-plugins/d60f72d9-ac44-4090-8139-119b04b82b32.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_claude_code_plugins"
+   ],
+   "notes": "compaction experiment results (LLM judge, Hudson blind arm)"
+  }
+ },
+ {
+  "id": "item_034459",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "e7e904b8-47ac-4efb-9bc2-3febae211862",
+  "title": "Run the test suite and fix any failures. Do not ask questions.",
+  "content_type": "conversation",
+  "created_at": "2026-08-16T09:12:44Z",
+  "modified_at": "2026-08-16T09:13:37Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Projects-claude-plugins/e7e904b8-47ac-4efb-9bc2-3febae211862.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:deb79139e66258e771d816fc2dad1b7e11cf4548220aeb281a865399c24b206f",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 10,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Projects-claude-plugins",
+   "cwd": "/Users/divadbaroon/Projects/claude-plugins",
+   "git_branch": "main",
+   "entrypoint": "sdk-cli",
+   "cli_version": "2.1.228",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Projects-claude-plugins/e7e904b8-47ac-4efb-9bc2-3febae211862.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_claude_code_plugins"
+   ],
+   "notes": "HARD CASE: automated-looking session with real work — headless sdk-cli test-fix run; real fix to hc.py segment parsing after compaction"
+  }
+ },
+ {
+  "id": "item_034460",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "7b1f75b9-0940-4572-9048-f8124ee9f67d",
+  "title": "Weekly digest of saved geopolitics articles",
+  "content_type": "conversation",
+  "created_at": "2026-09-06T06:01:11Z",
+  "modified_at": "2026-09-06T06:01:54Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Projects-reading-digest/7b1f75b9-0940-4572-9048-f8124ee9f67d.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:3e8495c2d252369e4d74a0bf09bd9182e5c8edd23896fca8d4e0105558d90e7e",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 8,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Projects-reading-digest",
+   "cwd": "/Users/divadbaroon/Projects/reading-digest",
+   "git_branch": "main",
+   "entrypoint": "cli",
+   "cli_version": "2.1.251",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Projects-reading-digest/7b1f75b9-0940-4572-9048-f8124ee9f67d.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "geopolitics reading (personal)"
+  }
+ },
+ {
+  "id": "item_034461",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "b236ae6d-10cf-4078-a577-f71c45a01a60",
+  "title": "Dedupe SF sublet listings CSV",
+  "content_type": "conversation",
+  "created_at": "2026-08-06T03:42:10Z",
+  "modified_at": "2026-08-06T03:48:38Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Projects-sublet-hunt/b236ae6d-10cf-4078-a577-f71c45a01a60.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:744242b9a4d9ac436ed012fca46017fd8333b4bd7c9c5d87ecfbe560d71580a9",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 15,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Projects-sublet-hunt",
+   "cwd": "/Users/divadbaroon/Projects/sublet-hunt",
+   "git_branch": "main",
+   "entrypoint": "cli",
+   "cli_version": "2.1.215",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Projects-sublet-hunt/b236ae6d-10cf-4078-a577-f71c45a01a60.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "SF sublet search (personal); listing URLs are example.org placeholders"
+  }
+ },
+ {
+  "id": "item_034462",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "2a843b7a-aba5-4828-af86-e01af7207eac",
+  "title": "Talk figure: learner-state timeline build",
+  "content_type": "conversation",
+  "created_at": "2026-09-20T22:46:02Z",
+  "modified_at": "2026-09-20T22:47:21Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Projects-uist26-talk/2a843b7a-aba5-4828-af86-e01af7207eac.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:60ba1e6c39820c1d4b0387a132ebc660346359be2989d7e9e56715cdfa35ec25",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 13,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Projects-uist26-talk",
+   "cwd": "/Users/divadbaroon/Projects/uist26-talk",
+   "git_branch": "main",
+   "entrypoint": "cli",
+   "cli_version": "2.1.269",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Projects-uist26-talk/2a843b7a-aba5-4828-af86-e01af7207eac.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "UIST 2026 talk prep (repo uist26-talk)"
+  }
+ },
+ {
+  "id": "item_034463",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "5d3729d3-8a27-4c30-9114-dbbf9e9945f2",
+  "title": "Run the test suite and fix any failures. Do not ask questions.",
+  "content_type": "conversation",
+  "created_at": "2026-09-26T08:55:03Z",
+  "modified_at": "2026-09-26T08:55:54Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Projects-uist26-talk/5d3729d3-8a27-4c30-9114-dbbf9e9945f2.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:e64bbcb1e3180277a74c178d8a3ab95a8326b5633ec7b39a757f00f8f35ae53c",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 10,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Projects-uist26-talk",
+   "cwd": "/Users/divadbaroon/Projects/uist26-talk",
+   "git_branch": "main",
+   "entrypoint": "sdk-cli",
+   "cli_version": "2.1.276",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Projects-uist26-talk/5d3729d3-8a27-4c30-9114-dbbf9e9945f2.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: automated-looking session with real work — headless sdk-cli test-fix run; real fix in the UIST talk figure script"
+  }
+ },
+ {
+  "id": "item_034464",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "bd86b145-6b6c-421f-98e8-602f348405ac",
+  "title": "Aerobic decoupling (Pa:HR) for long runs",
+  "content_type": "conversation",
+  "created_at": "2026-09-12T16:30:45Z",
+  "modified_at": "2026-09-12T16:31:28Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Projects-zone2-log/bd86b145-6b6c-421f-98e8-602f348405ac.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:aae486e97992384183cfe3ef9ece46d1c698fafd049914ffc12496ebab58ce66",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 8,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Projects-zone2-log",
+   "cwd": "/Users/divadbaroon/Projects/zone2-log",
+   "git_branch": "main",
+   "entrypoint": "cli",
+   "cli_version": "2.1.259",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Projects-zone2-log/bd86b145-6b6c-421f-98e8-602f348405ac.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "Block 4 training analysis script"
+  }
+ },
+ {
+  "id": "item_034465",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "d0705c9c-3d0f-40b1-84d6-97f17038f6f3",
+  "title": "Strava export → weekly training hours by sport",
+  "content_type": "conversation",
+  "created_at": "2026-08-17T17:06:07Z",
+  "modified_at": "2026-08-17T17:10:05Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon-Projects-zone2-log/d0705c9c-3d0f-40b1-84d6-97f17038f6f3.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:49a6ae497c0b427ba488a4e14f1b63be1b9980e00fce18ba7937b2cb6fb16419",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 15,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon-Projects-zone2-log",
+   "cwd": "/Users/divadbaroon/Projects/zone2-log",
+   "git_branch": "main",
+   "entrypoint": "cli",
+   "cli_version": "2.1.229",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon-Projects-zone2-log/d0705c9c-3d0f-40b1-84d6-97f17038f6f3.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "personal training script in ~/Projects/zone2-log (matches the synthetic github repo)"
+  }
+ },
+ {
+  "id": "item_034466",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "4c39b360-1541-4178-9864-11fc65c5a605",
+  "title": "Speed up slow zsh startup",
+  "content_type": "conversation",
+  "created_at": "2026-10-13T05:05:59Z",
+  "modified_at": "2026-10-13T05:07:04Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon/4c39b360-1541-4178-9864-11fc65c5a605.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:da7f683a7967a765fceb6f98acc9d1c52ff700877bfa3ef24fc075163a162910",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 11,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon",
+   "cwd": "/Users/divadbaroon",
+   "entrypoint": "cli",
+   "cli_version": "2.1.295",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon/4c39b360-1541-4178-9864-11fc65c5a605.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "laptop setup / shell (personal)"
+  }
+ },
+ {
+  "id": "item_034467",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "d15795bd-2537-43ad-945a-555ae5f0f298",
+  "title": "New Mac dev setup: brew, uv, git, zsh",
+  "content_type": "conversation",
+  "created_at": "2026-08-05T02:14:45Z",
+  "modified_at": "2026-08-05T02:34:27Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/projects/-Users-divadbaroon/d15795bd-2537-43ad-945a-555ae5f0f298.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:425c10b12d93c6f384a7b909d547861bd463f1a01bf04f9d857de15e8bdd9350",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/projects/<dir>/<session>.jsonl record shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 17,
+   "tags": [],
+   "account": "Claude Code CLI (~/.claude/projects)",
+   "project_dir": "-Users-divadbaroon",
+   "cwd": "/Users/divadbaroon",
+   "entrypoint": "cli",
+   "cli_version": "2.1.214",
+   "subagent_count": 0,
+   "original_path": "~/.claude/projects/-Users-divadbaroon/d15795bd-2537-43ad-945a-555ae5f0f298.jsonl"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "new Mac setup (2026-08-04); personal clutter, mentions repo names only"
+  }
+ },
+ {
+  "id": "item_034468",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "claude-code",
+  "source_id": "claude-home/history.jsonl",
+  "title": "Claude Code prompt history",
+  "content_type": "prompt_history",
+  "created_at": "2026-08-05T02:14:45Z",
+  "modified_at": "2026-10-17T05:10:49Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/claude-code/claude-home/history.jsonl",
+  "source_url": null,
+  "content_hash": "sha256:41647ec77796b4f17939cf77e843b82ae8c9c979aaa94d2169763bcc63bdbc67",
+  "library_item_id": null,
+  "modeled_on": "authentic/claude-code/claude-home/history.jsonl line shape",
+  "metadata": {
+   "format": "jsonl",
+   "language": "en",
+   "message_count": 36,
+   "tags": [],
+   "account": "~/.claude"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats",
+    "project_claude_code_plugins",
+    "project_endurance_training",
+    "project_engelbart",
+    "project_music_production",
+    "project_none",
+    "project_tutortrace",
+    "project_vizpi"
+   ],
+   "notes": "prompt history across all synthetic interactive sessions (spans several projects + personal)"
+  }
+ }
+]

@@ -1,0 +1,36 @@
+{"id": "019c217f-3230-7262-beec-cd49bcd6e48a", "thread_name": "embed the 3,100 forum posts in data/", "updated_at": "2026-02-03T03:15:10.216000Z"}
+{"id": "019c217f-3230-7262-beec-cd49bcd6e48a", "thread_name": "HDBSCAN sweep on forum posts", "updated_at": "2026-02-03T03:15:13.628233Z"}
+{"id": "019c2c1a-40e0-7536-9791-05474813e70a", "thread_name": "ok going with min_cluster_size=15 (4", "updated_at": "2026-02-05T04:40:44.216000Z"}
+{"id": "019c2c1a-40e0-7536-9791-05474813e70a", "thread_name": "LLM labels for 41 clusters", "updated_at": "2026-02-05T04:40:47.628233Z"}
+{"id": "019c4a72-4df8-7aa9-82d5-525bd2f66543", "thread_name": "make me a review sheet for checking", "updated_at": "2026-02-11T02:05:31.216000Z"}
+{"id": "019c4a72-4df8-7aa9-82d5-525bd2f66543", "thread_name": "Hand-check sheet for cluster labels", "updated_at": "2026-02-11T02:05:34.628233Z"}
+{"id": "019c557a-4390-743b-94a5-3724f7c474c0", "thread_name": "last one for the dynamite writeup: 2", "updated_at": "2026-02-13T05:30:02.216000Z"}
+{"id": "019c557a-4390-743b-94a5-3724f7c474c0", "thread_name": "Reproducible UMAP figure", "updated_at": "2026-02-13T05:30:05.628233Z"}
+{"id": "019ccee4-ff40-7c6e-87d7-1a92c6d59e78", "thread_name": "i exported 2025 transactions from my", "updated_at": "2026-03-08T19:20:40.216000Z"}
+{"id": "019ccee4-ff40-7c6e-87d7-1a92c6d59e78", "thread_name": "2025 transactions by category (tax prep)", "updated_at": "2026-03-08T19:20:43.628233Z"}
+{"id": "019d2d69-f520-743f-a02f-36ee97214545", "thread_name": "need inter-rater numbers for the uis", "updated_at": "2026-03-27T03:50:12.216000Z"}
+{"id": "019d2d69-f520-743f-a02f-36ee97214545", "thread_name": "Inter-rater agreement for UIST paper", "updated_at": "2026-03-27T03:50:15.628233Z"}
+{"id": "019df165-8318-7f90-9e1e-c6971db5ac2b", "thread_name": "neurips d&b wants a datasheet. compu", "updated_at": "2026-05-04T05:10:55.216000Z"}
+{"id": "019df165-8318-7f90-9e1e-c6971db5ac2b", "thread_name": "Datasheet composition stats", "updated_at": "2026-05-04T05:10:58.628233Z"}
+{"id": "019f8266-e040-7dfd-8b50-6a2f626fc3ab", "thread_name": "compare 3 sf sublets over aug 8 - de", "updated_at": "2026-07-21T02:00:08.216000Z"}
+{"id": "019f8266-e040-7dfd-8b50-6a2f626fc3ab", "thread_name": "Compare SF sublet costs", "updated_at": "2026-07-21T02:00:11.628233Z"}
+{"id": "019f9752-d928-737d-b665-2e863ea5880e", "thread_name": "reviewer 2 asks how the test windows", "updated_at": "2026-07-25T03:30:17.216000Z"}
+{"id": "019f9752-d928-737d-b665-2e863ea5880e", "thread_name": "Check v1 split for student leakage", "updated_at": "2026-07-25T03:30:20.628233Z"}
+{"id": "019f9a71-8a00-76c2-b10c-86036a14c6e9", "thread_name": "ok implement the grouped split. keep", "updated_at": "2026-07-25T18:02:40.216000Z"}
+{"id": "019f9a71-8a00-76c2-b10c-86036a14c6e9", "thread_name": "Grouped-by-student split v2", "updated_at": "2026-07-25T18:02:43.628233Z"}
+{"id": "019fa176-2798-71bd-a03c-89b35e58c800", "thread_name": "rerun all three baselines (majority,", "updated_at": "2026-07-27T02:45:03.216000Z"}
+{"id": "019fa176-2798-71bd-a03c-89b35e58c800", "thread_name": "Rerun baselines on grouped split", "updated_at": "2026-07-27T02:45:06.628233Z"}
+{"id": "019fa645-e3d0-77ca-9478-4d517469acc0", "thread_name": "sanity check before we trust 0.74: l", "updated_at": "2026-07-28T01:10:26.216000Z"}
+{"id": "019fa645-e3d0-77ca-9478-4d517469acc0", "thread_name": "Seed robustness for grouped split", "updated_at": "2026-07-28T01:10:29.628233Z"}
+{"id": "019fac03-a5a0-774b-87e3-b54aa18ed338", "thread_name": "rebuttal posts tomorrow. generate th", "updated_at": "2026-07-29T03:55:48.216000Z"}
+{"id": "019fac03-a5a0-774b-87e3-b54aa18ed338", "thread_name": "LaTeX table for NeurIPS rebuttal", "updated_at": "2026-07-29T03:55:51.628233Z"}
+{"id": "01a022f1-47a8-71ef-9228-f2373d7fd97d", "thread_name": "write experiments/compaction_log.py:", "updated_at": "2026-08-21T06:10:33.216000Z"}
+{"id": "01a022f1-47a8-71ef-9228-f2373d7fd97d", "thread_name": "Compaction log parser", "updated_at": "2026-08-21T06:10:36.628233Z"}
+{"id": "01a06ae5-5ea0-7885-856d-6dfac5a2ba5d", "thread_name": "add stats to compaction_log.py: per", "updated_at": "2026-09-04T05:30:12.216000Z"}
+{"id": "01a06ae5-5ea0-7885-856d-6dfac5a2ba5d", "thread_name": "Compaction stats by day", "updated_at": "2026-09-04T05:30:15.628233Z"}
+{"id": "01a0a88d-c738-7d3a-b7cd-9e620af9edd6", "thread_name": "compaction_log.py crashes now: JSOND", "updated_at": "2026-09-16T04:50:59.216000Z"}
+{"id": "01a0a88d-c738-7d3a-b7cd-9e620af9edd6", "thread_name": "Make compaction parser robust", "updated_at": "2026-09-16T04:51:02.628233Z"}
+{"id": "01a0d6a6-4118-71a6-bf2d-294ee760d9e5", "thread_name": "litellm proxy config for engelbart.", "updated_at": "2026-09-25T03:40:15.216000Z"}
+{"id": "01a0d6a6-4118-71a6-bf2d-294ee760d9e5", "thread_name": "LiteLLM proxy config for Bart", "updated_at": "2026-09-25T03:40:18.628233Z"}
+{"id": "01a0e52b-b128-7223-8698-f8d874b71ef6", "thread_name": "run stockfish (it's in brew) over my", "updated_at": "2026-09-27T23:20:41.216000Z"}
+{"id": "01a0e52b-b128-7223-8698-f8d874b71ef6", "thread_name": "Stockfish blunder phases in blitz losses", "updated_at": "2026-09-27T23:20:44.628233Z"}

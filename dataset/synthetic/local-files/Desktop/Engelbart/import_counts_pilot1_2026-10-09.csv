@@ -1,0 +1,7 @@
+source,expected,imported,duplicates_found,note
+claude,1400,1262,31,pagination stopped at 1000 then partial page
+chatgpt,212,212,0,
+zotero,312,312,23,23 also in Downloads
+downloads_pdfs,188,188,23,
+github,9,9,0,
+google_docs,140,137,4,3 shortcuts skipped

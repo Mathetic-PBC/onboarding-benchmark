@@ -1,0 +1,59 @@
+{
+ "uuid": "6b82140e-a411-444b-b5d5-dfbe5ff1541d",
+ "slug": "if-i-chop-a-2-second-vocal-from-an-old-soul-TDeBaRw4uWfbilYM7slqoJ",
+ "title": "Do I need to clear a 2 second vocal chop",
+ "thread_url": "https://www.perplexity.ai/search/if-i-chop-a-2-second-vocal-from-an-old-soul-TDeBaRw4uWfbilYM7slqoJ",
+ "created_at": "2026-03-05T05:40:00Z",
+ "updated_at": "2026-03-05T05:46:28Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "f539834e-3a77-4007-9692-42bc40cf090c",
+   "query_str": "if i chop a 2 second vocal from an old soul record and pitch it, do i legally need to clear it if i put the beat on youtube / sell leases",
+   "answer": "In the US, **there's no safe length**: using a recognizable portion of a sound recording without permission can infringe even when it's very short, and pitching or chopping doesn't automatically make it non-infringing [1][2]. Two separate rights are involved:\n- the **sound recording** (usually owned by the label), and\n- the **composition** (publisher/songwriters) [1].\n\nCourts have split on how small is too small — one well-known federal appeals decision held that *any* sampling of a sound recording requires a license, while another circuit later applied a \"de minimis\" test where tiny, unrecognizable uses can be allowed [2]. That uncertainty is why commercial releases clear everything.\n\nPractically, for **YouTube**: Content ID may flag it, which usually means monetization goes to the rights holder or the video is blocked; a takedown is possible [3]. For **selling leases**: you're selling something you don't have rights to, which shifts risk onto your buyers and you. Options: use royalty-free/cleared sample packs, replay the melody yourself (still needs composition clearance for commercial release), or clear through a sample clearance service [3].\n\n*Not legal advice — if a placement gets serious, talk to a music lawyer.*",
+   "sources": [
+    {
+     "name": "Sampling and copyright: the two rights you need",
+     "url": "https://www.musiclawprimer.org/sampling-basics",
+     "snippet": "Explains master vs publishing clearance for samples."
+    },
+    {
+     "name": "De minimis sampling: the circuit split explained",
+     "url": "https://www.ipjournalreview.com/de-minimis-sampling",
+     "snippet": "Summary of conflicting appellate approaches to very short samples."
+    },
+    {
+     "name": "Selling beats with samples: risks for producers",
+     "url": "https://www.beatmakersguide.com/samples-and-leases",
+     "snippet": "YouTube Content ID, leases and how producers handle uncleared samples."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "pplx_pro",
+   "created_at": "2026-03-05T05:40:00Z",
+   "updated_at": "2026-03-05T05:40:22Z"
+  },
+  {
+   "uuid": "0de47b3b-4527-477e-9307-5a3abdaedf84",
+   "query_str": "how much does clearing usually cost for a small producer",
+   "answer": "It varies widely: for a small independent release, masters and publishing are often negotiated separately, with **upfront fees from a few hundred to a few thousand dollars each**, sometimes plus a percentage of publishing [1][2]. Some labels simply refuse or don't respond for small requests. Clearance services charge their own fee for handling. That's why many producers use cleared sample libraries or commission original \"fake vintage\" samples instead [2].",
+   "sources": [
+    {
+     "name": "What sample clearance costs in practice",
+     "url": "https://www.musiclawprimer.org/clearance-costs",
+     "snippet": "Typical fee ranges and deal structures for independent artists."
+    },
+    {
+     "name": "Alternatives to clearing samples",
+     "url": "https://www.beatmakersguide.com/sample-alternatives",
+     "snippet": "Licensed libraries and replays."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "gpt-5",
+   "created_at": "2026-03-05T05:45:49Z",
+   "updated_at": "2026-03-05T05:46:10Z"
+  }
+ ]
+}

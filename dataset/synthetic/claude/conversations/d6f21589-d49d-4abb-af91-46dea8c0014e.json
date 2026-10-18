@@ -1,0 +1,163 @@
+{
+ "uuid": "d6f21589-d49d-4abb-af91-46dea8c0014e",
+ "name": "Heart rate drift on long Zone 2 runs",
+ "summary": "",
+ "model": "claude-opus-4-8",
+ "created_at": "2026-06-09T00:59:58.803203Z",
+ "updated_at": "2026-06-09T01:06:10.450903Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true,
+  "paprika_mode": "auto",
+  "thinking_mode": "auto",
+  "chat_memory_mode": "enabled",
+  "enabled_artifacts_attachments": false
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "auto",
+ "chat_messages": [
+  {
+   "uuid": "a7cdebdb-3d68-4a6e-a827-600e5fe16772",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-06-09T01:00:00.000000Z",
+     "stop_timestamp": "2026-06-09T01:00:00.000000Z",
+     "type": "text",
+     "text": "on my 90 min zone 2 runs hr drifts from ~142 to ~154 by the end even at same pace. its getting hot in blacksburg. is that bad? should i slow down to keep hr under 148",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-06-09T01:00:00.000000Z",
+   "updated_at": "2026-06-09T01:00:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "21ec1111-9a9c-4af0-af65-ad7286edf7fe",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-06-09T01:00:02.000000Z",
+     "stop_timestamp": "2026-06-09T01:00:15.654000Z",
+     "type": "text",
+     "text": "Some drift is normal; 12 bpm over 90 minutes in the heat is on the high side but common.\n\n**Why it happens**: as you warm up and lose fluid, blood volume drops and more blood goes to the skin for cooling, so the heart beats faster to keep output the same. Heat makes it much worse.\n\n**Is it bad?** Not dangerous, but it means the last 30 minutes are a harder session than the first 60. For aerobic base work, that's usually not what you want.\n\n**Options**\n- **Cap HR, let pace slow**: keeps the session truly easy. Most base-building plans prefer this.\n- **Run earlier** in the day when it's cooler.\n- **Drink during the run** (and some sodium): reduces drift noticeably on long runs in heat.\n- Accept some drift but cap it, e.g. no higher than 150.\n\nA useful metric: **decoupling** = how much your pace-to-HR ratio worsens from the first half to the second. Under ~5% is usually read as good aerobic durability; above that, the run was longer or hotter than your current base handles easily.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-06-09T01:00:15.654000Z",
+   "updated_at": "2026-06-09T01:00:15.654000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "a7cdebdb-3d68-4a6e-a827-600e5fe16772"
+  },
+  {
+   "uuid": "c745d557-71ed-44cd-9537-fda43ccbe878",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-06-09T01:03:04.654000Z",
+     "stop_timestamp": "2026-06-09T01:03:04.654000Z",
+     "type": "text",
+     "text": "how do i calc decoupling from garmin data",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-06-09T01:03:04.654000Z",
+   "updated_at": "2026-06-09T01:03:04.654000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "21ec1111-9a9c-4af0-af65-ad7286edf7fe"
+  },
+  {
+   "uuid": "1aa1a0c6-4edd-4c55-ab8b-375d3f8645e3",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-06-09T01:03:06.654000Z",
+     "stop_timestamp": "2026-06-09T01:03:20.219000Z",
+     "type": "text",
+     "text": "Split the run into two equal halves (by time):\n\n1. For each half, compute **efficiency = average speed ÷ average HR** (or pace converted to m/min ÷ HR).\n2. Decoupling % = (EF first half − EF second half) ÷ EF first half × 100.\n\nExample: first half 160 m/min at 142 bpm → EF 1.127. Second half 160 m/min at 152 bpm → EF 1.053. Decoupling = (1.127 − 1.053) / 1.127 = **6.6%**.\n\nYou can export the run as a .fit or .csv from Garmin Connect and do this in a spreadsheet, or some apps (e.g., intervals.icu) show it automatically as \"Pa:HR\".",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-06-09T01:03:20.219000Z",
+   "updated_at": "2026-06-09T01:03:20.219000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "c745d557-71ed-44cd-9537-fda43ccbe878"
+  },
+  {
+   "uuid": "f44845bc-7c78-44e1-8178-772414ded7ab",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-06-09T01:05:54.219000Z",
+     "stop_timestamp": "2026-06-09T01:05:54.219000Z",
+     "type": "text",
+     "text": "6.6% is roughly what mine is. so cap hr and run at 6am",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2026-06-09T01:05:54.219000Z",
+   "updated_at": "2026-06-09T01:05:54.219000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "1aa1a0c6-4edd-4c55-ab8b-375d3f8645e3"
+  },
+  {
+   "uuid": "df1355a0-2528-4837-988d-0abc10fde8fb",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-06-09T01:05:56.219000Z",
+     "stop_timestamp": "2026-06-09T01:06:08.944000Z",
+     "type": "text",
+     "text": "That's the right move for the summer. Re-check decoupling every few weeks on a similar route; if it drops below 5% at the same duration, extend the long run.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2026-06-09T01:06:08.944000Z",
+   "updated_at": "2026-06-09T01:06:08.944000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "f44845bc-7c78-44e1-8178-772414ded7ab"
+  }
+ ],
+ "current_leaf_message_uuid": "df1355a0-2528-4837-988d-0abc10fde8fb"
+}

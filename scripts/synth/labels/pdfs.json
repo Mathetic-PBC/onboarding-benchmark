@@ -1,0 +1,228 @@
+{
+ "Downloads/2507.01842v1.pdf": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "HARD CASE: same paper in several places — arXiv v1 of Ostrowski et al. 2025 (fictional); near-duplicate of the camera-ready in Desktop/papers (F1 0.69 vs 0.71, kappa 0.62 vs 0.64); also attached in zotero as the preprint PDF"
+ },
+ "Desktop/papers/Ostrowski2025_LAS.pdf": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "HARD CASE: same paper in several places — camera-ready of Ostrowski et al. 2025 (fictional); byte-identical to the Zotero attachment; near-duplicate of ~/Downloads/2507.01842v1.pdf"
+ },
+ "Downloads/TutorTrace_UIST26_camera_ready.pdf": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "HARD CASE: near-duplicate — TutorTrace UIST camera-ready PDF downloaded from Overleaf on the camera-ready deadline; an exact duplicate \"(1)\" was downloaded again for talk prep"
+ },
+ "Downloads/TutorTrace_UIST26_camera_ready (1).pdf": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "HARD CASE: near-duplicate — exact duplicate download (byte-identical) of TutorTrace_UIST26_camera_ready.pdf, re-downloaded 09-22 when starting the talk slides"
+ },
+ "Desktop/UIST talk/TutorTrace_UIST26_talk.pdf": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "slides exported from the Overleaf beamer project \"UIST26 talk script (beamer)\" (no speaker notes)"
+ },
+ "Downloads/UIST2026_program_Learning_and_Tutoring.pdf": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "program excerpt for David's session; other talks in the session are fictional"
+ },
+ "Downloads/IDETrace_NeurIPS26_author_response.pdf": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "compiled from the Overleaf project \"IDETrace NeurIPS rebuttal\""
+ },
+ "Desktop/IDETrace/leakage_writeup_0725.pdf": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "internal two-page memo for Yan before the rebuttal"
+ },
+ "Desktop/ISE6664/ISE6664_Final_Report_draft.pdf": {
+  "project_ids": [
+   "project_ise6664_affective_computing"
+  ],
+  "notes": "HARD CASE: near-duplicate — draft export of the ISE 6664 report two days before the final: no design-implications section, older detector numbers, \"DRAFT\" in title"
+ },
+ "Desktop/ISE6664/ISE6664_Final_Report_Barron_Torres_Lee.pdf": {
+  "project_ids": [
+   "project_ise6664_affective_computing"
+  ],
+  "notes": "HARD CASE: near-duplicate — final report PDF (compiled from the Overleaf project \"ISE 6664 Final Report\"); the draft sits next to it"
+ },
+ "Downloads/ISE6664_Final_Project_Guidelines_Spring2026.pdf": {
+  "project_ids": [
+   "project_ise6664_affective_computing"
+  ],
+  "notes": "course handout from Dr. Brooks"
+ },
+ "Downloads/LOA_form_Barron_signed_2026-07-31.pdf": {
+  "project_ids": [
+   "project_vt_phd_admin"
+  ],
+  "notes": "leave-of-absence form, signed 2026-07-31 (Grace Kim processed)"
+ },
+ "Downloads/Travel_Funding_Request_UIST2026_Barron.pdf": {
+  "project_ids": [
+   "project_tutortrace",
+   "project_vt_phd_admin"
+  ],
+  "notes": "VT CS travel-funding request submitted 2026-09-24 for the UIST talk"
+ },
+ "iCloud Drive/Plan_of_Study_DBarron_PhD_CS.pdf": {
+  "project_ids": [
+   "project_vt_phd_admin"
+  ],
+  "notes": "PhD plan of study filed Fall 2025"
+ },
+ "Downloads/CS3604_P4_grading_rubric.pdf": {
+  "project_ids": [
+   "project_cs3604_gta"
+  ],
+  "notes": "GTA rubric for P4 incl. the late-day policy that came up in the regrade dispute"
+ },
+ "Desktop/vizpi/VizPI_deploy2_TA_runsheet.pdf": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "run sheet for the 2025-11-12 deployment"
+ },
+ "Downloads/Labeling_Guide_v3.pdf": {
+  "project_ids": [
+   "project_tutortrace",
+   "project_vizpi"
+  ],
+  "notes": "labeling guide v3 (adds the stalled-after-error state) for the 11-14 -> 11-21 labeling sprint"
+ },
+ "Desktop/engelbart/import_dedupe_v2.pdf": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "design doc exported to PDF for the 10-14 onboarding/import redesign"
+ },
+ "Downloads/Mathetic_onepager.pdf": {
+  "project_ids": [
+   "project_engelbart",
+   "project_mathetic_company"
+  ],
+  "notes": "compiled one-pager downloaded from the Overleaf project \"Mathetic one-pager\""
+ },
+ "Downloads/Surplus_Fall2026_Residents_Handbook.pdf": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "incubator handbook sent by Lena Hoffmann at the 2026-08-11 kickoff"
+ },
+ "Downloads/Mathetic_PBC_annual_report_notice.pdf": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "registered-agent reminder (fictional agent); Delaware annual report due 2027-03-01"
+ },
+ "Downloads/BAHM26_receipt_11873.pdf": {
+  "project_ids": [
+   "project_endurance_training"
+  ],
+  "notes": "HARD CASE: personal clutter — race registration receipt (the same receipt is attached to the runs@ Gmail confirmation)"
+ },
+ "Downloads/Block4_training_plan_Aug-Oct.pdf": {
+  "project_ids": [
+   "project_endurance_training"
+  ],
+  "notes": "personal training plan printed to PDF"
+ },
+ "Downloads/Invoice_4471_rear_derailleur.pdf": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "HARD CASE: personal clutter — bike repair invoice (fictional shop), broken derailleur theme"
+ },
+ "Downloads/Renters_Insurance_Policy_Summary_2026.pdf": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "HARD CASE: personal clutter — renter's insurance summary after the move (fictional insurer)"
+ },
+ "Downloads/scan_0001.pdf": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "HARD CASE: vague titles — scanner default name; content is the signed room-agreement addendum for the Surplus house room (fictional)"
+ },
+ "Downloads/VT_Parking_Citation_Appeal_Barron.pdf": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "HARD CASE: personal clutter — VT parking ticket appeal"
+ },
+ "Downloads/2025_taxes_checklist.pdf": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "HARD CASE: personal clutter — own tax checklist (no real figures)"
+ },
+ "Downloads/caro-kann_advance_notes.pdf": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "HARD CASE: personal clutter — online chess opening notes"
+ },
+ "Downloads/Loopwell_receipt_88213.pdf": {
+  "project_ids": [
+   "project_music_production"
+  ],
+  "notes": "HARD CASE: personal clutter — sample-pack receipt (fictional store)"
+ },
+ "Downloads/Vehicle_Registration_Renewal_Notice.pdf": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "HARD CASE: personal clutter — car registration renewal (car insurance/registration theme)"
+ },
+ "Downloads/SF_move_checklist.pdf": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "HARD CASE: personal clutter — moving checklist (Blacksburg -> SF, arrive 2026-08-08)"
+ },
+ "iCloud Drive/New_Mac_setup_checklist.pdf": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "HARD CASE: personal clutter — laptop setup notes for the new Mac (2026-08-04)"
+ },
+ "Downloads/meridian_wp_25-07_chokepoints.pdf": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "HARD CASE: same paper in several places — fictional geopolitics working paper; byte-identical to the Zotero attachment (unrelated to projects)"
+ },
+ "Desktop/papers/Ferreira_Kowalczyk_2023_group_splits.pdf": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "HARD CASE: same paper in several places — fictional paper, byte-identical to its Zotero attachment"
+ },
+ "Downloads/2602.11873v1.pdf": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "HARD CASE: same paper in several places — fictional arXiv preprint downloaded before adding to Zotero (byte-identical attachment)"
+ },
+ "Desktop/papers/Halvorsen_Quist_2025_provenance_trails.pdf": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_engelbart"
+  ],
+  "notes": "HARD CASE: same paper in several places — fictional paper, byte-identical to its Zotero attachment"
+ }
+}

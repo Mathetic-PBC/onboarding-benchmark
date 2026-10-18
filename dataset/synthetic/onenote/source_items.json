@@ -1,1 +1,1286 @@
-[]
+[
+ {
+  "id": "item_035173",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-341ac7fbe6e5f76e9260e688f488371b!3988f5/content",
+  "title": "2026-07-24 symptoms.html",
+  "content_type": "web_page",
+  "created_at": "2026-07-24T14:12:00Z",
+  "modified_at": "2026-07-24T17:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/IDETrace/Leakage bug/2026-07-24 symptoms.html",
+  "source_url": null,
+  "content_hash": "sha256:e672a0d823c5dfd87d66b9c7e96bd875b3b4ce99fdb521ed42115c7b8190a22c",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-341ac7fbe6e5f76e9260e688f488371b!3988f5/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035174",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-7bb4dec69fd4f2f5fc179d0b58c86f4b!42e2df/content",
+  "title": "Checking the split script.html",
+  "content_type": "web_page",
+  "created_at": "2026-07-24T18:05:00Z",
+  "modified_at": "2026-07-25T03:31:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/IDETrace/Leakage bug/Checking the split script.html",
+  "source_url": null,
+  "content_hash": "sha256:21fcb4d2dd91a52f866c66704416ed0a25ef82ddcaa528043338dc6f49421f11",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-7bb4dec69fd4f2f5fc179d0b58c86f4b!42e2df/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035175",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-f3fab5699eec3f31f34f09ff9c1ee9eb!bebf80/content",
+  "title": "Grouped split fix.html",
+  "content_type": "web_page",
+  "created_at": "2026-07-25T15:20:00Z",
+  "modified_at": "2026-07-25T23:02:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/IDETrace/Leakage bug/Grouped split fix.html",
+  "source_url": null,
+  "content_hash": "sha256:1af93b83cea665b3765ed0b7bb63af99e1df7000d253fc23699d403afb7aa20f",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-f3fab5699eec3f31f34f09ff9c1ee9eb!bebf80/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035176",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-0b3be0044b7664bcfbaf262888b1ca06!3f4e3e/content",
+  "title": "Rerun results.html",
+  "content_type": "web_page",
+  "created_at": "2026-07-26T13:30:00Z",
+  "modified_at": "2026-07-27T02:48:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/IDETrace/Leakage bug/Rerun results.html",
+  "source_url": null,
+  "content_hash": "sha256:2219e64d98d2b6bea071c58ec42a8f4f3ab6d1072c20f0173901e0b3f3573e11",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-0b3be0044b7664bcfbaf262888b1ca06!3f4e3e/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035177",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-78769ed9b340a9d1862ee0c6244ca551!d21590/content",
+  "title": "Sanity checks after fix.html",
+  "content_type": "web_page",
+  "created_at": "2026-07-27T17:15:00Z",
+  "modified_at": "2026-07-28T03:50:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/IDETrace/Leakage bug/Sanity checks after fix.html",
+  "source_url": null,
+  "content_hash": "sha256:8f155f26ad2217f672a21493e8ec66b94299159dac6dfdf0d7448e7876fabc78",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-78769ed9b340a9d1862ee0c6244ca551!d21590/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035178",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-f15e475d945e0f04cf0707df8ebd023c!369a64/content",
+  "title": "Leftovers after rebuttal.html",
+  "content_type": "web_page",
+  "created_at": "2026-08-13T04:30:00Z",
+  "modified_at": "2026-08-27T05:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/IDETrace/Rebuttal/Leftovers after rebuttal.html",
+  "source_url": null,
+  "content_hash": "sha256:4af3a308db2d470f016a53202dfb103c57391cbfee655117eb7a70773d36d4ed",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-f15e475d945e0f04cf0707df8ebd023c!369a64/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035179",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-9ef6833510bf1b1d6943ca1db956ddd0!122786/content",
+  "title": "Rebuttal posted - what we promised.html",
+  "content_type": "web_page",
+  "created_at": "2026-07-29T21:05:00Z",
+  "modified_at": "2026-07-29T22:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/IDETrace/Rebuttal/Rebuttal posted - what we promised.html",
+  "source_url": null,
+  "content_hash": "sha256:cbea5482988ea3752a05d5b83e909fc1a94a8c293a813b3ce892d3a92b4ade5f",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-9ef6833510bf1b1d6943ca1db956ddd0!122786/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035180",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-f8bb3e5d4ff1a72a9afc588e1b3a82e2!aa6b1d/content",
+  "title": "Rebuttal wording.html",
+  "content_type": "web_page",
+  "created_at": "2026-07-28T19:40:00Z",
+  "modified_at": "2026-07-29T06:14:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/IDETrace/Rebuttal/Rebuttal wording.html",
+  "source_url": null,
+  "content_hash": "sha256:038aa7e54975ad0d51091ec5d8f0c88f8c2c2e4d98f622cb538e525a4ec7b896",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-f8bb3e5d4ff1a72a9afc588e1b3a82e2!aa6b1d/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035181",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-ce21da0a2b4016edfe893adc96d3d8ca!02d255/content",
+  "title": "Dry run feedback.html",
+  "content_type": "web_page",
+  "created_at": "2026-04-30T00:40:00Z",
+  "modified_at": "2026-04-30T02:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Final presentation/Dry run feedback.html",
+  "source_url": null,
+  "content_hash": "sha256:8bf9aef93e3a43dd08911fe92ca530c2280508911594822330308e39ee141a12",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-ce21da0a2b4016edfe893adc96d3d8ca!02d255/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035182",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-ea902774ced9869811e42bc7920fac00!457380/content",
+  "title": "Final presentation prep (Apr 30).html",
+  "content_type": "web_page",
+  "created_at": "2026-04-28T01:15:00Z",
+  "modified_at": "2026-04-29T05:12:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Final presentation/Final presentation prep (Apr 30).html",
+  "source_url": null,
+  "content_hash": "sha256:6e76f2eac838c58cf43ba0ebb94c94870f7d8945436c8601ef151b9b0fc6deab",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-ea902774ced9869811e42bc7920fac00!457380/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035183",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-34d716a2b1cabca369858afdd180757d!628b27/content",
+  "title": "Week 1 - Intro + logistics.html",
+  "content_type": "web_page",
+  "created_at": "2026-01-13T19:04:00Z",
+  "modified_at": "2026-01-13T20:22:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Lectures/Week 1 - Intro + logistics.html",
+  "source_url": null,
+  "content_hash": "sha256:97bf787313cdc958a72480c2c5419bce64044f0d642c49d006e253ef5fb65ced",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-34d716a2b1cabca369858afdd180757d!628b27/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035184",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-c1190580844a6adc727eb7640546de94!7a1363/content",
+  "title": "Week 11 - Guest lecture (missed).html",
+  "content_type": "web_page",
+  "created_at": "2026-03-31T17:48:00Z",
+  "modified_at": "2026-04-03T01:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Lectures/Week 11 - Guest lecture (missed).html",
+  "source_url": null,
+  "content_hash": "sha256:58bd01f7554bdf183db6098eb687945ed99cb64e48325a81c217a4054127728e",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-c1190580844a6adc727eb7640546de94!7a1363/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035185",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-3942cdacb0a8bd0b49a7b1232795fa96!58ffe0/content",
+  "title": "Week 12 - Evaluation and validity.html",
+  "content_type": "web_page",
+  "created_at": "2026-04-07T18:04:00Z",
+  "modified_at": "2026-04-07T19:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Lectures/Week 12 - Evaluation and validity.html",
+  "source_url": null,
+  "content_hash": "sha256:78f3958bc18c62728074c12d69a5b2b4ad41d749a9d046bc30e3ba40b491c3fd",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-3942cdacb0a8bd0b49a7b1232795fa96!58ffe0/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035186",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-534cbba121cbce2bb71b99fc28d27f0f!25c785/content",
+  "title": "Week 2 - Theories of emotion.html",
+  "content_type": "web_page",
+  "created_at": "2026-01-20T19:02:00Z",
+  "modified_at": "2026-01-21T14:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Lectures/Week 2 - Theories of emotion.html",
+  "source_url": null,
+  "content_hash": "sha256:7a79902736ca0d3a081a983e3520f05bcee36ce8855b5a22e15161b6243c2e57",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-534cbba121cbce2bb71b99fc28d27f0f!25c785/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035187",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-6a6e567cba93afc8fa205f9f472864e1!b4ec4a/content",
+  "title": "Week 3 - Measuring affect.html",
+  "content_type": "web_page",
+  "created_at": "2026-01-27T19:06:00Z",
+  "modified_at": "2026-01-27T20:31:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Lectures/Week 3 - Measuring affect.html",
+  "source_url": null,
+  "content_hash": "sha256:6133ba595d1c4bb873be1058b537ef784947f2fea844d2f8415900dec49f0d2a",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-6a6e567cba93afc8fa205f9f472864e1!b4ec4a/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035188",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-5b9800aca7b37ca6d0b98c5341ef3440!7df062/content",
+  "title": "Week 4 - Faces and the FACS debate.html",
+  "content_type": "web_page",
+  "created_at": "2026-02-03T19:01:00Z",
+  "modified_at": "2026-02-03T20:18:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Lectures/Week 4 - Faces and the FACS debate.html",
+  "source_url": null,
+  "content_hash": "sha256:e2b52054c57b8979851227bd4b2344b6606178e0d3cfa7a5e8c69298bd08c890",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-5b9800aca7b37ca6d0b98c5341ef3440!7df062/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035189",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-9c9c89b67296a160e0080b4c95a2e6e9!3b0e29/content",
+  "title": "Week 5 - Affect in learning.html",
+  "content_type": "web_page",
+  "created_at": "2026-02-10T19:03:00Z",
+  "modified_at": "2026-02-11T13:55:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Lectures/Week 5 - Affect in learning.html",
+  "source_url": null,
+  "content_hash": "sha256:a5f5feef29cf3a18f1d1e292673df56ab0257a884a70281d94dce1bcd05d69f5",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-9c9c89b67296a160e0080b4c95a2e6e9!3b0e29/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing",
+    "project_vizpi"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035190",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-1ad06e6265e704881eacf8a3c039cd9f!4f5d9c/content",
+  "title": "Week 6 - EDA wristband lab.html",
+  "content_type": "web_page",
+  "created_at": "2026-02-17T19:00:00Z",
+  "modified_at": "2026-02-17T20:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Lectures/Week 6 - EDA wristband lab.html",
+  "source_url": null,
+  "content_hash": "sha256:d61271e3f7083c79a0c3472e7a56dd624d1421006b09cb3c2b5595df06cad1d3",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-1ad06e6265e704881eacf8a3c039cd9f!4f5d9c/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035191",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-a904cbdb50c5c7e2cb671bd2507ca778!7159b6/content",
+  "title": "Week 7 - Text-based affect detection.html",
+  "content_type": "web_page",
+  "created_at": "2026-02-24T19:05:00Z",
+  "modified_at": "2026-02-24T20:27:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Lectures/Week 7 - Text-based affect detection.html",
+  "source_url": null,
+  "content_hash": "sha256:735537178c485bd23f0ce32f99b6b87089f066d52578d8d410bc0b842a7cfc66",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-a904cbdb50c5c7e2cb671bd2507ca778!7159b6/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035192",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-571895affd693de3c34771d660cdb3be!6fe433/content",
+  "title": "Week 9 - Affect-aware design + ethics.html",
+  "content_type": "web_page",
+  "created_at": "2026-03-17T18:02:00Z",
+  "modified_at": "2026-03-17T19:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Lectures/Week 9 - Affect-aware design + ethics.html",
+  "source_url": null,
+  "content_hash": "sha256:1e50d2c0f0ed03e8a7fcd6d80b7a07903264283ce5522f1120559957110a5064",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-571895affd693de3c34771d660cdb3be!6fe433/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035193",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-c7027fde6d2b33a6e0a345a0635a0094!fceff9/content",
+  "title": "Kickoff with Maya and Jordan.html",
+  "content_type": "web_page",
+  "created_at": "2026-02-05T21:10:00Z",
+  "modified_at": "2026-02-05T22:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Project/Kickoff with Maya and Jordan.html",
+  "source_url": null,
+  "content_hash": "sha256:0010a9abdd4a5c430f24a1e4a41f058352d20e96a5c4a1e0c97c0866138b9ef4",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-c7027fde6d2b33a6e0a345a0635a0094!fceff9/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035194",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-2682caa3ad13a1928f9523a56ab0b277!7c252a/content",
+  "title": "Meeting 2026-03-05 - codebook v1.html",
+  "content_type": "web_page",
+  "created_at": "2026-03-05T22:05:00Z",
+  "modified_at": "2026-03-05T23:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Project/Meeting 2026-03-05 - codebook v1.html",
+  "source_url": null,
+  "content_hash": "sha256:6fd694c2a73f6ffe99f0f08eeca89769d7334bf99be8dffb10ec6f2a0ac3e107",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-2682caa3ad13a1928f9523a56ab0b277!7c252a/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035195",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-2f356833bd628967ce15dfaccc900bc9!ce79e2/content",
+  "title": "Meeting 2026-04-02 - results check-in.html",
+  "content_type": "web_page",
+  "created_at": "2026-04-02T20:00:00Z",
+  "modified_at": "2026-04-02T21:25:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Project/Meeting 2026-04-02 - results check-in.html",
+  "source_url": null,
+  "content_hash": "sha256:54af2cc8821174cec8554db38119261c41c9aecea18bc846ea20e17f24faf3e0",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-2f356833bd628967ce15dfaccc900bc9!ce79e2/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035196",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-6ff23ae761e6ec2a48ccf429333e0e7b!de40dc/content",
+  "title": "Meeting 2026-04-16 - report split.html",
+  "content_type": "web_page",
+  "created_at": "2026-04-16T20:30:00Z",
+  "modified_at": "2026-04-25T03:58:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Project/Meeting 2026-04-16 - report split.html",
+  "source_url": null,
+  "content_hash": "sha256:84e00b6bd3b3b9389f88cca638b6b61e0d6b22d138a66a7fc8c6a3cbfc9ecd7e",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-6ff23ae761e6ec2a48ccf429333e0e7b!de40dc/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035197",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-4477bbf31128434f64be31e6054311e0!3660f2/content",
+  "title": "Proposal outline.html",
+  "content_type": "web_page",
+  "created_at": "2026-02-17T00:20:00Z",
+  "modified_at": "2026-02-19T03:47:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Project/Proposal outline.html",
+  "source_url": null,
+  "content_hash": "sha256:3ac38b7d1b53acc660d78738de7a3366ecc1dd4a753b38b65b7df257f7c8ad7a",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-4477bbf31128434f64be31e6054311e0!3660f2/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035198",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-941a2fb49bb7fb8026312f7c6dbd6508!b05acc/content",
+  "title": "Calvo and D'Mello 2010 review.html",
+  "content_type": "web_page",
+  "created_at": "2026-02-01T03:15:00Z",
+  "modified_at": "2026-02-01T05:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Readings/Calvo and D'Mello 2010 review.html",
+  "source_url": null,
+  "content_hash": "sha256:69c5eeecedd7187e076a82079532e4f95f74d4f9f5dcc2ee46ad5bab3adf48fc",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-941a2fb49bb7fb8026312f7c6dbd6508!b05acc/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035199",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-252e479cee90ebbfa579e526d29c0c75!db7a04/content",
+  "title": "D'Mello and Graesser 2012 - dynamics.html",
+  "content_type": "web_page",
+  "created_at": "2026-02-09T01:50:00Z",
+  "modified_at": "2026-02-09T04:05:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Readings/D'Mello and Graesser 2012 - dynamics.html",
+  "source_url": null,
+  "content_hash": "sha256:dee29443ac401bd5004238434a6824d7d0a5d2657f33116a122525d572d325c4",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-252e479cee90ebbfa579e526d29c0c75!db7a04/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035200",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-8f09fcc7f4dca2c23078b63ac3ea2cd9!3aa3b7/content",
+  "title": "Reading responses - schedule.html",
+  "content_type": "web_page",
+  "created_at": "2026-01-16T02:30:00Z",
+  "modified_at": "2026-03-03T04:41:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/ISE 6664 Affective Computing/Readings/Reading responses - schedule.html",
+  "source_url": null,
+  "content_hash": "sha256:f3aa1f65f0779eb31d9559b3256d156dd4f723efce855f483e136e15cc611975",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-8f09fcc7f4dca2c23078b63ac3ea2cd9!3aa3b7/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035201",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-8a2fae455442709b58acae682d631d78!0bef67/content",
+  "title": "OH - P3 questions.html",
+  "content_type": "web_page",
+  "created_at": "2025-11-05T20:00:00Z",
+  "modified_at": "2025-11-05T22:10:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/Quick Notes/CS 3604 Office Hours/OH - P3 questions.html",
+  "source_url": null,
+  "content_hash": "sha256:7f694b4979f5e376fa3899d58bae345cf96df7b52d7f8b9a9ba56499d449ffa2",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-8a2fae455442709b58acae682d631d78!0bef67/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035202",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-52b494649a55642132c79bb32d7c9dff!0a32c5/content",
+  "title": "OH 10-22.html",
+  "content_type": "web_page",
+  "created_at": "2025-10-22T19:02:00Z",
+  "modified_at": "2025-10-22T20:58:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/Quick Notes/CS 3604 Office Hours/OH 10-22.html",
+  "source_url": null,
+  "content_hash": "sha256:fc729f548bd830fd32b07d534bb19e108733279c04bfeb782feb9c1b0356b414",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-52b494649a55642132c79bb32d7c9dff!0a32c5/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035203",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-2d344d6ec5fefa8faf1c241af7d78448!ea401b/content",
+  "title": "OH 12-03 final project.html",
+  "content_type": "web_page",
+  "created_at": "2025-12-03T20:01:00Z",
+  "modified_at": "2025-12-03T22:22:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/Quick Notes/CS 3604 Office Hours/OH 12-03 final project.html",
+  "source_url": null,
+  "content_hash": "sha256:0d6992da0ade529ae40dec4a086eee6683ad126b41ffe9c07b3118637073e0ff",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-2d344d6ec5fefa8faf1c241af7d78448!ea401b/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035204",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-def96281ac1d1cedc3bb140fc9916e56!72205a/content",
+  "title": "regrade - P4 late days.html",
+  "content_type": "web_page",
+  "created_at": "2025-12-12T03:40:00Z",
+  "modified_at": "2025-12-12T15:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/Quick Notes/CS 3604 Office Hours/regrade - P4 late days.html",
+  "source_url": null,
+  "content_hash": "sha256:71d1978160c98770c9e6ad2b8b48bc557d811829dac748dc78145fe5a707395c",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-def96281ac1d1cedc3bb140fc9916e56!72205a/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035205",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-82999068e1f2c47f52a3820c42c628f5!8f5d6f/content",
+  "title": "Page 1.html",
+  "content_type": "web_page",
+  "created_at": "2026-02-25T03:10:00Z",
+  "modified_at": "2026-03-03T14:15:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/Quick Notes/Misc/Page 1.html",
+  "source_url": null,
+  "content_hash": "sha256:9c6a114aae2181ffad77f67529867bece2ce1f93f92a68646817051036a6de66",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-82999068e1f2c47f52a3820c42c628f5!8f5d6f/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "HARD CASE: vague title — \"Page 1\" is a personal parking-ticket / car note"
+  }
+ },
+ {
+  "id": "item_035206",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-3c4e5f449e8e202883188ac768fa96a6!8d8643/content",
+  "title": "Untitled page.html",
+  "content_type": "web_page",
+  "created_at": "2026-07-21T15:02:00Z",
+  "modified_at": "2026-07-21T15:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/Quick Notes/Misc/Untitled page.html",
+  "source_url": null,
+  "content_hash": "sha256:2f42740ec3bf2db3b7aa77c6361c55f43a5c1ff5cb8c613f5fcf0dd93df06dd8",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-3c4e5f449e8e202883188ac768fa96a6!8d8643/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vt_phd_admin"
+   ],
+   "notes": "HARD CASE: vague title — \"Untitled page\" holds leave-of-absence call notes with Grace Kim (project_vt_phd_admin)"
+  }
+ },
+ {
+  "id": "item_035207",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-9721ffdcc394eafcb85636531ee3b619!ec53ac/content",
+  "title": "before leaving Blacksburg.html",
+  "content_type": "web_page",
+  "created_at": "2026-07-31T02:15:00Z",
+  "modified_at": "2026-08-07T03:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/Quick Notes/Misc/before leaving Blacksburg.html",
+  "source_url": null,
+  "content_hash": "sha256:f45778cc81185eb6a10b47a9966a5e23b95f2ecd213e9ca9b07a41accf36be11",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-9721ffdcc394eafcb85636531ee3b619!ec53ac/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035208",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-85766b3e8c671a64286d8efca345e172!b28982/content",
+  "title": "bike derailleur.html",
+  "content_type": "web_page",
+  "created_at": "2026-05-22T19:42:36Z",
+  "modified_at": "2026-05-25T19:42:36Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/Quick Notes/Misc/bike derailleur.html",
+  "source_url": null,
+  "content_hash": "sha256:55d4236cd4c492a9f5508cb2f22c1645320c826b56f23fba6aab33abe509c028",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-85766b3e8c671a64286d8efca345e172!b28982/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035209",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-570aba20fb0da55c6903145a9caf97b7!c6c595/content",
+  "title": "podcast notes - chips + Taiwan.html",
+  "content_type": "web_page",
+  "created_at": "2026-02-10T03:53:06Z",
+  "modified_at": "2026-02-10T04:43:06Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/Quick Notes/Misc/podcast notes - chips + Taiwan.html",
+  "source_url": null,
+  "content_hash": "sha256:114be139603cbbed5cef1dcca62372be7a70e377c5bb6f2e099f4d79d8456f5b",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-570aba20fb0da55c6903145a9caf97b7!c6c595/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035210",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-5000e9515b9f703171252b391ad43cf3!8b2e2b/content",
+  "title": "taxes 2025 - docs.html",
+  "content_type": "web_page",
+  "created_at": "2026-04-03T19:12:04Z",
+  "modified_at": "2026-04-12T22:12:04Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/Quick Notes/Misc/taxes 2025 - docs.html",
+  "source_url": null,
+  "content_hash": "sha256:f1f8529bf328cc241771fe86f95e42ec7e6d836d8b811c51d07075b6d438d4af",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-5000e9515b9f703171252b391ad43cf3!8b2e2b/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035211",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-bcf9d9d07743b8ed1451c3585cb0f4db!a4cfb7/content",
+  "title": "to do this week.html",
+  "content_type": "web_page",
+  "created_at": "2025-11-10T13:45:00Z",
+  "modified_at": "2025-11-15T04:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/Quick Notes/Misc/to do this week.html",
+  "source_url": null,
+  "content_hash": "sha256:d465822943ee62bb2d4678cfbf0c085b371c36257fdf54697153b1c8f82358bd",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-bcf9d9d07743b8ed1451c3585cb0f4db!a4cfb7/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta",
+    "project_none",
+    "project_vizpi"
+   ],
+   "notes": "mixed to-do list spanning VizPI, CS 3604 and personal errands"
+  }
+ },
+ {
+  "id": "item_035212",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "onenote",
+  "source_id": "Microsoft Graph GET /me/onenote/pages/1-a181f46c33a63848aff0a05463162697!eb74ed/content",
+  "title": "travel funding form - fields.html",
+  "content_type": "web_page",
+  "created_at": "2026-09-23T03:10:00Z",
+  "modified_at": "2026-09-24T18:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/onenote/dbarron410@vt.edu/Quick Notes/Misc/travel funding form - fields.html",
+  "source_url": null,
+  "content_hash": "sha256:d6891a78f263bea1bfda5fb8f93a93b8585bfacac0c4fcbb7f79f431aba2219b",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "html",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "dbarron410@vt.edu (Microsoft 365 OneNote)",
+   "original_path": "Microsoft Graph GET /me/onenote/pages/1-a181f46c33a63848aff0a05463162697!eb74ed/content"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vt_phd_admin"
+   ],
+   "notes": null
+  }
+ }
+]

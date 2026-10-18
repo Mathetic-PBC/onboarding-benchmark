@@ -1,0 +1,13 @@
+=== THREAD PARENT MESSAGE ===
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-02-24 12:05:07 PST
+Message TS: 1771963507.178730
+for the uist paper i need the final dep #2 numbers in one place. <@U0SYNRUS5ER|Yue> can you confirm: 87 students, 2,340 labeled windows, 44 students in section B, partial flag on 412 windows?
+
+=== THREAD REPLIES (1 total) ===
+
+--- Reply 1 of 1 ---
+From: Yue (U0SYNRUS5ER)
+Time: 2026-02-24 12:40:47 PST
+Message TS: 1771965647.588983
+confirmed. 412 partial windows, all section B

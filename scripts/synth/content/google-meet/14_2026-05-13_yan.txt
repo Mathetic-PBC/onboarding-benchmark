@@ -1,0 +1,45 @@
+title: David / Yan 1:1
+start: 2026-05-13 14:00
+attendees: David Barron, Yan Chen
+projects: project_idetrace, project_vt_phd_admin
+docs: transcript
+=== transcript
+Yan Chen: Hi David. Congratulations on getting IDETrace in. Rezky said it went in at nine p.m.
+David Barron: Hi. Yeah, nine fourteen. Not bad. Thanks. It was a group effort, Xiaohang fixed every single figure font.
+Yan Chen: [laughs] Yes. Okay, so it's a quieter week. What's on your mind?
+David Barron: Um, a few things. Wrap-up stuff on IDETrace, summer plans, and then, um, something I mentioned I'd bring up after NeurIPS.
+Yan Chen: Okay. Start with IDETrace.
+David Barron: So, the supplementary material is due a week after the paper, so next Wednesday. Rezky's doing the code release, I'm doing the baseline configs and the datasheet appendix with Yue.
+Yan Chen: Good. Make sure the code reproduces the table. Run it from a clean environment.
+David Barron: Yeah, I'm going to do that on a fresh machine this weekend. I want to make sure the split script gives exactly the same splits from the seed.
+Yan Chen: Good. And for the reviewers' period, that's late July?
+David Barron: Rebuttal is end of July, yeah. Reviews come out around the twenty-fourth, I think, and the rebuttal is due a week after.
+Yan Chen: Okay. And UIST reviews come in June. So the summer has two rebuttals.
+David Barron: Ugh, yeah. June and July.
+Yan Chen: That's the summer. Okay. What about the summer otherwise? You're on the GRA through August.
+David Barron: Right. So that's the other thing. Um. Okay. So. I've been, um, working on a side project with a friend, Hudson. He's an engineer, really sharp. We've been building a tool for researchers, like a notebook that keeps track of where your ideas came from. Like your chats, papers, notes.
+Yan Chen: Okay.
+David Barron: And it's, um, it's going better than I expected. We've been talking about whether to do it full time. Like, as a company.
+Yan Chen: I see. When?
+David Barron: Um, we don't know yet. That's kind of why I wanted to bring it up early. Hudson is ready to go this summer. I'm the one who's unsure, because of the PhD.
+Yan Chen: Okay. Thank you for telling me early. I appreciate that.
+David Barron: Yeah, I didn't want it to be a surprise.
+Yan Chen: Let me ask a few questions. Is there funding? Or is it the two of you?
+David Barron: Right now just us. There's an incubator in San Francisco we applied to. We'd hear in June.
+Yan Chen: Okay. And what do you want to happen with the PhD? Quit, or pause?
+David Barron: I don't want to quit. I like the research. I think, um, a leave of absence, if that's possible. Like a year.
+Yan Chen: Leaves are possible. The graduate school allows it, usually up to a year or two. You need to fill out a form, and there's a deadline before the semester. Grace Kim in the grad office handles it.
+David Barron: Okay. I didn't know about Grace, that's helpful.
+Yan Chen: And the papers. UIST and IDETrace. If you go, I want those to finish properly. Rebuttals, camera-ready, the talk if UIST gets in.
+David Barron: Yes, absolutely. I'd finish all of that no matter what. That's not a question.
+Yan Chen: Okay. Good. Let's not decide anything today. Think about it, and when you hear from the incubator, we talk again properly. Maybe in June.
+David Barron: Yeah. That's what I was hoping. Thank you, really.
+Yan Chen: Of course. A lot of students do this now. It's not the end of the world. [laughs]
+David Barron: Ha. Okay. That makes me feel better.
+Yan Chen: Okay. In the meantime, for the summer, the GRA is on the VizPI and TutorTrace work. So if UIST gets in, the cross-course analysis or whatever the reviewers want, that is GRA work.
+David Barron: Yep. Makes sense.
+Yan Chen: Anything else? You should take a week off. Seriously. The end of May is quiet.
+David Barron: I was going to. I'm going to do a long run week, ha. Like actual rest from computers.
+Yan Chen: Good. Okay, let's meet again after the UIST reviews. Or earlier if you need.
+David Barron: Sounds good. Thanks Yan.
+Yan Chen: Bye David.

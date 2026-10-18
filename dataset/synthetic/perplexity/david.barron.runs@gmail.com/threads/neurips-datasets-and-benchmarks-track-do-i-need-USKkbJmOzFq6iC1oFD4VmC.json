@@ -1,0 +1,54 @@
+{
+ "uuid": "e94ec1b8-f9b3-4aba-9d48-11347d81fa2b",
+ "slug": "neurips-datasets-and-benchmarks-track-do-i-need-USKkbJmOzFq6iC1oFD4VmC",
+ "title": "Croissant metadata for NeurIPS D&B",
+ "thread_url": "https://www.perplexity.ai/search/neurips-datasets-and-benchmarks-track-do-i-need-USKkbJmOzFq6iC1oFD4VmC",
+ "created_at": "2026-05-06T02:15:00Z",
+ "updated_at": "2026-05-06T02:18:56Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "8f897f79-1ede-4aec-974d-ce6268e20d77",
+   "query_str": "neurips datasets and benchmarks track — do i need croissant metadata and how long does it take to make",
+   "answer": "Recent NeurIPS Datasets & Benchmarks calls have **required a Croissant metadata file** describing the dataset (with Responsible AI fields) for submissions that introduce data, along with hosting the data somewhere reviewers can access [1][2]. Check this year's call for the exact requirement and deadline wording.\n\nEffort: if your data is on a platform that generates Croissant automatically (several dataset hubs do), it's minutes plus editing descriptions. Writing it by hand for a custom layout (e.g., sessions → windows → labels CSVs) usually takes **a few hours**: define the file objects, the record sets and fields, then validate with the official checker [2][3]. Leave time for the RAI fields (collection process, consent, known biases) — they overlap with your datasheet, so write those once and reuse.",
+   "sources": [
+    {
+     "name": "NeurIPS Datasets and Benchmarks Track — call for papers",
+     "url": "https://neurips.cc/Conferences/2026/CallForDatasetsBenchmarks",
+     "snippet": "Submission requirements including metadata and hosting."
+    },
+    {
+     "name": "Croissant: a metadata format for ML datasets — overview",
+     "url": "https://mlcommons.org/working-groups/data/croissant/",
+     "snippet": "Format description and Responsible AI extension."
+    },
+    {
+     "name": "Writing Croissant metadata by hand: a walkthrough",
+     "url": "https://www.mldatasetguides.org/croissant-walkthrough",
+     "snippet": "Step-by-step example with validation."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-05-06T02:15:00Z",
+   "updated_at": "2026-05-06T02:15:19Z"
+  },
+  {
+   "uuid": "4ac13743-575b-4ea7-a8f3-1da6b4b81c25",
+   "query_str": "deadline is tomorrow lol. minimum viable version?",
+   "answer": "Minimum viable: one Croissant JSON-LD with (1) dataset name, description, license, URL, citation; (2) a `FileObject`/`FileSet` for each CSV; (3) one `RecordSet` per table with typed fields (`student_id`, `session_id`, `window_start`, `label`); (4) the required RAI fields filled briefly. Run the validator and fix errors until it passes [1]. Polish descriptions during the rebuttal period if the venue allows updating the hosted metadata.",
+   "sources": [
+    {
+     "name": "Writing Croissant metadata by hand: a walkthrough",
+     "url": "https://www.mldatasetguides.org/croissant-walkthrough",
+     "snippet": "Minimal required fields and validation workflow."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-05-06T02:18:28Z",
+   "updated_at": "2026-05-06T02:18:45Z"
+  }
+ ]
+}

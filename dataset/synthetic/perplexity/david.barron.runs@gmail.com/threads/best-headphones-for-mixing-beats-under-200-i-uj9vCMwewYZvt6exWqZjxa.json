@@ -1,0 +1,59 @@
+{
+ "uuid": "d3190a63-3e93-487e-9ca4-1ef703d78dca",
+ "slug": "best-headphones-for-mixing-beats-under-200-i-uj9vCMwewYZvt6exWqZjxa",
+ "title": "Headphones for mixing under $200",
+ "thread_url": "https://www.perplexity.ai/search/best-headphones-for-mixing-beats-under-200-i-uj9vCMwewYZvt6exWqZjxa",
+ "created_at": "2026-02-06T03:40:00Z",
+ "updated_at": "2026-02-06T03:42:32Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "7672217b-05a2-4125-bcea-3780c3c3c953",
+   "query_str": "best headphones for mixing beats under 200, i mostly do hip hop in fl studio, 808s matter",
+   "answer": "For mixing with a lot of sub-bass, you want **open-back or semi-open headphones with a reasonably flat low end**, and you want to know how they deviate so you can compensate [1][2]. Common picks in that range:\n\n- **Open-back studio models around $150–200** (several brands make one): most neutral, best stereo image, but leak sound and have less sub-bass extension — you'll hear 808 *pitch* well but feel less of the sub [1].\n- **Closed-back studio monitors around $100–170**: more isolation and more low end, often with a bass or treble bump; good for tracking and late-night work [2].\n- **Pair any of them with a correction profile** (e.g., a headphone EQ plugin with a measured profile) to flatten the response — this matters more than the specific model [3].\n\nFor 808s specifically: check your low end on a spectrum analyzer and on a second system (car, earbuds), because no headphone under $200 reproduces 30–40 Hz reliably [3].",
+   "sources": [
+    {
+     "name": "Headphones for mixing: open vs closed back",
+     "url": "https://www.homestudiohandbook.com/mixing-headphones",
+     "snippet": "Explains trade-offs of open- and closed-back designs for mixing."
+    },
+    {
+     "name": "Budget studio headphone frequency response comparison",
+     "url": "https://www.audiomeasurements.net/budget-studio-roundup",
+     "snippet": "Measured responses of popular sub-$200 studio headphones."
+    },
+    {
+     "name": "Mixing low end on headphones",
+     "url": "https://www.beatmakersguide.com/low-end-on-headphones",
+     "snippet": "Using analyzers, reference tracks and correction EQ to judge sub-bass."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "claude-sonnet",
+   "created_at": "2026-02-06T03:40:00Z",
+   "updated_at": "2026-02-06T03:40:17Z"
+  },
+  {
+   "uuid": "ed80a4c4-7f3f-4bc3-9563-17cad517ab98",
+   "query_str": "is headphone correction actually worth it or a gimmick",
+   "answer": "It's worth it if you mix mostly on headphones. Correction can't add bass extension the driver doesn't have, but it removes the model's built-in tilts (e.g., a 6 dB treble peak) so your EQ decisions translate better to other systems [1][2]. Turn it **off when bouncing** — it should only be on your monitoring path, not the master.",
+   "sources": [
+    {
+     "name": "Does headphone calibration improve mix translation?",
+     "url": "https://www.audiomeasurements.net/calibration-study",
+     "snippet": "Listening test comparing mixes made with and without correction."
+    },
+    {
+     "name": "Monitoring chain basics",
+     "url": "https://www.homestudiohandbook.com/monitoring-chain",
+     "snippet": "Why correction belongs on the monitor output, not the master bus."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "sonar",
+   "created_at": "2026-02-06T03:42:20Z",
+   "updated_at": "2026-02-06T03:42:29Z"
+  }
+ ]
+}

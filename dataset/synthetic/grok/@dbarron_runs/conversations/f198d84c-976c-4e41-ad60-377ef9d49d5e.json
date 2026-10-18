@@ -1,0 +1,42 @@
+{
+ "conversation": {
+  "conversationId": "f198d84c-976c-4e41-ad60-377ef9d49d5e",
+  "title": "Half Marathon Fueling",
+  "createTime": "2026-10-13T04:12:00.000Z",
+  "modifyTime": "2026-10-13T04:15:05.944Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "eddbb93e-bdeb-4c79-8d7a-30a54630890b",
+   "message": "fueling for a half. ~85 min race. do i even need a gel",
+   "sender": "human",
+   "createTime": "2026-10-13T04:12:00.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "c879ee3f-ab9e-45b4-a669-310cfb491a74",
+   "message": "For ~85 minutes: optional, but most people race slightly better with a little carbohydrate.\n\n**Practical plan:**\n- **Night before:** normal dinner with plenty of carbs. No need for a giant pasta binge.\n- **Race morning (2.5–3 h before):** ~1–2 g carbs per kg of body weight — e.g. a bagel with honey + banana. Familiar foods only.\n- **15 min before:** optional gel or a few sips of sports drink.\n- **During:** one gel around 40–50 min with water at an aid station. Or a carb mouth rinse if your stomach is touchy — even swishing sports drink seems to help a bit.\n- **Caffeine:** if you normally use it, ~3 mg/kg about 45–60 min before works for most.\n\nRule: nothing new on race day. If you haven't used a gel during a hard session, practice once this week.",
+   "sender": "assistant",
+   "createTime": "2026-10-13T04:12:20.358Z",
+   "parentResponseId": "eddbb93e-bdeb-4c79-8d7a-30a54630890b",
+   "model": "grok-4"
+  },
+  {
+   "responseId": "61680eda-8710-439c-be56-55aec2f58a86",
+   "message": "ok practicing one in tomorrows workout. what about the fact that its an 8am start and im in sf (cold)",
+   "sender": "human",
+   "createTime": "2026-10-13T04:14:58.358Z",
+   "parentResponseId": "c879ee3f-ab9e-45b4-a669-310cfb491a74"
+  },
+  {
+   "responseId": "93e315b1-4fa6-4dfc-86a8-613542e94202",
+   "message": "Cool morning is ideal for racing. For the start:\n- Wear a throwaway layer or a trash bag to the start corral.\n- Warm up 10–15 min easy jog + 4 strides, finishing ~10 min before the gun.\n- Race in a singlet/shorts; at ~12–14°C you'll be warm within 2 km.\n- Arm sleeves or gloves you can ditch are fine if you run cold.",
+   "sender": "assistant",
+   "createTime": "2026-10-13T04:15:05.944Z",
+   "parentResponseId": "61680eda-8710-439c-be56-55aec2f58a86",
+   "model": "grok-4"
+  }
+ ]
+}

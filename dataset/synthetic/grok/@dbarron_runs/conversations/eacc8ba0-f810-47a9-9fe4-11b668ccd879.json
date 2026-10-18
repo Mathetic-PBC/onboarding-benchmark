@@ -1,0 +1,38 @@
+{
+ "conversation": {
+  "conversationId": "eacc8ba0-f810-47a9-9fe4-11b668ccd879",
+  "title": "Viral Nap Post",
+  "createTime": "2026-06-16T19:02:00.000Z",
+  "modifyTime": "2026-06-16T19:04:16.864Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "412e2f59-8f61-4d89-9040-11333fbf012d",
+   "message": "whats the deal with the viral post saying 20 min naps are \"worse than no nap\"",
+   "sender": "human",
+   "createTime": "2026-06-16T19:02:00.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "e396cd78-4334-4a01-a3ad-440f3f37a910",
+   "message": "It's a misread. The post is riffing on a small study about naps that ran *long* enough to hit deep sleep, which can cause grogginess (sleep inertia) after waking. A 10–20 minute nap usually stays in light sleep and is the length most research supports for alertness.\n\nThe replies under it have the better take — several sleep researchers quote-posted it pointing out the original paper said nothing about short naps being harmful.",
+   "sender": "assistant",
+   "createTime": "2026-06-16T19:02:13.864Z",
+   "parentResponseId": "412e2f59-8f61-4d89-9040-11333fbf012d",
+   "model": "grok-3",
+   "xPostIds": [
+    "2066924570495883828",
+    "2066903179545459304"
+   ]
+  },
+  {
+   "responseId": "2573a222-0e1b-44b4-b49b-a7285580efbd",
+   "message": "lol ok. 20 min it is",
+   "sender": "human",
+   "createTime": "2026-06-16T19:04:16.864Z",
+   "parentResponseId": "e396cd78-4334-4a01-a3ad-440f3f37a910"
+  }
+ ]
+}

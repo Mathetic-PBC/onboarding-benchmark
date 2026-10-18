@@ -1,0 +1,70 @@
+topic: ISE 6664 Guest Lecture
+start: 2026-03-03 18:30:12
+host: no
+projects: project_ise6664_affective_computing
+notes: Guest lecture in Dr. Alan Brooks's ISE 6664 on measuring frustration; David asks how to label frustration in AI-tutoring transcripts for the team project with Maya Torres and Jordan Lee.
+speakers: B=Alan Brooks; C=Renata Castillo; D=David Barron
+rate: 2.2
+=== cues
+B: Okay, it says recording in progress, good. Welcome, everybody. Tonight is the guest lecture I've been promising since January. Dr. Renata Castillo runs the Affect and Learning Lab at Lakeshore State, and she's going to talk about measuring frustration, which, as you'll see, maps onto about half of your project topics. Renata, take it away.
+C: Thanks, Alan. Can everyone see my slides? Just give me a thumbs up.
+B: Yep, we see "Measuring Frustration Without Fooling Yourself".
+C: Great. So, um, I want to start with a confession. I spent the first three years of my PhD building a frustration detector that, it turned out, mostly detected people who type loudly.
+C: I'm only half joking. The model was trained on keystroke pressure from a special keyboard, and the labels came from observers in the room, and the observers could of course also hear the keyboard. So the labels and the features were entangled.
+C: That's the theme for tonight. Every affect measure has a ground-truth problem, and the interesting part of the work is being honest about which one you have.
+C: So here's the menu. Broadly there are four families of measurement. Self-report. Observation. Physiological signals. And behavioral traces, meaning logs, clicks, text.
+C: Self-report first. You ask the person. A questionnaire after the task, or experience sampling during it, where a little prompt pops up every few minutes. It's cheap, it's direct, and it's biased in every way you'd expect. People under-report frustration to an experimenter, especially when the task is graded.
+C: Experience sampling also interrupts the very thing you're measuring. If I ask you every three minutes whether you're frustrated, by the fourth time, you are.
+B: I can confirm that from my own studies.
+C: Observation. The classic in education is the BROMP protocol. Trained observers code students in a fixed rotation, twenty-second windows, with a small set of states: engaged concentration, confusion, frustration, boredom, delight, surprise. Reliability is decent once observers are trained, kappa around point six or higher.
+C: The cost is obvious. You need trained people in the room, and they see the face and the posture but not the screen. They can tell you a student looks frustrated, but not that the compiler just threw the same error for the sixth time.
+C: Physiological. Electrodermal activity, heart rate, heart rate variability, sometimes facial EMG, and now a lot of webcam-based expression analysis. The appeal is that it's continuous and the person doesn't have to say anything.
+C: The problem is that arousal isn't valence. EDA goes up when you're frustrated, it goes up when you're excited, and it goes up when the room is warm. Heart rate variability drops with stress and with coffee. So physiological signals are great at telling you that something happened and not great at telling you what.
+C: And facial expression models, I'll be blunt, were mostly trained on posed expressions, and learners at a computer have a pretty flat face most of the time. What you mostly see is the furrowed brow of concentration, which these models often call confusion or anger.
+D: Sorry, can I ask a quick clarifying question?
+C: Of course.
+D: When you say webcam models confuse concentration with confusion, is that a known false positive rate, or more of an impression?
+C: Good question. In our own data, when we compared a commercial expression classifier against BROMP codes, about forty percent of the windows the model called "confused" were coded as engaged concentration by the observers. So it's measured, in one dataset. I wouldn't generalize the number.
+D: Got it, thanks.
+C: Okay, the fourth family, and the one I think most of you will end up using: behavioral traces. In a programming environment that's keystrokes, compiles, errors, runs, idle time. In a tutoring system it's hint requests, attempts, time per step. And now, more and more, it's text, what the student types to a chatbot.
+C: The classic findings here, and I think Alan assigned some of these, are things like gaming the system, rapid repeated hint requests, and error repetition. A student who hits the same compiler error several times in a row with small edits in between: that sequence is one of the more reliable behavioral correlates of frustration we have.
+C: But, and this is the important but, behavioral features predict the label you trained on. If your labels came from observers, you're predicting what observers see. If they came from self-report, you're predicting what students are willing to say. Neither one is frustration itself.
+C: So my practical advice, slide twelve: triangulate. Pick a primary label source, say so explicitly, and use a second source to check whether your detector tracks the construct or just tracks the labeler.
+C: Let me show you an example from our chatbot tutoring study, because I think it's close to what some of you are doing.
+C: About a hundred and twenty undergrads in a statistics course used an LLM tutor for homework. We logged every message. Then we did retrospective self-report: after the session, students watched a replay of their own chat and marked the moments where they felt frustrated.
+C: So what did frustration look like in text? A few things. Repair sequences, where the student rephrases the same question two or three times. Messages getting shorter over time. Politeness markers dropping out, the "please" and "thanks" disappear. And my favorite, quoting the tutor back to itself. "You said to use the t-test." That's almost always a bad sign.
+C: What did not work well was off-the-shelf sentiment analysis. Students are very polite to chatbots, more than to people, and a frustrated message often reads as neutral or even positive. "Okay thanks, but I'm still getting the wrong answer."
+B: Let me jump in, there's a question in the chat from Maya. She asks how you handled students who never marked anything.
+C: Yes, thank you, Maya. About a fifth of the students marked zero frustration moments. Some of them really weren't frustrated, the problem set was easy for them. Others, when we interviewed a subset, said they just didn't want to admit it. We ended up treating zero-markers separately rather than as negative examples, and I'd recommend that.
+C: Okay, let me move to evaluation, because this is where projects go wrong.
+C: First, base rates. Frustration is rare. In our data it was about seven percent of windows. So a detector that always says "not frustrated" gets ninety-three percent accuracy. Please, please don't report accuracy. Report per-class precision and recall, or macro-F1, or a precision-recall curve.
+C: Second, split by person. If the same student is in your training data and your test data, the model learns that student's style, your numbers look wonderful, and they mean nothing. Group your splits by student.
+C: Third, think about the window. Thirty seconds, two minutes, a whole conversation turn? Frustration builds. A model that sees two minutes of context will look better than one that sees ten seconds, but it's less useful if you want to intervene early.
+C: And fourth, the ethics piece, which I know Alan cares about. Detecting frustration is a short step from acting on it. If your system detects frustration and responds, who sees that label? Is it stored? Does the instructor see a "frustrated" flag next to a student's name? Students should know, and knowing changes how they behave.
+C: So that's the core. I have a couple of slides on our wearables work, but I'd rather take questions. Alan?
+B: Yes, let's do questions. Raise a hand or just unmute. David, I saw your hand first.
+D: Thanks. So, um, our project, with Maya and Jordan, is on frustration signals in AI-tutoring transcripts. We only have the text. No video, no physio. And we were planning to label turns ourselves, the three of us reading transcripts.
+C: Okay.
+D: My worry after your talk is exactly the politeness thing. A lot of the messages we've looked at are really polite and the student is still, like, clearly stuck. So if we can't do retrospective self-report, because the data's already collected, what's the least-bad way to label?
+C: That's a very real constraint. A few suggestions. One, label sequences, not single turns. Give your raters the previous three or four exchanges. Frustration is much easier to see in a trajectory.
+C: Two, write a codebook with behavioral anchors. Instead of "student seems frustrated", use things like "student repeats a request with minimal change", "student contradicts or quotes the tutor", "message length drops sharply". Raters agree more when they code observable things.
+C: Three, compute agreement on a shared subset before you split up the work. If your kappa on the shared set is below about point six, revise the codebook before you label the rest.
+D: That's really helpful. Is it a problem if the things in the codebook are also features in the model? Like, repeated requests is both a label anchor and a feature.
+C: Ah. Yes. That's my loud-keyboard problem again. If the codebook says repetition means frustration and the model then uses repetition as a feature, you'll get great numbers that are circular. Either keep those anchors out of the model, or say explicitly that you're modeling the codebook and evaluate against something independent, even if it's small.
+D: Okay. Yeah, that's exactly the trap we were walking into. Thank you.
+C: I'm happy to look at your codebook if Alan wants to pass it along.
+B: I'll take you up on that. Jordan asks in the chat: did you ever find a physiological signal that separates frustration from confusion?
+C: Short answer, no, not on its own. Both raise arousal. The best separation we've seen comes from combining arousal with what's happening in the task, like whether the student just got negative feedback. The context does the work. The sensor tells you when to look.
+B: Great. One more? Okay, I don't see more hands. Renata, thank you so much, this was terrific. Everyone, proposals are due Thursday, and if your project uses affect labels I want a paragraph on where your ground truth comes from. That's straight from tonight.
+C: Thanks, everyone. Good luck with the projects.
+B: I'm going to stop the recording now.
+=== chat
+@2+5 B>Everyone: Recording with Dr. Castillo's permission; it will be posted on Canvas for this week only.
+@26+20 Maya Torres>Everyone: How did you handle students who never marked any frustration in the retrospective replay?
+@27+15 Maya Torres>D: this is literally our project lol. ask about the politeness thing
+@27+30 D>Maya Torres: yeah raising my hand at Q&A
+@33+20 Jordan Lee>Everyone: did any physiological signal separate frustration from confusion?
+@42+5 Jordan Lee>D: codebook w/ behavioral anchors -> I'll start a draft tonight
+@49+20 Jordan Lee>Everyone: thank you, this was great
+@49+25 Maya Torres>Everyone: thank you Dr. Castillo!
+@50+3 B>Everyone: Slides will be on Canvas. Proposals due Thursday 3/5 by 11:59pm.

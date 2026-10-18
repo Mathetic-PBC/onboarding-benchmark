@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20240728T042000Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Juno voices — personality presets</title>
+    <created>20240722T023500Z</created>
+    <updated>20240728T042000Z</updated>
+    <tag>juno</tag>
+    <tag>personas</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>Starter personas for the lab web app demo. Each = system prompt + voice + speaking rate.</div><div><br/></div><table style="border-collapse:collapse"><tr><td style="border:1px solid #ccc;padding:4px"><b>preset</b></td><td style="border:1px solid #ccc;padding:4px"><b>voice</b></td><td style="border:1px solid #ccc;padding:4px"><b>rate</b></td><td style="border:1px solid #ccc;padding:4px"><b>style</b></td></tr><tr><td style="border:1px solid #ccc;padding:4px">Coach</td><td style="border:1px solid #ccc;padding:4px">warm, low</td><td style="border:1px solid #ccc;padding:4px">1.05</td><td style="border:1px solid #ccc;padding:4px">short sentences, asks one question back, encouraging</td></tr><tr><td style="border:1px solid #ccc;padding:4px">Professor</td><td style="border:1px solid #ccc;padding:4px">neutral</td><td style="border:1px solid #ccc;padding:4px">0.95</td><td style="border:1px solid #ccc;padding:4px">explains with an example first, then the rule</td></tr><tr><td style="border:1px solid #ccc;padding:4px">Rubber duck</td><td style="border:1px solid #ccc;padding:4px">soft</td><td style="border:1px solid #ccc;padding:4px">1.0</td><td style="border:1px solid #ccc;padding:4px">says almost nothing, repeats back what you said as a question</td></tr><tr><td style="border:1px solid #ccc;padding:4px">Debater</td><td style="border:1px solid #ccc;padding:4px">sharp</td><td style="border:1px solid #ccc;padding:4px">1.1</td><td style="border:1px solid #ccc;padding:4px">takes the opposite side on purpose, polite</td></tr><tr><td style="border:1px solid #ccc;padding:4px">Narrator</td><td style="border:1px solid #ccc;padding:4px">deep</td><td style="border:1px solid #ccc;padding:4px">0.9</td><td style="border:1px solid #ccc;padding:4px">reads pages aloud, pauses at headings (for the browser extension)</td></tr></table><div><br/></div><div>Observations from testing with 4 friends (7/27)</div><ul><li>everyone liked Rubber duck the most for coding. nobody expected that.</li><li>Debater got annoying after 3 minutes. needs a "stop arguing" command.</li><li>speaking rate matters more than voice choice for "does it feel natural".</li></ul></en-note>]]>
+    </content>
+  </note>
+</en-export>

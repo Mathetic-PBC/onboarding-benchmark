@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20251204T035200Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Why your easy runs feel hard: cardiac drift explained</title>
+    <created>20251204T034000Z</created>
+    <updated>20251204T035200Z</updated>
+    <tag>clip</tag>
+    <tag>running-science</tag>
+    <tag>heart-rate</tag>
+    <note-attributes>
+      <author>David Barron</author>
+      <source>web.clip7</source>
+      <source-url>https://trailandtrackweekly.com/training/cardiac-drift-easy-runs</source-url>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><blockquote>my note: this is why I check decoupling on the long runs. keep the &lt; 5% rule.</blockquote><hr/><h3>Why your easy runs feel hard: cardiac drift explained</h3><div>Trail &amp; Track Weekly, Dec 2025</div><div><br/></div><div>If you run at the same pace for an hour, your heart rate usually creeps up even though nothing about the effort changed. Exercise physiologists call this cardiovascular drift. As you warm up and sweat, plasma volume drops a little, the heart pumps slightly less blood per beat, and it compensates by beating faster. Heat, dehydration and poor sleep make it worse.</div><div><br/></div><div>Coaches use drift as a cheap fitness test. Run a steady hour at an easy pace, compare the average heart rate of the first and second halves, and divide pace by heart rate for each half. If the ratio drops by less than about five percent, the pace is comfortably inside your aerobic range. If it drops by more, the pace is too ambitious for your current base, or the conditions were bad.</div><div><br/></div><div>The practical advice is boring and effective: slow down on hot days, drink before you are thirsty on runs over an hour, and judge an easy run by heart rate and breathing rather than the watch pace. Fitness shows up as the same pace at a lower heart rate over months, not weeks.</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

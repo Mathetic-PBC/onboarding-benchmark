@@ -1,0 +1,13 @@
+=== THREAD PARENT MESSAGE ===
+From: Yue (U0SYNRUS5ER)
+Time: 2026-04-30 19:15:36 PDT
+Message TS: 1777601736.805050
+datasheet draft is in overleaf appendix B. still need: license (cc-by-nc?), deidentification process, consent language
+
+=== THREAD REPLIES (1 total) ===
+
+--- Reply 1 of 1 ---
+From: Xiaohang (U0SYN2JB5HW)
+Time: 2026-04-30 19:40:09 PDT
+Message TS: 1777603209.543997
+cc-by-nc-4.0 is what yan suggested

@@ -1,0 +1,37 @@
+{
+ "conversation": {
+  "conversationId": "878b229c-6fb4-456b-8de9-ec1e2542bcea",
+  "title": "Zone 2 vs Intervals Debate",
+  "createTime": "2026-03-09T01:49:00.000Z",
+  "modifyTime": "2026-03-09T01:50:59.359Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "af7a4b27-3d4d-4425-aef2-539645ac69f0",
+   "message": "saw a big account on here say zone 2 is overrated and you should just do intervals. thoughts. be concise",
+   "sender": "human",
+   "createTime": "2026-03-09T01:49:00.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "d8b3af02-a722-4c63-aad5-e908c13ec5cf",
+   "message": "Concise:\n\n- **For time-crunched people (3–4 h/week):** intervals give more fitness per hour. The claim has merit there.\n- **For people training 8+ h/week:** you can't do 8 hours of intervals. Most of the volume has to be easy, and easy volume is what builds the aerobic base that intervals sharpen. Elite endurance athletes spend roughly 75–85% of their time easy.\n- **\"Zone 2\" as a precise magic zone is overrated.** \"Mostly easy, some hard\" is what the evidence supports. Fussing over exactly which zone is mostly noise.\n\nYou're at ~9 h/week aiming for long-term development: keep it mostly easy, add 1–2 quality sessions. The account isn't wrong for its audience; it's wrong for yours.",
+   "sender": "assistant",
+   "createTime": "2026-03-09T01:49:19.359Z",
+   "parentResponseId": "af7a4b27-3d4d-4425-aef2-539645ac69f0",
+   "model": "grok-3",
+   "xPostIds": [
+    "2030693608387090493"
+   ]
+  },
+  {
+   "responseId": "003072a4-38a5-402d-aef8-1a42f6282ba3",
+   "message": "ok thats what i figured",
+   "sender": "human",
+   "createTime": "2026-03-09T01:50:59.359Z",
+   "parentResponseId": "d8b3af02-a722-4c63-aad5-e908c13ec5cf"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "uuid": "5a921aeb-6aa4-432d-8325-616f20ee4c63",
+ "slug": "signs-a-sf-sublet-listing-is-a-scam-guy-wants-YqJWRwNrL3O6botgwoHkoR",
+ "title": "Signs of a sublet scam in SF",
+ "thread_url": "https://www.perplexity.ai/search/signs-a-sf-sublet-listing-is-a-scam-guy-wants-YqJWRwNrL3O6botgwoHkoR",
+ "created_at": "2026-07-22T02:05:00Z",
+ "updated_at": "2026-07-22T02:05:43Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "6ea3046b-56d8-4a74-839e-a83593b64730",
+   "query_str": "signs a sf sublet listing is a scam. guy wants deposit via zelle before showing, says hes abroad",
+   "answer": "That combination hits the **two biggest red flags** [1][2]: the \"landlord\" is unavailable/abroad, and they want money via a non-reversible method (Zelle, wire, crypto, gift cards) **before you see the place**. Other common signs:\n- Rent well below market for the area.\n- Photos that appear on other listings (reverse-image search them).\n- Pressure to decide fast; refusal to video-call from inside the unit.\n- No lease or a generic template with no address details [2].\n\nDon't send money. Ask for a live video walkthrough and verify ownership (county property records) before any payment, and use a method with buyer protection [1].",
+   "sources": [
+    {
+     "name": "How to spot rental scams",
+     "url": "https://consumer.ftc.gov/articles/rental-listing-scams",
+     "snippet": "Common rental-scam tactics and how to protect yourself."
+    },
+    {
+     "name": "Avoiding sublet scams in the Bay Area",
+     "url": "https://www.bayarearentals.info/sublet-scams",
+     "snippet": "Local red flags and verification steps."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-07-22T02:05:00Z",
+   "updated_at": "2026-07-22T02:05:24Z"
+  }
+ ]
+}

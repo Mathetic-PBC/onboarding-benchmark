@@ -1,0 +1,28 @@
+# Surplus Residents DM with Lena Hoffmann — synthetic
+@2026-08-11
+15:30 lena | Hi David! Desk assignment: you and Hudson are in the back office (the one with the whiteboard wall). Your badge for the coworking side is at the front desk tomorrow.
+15:45 david | thank you! the whiteboard wall is perfect
+
+@2026-08-12
+10:10 david | quick q: is the residency agreement signed by the company or by each founder? we're a delaware PBC, hudson and i are both officers
+10:40 lena | By the company. One signature from an officer is enough. Send me the legal name exactly as it is on the certificate.
+10:45 david | Mathetic PBC
+
+@2026-08-27
+16:20 lena | How were the first two weeks? Anything about the house or the program that isn't working?
+16:50 david | honestly great. only thing: the office gets loud on calls, we've been taking investor calls in the car lol. is the phone booth bookable?
+17:00 lena | Yes, the calendar link is in the handbook (page 4). 45 minutes max.
+
+@2026-09-15
+14:05 lena | Notes from your check-in: metric = weekly active pilot users. Blocker = import reliability. Ask = intros to 2–3 researchers who would pilot. I'll introduce you to two people from cohort 5's network.
+14:10 david | thank you!! that's exactly it
+
+@2026-09-17
+09:20 lena | Intro sent to Daniel Osei (postdoc at CMU, keeps everything in Notion). He's expecting your email.
+09:31 david | amazing, emailing him now
+
+@2026-10-14
+18:30 lena | How did the second call with your angel go? Hudson mentioned it at lunch.
+18:55 david | good! he's interested in a check if the pilots convert, so now we have to define "convert" properly. working on it
+19:00 lena | Smart. Come to office hours Thursday and we'll pressure-test the definition.
+19:02 david | will do

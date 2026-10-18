@@ -1,0 +1,59 @@
+{
+ "uuid": "8a548466-8b45-4be7-be3c-1d6ab4a502fb",
+ "slug": "what-do-people-actually-mean-by-grand-strategy-Ho3v5Nme96TROfU8l4IGLN",
+ "title": "What \"grand strategy\" means",
+ "thread_url": "https://www.perplexity.ai/search/what-do-people-actually-mean-by-grand-strategy-Ho3v5Nme96TROfU8l4IGLN",
+ "created_at": "2026-02-21T02:35:00Z",
+ "updated_at": "2026-02-21T02:38:46Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "e3ed2506-f118-4541-a79a-ed5e9395de15",
+   "query_str": "what do people actually mean by \"grand strategy\", is it just foreign policy",
+   "answer": "Not quite. **Grand strategy** usually means the relationship between a state's long-term ends and the full range of means it can use — military, economic, diplomatic, and sometimes cultural — under conditions of scarcity [1][2]. Foreign policy is the day-to-day conduct of relations with other states; grand strategy is the logic that (ideally) ties those choices together over decades.\n\nCommon threads across definitions [2][3]:\n- **Ends vs means:** aspirations are unlimited, capabilities aren't, so grand strategy is about aligning the two.\n- **Peace and war:** it covers how a state prepares in peacetime, not only how it fights.\n- **Time horizon:** years to generations, which is why historians often describe it retrospectively (e.g., \"Rome's grand strategy\") rather than as a written plan.\n\nSome scholars are skeptical that states really have coherent grand strategies at all, arguing they're mostly patterns imposed after the fact [3].",
+   "sources": [
+    {
+     "name": "Grand strategy — overview",
+     "url": "https://en.wikipedia.org/wiki/Grand_strategy",
+     "snippet": "Definitions and the history of the concept."
+    },
+    {
+     "name": "Ends, means and the idea of grand strategy",
+     "url": "https://www.strategyreview.org/ends-and-means",
+     "snippet": "Essay on aligning unlimited aspirations with limited capabilities."
+    },
+    {
+     "name": "Does grand strategy exist? A skeptical view",
+     "url": "https://www.internationalaffairsforum.net/grand-strategy-skeptic",
+     "snippet": "Argues coherent grand strategies are rarer than the literature suggests."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "gpt-5",
+   "created_at": "2026-02-21T02:35:00Z",
+   "updated_at": "2026-02-21T02:35:21Z"
+  },
+  {
+   "uuid": "25347e17-facd-4c2c-b660-1edfd26e8c22",
+   "query_str": "good intro books that arent 800 pages",
+   "answer": "Short, widely recommended entry points [1][2]:\n- **John Lewis Gaddis, *On Grand Strategy* (2018)** — essays across history, built around the ends/means idea; readable in a week.\n- **Hal Brands, *What Good Is Grand Strategy?* (2014)** — focused on the US since 1945, ~200 pages.\n- **Lawrence Freedman, *Strategy: A History*** — excellent but long; dip into chapters rather than reading cover to cover.",
+   "sources": [
+    {
+     "name": "Reading lists in strategic studies",
+     "url": "https://www.strategyreview.org/reading-list",
+     "snippet": "Introductory books on strategy and grand strategy."
+    },
+    {
+     "name": "Best short books on international relations",
+     "url": "https://www.internationalaffairsforum.net/short-reads",
+     "snippet": "Curated shorter books for newcomers."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "pplx_pro",
+   "created_at": "2026-02-21T02:38:24Z",
+   "updated_at": "2026-02-21T02:38:39Z"
+  }
+ ]
+}

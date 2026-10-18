@@ -1,0 +1,313 @@
+{
+ "Mathetic/issues/PIL-1.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Write the pilot interview script'; status=Done; project=Pilot program; 2 comments"
+ },
+ "Mathetic/issues/PIL-2.json": {
+  "project_ids": [
+   "project_berkeley_research_chats",
+   "project_engelbart"
+  ],
+  "notes": "'Shortlist pilot users from the Berkeley research chats'; status=Done; project=Pilot program; 1 comments"
+ },
+ "Mathetic/issues/PIL-3.json": {
+  "project_ids": [
+   "project_engelbart",
+   "project_mathetic_company"
+  ],
+  "notes": "'Consent + data-handling one-pager for pilots'; status=Done; project=Pilot program; 2 comments"
+ },
+ "Mathetic/issues/PIL-4.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Signed + notarized macOS build for pilots'; status=Done; project=Pilot program; 2 comments"
+ },
+ "Mathetic/issues/PIL-5.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Dry-run the full onboarding on a fresh macOS user account'; status=Done; project=Pilot program; 1 comments"
+ },
+ "Mathetic/issues/PIL-6.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Import log: per-source found / imported / skipped / duplicate counts'; status=Done; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-7.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Pilot feedback form'; status=Done; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-8.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Schedule pilot sessions'; status=Done; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-9.json": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "'Pilot thank-you gift cards ($100)'; status=Done; project=Pilot program; 1 comments"
+ },
+ "Mathetic/issues/PIL-10.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Ask for Full Disk Access before the connect screen, not after'; status=Done; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-11.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Claude import: handle both export layouts'; status=Done; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-12.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Import progress: show counts per source while importing'; status=Done; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-13.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Recording consent line in the session invite'; status=Done; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-14.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Claude import missed ~140 of Priya's conversations'; status=Done; project=Pilot program; 5 comments; Priya's 10-09 pilot bug (PERSON.md §7: import missed ~140 Claude chats)"
+ },
+ "Mathetic/issues/PIL-15.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Same paper imported twice (Zotero storage + ~/Downloads)'; status=Done; project=Pilot program; 2 comments; Priya's 10-09 pilot bug (duplicate PDFs, Zotero vs Downloads); mentions the Ostrowski paper by title"
+ },
+ "Mathetic/issues/PIL-16.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Write import dedupe rules v0'; status=Done; project=Pilot program; 1 comments"
+ },
+ "Mathetic/issues/PIL-17.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Make the provenance trail step 1 of the tour'; status=In Progress; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-18.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'After import, list skipped items with a reason'; status=Todo; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-19.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Zotero: take title/authors/DOI from the parent item, not the attachment filename'; status=In Review; project=Pilot program; 1 comments"
+ },
+ "Mathetic/issues/PIL-20.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Downloads scan picks up partial downloads (.crdownload, .download, .part)'; status=Done; project=Pilot program; 1 comments"
+ },
+ "Mathetic/issues/PIL-21.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Import stalls on very large PDFs'; status=Backlog; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-22.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Follow up with Priya: fixes + re-import'; status=Done; project=Pilot program; 1 comments"
+ },
+ "Mathetic/issues/PIL-23.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Re-run Priya's import end to end after PIL-14 / PIL-15'; status=Done; project=Pilot program; 1 comments"
+ },
+ "Mathetic/issues/PIL-24.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Notion import (Markdown & CSV export zip)'; status=In Progress; project=Pilot program; 2 comments"
+ },
+ "Mathetic/issues/PIL-25.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Granola import'; status=Todo; project=Pilot program; 1 comments"
+ },
+ "Mathetic/issues/PIL-26.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Connect screen: replace 'Other' with named sources'; status=In Progress; project=Pilot program; 2 comments; Daniel Osei's 10-13 pilot ask (confusing 'Other' category)"
+ },
+ "Mathetic/issues/PIL-27.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Connect screen: say what each source will read before connecting'; status=Todo; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-28.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Obsidian: follow symlinked folders in the vault'; status=Backlog; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-29.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Claude chats imported twice (export zip + desktop app cache)'; status=Done; project=Pilot program; 1 comments"
+ },
+ "Mathetic/issues/PIL-30.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'ChatGPT shared links create duplicate conversations'; status=Todo; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-31.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Google Drive shortcuts import as empty files'; status=Backlog; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-32.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Pilot feedback synthesis (Priya + Daniel)'; status=In Progress; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-33.json": {
+  "project_ids": [
+   "project_berkeley_research_chats",
+   "project_engelbart"
+  ],
+  "notes": "'Recruit pilot 3'; status=Todo; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-34.json": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "'Send Daniel's gift card'; status=Done; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-35.json": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "'Pilot metrics snapshot for Marcus every 2 weeks'; status=Todo; project=None; 0 comments; company follow-up from the second Marcus Oyelaran call (2026-10-14)"
+ },
+ "Mathetic/issues/PIL-36.json": {
+  "project_ids": [
+   "project_engelbart",
+   "project_mathetic_company"
+  ],
+  "notes": "'Define 'converted pilot''; status=Done; project=Pilot program; 3 comments"
+ },
+ "Mathetic/issues/PIL-37.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Link versions of the same paper instead of merging (arXiv v1 vs camera-ready)'; status=Backlog; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-38.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'First-run: explain the provenance trail in one sentence'; status=Todo; project=Pilot program; 0 comments"
+ },
+ "Mathetic/issues/PIL-39.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Evernote ENEX import'; status=Canceled; project=Pilot program; 1 comments"
+ },
+ "Mathetic/issues/PIL-40.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Same PDF twice from ~/Desktop/papers and ~/Downloads'; status=Duplicate; project=Pilot program; 1 comments"
+ },
+ "Mathetic/documents/48eb44f4-06d6-4f5a-9bb1-aadce3571ceb.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Pilot interview script'; project=Pilot program"
+ },
+ "Mathetic/documents/b10eb47f-cf44-421a-8830-a5d4b745ec35.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Import dedupe rules v0'; project=Pilot program; concrete dedupe rules (content hash, DOI, Claude conversation uuid, arXiv id, ...)"
+ },
+ "Mathetic/documents/9228d54c-728c-440d-ac0b-32c3f24333a3.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "'Pilot feedback synthesis'; project=Pilot program"
+ },
+ "Mathetic/projects/P-PIL-1.json": {
+  "project_ids": [
+   "project_engelbart",
+   "project_mathetic_company"
+  ],
+  "notes": "project 'Pilot program' (team Pilots): 4 milestones, 2 status updates"
+ },
+ "Mathetic/workspace/workspace.json": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "workspace metadata (synthetic export)"
+ },
+ "Mathetic/workspace/teams.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "team list: synthetic Pilots team (PIL)"
+ },
+ "Mathetic/workspace/users.json": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "workspace members"
+ },
+ "Mathetic/workspace/labels.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "issue labels for the Pilots team"
+ },
+ "Mathetic/workspace/statuses.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "workflow states for the Pilots team"
+ },
+ "Mathetic/workspace/cycles.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "Pilots team cycles"
+ },
+ "Mathetic/workspace/custom_views.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "saved view: open pilot bugs"
+ }
+}

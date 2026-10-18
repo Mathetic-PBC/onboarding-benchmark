@@ -1,0 +1,88 @@
+{
+  "issue": {
+    "id": "PIL-11",
+    "uuid": "43fd4f96-cd82-4ab5-9d9c-b45e9dc1692c",
+    "title": "Claude import: handle both export layouts",
+    "description": "Older Claude exports have one `conversations.json`; newer ones also ship `projects.json` and `users.json`. Make the parser accept both and fail loudly on anything else instead of importing 0 conversations.",
+    "projectMilestone": {
+      "id": "c7f372c4-1916-4b8f-bf0f-0d7e2ecef6d7",
+      "name": "First two pilots onboarded"
+    },
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-11/claude-import-handle-both-export-layouts",
+    "gitBranchName": "david/pil-11-claude-import-handle-both-export-layouts",
+    "createdAt": "2026-10-01T18:00:51.239Z",
+    "updatedAt": "2026-10-06T02:30:07.234Z",
+    "archivedAt": null,
+    "completedAt": "2026-10-06T02:30:07.234Z",
+    "startedAt": "2026-10-04T21:00:23.890Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [
+      "Import",
+      "Feature"
+    ],
+    "createdBy": "David Barron",
+    "assignee": "David Barron",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-11",
+    "attachments": [
+      {
+        "id": "53640221-9143-4f78-97aa-7842bfa37423",
+        "title": "PR #200: Claude export: accept both layouts, error on unknown",
+        "subtitle": null,
+        "url": "https://github.com/Mathetic-PBC/engelbart/pull/200"
+      }
+    ],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-01T18:00:51.239Z",
+        "endedAt": "2026-10-04T21:00:23.890Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-04T21:00:23.890Z",
+        "endedAt": "2026-10-06T02:30:07.234Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-10-06T02:30:07.234Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": []
+}

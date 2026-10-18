@@ -1,0 +1,74 @@
+{
+ "firefox/Profiles/x7k2p9qd.default-release/places.sqlite": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_berkeley_research_chats",
+   "project_claude_code_plugins",
+   "project_cs3604_gta",
+   "project_dynamite",
+   "project_endurance_training",
+   "project_engelbart",
+   "project_ethicconvo",
+   "project_idetrace",
+   "project_ise6664_affective_computing",
+   "project_mathetic_company",
+   "project_music_production",
+   "project_none",
+   "project_portfolio",
+   "project_sophia",
+   "project_tacode",
+   "project_tutortrace",
+   "project_vizpi",
+   "project_vt_phd_admin"
+  ],
+  "notes": "HARD CASE: personal clutter mixed with work — 614 places, 2436 visits over the year, personal browser with research, company and personal browsing interleaved"
+ },
+ "firefox/Profiles/x7k2p9qd.default-release/visits.csv": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_berkeley_research_chats",
+   "project_claude_code_plugins",
+   "project_cs3604_gta",
+   "project_dynamite",
+   "project_endurance_training",
+   "project_engelbart",
+   "project_ethicconvo",
+   "project_idetrace",
+   "project_ise6664_affective_computing",
+   "project_mathetic_company",
+   "project_music_production",
+   "project_none",
+   "project_portfolio",
+   "project_sophia",
+   "project_tacode",
+   "project_tutortrace",
+   "project_vizpi",
+   "project_vt_phd_admin"
+  ],
+  "notes": "HARD CASE: personal clutter mixed with work — flat CSV derived from places.sqlite (hidden redirect places dropped)"
+ },
+ "brave/Default/History": {
+  "project_ids": [
+   "project_berkeley_research_chats",
+   "project_endurance_training",
+   "project_engelbart",
+   "project_mathetic_company",
+   "project_music_production",
+   "project_none",
+   "project_tutortrace"
+  ],
+  "notes": "HARD CASE: personal clutter mixed with work — Brave on the new Mac, 298 urls / 798 visits: app + landing-page testing with SF errands mixed in"
+ },
+ "brave/Default/visits.csv": {
+  "project_ids": [
+   "project_berkeley_research_chats",
+   "project_endurance_training",
+   "project_engelbart",
+   "project_mathetic_company",
+   "project_music_production",
+   "project_none",
+   "project_tutortrace"
+  ],
+  "notes": "HARD CASE: personal clutter mixed with work — flat CSV derived from Brave History"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "uuid": "a23392d1-5654-4481-94f5-d2f3f0380e8c",
+ "slug": "what-time-is-23-59-aoe-march-31-in-eastern-time-isVq51PaLFG22npzVIlaxO",
+ "title": "what time is",
+ "thread_url": "https://www.perplexity.ai/search/what-time-is-23-59-aoe-march-31-in-eastern-time-isVq51PaLFG22npzVIlaxO",
+ "created_at": "2026-04-01T00:10:00Z",
+ "updated_at": "2026-04-01T00:10:22Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "29170adf-f54f-4ffb-9665-184bc07ebb4c",
+   "query_str": "what time is 23:59 AoE march 31 in eastern time",
+   "answer": "**Anywhere on Earth (AoE) is UTC−12.** So 23:59 AoE on March 31 is 11:59 UTC on **April 1**, which is **7:59 AM EDT on April 1** (Eastern Daylight Time, UTC−4, is in effect in late March) [1][2]. You have until tomorrow morning Eastern time.",
+   "sources": [
+    {
+     "name": "Anywhere on Earth (AoE) — explanation",
+     "url": "https://www.timeanddate.com/time/zones/aoe",
+     "snippet": "AoE is UTC−12, used for academic deadlines."
+    },
+    {
+     "name": "Eastern Daylight Time",
+     "url": "https://www.timeanddate.com/time/zones/edt",
+     "snippet": "EDT is UTC−4 from March to November."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "gpt-5",
+   "created_at": "2026-04-01T00:10:00Z",
+   "updated_at": "2026-04-01T00:10:20Z"
+  }
+ ]
+}

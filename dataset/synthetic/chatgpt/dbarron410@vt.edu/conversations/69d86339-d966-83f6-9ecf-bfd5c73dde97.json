@@ -1,0 +1,219 @@
+{
+ "title": "New chat",
+ "create_time": 1775788857.12,
+ "update_time": 1775789018.027189,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "6374da69-8bed-4873-aa2c-28c263c441e0"
+   ]
+  },
+  "6374da69-8bed-4873-aa2c-28c263c441e0": {
+   "id": "6374da69-8bed-4873-aa2c-28c263c441e0",
+   "message": {
+    "id": "6374da69-8bed-4873-aa2c-28c263c441e0",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1775788857.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "w-2 box 12 code DD what is that, does it change my taxes"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_ff6cca72e93425d20514604403",
+     "message_source": null,
+     "turn_exchange_id": "f1850764-717e-4d17-8515-5de1fe67eabe",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "d5ec388d-909d-4620-af5b-d85a751fb06f"
+   ]
+  },
+  "d5ec388d-909d-4620-af5b-d85a751fb06f": {
+   "id": "d5ec388d-909d-4620-af5b-d85a751fb06f",
+   "message": {
+    "id": "d5ec388d-909d-4620-af5b-d85a751fb06f",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1775788875.636,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Box 12 code **DD** is the cost of employer-sponsored health coverage (both your share and the employer's share). It's informational only. It doesn't change your taxable income or your tax due, and you don't need to do anything with it on your return beyond entering it if the software asks."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_ff6cca72e93425d20514604403",
+     "message_type": "next",
+     "turn_exchange_id": "f1850764-717e-4d17-8515-5de1fe67eabe",
+     "model_slug": "gpt-5-3",
+     "default_model_slug": "gpt-5-3",
+     "resolved_model_slug": "gpt-5-3",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "6374da69-8bed-4873-aa2c-28c263c441e0"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "6374da69-8bed-4873-aa2c-28c263c441e0",
+   "children": [
+    "4d6e6cef-0b3b-4d68-a234-282f66af65ab"
+   ]
+  },
+  "4d6e6cef-0b3b-4d68-a234-282f66af65ab": {
+   "id": "4d6e6cef-0b3b-4d68-a234-282f66af65ab",
+   "message": {
+    "id": "4d6e6cef-0b3b-4d68-a234-282f66af65ab",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1775789010.636,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "ok and code W"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_757ba22ff32e27b3e47248f09c",
+     "message_source": null,
+     "turn_exchange_id": "997eec50-d6da-4e9b-bed7-08b9804635a4",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "d5ec388d-909d-4620-af5b-d85a751fb06f",
+   "children": [
+    "e6e83d6c-936e-4387-b534-b676b71a83fd"
+   ]
+  },
+  "e6e83d6c-936e-4387-b534-b676b71a83fd": {
+   "id": "e6e83d6c-936e-4387-b534-b676b71a83fd",
+   "message": {
+    "id": "e6e83d6c-936e-4387-b534-b676b71a83fd",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1775789017.391,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Code **W** is employer contributions to your Health Savings Account (including any pre-tax contributions you made through payroll). It *is* relevant: it goes on Form 8889 (HSA). Your tax software will ask for it and handle it. Those contributions are generally excluded from income if you were HSA-eligible."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_757ba22ff32e27b3e47248f09c",
+     "message_type": "next",
+     "turn_exchange_id": "997eec50-d6da-4e9b-bed7-08b9804635a4",
+     "model_slug": "gpt-5-3",
+     "default_model_slug": "gpt-5-3",
+     "resolved_model_slug": "gpt-5-3",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "4d6e6cef-0b3b-4d68-a234-282f66af65ab"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "4d6e6cef-0b3b-4d68-a234-282f66af65ab",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "e6e83d6c-936e-4387-b534-b676b71a83fd",
+ "plugin_ids": null,
+ "conversation_id": "69d86339-d966-83f6-9ecf-bfd5c73dde97",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-3",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "69d86339-d966-83f6-9ecf-bfd5c73dde97"
+}

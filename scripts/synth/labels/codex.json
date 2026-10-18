@@ -1,0 +1,144 @@
+{
+ "sessions/2026/02/02/rollout-2026-02-02T22-15-10-019c217f-3230-7262-beec-cd49bcd6e48a.jsonl": {
+  "project_ids": [
+   "project_dynamite"
+  ],
+  "notes": null
+ },
+ "sessions/2026/02/04/rollout-2026-02-04T23-40-44-019c2c1a-40e0-7536-9791-05474813e70a.jsonl": {
+  "project_ids": [
+   "project_dynamite"
+  ],
+  "notes": null
+ },
+ "sessions/2026/02/10/rollout-2026-02-10T21-05-31-019c4a72-4df8-7aa9-82d5-525bd2f66543.jsonl": {
+  "project_ids": [
+   "project_dynamite"
+  ],
+  "notes": null
+ },
+ "sessions/2026/02/13/rollout-2026-02-13T00-30-02-019c557a-4390-743b-94a5-3724f7c474c0.jsonl": {
+  "project_ids": [
+   "project_dynamite"
+  ],
+  "notes": null
+ },
+ "sessions/2026/03/08/rollout-2026-03-08T15-20-40-019ccee4-ff40-7c6e-87d7-1a92c6d59e78.jsonl": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "2025 taxes (personal); synthetic amounts"
+ },
+ "sessions/2026/03/26/rollout-2026-03-26T23-50-12-019d2d69-f520-743f-a02f-36ee97214545.jsonl": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": null
+ },
+ "sessions/2026/05/04/rollout-2026-05-04T01-10-55-019df165-8318-7f90-9e1e-c6971db5ac2b.jsonl": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": null
+ },
+ "sessions/2026/07/20/rollout-2026-07-20T22-00-08-019f8266-e040-7dfd-8b50-6a2f626fc3ab.jsonl": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "SF sublet search (personal)"
+ },
+ "sessions/2026/07/24/rollout-2026-07-24T23-30-17-019f9752-d928-737d-b665-2e863ea5880e.jsonl": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "IDETrace leakage bug found 2026-07-24"
+ },
+ "sessions/2026/07/25/rollout-2026-07-25T14-02-40-019f9a71-8a00-76c2-b10c-86036a14c6e9.jsonl": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": null
+ },
+ "sessions/2026/07/26/rollout-2026-07-26T22-45-03-019fa176-2798-71bd-a03c-89b35e58c800.jsonl": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": null
+ },
+ "sessions/2026/07/27/rollout-2026-07-27T21-10-26-019fa645-e3d0-77ca-9478-4d517469acc0.jsonl": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": null
+ },
+ "sessions/2026/07/28/rollout-2026-07-28T23-55-48-019fac03-a5a0-774b-87e3-b54aa18ed338.jsonl": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": null
+ },
+ "sessions/2026/07/29/rollout-2026-07-29T02-20-05-019fac87-be08-7327-8dfe-151bafa07be6.jsonl": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "HARD CASE: automated-looking session with real work — codex exec run with a generic prompt; real fix: student-id normalization in the grouped split"
+ },
+ "sessions/2026/08/20/rollout-2026-08-20T23-10-33-01a022f1-47a8-71ef-9228-f2373d7fd97d.jsonl": {
+  "project_ids": [
+   "project_claude_code_plugins"
+  ],
+  "notes": null
+ },
+ "sessions/2026/09/03/rollout-2026-09-03T22-30-12-01a06ae5-5ea0-7885-856d-6dfac5a2ba5d.jsonl": {
+  "project_ids": [
+   "project_claude_code_plugins"
+  ],
+  "notes": null
+ },
+ "sessions/2026/09/15/rollout-2026-09-15T21-50-59-01a0a88d-c738-7d3a-b7cd-9e620af9edd6.jsonl": {
+  "project_ids": [
+   "project_claude_code_plugins"
+  ],
+  "notes": null
+ },
+ "sessions/2026/09/24/rollout-2026-09-24T20-40-15-01a0d6a6-4118-71a6-bf2d-294ee760d9e5.jsonl": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": null
+ },
+ "sessions/2026/09/27/rollout-2026-09-27T16-20-41-01a0e52b-b128-7223-8698-f8d874b71ef6.jsonl": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "online chess (personal)"
+ },
+ "sessions/2026/10/08/rollout-2026-10-08T03-15-22-01a11b02-aa90-7fa4-a82f-58de1292f7ad.jsonl": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "HARD CASE: automated-looking session with real work — codex exec run with a generic prompt; real fix: broken fallback alias for bart-deep in the LiteLLM proxy config"
+ },
+ "codex-home/session_index.jsonl": {
+  "project_ids": [
+   "project_claude_code_plugins",
+   "project_dynamite",
+   "project_engelbart",
+   "project_idetrace",
+   "project_none",
+   "project_tutortrace"
+  ],
+  "notes": "thread names for the interactive rollouts"
+ },
+ "codex-home/history.jsonl": {
+  "project_ids": [
+   "project_claude_code_plugins",
+   "project_dynamite",
+   "project_engelbart",
+   "project_idetrace",
+   "project_none",
+   "project_tutortrace"
+  ],
+  "notes": "prompt history across all synthetic rollouts"
+ }
+}

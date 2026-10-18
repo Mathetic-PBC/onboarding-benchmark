@@ -1,0 +1,22 @@
+=== THREAD PARENT MESSAGE ===
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2025-10-21 11:02:01 PDT
+Message TS: 1761069721.220538
+dep #1 recap (10/15, cs 3114 section A only): 41 students, recorder ran the whole session, 18,904 events. two issues:
+1. replay timeline stutters past ~3k events (we re-render the whole track on every scrub)
+2. help-request button fires twice on double click → duplicate rows in `help_requests`
+both fixable before #2
+
+=== THREAD REPLIES (2 total) ===
+
+--- Reply 1 of 2 ---
+From: Rezky (U0SYNS0GL2E)
+Time: 2025-10-21 11:20:28 PDT
+Message TS: 1761070828.515500
+for 1 i can virtualize the track, only render the visible window ±30s
+
+--- Reply 2 of 2 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2025-10-21 11:22:55 PDT
+Message TS: 1761070975.991744
+🙏 do it. i'll debounce the button

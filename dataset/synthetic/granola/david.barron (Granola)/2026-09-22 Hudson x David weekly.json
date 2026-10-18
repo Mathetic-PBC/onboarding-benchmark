@@ -1,0 +1,526 @@
+{
+ "id": "a1733ebf-511b-4656-8d01-11985a839c32",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Hudson x David weekly",
+ "created_at": "2026-09-22T21:57:18.000Z",
+ "updated_at": "2026-09-22T22:09:57.435Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "c502a03c97b0eb8ec9a962e541",
+  "summary": "Hudson x David weekly",
+  "start": {
+   "dateTime": "2026-09-22T15:00:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-09-22T15:15:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted",
+    "organizer": true
+   }
+  ],
+  "organizer": {
+   "email": "hudson@mathetic.com"
+  },
+  "creator": {
+   "email": "hudson@mathetic.com"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=7a68dfc2454c4b899bdcd85926404e5adb28452b",
+  "status": "confirmed",
+  "location": "Surplus house, SF"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### Fundraising narrative\n\n- Lead with the change: research thinking moved into AI chats, and nobody keeps that history usefully (Marcus's favourite line)\n- Then the evidence: Berkeley conversations (Elena, Priya, Ben) — quotes, not stats\n- Ask: pre-seed SAFE; target $400k; post-money cap TBD with Surplus legal\n- Don't send a deck before pilots; Marcus wants weekly users first\n\n### Demo night draft (due to Lena Oct 1)\n\n- 4 min: problem (30s) → Priya-style story (60s) → live trail demo (90s) → ask (30s) → buffer\n- Risk: live demo on house Wi-Fi; record a backup video\n\n### Calendar crunch\n\n- David: UIST talk dry run Sun Oct 4, flies Oct 5, talk Oct 7, back Oct 8\n- Pilot sessions: Priya Oct 9, pilot B (Daniel Osei, CMU postdoc, via Priya's referral list) Oct 13\n- Marcus follow-up Oct 14\n- VT travel-funding request due this week (David)\n\n### Action items\n\n- [ ] Hudson — 1-page narrative v2 + SAFE terms summary\n- [ ] David — demo night bullet draft by Sep 30\n- [ ] David — submit VT travel-funding request (Grace Kim) by Thu Sep 24\n- [ ] Hudson — book Daniel Osei for Oct 13\n",
+ "notes_plain": "Fundraising narrative\n\nLead with the change: research thinking moved into AI chats, and nobody keeps that history usefully (Marcus's favourite line)\nThen the evidence: Berkeley conversations (Elena, Priya, Ben) — quotes, not stats\nAsk: pre-seed SAFE; target $400k; post-money cap TBD with Surplus legal\nDon't send a deck before pilots; Marcus wants weekly users first\n\nDemo night draft (due to Lena Oct 1)\n\n4 min: problem (30s) → Priya-style story (60s) → live trail demo (90s) → ask (30s) → buffer\nRisk: live demo on house Wi-Fi; record a backup video\n\nCalendar crunch\n\nDavid: UIST talk dry run Sun Oct 4, flies Oct 5, talk Oct 7, back Oct 8\nPilot sessions: Priya Oct 9, pilot B (Daniel Osei, CMU postdoc, via Priya's referral list) Oct 13\nMarcus follow-up Oct 14\nVT travel-funding request due this week (David)\n\nAction items\n\nHudson — 1-page narrative v2 + SAFE terms summary\nDavid — demo night bullet draft by Sep 30\nDavid — submit VT travel-funding request (Grace Kim) by Thu Sep 24\nHudson — book Daniel Osei for Oct 13\n",
+ "transcript": [
+  {
+   "id": "13dd58f1-ea72-4d34-9288-4a85aa02a9bc",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:00:30.014Z",
+   "end_timestamp": "2026-09-22T22:00:31.390Z",
+   "text": "Okay, money day.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ddc05de7-193a-486e-a679-39b5b0d10024",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:00:33.456Z",
+   "end_timestamp": "2026-09-22T22:00:34.430Z",
+   "text": "Ugh. Okay.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "34ccc94c-6aa4-4bf8-af21-a17e2fcdc39f",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:00:36.041Z",
+   "end_timestamp": "2026-09-22T22:00:41.453Z",
+   "text": "It's not that bad. I rewrote the narrative. Can I read the first line?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ac14ed9a-c655-4920-a4fc-09a26580f340",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:00:41.949Z",
+   "end_timestamp": "2026-09-22T22:00:42.798Z",
+   "text": "Go.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "22de6953-ba14-4c65-8e91-cee9abd99317",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:00:44.455Z",
+   "end_timestamp": "2026-09-22T22:00:50.426Z",
+   "text": "\"Research thinking moved into AI chats, and nobody keeps that history in a useful place.\"",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ea26b3b3-f26e-44d6-8376-3caadb370f4d",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:00:52.203Z",
+   "end_timestamp": "2026-09-22T22:00:53.536Z",
+   "text": "That's Marcus's line.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "af52f11b-df27-425d-82f6-145cf10feab4",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:00:54.864Z",
+   "end_timestamp": "2026-09-22T22:00:59.050Z",
+   "text": "That's Marcus's favorite line of yours. I'm using it.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "34fe55f2-20df-4f86-8954-fe09f47fd864",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:01:00.602Z",
+   "end_timestamp": "2026-09-22T22:01:04.665Z",
+   "text": "It's fine, it's — yeah. It's true. What's next?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "9dfc1253-922c-49d1-992e-6b4f75e585ea",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:01:06.741Z",
+   "end_timestamp": "2026-09-22T22:01:13.059Z",
+   "text": "Evidence. The Berkeley people. I want quotes, not numbers, because three interviews isn't a number.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ffc0ae53-2de0-4841-ab0b-eb6a53a5914b",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:01:14.724Z",
+   "end_timestamp": "2026-09-22T22:01:22.267Z",
+   "text": "Agree. \"I know I wrote a memo about this in March, I just don't know which March.\"",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "c3df748d-3e6a-4404-b5f0-55fc13dda88e",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:01:23.026Z",
+   "end_timestamp": "2026-09-22T22:01:25.554Z",
+   "text": "That one's going in for sure.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "1cbe07f1-77a2-4d45-aa21-69c0a215cdfc",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:01:25.795Z",
+   "end_timestamp": "2026-09-22T22:01:27.581Z",
+   "text": "And Priya's third reason.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "021159b1-c35e-4f42-b13d-54afeb83506e",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:01:28.257Z",
+   "end_timestamp": "2026-09-22T22:01:35.100Z",
+   "text": "Obviously. And then the ask. Pre-seed SAFE. I put four hundred K as the target.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "b3e7ac09-68ae-43c5-9919-49c54402c40b",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:01:35.285Z",
+   "end_timestamp": "2026-09-22T22:01:38.991Z",
+   "text": "Is that — where did four hundred come from?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "2f131de7-fe5e-4027-9f23-d8395bf13119",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:01:40.429Z",
+   "end_timestamp": "2026-09-22T22:01:46.859Z",
+   "text": "Eighteen months of the two of us at, like, grad-student-plus salaries, plus some compute, plus a buffer.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "249666f1-fef7-4578-8769-fe053b51b617",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:01:47.521Z",
+   "end_timestamp": "2026-09-22T22:01:49.444Z",
+   "text": "Okay. That's very low actually.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e6fce217-bf0f-4a74-9f33-204bccd4cff1",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:01:51.234Z",
+   "end_timestamp": "2026-09-22T22:01:54.757Z",
+   "text": "It's honest. Cap we figure out with Surplus legal.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "c6ebec11-927b-4a45-a528-cfbed78e9605",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:01:55.357Z",
+   "end_timestamp": "2026-09-22T22:01:57.999Z",
+   "text": "Fine. And we don't send a deck.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "27983e44-323a-4101-8d60-470a1338c897",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:01:59.622Z",
+   "end_timestamp": "2026-09-22T22:02:06.168Z",
+   "text": "Not before pilots. Marcus said weekly users first. I don't want to burn him.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "51de16f7-814b-4652-95c2-19344fc54abc",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:02:08.111Z",
+   "end_timestamp": "2026-09-22T22:02:12.235Z",
+   "text": "Agreed. Okay, demo night. I owe Lena something October first.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e9460ecc-4c54-489d-8b7a-76a23056ad7a",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:02:13.210Z",
+   "end_timestamp": "2026-09-22T22:02:14.511Z",
+   "text": "What's your structure?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "9be931a7-eb5c-47a3-a494-9fd1eb4972d9",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:02:15.114Z",
+   "end_timestamp": "2026-09-22T22:02:24.839Z",
+   "text": "Four minutes. Thirty seconds of problem. Then a story, like a Priya story, a minute. Then a live trail demo, ninety seconds. Then the ask.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "1f39188e-2470-48b1-9fc6-13bd3a5aceda",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:02:25.708Z",
+   "end_timestamp": "2026-09-22T22:02:27.527Z",
+   "text": "Live on house Wi-Fi?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "863a4608-c9c3-4d89-b6ad-095d94431936",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:02:28.231Z",
+   "end_timestamp": "2026-09-22T22:02:32.018Z",
+   "text": "Ha. Yeah. That's the risk. We record a backup video.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "5312bba7-e5d1-4845-8051-17ddd06bdf9c",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:02:33.101Z",
+   "end_timestamp": "2026-09-22T22:02:36.533Z",
+   "text": "Definitely record a backup. The garage Wi-Fi still drops.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "b01712a6-7064-412d-955f-6ad80d5af34f",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:02:38.714Z",
+   "end_timestamp": "2026-09-22T22:02:43.274Z",
+   "text": "Lena moved the mesh thing, it's better. Not good. Better.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "68969503-e8df-4a5f-8152-56c5ecdb15e3",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:02:44.294Z",
+   "end_timestamp": "2026-09-22T22:02:49.489Z",
+   "text": "Okay. Calendar. Can we just lay it out? Because October is insane.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "2cf66fe0-8c83-49aa-844c-4a5b595df7a1",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:02:50.339Z",
+   "end_timestamp": "2026-09-22T22:02:56.073Z",
+   "text": "Yeah. So Sunday the fourth, dry run of the UIST talk with you.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "2e929740-200f-4f35-89d4-9e1132857bd6",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:02:58.006Z",
+   "end_timestamp": "2026-09-22T22:02:59.183Z",
+   "text": "I'm the audience.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "2e178646-fe23-431b-b7cb-0b59c4f70103",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:03:00.978Z",
+   "end_timestamp": "2026-09-22T22:03:08.355Z",
+   "text": "You're the audience. I fly Monday the fifth. Talk Wednesday the seventh. Back Thursday the eighth.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "8387ae01-63d8-4d28-a046-7e63058decfa",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:03:09.117Z",
+   "end_timestamp": "2026-09-22T22:03:12.221Z",
+   "text": "And Priya's pilot is Friday the ninth.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "bbccfdc9-0082-41b0-b529-4e6666b62b42",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:03:13.088Z",
+   "end_timestamp": "2026-09-22T22:03:19.355Z",
+   "text": "The day after I get back. Which, um, is fine. I'll be jet-lagged but fine.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ff238c36-3fde-4b74-9820-044dbc5780d9",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:03:20.207Z",
+   "end_timestamp": "2026-09-22T22:03:24.885Z",
+   "text": "Pilot B. Priya's list had Daniel Osei, CMU postdoc. He replied yes.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "7e0f24b3-3692-4119-bc6e-2c15868a18cf",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:03:26.957Z",
+   "end_timestamp": "2026-09-22T22:03:28.158Z",
+   "text": "Oh great. When?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "589d1b72-304f-4062-8487-5ece61fe56f4",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:03:29.424Z",
+   "end_timestamp": "2026-09-22T22:03:31.612Z",
+   "text": "I'm thinking Tuesday the thirteenth.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a3763428-511c-4f78-80ed-3cee08203aa8",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:03:33.605Z",
+   "end_timestamp": "2026-09-22T22:03:36.071Z",
+   "text": "Tuesday works. Marcus is the fourteenth?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e86d372d-ced0-44c3-8a54-6370c0643b79",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:03:37.134Z",
+   "end_timestamp": "2026-09-22T22:03:42.242Z",
+   "text": "Wednesday the fourteenth. So we'd have two pilots done before Marcus.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "3100c8cc-359c-4369-b147-ec58dd15da13",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:03:43.233Z",
+   "end_timestamp": "2026-09-22T22:03:46.512Z",
+   "text": "That's the dream. Two pilots, some numbers.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "7445b2e5-cef9-45c9-88c6-5af13f3bd9ff",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:03:47.724Z",
+   "end_timestamp": "2026-09-22T22:03:49.003Z",
+   "text": "Even ugly numbers.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "81a4c282-811a-4d57-b608-af56b12e4e8f",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:03:51.086Z",
+   "end_timestamp": "2026-09-22T22:04:00.250Z",
+   "text": "Even ugly numbers. Oh, and I have to submit the travel funding thing for VT. For the UIST trip. It's due this week.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "f431c766-d421-4dad-8d87-691c7e6a2b35",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:04:00.626Z",
+   "end_timestamp": "2026-09-22T22:04:03.380Z",
+   "text": "Do they still fund you on leave?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "04545143-e7c4-45db-b561-0a112b3dcd90",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:04:05.379Z",
+   "end_timestamp": "2026-09-22T22:04:15.708Z",
+   "text": "The talk's for a paper I did as a student, so Grace said it's fine. I just have to submit it by Thursday.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "a13f03cf-a8a0-4cf8-ae44-30c1c174d06c",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:04:16.887Z",
+   "end_timestamp": "2026-09-22T22:04:18.244Z",
+   "text": "Do it today.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "897a407d-a539-4f72-8ece-c52df29f0fb7",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:04:19.642Z",
+   "end_timestamp": "2026-09-22T22:04:21.212Z",
+   "text": "I'll do it Thursday.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0ce4ef33-7123-494f-ad79-4fb592bde406",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:04:22.816Z",
+   "end_timestamp": "2026-09-22T22:04:25.524Z",
+   "text": "You'll do it Thursday at eleven PM.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "3b68eaf2-bc58-4662-8d2c-df05e8fab7cc",
+   "document_id": "a1733ebf-511b-4656-8d01-11985a839c32",
+   "start_timestamp": "2026-09-22T22:04:27.581Z",
+   "end_timestamp": "2026-09-22T22:04:28.435Z",
+   "text": "Probably, yeah.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  }
+ ]
+}

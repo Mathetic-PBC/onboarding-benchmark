@@ -1,0 +1,6 @@
+{
+ "customInstructions": "Keep answers short unless I ask for depth. For news and geopolitics, cite sources and say when something is unconfirmed. For training questions assume I'm an experienced runner, ~66 kg, 9–11 h/week.",
+ "responseStyle": "concise",
+ "language": "en",
+ "updateTime": "2026-08-03T00:12:00Z"
+}

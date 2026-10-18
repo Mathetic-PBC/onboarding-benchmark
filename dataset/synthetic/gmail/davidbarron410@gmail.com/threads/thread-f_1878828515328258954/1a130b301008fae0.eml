@@ -1,0 +1,31 @@
+From: Hudson Mitchell-Pullman <hudson@mathetic-pbc.com>
+To: David Barron <davidbarron410@gmail.com>
+Subject: Re: priya import misses - root cause
+Date: Mon, 12 Oct 2026 08:20:00 -0700
+Message-ID: <8fae0b6b3c9833329a99c1cb.74f84200@mathetic-pbc.com>
+In-Reply-To:
+ <CALPpgDM+tYewVR5Lc+wOyoYkkDYb0TAH_l4NMPvTWKpi0sxw0UGWe@mail.gmail.com>
+References:
+ <CALPpgDM+tYewVR5Lc+wOyoYkkDYb0TAH_l4NMPvTWKpi0sxw0UGWe@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1878828515328258954
+X-Gmail-Labels: Inbox,Opened
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Nice. "Add another account" is a connect-screen change, I can sketch it today.
+
+On Mon, Oct 12, 2026 at 12:35 AM David Barron <davidbarron410@gmail.com> wrot=
+e:
+> ok found it. two bugs, priya was right that it's two problems:
+>
+> 1. claude connector only paginates project conversations; the main list sto=
+pped at the first page (50). that's ~90 of the 140
+> 2. the rest are from her old account, which we never asked for. the connect=
+ screen needs "add another account" per source
+>
+> pdf dedupe: hashing exact bytes doesn't work, the zotero copy and the downl=
+oads copy differ (annotations). switching to doi + title match, keep the anno=
+tated copy as primary
+>
+> pushing fixes tomorrow before daniel's session

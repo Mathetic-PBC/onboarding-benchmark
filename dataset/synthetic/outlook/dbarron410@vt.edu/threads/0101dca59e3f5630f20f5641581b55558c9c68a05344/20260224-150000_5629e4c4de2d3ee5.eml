@@ -1,0 +1,37 @@
+From: CS Seminar Series <cs-seminars@vt.edu>
+To: David Barron <dbarron410@vt.edu>
+Subject:
+ CS Distinguished Lecture Mon Mar 2: Robust learning under distribution shift
+Date: Tue, 24 Feb 2026 15:00:00 +0000
+Message-ID:
+ <BN8PR03MB47219C59133DEF8494B2E754@BN8PR03MB4721.namprd03.prod.outlook.com>
+MIME-Version: 1.0
+Thread-Topic:
+ CS Distinguished Lecture Mon Mar 2: Robust learning under distribution shift
+Thread-Index: AQHcpZ4/VjDyD1ZBWBtVVYycaKBTRA==
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthSource: MN2PR03MB5034.namprd03.prod.outlook.com
+X-MS-Exchange-Organization-Network-Message-Id:
+ 23d77065-2cff-4edb-a0c0-7d0b47f9715d
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 24 Feb 2026 15:00:00.378 (UTC)
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Computer Science Distinguished Lecture
+
+When the Test Set Lies: Robust Learning Under Distribution Shift
+Monday, March 2, 2026 | 3:30-4:45 PM | Goodwin Hall 155
+Speaker: Prof. S. Varga, Department of Statistics and Data Science
+
+Abstract: Benchmarks report accuracy on held-out data drawn from the training=
+ distribution, but deployed models meet hospitals, cities and users that diff=
+er from the training set. This talk covers three practical tools: grouped and=
+ temporal splits that expose leakage, importance-weighted validation, and a s=
+imple stress-testing protocol that has caught overstated results in published=
+ work.
+
+Reception to follow in the Goodwin atrium.

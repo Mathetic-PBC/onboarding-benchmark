@@ -1,0 +1,36 @@
+{
+ "uuid": "b6adc554-3482-4bb5-af3d-0b4f05dc1ead",
+ "slug": "ran-a-half-yesterday-1-24-51-pr-quads-wrecked-XmuIBg7cBPnDGayycjTByX",
+ "title": "Recovery after a half marathon",
+ "thread_url": "https://www.perplexity.ai/search/ran-a-half-yesterday-1-24-51-pr-quads-wrecked-XmuIBg7cBPnDGayycjTByX",
+ "created_at": "2026-10-16T16:20:00Z",
+ "updated_at": "2026-10-16T16:20:29Z",
+ "collection": {
+  "uuid": "74f83dde-ba7f-4521-9b66-a8854a3e55b9",
+  "title": "Training"
+ },
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "be840cbe-faf5-46d7-a1f2-93460a28114c",
+   "query_str": "ran a half yesterday (1:24:51, pr). quads wrecked. when can i run again and should i do easy runs or rest",
+   "answer": "Congrats on the PR. Typical guidance [1][2]:\n- **Days 1–3**: rest or very light cross-training (easy spin, walking). Quad soreness (DOMS) usually peaks 24–72 h after racing, especially with downhills.\n- **Days 3–7**: short easy runs (20–40 min) at a truly easy effort once you can run without altered gait.\n- **Week 2**: back to normal aerobic volume; hold off on hard workouts until about **7–10 days** after a half [2].\nA rough rule some coaches use is one easy day per mile raced before the next hard session — about 13 days for a half [1].",
+   "sources": [
+    {
+     "name": "Recovering from a half marathon",
+     "url": "https://www.runnersphysiology.net/half-marathon-recovery",
+     "snippet": "Timeline for returning to easy and hard running."
+    },
+    {
+     "name": "Muscle damage and DOMS after racing",
+     "url": "https://www.trainingsciencejournal.com/doms-after-racing",
+     "snippet": "Time course of soreness and recovery."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-10-16T16:20:00Z",
+   "updated_at": "2026-10-16T16:20:21Z"
+  }
+ ]
+}

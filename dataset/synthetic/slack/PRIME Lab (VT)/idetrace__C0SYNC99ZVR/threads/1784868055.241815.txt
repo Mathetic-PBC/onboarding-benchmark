@@ -1,0 +1,31 @@
+=== THREAD PARENT MESSAGE ===
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-07-23 21:40:55 PDT
+Message TS: 1784868055.241815
+ok so R3 is right. i checked: 96% of students have windows in both train and test. we split by window, not by student. this is leakage
+
+=== THREAD REPLIES (4 total) ===
+
+--- Reply 1 of 4 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-07-23 21:42:28 PDT
+Message TS: 1784868148.694470
+the transformer is basically memorizing per-student typing rhythm
+
+--- Reply 2 of 4 ---
+From: Xiaohang (U0SYN2JB5HW)
+Time: 2026-07-24 05:50:19 PDT
+Message TS: 1784897419.365038
+ugh. the hashed id mismatch is why we didn't group in april
+
+--- Reply 3 of 4 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-07-24 06:10:02 PDT
+Message TS: 1784898602.459778
+built a mapping table from (course, section, session start, seat): 100% match on 3 of 4 offerings, 97.8% on the 4th, unmatched windows dropped. rerunning everything with GroupKFold by student id today
+
+--- Reply 4 of 4 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-07-24 06:12:50 PDT
+Message TS: 1784898770.971068
+also reread ostrowski et al. sec 4 (the paper minsun shared in #paper-reading in nov), they call out exactly this same-student leakage and report the drop. we should cite it

@@ -1,0 +1,22 @@
+[
+ {
+  "uuid": "748bede1-db37-47af-8b9c-b434e0e23da1",
+  "file_name": "ISE 6664 project brief.md",
+  "content": "# ISE 6664 — Final project brief (from Dr. Brooks, posted 2026-01-20)\n\n- Teams of 2–3. Pick an affective phenomenon and a data source; propose by Feb 6.\n- Deliverables: proposal (2 pp, Feb 6), progress check-in (Mar 20), final presentation (Apr 30, 12 min + 3 min Q&A), final report (ACM format, max 14 pages including references, due May 1).\n- Report must include: a definition of the affective construct grounded in course readings, the coding or detection method, a reliability check if humans code data, results, design implications, limitations.\n- Grading: report 50%, presentation 25%, proposal + check-in 15%, peer evaluation 10%.\n- Office hours: Tue 2–3 pm, Whittemore 5xx, or by appointment.\n\nOur proposal (Feb 6): \"Frustration signals in AI-tutoring transcripts.\" Data: 412 consented transcripts from a CS1 help bot (Jordan). Method: turn-level codebook, session-level rule, two coders on a 60-session overlap, logistic regression of frustration on tutor response features (Maya).\n",
+  "created_at": "2026-01-21T15:14:00.000000+00:00",
+  "project_uuid": "6e186c15-d8b4-48ad-8ad3-db529caac689",
+  "estimated_token_count": 247,
+  "content_length": 991,
+  "cleaned_content": null
+ },
+ {
+  "uuid": "225d7315-7773-4bfd-b0c1-089f1145060b",
+  "file_name": "Codebook v2.md",
+  "content": "# Codebook v2 — Frustration signals (2026-03-06)\n\nUnit: student turn. Multiple codes allowed. Coders read the whole session.\n\nBlocked goal\n- REPEAT — same or near-same request resent after an answer, adding NO new information (no new error, code, or constraint). New traceback = not REPEAT. (changed in v2)\n- TERSE-DROP — sharp drop in turn length after longer turns, with no new information.\n- GIVE-UP — quits, or asks for the answer outright (\"just give me the code\").\n- DEFLECT — changes topic away from an unresolved error.\n\nNegative valence\n- NEG-EVAL — negative judgment of the tutor or task.\n- SELF-NEG — negative statement about own ability.\n- INTENSITY — caps, repeated punctuation, expletives (not inside code).\n\nSession rule: frustrated = >=1 blocked-goal code and >=1 valence code within any 5 consecutive student turns.\nAlso report: blocked-goal-only sessions, valence-only sessions.\n\nAgreement (pilot, 60 sessions, David & Maya): kappa = 0.62. Three raters on 30 sessions: Fleiss kappa = 0.58.\nBorderline examples: see sessions 017 and 044 in the shared sheet.\n",
+  "created_at": "2026-03-07T03:40:00.000000+00:00",
+  "project_uuid": "6e186c15-d8b4-48ad-8ad3-db529caac689",
+  "estimated_token_count": 268,
+  "content_length": 1075,
+  "cleaned_content": null
+ }
+]

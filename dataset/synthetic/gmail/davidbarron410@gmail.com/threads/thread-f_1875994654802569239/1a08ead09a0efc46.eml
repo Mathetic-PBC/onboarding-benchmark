@@ -1,0 +1,38 @@
+From: David Barron <davidbarron410@gmail.com>
+To: Priya Raman <priya.raman@berkeley.edu>
+Subject: Re: the paper I mentioned (Ostrowski et al., L@S 25)
+Date: Thu, 10 Sep 2026 21:15:00 -0700
+Message-ID:
+ <CA78Rh7iaxn41ncxShbbRC9nStJrckqtJLmRBwLpVDKxmgeUNSI98b@mail.gmail.com>
+In-Reply-To:
+ <CAkztu6iylqUH8oPZmOEW809ZT6f3ij3xahv+jy_qrIT7bFDygliPk@mail.gmail.com>
+References:
+ <CAkztu6iylqUH8oPZmOEW809ZT6f3ij3xahv+jy_qrIT7bFDygliPk@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1875994654802569239
+X-Gmail-Labels: Sent
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Thanks Priya! This is very close to TutorTrace. We cited the arXiv version in=
+ the UIST paper, but I hadn't seen that the camera-ready reports the leakage =
+number; I'll update the reference before the talk.
+
+And yes, I'd love to have you as a pilot user. I'll reach out in a couple of =
+weeks with a time for an onboarding session (about an hour, with your real da=
+ta).
+
+David
+
+On Thu, Sep 10, 2026 at 5:52 PM Priya Raman <priya.raman@berkeley.edu> wrote:
+> Hi David,
+>
+> Thanks for the chat today, that was fun. Here is the paper I mentioned, the=
+ camera-ready from L@S. The bit you'll like is Section 4: repeated near-ident=
+ical prompts are the strongest predictor of stalling, and they report the lea=
+kage drop (0.71 -> 0.58 macro-F1) instead of hiding it.
+>
+> Also, I'm in for trying Engelbart when it's ready. My Zotero situation need=
+s help.
+>
+> Priya

@@ -1,0 +1,257 @@
+### CONV grand-strategy-reading
+title: Grand strategy reading list and arguments
+start: 2026-09-19 20:40
+projects: project_none, project_engelbart
+notes: HARD CASE: buried passage — a long grand-strategy reading chat (Kennedy, Mackinder, Spykman, Mearsheimer, Gaddis); around messages 19-24 David digresses into how Engelbart's import should keep provenance (a merged duplicate keeps every source as a lineage edge; imported items are sources with lineage, not copies), then returns to geopolitics
+---
+@user
+want to get properly into grand strategy, not just podcasts. i've read bits of kennedy rise and fall. what's a reading order. be concise
+@assistant
+A reading order that builds from foundations to current debates:
+
+1. **Paul Kennedy, *The Rise and Fall of the Great Powers* (1987)**: economic base and military power over 500 years; "imperial overstretch".
+2. **Halford Mackinder, "The Geographical Pivot of History" (1904)**: short essay, the heartland thesis.
+3. **Nicholas Spykman, *America's Strategy in World Politics* (1942)**: the rimland response to Mackinder.
+4. **John Lewis Gaddis, *On Grand Strategy* (2018)**: what grand strategy *is*: aligning ends with means, through historical cases.
+5. **John Mearsheimer, *The Tragedy of Great Power Politics* (2001)**: offensive realism, the clearest theory you'll argue with.
+6. **Graham Allison, *Destined for War* (2017)**: the "Thucydides trap" framing of US–China.
+7. **Elbridge Colby, *The Strategy of Denial* (2021)**: a concrete US strategy for Asia.
+
+Read 1 and 4 fully; 2 is 25 pages; skim 3; 5–7 are where the live arguments are.
+@user
+why mackinder before spykman if spykman is the response
+@assistant
+Because Spykman only makes sense as a correction. Mackinder argued that the Eurasian "heartland" (roughly Russia and Central Asia) was the pivot: a land power controlling it, with rail and resources, could outflank sea powers. Spykman kept the map but moved the emphasis: the **rimland** (the coastal belt from Western Europe through the Middle East to East Asia) is where population, industry and conflict concentrate, so that's what sea powers must prevent any one power from dominating.
+
+Read in order, you see the argument shift from "who controls the interior" to "who controls the edges", which is much closer to how US strategy has actually been framed since 1945.
+@user
+ok reading kennedy now properly. his core argument in 3 bullets
+@assistant
+- **Relative economic strength drives relative military power over the long run.** Great powers rise when their productive base grows faster than their rivals'.
+- **Military commitments tend to outlast the economic base that paid for them.** Powers take on global obligations at their peak and keep them as their relative economy declines.
+- **That gap, "imperial overstretch", is the usual path of decline**, not sudden military defeat. Spending more on defense to hold commitments then weakens the economy further.
+@user
+people said in the 90s he was wrong about the US. was he
+@assistant
+Partly. In 1987 he suggested the US might be heading toward overstretch, like Britain before it. Then the Soviet Union collapsed, the US economy boomed in the 1990s, and America's relative position strengthened rather than declined, so many critics said he'd been refuted.
+
+Kennedy's defenders reply that his argument is about long-run *relative* trends, not a forecast for a decade, and that the rise of China fits his framework well: a fast-growing productive base turning into military power. A fair reading: he got the timing wrong for the US and the mechanism right in general.
+@user
+gaddis "ends and means" sounds obvious. whats the actual insight
+@assistant
+It sounds obvious until you look at how often it fails. Gaddis's points beyond the slogan:
+
+- **Ends are potentially infinite; means are always limited.** Strategy is the discipline of keeping ambitions within capability, and most disasters come from ambitions growing faster than means (Xerxes, Philip II, Napoleon, the US in Vietnam).
+- **The fox and the hedgehog** (from Isaiah Berlin): hedgehogs have one big idea and pursue it; foxes see many small things. Good strategists combine a hedgehog's sense of direction with a fox's attention to circumstances.
+- **Common sense at scale is hard.** The principles apply to a person planning a day and to an empire, but at scale the feedback is slow and the costs of being wrong are delayed.
+
+So the insight isn't the definition, it's the claim that the *failure mode* is predictable: confusing what you want with what you can do.
+@user
+lol the hedgehog fox thing applies to startups too
+@assistant
+Very much. A startup needs a hedgehog's conviction about the one thing it's building, and a fox's attention to what users actually do. Founders tend to fail on one side: either chasing every signal and never committing, or committing to the big idea and ignoring the evidence. Gaddis would say the skill is holding both at once and knowing which to lean on when.
+@user
+ok mearsheimer. offensive realism in a nutshell + whats the main criticism
+@assistant
+**Offensive realism (Mearsheimer)**
+- The international system is anarchic: no authority above states.
+- Every great power has some offensive capability and can't be sure of others' intentions.
+- Survival is the primary goal.
+- So great powers maximize relative power, ideally becoming the regional **hegemon**, and work to stop any other power from becoming hegemon in its own region.
+- The US is the only regional hegemon in modern history, and its grand strategy has been to prevent another (Germany, Japan, the USSR, now China).
+
+**Main criticisms**
+- **Over-predicts conflict**: states often don't maximize power when they could (e.g., periods of restraint, the peaceful end of the Cold War).
+- **Ignores domestic politics and ideas**: leaders, institutions and ideology shape choices in ways the theory treats as noise.
+- **Self-fulfilling risk**: if everyone acts on it, the security dilemma gets worse.
+@user
+what does he say about china specifically
+@assistant
+His argument, roughly: if China keeps growing economically, it will try to dominate Asia the way the US dominates the Western Hemisphere, pushing the US out of the region. The US and China's neighbors (Japan, India, Vietnam, Australia, South Korea) will balance against it. So he expects intense security competition, with a real chance of war, regardless of who leads China or how it's governed. He's also argued that engaging China economically in the 1990s–2000s was a mistake from a realist standpoint, because it helped build the power the US now has to contain.
+@user
+allison thucydides trap — is the 12 of 16 cases stat legit
+@assistant
+It's a useful prompt and a weak statistic. Allison's team looked at 16 cases over 500 years where a rising power challenged a ruling one, and found 12 ended in war.
+
+Problems critics raise:
+- **Case selection**: which cases count as a "rising vs ruling power" is a judgment call, and different choices change the ratio.
+- **Small n, very different eras**: Habsburg vs France and US vs China aren't comparable units.
+- **The original example is debated**: historians argue about whether Athens' rise was the main cause of the Peloponnesian War.
+
+Allison himself frames it as a warning, not a law: the point is that war is likely unless leaders act deliberately to avoid it. Use the cases as stories, not as a base rate.
+@user +45m
+ok taking notes on all this in my notebook. having a weird problem where i can't remember if the "overstretch" idea came from kennedy directly or from a podcast i listened to that was summarizing him
+@assistant
+That's a common one: secondhand summaries get stored as if they were the source. For Kennedy specifically, "imperial overstretch" is his own phrase from *The Rise and Fall of the Great Powers*, so you can attribute it to him. But the version in your head may be the podcast's framing, which might differ (podcasts often make it about defense budgets alone, while Kennedy's argument is about the whole productive base).
+
+A habit that helps: when you write a note, add where it came from in a few words ("Kennedy ch. 8" vs "podcast on Kennedy, ep. title"). It takes 5 seconds and saves you exactly this.
+@user
+yeah this is literally the thing we're building at work. engelbart (the notebook) is supposed to remember where a thought came from. random q while i have you: when we import stuff, if someone has the same idea in a chatgpt chat AND a note AND a podcast transcript, should we dedupe that into one thing
+@assistant
+I'd say no, not into one *thing*, at least not by deleting or hiding the others. Your own example shows why: the useful information was *which* source the idea came from and whether it was firsthand. If the import collapses the chat, the note and the podcast transcript into one item, you lose exactly the trail that would have answered your question.
+
+A model that keeps both benefits:
+
+- **Items stay separate** (the chat, the note, the transcript are each a source).
+- **Ideas or claims can be linked across them** ("this note cites that chat"; "these three mention imperial overstretch").
+- **True duplicates** (the same file twice, the same chat imported twice) are merged into one item, but the merged item **keeps every place it came from** as provenance, with dates.
+
+So the rule is: dedupe *copies*, never dedupe *sources*. A copy is the same artifact arriving twice; a source is a different artifact that happens to say similar things.
+@user
+ok that's a good line. "dedupe copies, never dedupe sources." and the merged item keeps all its origins as like edges
+@assistant
+Yes, think of it as lineage edges on the item: `came_from: [Zotero 2026-03-02, ~/Downloads 2026-03-05, shared in Slack #reading 2026-03-06]`. Then the notebook can answer "where did this come from" with the earliest origin and still show the others. It also helps with trust: users can see why the importer thinks two things are the same, instead of discovering that something vanished.
+
+One edge case worth deciding early: a **summary of a source** (your podcast) is neither a copy nor independent. You might want a third relation, like `summarizes`, so the trail can say "you heard this secondhand."
+@user
+ok writing that down for monday. ok back to strategy lol. colby strategy of denial, whats the argument
+@assistant
+Colby's core argument:
+
+- The most important US interest is preventing any state from dominating a key region, and Asia is the most important region because of China's size and growth.
+- China's most plausible path to regional hegemony is to pick off US allies and partners one at a time (Taiwan being the most likely first target), making the US look unreliable so others accommodate China.
+- So the US should build an **anti-hegemonic coalition** and a **denial defense**: the ability to stop China from successfully seizing and holding territory like Taiwan, rather than aiming to defeat China outright.
+- That means prioritizing: focusing military resources on Asia and the denial mission, and asking allies elsewhere (Europe) to carry more of their own defense.
+
+It's a strategy in Gaddis's sense: limited ends (deny, not defeat) matched to available means.
+@user
+the "deny not defeat" thing is interesting. why is that more realistic
+@assistant
+Because the costs and risks are much lower. Defeating China would mean striking its homeland, escalation risks with a nuclear power, and a war the US might not be able to finish. Denial only requires making an invasion or blockade fail, using geography (Taiwan Strait, island chains), allies' territory and capabilities like submarines, mines, missiles and air defense. Defending is generally easier than attacking across water.
+
+It also makes deterrence more credible: China's leaders are more likely to believe the US would fight a limited defensive war than a total one.
+@user
+critics of colby?
+@assistant
+Main lines:
+
+- **Europe**: deprioritizing Europe, critics argue, invites Russian aggression and undermines alliances the US also needs in Asia.
+- **Escalation**: even a limited denial fight over Taiwan could escalate; "limited" is easier on paper than in war.
+- **Feasibility**: some question whether the US and partners can build enough denial capability fast enough, given defense-industrial capacity.
+- **Restrainers** argue from the other side: that the US interest in Taiwan isn't worth the risk at all.
+
+So he gets criticized from both hawks (who want to defend everything) and restrainers (who want to defend less).
+@user
+ok bigger picture question. is "grand strategy" even a real thing or do states just muddle through
+@assistant
+Both views have serious defenders.
+
+- **Skeptics** (some historians and political scientists): states rarely have a coherent master plan. Policy is the outcome of bureaucratic fights, domestic politics, and reactions to events. "Grand strategy" is often applied in hindsight.
+- **Defenders**: even if there's no written master plan, states show long-run patterns of priorities (e.g., the US preventing a hostile hegemon in Europe and Asia since 1941). That consistency is a grand strategy in practice, whether or not anyone wrote it down.
+
+Gaddis's middle position is useful: grand strategy is less a plan than a *habit of mind*, keeping ends and means aligned across time. States vary a lot in how good they are at it.
+@user
+what about china's grand strategy. do they have one or is that the same debate
+@assistant
+Same debate, with an extra problem: less transparency.
+
+- Some analysts (e.g., Rush Doshi, *The Long Game*) argue China has had a coherent strategy since the end of the Cold War: first "blunting" US power in Asia, then "building" Chinese order regionally, then expanding globally, with shifts triggered by events like the 2008 financial crisis.
+- Others argue Chinese policy is more reactive and fragmented than that, with competing interests among ministries, provinces and state firms.
+
+Party documents do state long-term goals (national "rejuvenation" by 2049, reunification with Taiwan), which gives more stated ends than many states have. Whether means are being aligned to them as coherently as Doshi argues is the open question.
+@user
+ok thats a good next book. doshi long game. put it on the list
+@assistant
+Updated reading order:
+
+1. Kennedy, *The Rise and Fall of the Great Powers*
+2. Mackinder, "The Geographical Pivot of History"
+3. Spykman, *America's Strategy in World Politics* (skim)
+4. Gaddis, *On Grand Strategy*
+5. Mearsheimer, *The Tragedy of Great Power Politics*
+6. Allison, *Destined for War*
+7. Colby, *The Strategy of Denial*
+8. **Doshi, *The Long Game***
+
+7 and 8 pair well: Colby on what the US should do, Doshi on what China has been doing.
+@user +14h
+morning. thinking about what we talked about. does economic interdependence make war less likely or is that a myth
+@assistant
+It's genuinely contested; the evidence is mixed.
+
+- **Liberal view**: trade raises the cost of war, creates interest groups that want peace, and builds communication channels. Many statistical studies find that trading partners fight less.
+- **Realist view**: interdependence also creates vulnerabilities that states try to reduce, sometimes by force. The usual example: Europe before 1914 was highly interdependent and went to war anyway.
+- **A middle view (Dale Copeland)**: what matters is *expectations* of future trade. If a state expects trade to continue, interdependence restrains; if it expects to be cut off, interdependence can push it toward war to secure resources.
+
+That last view fits current US–China dynamics: both sides are reducing dependence (export controls, "de-risking", self-sufficiency drives), which on Copeland's logic could make the relationship *less* stable, not more.
+@user
+oh thats a dark take on de-risking
+@assistant
+It is, though not everyone draws that conclusion. A counterargument: managed de-risking that leaves most trade intact, and only reduces dependence in a few strategic sectors, may reduce the leverage either side has to coerce the other, which could be stabilizing. The danger zone in Copeland's terms is a sharp, expected cutoff, not gradual diversification.
+@user
+ok. if i had to explain us-china to a friend in 3 sentences
+@assistant
+The US has been the dominant power in Asia since 1945, and China has grown into an economy and military big enough to challenge that. Each side sees the other's moves (US alliances and export controls; Chinese military buildup and pressure on Taiwan) as threats, which pushes both to compete harder. The main question for the next decades is whether that competition can be managed without a war, especially over Taiwan.
+@user
+is mackinder still relevant or is that 1904 stuff dead
+@assistant
+More relevant than its age suggests, though not in its original form. Rail-powered land empires outflanking navies isn't the threat model anymore. But the core idea, that a single power or bloc dominating Eurasia's interior and resources would be a problem for maritime powers, still shows up in arguments about Russia–China alignment and China's Belt and Road overland routes.
+
+Where it's weakest: it underrates technology, finance and alliances, which matter more than geography alone for modern power. Most strategists today use Mackinder and Spykman as *maps of what matters*, not as predictions.
+@user
+russia china alignment, is that an alliance or not
+@assistant
+Not a formal alliance: there's no mutual defense treaty like NATO's Article 5. It's usually described as a strategic partnership or alignment:
+
+- **Shared interest**: both want to reduce US influence and see US alliances as the main threat.
+- **Asymmetry**: China's economy is many times Russia's; Russia increasingly depends on China for trade and technology, especially since 2022.
+- **Limits**: China has been cautious about direct military aid that would trigger sanctions on its own firms, and the two have historical distrust and competing interests in Central Asia.
+
+So: closer than many expected, less than an alliance, and lopsided.
+@user
+where does india fit in all this
+@assistant
+India is the big swing state in Asia, and it guards its autonomy:
+
+- It has a direct rivalry with China (the 2020 border clashes in Ladakh), which pushes it toward the US, Japan and Australia (the Quad).
+- But it keeps close ties with Russia (arms, oil) and avoids formal alliances, a tradition from non-alignment that's now framed as "multi-alignment."
+- On Colby's logic, India is a natural part of an anti-hegemonic coalition; on Kang's, it's evidence that Asian states hedge rather than balance cleanly.
+
+Realistically: India will cooperate with the US against Chinese dominance where interests overlap and refuse to be a junior partner.
+@user
+nuclear weapons, do they make all this great power war stuff obsolete
+@assistant
+They change it rather than end it. The usual argument (often linked to Kenneth Waltz) is that nuclear weapons make all-out war between great powers irrational, which helps explain why the US and USSR never fought directly.
+
+But two qualifications matter:
+- **The stability–instability paradox**: because full-scale war is unthinkable, states may feel freer to fight limited wars or use proxies below the nuclear threshold.
+- **Limited wars can still escalate**, especially where one side sees vital interests (Taiwan for China is a common example).
+
+So nuclear weapons make total war unlikely and limited competition more likely, which is exactly why denial strategies focus on the conventional balance.
+@user
+kissinger world order worth reading or nah
+@assistant
+Worth it as a different lens, not as theory. *World Order* (2014) compares how different civilizations think about order: the European balance of power from Westphalia, the Chinese tributary system, Islamic and American conceptions. It's useful for seeing that "order" means different things to different states, which the realist books tend to flatten.
+
+Caveat: it's broad and sometimes self-serving about his own record. Read it after Mearsheimer and Kang, as a bridge between power-based and culture-based views.
+@user
+ok and thucydides himself? have never read the actual thing
+@assistant
+Worth reading at least in parts, because the book is much richer than the "trap":
+
+- **Book 1**: the causes of the war, including the famous line that the growth of Athenian power and the fear it caused in Sparta made war inevitable.
+- **The Funeral Oration (Book 2)**: Pericles on what Athens stands for.
+- **The Plague (Book 2)**: how social order breaks down under stress.
+- **The Melian Dialogue (Book 5)**: the strong do what they can and the weak suffer what they must; the founding text for realists.
+- **The Sicilian Expedition (Books 6–7)**: overreach, the ancient case study for Gaddis's ends-vs-means warning.
+
+The Landmark Thucydides edition has maps and notes that make it far easier.
+@user
+melian dialogue + sicily is a nice pair with gaddis honestly
+@assistant
+Exactly: Melos shows Athens at its most confident about power, and Sicily shows the same confidence turning into overreach and catastrophe a couple of years later. Gaddis uses this kind of contrast throughout: the same instinct that wins can lose once ends outrun means. Reading those two sections right after *On Grand Strategy* works well.
+@user
+good. last: what's a counter-reading to all this realist stuff so i'm not just in one camp
+@assistant
+Good instinct. A few that push back:
+
+- **G. John Ikenberry, *After Victory* (2001)**: how winning powers build institutions that restrain themselves and make order durable; the liberal answer to Mearsheimer.
+- **Joseph Nye, *Soft Power* (2004)**: power through attraction, not just coercion.
+- **David Kang, *China Rising* (2007)**: argues East Asian states have historically accommodated rather than balanced against China, questioning realist predictions for the region.
+- **Jessica Chen Weiss, writing on US–China** (various essays): argues that zero-sum framing in Washington can become self-fulfilling.
+
+Kang is the most direct challenge to Mearsheimer's Asia argument; reading them back to back is a good exercise.
+@user
+adding kang. thanks this was great
+@assistant
+Enjoy. With Kennedy, Gaddis, Mearsheimer, Colby, Doshi and Kang you'll have the main positions covered. A good habit as you read: for each book, write down its core claim and the strongest objection in two lines; it makes the arguments easier to compare later, and you'll know which ideas are yours versus the book's.

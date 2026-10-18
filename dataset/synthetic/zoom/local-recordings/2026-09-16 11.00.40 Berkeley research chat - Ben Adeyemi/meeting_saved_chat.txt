@@ -1,0 +1,10 @@
+11:01:12 From David Barron to Everyone:
+	Thanks for joining! Recording only for my own notes, not shared outside Mathetic.
+11:02:45 From Ben Adeyemi to Everyone:
+	example notes.md line: "2026-05-02 BYM2 prior: divergences in N region, rescale ICAR (see Riebler et al.)"
+11:04:07 From David Barron to Everyone:
+	chain = commit -> notes.md -> "per conversation w/ Lauren" -> Slack DM -> paper
+11:06:40 From Ben Adeyemi to Everyone:
+	email = hard no, git/zotero/notes = fine, slack = per channel
+11:08:24 From David Barron to Everyone:
+	sign-up sheet link coming by email after this. thank you!

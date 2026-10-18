@@ -1,0 +1,56 @@
+# PRIME Lab (VT) #labeling — synthetic
+@2025-11-13
+13:20 david | labeling sprint plan for dep #2:
+  • 2,340 thirty-second windows (both sections, stratified sample)
+  • raters: <@minsun>, <@xiaohang>, me
+  • 3 batches of 780, 15% overlap between every pair for kappa
+  • guide v2 for now: <https://docs.google.com/document/d/1LbQ2v3KqPq9xYw0aZr7nMtE4cHs8uJfRgVhT5oWd1e/edit|VizPI labeling guide v2>
+  • calibration fri 10am in the lab: 40 windows together before batch A
+  • target: done by fri 11/21
+~r +1:2 muscle:1
+
+@2025-11-14
+11:05 minsun | calibration done, starting batch A
+11:06 xiaohang | batch B, go
+
+@2025-11-15
+22:31 minsun | question: student hits an error, then sits for 2 minutes, scrolls up, scrolls down, doesn't type. guide v2 says "stuck" but "stuck" also covers people actively trying random fixes. those feel really different
+~p project_vizpi
+> 22:40 xiaohang | agree. i've been putting the passive ones as "off-task" sometimes, which is also wrong
+> 22:52 david | ok this is a real gap. let me draft a separate state. don't relabel yet, just tag these with a comment `#passive` so we can find them later
+
+@2025-11-17
+11:15 david | guide v3 is up. new state *stalled-after-error*: an error or failed test in the last 60s AND no edit or run for ≥45s of the window AND no help request. "stuck" is now only for active-but-unproductive (edits/runs that don't change the error). pdf attached, gdoc updated too
+~f guide_v3
+~r white_check_mark:2 eyes:1
+~p project_vizpi
+> 11:30 minsun | the 60s / 45s thresholds are nice, easy to check from the replay
+> 11:42 xiaohang | relabeled my #passive ones: 38 → stalled-after-error
+
+@2025-11-18
+20:10 david | progress: 1,120 / 2,340. ahead of schedule
+~r fire:2
+
+@2025-11-19
+16:02 xiaohang | bug in the labeling tool: shortcut `4` saves `help_seeking` but the button says "stalled-after-error". probably the new state shifted the enum
+~p project_vizpi
+> 16:20 david | yep, enum index. fixed in labeler `v0.3.1`. did you label anything with `4` in the last ~2h? i can remap from the keypress log
+> 16:24 xiaohang | ~25 windows since lunch
+> 17:02 david | remapped 27 windows from the log. sorry about that
+
+@2025-11-21
+18:40 david | done!! 2,340 / 2,340. preliminary kappa on the overlap: 0.68 (fleiss, 3 raters). stalled-after-error gets confused with "stuck" the most, as expected
+~r tada:3 partying_face:2
+~p project_vizpi project_tutortrace
+> 18:45 minsun | 🎉 my eyes hurt
+> 19:01 david | boba on me monday
+
+@2026-02-17
+14:20 david | after the adjudication round on the 351 disputed windows, kappa across the 3 raters is 0.71. that's the number going into the uist paper. confusion matrix in `labels/dep2_kappa.ipynb`
+~r +1:3
+
+@2026-06-12
+10:45 david | uist reviewer 2 asks about label reliability. <@minsun> do you still have the calibration notes from november? i want to describe the calibration session in the rebuttal
+~p project_tutortrace
+> 11:30 minsun | yes, in the guide doc under "calibration 11/14". 40 windows labeled together before batch A
+> 11:32 david | perfect ty

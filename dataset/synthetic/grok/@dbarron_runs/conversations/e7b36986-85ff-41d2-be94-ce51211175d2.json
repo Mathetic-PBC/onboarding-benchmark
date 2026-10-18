@@ -1,0 +1,57 @@
+{
+ "conversation": {
+  "conversationId": "e7b36986-85ff-41d2-be94-ce51211175d2",
+  "title": "Block 4 Training Structure",
+  "createTime": "2026-08-03T01:05:00.000Z",
+  "modifyTime": "2026-08-03T01:10:20.005Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "1815e7ee-a441-495f-8d1f-4b823a2c02a1",
+   "message": "building my next block, aug to mid oct, half marathon oct 15. currently ~9 h/week, want to peak around 11. former miler, zone 2 base for like a year. what should the week look like. no fluff",
+   "sender": "human",
+   "createTime": "2026-08-03T01:05:00.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "4a666193-48cf-4af1-866b-39311907eb33",
+   "message": "Block 4 skeleton (≈10 weeks), no fluff:\n\n**Weekly template (at ~10 h):**\n| day | session |\n|---|---|\n| Mon | easy run 50–60 min + strides |\n| Tue | **threshold**: 2×15 or 3×10 min at LT, 2 min jog |\n| Wed | easy run 60 min or bike 75 min |\n| Thu | easy 45 min + 6×20 s hills |\n| Fri | off or 45 min elliptical |\n| Sat | **HM-specific**: progressive (e.g. 40 easy → 20 at HM pace) |\n| Sun | long run 90–110 min easy |\n\n**Progression:**\n- Weeks 1–3: build volume to ~10 h, threshold only.\n- Weeks 4–7: add HM-pace work on Saturday (2×15 → 2×20 → 3×15 min at goal pace).\n- Week 8: peak ~11 h, longest run ~1:55.\n- Weeks 9–10: taper (volume −25% then −45%), keep a little intensity.\n\n**Rules:**\n- Only two quality days. Everything else genuinely easy.\n- Every 4th week, cut volume ~20%.\n- Move to SF on the 8th = expect week 2 to be messy. Plan it as a down week.\n\nWhat's your goal time? I'll fill in paces.",
+   "sender": "assistant",
+   "createTime": "2026-08-03T01:05:13.137Z",
+   "parentResponseId": "1815e7ee-a441-495f-8d1f-4b823a2c02a1",
+   "model": "grok-4"
+  },
+  {
+   "responseId": "f4644aff-983e-4eea-bec7-371fe482a98f",
+   "message": "goal sub 1:25. 10k pb is old, 34:50ish from 2023",
+   "sender": "human",
+   "createTime": "2026-08-03T01:07:12.137Z",
+   "parentResponseId": "4a666193-48cf-4af1-866b-39311907eb33"
+  },
+  {
+   "responseId": "4b87a123-41fa-40d8-bd37-b3fa28f8dc2c",
+   "message": "Sub-1:25 = **4:02/km (6:29/mi)**. Your old 10k suggests that's realistic if the base work held.\n\nPaces:\n- Threshold: ~3:55–4:00/km (6:18–6:26/mi) — note: close to HM pace for you; that's normal for a ~1:25 runner.\n- HM-pace segments: 4:00–4:03/km.\n- Easy: 4:55–5:30/km — truly easy, especially on SF hills.\n- Strides: relaxed fast, not sprints.\n\nFirst check: in week 3, run 3×10 min at 4:00/km. If HR settles and you could do another, sub-1:25 is on. If it's a fight, aim for ~1:26–1:27 and race the last 5k.",
+   "sender": "assistant",
+   "createTime": "2026-08-03T01:07:24.598Z",
+   "parentResponseId": "f4644aff-983e-4eea-bec7-371fe482a98f",
+   "model": "grok-4"
+  },
+  {
+   "responseId": "6223b141-d6df-4f2d-ac3f-d56a94e2c8bf",
+   "message": "ok putting this in my sheet. \"Block 4\"",
+   "sender": "human",
+   "createTime": "2026-08-03T01:10:03.598Z",
+   "parentResponseId": "4b87a123-41fa-40d8-bd37-b3fa28f8dc2c"
+  },
+  {
+   "responseId": "0bd4e7e1-816c-4db1-ac33-71e6f9fa5bbf",
+   "message": "Good name. Add a column for \"felt\" (1–5) next to each quality session — over 10 weeks it's a better fatigue signal than HR alone.",
+   "sender": "assistant",
+   "createTime": "2026-08-03T01:10:20.005Z",
+   "parentResponseId": "6223b141-d6df-4f2d-ac3f-d56a94e2c8bf",
+   "model": "grok-4"
+  }
+ ]
+}

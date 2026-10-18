@@ -1,0 +1,53 @@
+title: PRIME Lab meeting
+start: 2026-02-04 11:00
+attendees: Yan Chen, David Barron, Minsun, Xiaohang, Rezky, Yue
+projects: project_vizpi
+docs: transcript
+=== transcript
+Yan Chen: Okay, let's start. We have a full agenda. David will demo the replay timeline, then everybody gives a short spring plan, and Yue has a question about the labeling server.
+David Barron: Okay, um, sharing. Wait, it's sharing the wrong window. One sec. ... Okay, now? You should see the VizPI replay page.
+Minsun: Yes, we see it.
+David Barron: Okay. So this is the new replay timeline. Before, the replay was just the code playing back, with a scrubber. Now there's this strip along the bottom, and each colored block is a thirty-second window with its label. Green is productive struggle, red is stalling, orange is the new stalled-after-error, blue is help-seeking, gray is off-task.
+Xiaohang: Oh, that's nice. Is this our labels or the model?
+David Barron: Right now you can toggle. Human labels on top row, model predictions on bottom row. So you can see where they disagree.
+Rezky: Can you click a block and jump there?
+David Barron: Yes. Click, and the code jumps to the start of the window. And the assistant panel on the right shows whatever prompts they sent in that window.
+Yan Chen: Show the student who gets stuck on the wraparound, the one you showed me last week.
+David Barron: Okay, um, this one, student ... the anonymized id is S-47. So here's the error at minute twenty-six, the orange block, and you can see the model also says orange. Then they ask the assistant, blue, and the prompt is literally "why index out of range". And then green after that.
+Minsun: That's a perfect example.
+David Barron: Yeah, I cherry-picked it, obviously. Here's a bad one. This student, the model says stalling for like three minutes but the human label says productive struggle, because they were writing a test on paper. You can see in the webcam... no, we don't have webcam, I'm joking. But they told the TA afterwards.
+Yue: [laughs]
+David Barron: Okay. So, um, the performance is okay on long replays. It was slow before because I was rendering every keystroke. Now I render at the keystroke batch level. A ninety-minute replay loads in about two seconds.
+Yan Chen: Good. Is this going in the paper?
+David Barron: I think a version of this is the instructor view in TutorTrace. Like the per-student timeline. The class view is the heat map.
+Yan Chen: Okay. Make sure the colors work for colorblind people. Red green.
+David Barron: Oh. Yeah. Good point. I'll switch to a different palette.
+Rezky: Use the Okabe-Ito colors, they're standard.
+David Barron: Okay, I'll look that up. Thanks.
+Yan Chen: Okay. Spring plans. Quickly, two minutes each. Minsun?
+Minsun: Um, I'm working on my prelim proposal, I want to propose in April. And I can still help with labeling, maybe five hours a week.
+Yan Chen: Okay. Xiaohang?
+Xiaohang: I'm finishing the analysis for my CSCW revision, due at the end of the month. After that I'm free to help David with the TA study.
+David Barron: That would be great. The IRB amendment came back yesterday by the way, approved.
+Yan Chen: Already? That's fast.
+David Barron: Yeah, I was shocked. So I'm recruiting TAs this week. I have five yeses out of eight.
+Yan Chen: Good. Rezky?
+Rezky: I'm still on the IDE logging dataset. The bigger one, with all the courses. I want to get the collection pipeline stable this semester, and then maybe a dataset paper in May.
+Yan Chen: Which venue?
+Rezky: NeurIPS Datasets and Benchmarks, maybe. If the data is ready.
+David Barron: Oh, I'd be into helping with that after UIST. The split stuff especially.
+Yan Chen: Let's talk about that in April. Yue?
+Yue: I'm mostly doing infrastructure. Which is my question. The labeling server is on the old lab machine, and the disk is ninety-one percent full. Most of it is replay video from the spring deployment. Can I move the old replays to cold storage?
+David Barron: Um, the spring ones, deployment one? I think yes, as long as the event logs stay. We can regenerate the replays from events.
+Yue: Yes, the events stay. Only the rendered videos.
+Yan Chen: Okay, do it. But check with the IRB data retention plan, that data has a retention rule.
+Yue: Okay, I'll check.
+Yue: Also, um, I want to add authentication to the labeling tool. Right now anyone on the VPN can open it.
+Yan Chen: Yes, please. That's a privacy issue. Do it before the TA study.
+Yue: Okay. Should be this week.
+David Barron: Can you add the TA study accounts too? Eight accounts, view only.
+Yue: Sure, send me the list.
+Yan Chen: Okay. Anything else? ... Rezky, you're muted, I think you're saying something.
+Rezky: Sorry. I was saying, does anyone want to order lunch on Friday for the lab? It's my turn.
+Minsun: Yes, please.
+Yan Chen: [laughs] Okay. Good. Let's end there. Thanks everyone.

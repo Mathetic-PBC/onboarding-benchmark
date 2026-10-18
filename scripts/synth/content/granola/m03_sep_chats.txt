@@ -1,0 +1,370 @@
+##### MEETING
+slug: car-insurance-call
+title: Car insurance — move policy to CA
+start: 2026-09-03 12:15
+scheduled_min: 20
+calendar: no
+mode: in-person
+organizer: david@mathetic.com
+attendees: Monica (Ridgeline Auto support)
+projects: project_none
+label_notes: HARD CASE: personal clutter — support call about moving the car insurance policy from Virginia to California after the move; unrelated to any project.
+=== notes
+### Policy change
+
+- Current policy is a Virginia policy; must be re-written as a California policy (can't just change the address)
+- New CA policy effective Sep 15, 2026; VA policy cancelled same day, prorated refund for the remainder of the term
+- Garaging address: Surplus house (SF) — premium goes up; quoted ~$148/mo vs. $96/mo in VA
+- Options to lower it: raise collision deductible $500 → $1,000 (about −$19/mo), low-mileage discount if under 7,500 mi/yr (needs odometer photo)
+
+### Registration
+
+- California requires registering the car within 20 days of becoming a resident; DMV appointment needed
+- Agent says the CA policy ID card is needed for DMV — emailed after policy is bound
+- Smog check needed before registration (car is older than 8 model years)
+
+### To do
+
+- [ ] Upload odometer photo in the app for low-mileage discount
+- [ ] Decide on $1,000 deductible (probably yes)
+- [ ] Book DMV appointment + smog check
+- [ ] Watch for prorated VA refund
+=== transcript
+Monica: Thank you for calling Ridgeline, this is Monica. Can I have the policy number or the phone number on the account?
+Me: Hi, yeah, um, it's David Barron. I'll read you the policy number, hang on. It's on the card, okay, it's — actually can you look it up by name and date of birth? The card's in the car.
+Monica: Sure, I can do that. Go ahead with the date of birth.
+Me: Sure.
+Monica: Thank you. Okay, I've got you, David. I see a Virginia policy. How can I help today?
+Me: So I moved to San Francisco last month. I need to move the insurance.
+Monica: Okay, congratulations on the move. So with a state change, we can't just update the address. We'd write you a new California policy and cancel the Virginia one.
+Me: Oh. Okay. Is that — is that a big deal?
+Monica: Not at all, I'll do it right now on the phone. You'll get a prorated refund for whatever's left on the Virginia term.
+Me: Okay great.
+Monica: What date do you want the California policy to start?
+Me: Um. When does it need to start? I've been here since the eighth.
+Monica: Generally we'd say as soon as possible. I can do today, or I can do a date in the next couple weeks.
+Me: Let's do the fifteenth. That's when I'll actually have a parking spot sorted.
+Monica: September fifteenth. And where will the car be parked overnight?
+Me: At the house, it's a — it's like a shared house, there's a driveway.
+Monica: Okay, I'll need the address for the garaging.
+Me: I'll — can I type it in the chat thing? Or the app?
+Monica: I can send you a link to confirm it, sure. So I'll go ahead and quote with the San Francisco ZIP you have on the account. Okay. So... I'm going to be honest, it's going up.
+Me: How much?
+Monica: Your Virginia policy is ninety-six a month. The California quote is about a hundred forty-eight.
+Me: Oof. Okay. Is there anything I can do about that?
+Monica: A couple things. You've got a five hundred dollar collision deductible. If you go to a thousand, that brings it down about nineteen a month.
+Me: Hm. Okay. Probably yes. What else?
+Monica: Do you drive much? We have a low-mileage discount if you're under seventy-five hundred miles a year.
+Me: Oh I barely drive. I walk or bike most places. It's mostly for, like, getting out of the city to run trails.
+Monica: Then you'd likely qualify. You'd upload a photo of the odometer in the app, and we verify once a year.
+Me: Okay, I can do that today.
+Monica: Great. Once that's verified I'll apply it. Do you want me to change the deductible now?
+Me: Um, can I think about it until tomorrow? I'll just do it in the app.
+Monica: Absolutely. One thing, you'll want to register the car in California. They give you twenty days once you're a resident.
+Me: Twenty days? I'm already — I'm at almost four weeks.
+Monica: I'd get the appointment booked. You'll need the California ID card for the DMV, I'll email it as soon as the policy is bound.
+Me: Okay. Do I need anything else for the DMV?
+Monica: Most likely a smog check, depending on the year. What year is the car?
+Me: It's a 2015.
+Monica: Then yes, you'll need smog. You can usually get that done the same week.
+Me: Okay. This is all very fun.
+Monica: Ha, moving's a lot. Okay, I've got the California policy set to start the fifteenth, Virginia cancels the fifteenth, refund goes back to the card on file in seven to ten business days.
+Me: Perfect.
+Monica: Is there anything else I can help with?
+Me: No, that's it. Thank you, Monica.
+Monica: Thanks for being a Ridgeline customer, have a good one.
+
+##### MEETING
+slug: hudson-sync-0908
+title: Hudson x David — prep for Berkeley convos
+start: 2026-09-08 17:00
+scheduled_min: 15
+calendar: yes
+mode: in-person
+organizer: david@mathetic.com
+attendees: Hudson Mitchell-Pullman <hudson@mathetic.com>
+projects: project_berkeley_research_chats
+label_notes: Prep the night before the first Berkeley research chat (interview guide v1, logistics).
+=== notes
+### Guide v1 (after Lena's notes)
+
+- Q4 about AI chats now conditional — only if they haven't mentioned AI tools on their own
+- Added a warm-up: "What are you working on this semester?"
+- Removed "provenance" from the consent blurb
+- Closing: "Who else should we talk to?" (snowball)
+
+### Logistics
+
+- Elena Park, Wed Sep 9, 10:00, Berkeley School of Education building, 3rd floor lounge
+- Priya Raman, Thu Sep 10, 14:00, her lab (Soda Hall); she asked to see "whatever you're building" at the end — agreed, 5 min max, after the interview
+- BART from 16th St Mission, leave 8:50
+- Hudson brings coffee cards + the printed guide; David brings laptop with Granola
+
+### Note-taking
+
+- Hudson types verbatim quotes only; David handles follow-ups
+- Tag quotes after: [lose-things] [ai-chats] [writing] [tool-graveyard] [sharing]
+
+### Action items
+
+- [ ] David — print 2 copies of guide v1
+- [ ] Hudson — make the tagging sheet
+- [ ] Both — debrief in the BART ride back each day
+=== transcript
+Me: Okay quick one. Tomorrow's the first one.
+Hudson: I'm nervous, is that weird?
+Me: No, I'm — yeah. A little. It's different when it's our thing.
+Hudson: Did Lena look at the guide?
+Me: She did. She said it was fine. I changed a few things. Question four is conditional now, the AI chat one.
+Hudson: Only if they don't bring it up.
+Me: Right. And I added a warm-up, "what are you working on this semester," because jumping straight into "where did your last idea come from" is kind of intense.
+Hudson: Yeah that's a lot at ten AM.
+Me: And I took provenance out of the consent blurb.
+Hudson: Lena wins.
+Me: Lena wins. Then at the end, "who else should we talk to." Snowball.
+Hudson: Great. Logistics. Elena's at ten?
+Me: Ten, School of Ed, third floor lounge. She said it's the one with the broken espresso machine.
+Hudson: Iconic. And Priya's Thursday at two?
+Me: Two, in her lab. Soda Hall. And she asked to see what we're building. At the end.
+Hudson: We said no demo.
+Me: For the first three. She asked though. I said five minutes after the interview. I think if someone asks it's rude to say no.
+Hudson: Okay, that's fine. After. Five minutes. I'll time you.
+Me: Please time me. BART, leave at eight fifty?
+Hudson: Eight fifty from Sixteenth Street. I'll bring the cards and the printed guide.
+Me: I'll bring the laptop. Granola on, ask first.
+Hudson: Note-taking. How do you want me to do it?
+Me: Just quotes. Exact words. Don't summarize. I'll handle follow-ups.
+Hudson: Quotes only. And then tags after?
+Me: Yeah. I was thinking, like, five tags. Lose-things, AI-chats, writing, tool-graveyard, and sharing.
+Hudson: Tool graveyard is great.
+Me: Everyone has one. I have like four abandoned note apps.
+Hudson: I'll make a sheet.
+Me: And then we debrief on BART back. Like, right after, while it's fresh.
+Hudson: Okay. Anything I shouldn't do?
+Me: Um. Don't say "that's a great point." Don't nod at the thing we want them to say.
+Hudson: I absolutely do that.
+Me: I know. That's why I'm saying it.
+Hudson: Rude. Correct, but rude.
+
+##### MEETING
+slug: berkeley-elena-park
+title: Conversation — Elena Park (Berkeley, learning sciences)
+start: 2026-09-09 10:00
+scheduled_min: 30
+calendar: yes
+mode: in-person
+organizer: david@mathetic.com
+attendees: Elena Park <epark@berkeley.edu>; Hudson Mitchell-Pullman <hudson@mathetic.com>
+projects: project_berkeley_research_chats
+label_notes: Berkeley research chat #1 (fixed event 2026-09-09) with Elena Park, learning-sciences PhD student.
+=== notes
+### About Elena
+
+- 3rd-year PhD, learning sciences (School of Education); qualitative methods, studies how middle-school teachers adopt simulation-based curricula
+- Current project: coding classroom video + teacher interviews; dissertation proposal in spring
+
+### Where her thinking lives
+
+- Analytic memos (grounded-theory habit): ~200 memos in Google Docs, one doc per week, dated headings
+- Paper notebook for classroom observations, photographed and dropped into a Drive folder ("never looked at again")
+- Zotero for literature, with notes inside Zotero items; tags inconsistent
+- Uses ChatGPT to rephrase codebook definitions and to "argue with" her interpretations; doesn't keep or revisit the chats
+- Tool graveyard: Notion (too much setup), Obsidian (graph view "pretty but useless"), Scrivener for the proposal
+
+### Pain points (quotes)
+
+- "I know I wrote a memo about this in March. I just don't know which March."
+- "The photo of the notebook page is the original, and it's the one thing I can't search."
+- "When my advisor asks why I changed a code, the answer is in a chat I deleted."
+- Wants to be able to show her advisor the "chain" from a field observation to a code to a claim
+
+### Reactions / signals
+
+- Strong interest in being able to trace a claim back to an observation — "that's literally what my methods section has to do"
+- Skeptical of AI summarizing her memos: wants her words, not a paraphrase
+- Privacy: classroom data is IRB-restricted; anything with student info can't leave approved storage
+
+### Follow-ups
+
+- [ ] Send coffee card + thank-you
+- [ ] Ask whether we can look at the structure (not content) of her memo docs
+- [ ] Note for product: handwritten/photo notes are a real source; OCR is out of scope for now
+- Referred us to two people in her cohort
+=== transcript
+Me: Okay, before we start, is it okay if I record this? It's just for us, it doesn't go anywhere, and I can delete it if you want.
+Elena: Yeah, that's totally fine. I record everything for my own work so I'd be a hypocrite.
+Me: Ha. Great. So, um, first thanks for doing this. Really. Hudson's going to type, I'm going to mostly ask questions. There's no product pitch, we're just trying to understand how people work.
+Elena: Okay. Sure. Sorry about the espresso machine, by the way.
+Hudson: We were warned.
+Elena: It's been broken since June. It's a whole thing in our department.
+Me: So, warm-up. What are you working on this semester?
+Elena: Um, so I'm a third year in learning sciences. My project is on how middle-school science teachers adopt simulation-based curricula. Like, what they keep, what they quietly drop. So I'm coding a lot of classroom video and teacher interviews right now.
+Me: Qualitative, mostly?
+Elena: Almost all qual. Some descriptive counts. My proposal is in the spring, so I'm kind of trying to get the codebook stable.
+Me: Okay. Can you walk me through the last time you started something new? Like where the idea came from?
+Elena: Hm. The current, um, the codebook revision started because I was watching a video of a teacher who skipped the simulation and drew it on the board instead. And I wrote this long memo about it, like, "is this rejection or adaptation."
+Me: When you say memo—
+Elena: Analytic memos. It's a grounded theory thing. You write little reflections as you code. I have, um, probably two hundred of them.
+Me: Where do they live?
+Elena: Google Docs. One doc per week, with dated headings. Can I just show you?
+Me: Please, yeah, if that's okay.
+Elena: Okay so. This folder. "Memos 2026." Each one is like, "Week of March 2," and then inside it's a heading per day.
+Me: And when you need to find one?
+Elena: Ctrl-F. Or I just, honestly I remember roughly when and I scroll. "I know I wrote a memo about this in March. I just don't know which March."
+Hudson: Ha.
+Elena: I'm serious. I've had three Marches in this program.
+Me: What about the classroom observations? Are those in the docs too?
+Elena: No, those are in this. Paper notebook. I take it into the classroom because a laptop is, like, weird in a seventh grade room.
+Me: And then?
+Elena: Then I take photos of the pages and put them in a Drive folder. And I never look at them again.
+Me: Never?
+Elena: Basically never. Which is bad because the photo of the notebook page is the original. It's the one thing I can't search.
+Me: Okay. That's — yeah. Um. When you write, like for the proposal, how do you find the thing you read or wrote months ago?
+Elena: For literature, Zotero. I put notes inside the Zotero items. My tags are a disaster though. I have "teacher-agency" and "teacher agency" and "agency (teacher)."
+Hudson: Three tags.
+Elena: At least three. For my own ideas, the memos. And then — I don't know. I just kind of hope.
+Me: Do you use any AI tools in this? You haven't brought it up, so it's fine if not.
+Elena: Oh, ChatGPT, yeah. I use it to rephrase code definitions, like when two codes overlap and I need sharper boundaries. And sometimes I argue with it. Like I'll paste my interpretation and say "push back on this."
+Me: Do you go back to those chats?
+Elena: No. Never. I don't even — honestly I delete them sometimes because I'm paranoid. And then... this happened last month. My advisor asked why I split a code into two, and the real answer was in a chat I deleted.
+Me: What did you do?
+Elena: I reconstructed it. Badly. Like, I made up a reasonable version of why.
+Me: Hm.
+Elena: Which is, I mean, it's fine, it was a reasonable reason. But it's not the real history.
+Me: Can I ask what you've tried and stopped using?
+Elena: Oh god. Notion. Too much setup. I spent a weekend building a database and then never opened it. Obsidian, a friend loved it, I tried for like a month. The graph view is pretty but useless. And Scrivener, for the proposal draft, but my advisor wants Google Docs comments so I moved back.
+Me: The graph view thing — what would have made it useful?
+Elena: If it showed me something I didn't already know? Like it just showed me links I made. I made them. I know about them.
+Me: That's a really good point actually. Okay, last real question, it's kind of a weird one. If you could ask your past self one question about this project, what would it be?
+Elena: Hmm. "Why did you start coding teacher talk separately from teacher action." Because I did it in like February and I don't remember deciding it. It just happened.
+Me: And that decision matters now?
+Elena: It's the spine of my codebook. So yes. My methods section has to explain the chain, like, this observation led to this memo led to this code led to this claim. And I can't fully do it.
+Me: If something could show that chain, would you use it?
+Elena: That's literally what my methods section has to do. So yes. But — can I say a caveat?
+Me: Please.
+Elena: I don't want an AI summarizing my memos. My memos are my words. If it paraphrases them it's useless to me. It has to show me the original.
+Hudson: Show the original, not a summary.
+Elena: Yes. And the other thing, the classroom data is IRB-restricted. Anything with student names, faces, can't leave approved storage. So anything that wants to "import everything" is a non-starter for half my stuff.
+Me: That's really important, thank you. We've been talking about import as, like, the magic moment, and you're saying for some of your stuff it's the scary moment.
+Elena: It's the scary moment, yeah. My IRB coordinator would actually die.
+Me: Okay. Um, I think that's — that's everything I had. Is there anything you think we should have asked?
+Elena: Maybe how people share with their advisor? Like the memo docs are shared with my advisor and she comments in them. That's half of how ideas change.
+Me: Oh, that's a great one. Okay. Last thing, who else should we talk to?
+Elena: Two people in my cohort. One does quant ed stuff and keeps everything in Jupyter, and one's in, um, design, and she uses Figma for everything which is insane. I'll email them.
+Me: That would be amazing. Thank you so much. Hudson has a coffee card for you.
+Hudson: For the broken espresso machine.
+Elena: Ha. Perfect. Thanks guys, this was fun actually.
+
+##### MEETING
+slug: berkeley-priya-raman
+title: Conversation — Priya Raman (Berkeley, education + HCI)
+start: 2026-09-10 14:00
+scheduled_min: 30
+calendar: yes
+mode: in-person
+organizer: david@mathetic.com
+attendees: Priya Raman <praman@berkeley.edu>; Hudson Mitchell-Pullman <hudson@mathetic.com>
+projects: project_berkeley_research_chats
+label_notes: Berkeley research chat #2 (fixed event 2026-09-10) with Priya Raman; she later becomes an Engelbart pilot user (2026-10-09).
+=== notes
+### About Priya
+
+- 4th-year PhD, education + HCI; studies how undergrads use AI assistants while writing code for data-science classes
+- Mixed methods: log analysis + interviews; two papers under review, dissertation chapter outline due December
+
+### Her setup
+
+- Claude is her main thinking tool: "a few hundred" conversations, several Claude Projects (one per paper)
+- Zotero for references, but also downloads PDFs directly from Google Scholar → same paper often in Zotero and ~/Downloads
+- Obsidian daily notes ("started strong in January"), now ~1 entry/week
+- Overleaf for writing; comments with co-authors in Overleaf + Slack DMs
+
+### Pain points (quotes)
+
+- "Half my related-work section was argued out in Claude, and I can't find which chat."
+- "I search my Claude history by guessing words I would have used."
+- "I have the same paper four times and they all have different highlights."
+- When switching between papers, loses the thread of "why I believed this in the first place"
+
+### Reactions to the 5-minute look at Engelbart (after interview)
+
+- Immediately asked if it would import Claude Projects, not just loose chats
+- Loved the idea of a "where did this thought come from" trail on a paragraph
+- Worried about duplicates from Zotero + Downloads — "please don't show me the paper four times"
+- Volunteered to be a pilot user in October
+
+### Follow-ups
+
+- [ ] Send coffee card + thank-you
+- [ ] Add Priya to pilot list (first pilot slot, early Oct)
+- [ ] Product: Claude Projects import; dedupe across Zotero/Downloads is not optional
+- Referrals: her labmate (CS education) and a postdoc in statistics (Ben Adeyemi — already booked)
+=== transcript
+Me: Hi! Thanks for having us in your lab. Is it okay if I record? Just for our notes.
+Priya: Yes, go for it. Sorry about the mess, we had a deadline last week and nobody's cleaned up.
+Hudson: This is cleaner than our house.
+Priya: That's a low bar, I've heard about the incubator houses.
+Me: Ha. Okay, so, no pitch, just questions. Hudson's taking notes. What are you working on this semester?
+Priya: So I'm a fourth year. Education and HCI, co-advised. I study how undergrads use AI assistants when they're writing code in data science classes. Like, when they ask, what they ask, whether it helps.
+Me: Oh that's close to what I — I worked on something adjacent, at Virginia Tech. Telemetry in CS1 labs.
+Priya: Wait, the TutorTrace thing? Is that yours? I think I saw it on the UIST accepted list.
+Me: Yeah, that's ours. The talk's in October.
+Priya: That's so funny. Okay, sorry, keep going, you're interviewing me.
+Me: Ha, no it's fine. Mixed methods?
+Priya: Logs plus interviews. Two papers under review, and my dissertation chapter outline is due in December, which, um, is the stress in the room right now.
+Me: Can you walk me through the last time you started something new? Where the idea came from?
+Priya: Okay so honestly most of my ideas start in Claude now. Like, I'll paste in some weird log pattern and say "what could explain this" and we go back and forth for an hour. The chapter outline started that way.
+Me: How many conversations do you have, roughly?
+Priya: Oh. A few hundred? I have Projects, like, one per paper. And then a bunch of loose ones.
+Me: Can you show me?
+Priya: Sure. Okay so this is Claude. Here are the projects. This one's the CHI paper, this one's the chapter. And then down here... it's just a wall.
+Hudson: That's a wall.
+Priya: It's a wall. And the problem is, half my related-work section was argued out in Claude, and I can't find which chat.
+Me: How do you search it?
+Priya: I search my Claude history by guessing words I would have used. Which works maybe a third of the time.
+Me: And what happens the other two thirds?
+Priya: I re-argue it. With Claude. Again. Which honestly is sometimes fine, but sometimes I end up somewhere different and I'm like, wait, which version did I believe?
+Me: Okay. What about papers? Where do they live?
+Priya: Zotero. But also, if I'm in a hurry, I just download from Scholar. So they end up in Downloads. And then later I add the same paper to Zotero from the publisher page. I have the same paper four times and they all have different highlights.
+Hudson: Four times.
+Priya: I checked once. It's four. One in Zotero, two in Downloads with like "(1)" in the name, and one in a Slack DM my co-author sent me.
+Me: Oh, the Slack one too.
+Priya: The Slack one has the best highlights because she did them.
+Me: Ha. Okay. And notes? Do you keep your own notes outside Claude?
+Priya: Obsidian. Daily notes. I started strong in January. Now it's like one entry a week, and it's mostly "today I was tired."
+Me: That's very real.
+Priya: Writing is Overleaf. Comments with co-authors in Overleaf, and then Slack DMs for the arguments that are too long for a comment.
+Me: When you switch between papers, how do you get back into one?
+Priya: Badly. I lose the thread of why I believed something in the first place. Like I'll come back to the CHI paper after two weeks on the chapter and I'm reading my own claims like, do I believe this? Why?
+Me: If you could ask your past self one question, what would it be?
+Priya: "What was the third reason." There's always a third reason I can't remember. I write "for three reasons" and then I remember two.
+Hudson: Oh no.
+Priya: It's a running joke with my advisor.
+Me: What have you tried and stopped using?
+Priya: Notion, briefly. Roam, in like 2021, everyone did. Mem, for a month. Anything that wanted me to organize up front, I quit.
+Me: That's consistent with what we heard yesterday actually.
+Priya: Everyone quits the organize-up-front ones. You can't organize ideas you haven't had yet.
+Me: That's a really good line. Okay, um. I said we'd show you something at the end. Do you still want to see it?
+Priya: Yes, absolutely.
+Me: Okay. Five minutes, Hudson's timing me. So, this is Engelbart. It's very early. The idea is you connect your stuff — Claude, Zotero, PDFs — and it imports everything on day one. And then when you write a paragraph, it can show you where the thought came from. Like, this chat, this paper, this note.
+Priya: Wait, does it import Claude Projects? Or just loose chats?
+Me: Right now just the conversations. Projects is a good question, I don't know if the export—
+Priya: Because the projects are where the organized stuff is. If it only gets the wall, it gets the messy half.
+Me: That's fair. Writing that down. Hudson, write that down.
+Hudson: Written.
+Priya: And the trail thing. On a paragraph. That's — okay that's the thing I want. Where did this thought come from. That's exactly my "third reason" problem.
+Me: Yeah, that's the core of it.
+Priya: But please, the duplicates. If I connect Zotero and Downloads, please don't show me the paper four times.
+Me: We have dedupe. It's, um, it's early.
+Priya: Early dedupe is my nightmare. Just saying.
+Hudson: That's five minutes.
+Me: Okay, that's five. Thank you, seriously.
+Priya: Can I try it? Like actually use it? When's it usable?
+Me: October. We're doing pilot sessions early October. You'd be — honestly you'd be the first.
+Priya: Put me down. I'll complain a lot, but I'll use it.
+Me: That's exactly what we want. Who else should we talk to?
+Priya: My labmate, she does CS education. And there's a stats postdoc, Ben Adeyemi, he's super organized, the opposite of me.
+Hudson: We actually have Ben next week.
+Priya: Oh good, he'll make you feel bad about everyone else.
+Me: Ha. Thank you, Priya. Coffee card's yours.
+Priya: Love it. Good luck with the talk!

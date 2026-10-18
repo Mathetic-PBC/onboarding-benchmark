@@ -1,0 +1,307 @@
+{
+ "title": "SF sublet search",
+ "create_time": 1784082614.12,
+ "update_time": 1784082935.893663,
+ "mapping": {
+  "client-created-root": {
+   "id": "client-created-root",
+   "message": null,
+   "parent": null,
+   "children": [
+    "4a4bcb8e-d535-49d8-8744-e1f88ca5d568"
+   ]
+  },
+  "4a4bcb8e-d535-49d8-8744-e1f88ca5d568": {
+   "id": "4a4bcb8e-d535-49d8-8744-e1f88ca5d568",
+   "message": {
+    "id": "4a4bcb8e-d535-49d8-8744-e1f88ca5d568",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1784082614.0,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "moving to SF aug 8 for a startup incubator. might live at the incubator house but want a backup sublet for aug-oct. budget ~$1800/mo for a room. which neighborhoods + how do i not get scammed"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_a3b6bb5dd06521c84b776880b5",
+     "message_source": null,
+     "turn_exchange_id": "bf5d3bb4-2b82-40da-883a-25eede2ba4a5",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "client-created-root",
+   "children": [
+    "2188f525-ca1b-4ab5-b1e1-c5c5b678837a"
+   ]
+  },
+  "2188f525-ca1b-4ab5-b1e1-c5c5b678837a": {
+   "id": "2188f525-ca1b-4ab5-b1e1-c5c5b678837a",
+   "message": {
+    "id": "2188f525-ca1b-4ab5-b1e1-c5c5b678837a",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1784082626.132,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "**Neighborhoods for a room at ~$1,800 (realistic options):**\n- **Inner Sunset / Inner Richmond:** quieter, foggier, good food, N-Judah / buses. Rooms often $1,400–1,900.\n- **Mission / Bernal Heights edge:** sunny, lively, BART access. Rooms $1,500–2,000; more competitive.\n- **Lower Haight / NoPa:** central, walkable, rooms often slightly above budget.\n- **Dogpatch / Potrero Hill:** sunnier, near Caltrain; fewer rooms listed.\n- **SoMa:** central but uneven block to block; check the exact street.\n\nPick based on where the incubator is. A 20-minute commute in SF is very different by neighborhood depending on transit lines.\n\n**Avoiding scams (very common in SF sublets):**\n1. **Never pay before seeing the place**, in person or a live video tour where they open doors/turn on the tap at your request.\n2. Red flags: owner \"abroad,\" asks for wire/Zelle/crypto/gift cards, price far below market, refuses a call.\n3. Verify the person has the right to sublet: ask for their lease or a landlord contact.\n4. Reverse-image-search the photos.\n5. Use a written sublease agreement with dates, rent, deposit and move-out terms.\n6. Pay the deposit by a method with a trail, and only after signing."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_a3b6bb5dd06521c84b776880b5",
+     "message_type": "next",
+     "turn_exchange_id": "bf5d3bb4-2b82-40da-883a-25eede2ba4a5",
+     "model_slug": "gpt-5-5",
+     "default_model_slug": "gpt-5-5",
+     "resolved_model_slug": "gpt-5-5",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "4a4bcb8e-d535-49d8-8744-e1f88ca5d568"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "4a4bcb8e-d535-49d8-8744-e1f88ca5d568",
+   "children": [
+    "8b02f224-55a2-4c70-ba8d-d6ccf6761c13"
+   ]
+  },
+  "8b02f224-55a2-4c70-ba8d-d6ccf6761c13": {
+   "id": "8b02f224-55a2-4c70-ba8d-d6ccf6761c13",
+   "message": {
+    "id": "8b02f224-55a2-4c70-ba8d-d6ccf6761c13",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1784082764.132,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "found one on craigslist inner sunset $1650, guy says hes in alaska for work and will mail keys after i send deposit via zelle"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_3487a7dd69aa89c86332b44928",
+     "message_source": null,
+     "turn_exchange_id": "8cbf2b6a-4828-4ba3-8a06-61e566352496",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "2188f525-ca1b-4ab5-b1e1-c5c5b678837a",
+   "children": [
+    "5b3bffbf-ed47-48e5-ba54-6be735931ccc"
+   ]
+  },
+  "5b3bffbf-ed47-48e5-ba54-6be735931ccc": {
+   "id": "5b3bffbf-ed47-48e5-ba54-6be735931ccc",
+   "message": {
+    "id": "5b3bffbf-ed47-48e5-ba54-6be735931ccc",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1784082770.781,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "That's a textbook scam pattern: owner away, keys by mail, deposit via Zelle before you see it. Don't send anything.\n\nIf you want to test it: ask for a live video walkthrough at a time you choose, and for the address so you can check the building. Scammers usually disappear or make excuses. Report the listing on Craigslist."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_3487a7dd69aa89c86332b44928",
+     "message_type": "next",
+     "turn_exchange_id": "8cbf2b6a-4828-4ba3-8a06-61e566352496",
+     "model_slug": "gpt-5-5",
+     "default_model_slug": "gpt-5-5",
+     "resolved_model_slug": "gpt-5-5",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "8b02f224-55a2-4c70-ba8d-d6ccf6761c13"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "8b02f224-55a2-4c70-ba8d-d6ccf6761c13",
+   "children": [
+    "f67e4bc4-1ead-412b-a630-0050ac29a4de"
+   ]
+  },
+  "f67e4bc4-1ead-412b-a630-0050ac29a4de": {
+   "id": "f67e4bc4-1ead-412b-a630-0050ac29a4de",
+   "message": {
+    "id": "f67e4bc4-1ead-412b-a630-0050ac29a4de",
+    "author": {
+     "role": "user",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1784082919.781,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "lol ok. what about the incubator house option, anything to ask before committing"
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": null,
+    "weight": 1.0,
+    "metadata": {
+     "selected_sources": [],
+     "serialization_metadata": {
+      "custom_symbol_offsets": [],
+      "render_format": "markdown"
+     },
+     "request_id": "wfr_ff56362599bc77b51b678a985a",
+     "message_source": null,
+     "turn_exchange_id": "00e34315-d8e6-4d01-9f5f-7bf44a674eeb",
+     "can_save": false
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "5b3bffbf-ed47-48e5-ba54-6be735931ccc",
+   "children": [
+    "6aad253e-931e-499c-bd9a-1049284e4491"
+   ]
+  },
+  "6aad253e-931e-499c-bd9a-1049284e4491": {
+   "id": "6aad253e-931e-499c-bd9a-1049284e4491",
+   "message": {
+    "id": "6aad253e-931e-499c-bd9a-1049284e4491",
+    "author": {
+     "role": "assistant",
+     "name": null,
+     "metadata": {}
+    },
+    "create_time": 1784082933.986,
+    "update_time": null,
+    "content": {
+     "content_type": "text",
+     "parts": [
+      "Good questions to ask the incubator (Surplus, or whoever runs it):\n- Monthly cost, what's included (utilities, internet, cleaning), deposit, and the **notice period** to leave.\n- Private room vs. shared; number of people per bathroom.\n- Can you stay past the program end, and at what rate?\n- House rules: guests, quiet hours, work hours in common areas.\n- Is it month-to-month? (Ideal as a landing spot while you look.)\n- Mail/package handling, and whether you can use the address for things like a CA driver's license.\n\nMonth-to-month at the house with a 30-day notice is the safest first step; look for a sublet once you know the city."
+     ]
+    },
+    "status": "finished_successfully",
+    "end_turn": true,
+    "weight": 1.0,
+    "metadata": {
+     "request_id": "wfr_ff56362599bc77b51b678a985a",
+     "message_type": "next",
+     "turn_exchange_id": "00e34315-d8e6-4d01-9f5f-7bf44a674eeb",
+     "model_slug": "gpt-5-5",
+     "default_model_slug": "gpt-5-5",
+     "resolved_model_slug": "gpt-5-5",
+     "model_switcher_deny": [],
+     "finish_details": {
+      "type": "stop",
+      "stop_tokens": [
+       200002
+      ]
+     },
+     "is_complete": true,
+     "citations": [],
+     "content_references": [],
+     "search_result_groups": [],
+     "can_save": true,
+     "parent_id": "f67e4bc4-1ead-412b-a630-0050ac29a4de"
+    },
+    "recipient": "all",
+    "channel": null
+   },
+   "parent": "f67e4bc4-1ead-412b-a630-0050ac29a4de",
+   "children": []
+  }
+ },
+ "moderation_results": [],
+ "current_node": "6aad253e-931e-499c-bd9a-1049284e4491",
+ "plugin_ids": null,
+ "conversation_id": "6a56f0b6-d33e-8361-d8ac-1a99c2d5cff4",
+ "conversation_template_id": null,
+ "gizmo_id": null,
+ "gizmo_type": null,
+ "is_archived": false,
+ "is_starred": null,
+ "safe_urls": [],
+ "blocked_urls": [],
+ "default_model_slug": "gpt-5-5",
+ "atlas_mode_enabled": null,
+ "conversation_origin": null,
+ "is_read_only": null,
+ "voice": null,
+ "async_status": null,
+ "disabled_tool_ids": [],
+ "is_temporary_chat": false,
+ "is_do_not_remember": false,
+ "memory_scope": "global_enabled",
+ "context_scopes": null,
+ "sugar_item_id": null,
+ "sugar_item_visible": false,
+ "pinned_time": null,
+ "is_study_mode": false,
+ "owner": null,
+ "sectioned_conversation": null,
+ "context_truncation_continuation": null,
+ "id": "6a56f0b6-d33e-8361-d8ac-1a99c2d5cff4"
+}

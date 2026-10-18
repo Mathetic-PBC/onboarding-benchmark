@@ -1,0 +1,69 @@
+title: PRIME Lab meeting
+start: 2026-07-27 11:00
+attendees: Yan Chen, David Barron, Minsun, Xiaohang, Rezky, Yue
+projects: project_idetrace
+docs: both
+=== transcript
+Yan Chen: Okay, let's start, Rezky and David have something important about IDETrace. Then the rebuttal plan.
+Rezky: Yes. Um, David found it, so David should explain.
+David Barron: Okay. Um, so, bad news first. On Friday, the twenty-fourth, while I was writing the response to reviewer three, I was trying to reproduce the per-student error analysis they asked for. And I noticed the same anonymized student ids were showing up in both the train and the test set of the in-course split.
+Yue: Oh no.
+David Barron: Yeah. So, the split is grouped by session. We thought one session is one student, which is true, but one student has multiple sessions. Like, a student in CS 3114 attends four or five labs over the semester. So their sessions from week three are in train and their sessions from week six are in test.
+Xiaohang: So the model learns the student's style.
+David Barron: Exactly. Typing rhythm, how often they run, even how they phrase prompts. So the model partly recognizes the student, not the state.
+Yan Chen: How many students are affected?
+David Barron: Almost all of them. Ninety-one percent of students in the test set have at least one session in train.
+Minsun: Wow. Okay.
+Yan Chen: Okay. So what did you do?
+David Barron: I changed the split to group by student id. All sessions from one student go to the same side. Rezky checked my code yesterday.
+Rezky: Yes, I checked. It's correct now. I also added an assertion in the script that fails if any student id is on both sides.
+Yan Chen: Good. That assertion should have been there from the beginning. For all our datasets.
+Rezky: Yes. I agree.
+Yan Chen: And the numbers?
+David Barron: So the headline number, gradient boosting macro-F1 on the in-course split, goes from point eight one to point seven four.
+Yan Chen: Seven points.
+David Barron: Seven points. The transformer drops more, from point seven nine to point seven, which kind of makes sense, it was better at memorizing the student. The course-held-out numbers don't change, because those were already split by course, so no student overlap.
+Yue: That's good at least. The transfer result stays the same.
+David Barron: Yeah, and the gap between in-course and cross-course is now smaller, which honestly makes the benchmark story a little cleaner, not worse.
+Yan Chen: Okay. So, what do we do in the rebuttal? I want to be very clear on this. We report it. Both numbers.
+David Barron: Yes. That was my plan too. The rebuttal says we found a leakage issue in the in-course split, explains it, gives the corrected numbers for every baseline next to the original, and says the camera-ready and the released splits will use the student-grouped version.
+Rezky: Should we put the old number at all? Maybe just the new one?
+Yan Chen: Both. If we only put the new one, the reviewers see a different table and get confused or suspicious. If we explain, it shows we are careful. Honestly, it's better we found it than a reviewer.
+Xiaohang: R3 basically asked about per-student analysis, so it's almost like they suspected.
+David Barron: Yeah, I think R3 would have found it if they'd downloaded the data.
+Yan Chen: Okay. Does this affect TutorTrace? The UIST paper uses the same data.
+David Barron: I checked that on Saturday. No. The TutorTrace classifier was cross-validated grouped by student from the start. You told me in January to split by student, remember.
+Yan Chen: [laughs] Okay, good. At least one of them.
+David Barron: Ha, yeah. The UIST numbers are fine.
+Yan Chen: Okay. Timeline for the rebuttal?
+Rezky: Rebuttal is due the thirty-first, but we want to post on Wednesday the twenty-ninth, so there's time for discussion with reviewers.
+Yan Chen: Good. Post Wednesday. Who is writing what?
+Rezky: I'm writing responses to R1 and R2. David is writing R3 and the leakage section, since that goes in the general response.
+David Barron: And I'll rerun all baselines on the new split today and tomorrow. The LLM zero-shot needs a new sample too, it was on six hundred windows from the old test set.
+Yan Chen: Do you need money for the API?
+David Barron: It's like forty dollars. It's fine.
+Yan Chen: Put it on the lab card, don't pay yourself. Send me the receipt.
+David Barron: Okay, thanks.
+Yan Chen: Minsun, Xiaohang, can you read the general response Tuesday night?
+Minsun: Yes.
+Xiaohang: Yes, after eight.
+Yan Chen: Yue, can you regenerate the released split files and update the datasheet?
+Yue: Yes. I'll put the version number in the file names so nobody uses the old ones.
+David Barron: Oh, good idea. v1 and v2.
+Yan Chen: Okay. David, this is your last big thing before the move, right?
+David Barron: Yeah, pretty much. And the camera-ready. I fly on the eighth.
+Yan Chen: Okay. Thanks for catching this. Seriously. Let's end here.
+Rezky: Thanks everyone.
+=== gemini
+summary: The PRIME Lab discussed a data leakage bug David Barron found in the IDETrace in-course split on July 24: the split was grouped by session, but students attend several lab sessions, so windows from the same student appeared in both train and test (91% of test students had sessions in train). The fix is a split grouped by student id, which Rezky verified and protected with an assertion. Gradient boosting macro-F1 dropped from 0.81 to 0.74. The group agreed the rebuttal, to be posted Wednesday, July 29, will report both numbers and explain the issue.
+detail: Leakage bug: While reproducing a per-student analysis for reviewer three on Friday, July 24, David Barron found the same student ids in both train and test. Grouping by session assumed one session per student, but students attend four or five labs per semester, so the models partly learned individual students' styles.
+detail: Fix and verification: David Barron changed the split to group by student id. Rezky reviewed the code and added an assertion that fails if any student id is on both sides. Yan Chen asked that this assertion become standard for all lab datasets.
+detail: Corrected results: Gradient boosting macro-F1 on the in-course split dropped from 0.81 to 0.74 and the transformer from 0.79 to 0.70. Course-held-out results are unchanged because they were already split by course. The smaller in-course versus cross-course gap makes the benchmark story cleaner.
+detail: Rebuttal plan: Yan Chen insisted on reporting both the original and corrected numbers with an explanation in the general response. Rezky will write responses to R1 and R2; David Barron will write R3 and the leakage section and rerun all baselines, including a new sample for the LLM zero-shot baseline. The rebuttal is due July 31 and will be posted Wednesday, July 29.
+detail: TutorTrace unaffected: David Barron confirmed the TutorTrace UIST classifier was cross-validated grouped by student from the start, so the UIST numbers are not affected.
+detail: Release files: Yue will regenerate the released split files with version numbers in the file names and update the datasheet.
+next: [ ] David Barron will rerun all baselines on the student-grouped split, including a new LLM zero-shot sample, and send the API receipt to Yan Chen.
+next: [ ] David Barron will write the R3 response and the leakage section of the general response.
+next: [ ] Rezky will write the R1 and R2 responses and post the rebuttal on July 29.
+next: [ ] Minsun and Xiaohang will review the general response Tuesday night.
+next: [ ] Yue will regenerate versioned split files and update the datasheet.

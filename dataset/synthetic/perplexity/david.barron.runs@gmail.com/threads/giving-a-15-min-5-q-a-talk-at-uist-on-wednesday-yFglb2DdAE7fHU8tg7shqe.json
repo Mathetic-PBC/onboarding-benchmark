@@ -1,0 +1,49 @@
+{
+ "uuid": "96d1e989-140b-490c-9c55-a973cbf75ea4",
+ "slug": "giving-a-15-min-5-q-a-talk-at-uist-on-wednesday-yFglb2DdAE7fHU8tg7shqe",
+ "title": "Pacing a 15-minute conference talk",
+ "thread_url": "https://www.perplexity.ai/search/giving-a-15-min-5-q-a-talk-at-uist-on-wednesday-yFglb2DdAE7fHU8tg7shqe",
+ "created_at": "2026-10-06T04:10:00Z",
+ "updated_at": "2026-10-06T04:15:32Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "a3ead5e8-be04-4998-bd99-06912984c00a",
+   "query_str": "giving a 15 min + 5 q&a talk at uist on wednesday. how many slides and how do i not run over",
+   "answer": "Common guidance for 15-minute research talks [1][2]:\n- **~12–16 slides** for content (about one per minute), plus title and a closing slide. Systems talks with demo videos can have fewer slides, since a 60–90 s video replaces several.\n- **Structure:** problem (2 min) → key insight (1–2 min) → system walkthrough/demo (4–5 min) → evaluation highlights (4 min) → limitations + takeaway (1–2 min).\n- **Practice with a timer** at least 3 full times; most people run ~10–15% longer live than in rehearsal, so aim for **13 minutes** in practice [2].\n- **Mark checkpoints** in your notes (e.g., \"by slide 8 → 7:00\") so you know whether to compress while presenting.\n- **Have cut-able slides** near the end (extra results) that you can skip without breaking the story.\n- Session chairs usually show time cards at 5, 2 and 0 minutes; agree with the chair beforehand if a demo video has audio [1].",
+   "sources": [
+    {
+     "name": "How to give a good conference talk",
+     "url": "https://www.hcipapersguide.org/conference-talks",
+     "snippet": "Slide counts, structure and rehearsal for short talks."
+    },
+    {
+     "name": "Timing short research talks",
+     "url": "https://www.academicwritingguide.org/talk-timing",
+     "snippet": "Checkpoints and buffer strategies."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-10-06T04:10:00Z",
+   "updated_at": "2026-10-06T04:10:12Z"
+  },
+  {
+   "uuid": "e38463cc-b475-4c47-b329-9191aeacbcff",
+   "query_str": "q&a prep — what do people usually ask about a classroom telemetry system",
+   "answer": "Likely questions [1]:\n- **Generalization**: does it work beyond one course/assistant?\n- **Label reliability**: how were states labeled and how much did raters agree?\n- **Privacy**: did students know they were recorded; could instructors use it for grading?\n- **Instructor workload**: how long does it take a TA to use per student?\n- **Deployment**: what would it take for another course to adopt it?\nPrepare a one-sentence answer plus one supporting number for each, and a backup slide for the two you expect most [1].",
+   "sources": [
+    {
+     "name": "How to give a good conference talk",
+     "url": "https://www.hcipapersguide.org/conference-talks",
+     "snippet": "Preparing for Q&A with backup slides."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-10-06T04:15:00Z",
+   "updated_at": "2026-10-06T04:15:16Z"
+  }
+ ]
+}

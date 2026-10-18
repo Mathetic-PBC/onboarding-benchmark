@@ -1,0 +1,67 @@
+title: PRIME Lab meeting
+start: 2025-11-17 11:00
+attendees: Yan Chen, David Barron, Minsun, Xiaohang, Rezky, Yue
+projects: project_vizpi
+docs: both
+=== transcript
+Yan Chen: Okay, I think everyone is here. Rezky, are you joining from home?
+Rezky: Yes, sorry, I have a cold, I didn't want to come in.
+Yan Chen: No problem. Okay, so today, first David and the labeling sprint, then Yue with the infrastructure update. David, go ahead.
+David Barron: Okay, um, let me share my screen. Can everybody see the spreadsheet?
+Yue: Yes.
+David Barron: Okay. So this is the sprint tracker. We started Friday. Total is two thousand three hundred and forty windows from deployment two. As of last night we have, um, six hundred and twelve labeled. So about a quarter, after three days, one of which was a weekend.
+Minsun: I did most of mine on Saturday, sorry, not most, like half.
+David Barron: No, that's great. Minsun is at two forty, Xiaohang two twenty-five, and I'm at one forty-seven because I was fixing the replay viewer on Friday.
+Xiaohang: The replay viewer is much better now, by the way. The scrubbing works.
+David Barron: Yeah, it was skipping keyframes before. Okay. So the main thing I want to talk about is a label problem. I mentioned it to Yan on Thursday. There's a pattern where a student gets a runtime error, usually an index out of bounds on the wraparound, and then nothing happens for forty, sixty seconds. No typing, no prompt, no run.
+Minsun: Yes, I have seen this a lot. I've been labeling those as stalling.
+Xiaohang: I've been labeling some of them as productive struggle. Because sometimes after the pause they fix it right away.
+David Barron: Right, so that's exactly the disagreement. In our overlap set we have, um, fifty-two windows where Minsun and Xiaohang disagree, and I went through them last night. Nineteen of the fifty-two are this post-error pause pattern.
+Yan Chen: So more than a third of the disagreements.
+David Barron: Yeah.
+Rezky: Can you tell from the data what they're doing during the pause? Like, are they scrolling, or is the window not focused?
+David Barron: We have focus events. In most of them the editor stays focused. So they're looking at it. They're not on another tab.
+Rezky: Then it's hard to say from the outside if they're thinking or frozen.
+Yan Chen: That's why I think it should be a separate state. We can't decide if it's productive in the moment, but we can decide afterwards based on what happens next.
+David Barron: That's what I was thinking. So the proposal is a new state, "stalled-after-error". The rule is: a runtime or compile error, then at least thirty seconds with no edits, runs, or prompts. And then a separate field for what happened next, like resolved without help, asked the assistant, asked a TA, or still stuck at the end of the window.
+Xiaohang: So the next window decides the outcome?
+David Barron: Yeah, the outcome field is filled from the following window. So you label the pause, and the outcome is mostly automatic.
+Minsun: I like that. It's easier than guessing.
+Yue: Sorry, can I ask, does this change the windows you already labeled? Six hundred?
+David Barron: Yes, that's the annoying part. Only the ones labeled stalling or productive struggle that start with an error event. I can query those, I think it's around ninety. We re-label just those.
+Yue: Okay, I can write the query for you, the label store has the event types.
+David Barron: Oh, that'd be great, thanks Yue.
+Yan Chen: And this is guide version three?
+David Barron: Yes. v3. I'll write the definition and three examples, one where it resolves, one where they ask the assistant, one where they stay stuck. I'll send it today.
+Yan Chen: Good. Then everyone re-reads the guide before continuing. Do a short calibration again, ten windows.
+Xiaohang: Can we do it tomorrow morning? I teach tonight.
+David Barron: Tomorrow morning works. Ten a.m.?
+Minsun: Ten is fine.
+Xiaohang: Okay.
+Yan Chen: Is the deadline still Friday?
+David Barron: Friday the twenty-first, yes. We need about two hundred and fifty a day each from now. It's tight but doable. If we're not done Friday we spill into the weekend.
+Yan Chen: I don't want you to spill into Thanksgiving week. Rezky, can you help label if they fall behind?
+Rezky: Yes, I can do some, after Wednesday. I need the guide.
+David Barron: I'll add you to the folder. Thanks Rezky.
+Yan Chen: Okay. Yue, infrastructure?
+Yue: Yes. Short update. The label store now supports multiple labels per window with rater id, so the agreement script can read it directly. I also added a field for the flag David asked for, the incomplete data flag for section B.
+David Barron: Oh nice, so the reconnect windows are already flagged?
+Yue: Yes, I used the sequence gaps from your postmortem. Three hundred and four windows in section B are flagged incomplete.
+David Barron: Okay, wait, three hundred and four is more than I expected.
+Yue: It's any window with at least one gap. Most have one or two missing events. If you want a threshold I can change it.
+Yan Chen: Keep the raw flag and add the count of missing events. Then we decide the threshold later.
+Yue: Okay, I'll add the count.
+David Barron: Perfect.
+Yan Chen: Okay. Anything else? ... No? Okay, Rezky, feel better.
+Rezky: Thank you.
+Minsun: Bye everyone.
+=== gemini
+summary: The PRIME Lab reviewed the VizPI labeling sprint for deployment #2. Of 2,340 thirty-second windows, 612 were labeled after three days. David Barron showed that 19 of 52 overlap disagreements between Minsun and Xiaohang came from post-error pauses, and the group agreed to add a "stalled-after-error" state with an outcome field in labeling guide v3. Yue reported label store updates, including an incomplete-data flag on 304 section B windows.
+detail: Sprint progress: The sprint started Friday, November 14 and runs to Friday, November 21. Minsun has labeled 240 windows, Xiaohang 225, and David Barron 147, for 612 of 2,340. About 250 windows per rater per day are needed to finish on time; Rezky offered to help label after Wednesday.
+detail: Post-error pause disagreement: Students who hit a runtime error (often an index out of bounds on the wraparound) and then do nothing for 40 to 60 seconds were labeled as stalling by Minsun and as productive struggle by Xiaohang. Focus events show the editor usually stays focused during these pauses.
+detail: Labeling guide v3: The group agreed on a new "stalled-after-error" state: an error followed by at least 30 seconds with no edits, runs, or prompts, plus an outcome field filled from the next window (resolved without help, asked the assistant, asked a TA, or still stuck). About 90 already-labeled windows starting with an error will be re-labeled; Yue will write the query.
+detail: Label store update: Yue added multiple labels per window with rater ids so the agreement script can read them directly, and an incomplete-data flag based on sequence gaps from the reconnect bug postmortem. 304 section B windows have at least one gap. Yan Chen asked Yue to keep the raw flag and add a missing-event count so the threshold can be chosen later.
+next: [ ] David Barron will send labeling guide v3 with the stalled-after-error definition and three examples today.
+next: [ ] David Barron will run a ten-window calibration session with Minsun and Xiaohang tomorrow at 10 AM.
+next: [ ] David Barron will add Rezky to the labeling folder.
+next: [ ] Yue will write the query for windows to re-label and add a missing-event count to the incomplete flag.

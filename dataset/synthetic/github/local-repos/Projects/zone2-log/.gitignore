@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+.DS_Store
+.ipynb_checkpoints/
+data/strava/
+data/streams/
+weekly_hours.png

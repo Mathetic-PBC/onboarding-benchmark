@@ -1,0 +1,48 @@
+title: ISE 6664 project sync
+start: 2026-04-28 20:00
+attendees: David Barron, Maya Torres, Jordan Lee
+projects: project_ise6664_affective_computing
+docs: transcript
+=== transcript
+Maya Torres: Okay, I'm recording, well, transcribing. Let's just run through it once fully and time it. Fifteen minutes. I'll start the timer when I start.
+Jordan Lee: Go.
+Maya Torres: Okay. Um, hi everyone, we're Maya, Jordan, and David, and our project is Frustration Signals in AI-Tutoring Transcripts. So, AI tutors are everywhere now, and one thing human tutors are good at is noticing when a student is getting frustrated. The question we asked is whether we can see frustration in the text of the conversation alone, without cameras or wristbands. Next slide. So, background. The affect literature, D'Mello and Graesser's work, describes frustration and confusion as part of a cycle, where confusion can be productive but frustration that isn't resolved leads to disengagement...
+[pause 95]
+Maya Torres: ...and that's why we focus on frustration specifically. Okay, Jordan.
+Jordan Lee: Thanks. So, the data. We used a public dataset of math tutoring dialogues with an AI tutor. After cleaning, we have one thousand one hundred sixty sessions. Each session ends with a short survey where the student rates their frustration on a five-point scale. We call four or five frustrated, which is twenty-three percent of sessions. Um, we dropped sessions with fewer than six student turns because you can't really see anything in two messages. And, um, next slide, this is the distribution of session lengths. Median is fourteen student turns.
+Jordan Lee: Okay, back to Maya for annotation.
+Maya Torres: So we also annotated two hundred turns each at the turn level, with a hundred overlapping, and our agreement for frustration was alpha point six four, which is moderate, and for boredom it was point three, so we argue boredom just isn't visible in text...
+[pause 60]
+Maya Torres: ...okay. David.
+David Barron: Okay, so the features. We built five groups. Message length slope, so are messages getting shorter. Repetition, so is the student asking the same thing again, measured with embedding similarity. Caps ratio. Give-up phrases, like "just tell me" or "idk". And sentiment. We trained a logistic regression to predict the session-level self-report, and we got an AUC of point seven two. Um, next slide. This is the feature importance. The top two are repetition and length slope. Sentiment is near the bottom, which surprised us. So frustrated students aren't necessarily saying negative things, they're repeating themselves and typing less.
+David Barron: And then, um, the error analysis. We looked at ten sessions the model got wrong. Most false positives are students who were just efficient, short messages because they knew what they wanted. Most false negatives are students who were polite the whole time and then rated themselves a five at the end.
+Jordan Lee: The polite ones are my favorite.
+David Barron: Ha, yeah. Okay, and limitations, it's math, not programming, and the label is session-level. Um, that's it, back to Maya for conclusion.
+Maya Torres: So in conclusion, text-only signals can catch a lot of frustration, especially repetition, but... okay, done. Time?
+Jordan Lee: Seventeen minutes forty.
+Maya Torres: Ugh. Two minutes forty over.
+David Barron: Okay, where do we cut?
+Maya Torres: Honestly, my background is too long. I can cut the D'Mello cycle slide, everyone in the class knows it, Brooks covered it in week three.
+Jordan Lee: Yeah, that's like a minute.
+David Barron: And I can cut the five feature groups slide, because the importance chart shows them all anyway. Just talk over the chart.
+Maya Torres: Good. That's maybe another minute.
+Jordan Lee: I can skip the session length histogram. It's not important.
+Maya Torres: Okay, so that should get us under fifteen.
+David Barron: Um, one comment, Maya, the transition from annotation to features, can you say why we need both? Like the turn-level annotation is for checking what the features capture, and the self-report is what we predict. Otherwise people might be confused why there are two label sources.
+Maya Torres: Oh, good point. Yeah. I'll add one sentence.
+Jordan Lee: What questions do you think Brooks will ask?
+David Barron: Probably, um, "how would you validate this with physiological data". Because it's his whole thing.
+Maya Torres: Yeah, definitely. What do we say?
+David Barron: We say that would be the next step, and that our features are cheap and could be a first-pass detector that triggers something more expensive. Like, only ask for a self-report when the text looks frustrated.
+Maya Torres: Oh, that's a nice answer.
+Jordan Lee: And someone will ask about LLMs, like, why not just ask GPT if the student is frustrated.
+David Barron: Ha. Yes. We say we tried a zero-shot prompt quickly and it flagged way too many sessions, mostly anything with a typo. Which, um, Jordan, did we actually save those numbers?
+Jordan Lee: I have them somewhere. It flagged like sixty percent.
+David Barron: Okay, sixty percent, that's the answer.
+Maya Torres: Okay. Let's run it once more tomorrow on our own and then meet thirty minutes before class on Thursday.
+Jordan Lee: In the ISE building?
+Maya Torres: Yes, the usual room in Whittemore.
+David Barron: I'll be there. Also the report is due Friday midnight, right? So Thursday night we fix the last stuff.
+Maya Torres: Yes. Okay. Thanks guys, good work.
+Jordan Lee: Night!
+David Barron: Night.

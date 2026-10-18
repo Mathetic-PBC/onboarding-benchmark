@@ -1,0 +1,104 @@
+{
+  "issue": {
+    "id": "PIL-24",
+    "uuid": "61c59d9f-d56c-46a7-a968-d4ae8dc52769",
+    "title": "Notion import (Markdown & CSV export zip)",
+    "description": "From Daniel's session (10/13). His lab notebook is in Notion: ~400 pages, 6 databases. Notion's \"Markdown & CSV\" export zip:\n\n- pages are `.md` files named `Title <32-hex id>.md`\n- databases are a `.csv` plus a folder with one `.md` per row\n- nested pages live in a folder named like the parent page\n\nStrip the id for display titles; keep it as the stable source id (rule 7 in the dedupe doc), so re-importing a new export updates instead of duplicating.",
+    "projectMilestone": {
+      "id": "752d1e60-9eb6-4c7b-a102-c1e5d03b5518",
+      "name": "Import fixes from pilot feedback shipped"
+    },
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-24/notion-import-markdown-csv-export-zip",
+    "gitBranchName": "david/pil-24-notion-import-markdown-csv-export-zip",
+    "createdAt": "2026-10-13T19:40:38.581Z",
+    "updatedAt": "2026-10-17T05:50:05.650Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": "2026-10-15T20:00:04.291Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "In Progress",
+    "statusType": "started",
+    "labels": [
+      "Feature",
+      "Import",
+      "Pilot feedback"
+    ],
+    "createdBy": "David Barron",
+    "assignee": "David Barron",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-24",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-13T19:40:38.581Z",
+        "endedAt": "2026-10-15T20:00:04.291Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-15T20:00:04.291Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": [
+    {
+      "id": "f788e064-246a-40c2-a328-97ff65d885b2",
+      "body": "Pages + nested pages work on the sample. Databases next: each CSV row becomes a note whose properties go in the header.",
+      "attachments": [],
+      "createdAt": "2026-10-17T05:50:05.650Z",
+      "updatedAt": "2026-10-17T05:50:05.650Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      },
+      "onBehalfOf": null
+    },
+    {
+      "id": "a750976a-0d43-416f-a346-4a9c342249b3",
+      "body": "Daniel sent a sample export (12 pages, 1 database). Links between pages are relative paths with `%20` for spaces.",
+      "attachments": [],
+      "createdAt": "2026-10-15T18:30:26.510Z",
+      "updatedAt": "2026-10-15T18:30:26.510Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "cb2896e3-8076-499e-adca-cc4ee127e9e7",
+        "name": "Hudson"
+      },
+      "onBehalfOf": null
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+title: PRIME Lab meeting
+start: 2026-05-04 11:00
+attendees: Yan Chen, David Barron, Minsun, Xiaohang, Rezky, Yue
+projects: project_idetrace
+docs: transcript
+=== transcript
+Yan Chen: Okay. Today is only IDETrace. Two days left. Rezky, David, go.
+Rezky: Okay, I'll share the status slide. Can you see it?
+Minsun: Yes.
+Rezky: So, um, green is done, yellow is in progress, red is not started. Data collection, done. De-identification, done. IRB approval for release, done, we got it Friday.
+Yan Chen: Oh good. With the data use agreement?
+Rezky: Yes. Raw keystrokes under a DUA, features under CC BY-NC.
+David Barron: That email on Friday was the best email of my semester.
+Rezky: [laughs] Yes. Okay, labels. Yellow. CS 3114 has the full labels from David's sprint. The other three courses we have four hundred and ten, four hundred and thirty, and three hundred and ninety windows labeled. The goal was five hundred each.
+Yan Chen: Is that enough?
+David Barron: I think we report what we have. It's around four hundred per course. We say the full CS 3114 set is the training set and the other courses are labeled test sets for transfer.
+Yan Chen: Okay. That's a clean story actually.
+Rezky: Then baselines. David?
+David Barron: Okay, so. Gradient boosting is done, all splits. The small transformer on event sequences is done for the random split, still running for the course-held-out split, should finish tonight. The LLM zero-shot is done on a sample of six hundred windows because of cost.
+Yan Chen: What are the numbers?
+David Barron: On the in-course split, gradient boosting gets macro-F1 point eight one. The transformer is point seven nine. LLM zero-shot point five two. On course-held-out, gradient boosting drops to point six three.
+Xiaohang: That's a big drop.
+David Barron: Yeah. Which is kind of the point of the benchmark. Transfer across courses is hard.
+Yan Chen: Wait. The in-course split. How is it split now? Last time we discussed this.
+David Barron: Right, so after we talked, Rezky and I changed it. It's split by session now, not by window. All windows from one lab session go to the same side.
+Yan Chen: By session. Okay. Is a session one student?
+Rezky: One student in one lab. Yes.
+Yan Chen: Hmm. Okay.
+Yue: Um, sorry, can I mention the datasheet? I have it mostly done but I need the numbers.
+Rezky: Yes, go ahead.
+Yue: The datasheet has the composition section, and I need the final count of students, sessions, and windows per course. Can someone send me a table?
+David Barron: I'll send it after this meeting. It's in the summary notebook.
+Yue: Thanks. And the maintenance section, who is the contact? The lab email?
+Yan Chen: Use the lab email, not personal emails. Students graduate.
+Yue: Okay.
+Minsun: Do you need help with anything? I can proofread.
+Rezky: Yes, please. The intro and the related work. Tomorrow morning?
+Minsun: Tomorrow morning is fine.
+Xiaohang: I can check the figures. I know the NeurIPS template is picky with fonts.
+David Barron: Oh, yes please. The figure fonts are definitely wrong, I made them in a hurry.
+Yan Chen: What's the page count?
+Rezky: Nine pages, limit is nine. Exactly.
+Yan Chen: [laughs] Exactly nine. Okay. Don't add anything then.
+Rezky: [laughs] Yes.
+David Barron: Um, one question for Yan. Should we put the LLM baseline in the main table if it's only on six hundred windows?
+Yan Chen: Put it in the main table with a footnote, and report the confidence interval. If the interval is wide, say it.
+David Barron: Okay. The interval is like plus minus four points.
+Yan Chen: That's fine.
+Rezky: The deadline is Wednesday at, um, one p.m. our time, I think. It's AoE?
+David Barron: It's eight p.m. Eastern I thought. Let me check. ... It says May sixth, AoE. So that's May seventh, eight a.m. Eastern.
+Yan Chen: Plan for Wednesday evening. Same as UIST.
+David Barron: Ha, yes. Same as UIST.
+Yan Chen: Rezky, submit the abstract today if it's not done. The abstract deadline might be earlier.
+Rezky: It's done, I registered it last week.
+Yan Chen: Good. Okay. Anything else? ... Yue, you're unmuted, there's typing noise.
+Yue: Oh, sorry.
+Yan Chen: Okay. Good luck everybody. Let's end here.
+David Barron: Thanks.

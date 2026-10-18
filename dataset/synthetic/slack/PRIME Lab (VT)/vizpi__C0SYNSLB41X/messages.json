@@ -1,0 +1,135 @@
+[
+  {
+    "ts": "1761069721.220538",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2025-10-21 11:02:01 PDT",
+    "text": "dep #1 recap (10/15, cs 3114 section A only): 41 students, recorder ran the whole session, 18,904 events. two issues:\n1. replay timeline stutters past ~3k events (we re-render the whole track on every scrub)\n2. help-request button fires twice on double click → duplicate rows in `help_requests`\nboth fixable before #2\nThread: 2 replies (latest: 2025-10-21 11:22:55 PDT)\nReactions: +1 (2)"
+  },
+  {
+    "ts": "1761252059.700361",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2025-10-23 13:40:59 PDT",
+    "text": "John confirmed dep #2: wed 11/12, both sections of the 3:30 lab. 87 enrolled. he'll post the consent form on canvas monday\nReactions: white_check_mark (2)"
+  },
+  {
+    "ts": "1762402558.610885",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2025-11-05 20:15:58 PST",
+    "text": "trying cursor on vizpi_frontend tonight for the reconnect handling refactor. will report back if it's worth it\nThread: 1 replies (latest: 2025-11-05 20:58:12 PST)"
+  },
+  {
+    "ts": "1762532449.643696",
+    "user": "U0SYNS0GL2E",
+    "user_name": "Rezky",
+    "datetime": "2025-11-07 08:20:49 PST",
+    "text": "virtualized timeline is in PR #57. scrubbing is smooth up to 25k events on my laptop. <@U0SYNZSPT5P|David Barron> can you review\nThread: 1 replies (latest: 2025-11-07 10:05:44 PST)\nReactions: eyes (1)"
+  },
+  {
+    "ts": "1762786850.420942",
+    "user": "U0SYN15CS2P",
+    "user_name": "Minsun",
+    "datetime": "2025-11-10 07:00:50 PST",
+    "text": "test plan for dep #2 (draft):\n• 3:15 recorder up, check `/health` returns ok from both lab subnets\n• 3:30 students open the link from canvas, consent modal\n• 3:35 TA check: every machine shows the green recorder dot\n• watch the event rate on the dashboard, flag any section below 40 events/min/student\n• 4:45 stop, export, checksum\nReactions: +1 (3)"
+  },
+  {
+    "ts": "1762916755.076141",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2025-11-11 19:05:55 PST",
+    "text": "staging build deployed (`vizpi_frontend@b7e41c2`). heartbeat 30s, reconnect with backoff. ran 60 simulated clients for 20 min, no drops. feeling ok about tomorrow"
+  },
+  {
+    "ts": "1762978680.034390",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2025-11-12 12:18:00 PST",
+    "text": "recorder up, both subnets healthy"
+  },
+  {
+    "ts": "1762980440.505799",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2025-11-12 12:47:20 PST",
+    "text": "section B event rate looks low on the dashboard. 38 events/min/student vs 51 in section A"
+  },
+  {
+    "ts": "1762980544.149915",
+    "user": "U0SYN15CS2P",
+    "user_name": "Minsun",
+    "datetime": "2025-11-12 12:49:04 PST",
+    "text": "students in B are definitely typing, i'm walking around"
+  },
+  {
+    "ts": "1762980999.585574",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2025-11-12 12:56:39 PST",
+    "text": "found it. after a socket drop the client reconnects but the events buffered during the gap never get flushed. `onReconnect` re-subscribes but doesn't call `flushQueue()`. section B's subnet kills idle sockets after ~60s so they hit it constantly\n```\nsocket.on('reconnect', () => {\n  subscribe(sessionId)\n  // missing: flushQueue(sessionId)\n})\n```\nReactions: scream (2)"
+  },
+  {
+    "ts": "1762981813.108060",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2025-11-12 13:10:13 PST",
+    "text": "hotfix deployed (`a91d0f3`), no reload needed, clients pick it up on the next reconnect. B is back to ~50/min\nThread: 2 replies (latest: 2025-11-12 13:15:50 PST)\nReactions: tada (3), pray (2)"
+  },
+  {
+    "ts": "1762984360.243653",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2025-11-12 13:52:40 PST",
+    "text": "export finished. 87 students, checksums match. exact loss count tomorrow"
+  },
+  {
+    "ts": "1763048429.177668",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2025-11-13 07:40:29 PST",
+    "text": "postmortem, dep #2 reconnect bug:\n• cause: `onReconnect` didn't flush the client queue; the section B subnet kills idle sockets after ~60s\n• window: 3:30–4:10pm, section B only (44 students)\n• loss: 19,412 of ~165,000 expected section B events ≈ 11.8% (server rows diffed against client seq numbers from the post-fix flush). per-bucket numbers in the csv\n• recoverable: no, except 9 students whose tabs stayed open, their queues flushed after the hotfix\n• fix: flush on reconnect + persist the queue to localStorage (`a91d0f3`, `c3d07aa`)\n• for analysis: flag section B windows that overlap a seq gap as `partial_telemetry=true`, don't drop them\nThread: 3 replies (latest: 2025-11-13 08:05:12 PST)\nReactions: +1 (4), white_check_mark (2)\nFiles: dep2_section_event_loss.csv (ID: F0SYN03RLCR, text/csv, 919 B)"
+  },
+  {
+    "ts": "1763407813.177931",
+    "user": "U0SYNS0GL2E",
+    "user_name": "Rezky",
+    "datetime": "2025-11-17 11:30:13 PST",
+    "text": "replay timeline v2 merged: virtualized track, keyboard scrub (j/k = ±5s), error markers in red\nReactions: fire (3)"
+  },
+  {
+    "ts": "1764799978.860391",
+    "user": "U0SYNRUS5ER",
+    "user_name": "Yue",
+    "datetime": "2025-12-03 14:12:58 PST",
+    "text": "exported the dep #2 labeling sample to the labeling tool format: 2,340 windows incl. the partial ones. `exports/dep2_windows_v1.parquet` on the shared drive\nReactions: +1 (2)"
+  },
+  {
+    "ts": "1768959841.684777",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-01-20 17:44:01 PST",
+    "text": "update on cursor: i'm dropping it. the agent kept rewriting files i didn't ask about (it \"cleaned up\" the socket hook twice). back to plain vscode + claude code for vizpi_frontend\nThread: 1 replies (latest: 2026-01-20 17:50:55 PST)\nReactions: joy (2)"
+  },
+  {
+    "ts": "1771963507.178730",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-02-24 12:05:07 PST",
+    "text": "for the uist paper i need the final dep #2 numbers in one place. <@U0SYNRUS5ER|Yue> can you confirm: 87 students, 2,340 labeled windows, 44 students in section B, partial flag on 412 windows?\nThread: 1 replies (latest: 2026-02-24 12:40:47 PST)"
+  },
+  {
+    "ts": "1776178846.466078",
+    "user": "U0SYNS0GL2E",
+    "user_name": "Rezky",
+    "datetime": "2026-04-14 08:00:46 PDT",
+    "text": "John asked if we can run vizpi in 3114 again next year. i said probably but we need to figure out who owns the frontend by then"
+  },
+  {
+    "ts": "1785874856.443204",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-08-04 13:20:56 PDT",
+    "text": "handoff doc for vizpi_frontend → <@U0SYNS0GL2E|Rezky>: <https://docs.google.com/document/d/1vZpHnd0fRqK7mT2cWn8yXo4sB9eJtUa6PdQcLx3Gk0/edit|vizpi_frontend handoff (Aug 2026)>\ncovers: deploy steps, the reconnect queue, the replay timeline, where the dep #1/#2 exports live, and the 3 known bugs. ping me anytime, i'll still answer here\nThread: 1 replies (latest: 2026-08-04 13:45:17 PDT)\nReactions: heart (3), pray (2)"
+  }
+]

@@ -1,0 +1,326 @@
+HARD CASE: relevant passage buried in a long unrelated chat (IDETrace leakage around message 30).
+
+### CONV mealprep-budget-july
+title: Meal prep on $60/week
+start: 2026-07-18 19:05
+projects: project_none, project_idetrace
+model: gpt-5-5
+notes: HARD CASE: buried passage — 58-message meal-prep / grocery-budget chat; around messages 31–38 (2026-07-24 night) David digresses about the IDETrace leakage bug (same students' windows in train and test) and gets advice on GroupKFold / grouping the split by student id and reporting both macro-F1 numbers; then returns to food
+---
+@user
+i want to meal prep for the next ~3 weeks on like $60/week groceries. training 9-10 hrs/week so i need a lot of carbs + ~140g protein a day. i have a rice cooker, oven, 2 burners, a sheet pan. no microwave rn. kroger is the store
+@assistant
+Doable. At ~$60/week with your volume, the plan is cheap carbs as the base, a couple of protein anchors, and frozen vegetables so nothing goes bad.
+
+**Core shopping list (≈ $55–62 at Kroger, prices vary):**
+- Rice, 10 lb bag: ~$8 (lasts 2+ weeks)
+- Rolled oats, 42 oz: ~$4.50
+- Eggs, 2 dozen: ~$6–7
+- Chicken thighs, boneless, family pack ~4 lb: ~$12
+- Dry black beans or 4 cans: ~$4
+- Greek yogurt, 32 oz plain x2: ~$8
+- Frozen mixed veg x3 bags: ~$4.50
+- Bananas (bunch) + 1 bag apples: ~$6
+- Tortillas, 20 ct: ~$3.50
+- Peanut butter: ~$3
+- Onions, garlic, salsa: ~$4
+
+**Protein math (rough):** 4 lb thighs ≈ 350 g protein / 7 days = 50 g/day; 2 eggs/day = 12 g; yogurt ~1 cup/day = 20 g; oats + rice + beans add ~40 g. You land around 120–130 g. Add a third dozen eggs or a tub of cottage cheese to clear 140.
+
+Want a day-by-day template or just batch recipes?
+@user
+batch recipes. i dont want to cook more than twice a week
+@assistant
+Two cook sessions, Sunday and Wednesday:
+
+**Sunday (~90 min)**
+1. **Sheet-pan chicken thighs** (2 lb): toss with oil, salt, cumin, smoked paprika, garlic powder. 425°F for 25–30 min. Portion into 4 containers.
+2. **Big pot of rice**: 6 cups dry in the rice cooker in two rounds, about 12 cups cooked.
+3. **Black beans**: if dry, soak Saturday night and simmer 60–75 min with onion, garlic and salt. If canned, rinse and season.
+4. **Overnight oats x4 jars**: ½ cup oats, ½ cup yogurt, ½ cup water/milk, 1 tbsp PB, half banana.
+
+**Wednesday (~45 min)**
+1. Second 2 lb of chicken, different seasoning (soy + garlic + a little sugar) so you don't get bored.
+2. Another rice batch.
+3. Egg muffins: 10 eggs + frozen veg in a muffin tin, 350°F for 20 min.
+
+Meals end up as: oats for breakfast, rice + chicken + veg bowls for lunch and dinner, burritos (tortilla + rice + beans + egg) as the flexible meal.
+@user
+how long does cooked chicken last in the fridge honestly
+@assistant
+3–4 days per USDA guidance, and that's the number to respect with chicken. That's why the plan splits into Sunday and Wednesday batches. If Sunday's chicken would hit day 5, freeze two portions right after cooking and move one to the fridge the night before.
+
+Rice is similar, 3–4 days, but cool it fast. Spread it on the sheet pan for 15–20 min before boxing it. Rice left warm for hours is the actual risk.
+@user
+ok. can i do the rice in one big batch for the whole week if i freeze it
+@assistant
+Yes. Frozen cooked rice keeps well for about a month. Portion it into flat freezer bags (1–1.5 cups each), press flat, freeze. Without a microwave, reheat in a covered pan with a splash of water over medium heat for 4–5 min, stirring once. It actually comes out better than microwaved.
+@user
+is it cheaper to buy chicken breast or thighs rn
+@assistant
+Usually thighs, by a lot per edible gram once you account for breast drying out. At Kroger, boneless thighs often run ~$2.49–3.49/lb in family packs versus ~$3.49–4.99/lb for boneless breast. Breast has slightly more protein per lb (~100 g vs ~85–90 g raw boneless), so on sale weeks breast can win per gram of protein. Check the per-lb tag and the digital coupons in the app. Kroger runs family-pack deals pretty often.
+@user +1d
+did the sunday cook. the cumin chicken is good but the beans were kinda bland
+@assistant
+Beans need more salt and acid than people expect. Fixes for the batch you already have:
+
+- Reheat a portion in a pan with a spoonful of salsa, a pinch of salt and a squeeze of lime (or a splash of vinegar).
+- Bloom spices: 1 tsp oil, ½ tsp cumin, ½ tsp chili powder in the pan for 30 seconds, then add beans.
+- A little of the chicken fat from the sheet pan stirred in helps a lot.
+
+Next time, salt the cooking water like pasta water (about 1 tbsp per 2 lb dry beans) and add a bay leaf plus half an onion.
+@user
+what about adding sweet potatoes for long run days
+@assistant
+Great idea. They're cheap (~$1/lb), easy on a sheet pan, and good pre-long-run carbs.
+
+- Cube 3 lb, toss with oil and salt, 425°F for 25–30 min on the same pan as the chicken (separate side).
+- ~1 medium sweet potato ≈ 25–30 g carbs.
+- On long-run days (90+ min), have sweet potato + rice at lunch the day before, then oats + banana + honey 2–3 hours pre-run.
+
+Adds ~$3 to the week.
+@user
+how many carbs should i be eating on a 2 hr zone 2 day
+@assistant
+Common sports-nutrition ranges by training load:
+
+- **Moderate (≈1 h/day):** 5–7 g/kg/day
+- **High (1–3 h/day moderate-high intensity):** 6–10 g/kg/day
+
+A 2-hour Zone 2 day sits toward the lower-middle of "high," so ~6–7 g/kg is reasonable. At 68 kg that's ~410–480 g carbs. Rough version:
+
+- Breakfast oats + banana + honey: ~110 g
+- Lunch 2 cups rice + sweet potato: ~120 g
+- During run (if >90 min): 30–60 g/h from gels or a sports drink, ~60–90 g
+- Dinner rice/tortillas + beans: ~120 g
+- Snack (bagel/fruit): ~40–60 g
+
+I'm not your doctor or dietitian. If you're losing weight unintentionally across a block, eat more.
+@user
+i weigh 66 not 68 but close enough
+@assistant
+At 66 kg: 6–7 g/kg ≈ 400–460 g. Same template, maybe drop the afternoon snack on easy days.
+@user
+cheapest during-run carbs that arent gels
+@assistant
+Cheapest per 30 g carbs, roughly:
+
+1. **DIY drink:** table sugar + a pinch of salt in water. 30 g sugar ≈ 2 tbsp, for pennies. Add a squeeze of lemon or a drink-mix packet for taste.
+2. **Honey in a small soft flask:** ~1.5 tbsp ≈ 25 g carbs.
+3. **Fig bars / cheap fruit snacks:** a 2-pack of fig bars ≈ 40 g carbs for ~$0.30–0.50.
+4. **Dates:** 3 Medjool ≈ 50 g carbs, though not cheap everywhere.
+5. **Maple syrup, if you have it:** basically gel.
+
+For a 2 h Zone 2 run, a 500 ml bottle with 40 g sugar + ¼ tsp salt is the budget move.
+@user
+what spices are worth buying if im starting from basically nothing
+@assistant
+A starter set that covers almost everything in this plan, ~$12–15 if you buy store brand or from the bulk/international aisle (often half price):
+
+1. Kosher salt + black pepper
+2. Cumin
+3. Chili powder
+4. Smoked paprika
+5. Garlic powder
+6. Curry powder
+7. Red pepper flakes
+8. Dried oregano
+
+Plus soy sauce and a bottle of hot sauce, which count as seasoning here. Skip anything you'd use once.
+@user
+are glass containers worth it or just the cheap plastic ones
+@assistant
+Without a microwave, the main glass advantage (reheating safely in the container) mostly goes away. Cheap plastic deli-style containers (~$10 for 20–25 with lids) are fine for fridge and freezer and stack well. If you later get a microwave, move the food to a plate or buy a few glass ones then. Hand-wash plastic, and replace any that get warped or stained.
+@user 2026-07-23 20:10
+ok planning next week. same budget but im sick of the cumin chicken lol. new ideas, still cheap
+@assistant
+Rotation ideas that reuse the same staples:
+
+1. **Chicken + peanut sauce bowls:** PB + soy + lime/vinegar + garlic + water. Over rice with frozen stir-fry veg.
+2. **Turkey chili** (ground turkey ~$4/lb, or half beans + half turkey): cans of diced tomato, chili powder, cumin, beans. Freezes perfectly.
+3. **Egg fried rice:** day-old rice, 3 eggs, frozen peas/carrots, soy, scallion. 10 minutes, very cheap.
+4. **Tuna melts on tortillas:** canned tuna (~$1.25), cheese, oven 400°F 8 min.
+5. **Baked oats:** same oats, eggs, banana, baking powder, pan-baked. A different breakfast texture.
+
+Turkey chili is the best value per serving if you're cooking twice a week.
+@user
+chili recipe for 6 servings
+@assistant
+**Turkey + bean chili (6 servings, ~$12 total)**
+
+- 1.5 lb ground turkey
+- 1 onion, diced; 4 cloves garlic
+- 2 cans black or kidney beans, drained
+- 1 can (28 oz) crushed tomatoes + 1 can (14 oz) diced
+- 2 tbsp chili powder, 2 tsp cumin, 1 tsp smoked paprika, 1 tsp oregano, salt
+- 1 cup water or broth
+- Optional: 1 tbsp cocoa powder or a square of dark chocolate (depth), 1 tsp vinegar at the end
+
+1. Brown turkey in a big pot over medium-high, 6–8 min. Season with salt.
+2. Add onion, cook 4 min; add garlic + spices 1 min.
+3. Add tomatoes, beans, water. Simmer 30–40 min uncovered, stirring.
+4. Finish with vinegar and adjust salt.
+
+Per serving ≈ 35 g protein, 30 g carbs. Serve over rice for more carbs.
+@user
+can i do this without the cocoa thing, i dont have any
+@assistant
+Yes. It's optional. Without it, a little extra smoked paprika plus the vinegar at the end gives you most of the depth.
+@user 2026-07-24 23:38
+ok unrelated but im losing my mind. we submitted idetrace to neurips d&b in may. tonight i found that our train/test split is by WINDOW not by student. so 30s windows from the same student are in both train and test. macro f1 is 0.81 but i think its inflated. rebuttal is due in like 5 days. what do i actually do
+@assistant
+That's a real leakage problem and it's good you caught it before the rebuttal rather than after. Windows from the same student share a lot: typing rhythm, the assignment they're on, their usual error patterns, even the IDE settings. A model can learn "this is student 37" instead of "this is a stuck student," and then test windows from student 37 look easy.
+
+What to do, in order:
+
+1. **Re-split grouped by student id.** Every student's windows go entirely to train or entirely to test.
+   ```python
+   from sklearn.model_selection import GroupShuffleSplit, GroupKFold
+
+   gss = GroupShuffleSplit(n_splits=1, test_size=0.2, random_state=0)
+   train_idx, test_idx = next(gss.split(X, y, groups=df["student_id"]))
+
+   # or for CV:
+   cv = GroupKFold(n_splits=5)
+   for tr, te in cv.split(X, y, groups=df["student_id"]):
+       ...
+   ```
+   If students take several sessions, group by student, not by session. Sessions from the same student still leak identity.
+
+2. **Assert it.** Add a check so it can't come back:
+   ```python
+   assert set(df.iloc[train_idx].student_id).isdisjoint(df.iloc[test_idx].student_id)
+   ```
+
+3. **Re-run everything that reports a number**: baselines too, not just your model. The ranking between models can change under a grouped split.
+
+4. **Report both numbers in the rebuttal.** Something like: "We identified that our original split allowed windows from the same student in both train and test. Under a student-grouped split, macro-F1 is X (previously 0.81). We will update all tables and release the grouped split." D&B reviewers care a lot about evaluation hygiene. Disclosing it yourself is far better than a reviewer finding it.
+
+5. **Ship the split with the dataset.** For a datasets track, the canonical split file (student-grouped) is part of the contribution. Put `split_by_student.json` in the release and say in the datasheet that window-level splits leak.
+
+Expect the number to drop meaningfully. A drop of 5–10 points is normal when identity leakage is removed.
+@user
+should test be stratified by label too? some students have almost no stalled windows
+@assistant
+Use **StratifiedGroupKFold** (sklearn ≥ 1.0). It keeps groups intact while trying to balance label proportions across folds:
+
+```python
+from sklearn.model_selection import StratifiedGroupKFold
+cv = StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=0)
+for tr, te in cv.split(X, y, groups=df["student_id"]):
+    ...
+```
+
+It can't be perfect because whole students move together, so print per-fold label distributions and report the spread. For the released single split, pick the seed whose test label distribution is closest to the overall one, and document that you did it. Don't pick the seed with the best F1.
+@user +2h
+ok reran with grouped split. macro f1 0.74. its a big drop. does this kill the paper
+@assistant
+No. 0.81 → 0.74 under a stricter split doesn't kill a datasets paper. It's arguably a contribution: you can show that the naive window-level split inflates results by ~7 points, which is a useful warning for anyone using telemetry datasets like yours.
+
+How to frame it:
+- Lead with the corrected number as *the* result (0.74).
+- Add a short "Evaluation protocol" paragraph: window-level split → 0.81, student-grouped → 0.74, and why the gap exists (identity leakage).
+- Make the grouped split the official benchmark split.
+
+The bad outcome would be a reviewer discovering it. You're presenting it as rigor.
+@user
+ok that makes me feel better. writing it up tmrw
+@assistant
+Sounds right. One last practical thing: freeze a `git tag` on the commit that produced 0.74 and put the hash in your notes, so the rebuttal number is reproducible when you update the paper.
+@user +14h
+back to food lol. i have half a bag of frozen veg, 5 eggs, tortillas, rice, a can of beans and some cheese. dinner ideas, 1 pan
+@assistant
+**One-pan breakfast-for-dinner burritos:**
+1. Pan, medium heat, a little oil. Add 1.5 cups frozen veg, cook 5 min until the water's gone. Salt.
+2. Add the drained beans + a pinch of cumin/chili, 2 min.
+3. Push to the side, scramble 3–4 eggs in the empty space, then fold everything together.
+4. Off heat, add cheese, let it melt.
+5. Warm tortillas directly in the cleaned pan 20 s per side. Fill with rice + the mix.
+
+Makes 3–4 burritos. Wrap the extras in foil and they keep 3 days.
+@user
+can i freeze burritos
+@assistant
+Yes, burritos freeze really well. Cool them fully, wrap each in foil (or plastic wrap) and bag them. Up to ~2 months. Without a microwave, bake from frozen in foil at 375°F for 35–45 min, or thaw overnight in the fridge and pan-toast 4–5 min per side, covered.
+@user
+whats a good cheap breakfast thats not oats. im burnt out on oats
+@assistant
+- **Egg + rice bowl:** leftover rice, fried egg, soy sauce, chili crisp/hot sauce. Fast and cheap.
+- **Yogurt + granola + banana:** buy cheap granola or toast oats with honey (still oats, but it doesn't feel like oatmeal).
+- **Bagels + PB + banana:** a 6-pack of store bagels ~$3; good before long runs.
+- **Savory toast:** bread + beans + egg.
+- **Pancakes from scratch:** flour, baking powder, egg, milk, sugar; make a big batch and freeze in pairs.
+
+For training days, the bagel + PB + banana is the easiest high-carb option.
+@user
+how much protein in a bagel
+@assistant
+A standard plain bagel (~100 g) has about 10 g protein and ~50 g carbs. Add 2 tbsp PB (+7 g) and you're at ~17 g. That's fine for a pre-run breakfast, low-ish for a post-run one.
+@user
+ok last thing for this week. cheapest way to get to 140g protein if i'm out of chicken money
+@assistant
+Cheapest protein per gram, at typical US grocery prices:
+
+1. **Dry lentils/beans:** ~$0.03–0.05 per g protein (incomplete alone; pair with rice).
+2. **Eggs:** ~$0.04–0.06 per g depending on the week.
+3. **Milk (gallon):** ~$0.04 per g.
+4. **Canned tuna:** ~$0.05–0.07 per g.
+5. **Plain Greek yogurt (store brand):** ~$0.06 per g.
+6. **Whey (bulk tub):** ~$0.04–0.06 per g.
+7. **Peanut butter:** cheap but fatty, ~$0.07 per g protein.
+
+Cheap template that clears 140 g with no meat: 4 eggs (24) + 1 cup yogurt (22) + ½ gallon milk over the day (~32) + 1.5 cups lentils cooked (27) + 1 can tuna (25) + bread/rice/oats (~15) ≈ 145 g.
+@user
+lentil recipe that doesnt suck
+@assistant
+**Red lentil dal (4 servings, ~$4):**
+- 1.5 cups red lentils, rinsed
+- 1 onion, 3 garlic cloves, 1 tbsp grated ginger (optional)
+- 1 can diced tomatoes
+- 2 tsp curry powder (or 1 tsp cumin + 1 tsp turmeric + ½ tsp chili)
+- 4 cups water, salt, juice of ½ lemon
+
+1. Sauté onion 5 min in oil; add garlic/ginger + spices 1 min.
+2. Add lentils, tomatoes, water. Simmer 20–25 min, stirring, until thick and the lentils have broken down.
+3. Salt well, finish with lemon.
+
+Over rice. ~18 g protein per serving, more with a yogurt dollop on top. Red lentils cook fast, so there's no soaking.
+@user
+nice. ok i think im set. can you give me a final list for next week with the dal + chili rotation
+@assistant
+**Week list (~$58):**
+
+Staples (check pantry first): rice, oats, PB, salt/spices.
+
+- Red lentils 2 lb: $3.50
+- Ground turkey 1.5 lb: $6
+- Canned beans x3: $3
+- Crushed tomatoes 28 oz + diced x2: $4
+- Eggs 2 dozen: $6.50
+- Greek yogurt 32 oz x2: $8
+- Milk, 1 gal: $3.50
+- Bagels 6 ct x2: $6
+- Bananas + apples: $5.50
+- Frozen veg x2: $3
+- Tortillas: $3.50
+- Onions, garlic, lemon: $3
+
+**Cook Sunday:** chili (6 servings) + rice.
+**Cook Wednesday:** dal (4 servings) + rice + egg muffins.
+
+Protein lands around 135–150 g/day if you hit the eggs + yogurt + milk daily.
+@user
+perfect thanks
+@assistant
+Have a good training week. Freeze two chili portions on Sunday so you have a backup if Wednesday's cook slips.
+@user +3d
+update: the frozen chili reheated fine but the frozen rice got kinda mushy
+@assistant
+That usually means it went into the freezer while still warm and steamy, or got extra water on reheat. Next batch:
+- Cook rice slightly drier (about 10% less water).
+- Spread it out to cool completely before bagging, and press the bags flat.
+- Reheat with just 1–2 tbsp water, covered, and uncover for the last minute to steam off moisture.
+@user
+also total at kroger was $63.40. close enough
+@assistant
+Close enough, and over three weeks that's roughly $3/week of slippage. The easiest trim is the yogurt: swap one tub for a bigger store-brand tub, or for milk on the weeks you're short.

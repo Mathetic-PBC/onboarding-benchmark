@@ -1,0 +1,61 @@
+title: David / Yan 1:1
+start: 2026-06-22 15:00
+attendees: David Barron, Yan Chen
+projects: project_vt_phd_admin
+docs: both
+=== transcript
+Yan Chen: Hi David.
+David Barron: Hi Yan. Thanks for making time. Um, I know this is a weird one.
+Yan Chen: It's okay. You said you heard from the incubator.
+David Barron: Yeah. So, we got in. Hudson and I. It's called Surplus, it's in San Francisco, it's a house where a few early teams live and work, and there's a program lead who runs it. The start is in August, the kickoff is the eleventh.
+Yan Chen: Congratulations. Really. That's competitive, I assume.
+David Barron: Thank you. Yeah, I think so. I was kind of surprised.
+Yan Chen: So you want to go.
+David Barron: I want to go. Um, and I want to do it properly with the PhD. Like, not just disappear. I want to take a leave of absence, starting in the fall, and come back if it doesn't work, or, um, figure it out after a year.
+Yan Chen: Okay. I think that's the right way to do it. Let's talk about the practical things.
+David Barron: Okay.
+Yan Chen: First, the leave itself. It would be effective Fall 2026. The form needs my signature and the department head's, and Grace Kim processes it. There's a deadline before the semester starts. I think it's a few weeks before classes. Check with Grace.
+David Barron: I emailed Grace on Friday just to ask about the process, actually. She sent me the form. She said to submit it by the end of July.
+Yan Chen: Okay. Good. Then aim to sign it in July.
+David Barron: Yeah.
+Yan Chen: Second, funding. Your GRA. If you go on leave, the GRA stops. I can keep you through the summer, but it ends August fifteenth. That's the end of the summer appointment.
+David Barron: Okay. August fifteenth. Yeah, that makes sense. I wasn't expecting more than that.
+Yan Chen: And when you come back, I can't promise the same funding line. It depends on grants at that time. But I will try.
+David Barron: That's totally fair. I appreciate it.
+Yan Chen: Third, the papers. UIST, the rebuttal is in. If it gets accepted, camera-ready is August fourteenth, and the talk is in October. IDETrace rebuttal is end of July.
+David Barron: Yes. I'll do all of it. The camera-ready, the cross-course analysis I promised, the IDETrace rebuttal, and the talk. Even from San Francisco.
+Yan Chen: Good. The cross-course analysis is the one that needs real work. Do it in July, before you move.
+David Barron: Yeah. I was going to start it next week. The model runs are easy, the writing is the slow part.
+Yan Chen: Okay. And the move is when?
+David Barron: Um, I'm flying out August eighth. So the camera-ready would be done from SF, the last week.
+Yan Chen: That's tight, but okay. Try to finish most of it before.
+David Barron: Okay.
+Yan Chen: Fourth, the lab. Who takes over your parts? The VizPI deployment code, the labeling tool.
+David Barron: I was thinking Yue for the infrastructure, she basically runs the labeling server already. And Minsun knows the deployment, she was in the room both times. I'll write handoff docs for both.
+Yan Chen: Ask them first. Don't assume.
+David Barron: Yes, of course. I'll ask this week.
+Yan Chen: And the VizPI frontend repo. Make sure it's in the lab GitHub, not your personal account.
+David Barron: It is. I moved it last year. But I'll double-check the deploy keys.
+Yan Chen: Good. Um. Can I ask, how do you feel about this? It's a big decision.
+David Barron: Honestly, um, excited and nervous. I like the research. I don't want it to look like I'm leaving because of the lab. It's not that at all. It's more like, the thing Hudson and I are building is kind of the tool I wanted during the UIST crunch, and I think if we don't try now, we won't.
+Yan Chen: I understand. And it doesn't look like that. I've had students do this before. Some came back, some didn't. Both are okay.
+David Barron: That means a lot. Thank you.
+Yan Chen: Keep in touch. Send me an update once in a while. Not a report, just, how it's going.
+David Barron: I will. I'll still be on the lab Slack.
+Yan Chen: [laughs] Okay. Then I'll know anyway.
+Yan Chen: So, summary. Leave effective Fall 2026, form to Grace by end of July, GRA through August fifteenth, finish UIST and IDETrace obligations, handoff to Yue and Minsun.
+David Barron: Yes. That's it.
+Yan Chen: Okay. Send me the form when it's filled out and I'll sign.
+David Barron: Will do. Thanks, Yan. Really.
+Yan Chen: Of course. Bye David.
+=== gemini
+summary: David Barron told Yan Chen that he and Hudson were accepted to the Surplus incubator in San Francisco (kickoff August 11) and asked to take a leave of absence from the PhD. They agreed the leave will be effective Fall 2026, with the paperwork processed by Grace Kim and the form submitted by the end of July. David's GRA will end August 15, and he committed to finishing the UIST camera-ready (due August 14), the promised cross-course analysis, the IDETrace rebuttal, and the October UIST talk. He will write handoff documents for Yue and Minsun.
+detail: Incubator: David Barron and Hudson were accepted to Surplus, a live-work incubator house in San Francisco. The program starts in August with a kickoff on August 11, and David flies out on August 8.
+detail: Leave of absence: The leave will be effective Fall 2026. The form needs Yan Chen's and the department head's signatures and is processed by Grace Kim in the graduate office; Grace asked for it by the end of July. Yan Chen will sign once David Barron sends the completed form.
+detail: Funding: David Barron's GRA continues through the summer appointment and ends August 15. Yan Chen cannot guarantee the same funding line on return but will try.
+detail: Research obligations: If UIST accepts TutorTrace, the camera-ready is due August 14 and the talk is in October. Yan Chen asked David Barron to do the cross-course analysis in July before the move. The IDETrace rebuttal is due at the end of July.
+detail: Lab handoff: David Barron proposed Yue for the labeling infrastructure and Minsun for the deployment code, and will ask them first and write handoff documents. Yan Chen asked him to confirm the VizPI frontend repository and deploy keys are under the lab GitHub organization.
+next: [ ] David Barron will fill out the leave-of-absence form and send it to Yan Chen for signature, then submit it to Grace Kim by the end of July.
+next: [ ] David Barron will start the UIST cross-course analysis next week.
+next: [ ] David Barron will ask Yue and Minsun about taking over the labeling infrastructure and deployment code, and write handoff documents.
+next: [ ] David Barron will check the VizPI frontend deploy keys in the lab GitHub organization.

@@ -1,0 +1,62 @@
+{
+  "issue": {
+    "id": "PIL-33",
+    "uuid": "904bde11-9624-454a-acbc-7292b7e020db",
+    "title": "Recruit pilot 3",
+    "description": "Options: Elena Park (after her quals, November), or one of Lena's intros. Prefer someone who is *not* a heavy AI-chat user, so we see the other end of the range.",
+    "projectMilestone": {
+      "id": "1547e466-169f-4c92-9da7-53136af1656f",
+      "name": "3 converted pilots"
+    },
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-33/recruit-pilot-3",
+    "gitBranchName": "david/pil-33-recruit-pilot-3",
+    "createdAt": "2026-10-14T16:10:44.347Z",
+    "updatedAt": "2026-10-14T16:10:44.347Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Todo",
+    "statusType": "unstarted",
+    "labels": [
+      "Ops"
+    ],
+    "createdBy": "Hudson",
+    "assignee": "Hudson",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-33",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-14T16:10:44.347Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": []
+}

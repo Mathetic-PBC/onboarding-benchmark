@@ -1,0 +1,163 @@
+{
+ "uuid": "d3a81f19-3397-40cb-aa31-8b9aab4e13c7",
+ "name": "New Mac setup checklist",
+ "summary": "",
+ "model": "claude-opus-5",
+ "created_at": "2026-08-05T00:09:58.372505Z",
+ "updated_at": "2026-08-05T00:16:21.649852Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true,
+  "paprika_mode": "auto",
+  "thinking_mode": "auto",
+  "chat_memory_mode": "enabled",
+  "enabled_artifacts_attachments": false
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "auto",
+ "chat_messages": [
+  {
+   "uuid": "05ae5e77-8005-4567-8fc9-f36dced4ba6f",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-08-05T00:10:00.000000Z",
+     "stop_timestamp": "2026-08-05T00:10:00.000000Z",
+     "type": "text",
+     "text": "new macbook arrived today. what do i set up first. i do python (research), node/ts (startup), latex. dont want to migrate the junk from the old one, fresh start",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-08-05T00:10:00.000000Z",
+   "updated_at": "2026-08-05T00:10:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "805acd9b-3934-4486-bc79-13e83f463da1",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-08-05T00:10:02.000000Z",
+     "stop_timestamp": "2026-08-05T00:10:19.821000Z",
+     "type": "text",
+     "text": "A fresh-start order that avoids redoing things:\n\n**1. System**\n- Sign in to iCloud only for what you want (Keychain, maybe Notes). Turn off \"Desktop & Documents\" sync if you don't want old clutter syncing back.\n- FileVault on, firmware updates, set up Touch ID.\n\n**2. Package manager + shell**\n- Install Xcode command line tools: `xcode-select --install`\n- Install Homebrew, then: `brew install git gh node pnpm uv`\n- Shell config: start a clean `~/.zshrc`; copy only the aliases you actually use from the old one.\n\n**3. Languages**\n- Python: use `uv` for projects (`uv venv`, `uv pip install`), avoid installing into the system Python.\n- Node: `brew install fnm` (or nvm) to switch Node versions per project.\n- LaTeX: `brew install --cask mactex-no-gui` (big) or use Overleaf and skip local LaTeX unless you need it offline.\n\n**4. Git**\n- `gh auth login`, set `git config --global user.name/email`, generate a new SSH key rather than copying the old one.\n\n**5. Apps**\n- Editor, terminal, browser, password manager first. Everything else when you actually need it.\n\n**6. Data**\n- Copy only active project folders from the old machine (or clone from GitHub). Leave Downloads behind.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-08-05T00:10:19.821000Z",
+   "updated_at": "2026-08-05T00:10:19.821000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "05ae5e77-8005-4567-8fc9-f36dced4ba6f"
+  },
+  {
+   "uuid": "6a8fa604-c283-4e38-ad76-161393a70d3a",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-08-05T00:12:51.821000Z",
+     "stop_timestamp": "2026-08-05T00:12:51.821000Z",
+     "type": "text",
+     "text": "should i copy ~/.claude from the old mac",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-08-05T00:12:51.821000Z",
+   "updated_at": "2026-08-05T00:12:51.821000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "805acd9b-3934-4486-bc79-13e83f463da1"
+  },
+  {
+   "uuid": "9eeee2bd-e147-40bc-aeec-2f960fd38aca",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-08-05T00:12:53.821000Z",
+     "stop_timestamp": "2026-08-05T00:13:06.244000Z",
+     "type": "text",
+     "text": "It depends on what's in it. Your settings, custom commands, hooks and plugins are worth bringing over (or better, keep them in a dotfiles repo). The project session history is large and mostly old transcripts; copy it only if you go back to old sessions. A clean approach: copy settings and plugins now, keep a zip of the rest on an external drive.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-08-05T00:13:06.244000Z",
+   "updated_at": "2026-08-05T00:13:06.244000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "6a8fa604-c283-4e38-ad76-161393a70d3a"
+  },
+  {
+   "uuid": "29cf0204-e257-4e27-9479-ff6262ac4b1d",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-08-05T00:16:00.244000Z",
+     "stop_timestamp": "2026-08-05T00:16:00.244000Z",
+     "type": "text",
+     "text": "ok. last thing, mactex or overleaf only",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2026-08-05T00:16:00.244000Z",
+   "updated_at": "2026-08-05T00:16:00.244000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "9eeee2bd-e147-40bc-aeec-2f960fd38aca"
+  },
+  {
+   "uuid": "b960e032-afe4-41ed-bda7-ca065c2c97b5",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-08-05T00:16:02.244000Z",
+     "stop_timestamp": "2026-08-05T00:16:20.131000Z",
+     "type": "text",
+     "text": "If you write mostly with co-authors in Overleaf (sounds like it for UIST/NeurIPS), Overleaf only is fine and saves ~5 GB. Install `basictex` (small) if you ever need to compile something locally in a pinch.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2026-08-05T00:16:20.131000Z",
+   "updated_at": "2026-08-05T00:16:20.131000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "29cf0204-e257-4e27-9479-ff6262ac4b1d"
+  }
+ ],
+ "current_leaf_message_uuid": "b960e032-afe4-41ed-bda7-ca065c2c97b5"
+}

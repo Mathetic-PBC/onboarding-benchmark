@@ -1,0 +1,229 @@
+{
+ "research-vault/.obsidian/app.json": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "vault config"
+ },
+ "research-vault/.obsidian/appearance.json": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "vault config"
+ },
+ "research-vault/.obsidian/core-plugins.json": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "vault config"
+ },
+ "research-vault/Templates/Daily.md": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "template note (no project content)"
+ },
+ "research-vault/Templates/Literature.md": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "template note (no project content)"
+ },
+ "research-vault/Home.md": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_engelbart",
+   "project_idetrace",
+   "project_tutortrace"
+  ],
+  "notes": "vault index / map-of-content linking reading-group, research and Engelbart notes"
+ },
+ "research-vault/Literature/Bush1945 - As We May Think.md": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group"
+  ],
+  "notes": "own summary; no long quotes"
+ },
+ "research-vault/Literature/Licklider1960 - Man-Computer Symbiosis.md": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group"
+  ],
+  "notes": "own summary; no long quotes"
+ },
+ "research-vault/Literature/Engelbart1962 - Augmenting Human Intellect.md": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_engelbart"
+  ],
+  "notes": "own summary; no long quotes; ties reading group to the product name"
+ },
+ "research-vault/Literature/Nelson1965 - A File Structure for the Complex.md": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_engelbart"
+  ],
+  "notes": "own summary; ties versioning to Engelbart import dedupe"
+ },
+ "research-vault/Literature/Kay1977 - Personal Dynamic Media.md": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group"
+  ],
+  "notes": null
+ },
+ "research-vault/Literature/Papert1980 - Mindstorms.md": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_mathetic_company",
+   "project_tutortrace"
+  ],
+  "notes": "reading-group note that also explains the Mathetic/Papert Lab name and links to TutorTrace"
+ },
+ "research-vault/Literature/Kapur2008 - Productive Failure.md": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": null
+ },
+ "research-vault/Literature/Ostrowski2025 - Productive Struggle.md": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_tutortrace"
+  ],
+  "notes": "literature note on the fictional Ostrowski et al. 2025 paper (same-paper-in-several-places story); v1 vs camera-ready numbers"
+ },
+ "research-vault/Projects/Reading group - schedule.md": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group"
+  ],
+  "notes": null
+ },
+ "research-vault/Projects/Engelbart - where did this thought come from.md": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_engelbart"
+  ],
+  "notes": null
+ },
+ "research-vault/Projects/Engelbart - import dedupe.md": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": null
+ },
+ "research-vault/Projects/IDETrace - leakage.md": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": null
+ },
+ "research-vault/Projects/TutorTrace - talk Q&A prep.md": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": null
+ },
+ "research-vault/Inbox/Untitled.md": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group"
+  ],
+  "notes": "HARD CASE: vague title — \"Untitled\" inbox note; content is a reading-group follow-up (redoing Licklider's time study)"
+ },
+ "research-vault/Inbox/caro-kann lines.md": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "personal clutter: chess (PERSON.md §5)"
+ },
+ "research-vault/Daily/2026-01-14.md": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group"
+  ],
+  "notes": "daily note (date-named title)"
+ },
+ "research-vault/Daily/2026-01-27.md": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_dynamite",
+   "project_mathetic_company"
+  ],
+  "notes": "daily note (date-named title)"
+ },
+ "research-vault/Daily/2026-02-09.md": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_tutortrace"
+  ],
+  "notes": "daily note (date-named title)"
+ },
+ "research-vault/Daily/2026-03-25.md": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "daily note (date-named title)"
+ },
+ "research-vault/Daily/2026-03-31.md": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "daily note (date-named title)"
+ },
+ "research-vault/Daily/2026-04-28.md": {
+  "project_ids": [
+   "project_ise6664_affective_computing"
+  ],
+  "notes": "daily note (date-named title)"
+ },
+ "research-vault/Daily/2026-05-05.md": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "daily note (date-named title)"
+ },
+ "research-vault/Daily/2026-06-16.md": {
+  "project_ids": [
+   "project_tutortrace",
+   "project_vt_phd_admin"
+  ],
+  "notes": "daily note (date-named title)"
+ },
+ "research-vault/Daily/2026-07-24.md": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "daily note (date-named title)"
+ },
+ "research-vault/Daily/2026-08-12.md": {
+  "project_ids": [
+   "project_engelbart",
+   "project_mathetic_company"
+  ],
+  "notes": "daily note (date-named title)"
+ },
+ "research-vault/Daily/2026-09-08.md": {
+  "project_ids": [
+   "project_berkeley_research_chats",
+   "project_engelbart"
+  ],
+  "notes": "daily note (date-named title)"
+ },
+ "research-vault/Daily/2026-10-06.md": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "daily note (date-named title)"
+ },
+ "research-vault/Daily/2026-10-14.md": {
+  "project_ids": [
+   "project_engelbart",
+   "project_mathetic_company"
+  ],
+  "notes": "daily note (date-named title)"
+ },
+ "research-vault/Daily/2026-10-16.md": {
+  "project_ids": [
+   "project_endurance_training",
+   "project_engelbart"
+  ],
+  "notes": "daily note (date-named title)"
+ }
+}

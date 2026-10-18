@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20260528T024400Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Lactate threshold testing without a lab</title>
+    <created>20260528T023000Z</created>
+    <updated>20260528T024400Z</updated>
+    <tag>clip</tag>
+    <tag>running-science</tag>
+    <tag>threshold</tag>
+    <note-attributes>
+      <author>David Barron</author>
+      <source>web.clip7</source>
+      <source-url>https://trailandtrackweekly.com/training/lactate-threshold-field-tests</source-url>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><blockquote>my note: my Oct 30' TT gave LTHR 178. redo it in August before Block 4 threshold work.</blockquote><hr/><h3>Lactate threshold testing without a lab</h3><div>Trail &amp; Track Weekly, May 2026</div><div><br/></div><div>You don't need finger pricks to estimate your threshold. Two field tests get most runners close enough to set training zones.</div><div><br/></div><div><b>The 30-minute time trial.</b> Warm up well, then run 30 minutes as hard as you can sustain evenly, alone, on a flat route. Your average heart rate over the last 20 minutes is a decent estimate of lactate-threshold heart rate. Your average pace is close to threshold pace, a little fast for most people because of the short duration.</div><div><br/></div><div><b>The recent-race method.</b> Pace from a recent 10K race, slowed by roughly 10 to 15 seconds per mile, approximates threshold pace for well-trained runners.</div><div><br/></div><div>Use the result to set threshold sessions such as three to four repeats of eight to twelve minutes with short jog recoveries. Retest every eight to twelve weeks; the number moves as fitness changes. If the test day is hot or you slept badly, the result will be off, so pick a cool morning.</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

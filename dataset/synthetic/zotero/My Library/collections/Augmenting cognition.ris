@@ -1,0 +1,159 @@
+TY  - JOUR
+TI  - As We May Think
+AU  - Bush, Vannevar
+T2  - The Atlantic Monthly
+VL  - 176
+IS  - 1
+SP  - 101
+EP  - 108
+PY  - 1945
+DA  - 2026/01/29/
+LA  - en
+KW  - memex
+KW  - trails
+N1  - <div data-schema-version="9"><p><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FmyLibrary%2Fitems%2FT722LKAX%22%5D%7D%5D%7D">(<span class="citation-item">Bush, 1945</span>)</span> re-read for reading group. the part people skip: the trail is the point, not the machine. a named path through stuff, built while thinking, that you can hand to someone else.</p><ul><li>engelbart (the product) &quot;where did this thought come from&quot; = a trail recorded automatically instead of by hand</li><li>question for the group: is an AI chat log a trail? it&#x27;s ordered and has the reasoning, but nobody names it or shares it</li><li>pair with Marchetti 2024 (no tool records why a link was made)</li></ul></div>
+ER  - 
+
+TY  - RPRT
+TI  - Augmenting Human Intellect: A Conceptual Framework
+AU  - Engelbart, Douglas C.
+M1  - Summary Report AFOSR-3223
+PY  - 1962
+DA  - 2026/01/29/
+PB  - Stanford Research Institute
+CY  - Menlo Park, CA
+LA  - en
+KW  - augmentation
+KW  - bootstrapping
+ER  - 
+
+TY  - JOUR
+TI  - Man-Computer Symbiosis
+AU  - Licklider, J. C. R.
+T2  - IRE Transactions on Human Factors in Electronics
+VL  - HFE-1
+IS  - 1
+SP  - 4
+EP  - 11
+PY  - 1960
+DA  - 2026/08/25/
+LA  - en
+KW  - symbiosis
+ER  - 
+
+TY  - CPAPER
+TI  - Complex Information Processing: A File Structure for the Complex, the Changing and the Indeterminate
+AU  - Nelson, T. H.
+T2  - Proceedings of the 1965 20th National Conference
+T3  - ACM '65
+SP  - 84
+EP  - 100
+PY  - 1965
+DA  - 2026/08/25/
+PB  - ACM
+LA  - en
+KW  - hypertext
+ER  - 
+
+TY  - CPAPER
+TI  - Trails Revisited: Associative Indexing in Personal Knowledge Tools Eighty Years After the Memex
+AU  - Marchetti, Elisa
+T2  - Proceedings of the 35th ACM Conference on Hypertext and Social Media
+T3  - HT '24
+SP  - 201
+EP  - 210
+PY  - 2024
+DA  - 2026/08/26/
+PB  - ACM
+CY  - Poznan, Poland
+AB  - Bush's memex proposed that a reader could tie two items together and later replay the chain of associations as a trail. Contemporary personal knowledge tools implement links and backlinks but rarely trails: ordered, named, shareable paths through material. We analyze 18 tools and find that 16 support bidirectional links, 5 support ordered sequences, and none preserves the reason a connection was made. We argue the reason, not the link, was the memex's central idea.
+LA  - en
+KW  - memex
+KW  - trails
+KW  - personal knowledge management
+KW  - hypertext history
+L1  - storage/SIFPU33D/Marchetti - 2024 - Trails Revisited Associative Indexing in Personal Knowledge Tools Eighty Years After the Memex.pdf
+ER  - 
+
+TY  - CPAPER
+TI  - A Research Center for Augmenting Human Intellect
+AU  - Engelbart, Douglas C.
+AU  - English, William K.
+T2  - Proceedings of the December 9-11, 1968, Fall Joint Computer Conference, Part I
+T3  - AFIPS '68 (Fall, part I)
+SP  - 395
+EP  - 410
+PY  - 1968
+DA  - 2026/08/31/
+LA  - en
+KW  - NLS
+KW  - augmentation
+ER  - 
+
+TY  - JOUR
+TI  - Where Did That Idea Come From? Provenance Trails in Researchers' Note-Taking
+AU  - Halvorsen, Tor
+AU  - Quist, Amara
+T2  - Proceedings of the ACM on Human-Computer Interaction
+VL  - 9
+IS  - CSCW2
+SP  - 1
+EP  - 24
+PY  - 2025
+DA  - 2026/09/02/
+AB  - Researchers write notes across many tools and later struggle to recall where an idea came from. In a three-week diary study with 19 researchers, we asked participants to trace the origin of a sample of their own notes. After two weeks, 31% of notes had no recoverable source; most of these originated in conversations, chat with AI assistants, or reading that was not saved. Participants valued provenance most when writing related work and when revisiting abandoned projects.
+LA  - en
+KW  - provenance
+KW  - note-taking
+KW  - diary study
+KW  - researchers
+L1  - storage/BWBP6AMT/Halvorsen and Quist - 2025 - Where Did That Idea Come From Provenance Trails in Researchers' Note-Taking.pdf
+N1  - <div data-schema-version="9"><p><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FmyLibrary%2Fitems%2FSSTSV5H8%22%5D%7D%5D%7D">(<span class="citation-item">Halvorsen and Quist, 2025</span>)</span> good numbers for the deck / one-pager:</p><ul><li>31% of notes had no recoverable source after 2 weeks</li><li>AI chats = 17% of note origins, only 46% recoverable</li><li>median 3.5 min to find a recoverable source</li></ul><p>their implication = &quot;a single import of a researcher&#x27;s existing tools is a precondition&quot;. that is literally our onboarding. send to Hudson</p></div>
+ER  - 
+
+TY  - JOUR
+TI  - The Extended Mind
+AU  - Clark, Andy
+AU  - Chalmers, David
+T2  - Analysis
+VL  - 58
+IS  - 1
+SP  - 7
+EP  - 19
+PY  - 1998
+DA  - 2026/09/08/
+LA  - en
+KW  - extended mind
+ER  - 
+
+TY  - BOOK
+TI  - Cognition in the Wild
+AU  - Hutchins, Edwin
+PY  - 1995
+DA  - 2026/09/14/
+PB  - MIT Press
+CY  - Cambridge, MA
+LA  - en
+KW  - distributed cognition
+ER  - 
+
+TY  - CPAPER
+TI  - Bootstrapping, Measured: Toward an Operational Definition of Collective IQ in Research Teams
+AU  - Sato, Hiroshi
+AU  - Lemaire, Claire
+T2  - Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems
+T3  - CHI EA '23
+SP  - 1
+EP  - 7
+PY  - 2023
+DA  - 2026/09/14/
+PB  - ACM
+CY  - Hamburg, Germany
+AB  - Engelbart argued that groups should improve the way they improve. We propose three operational measures of a research team's collective capability, namely time-to-reuse of prior work, cross-member retrieval success and decision traceability, and pilot them with four lab groups over eight weeks. Teams with shared, searchable records had faster reuse but not better traceability.
+LA  - en
+KW  - collective intelligence
+KW  - research teams
+KW  - bootstrapping
+L1  - storage/AGH87RPD/Sato and Lemaire - 2023 - Bootstrapping, Measured Toward an Operational Definition of Collective IQ in Research Teams.pdf
+ER  - 
+

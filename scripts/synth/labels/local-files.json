@@ -1,0 +1,184 @@
+{
+ "Music/Projects/dusk_loop_v3.zip": {
+  "project_ids": [
+   "project_music_production"
+  ],
+  "notes": "HARD CASE: zip archive of files — FL Studio beat project: notes txt, synthesized preview WAV, hand-written MIDI, and a PLACEHOLDER .flp (header stub only, not a real FL project)"
+ },
+ "Desktop/uist26_talk_assets.zip": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "HARD CASE: zip archive of files — final talk PDF, figures and script; overlaps the Drive \"UIST26 talk assets.zip\" (later version)"
+ },
+ "Downloads/strava_export_2026-10-16/activities.csv": {
+  "project_ids": [
+   "project_endurance_training"
+  ],
+  "notes": "Strava bulk export activities.csv, 214 activities 2025-10-18..2026-10-16"
+ },
+ "Downloads/garmin_sleep_2026-04-01_2026-10-16.csv": {
+  "project_ids": [
+   "project_endurance_training"
+  ],
+  "notes": "Garmin Connect sleep export, daily rows"
+ },
+ "Downloads/UIST 2026 trip.ics": {
+  "project_ids": [
+   "project_tutortrace",
+   "project_vt_phd_admin"
+  ],
+  "notes": "calendar export of the UIST travel"
+ },
+ "Projects/engelbart/import.config.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": null
+ },
+ "Projects/claude-plugins/hc/settings.json": {
+  "project_ids": [
+   "project_claude_code_plugins"
+  ],
+  "notes": null
+ },
+ "Desktop/hc_compaction_results.json": {
+  "project_ids": [
+   "project_claude_code_plugins"
+  ],
+  "notes": null
+ },
+ "Projects/vizpi_frontend/telemetry.config.json": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": null
+ },
+ "Documents/idetrace/split_check_2026-07-24.json": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": null
+ },
+ "Desktop/Engelbart/dedupe_candidates_priya.json": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": null
+ },
+ "Brewfile": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "setup list for the new Mac"
+ },
+ "Desktop/Screenshot 2026-10-13 at 4.12.08 PM.png": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "screenshot of the connect screen during pilot B"
+ },
+ "Desktop/Screenshot 2026-03-30 at 11.48.22 PM.png": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "screenshot of a figure draft during the UIST crunch"
+ },
+ "Desktop/Screenshot 2026-09-15 at 7.02.40 AM.png": {
+  "project_ids": [
+   "project_endurance_training"
+  ],
+  "notes": null
+ },
+ "Desktop/Screenshot 2026-02-21 at 10.14.55 PM.png": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "HARD CASE: personal clutter — chess screenshot on the Desktop"
+ },
+ "Downloads/Receipt-Loopbank-2026-08-30.pdf": {
+  "project_ids": [
+   "project_music_production"
+  ],
+  "notes": null
+ },
+ "Downloads/receipt_valley_cycles_2026-05-12.pdf": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "HARD CASE: personal clutter — bike shop receipt"
+ },
+ "Downloads/CarHaul_receipt_order_58213.pdf": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "HARD CASE: personal clutter — car shipping receipt for the move"
+ },
+ "Downloads/UIST2026_registration_receipt.pdf": {
+  "project_ids": [
+   "project_tutortrace",
+   "project_vt_phd_admin"
+  ],
+  "notes": null
+ },
+ "Downloads/invoice_final_FINAL.pdf": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "HARD CASE: vague title — \"invoice_final_FINAL.pdf\" is a Mathetic landing-page illustration invoice"
+ },
+ "Downloads/CA vehicle registration checklist.pdf": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": null
+ },
+ "Documents/Lease summary - Surplus house.docx": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "fictional lease summary"
+ },
+ "Documents/VT/cs3604_attendance_F25.csv": {
+  "project_ids": [
+   "project_cs3604_gta"
+  ],
+  "notes": "attendance for project demo check-ins, 64 fictional students"
+ },
+ "Desktop/vizpi_deploy2_event_rates.csv": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "per-minute telemetry event rate per section, deployment #2"
+ },
+ "Downloads/Berkeley research chats - sign-up (Responses).csv": {
+  "project_ids": [
+   "project_berkeley_research_chats"
+  ],
+  "notes": "form responses export"
+ },
+ "Documents/budget_aug2026.csv": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "HARD CASE: personal clutter — move-month budget"
+ },
+ "Desktop/Engelbart/import_counts_pilot1_2026-10-09.csv": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": null
+ },
+ "Downloads/chess_games_2026-02-21.pgn": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "HARD CASE: personal clutter — exported chess games"
+ },
+ "Music/Samples/dusk_kick_tape.wav": {
+  "project_ids": [
+   "project_music_production"
+  ],
+  "notes": "short synthesized one-bar sketch used as a kick reference"
+ }
+}

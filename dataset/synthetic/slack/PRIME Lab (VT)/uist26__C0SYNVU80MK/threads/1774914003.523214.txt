@@ -1,0 +1,13 @@
+=== THREAD PARENT MESSAGE ===
+From: Rezky (U0SYNS0GL2E)
+Time: 2026-03-30 16:40:03 PDT
+Message TS: 1774914003.523214
+anonymized the guide: removed "VT", "CS 3114" and our names from the header and the example screenshots
+
+=== THREAD REPLIES (1 total) ===
+
+--- Reply 1 of 1 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-03-30 16:44:10 PDT
+Message TS: 1774914250.535960
+ty. also the dashboard url in fig 2 shows the lab domain, blurring it

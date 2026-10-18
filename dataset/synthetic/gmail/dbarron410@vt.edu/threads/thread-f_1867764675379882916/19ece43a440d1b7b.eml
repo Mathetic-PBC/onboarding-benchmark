@@ -1,0 +1,46 @@
+From: David Barron <dbarron410@vt.edu>
+To: Yan Chen <ychen.prime@vt.edu>
+Subject: Re: rebuttal plan =?utf-8?b?4oCU?= UIST #1187
+Date: Mon, 15 Jun 2026 22:30:00 -0400
+Message-ID:
+ <CA0be1FdC_G65tboxUqDN+CD4nmPGPuh3IRd23F7RmHrFLNZe1Us0x@mail.gmail.com>
+In-Reply-To:
+ <CAHZCDZuCCQ2RroALhFyTcS4fBVsE6ZKXjdoqL9Etgm3iX+rDUWknx@mail.gmail.com>
+References:
+ <CAIQdDpBbpm8+mcGBt8K8pGwyGBrvalNrNE_8wyohLUWuPSJZnrvtf@mail.gmail.com>
+ <CAHZCDZuCCQ2RroALhFyTcS4fBVsE6ZKXjdoqL9Etgm3iX+rDUWknx@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1867764675379882916
+X-Gmail-Labels: Sent
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Draft is in the Overleaf rebuttal project, 4,620 characters. Per-pair kappas =
+are 0.69 / 0.71 / 0.74. I scoped the cross-course promise to state distributi=
+ons as you suggested.
+
+On Fri, Jun 12, 2026 at 9:15 AM Yan Chen <ychen.prime@vt.edu> wrote:
+> Good plan. On (2), promise only what we can deliver by camera-ready: a cros=
+s-course comparison of state distributions, not a full re-labeling. On (3), R=
+3 is the 2.5; be concrete and short. Monday is fine.
+>
+> On Fri, Jun 12, 2026 at 12:40 AM David Barron <dbarron410@vt.edu> wrote:
+>> Hi Yan,
+>>
+>> Reviews are in (4 / 3.5 / 3 / 2.5). The three concerns that come up in mor=
+e than one review:
+>>
+>> 1. Label reliability (R2, R4): is kappa 0.71 across 3 raters good enough, =
+and were raters independent of the system design?
+>> 2. Generalization (R1, R3, R4): one course, one semester.
+>> 3. Telemetry privacy (R3): what do students consent to, and can instructor=
+s identify students in replays?
+>>
+>> Plan: (1) report per-pair kappa and note that one rater (Xiaohang) wasn't =
+involved in the guide's design; (2) promise a cross-course analysis using the=
+ spring CS 2114 data we already have consent for, plus a limitations section;=
+ (3) describe the consent text and the pseudonymized replay view.
+>>
+>> Draft by Monday?
+>>
+>> David

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20251103T014400Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Zone 2 HR numbers</title>
+    <created>20251027T011500Z</created>
+    <updated>20251103T014400Z</updated>
+    <tag>zones</tag>
+    <tag>heart-rate</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>From the 30-min solo TT on the track 10/19 (avg HR last 20 min = 178). Using LTHR ~178.</div><div><br/></div><table style="border-collapse:collapse"><tr><td style="border:1px solid #ccc;padding:4px"><b>zone</b></td><td style="border:1px solid #ccc;padding:4px"><b>% LTHR</b></td><td style="border:1px solid #ccc;padding:4px"><b>bpm</b></td><td style="border:1px solid #ccc;padding:4px"><b>use</b></td></tr><tr><td style="border:1px solid #ccc;padding:4px">Z1</td><td style="border:1px solid #ccc;padding:4px">&lt; 81%</td><td style="border:1px solid #ccc;padding:4px">&lt; 144</td><td style="border:1px solid #ccc;padding:4px">recovery jogs, cooldowns</td></tr><tr><td style="border:1px solid #ccc;padding:4px">Z2</td><td style="border:1px solid #ccc;padding:4px">81-89%</td><td style="border:1px solid #ccc;padding:4px">144-158</td><td style="border:1px solid #ccc;padding:4px">almost everything. aim 148-154</td></tr><tr><td style="border:1px solid #ccc;padding:4px">Z3</td><td style="border:1px solid #ccc;padding:4px">90-93%</td><td style="border:1px solid #ccc;padding:4px">159-165</td><td style="border:1px solid #ccc;padding:4px">avoid ("grey zone")</td></tr><tr><td style="border:1px solid #ccc;padding:4px">Z4</td><td style="border:1px solid #ccc;padding:4px">94-99%</td><td style="border:1px solid #ccc;padding:4px">166-176</td><td style="border:1px solid #ccc;padding:4px">threshold work</td></tr><tr><td style="border:1px solid #ccc;padding:4px">Z5</td><td style="border:1px solid #ccc;padding:4px">100%+</td><td style="border:1px solid #ccc;padding:4px">177+</td><td style="border:1px solid #ccc;padding:4px">strides, hills only</td></tr></table><div><br/></div><div>Max HR seen this year: 197 (the 1 mile TT in august).</div><div>Bike Z2 is ~8 bpm lower for the same feel: use 136-148 on the trainer.</div><div><br/></div><div>Rules for myself</div><ul><li>If HR drifts above 158 on an easy run -&gt; walk 30 s, don't just "push through".</li><li>Easy pace right now = 8:05-8:30/mi at 150. that's fine. it will come down.</li><li>Check drift: first half vs second half avg HR on the 70' runs. &lt; 5% decoupling = aerobically ok at that pace.</li></ul></en-note>]]>
+    </content>
+  </note>
+</en-export>

@@ -1,0 +1,49 @@
+{
+ "uuid": "93970820-73da-4f20-b0f0-21b73cca6768",
+ "slug": "found-a-leakage-bug-in-our-neurips-d-b-7dF5pQe8djW2w9cEZPGfW4",
+ "title": "Reporting a metric drop after fixing leakage",
+ "thread_url": "https://www.perplexity.ai/search/found-a-leakage-bug-in-our-neurips-d-b-7dF5pQe8djW2w9cEZPGfW4",
+ "created_at": "2026-07-26T03:10:00Z",
+ "updated_at": "2026-07-26T03:15:56Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "d7f54b29-0f36-4f8c-8eb4-6875335ee54e",
+   "query_str": "found a leakage bug in our neurips d&b submission — same students in train and test. fixed with group split by student id, macro f1 0.81 -> 0.74. rebuttal is in 4 days. how do i report this without tanking the paper",
+   "answer": "Report it **proactively and transparently** — reviewers generally respond better to authors who find and fix their own leakage than to ones who get caught [1][2]. A structure that works:\n\n1. **Lead with the correction:** \"During the rebuttal period we identified that our random window-level split placed windows from the same student in both train and test. We re-ran all baselines with a split grouped by student id.\"\n2. **Report both numbers** in a small table: original (leaky) 0.81 vs corrected 0.74 macro-F1, for each baseline. Showing all baselines dropping similarly signals the issue was the split, not a single model [2].\n3. **Explain why the corrected number matters for a benchmark:** student-grouped evaluation measures generalization to unseen learners, which is the intended use case [1].\n4. **Commit to updating the official split** in the released dataset and the datasheet, and add a leakage-check script to the repo.\n\nFor a datasets paper, the contribution is the dataset and its evaluation protocol; a lower but honest number on a well-defined split arguably *strengthens* it [2].",
+   "sources": [
+    {
+     "name": "Leakage and reproducibility in ML-based science",
+     "url": "https://www.mlpitfalls.net/leakage-reproducibility",
+     "snippet": "How leakage inflates results and how to report corrections."
+    },
+    {
+     "name": "Responding to reviewers when your results change",
+     "url": "https://www.academicwritingguide.org/results-changed",
+     "snippet": "Strategies for transparent corrections during review."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-07-26T03:10:00Z",
+   "updated_at": "2026-07-26T03:10:17Z"
+  },
+  {
+   "uuid": "1dca197f-62fe-4e00-8d96-ee92b4ed5b23",
+   "query_str": "should the 0.81 stay anywhere in the camera ready",
+   "answer": "Usually only in a brief note or appendix if at all — e.g., \"an earlier version used a window-level split, which overestimated performance (0.81); all reported results use the student-grouped split.\" Including it once is useful as a **cautionary data point for others using the dataset**, but the headline results should be the corrected ones [1].",
+   "sources": [
+    {
+     "name": "Leakage and reproducibility in ML-based science",
+     "url": "https://www.mlpitfalls.net/leakage-reproducibility",
+     "snippet": "Documenting corrected evaluations."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-07-26T03:15:37Z",
+   "updated_at": "2026-07-26T03:15:50Z"
+  }
+ ]
+}

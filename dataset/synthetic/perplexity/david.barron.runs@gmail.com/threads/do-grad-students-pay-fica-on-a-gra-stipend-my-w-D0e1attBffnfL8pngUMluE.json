@@ -1,0 +1,49 @@
+{
+ "uuid": "5204239b-df23-4c38-83b6-047e932e5278",
+ "slug": "do-grad-students-pay-fica-on-a-gra-stipend-my-w-D0e1attBffnfL8pngUMluE",
+ "title": "Do GRA stipends have FICA withheld",
+ "thread_url": "https://www.perplexity.ai/search/do-grad-students-pay-fica-on-a-gra-stipend-my-w-D0e1attBffnfL8pngUMluE",
+ "created_at": "2026-03-10T01:00:00Z",
+ "updated_at": "2026-03-10T01:04:52Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "9f189254-f193-47fe-8fcc-9d1dff053da7",
+   "query_str": "do grad students pay FICA on a GRA stipend? my w-2 box 4 is 0 and i want to know if thats right before i file",
+   "answer": "That can be correct. Under the **student FICA exception**, wages paid by a college or university to a student who is enrolled and regularly attending classes at that school are generally **exempt from Social Security and Medicare taxes** [1][2]. Most universities apply it to graduate research and teaching assistants who are enrolled at least half-time.\n\nSo Box 4 (Social Security tax withheld) and Box 6 (Medicare) showing 0 is expected if you were enrolled during the pay periods. Things that can change it:\n- **Summer months** when you weren't enrolled — some schools withhold FICA for those pay periods [2].\n- Being classified as a **full-time employee** rather than a student employee.\n\nThe stipend is still subject to **federal and state income tax** (Boxes 1, 2, 16, 17) [1].",
+   "sources": [
+    {
+     "name": "IRS — Student exception to FICA tax",
+     "url": "https://www.irs.gov/charities-non-profits/student-exception-to-fica-tax",
+     "snippet": "Conditions under which student wages from a school are exempt from FICA."
+    },
+    {
+     "name": "Taxes for graduate assistants: a practical guide",
+     "url": "https://www.gradfinanceguide.org/assistantship-taxes",
+     "snippet": "How assistantship pay shows up on a W-2 and when FICA applies."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "claude-sonnet",
+   "created_at": "2026-03-10T01:00:00Z",
+   "updated_at": "2026-03-10T01:00:22Z"
+  },
+  {
+   "uuid": "ed256207-98f4-4aed-ae56-c2340e99fc4f",
+   "query_str": "so i dont need to do anything special, just enter the w-2 as is",
+   "answer": "Correct — enter the W-2 as issued. Tax software will use Box 1 for wages and Box 2 for federal withholding; zeros in Boxes 4 and 6 don't need an explanation [1]. Only if you think FICA *should* have been withheld (or was withheld wrongly), contact payroll for a corrected W-2c rather than adjusting it yourself [1].",
+   "sources": [
+    {
+     "name": "Taxes for graduate assistants: a practical guide",
+     "url": "https://www.gradfinanceguide.org/assistantship-taxes",
+     "snippet": "Entering W-2s and requesting corrected forms."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "sonar",
+   "created_at": "2026-03-10T01:04:32Z",
+   "updated_at": "2026-03-10T01:04:44Z"
+  }
+ ]
+}

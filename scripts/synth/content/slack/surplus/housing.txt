@@ -1,0 +1,42 @@
+# Surplus Residents #housing — synthetic, house logistics (unrelated)
+@2026-08-09
+14:00 sam | welcome to the house! i'm in room 3. kitchen rules are on the fridge. the big pantry shelf is shared, label anything you don't want eaten
+~r wave:2
+> 14:20 david | thanks! got in yesterday, room 5. where do bikes go?
+> 14:22 sam | garage, code is on the fridge. there's a pump by the door
+
+@2026-08-13
+21:05 sam | costco run sunday. add to the list: <https://docs.google.com/spreadsheets/d/1HsGrcLst0qP8vRxTnB2mKc4YwD7eUaZ9fJ1oLtNbXqI/edit|house groceries>
+> 21:30 david | added oats, frozen berries, eggs x2, rice
+
+@2026-08-20
+07:45 david | anyone know a bike shop near here? derailleur is bent and shifting skips under load. the move did it
+> 08:10 sam | the one on valencia does same-day if you drop it off before 10
+> 18:40 david | fixed, $45. bent hanger, they replaced it
+
+@2026-08-26
+22:15 sam | whoever runs the dishwasher at 11pm: it's right under my room. could we start it before 10?
+~r +1:3 pray:1
+> 22:20 david | that was me, sorry. before 10 from now on
+
+@2026-09-03
+19:00 sam | september chore wheel is on the fridge. david you're on trash + recycling (tue/fri nights)
+~r +1:1
+
+@2026-09-12
+20:30 david | doing a long run out to the bridge tomorrow at 7. anyone want to bike alongside lol
+> 20:41 sam | absolutely not, it's saturday
+
+@2026-09-25
+16:00 sam | the upstairs shower drain is slow again. landlord is sending someone monday 9–12
+~r +1:2
+
+@2026-10-10
+13:00 david | making a huge pot of chili tonight for meal prep. leftovers will be on the shared shelf, take some
+~r yum:3 heart:1
+
+@2026-10-15
+14:30 sam | congrats on the half!! saw it on strava. 1:24 is fast
+~p project_endurance_training
+> 14:40 david | thanks!! owen beat me by almost 3 min though
+> 14:41 sam | still

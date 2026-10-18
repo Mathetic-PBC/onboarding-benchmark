@@ -1,0 +1,94 @@
+# PRIME Lab (VT) #general — synthetic. Format: see gen_slack.py docstring.
+@2025-10-20
+10:02 yan | Lab meeting this Thursday moves to 2:00pm (same room). Rezky is presenting the replay-viewer usability results, Xiaohang has 10 minutes on the new GPU queue policy.
+~r +1:4
+11:47 rezky | slides will be up by wed night. comments welcome on the timeline scrubber figure, it's still ugly
+
+@2025-10-27
+13:15 xiaohang | reminder: prime-gpu2 is down Saturday 8am–noon for the driver update. checkpoint anything long-running before friday night
+~r white_check_mark:3
+
+@2025-11-11
+21:40 david | heads up for tomorrow: VizPI deployment #2 in CS 3114, lab session 3:30–4:45pm. <@minsun> and <@xiaohang> are TAs-on-call in the room with me, <@rezky> is watching the dashboard remotely. if you need the lab workstation tomorrow afternoon pls ask first, it's running the recorder
+~r +1:3 rocket:2
+
+@2025-11-12
+18:05 david | dep #2 done. 87 students across both sections, 3 TAs, no crashes. one real problem: websocket reconnects in section B were dropping buffered events until the hotfix at 4:10. details in #vizpi, postmortem tomorrow
+~r tada:4 sweat_smile:2
+~p project_vizpi
+> 18:11 yan | Thanks David, and thanks to everyone who was in the room. Please quantify the loss before we decide anything about section B.
+> 18:14 david | yep. rough guess ~12% of section B events for the whole session, all of it between 3:30 and 4:10. exact number tomorrow once i diff server rows against client sequence numbers
+> 18:30 minsun | the students didn't notice anything at least, the UI kept working
+
+@2025-12-08
+09:30 yan | End-of-semester lab lunch: Friday 12/12 at 12:30, I'm paying. Reply in the thread with dietary restrictions.
+~r yum:5 heart:2
+~p project_none
+> 09:41 yue | vegetarian please
+> 10:05 rezky | no restrictions, just want the dumplings from last time
+> 11:22 david | no restrictions! i'm grading 3604 p4 until ~12:20 that day so might be 10 min late
+
+@2025-12-19
+16:20 yue | the lab is closed 12/23–1/2. if you have data only on the lab workstation please copy it to the shared drive, IT is patching the machine on the 29th
+~r +1:2
+
+@2026-01-13
+08:55 yan | Welcome back. Spring lab meetings: Wednesdays 10:00–11:00. The paper-reading rotation is pinned in #paper-reading. Anyone planning a UIST submission (deadline March 31), tell me by Feb 20 so we can plan reads.
+~r +1:5
+
+@2026-01-27
+22:48 david | is anyone else getting `CUDA error: out of memory` on prime-gpu1 with nothing running? nvidia-smi shows 21GB held by a zombie python process from last week
+~p project_none
+> 23:02 xiaohang | that's mine, sorry. killed it
+> 23:03 david | lol np ty
+
+@2026-02-12
+10:30 yan | UIST: TutorTrace (David, Minsun, Rezky, Yue) is our submission this year. I created #uist26 for it. Everyone else, please keep the last week of March free for pilot reads.
+~r muscle:3
+
+@2026-03-30
+15:10 minsun | there are snacks on the table by the window for the uist people. eat them pls, i bought too many
+~r pray:3 cookie:2
+
+@2026-04-01
+09:12 yan | TutorTrace was submitted last night. Thanks to everyone who read drafts, and to the authors for a calm final week (mostly). Rest a bit.
+~r tada:6
+
+@2026-05-07
+10:05 yan | IDETrace was submitted to the NeurIPS Datasets & Benchmarks track yesterday. Congratulations Xiaohang, Yue and David.
+~r tada:5 rocket:2
+
+@2026-07-02
+19:21 david | TutorTrace got conditionally accepted to UIST 2026!!! thank you all for the reads and the rebuttal help :sob:
+~r tada:6 partying_face:4 fire:3
+~p project_tutortrace
+> 19:30 yan | Congratulations! Well deserved. Let's make sure the cross-course analysis we promised is in the camera-ready.
+> 19:33 minsun | yayyyy
+> 19:58 rezky | let's go. dinner?
+> 20:05 david | yes dinner. usual place at 8?
+
+@2026-08-03
+11:30 david | some personal news: starting this fall i'm on a leave of absence from the phd to co-found a company (Mathetic) with Hudson Mitchell-Pullman. we're building a research notebook that keeps track of where your ideas came from. i'm moving to SF this saturday (8/8).
+  \
+  i'm not disappearing: i'm finishing the uist camera-ready (due 8/14) and the idetrace rebuttal discussion, and vizpi_frontend is handed off to <@rezky> (doc coming in #vizpi). Yan and i talked about this in june and the paperwork is done. thank you all, this lab has been the best part of grad school
+~r heart:6 rocket:4 tada:3
+~p project_mathetic_company project_vt_phd_admin
+~n announcement of the leave of absence (PERSON.md §7); mentions UIST camera-ready and IDETrace rebuttal in passing
+> 11:42 yan | We'll miss you in lab meetings. You're always welcome back, and good luck with Mathetic.
+> 11:50 minsun | noooo. but also congrats!! send pics of sf
+> 12:03 xiaohang | congrats david. who gets your monitor
+> 12:05 david | <@xiaohang> it's yours lol
+> 13:40 yue | congrats!! farewell lunch thursday?
+> 13:44 david | yes please
+
+@2026-08-04
+12:10 yue | farewell lunch for David: Thursday 8/6, 12:30, the Thai place on Main. Lab is paying.
+~r yum:4 heart:2
+
+@2026-08-14
+22:31 david | uist camera-ready is in. the cross-course analysis made it (section 6.3). thank you <@minsun> <@rezky> <@yue> for the last-minute figure fixes
+~r tada:4
+
+@2026-08-26
+07:15 yan | Fall lab meetings: Thursdays 11:00. David will join remotely once a month for IDETrace updates.
+~r +1:3

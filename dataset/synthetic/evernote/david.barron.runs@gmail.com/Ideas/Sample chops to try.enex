@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20260208T043000Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Sample chops to try</title>
+    <created>20260201T035000Z</created>
+    <updated>20260208T043000Z</updated>
+    <tag>beats</tag>
+    <tag>samples</tag>
+    <tag>fl-studio</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>From the sample pack I bought in December + old records.</div><div><br/></div><table style="border-collapse:collapse"><tr><td style="border:1px solid #ccc;padding:4px"><b>sample</b></td><td style="border:1px solid #ccc;padding:4px"><b>idea</b></td><td style="border:1px solid #ccc;padding:4px"><b>bpm</b></td><td style="border:1px solid #ccc;padding:4px"><b>status</b></td></tr><tr><td style="border:1px solid #ccc;padding:4px">strings loop #14</td><td style="border:1px solid #ccc;padding:4px">chop into 8 slices, re-sequence, reverse slice 6</td><td style="border:1px solid #ccc;padding:4px">90</td><td style="border:1px solid #ccc;padding:4px">done, sounds great</td></tr><tr><td style="border:1px solid #ccc;padding:4px">soul vocal "oh-oh"</td><td style="border:1px solid #ccc;padding:4px">formant shift down, use as a hook between 808 hits</td><td style="border:1px solid #ccc;padding:4px">140</td><td style="border:1px solid #ccc;padding:4px">tried, too obvious</td></tr><tr><td style="border:1px solid #ccc;padding:4px">piano one-shot C3</td><td style="border:1px solid #ccc;padding:4px">play it chromatically in Fruity Slicer, detune 7 cents</td><td style="border:1px solid #ccc;padding:4px">75</td><td style="border:1px solid #ccc;padding:4px">todo</td></tr><tr><td style="border:1px solid #ccc;padding:4px">vinyl crackle</td><td style="border:1px solid #ccc;padding:4px">sidechain to the kick so it ducks</td><td style="border:1px solid #ccc;padding:4px">any</td><td style="border:1px solid #ccc;padding:4px">done</td></tr><tr><td style="border:1px solid #ccc;padding:4px">brass stab</td><td style="border:1px solid #ccc;padding:4px">gate it 1/16, filter sweep into the drop</td><td style="border:1px solid #ccc;padding:4px">150</td><td style="border:1px solid #ccc;padding:4px">todo</td></tr></table><div><br/></div><div>Rule: no more than 20 min on a chop. If it's not working, next sample.</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

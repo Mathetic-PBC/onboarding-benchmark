@@ -1,0 +1,96 @@
+Channel: #general (C0SYNYCEN6N)
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-08-26 07:15:21 PDT === 
+Message TS: 1787753721.384539
+Fall lab meetings: Thursdays 11:00. David will join remotely once a month for IDETrace updates.
+Reactions: +1 (3)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-08-14 22:31:58 PDT === 
+Message TS: 1786771918.521340
+uist camera-ready is in. the cross-course analysis made it (section 6.3). thank you <@U0SYN15CS2P|Minsun> <@U0SYNS0GL2E|Rezky> <@U0SYNRUS5ER|Yue> for the last-minute figure fixes
+Reactions: tada (4)
+
+=== Message from Yue (U0SYNRUS5ER) at 2026-08-04 09:10:27 PDT === 
+Message TS: 1785859827.299261
+farewell lunch for David: Thursday 8/6, 12:30, the Thai place on Main. Lab is paying.
+Reactions: yum (4), heart (2)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-08-03 08:30:11 PDT === 
+Message TS: 1785771011.049595
+some personal news: starting this fall i'm on a leave of absence from the phd to co-found a company (Mathetic) with Hudson Mitchell-Pullman. we're building a research notebook that keeps track of where your ideas came from. i'm moving to SF this saturday (8/8).
+
+i'm not disappearing: i'm finishing the uist camera-ready (due 8/14) and the idetrace rebuttal discussion, and vizpi_frontend is handed off to <@U0SYNS0GL2E|Rezky> (doc coming in #vizpi). Yan and i talked about this in june and the paperwork is done. thank you all, this lab has been the best part of grad school
+Thread: 6 replies (latest: 2026-08-03 10:44:27 PDT)
+Reactions: heart (6), rocket (4), tada (3)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-07-02 16:21:05 PDT === 
+Message TS: 1783034465.337259
+TutorTrace got conditionally accepted to UIST 2026!!! thank you all for the reads and the rebuttal help :sob:
+Thread: 4 replies (latest: 2026-07-02 17:05:45 PDT)
+Reactions: tada (6), partying_face (4), fire (3)
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-05-07 07:05:15 PDT === 
+Message TS: 1778162715.037164
+IDETrace was submitted to the NeurIPS Datasets & Benchmarks track yesterday. Congratulations Xiaohang, Yue and David.
+Reactions: tada (5), rocket (2)
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-04-01 06:12:43 PDT === 
+Message TS: 1775049163.422912
+TutorTrace was submitted last night. Thanks to everyone who read drafts, and to the authors for a calm final week (mostly). Rest a bit.
+Reactions: tada (6)
+
+=== Message from Minsun (U0SYN15CS2P) at 2026-03-30 12:10:39 PDT === 
+Message TS: 1774897839.344680
+there are snacks on the table by the window for the uist people. eat them pls, i bought too many
+Reactions: pray (3), cookie (2)
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-02-12 07:30:17 PST === 
+Message TS: 1770910217.273191
+UIST: TutorTrace (David, Minsun, Rezky, Yue) is our submission this year. I created #uist26 for it. Everyone else, please keep the last week of March free for pilot reads.
+Reactions: muscle (3)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2026-01-27 19:48:13 PST === 
+Message TS: 1769572093.774083
+is anyone else getting `CUDA error: out of memory` on prime-gpu1 with nothing running? nvidia-smi shows 21GB held by a zombie python process from last week
+Thread: 2 replies (latest: 2026-01-27 20:03:09 PST)
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2026-01-13 05:55:31 PST === 
+Message TS: 1768312531.268321
+Welcome back. Spring lab meetings: Wednesdays 10:00–11:00. The paper-reading rotation is pinned in #paper-reading. Anyone planning a UIST submission (deadline March 31), tell me by Feb 20 so we can plan reads.
+Reactions: +1 (5)
+
+=== Message from Yue (U0SYNRUS5ER) at 2025-12-19 13:20:30 PST === 
+Message TS: 1766179230.686134
+the lab is closed 12/23–1/2. if you have data only on the lab workstation please copy it to the shared drive, IT is patching the machine on the 29th
+Reactions: +1 (2)
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2025-12-08 06:30:17 PST === 
+Message TS: 1765204217.485571
+End-of-semester lab lunch: Friday 12/12 at 12:30, I'm paying. Reply in the thread with dietary restrictions.
+Thread: 3 replies (latest: 2025-12-08 08:22:09 PST)
+Reactions: yum (5), heart (2)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2025-11-12 15:05:49 PST === 
+Message TS: 1762988749.372295
+dep #2 done. 87 students across both sections, 3 TAs, no crashes. one real problem: websocket reconnects in section B were dropping buffered events until the hotfix at 4:10. details in #vizpi, postmortem tomorrow
+Thread: 3 replies (latest: 2025-11-12 15:30:41 PST)
+Reactions: tada (4), sweat_smile (2)
+
+=== Message from David Barron <dbarron410@vt.edu> (U0SYNZSPT5P) at 2025-11-11 18:40:32 PST === 
+Message TS: 1762915232.215184
+heads up for tomorrow: VizPI deployment #2 in CS 3114, lab session 3:30–4:45pm. <@U0SYN15CS2P|Minsun> and <@U0SYN2JB5HW|Xiaohang> are TAs-on-call in the room with me, <@U0SYNS0GL2E|Rezky> is watching the dashboard remotely. if you need the lab workstation tomorrow afternoon pls ask first, it's running the recorder
+Reactions: +1 (3), rocket (2)
+
+=== Message from Xiaohang (U0SYN2JB5HW) at 2025-10-27 10:15:41 PDT === 
+Message TS: 1761585341.223000
+reminder: prime-gpu2 is down Saturday 8am–noon for the driver update. checkpoint anything long-running before friday night
+Reactions: white_check_mark (3)
+
+=== Message from Rezky (U0SYNS0GL2E) at 2025-10-20 08:47:55 PDT === 
+Message TS: 1760975275.548321
+slides will be up by wed night. comments welcome on the timeline scrubber figure, it's still ugly
+
+=== Message from Yan Chen (U0SYNWFLRZV) at 2025-10-20 07:02:54 PDT === 
+Message TS: 1760968974.952681
+Lab meeting this Thursday moves to 2:00pm (same room). Rezky is presenting the replay-viewer usability results, Xiaohang has 10 minutes on the new GPU queue policy.
+Reactions: +1 (4)

@@ -1,0 +1,73 @@
+{
+ "uuid": "a660d675-0f34-4e69-83ff-7247868b0b5c",
+ "slug": "3-raters-labeled-all-windows-5-categories-cohen-YaiBqUZ39g96AeXnzDS6UR",
+ "title": "Cohen's vs Fleiss' kappa with three raters",
+ "thread_url": "https://www.perplexity.ai/search/3-raters-labeled-all-windows-5-categories-cohen-YaiBqUZ39g96AeXnzDS6UR",
+ "created_at": "2026-03-26T03:55:00Z",
+ "updated_at": "2026-03-26T04:02:59Z",
+ "collection": {
+  "uuid": "eed80aee-0bf6-468d-9e04-939088cec800",
+  "title": "UIST related work"
+ },
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "73045c27-874a-4616-a534-fdf361c2f746",
+   "query_str": "3 raters labeled all windows (5 categories). cohen or fleiss kappa? or average pairwise cohen",
+   "answer": "With **3 raters who all labeled the same items** and nominal categories, the standard choices are [1][2]:\n\n- **Fleiss' kappa** — designed for more than two raters; treats raters as interchangeable. Most common in papers like yours.\n- **Average pairwise Cohen's kappa** (sometimes called Light's kappa) — compute Cohen's kappa for each of the 3 pairs and average. Useful if you also want to show pairwise agreement (e.g., one rater is an outlier).\n- **Krippendorff's alpha** — handles missing labels and different measurement levels; good if not every rater labeled every window [2].\n\nRecommendation: report **Fleiss' kappa** as the headline number and include the **three pairwise Cohen's kappas** in a footnote or appendix. If all raters labeled everything, Fleiss and averaged Cohen will usually be close [1].",
+   "sources": [
+    {
+     "name": "Agreement statistics for multiple raters — a practical guide",
+     "url": "https://www.methodsforhci.org/multi-rater-agreement",
+     "snippet": "Fleiss, Light's and Krippendorff's measures compared."
+    },
+    {
+     "name": "Krippendorff's alpha explained",
+     "url": "https://www.statsforannotation.org/krippendorff-alpha",
+     "snippet": "When alpha is preferable and how to compute it."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "gpt-5",
+   "created_at": "2026-03-26T03:55:00Z",
+   "updated_at": "2026-03-26T03:55:26Z"
+  },
+  {
+   "uuid": "0b6cf56c-25ac-4a94-a06e-d9117ef21d4c",
+   "query_str": "we get 0.71 fleiss. how do i describe that, substantial?",
+   "answer": "Under the commonly cited Landis & Koch benchmarks, **0.61–0.80 is \"substantial\" agreement**, so 0.71 can be described that way [1]. Many HCI papers phrase it as \"substantial agreement (Fleiss' κ = 0.71)\" [1][2]. Be aware that these benchmarks are conventions rather than statistical thresholds, and some reviewers prefer you also report per-category agreement so they can see which states were hard (e.g., stalling vs productive struggle) [2].",
+   "sources": [
+    {
+     "name": "Interpreting kappa: the Landis and Koch scale and its critics",
+     "url": "https://www.statsforannotation.org/interpreting-kappa",
+     "snippet": "Benchmark ranges and their limitations."
+    },
+    {
+     "name": "Reporting agreement for subjective annotations",
+     "url": "https://www.methodsforhci.org/reporting-agreement",
+     "snippet": "Per-category agreement and confusion matrices."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "claude-sonnet",
+   "created_at": "2026-03-26T03:59:46Z",
+   "updated_at": "2026-03-26T04:00:07Z"
+  },
+  {
+   "uuid": "1c92a8ca-f46a-4004-844e-539591f53678",
+   "query_str": "per-category fleiss is a thing?",
+   "answer": "Yes — Fleiss' original formulation gives a **kappa for each category** (agreement on \"this category vs not\") alongside the overall value; most stats packages (e.g., `statsmodels` doesn't, but `irr`-style R packages and some Python libraries do) can output it, or you can compute it by binarizing each category and running Fleiss on the binary labels [1]. Report it as a small table: category, n windows, per-category κ.",
+   "sources": [
+    {
+     "name": "Agreement statistics for multiple raters — a practical guide",
+     "url": "https://www.methodsforhci.org/multi-rater-agreement",
+     "snippet": "Category-wise kappa and how to compute it."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "pplx_pro",
+   "created_at": "2026-03-26T04:02:28Z",
+   "updated_at": "2026-03-26T04:02:43Z"
+  }
+ ]
+}

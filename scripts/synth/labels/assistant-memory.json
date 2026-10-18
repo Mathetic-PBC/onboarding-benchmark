@@ -1,0 +1,87 @@
+{
+ "chatgpt/memories_synthetic.json": {
+  "project_ids": [
+   "project_berkeley_research_chats",
+   "project_cs3604_gta",
+   "project_dynamite",
+   "project_endurance_training",
+   "project_engelbart",
+   "project_idetrace",
+   "project_ise6664_affective_computing",
+   "project_mathetic_company",
+   "project_music_production",
+   "project_sophia",
+   "project_tutortrace",
+   "project_vizpi",
+   "project_vt_phd_admin"
+  ],
+  "notes": "saved memories (24 entries) spanning the synthetic ChatGPT chats; profile-level item"
+ },
+ "chatgpt/user_system_messages_synthetic.json": {
+  "project_ids": [
+   "project_endurance_training",
+   "project_engelbart",
+   "project_mathetic_company"
+  ],
+  "notes": "custom instructions (Customize ChatGPT); updated after the leave began"
+ },
+ "claude/memory_synthetic.json": {
+  "project_ids": [
+   "project_berkeley_research_chats",
+   "project_claude_code_plugins",
+   "project_cs3604_gta",
+   "project_endurance_training",
+   "project_engelbart",
+   "project_idetrace",
+   "project_ise6664_affective_computing",
+   "project_mathetic_company",
+   "project_music_production",
+   "project_tutortrace",
+   "project_vizpi",
+   "project_vt_phd_admin"
+  ],
+  "notes": "memory synthesized by Claude from the synthetic Claude chats; profile-level item"
+ },
+ "claude/account_profile_synthetic.json": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "personal preferences (custom instructions); generic, mentions no project"
+ },
+ "grok/memories.json": {
+  "project_ids": [
+   "project_endurance_training",
+   "project_engelbart",
+   "project_music_production",
+   "project_none",
+   "project_plotpact",
+   "project_tutortrace"
+  ],
+  "notes": "Grok \"Personalize → Memory\" list (no real Grok data; documented settings shape); profile-level item"
+ },
+ "grok/personalization.json": {
+  "project_ids": [
+   "project_endurance_training",
+   "project_none"
+  ],
+  "notes": "Grok custom instructions"
+ },
+ "perplexity/profile.json": {
+  "project_ids": [
+   "project_berkeley_research_chats",
+   "project_endurance_training",
+   "project_idetrace",
+   "project_mathetic_company",
+   "project_tutortrace"
+  ],
+  "notes": "Perplexity profile (\"Introduce yourself\" + location + response language); no real Perplexity data"
+ },
+ "gemini/saved_info.json": {
+  "project_ids": [
+   "project_endurance_training",
+   "project_none",
+   "project_vt_phd_admin"
+  ],
+  "notes": "Gemini Saved info: 4 entries on the personal account; Workspace account has no Saved info page"
+ }
+}

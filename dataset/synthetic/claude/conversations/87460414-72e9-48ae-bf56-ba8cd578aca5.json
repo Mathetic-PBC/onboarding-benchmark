@@ -1,0 +1,159 @@
+{
+ "uuid": "87460414-72e9-48ae-bf56-ba8cd578aca5",
+ "name": "Prompt for labeling HDBSCAN clusters",
+ "summary": "",
+ "model": "claude-opus-4-5-20251101",
+ "created_at": "2026-01-28T04:54:58.745418Z",
+ "updated_at": "2026-01-28T05:01:53.172565Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "off",
+ "chat_messages": [
+  {
+   "uuid": "ad02a655-8abf-4260-8c7e-64afc3701e40",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-01-28T04:55:00.000000Z",
+     "stop_timestamp": "2026-01-28T04:55:00.000000Z",
+     "type": "text",
+     "text": "dynamite: 3100 discussion posts from a virtual class forum, embedded + HDBSCAN min_cluster_size=15 -> 41 clusters + noise. i want an llm to name each cluster. i'll pass ~20 sample posts per cluster. write the prompt. output must be json",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-01-28T04:55:00.000000Z",
+   "updated_at": "2026-01-28T04:55:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "d4fbbe8e-9b93-4cb6-88f6-a0afa6837c6c",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-01-28T04:55:02.000000Z",
+     "stop_timestamp": "2026-01-28T04:55:23.152000Z",
+     "type": "text",
+     "text": "```text\nYou are labeling clusters of student discussion posts from an online course forum.\n\nYou will receive the posts for ONE cluster. Read them and return a JSON object:\n\n{\n  \"label\": \"<3-6 word name for what these posts have in common>\",\n  \"description\": \"<one sentence, concrete, mentions the course concept or activity>\",\n  \"kind\": \"<one of: concept_question | logistics | debugging | opinion | social | resource_sharing | other>\",\n  \"confidence\": <0.0-1.0, how coherent the cluster looks>,\n  \"outliers\": [<indices of posts that don't fit the label>]\n}\n\nRules:\n- Name the shared topic, not the tone (\"Recursion base case confusion\", not \"Confused students\").\n- Use the course's own terms when posts use them.\n- If posts share no clear topic, set label to \"Mixed\" and confidence below 0.4.\n- Return only the JSON object, no other text.\n\nPosts (index: text):\n{posts}\n```\n\nNotes:\n- Ask for `outliers` so you can see when HDBSCAN merged two topics; a cluster with 6+ outliers out of 20 is probably two clusters.\n- Sample the 20 posts closest to the cluster centroid plus 5 random members, otherwise you only ever see the \"cleanest\" posts and the label looks better than the cluster is.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-01-28T04:55:23.152000Z",
+   "updated_at": "2026-01-28T04:55:23.152000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "ad02a655-8abf-4260-8c7e-64afc3701e40"
+  },
+  {
+   "uuid": "95f7fe1a-21cf-4cd1-8647-15ecba2693b2",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-01-28T04:58:15.152000Z",
+     "stop_timestamp": "2026-01-28T04:58:15.152000Z",
+     "type": "text",
+     "text": "how do i check the labels are actually good without reading 3100 posts",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-01-28T04:58:15.152000Z",
+   "updated_at": "2026-01-28T04:58:15.152000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "d4fbbe8e-9b93-4cb6-88f6-a0afa6837c6c"
+  },
+  {
+   "uuid": "e935e186-020d-4135-9f01-abba2e21931b",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-01-28T04:58:17.152000Z",
+     "stop_timestamp": "2026-01-28T04:58:36.345000Z",
+     "type": "text",
+     "text": "You don't need to read everything:\n\n1. **Hand-check all 41 labels against 10 random posts each** (410 posts, maybe 2 hours). Mark each label correct / partly / wrong.\n2. **Intrusion test** for a subset: show yourself 5 posts from cluster A plus 1 from cluster B, see if you can spot the intruder using only the label. If you can't, the labels aren't discriminative.\n3. **Track the `confidence` field against your hand check.** If low-confidence labels are the ones you marked wrong, you can use it to triage future runs.\n\nReport it as \"41 LLM-generated labels, each checked by hand against 10 random members; N revised.\"",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-01-28T04:58:36.345000Z",
+   "updated_at": "2026-01-28T04:58:36.345000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "95f7fe1a-21cf-4cd1-8647-15ecba2693b2"
+  },
+  {
+   "uuid": "7479ff04-bc39-4509-94e1-1b8dbc5ce3cf",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-01-28T05:01:38.345000Z",
+     "stop_timestamp": "2026-01-28T05:01:38.345000Z",
+     "type": "text",
+     "text": "did it. 6 relabeled, 2 merged (were the same topic, \"midterm logistics\" twice). so 40 clusters now? or keep 41",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2026-01-28T05:01:38.345000Z",
+   "updated_at": "2026-01-28T05:01:38.345000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "e935e186-020d-4135-9f01-abba2e21931b"
+  },
+  {
+   "uuid": "849bc6d4-174f-42b6-861c-2b6c4e9f4919",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-01-28T05:01:40.345000Z",
+     "stop_timestamp": "2026-01-28T05:01:51.654000Z",
+     "type": "text",
+     "text": "If you merged two clusters into one label, it's 40 topics. Whether you also merge them in the data depends on what you report:\n\n- If you report **topics**, merge them → 40.\n- If you report **HDBSCAN output**, keep 41 clusters and note that two map to one topic.\n\nMost honest: \"HDBSCAN produced 41 clusters; after manual review, two were the same topic, giving 40 topics. Six labels were revised.\"",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2026-01-28T05:01:51.654000Z",
+   "updated_at": "2026-01-28T05:01:51.654000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "7479ff04-bc39-4509-94e1-1b8dbc5ce3cf"
+  }
+ ],
+ "current_leaf_message_uuid": "849bc6d4-174f-42b6-861c-2b6c4e9f4919"
+}

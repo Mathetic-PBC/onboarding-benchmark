@@ -1,0 +1,3 @@
+Course project for ISE 6664 Affective Design & Computing (Dr. Alan Brooks, Spring 2026). Team: David Barron, Maya Torres, Jordan Lee. Topic: frustration signals in AI-tutoring transcripts (412 consented CS1 help-bot transcripts). Final presentation 2026-04-30; report max 14 pages, ACM format.
+
+Use the course definition of frustration: blocked goal + negative valence. Show calculations step by step when I ask for statistics. Keep writing in an academic register for report text, but answer my questions briefly.

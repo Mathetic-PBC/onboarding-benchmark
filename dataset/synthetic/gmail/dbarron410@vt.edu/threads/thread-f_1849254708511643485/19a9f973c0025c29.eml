@@ -1,0 +1,30 @@
+From: David Barron <dbarron410@vt.edu>
+To: Minsun <msun.prime@vt.edu>, Xiaohang <xhang.prime@vt.edu>
+Subject: Re: labeling guide v3 =?utf-8?b?4oCU?= stalled-after-error
+Date: Wed, 19 Nov 2025 23:48:00 -0500
+Message-ID:
+ <CAJcKcZo1WE8QZ9lgIInn4UOE7rWS3VSTvnYATeTVimwLoLz6VxquY@mail.gmail.com>
+In-Reply-To:
+ <CAdoTm1BpCswaQYDF+iwZGmh14VhN+x_x8fS93IDE4GraeO4wOqx4C@mail.gmail.com>
+References:
+ <CAdoTm1BpCswaQYDF+iwZGmh14VhN+x_x8fS93IDE4GraeO4wOqx4C@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1849254708511643485
+X-Gmail-Labels: Sent
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+0.68 at the midpoint is better than i expected. for PS vs SAE i've been using=
+ "did they change anything in the 30s after the error" as the tiebreaker, may=
+be we write that into the guide too?
+
+On Wed, Nov 19, 2025 at 4:12 PM Minsun <msun.prime@vt.edu> wrote:
+> Guide v3 is in the lab drive. Changes:
+>
+> - New state SAE (stalled-after-error): failed run/test followed by >=3D30 s=
+ with no edit and no prompt.
+> - HS now explicitly wins over SAE if a prompt happens in the same window.
+> - Added 6 calibration windows (3 SAE, 3 borderline PS/SAE).
+>
+> Midpoint check: after the first 400 each, our pairwise kappa on the overlap=
+ is 0.68. The disagreements are almost all PS vs SAE.

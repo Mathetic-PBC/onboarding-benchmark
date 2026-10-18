@@ -1,0 +1,98 @@
+From: Alan Brooks <abrooks.ise@vt.edu>
+To: David Barron <dbarron410@vt.edu>, Maya Torres <mayat.ise@vt.edu>,
+ Jordan Lee <jordanlee.ise@vt.edu>
+Subject:
+ Project report feedback - Frustration signals in AI-tutoring transcripts
+Date: Tue, 12 May 2026 19:30:00 +0000
+Message-ID:
+ <MN2PR03MB5034F81C94C1A9C12D0ED8FF@MN2PR03MB5034.namprd03.prod.outlook.com>
+MIME-Version: 1.0
+Thread-Topic:
+ Project report feedback - Frustration signals in AI-tutoring transcripts
+Thread-Index: AQHc4kW5xI/Isz2pWCroOiEeEXZoVw==
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthSource: MN2PR03MB5034.namprd03.prod.outlook.com
+X-MS-Exchange-Organization-Network-Message-Id:
+ 34439fd3-0857-47d8-b383-5d94abd5cadd
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 12 May 2026 19:30:00.001 (UTC)
+Content-Type: multipart/mixed; boundary="===============8227030157879853366=="
+
+--===============8227030157879853366==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi team,
+
+Your report grade is 93/100 (the feedback sheet is attached). Overall: a well=
+-scoped project with an honest reliability analysis. The decision to move TER=
+SE to an automatic feature, and to explain why, was the right call.
+
+Main points:
+- The 14 pages are well used. Section 5 is the strongest part of the report.
+- -4: the claim that NEG-TUTOR "predicts session abandonment" rests on 31 aba=
+ndoned sessions. Call it an association and report the confidence interval.
+- -3: the limitations section doesn't discuss that both tutoring deployments =
+were in the same university and course level.
+
+If you're planning to turn this into a workshop paper, I'm happy to read a dr=
+aft over the summer.
+
+Alan Brooks, Ph.D.
+Grado Department of Industrial and Systems Engineering
+Virginia Tech
+
+--===============8227030157879853366==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename="ISE6664_FinalReport_Feedback_FrustrationSignals.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3Vy
+Y2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAov
+QmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEg
+L1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9u
+dCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9T
+dWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMg
+OCAwIFIgL01lZGlhQm94IFsgMCAwIDYxMiA3OTIgXSAvUGFyZW50IDcgMCBSIC9SZXNvdXJjZXMg
+PDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1h
+Z2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2Jq
+CjUgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA3IDAgUiAvVHlwZSAvQ2F0YWxv
+Zwo+PgplbmRvYmoKNiAwIG9iago8PAovQXV0aG9yIChBbGFuIEJyb29rcykgL0NyZWF0aW9uRGF0
+ZSAoRDoyMDI2MDUxMjE5MzAwMCswMCcwMCcpIC9DcmVhdG9yIChNaWNyb3NvZnQgV29yZCkgL0tl
+eXdvcmRzICgpIC9Nb2REYXRlIChEOjIwMjYwNTEyMTkzMDAwKzAwJzAwJykgL1Byb2R1Y2VyIChS
+ZXBvcnRMYWIgUERGIExpYnJhcnkgLSBcKG9wZW5zb3VyY2VcKSkgCiAgL1N1YmplY3QgKFwodW5z
+cGVjaWZpZWRcKSkgL1RpdGxlIChJU0UgNjY2NCByZXBvcnQgZmVlZGJhY2spIC9UcmFwcGVkIC9G
+YWxzZQo+PgplbmRvYmoKNyAwIG9iago8PAovQ291bnQgMSAvS2lkcyBbIDQgMCBSIF0gL1R5cGUg
+L1BhZ2VzCj4+CmVuZG9iago4IDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxh
+dGVEZWNvZGUgXSAvTGVuZ3RoIDk2Nwo+PgpzdHJlYW0KR2FzYW47L2IvQiY6V2VEUzE6WE07aylh
+LUtTNChOQ0M9KD1HM2BoPV4lQjhoIzJJNDxDKWEyUHFkI2AtQkZBRT1NTklmNG1lYjttbWcvUlQ4
+KmkvSiE5WWVZKllUWVtVYmEtRShJMzlVVVU5WEIrWUBeRzZeNz9PYGpNQ0Q7dENKPyxGXzVLN1VR
+b1A4NmVbVHJBbUNiSDpeP0BoKSdvVGVfTE0qLWpqQSs5M1QtNU9xMCoiNl5ZKU0uS2EyI25nVmcp
+NT01MkhrcEpJSDUpYSQkaVU4WHQ2L1dzSjJoWSIuY2NXUEhcZ2FDYCNhWlUmO2wrI00hXU0wcjtD
+U0o9aTRCNkdONTwzciYpXy0mUUoqYSVcMUJyOzNBVDEkOURFZ1VDNmg9PT9IclNcOTpbTTwpMTtZ
+Xj5uVEQmSDFyRTQhZDhYZi8sajpLLGJaIl8rUztIJ0M+UkNaT0JXVkorRlIuZ2xzPDRbYWNfcCQv
+LCdnQCJHb1hjJUpqLHJkY2BqQDM7L01DIjIybVJAXzdiaVNiL0NyOGtvYUBAJkJtJGxaKkQjKVNX
+TWJFdGA5ak9PLV9hISVgXklbIiZINVcqcVxLOUQuTEJndTpvT1JDPlUycW0kXDlHNW07YkwhM0Q6
+LU0oRVRjNScrPy45YDRVNG1CUyQrJGA3Ky1FVip0LzwhJSZNQTtYVkgsN2FgMU9qY0A1bE5XdW0p
+cEotOWxlP3VbYV9tOy5FPjgoXzJaLylJMyRtOEJbN2EwcURIRlE4JjkrSWosYDJzQnRZQ1YwQ15u
+XUYxNm83PmxPZz1RSl8sLmRhNWo6bTVCdGQ/Lycyby9eVFw9Tz5kcGZVOz1SSyY2b1wocSNCLDBZ
+XGsoWDFJVHQvbSdSU0A5LEU5LF5hLlFIWlRncTo6PUorYmNPJFxbI0JXU10+YUJOOCtkPz9cPk05
+Zz5YLiVfZWQ6XytFRnEuPVhbKUIvNikvbm05UkA9QFZJI108LGliSGBHTXIpKlMkSHJTITghUk9E
+Y2Q3RzFcIUNFJ2wkVlk2ZnFcJzU/XzdqOy5abi9iV149R1BKdGB0Y0w0MU5TVExiUmxnMkojTlsy
+QERRXTFcdDwnUHRhRzFYUGF0KEBpPy5FODxWdU5XMXBBZGBpLUFLbSFqcWhpM25JW0hGKDRdKklE
+Zjs2NjpXYD1PKSk8RGZeIWBiOTFpXWNOSzM9Ois1KksmXitXJ2pkU3JwO1YmJiQ3bl5QMUlfaGZf
+PWJLUSJldUVuOytfNVknW2ZlMmsoXy9nMDhMV2R+PmVuZHN0cmVhbQplbmRvYmoKeHJlZgowIDkK
+MDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDYxIDAwMDAwIG4gCjAwMDAwMDAxMDIgMDAwMDAg
+biAKMDAwMDAwMDIwOSAwMDAwMCBuIAowMDAwMDAwMzIxIDAwMDAwIG4gCjAwMDAwMDA1MTQgMDAw
+MDAgbiAKMDAwMDAwMDU4MiAwMDAwMCBuIAowMDAwMDAwODcwIDAwMDAwIG4gCjAwMDAwMDA5Mjkg
+MDAwMDAgbiAKdHJhaWxlcgo8PAovSUQgCls8ZDdmNjNmMzU2ZDI4Y2IzYTYzNDE5ZTEzOGQ4ODY0
+YTI+PGQ3ZjYzZjM1NmQyOGNiM2E2MzQxOWUxMzhkODg2NGEyPl0KJSBSZXBvcnRMYWIgZ2VuZXJh
+dGVkIFBERiBkb2N1bWVudCAtLSBkaWdlc3QgKG9wZW5zb3VyY2UpCgovSW5mbyA2IDAgUgovUm9v
+dCA1IDAgUgovU2l6ZSA5Cj4+CnN0YXJ0eHJlZgoxOTg2CiUlRU9GCg==
+
+--===============8227030157879853366==--

@@ -1,0 +1,163 @@
+{
+ "uuid": "893bb8ee-3a1a-4a10-9f1e-20301887b393",
+ "name": "Is this SF sublet listing a scam",
+ "summary": "",
+ "model": "claude-opus-4-8",
+ "created_at": "2026-07-16T02:29:58.320113Z",
+ "updated_at": "2026-07-16T02:33:51.602679Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true,
+  "paprika_mode": "auto",
+  "thinking_mode": "auto",
+  "chat_memory_mode": "enabled",
+  "enabled_artifacts_attachments": false
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "auto",
+ "chat_messages": [
+  {
+   "uuid": "19120564-3854-4ef8-be17-a1eecc29e377",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-07-16T02:30:00.000000Z",
+     "stop_timestamp": "2026-07-16T02:30:00.000000Z",
+     "type": "text",
+     "text": "moving to SF aug 8. found a sublet on craigslist, 1br in inner sunset, $1,650/mo, \"owner is abroad, will mail keys after deposit via zelle\", photos look nice. too good to be true right?",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-07-16T02:30:00.000000Z",
+   "updated_at": "2026-07-16T02:30:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "ae2e554b-b4d9-4fe3-ad7c-f592e9f59ae1",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-07-16T02:30:02.000000Z",
+     "stop_timestamp": "2026-07-16T02:30:12.629000Z",
+     "type": "text",
+     "text": "Almost certainly a scam. Several classic signs at once:\n\n- **Price**: a 1BR in the Inner Sunset well below typical market rent.\n- **Owner abroad, can't show it**: the most common rental scam story.\n- **Keys mailed after payment**: you'd pay before seeing the place or meeting anyone.\n- **Zelle**: no buyer protection; once sent, the money is gone.\n\nRules that rule out most scams:\n- Never pay before seeing the unit in person (or via a live video walkthrough where *you* direct the camera, plus confirming the person has access).\n- Reverse-image-search the photos; scam listings often reuse photos from real listings.\n- Look up the address and owner in public records if possible.\n- Pay deposits by check or a traceable method, against a written lease.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-07-16T02:30:12.629000Z",
+   "updated_at": "2026-07-16T02:30:12.629000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "19120564-3854-4ef8-be17-a1eecc29e377"
+  },
+  {
+   "uuid": "ac6c4100-c9c1-4a8d-ac23-14b6c102c426",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-07-16T02:32:00.629000Z",
+     "stop_timestamp": "2026-07-16T02:32:00.629000Z",
+     "type": "text",
+     "text": "reverse image search shows the same photos on a zillow listing from 2024 lol",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-07-16T02:32:00.629000Z",
+   "updated_at": "2026-07-16T02:32:00.629000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "ae2e554b-b4d9-4fe3-ad7c-f592e9f59ae1"
+  },
+  {
+   "uuid": "fa419e76-6fc5-4fc3-a87b-34cb0df7875c",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-07-16T02:32:02.629000Z",
+     "stop_timestamp": "2026-07-16T02:32:14.519000Z",
+     "type": "text",
+     "text": "That confirms it. Don't reply further. You can flag the post on Craigslist so it's removed. For the move, legit options people use for short-term SF stays: furnished sublets from people you can meet or video-call, university-affiliated housing boards, or temporary corporate housing for a few weeks while you look in person.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-07-16T02:32:14.519000Z",
+   "updated_at": "2026-07-16T02:32:14.519000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "ac6c4100-c9c1-4a8d-ac23-14b6c102c426"
+  },
+  {
+   "uuid": "bf229551-6cae-421c-8098-e5961b25b696",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-07-16T02:33:37.519000Z",
+     "stop_timestamp": "2026-07-16T02:33:37.519000Z",
+     "type": "text",
+     "text": "im going to be at an incubator house at first anyway, just wanted my own place later",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2026-07-16T02:33:37.519000Z",
+   "updated_at": "2026-07-16T02:33:37.519000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "fa419e76-6fc5-4fc3-a87b-34cb0df7875c"
+  },
+  {
+   "uuid": "97eafece-e2e7-4151-a23c-93eaeec0bd88",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-07-16T02:33:39.519000Z",
+     "stop_timestamp": "2026-07-16T02:33:50.580000Z",
+     "type": "text",
+     "text": "Then you can take your time: being in SF lets you view places in person, which removes most of the scam risk. Sublets from people who are leaving for a few months often show up in neighborhood Facebook groups and local Slack/Discord communities; meeting the current tenant is the best check.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2026-07-16T02:33:50.580000Z",
+   "updated_at": "2026-07-16T02:33:50.580000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "bf229551-6cae-421c-8098-e5961b25b696"
+  }
+ ],
+ "current_leaf_message_uuid": "97eafece-e2e7-4151-a23c-93eaeec0bd88"
+}

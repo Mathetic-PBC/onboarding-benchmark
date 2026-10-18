@@ -1,0 +1,14 @@
+=== THREAD PARENT MESSAGE ===
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-08-04 13:20:56 PDT
+Message TS: 1785874856.443204
+handoff doc for vizpi_frontend → <@U0SYNS0GL2E|Rezky>: <https://docs.google.com/document/d/1vZpHnd0fRqK7mT2cWn8yXo4sB9eJtUa6PdQcLx3Gk0/edit|vizpi_frontend handoff (Aug 2026)>
+covers: deploy steps, the reconnect queue, the replay timeline, where the dep #1/#2 exports live, and the 3 known bugs. ping me anytime, i'll still answer here
+
+=== THREAD REPLIES (1 total) ===
+
+--- Reply 1 of 1 ---
+From: Rezky (U0SYNS0GL2E)
+Time: 2026-08-04 13:45:17 PDT
+Message TS: 1785876317.471857
+thanks, will read tonight and break it before you leave lol

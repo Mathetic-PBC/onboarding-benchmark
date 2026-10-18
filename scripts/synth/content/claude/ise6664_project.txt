@@ -1,0 +1,183 @@
+### CONV ise-codebook
+title: Codebook for frustration signals in tutoring transcripts
+start: 2026-02-04 22:15
+projects: project_ise6664_affective_computing
+project: ise
+---
+@user
+class project for ISE 6664 (affective design & computing, dr brooks). team is me, maya torres, jordan lee. topic: "frustration signals in AI-tutoring transcripts". jordan got 412 consented transcripts from a CS1 help bot (student <-> LLM tutor). we need a codebook for what counts as frustration in the student turns. text only, no audio/video. give me a first pass, 6-8 codes max
+@assistant
+A first-pass codebook for student turns, text only. Each code is a property of a single turn; a turn can have more than one.
+
+| Code | Definition | Example (made up) | Not this |
+|---|---|---|---|
+| **REPEAT** | Student resends the same or nearly the same request after an answer | "how do i fix the index error" → (answer) → "how do i fix this index error" | A genuinely new question on the same bug |
+| **NEG-EVAL** | Explicit negative judgment of the tutor or task | "that doesn't help", "this is useless" | Neutral correction: "I meant the second loop" |
+| **SELF-NEG** | Negative statement about self or ability | "i'm so bad at this", "i'll never get recursion" | Plain uncertainty: "not sure if this is right" |
+| **INTENSITY** | Typographic intensity: all caps, repeated punctuation, expletives | "WHY IS IT STILL BROKEN???" | Caps in code or acronyms |
+| **TERSE-DROP** | Sharp drop in turn length after longer turns, with no new info | "ok", "no", "still no" after multi-sentence turns | Short acknowledgments after a successful fix |
+| **GIVE-UP** | Statement of quitting or request to just get the answer | "just give me the code", "forget it" | Asking for an example to learn from |
+| **DEFLECT** | Changing topic away from the task mid-error | "can we do the next problem instead" | Moving on after solving |
+
+Notes for the team:
+- Code **turns**, then derive a session-level label ("frustrated at any point") from them. Easier to get agreement on turns.
+- REPEAT and TERSE-DROP need context (previous turns), so coders should read the session, not single turns in isolation.
+- I'd pilot this on 20 sessions each, then compare before refining. Expect REPEAT vs. legit follow-up to be the main disagreement.
+@user
+dr brooks said in class frustration is "blocked goal + negative valence". should the codebook be tied to that
+@assistant
+Yes, and it helps you organize the codes rather than just listing them. Map each code to one or both components:
+
+- **Blocked goal** (behavioral evidence): REPEAT, TERSE-DROP, GIVE-UP, DEFLECT
+- **Negative valence** (expressed affect): NEG-EVAL, SELF-NEG, INTENSITY
+
+Then a session-level rule like: *frustrated* = at least one blocked-goal code **and** at least one valence code within a 5-turn window. That gives you a definition that's grounded in the course framing, and it lets you report the two components separately (e.g. many sessions show blocked goals without negative valence, which is interesting by itself: struggle without visible frustration).
+@user
+nice that last part could be a finding. ok put the codebook + rule in a format i can paste into the project knowledge
+@assistant
+**Codebook v1 — Frustration signals (ISE 6664, D. Barron / M. Torres / J. Lee)**
+
+Unit: student turn. Multiple codes allowed.
+
+Blocked goal
+- REPEAT — same/near-same request resent after an answer.
+- TERSE-DROP — turn length drops sharply after longer turns, no new info.
+- GIVE-UP — quits or asks for the answer outright.
+- DEFLECT — changes topic away from an unresolved error.
+
+Negative valence
+- NEG-EVAL — negative judgment of tutor or task.
+- SELF-NEG — negative statement about own ability.
+- INTENSITY — caps, repeated punctuation, expletives (not in code).
+
+Session rule
+- Frustrated = ≥1 blocked-goal code and ≥1 valence code within any 5 consecutive student turns.
+- Report blocked-goal-only and valence-only sessions separately.
+
+Process
+- Pilot: 20 sessions per coder, compare, revise to v2.
+- Agreement: Cohen's kappa per pair on session label; percent agreement per code.
+
+### CONV ise-kappa
+title: Cohen's kappa for our coding pilot
+start: 2026-03-04 23:48
+projects: project_ise6664_affective_computing
+project: ise
+---
+@user
+pilot coding done. 60 sessions double coded by me and maya, session level frustrated yes/no
+
+both yes: 18
+both no: 31
+me yes maya no: 6
+me no maya yes: 5
+
+whats kappa. show the math, i need to put it in the report
+@assistant
+**Observed agreement**
+p_o = (18 + 31) / 60 = 49/60 = **0.817**
+
+**Marginals**
+- David: yes = 18 + 6 = 24 (0.400), no = 36 (0.600)
+- Maya: yes = 18 + 5 = 23 (0.383), no = 37 (0.617)
+
+**Expected agreement by chance**
+p_e = (0.400 × 0.383) + (0.600 × 0.617) = 0.153 + 0.370 = **0.523**
+
+**Kappa**
+κ = (p_o − p_e) / (1 − p_e) = (0.817 − 0.523) / (1 − 0.523) = 0.293 / 0.477 = **0.62**
+
+That's "substantial" on Landis & Koch (0.61–0.80), though just over the line. For the report I'd write it as κ = 0.62 (n = 60 sessions, 2 coders) and avoid leaning on the label; some reviewers dislike those bands.
+@user
+jordan coded 30 of the same ones. can we do a 3 rater thing
+@assistant
+Yes, but only on the 30 sessions all three coded. Two options:
+
+- **Fleiss' kappa** across all three raters on those 30. One number, standard for >2 raters.
+- **Pairwise Cohen's kappa** (D–M, D–J, M–J) and report the mean. Easier to explain and shows if one coder is the outlier.
+
+I'd report pairwise in a small table and Fleiss in the text. If you paste Jordan's 30 labels next to yours and Maya's (as three columns of 1/0), I'll compute both.
+@user
+ok later. the disagreements were mostly REPEAT, like you said
+@assistant
+Then tighten REPEAT before coding the rest. A rule that usually helps: it's REPEAT only if the student's new turn adds **no new information** (no new error message, no new code, no new constraint). "how do i fix this" + a new traceback is not a repeat; the same sentence with a rephrase is. Add two borderline examples from your own disagreements to the codebook so everyone anchors on the same cases.
+
+### CONV ise-report-outline
+title: Report outline (14 pages)
+start: 2026-04-26 20:05
+projects: project_ise6664_affective_computing
+project: ise
+---
+@user
+report due friday after the presentation. brooks wants ACM format, max 14 pages incl refs. we have: codebook v2, kappa 0.62 (D-M), fleiss 0.58 on 30, coded all 412, 97 frustrated by our rule, 61 blocked-goal only, 23 valence only. maya did a logistic regression of frustration on tutor response features (length, code included, asks question back). give me a section outline with page budget
+@assistant
+**Page budget (14 incl. references)**
+
+1. **Introduction** (1.25 pp) — LLM tutors in CS1; frustration as blocked goal + negative valence; RQs:
+   - RQ1: How often do students show frustration in text-only tutoring sessions?
+   - RQ2: How often do blocked goals appear *without* expressed negative affect?
+   - RQ3: Which tutor response features are associated with frustration?
+2. **Related work** (1.5 pp) — affect detection in tutoring systems; frustration models (appraisal); help-seeking with LLM assistants.
+3. **Data** (1 pp) — 412 consented transcripts, source, consent, de-identification, descriptive stats (turns per session, length).
+4. **Codebook and coding** (2 pp) — the 7 codes, session rule, pilot, v1 → v2 change (REPEAT rule), agreement: κ = 0.62 (D–M, n = 60), Fleiss κ = 0.58 (3 raters, n = 30).
+5. **Results** (3 pp)
+   - 5.1 Prevalence: 97/412 frustrated (23.5%); 61 blocked-goal only (14.8%); 23 valence only (5.6%).
+   - 5.2 Code frequencies and co-occurrence (one table, one heatmap).
+   - 5.3 Maya's regression: tutor features vs. frustration (table with odds ratios + CIs).
+6. **Design implications** (1.5 pp) — what a tutor could do when it detects REPEAT, when to hand off to a human, the "silent struggle" group.
+7. **Limitations** (0.75 pp) — one course, text only, coder overlap small, correlational regression.
+8. **Conclusion** (0.5 pp)
+9. **References** (1.5 pp)
+
+That's 13 pp, leaving ~1 page of slack for figures that spill.
+@user
+the 61 blocked goal only thing is our most interesting result imo, should it be its own section
+@assistant
+Make it its own results subsection (5.2 "Struggle without expressed frustration") and move code frequencies to 5.3. Also reference it in the intro as the headline finding, and give it one paragraph in design implications: these are the students a sentiment-based detector would never flag. That framing is likely what Dr. Brooks will remember.
+@user
+who writes what. maya has the regression, jordan did data cleaning, i did codebook + coding
+@assistant
+A natural split:
+
+- **David**: intro, codebook & coding (4), results 5.1–5.2, design implications (6)
+- **Maya**: related work (affect detection part), results on regression (5.4), limitations
+- **Jordan**: data (3), related work (help-seeking part), code frequency table/heatmap (5.3), references cleanup
+
+Then one person (you, since the framing is yours) does a full read for voice consistency on Thursday night.
+
+### CONV ise-presentation
+title: Presentation outline + Q&A prep
+start: 2026-04-28 22:40
+projects: project_ise6664_affective_computing
+project: ise
+---
+@user
+presentation thursday 4/30, 12 min + 3 Q&A, 3 speakers. outline slides please, and the 5 likeliest questions brooks asks
+@assistant
+**Slides (12 min, ~10 slides)**
+
+1. Title + team (Jordan, 0:20)
+2. Why frustration in AI tutoring matters (Jordan, 1:00) — students ask the tutor before anyone else; nobody sees the struggle.
+3. Definition: blocked goal + negative valence (David, 1:00)
+4. Data: 412 transcripts, consent, de-identification (Jordan, 1:00)
+5. Codebook: 7 codes in 2 groups (David, 1:30) — one example per group
+6. Agreement: κ = 0.62, Fleiss 0.58; the REPEAT fix (David, 1:00)
+7. Prevalence: 23.5% frustrated (David, 1:00)
+8. **Struggle without expressed frustration: 14.8%** (David, 1:30) — the headline
+9. Tutor features and frustration: regression (Maya, 2:00)
+10. Design implications + limitations (Maya, 1:30)
+
+**Likely questions**
+1. *Why text-only? Isn't frustration multimodal?* — Because that's what the tutor sees; any intervention has to work from text.
+2. *Is 0.58 Fleiss good enough?* — Moderate; it's on 30 sessions and we report it as a limitation; REPEAT fix came after.
+3. *How do you know the "blocked-goal only" students are frustrated at all?* — We don't claim they are; we claim they're stuck without saying so, which is the point.
+4. *Causality in the regression?* — None claimed; tutor responses and frustration influence each other.
+5. *What would you build?* — A REPEAT detector that changes strategy (ask a question back, show a smaller step) instead of re-answering.
+@user
+q3 is a good one. how do i answer it without sounding defensive
+@assistant
+Lead with agreement, then the reframe:
+
+> "Right, and we're careful not to call them frustrated. What we see is that they're blocked: they keep re-asking or drop off. They just don't say anything negative. That matters because a detector built on sentiment would miss all of them, and they're about one in seven sessions."
+
+Short, concedes the point, and lands on why it's interesting.

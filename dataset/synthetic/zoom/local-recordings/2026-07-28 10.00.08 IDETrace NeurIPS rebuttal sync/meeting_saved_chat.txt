@@ -1,0 +1,14 @@
+10:00:30 From Yan Chen to Everyone:
+	Rebuttal doc is in the lab drive: IDETrace NeurIPS26 rebuttal (shared)
+10:01:35 From David Barron to Everyone:
+	split fix PR: "grouped split by student id" -> outputs data/splits/split_by_student.json
+10:02:00 From David Barron to Everyone:
+	macro-F1 0.81 (window split) -> 0.74 (grouped by student)
+10:03:28 From Xiaohang to Everyone:
+	LR 0.66 -> 0.61, GRU 0.73 -> 0.68, CodeBERT rerun starting now (ETA ~6-7pm)
+10:05:54 From Rezky to Everyone:
+	R3: IRB approved, opt-in consent (12 withdrew), CC BY-NC 4.0 + DUA for raw keystrokes
+10:07:48 From Yan Chen to Everyone:
+	Drafts in the doc by 6pm. I review at 9pm. Post by noon 7/29. 5000 chars per response.
+10:08:49 From David Barron to Everyone:
+	assignments: general + R1 David / R2 Minsun / R3 Rezky / R4 Yue / baselines Xiaohang

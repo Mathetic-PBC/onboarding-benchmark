@@ -1,0 +1,19 @@
+=== THREAD PARENT MESSAGE ===
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-01-27 19:48:13 PST
+Message TS: 1769572093.774083
+is anyone else getting `CUDA error: out of memory` on prime-gpu1 with nothing running? nvidia-smi shows 21GB held by a zombie python process from last week
+
+=== THREAD REPLIES (2 total) ===
+
+--- Reply 1 of 2 ---
+From: Xiaohang (U0SYN2JB5HW)
+Time: 2026-01-27 20:02:42 PST
+Message TS: 1769572962.922432
+that's mine, sorry. killed it
+
+--- Reply 2 of 2 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-01-27 20:03:09 PST
+Message TS: 1769572989.870639
+lol np ty

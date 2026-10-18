@@ -1,0 +1,666 @@
+{
+ "id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "UIST talk dry run — TutorTrace",
+ "created_at": "2026-10-04T19:57:31.000Z",
+ "updated_at": "2026-10-04T20:27:08.914Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "910b4e6b1738d9fb09c5d05b61",
+  "summary": "UIST talk dry run — TutorTrace",
+  "start": {
+   "dateTime": "2026-10-04T13:00:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-10-04T13:45:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true,
+    "organizer": true
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted"
+   }
+  ],
+  "organizer": {
+   "email": "david@mathetic.com"
+  },
+  "creator": {
+   "email": "david@mathetic.com"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=571a258a21e93b493f8d164441154660e9edf74d",
+  "status": "confirmed",
+  "location": "Surplus house, SF"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### Run 1 timing\n\n- 17:40 against a 15:00 slot — cut ~3 minutes\n- Slowest parts: dataset section (slides 6–9) and the related-work slide\n\n### Talk structure (current)\n\n1. Hook: a student stalled for 6 minutes after an error while the AI assistant sat open\n2. Problem: instructors can't see which struggle is productive\n3. TutorTrace: behavioral states from IDE + assistant telemetry (CS 3114 deployment, VizPI)\n4. Labels: 2,340 thirty-second windows; states incl. \"stalled-after-error\"; kappa 0.71 across 3 raters\n5. Results + the cross-course analysis promised in the rebuttal\n6. Limitations: one institution, telemetry privacy, label subjectivity\n7. Takeaways\n\n### Hudson's feedback\n\n- Cut related-work slide entirely; mention 2 papers verbally\n- Slides 6–9 → merge into one \"how we labeled\" slide with the state diagram\n- Hook is great — but say the 6 minutes slower, let it land\n- Say \"kappa 0.71\" and immediately what that means (\"substantial agreement\")\n- Ending is abrupt; finish on what instructors could do with it\n\n### Likely questions (prep)\n\n- Generalization beyond one course → cross-course analysis, still one university\n- Privacy of keystroke telemetry → opt-in, no content stored for prompts beyond the session, IRB\n- Why 30-second windows → piloted 10/30/60s; 30s best agreement\n- Could it run live in class? → not yet; latency fine, but false positives are costly\n\n### Logistics\n\n- AV check with Tomás done Oct 2: HDMI + USB-C at the lectern, clicker provided (bring own anyway), timing cards at 5 / 2 / stop\n- Slot: 2nd of 4 talks, 10:50–11:10; backup video (max 15:00) due on the conference portal Mon Oct 5\n- Fly Mon Oct 5; talk Wed Oct 7\n\n### Action items\n\n- [ ] David — cut to 14:30, re-run tonight alone\n- [ ] David — trim backup video to under 15:00 and upload to portal by Mon\n- [ ] Hudson — text David \"slow down\" at 1 pm PT Wednesday (ha)\n",
+ "notes_plain": "Run 1 timing\n\n17:40 against a 15:00 slot — cut ~3 minutes\nSlowest parts: dataset section (slides 6–9) and the related-work slide\n\nTalk structure (current)\n\n1. Hook: a student stalled for 6 minutes after an error while the AI assistant sat open\n2. Problem: instructors can't see which struggle is productive\n3. TutorTrace: behavioral states from IDE + assistant telemetry (CS 3114 deployment, VizPI)\n4. Labels: 2,340 thirty-second windows; states incl. \"stalled-after-error\"; kappa 0.71 across 3 raters\n5. Results + the cross-course analysis promised in the rebuttal\n6. Limitations: one institution, telemetry privacy, label subjectivity\n7. Takeaways\n\nHudson's feedback\n\nCut related-work slide entirely; mention 2 papers verbally\nSlides 6–9 → merge into one \"how we labeled\" slide with the state diagram\nHook is great — but say the 6 minutes slower, let it land\nSay \"kappa 0.71\" and immediately what that means (\"substantial agreement\")\nEnding is abrupt; finish on what instructors could do with it\n\nLikely questions (prep)\n\nGeneralization beyond one course → cross-course analysis, still one university\nPrivacy of keystroke telemetry → opt-in, no content stored for prompts beyond the session, IRB\nWhy 30-second windows → piloted 10/30/60s; 30s best agreement\nCould it run live in class? → not yet; latency fine, but false positives are costly\n\nLogistics\n\nAV check with Tomás done Oct 2: HDMI + USB-C at the lectern, clicker provided (bring own anyway), timing cards at 5 / 2 / stop\nSlot: 2nd of 4 talks, 10:50–11:10; backup video (max 15:00) due on the conference portal Mon Oct 5\nFly Mon Oct 5; talk Wed Oct 7\n\nAction items\n\nDavid — cut to 14:30, re-run tonight alone\nDavid — trim backup video to under 15:00 and upload to portal by Mon\nHudson — text David \"slow down\" at 1 pm PT Wednesday (ha)\n",
+ "transcript": [
+  {
+   "id": "8ceb24d8-7b8b-480b-9f26-839546c349d2",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:00:34.513Z",
+   "end_timestamp": "2026-10-04T20:00:38.893Z",
+   "text": "Okay, I'm the audience. I'm a tired UIST attendee after lunch.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "21f40db8-592a-4606-a979-4df4856aefce",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:00:40.427Z",
+   "end_timestamp": "2026-10-04T20:00:43.253Z",
+   "text": "Perfect. That's exactly who'll be there. Timer?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "b7ea79d5-4a37-4c47-ad29-58937623021d",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:00:43.775Z",
+   "end_timestamp": "2026-10-04T20:00:45.116Z",
+   "text": "Timer's running. Go.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "37c41d71-a97e-4754-b792-5792931a54c2",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:00:46.939Z",
+   "end_timestamp": "2026-10-04T20:01:12.092Z",
+   "text": "Okay. Um. \"Imagine a student in an intro programming lab. They hit an error. The AI assistant is right there, open, in the side panel. And for six minutes, they don't touch it. They don't type. They just sit.\" ...Okay I'm going to skip the full thing, I'll do it, but let me just — no, I'll do it properly. Starting over.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "13523323-060d-417c-bf16-26987bb8fb43",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:01:12.701Z",
+   "end_timestamp": "2026-10-04T20:01:14.057Z",
+   "text": "Do it properly.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "03888201-ae48-4502-8f3d-dfa3180d2570",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:01:15.659Z",
+   "end_timestamp": "2026-10-04T20:05:37.659Z",
+   "text": "[presenting] ...so that's the motivation. Instructors can't see which struggle is productive. TutorTrace classifies learner behavioral states from IDE and assistant telemetry. We deployed in CS 3114 at Virginia Tech through VizPI...",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "91ef249a-b4e3-4fba-9c9d-d98bf4e7439a",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:05:39.796Z",
+   "end_timestamp": "2026-10-04T20:05:41.717Z",
+   "text": "Keep going, I'm just writing.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "eae9df23-6bfc-408a-aad6-5f4a40b1588d",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:05:42.580Z",
+   "end_timestamp": "2026-10-04T20:12:53.580Z",
+   "text": "...we labeled two thousand three hundred forty thirty-second windows. The states are, um, productive progress, help-seeking, stalled-after-error, and off-task — and three raters reached a kappa of point seven one...",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "138de2c3-1c9e-49e2-a331-122be48d5dd2",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:12:55.462Z",
+   "end_timestamp": "2026-10-04T20:12:56.427Z",
+   "text": "Mm.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "4c8bd81d-8eb2-4f5c-9c98-5fc70e251d3a",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:12:58.479Z",
+   "end_timestamp": "2026-10-04T20:18:16.479Z",
+   "text": "...and then the cross-course analysis, which, uh, which was the thing reviewers asked for — we show the classifier holds up on a second course's data, with a drop but not a collapse... limitations, one institution, privacy of telemetry, and label subjectivity. And, um, takeaways. Thank you.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "70e86644-e56d-44ce-8ee1-6ea77b4c4c60",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:18:18.603Z",
+   "end_timestamp": "2026-10-04T20:18:19.532Z",
+   "text": "Seventeen forty.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "fad936e1-9f38-42f0-a536-53c2a0f67537",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:18:21.601Z",
+   "end_timestamp": "2026-10-04T20:18:23.262Z",
+   "text": "Seventeen forty? Oh no.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e315da5a-6d03-4117-a2c3-202b62a32e54",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:18:24.200Z",
+   "end_timestamp": "2026-10-04T20:18:27.295Z",
+   "text": "Seventeen minutes forty seconds. You have fifteen.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "12d5ccda-77f8-4c4b-b416-36c4a8d9aac4",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:18:28.926Z",
+   "end_timestamp": "2026-10-04T20:18:31.193Z",
+   "text": "Okay. Where was I slow?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "b75fdc72-6930-403e-a018-4b22282fa279",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:18:32.370Z",
+   "end_timestamp": "2026-10-04T20:18:38.418Z",
+   "text": "Slides six through nine. The dataset part. You spend almost five minutes on how you labeled.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "b7167539-0a58-4ee9-badd-394fbdbac066",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:18:40.363Z",
+   "end_timestamp": "2026-10-04T20:18:43.333Z",
+   "text": "Because that's the part reviewers cared about!",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "a655678f-4a23-43d4-a47e-f93fe51ecf29",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:18:43.498Z",
+   "end_timestamp": "2026-10-04T20:18:49.812Z",
+   "text": "Reviewers cared. The tired post-lunch people don't. They need to believe you, not audit you.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "cda4316b-c490-4fa5-90b5-2619b0da805b",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:18:49.968Z",
+   "end_timestamp": "2026-10-04T20:18:50.999Z",
+   "text": "Hm. Okay.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "80744821-3ae8-47d4-a96a-3854e189ce08",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:18:52.764Z",
+   "end_timestamp": "2026-10-04T20:19:00.777Z",
+   "text": "Merge six to nine into one slide. The state diagram, the number of windows, the kappa. One slide.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "af51611c-29b8-4c82-bdab-768939473cbb",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:19:02.728Z",
+   "end_timestamp": "2026-10-04T20:19:05.085Z",
+   "text": "That's... a lot on one slide.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "57b772a5-f59a-4eae-bce9-bea8479bb430",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:19:06.303Z",
+   "end_timestamp": "2026-10-04T20:19:10.452Z",
+   "text": "Not if you just show the diagram and say the numbers.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ade53b05-f89c-4f51-b91f-8297c8f7cff6",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:19:12.372Z",
+   "end_timestamp": "2026-10-04T20:19:13.672Z",
+   "text": "Okay. What else?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d4d83956-dc18-4b73-bc6a-878ffe4205dd",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:19:14.083Z",
+   "end_timestamp": "2026-10-04T20:19:18.897Z",
+   "text": "Kill the related-work slide. You read eight paper names. Nobody remembers them.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "d2f4d01e-dad6-4cee-a1f0-160261353c8e",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:19:19.388Z",
+   "end_timestamp": "2026-10-04T20:19:21.324Z",
+   "text": "The session chair might care.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "3c4e7851-5032-4358-a929-529ef3097188",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:19:21.529Z",
+   "end_timestamp": "2026-10-04T20:19:27.981Z",
+   "text": "Then mention two out loud. The Ostrowski one you always talk about and one other.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "aded1598-44af-43bd-b85c-ab1d6ad2c08e",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:19:28.300Z",
+   "end_timestamp": "2026-10-04T20:19:31.589Z",
+   "text": "Yeah, the telemetry help-seeking paper. Okay. Fine. Cut.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "1e2de68b-3d51-4f43-b3f7-7ce14b1381a9",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:19:31.972Z",
+   "end_timestamp": "2026-10-04T20:19:38.158Z",
+   "text": "The hook is great. But you rushed \"six minutes.\" Say it slower. Let it sit.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "2b425b6c-56db-4df4-8257-b102c2813bbd",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:19:39.585Z",
+   "end_timestamp": "2026-10-04T20:19:42.495Z",
+   "text": "\"For six minutes... they don't touch it.\"",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "611acc0b-c8fb-4f26-b086-762a8a29b95d",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:19:44.322Z",
+   "end_timestamp": "2026-10-04T20:19:45.199Z",
+   "text": "Yes. That.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "d7a6e3e1-2571-417e-a2ba-d43311f40c9b",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:19:46.613Z",
+   "end_timestamp": "2026-10-04T20:19:47.473Z",
+   "text": "Okay.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "4634c834-15c0-498f-bf66-b59ce9fb5f1f",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:19:47.718Z",
+   "end_timestamp": "2026-10-04T20:19:54.486Z",
+   "text": "And when you say kappa point seven one, I don't know what that means. Is that good?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "cafe4f87-1ddf-422a-8db1-4b852068ff34",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:19:54.964Z",
+   "end_timestamp": "2026-10-04T20:19:59.056Z",
+   "text": "It's substantial agreement. For behavioral states it's actually good.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ef3498c5-692d-474d-a2df-bfe0f8b56994",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:20:00.609Z",
+   "end_timestamp": "2026-10-04T20:20:07.059Z",
+   "text": "Then say that! Right after the number. \"Point seven one, which is substantial agreement.\"",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "f7cf057a-d461-4b2a-8304-62e9c298128b",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:20:07.685Z",
+   "end_timestamp": "2026-10-04T20:20:09.493Z",
+   "text": "Writing that down. Okay.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "52bf07f3-fd9d-4672-82c3-87e76b8e1a21",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:20:11.027Z",
+   "end_timestamp": "2026-10-04T20:20:15.680Z",
+   "text": "And the ending. You said \"takeaways, thank you.\" It just stopped.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "d16005f9-e8c0-4fe4-ba19-93bca14a2731",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:20:15.855Z",
+   "end_timestamp": "2026-10-04T20:20:18.648Z",
+   "text": "Yeah, I didn't finish that slide.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "38e857e4-cce8-43a5-91c5-cddeb805fe53",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:20:19.431Z",
+   "end_timestamp": "2026-10-04T20:20:29.371Z",
+   "text": "End on what an instructor could actually do. Like, \"imagine the TA gets a ping when someone's been stalled after an error for three minutes.\"",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "0b602baa-826f-4dc4-bdf1-898e869b0b40",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:20:31.549Z",
+   "end_timestamp": "2026-10-04T20:20:37.394Z",
+   "text": "Oh that's — yeah. That's the vision slide. I had it in the paper's discussion.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "116923a4-5cde-40e7-b050-950b962f262b",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:20:39.397Z",
+   "end_timestamp": "2026-10-04T20:20:44.525Z",
+   "text": "Put it at the end. Okay, questions. Can I do questions?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "f8c32704-2efe-46ac-97bb-1092cc03981a",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:20:45.842Z",
+   "end_timestamp": "2026-10-04T20:20:47.176Z",
+   "text": "Please. Be mean.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "5835c4db-c236-4cf1-8bab-ba6f75184edc",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:20:48.392Z",
+   "end_timestamp": "2026-10-04T20:20:53.953Z",
+   "text": "\"This is one course at one university. Why should I believe it generalizes?\"",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "4823aed4-3f41-4539-abbc-9b749568ec99",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:20:55.822Z",
+   "end_timestamp": "2026-10-04T20:21:10.793Z",
+   "text": "Um, so, that was the main reviewer question too. We added a cross-course analysis, a second course with a different instructor. Performance drops but holds. It's still one university, and we say that in limitations.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d9aafd0b-09e1-4a4a-9cc6-7e913c024b05",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:21:11.459Z",
+   "end_timestamp": "2026-10-04T20:21:14.597Z",
+   "text": "Good. Shorter though. \"Privacy. You're logging students' keystrokes.\"",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "b2b99baa-66ef-4623-81cb-118843bcdcfd",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:21:14.801Z",
+   "end_timestamp": "2026-10-04T20:21:23.730Z",
+   "text": "It's opt-in, IRB approved, and we don't keep prompt content beyond the session — we keep features. Students could see their own data.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ec07b658-18e1-49b6-85d0-ee445c79a84c",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:21:25.816Z",
+   "end_timestamp": "2026-10-04T20:21:27.525Z",
+   "text": "Good. \"Why thirty seconds?\"",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "899f1a28-f12b-446e-bd7b-3a96a1694416",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:21:29.201Z",
+   "end_timestamp": "2026-10-04T20:21:36.439Z",
+   "text": "We piloted ten, thirty, and sixty. Thirty had the best agreement. Ten was too noisy, sixty blurred states together.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "b5c27cff-789c-46f7-abc6-8c850b014dfd",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:21:38.482Z",
+   "end_timestamp": "2026-10-04T20:21:42.370Z",
+   "text": "Great answer. \"Could this run live in a class?\"",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "3895326b-2c16-4657-abdf-74b248c3fa69",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:21:42.988Z",
+   "end_timestamp": "2026-10-04T20:21:54.385Z",
+   "text": "Not yet. Latency's fine, but a false positive — like pinging a TA about a student who's actually fine — is costly. We'd want much higher precision first.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "129648b2-794c-42e6-b9e7-b792f8904922",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:21:56.187Z",
+   "end_timestamp": "2026-10-04T20:22:00.728Z",
+   "text": "That's good. You're good at questions. You're bad at time.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "0f754691-f18f-42d6-a4e3-2f48d2137e77",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:22:01.998Z",
+   "end_timestamp": "2026-10-04T20:22:03.904Z",
+   "text": "I'm bad at time. Known.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "3f79b23b-fad6-4cd3-a1ea-2f1011dde4c5",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:22:04.450Z",
+   "end_timestamp": "2026-10-04T20:22:08.385Z",
+   "text": "How was the AV check with the session chair?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "10ae313a-4687-4f83-9ea9-6837355d2cdd",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:22:10.547Z",
+   "end_timestamp": "2026-10-04T20:22:22.241Z",
+   "text": "Tomás? Fine. Friday. There's HDMI and USB-C at the lectern, and a clicker, but I'm bringing mine. Timing cards at five, two, and then stop.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "5022f4a5-d7d2-4e16-9520-2ae5d3fa6c06",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:22:22.489Z",
+   "end_timestamp": "2026-10-04T20:22:24.117Z",
+   "text": "Stop means get off.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "777869b3-4dcb-4fec-80f4-8dc25f416b7b",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:22:24.354Z",
+   "end_timestamp": "2026-10-04T20:22:37.501Z",
+   "text": "He said at stop he lets you finish your sentence, not your section. Which is fair. And I have to upload a backup video by tomorrow, under fifteen minutes. Mine's sixteen right now.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "61374f5d-1f84-432c-879f-cd1e2e3fbea2",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:22:37.757Z",
+   "end_timestamp": "2026-10-04T20:22:40.783Z",
+   "text": "Of course it is. When do you fly?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "f5725586-f8ef-4247-be2e-8524cbae6280",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:22:42.482Z",
+   "end_timestamp": "2026-10-04T20:22:44.295Z",
+   "text": "Tomorrow. Monday. Talk's Wednesday.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "58dbdf78-2a78-4b7e-91fb-c8a2bb35c613",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:22:44.491Z",
+   "end_timestamp": "2026-10-04T20:22:48.799Z",
+   "text": "Okay. Cut to fourteen thirty and run it again tonight.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "05b7097d-d081-4bee-b2a8-1aa4fb96aa44",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:22:49.286Z",
+   "end_timestamp": "2026-10-04T20:22:50.883Z",
+   "text": "Alone, to the wall.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "cdb771d2-6dde-4a45-a622-65d56c223e0f",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:22:52.830Z",
+   "end_timestamp": "2026-10-04T20:22:56.630Z",
+   "text": "To the wall. I'll text you \"slow down\" on Wednesday.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ddfc2cc0-1b5b-4cde-98e4-36879bd1a136",
+   "document_id": "b99f67d9-21a5-46fb-9d63-08b9521fb93a",
+   "start_timestamp": "2026-10-04T20:22:57.954Z",
+   "end_timestamp": "2026-10-04T20:23:01.914Z",
+   "text": "Please do. Okay. Thank you. Seriously, this was really useful.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  }
+ ]
+}

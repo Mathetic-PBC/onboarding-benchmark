@@ -1,0 +1,114 @@
+[
+  {
+    "ts": "1776826802.975882",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2026-04-21 20:00:02 PDT",
+    "text": "the student id hashes differ between the fall and spring exports. fall used sha1(pid), spring used sha256(pid + salt)"
+  },
+  {
+    "ts": "1776827117.207288",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-04-21 20:05:17 PDT",
+    "text": "ugh. do we still have the salt"
+  },
+  {
+    "ts": "1776827452.714855",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2026-04-21 20:10:52 PDT",
+    "text": "maybe in the old .env on prime-gpu1. i'll look tomorrow"
+  },
+  {
+    "ts": "1776875433.087479",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2026-04-22 09:30:33 PDT",
+    "text": "salt is gone. the spring export was made with a temporary key that got rotated"
+  },
+  {
+    "ts": "1776875746.001027",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-04-22 09:35:46 PDT",
+    "text": "ok, random split by window for now. we'll fix it later if reviewers ask"
+  },
+  {
+    "ts": "1778038820.934761",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2026-05-05 20:40:20 PDT",
+    "text": "croissant validator complains `recordSet.field.source` is missing for `window_label`. fixing"
+  },
+  {
+    "ts": "1778039744.278656",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2026-05-05 20:55:44 PDT",
+    "text": "fixed, validates now"
+  },
+  {
+    "ts": "1784868904.838622",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-07-23 21:55:04 PDT",
+    "text": "you up? R3's split question is real. 96% of students are in both train and test"
+  },
+  {
+    "ts": "1784869800.786054",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2026-07-23 22:10:00 PDT",
+    "text": "i'm up. can we join on (course, section, session_start, seat)? the seat number is in both exports"
+  },
+  {
+    "ts": "1784869939.324630",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-07-23 22:12:19 PDT",
+    "text": "trying that now"
+  },
+  {
+    "ts": "1784873155.390221",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-07-23 23:05:55 PDT",
+    "text": "match rate: 100% on 3114-f25, 1114-s26 and 2114-s26. 97.8% on 3114-s25, dropping the 41 unmatched windows"
+  },
+  {
+    "ts": "1784873268.710249",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2026-07-23 23:07:48 PDT",
+    "text": "good enough. write the group ids to `student_group.parquet` and i'll rerun the splits in the morning"
+  },
+  {
+    "ts": "1784989242.376474",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2026-07-25 07:20:42 PDT",
+    "text": "`make_splits.py --group student_group_id --seed 13` → train 42,610 / val 9,114 / test 9,195 windows, zero overlapping students. pushed"
+  },
+  {
+    "ts": "1784989334.042984",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-07-25 07:22:14 PDT",
+    "text": "🙏 rerunning baselines"
+  },
+  {
+    "ts": "1787317229.658649",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2026-08-21 06:00:29 PDT",
+    "text": "thanks for the monitor. it's huge. i'm never going back"
+  },
+  {
+    "ts": "1787319009.346000",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-08-21 06:30:09 PDT",
+    "text": "take care of her"
+  }
+]

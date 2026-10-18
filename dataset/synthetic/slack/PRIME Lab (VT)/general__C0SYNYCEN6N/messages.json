@@ -1,0 +1,128 @@
+[
+  {
+    "ts": "1760968974.952681",
+    "user": "U0SYNWFLRZV",
+    "user_name": "Yan Chen",
+    "datetime": "2025-10-20 07:02:54 PDT",
+    "text": "Lab meeting this Thursday moves to 2:00pm (same room). Rezky is presenting the replay-viewer usability results, Xiaohang has 10 minutes on the new GPU queue policy.\nReactions: +1 (4)"
+  },
+  {
+    "ts": "1760975275.548321",
+    "user": "U0SYNS0GL2E",
+    "user_name": "Rezky",
+    "datetime": "2025-10-20 08:47:55 PDT",
+    "text": "slides will be up by wed night. comments welcome on the timeline scrubber figure, it's still ugly"
+  },
+  {
+    "ts": "1761585341.223000",
+    "user": "U0SYN2JB5HW",
+    "user_name": "Xiaohang",
+    "datetime": "2025-10-27 10:15:41 PDT",
+    "text": "reminder: prime-gpu2 is down Saturday 8am–noon for the driver update. checkpoint anything long-running before friday night\nReactions: white_check_mark (3)"
+  },
+  {
+    "ts": "1762915232.215184",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2025-11-11 18:40:32 PST",
+    "text": "heads up for tomorrow: VizPI deployment #2 in CS 3114, lab session 3:30–4:45pm. <@U0SYN15CS2P|Minsun> and <@U0SYN2JB5HW|Xiaohang> are TAs-on-call in the room with me, <@U0SYNS0GL2E|Rezky> is watching the dashboard remotely. if you need the lab workstation tomorrow afternoon pls ask first, it's running the recorder\nReactions: +1 (3), rocket (2)"
+  },
+  {
+    "ts": "1762988749.372295",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2025-11-12 15:05:49 PST",
+    "text": "dep #2 done. 87 students across both sections, 3 TAs, no crashes. one real problem: websocket reconnects in section B were dropping buffered events until the hotfix at 4:10. details in #vizpi, postmortem tomorrow\nThread: 3 replies (latest: 2025-11-12 15:30:41 PST)\nReactions: tada (4), sweat_smile (2)"
+  },
+  {
+    "ts": "1765204217.485571",
+    "user": "U0SYNWFLRZV",
+    "user_name": "Yan Chen",
+    "datetime": "2025-12-08 06:30:17 PST",
+    "text": "End-of-semester lab lunch: Friday 12/12 at 12:30, I'm paying. Reply in the thread with dietary restrictions.\nThread: 3 replies (latest: 2025-12-08 08:22:09 PST)\nReactions: yum (5), heart (2)"
+  },
+  {
+    "ts": "1766179230.686134",
+    "user": "U0SYNRUS5ER",
+    "user_name": "Yue",
+    "datetime": "2025-12-19 13:20:30 PST",
+    "text": "the lab is closed 12/23–1/2. if you have data only on the lab workstation please copy it to the shared drive, IT is patching the machine on the 29th\nReactions: +1 (2)"
+  },
+  {
+    "ts": "1768312531.268321",
+    "user": "U0SYNWFLRZV",
+    "user_name": "Yan Chen",
+    "datetime": "2026-01-13 05:55:31 PST",
+    "text": "Welcome back. Spring lab meetings: Wednesdays 10:00–11:00. The paper-reading rotation is pinned in #paper-reading. Anyone planning a UIST submission (deadline March 31), tell me by Feb 20 so we can plan reads.\nReactions: +1 (5)"
+  },
+  {
+    "ts": "1769572093.774083",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-01-27 19:48:13 PST",
+    "text": "is anyone else getting `CUDA error: out of memory` on prime-gpu1 with nothing running? nvidia-smi shows 21GB held by a zombie python process from last week\nThread: 2 replies (latest: 2026-01-27 20:03:09 PST)"
+  },
+  {
+    "ts": "1770910217.273191",
+    "user": "U0SYNWFLRZV",
+    "user_name": "Yan Chen",
+    "datetime": "2026-02-12 07:30:17 PST",
+    "text": "UIST: TutorTrace (David, Minsun, Rezky, Yue) is our submission this year. I created #uist26 for it. Everyone else, please keep the last week of March free for pilot reads.\nReactions: muscle (3)"
+  },
+  {
+    "ts": "1774897839.344680",
+    "user": "U0SYN15CS2P",
+    "user_name": "Minsun",
+    "datetime": "2026-03-30 12:10:39 PDT",
+    "text": "there are snacks on the table by the window for the uist people. eat them pls, i bought too many\nReactions: pray (3), cookie (2)"
+  },
+  {
+    "ts": "1775049163.422912",
+    "user": "U0SYNWFLRZV",
+    "user_name": "Yan Chen",
+    "datetime": "2026-04-01 06:12:43 PDT",
+    "text": "TutorTrace was submitted last night. Thanks to everyone who read drafts, and to the authors for a calm final week (mostly). Rest a bit.\nReactions: tada (6)"
+  },
+  {
+    "ts": "1778162715.037164",
+    "user": "U0SYNWFLRZV",
+    "user_name": "Yan Chen",
+    "datetime": "2026-05-07 07:05:15 PDT",
+    "text": "IDETrace was submitted to the NeurIPS Datasets & Benchmarks track yesterday. Congratulations Xiaohang, Yue and David.\nReactions: tada (5), rocket (2)"
+  },
+  {
+    "ts": "1783034465.337259",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-07-02 16:21:05 PDT",
+    "text": "TutorTrace got conditionally accepted to UIST 2026!!! thank you all for the reads and the rebuttal help :sob:\nThread: 4 replies (latest: 2026-07-02 17:05:45 PDT)\nReactions: tada (6), partying_face (4), fire (3)"
+  },
+  {
+    "ts": "1785771011.049595",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-08-03 08:30:11 PDT",
+    "text": "some personal news: starting this fall i'm on a leave of absence from the phd to co-found a company (Mathetic) with Hudson Mitchell-Pullman. we're building a research notebook that keeps track of where your ideas came from. i'm moving to SF this saturday (8/8).\n\ni'm not disappearing: i'm finishing the uist camera-ready (due 8/14) and the idetrace rebuttal discussion, and vizpi_frontend is handed off to <@U0SYNS0GL2E|Rezky> (doc coming in #vizpi). Yan and i talked about this in june and the paperwork is done. thank you all, this lab has been the best part of grad school\nThread: 6 replies (latest: 2026-08-03 10:44:27 PDT)\nReactions: heart (6), rocket (4), tada (3)"
+  },
+  {
+    "ts": "1785859827.299261",
+    "user": "U0SYNRUS5ER",
+    "user_name": "Yue",
+    "datetime": "2026-08-04 09:10:27 PDT",
+    "text": "farewell lunch for David: Thursday 8/6, 12:30, the Thai place on Main. Lab is paying.\nReactions: yum (4), heart (2)"
+  },
+  {
+    "ts": "1786771918.521340",
+    "user": "U0SYNZSPT5P",
+    "user_name": "David Barron <dbarron410@vt.edu>",
+    "datetime": "2026-08-14 22:31:58 PDT",
+    "text": "uist camera-ready is in. the cross-course analysis made it (section 6.3). thank you <@U0SYN15CS2P|Minsun> <@U0SYNS0GL2E|Rezky> <@U0SYNRUS5ER|Yue> for the last-minute figure fixes\nReactions: tada (4)"
+  },
+  {
+    "ts": "1787753721.384539",
+    "user": "U0SYNWFLRZV",
+    "user_name": "Yan Chen",
+    "datetime": "2026-08-26 07:15:21 PDT",
+    "text": "Fall lab meetings: Thursdays 11:00. David will join remotely once a month for IDETrace updates.\nReactions: +1 (3)"
+  }
+]

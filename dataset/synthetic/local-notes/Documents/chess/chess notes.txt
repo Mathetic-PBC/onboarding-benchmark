@@ -1,0 +1,7 @@
+chess notes (rapid 10+0)
+
+rating: 1612 (oct 25) -> 1688 (mar 26) -> 1650 (sep 26, stopped playing in aug)
+- london: stop h4 before castling. ...c5 + ...Qb6 hits b2 every time
+- caro advance: ...Bf5, ...e6, ...c5. don't take on d4 early
+- endgames: rook behind passed pawn. I keep forgetting this in time trouble
+- puzzle rush best: 31

@@ -1,0 +1,755 @@
+{
+ "id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Conversation — Priya Raman (Berkeley, education + HCI)",
+ "created_at": "2026-09-10T20:57:54.000Z",
+ "updated_at": "2026-09-10T21:10:55.739Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "770f9e07043df6d1c4df97046e",
+  "summary": "Conversation — Priya Raman (Berkeley, education + HCI)",
+  "start": {
+   "dateTime": "2026-09-10T14:00:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-09-10T14:30:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true,
+    "organizer": true
+   },
+   {
+    "email": "praman@berkeley.edu",
+    "displayName": "Priya Raman",
+    "responseStatus": "accepted"
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted"
+   }
+  ],
+  "organizer": {
+   "email": "david@mathetic.com"
+  },
+  "creator": {
+   "email": "david@mathetic.com"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=618818b83f1b5490a8c33523679b1f6f5a57c7bd",
+  "status": "confirmed",
+  "location": "UC Berkeley"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Priya Raman",
+    "email": "praman@berkeley.edu"
+   },
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### About Priya\n\n- 4th-year PhD, education + HCI; studies how undergrads use AI assistants while writing code for data-science classes\n- Mixed methods: log analysis + interviews; two papers under review, dissertation chapter outline due December\n\n### Her setup\n\n- Claude is her main thinking tool: \"a few hundred\" conversations, several Claude Projects (one per paper)\n- Zotero for references, but also downloads PDFs directly from Google Scholar → same paper often in Zotero and ~/Downloads\n- Obsidian daily notes (\"started strong in January\"), now ~1 entry/week\n- Overleaf for writing; comments with co-authors in Overleaf + Slack DMs\n\n### Pain points (quotes)\n\n- \"Half my related-work section was argued out in Claude, and I can't find which chat.\"\n- \"I search my Claude history by guessing words I would have used.\"\n- \"I have the same paper four times and they all have different highlights.\"\n- When switching between papers, loses the thread of \"why I believed this in the first place\"\n\n### Reactions to the 5-minute look at Engelbart (after interview)\n\n- Immediately asked if it would import Claude Projects, not just loose chats\n- Loved the idea of a \"where did this thought come from\" trail on a paragraph\n- Worried about duplicates from Zotero + Downloads — \"please don't show me the paper four times\"\n- Volunteered to be a pilot user in October\n\n### Follow-ups\n\n- [ ] Send coffee card + thank-you\n- [ ] Add Priya to pilot list (first pilot slot, early Oct)\n- [ ] Product: Claude Projects import; dedupe across Zotero/Downloads is not optional\n- Referrals: her labmate (CS education) and a postdoc in statistics (Ben Adeyemi — already booked)\n",
+ "notes_plain": "About Priya\n\n4th-year PhD, education + HCI; studies how undergrads use AI assistants while writing code for data-science classes\nMixed methods: log analysis + interviews; two papers under review, dissertation chapter outline due December\n\nHer setup\n\nClaude is her main thinking tool: \"a few hundred\" conversations, several Claude Projects (one per paper)\nZotero for references, but also downloads PDFs directly from Google Scholar → same paper often in Zotero and ~/Downloads\nObsidian daily notes (\"started strong in January\"), now ~1 entry/week\nOverleaf for writing; comments with co-authors in Overleaf + Slack DMs\n\nPain points (quotes)\n\n\"Half my related-work section was argued out in Claude, and I can't find which chat.\"\n\"I search my Claude history by guessing words I would have used.\"\n\"I have the same paper four times and they all have different highlights.\"\nWhen switching between papers, loses the thread of \"why I believed this in the first place\"\n\nReactions to the 5-minute look at Engelbart (after interview)\n\nImmediately asked if it would import Claude Projects, not just loose chats\nLoved the idea of a \"where did this thought come from\" trail on a paragraph\nWorried about duplicates from Zotero + Downloads — \"please don't show me the paper four times\"\nVolunteered to be a pilot user in October\n\nFollow-ups\n\nSend coffee card + thank-you\nAdd Priya to pilot list (first pilot slot, early Oct)\nProduct: Claude Projects import; dedupe across Zotero/Downloads is not optional\nReferrals: her labmate (CS education) and a postdoc in statistics (Ben Adeyemi — already booked)\n",
+ "transcript": [
+  {
+   "id": "2079e648-4c02-4cc0-a70b-b0bd45e6bec2",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:00:24.902Z",
+   "end_timestamp": "2026-09-10T21:00:32.446Z",
+   "text": "Hi! Thanks for having us in your lab. Is it okay if I record? Just for our notes.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "b3eb983e-28a9-439a-ae8d-698fa850dca0",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:00:33.359Z",
+   "end_timestamp": "2026-09-10T21:00:40.513Z",
+   "text": "Yes, go for it. Sorry about the mess, we had a deadline last week and nobody's cleaned up.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "fa8b7b00-d447-4ab9-889c-156a14ed4cab",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:00:41.040Z",
+   "end_timestamp": "2026-09-10T21:00:43.781Z",
+   "text": "This is cleaner than our house.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "4b1a2537-0bfe-4f5a-874d-a1ce334fdf85",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:00:43.985Z",
+   "end_timestamp": "2026-09-10T21:00:48.491Z",
+   "text": "That's a low bar, I've heard about the incubator houses.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "3098fc7c-a1ce-46d9-8907-388e2d094024",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:00:49.849Z",
+   "end_timestamp": "2026-09-10T21:00:56.750Z",
+   "text": "Ha. Okay, so, no pitch, just questions. Hudson's taking notes. What are you working on this semester?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "3c8feac1-b235-4451-abe3-fc4eb4324b03",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:00:57.208Z",
+   "end_timestamp": "2026-09-10T21:01:10.999Z",
+   "text": "So I'm a fourth year. Education and HCI, co-advised. I study how undergrads use AI assistants when they're writing code in data science classes. Like, when they ask, what they ask, whether it helps.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "6ee58ed4-1e9d-4bf6-89d5-ad40e26d1dea",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:01:11.437Z",
+   "end_timestamp": "2026-09-10T21:01:18.723Z",
+   "text": "Oh that's close to what I — I worked on something adjacent, at Virginia Tech. Telemetry in CS1 labs.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "5be0b8a4-1c8a-4cf5-b90d-486ee3e7a0e3",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:01:19.852Z",
+   "end_timestamp": "2026-09-10T21:01:26.892Z",
+   "text": "Wait, the TutorTrace thing? Is that yours? I think I saw it on the UIST accepted list.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "2a4b3b00-3cbc-4d3e-9229-26bd69abf9d7",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:01:28.923Z",
+   "end_timestamp": "2026-09-10T21:01:31.920Z",
+   "text": "Yeah, that's ours. The talk's in October.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "056bb156-2516-4f26-8403-f83dd8e0d47b",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:01:34.049Z",
+   "end_timestamp": "2026-09-10T21:01:38.468Z",
+   "text": "That's so funny. Okay, sorry, keep going, you're interviewing me.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "dc4efaa9-71e6-49b9-8023-124ced785256",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:01:39.699Z",
+   "end_timestamp": "2026-09-10T21:01:42.419Z",
+   "text": "Ha, no it's fine. Mixed methods?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "537c3dd4-bed0-4f31-9aee-a0df79b325bc",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:01:44.590Z",
+   "end_timestamp": "2026-09-10T21:01:54.493Z",
+   "text": "Logs plus interviews. Two papers under review, and my dissertation chapter outline is due in December, which, um, is the stress in the room right now.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "df7d5b85-aa5e-4258-b051-3730a3e3f97e",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:01:56.295Z",
+   "end_timestamp": "2026-09-10T21:02:03.363Z",
+   "text": "Can you walk me through the last time you started something new? Where the idea came from?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "3f16b001-b024-47f6-91cb-b84951371852",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:02:04.206Z",
+   "end_timestamp": "2026-09-10T21:02:19.447Z",
+   "text": "Okay so honestly most of my ideas start in Claude now. Like, I'll paste in some weird log pattern and say \"what could explain this\" and we go back and forth for an hour. The chapter outline started that way.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "2e998191-8daa-4d29-b642-f411480153ee",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:02:20.044Z",
+   "end_timestamp": "2026-09-10T21:02:23.101Z",
+   "text": "How many conversations do you have, roughly?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "94bd233c-57c2-41a8-8d70-76a6a33ae076",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:02:24.720Z",
+   "end_timestamp": "2026-09-10T21:02:32.821Z",
+   "text": "Oh. A few hundred? I have Projects, like, one per paper. And then a bunch of loose ones.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "440b1289-9079-427c-93a9-397ab969f9e8",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:02:33.490Z",
+   "end_timestamp": "2026-09-10T21:02:35.026Z",
+   "text": "Can you show me?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "8d51b6a0-40e8-4a93-a09f-87bbffeaa4ce",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:02:35.583Z",
+   "end_timestamp": "2026-09-10T21:02:47.670Z",
+   "text": "Sure. Okay so this is Claude. Here are the projects. This one's the CHI paper, this one's the chapter. And then down here... it's just a wall.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "164ffe23-8cfe-463d-a93c-6873aeab822a",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:02:49.053Z",
+   "end_timestamp": "2026-09-10T21:02:50.191Z",
+   "text": "That's a wall.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a2ddaba7-2828-4fbe-b6d7-66d9bb1e6c69",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:02:51.362Z",
+   "end_timestamp": "2026-09-10T21:02:59.653Z",
+   "text": "It's a wall. And the problem is, half my related-work section was argued out in Claude, and I can't find which chat.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "8c31cf67-9bbc-4435-83fe-e52f3577fa88",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:03:01.209Z",
+   "end_timestamp": "2026-09-10T21:03:03.466Z",
+   "text": "How do you search it?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "f40e7db6-6c1e-4e78-89d6-11802c32de34",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:03:05.246Z",
+   "end_timestamp": "2026-09-10T21:03:13.637Z",
+   "text": "I search my Claude history by guessing words I would have used. Which works maybe a third of the time.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "f58656d1-8d9d-4384-8f6c-97e3e26abc4a",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:03:13.993Z",
+   "end_timestamp": "2026-09-10T21:03:16.794Z",
+   "text": "And what happens the other two thirds?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "6c6757d8-daa7-431c-8afe-e6421468d776",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:03:18.427Z",
+   "end_timestamp": "2026-09-10T21:03:30.006Z",
+   "text": "I re-argue it. With Claude. Again. Which honestly is sometimes fine, but sometimes I end up somewhere different and I'm like, wait, which version did I believe?",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "60d27c23-a188-4b38-a039-870d61082627",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:03:30.590Z",
+   "end_timestamp": "2026-09-10T21:03:33.656Z",
+   "text": "Okay. What about papers? Where do they live?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "f19057bc-87a6-4654-af74-2d6e413c5358",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:03:33.855Z",
+   "end_timestamp": "2026-09-10T21:03:55.043Z",
+   "text": "Zotero. But also, if I'm in a hurry, I just download from Scholar. So they end up in Downloads. And then later I add the same paper to Zotero from the publisher page. I have the same paper four times and they all have different highlights.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "b5017f7c-fd25-4f83-b78b-883e0f4c190e",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:03:55.772Z",
+   "end_timestamp": "2026-09-10T21:03:56.629Z",
+   "text": "Four times.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "5d94388e-1389-43ed-81a8-fd814ab8de69",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:03:57.837Z",
+   "end_timestamp": "2026-09-10T21:04:09.923Z",
+   "text": "I checked once. It's four. One in Zotero, two in Downloads with like \"(1)\" in the name, and one in a Slack DM my co-author sent me.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "4ea41ff0-59b7-48fd-abf0-671656f10a79",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:04:10.731Z",
+   "end_timestamp": "2026-09-10T21:04:13.042Z",
+   "text": "Oh, the Slack one too.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "a13c528e-2c8e-4f5e-98ed-98259ac1f30a",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:04:14.212Z",
+   "end_timestamp": "2026-09-10T21:04:18.488Z",
+   "text": "The Slack one has the best highlights because she did them.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "17001142-61e7-4548-a869-b60480eed2e3",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:04:19.083Z",
+   "end_timestamp": "2026-09-10T21:04:24.563Z",
+   "text": "Ha. Okay. And notes? Do you keep your own notes outside Claude?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e9ca4a2f-e744-4b9b-8e50-7327b7a80fb9",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:04:26.166Z",
+   "end_timestamp": "2026-09-10T21:04:34.528Z",
+   "text": "Obsidian. Daily notes. I started strong in January. Now it's like one entry a week, and it's mostly \"today I was tired.\"",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "5b7f0887-ec7f-45f7-a2c1-a276795c880b",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:04:35.363Z",
+   "end_timestamp": "2026-09-10T21:04:36.755Z",
+   "text": "That's very real.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "8ca77051-d2bf-4d38-88a9-5190a54e71de",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:04:38.530Z",
+   "end_timestamp": "2026-09-10T21:04:47.048Z",
+   "text": "Writing is Overleaf. Comments with co-authors in Overleaf, and then Slack DMs for the arguments that are too long for a comment.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "7e5ae5b0-f6a4-4092-9999-48ba2c93bac6",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:04:48.737Z",
+   "end_timestamp": "2026-09-10T21:04:53.680Z",
+   "text": "When you switch between papers, how do you get back into one?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "311871fa-a24f-4860-a969-0b6e597f8e25",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:04:54.485Z",
+   "end_timestamp": "2026-09-10T21:05:10.984Z",
+   "text": "Badly. I lose the thread of why I believed something in the first place. Like I'll come back to the CHI paper after two weeks on the chapter and I'm reading my own claims like, do I believe this? Why?",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "0c51b923-3b2e-415b-b009-1cca722fd09f",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:05:12.329Z",
+   "end_timestamp": "2026-09-10T21:05:17.489Z",
+   "text": "If you could ask your past self one question, what would it be?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "36aee3c1-b394-499a-9ed2-8d1f1581ace5",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:05:19.475Z",
+   "end_timestamp": "2026-09-10T21:05:30.102Z",
+   "text": "\"What was the third reason.\" There's always a third reason I can't remember. I write \"for three reasons\" and then I remember two.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "334d1cc2-c758-4781-9b3c-107cdc61892e",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:05:31.033Z",
+   "end_timestamp": "2026-09-10T21:05:31.970Z",
+   "text": "Oh no.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "735c552b-2a30-41b6-bae0-b4e19ddf6211",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:05:32.177Z",
+   "end_timestamp": "2026-09-10T21:05:35.094Z",
+   "text": "It's a running joke with my advisor.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "9d6c0ad7-ebdd-459e-9712-fd729c867767",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:05:36.308Z",
+   "end_timestamp": "2026-09-10T21:05:39.173Z",
+   "text": "What have you tried and stopped using?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "01770d69-a40e-4003-91fe-bc2b06bd0279",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:05:41.300Z",
+   "end_timestamp": "2026-09-10T21:05:49.834Z",
+   "text": "Notion, briefly. Roam, in like 2021, everyone did. Mem, for a month. Anything that wanted me to organize up front, I quit.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "64c7e002-4ad5-4e74-8c84-c0d024385729",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:05:50.646Z",
+   "end_timestamp": "2026-09-10T21:05:53.767Z",
+   "text": "That's consistent with what we heard yesterday actually.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "87fba8e4-c10b-418f-9a9c-ecc8f12466d7",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:05:55.095Z",
+   "end_timestamp": "2026-09-10T21:06:00.467Z",
+   "text": "Everyone quits the organize-up-front ones. You can't organize ideas you haven't had yet.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "867ca534-5c10-4f68-a9e7-5302c148b125",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:06:02.287Z",
+   "end_timestamp": "2026-09-10T21:06:11.134Z",
+   "text": "That's a really good line. Okay, um. I said we'd show you something at the end. Do you still want to see it?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ab6e769a-362c-4d73-98bb-0a5d7e809e6d",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:06:11.710Z",
+   "end_timestamp": "2026-09-10T21:06:12.651Z",
+   "text": "Yes, absolutely.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "50927cf1-800a-4e6b-8825-afaf7553d8e7",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:06:13.784Z",
+   "end_timestamp": "2026-09-10T21:06:35.790Z",
+   "text": "Okay. Five minutes, Hudson's timing me. So, this is Engelbart. It's very early. The idea is you connect your stuff — Claude, Zotero, PDFs — and it imports everything on day one. And then when you write a paragraph, it can show you where the thought came from. Like, this chat, this paper, this note.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e7cce993-fbff-4cb5-8dd5-026581e3b547",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:06:37.363Z",
+   "end_timestamp": "2026-09-10T21:06:41.925Z",
+   "text": "Wait, does it import Claude Projects? Or just loose chats?",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "63e8496f-4267-4053-8e8b-1907cc0382e9",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:06:43.268Z",
+   "end_timestamp": "2026-09-10T21:06:50.744Z",
+   "text": "Right now just the conversations. Projects is a good question, I don't know if the export—",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "7a7fcc62-cda2-4dc0-a1fc-6e365937dcca",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:06:51.160Z",
+   "end_timestamp": "2026-09-10T21:06:59.455Z",
+   "text": "Because the projects are where the organized stuff is. If it only gets the wall, it gets the messy half.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "e3495b0c-e572-4392-aca1-3e74e3f257ac",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:07:01.542Z",
+   "end_timestamp": "2026-09-10T21:07:04.982Z",
+   "text": "That's fair. Writing that down. Hudson, write that down.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ccd29dcd-1683-48bd-8c36-7166dfa7d644",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:07:06.561Z",
+   "end_timestamp": "2026-09-10T21:07:07.593Z",
+   "text": "Written.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a20d9abc-9054-4f76-8702-67a47904bece",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:07:09.190Z",
+   "end_timestamp": "2026-09-10T21:07:20.746Z",
+   "text": "And the trail thing. On a paragraph. That's — okay that's the thing I want. Where did this thought come from. That's exactly my \"third reason\" problem.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "27a42779-a81e-404f-9f94-ac1576b6dbff",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:07:22.668Z",
+   "end_timestamp": "2026-09-10T21:07:24.978Z",
+   "text": "Yeah, that's the core of it.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "72c19559-91b8-4431-9c72-b2057d1f8898",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:07:26.420Z",
+   "end_timestamp": "2026-09-10T21:07:34.683Z",
+   "text": "But please, the duplicates. If I connect Zotero and Downloads, please don't show me the paper four times.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "000a93b4-77ed-4a9a-8490-28ffc1cb6947",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:07:35.320Z",
+   "end_timestamp": "2026-09-10T21:07:38.320Z",
+   "text": "We have dedupe. It's, um, it's early.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ae0c8467-5676-48c0-b636-1d7e7761f15e",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:07:38.980Z",
+   "end_timestamp": "2026-09-10T21:07:42.221Z",
+   "text": "Early dedupe is my nightmare. Just saying.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "f1db31cd-1bb0-413a-9c93-71d311290238",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:07:43.600Z",
+   "end_timestamp": "2026-09-10T21:07:44.828Z",
+   "text": "That's five minutes.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "2b64b6e0-d791-4981-929e-b8a12d5f797c",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:07:46.858Z",
+   "end_timestamp": "2026-09-10T21:07:49.339Z",
+   "text": "Okay, that's five. Thank you, seriously.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "4924a736-a6f8-4a4f-80b5-7c68911d2933",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:07:50.903Z",
+   "end_timestamp": "2026-09-10T21:07:55.777Z",
+   "text": "Can I try it? Like actually use it? When's it usable?",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "3ca13ada-2f0a-49bc-83f0-2e672cb671a2",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:07:56.700Z",
+   "end_timestamp": "2026-09-10T21:08:03.173Z",
+   "text": "October. We're doing pilot sessions early October. You'd be — honestly you'd be the first.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "71285baf-3441-4b2d-bc83-1ce7ed5ab92a",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:08:04.905Z",
+   "end_timestamp": "2026-09-10T21:08:09.887Z",
+   "text": "Put me down. I'll complain a lot, but I'll use it.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "2254639a-ceab-4524-8bc7-a2b8991997e5",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:08:11.150Z",
+   "end_timestamp": "2026-09-10T21:08:15.966Z",
+   "text": "That's exactly what we want. Who else should we talk to?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ae2eec85-53b2-4266-86f5-3f97a42facac",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:08:16.831Z",
+   "end_timestamp": "2026-09-10T21:08:25.454Z",
+   "text": "My labmate, she does CS education. And there's a stats postdoc, Ben Adeyemi, he's super organized, the opposite of me.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "ce9834af-2721-4bc5-af63-50a251f412f4",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:08:26.121Z",
+   "end_timestamp": "2026-09-10T21:08:28.510Z",
+   "text": "We actually have Ben next week.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "08da65ad-c217-46ca-b1f0-038031c0d0a2",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:08:29.775Z",
+   "end_timestamp": "2026-09-10T21:08:34.359Z",
+   "text": "Oh good, he'll make you feel bad about everyone else.",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  },
+  {
+   "id": "1f57ffe1-15fa-4148-b3bb-03c29d8c63c2",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:08:36.023Z",
+   "end_timestamp": "2026-09-10T21:08:39.055Z",
+   "text": "Ha. Thank you, Priya. Coffee card's yours.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "dce1e9e8-ae8f-4305-a2e2-919ee0a59ebf",
+   "document_id": "e3cad9ed-4705-498d-bdf4-2a12727e667b",
+   "start_timestamp": "2026-09-10T21:08:39.708Z",
+   "end_timestamp": "2026-09-10T21:08:42.739Z",
+   "text": "Love it. Good luck with the talk!",
+   "source": "microphone",
+   "speaker": "Priya Raman",
+   "is_final": true
+  }
+ ]
+}

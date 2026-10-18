@@ -1,0 +1,31 @@
+=== THREAD PARENT MESSAGE ===
+From: Minsun (U0SYN15CS2P)
+Time: 2025-11-19 18:05:08 PST
+Message TS: 1763604308.355803
+for next week: Ostrowski et al. 2025, "Productive Struggle or Silent Stalling? Telemetry Signals of Help-Seeking in LLM-Assisted CS1" (arXiv v1, July). they have TAs label 30-second windows from a CS1 course, super close to what we're doing in the sprint right now. pdf attached
+
+=== THREAD REPLIES (4 total) ===
+
+--- Reply 1 of 4 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2025-11-19 18:20:09 PST
+Message TS: 1763605209.376559
+wait this is literally our setup. 4 states, 30s windows, TA raters. their "stalling" is basically our stalled-after-error minus the error condition
+
+--- Reply 2 of 4 ---
+From: Minsun (U0SYN15CS2P)
+Time: 2025-11-19 18:34:53 PST
+Message TS: 1763606093.383468
+yes!! and their kappa is 0.62, we're already at 0.68 lol
+
+--- Reply 3 of 4 ---
+From: Xiaohang (U0SYN2JB5HW)
+Time: 2025-11-19 18:50:01 PST
+Message TS: 1763607001.056837
+section 4: near-identical consecutive prompts are the top stalling feature. we don't log assistant prompts in vizpi yet
+
+--- Reply 4 of 4 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2025-11-19 19:05:49 PST
+Message TS: 1763607949.332497
+adding prompt logging to the spring backlog. also they report 0.58 macro-F1 when same-student windows are kept out of the comparison, read that part carefully

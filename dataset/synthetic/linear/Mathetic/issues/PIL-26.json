@@ -1,0 +1,104 @@
+{
+  "issue": {
+    "id": "PIL-26",
+    "uuid": "180866be-6a80-4606-bf33-43d505041c9c",
+    "title": "Connect screen: replace 'Other' with named sources",
+    "description": "Daniel (10/13) looked for Notion and Granola, didn't see them, clicked **Other** expecting a list, and got a generic folder picker. His words: \"so Other means… a folder?\"\n\nSplit Other into: *Folder on this Mac*, *Notion (export zip)*, *Granola (links)*, *Obsidian vault*. Anything we don't support yet: say \"coming soon\" and let them ask for it, instead of a folder picker.",
+    "projectMilestone": {
+      "id": "752d1e60-9eb6-4c7b-a102-c1e5d03b5518",
+      "name": "Import fixes from pilot feedback shipped"
+    },
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-26/connect-screen-replace-other-with-named-sources",
+    "gitBranchName": "david/pil-26-connect-screen-replace-other-with-named-sources",
+    "createdAt": "2026-10-13T19:50:40.509Z",
+    "updatedAt": "2026-10-14T22:05:34.469Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": "2026-10-14T22:00:44.258Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "In Progress",
+    "statusType": "started",
+    "labels": [
+      "Improvement",
+      "Onboarding",
+      "Pilot feedback"
+    ],
+    "createdBy": "David Barron",
+    "assignee": "David Barron",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-26",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-13T19:50:40.509Z",
+        "endedAt": "2026-10-14T22:00:44.258Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-14T22:00:44.258Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": [
+    {
+      "id": "1589f1f6-92cd-4c72-b7fc-55853b517086",
+      "body": "Mock in Figma, going with a list of named tiles + one \"Request a source\" tile at the end.",
+      "attachments": [],
+      "createdAt": "2026-10-14T22:05:34.469Z",
+      "updatedAt": "2026-10-14T22:05:34.469Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      },
+      "onBehalfOf": null
+    },
+    {
+      "id": "55ab34db-b2b7-4e77-8cbd-cbd770735edc",
+      "body": "Priya also hovered over Other for a while on 10/9, I didn't flag it then. Two for two.",
+      "attachments": [],
+      "createdAt": "2026-10-14T02:20:45.524Z",
+      "updatedAt": "2026-10-14T02:20:45.524Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "cb2896e3-8076-499e-adca-cc4ee127e9e7",
+        "name": "Hudson"
+      },
+      "onBehalfOf": null
+    }
+  ]
+}

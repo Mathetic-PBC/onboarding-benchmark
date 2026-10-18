@@ -1,0 +1,19 @@
+<html lang="en-US">
+	<head>
+		<title>2026-07-24 symptoms</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="created" content="2026-07-24T10:12:00.0000000" />
+	</head>
+	<body data-absolute-enabled="true" style="font-family:Calibri;font-size:11pt">
+		<div data-id="_default" style="position:absolute;left:48px;top:120px;width:624px">
+			<h1 style="font-size:16pt;color:#1e4e79;margin-top:0pt;margin-bottom:0pt">Fri Jul 24 — something is off with the splits</h1>
+			<p style="margin-top:0pt;margin-bottom:0pt">was re-running the per-feature ablation R2 asked for. dropping ALL keystroke features only costs 0.02 macro-F1?? that should hurt way more.</p>
+			<h2 style="font-size:13pt;color:#2e75b5;margin-top:0pt;margin-bottom:0pt">symptoms</h2>
+			<ul><li>per-student accuracy on test is weirdly uniform (0.79–0.84) — real behaviour is never that even</li><li>nearest-neighbour check: for 61% of test windows, the closest train window (cosine on features) is from the <span style="font-weight:bold">same student</span>, often adjacent in time</li><li>student s_0412 has 211 windows in train and 54 in test</li><li>a model trained on student id one-hot alone gets 0.46 macro-F1. majority class is 0.19. it is learning who, not what.</li></ul>
+			<p style="margin-top:0pt;margin-bottom:0pt">hypothesis: split is at the window level, not the student level. windows from the same session are near-duplicates (30s overlapping by 10s). leakage.</p>
+			<p data-tag="to-do:completed" style="margin-top:0pt;margin-bottom:0pt">read make_splits.py properly</p>
+			<p data-tag="to-do:completed" style="margin-top:0pt;margin-bottom:0pt">tell Yan before the weekend</p>
+			<p data-tag="to-do:completed" style="margin-top:0pt;margin-bottom:0pt">don't panic-post in Slack yet</p>
+		</div>
+	</body>
+</html>

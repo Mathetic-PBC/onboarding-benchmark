@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20250113T004500Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Juno browser extension — scope</title>
+    <created>20241104T021000Z</created>
+    <updated>20250113T004500Z</updated>
+    <tag>juno</tag>
+    <tag>browser-extension</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>Goal: talk to the page you're reading. Juno reads the article, you ask questions out loud.</div><div><br/></div><div>v0 scope (2 weekends)</div><ol><li>content script grabs the readable text (readability-style extraction).</li><li>side panel with push-to-talk button.</li><li>send page text (chunked, top-k by embedding vs the question) + question to the backend.</li><li>answer spoken back with the selected persona.</li></ol><div><br/></div><div>Open questions</div><ul><li>PDFs in the browser viewer: can't get text easily. skip for v0.</li><li>privacy: do NOT send the page unless the user presses the button. say so in the panel.</li><li>Chrome Web Store review: microphone permission needs a justification paragraph.</li></ul><div><br/></div><div>1/12/25: v0 works on articles. long pages (&gt; 15k tokens) are slow; summarize-then-answer helped. Shelving for now — research is eating everything. Maybe the extension is the right shape for something later.</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

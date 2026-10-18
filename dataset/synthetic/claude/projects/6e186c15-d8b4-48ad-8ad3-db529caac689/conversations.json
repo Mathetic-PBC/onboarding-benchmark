@@ -1,0 +1,110 @@
+[
+ {
+  "uuid": "1b705667-2f27-4b49-af5e-6f20d744063a",
+  "name": "Presentation outline + Q&A prep",
+  "summary": "",
+  "model": "claude-sonnet-4-6",
+  "created_at": "2026-04-29T02:39:58.900370+00:00",
+  "updated_at": "2026-04-29T02:44:03.768544+00:00",
+  "settings": {
+   "enabled_web_search": true,
+   "tool_search_mode": "auto",
+   "preview_feature_uses_artifacts": true
+  },
+  "is_starred": false,
+  "is_archived": false,
+  "is_temporary": false,
+  "workspace_upgraded": false,
+  "is_multiplayer": false,
+  "platform": "CLAUDE_AI",
+  "is_wiggle_enabled": true,
+  "effective_thinking_mode": "off",
+  "current_leaf_message_uuid": "6bc513b3-df19-4679-b8d8-47119da746ef",
+  "project_uuid": "6e186c15-d8b4-48ad-8ad3-db529caac689",
+  "project": {
+   "uuid": "6e186c15-d8b4-48ad-8ad3-db529caac689",
+   "name": "ISE 6664 report"
+  }
+ },
+ {
+  "uuid": "8e7e3732-ff7a-4084-b217-112633224c73",
+  "name": "Report outline (14 pages)",
+  "summary": "",
+  "model": "claude-opus-4-6",
+  "created_at": "2026-04-27T00:04:58.981996+00:00",
+  "updated_at": "2026-04-27T00:09:44.841237+00:00",
+  "settings": {
+   "enabled_web_search": true,
+   "tool_search_mode": "auto",
+   "preview_feature_uses_artifacts": true
+  },
+  "is_starred": false,
+  "is_archived": false,
+  "is_temporary": false,
+  "workspace_upgraded": false,
+  "is_multiplayer": false,
+  "platform": "CLAUDE_AI",
+  "is_wiggle_enabled": true,
+  "effective_thinking_mode": "off",
+  "current_leaf_message_uuid": "ea8b9788-771f-4000-a9d3-0bdd50dd4ca8",
+  "project_uuid": "6e186c15-d8b4-48ad-8ad3-db529caac689",
+  "project": {
+   "uuid": "6e186c15-d8b4-48ad-8ad3-db529caac689",
+   "name": "ISE 6664 report"
+  }
+ },
+ {
+  "uuid": "c20b7c91-3690-465c-b758-025b5654c24f",
+  "name": "Cohen's kappa for our coding pilot",
+  "summary": "",
+  "model": "claude-opus-4-6",
+  "created_at": "2026-03-05T04:47:58.286373+00:00",
+  "updated_at": "2026-03-05T04:51:15.203582+00:00",
+  "settings": {
+   "enabled_web_search": true,
+   "tool_search_mode": "auto",
+   "preview_feature_uses_artifacts": true
+  },
+  "is_starred": false,
+  "is_archived": false,
+  "is_temporary": false,
+  "workspace_upgraded": false,
+  "is_multiplayer": false,
+  "platform": "CLAUDE_AI",
+  "is_wiggle_enabled": true,
+  "effective_thinking_mode": "off",
+  "current_leaf_message_uuid": "8c0b94aa-aeab-4c51-ab32-f3b9fde9093f",
+  "project_uuid": "6e186c15-d8b4-48ad-8ad3-db529caac689",
+  "project": {
+   "uuid": "6e186c15-d8b4-48ad-8ad3-db529caac689",
+   "name": "ISE 6664 report"
+  }
+ },
+ {
+  "uuid": "bcf6f6f6-7b90-456d-8a20-5869c4819cbd",
+  "name": "Codebook for frustration signals in tutoring transcripts",
+  "summary": "",
+  "model": "claude-sonnet-4-6",
+  "created_at": "2026-02-05T03:14:58.960674+00:00",
+  "updated_at": "2026-02-05T03:21:42.056342+00:00",
+  "settings": {
+   "enabled_web_search": true,
+   "tool_search_mode": "auto",
+   "preview_feature_uses_artifacts": true
+  },
+  "is_starred": false,
+  "is_archived": false,
+  "is_temporary": false,
+  "workspace_upgraded": false,
+  "is_multiplayer": false,
+  "platform": "CLAUDE_AI",
+  "is_wiggle_enabled": true,
+  "effective_thinking_mode": "off",
+  "current_leaf_message_uuid": "ab3355c9-ed41-47d2-a426-d7bd20f00879",
+  "project_uuid": "6e186c15-d8b4-48ad-8ad3-db529caac689",
+  "project": {
+   "uuid": "6e186c15-d8b4-48ad-8ad3-db529caac689",
+   "name": "ISE 6664 report"
+  }
+ }
+]

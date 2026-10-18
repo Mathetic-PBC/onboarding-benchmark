@@ -1,0 +1,60 @@
+From: David Barron <dbarron410@vt.edu>
+To: Alan Brooks <abrooks.ise@vt.edu>
+Subject:
+ RE: Project report feedback - Frustration signals in AI-tutoring transcripts
+Date: Wed, 13 May 2026 01:08:00 +0000
+Message-ID:
+ <CH3PR03MB745809B150CB0A3B3DCC8762@CH3PR03MB7458.namprd03.prod.outlook.com>
+In-Reply-To:
+ <MN2PR03MB5034F81C94C1A9C12D0ED8FF@MN2PR03MB5034.namprd03.prod.outlook.com>
+References:
+ <MN2PR03MB5034F81C94C1A9C12D0ED8FF@MN2PR03MB5034.namprd03.prod.outlook.com>
+MIME-Version: 1.0
+Thread-Topic:
+ Project report feedback - Frustration signals in AI-tutoring transcripts
+Thread-Index: AQHc4kW5xI/Isz2pWCroOiEeEXZoVwAXm+i0
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthSource: BN8PR03MB4721.namprd03.prod.outlook.com
+X-MS-Exchange-Organization-Network-Message-Id:
+ 749a7baf-eae3-4678-a533-a91199ba91fb
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 13 May 2026 01:08:00.364 (UTC)
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Thank you, Dr. Brooks. This was a fun project. We'll fix the abandonment word=
+ing (a bootstrap CI over sessions) and add the single-institution limitation =
+before we post a version anywhere. We may take you up on the summer read.
+
+Best,
+David
+
+________________________________
+From: Alan Brooks <abrooks.ise@vt.edu>
+Sent: Tuesday, May 12, 2026 3:30 PM
+To: David Barron; Maya Torres; Jordan Lee
+Subject: Project report feedback - Frustration signals in AI-tutoring transcr=
+ipts
+
+Hi team,
+
+Your report grade is 93/100 (the feedback sheet is attached). Overall: a well=
+-scoped project with an honest reliability analysis. The decision to move TER=
+SE to an automatic feature, and to explain why, was the right call.
+
+Main points:
+- The 14 pages are well used. Section 5 is the strongest part of the report.
+- -4: the claim that NEG-TUTOR "predicts session abandonment" rests on 31 aba=
+ndoned sessions. Call it an association and report the confidence interval.
+- -3: the limitations section doesn't discuss that both tutoring deployments =
+were in the same university and course level.
+
+If you're planning to turn this into a workshop paper, I'm happy to read a dr=
+aft over the summer.
+
+Alan Brooks, Ph.D.
+Grado Department of Industrial and Systems Engineering
+Virginia Tech

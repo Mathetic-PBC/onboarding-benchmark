@@ -1,0 +1,31 @@
+From: David Barron <dbarron410@vt.edu>
+To: Minsun <msun.prime@vt.edu>
+Subject: Re: related work: Ostrowski et al. (arXiv) =?utf-8?b?4oCU?= very
+ close to us
+Date: Thu, 20 Nov 2025 15:02:00 -0500
+Message-ID:
+ <CAzorP9mXGC+p7IQ2+h_OsRTpL0jAwLaFUt7ixzYu+U4tuhVkOBX2D@mail.gmail.com>
+In-Reply-To:
+ <CA4TNoymqS8UC3ZEIWOF0ex7_MQsKtAUuhEz2VR0y4H7S522FXI+Yt@mail.gmail.com>
+References:
+ <CA4TNoymqS8UC3ZEIWOF0ex7_MQsKtAUuhEz2VR0y4H7S522FXI+Yt@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1849335427891220236
+X-Gmail-Labels: Sent
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+oh wow, hadn't seen it. yes we cite it. their "stalling" is basically our sta=
+lled-after-error without the error trigger. good for us actually, independent=
+ evidence the state is real
+
+adding to the zotero group
+
+On Thu, Nov 20, 2025 at 1:35 PM Minsun <msun.prime@vt.edu> wrote:
+> David, have you seen this? Ostrowski et al. on arXiv (July). They label 30-=
+second windows as productive struggle / stalling / help-seeking / off-task in=
+ an LLM-assisted CS1 course. Very close to our states. Their kappa is 0.62 an=
+d they get 0.69 macro-F1 with a classifier.
+>
+> PDF attached. We should cite it and say what's different (we do replay for =
+instructors, they do classification).

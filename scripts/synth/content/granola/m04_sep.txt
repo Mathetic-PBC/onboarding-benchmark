@@ -1,0 +1,343 @@
+##### MEETING
+slug: hudson-sync-0915
+title: Hudson x David weekly
+start: 2026-09-15 16:00
+scheduled_min: 15
+calendar: yes
+mode: in-person
+organizer: hudson@mathetic.com
+attendees: Hudson Mitchell-Pullman <hudson@mathetic.com>
+projects: project_berkeley_research_chats; project_engelbart
+label_notes: Weekly sync; synthesis of the first two Berkeley conversations (Elena, Priya) and what it changes in Engelbart.
+=== notes
+### Synthesis so far (Elena + Priya + 3 earlier calls)
+
+- Everyone has a tool graveyard; all quit "organize up front" tools
+- The words people use: "lose", "find again", "which chat", "the real reason" — nobody said "provenance" except us
+- AI chats are now a primary source of ideas for both Berkeley interviewees, and neither can search them well
+- Strong pull: tracing a claim back to its origin (Elena: methods section; Priya: "the third reason")
+- Strong worry: wrong summaries (Elena) and duplicates (Priya)
+
+### Product implications
+
+- Show originals, not summaries — the trail should open the actual chat turn / memo heading
+- Claude Projects must import with project membership (Priya)
+- Dedupe across Zotero / Downloads / Slack files is a launch requirement, not polish
+- Some sources are restricted (IRB data) → per-source opt-out at connect time, and say what was skipped
+- Photo/handwritten notes: real but out of scope
+
+### Lena update (Thu)
+
+- Conversations this week: 5 (hit the target for the first time)
+- Metric still not measurable; pilot build target Oct 5
+
+### Action items
+
+- [ ] David — Ben Adeyemi call tomorrow (Zoom, 11:00)
+- [ ] Hudson — tag all quotes in the sheet; count per tag
+- [ ] David — spec "trail opens the original" for the canvas
+- [ ] Hudson — check whether Claude export includes project membership
+=== transcript
+Hudson: Okay, synthesis day.
+Me: Synthesis day. Did you finish tagging?
+Hudson: Mostly. Elena and Priya are done. The three earlier ones are half done.
+Me: What's the — what's the top tag?
+Hudson: Tool graveyard, by a mile. Every single person.
+Me: Ha. Of course.
+Hudson: And everyone quit the ones where you organize up front. Priya said "you can't organize ideas you haven't had yet," which I put at the top of the sheet.
+Me: That's going in the demo night thing. That line.
+Hudson: Second tag is lose-things. And the words are interesting. "Lose." "Find again." "Which chat." Elena said "the real history."
+Me: Nobody said provenance.
+Hudson: Nobody said provenance. Except you, twice, in the interviews.
+Me: Okay, Lena wins again. Fine.
+Hudson: AI-chats tag. Both Berkeley people. Elena uses ChatGPT to argue with herself and deletes the chats. Priya lives in Claude and can't search it.
+Me: Which is kind of the two failure modes. One throws it away, one keeps it and can't find it.
+Hudson: Oh that's nice. Throw away versus can't find.
+Me: And both of them, the thing that lit them up was tracing back. Elena's methods section chain, Priya's third reason.
+Hudson: Third reason is my favorite thing anyone's said.
+Me: So the product thing, I think, is the trail has to open the original. Not a summary. Elena was really clear.
+Hudson: "My memos are my words."
+Me: Right. So if the trail says "this came from a chat," clicking it should open the chat at that turn. Not a paraphrase.
+Hudson: That's harder for some sources though. Like for a Google Doc, the turn is... a heading?
+Me: A heading, or a paragraph. For a PDF it's a page. For a chat it's a message. We need a "locator" in the item. Like an anchor.
+Hudson: Add it to SourceItem?
+Me: Not to the item. To the link. The link from a thought to a source has a locator.
+Hudson: Okay. You'll spec it?
+Me: I'll spec it for the canvas. Thursday's the canvas review anyway.
+Hudson: Cool. Priya's Claude Projects thing.
+Me: Can you check whether the export has project membership? I genuinely don't know.
+Hudson: I'll check. If it doesn't we might need the, um, the browser route.
+Me: Let's not. Let's see first.
+Hudson: Dedupe.
+Me: Dedupe is not polish. After Priya I'm convinced. If the first screen shows her the paper four times, she's gone.
+Hudson: And Slack files. She mentioned the Slack DM copy.
+Me: Yeah, we don't do Slack yet, but when we do. Same rules.
+Hudson: And Elena's IRB thing.
+Me: That one actually changes the connect screen. You need to be able to say "not this folder." At connect time. Per source.
+Hudson: And say what we skipped.
+Me: Always say what we skipped. That's the rule from the deleted chats thing too.
+Hudson: Photos of notebooks?
+Me: Out of scope. Write it down as real, but out of scope. OCR is a rabbit hole.
+Hudson: Okay. Lena. Thursday's check-in, the one we did from the BART platform after Priya.
+Me: I could barely hear it. What did she say at the end?
+Hudson: Five conversations that week! First time we hit it. She did a little clap.
+Me: Ha. Nice.
+Hudson: Metric still not measurable. I told her pilot build October fifth.
+Me: October fifth is tight with the talk.
+Hudson: Is it?
+Me: The talk's the seventh. I fly the fifth.
+Hudson: Then the build has to be done the fourth.
+Me: Ugh. Okay. The fourth. Let's — we'll see. Ben's tomorrow at eleven, by the way. Zoom.
+Hudson: You want me on it?
+Me: If you can. Just listen. He's the organized one, Priya said.
+Hudson: "He'll make you feel bad about everyone else."
+Me: Ha. Exactly.
+
+##### MEETING
+slug: canvas-design-review
+title: Engelbart canvas — design review
+start: 2026-09-17 11:00
+scheduled_min: 30
+calendar: yes
+mode: in-person
+organizer: david@mathetic.com
+attendees: Hudson Mitchell-Pullman <hudson@mathetic.com>
+projects: project_engelbart
+label_notes: Design review of the Engelbart canvas: trail/locator model, rendering bug, connect screen.
+=== notes
+### Canvas model
+
+- A **thought** = a block on the canvas (text the user wrote or pinned)
+- A **trail link** = thought → source item + locator (chat message id, doc heading/paragraph, PDF page, commit sha)
+- Trail panel opens the original at the locator; summaries only as a secondary line, clearly marked
+- Suggestions: up to 3 candidate sources per thought, user confirms with one click (confirmation = the "useful recall" event we log)
+
+### Rendering bug
+
+- Canvas re-renders every block when one block's trail changes → visible flicker with >300 blocks
+- Cause: trail links stored on the canvas root object, so any change invalidates everything
+- Fix: move links into a per-block store keyed by block id; memoize block components
+- David to fix before pilot build
+
+### Connect screen (first pass)
+
+- Grid of sources: Claude, ChatGPT, Zotero, Local PDFs, Google Drive, + "Other" (upload a zip/folder)
+- Per-source "exclude folders" at connect time (from Elena's IRB point)
+- After import: summary card — counts per source, skipped items with reasons, possible duplicates
+- Hudson unsure "Other" is clear — revisit after first pilot
+
+### From Ben (yesterday's call)
+
+- His chain for one modeling decision ran git commit → notes.md → a Slack thread → a paper (took him ~40 min to rebuild)
+- Quarto documents keep each figure next to its code; he'd want links into a specific chunk, not just the file
+- Logged as a future locator type; commit locator already planned
+
+### Action items
+
+- [ ] David — per-block trail store + memoization (fix flicker)
+- [ ] Hudson — connect screen mock with exclude-folders + summary card
+- [ ] David — log "suggestion confirmed" event with time since connect
+=== transcript
+Me: Okay, canvas review. I have a, uh, a doc but let me just talk through it.
+Hudson: Go.
+Me: So the unit on the canvas is a thought. It's a block. Something you wrote, or something you pinned from a source.
+Hudson: Pinned meaning, like, you drag a quote out of a chat?
+Me: Yeah. And every thought can have trail links. A trail link points to a source item plus a locator.
+Hudson: The locator thing from Tuesday.
+Me: Right. For a chat it's the message id. For a doc it's a heading or paragraph. For a PDF it's a page. For a repo it's a commit.
+Hudson: And Ben yesterday wanted notebook cells.
+Me: Yeah, that was a good one. His Quarto notebooks are basically his provenance, like that's where the number in the paper comes from. He wants to link to the cell. Let's put it as a future locator type.
+Hudson: Okay. Writing. And then the trail panel opens the original.
+Me: Opens the original at the locator. Summaries, if any, are a second line, marked as a summary. Never instead of.
+Hudson: Good. Elena would approve.
+Me: Elena would approve. Then suggestions. For each thought, up to three candidate sources. The user clicks to confirm. And that click is our metric. The useful recall event.
+Hudson: Oh nice, that's clean. So we log confirm with time since connect.
+Me: Yeah. Okay. Now the bad news. Rendering.
+Hudson: The flicker.
+Me: The flicker. So if you have more than like three hundred blocks and you change one trail, the whole canvas re-renders. You can see it blink.
+Hudson: Why?
+Me: Because I was lazy. The trail links are stored on the canvas root object. So any change to any link is a change to the root, and every block re-renders.
+Hudson: Ha. Okay.
+Me: The fix is a per-block store. Links keyed by block id. And memoize the block components so they only re-render when their own stuff changes.
+Hudson: How long?
+Me: A day? It's not hard, I just need to do it before the pilot build or Priya will think it's broken.
+Hudson: She'll definitely say it's broken.
+Me: She'll say it loudly. Which is good. Okay, connect screen. You had thoughts.
+Hudson: So I sketched it. Grid of sources. Claude, ChatGPT, Zotero, Local PDFs, Google Drive. And then a tile called "Other," which is upload a zip or a folder.
+Me: Okay.
+Hudson: But I'm not sure "Other" is clear. Like, what does someone think "Other" means?
+Me: Notion? Everything we don't support?
+Hudson: Right. And then they click it expecting Notion and it's a file upload.
+Me: Hm. Maybe call it "Upload files"?
+Hudson: Maybe. Let's see what the first pilot does. I don't want to bikeshed without data.
+Me: Fair. Exclude folders per source?
+Hudson: Yes, I put it in. After you pick Drive or Zotero there's an "exclude" step. For Elena's IRB stuff.
+Me: And after import?
+Hudson: Summary card. Counts per source, skipped items with reasons, possible duplicates.
+Me: I love the skipped-with-reasons part.
+Hudson: It's your rule.
+Me: It's a good rule. Okay. Can you mock the summary card with fake numbers?
+Hudson: Yeah, I'll use your Claude export as the example.
+Me: Use the fixture one, not my real one.
+Hudson: The boring twenty?
+Me: The boring twenty. Okay. I'll do the per-block store today and tomorrow.
+Hudson: And the confirm event logging.
+Me: And the confirm event. Got it.
+
+##### MEETING
+slug: hudson-sync-0922
+title: Hudson x David weekly
+start: 2026-09-22 15:00
+scheduled_min: 15
+calendar: yes
+mode: in-person
+organizer: hudson@mathetic.com
+attendees: Hudson Mitchell-Pullman <hudson@mathetic.com>
+projects: project_mathetic_company
+label_notes: Weekly sync focused on fundraising narrative / pre-seed SAFE plan and demo-night draft.
+=== notes
+### Fundraising narrative
+
+- Lead with the change: research thinking moved into AI chats, and nobody keeps that history usefully (Marcus's favourite line)
+- Then the evidence: Berkeley conversations (Elena, Priya, Ben) — quotes, not stats
+- Ask: pre-seed SAFE; target $400k; post-money cap TBD with Surplus legal
+- Don't send a deck before pilots; Marcus wants weekly users first
+
+### Demo night draft (due to Lena Oct 1)
+
+- 4 min: problem (30s) → Priya-style story (60s) → live trail demo (90s) → ask (30s) → buffer
+- Risk: live demo on house Wi-Fi; record a backup video
+
+### Calendar crunch
+
+- David: UIST talk dry run Sun Oct 4, flies Oct 5, talk Oct 7, back Oct 8
+- Pilot sessions: Priya Oct 9, pilot B (Daniel Osei, CMU postdoc, via Priya's referral list) Oct 13
+- Marcus follow-up Oct 14
+- VT travel-funding request due this week (David)
+
+### Action items
+
+- [ ] Hudson — 1-page narrative v2 + SAFE terms summary
+- [ ] David — demo night bullet draft by Sep 30
+- [ ] David — submit VT travel-funding request (Grace Kim) by Thu Sep 24
+- [ ] Hudson — book Daniel Osei for Oct 13
+=== transcript
+Hudson: Okay, money day.
+Me: Ugh. Okay.
+Hudson: It's not that bad. I rewrote the narrative. Can I read the first line?
+Me: Go.
+Hudson: "Research thinking moved into AI chats, and nobody keeps that history in a useful place."
+Me: That's Marcus's line.
+Hudson: That's Marcus's favorite line of yours. I'm using it.
+Me: It's fine, it's — yeah. It's true. What's next?
+Hudson: Evidence. The Berkeley people. I want quotes, not numbers, because three interviews isn't a number.
+Me: Agree. "I know I wrote a memo about this in March, I just don't know which March."
+Hudson: That one's going in for sure.
+Me: And Priya's third reason.
+Hudson: Obviously. And then the ask. Pre-seed SAFE. I put four hundred K as the target.
+Me: Is that — where did four hundred come from?
+Hudson: Eighteen months of the two of us at, like, grad-student-plus salaries, plus some compute, plus a buffer.
+Me: Okay. That's very low actually.
+Hudson: It's honest. Cap we figure out with Surplus legal.
+Me: Fine. And we don't send a deck.
+Hudson: Not before pilots. Marcus said weekly users first. I don't want to burn him.
+Me: Agreed. Okay, demo night. I owe Lena something October first.
+Hudson: What's your structure?
+Me: Four minutes. Thirty seconds of problem. Then a story, like a Priya story, a minute. Then a live trail demo, ninety seconds. Then the ask.
+Hudson: Live on house Wi-Fi?
+Me: Ha. Yeah. That's the risk. We record a backup video.
+Hudson: Definitely record a backup. The garage Wi-Fi still drops.
+Me: Lena moved the mesh thing, it's better. Not good. Better.
+Hudson: Okay. Calendar. Can we just lay it out? Because October is insane.
+Me: Yeah. So Sunday the fourth, dry run of the UIST talk with you.
+Hudson: I'm the audience.
+Me: You're the audience. I fly Monday the fifth. Talk Wednesday the seventh. Back Thursday the eighth.
+Hudson: And Priya's pilot is Friday the ninth.
+Me: The day after I get back. Which, um, is fine. I'll be jet-lagged but fine.
+Hudson: Pilot B. Priya's list had Daniel Osei, CMU postdoc. He replied yes.
+Me: Oh great. When?
+Hudson: I'm thinking Tuesday the thirteenth.
+Me: Tuesday works. Marcus is the fourteenth?
+Hudson: Wednesday the fourteenth. So we'd have two pilots done before Marcus.
+Me: That's the dream. Two pilots, some numbers.
+Hudson: Even ugly numbers.
+Me: Even ugly numbers. Oh, and I have to submit the travel funding thing for VT. For the UIST trip. It's due this week.
+Hudson: Do they still fund you on leave?
+Me: The talk's for a paper I did as a student, so Grace said it's fine. I just have to submit it by Thursday.
+Hudson: Do it today.
+Me: I'll do it Thursday.
+Hudson: You'll do it Thursday at eleven PM.
+Me: Probably, yeah.
+
+##### MEETING
+slug: untitled-0924
+title: Untitled meeting
+start: 2026-09-24 21:40
+scheduled_min: 0
+calendar: no
+mode: in-person
+organizer: david@mathetic.com
+attendees:
+projects: project_engelbart
+label_notes: HARD CASE: vague title — ad-hoc late-night Granola note left as "Untitled meeting"; actually Hudson + David deciding pilot onboarding flow and what to cut before Oct 9.
+=== notes
+### Context
+
+- Unscheduled chat in the kitchen after David submitted the travel-funding form
+
+### Decisions
+
+- Pilot onboarding = 45 min: 10 min their setup, 20 min connect + import live, 15 min first writing task with the trail
+- Cut for the pilot build: Google Drive connector (OAuth review not done) → offer "Upload files" instead
+- Keep: Claude, ChatGPT, Zotero, Local PDFs
+- Import runs live during the session so we can watch failures; log every skipped item with a reason
+- Ask pilots to bring one paragraph they're actively writing
+
+### Open questions
+
+- Does Claude export include project membership? (Hudson: no — need a second pass from the project pages; not for Oct 9)
+- What to call the "Other" tile — leave as is for pilot A, watch what happens
+
+### To do
+
+- [ ] David — pilot script doc (timings, what to observe)
+- [ ] Hudson — consent + recording note for pilots
+- [ ] David — pre-flight: run full import on own accounts Oct 3
+=== transcript
+Me: Wait, is this on? Oh, it auto-started. Okay whatever, leave it.
+Hudson: Did you submit it?
+Me: Submitted. Like twenty minutes ago. Travel funding is in. Grace will email if anything's wrong.
+Hudson: Proud of you. Before eleven.
+Me: Before eleven! Okay, while we're both here. Pilot onboarding. I keep thinking about how the session actually goes.
+Hudson: Yeah, let's just decide it.
+Me: Forty-five minutes. First ten, they show us their setup. Like the Berkeley interviews.
+Hudson: Okay.
+Me: Twenty, they connect stuff and we run the import live. While we watch.
+Hudson: Live, live? Not pre-imported?
+Me: Live. I want to see it fail. If we pre-import, we'll hide the failures.
+Hudson: That's scary but right.
+Me: And the last fifteen, they write. They bring a paragraph they're actually working on, and we see if the trail finds anything.
+Hudson: Bring a paragraph. Good. Okay, what do we cut?
+Me: Drive.
+Hudson: Drive?
+Me: The OAuth verification isn't done. If we put Drive on the screen and it shows the unverified-app warning, Priya will think we're a phishing site.
+Hudson: Ha. Fair. So the connect screen is Claude, ChatGPT, Zotero, PDFs, and "Other."
+Me: And "Other" is the file upload. Which covers Drive if they download stuff.
+Hudson: I still don't love "Other."
+Me: I know. Let's watch Priya. If she's confused we change it before Daniel.
+Hudson: Deal. Oh, I checked the Claude export thing.
+Me: And?
+Hudson: No project membership. The conversations are there, but nothing says which project they were in.
+Me: Ugh. So Priya's projects come in as the wall.
+Hudson: As the wall. We'd need a second pass from the project pages. Not for the ninth.
+Me: Not for the ninth. Okay. Write it as a known gap. We tell her up front.
+Hudson: Tell her up front. I like that.
+Me: And log every skipped item with a reason. If anything doesn't come in I want to know why. Like, the number.
+Hudson: You're going to stare at the count.
+Me: I'm going to stare at the count. Okay, I'll write a pilot script doc. Timings, what we watch for.
+Hudson: I'll do the consent thing.
+Me: And I'll do a full import on my own stuff on the third, before the dry run.
+Hudson: The third is a Saturday.
+Me: Yeah, I know.
+Hudson: Okay. Go to bed.
+Me: Going. Turn this off — how do you stop it — okay.

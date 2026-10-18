@@ -1,1 +1,3173 @@
-[]
+[
+ {
+  "id": "item_035339",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/DM_with_Minsun__D0SYNHWH4DR/history.txt",
+  "title": "history.txt",
+  "content_type": "note",
+  "created_at": "2025-11-14T13:40:51Z",
+  "modified_at": "2026-08-07T18:20:36Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/DM_with_Minsun__D0SYNHWH4DR/history.txt",
+  "source_url": null,
+  "content_hash": "sha256:d944a1e2297c1e67dbc4d76c8da7e113ba61e76dbfd627f41d120f71eb5707ee",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/history.txt shape (raw connector pages)",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vizpi"
+   ],
+   "notes": "DM with Minsun: 15 messages, raw connector pages (newest first)"
+  }
+ },
+ {
+  "id": "item_035340",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/DM_with_Minsun__D0SYNHWH4DR/messages.json",
+  "title": "messages.json",
+  "content_type": "data",
+  "created_at": "2025-11-14T13:40:51Z",
+  "modified_at": "2026-08-07T18:20:36Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/DM_with_Minsun__D0SYNHWH4DR/messages.json",
+  "source_url": null,
+  "content_hash": "sha256:8ba8b9f4356853cc19112693d087bc2ea8c2023fa224671344e38202a7250ae3",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/messages.json shape (connector parse)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vizpi"
+   ],
+   "notes": "DM with Minsun: 15 messages parsed from history.txt, oldest first"
+  }
+ },
+ {
+  "id": "item_035341",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/DM_with_Rezky__D0SYNF9FHAH/history.txt",
+  "title": "history.txt",
+  "content_type": "note",
+  "created_at": "2025-10-21T18:30:35Z",
+  "modified_at": "2026-09-30T18:30:34Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/DM_with_Rezky__D0SYNF9FHAH/history.txt",
+  "source_url": null,
+  "content_hash": "sha256:32f8a3c4863690e3233ebae0986f919d51e1719711aa523c18d190219ca14035",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/history.txt shape (raw connector pages)",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vizpi"
+   ],
+   "notes": "DM with Rezky: 13 messages, raw connector pages (newest first)"
+  }
+ },
+ {
+  "id": "item_035342",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/DM_with_Rezky__D0SYNF9FHAH/messages.json",
+  "title": "messages.json",
+  "content_type": "data",
+  "created_at": "2025-10-21T18:30:35Z",
+  "modified_at": "2026-09-30T18:30:34Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/DM_with_Rezky__D0SYNF9FHAH/messages.json",
+  "source_url": null,
+  "content_hash": "sha256:f7ab03a5fda632b1e2f5ff938621458503b9d7bef267546e5101ca626dc6393b",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/messages.json shape (connector parse)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vizpi"
+   ],
+   "notes": "DM with Rezky: 13 messages parsed from history.txt, oldest first"
+  }
+ },
+ {
+  "id": "item_035343",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/DM_with_Xiaohang__D0SYNCECCC3/history.txt",
+  "title": "history.txt",
+  "content_type": "note",
+  "created_at": "2026-04-22T03:00:02Z",
+  "modified_at": "2026-08-21T13:30:09Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/DM_with_Xiaohang__D0SYNCECCC3/history.txt",
+  "source_url": null,
+  "content_hash": "sha256:db94b2d47677b8df6e53bc2106ed4b60789e1da87ca492abe77d32b13d4358be",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/history.txt shape (raw connector pages)",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "DM with Xiaohang: 16 messages, raw connector pages (newest first) — IDETrace student-id join and grouped splits"
+  }
+ },
+ {
+  "id": "item_035344",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/DM_with_Xiaohang__D0SYNCECCC3/messages.json",
+  "title": "messages.json",
+  "content_type": "data",
+  "created_at": "2026-04-22T03:00:02Z",
+  "modified_at": "2026-08-21T13:30:09Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/DM_with_Xiaohang__D0SYNCECCC3/messages.json",
+  "source_url": null,
+  "content_hash": "sha256:99589da81e33eae3bb3b8249ec5836aa1dfda827d46d6f333da5abadd570e31f",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/messages.json shape (connector parse)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "DM with Xiaohang: 16 messages parsed from history.txt, oldest first — IDETrace student-id join and grouped splits"
+  }
+ },
+ {
+  "id": "item_035345",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/DM_with_Yan_Chen__D0SYNCY7CFK/history.txt",
+  "title": "history.txt",
+  "content_type": "note",
+  "created_at": "2025-10-22T20:30:14Z",
+  "modified_at": "2026-10-08T03:05:32Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/DM_with_Yan_Chen__D0SYNCY7CFK/history.txt",
+  "source_url": null,
+  "content_hash": "sha256:faa390342b23f743731111a275c40ea3c49aa53c618d0b33f304db2a013b1b4b",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/history.txt shape (raw connector pages)",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta",
+    "project_idetrace",
+    "project_tutortrace",
+    "project_vizpi",
+    "project_vt_phd_admin"
+   ],
+   "notes": "DM with Yan Chen: 29 messages, raw connector pages (newest first) — advisor DMs: scheduling, UIST pitch, rebuttal, leave of absence, travel funding, talk"
+  }
+ },
+ {
+  "id": "item_035346",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/DM_with_Yan_Chen__D0SYNCY7CFK/messages.json",
+  "title": "messages.json",
+  "content_type": "data",
+  "created_at": "2025-10-22T20:30:14Z",
+  "modified_at": "2026-10-08T03:05:32Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/DM_with_Yan_Chen__D0SYNCY7CFK/messages.json",
+  "source_url": null,
+  "content_hash": "sha256:f7184258d96b1a61b7a6408df228f66d432535d11745ec72e9af3e649a0b66d2",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/messages.json shape (connector parse)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_cs3604_gta",
+    "project_idetrace",
+    "project_tutortrace",
+    "project_vizpi",
+    "project_vt_phd_admin"
+   ],
+   "notes": "DM with Yan Chen: 29 messages parsed from history.txt, oldest first — advisor DMs: scheduling, UIST pitch, rebuttal, leave of absence, travel funding, talk"
+  }
+ },
+ {
+  "id": "item_035347",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/DM_with_Yue__D0SYNNK74E8/history.txt",
+  "title": "history.txt",
+  "content_type": "note",
+  "created_at": "2026-03-28T02:30:32Z",
+  "modified_at": "2026-08-14T04:45:42Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/DM_with_Yue__D0SYNNK74E8/history.txt",
+  "source_url": null,
+  "content_hash": "sha256:4df70fd7d8261fe67ce30e3298a853e7b31d18049284f8278d22e95d793459e6",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/history.txt shape (raw connector pages)",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace",
+    "project_tutortrace"
+   ],
+   "notes": "DM with Yue: 11 messages, raw connector pages (newest first)"
+  }
+ },
+ {
+  "id": "item_035348",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/DM_with_Yue__D0SYNNK74E8/messages.json",
+  "title": "messages.json",
+  "content_type": "data",
+  "created_at": "2026-03-28T02:30:32Z",
+  "modified_at": "2026-08-14T04:45:42Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/DM_with_Yue__D0SYNNK74E8/messages.json",
+  "source_url": null,
+  "content_hash": "sha256:52108ad8ca3d3f89673cc16bc041a67d96170fed28d608796908c2487e4f26ce",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/messages.json shape (connector parse)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace",
+    "project_tutortrace"
+   ],
+   "notes": "DM with Yue: 11 messages parsed from history.txt, oldest first"
+  }
+ },
+ {
+  "id": "item_035349",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/conversations.md",
+  "title": "conversations.md",
+  "content_type": "note",
+  "created_at": "2025-10-20T14:02:54Z",
+  "modified_at": "2026-10-08T03:05:32Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/conversations.md",
+  "source_url": null,
+  "content_hash": "sha256:02dd6f2c814c056a6105aa4339d156e7e7d8fc8b367349933e9f963ebaf03bd4",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/conversations.md shape",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "conversation list from the connector (12 conversations); index only"
+  }
+ },
+ {
+  "id": "item_035350",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/files/F0SYN03RLCR__dep2_section_event_loss.csv",
+  "title": "F0SYN03RLCR__dep2_section_event_loss.csv",
+  "content_type": "data",
+  "created_at": "2025-11-13T15:31:00Z",
+  "modified_at": "2025-11-13T15:40:29Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/files/F0SYN03RLCR__dep2_section_event_loss.csv",
+  "source_url": null,
+  "content_hash": "sha256:af53963605e6d971f597f52c004d09bb43663f28d6c43e018c8f04e7985c899e",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "csv",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "Slack file 'dep2_section_event_loss.csv': per-bucket telemetry loss, deployment #2"
+  }
+ },
+ {
+  "id": "item_035351",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/files/F0SYN0G1VHD__idetrace_f1_random_vs_grouped.csv",
+  "title": "F0SYN0G1VHD__idetrace_f1_random_vs_grouped.csv",
+  "content_type": "data",
+  "created_at": "2026-07-25T22:12:00Z",
+  "modified_at": "2026-07-25T22:30:14Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/files/F0SYN0G1VHD__idetrace_f1_random_vs_grouped.csv",
+  "source_url": null,
+  "content_hash": "sha256:bb1633c442673e73c5867fb156752af1238773d8738094ba419281cd4d8e9025",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "csv",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "Slack file: IDETrace baselines, random-window vs student-grouped split (leakage fix)"
+  }
+ },
+ {
+  "id": "item_035352",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/files/F0SYN8WD0AZ__Ostrowski2025_arXiv_v1.pdf",
+  "title": "F0SYN8WD0AZ__Ostrowski2025_arXiv_v1.pdf",
+  "content_type": "pdf",
+  "created_at": "2025-11-20T02:05:08Z",
+  "modified_at": "2025-11-20T02:05:08Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/files/F0SYN8WD0AZ__Ostrowski2025_arXiv_v1.pdf",
+  "source_url": null,
+  "content_hash": "sha256:03cd5273fb0e82a1fb8a0411160f6ddc25cab79309c4af1a9f31a585c421320f",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/files/<id>__<name>.pdf (Slack file share)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vizpi"
+   ],
+   "notes": "HARD CASE: same paper in several places — Ostrowski et al. 2025 arXiv v1 PDF shared by Minsun in #paper-reading (same bytes as the copies in zotero/pdfs/gmail; camera-ready v2 elsewhere is a near-duplicate)"
+  }
+ },
+ {
+  "id": "item_035353",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/files/F0SYNWKVZDE__VizPI_labeling_guide_v3.pdf",
+  "title": "F0SYNWKVZDE__VizPI_labeling_guide_v3.pdf",
+  "content_type": "pdf",
+  "created_at": "2025-11-17T15:58:00Z",
+  "modified_at": "2025-11-17T16:15:53Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/files/F0SYNWKVZDE__VizPI_labeling_guide_v3.pdf",
+  "source_url": null,
+  "content_hash": "sha256:d352429edb43886dff83f229049e2accd1851a46d7a2c98374beac0e3ad26227",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/files/<id>__<name>.pdf (Slack file share)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "Slack file 'VizPI_labeling_guide_v3' shared in #labeling (adds stalled-after-error)"
+  }
+ },
+ {
+  "id": "item_035354",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/general__C0SYNYCEN6N/history.txt",
+  "title": "history.txt",
+  "content_type": "note",
+  "created_at": "2025-10-20T14:02:54Z",
+  "modified_at": "2026-08-26T14:15:21Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/general__C0SYNYCEN6N/history.txt",
+  "source_url": null,
+  "content_hash": "sha256:d1b0915f90ef4b180680349722c6d8ff958635185fb3dc399cfbc980b7f1d714",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/history.txt shape (raw connector pages)",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace",
+    "project_mathetic_company",
+    "project_tutortrace",
+    "project_vizpi",
+    "project_vt_phd_admin"
+   ],
+   "notes": "#general: 18 messages, raw connector pages (newest first) — lab-wide channel: deployment, deadlines, lab logistics, the leave announcement"
+  }
+ },
+ {
+  "id": "item_035355",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/general__C0SYNYCEN6N/messages.json",
+  "title": "messages.json",
+  "content_type": "data",
+  "created_at": "2025-10-20T14:02:54Z",
+  "modified_at": "2026-08-26T14:15:21Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/general__C0SYNYCEN6N/messages.json",
+  "source_url": null,
+  "content_hash": "sha256:ec73b71eb3bce5b9c803a426cf32678d89b15fd9d2422bd0e513cf0851d67e70",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/messages.json shape (connector parse)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace",
+    "project_mathetic_company",
+    "project_tutortrace",
+    "project_vizpi",
+    "project_vt_phd_admin"
+   ],
+   "notes": "#general: 18 messages parsed from history.txt, oldest first — lab-wide channel: deployment, deadlines, lab logistics, the leave announcement"
+  }
+ },
+ {
+  "id": "item_035356",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/general__C0SYNYCEN6N/threads/1762988749.372295.txt",
+  "title": "1762988749.372295.txt",
+  "content_type": "note",
+  "created_at": "2025-11-12T23:05:49Z",
+  "modified_at": "2025-11-12T23:30:41Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/general__C0SYNYCEN6N/threads/1762988749.372295.txt",
+  "source_url": null,
+  "content_hash": "sha256:a35955151eb8c942caf5be8bb067d4d40ac2682239d0a628e840cf84ba941ee2",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "#general: thread under message 1762988749.372295"
+  }
+ },
+ {
+  "id": "item_035357",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/general__C0SYNYCEN6N/threads/1765204217.485571.txt",
+  "title": "1765204217.485571.txt",
+  "content_type": "note",
+  "created_at": "2025-12-08T14:30:17Z",
+  "modified_at": "2025-12-08T16:22:09Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/general__C0SYNYCEN6N/threads/1765204217.485571.txt",
+  "source_url": null,
+  "content_hash": "sha256:a1b9320022bb8e1c4c784d3d8ffabc8b0efb5ce42ef83a1e1708bb2e2c39d0d8",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "#general: thread under message 1765204217.485571"
+  }
+ },
+ {
+  "id": "item_035358",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/general__C0SYNYCEN6N/threads/1769572093.774083.txt",
+  "title": "1769572093.774083.txt",
+  "content_type": "note",
+  "created_at": "2026-01-28T03:48:13Z",
+  "modified_at": "2026-01-28T04:03:09Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/general__C0SYNYCEN6N/threads/1769572093.774083.txt",
+  "source_url": null,
+  "content_hash": "sha256:7c1ed240eeb6954bc36efcfef5084d062369889c5bc7f36dd79653cb5b311358",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "#general: thread under message 1769572093.774083"
+  }
+ },
+ {
+  "id": "item_035359",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/general__C0SYNYCEN6N/threads/1783034465.337259.txt",
+  "title": "1783034465.337259.txt",
+  "content_type": "note",
+  "created_at": "2026-07-02T23:21:05Z",
+  "modified_at": "2026-07-03T00:05:45Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/general__C0SYNYCEN6N/threads/1783034465.337259.txt",
+  "source_url": null,
+  "content_hash": "sha256:f2db77251395c1ed3775a46c664b9e7f96fe0d42f2e31bea24d5c8b1ac6e2a90",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "#general: thread under message 1783034465.337259"
+  }
+ },
+ {
+  "id": "item_035360",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/general__C0SYNYCEN6N/threads/1785771011.049595.txt",
+  "title": "1785771011.049595.txt",
+  "content_type": "note",
+  "created_at": "2026-08-03T15:30:11Z",
+  "modified_at": "2026-08-03T17:44:27Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/general__C0SYNYCEN6N/threads/1785771011.049595.txt",
+  "source_url": null,
+  "content_hash": "sha256:0587da0c80c0430125e246dd01f008a5e8e29bfac9ccc2ef86f5ee2859e243f3",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company",
+    "project_vt_phd_admin"
+   ],
+   "notes": "announcement of the leave of absence (PERSON.md §7); mentions UIST camera-ready and IDETrace rebuttal in passing"
+  }
+ },
+ {
+  "id": "item_035361",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/idetrace__C0SYNC99ZVR/history.txt",
+  "title": "history.txt",
+  "content_type": "note",
+  "created_at": "2026-04-20T15:00:41Z",
+  "modified_at": "2026-08-19T17:30:40Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/idetrace__C0SYNC99ZVR/history.txt",
+  "source_url": null,
+  "content_hash": "sha256:4b12d1ec99bc75b1d90eaa859467cef6e14fae29a5be2f50bd497629c322d645",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/history.txt shape (raw connector pages)",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "#idetrace: 16 messages, raw connector pages (newest first) — IDETrace NeurIPS D&B: submission, leakage bug, rebuttal"
+  }
+ },
+ {
+  "id": "item_035362",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/idetrace__C0SYNC99ZVR/messages.json",
+  "title": "messages.json",
+  "content_type": "data",
+  "created_at": "2026-04-20T15:00:41Z",
+  "modified_at": "2026-08-19T17:30:40Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/idetrace__C0SYNC99ZVR/messages.json",
+  "source_url": null,
+  "content_hash": "sha256:404e4af8edf9afda73066a7db43e569d48165d33c838d50c880fc26b46c6024c",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/messages.json shape (connector parse)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "#idetrace: 16 messages parsed from history.txt, oldest first — IDETrace NeurIPS D&B: submission, leakage bug, rebuttal"
+  }
+ },
+ {
+  "id": "item_035363",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/idetrace__C0SYNC99ZVR/threads/1776890442.749558.txt",
+  "title": "1776890442.749558.txt",
+  "content_type": "note",
+  "created_at": "2026-04-22T20:40:42Z",
+  "modified_at": "2026-04-22T21:12:56Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/idetrace__C0SYNC99ZVR/threads/1776890442.749558.txt",
+  "source_url": null,
+  "content_hash": "sha256:ae1aba9455a12688b4a993dd485df1574c9fcca884a760b5acb019b0bb1c4572",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "#idetrace: thread under message 1776890442.749558"
+  }
+ },
+ {
+  "id": "item_035364",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/idetrace__C0SYNC99ZVR/threads/1777601736.805050.txt",
+  "title": "1777601736.805050.txt",
+  "content_type": "note",
+  "created_at": "2026-05-01T02:15:36Z",
+  "modified_at": "2026-05-01T02:40:09Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/idetrace__C0SYNC99ZVR/threads/1777601736.805050.txt",
+  "source_url": null,
+  "content_hash": "sha256:da7352bcdfd391548e5e1413d26c358d35570c67b25d508e0004f121444e20f3",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "#idetrace: thread under message 1777601736.805050"
+  }
+ },
+ {
+  "id": "item_035365",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/idetrace__C0SYNC99ZVR/threads/1784868055.241815.txt",
+  "title": "1784868055.241815.txt",
+  "content_type": "note",
+  "created_at": "2026-07-24T04:40:55Z",
+  "modified_at": "2026-07-24T13:12:50Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/idetrace__C0SYNC99ZVR/threads/1784868055.241815.txt",
+  "source_url": null,
+  "content_hash": "sha256:73a0337bb4bdf3ff72a56a5f52ebf582e4b90405bc5928360ebd991ed41ddfed",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "#idetrace: thread under message 1784868055.241815"
+  }
+ },
+ {
+  "id": "item_035366",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/idetrace__C0SYNC99ZVR/threads/1785018614.011172.txt",
+  "title": "1785018614.011172.txt",
+  "content_type": "note",
+  "created_at": "2026-07-25T22:30:14Z",
+  "modified_at": "2026-07-25T22:41:53Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/idetrace__C0SYNC99ZVR/threads/1785018614.011172.txt",
+  "source_url": null,
+  "content_hash": "sha256:7e8ce087d6b2b1c3a37e0f6fe3fbdd4d441c6382ff038f46047e6f7c49246ab4",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "#idetrace: thread under message 1785018614.011172"
+  }
+ },
+ {
+  "id": "item_035367",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/labeling__C0SYNRXUA9Z/history.txt",
+  "title": "history.txt",
+  "content_type": "note",
+  "created_at": "2025-11-13T18:20:01Z",
+  "modified_at": "2026-06-12T15:32:47Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/labeling__C0SYNRXUA9Z/history.txt",
+  "source_url": null,
+  "content_hash": "sha256:78be1fa740ccc2187f5da18ad2dfd678e7f72cba0f88822e82a39e4072bfbbf8",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/history.txt shape (raw connector pages)",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vizpi"
+   ],
+   "notes": "#labeling: 10 messages, raw connector pages (newest first) — Nov 2025 labeling sprint (guide v3, kappa)"
+  }
+ },
+ {
+  "id": "item_035368",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/labeling__C0SYNRXUA9Z/messages.json",
+  "title": "messages.json",
+  "content_type": "data",
+  "created_at": "2025-11-13T18:20:01Z",
+  "modified_at": "2026-06-12T15:32:47Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/labeling__C0SYNRXUA9Z/messages.json",
+  "source_url": null,
+  "content_hash": "sha256:6418dcbc2424ddc22fdea6ca6cb06b2004b2164f695f2b6c8708fa18f7fac3a7",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/messages.json shape (connector parse)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vizpi"
+   ],
+   "notes": "#labeling: 10 messages parsed from history.txt, oldest first — Nov 2025 labeling sprint (guide v3, kappa)"
+  }
+ },
+ {
+  "id": "item_035369",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/labeling__C0SYNRXUA9Z/threads/1763263862.677098.txt",
+  "title": "1763263862.677098.txt",
+  "content_type": "note",
+  "created_at": "2025-11-16T03:31:02Z",
+  "modified_at": "2025-11-16T03:52:34Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/labeling__C0SYNRXUA9Z/threads/1763263862.677098.txt",
+  "source_url": null,
+  "content_hash": "sha256:9d6e41fb248185606642a8515a698562dbcc0da2efd140679973c338e0348b4d",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "#labeling: thread under message 1763263862.677098"
+  }
+ },
+ {
+  "id": "item_035370",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/labeling__C0SYNRXUA9Z/threads/1763396153.042015.txt",
+  "title": "1763396153.042015.txt",
+  "content_type": "note",
+  "created_at": "2025-11-17T16:15:53Z",
+  "modified_at": "2025-11-17T16:42:19Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/labeling__C0SYNRXUA9Z/threads/1763396153.042015.txt",
+  "source_url": null,
+  "content_hash": "sha256:d6bf5d0f8eca00c364ab6b8e4ee6e63053a1a40536ee5fc014604df78ae7a404",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "#labeling: thread under message 1763396153.042015"
+  }
+ },
+ {
+  "id": "item_035371",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/labeling__C0SYNRXUA9Z/threads/1763586170.073888.txt",
+  "title": "1763586170.073888.txt",
+  "content_type": "note",
+  "created_at": "2025-11-19T21:02:50Z",
+  "modified_at": "2025-11-19T22:02:08Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/labeling__C0SYNRXUA9Z/threads/1763586170.073888.txt",
+  "source_url": null,
+  "content_hash": "sha256:fb921d6d009f30752fe1d75c8269318fc8f8d641854c8c38383444c0064c6089",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "#labeling: thread under message 1763586170.073888"
+  }
+ },
+ {
+  "id": "item_035372",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/labeling__C0SYNRXUA9Z/threads/1763768431.975827.txt",
+  "title": "1763768431.975827.txt",
+  "content_type": "note",
+  "created_at": "2025-11-21T23:40:31Z",
+  "modified_at": "2025-11-22T00:01:28Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/labeling__C0SYNRXUA9Z/threads/1763768431.975827.txt",
+  "source_url": null,
+  "content_hash": "sha256:30420fa0192992033aa1023d3e6a5d5467d4efe2035fb28e6a2b51f0fdc56a59",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vizpi"
+   ],
+   "notes": "#labeling: thread under message 1763768431.975827"
+  }
+ },
+ {
+  "id": "item_035373",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/labeling__C0SYNRXUA9Z/threads/1781275529.160847.txt",
+  "title": "1781275529.160847.txt",
+  "content_type": "note",
+  "created_at": "2026-06-12T14:45:29Z",
+  "modified_at": "2026-06-12T15:32:47Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/labeling__C0SYNRXUA9Z/threads/1781275529.160847.txt",
+  "source_url": null,
+  "content_hash": "sha256:dcce8831b3161f90f43a4301b5a5fe4b2d1e5889b2162ec5c3cc814facadd092",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "#labeling: thread under message 1781275529.160847"
+  }
+ },
+ {
+  "id": "item_035374",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/paper-reading__C0SYN8VUQGK/history.txt",
+  "title": "history.txt",
+  "content_type": "note",
+  "created_at": "2025-10-29T14:20:40Z",
+  "modified_at": "2026-07-30T14:00:52Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/paper-reading__C0SYN8VUQGK/history.txt",
+  "source_url": null,
+  "content_hash": "sha256:a930b3f8df0a3a01780904ab11fae692d420be23d8e38c1dbdf2673f761f95c2",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/history.txt shape (raw connector pages)",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_idetrace",
+    "project_tutortrace",
+    "project_vizpi"
+   ],
+   "notes": "HARD CASE: same paper in several places — #paper-reading holds the Ostrowski et al. 2025 PDF share (file in files/) and its discussion; #paper-reading: 12 messages, raw connector pages (newest first)"
+  }
+ },
+ {
+  "id": "item_035375",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/paper-reading__C0SYN8VUQGK/messages.json",
+  "title": "messages.json",
+  "content_type": "data",
+  "created_at": "2025-10-29T14:20:40Z",
+  "modified_at": "2026-07-30T14:00:52Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/paper-reading__C0SYN8VUQGK/messages.json",
+  "source_url": null,
+  "content_hash": "sha256:04a418aa2c6af1915d0bc27f1cbeb12a0068cc23254367f3d2ac4bcd7358dd55",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/messages.json shape (connector parse)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group",
+    "project_idetrace",
+    "project_tutortrace",
+    "project_vizpi"
+   ],
+   "notes": "HARD CASE: same paper in several places — #paper-reading holds the Ostrowski et al. 2025 PDF share (file in files/) and its discussion; #paper-reading: 12 messages parsed from history.txt, oldest first"
+  }
+ },
+ {
+  "id": "item_035376",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/paper-reading__C0SYN8VUQGK/threads/1763604308.355803.txt",
+  "title": "1763604308.355803.txt",
+  "content_type": "note",
+  "created_at": "2025-11-20T02:05:08Z",
+  "modified_at": "2025-11-20T03:05:49Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/paper-reading__C0SYN8VUQGK/threads/1763604308.355803.txt",
+  "source_url": null,
+  "content_hash": "sha256:1066aca4c0d6bbc8df6bdb429fb84f7b02dd5407d6adc5279f57381abba2a6f4",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vizpi"
+   ],
+   "notes": "HARD CASE: same paper in several places — Minsun shares the Ostrowski et al. 2025 arXiv v1 PDF; the thread discusses it against the VizPI labeling sprint"
+  }
+ },
+ {
+  "id": "item_035377",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/paper-reading__C0SYN8VUQGK/threads/1771475407.092909.txt",
+  "title": "1771475407.092909.txt",
+  "content_type": "note",
+  "created_at": "2026-02-19T04:30:07Z",
+  "modified_at": "2026-02-19T04:41:26Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/paper-reading__C0SYN8VUQGK/threads/1771475407.092909.txt",
+  "source_url": null,
+  "content_hash": "sha256:15a9c0aa83882b145d04c2cc49ee8267a32ea804f3c0a505ecad66231c4d3feb",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "#paper-reading: thread under message 1771475407.092909"
+  }
+ },
+ {
+  "id": "item_035378",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/paper-reading__C0SYN8VUQGK/threads/1776301810.815419.txt",
+  "title": "1776301810.815419.txt",
+  "content_type": "note",
+  "created_at": "2026-04-16T01:10:10Z",
+  "modified_at": "2026-04-16T02:05:08Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/paper-reading__C0SYN8VUQGK/threads/1776301810.815419.txt",
+  "source_url": null,
+  "content_hash": "sha256:5977d5e9a15245c56f4dc54fa095ca6d57f31220390f85e1a79c46025d8037c1",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": "#paper-reading: thread under message 1776301810.815419"
+  }
+ },
+ {
+  "id": "item_035379",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/random__C0SYNJRKKDM/history.txt",
+  "title": "history.txt",
+  "content_type": "note",
+  "created_at": "2025-10-24T20:55:47Z",
+  "modified_at": "2026-08-21T13:12:51Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/random__C0SYNJRKKDM/history.txt",
+  "source_url": null,
+  "content_hash": "sha256:f0d7dc715b4f506332cd5f01233c488ad44b5b601afed7600509a9a430cbc874",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/history.txt shape (raw connector pages)",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "#random: 13 messages, raw connector pages (newest first) — off-topic lab chatter (cake, chess, snow, a 5k, a beat)"
+  }
+ },
+ {
+  "id": "item_035380",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/random__C0SYNJRKKDM/messages.json",
+  "title": "messages.json",
+  "content_type": "data",
+  "created_at": "2025-10-24T20:55:47Z",
+  "modified_at": "2026-08-21T13:12:51Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/random__C0SYNJRKKDM/messages.json",
+  "source_url": null,
+  "content_hash": "sha256:66d3bcbb7f9ad583c57baceadeb9afc94451cf781a5245c0795421ba87a1e156",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/messages.json shape (connector parse)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "#random: 13 messages parsed from history.txt, oldest first — off-topic lab chatter (cake, chess, snow, a 5k, a beat)"
+  }
+ },
+ {
+  "id": "item_035381",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1761339347.126950.txt",
+  "title": "1761339347.126950.txt",
+  "content_type": "note",
+  "created_at": "2025-10-24T20:55:47Z",
+  "modified_at": "2025-10-24T21:04:02Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1761339347.126950.txt",
+  "source_url": null,
+  "content_hash": "sha256:5de1c5d5d12eec107654488f8b8f03c5ba216b8652028777558b1cda3490b3b8",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "#random: thread under message 1761339347.126950"
+  }
+ },
+ {
+  "id": "item_035382",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1762132553.440946.txt",
+  "title": "1762132553.440946.txt",
+  "content_type": "note",
+  "created_at": "2025-11-03T01:15:53Z",
+  "modified_at": "2025-11-03T02:00:12Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1762132553.440946.txt",
+  "source_url": null,
+  "content_hash": "sha256:8f568ef41b6f90231c24667d473e539e647f4f900ed331b31ae3d92c0a2f72b6",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "#random: thread under message 1762132553.440946"
+  }
+ },
+ {
+  "id": "item_035383",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1765422915.609907.txt",
+  "title": "1765422915.609907.txt",
+  "content_type": "note",
+  "created_at": "2025-12-11T03:15:15Z",
+  "modified_at": "2025-12-11T03:31:33Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1765422915.609907.txt",
+  "source_url": null,
+  "content_hash": "sha256:cae6e2d571c55d1d0d57d9bfec5039406423f455e9cbec7e0245b489fc147434",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "#random: thread under message 1765422915.609907"
+  }
+ },
+ {
+  "id": "item_035384",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1769431257.913086.txt",
+  "title": "1769431257.913086.txt",
+  "content_type": "note",
+  "created_at": "2026-01-26T12:40:57Z",
+  "modified_at": "2026-01-26T13:15:37Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1769431257.913086.txt",
+  "source_url": null,
+  "content_hash": "sha256:584b010eaaaec7ed4367a09cde9de599b167ee3602c0a5b492899efdad291263",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "#random: thread under message 1769431257.913086"
+  }
+ },
+ {
+  "id": "item_035385",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1770237043.380765.txt",
+  "title": "1770237043.380765.txt",
+  "content_type": "note",
+  "created_at": "2026-02-04T20:30:43Z",
+  "modified_at": "2026-02-04T20:50:19Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1770237043.380765.txt",
+  "source_url": null,
+  "content_hash": "sha256:fd87aebc3f0abecf0b3491578a9b6ab0e239aecc7fa6e70bd5d7e92860585088",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": "#random: thread under message 1770237043.380765"
+  }
+ },
+ {
+  "id": "item_035386",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1773331822.193888.txt",
+  "title": "1773331822.193888.txt",
+  "content_type": "note",
+  "created_at": "2026-03-12T16:10:22Z",
+  "modified_at": "2026-03-12T16:14:23Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1773331822.193888.txt",
+  "source_url": null,
+  "content_hash": "sha256:162b007b266b1ff3675658a74572f28fb734f1bc5b2c8c1bdee4668358907a32",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "#random: thread under message 1773331822.193888"
+  }
+ },
+ {
+  "id": "item_035387",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1775772320.825582.txt",
+  "title": "1775772320.825582.txt",
+  "content_type": "note",
+  "created_at": "2026-04-09T22:05:20Z",
+  "modified_at": "2026-04-09T22:30:54Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1775772320.825582.txt",
+  "source_url": null,
+  "content_hash": "sha256:c9589f48ee34adb35489ca74f68d9decc9e6a3320508921b3aa7e3f2131a98fb",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "#random: thread under message 1775772320.825582"
+  }
+ },
+ {
+  "id": "item_035388",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1779289224.034314.txt",
+  "title": "1779289224.034314.txt",
+  "content_type": "note",
+  "created_at": "2026-05-20T15:00:24Z",
+  "modified_at": "2026-05-20T15:21:23Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1779289224.034314.txt",
+  "source_url": null,
+  "content_hash": "sha256:89693c42a38c0771c2ec7d07ec6df8284b5f9634e47b0381e07ae0e92f8d0aef",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "#random: thread under message 1779289224.034314"
+  }
+ },
+ {
+  "id": "item_035389",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1784572218.993824.txt",
+  "title": "1784572218.993824.txt",
+  "content_type": "note",
+  "created_at": "2026-07-20T18:30:18Z",
+  "modified_at": "2026-07-20T18:51:14Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/random__C0SYNJRKKDM/threads/1784572218.993824.txt",
+  "source_url": null,
+  "content_hash": "sha256:000e1d1aba75af463154229b52d9602b684a1197412502b1a902e537925e058a",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "#random: thread under message 1784572218.993824"
+  }
+ },
+ {
+  "id": "item_035390",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/uist26__C0SYNVU80MK/history.txt",
+  "title": "history.txt",
+  "content_type": "note",
+  "created_at": "2026-02-12T15:28:15Z",
+  "modified_at": "2026-08-15T05:25:08Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/uist26__C0SYNVU80MK/history.txt",
+  "source_url": null,
+  "content_hash": "sha256:30d28b0485458948b7fcd0f3c4544fdb83250a9ca27b184b59c61ae005d3d429",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/history.txt shape (raw connector pages)",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "#uist26: 26 messages, raw connector pages (newest first) — TutorTrace UIST 2026: crunch, rebuttal, camera-ready"
+  }
+ },
+ {
+  "id": "item_035391",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/uist26__C0SYNVU80MK/messages.json",
+  "title": "messages.json",
+  "content_type": "data",
+  "created_at": "2026-02-12T15:28:15Z",
+  "modified_at": "2026-08-15T05:25:08Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/uist26__C0SYNVU80MK/messages.json",
+  "source_url": null,
+  "content_hash": "sha256:c5ab5d48c9844a1bccb3c02c25a55a566ad2d4326e5ad109913c474465ee657f",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/messages.json shape (connector parse)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "#uist26: 26 messages parsed from history.txt, oldest first — TutorTrace UIST 2026: crunch, rebuttal, camera-ready"
+  }
+ },
+ {
+  "id": "item_035392",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1773641652.390306.txt",
+  "title": "1773641652.390306.txt",
+  "content_type": "note",
+  "created_at": "2026-03-16T06:14:12Z",
+  "modified_at": "2026-03-16T22:05:17Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1773641652.390306.txt",
+  "source_url": null,
+  "content_hash": "sha256:d0c0abfa110377352cae40eeeadca28fd39e9760946c00c2e650f3eb9ef59b04",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "#uist26: thread under message 1773641652.390306"
+  }
+ },
+ {
+  "id": "item_035393",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1774458640.580493.txt",
+  "title": "1774458640.580493.txt",
+  "content_type": "note",
+  "created_at": "2026-03-25T17:10:40Z",
+  "modified_at": "2026-03-25T17:50:35Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1774458640.580493.txt",
+  "source_url": null,
+  "content_hash": "sha256:c5456e1e502818da3c9b39a5ff0c944b8f0bd7b45988ef961a2b0dbf4689e45c",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "#uist26: thread under message 1774458640.580493"
+  }
+ },
+ {
+  "id": "item_035394",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1774583743.861343.txt",
+  "title": "1774583743.861343.txt",
+  "content_type": "note",
+  "created_at": "2026-03-27T03:55:43Z",
+  "modified_at": "2026-03-27T03:58:19Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1774583743.861343.txt",
+  "source_url": null,
+  "content_hash": "sha256:be6026fb8e5a22d40963db0944010b03b7e135b1ab42e92b69f38f2df29123d3",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "#uist26: thread under message 1774583743.861343"
+  }
+ },
+ {
+  "id": "item_035395",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1774661450.495638.txt",
+  "title": "1774661450.495638.txt",
+  "content_type": "note",
+  "created_at": "2026-03-28T01:30:50Z",
+  "modified_at": "2026-03-28T02:12:02Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1774661450.495638.txt",
+  "source_url": null,
+  "content_hash": "sha256:1f370b0ccbbbab0809f6453dc6f991bd3cb69472b498a1b740bf0e3e9d2c14fb",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "#uist26: thread under message 1774661450.495638"
+  }
+ },
+ {
+  "id": "item_035396",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1774914003.523214.txt",
+  "title": "1774914003.523214.txt",
+  "content_type": "note",
+  "created_at": "2026-03-30T23:40:03Z",
+  "modified_at": "2026-03-30T23:44:10Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1774914003.523214.txt",
+  "source_url": null,
+  "content_hash": "sha256:ce8864684442ea3e97483bc3e6f78bc1a0ba01c7278915714d99ec9f9f36b069",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "#uist26: thread under message 1774914003.523214"
+  }
+ },
+ {
+  "id": "item_035397",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1775013150.462755.txt",
+  "title": "1775013150.462755.txt",
+  "content_type": "note",
+  "created_at": "2026-04-01T03:12:30Z",
+  "modified_at": "2026-04-01T03:20:39Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1775013150.462755.txt",
+  "source_url": null,
+  "content_hash": "sha256:04e94dd34e9b626aff5334e1c93faea68a605d7ff2b7d429c163a41d246b5253",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "#uist26: thread under message 1775013150.462755"
+  }
+ },
+ {
+  "id": "item_035398",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1781181004.153887.txt",
+  "title": "1781181004.153887.txt",
+  "content_type": "note",
+  "created_at": "2026-06-11T12:30:04Z",
+  "modified_at": "2026-06-11T13:42:54Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1781181004.153887.txt",
+  "source_url": null,
+  "content_hash": "sha256:65629a43a658d85ea1193dd88805f4a589495728dbf07fcca38fadde10c627bd",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "#uist26: thread under message 1781181004.153887"
+  }
+ },
+ {
+  "id": "item_035399",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1781708449.607732.txt",
+  "title": "1781708449.607732.txt",
+  "content_type": "note",
+  "created_at": "2026-06-17T15:00:49Z",
+  "modified_at": "2026-06-17T15:05:56Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/uist26__C0SYNVU80MK/threads/1781708449.607732.txt",
+  "source_url": null,
+  "content_hash": "sha256:50d92f2f5ac6e8ce07e7dfd545920ad6057700fdaa46ab3ce3770dee05ede548",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "#uist26: thread under message 1781708449.607732"
+  }
+ },
+ {
+  "id": "item_035400",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/users/U0SYN15CS2P.txt",
+  "title": "U0SYN15CS2P.txt",
+  "content_type": "note",
+  "created_at": "2025-11-12T23:05:49Z",
+  "modified_at": "2026-08-26T14:15:21Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/users/U0SYN15CS2P.txt",
+  "source_url": null,
+  "content_hash": "sha256:51579fde028f5539e0d58491ef2d844ec2ba1a4c2c5b9760ad3bc497c5fb347f",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/users/<id>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "user profile: Minsun (directory metadata)"
+  }
+ },
+ {
+  "id": "item_035401",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/users/U0SYN2JB5HW.txt",
+  "title": "U0SYN2JB5HW.txt",
+  "content_type": "note",
+  "created_at": "2025-10-27T17:15:41Z",
+  "modified_at": "2026-08-26T14:15:21Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/users/U0SYN2JB5HW.txt",
+  "source_url": null,
+  "content_hash": "sha256:cff2d93be18334bcb7ebedadc2d7b5a50628577ad4c8a235d221e5b0595e627e",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/users/<id>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "user profile: Xiaohang (directory metadata)"
+  }
+ },
+ {
+  "id": "item_035402",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/users/U0SYNRUS5ER.txt",
+  "title": "U0SYNRUS5ER.txt",
+  "content_type": "note",
+  "created_at": "2025-12-08T14:30:17Z",
+  "modified_at": "2026-08-26T14:15:21Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/users/U0SYNRUS5ER.txt",
+  "source_url": null,
+  "content_hash": "sha256:87c4368f59c6ee1f812caa0b1ccb882a83faeccefe7dc6db8846236788d5173f",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/users/<id>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "user profile: Yue (directory metadata)"
+  }
+ },
+ {
+  "id": "item_035403",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/users/U0SYNS0GL2E.txt",
+  "title": "U0SYNS0GL2E.txt",
+  "content_type": "note",
+  "created_at": "2025-10-20T15:47:55Z",
+  "modified_at": "2026-09-30T18:30:34Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/users/U0SYNS0GL2E.txt",
+  "source_url": null,
+  "content_hash": "sha256:b33b214a6c38564938a7c06f94e049d1cd0431a121c7937d31a8df2f92630354",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/users/<id>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "user profile: Rezky (directory metadata)"
+  }
+ },
+ {
+  "id": "item_035404",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/users/U0SYNWFLRZV.txt",
+  "title": "U0SYNWFLRZV.txt",
+  "content_type": "note",
+  "created_at": "2025-10-20T14:02:54Z",
+  "modified_at": "2026-10-08T03:05:32Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/users/U0SYNWFLRZV.txt",
+  "source_url": null,
+  "content_hash": "sha256:493dcadca46e62e7d4333505ad6343dbd587fddbc581feb05e174fdb0fba1dee",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/users/<id>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "user profile: Yan Chen (directory metadata)"
+  }
+ },
+ {
+  "id": "item_035405",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/users/U0SYNZSPT5P.txt",
+  "title": "U0SYNZSPT5P.txt",
+  "content_type": "note",
+  "created_at": "2025-11-12T02:40:32Z",
+  "modified_at": "2026-10-08T03:05:32Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/users/U0SYNZSPT5P.txt",
+  "source_url": null,
+  "content_hash": "sha256:6f5b9333fc170262054d1f2e6b620266f2c82d5eaee6bad5bac3ed7494acf913",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/users/<id>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "user profile: David Barron (directory metadata)"
+  }
+ },
+ {
+  "id": "item_035406",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/vizpi__C0SYNSLB41X/history.txt",
+  "title": "history.txt",
+  "content_type": "note",
+  "created_at": "2025-10-21T18:02:01Z",
+  "modified_at": "2026-08-04T20:45:17Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/vizpi__C0SYNSLB41X/history.txt",
+  "source_url": null,
+  "content_hash": "sha256:7e79b8da2ff029e1adfc0bd44b3fd084ac3ae98fbf64849c758ed2ea9888aec2",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/history.txt shape (raw connector pages)",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "#vizpi: 19 messages, raw connector pages (newest first) — VizPI CS 3114 deployments, reconnect bug, Cursor trial, handoff"
+  }
+ },
+ {
+  "id": "item_035407",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/vizpi__C0SYNSLB41X/messages.json",
+  "title": "messages.json",
+  "content_type": "data",
+  "created_at": "2025-10-21T18:02:01Z",
+  "modified_at": "2026-08-04T20:45:17Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/vizpi__C0SYNSLB41X/messages.json",
+  "source_url": null,
+  "content_hash": "sha256:635617a2c4fc67604192b404d542b54f5cc4b402b0501e83da7c175370893e2b",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/messages.json shape (connector parse)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "#vizpi: 19 messages parsed from history.txt, oldest first — VizPI CS 3114 deployments, reconnect bug, Cursor trial, handoff"
+  }
+ },
+ {
+  "id": "item_035408",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1761069721.220538.txt",
+  "title": "1761069721.220538.txt",
+  "content_type": "note",
+  "created_at": "2025-10-21T18:02:01Z",
+  "modified_at": "2025-10-21T18:22:55Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1761069721.220538.txt",
+  "source_url": null,
+  "content_hash": "sha256:c3bc05d2b26bc2e80fc6d64beb9e7bb2ebcf9d61561df19ccf8b7e6440dc3f7d",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "#vizpi: thread under message 1761069721.220538"
+  }
+ },
+ {
+  "id": "item_035409",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1762402558.610885.txt",
+  "title": "1762402558.610885.txt",
+  "content_type": "note",
+  "created_at": "2025-11-06T04:15:58Z",
+  "modified_at": "2025-11-06T04:58:12Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1762402558.610885.txt",
+  "source_url": null,
+  "content_hash": "sha256:4d2897dda49adf77d8ca955147df8d881894ec7ab96dc554447ece186b0411fa",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "#vizpi: thread under message 1762402558.610885"
+  }
+ },
+ {
+  "id": "item_035410",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1762532449.643696.txt",
+  "title": "1762532449.643696.txt",
+  "content_type": "note",
+  "created_at": "2025-11-07T16:20:49Z",
+  "modified_at": "2025-11-07T18:05:44Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1762532449.643696.txt",
+  "source_url": null,
+  "content_hash": "sha256:b576aead708b04e88ca3efbf00c10779d6fd284229f306e036f9978fc5eb9a8c",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "#vizpi: thread under message 1762532449.643696"
+  }
+ },
+ {
+  "id": "item_035411",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1762981813.108060.txt",
+  "title": "1762981813.108060.txt",
+  "content_type": "note",
+  "created_at": "2025-11-12T21:10:13Z",
+  "modified_at": "2025-11-12T21:15:50Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1762981813.108060.txt",
+  "source_url": null,
+  "content_hash": "sha256:a1e5294a56590efc3460677bda6b35545b94c4da7632cd37f0a702dc5ebb63e8",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "#vizpi: thread under message 1762981813.108060"
+  }
+ },
+ {
+  "id": "item_035412",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1763048429.177668.txt",
+  "title": "1763048429.177668.txt",
+  "content_type": "note",
+  "created_at": "2025-11-13T15:40:29Z",
+  "modified_at": "2025-11-13T16:05:12Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1763048429.177668.txt",
+  "source_url": null,
+  "content_hash": "sha256:850d61fcd5e5668154773a192bb5847dfd7efc159fea30a80294cd25ae52e44f",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "#vizpi: thread under message 1763048429.177668"
+  }
+ },
+ {
+  "id": "item_035413",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1768959841.684777.txt",
+  "title": "1768959841.684777.txt",
+  "content_type": "note",
+  "created_at": "2026-01-21T01:44:01Z",
+  "modified_at": "2026-01-21T01:50:55Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1768959841.684777.txt",
+  "source_url": null,
+  "content_hash": "sha256:9997a5af48c7a64a0ad39c40aae54c48b3b0d0b8bbb83da09b97a79f2d9af647",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "#vizpi: thread under message 1768959841.684777"
+  }
+ },
+ {
+  "id": "item_035414",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1771963507.178730.txt",
+  "title": "1771963507.178730.txt",
+  "content_type": "note",
+  "created_at": "2026-02-24T20:05:07Z",
+  "modified_at": "2026-02-24T20:40:47Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1771963507.178730.txt",
+  "source_url": null,
+  "content_hash": "sha256:a13860a69d4823ee61627ef15d624556ccc11d5bde7aa29803174c9ecf5a9ac1",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace",
+    "project_vizpi"
+   ],
+   "notes": "#vizpi: thread under message 1771963507.178730"
+  }
+ },
+ {
+  "id": "item_035415",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1785874856.443204.txt",
+  "title": "1785874856.443204.txt",
+  "content_type": "note",
+  "created_at": "2026-08-04T20:20:56Z",
+  "modified_at": "2026-08-04T20:45:17Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/PRIME Lab (VT)/vizpi__C0SYNSLB41X/threads/1785874856.443204.txt",
+  "source_url": null,
+  "content_hash": "sha256:263ad84b3f4783e9e103841db2532585bfc1bf01f86a51bfbfc48a412e6852f3",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "PRIME Lab (VT) Slack workspace (David Barron, dbarron410@vt.edu)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vizpi"
+   ],
+   "notes": "#vizpi: thread under message 1785874856.443204"
+  }
+ },
+ {
+  "id": "item_035416",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/DM_with_Lena_Hoffmann__D0SYN5WSF9J/history.txt",
+  "title": "history.txt",
+  "content_type": "note",
+  "created_at": "2026-08-11T22:30:19Z",
+  "modified_at": "2026-10-15T02:02:56Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/DM_with_Lena_Hoffmann__D0SYN5WSF9J/history.txt",
+  "source_url": null,
+  "content_hash": "sha256:bbba82310bd518623cbee1f270c315f8f1d4ef200ac5863141dd2a6e05db7ad4",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/history.txt shape (raw connector pages)",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "DM with Lena Hoffmann: 16 messages, raw connector pages (newest first) — program lead DMs: desk, residency agreement, check-in, intro to Daniel Osei"
+  }
+ },
+ {
+  "id": "item_035417",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/DM_with_Lena_Hoffmann__D0SYN5WSF9J/messages.json",
+  "title": "messages.json",
+  "content_type": "data",
+  "created_at": "2026-08-11T22:30:19Z",
+  "modified_at": "2026-10-15T02:02:56Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/DM_with_Lena_Hoffmann__D0SYN5WSF9J/messages.json",
+  "source_url": null,
+  "content_hash": "sha256:0269eccc1710ec92e67e1e42e541642198bff47fd57f575f686c2066dfca81db",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/messages.json shape (connector parse)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "DM with Lena Hoffmann: 16 messages parsed from history.txt, oldest first — program lead DMs: desk, residency agreement, check-in, intro to Daniel Osei"
+  }
+ },
+ {
+  "id": "item_035418",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/announcements__C0SYNLFX1AX/history.txt",
+  "title": "history.txt",
+  "content_type": "note",
+  "created_at": "2026-08-11T01:20:55Z",
+  "modified_at": "2026-10-17T00:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/announcements__C0SYNLFX1AX/history.txt",
+  "source_url": null,
+  "content_hash": "sha256:b3ee13d5a11a0326a9c7f9d4be6a33774dbf4a3c6a4f28266d86c681fc7c7acc",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/history.txt shape (raw connector pages)",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "#announcements: 12 messages, raw connector pages (newest first) — incubator program announcements (Lena)"
+  }
+ },
+ {
+  "id": "item_035419",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/announcements__C0SYNLFX1AX/messages.json",
+  "title": "messages.json",
+  "content_type": "data",
+  "created_at": "2026-08-11T01:20:55Z",
+  "modified_at": "2026-10-17T00:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/announcements__C0SYNLFX1AX/messages.json",
+  "source_url": null,
+  "content_hash": "sha256:1c5f17c18547010d4d0c0a4b26693db46f37e4460e565e07e436428e8a351289",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/messages.json shape (connector parse)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "#announcements: 12 messages parsed from history.txt, oldest first — incubator program announcements (Lena)"
+  }
+ },
+ {
+  "id": "item_035420",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/announcements__C0SYNLFX1AX/threads/1787677538.341233.txt",
+  "title": "1787677538.341233.txt",
+  "content_type": "note",
+  "created_at": "2026-08-25T17:05:38Z",
+  "modified_at": "2026-08-25T17:31:45Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/announcements__C0SYNLFX1AX/threads/1787677538.341233.txt",
+  "source_url": null,
+  "content_hash": "sha256:a79974a166fe0f6c682dca3e4a9c4e78245a9755c6d6db3773807bdceacd9718",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "#announcements: thread under message 1787677538.341233"
+  }
+ },
+ {
+  "id": "item_035421",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/conversations.md",
+  "title": "conversations.md",
+  "content_type": "note",
+  "created_at": "2026-08-09T21:00:12Z",
+  "modified_at": "2026-10-17T00:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/conversations.md",
+  "source_url": null,
+  "content_hash": "sha256:99a4d45b0cdef731233f74240cd4fc55def2781b7af3537eb116cc1d9c613c3e",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/conversations.md shape",
+  "metadata": {
+   "format": "md",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "conversation list from the connector (4 conversations); index only"
+  }
+ },
+ {
+  "id": "item_035422",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/demo-day__C0SYNDEA9SB/history.txt",
+  "title": "history.txt",
+  "content_type": "note",
+  "created_at": "2026-10-05T16:00:26Z",
+  "modified_at": "2026-10-16T18:30:03Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/demo-day__C0SYNDEA9SB/history.txt",
+  "source_url": null,
+  "content_hash": "sha256:67c2fc2a868f738feeab97ac162dd6d0e5ced9957af5be2779ff9428ad791e71",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/history.txt shape (raw connector pages)",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "#demo-day: 8 messages, raw connector pages (newest first) — pitch practice and feedback for demo day"
+  }
+ },
+ {
+  "id": "item_035423",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/demo-day__C0SYNDEA9SB/messages.json",
+  "title": "messages.json",
+  "content_type": "data",
+  "created_at": "2026-10-05T16:00:26Z",
+  "modified_at": "2026-10-16T18:30:03Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/demo-day__C0SYNDEA9SB/messages.json",
+  "source_url": null,
+  "content_hash": "sha256:1f9580d62e38c874cc13a0266ae886da0eb815d8dfdd2724ac0d98bca08248d7",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/messages.json shape (connector parse)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "#demo-day: 8 messages parsed from history.txt, oldest first — pitch practice and feedback for demo day"
+  }
+ },
+ {
+  "id": "item_035424",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/demo-day__C0SYNDEA9SB/threads/1791349808.673755.txt",
+  "title": "1791349808.673755.txt",
+  "content_type": "note",
+  "created_at": "2026-10-07T05:10:08Z",
+  "modified_at": "2026-10-07T05:45:45Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/demo-day__C0SYNDEA9SB/threads/1791349808.673755.txt",
+  "source_url": null,
+  "content_hash": "sha256:3f484d293f1c2e553f1e4138fbadbd2a0a60b01b98a959d82679a26fd095f2d5",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "#demo-day: thread under message 1791349808.673755"
+  }
+ },
+ {
+  "id": "item_035425",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/demo-day__C0SYNDEA9SB/threads/1792022730.838677.txt",
+  "title": "1792022730.838677.txt",
+  "content_type": "note",
+  "created_at": "2026-10-15T00:05:30Z",
+  "modified_at": "2026-10-15T00:22:10Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/demo-day__C0SYNDEA9SB/threads/1792022730.838677.txt",
+  "source_url": null,
+  "content_hash": "sha256:ce9749d8e07cbb8362697abb67dace8f0d1c02ab5fbf6bed9920d8e6a320c811",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "#demo-day: thread under message 1792022730.838677"
+  }
+ },
+ {
+  "id": "item_035426",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/demo-day__C0SYNDEA9SB/threads/1792131031.505432.txt",
+  "title": "1792131031.505432.txt",
+  "content_type": "note",
+  "created_at": "2026-10-16T06:10:31Z",
+  "modified_at": "2026-10-16T06:24:02Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/demo-day__C0SYNDEA9SB/threads/1792131031.505432.txt",
+  "source_url": null,
+  "content_hash": "sha256:2c41391da421f57108df7d65b14eb7c43b126497c433e7d8a3d3cd1aa47e391b",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "#demo-day: thread under message 1792131031.505432"
+  }
+ },
+ {
+  "id": "item_035427",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/files/F0SYNNVXPCW__Surplus_Resident_Handbook_Cohort7.pdf",
+  "title": "F0SYNNVXPCW__Surplus_Resident_Handbook_Cohort7.pdf",
+  "content_type": "pdf",
+  "created_at": "2026-08-07T19:00:00Z",
+  "modified_at": "2026-08-11T19:40:48Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/files/F0SYNNVXPCW__Surplus_Resident_Handbook_Cohort7.pdf",
+  "source_url": null,
+  "content_hash": "sha256:f0314d7c7ff06b392e90c11a1b420bfb7d818e39ed8a2c76de54cc2de151749b",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/files/<id>__<name>.pdf (Slack file share)",
+  "metadata": {
+   "format": "pdf",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": "Slack file: Surplus resident handbook pinned in #announcements"
+  }
+ },
+ {
+  "id": "item_035428",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/housing__C0SYNFHV2TW/history.txt",
+  "title": "history.txt",
+  "content_type": "note",
+  "created_at": "2026-08-09T21:00:12Z",
+  "modified_at": "2026-10-15T21:41:11Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/housing__C0SYNFHV2TW/history.txt",
+  "source_url": null,
+  "content_hash": "sha256:c78c24000d38e7c4ecbc52ca64e638055157be7ffb05bb06a5f279fe64f31535",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/history.txt shape (raw connector pages)",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "#housing: 9 messages, raw connector pages (newest first) — house logistics: groceries, chores, bike shop, dishwasher"
+  }
+ },
+ {
+  "id": "item_035429",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/housing__C0SYNFHV2TW/messages.json",
+  "title": "messages.json",
+  "content_type": "data",
+  "created_at": "2026-08-09T21:00:12Z",
+  "modified_at": "2026-10-15T21:41:11Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/housing__C0SYNFHV2TW/messages.json",
+  "source_url": null,
+  "content_hash": "sha256:55cf6f6ccb897be0eb7f2aed87bd7261e931010057511a1d872a4e512326b4ad",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/messages.json shape (connector parse)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "#housing: 9 messages parsed from history.txt, oldest first — house logistics: groceries, chores, bike shop, dishwasher"
+  }
+ },
+ {
+  "id": "item_035430",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/housing__C0SYNFHV2TW/threads/1786309212.053607.txt",
+  "title": "1786309212.053607.txt",
+  "content_type": "note",
+  "created_at": "2026-08-09T21:00:12Z",
+  "modified_at": "2026-08-09T21:22:57Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/housing__C0SYNFHV2TW/threads/1786309212.053607.txt",
+  "source_url": null,
+  "content_hash": "sha256:a2b0facd47f036c7aa7ba2d865c1052c749e500acb0ade18b6a0d835b2cc1c46",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "#housing: thread under message 1786309212.053607"
+  }
+ },
+ {
+  "id": "item_035431",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/housing__C0SYNFHV2TW/threads/1786680310.881702.txt",
+  "title": "1786680310.881702.txt",
+  "content_type": "note",
+  "created_at": "2026-08-14T04:05:10Z",
+  "modified_at": "2026-08-14T04:30:10Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/housing__C0SYNFHV2TW/threads/1786680310.881702.txt",
+  "source_url": null,
+  "content_hash": "sha256:0c54e4a148cddd81d2f8e2c5bcf617a228f2db6d24d175e6cdbaefd172c5d383",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "#housing: thread under message 1786680310.881702"
+  }
+ },
+ {
+  "id": "item_035432",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/housing__C0SYNFHV2TW/threads/1787237139.837055.txt",
+  "title": "1787237139.837055.txt",
+  "content_type": "note",
+  "created_at": "2026-08-20T14:45:39Z",
+  "modified_at": "2026-08-21T01:40:28Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/housing__C0SYNFHV2TW/threads/1787237139.837055.txt",
+  "source_url": null,
+  "content_hash": "sha256:b87798de4a06bb68b5445c3787f2f88bfe6684c761294938100006a6bf3581cd",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "#housing: thread under message 1787237139.837055"
+  }
+ },
+ {
+  "id": "item_035433",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/housing__C0SYNFHV2TW/threads/1787807731.090471.txt",
+  "title": "1787807731.090471.txt",
+  "content_type": "note",
+  "created_at": "2026-08-27T05:15:31Z",
+  "modified_at": "2026-08-27T05:20:57Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/housing__C0SYNFHV2TW/threads/1787807731.090471.txt",
+  "source_url": null,
+  "content_hash": "sha256:5a4efa2b6685d685e50cf03aebb95b34b85384091c0ba6b79ee71f89e4dfa81c",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "#housing: thread under message 1787807731.090471"
+  }
+ },
+ {
+  "id": "item_035434",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/housing__C0SYNFHV2TW/threads/1789270255.141184.txt",
+  "title": "1789270255.141184.txt",
+  "content_type": "note",
+  "created_at": "2026-09-13T03:30:55Z",
+  "modified_at": "2026-09-13T03:41:47Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/housing__C0SYNFHV2TW/threads/1789270255.141184.txt",
+  "source_url": null,
+  "content_hash": "sha256:a92aa239a7b722428e0214f2c09b623e8f77b64ccf9786ea2b0d768647705ce0",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "#housing: thread under message 1789270255.141184"
+  }
+ },
+ {
+  "id": "item_035435",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/housing__C0SYNFHV2TW/threads/1792099836.846342.txt",
+  "title": "1792099836.846342.txt",
+  "content_type": "note",
+  "created_at": "2026-10-15T21:30:36Z",
+  "modified_at": "2026-10-15T21:41:11Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/housing__C0SYNFHV2TW/threads/1792099836.846342.txt",
+  "source_url": null,
+  "content_hash": "sha256:8740acb509e10d2466dda7f45a240de9e9ed2f4b5be56a2595fa20631fcc46af",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/<channel>/threads/<ts>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "#housing: thread under message 1792099836.846342"
+  }
+ },
+ {
+  "id": "item_035436",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/users/U0SYN4FPGQV.txt",
+  "title": "U0SYN4FPGQV.txt",
+  "content_type": "note",
+  "created_at": "2026-08-11T15:30:29Z",
+  "modified_at": "2026-10-17T00:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/users/U0SYN4FPGQV.txt",
+  "source_url": null,
+  "content_hash": "sha256:eadb12dd9aa0ee334cafb3631d96442457ef3c04e6bc87b0ea8f8708f187030e",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/users/<id>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "user profile: Lena Hoffmann (directory metadata)"
+  }
+ },
+ {
+  "id": "item_035437",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/users/U0SYN5ZJ8LX.txt",
+  "title": "U0SYN5ZJ8LX.txt",
+  "content_type": "note",
+  "created_at": "2026-08-11T01:21:11Z",
+  "modified_at": "2026-10-17T00:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/users/U0SYN5ZJ8LX.txt",
+  "source_url": null,
+  "content_hash": "sha256:f35617ac67a3d6ff8ba2b4bdbe5851a10db56b6b8faa565cbef304b4b4b73a12",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/users/<id>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "user profile: Hudson Mitchell-Pullman (directory metadata)"
+  }
+ },
+ {
+  "id": "item_035438",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/users/U0SYNVE4VUN.txt",
+  "title": "U0SYNVE4VUN.txt",
+  "content_type": "note",
+  "created_at": "2026-08-09T21:00:12Z",
+  "modified_at": "2026-10-15T21:41:11Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/users/U0SYNVE4VUN.txt",
+  "source_url": null,
+  "content_hash": "sha256:45a4bcc0dfa9d095ad657cc51583fad2c760f8a8ea0c5b1fd4a0826364148646",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/users/<id>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "user profile: Sam Whitaker (directory metadata)"
+  }
+ },
+ {
+  "id": "item_035439",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "slack",
+  "source_id": "Surplus Residents/users/U0SYNVW3EYJ.txt",
+  "title": "U0SYNVW3EYJ.txt",
+  "content_type": "note",
+  "created_at": "2026-08-11T01:20:55Z",
+  "modified_at": "2026-10-17T00:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/slack/Surplus Residents/users/U0SYNVW3EYJ.txt",
+  "source_url": null,
+  "content_hash": "sha256:b0c673eb11bdc41d66166190069b122fc361d691150bce1fedcb4f1817e61ed7",
+  "library_item_id": null,
+  "modeled_on": "authentic/slack/Mathetic/users/<id>.txt shape",
+  "metadata": {
+   "format": "txt",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "Surplus Residents Slack workspace (David Barron, david@mathetic.com)"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": "user profile: David Barron (directory metadata)"
+  }
+ }
+]

@@ -1,0 +1,1 @@
+[{"model": "gbm", "split": "v2_seed7", "macro_f1": 0.74}, {"model": "gbm", "split": "v2_seed11", "macro_f1": 0.73}, {"model": "gbm", "split": "v2_seed23", "macro_f1": 0.75}, {"model": "gbm", "split": "v2_seed42", "macro_f1": 0.74}, {"model": "gbm", "split": "v2_seed101", "macro_f1": 0.72}]

@@ -1,0 +1,68 @@
+{
+  "version": 2,
+  "updated": "2026-10-15",
+  "connectors": {
+    "claude": {
+      "enabled": true,
+      "source": "export_zip",
+      "paginate_until_empty": true,
+      "page_size": 100,
+      "note": "v1 stopped at 1000 convos"
+    },
+    "chatgpt": {
+      "enabled": true,
+      "source": "export_zip"
+    },
+    "zotero": {
+      "enabled": true,
+      "source": "local_sqlite",
+      "include_attachments": true
+    },
+    "downloads_pdfs": {
+      "enabled": true,
+      "paths": [
+        "~/Downloads",
+        "~/Desktop/papers"
+      ]
+    },
+    "github": {
+      "enabled": true,
+      "orgs": [
+        "Mathetic-PBC"
+      ],
+      "include_forks": false
+    },
+    "notion": {
+      "enabled": false,
+      "note": "pilot B asked for it (10/13)"
+    },
+    "granola": {
+      "enabled": false,
+      "note": "pilot B asked for it (10/13)"
+    }
+  },
+  "dedupe": {
+    "paper": [
+      "doi",
+      "title_author_year"
+    ],
+    "chat": [
+      "vendor_conversation_id",
+      "first_message_hash+created"
+    ],
+    "doc": [
+      "content_hash",
+      "title+modified"
+    ],
+    "zip": [
+      "member_content_hash"
+    ],
+    "group_versions": [
+      "Copy of *",
+      "* v[0-9]*",
+      "* copy"
+    ]
+  },
+  "report_expected_counts": true,
+  "unassigned_bucket": "none"
+}

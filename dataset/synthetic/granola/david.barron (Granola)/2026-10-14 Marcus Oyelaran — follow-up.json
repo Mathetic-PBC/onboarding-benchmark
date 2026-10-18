@@ -1,0 +1,635 @@
+{
+ "id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Marcus Oyelaran — follow-up",
+ "created_at": "2026-10-14T17:57:46.000Z",
+ "updated_at": "2026-10-14T18:08:31.192Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "80baa289fc553c5a7f3dacb11f",
+  "summary": "Marcus Oyelaran — follow-up",
+  "start": {
+   "dateTime": "2026-10-14T11:00:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-10-14T11:30:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true
+   },
+   {
+    "email": "marcus@northfieldangels.com",
+    "displayName": "Marcus Oyelaran",
+    "responseStatus": "accepted"
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted",
+    "organizer": true
+   }
+  ],
+  "organizer": {
+   "email": "hudson@mathetic.com"
+  },
+  "creator": {
+   "email": "hudson@mathetic.com"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=1328fad20768fe414bde03aa6b27298c3c5db49c",
+  "status": "confirmed",
+  "hangoutLink": "https://meet.google.com/pol-oijp-rxl"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Marcus Oyelaran",
+    "email": "marcus@northfieldangels.com"
+   },
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### Update we gave\n\n- 2 pilot sessions done (Oct 9 Priya Raman, Oct 13 Daniel Osei); both asked to keep using it\n- Time to first confirmed suggestion: ~6 min (Priya), ~9 min (Daniel) into the writing task\n- Bugs found and fixed: missing Claude chats (split export, ~140 chats), duplicate papers in suggestions\n- Biggest asks: Notion + Granola import; meetings as sources (\"half my ideas are said out loud\")\n- Berkeley conversations: 3 formal + ~9 informal since August\n\n### Marcus's reaction\n\n- Liked that we led with the failures; \"two real sessions beat twenty demos\"\n- Still wants weekly usage: proposes a bar of **3 of the first 5 pilots using it weekly for 4 weeks** = \"converted\"\n- Who pays: Daniel's grant-writing use case is interesting — postdocs with grants, and research-ops in labs\n- Research-ops intro (from August) didn't pan out; he'll try someone else\n\n### The ask\n\n- Interested in a **$50k check into the pre-seed SAFE if the pilots convert**\n- Would not lead; wants a lead or at least two other angels\n- Wants: monthly 1-paragraph update; SAFE terms when ready (cap TBD with Surplus legal)\n\n### Next steps\n\n- [ ] Hudson — send SAFE terms summary + first monthly update (Nov 1)\n- [ ] David — 3 more pilots by end of October (target 5 total)\n- [ ] Hudson — weekly usage dashboard (opens/week per pilot) so \"converted\" is measurable\n- [ ] Reconnect mid-November\n",
+ "notes_plain": "Update we gave\n\n2 pilot sessions done (Oct 9 Priya Raman, Oct 13 Daniel Osei); both asked to keep using it\nTime to first confirmed suggestion: ~6 min (Priya), ~9 min (Daniel) into the writing task\nBugs found and fixed: missing Claude chats (split export, ~140 chats), duplicate papers in suggestions\nBiggest asks: Notion + Granola import; meetings as sources (\"half my ideas are said out loud\")\nBerkeley conversations: 3 formal + ~9 informal since August\n\nMarcus's reaction\n\nLiked that we led with the failures; \"two real sessions beat twenty demos\"\nStill wants weekly usage: proposes a bar of 3 of the first 5 pilots using it weekly for 4 weeks = \"converted\"\nWho pays: Daniel's grant-writing use case is interesting — postdocs with grants, and research-ops in labs\nResearch-ops intro (from August) didn't pan out; he'll try someone else\n\nThe ask\n\nInterested in a $50k check into the pre-seed SAFE if the pilots convert\nWould not lead; wants a lead or at least two other angels\nWants: monthly 1-paragraph update; SAFE terms when ready (cap TBD with Surplus legal)\n\nNext steps\n\nHudson — send SAFE terms summary + first monthly update (Nov 1)\nDavid — 3 more pilots by end of October (target 5 total)\nHudson — weekly usage dashboard (opens/week per pilot) so \"converted\" is measurable\nReconnect mid-November\n",
+ "transcript": [
+  {
+   "id": "aed180c9-0e04-4b6d-b994-7c191e190bcb",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:00:08.897Z",
+   "end_timestamp": "2026-10-14T18:00:11.457Z",
+   "text": "Gentlemen. Good to see you again.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "a586c691-1ba4-4f87-bc78-32bb3c76c121",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:00:12.654Z",
+   "end_timestamp": "2026-10-14T18:00:13.490Z",
+   "text": "Hi Marcus!",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "26e7b55c-a8ad-4e59-9468-d5fdfc0d97ef",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:00:13.911Z",
+   "end_timestamp": "2026-10-14T18:00:16.858Z",
+   "text": "Hi Marcus. Thanks for making time again.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "1942a5b7-824a-422e-a8f5-e8b528dff3b7",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:00:18.065Z",
+   "end_timestamp": "2026-10-14T18:00:23.823Z",
+   "text": "Of course. Last time I said bring ugly numbers. Did you bring ugly numbers?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "e6c49e64-1bd4-4729-a645-c4791de9375d",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:00:24.636Z",
+   "end_timestamp": "2026-10-14T18:00:26.923Z",
+   "text": "We brought very ugly numbers.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "cccdb9d2-293a-48f2-a975-7e36c773b098",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:00:27.941Z",
+   "end_timestamp": "2026-10-14T18:00:28.814Z",
+   "text": "Perfect. Go.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "eaf7dbcd-dfa7-46ec-b5f8-5404e47fc844",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:00:30.226Z",
+   "end_timestamp": "2026-10-14T18:00:40.930Z",
+   "text": "So. Two pilot sessions. Friday with Priya Raman, she's a PhD student at Berkeley. Yesterday with Daniel Osei, he's a postdoc at CMU.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a0990c75-c1ae-48b3-be8e-6dfd9fc9032f",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:00:41.260Z",
+   "end_timestamp": "2026-10-14T18:00:42.171Z",
+   "text": "Two.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "29c4e3e4-65e1-40a4-9bd2-716a3c5ff9fc",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:00:44.308Z",
+   "end_timestamp": "2026-10-14T18:00:47.324Z",
+   "text": "Two. Both asked to keep using it after.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "210f9ffe-d902-4cd2-8d6b-ea733c36acf7",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:00:47.718Z",
+   "end_timestamp": "2026-10-14T18:00:48.584Z",
+   "text": "Unprompted?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "2479d760-d0e7-41db-ad9f-31e93ef0315d",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:00:49.969Z",
+   "end_timestamp": "2026-10-14T18:00:59.551Z",
+   "text": "Unprompted. Priya asked to do another session next week. Daniel asked if he could keep using it \"even with the Notion mess.\"",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0d5ebb96-3dad-4a2c-bd6e-9bf04ef56d59",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:01:00.653Z",
+   "end_timestamp": "2026-10-14T18:01:02.448Z",
+   "text": "What's the Notion mess?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "3a46044a-0fd1-45a8-8307-cdfbf94bf46b",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:01:04.310Z",
+   "end_timestamp": "2026-10-14T18:01:17.366Z",
+   "text": "Um, so, honestly — we don't have a Notion connector. He uploaded a zip, and our handling of it was bad. Titles had ids in them, his hierarchy got flattened.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "dffc00c7-6f61-451f-9994-e6c5afd7cc46",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:01:19.156Z",
+   "end_timestamp": "2026-10-14T18:01:22.543Z",
+   "text": "And he still wanted to keep using it.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "39f48e63-69c4-443a-8dd7-c5529a39874c",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:01:23.065Z",
+   "end_timestamp": "2026-10-14T18:01:36.359Z",
+   "text": "Yeah. Because about nine minutes into the session it found the meeting note where his lab decided to pivot, and that was exactly what his grant paragraph was about.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "136f041d-87ae-4b2a-b948-3f387b68b00e",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:01:38.288Z",
+   "end_timestamp": "2026-10-14T18:01:41.504Z",
+   "text": "Okay. That's a good story. What's the six?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "90ad05ec-21e5-45e8-a18c-023bc6141fe5",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:01:42.407Z",
+   "end_timestamp": "2026-10-14T18:01:43.278Z",
+   "text": "Six?",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "0cab65c9-3a7c-49c3-bd6c-126e37e1b221",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:01:44.388Z",
+   "end_timestamp": "2026-10-14T18:01:51.487Z",
+   "text": "You said nine minutes for him. You wrote six for her in the note you sent.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "5d3a3178-2d19-48e3-9b20-ef9fd3fc611e",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:01:52.723Z",
+   "end_timestamp": "2026-10-14T18:02:04.342Z",
+   "text": "Oh, yeah. Priya, six minutes into the writing part, it found a Claude chat from March where she came up with the framing for her chapter.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ced95998-0f10-4de2-8067-cf0436b8a907",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:02:04.511Z",
+   "end_timestamp": "2026-10-14T18:02:05.694Z",
+   "text": "And what broke?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "58747e11-492a-4594-b6a6-17ac458eb115",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:02:06.299Z",
+   "end_timestamp": "2026-10-14T18:02:16.802Z",
+   "text": "For Priya, we missed about a hundred forty of her Claude chats. Her export was split into two files and we only read one.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "cc964806-7795-45ea-aa74-404c6615ed9d",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:02:18.093Z",
+   "end_timestamp": "2026-10-14T18:02:18.967Z",
+   "text": "Ouch.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "af870406-473f-44c6-a654-3749e935c8ce",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:02:20.332Z",
+   "end_timestamp": "2026-10-14T18:02:28.025Z",
+   "text": "Fixed the same weekend. And duplicate papers. Same paper from Zotero and from Downloads, showing up twice. Also fixed, mostly.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "deeace5b-804e-4c3c-8d28-541052e542c7",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:02:28.834Z",
+   "end_timestamp": "2026-10-14T18:02:34.671Z",
+   "text": "I like that you led with what broke. Most founders hide it until slide twenty.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "054987af-9916-4b37-9f35-e66594b807cc",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:02:36.815Z",
+   "end_timestamp": "2026-10-14T18:02:38.673Z",
+   "text": "We don't have slides.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "2177f5b1-b866-49d3-a879-492865581a53",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:02:40.196Z",
+   "end_timestamp": "2026-10-14T18:02:46.127Z",
+   "text": "Even better. Honestly, two real sessions beat twenty demos. What did they ask for?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "d989bfc2-f697-4df0-b9f1-bf294d5b5def",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:02:48.256Z",
+   "end_timestamp": "2026-10-14T18:02:57.328Z",
+   "text": "Notion and Granola import, both from Daniel. And meetings as sources in general. He said \"half my ideas are said out loud.\"",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "418a0305-ffd7-4014-aec3-51e74f8c7a5c",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:02:57.853Z",
+   "end_timestamp": "2026-10-14T18:02:59.486Z",
+   "text": "That's a great line.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "6d9ee951-e3f9-4aa7-b2c7-6ded5ad6962a",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:03:01.314Z",
+   "end_timestamp": "2026-10-14T18:03:05.595Z",
+   "text": "Everyone gives us great lines. We need to build the things.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "16151c6c-db85-4380-b1aa-05bd81f92411",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:03:06.898Z",
+   "end_timestamp": "2026-10-14T18:03:11.048Z",
+   "text": "Ha. Okay. So, you know what I'm going to say.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "155833c9-0a02-4428-a7f0-ae19057f99fa",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:03:12.387Z",
+   "end_timestamp": "2026-10-14T18:03:13.342Z",
+   "text": "Weekly usage.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "cac1bb2c-89f1-4a28-830d-206e3d4a0238",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:03:15.078Z",
+   "end_timestamp": "2026-10-14T18:03:28.696Z",
+   "text": "Weekly usage. Here's what I'd like to see. Give me a bar. Five pilots. If three of them use it every week for four weeks, without you nagging, I'd call that converted.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "062f14b3-0dd1-4636-812a-120cb9fd0020",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:03:30.452Z",
+   "end_timestamp": "2026-10-14T18:03:32.702Z",
+   "text": "Three of five, four weeks.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d03407dc-fc47-459a-8313-39bed0c92c4f",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:03:33.205Z",
+   "end_timestamp": "2026-10-14T18:03:39.560Z",
+   "text": "Three of five, four weeks. That's not a huge bar. But it's a real one.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "f5e8e44b-d60c-446d-91d4-d9b9d7e731f1",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:03:39.821Z",
+   "end_timestamp": "2026-10-14T18:03:47.175Z",
+   "text": "That's fair. We can measure that. I'm building a little dashboard, opens per week per pilot.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a5387d07-7503-4a83-982e-88109c15539e",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:03:48.572Z",
+   "end_timestamp": "2026-10-14T18:03:52.427Z",
+   "text": "Good. Who pays — did this change your thinking?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "d07b2839-5259-4d5d-ad99-cb76c88e2451",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:03:52.993Z",
+   "end_timestamp": "2026-10-14T18:04:03.515Z",
+   "text": "A little. Daniel was writing a grant. He has grant money. That's the first time the \"who pays\" thing felt concrete. Postdocs with grants.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "928e46d6-81e4-4553-9c20-fe7aa5e87b9f",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:04:03.846Z",
+   "end_timestamp": "2026-10-14T18:04:15.129Z",
+   "text": "That's what I was saying in August. Postdocs and research-ops. The research-ops person I mentioned didn't work out, by the way, she changed jobs. I'll try someone else.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "c78050f6-3c7e-46e1-bf4c-7f93b621a5b7",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:04:15.537Z",
+   "end_timestamp": "2026-10-14T18:04:16.884Z",
+   "text": "Thanks for trying.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "384b613c-7516-465c-b23b-d5d077fce7ef",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:04:18.487Z",
+   "end_timestamp": "2026-10-14T18:04:30.251Z",
+   "text": "Okay. So, here's where I am. If the pilots convert — your bar, three of five, four weeks — I'd be interested in putting fifty thousand into the pre-seed SAFE.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "e45b4c1b-4fe2-41ba-ab91-a003a765ded7",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:04:32.054Z",
+   "end_timestamp": "2026-10-14T18:04:33.357Z",
+   "text": "Oh. Wow. Okay.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "451cf8c9-a48e-4bd6-b00a-142dccf1d87c",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:04:33.743Z",
+   "end_timestamp": "2026-10-14T18:04:43.262Z",
+   "text": "I won't lead. I'd want a lead, or at least two other angels in. And I'd want a monthly update, one paragraph, no fluff.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "d3f640f4-a77d-4bdf-95cc-1d822eec2dd0",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:04:44.711Z",
+   "end_timestamp": "2026-10-14T18:04:47.031Z",
+   "text": "We can absolutely do that.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ea8401b4-cd80-4508-8beb-b7f1c1e0f345",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:04:48.814Z",
+   "end_timestamp": "2026-10-14T18:04:50.127Z",
+   "text": "What's the cap?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "fadad74b-7b78-4aba-87d5-0675af45600d",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:04:51.311Z",
+   "end_timestamp": "2026-10-14T18:04:56.489Z",
+   "text": "We're working it out with Surplus legal. I'll send terms when they're ready.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ffc25ea0-fcd2-41d8-baae-9f59018abe17",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:04:56.681Z",
+   "end_timestamp": "2026-10-14T18:04:59.053Z",
+   "text": "Fine. Don't rush it for me.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "f8572175-3676-492f-8a4f-ee8dc4e9c78b",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:05:00.668Z",
+   "end_timestamp": "2026-10-14T18:05:08.545Z",
+   "text": "Can I ask — what would make you not do it? Like, other than the pilots not converting.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "398e994d-a843-4c37-9a02-882e3ac52a50",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:05:09.511Z",
+   "end_timestamp": "2026-10-14T18:05:21.839Z",
+   "text": "Honestly? If you start building for every request. Notion, Granola, Slack, lab spaces. You'll do twelve bad connectors. Pick the two that make the five pilots weekly users.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "d2780a7e-d1da-48d7-8f90-6746c9ce9a7e",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:05:22.872Z",
+   "end_timestamp": "2026-10-14T18:05:25.907Z",
+   "text": "That's basically what David says every week.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "2897a58e-d563-4285-a888-0397860c3615",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:05:26.477Z",
+   "end_timestamp": "2026-10-14T18:05:31.735Z",
+   "text": "I say it, and then I want to build all of them.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ed1c7ee8-3e0c-4680-bcaf-e667ec7e73af",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:05:33.242Z",
+   "end_timestamp": "2026-10-14T18:05:39.124Z",
+   "text": "Everyone does. Okay, I've got to run. Send me the first update November first.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "377143a8-36b9-4962-82f5-1c4d6900b274",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:05:41.111Z",
+   "end_timestamp": "2026-10-14T18:05:43.295Z",
+   "text": "November first. Thank you, Marcus.",
+   "source": "system",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "17881012-1441-49d2-b7dd-e3fc5b747b9e",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:05:44.040Z",
+   "end_timestamp": "2026-10-14T18:05:45.195Z",
+   "text": "Thank you. Really.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "3d362ffa-535b-46d7-909a-5fee55ec019e",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:05:45.857Z",
+   "end_timestamp": "2026-10-14T18:05:49.959Z",
+   "text": "Good luck. And David — how's the leave treating you?",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  },
+  {
+   "id": "7f2d4c04-c706-45a8-b9e4-991f99b2ce4e",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:05:50.717Z",
+   "end_timestamp": "2026-10-14T18:05:57.893Z",
+   "text": "Good. I gave my UIST talk last week, so I'm, um, I'm officially not a student for a bit.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "5c24c430-043d-4c22-9316-8b5531535040",
+   "document_id": "c87a48c2-eebc-48bc-8fce-43d41ec60710",
+   "start_timestamp": "2026-10-14T18:05:59.912Z",
+   "end_timestamp": "2026-10-14T18:06:01.192Z",
+   "text": "Ha. Enjoy it.",
+   "source": "system",
+   "speaker": "Marcus Oyelaran",
+   "is_final": true
+  }
+ ]
+}

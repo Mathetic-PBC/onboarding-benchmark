@@ -1,0 +1,24 @@
+{
+  "id": "48eb44f4-06d6-4f5a-9bb1-aadce3571ceb",
+  "title": "Pilot interview script",
+  "content": "Pilot sessions are 45 minutes over Zoom with screen share. One of us runs the script, the other takes notes and does not talk. Send the consent one-pager (PIL-3) and the dmg two days before. Ask about recording at the start even if they said yes by email.\n\n## Before the call\n\n* Pilot has: the signed dmg installed, their Claude and/or ChatGPT export **downloaded** (exports take up to a day to arrive), Zotero closed.\n* We have: the import log path ready (`~/Library/Application Support/Engelbart/import-log.jsonl`), a timer, this doc open.\n\n## 1. Context (5 min)\n\n> \"Engelbart is a research notebook that remembers where your thoughts came from. Today you'll connect a few of your sources, import them, and then we'll look at one idea together. Nothing leaves your laptop. We're testing the product, not you; if something is confusing, that's on us.\"\n\n## 2. Connect + import (15 min, pilot drives)\n\n* Don't help unless they're stuck for more than 60 seconds. Note where they hesitate.\n* Q1. Before you click anything: what do you expect this screen to do?\n* Q2. (after connecting) What do you think it is going to read?\n* Q3. (during import) What would you do while this runs?\n\n## 3. Follow one idea (15 min)\n\n* Q4. Think of something you were working on in the last month. Can you find it here?\n* Q5. Where do you think this note came from? (then show the trail if they don't find it)\n* Q6. Is anything here that shouldn't be? Anything missing that should be?\n* Q7. Did you see the same thing twice anywhere?\n\n## 4. Debrief (10 min)\n\n* Q8. What would make you open this next week?\n* Q9. Is there anywhere your research lives that you didn't connect? Why not?\n* Q10. What would make you stop using it?\n* Ask for the import log file. Explain the week-1 and week-4 check-ins and the gift card.\n\n## Don'ts\n\n* Don't say \"was that confusing\". Say \"what did you expect to happen\".\n* Don't demo features they didn't reach on their own until section 3.\n* Don't fix bugs live. Write them down with the time.\n",
+  "url": "https://linear.app/mathetic/document/pilot-interview-script-53a78d752457",
+  "createdAt": "2026-09-21T17:40:22.436Z",
+  "updatedAt": "2026-09-22T23:35:17.751Z",
+  "archivedAt": null,
+  "creator": {
+    "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+    "name": "David Barron"
+  },
+  "updatedBy": {
+    "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+    "name": "David Barron"
+  },
+  "project": {
+    "id": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "name": "Pilot program"
+  },
+  "initiative": null,
+  "team": null,
+  "issue": null
+}

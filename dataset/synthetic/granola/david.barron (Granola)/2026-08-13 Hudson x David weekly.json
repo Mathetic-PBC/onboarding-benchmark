@@ -1,0 +1,606 @@
+{
+ "id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Hudson x David weekly",
+ "created_at": "2026-08-13T22:57:47.000Z",
+ "updated_at": "2026-08-13T23:11:47.563Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "abd004c3bac7e17ea775119100",
+  "summary": "Hudson x David weekly",
+  "start": {
+   "dateTime": "2026-08-13T16:00:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-08-13T16:15:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted",
+    "organizer": true
+   }
+  ],
+  "organizer": {
+   "email": "hudson@mathetic.com"
+  },
+  "creator": {
+   "email": "hudson@mathetic.com"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=940350e4ca06774f1f204464820663f8fd05507e",
+  "status": "confirmed",
+  "location": "Surplus house, SF"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### Where things are\n\n- David still finishing UIST camera-ready (due tomorrow); Engelbart work paused until Saturday\n- Hudson finished first pass of the problem-statement paragraph without the word \"notebook\"; David to edit\n- Cap table + incorporation docs uploaded to the Surplus folder\n\n### Engelbart scope for the next 3 weeks\n\n- Single-user only; no team features until a pilot asks\n- Import first, canvas second — the canvas is useless with nothing in it\n- First connectors: Claude + ChatGPT exports, Zotero, local PDFs, Google Drive\n- Explicitly not yet: Slack, email, Notion\n- Dedupe will matter immediately (same PDF in Zotero and Downloads) — David wants a content hash + title fuzzy match, Hudson worried about false merges\n\n### Metric\n\n- Agreed to report \"time to first useful recall\" to Lena every Thursday\n- Proxy: click-through from a suggested source to the original item, logged with timestamp since connect\n\n### Fundraising\n\n- Marcus Oyelaran call booked for Aug 20\n- Prep: one-page memo, no deck yet; be ready for \"who pays\"\n- Hudson takes the pricing hypothesis: individual researcher $15/mo vs. lab license\n\n### Action items\n\n- [ ] David — submit camera-ready Fri, then edit problem paragraph and send to Lena\n- [ ] Hudson — draft 1-page memo for Marcus by Tue\n- [ ] David — sketch repo layout (web app, importer workers, shared types) over the weekend\n- [ ] Both — 20 researcher names in the shared sheet by Aug 31\n",
+ "notes_plain": "Where things are\n\nDavid still finishing UIST camera-ready (due tomorrow); Engelbart work paused until Saturday\nHudson finished first pass of the problem-statement paragraph without the word \"notebook\"; David to edit\nCap table + incorporation docs uploaded to the Surplus folder\n\nEngelbart scope for the next 3 weeks\n\nSingle-user only; no team features until a pilot asks\nImport first, canvas second — the canvas is useless with nothing in it\nFirst connectors: Claude + ChatGPT exports, Zotero, local PDFs, Google Drive\nExplicitly not yet: Slack, email, Notion\nDedupe will matter immediately (same PDF in Zotero and Downloads) — David wants a content hash + title fuzzy match, Hudson worried about false merges\n\nMetric\n\nAgreed to report \"time to first useful recall\" to Lena every Thursday\nProxy: click-through from a suggested source to the original item, logged with timestamp since connect\n\nFundraising\n\nMarcus Oyelaran call booked for Aug 20\nPrep: one-page memo, no deck yet; be ready for \"who pays\"\nHudson takes the pricing hypothesis: individual researcher $15/mo vs. lab license\n\nAction items\n\nDavid — submit camera-ready Fri, then edit problem paragraph and send to Lena\nHudson — draft 1-page memo for Marcus by Tue\nDavid — sketch repo layout (web app, importer workers, shared types) over the weekend\nBoth — 20 researcher names in the shared sheet by Aug 31\n",
+ "transcript": [
+  {
+   "id": "507a0a7b-9666-4fac-bcb5-f137dd3a13aa",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:00:12.910Z",
+   "end_timestamp": "2026-08-13T23:00:17.736Z",
+   "text": "Okay recording. Is it — yeah it's going. You look destroyed.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "bb6d67db-2abc-4b85-b927-648b8f0ffabb",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:00:19.725Z",
+   "end_timestamp": "2026-08-13T23:00:26.120Z",
+   "text": "I'm fine. I'm fine. It's the camera-ready. The ACM template is fighting me on the figure captions.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "7bf236f0-1b5d-4c24-a1df-11687212e766",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:00:27.417Z",
+   "end_timestamp": "2026-08-13T23:00:30.147Z",
+   "text": "Is that due today or tomorrow?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "345b3f84-ee43-4e65-8af8-a8596723af3c",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:00:30.505Z",
+   "end_timestamp": "2026-08-13T23:00:38.311Z",
+   "text": "Tomorrow. Friday. I'm like ninety percent done, it's the stupid stuff now. The copyright block, the, um, the CCS concepts.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "f3f642cf-4092-467f-9b95-fd0952f3709b",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:00:39.171Z",
+   "end_timestamp": "2026-08-13T23:00:44.927Z",
+   "text": "Okay so do you want to just do twenty minutes and go back to it?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "a8f813da-41f8-41fd-bd33-3de0892cffbb",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:00:46.401Z",
+   "end_timestamp": "2026-08-13T23:00:55.522Z",
+   "text": "Yeah, let's do twenty-five. I want to at least agree on scope so I'm not thinking about it all night.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "367d87f4-9d03-4199-9985-9f693afea13f",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:00:57.498Z",
+   "end_timestamp": "2026-08-13T23:01:02.262Z",
+   "text": "Cool. So first, I sent you the paragraph. The no-notebook paragraph.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "7dc918d5-f591-4ca2-b84d-169a47ca23b8",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:01:02.501Z",
+   "end_timestamp": "2026-08-13T23:01:11.139Z",
+   "text": "I saw it. I read it on my phone. It's good, it's a little long. You say \"context\" like four times.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0ff383f3-1776-4a4c-99dd-44b01011606a",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:01:11.481Z",
+   "end_timestamp": "2026-08-13T23:01:13.272Z",
+   "text": "Because it's about context!",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "53d80256-02d9-42f6-92ed-1474728bbe2c",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:01:14.878Z",
+   "end_timestamp": "2026-08-13T23:01:23.246Z",
+   "text": "I know, I know, but Lena's going to — she's going to circle every one. I'll edit it Saturday.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "3213c69a-6e58-48d6-97db-291704e01aae",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:01:24.223Z",
+   "end_timestamp": "2026-08-13T23:01:35.855Z",
+   "text": "Fine. Second thing, I put the incorporation docs and the cap table in the Surplus folder. The latest cap table, the one with the tabs.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "2de00cf7-a1e0-4e2b-993d-3bc639fb80d3",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:01:37.961Z",
+   "end_timestamp": "2026-08-13T23:01:40.655Z",
+   "text": "The one with the SAFE scenarios?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "01e836f9-f1d5-4a05-9e13-7cf0c2449840",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:01:41.024Z",
+   "end_timestamp": "2026-08-13T23:01:42.275Z",
+   "text": "Yeah, that one.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "f572d2d5-a122-4a71-88d4-3c94150b6114",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:01:42.439Z",
+   "end_timestamp": "2026-08-13T23:01:45.328Z",
+   "text": "Okay cool. Scope. Can we do scope?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "8e89387a-6de1-4bf5-8b92-43c604c62561",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:01:46.197Z",
+   "end_timestamp": "2026-08-13T23:01:55.254Z",
+   "text": "Scope. So my proposal is, for three weeks, single user only. No sharing, no teams. Even though, like, labs are probably who pays eventually.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "c4450c77-8809-436e-9817-16686e0db62c",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:01:56.038Z",
+   "end_timestamp": "2026-08-13T23:02:02.944Z",
+   "text": "Agree. Totally agree. I don't want to build permissions before anyone has used the thing.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "34226dc5-8b0b-4324-a202-9b0c9ebd64cd",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:02:04.208Z",
+   "end_timestamp": "2026-08-13T23:02:05.393Z",
+   "text": "And import first.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "65565d4a-5dd3-41ff-b285-b11d42f1a479",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:02:07.004Z",
+   "end_timestamp": "2026-08-13T23:02:23.254Z",
+   "text": "Import first. The canvas is cool but it's, like, an empty room if nothing's in it. I keep thinking about that — when I open a new tool and it's empty I just close it.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0974ca90-ea97-478e-b125-de944ad2e97d",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:02:23.573Z",
+   "end_timestamp": "2026-08-13T23:02:29.351Z",
+   "text": "Which connectors though? Because if we say \"import everything\" we'll do twelve bad ones.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "77e62495-8373-4c25-b200-006868953e46",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:02:30.360Z",
+   "end_timestamp": "2026-08-13T23:02:42.922Z",
+   "text": "I wrote a list on the plane. Uh. Claude and ChatGPT exports, because that's where most of the actual thinking is now. Zotero. Local PDFs. Google Drive.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "382ccad0-e633-46c8-914b-53de036469b9",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:02:44.911Z",
+   "end_timestamp": "2026-08-13T23:02:45.766Z",
+   "text": "Not Slack?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "29b4b2f4-5861-41b1-b27f-10f2d6b3d8f8",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:02:47.264Z",
+   "end_timestamp": "2026-08-13T23:02:58.859Z",
+   "text": "Not yet. Slack's a mess of permissions. Email too. Notion — I mean I used Notion for like two months this spring and abandoned it, I don't think—",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "c5c66322-9f9e-4a6e-a7ce-e4af35d66bd9",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:02:58.996Z",
+   "end_timestamp": "2026-08-13T23:03:00.986Z",
+   "text": "People do use Notion though.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "d17c9141-be6e-4660-ba83-83a752577a30",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:03:01.212Z",
+   "end_timestamp": "2026-08-13T23:03:08.571Z",
+   "text": "Some people. Let's wait until a pilot asks for it. If someone asks, we do it.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d67dbba1-0114-4f3d-8143-30b51bac1639",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:03:10.329Z",
+   "end_timestamp": "2026-08-13T23:03:12.764Z",
+   "text": "Fine. Writing down \"Notion when asked.\"",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "7a3d0b2e-b852-4340-b480-fc46fb1fa6b9",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:03:13.787Z",
+   "end_timestamp": "2026-08-13T23:03:25.489Z",
+   "text": "And then the thing I'm actually worried about is duplicates. Because the second you import Zotero and Downloads you have the same PDF twice. I have, like, every paper three times.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "5faa711a-aa3a-4d21-8cb3-feb591731a7a",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:03:26.079Z",
+   "end_timestamp": "2026-08-13T23:03:28.653Z",
+   "text": "How do you want to dedupe?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "c956b40e-5aef-4f12-9d52-3a9333e70ea3",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:03:30.560Z",
+   "end_timestamp": "2026-08-13T23:03:41.353Z",
+   "text": "Content hash first. If the bytes match it's the same. Then a fuzzy title match for, like, the arXiv version versus the camera-ready.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "69eb422b-040d-427d-92ab-86a4c2cf5b46",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:03:41.867Z",
+   "end_timestamp": "2026-08-13T23:03:54.605Z",
+   "text": "That second part scares me. If you merge two things that aren't the same, that's worse than a duplicate. A duplicate is annoying, a wrong merge is lost data.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "0f8eef89-5204-4118-8fff-05a413eca399",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:03:56.166Z",
+   "end_timestamp": "2026-08-13T23:04:01.209Z",
+   "text": "Yeah. That's fair. Maybe the fuzzy match just suggests, it doesn't merge.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "b9e33190-5774-4c9c-9aeb-61dc503b9a64",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:04:02.044Z",
+   "end_timestamp": "2026-08-13T23:04:04.517Z",
+   "text": "Suggest, don't merge. I like that.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "9a0dca9b-618d-400d-a431-a753be199ff0",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:04:06.286Z",
+   "end_timestamp": "2026-08-13T23:04:08.993Z",
+   "text": "Okay. Um. Metric. Lena said pick one.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "8e3116c1-0aee-4f3c-bc85-22eab05c6f93",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:04:11.041Z",
+   "end_timestamp": "2026-08-13T23:04:12.949Z",
+   "text": "Time to first useful recall.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "8f783302-67fa-43e9-9b82-c9e125285aa6",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:04:14.346Z",
+   "end_timestamp": "2026-08-13T23:04:24.730Z",
+   "text": "Yeah, and the proxy is the click — when they click a suggested source and open the original. We log the time since they connected.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "3f77f0f0-0e6e-4839-8327-d0ad7eadc3ac",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:04:26.243Z",
+   "end_timestamp": "2026-08-13T23:04:29.480Z",
+   "text": "Seconds since connect, or sessions since connect?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "18368048-0bb3-4cfb-96c7-2ee42ebfbae9",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:04:31.290Z",
+   "end_timestamp": "2026-08-13T23:04:36.593Z",
+   "text": "Uh, both? Store the timestamp and we can compute whatever. But report one number.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "4b1cbcf8-8296-45a8-aabc-fc9733f3f22e",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:04:38.254Z",
+   "end_timestamp": "2026-08-13T23:04:41.428Z",
+   "text": "Report median hours to first click. Fine.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "3d404ffa-0291-4985-9fec-01f4228acaa9",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:04:43.589Z",
+   "end_timestamp": "2026-08-13T23:04:44.593Z",
+   "text": "Fine.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "80b16dcf-4bae-4116-9013-c4a408fa1ee2",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:04:45.565Z",
+   "end_timestamp": "2026-08-13T23:04:49.300Z",
+   "text": "Last thing, Marcus. The call's next Thursday, the twentieth.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "7a0a35de-c7ae-4eb5-bb02-7ff430b06bc9",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:04:49.801Z",
+   "end_timestamp": "2026-08-13T23:04:52.061Z",
+   "text": "Do we need a deck?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "30be53b8-51f5-4ac7-acf4-f74ae39b995d",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:04:54.126Z",
+   "end_timestamp": "2026-08-13T23:05:04.871Z",
+   "text": "I don't think so. I think a one-page memo. Lena said he'll ask who pays, and honestly I don't have a great answer.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "14e9f6b5-c85a-46c9-ae66-5b4f94dca0e4",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:05:06.935Z",
+   "end_timestamp": "2026-08-13T23:05:10.050Z",
+   "text": "What's the — what's your current answer?",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "f966d374-0008-4939-a1a3-69e595a00f50",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:05:11.833Z",
+   "end_timestamp": "2026-08-13T23:05:18.262Z",
+   "text": "Two options. Individual researcher, like fifteen a month. Or a lab license where the PI pays.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "3b13f08e-e5df-43db-8886-85fa94cdec1f",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:05:18.726Z",
+   "end_timestamp": "2026-08-13T23:05:26.186Z",
+   "text": "PIs don't pay for anything. I mean. Sorry. Yan would pay for compute, she wouldn't pay for a notebook.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "c55f3ec0-210e-4228-8111-91a2228ed21e",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:05:28.338Z",
+   "end_timestamp": "2026-08-13T23:05:34.587Z",
+   "text": "That's a data point though. That's literally the kind of thing to say on the call.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "75f3783c-6ce5-4ade-b241-9430e0334ffe",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:05:35.838Z",
+   "end_timestamp": "2026-08-13T23:05:39.825Z",
+   "text": "Yeah. Okay. You draft the memo, I'll read it Tuesday.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "0f5d05e5-076e-481e-9348-5344d224dcba",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:05:41.534Z",
+   "end_timestamp": "2026-08-13T23:05:43.146Z",
+   "text": "Tuesday. And repo stuff?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "132fc5e1-1d32-4472-9d11-58a8c4e25576",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:05:43.633Z",
+   "end_timestamp": "2026-08-13T23:05:54.652Z",
+   "text": "I'll sketch the layout this weekend. Web app, the importer workers, and a shared types package so the importers and the app agree on what an item is.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "9dd9aeca-1735-4319-814b-2f4468d02eee",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:05:55.944Z",
+   "end_timestamp": "2026-08-13T23:05:56.970Z",
+   "text": "Monorepo?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "fb7d0bfc-1da9-452b-9428-9c97ea55b78f",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:05:57.164Z",
+   "end_timestamp": "2026-08-13T23:06:02.574Z",
+   "text": "Probably. Let me think about it Saturday. My brain is in LaTeX right now.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "84c8dcbf-7532-4872-a856-5e8af312a9e1",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:06:03.456Z",
+   "end_timestamp": "2026-08-13T23:06:05.011Z",
+   "text": "Go finish your paper.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "677d2670-4a79-42e3-9b09-f8784df2c49a",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:06:07.026Z",
+   "end_timestamp": "2026-08-13T23:06:12.681Z",
+   "text": "Going. Oh — and the twenty names. Shared sheet, end of the month.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "aeedee5d-0775-4f79-8496-a9ad6e4a7e2c",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:06:14.575Z",
+   "end_timestamp": "2026-08-13T23:06:16.184Z",
+   "text": "Shared sheet. Berkeley first.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "875176ed-ef67-43e8-a71c-93353c78498d",
+   "document_id": "75befb9d-8bf8-4f52-8464-bf8229f1eb78",
+   "start_timestamp": "2026-08-13T23:06:16.919Z",
+   "end_timestamp": "2026-08-13T23:06:18.563Z",
+   "text": "Berkeley first. Okay, bye.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  }
+ ]
+}

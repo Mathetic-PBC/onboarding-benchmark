@@ -1,0 +1,33 @@
+{
+ "uuid": "ee6c2e4b-6a7c-454a-b5c7-23b2ec0bd71c",
+ "slug": "renew-virginia-car-registration-online-what-do-i-OjzjqUqXmvTxa3LlqB13dJ",
+ "title": "Renew Virginia car registration online",
+ "thread_url": "https://www.perplexity.ai/search/renew-virginia-car-registration-online-what-do-i-OjzjqUqXmvTxa3LlqB13dJ",
+ "created_at": "2026-03-17T16:15:00Z",
+ "updated_at": "2026-03-17T16:15:28Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "5996bec8-8146-4ad8-a624-6bb4ad5d2890",
+   "query_str": "renew virginia car registration online what do i need",
+   "answer": "You can renew on the Virginia DMV website if your vehicle is eligible (no outstanding issues, insurance on file) [1]. You'll need:\n- your **renewal notice** or the plate number and last 4 of the VIN,\n- a valid **insurance** policy (Virginia checks electronically),\n- a **card** for the fee (varies by vehicle weight; plus a local fee if your locality charges one),\n- a passed **safety inspection** isn't checked at renewal, but you must have a current sticker to drive legally [1][2].\nYour new decal arrives by mail in about a week; keep the online receipt in the car until then [2].",
+   "sources": [
+    {
+     "name": "Virginia DMV — vehicle registration renewal",
+     "url": "https://www.dmv.virginia.gov/vehicles/registration/renew",
+     "snippet": "Eligibility and steps for online renewal."
+    },
+    {
+     "name": "Virginia car ownership checklist",
+     "url": "https://www.vadriverguide.net/registration-checklist",
+     "snippet": "Inspections, decals and renewal timing."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "gpt-5",
+   "created_at": "2026-03-17T16:15:00Z",
+   "updated_at": "2026-03-17T16:15:15Z"
+  }
+ ]
+}

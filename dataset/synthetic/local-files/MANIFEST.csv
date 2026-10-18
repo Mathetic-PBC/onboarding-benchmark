@@ -1,0 +1,31 @@
+path,tool,account_or_library,date,origin,source,modeled_on,notes
+Brewfile,local-files,Brewfile,2026-08-04T12:20:00-04:00,synthetic,,authentic/local-files home-relative file on the Mac,setup list for the new Mac
+Desktop/Engelbart/dedupe_candidates_priya.json,local-files,Desktop,2026-10-10T09:20:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,
+Desktop/Engelbart/import_counts_pilot1_2026-10-09.csv,local-files,Desktop,2026-10-09T17:02:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,
+Desktop/Screenshot 2026-02-21 at 10.14.55 PM.png,local-files,Desktop,2026-02-21T22:14:00-05:00,synthetic,,authentic/local-files home-relative file on the Mac,HARD CASE: personal clutter — chess screenshot on the Desktop
+Desktop/Screenshot 2026-03-30 at 11.48.22 PM.png,local-files,Desktop,2026-03-30T23:48:00-04:00,synthetic,,authentic/local-files home-relative file on the Mac,screenshot of a figure draft during the UIST crunch
+Desktop/Screenshot 2026-09-15 at 7.02.40 AM.png,local-files,Desktop,2026-09-15T07:02:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,
+Desktop/Screenshot 2026-10-13 at 4.12.08 PM.png,local-files,Desktop,2026-10-13T16:12:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,screenshot of the connect screen during pilot B
+Desktop/hc_compaction_results.json,local-files,Desktop,2026-08-28T00:05:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,
+Desktop/uist26_talk_assets.zip,local-files,Desktop,2026-10-06T22:35:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,"HARD CASE: zip archive of files — final talk PDF, figures and script; overlaps the Drive ""UIST26 talk assets.zip"" (later version)"
+Desktop/vizpi_deploy2_event_rates.csv,local-files,Desktop,2025-11-12T21:05:00-05:00,synthetic,,authentic/local-files home-relative file on the Mac,"per-minute telemetry event rate per section, deployment #2"
+Documents/Lease summary - Surplus house.docx,local-files,Documents,2026-08-12T18:05:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,fictional lease summary
+Documents/VT/cs3604_attendance_F25.csv,local-files,Documents,2025-12-09T18:30:00-05:00,synthetic,,authentic/local-files home-relative file on the Mac,"attendance for project demo check-ins, 64 fictional students"
+Documents/budget_aug2026.csv,local-files,Documents,2026-08-31T22:10:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,HARD CASE: personal clutter — move-month budget
+Documents/idetrace/split_check_2026-07-24.json,local-files,Documents,2026-07-24T23:35:00-04:00,synthetic,,authentic/local-files home-relative file on the Mac,
+Downloads/Berkeley research chats - sign-up (Responses).csv,local-files,Downloads,2026-09-08T22:30:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,form responses export
+Downloads/CA vehicle registration checklist.pdf,local-files,Downloads,2026-08-17T21:10:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,
+Downloads/CarHaul_receipt_order_58213.pdf,local-files,Downloads,2026-08-05T09:30:00-04:00,synthetic,,authentic/local-files home-relative file on the Mac,HARD CASE: personal clutter — car shipping receipt for the move
+Downloads/Receipt-Loopbank-2026-08-30.pdf,local-files,Downloads,2026-08-30T22:12:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,
+Downloads/UIST 2026 trip.ics,local-files,Downloads,2026-09-30T22:06:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,calendar export of the UIST travel
+Downloads/UIST2026_registration_receipt.pdf,local-files,Downloads,2026-09-02T14:20:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,
+Downloads/chess_games_2026-02-21.pgn,local-files,Downloads,2026-02-21T22:30:00-05:00,synthetic,,authentic/local-files home-relative file on the Mac,HARD CASE: personal clutter — exported chess games
+Downloads/garmin_sleep_2026-04-01_2026-10-16.csv,local-files,Downloads,2026-10-16T21:50:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,"Garmin Connect sleep export, daily rows"
+Downloads/invoice_final_FINAL.pdf,local-files,Downloads,2026-09-19T18:40:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,"HARD CASE: vague title — ""invoice_final_FINAL.pdf"" is a Mathetic landing-page illustration invoice"
+Downloads/receipt_valley_cycles_2026-05-12.pdf,local-files,Downloads,2026-05-12T17:55:00-04:00,synthetic,,authentic/local-files home-relative file on the Mac,HARD CASE: personal clutter — bike shop receipt
+Downloads/strava_export_2026-10-16/activities.csv,local-files,Downloads,2026-10-16T21:42:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,"Strava bulk export activities.csv, 214 activities 2025-10-18..2026-10-16"
+Music/Projects/dusk_loop_v3.zip,local-files,Music,2026-09-12T01:36:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,"HARD CASE: zip archive of files — FL Studio beat project: notes txt, synthesized preview WAV, hand-written MIDI, and a PLACEHOLDER .flp (header stub only, not a real FL project)"
+Music/Samples/dusk_kick_tape.wav,local-files,Music,2026-08-30T22:40:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,short synthesized one-bar sketch used as a kick reference
+Projects/claude-plugins/hc/settings.json,local-files,Projects,2026-08-27T23:30:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,
+Projects/engelbart/import.config.json,local-files,Projects,2026-10-15T23:10:00-07:00,synthetic,,authentic/local-files home-relative file on the Mac,
+Projects/vizpi_frontend/telemetry.config.json,local-files,Projects,2025-11-14T10:40:00-05:00,synthetic,,authentic/local-files home-relative file on the Mac,

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20260203T032000Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>The Catalan for club players</title>
+    <created>20260203T031500Z</created>
+    <updated>20260203T032000Z</updated>
+    <tag>clip</tag>
+    <tag>chess</tag>
+    <tag>openings</tag>
+    <note-attributes>
+      <author>David Barron</author>
+      <source>web.clip7</source>
+      <source-url>https://chessbytes.net/openings/catalan-club-players</source-url>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><h3>The Catalan for club players</h3><div>ChessBytes, Opening Guides</div><div><br/></div><ol><li>d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 — the Catalan in one line.</li></ol><div><br/></div><div>Why club players like it: White fianchettoes the light-squared bishop so it stares down the long diagonal at Black's queenside. Even if Black grabs the c4 pawn, White usually gets it back with Qa4+ or Qc2 and a rook to c1, and the pressure on b7 lasts deep into the middlegame.</div><div><br/></div><div>Plans to remember</div><ul><li><b>Open Catalan (…dxc4):</b> don't rush to win the pawn back. Castle, Qc2 or Qa4+, Ne5 ideas. Black's problem is developing the c8 bishop.</li><li><b>Closed Catalan (…Be7, …O-O, …c6):</b> slow buildup. Qc2, Nbd2, e4 when ready. Patience wins.</li><li><b>Common trap:</b> in the open line, Black playing …b5 to hold the pawn often loses to a4 hitting the chain.</li></ul><div><br/></div><div>Typical mistake at 1500-1800: trading the g2 bishop for a knight. That bishop is the whole point.</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

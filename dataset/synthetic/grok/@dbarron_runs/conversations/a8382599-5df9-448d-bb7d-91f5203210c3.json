@@ -1,0 +1,49 @@
+{
+ "conversation": {
+  "conversationId": "a8382599-5df9-448d-bb7d-91f5203210c3",
+  "title": "Rare Earth Export Restrictions",
+  "createTime": "2026-05-07T04:14:00.000Z",
+  "modifyTime": "2026-05-07T04:16:07.808Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "597799e3-e066-42da-b3bc-1d3d3068bfd2",
+   "message": "quick: why do rare earth export restrictions matter so much if the \"rare\" ones arent actually rare",
+   "sender": "human",
+   "createTime": "2026-05-07T04:14:00.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "8d03a199-2168-411e-8e86-870647c00eae",
+   "message": "Because the bottleneck isn't the rock, it's the processing.\n\n- Rare earth deposits exist in lots of countries. What's concentrated is **separation and refining** — turning mixed ore into individual high-purity oxides and metals — and then **magnet manufacturing**. China dominates both by a wide margin.\n- Separation is dirty, slow to permit and slow to build. A new plant outside China takes years and needs offtake contracts to be financeable, which needs prices that China can undercut.\n- The parts that matter most are permanent magnets (NdFeB) for EV motors, wind turbines, drones and missile guidance. No easy substitutes at the same performance.\n\nSo a restriction on processed materials or magnet tech hits in months, while the fix takes most of a decade.",
+   "sender": "assistant",
+   "createTime": "2026-05-07T04:14:19.020Z",
+   "parentResponseId": "597799e3-e066-42da-b3bc-1d3d3068bfd2",
+   "model": "grok-3",
+   "webSearchResults": [
+    {
+     "title": "Rare earths: the processing gap",
+     "url": "https://criticalminerals-monitor.org/processing-gap-2026",
+     "preview": "Overview of separation and magnet capacity by country and the time needed to bring new plants online."
+    }
+   ]
+  },
+  {
+   "responseId": "bc68d367-61ef-4494-b004-52c7abbee592",
+   "message": "who's actually building separation outside china",
+   "sender": "human",
+   "createTime": "2026-05-07T04:15:51.020Z",
+   "parentResponseId": "8d03a199-2168-411e-8e86-870647c00eae"
+  },
+  {
+   "responseId": "51777e4b-cf91-4157-9454-f01f5db3478d",
+   "message": "The serious efforts are in Australia, the US, and Europe, plus some in Southeast Asia. The pattern is the same everywhere: a mine or two, one separation plant ramping slowly, government offtake or price-floor support, and magnet plants announced downstream. Capacity outside China is growing, but heavy rare earths (dysprosium, terbium) remain the tightest — that's where the dependence is worst.",
+   "sender": "assistant",
+   "createTime": "2026-05-07T04:16:07.808Z",
+   "parentResponseId": "bc68d367-61ef-4494-b004-52c7abbee592",
+   "model": "grok-3"
+  }
+ ]
+}

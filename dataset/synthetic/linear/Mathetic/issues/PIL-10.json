@@ -1,0 +1,93 @@
+{
+  "issue": {
+    "id": "PIL-10",
+    "uuid": "aefe34d2-1483-44a7-871c-5560d061f0d9",
+    "title": "Ask for Full Disk Access before the connect screen, not after",
+    "description": "Found in the PIL-5 dry run. Today: connect screen → user ticks Downloads → scan runs → 0 files → *then* macOS shows the Full Disk Access prompt. Move the permission step before the connect screen, explain it in one sentence, and re-scan automatically once it's granted.",
+    "projectMilestone": {
+      "id": "c7f372c4-1916-4b8f-bf0f-0d7e2ecef6d7",
+      "name": "First two pilots onboarded"
+    },
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-10/ask-for-full-disk-access-before-the-connect-screen-not-after",
+    "gitBranchName": "david/pil-10-ask-for-full-disk-access-before-the-connect-screen-not",
+    "createdAt": "2026-10-03T20:30:03.005Z",
+    "updatedAt": "2026-10-07T00:45:11.536Z",
+    "archivedAt": null,
+    "completedAt": "2026-10-07T00:45:11.536Z",
+    "startedAt": "2026-10-05T17:00:53.980Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [
+      "Bug",
+      "Onboarding"
+    ],
+    "createdBy": "Hudson",
+    "assignee": "David Barron",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-10",
+    "attachments": [
+      {
+        "id": "0cd12fca-d6d2-4897-8f0a-3471d78c535f",
+        "title": "PR #203: Permissions step before Connect; auto-rescan on grant",
+        "subtitle": null,
+        "url": "https://github.com/Mathetic-PBC/engelbart/pull/203"
+      }
+    ],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-03T20:30:03.005Z",
+        "endedAt": "2026-10-05T17:00:53.980Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-05T17:00:53.980Z",
+        "endedAt": "2026-10-07T00:45:11.536Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-10-07T00:45:11.536Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [
+        {
+          "id": "PIL-5",
+          "title": "Dry-run the full onboarding on a fresh macOS user account"
+        }
+      ],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": []
+}

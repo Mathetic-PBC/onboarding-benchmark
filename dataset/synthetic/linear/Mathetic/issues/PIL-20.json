@@ -1,0 +1,97 @@
+{
+  "issue": {
+    "id": "PIL-20",
+    "uuid": "b49b8f22-8e13-465d-888c-cf13ba49f3ed",
+    "title": "Downloads scan picks up partial downloads (.crdownload, .download, .part)",
+    "description": "Priya had 4 `.crdownload` files in Downloads that showed up as broken PDFs.",
+    "projectMilestone": {
+      "id": "752d1e60-9eb6-4c7b-a102-c1e5d03b5518",
+      "name": "Import fixes from pilot feedback shipped"
+    },
+    "priority": {
+      "value": 4,
+      "name": "Low"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-20/downloads-scan-picks-up-partial-downloads-crdownload-download-part",
+    "gitBranchName": "david/pil-20-downloads-scan-picks-up-partial-downloads-crdownload",
+    "createdAt": "2026-10-09T22:40:45.425Z",
+    "updatedAt": "2026-10-10T23:30:48.598Z",
+    "archivedAt": null,
+    "completedAt": "2026-10-10T23:30:48.598Z",
+    "startedAt": "2026-10-10T21:00:52.051Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [
+      "Bug",
+      "Import"
+    ],
+    "createdBy": "David Barron",
+    "assignee": "David Barron",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-20",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-09T22:40:45.425Z",
+        "endedAt": "2026-10-10T21:00:52.051Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-10T21:00:52.051Z",
+        "endedAt": "2026-10-10T23:30:48.598Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-10-10T23:30:48.598Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": [
+    {
+      "id": "05729034-8418-4b40-bccf-bec3777ea787",
+      "body": "Ignored by extension now, and any file modified in the last 60 s is retried on the next scan instead of imported.",
+      "attachments": [],
+      "createdAt": "2026-10-10T23:25:50.966Z",
+      "updatedAt": "2026-10-10T23:25:50.966Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      },
+      "onBehalfOf": null
+    }
+  ]
+}

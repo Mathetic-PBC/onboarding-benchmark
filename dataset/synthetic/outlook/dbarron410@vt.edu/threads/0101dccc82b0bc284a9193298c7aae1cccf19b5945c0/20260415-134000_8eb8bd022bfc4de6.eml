@@ -1,0 +1,56 @@
+From: Jordan Lee <jordanlee.ise@vt.edu>
+To: David Barron <dbarron410@vt.edu>, Maya Torres <mayat.ise@vt.edu>
+Subject: RE: Coding scheme for frustration markers - draft v1
+Date: Wed, 15 Apr 2026 13:40:00 +0000
+Message-ID:
+ <DM6PR03MB4410EFBCCB1F1FC3AAC88889@DM6PR03MB4410.namprd03.prod.outlook.com>
+In-Reply-To:
+ <CH3PR03MB7458F3F16D6FD4F106B55CBD@CH3PR03MB7458.namprd03.prod.outlook.com>
+References:
+ <CH3PR03MB7458F3F16D6FD4F106B55CBD@CH3PR03MB7458.namprd03.prod.outlook.com>
+MIME-Version: 1.0
+Thread-Topic: Coding scheme for frustration markers - draft v1
+Thread-Index: AQHczIKwvChKkZMpjHquHMzxm1lFwAAtVQas
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthSource: BL1PR03MB6019.namprd03.prod.outlook.com
+X-MS-Exchange-Organization-Network-Message-Id:
+ ce3770ea-e04c-4d78-8425-5c96a6b8da71
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 15 Apr 2026 13:40:00.283 (UTC)
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Ran it on the 120-turn sample (David and me as coders). Cohen's kappa per cod=
+e:
+REPEAT 0.78, NEG-SELF 0.81, NEG-TUTOR 0.66, GIVE-UP 0.84, TERSE 0.52.
+
+TERSE is the problem. I kept coding "ok" as TERSE even after short tutor turn=
+s. The 80-word rule needs to be checked mechanically, not by eye.
+
+Jordan
+
+________________________________
+From: Maya Torres <mayat.ise@vt.edu>
+Sent: Tuesday, April 14, 2026 10:51 PM
+To: David Barron; Jordan Lee
+Subject: Coding scheme for frustration markers - draft v1
+
+Hi both,
+
+Draft v1 of the coding scheme is attached. Main changes since the check-in wi=
+th Dr. Brooks:
+
+- Merged "repeated question" and "rephrased question" into one code, REPEAT, =
+since we couldn't tell them apart reliably.
+- Added NEG-SELF ("I'm so dumb", "I'll never get this") separate from NEG-TUT=
+OR ("this isn't helping").
+- Dropped the punctuation-intensity code ("???", "!!!"). It fired on 30% of t=
+urns and most were neutral.
+
+Jordan, can you run the IRR on the 120-turn sample before Thursday? We need k=
+appa per code for the slides.
+
+Maya

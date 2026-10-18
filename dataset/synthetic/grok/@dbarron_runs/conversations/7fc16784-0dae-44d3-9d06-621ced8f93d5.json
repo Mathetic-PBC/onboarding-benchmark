@@ -1,0 +1,42 @@
+{
+ "conversation": {
+  "conversationId": "7fc16784-0dae-44d3-9d06-621ced8f93d5",
+  "title": "Moving Car Registration To CA",
+  "createTime": "2026-08-20T04:32:00.000Z",
+  "modifyTime": "2026-08-20T04:34:17.288Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "6fb8e6c3-94e0-4aa8-aef1-38aac48f0855",
+   "message": "moved from virginia to california. how long do i have to register my car in CA and whats the process",
+   "sender": "human",
+   "createTime": "2026-08-20T04:32:00.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "fef5f9c6-4fd8-4388-b820-18849076a7b5",
+   "message": "California expects you to register within **20 days** of becoming a resident (taking a job, renting a place, etc.).\n\nProcess (DMV):\n1. **Smog check** — required for most vehicles coming from out of state (newer gas cars may be exempt; check the model year rules).\n2. **VIN verification** — done at the DMV or by some authorized agents.\n3. **Application** (REG 343), your Virginia title or registration, proof of insurance.\n4. **Fees** — registration plus a use tax may apply if the car was bought recently out of state.\n\nBook an appointment online; walk-in waits can be long. Also update your insurance to a California policy — VA rates won't carry over.",
+   "sender": "assistant",
+   "createTime": "2026-08-20T04:32:16.650Z",
+   "parentResponseId": "6fb8e6c3-94e0-4aa8-aef1-38aac48f0855",
+   "model": "grok-4"
+  },
+  {
+   "responseId": "c6dc8bf3-7ff4-4cf1-af75-e73ab20f9d69",
+   "message": "20 days lol i already missed that",
+   "sender": "human",
+   "createTime": "2026-08-20T04:34:01.650Z",
+   "parentResponseId": "fef5f9c6-4fd8-4388-b820-18849076a7b5"
+  },
+  {
+   "responseId": "02463586-2864-477c-9c08-e97402bd8529",
+   "message": "You're not alone — go soon and bring everything; the penalties are fee-based. The bigger practical risk is insurance, so fix that first.",
+   "sender": "assistant",
+   "createTime": "2026-08-20T04:34:17.288Z",
+   "parentResponseId": "c6dc8bf3-7ff4-4cf1-af75-e73ab20f9d69",
+   "model": "grok-4"
+  }
+ ]
+}

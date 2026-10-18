@@ -1,0 +1,80 @@
+{
+ "uuid": "9d8064a4-0890-4695-9210-862496457fec",
+ "slug": "for-a-dataset-paper-on-student-coding-sessions-gJDyJbbUDw01uAwG98M5ze",
+ "title": "Student-level data leakage in educational ML",
+ "thread_url": "https://www.perplexity.ai/search/for-a-dataset-paper-on-student-coding-sessions-gJDyJbbUDw01uAwG98M5ze",
+ "created_at": "2026-05-05T03:30:00Z",
+ "updated_at": "2026-05-05T03:37:58Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "3d060bb6-b3dd-4129-9b9e-8c314dc66733",
+   "query_str": "for a dataset paper on student coding sessions (30s windows), should train/test be split by window, session, or student? what do EDM papers do",
+   "answer": "**Split by student** for the main benchmark split [1][2]. Windows from the same student share idiosyncrasies (typing rhythm, coding style, which bugs they make), so a window-level or even session-level random split lets a model recognize the *student* rather than the behavior, inflating scores.\n\nWhat the literature shows [1][2][3]:\n- Studies that compared splits on educational log data report sizeable drops in performance when moving from random-row to student-level splits; the gap is larger for models with many features or deep models that can memorize individuals [1].\n- Many EDM/L@S papers now use **grouped cross-validation by student** (e.g., `GroupKFold` with student id as the group) and call out leakage explicitly [2].\n- Ostrowski et al. (L@S '25) reported both a session-level result and the drop when same-student windows were kept out of the comparison baseline, precisely to make leakage visible [3].\n\nFor a NeurIPS Datasets & Benchmarks submission, reviewers will also look for: the split files released with the dataset, the grouping variable documented in the datasheet, and baselines reported on the official split [2].",
+   "sources": [
+    {
+     "name": "The cost of ignoring student identity in educational data splits",
+     "url": "https://www.edmreviewjournal.org/student-level-splits",
+     "snippet": "Performance comparison of random-row vs student-grouped splits on log data."
+    },
+    {
+     "name": "Evaluation practices in educational data mining: a review",
+     "url": "https://www.edmreviewjournal.org/evaluation-practices",
+     "snippet": "Grouped cross-validation and leakage reporting in recent EDM papers."
+    },
+    {
+     "name": "Productive Struggle or Silent Stalling? (Ostrowski et al., L@S '25)",
+     "url": "https://dl.acm.org/doi/10.1145/3698205.3729841",
+     "snippet": "Reports the drop when same-student windows are excluded from the baseline."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-05-05T03:30:00Z",
+   "updated_at": "2026-05-05T03:30:16Z"
+  },
+  {
+   "uuid": "d931e28a-46a8-4313-b79f-c651dc87e995",
+   "query_str": "in sklearn whats the cleanest way. i also want the label distribution roughly balanced across folds",
+   "answer": "Use **`StratifiedGroupKFold`** (scikit-learn ≥ 1.0) [1]:\n\n```python\nfrom sklearn.model_selection import StratifiedGroupKFold\ncv = StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=0)\nfor train_idx, test_idx in cv.split(X, y, groups=df[\"student_id\"]):\n    assert set(df.student_id.iloc[train_idx]).isdisjoint(df.student_id.iloc[test_idx])\n```\n\nIt keeps each student in exactly one fold while trying to balance class proportions. For a single fixed train/test split, take one fold as test, or use `GroupShuffleSplit` and check the label distribution afterwards [1][2]. Keep the assertion in your pipeline — it's the cheapest leakage test there is.",
+   "sources": [
+    {
+     "name": "scikit-learn — StratifiedGroupKFold",
+     "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedGroupKFold.html",
+     "snippet": "Cross-validator with non-overlapping groups and stratification."
+    },
+    {
+     "name": "Practical leakage checks for ML pipelines",
+     "url": "https://www.mlpitfalls.net/leakage-checks",
+     "snippet": "Assertions and audits to catch train/test contamination."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-05-05T03:34:20Z",
+   "updated_at": "2026-05-05T03:34:46Z"
+  },
+  {
+   "uuid": "e0c27ab4-4ecc-4c97-8b4f-a31cb0a8e25f",
+   "query_str": "should i also group by course section or is student enough",
+   "answer": "Student-level grouping is the minimum. If you want to claim generalization to **new classrooms**, also report a **leave-one-section-out** (or leave-one-course-out) split as a secondary evaluation, since sections differ in instructor, assignment timing and TA behavior [1]. Many benchmark papers report an \"in-distribution\" student split and an \"out-of-distribution\" section/course split side by side [1][2].",
+   "sources": [
+    {
+     "name": "Evaluation practices in educational data mining: a review",
+     "url": "https://www.edmreviewjournal.org/evaluation-practices",
+     "snippet": "Out-of-distribution evaluation by course or section."
+    },
+    {
+     "name": "Datasets and benchmarks for learning analytics: recommended splits",
+     "url": "https://www.learninganalyticsbench.org/recommended-splits",
+     "snippet": "ID vs OOD splits in education benchmarks."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-05-05T03:37:35Z",
+   "updated_at": "2026-05-05T03:37:54Z"
+  }
+ ]
+}

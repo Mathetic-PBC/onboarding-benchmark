@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20240602T051000Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>Juno — feature ideas</title>
+    <created>20240315T035000Z</created>
+    <updated>20240602T051000Z</updated>
+    <tag>juno</tag>
+    <tag>ideas</tag>
+    <tag>voice-agents</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>Juno = a voice agent you can actually customize (personality, voice, memory), not a fixed assistant.</div><div><br/></div><h3>Must have</h3><ul><li><b>Latency budget &lt; 800 ms</b> end of speech -&gt; first audio. streaming STT -&gt; LLM (stream tokens) -&gt; TTS on first sentence.</li><li>barge-in: if I start talking, Juno stops mid-sentence.</li><li>persona file (yaml): name, voice id, speaking style, things it knows about me, things it should never do.</li><li>CLI first: `juno create`, `juno talk &lt;name&gt;`, `juno edit &lt;name&gt;`.</li></ul><div><br/></div><h3>Nice to have</h3><ul><li>long-term memory: summarize each conversation into 5 bullets, retrieve top 3 by embedding next time.</li><li>"walkie-talkie" mode for the lab web app (push to talk) vs always-listening mode on desktop.</li><li>multiple Junos in one call (a debate between two personas?) — fun demo, probably useless.</li><li>share a persona with a link.</li></ul><div><br/></div><h3>Not doing</h3><ul><li>phone number / telephony. too much infra.</li><li>custom wake word training. use push-to-talk.</li></ul><div><br/></div><div>6/2/24: STT is fine, TTS first-chunk latency is the bottleneck (~450 ms alone). try sentence-split + smaller voice model for the first sentence only.</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

@@ -1,0 +1,88 @@
+{
+  "issue": {
+    "id": "PIL-22",
+    "uuid": "513e0bc8-0df8-40a9-9859-158d76123c6c",
+    "title": "Follow up with Priya: fixes + re-import",
+    "description": "Email her what we fixed (PIL-14, PIL-15, PIL-20), ask for the export zip again, and book a 15-min check-in for week 2.",
+    "projectMilestone": {
+      "id": "752d1e60-9eb6-4c7b-a102-c1e5d03b5518",
+      "name": "Import fixes from pilot feedback shipped"
+    },
+    "priority": {
+      "value": 3,
+      "name": "Medium"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-22/follow-up-with-priya-fixes-re-import",
+    "gitBranchName": "david/pil-22-follow-up-with-priya-fixes-re-import",
+    "createdAt": "2026-10-13T01:10:54.212Z",
+    "updatedAt": "2026-10-13T16:30:06.591Z",
+    "archivedAt": null,
+    "completedAt": "2026-10-13T16:30:06.591Z",
+    "startedAt": null,
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [
+      "Ops",
+      "Pilot feedback"
+    ],
+    "createdBy": "Hudson",
+    "assignee": "Hudson",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-22",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-13T01:10:54.212Z",
+        "endedAt": "2026-10-13T16:30:06.591Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-10-13T16:30:06.591Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": [
+    {
+      "id": "e75a0c6e-8dbc-400c-96f0-5584709524e0",
+      "body": "Sent. Week-2 check-in booked for Fri 10/23.",
+      "attachments": [],
+      "createdAt": "2026-10-13T16:25:07.091Z",
+      "updatedAt": "2026-10-13T16:25:07.091Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "cb2896e3-8076-499e-adca-cc4ee127e9e7",
+        "name": "Hudson"
+      },
+      "onBehalfOf": null
+    }
+  ]
+}

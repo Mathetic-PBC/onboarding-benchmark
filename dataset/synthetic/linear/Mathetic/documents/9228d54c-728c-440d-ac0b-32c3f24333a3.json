@@ -1,0 +1,24 @@
+{
+  "id": "9228d54c-728c-440d-ac0b-32c3f24333a3",
+  "title": "Pilot feedback synthesis",
+  "content": "Two sessions so far: **Priya Raman** (Berkeley, education + HCI PhD student; Fri 10/9) and **Daniel Osei** (CMU postdoc; Tue 10/13). Both ran the full script (*Pilot interview script*). Import logs received from both.\n\n## What worked\n\n* The provenance trail. Priya: clicking a note and seeing the three chats and the PDF behind it was \"the thing I actually want\". Daniel asked if he could send a trail to his advisor.\n* Import speed was fine for both once it started (Priya ~7 min, Daniel ~4 min).\n* Nobody worried about privacy after reading the one-pager.\n\n## What broke\n\n| Problem | Who | Issue | Status |\n| -- | -- | -- | -- |\n| ~140 Claude chats missing (Projects + untitled) | Priya | PIL-14 | fixed, 612/612 |\n| Same PDF twice (Zotero vs Downloads) | Priya, Daniel | PIL-15 / PIL-40 | fixed: 1,214 → 987 |\n| Claude chats twice (export + desktop cache) | Daniel | PIL-29 | fixed |\n| Partial downloads shown as broken PDFs | Priya | PIL-20 | fixed |\n| 312 MB PDF stalls the queue | Priya | PIL-21 | backlog |\n| Symlinked Obsidian folder skipped | Daniel | PIL-28 | backlog |\n| Drive shortcuts as empty files | Daniel | PIL-31 | backlog |\n\n## What they asked for\n\n* Daniel: **Notion** import (his lab notebook, ~400 pages) and **Granola** import (all his meetings). PIL-24, PIL-25.\n* Both: say what each source will read before connecting (PIL-27).\n* Priya: version links for preprint vs published PDFs (PIL-37).\n\n## The connect screen's \"Other\"\n\nBoth of them hovered over **Other** and neither knew what it meant. Daniel clicked it expecting a list and got a folder picker. This is the clearest onboarding problem we have. PIL-26 replaces it with named sources.\n\n## Order of work (until the week-2 check-ins, 10/23 and 10/27)\n\n1. PIL-26 connect screen without \"Other\"\n2. PIL-24 Notion import (Daniel's main source)\n3. PIL-17 trail as step 1 of the tour\n4. PIL-19 Zotero parent metadata\n5. PIL-18 skipped list\n\n## Open questions\n\n* Is a \"Request a source\" tile enough for Granola until we know what's stable?\n* Do we count Daniel as active if he only uses Notion-imported notes? (Yes, by the PIL-36 definition, as long as he follows trails.)\n* Pilot 3: someone who doesn't live in AI chats (PIL-33).\n",
+  "url": "https://linear.app/mathetic/document/pilot-feedback-synthesis-5c6f71509888",
+  "createdAt": "2026-10-14T18:10:45.846Z",
+  "updatedAt": "2026-10-17T04:05:05.240Z",
+  "archivedAt": null,
+  "creator": {
+    "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+    "name": "David Barron"
+  },
+  "updatedBy": {
+    "id": "cb2896e3-8076-499e-adca-cc4ee127e9e7",
+    "name": "Hudson"
+  },
+  "project": {
+    "id": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "name": "Pilot program"
+  },
+  "initiative": null,
+  "team": null,
+  "issue": null
+}

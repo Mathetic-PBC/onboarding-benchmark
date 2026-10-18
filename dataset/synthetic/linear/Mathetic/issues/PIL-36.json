@@ -1,0 +1,124 @@
+{
+  "issue": {
+    "id": "PIL-36",
+    "uuid": "f2382c8e-ae34-4eee-b5df-ad6c2da440a2",
+    "title": "Define 'converted pilot'",
+    "description": "We keep saying \"if pilots convert\" (Marcus, Lena's pitch feedback). Write it down.",
+    "projectMilestone": {
+      "id": "1547e466-169f-4c92-9da7-53136af1656f",
+      "name": "3 converted pilots"
+    },
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-36/define-converted-pilot",
+    "gitBranchName": "david/pil-36-define-converted-pilot",
+    "createdAt": "2026-10-15T00:35:18.889Z",
+    "updatedAt": "2026-10-15T17:15:26.017Z",
+    "archivedAt": null,
+    "completedAt": "2026-10-15T17:15:26.017Z",
+    "startedAt": "2026-10-15T04:00:41.327Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [],
+    "createdBy": "Hudson",
+    "assignee": "David Barron",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-36",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-15T00:35:18.889Z",
+        "endedAt": "2026-10-15T04:00:41.327Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-15T04:00:41.327Z",
+        "endedAt": "2026-10-15T17:15:26.017Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-10-15T17:15:26.017Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": [
+    {
+      "id": "fb002120-7516-47f9-acc7-222d9c573002",
+      "body": "Done, added to the project description.",
+      "attachments": [],
+      "createdAt": "2026-10-15T17:10:48.249Z",
+      "updatedAt": "2026-10-15T17:10:48.249Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      },
+      "onBehalfOf": null
+    },
+    {
+      "id": "63bb5c2a-beaf-4ada-a921-faaa66ea9deb",
+      "body": "Agree. Put \"followed a provenance link\" in the definition, otherwise opening the app counts as active. Going on the demo day slide too.",
+      "attachments": [],
+      "createdAt": "2026-10-15T16:50:48.385Z",
+      "updatedAt": "2026-10-15T16:50:48.385Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "cb2896e3-8076-499e-adca-cc4ee127e9e7",
+        "name": "Hudson"
+      },
+      "onBehalfOf": null
+    },
+    {
+      "id": "fbbfb364-1e15-4415-9b53-895b01cae49b",
+      "body": "Proposal: converted = weekly active in 3 of the 4 weeks after onboarding (opened a note AND followed at least one provenance link that week) AND answers yes to \"would you pay $15/month for this\" at the week-4 check-in.",
+      "attachments": [],
+      "createdAt": "2026-10-15T05:40:40.014Z",
+      "updatedAt": "2026-10-15T05:40:40.014Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      },
+      "onBehalfOf": null
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+ "uuid": "ee3a7919-8a88-4818-b45e-d649d4d93a81",
+ "name": "hc plugin: what should it save on compaction",
+ "summary": "",
+ "model": "claude-opus-5",
+ "created_at": "2026-08-14T06:29:58.575485Z",
+ "updated_at": "2026-08-14T06:36:17.811903Z",
+ "settings": {
+  "enabled_web_search": true,
+  "tool_search_mode": "auto",
+  "preview_feature_uses_artifacts": true,
+  "paprika_mode": "auto",
+  "thinking_mode": "auto",
+  "chat_memory_mode": "enabled",
+  "enabled_artifacts_attachments": false
+ },
+ "is_starred": false,
+ "is_archived": false,
+ "is_temporary": false,
+ "workspace_upgraded": false,
+ "is_multiplayer": false,
+ "platform": "CLAUDE_AI",
+ "is_wiggle_enabled": true,
+ "effective_thinking_mode": "auto",
+ "chat_messages": [
+  {
+   "uuid": "9ad0bdf8-1f6a-4300-ad4a-869da19bb6ae",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-08-14T06:30:00.000000Z",
+     "stop_timestamp": "2026-08-14T06:30:00.000000Z",
+     "type": "text",
+     "text": "building a claude code plugin \"hc\" (handoff context). idea: before compaction or at session end, it writes a handoff note so the next session (or me) can pick up. what should go in the note. be concrete, i'll implement it as a hook",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-08-14T06:30:00.000000Z",
+   "updated_at": "2026-08-14T06:30:00.000000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+   "uuid": "9da3b312-13b1-4bc6-acb1-d71038a38d05",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-08-14T06:30:02.000000Z",
+     "stop_timestamp": "2026-08-14T06:30:17.688000Z",
+     "type": "text",
+     "text": "A handoff note should answer \"what would I need to know to continue this in 5 minutes without scrolling back?\" Concretely:\n\n```markdown\n# Handoff — <repo> — <date time>\n\n## Goal\nOne sentence: what the session was trying to do.\n\n## State\n- Done: <bullets, each with file paths>\n- In progress: <the exact thing mid-edit, file:line>\n- Not started: <remaining steps>\n\n## Decisions\n- <decision> — because <reason> (so the next session doesn't re-litigate)\n\n## Gotchas\n- <things that failed and why: commands, flaky tests, env issues>\n\n## Next command\n<the literal next thing to run or ask>\n```\n\nImplementation notes:\n- Hook on `PreCompact` and `SessionEnd`. For `PreCompact`, the note matters most because compaction is when context gets lost.\n- Generate it from the transcript with a short model call; don't try to template it from tool calls alone, because decisions and \"why\" live in the conversation text.\n- Write to `.claude/handoffs/<timestamp>.md` and keep a `LATEST.md` symlink so a `SessionStart` hook can inject it.\n- Cap it at ~400 words. A long handoff gets skimmed and the important line is lost.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-08-14T06:30:17.688000Z",
+   "updated_at": "2026-08-14T06:30:17.688000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "9ad0bdf8-1f6a-4300-ad4a-869da19bb6ae"
+  },
+  {
+   "uuid": "ca72ae76-1d7f-46b7-b5ea-fd87f2cc3161",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-08-14T06:33:10.688000Z",
+     "stop_timestamp": "2026-08-14T06:33:10.688000Z",
+     "type": "text",
+     "text": "how do i know if the handoff actually helps vs just compaction alone",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-08-14T06:33:10.688000Z",
+   "updated_at": "2026-08-14T06:33:10.688000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "9da3b312-13b1-4bc6-acb1-d71038a38d05"
+  },
+  {
+   "uuid": "e8c4b464-a4e1-4b3f-91f8-f2ef7821f646",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-08-14T06:33:12.688000Z",
+     "stop_timestamp": "2026-08-14T06:33:22.681000Z",
+     "type": "text",
+     "text": "Run a small comparison on tasks you actually do:\n\n1. Pick ~10 multi-step tasks from your repos that usually span a compaction.\n2. For each, run twice: (a) default compaction, (b) compaction + hc note injected.\n3. Measure things you can count:\n   - re-done work (edits that revert or repeat earlier edits),\n   - questions the model asks that were answered before compaction,\n   - whether it reaches the same end state, and turns to get there.\n\nTen tasks won't give you significance, but it'll show if there's a big effect. Log everything to a jsonl so you can rerun later.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-08-14T06:33:22.681000Z",
+   "updated_at": "2026-08-14T06:33:22.681000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "ca72ae76-1d7f-46b7-b5ea-fd87f2cc3161"
+  },
+  {
+   "uuid": "1c22b60c-b127-4e92-9377-43ce50cd7071",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-08-14T06:35:57.681000Z",
+     "stop_timestamp": "2026-08-14T06:35:57.681000Z",
+     "type": "text",
+     "text": "ok that's the compaction experiment. ill do it this week",
+     "citations": []
+    }
+   ],
+   "sender": "human",
+   "index": 4,
+   "created_at": "2026-08-14T06:35:57.681000Z",
+   "updated_at": "2026-08-14T06:35:57.681000Z",
+   "truncated": false,
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "e8c4b464-a4e1-4b3f-91f8-f2ef7821f646"
+  },
+  {
+   "uuid": "d941198f-e7b6-48d7-b455-a4343ba75ae1",
+   "text": "",
+   "content": [
+    {
+     "start_timestamp": "2026-08-14T06:35:59.681000Z",
+     "stop_timestamp": "2026-08-14T06:36:16.249000Z",
+     "type": "text",
+     "text": "One tip: fix the model and the starting commit for each pair, otherwise the comparison picks up noise from changes you made between runs.",
+     "citations": []
+    }
+   ],
+   "sender": "assistant",
+   "index": 5,
+   "created_at": "2026-08-14T06:36:16.249000Z",
+   "updated_at": "2026-08-14T06:36:16.249000Z",
+   "truncated": false,
+   "stop_reason": "stop_sequence",
+   "attachments": [],
+   "files": [],
+   "sync_sources": [],
+   "parent_message_uuid": "1c22b60c-b127-4e92-9377-43ce50cd7071"
+  }
+ ],
+ "current_leaf_message_uuid": "d941198f-e7b6-48d7-b455-a4343ba75ae1"
+}

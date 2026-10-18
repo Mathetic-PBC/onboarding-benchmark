@@ -1,0 +1,229 @@
+{
+ "Desktop/todo.txt": {
+  "project_ids": [
+   "project_endurance_training",
+   "project_engelbart",
+   "project_mathetic_company",
+   "project_none",
+   "project_vt_phd_admin"
+  ],
+  "notes": null
+ },
+ "Desktop/notes.md": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "HARD CASE: near-duplicate — original of Desktop/notes copy.md"
+ },
+ "Desktop/notes copy.md": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "HARD CASE: near-duplicate — Finder copy of Desktop/notes.md with three lines changed"
+ },
+ "Desktop/meeting scratch 9-10.txt": {
+  "project_ids": [
+   "project_berkeley_research_chats"
+  ],
+  "notes": null
+ },
+ "Desktop/engelbart/import-dedupe brain dump.md": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": null
+ },
+ "Desktop/uist26/talk Q&A prep.md": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": null
+ },
+ "Documents/training/training thoughts.md": {
+  "project_ids": [
+   "project_endurance_training"
+  ],
+  "notes": null
+ },
+ "Documents/packing list - UIST Detroit.txt": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": null
+ },
+ "Desktop/Untitled.txt": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "HARD CASE: vague title — \"Untitled.txt\" with bare numbers from the UIST talk prep"
+ },
+ "Documents/recipes/turkey chili.md": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": null
+ },
+ "Documents/recipes/peanut noodles.md": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": null
+ },
+ "Documents/recipes/overnight oats.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": null
+ },
+ "iCloud Drive/SF move planning.md": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": null
+ },
+ "Desktop/ise6664 presentation notes.txt": {
+  "project_ids": [
+   "project_ise6664_affective_computing"
+  ],
+  "notes": null
+ },
+ "Downloads/Claude-Leakage check in split script-20260724-2311.md": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": null
+ },
+ "Projects/claude-plugins/hc-notes.md": {
+  "project_ids": [
+   "project_claude_code_plugins"
+  ],
+  "notes": null
+ },
+ "Projects/engelbart-onboarding/connect-screen.html": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": null
+ },
+ "Desktop/PapertLab/papert lab notebook idea.md": {
+  "project_ids": [
+   "project_engelbart",
+   "project_mathetic_company"
+  ],
+  "notes": null
+ },
+ "Documents/VT/leave questions for Grace.txt": {
+  "project_ids": [
+   "project_vt_phd_admin"
+  ],
+  "notes": null
+ },
+ "Documents/VT/cs3604 grading notes.txt": {
+  "project_ids": [
+   "project_cs3604_gta"
+  ],
+  "notes": null
+ },
+ "Desktop/vizpi deploy 2 notes.txt": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": null
+ },
+ "Desktop/dynamite todo.md": {
+  "project_ids": [
+   "project_dynamite"
+  ],
+  "notes": null
+ },
+ "Documents/reading/as we may think - notes.md": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group"
+  ],
+  "notes": null
+ },
+ "Documents/beats/beat ideas.txt": {
+  "project_ids": [
+   "project_music_production"
+  ],
+  "notes": null
+ },
+ "Documents/chess/chess notes.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": null
+ },
+ "Documents/geopolitics notes.md": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": null
+ },
+ "Desktop/new mac setup.md": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": null
+ },
+ "Downloads/sublet listing notes.docx": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": null
+ },
+ "iCloud Drive/Dublin wedding logistics.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": null
+ },
+ "Desktop/investor call 2 notes.md": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": null
+ },
+ "Desktop/pilot daniel notes.md": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": null
+ },
+ "Documents/taxes 2025.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": null
+ },
+ "Documents/portfolio redesign ideas.md": {
+  "project_ids": [
+   "project_portfolio"
+  ],
+  "notes": null
+ },
+ "Documents/ISE6664 reflection.docx": {
+  "project_ids": [
+   "project_ise6664_affective_computing"
+  ],
+  "notes": null
+ },
+ "Downloads/bike derailleur.txt": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": null
+ },
+ "iCloud Drive/half marathon race plan.txt": {
+  "project_ids": [
+   "project_endurance_training"
+  ],
+  "notes": null
+ },
+ "Documents/VT/tacode handoff email draft.txt": {
+  "project_ids": [
+   "project_tacode"
+  ],
+  "notes": null
+ }
+}

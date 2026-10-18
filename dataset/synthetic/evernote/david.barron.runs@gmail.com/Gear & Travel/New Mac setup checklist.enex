@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20260807T034000Z" application="Evernote" version="10.105.4">
+  <note>
+    <title>New Mac setup checklist</title>
+    <created>20260804T231500Z</created>
+    <updated>20260807T034000Z</updated>
+    <tag>laptop</tag>
+    <tag>setup</tag>
+    <note-attributes>
+      <author>David Barron</author>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>New MacBook arrived 8/4. Clean setup, no migration assistant this time.</div><div><br/></div><div><en-todo checked="true"/>macOS updates, FileVault on</div><div><en-todo checked="true"/>Homebrew</div><div><en-todo checked="true"/>brew install git gh node pnpm uv jq ripgrep fd tmux</div><div><en-todo checked="true"/>git config user.name / user.email, new ssh key -&gt; GitHub (personal + Mathetic-PBC org)</div><div><en-todo checked="true"/>iTerm2 + zsh config from dotfiles repo</div><div><en-todo checked="true"/>VS Code + settings sync</div><div><en-todo checked="true"/>Claude Code (npm i -g), log in</div><div><en-todo checked="true"/>Obsidian, open the vaults from iCloud</div><div><en-todo checked="true"/>1Password, Arc, Slack, Zoom, Linear</div><div><en-todo checked="true"/>FL Studio 2025 reinstall + license, copy packs from external SSD</div><div><en-todo checked="false"/>Time Machine to the external SSD (it's full, need a new one)</div><div><en-todo checked="false"/>Garmin Express? (or just the phone app)</div><div><en-todo checked="true"/>trackpad: tap to click, three-finger drag (accessibility settings)</div><div><en-todo checked="true"/>Dock: autohide, remove everything</div><div><br/></div><div>Old Mac: wipe after the move, sell or give to Sam.</div></en-note>]]>
+    </content>
+  </note>
+</en-export>

@@ -1,0 +1,13 @@
+=== THREAD PARENT MESSAGE ===
+From: Yue (U0SYNRUS5ER)
+Time: 2026-06-17 08:00:49 PDT
+Message TS: 1781708449.607732
+cs 1114 windows: 300 labeled by me + minsun, kappa 0.69. stalled-after-error share is 14% vs 17% in 3114
+
+=== THREAD REPLIES (1 total) ===
+
+--- Reply 1 of 1 ---
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2026-06-17 08:05:56 PDT
+Message TS: 1781708756.067839
+perfect, that's exactly the sentence for R2

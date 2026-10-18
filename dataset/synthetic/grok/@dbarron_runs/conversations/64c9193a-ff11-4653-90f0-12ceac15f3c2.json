@@ -1,0 +1,42 @@
+{
+ "conversation": {
+  "conversationId": "64c9193a-ff11-4653-90f0-12ceac15f3c2",
+  "title": "Rear Derailleur Skipping Gears",
+  "createTime": "2026-09-06T18:04:00.000Z",
+  "modifyTime": "2026-09-06T18:06:41.417Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "8ad6d38b-72b8-43ef-8aa2-3dc0c9d0aa04",
+   "message": "bike rear derailleur skipping gears under load, esp middle of the cassette. shimano 11 speed. fix myself?",
+   "sender": "human",
+   "createTime": "2026-09-06T18:04:00.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "6caa2b20-1860-45d8-a48d-d61cc4cee9c6",
+   "message": "Probably, yes. Most likely causes in order:\n\n1. **Cable tension.** The most common fix. Shift to a middle cog, turn the barrel adjuster (at the derailleur or shifter) a quarter-turn counterclockwise if it hesitates going to bigger cogs, clockwise if it hesitates going smaller. Repeat until shifts are clean.\n2. **Bent derailleur hanger.** If tuning only fixes some gears, the hanger may be bent (common after a fall or a bump in transport). Needs a hanger alignment tool or a shop — it's cheap.\n3. **Worn chain/cassette.** Skipping under load in the most-used cogs = classic wear. Check the chain with a wear gauge; past ~0.5% on 11-speed, replace the chain (and probably the cassette if it skips with a new chain).\n4. **Dirty or sticky cable housing.** Shifting slow and inconsistent → new cable and housing.\n\nStart with #1. If middle gears skip only when you push hard and tuning doesn't help, it's #3.",
+   "sender": "assistant",
+   "createTime": "2026-09-06T18:04:10.108Z",
+   "parentResponseId": "8ad6d38b-72b8-43ef-8aa2-3dc0c9d0aa04",
+   "model": "grok-4"
+  },
+  {
+   "responseId": "d9b5810f-2827-43a3-a675-ee374d621180",
+   "message": "i moved it across country in a van so prob the hanger lol",
+   "sender": "human",
+   "createTime": "2026-09-06T18:06:34.108Z",
+   "parentResponseId": "6caa2b20-1860-45d8-a48d-d61cc4cee9c6"
+  },
+  {
+   "responseId": "a78366ba-a28d-4442-b96a-558a417fdc1e",
+   "message": "Very plausible. Look at it from behind: the derailleur cage should hang straight down and parallel to the cogs. If it's angled in toward the spokes, it's the hanger — a shop can align it in five minutes.",
+   "sender": "assistant",
+   "createTime": "2026-09-06T18:06:41.417Z",
+   "parentResponseId": "d9b5810f-2827-43a3-a675-ee374d621180",
+   "model": "grok-4"
+  }
+ ]
+}

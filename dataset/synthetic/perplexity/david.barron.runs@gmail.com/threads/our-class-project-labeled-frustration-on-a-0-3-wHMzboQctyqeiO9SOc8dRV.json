@@ -1,0 +1,59 @@
+{
+ "uuid": "32317e01-7179-4d6a-ac07-ea173de7606b",
+ "slug": "our-class-project-labeled-frustration-on-a-0-3-wHMzboQctyqeiO9SOc8dRV",
+ "title": "Krippendorff's alpha for an ordinal frustration scale",
+ "thread_url": "https://www.perplexity.ai/search/our-class-project-labeled-frustration-on-a-0-3-wHMzboQctyqeiO9SOc8dRV",
+ "created_at": "2026-04-28T03:45:00Z",
+ "updated_at": "2026-04-28T03:49:29Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "83b183dd-6d88-41cb-b55f-f7781f2e1bc4",
+   "query_str": "our class project labeled frustration on a 0-3 scale, 3 coders, some transcripts only labeled by 2. what agreement stat",
+   "answer": "Use **Krippendorff's alpha with the ordinal distance metric** [1][2]. It fits your situation on both counts:\n- **Missing data:** alpha handles items labeled by only 2 of 3 coders without dropping them.\n- **Ordinal scale:** the ordinal metric treats a 1-vs-2 disagreement as smaller than 0-vs-3, which nominal kappa would treat as equally wrong.\n\nConvention: α ≥ 0.80 is considered reliable, 0.667–0.80 acceptable for tentative conclusions [2]. For a 10-week class project, report the value, the number of units, and a brief note on where disagreements clustered. In Python, the `krippendorff` package takes a coders × units matrix with `nan` for missing labels and `level_of_measurement='ordinal'` [3].",
+   "sources": [
+    {
+     "name": "Krippendorff's alpha explained",
+     "url": "https://www.statsforannotation.org/krippendorff-alpha",
+     "snippet": "Handling missing data and choosing the distance metric."
+    },
+    {
+     "name": "Reliability thresholds for content analysis",
+     "url": "https://www.methodsforhci.org/reliability-thresholds",
+     "snippet": "Commonly used alpha cutoffs and their origins."
+    },
+    {
+     "name": "Computing Krippendorff's alpha in Python",
+     "url": "https://www.datatoolsnotes.org/krippendorff-python",
+     "snippet": "Example using a coders-by-units matrix with missing values."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "sonar",
+   "created_at": "2026-04-28T03:45:00Z",
+   "updated_at": "2026-04-28T03:45:13Z"
+  },
+  {
+   "uuid": "c581e13f-5c8d-489e-a320-b80e07317770",
+   "query_str": "we got 0.62. bad?",
+   "answer": "Below the conventional 0.667 cutoff, but not unusual for frustration from text [1]. Present it honestly: say agreement was moderate, show which levels were confused (likely 1 vs 2), and consider reporting results both on the 4-point scale and on a collapsed binary (0–1 vs 2–3), which often raises agreement substantially [1][2].",
+   "sources": [
+    {
+     "name": "Inter-rater reliability in affect annotation: a meta-analysis",
+     "url": "https://www.affectivesignals.org/irr-meta-analysis",
+     "snippet": "Typical agreement levels for frustration labels."
+    },
+    {
+     "name": "Collapsing ordinal scales to improve reliability",
+     "url": "https://www.methodsforhci.org/collapsing-scales",
+     "snippet": "Trade-offs of binarizing ordinal annotations."
+    }
+   ],
+   "mode": "COPILOT",
+   "model": "claude-sonnet",
+   "created_at": "2026-04-28T03:49:14Z",
+   "updated_at": "2026-04-28T03:49:25Z"
+  }
+ ]
+}

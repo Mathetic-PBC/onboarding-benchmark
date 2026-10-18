@@ -1,0 +1,80 @@
+[
+ {
+  "success": true,
+  "path": null,
+  "sanitized_name": null,
+  "file_kind": "document",
+  "file_uuid": "c123abee-9328-482f-b0a0-55868afb4c1c",
+  "file_name": "Engelbart onboarding flow v2.pdf",
+  "created_at": "2026-08-26T22:20:00.000000+00:00",
+  "user_uuid": null,
+  "size_bytes": 418220,
+  "thumbnail_asset": {
+   "url": "/api/5250f863-3eb2-421a-ab2d-824bafb442bc/files/c123abee-9328-482f-b0a0-55868afb4c1c/thumbnail",
+   "file_variant": "thumbnail",
+   "primary_color": "ffffff",
+   "image_width": 309,
+   "image_height": 400
+  },
+  "preview_asset": null,
+  "uuid": "c123abee-9328-482f-b0a0-55868afb4c1c",
+  "document_asset": {
+   "url": "/api/5250f863-3eb2-421a-ab2d-824bafb442bc/files/c123abee-9328-482f-b0a0-55868afb4c1c/document",
+   "file_variant": "original",
+   "page_count": 6,
+   "token_count": null
+  }
+ },
+ {
+  "success": true,
+  "path": null,
+  "sanitized_name": null,
+  "file_kind": "image",
+  "file_uuid": "f9f17962-abf6-433a-a171-9f4f9573960f",
+  "file_name": "connect-screen-v3.png",
+  "created_at": "2026-09-17T05:35:00.000000+00:00",
+  "user_uuid": null,
+  "size_bytes": 284913,
+  "thumbnail_asset": {
+   "url": "/api/5250f863-3eb2-421a-ab2d-824bafb442bc/files/f9f17962-abf6-433a-a171-9f4f9573960f/thumbnail",
+   "file_variant": "thumbnail",
+   "primary_color": "ffffff",
+   "image_width": 400,
+   "image_height": 250
+  },
+  "preview_asset": {
+   "url": "/api/5250f863-3eb2-421a-ab2d-824bafb442bc/files/f9f17962-abf6-433a-a171-9f4f9573960f/preview",
+   "file_variant": "preview",
+   "primary_color": "f4f4f2",
+   "image_width": 1440,
+   "image_height": 900
+  },
+  "uuid": "f9f17962-abf6-433a-a171-9f4f9573960f"
+ },
+ {
+  "success": true,
+  "path": null,
+  "sanitized_name": null,
+  "file_kind": "document",
+  "file_uuid": "fc77cbe9-7900-4f0e-8ca5-6539a8469b68",
+  "file_name": "Pilot 1 notes - Priya 2026-10-09.pdf",
+  "created_at": "2026-10-10T02:38:00.000000+00:00",
+  "user_uuid": null,
+  "size_bytes": 96402,
+  "thumbnail_asset": {
+   "url": "/api/5250f863-3eb2-421a-ab2d-824bafb442bc/files/fc77cbe9-7900-4f0e-8ca5-6539a8469b68/thumbnail",
+   "file_variant": "thumbnail",
+   "primary_color": "ffffff",
+   "image_width": 309,
+   "image_height": 400
+  },
+  "preview_asset": null,
+  "uuid": "fc77cbe9-7900-4f0e-8ca5-6539a8469b68",
+  "document_asset": {
+   "url": "/api/5250f863-3eb2-421a-ab2d-824bafb442bc/files/fc77cbe9-7900-4f0e-8ca5-6539a8469b68/document",
+   "file_variant": "original",
+   "page_count": 3,
+   "token_count": null
+  }
+ }
+]

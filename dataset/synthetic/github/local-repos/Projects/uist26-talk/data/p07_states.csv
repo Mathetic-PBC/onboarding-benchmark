@@ -1,0 +1,12 @@
+t0,t1,state
+0,180,exploring
+180,300,productive
+300,420,productive
+420,492,exploring
+492,540,stalled-after-error
+540,780,stalled-after-error
+780,900,help-seeking
+900,1010,stalled
+1010,1110,help-seeking
+1110,1230,productive
+1230,1320,productive

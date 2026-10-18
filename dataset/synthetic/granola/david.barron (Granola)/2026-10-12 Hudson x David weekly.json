@@ -1,0 +1,606 @@
+{
+ "id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+ "workspace_id": "c6d88193-6435-4788-b7c6-f54327042362",
+ "user_id": "75f29d2d-9087-4e07-9899-776337745834",
+ "type": "meeting",
+ "title": "Hudson x David weekly",
+ "created_at": "2026-10-12T22:57:52.000Z",
+ "updated_at": "2026-10-12T23:10:26.044Z",
+ "deleted_at": null,
+ "creation_source": "macOS",
+ "valid_meeting": true,
+ "transcribe": true,
+ "public": false,
+ "sharing_link_visibility": "workspace",
+ "google_calendar_event": {
+  "id": "c182b98436c01a069961eb92bd",
+  "summary": "Hudson x David weekly",
+  "start": {
+   "dateTime": "2026-10-12T16:00:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "end": {
+   "dateTime": "2026-10-12T16:15:00-07:00",
+   "timeZone": "America/Los_Angeles"
+  },
+  "attendees": [
+   {
+    "email": "david@mathetic.com",
+    "displayName": "David Barron",
+    "responseStatus": "accepted",
+    "self": true
+   },
+   {
+    "email": "hudson@mathetic.com",
+    "displayName": "Hudson Mitchell-Pullman",
+    "responseStatus": "accepted",
+    "organizer": true
+   }
+  ],
+  "organizer": {
+   "email": "hudson@mathetic.com"
+  },
+  "creator": {
+   "email": "hudson@mathetic.com"
+  },
+  "htmlLink": "https://www.google.com/calendar/event?eid=a86f4ac5bbc646e5ccc30e4acbf20560f5e05acb",
+  "status": "confirmed",
+  "location": "Surplus house, SF"
+ },
+ "people": {
+  "creator": {
+   "name": "David Barron",
+   "email": "david@mathetic.com"
+  },
+  "attendees": [
+   {
+    "name": "Hudson Mitchell-Pullman",
+    "email": "hudson@mathetic.com"
+   }
+  ]
+ },
+ "notes_markdown": "### Priya pilot — root causes\n\n- **Missing ~140 Claude chats:** confirmed — her export had 2 conversation files; importer only read the first. Fixed: glob all `conversations*.json`, merge by uuid. Re-ran on her export: 553 conversations.\n- Also found: 4 conversations with empty `chat_messages` were silently dropped — now listed as skipped (\"empty conversation\")\n- **Duplicate PDFs:** publisher vs arXiv versions; title match failed on subtitles and \"(1)\" filenames. New rule: normalize title (strip subtitle after colon only for matching), compare DOI when present, first-page text similarity as tie-break. Still suggest-don't-merge.\n- **Suggestions:** collapse candidates that share a DOI or normalized title\n\n### What worked\n\n- First confirmed suggestion ~6 min into the writing task (Claude chat from March)\n- Exclude-folders used immediately (IRB folder)\n- Summary card understood without explanation\n\n### What confused\n\n- \"Other\" tile — Priya expected Obsidian/Notion there\n- Proposal: rename to \"Upload files\"; add a separate \"Request a source\" tile that just collects votes\n\n### Pilot B prep (Daniel Osei, Tue Oct 13, 9:00 PT / 12:00 ET)\n\n- CMU postdoc; uses Notion heavily and Granola for meetings (per his intake form)\n- Neither connector exists — be honest; use the request tile to record it\n- Keep \"Other\" as-is for Daniel? — decided: keep, to see if confusion repeats (n=2 before renaming)\n\n### Action items\n\n- [ ] David — ship multi-file Claude import + dedupe rules to staging tonight\n- [ ] Hudson — numbers for Marcus (Wed): pilots, imported items, time to first confirmed suggestion\n- [ ] Hudson — schedule Priya follow-up (Oct 16 or 19)\n",
+ "notes_plain": "Priya pilot — root causes\n\nMissing ~140 Claude chats: confirmed — her export had 2 conversation files; importer only read the first. Fixed: glob all `conversations*.json`, merge by uuid. Re-ran on her export: 553 conversations.\nAlso found: 4 conversations with empty `chat_messages` were silently dropped — now listed as skipped (\"empty conversation\")\nDuplicate PDFs: publisher vs arXiv versions; title match failed on subtitles and \"(1)\" filenames. New rule: normalize title (strip subtitle after colon only for matching), compare DOI when present, first-page text similarity as tie-break. Still suggest-don't-merge.\nSuggestions: collapse candidates that share a DOI or normalized title\n\nWhat worked\n\nFirst confirmed suggestion ~6 min into the writing task (Claude chat from March)\nExclude-folders used immediately (IRB folder)\nSummary card understood without explanation\n\nWhat confused\n\n\"Other\" tile — Priya expected Obsidian/Notion there\nProposal: rename to \"Upload files\"; add a separate \"Request a source\" tile that just collects votes\n\nPilot B prep (Daniel Osei, Tue Oct 13, 9:00 PT / 12:00 ET)\n\nCMU postdoc; uses Notion heavily and Granola for meetings (per his intake form)\nNeither connector exists — be honest; use the request tile to record it\nKeep \"Other\" as-is for Daniel? — decided: keep, to see if confusion repeats (n=2 before renaming)\n\nAction items\n\nDavid — ship multi-file Claude import + dedupe rules to staging tonight\nHudson — numbers for Marcus (Wed): pilots, imported items, time to first confirmed suggestion\nHudson — schedule Priya follow-up (Oct 16 or 19)\n",
+ "transcript": [
+  {
+   "id": "933b91e2-bde8-4e97-98ed-5343d6e6e48a",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:00:20.202Z",
+   "end_timestamp": "2026-10-12T23:00:22.373Z",
+   "text": "How was the race-prep run?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "20178093-c3de-441c-807b-29f664fd5095",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:00:22.784Z",
+   "end_timestamp": "2026-10-12T23:00:25.913Z",
+   "text": "Good. Easy six. I'm tapering. The half's Thursday.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "59747fd2-48f2-4d28-a3ed-ef00a32612f7",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:00:26.519Z",
+   "end_timestamp": "2026-10-12T23:00:27.653Z",
+   "text": "Right, with Owen.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "4938007d-cd42-4b16-b617-09ebc58dbbf1",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:00:28.530Z",
+   "end_timestamp": "2026-10-12T23:00:34.747Z",
+   "text": "With Owen. He's going to beat me by like three minutes and be nice about it.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "827a6787-5e73-4df8-85e0-c3ce2a17e5b3",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:00:36.773Z",
+   "end_timestamp": "2026-10-12T23:00:38.463Z",
+   "text": "Okay. Priya debrief. Go.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "0a56f4ee-b9e4-41c9-a76b-920e9c7836b8",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:00:40.061Z",
+   "end_timestamp": "2026-10-12T23:00:49.679Z",
+   "text": "So. The hundred forty chats. I was right. Her export had two conversation files and we only read the first one.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "33d78a34-07ee-42db-a18d-949d0da762c4",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:00:51.288Z",
+   "end_timestamp": "2026-10-12T23:00:53.601Z",
+   "text": "How did we miss that?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ddef3496-5ee2-43b8-805a-41dce4343719",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:00:55.343Z",
+   "end_timestamp": "2026-10-12T23:01:01.658Z",
+   "text": "Because my export is small. It's one file. I never saw a split export.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "30fe6c87-da78-4fc7-86b5-55432aee5377",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:01:03.295Z",
+   "end_timestamp": "2026-10-12T23:01:04.441Z",
+   "text": "Ugh. Okay. Fixed?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "5b44f50b-bf06-4312-98e7-3d085c485c7c",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:01:05.673Z",
+   "end_timestamp": "2026-10-12T23:01:13.551Z",
+   "text": "Fixed. We glob all the conversations files and merge by uuid. I re-ran it on her export. Five fifty-three.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "02282211-8e6d-426c-ae52-8963ef4dbb26",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:01:14.834Z",
+   "end_timestamp": "2026-10-12T23:01:18.762Z",
+   "text": "Five fifty-three! So she was right, roughly five fifty.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "c272d7c5-7fea-42db-ad9f-709eb5d367b4",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:01:19.821Z",
+   "end_timestamp": "2026-10-12T23:01:29.611Z",
+   "text": "She was right. And I found another thing while I was in there. Four conversations that are empty, no messages. We were just dropping them silently.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "4606fc78-fd43-4d1c-afd7-54f32f4e8558",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:01:31.117Z",
+   "end_timestamp": "2026-10-12T23:01:32.951Z",
+   "text": "Silent drop. Your nemesis.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "8ebbb8a6-34aa-4939-a053-c732a2929d3a",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:01:33.396Z",
+   "end_timestamp": "2026-10-12T23:01:39.847Z",
+   "text": "My nemesis. Now they show up as skipped, \"empty conversation.\" So the count adds up.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ccc81980-646f-4660-9702-841ad31da980",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:01:42.041Z",
+   "end_timestamp": "2026-10-12T23:01:42.912Z",
+   "text": "Good. Dedupe.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "3554d536-96b5-476f-be6b-0f460d6ade92",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:01:44.159Z",
+   "end_timestamp": "2026-10-12T23:02:00.021Z",
+   "text": "Dedupe. So her duplicates were publisher PDF versus arXiv. Different bytes obviously. And the title match failed because of subtitles, and because the Downloads files have, like, \"(1)\" in the name and sometimes we were using the filename as the title.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "1e2128f4-13a6-4e5c-b2ec-d18656ae6f10",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:02:01.435Z",
+   "end_timestamp": "2026-10-12T23:02:02.303Z",
+   "text": "Oh no.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "da4bf605-3b65-46fc-a993-5aa308c4cc9a",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:02:03.038Z",
+   "end_timestamp": "2026-10-12T23:02:14.215Z",
+   "text": "Yeah. So new rule. Normalize the title — for matching only, strip after the colon, lowercase, all that. Use DOI when we have it. First-page text as a tie-break.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "16ae06de-f453-4912-965b-8a6e29c19d85",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:02:14.616Z",
+   "end_timestamp": "2026-10-12T23:02:16.368Z",
+   "text": "Still suggest don't merge?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "7de6ad1e-4848-4519-8fdd-dc4a14840bc3",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:02:17.736Z",
+   "end_timestamp": "2026-10-12T23:02:31.567Z",
+   "text": "Still suggest don't merge. But in the suggestions panel, we collapse candidates that share a DOI or normalized title. So she never sees the same paper twice in the three.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "bfa2947a-e7f0-4968-9f69-733c7147285b",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:02:33.754Z",
+   "end_timestamp": "2026-10-12T23:02:36.793Z",
+   "text": "That was the most annoying part for her.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "5e23b752-be0b-4ac8-86b1-5120b5653bea",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:02:38.849Z",
+   "end_timestamp": "2026-10-12T23:02:44.390Z",
+   "text": "It was the most visible part. The chats were the most important part.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "f43e37d7-d948-4e2f-96ac-3bb2319e6980",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:02:45.192Z",
+   "end_timestamp": "2026-10-12T23:02:49.221Z",
+   "text": "Okay. What worked? Let's not only do the bad stuff.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "63eb5120-51cf-4947-b36a-e515f873bf35",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:02:50.584Z",
+   "end_timestamp": "2026-10-12T23:02:55.276Z",
+   "text": "First confirmed suggestion, six minutes into the writing task. The March chat.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "f40446b3-ccb3-4054-b583-734314556b81",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:02:56.538Z",
+   "end_timestamp": "2026-10-12T23:02:58.355Z",
+   "text": "She was so happy.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ecc68757-76d0-4f23-9054-44520b67f99a",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:02:59.625Z",
+   "end_timestamp": "2026-10-12T23:03:05.280Z",
+   "text": "She said \"that's where that came from.\" I'm going to put that on a wall.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "78e9ae75-769b-43d1-b2e7-d87e32b4e57c",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:03:06.295Z",
+   "end_timestamp": "2026-10-12T23:03:08.937Z",
+   "text": "And exclude folders, she used it immediately.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "88bc1b4d-b7fa-4d68-8f72-3bb0ff38f477",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:03:09.826Z",
+   "end_timestamp": "2026-10-12T23:03:15.686Z",
+   "text": "For the IRB folder. And the summary card, she understood it with no explanation.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ea858185-645f-417d-a333-b1927e65b14e",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:03:16.057Z",
+   "end_timestamp": "2026-10-12T23:03:18.350Z",
+   "text": "Okay. And the \"Other\" thing.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "293ad44b-999b-49dd-8837-4526873820c9",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:03:20.387Z",
+   "end_timestamp": "2026-10-12T23:03:21.651Z",
+   "text": "You were right.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "6ef58c82-45c9-43db-9eb5-5b5fec14e4f0",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:03:22.102Z",
+   "end_timestamp": "2026-10-12T23:03:23.431Z",
+   "text": "Say it again.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "d9036d1d-4ea7-4886-9893-06dea940d557",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:03:23.773Z",
+   "end_timestamp": "2026-10-12T23:03:28.130Z",
+   "text": "You were right. She thought Obsidian would be under Other.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "d58ba32b-76b7-4492-88d8-7cefbe8932e4",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:03:29.266Z",
+   "end_timestamp": "2026-10-12T23:03:36.357Z",
+   "text": "So rename to \"Upload files.\" And maybe a separate tile, like \"Request a source,\" that just collects votes.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "7b41d751-bf27-494e-a319-4ab8b5ee170b",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:03:38.278Z",
+   "end_timestamp": "2026-10-12T23:03:41.264Z",
+   "text": "I like that a lot. It's honest.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "a1785bd1-1bca-43d4-85fe-29bd3ada6562",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:03:41.997Z",
+   "end_timestamp": "2026-10-12T23:03:44.768Z",
+   "text": "Do we do it before Daniel tomorrow?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ae62d023-fc1f-4096-931e-38252440115d",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:03:45.907Z",
+   "end_timestamp": "2026-10-12T23:03:56.779Z",
+   "text": "Hm. Actually — no? Let's keep it for Daniel. If he's confused too, that's two out of two and we rename with a clear conscience.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "ad1e9c92-04bc-4348-bcd5-e5c7dad7e008",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:03:58.510Z",
+   "end_timestamp": "2026-10-12T23:04:00.501Z",
+   "text": "That's very scientific of you.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "367935e7-73de-43b4-b929-a992d53e2236",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:04:01.978Z",
+   "end_timestamp": "2026-10-12T23:04:06.009Z",
+   "text": "It's n equals two, it's not science, but it's something.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "405cee9c-a46f-4098-b271-fedc0d8fbee6",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:04:06.738Z",
+   "end_timestamp": "2026-10-12T23:04:12.279Z",
+   "text": "Daniel's intake form says he uses Notion heavily and Granola for meetings.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "28f88b82-76db-461d-8914-becd4b995e26",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:04:12.624Z",
+   "end_timestamp": "2026-10-12T23:04:13.759Z",
+   "text": "We have neither.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "f209cbb8-caa2-4d3a-9820-5e274d2914aa",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:04:14.994Z",
+   "end_timestamp": "2026-10-12T23:04:18.223Z",
+   "text": "We have neither. Be honest with him.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "f39664f2-4e51-4121-98f9-e6b3d218f9da",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:04:18.876Z",
+   "end_timestamp": "2026-10-12T23:04:23.685Z",
+   "text": "Totally. And we'll see what he does with the connect screen.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "09bf6766-9ffc-4ce6-bdfc-4a798525637e",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:04:25.274Z",
+   "end_timestamp": "2026-10-12T23:04:28.545Z",
+   "text": "Nine AM our time, noon for him.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "ffa684f6-5c9f-455e-8bcf-a38be3adad08",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:04:30.211Z",
+   "end_timestamp": "2026-10-12T23:04:32.472Z",
+   "text": "Nine. Okay. Then Marcus Wednesday.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "f7de2286-452c-4832-9309-f51bbfac011a",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:04:34.615Z",
+   "end_timestamp": "2026-10-12T23:04:39.921Z",
+   "text": "I'm doing numbers for Marcus. Two pilots, items imported, time to first confirmed suggestion.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "fe8cd1ab-5daf-4c33-af0c-967159eb5db2",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:04:41.936Z",
+   "end_timestamp": "2026-10-12T23:04:44.137Z",
+   "text": "One data point for time.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "8e943b03-b30b-4916-aac3-f70e4cca8361",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:04:45.516Z",
+   "end_timestamp": "2026-10-12T23:04:46.799Z",
+   "text": "Two after tomorrow.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "5753bd20-b1bb-4e64-9a9c-1d4405a9bbfa",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:04:47.270Z",
+   "end_timestamp": "2026-10-12T23:04:49.491Z",
+   "text": "Two data points. Very fundable.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "45395170-0ae9-477c-8033-9b70a377ad35",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:04:49.992Z",
+   "end_timestamp": "2026-10-12T23:04:53.121Z",
+   "text": "Ugly numbers. He said ugly numbers were fine.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "bf770da3-82ad-47a1-8c9d-03a997e6cfaa",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:04:53.648Z",
+   "end_timestamp": "2026-10-12T23:05:01.133Z",
+   "text": "He did say that. Okay. I'm shipping the import fix and the dedupe rules to staging tonight.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "e1b3b5ec-6e6b-4e86-b3ba-33474e0f02fe",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:05:02.194Z",
+   "end_timestamp": "2026-10-12T23:05:05.525Z",
+   "text": "And Priya follow-up, the sixteenth or the nineteenth?",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "4f97e035-4997-4a93-b6d6-e4b2da2f841c",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:05:07.600Z",
+   "end_timestamp": "2026-10-12T23:05:12.625Z",
+   "text": "Nineteenth. I'm going to be useless Thursday and Friday after the race.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  },
+  {
+   "id": "286a7881-4e87-4287-a327-18cc4f4d0b70",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:05:13.291Z",
+   "end_timestamp": "2026-10-12T23:05:15.478Z",
+   "text": "You're always useless on Fridays.",
+   "source": "microphone",
+   "speaker": "Hudson Mitchell-Pullman",
+   "is_final": true
+  },
+  {
+   "id": "d57d66aa-ab33-4927-bf3c-87853e7c52a4",
+   "document_id": "bbe2c93a-d816-4786-9c06-23fab6153c55",
+   "start_timestamp": "2026-10-12T23:05:16.805Z",
+   "end_timestamp": "2026-10-12T23:05:19.044Z",
+   "text": "That's slander. Accurate, but slander.",
+   "source": "microphone",
+   "speaker": "Me",
+   "is_final": true
+  }
+ ]
+}

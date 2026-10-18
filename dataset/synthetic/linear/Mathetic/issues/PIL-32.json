@@ -1,0 +1,76 @@
+{
+  "issue": {
+    "id": "PIL-32",
+    "uuid": "873ec09d-b5b5-4be5-af75-677b11d5f7d4",
+    "title": "Pilot feedback synthesis (Priya + Daniel)",
+    "description": "One doc, both sessions: what worked, what broke, what they asked for, and the order we fix things in. Doc: *Pilot feedback synthesis*.",
+    "projectMilestone": {
+      "id": "752d1e60-9eb6-4c7b-a102-c1e5d03b5518",
+      "name": "Import fixes from pilot feedback shipped"
+    },
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-32/pilot-feedback-synthesis-priya-daniel",
+    "gitBranchName": "david/pil-32-pilot-feedback-synthesis-priya-daniel",
+    "createdAt": "2026-10-14T16:00:32.856Z",
+    "updatedAt": "2026-10-14T18:00:55.279Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": "2026-10-14T18:00:55.279Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "In Progress",
+    "statusType": "started",
+    "labels": [
+      "Pilot feedback"
+    ],
+    "createdBy": "David Barron",
+    "assignee": "David Barron",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-32",
+    "attachments": [],
+    "documents": [
+      {
+        "id": "9228d54c-728c-440d-ac0b-32c3f24333a3",
+        "title": "Pilot feedback synthesis"
+      }
+    ],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-14T16:00:32.856Z",
+        "endedAt": "2026-10-14T18:00:55.279Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-14T18:00:55.279Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": []
+}

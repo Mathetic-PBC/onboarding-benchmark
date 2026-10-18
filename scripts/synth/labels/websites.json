@@ -1,0 +1,178 @@
+{
+ "saved-pages/The Memex at 80_ What Bush Actually Proposed – Long Memory.html": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group"
+  ],
+  "notes": "fictional article saved 2026-02-11"
+ },
+ "saved-pages/What the 1968 Demo Actually Showed – Long Memory.html": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group"
+  ],
+  "notes": "fictional article saved 2026-03-04"
+ },
+ "saved-pages/Why the Lab Notebook Never Went Digital _ Field Notes on Research Software.html": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "fictional article saved 2026-08-26"
+ },
+ "saved-pages/Provenance for Personal Knowledge _ Field Notes on Research Software.html": {
+  "project_ids": [
+   "project_engelbart"
+  ],
+  "notes": "fictional article saved 2026-10-14"
+ },
+ "saved-pages/Nobody Raises Their Hand Anymore – The CS1 Notebook.html": {
+  "project_ids": [
+   "project_tutortrace",
+   "project_vizpi"
+  ],
+  "notes": "fictional article saved 2026-03-24"
+ },
+ "saved-pages/What 40 CS1 Syllabi Say About AI Assistants – The CS1 Notebook.html": {
+  "project_ids": [
+   "project_vizpi"
+  ],
+  "notes": "fictional article saved 2025-11-05"
+ },
+ "saved-pages/Zone 2 Without the Hype _ Aerobic Base.html": {
+  "project_ids": [
+   "project_endurance_training"
+  ],
+  "notes": "fictional article saved 2025-12-28"
+ },
+ "saved-pages/Half Marathon Pacing for Base Builders _ Aerobic Base.html": {
+  "project_ids": [
+   "project_endurance_training"
+  ],
+  "notes": "fictional article saved 2026-10-10"
+ },
+ "saved-pages/San Francisco Neighborhoods for Newcomers (2026 Guide) – City Walker.html": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "fictional article saved 2026-07-08"
+ },
+ "saved-pages/Seven Sublet Red Flags – City Walker.html": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "fictional article saved 2026-07-10"
+ },
+ "saved-pages/Sidechain Compression in FL Studio, Step by Step – BeatLab Academy.html": {
+  "project_ids": [
+   "project_music_production"
+  ],
+  "notes": "fictional article saved 2026-07-20"
+ },
+ "saved-pages/Getting Lo-fi Drum Swing Right – BeatLab Academy.html": {
+  "project_ids": [
+   "project_music_production"
+  ],
+  "notes": "fictional article saved 2026-03-14"
+ },
+ "saved-pages/Program – UIST 2026.html": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "fictional program page for the synthetic UIST 2026 (Detroit); the session and paper are synthetic"
+ },
+ "saved-pages/Presenter Instructions – UIST 2026.html": {
+  "project_ids": [
+   "project_tutortrace"
+  ],
+  "notes": "fictional article saved 2026-09-22"
+ },
+ "saved-pages/Your Split Is Leaking_ Grouped Cross-Validation for Behavioral Data – ML Pitfalls.html": {
+  "project_ids": [
+   "project_idetrace"
+  ],
+  "notes": "fictional article saved 2026-07-24"
+ },
+ "saved-pages/HDBSCAN Parameters for Text Embeddings – ML Pitfalls.html": {
+  "project_ids": [
+   "project_dynamite"
+  ],
+  "notes": "fictional article saved 2026-01-19"
+ },
+ "saved-pages/Delaware PBC Annual Reports, Explained – Founder Notes.html": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "fictional article saved 2026-08-12"
+ },
+ "saved-pages/A Post-Money SAFE Primer for First-Time Founders – Founder Notes.html": {
+  "project_ids": [
+   "project_mathetic_company"
+  ],
+  "notes": "fictional article saved 2026-07-14"
+ },
+ "saved-pages/The London System's b2 Problem – Chess Club Blog.html": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "fictional article saved 2026-02-21"
+ },
+ "saved-pages/Do Export Controls Buy Time_ – Statecraft Quarterly.html": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "fictional article saved 2026-05-24"
+ },
+ "saved-pages/Sheet-Pan Gochujang Chicken with Broccoli – Weeknight Pan.html": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "fictional article saved 2026-01-14"
+ },
+ "saved-pages/Is Your Derailleur Hanger Bent_ – Spoke & Chain.html": {
+  "project_ids": [
+   "project_none"
+  ],
+  "notes": "fictional article saved 2026-05-10"
+ },
+ "saved-pages/Minimal Researcher Homepages We Like – Quiet Pages.html": {
+  "project_ids": [
+   "project_portfolio"
+  ],
+  "notes": "fictional article saved 2026-07-12"
+ },
+ "saved-pages/Writing a Pre-Compact Hook That Keeps What Matters – Agentcraft Notes.html": {
+  "project_ids": [
+   "project_claude_code_plugins"
+  ],
+  "notes": "fictional article saved 2026-08-16"
+ },
+ "saved-pages/Detecting Frustration in Tutoring Dialogues_ A Short Overview – Affect Lab Review.html": {
+  "project_ids": [
+   "project_ise6664_affective_computing"
+  ],
+  "notes": "fictional article saved 2026-02-03"
+ },
+ "saved-pages/Interviewing Researchers Without Pitching _ Field Notes on Research Software.html": {
+  "project_ids": [
+   "project_berkeley_research_chats"
+  ],
+  "notes": "fictional article saved 2026-08-28"
+ },
+ "bookmarks/firefox-bookmarks.html": {
+  "project_ids": [
+   "project_augmenting_cognition_reading_group",
+   "project_berkeley_research_chats",
+   "project_claude_code_plugins",
+   "project_dynamite",
+   "project_endurance_training",
+   "project_engelbart",
+   "project_idetrace",
+   "project_ise6664_affective_computing",
+   "project_mathetic_company",
+   "project_music_production",
+   "project_none",
+   "project_portfolio",
+   "project_tutortrace",
+   "project_vt_phd_admin"
+  ],
+  "notes": "HARD CASE: personal clutter mixed with work — Firefox bookmarks export, 60 links in project and personal folders"
+ }
+}

@@ -1,0 +1,54 @@
+Channel: #demo-day (C0SYNDEA9SB)
+
+=== Message from Lena Hoffmann (U0SYN4FPGQV) at 2026-10-16 11:30:03 PDT === 
+Message TS: 1792175403.165995
+Next practice is Wed 10/21. Mathetic, you're going first again since you went over.
+Reactions: joy (2)
+
+=== Message from Hudson Mitchell-Pullman (U0SYN5ZJ8LX) at 2026-10-15 23:10:31 PDT === 
+Message TS: 1792131031.505432
+v2 opening: "Last Friday a Berkeley PhD student imported 600 Claude chats, her Zotero library and her Downloads folder. Then she clicked one note and saw the three conversations it came from." then straight into the demo
+Thread: 2 replies (latest: 2026-10-15 23:24:02 PDT)
+Reactions: fire (2)
+
+=== Message from Lena Hoffmann (U0SYN4FPGQV) at 2026-10-14 17:05:30 PDT === 
+Message TS: 1792022730.838677
+Feedback for Mathetic from today:
+• The demo is the pitch. Open with it, not the problem slide.
+• "15 tools" is abstract. Name the three tools your pilot actually used.
+• You said "pilots" six times and never said what success is. Define it.
+• 3:40, over by 40 seconds.
+Thread: 2 replies (latest: 2026-10-14 17:22:10 PDT)
+Reactions: pray (2)
+
+=== Message from David Barron <david@mathetic.com> (U0SYNVW3EYJ) at 2026-10-06 22:10:08 PDT === 
+Message TS: 1791349808.673755
+first draft of our 3 min (Hudson presenting, i drive the demo):
+1. problem: a researcher's thinking is spread across 15 tools; when you come back to an idea you can't find where it came from
+2. engelbart: imports your chats, papers and notes and keeps the trail of where each thought came from
+3. demo: connect screen → import → click a note → "where did this come from" trail
+4. traction: 2 pilots this month (berkeley + cmu), 3rd being recruited
+5. ask: pre-seed, closing by demo day
+Thread: 2 replies (latest: 2026-10-06 22:45:45 PDT)
+
+=== Message from Lena Hoffmann (U0SYN4FPGQV) at 2026-10-05 09:10:54 PDT === 
+Message TS: 1791216654.390920
+Pitch practice, Wednesdays 4pm in the living room:
+10/7: three teams (sign-up sheet)
+10/14: Mathetic + two teams
+10/21, 10/28, 11/4, 11/11: rotating
+11/17: full dress rehearsal with the AV setup
+Format: 3 min pitch, 5 min feedback. No slides for the first round, just talk.
+Reactions: +1 (5)
+
+=== Message from Hudson Mitchell-Pullman (U0SYN5ZJ8LX) at 2026-10-05 09:05:44 PDT === 
+Message TS: 1791216344.911525
+<@U0SYN5ZJ8LX|Hudson Mitchell-Pullman> has joined the channel
+
+=== Message from David Barron <david@mathetic.com> (U0SYNVW3EYJ) at 2026-10-05 09:04:09 PDT === 
+Message TS: 1791216249.739566
+<@U0SYNVW3EYJ|David Barron> has joined the channel
+
+=== Message from Lena Hoffmann (U0SYN4FPGQV) at 2026-10-05 09:00:26 PDT === 
+Message TS: 1791216026.871585
+<@U0SYN4FPGQV|Lena Hoffmann> has joined the channel

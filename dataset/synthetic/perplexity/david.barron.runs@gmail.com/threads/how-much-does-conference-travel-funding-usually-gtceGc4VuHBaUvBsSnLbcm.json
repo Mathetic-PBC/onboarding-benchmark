@@ -1,0 +1,33 @@
+{
+ "uuid": "a84115a5-083d-4711-bfb7-31e86d0ddc49",
+ "slug": "how-much-does-conference-travel-funding-usually-gtceGc4VuHBaUvBsSnLbcm",
+ "title": "how much",
+ "thread_url": "https://www.perplexity.ai/search/how-much-does-conference-travel-funding-usually-gtceGc4VuHBaUvBsSnLbcm",
+ "created_at": "2026-09-22T22:30:00Z",
+ "updated_at": "2026-09-22T22:30:41Z",
+ "collection": null,
+ "access": "private",
+ "entries": [
+  {
+   "uuid": "f0b361e5-b094-4f37-8dec-9e3e295716d4",
+   "query_str": "how much does conference travel funding usually cover for phd students presenting a paper, like department + graduate school grants",
+   "answer": "It varies by university, but typical patterns in US PhD programs [1][2]:\n- **Graduate school travel grants** for presenting: often a fixed amount per academic year, commonly a few hundred dollars (e.g., $300–$600) for domestic conferences, sometimes more for international ones.\n- **Department funds** frequently match or top up graduate school awards, especially for first-author presenters.\n- **Advisor grants** often cover the remainder (registration, flights, hotel) if the work was grant-funded.\n- **Conference student volunteer programs / travel awards** can waive registration [2].\n\nMost programs require the request **before travel** and reimbursement with itemized receipts afterward. Check your graduate school's travel-funding page for the per-year cap and deadlines [1].",
+   "sources": [
+    {
+     "name": "Graduate student conference travel funding: a comparison",
+     "url": "https://www.gradfinanceguide.org/travel-funding",
+     "snippet": "Typical caps and matching arrangements at US universities."
+    },
+    {
+     "name": "Student volunteer and travel award programs at ACM conferences",
+     "url": "https://www.acmstudentnotes.org/travel-awards",
+     "snippet": "Registration waivers and travel grants for students."
+    }
+   ],
+   "mode": "CONCISE",
+   "model": "turbo",
+   "created_at": "2026-09-22T22:30:00Z",
+   "updated_at": "2026-09-22T22:30:21Z"
+  }
+ ]
+}

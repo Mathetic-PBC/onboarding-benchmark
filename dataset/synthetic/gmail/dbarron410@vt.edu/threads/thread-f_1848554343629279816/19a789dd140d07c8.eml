@@ -1,0 +1,45 @@
+From: David Barron <dbarron410@vt.edu>
+To: Rezky <rezky.prime@vt.edu>
+Subject: Re: TACode handoff: repo, deploy, open issues
+Date: Wed, 12 Nov 2025 10:10:00 -0500
+Message-ID:
+ <CA0HyLOgnxYu2MhiU+P_9xPEqyPUxuKthI4bUPiWS+akbxZlTPKDXj@mail.gmail.com>
+In-Reply-To:
+ <CA_J1u4+6hA_6SjqU7KJlbpaFs59AEmg8E_vND8Hf_KE8T0VGd0f4I@mail.gmail.com>
+References:
+ <CArHtwRX4Wx1o7r2kyXuvnEBNlVUhhNUVq_SudJElvGBVSjdgRnnor@mail.gmail.com>
+ <CA_J1u4+6hA_6SjqU7KJlbpaFs59AEmg8E_vND8Hf_KE8T0VGd0f4I@mail.gmail.com>
+MIME-Version: 1.0
+X-GM-THRID: 1848554343629279816
+X-Gmail-Labels: Sent
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+thursday 2pm works. and yes #44 first, the fix is probably just matching on t=
+he crn instead of the section name
+
+On Wed, Nov 12, 2025 at 9:30 AM Rezky <rezky.prime@vt.edu> wrote:
+> Thanks David, this is super clear. Thursday 2pm for the walkthrough? I'll s=
+tart with #44 since roster sync blocks everything else.
+>
+> Rezky
+>
+> On Tue, Nov 11, 2025 at 10:40 PM David Barron <dbarron410@vt.edu> wrote:
+>> Hi Rezky,
+>>
+>> As discussed in lab meeting, here's the TACode handoff. I'm stepping back =
+so I can focus on VizPI/TutorTrace.
+>>
+>> - Repo: PRIME-Lab/tacode (you're now an admin). main is deployable; the `q=
+ueue-v2` branch is half-finished, don't merge it as is.
+>> - Deploy: the course VM, `make deploy` from the repo root. The .env templa=
+te is in the lab password manager under "TACode prod".
+>> - Open issues that matter: #41 (office-hours queue doesn't clear at midnig=
+ht), #44 (Canvas roster sync fails for cross-listed sections), #47 (TA notes =
+export as CSV).
+>> - The spring instructor wants the queue running by the first week of class=
+es.
+>>
+>> Happy to do a 30-minute walkthrough Thursday.
+>>
+>> David

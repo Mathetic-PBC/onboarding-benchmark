@@ -1,1 +1,297 @@
-[]
+[
+ {
+  "id": "item_034607",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "github",
+  "source_id": "~/Projects/beat-tools",
+  "title": "beat-tools",
+  "content_type": "repository",
+  "created_at": "2026-03-15T03:30:00Z",
+  "modified_at": "2026-10-04T10:31:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/github/local-repos/Projects/beat-tools",
+  "source_url": null,
+  "content_hash": "sha256:c5231a2dc741755be0e92e2e7e9a56fff1322c975beee6d24e736e69d665e068",
+  "library_item_id": null,
+  "modeled_on": "authentic/github/local-repos/<path> (local working copy + .git)",
+  "metadata": {
+   "format": "directory",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "~/Projects (local clone of github.com/divadbaroon/beat-tools)",
+   "original_path": "~/Projects/beat-tools",
+   "head": "309545162e1b893ef69c1baeafc5ddf59574ca0d",
+   "file_count": 11
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": "sample renamer + BPM detector (matches the Claude Code sessions); branch=main; commits=10; first commit=2026-03-14T23:30:00-04:00"
+  }
+ },
+ {
+  "id": "item_034608",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "github",
+  "source_id": "~/Projects/idetrace-splits",
+  "title": "idetrace-splits",
+  "content_type": "repository",
+  "created_at": "2026-05-03T02:10:00Z",
+  "modified_at": "2026-08-02T20:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/github/local-repos/Projects/idetrace-splits",
+  "source_url": null,
+  "content_hash": "sha256:43da4303b600f2dece709bd1364ba5715864ededbf2e7272670cbcf2261203be",
+  "library_item_id": null,
+  "modeled_on": "authentic/github/local-repos/<path> (local working copy + .git)",
+  "metadata": {
+   "format": "directory",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "~/Projects (local clone of github.com/divadbaroon/idetrace-splits)",
+   "original_path": "~/Projects/idetrace-splits",
+   "head": "98c86e9ac8ba0af1611f99238c367241599f409d",
+   "file_count": 18
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "IDETrace grouped split fix (matches the Codex rollouts of 2026-07-24..29); branch=main; commits=13; first commit=2026-05-02T22:10:00-04:00"
+  }
+ },
+ {
+  "id": "item_034609",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "github",
+  "source_id": "~/Projects/papert-lab-proto",
+  "title": "papert-lab-proto",
+  "content_type": "repository",
+  "created_at": "2026-01-27T03:10:00Z",
+  "modified_at": "2026-02-20T22:45:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/github/local-repos/Projects/papert-lab-proto",
+  "source_url": null,
+  "content_hash": "sha256:5b9dfa1d62ef41348ef61002416d0b97e0533c5e85f5241bdebe886d07ea90fe",
+  "library_item_id": null,
+  "modeled_on": "authentic/github/local-repos/<path> (local working copy + .git)",
+  "metadata": {
+   "format": "directory",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "~/Projects (local clone of github.com/divadbaroon/papert-lab-proto)",
+   "original_path": "~/Projects/papert-lab-proto",
+   "head": "17db749e0d8c6a2527cfe7a40cc8bab090848539",
+   "file_count": 17
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_engelbart",
+    "project_mathetic_company"
+   ],
+   "notes": "Jan-Feb 2026 prototype of the notebook idea (pre-Engelbart, \"Papert Lab\"); branch=main; commits=14; first commit=2026-01-26T22:10:00-05:00"
+  }
+ },
+ {
+  "id": "item_034610",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "github",
+  "source_id": "~/Projects/uist26-talk",
+  "title": "uist26-talk",
+  "content_type": "repository",
+  "created_at": "2026-09-15T04:05:00Z",
+  "modified_at": "2026-10-10T01:20:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/github/local-repos/Projects/uist26-talk",
+  "source_url": null,
+  "content_hash": "sha256:b910571332f26b475dc83322ef179080b8a60f4231277965fd4340e895f912b6",
+  "library_item_id": null,
+  "modeled_on": "authentic/github/local-repos/<path> (local working copy + .git)",
+  "metadata": {
+   "format": "directory",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "~/Projects (local clone of github.com/divadbaroon/uist26-talk)",
+   "original_path": "~/Projects/uist26-talk",
+   "head": "d1ba5dd5b8996a26887a90d98ac8e8ca92df9f56",
+   "file_count": 15
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "UIST 2026 talk repo (timeline.py / transitions fix match the Claude Code sessions); branch=main; commits=17; first commit=2026-09-14T21:05:00-07:00"
+  }
+ },
+ {
+  "id": "item_034611",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "github",
+  "source_id": "~/Projects/zone2-log",
+  "title": "zone2-log",
+  "content_type": "repository",
+  "created_at": "2025-11-03T01:14:00Z",
+  "modified_at": "2026-10-17T03:30:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/github/local-repos/Projects/zone2-log",
+  "source_url": null,
+  "content_hash": "sha256:213db42730b0cdf933d30e83b9b04a95e521f859004c6489650f3ae14806e627",
+  "library_item_id": null,
+  "modeled_on": "authentic/github/local-repos/<path> (local working copy + .git)",
+  "metadata": {
+   "format": "directory",
+   "language": null,
+   "message_count": null,
+   "tags": [],
+   "account": "~/Projects (local clone of github.com/divadbaroon/zone2-log)",
+   "original_path": "~/Projects/zone2-log",
+   "head": "ddd55238f7986661ce9f7c4b33d586abb22dda58",
+   "file_count": 14
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "personal training-analysis repo (weekly_hours.py / decoupling.py match the Claude Code sessions); branch=main; commits=20; first commit=2025-11-02T20:14:00-05:00"
+  }
+ },
+ {
+  "id": "item_034612",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "github",
+  "source_id": "github.com/divadbaroon/idetrace-splits.meta/issues_and_prs.json",
+  "title": "issues_and_prs.json",
+  "content_type": "data",
+  "created_at": "2026-07-25T04:08:00Z",
+  "modified_at": "2026-10-18T05:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/github/github.com/divadbaroon/idetrace-splits.meta/issues_and_prs.json",
+  "source_url": null,
+  "content_hash": "sha256:bcf1c165682178e6b25717b5a2944565bdff1209adbe1a11c596b35883c6c848",
+  "library_item_id": null,
+  "modeled_on": "authentic/github/github.com/<owner>/<repo>.meta/issues_and_prs.json (gh api issues?state=all)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "divadbaroon"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "issues + PRs of idetrace-splits (leakage bug, grouped split)"
+  }
+ },
+ {
+  "id": "item_034613",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "github",
+  "source_id": "github.com/divadbaroon/idetrace-splits.meta/repo.json",
+  "title": "repo.json",
+  "content_type": "data",
+  "created_at": "2026-05-03T02:12:40Z",
+  "modified_at": "2026-10-18T05:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/github/github.com/divadbaroon/idetrace-splits.meta/repo.json",
+  "source_url": null,
+  "content_hash": "sha256:0e6e480c951d2e5e93a84cb927c48c13ce29f1f4f5a872581769bfb2d1f8e9ea",
+  "library_item_id": null,
+  "modeled_on": "authentic/github/github.com/<owner>/<repo>.meta/repo.json (gh api repos/<owner>/<repo>)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "divadbaroon"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": "gh api read of the repo"
+  }
+ },
+ {
+  "id": "item_034614",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "github",
+  "source_id": "github.com/divadbaroon/uist26-talk.meta/issues_and_prs.json",
+  "title": "issues_and_prs.json",
+  "content_type": "data",
+  "created_at": "2026-09-20T22:40:00Z",
+  "modified_at": "2026-10-18T05:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/github/github.com/divadbaroon/uist26-talk.meta/issues_and_prs.json",
+  "source_url": null,
+  "content_hash": "sha256:9e48b3cc70e67560f282af17fc09fb7f004a1e91edabb38d5c457be3ff92d29a",
+  "library_item_id": null,
+  "modeled_on": "authentic/github/github.com/<owner>/<repo>.meta/issues_and_prs.json (gh api issues?state=all)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "divadbaroon"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "issues of uist26-talk (AV check, palette bug)"
+  }
+ },
+ {
+  "id": "item_034615",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "github",
+  "source_id": "github.com/divadbaroon/uist26-talk.meta/repo.json",
+  "title": "repo.json",
+  "content_type": "data",
+  "created_at": "2026-09-15T04:06:30Z",
+  "modified_at": "2026-10-18T05:40:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/github/github.com/divadbaroon/uist26-talk.meta/repo.json",
+  "source_url": null,
+  "content_hash": "sha256:0b54a0c2156c8ab41945b95d3a797c9d4eb1fe1f6273e1ab97b9b549da721d03",
+  "library_item_id": null,
+  "modeled_on": "authentic/github/github.com/<owner>/<repo>.meta/repo.json (gh api repos/<owner>/<repo>)",
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "divadbaroon"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "gh api read of the repo"
+  }
+ }
+]

@@ -1,0 +1,104 @@
+{
+  "issue": {
+    "id": "PIL-19",
+    "uuid": "27637be7-427e-4f9c-a58c-3d0ca453b677",
+    "title": "Zotero: take title/authors/DOI from the parent item, not the attachment filename",
+    "description": "Zotero attachments are named whatever the PDF was called on download (`2507.01842v1.pdf`). The parent item in `zotero.sqlite` has the real title, authors and DOI. Use the parent's metadata for the card and keep the attachment path as a location.",
+    "projectMilestone": {
+      "id": "752d1e60-9eb6-4c7b-a102-c1e5d03b5518",
+      "name": "Import fixes from pilot feedback shipped"
+    },
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-19/zotero-take-titleauthorsdoi-from-the-parent-item-not-the-attachment",
+    "gitBranchName": "david/pil-19-zotero-take-titleauthorsdoi-from-the-parent-item-not",
+    "createdAt": "2026-10-10T18:30:58.398Z",
+    "updatedAt": "2026-10-17T02:20:29.638Z",
+    "archivedAt": null,
+    "completedAt": null,
+    "startedAt": "2026-10-14T17:00:19.738Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "In Review",
+    "statusType": "started",
+    "labels": [
+      "Import",
+      "Improvement"
+    ],
+    "createdBy": "David Barron",
+    "assignee": "David Barron",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-19",
+    "attachments": [
+      {
+        "id": "fa2a64b9-d9f4-4e77-b7c8-cc2e5fc77c91",
+        "title": "PR #219: Zotero: parent item metadata for attachments",
+        "subtitle": null,
+        "url": "https://github.com/Mathetic-PBC/engelbart/pull/219"
+      }
+    ],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-10T18:30:58.398Z",
+        "endedAt": "2026-10-14T17:00:19.738Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-14T17:00:19.738Z",
+        "endedAt": "2026-10-17T02:20:29.638Z"
+      },
+      {
+        "state": {
+          "id": "e3a46dc9-6296-4c54-ae33-c9bf85d6982a",
+          "name": "In Review",
+          "type": "started"
+        },
+        "startedAt": "2026-10-17T02:20:29.638Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": [
+    {
+      "id": "78f89517-66bc-4786-b0da-f75fc8e36e08",
+      "body": "Reading `zotero.sqlite` read-only via a copy (Zotero locks it while open). Parent lookup through `itemAttachments.parentItemID`. In review.",
+      "attachments": [],
+      "createdAt": "2026-10-17T02:15:38.221Z",
+      "updatedAt": "2026-10-17T02:15:38.221Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      },
+      "onBehalfOf": null
+    }
+  ]
+}

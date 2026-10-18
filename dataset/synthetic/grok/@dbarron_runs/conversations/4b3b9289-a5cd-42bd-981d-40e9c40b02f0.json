@@ -1,0 +1,41 @@
+{
+ "conversation": {
+  "conversationId": "4b3b9289-a5cd-42bd-981d-40e9c40b02f0",
+  "title": "EDCA Sites Philippines",
+  "createTime": "2026-09-04T04:13:25.000Z",
+  "modifyTime": "2026-09-04T04:15:11.642Z",
+  "starred": false,
+  "temporary": false
+ },
+ "responses": [
+  {
+   "responseId": "b7a68763-3878-42ec-8939-89044c06991a",
+   "message": "what are the EDCA sites in the philippines and why do people care",
+   "sender": "human",
+   "createTime": "2026-09-04T04:13:25.000Z",
+   "parentResponseId": null
+  },
+  {
+   "responseId": "9f222538-3555-4757-9cbf-ca92a3322217",
+   "message": "EDCA is the Enhanced Defense Cooperation Agreement: it lets US forces rotate through and pre-position equipment at agreed Philippine military sites, without permanent US bases. The site list was expanded in 2023, adding locations in northern Luzon close to Taiwan and on Palawan facing the South China Sea.\n\nWhy people care: those northern sites put US logistics within a short distance of the Luzon Strait, which matters for any Taiwan scenario. China protested the expansion for exactly that reason.",
+   "sender": "assistant",
+   "createTime": "2026-09-04T04:13:45.642Z",
+   "parentResponseId": "b7a68763-3878-42ec-8939-89044c06991a",
+   "model": "grok-4",
+   "webSearchResults": [
+    {
+     "title": "What EDCA's new sites mean",
+     "url": "https://asiadefensebrief.example.org/edca-sites",
+     "preview": "Map and analysis of the agreed locations and their relevance to the Luzon Strait."
+    }
+   ]
+  },
+  {
+   "responseId": "6d111016-2209-4a5c-9108-50e5ca2382b7",
+   "message": "ty",
+   "sender": "human",
+   "createTime": "2026-09-04T04:15:11.642Z",
+   "parentResponseId": "9f222538-3555-4757-9cbf-ca92a3322217"
+  }
+ ]
+}

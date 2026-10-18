@@ -1,0 +1,116 @@
+{
+  "issue": {
+    "id": "PIL-1",
+    "uuid": "259ffcd1-291b-4ad8-b66a-f776b0af66cf",
+    "title": "Write the pilot interview script",
+    "description": "45-minute session over Zoom with screen share. Shape:\n\n1. 5 min context (what Engelbart is, what we will and won't look at)\n2. 15 min connect + import, live, pilot drives\n3. 15 min: pick one idea from the last month and follow its trail\n4. 10 min debrief\n\nQuestions must not lead: \"what did you expect to happen\", never \"was that confusing\". Script lives in the doc *Pilot interview script*.",
+    "projectMilestone": {
+      "id": "c2bb2232-6ce1-4441-9ea9-578ad0dd9061",
+      "name": "Pilot kit ready"
+    },
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-1/write-the-pilot-interview-script",
+    "gitBranchName": "david/pil-1-write-the-pilot-interview-script",
+    "createdAt": "2026-09-15T04:10:27.030Z",
+    "updatedAt": "2026-09-22T23:45:24.320Z",
+    "archivedAt": null,
+    "completedAt": "2026-09-22T23:45:24.320Z",
+    "startedAt": "2026-09-21T17:30:31.796Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [
+      "Onboarding"
+    ],
+    "createdBy": "David Barron",
+    "assignee": "David Barron",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-1",
+    "attachments": [],
+    "documents": [
+      {
+        "id": "48eb44f4-06d6-4f5a-9bb1-aadce3571ceb",
+        "title": "Pilot interview script"
+      }
+    ],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-09-15T04:10:27.030Z",
+        "endedAt": "2026-09-21T17:30:31.796Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-09-21T17:30:31.796Z",
+        "endedAt": "2026-09-22T23:45:24.320Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-09-22T23:45:24.320Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": [
+    {
+      "id": "7225a108-cf92-442a-8fd6-689faefed88f",
+      "body": "Added as Q9 (\"Is there anywhere your research lives that you didn't connect? Why not?\"). Marking done.",
+      "attachments": [],
+      "createdAt": "2026-09-22T23:40:15.018Z",
+      "updatedAt": "2026-09-22T23:40:15.018Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "847c1a27-5471-4f2f-9d41-3cdf37245f5d",
+        "name": "David Barron"
+      },
+      "onBehalfOf": null
+    },
+    {
+      "id": "c29956f7-69e7-48c6-ae2d-44974ba56de6",
+      "body": "Read it. Add a question about which tools they *didn't* connect and why. That tells us more than what they did connect.",
+      "attachments": [],
+      "createdAt": "2026-09-22T18:20:34.432Z",
+      "updatedAt": "2026-09-22T18:20:34.432Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "cb2896e3-8076-499e-adca-cc4ee127e9e7",
+        "name": "Hudson"
+      },
+      "onBehalfOf": null
+    }
+  ]
+}

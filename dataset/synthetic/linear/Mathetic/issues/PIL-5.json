@@ -1,0 +1,105 @@
+{
+  "issue": {
+    "id": "PIL-5",
+    "uuid": "4a24e04d-6af1-49e9-a1bb-ce51698ae440",
+    "title": "Dry-run the full onboarding on a fresh macOS user account",
+    "description": "New macOS user, no dev tools, Claude export + a small Zotero library + a messy Downloads folder. Time it end to end and write down every moment we'd have to explain something.",
+    "projectMilestone": {
+      "id": "c2bb2232-6ce1-4441-9ea9-578ad0dd9061",
+      "name": "Pilot kit ready"
+    },
+    "priority": {
+      "value": 3,
+      "name": "Medium"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-5/dry-run-the-full-onboarding-on-a-fresh-macos-user-account",
+    "gitBranchName": "david/pil-5-dry-run-the-full-onboarding-on-a-fresh-macos-user",
+    "createdAt": "2026-09-16T18:05:51.543Z",
+    "updatedAt": "2026-10-03T20:20:17.564Z",
+    "archivedAt": null,
+    "completedAt": "2026-10-03T20:20:17.564Z",
+    "startedAt": "2026-10-01T22:00:58.404Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [
+      "Onboarding"
+    ],
+    "createdBy": "David Barron",
+    "assignee": "Hudson",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-5",
+    "attachments": [],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-09-16T18:05:51.543Z",
+        "endedAt": "2026-10-01T22:00:58.404Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-01T22:00:58.404Z",
+        "endedAt": "2026-10-03T20:20:17.564Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-10-03T20:20:17.564Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [
+        {
+          "id": "PIL-10",
+          "title": "Ask for Full Disk Access before the connect screen, not after"
+        },
+        {
+          "id": "PIL-12",
+          "title": "Import progress: show counts per source while importing"
+        }
+      ],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": [
+    {
+      "id": "a5d455ae-000a-481e-8b08-cc4819ae8889",
+      "body": "22 minutes end to end. The big one: the Full Disk Access prompt only shows up *after* the connect screen, so the first Downloads scan silently finds 0 files. Filed PIL-10. Smaller: the import progress screen says \"Working…\" with no numbers (PIL-12).",
+      "attachments": [],
+      "createdAt": "2026-10-03T20:15:26.871Z",
+      "updatedAt": "2026-10-03T20:15:26.871Z",
+      "parentId": null,
+      "resolvedAt": null,
+      "quotedText": null,
+      "author": {
+        "id": "cb2896e3-8076-499e-adca-cc4ee127e9e7",
+        "name": "Hudson"
+      },
+      "onBehalfOf": null
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "issue": {
+    "id": "PIL-6",
+    "uuid": "a33f666b-32da-4812-85db-bd4d41fe4423",
+    "title": "Import log: per-source found / imported / skipped / duplicate counts",
+    "description": "Local-only log at `~/Library/Application Support/Engelbart/import-log.jsonl`, one line per source per run:\n\n```\n{\"source\":\"claude\",\"found\":612,\"imported\":612,\"skipped\":[],\"duplicates\":0,\"started\":\"…\",\"finished\":\"…\"}\n```\n\nPilots can send it to us if they want. Without it we can't tell \"missed\" from \"skipped\" from \"deduped\".",
+    "projectMilestone": {
+      "id": "c2bb2232-6ce1-4441-9ea9-578ad0dd9061",
+      "name": "Pilot kit ready"
+    },
+    "priority": {
+      "value": 2,
+      "name": "High"
+    },
+    "estimate": null,
+    "url": "https://linear.app/mathetic/issue/PIL-6/import-log-per-source-found-imported-skipped-duplicate-counts",
+    "gitBranchName": "david/pil-6-import-log-per-source-found-imported-skipped-duplicate",
+    "createdAt": "2026-09-18T17:00:05.019Z",
+    "updatedAt": "2026-09-27T18:15:50.932Z",
+    "archivedAt": null,
+    "completedAt": "2026-09-27T18:15:50.932Z",
+    "startedAt": "2026-09-25T20:00:04.907Z",
+    "canceledAt": null,
+    "dueDate": null,
+    "status": "Done",
+    "statusType": "completed",
+    "labels": [
+      "Import",
+      "Feature"
+    ],
+    "createdBy": "David Barron",
+    "assignee": "David Barron",
+    "project": "Pilot program",
+    "projectId": "302bff0d-35e6-4942-a828-96c7e04120f3",
+    "parentId": null,
+    "team": "Pilots",
+    "cycleId": null
+  },
+  "detail": {
+    "id": "PIL-6",
+    "attachments": [
+      {
+        "id": "a156328a-1964-43e4-9506-d6bc824fb833",
+        "title": "PR #191: import-log.jsonl with per-source counts",
+        "subtitle": null,
+        "url": "https://github.com/Mathetic-PBC/engelbart/pull/191"
+      }
+    ],
+    "documents": [],
+    "stateHistory": [
+      {
+        "state": {
+          "id": "0d3ff9d2-938d-431e-b442-e82f59787891",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-09-18T17:00:05.019Z",
+        "endedAt": "2026-09-25T20:00:04.907Z"
+      },
+      {
+        "state": {
+          "id": "0356c73e-92a1-4620-b91e-e5df2e0cf81c",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-09-25T20:00:04.907Z",
+        "endedAt": "2026-09-27T05:40:28.597Z"
+      },
+      {
+        "state": {
+          "id": "e3a46dc9-6296-4c54-ae33-c9bf85d6982a",
+          "name": "In Review",
+          "type": "started"
+        },
+        "startedAt": "2026-09-27T05:40:28.597Z",
+        "endedAt": "2026-09-27T18:15:50.932Z"
+      },
+      {
+        "state": {
+          "id": "1f3ea0c9-fa79-4029-8d1a-352bd602de31",
+          "name": "Done",
+          "type": "completed"
+        },
+        "startedAt": "2026-09-27T18:15:50.932Z",
+        "endedAt": null
+      }
+    ],
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    },
+    "releases": []
+  },
+  "comments": []
+}

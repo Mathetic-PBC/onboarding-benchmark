@@ -1,0 +1,19 @@
+=== THREAD PARENT MESSAGE ===
+From: David Barron <dbarron410@vt.edu> (U0SYNZSPT5P)
+Time: 2025-11-17 08:15:53 PST
+Message TS: 1763396153.042015
+guide v3 is up. new state *stalled-after-error*: an error or failed test in the last 60s AND no edit or run for ≥45s of the window AND no help request. "stuck" is now only for active-but-unproductive (edits/runs that don't change the error). pdf attached, gdoc updated too
+
+=== THREAD REPLIES (2 total) ===
+
+--- Reply 1 of 2 ---
+From: Minsun (U0SYN15CS2P)
+Time: 2025-11-17 08:30:11 PST
+Message TS: 1763397011.318970
+the 60s / 45s thresholds are nice, easy to check from the replay
+
+--- Reply 2 of 2 ---
+From: Xiaohang (U0SYN2JB5HW)
+Time: 2025-11-17 08:42:19 PST
+Message TS: 1763397739.496730
+relabeled my #passive ones: 38 → stalled-after-error

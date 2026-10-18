@@ -1,0 +1,18 @@
+bucket_start_et,section,students,events_received,events_expected_est,events_lost_est,lost_pct,notes
+15:30,A,43,21612,21930,318,1.5,normal jitter
+15:40,A,43,21890,21930,40,0.2,
+15:50,A,43,21951,21930,0,0.0,
+16:00,A,43,21874,21930,56,0.3,
+16:10,A,43,21960,21930,0,0.0,
+16:20,A,43,21702,21930,228,1.0,
+16:30,A,43,21405,21930,525,2.4,students finishing early
+16:40,A,43,10522,10965,443,4.0,5-minute bucket
+15:30,B,44,18180,22000,3820,17.4,reconnect bug (idle sockets dropped after ~60s)
+15:40,B,44,16760,22000,5240,23.8,reconnect bug
+15:50,B,44,16390,22000,5610,25.5,reconnect bug; flagged on dashboard 15:47
+16:00,B,44,17258,22000,4742,21.6,hotfix a91d0f3 deployed 16:10
+16:10,B,44,21930,22000,70,0.3,after hotfix
+16:20,B,44,21985,22000,15,0.1,
+16:30,B,44,21810,22000,190,0.9,
+16:40,B,44,10875,11000,125,1.1,5-minute bucket
+TOTAL,B,44,145188,165000,19812,12.0,includes post-fix jitter; bug-attributable loss 19412 (11.8%)

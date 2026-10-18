@@ -1,1 +1,1538 @@
-[]
+[
+ {
+  "id": "item_035291",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/3-raters-labeled-all-windows-5-categories-cohen-YaiBqUZ39g96AeXnzDS6UR",
+  "title": "3-raters-labeled-all-windows-5-categories-cohen-YaiBqUZ39g96AeXnzDS6UR.json",
+  "content_type": "data",
+  "created_at": "2026-03-26T03:55:00Z",
+  "modified_at": "2026-03-26T04:02:59Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/3-raters-labeled-all-windows-5-categories-cohen-YaiBqUZ39g96AeXnzDS6UR.json",
+  "source_url": "https://www.perplexity.ai/search/3-raters-labeled-all-windows-5-categories-cohen-YaiBqUZ39g96AeXnzDS6UR",
+  "content_hash": "sha256:81fc07e2d66cf89ea8c1a21ba54070273553bb5733a6f2034283a7a097c39978",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/3-raters-labeled-all-windows-5-categories-cohen-YaiBqUZ39g96AeXnzDS6UR"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035292",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/are-there-existing-systems-that-replay-student-bkmcwvYOqFCkAyt1JNI0Py",
+  "title": "are-there-existing-systems-that-replay-student-bkmcwvYOqFCkAyt1JNI0Py.json",
+  "content_type": "data",
+  "created_at": "2026-03-24T05:10:00Z",
+  "modified_at": "2026-03-24T05:20:24Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/are-there-existing-systems-that-replay-student-bkmcwvYOqFCkAyt1JNI0Py.json",
+  "source_url": "https://www.perplexity.ai/search/are-there-existing-systems-that-replay-student-bkmcwvYOqFCkAyt1JNI0Py",
+  "content_hash": "sha256:e3faefc985781509d6a4b16f90cd6bc7040f6d3b24286fb21bf578536d4c7ce3",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/are-there-existing-systems-that-replay-student-bkmcwvYOqFCkAyt1JNI0Py"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035293",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/background-on-elena-park-phd-student-at-uc-CJPPuaUZalsAsLzsWSZiVY",
+  "title": "background-on-elena-park-phd-student-at-uc-CJPPuaUZalsAsLzsWSZiVY.json",
+  "content_type": "data",
+  "created_at": "2026-09-07T06:00:00Z",
+  "modified_at": "2026-09-07T06:04:47Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/background-on-elena-park-phd-student-at-uc-CJPPuaUZalsAsLzsWSZiVY.json",
+  "source_url": "https://www.perplexity.ai/search/background-on-elena-park-phd-student-at-uc-CJPPuaUZalsAsLzsWSZiVY",
+  "content_hash": "sha256:459a5d7f599657f39b9f140be083a275cae757cbaf411af4fbe82b965ab3f6fe",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/background-on-elena-park-phd-student-at-uc-CJPPuaUZalsAsLzsWSZiVY"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035294",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/ben-adeyemi-statistics-postdoc-at-berkeley-what-Z99vPWpWFVsRKFkpiiYjre",
+  "title": "ben-adeyemi-statistics-postdoc-at-berkeley-what-Z99vPWpWFVsRKFkpiiYjre.json",
+  "content_type": "data",
+  "created_at": "2026-09-15T05:40:00Z",
+  "modified_at": "2026-09-15T05:44:06Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/ben-adeyemi-statistics-postdoc-at-berkeley-what-Z99vPWpWFVsRKFkpiiYjre.json",
+  "source_url": "https://www.perplexity.ai/search/ben-adeyemi-statistics-postdoc-at-berkeley-what-Z99vPWpWFVsRKFkpiiYjre",
+  "content_hash": "sha256:84f09789caf8b4d4f97c046634f3e0e20785d180f7c13711b4b5d667be102cb8",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/ben-adeyemi-statistics-postdoc-at-berkeley-what-Z99vPWpWFVsRKFkpiiYjre"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035295",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/best-headphones-for-mixing-beats-under-200-i-uj9vCMwewYZvt6exWqZjxa",
+  "title": "best-headphones-for-mixing-beats-under-200-i-uj9vCMwewYZvt6exWqZjxa.json",
+  "content_type": "data",
+  "created_at": "2026-02-06T03:40:00Z",
+  "modified_at": "2026-02-06T03:42:32Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/best-headphones-for-mixing-beats-under-200-i-uj9vCMwewYZvt6exWqZjxa.json",
+  "source_url": "https://www.perplexity.ai/search/best-headphones-for-mixing-beats-under-200-i-uj9vCMwewYZvt6exWqZjxa",
+  "content_hash": "sha256:56befca4cfc2db999d7913144d68089990b784a97deff407916b93dc9db029a2",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/best-headphones-for-mixing-beats-under-200-i-uj9vCMwewYZvt6exWqZjxa"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035296",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/carb-loading-for-a-half-marathon-on-thursday-im-GKtQ4Rvr3r9h6tbz8NR7zE",
+  "title": "carb-loading-for-a-half-marathon-on-thursday-im-GKtQ4Rvr3r9h6tbz8NR7zE.json",
+  "content_type": "data",
+  "created_at": "2026-10-12T02:30:00Z",
+  "modified_at": "2026-10-12T02:33:24Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/carb-loading-for-a-half-marathon-on-thursday-im-GKtQ4Rvr3r9h6tbz8NR7zE.json",
+  "source_url": "https://www.perplexity.ai/search/carb-loading-for-a-half-marathon-on-thursday-im-GKtQ4Rvr3r9h6tbz8NR7zE",
+  "content_hash": "sha256:381d1aec2d595619269e8264b0cec9a7461a1a275908f48f099eef14d04a90af",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/carb-loading-for-a-half-marathon-on-thursday-im-GKtQ4Rvr3r9h6tbz8NR7zE"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035297",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/cheap-grocery-stores-near-mission-dolores-soma-qNX1KGVfw7jPHlAc4gyJ1d",
+  "title": "cheap-grocery-stores-near-mission-dolores-soma-qNX1KGVfw7jPHlAc4gyJ1d.json",
+  "content_type": "data",
+  "created_at": "2026-08-28T02:40:00Z",
+  "modified_at": "2026-08-28T02:40:23Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/cheap-grocery-stores-near-mission-dolores-soma-qNX1KGVfw7jPHlAc4gyJ1d.json",
+  "source_url": "https://www.perplexity.ai/search/cheap-grocery-stores-near-mission-dolores-soma-qNX1KGVfw7jPHlAc4gyJ1d",
+  "content_hash": "sha256:960c2f8bee15c31ecfd9289079a0467a83048a9519ee6b97980c6ce766366b1e",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/cheap-grocery-stores-near-mission-dolores-soma-qNX1KGVfw7jPHlAc4gyJ1d"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035298",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/do-grad-students-pay-fica-on-a-gra-stipend-my-w-D0e1attBffnfL8pngUMluE",
+  "title": "do-grad-students-pay-fica-on-a-gra-stipend-my-w-D0e1attBffnfL8pngUMluE.json",
+  "content_type": "data",
+  "created_at": "2026-03-10T01:00:00Z",
+  "modified_at": "2026-03-10T01:04:52Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/do-grad-students-pay-fica-on-a-gra-stipend-my-w-D0e1attBffnfL8pngUMluE.json",
+  "source_url": "https://www.perplexity.ai/search/do-grad-students-pay-fica-on-a-gra-stipend-my-w-D0e1attBffnfL8pngUMluE",
+  "content_hash": "sha256:5dc54b267e580681b1d94e61b84a40df1603b35a7ed79435d11fad3c169c6358",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/do-grad-students-pay-fica-on-a-gra-stipend-my-w-D0e1attBffnfL8pngUMluE"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035299",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/dublin-weather-in-july-do-i-need-a-real-jacket-d9DB8rN9LXTrkutMUoA7Ab",
+  "title": "dublin-weather-in-july-do-i-need-a-real-jacket-d9DB8rN9LXTrkutMUoA7Ab.json",
+  "content_type": "data",
+  "created_at": "2026-03-04T01:30:00Z",
+  "modified_at": "2026-03-04T01:30:30Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/dublin-weather-in-july-do-i-need-a-real-jacket-d9DB8rN9LXTrkutMUoA7Ab.json",
+  "source_url": "https://www.perplexity.ai/search/dublin-weather-in-july-do-i-need-a-real-jacket-d9DB8rN9LXTrkutMUoA7Ab",
+  "content_hash": "sha256:c1e7bb1540293816fd0a63ee1402744ee9373c86c660246a69c5bc831af8daec",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/dublin-weather-in-july-do-i-need-a-real-jacket-d9DB8rN9LXTrkutMUoA7Ab"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035300",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/explain-engelbart-s-h-lam-t-thing-from-zM8DjzSBuSiySIby1G8Cku",
+  "title": "explain-engelbart-s-h-lam-t-thing-from-zM8DjzSBuSiySIby1G8Cku.json",
+  "content_type": "data",
+  "created_at": "2026-02-25T04:20:00Z",
+  "modified_at": "2026-02-25T04:29:50Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/explain-engelbart-s-h-lam-t-thing-from-zM8DjzSBuSiySIby1G8Cku.json",
+  "source_url": "https://www.perplexity.ai/search/explain-engelbart-s-h-lam-t-thing-from-zM8DjzSBuSiySIby1G8Cku",
+  "content_hash": "sha256:6bafd362626a6edfa73d54bdb922f5ae57f3c18e18b0f215039e0402f3d96502",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/explain-engelbart-s-h-lam-t-thing-from-zM8DjzSBuSiySIby1G8Cku"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035301",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/first-call-with-an-angel-tomorrow-pre-seed-wqrCAYnizjQhDx1VnNZQZA",
+  "title": "first-call-with-an-angel-tomorrow-pre-seed-wqrCAYnizjQhDx1VnNZQZA.json",
+  "content_type": "data",
+  "created_at": "2026-08-20T05:30:00Z",
+  "modified_at": "2026-08-20T05:34:22Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/first-call-with-an-angel-tomorrow-pre-seed-wqrCAYnizjQhDx1VnNZQZA.json",
+  "source_url": "https://www.perplexity.ai/search/first-call-with-an-angel-tomorrow-pre-seed-wqrCAYnizjQhDx1VnNZQZA",
+  "content_hash": "sha256:7384039382fe6cb8ae459cda3ebb57717ca1fcf1cbf8014150f7a96c8dd7bc0a",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/first-call-with-an-angel-tomorrow-pre-seed-wqrCAYnizjQhDx1VnNZQZA"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035302",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/for-a-dataset-paper-on-student-coding-sessions-gJDyJbbUDw01uAwG98M5ze",
+  "title": "for-a-dataset-paper-on-student-coding-sessions-gJDyJbbUDw01uAwG98M5ze.json",
+  "content_type": "data",
+  "created_at": "2026-05-05T03:30:00Z",
+  "modified_at": "2026-05-05T03:37:58Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/for-a-dataset-paper-on-student-coding-sessions-gJDyJbbUDw01uAwG98M5ze.json",
+  "source_url": "https://www.perplexity.ai/search/for-a-dataset-paper-on-student-coding-sessions-gJDyJbbUDw01uAwG98M5ze",
+  "content_hash": "sha256:ad70e7b3010d8c75d9ea62c3afe291702ddb5b29f4cbbf7f7cbc9d09f4226288",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/for-a-dataset-paper-on-student-coding-sessions-gJDyJbbUDw01uAwG98M5ze"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035303",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/found-a-leakage-bug-in-our-neurips-d-b-7dF5pQe8djW2w9cEZPGfW4",
+  "title": "found-a-leakage-bug-in-our-neurips-d-b-7dF5pQe8djW2w9cEZPGfW4.json",
+  "content_type": "data",
+  "created_at": "2026-07-26T03:10:00Z",
+  "modified_at": "2026-07-26T03:15:56Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/found-a-leakage-bug-in-our-neurips-d-b-7dF5pQe8djW2w9cEZPGfW4.json",
+  "source_url": "https://www.perplexity.ai/search/found-a-leakage-bug-in-our-neurips-d-b-7dF5pQe8djW2w9cEZPGfW4",
+  "content_hash": "sha256:6f2fbf4a2b02681ab938f4acd445aefab9446f3d3e27f50f118647aa00b4bb27",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/found-a-leakage-bug-in-our-neurips-d-b-7dF5pQe8djW2w9cEZPGfW4"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035304",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/giving-a-15-min-5-q-a-talk-at-uist-on-wednesday-yFglb2DdAE7fHU8tg7shqe",
+  "title": "giving-a-15-min-5-q-a-talk-at-uist-on-wednesday-yFglb2DdAE7fHU8tg7shqe.json",
+  "content_type": "data",
+  "created_at": "2026-10-06T04:10:00Z",
+  "modified_at": "2026-10-06T04:15:32Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/giving-a-15-min-5-q-a-talk-at-uist-on-wednesday-yFglb2DdAE7fHU8tg7shqe.json",
+  "source_url": "https://www.perplexity.ai/search/giving-a-15-min-5-q-a-talk-at-uist-on-wednesday-yFglb2DdAE7fHU8tg7shqe",
+  "content_hash": "sha256:3e0f2a8cc9bf751220daeb18cb70a54debd82b8a90f17e8565a828b2d7d10418",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/giving-a-15-min-5-q-a-talk-at-uist-on-wednesday-yFglb2DdAE7fHU8tg7shqe"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035305",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/golden-gate-park-running-loops-with-distances-UBU3lYfsevSTzonc8i9bsv",
+  "title": "golden-gate-park-running-loops-with-distances-UBU3lYfsevSTzonc8i9bsv.json",
+  "content_type": "data",
+  "created_at": "2026-08-02T12:15:00Z",
+  "modified_at": "2026-08-02T12:19:03Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/golden-gate-park-running-loops-with-distances-UBU3lYfsevSTzonc8i9bsv.json",
+  "source_url": "https://www.perplexity.ai/search/golden-gate-park-running-loops-with-distances-UBU3lYfsevSTzonc8i9bsv",
+  "content_hash": "sha256:6337414cace8214917f6ba87b1e462d7fc253f396b7a7e8592e73d00331a5865",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/golden-gate-park-running-loops-with-distances-UBU3lYfsevSTzonc8i9bsv"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035306",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/how-do-papers-handle-privacy-for-student-YAccOzNK3UvLzOWO4WRpYY",
+  "title": "how-do-papers-handle-privacy-for-student-YAccOzNK3UvLzOWO4WRpYY.json",
+  "content_type": "data",
+  "created_at": "2026-03-14T03:40:00Z",
+  "modified_at": "2026-03-14T03:43:47Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/how-do-papers-handle-privacy-for-student-YAccOzNK3UvLzOWO4WRpYY.json",
+  "source_url": "https://www.perplexity.ai/search/how-do-papers-handle-privacy-for-student-YAccOzNK3UvLzOWO4WRpYY",
+  "content_hash": "sha256:daaeae8ba838b9df4ed8df06f8b47a6aee5191d65fc9dc51deff8aeadcb2526b",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/how-do-papers-handle-privacy-for-student-YAccOzNK3UvLzOWO4WRpYY"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035307",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/how-late-can-i-ship-usps-priority-mail-from-0WANx9SX1SzWp5iJBJTLtK",
+  "title": "how-late-can-i-ship-usps-priority-mail-from-0WANx9SX1SzWp5iJBJTLtK.json",
+  "content_type": "data",
+  "created_at": "2025-12-17T03:10:00Z",
+  "modified_at": "2025-12-17T03:10:37Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/how-late-can-i-ship-usps-priority-mail-from-0WANx9SX1SzWp5iJBJTLtK.json",
+  "source_url": "https://www.perplexity.ai/search/how-late-can-i-ship-usps-priority-mail-from-0WANx9SX1SzWp5iJBJTLtK",
+  "content_hash": "sha256:3eea8465d652b9d98e152c87904503ee4cd08d8f6f85a026703832c07dd1ac84",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/how-late-can-i-ship-usps-priority-mail-from-0WANx9SX1SzWp5iJBJTLtK"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035308",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/how-long-does-it-take-to-reset-caffeine-fCH1S4dp6tXtGBJa2N8ava",
+  "title": "how-long-does-it-take-to-reset-caffeine-fCH1S4dp6tXtGBJa2N8ava.json",
+  "content_type": "data",
+  "created_at": "2026-04-01T22:00:00Z",
+  "modified_at": "2026-04-01T22:00:22Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/how-long-does-it-take-to-reset-caffeine-fCH1S4dp6tXtGBJa2N8ava.json",
+  "source_url": "https://www.perplexity.ai/search/how-long-does-it-take-to-reset-caffeine-fCH1S4dp6tXtGBJa2N8ava",
+  "content_hash": "sha256:9295740d950f00b7906fb990a5b68f7f41ce8b0dd4aea7d4c3dc867793418e7f",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/how-long-does-it-take-to-reset-caffeine-fCH1S4dp6tXtGBJa2N8ava"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035309",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/how-much-does-conference-travel-funding-usually-gtceGc4VuHBaUvBsSnLbcm",
+  "title": "how-much-does-conference-travel-funding-usually-gtceGc4VuHBaUvBsSnLbcm.json",
+  "content_type": "data",
+  "created_at": "2026-09-22T22:30:00Z",
+  "modified_at": "2026-09-22T22:30:41Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/how-much-does-conference-travel-funding-usually-gtceGc4VuHBaUvBsSnLbcm.json",
+  "source_url": "https://www.perplexity.ai/search/how-much-does-conference-travel-funding-usually-gtceGc4VuHBaUvBsSnLbcm",
+  "content_hash": "sha256:35721c58bd67a49834e78f3f3022dc907ef5d731d0e460d1076205a6d1aba36f",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/how-much-does-conference-travel-funding-usually-gtceGc4VuHBaUvBsSnLbcm"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_vt_phd_admin"
+   ],
+   "notes": "HARD CASE: vague title — title is just \"how much\"; the thread is about conference travel funding for the UIST talk (VT travel request)."
+  }
+ },
+ {
+  "id": "item_035310",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/how-much-does-zone-2-cycling-transfer-to-running-L8EKVsywWugh0bgaiZjYD3",
+  "title": "how-much-does-zone-2-cycling-transfer-to-running-L8EKVsywWugh0bgaiZjYD3.json",
+  "content_type": "data",
+  "created_at": "2026-02-12T12:30:00Z",
+  "modified_at": "2026-02-12T12:34:47Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/how-much-does-zone-2-cycling-transfer-to-running-L8EKVsywWugh0bgaiZjYD3.json",
+  "source_url": "https://www.perplexity.ai/search/how-much-does-zone-2-cycling-transfer-to-running-L8EKVsywWugh0bgaiZjYD3",
+  "content_hash": "sha256:ceec30063b5e8a7b2ee2e4bbf2431f7ad2e86ed09213fb28ff91a8b24f9db893",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/how-much-does-zone-2-cycling-transfer-to-running-L8EKVsywWugh0bgaiZjYD3"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035311",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/how-to-run-a-30-min-semi-structured-interview-r6S1pnZKqwWQYwXs9VdGOz",
+  "title": "how-to-run-a-30-min-semi-structured-interview-r6S1pnZKqwWQYwXs9VdGOz.json",
+  "content_type": "data",
+  "created_at": "2026-09-09T04:20:00Z",
+  "modified_at": "2026-09-09T04:24:17Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/how-to-run-a-30-min-semi-structured-interview-r6S1pnZKqwWQYwXs9VdGOz.json",
+  "source_url": "https://www.perplexity.ai/search/how-to-run-a-30-min-semi-structured-interview-r6S1pnZKqwWQYwXs9VdGOz",
+  "content_hash": "sha256:63476d93e62f12ed32575a07bc8d017741ca517beda843d2cae25aac0ff567f0",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/how-to-run-a-30-min-semi-structured-interview-r6S1pnZKqwWQYwXs9VdGOz"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_berkeley_research_chats"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035312",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/if-i-chop-a-2-second-vocal-from-an-old-soul-TDeBaRw4uWfbilYM7slqoJ",
+  "title": "if-i-chop-a-2-second-vocal-from-an-old-soul-TDeBaRw4uWfbilYM7slqoJ.json",
+  "content_type": "data",
+  "created_at": "2026-03-05T05:40:00Z",
+  "modified_at": "2026-03-05T05:46:28Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/if-i-chop-a-2-second-vocal-from-an-old-soul-TDeBaRw4uWfbilYM7slqoJ.json",
+  "source_url": "https://www.perplexity.ai/search/if-i-chop-a-2-second-vocal-from-an-old-soul-TDeBaRw4uWfbilYM7slqoJ",
+  "content_hash": "sha256:9df8a3c0327db9cfd09f41edcb4b805ccf4e2967039fb7a17eb27c6f78650902",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/if-i-chop-a-2-second-vocal-from-an-old-soul-TDeBaRw4uWfbilYM7slqoJ"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_music_production"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035313",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/in-as-we-may-think-bush-1945-what-exactly-is-a-Pg5F7c0zkFhogs1HiQYGSV",
+  "title": "in-as-we-may-think-bush-1945-what-exactly-is-a-Pg5F7c0zkFhogs1HiQYGSV.json",
+  "content_type": "data",
+  "created_at": "2026-02-10T04:50:00Z",
+  "modified_at": "2026-02-10T04:56:30Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/in-as-we-may-think-bush-1945-what-exactly-is-a-Pg5F7c0zkFhogs1HiQYGSV.json",
+  "source_url": "https://www.perplexity.ai/search/in-as-we-may-think-bush-1945-what-exactly-is-a-Pg5F7c0zkFhogs1HiQYGSV",
+  "content_hash": "sha256:320660eaa8fb4a8510ddc5030c9d9105fab1b71b6f87877515d346b551f5c702",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/in-as-we-may-think-bush-1945-what-exactly-is-a-Pg5F7c0zkFhogs1HiQYGSV"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_augmenting_cognition_reading_group"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035314",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/just-started-the-pro-trial-which-models-can-i-TQQbRyitk6kdoNitD8jK15",
+  "title": "just-started-the-pro-trial-which-models-can-i-TQQbRyitk6kdoNitD8jK15.json",
+  "content_type": "data",
+  "created_at": "2026-02-05T02:15:00Z",
+  "modified_at": "2026-02-05T02:15:34Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/just-started-the-pro-trial-which-models-can-i-TQQbRyitk6kdoNitD8jK15.json",
+  "source_url": "https://www.perplexity.ai/search/just-started-the-pro-trial-which-models-can-i-TQQbRyitk6kdoNitD8jK15",
+  "content_hash": "sha256:49a8c8b317718720e55e36a497371d0d3a48c8aa7e6e85a749b7defa73375cd3",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/just-started-the-pro-trial-which-models-can-i-TQQbRyitk6kdoNitD8jK15"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035315",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/london-system-for-white-whats-the-main-plan-and-rX6n3W1DXRdh5u2IgluZ3q",
+  "title": "london-system-for-white-whats-the-main-plan-and-rX6n3W1DXRdh5u2IgluZ3q.json",
+  "content_type": "data",
+  "created_at": "2026-02-19T03:00:00Z",
+  "modified_at": "2026-02-19T03:04:51Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/london-system-for-white-whats-the-main-plan-and-rX6n3W1DXRdh5u2IgluZ3q.json",
+  "source_url": "https://www.perplexity.ai/search/london-system-for-white-whats-the-main-plan-and-rX6n3W1DXRdh5u2IgluZ3q",
+  "content_hash": "sha256:f02dffc2dfac2e793e5feab4ac193d4c6e651a8f6440dc524c11355b467a7d4a",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/london-system-for-white-whats-the-main-plan-and-rX6n3W1DXRdh5u2IgluZ3q"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035316",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/moved-from-virginia-to-california-in-august-car-01gqxIGWLf8nCXoNzn8wUe",
+  "title": "moved-from-virginia-to-california-in-august-car-01gqxIGWLf8nCXoNzn8wUe.json",
+  "content_type": "data",
+  "created_at": "2026-10-01T04:15:00Z",
+  "modified_at": "2026-10-01T04:19:24Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/moved-from-virginia-to-california-in-august-car-01gqxIGWLf8nCXoNzn8wUe.json",
+  "source_url": "https://www.perplexity.ai/search/moved-from-virginia-to-california-in-august-car-01gqxIGWLf8nCXoNzn8wUe",
+  "content_hash": "sha256:33cb4c4edb8bf154e5725a632b29badfd6774492780d94fabae35c6570cb298f",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/moved-from-virginia-to-california-in-august-car-01gqxIGWLf8nCXoNzn8wUe"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035317",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/moving-to-sf-in-august-no-car-i-run-a-lot-inner-HoyhKLIB1fgy6amckO4cLZ",
+  "title": "moving-to-sf-in-august-no-car-i-run-a-lot-inner-HoyhKLIB1fgy6amckO4cLZ.json",
+  "content_type": "data",
+  "created_at": "2026-07-15T01:40:00Z",
+  "modified_at": "2026-07-15T01:49:12Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/moving-to-sf-in-august-no-car-i-run-a-lot-inner-HoyhKLIB1fgy6amckO4cLZ.json",
+  "source_url": "https://www.perplexity.ai/search/moving-to-sf-in-august-no-car-i-run-a-lot-inner-HoyhKLIB1fgy6amckO4cLZ",
+  "content_hash": "sha256:c292260e3c9a29c01321ed2c5159b54c73253088a1b9c7d3d3e50990fd8e42f7",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/moving-to-sf-in-august-no-car-i-run-a-lot-inner-HoyhKLIB1fgy6amckO4cLZ"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035318",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/neurips-datasets-and-benchmarks-track-do-i-need-USKkbJmOzFq6iC1oFD4VmC",
+  "title": "neurips-datasets-and-benchmarks-track-do-i-need-USKkbJmOzFq6iC1oFD4VmC.json",
+  "content_type": "data",
+  "created_at": "2026-05-06T02:15:00Z",
+  "modified_at": "2026-05-06T02:18:56Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/neurips-datasets-and-benchmarks-track-do-i-need-USKkbJmOzFq6iC1oFD4VmC.json",
+  "source_url": "https://www.perplexity.ai/search/neurips-datasets-and-benchmarks-track-do-i-need-USKkbJmOzFq6iC1oFD4VmC",
+  "content_hash": "sha256:393dfe2cecfbf25ef67f5a28aee7eb9a81c57414f2e57d7a602ef5d3384ab55d",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/neurips-datasets-and-benchmarks-track-do-i-need-USKkbJmOzFq6iC1oFD4VmC"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_idetrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035319",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/new-mac-apple-silicon-from-an-older-apple-4I7pIEbcnlg6pYWrRQ4W1V",
+  "title": "new-mac-apple-silicon-from-an-older-apple-4I7pIEbcnlg6pYWrRQ4W1V.json",
+  "content_type": "data",
+  "created_at": "2026-08-06T02:50:00Z",
+  "modified_at": "2026-08-06T02:55:08Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/new-mac-apple-silicon-from-an-older-apple-4I7pIEbcnlg6pYWrRQ4W1V.json",
+  "source_url": "https://www.perplexity.ai/search/new-mac-apple-silicon-from-an-older-apple-4I7pIEbcnlg6pYWrRQ4W1V",
+  "content_hash": "sha256:41cae301869bb9fd824d94f8c64f77ce7c9771350d73684f41ca15bae1cb6094",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/new-mac-apple-silicon-from-an-older-apple-4I7pIEbcnlg6pYWrRQ4W1V"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035320",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/notion-vs-obsidian-for-a-shared-wiki-between-2-g6UZNaU5wsvZq5iGGlSRpf",
+  "title": "notion-vs-obsidian-for-a-shared-wiki-between-2-g6UZNaU5wsvZq5iGGlSRpf.json",
+  "content_type": "data",
+  "created_at": "2026-02-03T04:30:00Z",
+  "modified_at": "2026-02-03T04:34:11Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/notion-vs-obsidian-for-a-shared-wiki-between-2-g6UZNaU5wsvZq5iGGlSRpf.json",
+  "source_url": "https://www.perplexity.ai/search/notion-vs-obsidian-for-a-shared-wiki-between-2-g6UZNaU5wsvZq5iGGlSRpf",
+  "content_hash": "sha256:b2fd83b82a126d86507ab5f257b4a4d99c6ed47e7e492db71a6736193b41d459",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/notion-vs-obsidian-for-a-shared-wiki-between-2-g6UZNaU5wsvZq5iGGlSRpf"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_mathetic_company"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035321",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/our-class-project-labeled-frustration-on-a-0-3-wHMzboQctyqeiO9SOc8dRV",
+  "title": "our-class-project-labeled-frustration-on-a-0-3-wHMzboQctyqeiO9SOc8dRV.json",
+  "content_type": "data",
+  "created_at": "2026-04-28T03:45:00Z",
+  "modified_at": "2026-04-28T03:49:29Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/our-class-project-labeled-frustration-on-a-0-3-wHMzboQctyqeiO9SOc8dRV.json",
+  "source_url": "https://www.perplexity.ai/search/our-class-project-labeled-frustration-on-a-0-3-wHMzboQctyqeiO9SOc8dRV",
+  "content_hash": "sha256:4e2761a2901d37279c3837ab8a2e2738d2a47a2943c5ad732f158fc00dd7e9a1",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/our-class-project-labeled-frustration-on-a-0-3-wHMzboQctyqeiO9SOc8dRV"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035322",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/paper-has-arxiv-v1-and-later-published-at-l-s-25-k7LvldWlsMs1Iti4SN66do",
+  "title": "paper-has-arxiv-v1-and-later-published-at-l-s-25-k7LvldWlsMs1Iti4SN66do.json",
+  "content_type": "data",
+  "created_at": "2026-03-30T17:05:00Z",
+  "modified_at": "2026-03-30T17:08:10Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/paper-has-arxiv-v1-and-later-published-at-l-s-25-k7LvldWlsMs1Iti4SN66do.json",
+  "source_url": "https://www.perplexity.ai/search/paper-has-arxiv-v1-and-later-published-at-l-s-25-k7LvldWlsMs1Iti4SN66do",
+  "content_hash": "sha256:a0522741f041849c4eec59c6affb631fee897b8f4a5e4cc22e3edeecbe496f8e",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/paper-has-arxiv-v1-and-later-published-at-l-s-25-k7LvldWlsMs1Iti4SN66do"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "Same-paper hard case context: the Ostrowski 2025 paper exists as arXiv v1 and L@S camera-ready."
+  }
+ },
+ {
+  "id": "item_035323",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/productive-failure-kapur-vs-desirable-CiSBVSxFddLDVRcfc1QIwt",
+  "title": "productive-failure-kapur-vs-desirable-CiSBVSxFddLDVRcfc1QIwt.json",
+  "content_type": "data",
+  "created_at": "2026-03-17T01:30:00Z",
+  "modified_at": "2026-03-17T01:36:30Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/productive-failure-kapur-vs-desirable-CiSBVSxFddLDVRcfc1QIwt.json",
+  "source_url": "https://www.perplexity.ai/search/productive-failure-kapur-vs-desirable-CiSBVSxFddLDVRcfc1QIwt",
+  "content_hash": "sha256:fe241babe7b74d325c00101bb3912529b61ea19ec1f1fa4f0b7704b5cdfc2252",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/productive-failure-kapur-vs-desirable-CiSBVSxFddLDVRcfc1QIwt"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035324",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/ran-a-half-yesterday-1-24-51-pr-quads-wrecked-XmuIBg7cBPnDGayycjTByX",
+  "title": "ran-a-half-yesterday-1-24-51-pr-quads-wrecked-XmuIBg7cBPnDGayycjTByX.json",
+  "content_type": "data",
+  "created_at": "2026-10-16T16:20:00Z",
+  "modified_at": "2026-10-16T16:20:29Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/ran-a-half-yesterday-1-24-51-pr-quads-wrecked-XmuIBg7cBPnDGayycjTByX.json",
+  "source_url": "https://www.perplexity.ai/search/ran-a-half-yesterday-1-24-51-pr-quads-wrecked-XmuIBg7cBPnDGayycjTByX",
+  "content_hash": "sha256:c914c6e66a62e71984ac365fe5d8e41d9ec4e82fb897cb318012c1d6bd986955",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/ran-a-half-yesterday-1-24-51-pr-quads-wrecked-XmuIBg7cBPnDGayycjTByX"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035325",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/rear-derailleur-skipping-under-load-in-the-tWCQMR8fSRMD3tET7nc5Si",
+  "title": "rear-derailleur-skipping-under-load-in-the-tWCQMR8fSRMD3tET7nc5Si.json",
+  "content_type": "data",
+  "created_at": "2026-01-14T23:25:00Z",
+  "modified_at": "2026-01-14T23:25:22Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/rear-derailleur-skipping-under-load-in-the-tWCQMR8fSRMD3tET7nc5Si.json",
+  "source_url": "https://www.perplexity.ai/search/rear-derailleur-skipping-under-load-in-the-tWCQMR8fSRMD3tET7nc5Si",
+  "content_hash": "sha256:113018b4596dd824d475a9111d5067b9873d801f1b4d7e70a4cc77738585709c",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/rear-derailleur-skipping-under-load-in-the-tWCQMR8fSRMD3tET7nc5Si"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035326",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/related-work-on-detecting-student-frustration-UQ3WpzQ6IxbhOOC1Xv7Y1w",
+  "title": "related-work-on-detecting-student-frustration-UQ3WpzQ6IxbhOOC1Xv7Y1w.json",
+  "content_type": "data",
+  "created_at": "2026-02-10T19:20:00Z",
+  "modified_at": "2026-02-11T19:30:23Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/related-work-on-detecting-student-frustration-UQ3WpzQ6IxbhOOC1Xv7Y1w.json",
+  "source_url": "https://www.perplexity.ai/search/related-work-on-detecting-student-frustration-UQ3WpzQ6IxbhOOC1Xv7Y1w",
+  "content_hash": "sha256:a7ca8693ae626a34814e662c0eedd842a8e859cc8db8346ae342de58ac8e0d1f",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/related-work-on-detecting-student-frustration-UQ3WpzQ6IxbhOOC1Xv7Y1w"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035327",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/related-work-telemetry-signals-of-help-seeking-wRM1Yrfj6BH8RvCSsHWGr7",
+  "title": "related-work-telemetry-signals-of-help-seeking-wRM1Yrfj6BH8RvCSsHWGr7.json",
+  "content_type": "data",
+  "created_at": "2026-03-13T02:50:00Z",
+  "modified_at": "2026-03-13T03:04:10Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/related-work-telemetry-signals-of-help-seeking-wRM1Yrfj6BH8RvCSsHWGr7.json",
+  "source_url": "https://www.perplexity.ai/search/related-work-telemetry-signals-of-help-seeking-wRM1Yrfj6BH8RvCSsHWGr7",
+  "content_hash": "sha256:446147636267614e917371c3192c5bcff24c579bf6290658ad1f6a07ce465422",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/related-work-telemetry-signals-of-help-seeking-wRM1Yrfj6BH8RvCSsHWGr7"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "Related-work search for TutorTrace (UIST 2026); cites the fictional Ostrowski et al. 2025 paper."
+  }
+ },
+ {
+  "id": "item_035328",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/renew-virginia-car-registration-online-what-do-i-OjzjqUqXmvTxa3LlqB13dJ",
+  "title": "renew-virginia-car-registration-online-what-do-i-OjzjqUqXmvTxa3LlqB13dJ.json",
+  "content_type": "data",
+  "created_at": "2026-03-17T16:15:00Z",
+  "modified_at": "2026-03-17T16:15:28Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/renew-virginia-car-registration-online-what-do-i-OjzjqUqXmvTxa3LlqB13dJ.json",
+  "source_url": "https://www.perplexity.ai/search/renew-virginia-car-registration-online-what-do-i-OjzjqUqXmvTxa3LlqB13dJ",
+  "content_hash": "sha256:7ad7f603b255e3b3019793eea32f60a406bb691b2f9fadf00b2be0ee019f7f6d",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/renew-virginia-car-registration-online-what-do-i-OjzjqUqXmvTxa3LlqB13dJ"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035329",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/rosalind-picard-affective-computing-the-book-DHpsne3qDSzUc7QpqsJmGs",
+  "title": "rosalind-picard-affective-computing-the-book-DHpsne3qDSzUc7QpqsJmGs.json",
+  "content_type": "data",
+  "created_at": "2026-01-22T04:05:00Z",
+  "modified_at": "2026-01-22T04:10:24Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/rosalind-picard-affective-computing-the-book-DHpsne3qDSzUc7QpqsJmGs.json",
+  "source_url": "https://www.perplexity.ai/search/rosalind-picard-affective-computing-the-book-DHpsne3qDSzUc7QpqsJmGs",
+  "content_hash": "sha256:3d47c7a389321d7f242542f513c915af610d71a0f5cefa1433a9c9cb04c5247f",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/rosalind-picard-affective-computing-the-book-DHpsne3qDSzUc7QpqsJmGs"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_ise6664_affective_computing"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035330",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/signs-a-sf-sublet-listing-is-a-scam-guy-wants-YqJWRwNrL3O6botgwoHkoR",
+  "title": "signs-a-sf-sublet-listing-is-a-scam-guy-wants-YqJWRwNrL3O6botgwoHkoR.json",
+  "content_type": "data",
+  "created_at": "2026-07-22T02:05:00Z",
+  "modified_at": "2026-07-22T02:05:43Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/signs-a-sf-sublet-listing-is-a-scam-guy-wants-YqJWRwNrL3O6botgwoHkoR.json",
+  "source_url": "https://www.perplexity.ai/search/signs-a-sf-sublet-listing-is-a-scam-guy-wants-YqJWRwNrL3O6botgwoHkoR",
+  "content_hash": "sha256:8b23a0cabce512cebbf33e40ed4c6680922cf2c326ee652a2a46ea3c1fa7c1bb",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/signs-a-sf-sublet-listing-is-a-scam-guy-wants-YqJWRwNrL3O6botgwoHkoR"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035331",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/uist-reviewers-say-our-study-is-one-course-so-lcMjFZEGc1Gji7R9rhQURZ",
+  "title": "uist-reviewers-say-our-study-is-one-course-so-lcMjFZEGc1Gji7R9rhQURZ.json",
+  "content_type": "data",
+  "created_at": "2026-06-16T04:20:00Z",
+  "modified_at": "2026-06-16T04:26:18Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/uist-reviewers-say-our-study-is-one-course-so-lcMjFZEGc1Gji7R9rhQURZ.json",
+  "source_url": "https://www.perplexity.ai/search/uist-reviewers-say-our-study-is-one-course-so-lcMjFZEGc1Gji7R9rhQURZ",
+  "content_hash": "sha256:ca48b72443b9da26ee9cd656a735ef2983d38e3bd17e3565bea03379bde625c1",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/uist-reviewers-say-our-study-is-one-course-so-lcMjFZEGc1Gji7R9rhQURZ"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035332",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/virginia-state-tax-return-deadline-2026-is-it-c5ibFqVjI8liuvz7iRwDMw",
+  "title": "virginia-state-tax-return-deadline-2026-is-it-c5ibFqVjI8liuvz7iRwDMw.json",
+  "content_type": "data",
+  "created_at": "2026-04-08T16:30:00Z",
+  "modified_at": "2026-04-08T16:34:04Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/virginia-state-tax-return-deadline-2026-is-it-c5ibFqVjI8liuvz7iRwDMw.json",
+  "source_url": "https://www.perplexity.ai/search/virginia-state-tax-return-deadline-2026-is-it-c5ibFqVjI8liuvz7iRwDMw",
+  "content_hash": "sha256:8a1e3585fd78ea5a1bf735a0ec6fe436e5a95bc73b05bab31b58be940e2eb5d3",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/virginia-state-tax-return-deadline-2026-is-it-c5ibFqVjI8liuvz7iRwDMw"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035333",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/virginia-tech-parking-citation-appeal-how-many-iKTdUxcNM4fscfryMNiB5w",
+  "title": "virginia-tech-parking-citation-appeal-how-many-iKTdUxcNM4fscfryMNiB5w.json",
+  "content_type": "data",
+  "created_at": "2026-02-25T16:05:00Z",
+  "modified_at": "2026-02-25T16:05:32Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/virginia-tech-parking-citation-appeal-how-many-iKTdUxcNM4fscfryMNiB5w.json",
+  "source_url": "https://www.perplexity.ai/search/virginia-tech-parking-citation-appeal-how-many-iKTdUxcNM4fscfryMNiB5w",
+  "content_hash": "sha256:fbb5a95fd528d3f07b12ad1bab093086808b8108aa931b4937abf0f7bd5ea8fc",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/virginia-tech-parking-citation-appeal-how-many-iKTdUxcNM4fscfryMNiB5w"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035334",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/what-do-instructors-actually-want-to-see-about-1KoW16hjudd6qmw2X15kfK",
+  "title": "what-do-instructors-actually-want-to-see-about-1KoW16hjudd6qmw2X15kfK.json",
+  "content_type": "data",
+  "created_at": "2026-03-28T20:20:00Z",
+  "modified_at": "2026-03-28T20:24:12Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/what-do-instructors-actually-want-to-see-about-1KoW16hjudd6qmw2X15kfK.json",
+  "source_url": "https://www.perplexity.ai/search/what-do-instructors-actually-want-to-see-about-1KoW16hjudd6qmw2X15kfK",
+  "content_hash": "sha256:ce0816dfcaecadfb7a1712242f2386503454173bfa1e77742935b95793518376",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/what-do-instructors-actually-want-to-see-about-1KoW16hjudd6qmw2X15kfK"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035335",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/what-do-people-actually-mean-by-grand-strategy-Ho3v5Nme96TROfU8l4IGLN",
+  "title": "what-do-people-actually-mean-by-grand-strategy-Ho3v5Nme96TROfU8l4IGLN.json",
+  "content_type": "data",
+  "created_at": "2026-02-21T02:35:00Z",
+  "modified_at": "2026-02-21T02:38:46Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/what-do-people-actually-mean-by-grand-strategy-Ho3v5Nme96TROfU8l4IGLN.json",
+  "source_url": "https://www.perplexity.ai/search/what-do-people-actually-mean-by-grand-strategy-Ho3v5Nme96TROfU8l4IGLN",
+  "content_hash": "sha256:537160ea34eb809362ea6ef046776eabe8e8b532a0deac4c0a7eb19c54c340a5",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/what-do-people-actually-mean-by-grand-strategy-Ho3v5Nme96TROfU8l4IGLN"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ },
+ {
+  "id": "item_035336",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/what-is-the-difference-between-zone-2-and-lt1-JJfgT7BNkY6m3Tb7bziSpR",
+  "title": "what-is-the-difference-between-zone-2-and-lt1-JJfgT7BNkY6m3Tb7bziSpR.json",
+  "content_type": "data",
+  "created_at": "2026-01-09T02:40:00Z",
+  "modified_at": "2026-01-09T02:47:00Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/what-is-the-difference-between-zone-2-and-lt1-JJfgT7BNkY6m3Tb7bziSpR.json",
+  "source_url": "https://www.perplexity.ai/search/what-is-the-difference-between-zone-2-and-lt1-JJfgT7BNkY6m3Tb7bziSpR",
+  "content_hash": "sha256:1e1cf382e7f07e29ea46d774c182efae69f1b990cb0531cfc8122a5ad7173ac3",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/what-is-the-difference-between-zone-2-and-lt1-JJfgT7BNkY6m3Tb7bziSpR"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_endurance_training"
+   ],
+   "notes": "HARD CASE: vague title — Perplexity kept only the first query fragment (\"what is\") as the title; thread is about Zone 2 vs LT1 for base training."
+  }
+ },
+ {
+  "id": "item_035337",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/what-time-is-23-59-aoe-march-31-in-eastern-time-isVq51PaLFG22npzVIlaxO",
+  "title": "what-time-is-23-59-aoe-march-31-in-eastern-time-isVq51PaLFG22npzVIlaxO.json",
+  "content_type": "data",
+  "created_at": "2026-04-01T00:10:00Z",
+  "modified_at": "2026-04-01T00:10:22Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/what-time-is-23-59-aoe-march-31-in-eastern-time-isVq51PaLFG22npzVIlaxO.json",
+  "source_url": "https://www.perplexity.ai/search/what-time-is-23-59-aoe-march-31-in-eastern-time-isVq51PaLFG22npzVIlaxO",
+  "content_hash": "sha256:a1eda88c778bc8c01324cf58da344bb782e699dbb467760b55c284a8a3959942",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/what-time-is-23-59-aoe-march-31-in-eastern-time-isVq51PaLFG22npzVIlaxO"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_tutortrace"
+   ],
+   "notes": "HARD CASE: vague title — title is only the first query fragment (\"what time is\"); thread is about the UIST 2026 deadline (23:59 AoE, Mar 31) in Eastern time."
+  }
+ },
+ {
+  "id": "item_035338",
+  "dataset_id": "benchmark_001",
+  "provenance": "synthetic",
+  "source": "perplexity",
+  "source_id": "https://www.perplexity.ai/search/where-are-us-china-chip-export-controls-at-right-9kayGZdbXEjtY5Bc9lt8nv",
+  "title": "where-are-us-china-chip-export-controls-at-right-9kayGZdbXEjtY5Bc9lt8nv.json",
+  "content_type": "data",
+  "created_at": "2026-04-23T02:30:00Z",
+  "modified_at": "2026-04-23T02:30:40Z",
+  "ingested_at": "2026-10-18T18:35:22Z",
+  "path": "synthetic/perplexity/david.barron.runs@gmail.com/threads/where-are-us-china-chip-export-controls-at-right-9kayGZdbXEjtY5Bc9lt8nv.json",
+  "source_url": "https://www.perplexity.ai/search/where-are-us-china-chip-export-controls-at-right-9kayGZdbXEjtY5Bc9lt8nv",
+  "content_hash": "sha256:b276763e641fb0a021c13cc2570198d14271235712dbccc9952188291bc9381c",
+  "library_item_id": null,
+  "modeled_on": null,
+  "metadata": {
+   "format": "json",
+   "language": "en",
+   "message_count": null,
+   "tags": [],
+   "account": "david.barron.runs@gmail.com (Perplexity)",
+   "original_path": "https://www.perplexity.ai/search/where-are-us-china-chip-export-controls-at-right-9kayGZdbXEjtY5Bc9lt8nv"
+  },
+  "ground_truth": {
+   "status": "generated",
+   "project_ids": [
+    "project_none"
+   ],
+   "notes": null
+  }
+ }
+]

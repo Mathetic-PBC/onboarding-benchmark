@@ -1,0 +1,23 @@
+{
+  "endpoint": "wss://vizpi-lab.example.edu/ws",
+  "window_seconds": 30,
+  "reconnect": {
+    "await_token_refresh": true,
+    "buffer_limit": 500,
+    "backoff_ms": [
+      250,
+      500,
+      1000,
+      2000,
+      4000
+    ],
+    "note": "await refresh before re-subscribe — hotfix 2025-11-12 16:10 (section B gap)"
+  },
+  "heartbeat": {
+    "interval_s": 15,
+    "report_buffered_count": true
+  },
+  "consent": {
+    "opt_out_url": "/plain-ide"
+  }
+}

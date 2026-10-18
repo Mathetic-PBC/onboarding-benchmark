@@ -1,0 +1,10 @@
+vizpi deploy #2  11/12  CS 3114
+
+3:30 sec A + B start. 87 students. TAs: 3
+3:45 sec B event rate drops to ~6/min. A fine.
+3:52 reproduced locally: reconnect re-subscribes before token refresh resolves -> server drops events silently
+4:05 patch: await refresh, buffer up to 500 events until ack
+4:10 hotfix deployed, asked B to reload. rate back to ~55/min by 4:12
+5:20 export raw -> vizpi-deploy2/raw/
+loss estimate ~12% of sec B events (keystrokes in autosave vs telemetry)
+TODO: heartbeat w/ buffered count; incident doc; tell Minsun/Xiaohang which windows are unlabelable

@@ -100,6 +100,12 @@
   tr.total td { font-weight: 600; }
   #out-w1 td:last-child, #out-w1 th:last-child { white-space: nowrap; }
   a.ext { color: var(--accent); }
+  tr.run-row { cursor: pointer; }
+  tr.run-row:hover td { background: #fafafa; }
+  tr.run-row:focus { outline: none; }
+  tr.run-row:focus-visible td { background: #f3f3f3; }
+  tr.run-row .runname { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+  tr.run-row.open .runname { text-decoration: none; }
   .outpane { display: none; }
   .outpane.on { display: block; }
   dl.cfg { grid-template-columns: 128px minmax(0, 1fr); margin-bottom: 8px; }
@@ -427,10 +433,12 @@
   <div class="codehead"><span><code>runs</code></span></div>
   <div style="overflow-x:auto"><table class="runs">
     <tr><th>run</th><th>date</th><th>model</th><th class="n">items</th><th class="n">categories</th><th>deep pass</th><th class="n">time</th><th class="n">cost</th><th>scored</th></tr>
-    <tr><td><a class="ext" href="https://claude.ai/artifact/QCMosmA2rp2V1HcgQGasxj" target="_blank" rel="noopener">run_001</a></td><td>2026-10-18</td><td>Sonnet 5.5</td><td class="n">1,686</td><td class="n">12</td><td class="wrap">656 import, 190 pending, 82 skip, 1 failed</td><td class="n">27 min</td><td class="n">$38.36</td><td>no</td></tr>
+    <tr class="run-row" tabindex="0" role="button" aria-expanded="false" data-run="run_001"><td><span class="runname">run_001</span></td><td>2026-10-18</td><td>Sonnet 5.5</td><td class="n">1,686</td><td class="n">12</td><td class="wrap">656 import, 190 pending, 82 skip, 1 failed</td><td class="n">27 min</td><td class="n">$38.36</td><td>no</td></tr>
   </table></div>
 
+  <div class="rundetail" id="run-run_001" hidden>
   <h2 style="margin-top:40px">run_001</h2>
+  <p class="muted"><a class="ext" href="https://claude.ai/artifact/QCMosmA2rp2V1HcgQGasxj" target="_blank" rel="noopener">Every item's result ↗</a> (private)</p>
 
   <h3>Config</h3>
   <dl class="facts cfg">
@@ -541,6 +549,7 @@
         <tr><td>Earlier Next.js classroom project (2024)</td><td class="n">3</td><td class="n">4</td><td class="n">2</td></tr>
         <tr><td>Other</td><td class="n">0</td><td class="n">4</td><td class="n">5</td></tr>
     </table>
+  </div>
   </div>
 </section>
 
@@ -1319,7 +1328,7 @@ function showSource(id) {
 
   const facts = el("dl", { class: "facts" });
   fact(facts, "Stored as", src.stored);
-  fact(facts, "One source item =", src.item);
+  fact(facts, "One item is", src.item);
   d.append(facts);
 
   d.append(codeBlock(buildRow(src, i), "source_items row"));
@@ -1338,6 +1347,18 @@ function showSource(id) {
   if (src.s.prov === "synthetic") det.append(el("p", { class: "muted", html: "<code>modeled_on</code> is an addition from the <code>/goal</code> manifest rule, not part of the original schema." }));
   d.append(det);
 }
+
+// runs: a row opens its run's detail
+document.querySelectorAll("tr.run-row").forEach(row => {
+  const toggle = () => {
+    const d = document.getElementById("run-" + row.dataset.run);
+    d.hidden = !d.hidden;
+    row.setAttribute("aria-expanded", String(!d.hidden));
+    row.classList.toggle("open", !d.hidden);
+  };
+  row.addEventListener("click", toggle);
+  row.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(); } });
+});
 
 // run output tabs
 document.querySelectorAll("#outnav button").forEach(b => b.addEventListener("click", () => {

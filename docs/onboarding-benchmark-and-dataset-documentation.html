@@ -70,7 +70,7 @@
                         font-family: inherit; font-size: 18px; line-height: 1; color: var(--muted); cursor: pointer; }
   #txmodal .txm-close:hover { color: var(--ink); }
   /* sources hover */
-  .sources-hover { position: relative; cursor: help; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; outline: none; }
+  .sources-hover { position: relative; cursor: pointer; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; outline: none; }
   .sources-hover:focus-visible { color: var(--ink); }
   .sources-list { display: none; position: absolute; left: 0; top: 100%; margin-top: 4px; z-index: 10;
                   width: max-content; max-width: min(320px, calc(100vw - 48px)); padding: 6px 10px;
@@ -125,7 +125,7 @@
 <div class="page">
 <header>
   <h1>Onboarding Benchmark and Dataset Documentation</h1>
-  <p>A benchmark for assessing how well agents aggregate, classify and categorize a person's data across <span class="sources-hover" tabindex="0" title="ChatGPT, Claude, Gemini, Grok, Perplexity, assistant memory, Claude Code, Codex, Cursor, GitHub, Gmail, Outlook, Slack, Linear, Google Drive / Docs, Notion, Obsidian, Apple Notes, OneNote, Evernote, Granola, Google Meet, Zoom, Zotero, Overleaf, PDFs, local notes, local files, websites and browser history">30 sources<span class="sources-list" role="tooltip">ChatGPT, Claude, Gemini, Grok, Perplexity, assistant memory, Claude Code, Codex, Cursor, GitHub, Gmail, Outlook, Slack, Linear, Google Drive / Docs, Notion, Obsidian, Apple Notes, OneNote, Evernote, Granola, Google Meet, Zoom, Zotero, Overleaf, PDFs, local notes, local files, websites and browser history</span></span>.</p>
+  <p>A benchmark for assessing how well agents aggregate, classify and categorize a person's data across <span class="sources-hover" tabindex="0">30 sources<span class="sources-list" role="tooltip">ChatGPT, Claude, Gemini, Grok, Perplexity, assistant memory, Claude Code, Codex, Cursor, GitHub, Gmail, Outlook, Slack, Linear, Google Drive / Docs, Notion, Obsidian, Apple Notes, OneNote, Evernote, Granola, Google Meet, Zoom, Zotero, Overleaf, PDFs, local notes, local files, websites and browser history</span></span>.</p>
   <nav id="tabs">
     <a href="#dataset" data-tab="dataset" class="on">Dataset</a>
     <a href="#tables" data-tab="tables">Tables</a>

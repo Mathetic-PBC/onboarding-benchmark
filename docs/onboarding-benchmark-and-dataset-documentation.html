@@ -1328,7 +1328,7 @@ function showSource(id) {
 
   const facts = el("dl", { class: "facts" });
   fact(facts, "Stored as", src.stored);
-  fact(facts, "One item is", src.item);
+  fact(facts, "One entry", src.item);
   d.append(facts);
 
   d.append(codeBlock(buildRow(src, i), "source_items row"));

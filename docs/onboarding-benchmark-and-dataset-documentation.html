@@ -1327,8 +1327,8 @@ function showSource(id) {
   d.append(el("div", { class: "muted", html: "<code>" + TYPICAL_PATH[src.id] + "</code>" }));
 
   const facts = el("dl", { class: "facts" });
-  fact(facts, "Stored as", src.stored);
-  fact(facts, "One entry", src.item);
+  fact(facts, "Stored as:", src.stored);
+  fact(facts, "One entry:", src.item);
   d.append(facts);
 
   d.append(codeBlock(buildRow(src, i), "source_items row"));

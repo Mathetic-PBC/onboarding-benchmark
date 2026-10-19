@@ -5,7 +5,8 @@
 <title>Onboarding Benchmark and Dataset Documentation</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  :root { --ink: #1a1a1a; --muted: #6e6e6e; --line: #e8e8e8; --code: #f6f6f6; --accent: #2f6b4f; }
+  :root { --ink: #1a1a1a; --muted: #6e6e6e; --line: #e8e8e8; --code: #f6f6f6; --accent: #2f6b4f;
+          --j-key: #1f5f99; --j-str: #2f6b4f; --j-num: #b35900; --j-lit: #8a3ea0; --j-punc: #a0a0a0; }
   * { box-sizing: border-box; }
   html, body { margin: 0; background: #fff; }
   body { font: 14px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color: var(--ink); }
@@ -26,6 +27,8 @@
   .codehead { display: flex; justify-content: space-between; gap: 16px; margin: 20px 0 6px; color: var(--muted); font-size: 12.5px; }
   .copy { border: 0; background: none; padding: 0; font: inherit; color: var(--muted); cursor: pointer; }
   .copy:hover { color: var(--ink); }
+  pre .k { color: var(--j-key); } pre .s { color: var(--j-str); } pre .n { color: var(--j-num); }
+  pre .l { color: var(--j-lit); } pre .p { color: var(--j-punc); }
   pre { margin: 0; padding: 14px 16px; background: var(--code); border-radius: 3px;
         font: 12.5px/1.55 ui-monospace, SFMono-Regular, Menlo, monospace; color: #333;
         white-space: pre-wrap; overflow-wrap: anywhere; }
@@ -96,7 +99,8 @@
     color: var(--ink); font-size: 12px; white-space: normal; }
   table.tables td.go { color: var(--muted); white-space: nowrap; text-align: right; width: 1%; }
   table.tables tr.tx-row:hover td.go { color: var(--accent); }
-  table.tables td:nth-child(3) { width: 1%; }
+  table.tables td:nth-child(4) { width: 1%; }
+  table.tables td.path { white-space: nowrap; color: var(--muted); }
   tr.total td { font-weight: 600; }
   #out-w1 td:last-child, #out-w1 th:last-child { white-space: nowrap; }
   a.ext { color: var(--accent); }
@@ -127,7 +131,7 @@
   <h1>Onboarding Benchmark and Dataset Documentation</h1>
   <p>A benchmark for assessing how well agents aggregate, classify and categorize a person's data across <span class="sources-hover" tabindex="0">30 sources<span class="sources-list" role="tooltip">ChatGPT, Claude, Gemini, Grok, Perplexity, assistant memory, Claude Code, Codex, Cursor, GitHub, Gmail, Outlook, Slack, Linear, Google Drive / Docs, Notion, Obsidian, Apple Notes, OneNote, Evernote, Granola, Google Meet, Zoom, Zotero, Overleaf, PDFs, local notes, local files, websites and browser history</span></span>.</p>
   <nav id="tabs">
-    <a href="#dataset" data-tab="dataset" class="on">Dataset</a>
+    <a href="#repo" data-tab="repo" class="on">Repo</a>
     <a href="#tables" data-tab="tables">Tables</a>
     <a href="#sources" data-tab="sources">Sources</a>
     <a href="#pipeline" data-tab="pipeline">Pipeline</a>
@@ -137,8 +141,8 @@
 
 <main>
 
-<!-- ============ DATASET ============ -->
-<section class="panel on" id="tab-dataset">
+<!-- ============ REPO ============ -->
+<section class="panel on" id="tab-repo">
   <div class="dataset">
     <h2>Repository Structure</h2>
     <p class="muted"><a class="ext" href="https://github.com/Mathetic-PBC/onboarding-benchmark" target="_blank" rel="noopener">github.com/Mathetic-PBC/onboarding-benchmark</a> (private)</p>
@@ -173,15 +177,14 @@
 <!-- ============ TABLES ============ -->
 <section class="panel" id="tab-tables">
   <h2>Tables</h2>
-  <p class="muted">Each table is a JSON file in <code>dataset/tables/</code>. Click a row for a sample.</p>
   <table class="tx tables">
-    <tr><th>name</th><th>description</th><th class="n">rows</th><th></th></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-datasets"><td><code>datasets</code></td><td>one row per benchmark</td><td class="n">1</td><td class="go">Sample ›</td></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-gtprojects"><td><code>ground_truth_projects</code></td><td>ground truth classification of my own projects</td><td class="n">23</td><td class="go">Sample ›</td></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-gencats"><td><code>generated_categories</code></td><td>each category list the import agent generates in a run</td><td class="n">2</td><td class="go">Sample ›</td></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-stage0" data-same="1"><td><code>source_items</code></td><td>one row per item</td><td class="n">23,558</td><td class="go">Sample ›</td></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-analysis1" data-same="1"><td><code>analyses</code></td><td>one row per agent pass over an item</td><td class="n">2,615</td><td class="go">Sample ›</td></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-runs"><td><code>runs</code></td><td>one row per benchmark run: its config and performance</td><td class="n">1</td><td class="go">Sample ›</td></tr>
+    <tr><th>name</th><th>path</th><th>description</th><th class="n">rows</th><th></th></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-datasets"><td><code>datasets</code></td><td class="path"><code>dataset/tables/datasets.json</code></td><td>one row per benchmark</td><td class="n">1</td><td class="go">Sample ›</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-gtprojects"><td><code>ground_truth_projects</code></td><td class="path"><code>dataset/tables/ground_truth_projects.json</code></td><td>ground truth classification of my own projects</td><td class="n">23</td><td class="go">Sample ›</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-gencats"><td><code>generated_categories</code></td><td class="path"><code>dataset/tables/generated_categories.json</code></td><td>each category list the import agent generates in a run</td><td class="n">2</td><td class="go">Sample ›</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-stage0" data-same="1"><td><code>source_items</code></td><td class="path"><code>dataset/tables/source_items.json</code></td><td>one row per item</td><td class="n">23,558</td><td class="go">Sample ›</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-analysis1" data-same="1"><td><code>analyses</code></td><td class="path"><code>dataset/tables/analyses.json</code></td><td>one row per agent pass over an item</td><td class="n">2,615</td><td class="go">Sample ›</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-runs"><td><code>runs</code></td><td class="path"><code>dataset/tables/runs.json</code></td><td>one row per benchmark run: its config and performance</td><td class="n">1</td><td class="go">Sample ›</td></tr>
   </table>
   <dialog id="txmodal" aria-labelledby="txmodal-title">
     <button class="txm-close" type="button" aria-label="Close">×</button>
@@ -1221,6 +1224,25 @@ function el(tag, attrs, children) {
   return n;
 }
 
+// JSON coloured by token: keys, strings, numbers, true/false/null, punctuation
+function jsonPre(text) {
+  const pre = el("pre");
+  const re = /("(?:\\.|[^"\\])*")(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d+)?(?:[eE][+-]?\d+)?|[{}\[\],]/g;
+  let at = 0, m;
+  const span = (cls, t) => pre.append(el("span", { class: cls, text: t }));
+  while ((m = re.exec(text))) {
+    if (m.index > at) pre.append(text.slice(at, m.index));
+    if (m[1] && m[2]) { span("k", m[1]); span("p", m[2]); }
+    else if (m[1]) span("s", m[1]);
+    else if (m[3]) span("l", m[3]);
+    else if (/^[{}\[\],]$/.test(m[0])) span("p", m[0]);
+    else span("n", m[0]);
+    at = re.lastIndex;
+  }
+  pre.append(text.slice(at));
+  return pre;
+}
+
 function codeBlock(obj, label) {
   const text = JSON.stringify(obj, null, 2);
   const copy = el("button", { class: "copy", type: "button", text: "Copy" });
@@ -1232,7 +1254,7 @@ function codeBlock(obj, label) {
   });
   const frag = document.createDocumentFragment();
   frag.append(el("div", { class: "codehead" }, [el("span", { text: label }), copy]));
-  frag.append(el("pre", { text: text }));
+  frag.append(jsonPre(text));
   return frag;
 }
 
@@ -1250,7 +1272,7 @@ function openTx(row) {
   const obj = JSON.parse(document.getElementById(row.dataset.jsonId).textContent);
   txBody.textContent = "";
   const h = el("h2", { id: "txmodal-title" }, [el("code", { text: name })]);
-  txBody.append(h, el("p", { class: "txm-desc", html: row.cells[1].innerHTML }));
+  txBody.append(h, el("p", { class: "txm-desc", html: row.cells[2].innerHTML }));
   txBody.append(codeBlock(obj, name));
   if (row.dataset.same) txBody.append(el("p", { class: "muted txm-note", text: "Same sample as the Pipeline tab." }));
   txOpener = row;
@@ -1317,6 +1339,37 @@ function fact(dl, term, node) {
   dl.append(dd);
 }
 
+// how each source was collected (dataset/PROGRESS.md, FAILURES.md); "both" sources also have synthetic items
+const STRATEGY = {
+  "obsidian": "Copied both vaults that Obsidian's <code>obsidian.json</code> lists, as files.",
+  "notion": "Synthetic only: the web app was signed out, and signing in wasn't allowed. Generated as a Notion export (Markdown + CSV).",
+  "apple-notes": "Every note read through AppleScript (the iCloud account) and saved as a file.",
+  "onenote": "Synthetic only: signing in needed SSO, and there's no desktop app. Generated as OneNote pages (HTML, the Graph API's shape).",
+  "google-docs": "Downloaded from Drive in both Google accounts while signed in. Folders, Sites, Apps Script and a few binaries couldn't be downloaded.",
+  "evernote": "Synthetic only: signed out, and no desktop app. Generated as <code>.enex</code> notebook exports.",
+  "granola": "Partial: the local store is encrypted and there's no web app, so only notes shared by public link (found in Slack and Linear) were saved.",
+  "google-meet": "None exist (neither Drive has Meet recordings, transcripts or Gemini notes). Synthetic transcripts and Gemini notes as <code>.docx</code> in Meet Recordings.",
+  "zoom": "The local recordings folder, copied. zoom.us was signed out.",
+  "gmail": "Raw <code>.eml</code> for every message of the last year, plus Sent, Starred and Important of any age, from the signed-in account; spot-checked against the Gmail API.",
+  "chatgpt": "Stopgap until the official export: read from chatgpt.com while signed in. The last year's chats only (the person's choice).",
+  "claude": "Stopgap until the official export: every conversation and project read from claude.ai while signed in.",
+  "claude-code": "Copied <code>~/.claude</code>: every project's sessions, history, plans and the desktop app's session metadata.",
+  "codex": "Copied <code>~/.codex</code>: rollouts, history, indexes and its databases.",
+  "cursor": "Synthetic only: Cursor isn't installed. Generated as its <code>state.vscdb</code> SQLite.",
+  "grok": "Synthetic only: signed out. Generated as Grok's account data export.",
+  "gemini": "Raw activity JSON from both Google accounts' Gemini, read while signed in. No Gems.",
+  "perplexity": "Synthetic only: signed out. Generated as one <code>.json</code> per thread.",
+  "assistant-memory": "Memory, profile and custom instructions from Claude's and ChatGPT's settings; Gemini's was empty.",
+  "zotero": "A mirror of Engelbart's own Zotero copy (<code>~/.engelbart/.zotero</code>): zotero.org was signed out and the desktop app isn't installed.",
+  "overleaf": "Each project's source zip, downloaded after the person signed in.",
+  "pdfs": "Every PDF in the person's own folders (exclusions logged).",
+  "github": "Local repos copied, plus mirror clones of every repo the account can list, with issues, PRs, comments and releases as API JSON (through the <code>gh</code> CLI).",
+  "websites": "Chrome's 3 bookmarks only; no saved pages exist.",
+  "linear": "Through the Linear MCP connector (read-only): issues with comments, documents and projects.",
+  "browser-history": "Chrome's History databases from 3 profiles, plus the Codex app's browser. Safari's needed Full Disk Access.",
+  "local-notes": "Note-type files (md, txt, docx, html, pages) outside Obsidian and the repos."
+};
+
 function showSource(id) {
   const i = SOURCES.findIndex(s => s.id === id);
   const src = SOURCES[i];
@@ -1328,7 +1381,8 @@ function showSource(id) {
 
   const facts = el("dl", { class: "facts" });
   fact(facts, "Stored as:", src.stored);
-  fact(facts, "One entry:", src.item);
+  fact(facts, "Entry:", src.item);
+  fact(facts, "Strategy:", STRATEGY[src.id] + (src.mix === "both" ? " Synthetic items added alongside." : ""));
   d.append(facts);
 
   d.append(codeBlock(buildRow(src, i), "source_items row"));
@@ -1367,7 +1421,7 @@ document.querySelectorAll("#outnav button").forEach(b => b.addEventListener("cli
 }));
 
 // tabs
-const TABS = ["dataset", "tables", "sources", "pipeline", "history"];
+const TABS = ["repo", "tables", "sources", "pipeline", "history"];
 const STAGES = ["stage0", "wave1", "wave2", "deep", "library"];
 function openStage(name) {
   document.querySelectorAll("#stagenav button").forEach(b => b.classList.toggle("on", b.dataset.stage === name));
@@ -1389,6 +1443,7 @@ document.querySelectorAll("#tabs a").forEach(a => a.addEventListener("click", e 
 }));
 const [start, stage] = location.hash.slice(1).split("/");
 if (start === "library") { openTab("pipeline"); openStage("library"); }
+else if (start === "dataset") openTab("repo");
 else if (TABS.includes(start)) openTab(start);
 if (start === "pipeline" && STAGES.includes(stage)) openStage(stage);
 

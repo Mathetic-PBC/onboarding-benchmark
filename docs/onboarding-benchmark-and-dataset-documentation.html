@@ -49,7 +49,7 @@
   .facts dt { color: var(--muted); }
   .facts dd { margin: 0; min-width: 0; }
   .facts ul { margin: 0; }
-  .dataset { margin-bottom: 40px; padding-bottom: 32px; border-bottom: 1px solid var(--line); }
+  .dataset { margin-bottom: 40px; }
   .dataset pre { margin: 12px 0; }
   table.tx td:first-child { white-space: nowrap; overflow-wrap: normal; width: 1%; }
   table.tx tr.tx-row { cursor: pointer; }
@@ -137,34 +137,30 @@
     <h2>Repository Structure</h2>
     <p class="muted"><a class="ext" href="https://github.com/Mathetic-PBC/onboarding-benchmark" target="_blank" rel="noopener">github.com/Mathetic-PBC/onboarding-benchmark</a> (private)</p>
 <pre>onboarding-benchmark/
-  docs/                          this page
-  skills/                        the three skills the import agent runs
-    wave1-categories-v1/         builds the category list
-    wave2-shallow-sort-v1/       files each item from a short sample
-    deep-pass-v1/                rereads items in full, decides what gets imported
-  prompts/                       the same passes as prompt modules (wave1, merge, wave2, deep)
-  scripts/                       import scripts that build the dataset
-    synth/                       one generator per source for the synthetic data
+  docs/                            this page
+  skills/                          the three skills the import agent runs
+    wave1-categories-v1/           builds the category list
+    wave2-shallow-sort-v1/         files each item from a short sample
+    deep-pass-v1/                  rereads items in full, decides what gets imported
+  prompts/                         the same passes as prompt modules
+  scripts/                         import scripts that build the dataset
+    synth/                         one generator per source for the synthetic data
   dataset/
     tables/
-      datasets.json              one row per benchmark
-      ground_truth_projects.json ground truth classification of my own projects (kept out of git)
-      generated_categories.json  each category list the import agent generates
-      source_items.json          one row per item (kept out of git; each source folder has its own)
-      analyses.json              one row per agent pass over an item
-      runs.json                  one row per benchmark run: its config and performance
-    authentic/                   my own data from the past year, relevant and irrelevant,
-                                 so it holds all the papers and work I care about
-      &lt;source&gt;/                  one folder per onboarding source (see Sources)
-    synthetic/                   generated data about me (David) and my projects, mixed with
-                                 unrelated items, mostly on the platforms I don't use; each
-                                 written in the platform's own file type
-      PERSON.md                  a summary of me drawn from the authentic data, used to
-                                 generate the synthetic data
-      ground_truth_labels.json   the projects each synthetic item belongs to
-      &lt;source&gt;/                  the same folders
-    PROGRESS.md                  collection status
-    FAILURES.md                  items that could not be copied or generated</pre>
+      datasets.json                one row per benchmark
+      ground_truth_projects.json   ground truth classification of my own projects (kept out of git)
+      generated_categories.json    each category list the import agent generates
+      source_items.json            one row per item (kept out of git)
+      analyses.json                one row per agent pass over an item
+      runs.json                    one row per benchmark run: config and performance
+    authentic/                     my own data from the past year, relevant and irrelevant
+      &lt;source&gt;/                    one folder per onboarding source (see Sources)
+    synthetic/                     generated data about me, mostly on platforms I don't use
+      PERSON.md                    a summary of me, used to generate the synthetic data
+      ground_truth_labels.json     the projects each synthetic item belongs to
+      &lt;source&gt;/                    the same folders, each in the platform's own file type
+    PROGRESS.md                    collection status
+    FAILURES.md                    items that could not be copied or generated</pre>
   </div>
 </section>
 

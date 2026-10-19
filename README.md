@@ -24,7 +24,8 @@ onboarding-benchmark/
     ├── tables/
     │   ├── datasets.json
     │   ├── analyses.json
-    │   └── generated_categories.json
+    │   ├── generated_categories.json
+    │   └── runs.json
     ├── authentic/<source>/        real data (placeholders only; real data stays out of the repo)
     ├── synthetic/
     │   ├── <source>/              synthetic data (1,210 items)

@@ -1,0 +1,47 @@
+[
+ {
+  "id": "run_001",
+  "dataset_id": "benchmark_001",
+  "date": "2026-10-18",
+  "config": {
+   "model": "claude-sonnet-5-5",
+   "cli": "claude -p (headless; no settings, MCP, slash commands, memory or session persistence)",
+   "skills": [
+    "wave1-categories-v1",
+    "wave2-shallow-sort-v1",
+    "deep-pass-v1"
+   ],
+   "slots": 4,
+   "retries": 2,
+   "wave2_batch_size": {
+    "chats_and_sessions": 25,
+    "other": 50
+   },
+   "deep_budget_chars": {
+    "per_item": 60000,
+    "per_unit": 4000
+   },
+   "sample": {
+    "items": 1686,
+    "seed": 17,
+    "rule": "up to 60 per source (Gmail 300), even authentic/synthetic split"
+   },
+   "start": {
+    "user_categories": null,
+    "project_description": null
+   },
+   "person": {
+    "confirm_categories": "accepted unchanged",
+    "pick": "every category except Other"
+   }
+  },
+  "performance": {
+   "minutes": 27,
+   "cost_usd": 38.36,
+   "calls": 994,
+   "input_tokens": 8446937,
+   "output_tokens": 738168
+  },
+  "scored": false
+ }
+]

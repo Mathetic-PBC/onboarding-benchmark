@@ -90,9 +90,20 @@
   .by.person { color: var(--ink); border-color: var(--ink); }
   table.who td:last-child { width: 1%; min-width: 120px; }
   table.who td .muted { display: block; font-size: 12px; margin-top: 2px; }
-  .legend { margin: -16px 0 28px; }
+  .by[data-tip] { position: relative; cursor: help; outline: none; }
+  .by[data-tip]:hover::after, .by[data-tip]:focus::after { content: attr(data-tip); position: absolute; left: 0; top: calc(100% + 4px); z-index: 10;
+    width: max-content; max-width: 240px; padding: 4px 8px; background: #fff; border: 1px solid var(--line); border-radius: 3px;
+    color: var(--ink); font-size: 12px; white-space: normal; }
+  table.tables td.go { color: var(--muted); white-space: nowrap; text-align: right; width: 1%; }
+  table.tables tr.tx-row:hover td.go { color: var(--accent); }
+  table.tables td:nth-child(3) { width: 1%; }
+  tr.total td { font-weight: 600; }
+  #out-w1 td:last-child, #out-w1 th:last-child { white-space: nowrap; }
+  a.ext { color: var(--accent); }
+  .outpane { display: none; }
+  .outpane.on { display: block; }
+  dl.cfg { grid-template-columns: 128px minmax(0, 1fr); margin-bottom: 8px; }
   td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
-  #tab-history a { color: var(--accent); }
   table.runs td, table.runs th { white-space: nowrap; }
   table.runs td.wrap { white-space: normal; }
   .stage { display: none; }
@@ -108,7 +119,7 @@
 <div class="page">
 <header>
   <h1>Onboarding Benchmark and Dataset Documentation</h1>
-  <p>A benchmark for assessing how well agents aggregate, classify and categorize a person's data across <span class="sources-hover" tabindex="0" title="ChatGPT, Claude, Gemini, Grok, Perplexity, assistant memory, Claude Code, Codex, Cursor, GitHub, Gmail, Outlook, Slack, Linear, Google Drive / Docs, Notion, Obsidian, Apple Notes, OneNote, Evernote, Granola, Google Meet, Zoom, Zotero, Overleaf, PDFs, local notes, local files, websites and browser history">30 sources<span class="sources-list" role="tooltip">ChatGPT, Claude, Gemini, Grok, Perplexity, assistant memory, Claude Code, Codex, Cursor, GitHub, Gmail, Outlook, Slack, Linear, Google Drive / Docs, Notion, Obsidian, Apple Notes, OneNote, Evernote, Granola, Google Meet, Zoom, Zotero, Overleaf, PDFs, local notes, local files, websites and browser history</span></span>. The dataset is my own data from those sources, plus synthetic data for the tools I don't use, and the ground truth is my own classification of it. Past runs can be seen in the History tab.</p>
+  <p>A benchmark for assessing how well agents aggregate, classify and categorize a person's data across <span class="sources-hover" tabindex="0" title="ChatGPT, Claude, Gemini, Grok, Perplexity, assistant memory, Claude Code, Codex, Cursor, GitHub, Gmail, Outlook, Slack, Linear, Google Drive / Docs, Notion, Obsidian, Apple Notes, OneNote, Evernote, Granola, Google Meet, Zoom, Zotero, Overleaf, PDFs, local notes, local files, websites and browser history">30 sources<span class="sources-list" role="tooltip">ChatGPT, Claude, Gemini, Grok, Perplexity, assistant memory, Claude Code, Codex, Cursor, GitHub, Gmail, Outlook, Slack, Linear, Google Drive / Docs, Notion, Obsidian, Apple Notes, OneNote, Evernote, Granola, Google Meet, Zoom, Zotero, Overleaf, PDFs, local notes, local files, websites and browser history</span></span>.</p>
   <nav id="tabs">
     <a href="#dataset" data-tab="dataset" class="on">Dataset</a>
     <a href="#tables" data-tab="tables">Tables</a>
@@ -124,6 +135,7 @@
 <section class="panel on" id="tab-dataset">
   <div class="dataset">
     <h2>Repository Structure</h2>
+    <p class="muted"><a class="ext" href="https://github.com/Mathetic-PBC/onboarding-benchmark" target="_blank" rel="noopener">github.com/Mathetic-PBC/onboarding-benchmark</a> (private)</p>
 <pre>onboarding-benchmark/
   docs/                          this page
   skills/                        the three skills the import agent runs
@@ -140,6 +152,7 @@
       generated_categories.json  each category list the import agent generates
       source_items.json          one row per item (kept out of git; each source folder has its own)
       analyses.json              one row per agent pass over an item
+      runs.json                  one row per benchmark run: its config and performance
     authentic/                   my own data from the past year, relevant and irrelevant,
                                  so it holds all the papers and work I care about
       &lt;source&gt;/                  one folder per onboarding source (see Sources)
@@ -158,13 +171,15 @@
 <!-- ============ TABLES ============ -->
 <section class="panel" id="tab-tables">
   <h2>Tables</h2>
-  <table class="tx">
-    <tr><th>name</th><th>description</th></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-datasets"><td><code>datasets</code></td><td>one row per benchmark</td></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-gtprojects"><td><code>ground_truth_projects</code></td><td>ground truth classification of my own projects</td></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-gencats"><td><code>generated_categories</code></td><td>each category list the import agent generates in a run</td></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-stage0" data-same="1"><td><code>source_items</code></td><td>one row per item</td></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-analysis1" data-same="1"><td><code>analyses</code></td><td>one row per agent pass over an item</td></tr>
+  <p class="muted">Each table is a JSON file in <code>dataset/tables/</code>. Click a row for a sample.</p>
+  <table class="tx tables">
+    <tr><th>name</th><th>description</th><th class="n">rows</th><th></th></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-datasets"><td><code>datasets</code></td><td>one row per benchmark</td><td class="n">1</td><td class="go">Sample ›</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-gtprojects"><td><code>ground_truth_projects</code></td><td>ground truth classification of my own projects</td><td class="n">23</td><td class="go">Sample ›</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-gencats"><td><code>generated_categories</code></td><td>each category list the import agent generates in a run</td><td class="n">2</td><td class="go">Sample ›</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-stage0" data-same="1"><td><code>source_items</code></td><td>one row per item</td><td class="n">23,558</td><td class="go">Sample ›</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-analysis1" data-same="1"><td><code>analyses</code></td><td>one row per agent pass over an item</td><td class="n">2,615</td><td class="go">Sample ›</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-runs"><td><code>runs</code></td><td>one row per benchmark run: its config and performance</td><td class="n">1</td><td class="go">Sample ›</td></tr>
   </table>
   <dialog id="txmodal" aria-labelledby="txmodal-title">
     <button class="txm-close" type="button" aria-label="Close">×</button>
@@ -189,14 +204,13 @@
     <button type="button" data-stage="deep">Deep pass</button>
     <button type="button" data-stage="library">Library</button>
   </div>
-  <p class="muted legend"><span class="by code">Code</span> deterministic: the same input always gives the same output. <span class="by model">Model</span> a model call: the output can change between runs, so the benchmark scores it. <span class="by person">Person</span> a choice the person makes; the benchmark simulates it.</p>
 
   <div class="stage on" id="st-stage0">
     <h2>Stage 0: source rows</h2>
     <p>An import script per platform copies each original into <code>benchmark-data/</code>, hashes it and writes one <code>source_items</code> row per item, in code with no model, and leaves <code>library_item_id</code> null.</p>
     <table class="who">
       <tr><th>step</th><th>done by</th></tr>
-      <tr><td>List every item, copy the original, hash it, write its <code>source_items</code> row</td><td><span class="by code">Code</span></td></tr>
+      <tr><td>List every item, copy the original, hash it, write its <code>source_items</code> row</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
     </table>
     <div data-json="j-stage0" data-label="source_items"></div>
     <details>
@@ -236,12 +250,12 @@
     <p>Wave 1 asks each source the same question in parallel: what has this person worked on? ChatGPT and Claude are each sent a profile prompt in the signed-in browser and answer from memory. One agent run on the Mac reads the Claude Code and Codex session logs and local git history. One merge agent then turns the three profiles, the project title and description, and any categories the person typed into the category list. It reads no individual items.</p>
     <table class="who">
       <tr><th>step</th><th>done by</th></tr>
-      <tr><td>Ask ChatGPT and Claude for a profile of the past year</td><td><span class="by model">Model</span> <span class="muted">(the assistant, from its memory)</span></td></tr>
-      <tr><td>Gather the Claude Code and Codex session folders and the <code>git log</code> of each repo</td><td><span class="by code">Code</span></td></tr>
-      <tr><td>Read those logs and write the local profile</td><td><span class="by model">Model</span> <span class="muted">(an agent with read-only file tools)</span></td></tr>
-      <tr><td>Merge the profiles, title, description and typed categories into the category list</td><td><span class="by model">Model</span></td></tr>
-      <tr><td>Save the list as a <code>generated_categories</code> row</td><td><span class="by code">Code</span></td></tr>
-      <tr><td>Confirm or edit the list</td><td><span class="by person">Person</span></td></tr>
+      <tr><td>Ask ChatGPT and Claude for a profile of the past year</td><td><span class="by model" tabindex="0" data-tip="a model call">Model</span> <span class="muted">(the assistant, from its memory)</span></td></tr>
+      <tr><td>Gather the Claude Code and Codex session folders and the <code>git log</code> of each repo</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
+      <tr><td>Read those logs and write the local profile</td><td><span class="by model" tabindex="0" data-tip="a model call">Model</span> <span class="muted">(an agent with read-only file tools)</span></td></tr>
+      <tr><td>Merge the profiles, title, description and typed categories into the category list</td><td><span class="by model" tabindex="0" data-tip="a model call">Model</span></td></tr>
+      <tr><td>Save the list as a <code>generated_categories</code> row</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
+      <tr><td>Confirm or edit the list</td><td><span class="by person" tabindex="0" data-tip="the person's choice (simulated in a run)">Person</span></td></tr>
     </table>
     <div data-json="j-profiles" data-label="the three profiles (one per source)"></div>
     <div data-json="j-catset0" data-label="catset_v1: draft from the merge agent"></div>
@@ -259,13 +273,13 @@
     <p>Wave 2 runs concurrently over everything else, including the ChatGPT and Claude chat lists, Claude Code and Codex sessions, Drive, Gmail, notes, PDFs, GitHub and Overleaf. It reads metadata and a short snippet against <code>catset_v2</code>. Items that fit no category become proposed categories, which go back to the list after a duplicate check. The person then picks which categories go to the deep pass.</p>
     <table class="who">
       <tr><th>step</th><th>done by</th></tr>
-      <tr><td>List every source, build each item's snippet, cut the list into batches of about 50</td><td><span class="by code">Code</span></td></tr>
-      <tr><td>Run the batches on 4 slots, retry failures</td><td><span class="by code">Code</span></td></tr>
-      <tr><td>Settle items from a free signal (folder, Drive folder, Gmail label)</td><td><span class="by code">Code</span></td></tr>
-      <tr><td>Assign categories, confidence and evidence, flag items for a deeper read, propose new categories</td><td><span class="by model">Model</span></td></tr>
-      <tr><td>Split each answer into one <code>analyses</code> row per item; drop evidence quotes not found in the item</td><td><span class="by code">Code</span></td></tr>
-      <tr><td>Check proposed categories for duplicates and add them to the list</td><td><span class="by model">Model</span> <span class="muted">(the merge prompt again)</span></td></tr>
-      <tr><td>Pick which categories go to the deep pass</td><td><span class="by person">Person</span></td></tr>
+      <tr><td>List every source, build each item's snippet, cut the list into batches of about 50</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
+      <tr><td>Run the batches on 4 slots, retry failures</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
+      <tr><td>Settle items from a free signal (folder, Drive folder, Gmail label)</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
+      <tr><td>Assign categories, confidence and evidence, flag items for a deeper read, propose new categories</td><td><span class="by model" tabindex="0" data-tip="a model call">Model</span></td></tr>
+      <tr><td>Split each answer into one <code>analyses</code> row per item; drop evidence quotes not found in the item</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
+      <tr><td>Check proposed categories for duplicates and add them to the list</td><td><span class="by model" tabindex="0" data-tip="a model call">Model</span> <span class="muted">(the merge prompt again)</span></td></tr>
+      <tr><td>Pick which categories go to the deep pass</td><td><span class="by person" tabindex="0" data-tip="the person's choice (simulated in a run)">Person</span></td></tr>
     </table>
     <h3>How wave 2 runs</h3>
     <ul>
@@ -311,11 +325,11 @@
     <p>The deep pass is the only step that writes to the library. It reads the whole of each item in a picked category, re-judges it, and decides import, skip or pending. On import, code (not the agent) inserts or reuses a library row and writes <code>library_item_id</code> back to the source row.</p>
     <table class="who">
       <tr><th>step</th><th>done by</th></tr>
-      <tr><td>Choose the qualifying items and assemble each one's full text (truncated past the budget)</td><td><span class="by code">Code</span></td></tr>
-      <tr><td>Re-judge the item and decide import, skip or pending</td><td><span class="by model">Model</span></td></tr>
-      <tr><td>Validate the answer and write the <code>analyses</code> row</td><td><span class="by code">Code</span></td></tr>
-      <tr><td>Create or reuse the library row and write <code>library_item_id</code> back</td><td><span class="by code">Code</span></td></tr>
-      <tr><td>Resolve pending items</td><td><span class="by person">Person</span></td></tr>
+      <tr><td>Choose the qualifying items and assemble each one's full text (truncated past the budget)</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
+      <tr><td>Re-judge the item and decide import, skip or pending</td><td><span class="by model" tabindex="0" data-tip="a model call">Model</span></td></tr>
+      <tr><td>Validate the answer and write the <code>analyses</code> row</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
+      <tr><td>Create or reuse the library row and write <code>library_item_id</code> back</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
+      <tr><td>Resolve pending items</td><td><span class="by person" tabindex="0" data-tip="the person's choice (simulated in a run)">Person</span></td></tr>
     </table>
     <h3>How the deep pass runs</h3>
     <ul>
@@ -343,7 +357,7 @@
   <p class="muted">No <code>library</code> rows for these items. Stage 0, wave 1 and wave 2 add only <code>analyses</code> rows.</p>
     <table class="who">
       <tr><th>step</th><th>done by</th></tr>
-      <tr><td>Insert library rows and <code>library_categories</code> links</td><td><span class="by code">Code</span></td></tr>
+      <tr><td>Insert library rows and <code>library_categories</code> links</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
     </table>
 
   <h2 style="margin-top:36px">After the deep pass</h2>
@@ -414,54 +428,124 @@
 <!-- ============ HISTORY ============ -->
 <section class="panel" id="tab-history">
   <h2>History</h2>
-  <p class="muted">One row per benchmark run. Item-level results stay on each run's own page, since they quote my authentic data.</p>
+  <div class="codehead"><span><code>runs</code></span></div>
   <div style="overflow-x:auto"><table class="runs">
     <tr><th>run</th><th>date</th><th>model</th><th class="n">items</th><th class="n">categories</th><th>deep pass</th><th class="n">time</th><th class="n">cost</th><th>scored</th></tr>
-    <tr><td><a href="https://claude.ai/artifact/QCMosmA2rp2V1HcgQGasxj" target="_blank" rel="noopener">run_001</a></td><td>2026-10-18</td><td>Sonnet 5.5</td><td class="n">1,686</td><td class="n">12</td><td class="wrap">656 import, 190 pending, 82 skip, 1 failed</td><td class="n">27 min</td><td class="n">$38.36</td><td>no</td></tr>
+    <tr><td><a class="ext" href="https://claude.ai/artifact/QCMosmA2rp2V1HcgQGasxj" target="_blank" rel="noopener">run_001</a></td><td>2026-10-18</td><td>Sonnet 5.5</td><td class="n">1,686</td><td class="n">12</td><td class="wrap">656 import, 190 pending, 82 skip, 1 failed</td><td class="n">27 min</td><td class="n">$38.36</td><td>no</td></tr>
   </table></div>
 
-  <h3>run_001</h3>
-  <p>The first pilot of the pipeline on <code>benchmark_001</code>. Every call was a headless <code>claude -p</code> on <code>claude-sonnet-5-5</code> with the stage's skill (<code>wave1-categories-v1</code>, <code>wave2-shallow-sort-v1</code>, <code>deep-pass-v1</code>) as the system prompt, run isolated from my settings and memory. Wave 1 started cold: no typed categories and no project description. The person's choices were simulated: the category list was accepted unchanged, and every category except Other was picked for the deep pass. Nothing was written to the library and nothing was scored.</p>
-  <dl class="facts">
-    <dt>Sample</dt><dd>1,686 items, seed 17: up to 60 per source (Gmail 300), split evenly between authentic and synthetic</dd>
-    <dt>Sandbox</dt><dd>23,530 of 23,558 items; 28 left out because their files contained a hidden pattern. Leak check of every saved model input: 0 matches</dd>
-    <dt>Details</dt><dd><a href="https://claude.ai/artifact/QCMosmA2rp2V1HcgQGasxj" target="_blank" rel="noopener">run_001 page</a> (private): every item's wave 2 and deep result, the three profiles, the log</dd>
+  <h2 style="margin-top:40px">run_001</h2>
+
+  <h3>Config</h3>
+  <dl class="facts cfg">
+    <dt>Dataset</dt><dd><code>benchmark_001</code></dd>
+    <dt>Model</dt><dd><code>claude-sonnet-5-5</code> for every call</dd>
+    <dt>Runner</dt><dd><code>claude -p</code>, headless and isolated: no settings, MCP, slash commands, memory or session persistence</dd>
+    <dt>Skills</dt><dd><code>wave1-categories-v1</code>, <code>wave2-shallow-sort-v1</code>, <code>deep-pass-v1</code></dd>
+    <dt>Concurrency</dt><dd>4 slots, 2 retries per call</dd>
+    <dt>Wave 2 batches</dt><dd>25 items for chats and sessions, 50 for the rest; one source per batch</dd>
+    <dt>Deep pass</dt><dd>one item per call; 60,000 characters per item, 4,000 per unit</dd>
+    <dt>Sample</dt><dd>1,686 items, seed 17; up to 60 per source (Gmail 300), half authentic, half synthetic</dd>
+    <dt>Sandbox</dt><dd>23,530 of 23,558 items (28 held back); leak check 0</dd>
+    <dt>Start</dt><dd>no typed categories, no project description</dd>
+    <dt>Person</dt><dd>category list accepted unchanged; every category except Other picked</dd>
   </dl>
 
-  <h3>Stages</h3>
+  <h3>Performance</h3>
   <table>
-    <tr><th>stage</th><th class="n">wall time</th><th class="n">calls</th><th class="n">retried errors</th><th class="n">failed rows</th><th class="n">input tokens</th><th class="n">output tokens</th><th class="n">cost</th></tr>
-    <tr><td>Wave 1 (3 profiles + merge)</td><td class="n">54 s</td><td class="n">4</td><td class="n">0</td><td class="n">—</td><td class="n">206,058</td><td class="n">12,027</td><td class="n">$0.41</td></tr>
-    <tr><td>Wave 2 (62 batches, 4 slots)</td><td class="n">7.6 min</td><td class="n">62</td><td class="n">0</td><td class="n">0</td><td class="n">1,412,042</td><td class="n">313,698</td><td class="n">$8.64</td></tr>
-    <tr><td>Deep pass (one item per call)</td><td class="n">18.3 min</td><td class="n">928</td><td class="n">4</td><td class="n">1</td><td class="n">6,828,837</td><td class="n">412,443</td><td class="n">$29.32</td></tr>
-    <tr><td><b>Total</b></td><td class="n"></td><td class="n">994</td><td class="n">4</td><td class="n"></td><td class="n">8,446,937</td><td class="n">738,168</td><td class="n">$38.36</td></tr>
+    <tr><th>stage</th><th class="n">time</th><th class="n">calls</th><th class="n">failed</th><th class="n">input tokens</th><th class="n">output tokens</th><th class="n">cost</th></tr>
+    <tr><td>Wave 1</td><td class="n">54 s</td><td class="n">4</td><td class="n">0</td><td class="n">206,058</td><td class="n">12,027</td><td class="n">$0.41</td></tr>
+    <tr><td>Wave 2</td><td class="n">7.6 min</td><td class="n">62</td><td class="n">0</td><td class="n">1,412,042</td><td class="n">313,698</td><td class="n">$8.64</td></tr>
+    <tr><td>Deep pass</td><td class="n">18.3 min</td><td class="n">928</td><td class="n">1</td><td class="n">6,828,837</td><td class="n">412,443</td><td class="n">$29.32</td></tr>
+    <tr class="total"><td>Total</td><td class="n">27 min</td><td class="n">994</td><td class="n">1</td><td class="n">8,446,937</td><td class="n">738,168</td><td class="n">$38.36</td></tr>
   </table>
 
-  <h3>Categories</h3>
-  <p class="muted">Wave 2 counts every assignment, so an item in two categories counts twice. Backed by: merged (named by several profiles), profile only, or evidence only (named only by the local profile's files).</p>
-  <table>
-    <tr><th>category</th><th>backed by</th><th class="n">wave 2</th><th class="n">imported</th><th class="n">pending</th></tr>
-      <tr><td>Engelbart / Mathetic</td><td>merged</td><td class="n">390</td><td class="n">326</td><td class="n">71</td></tr>
-      <tr><td>TutorTrace / VizPI</td><td>merged</td><td class="n">224</td><td class="n">181</td><td class="n">57</td></tr>
-      <tr><td>IDETrace</td><td>merged</td><td class="n">72</td><td class="n">75</td><td class="n">17</td></tr>
-      <tr><td>Berkeley research chats</td><td>merged</td><td class="n">48</td><td class="n">51</td><td class="n">8</td></tr>
-      <tr><td>ISE 6664 course project</td><td>profile only</td><td class="n">63</td><td class="n">59</td><td class="n">11</td></tr>
-      <tr><td>Teaching (CS 3604 GTA)</td><td>profile only</td><td class="n">29</td><td class="n">31</td><td class="n">1</td></tr>
-      <tr><td>Dynamite</td><td>profile only</td><td class="n">24</td><td class="n">26</td><td class="n">1</td></tr>
-      <tr><td>Sophia for Educators (archived)</td><td>profile only</td><td class="n">16</td><td class="n">9</td><td class="n">10</td></tr>
-      <tr><td>Earlier Next.js classroom project (2024)</td><td>profile only</td><td class="n">8</td><td class="n">3</td><td class="n">4</td></tr>
-      <tr><td>papert-lab-proto</td><td>evidence only</td><td class="n">6</td><td class="n">6</td><td class="n">4</td></tr>
-      <tr><td>Thematic analysis</td><td>evidence only</td><td class="n">1</td><td class="n">2</td><td class="n">1</td></tr>
-      <tr><td>Other</td><td>—</td><td class="n">95</td><td class="n">0</td><td class="n">4</td></tr>
-  </table>
-
-  <h3>What run_002 should change</h3>
-  <ul>
-    <li>Wave 2 proposed 50 new categories (20 distinct, among them Juno, PhD admin, the hint-timing pilot and TACode), but no step merged them, so 785 of 1,686 items ended with no category.</li>
-    <li>Wave 1 had only the ChatGPT, Claude and local profiles. It missed several of my projects, including endurance training, music production and FutureHCI.</li>
-    <li>One deep-pass item failed because the answer had extra text after the JSON. Parsing only the first object would fix it.</li>
-    <li>Scoring needs <code>ground_truth_projects.json</code> reviewed; every row is still a draft.</li>
-  </ul>
+  <h3>Output</h3>
+  <div class="stagenav" id="outnav">
+    <button type="button" data-out="w1" class="on">Wave 1</button>
+    <button type="button" data-out="w2">Wave 2</button>
+    <button type="button" data-out="deep">Deep pass</button>
+  </div>
+  <div class="outpane on" id="out-w1">
+    <div class="codehead"><span><code>generated_categories</code> · catset_v1, 12 categories</span></div>
+    <table>
+      <tr><th>category</th><th>description</th><th>backed by</th></tr>
+        <tr><td>Engelbart / Mathetic</td><td class="muted">The startup and its product: Engelbart research notebook and Claude Code plugin (/bart, formerly hc), including web, canvas, onboarding/import, release, pilots, fundraising and company admin.</td><td>merged</td></tr>
+        <tr><td>TutorTrace / VizPI</td><td class="muted">AI-tutoring research: the VizPI platform and classroom deployments, labeling guide, and the TutorTrace UIST 2026 paper and talk on learner behavioral states.</td><td>merged</td></tr>
+        <tr><td>IDETrace</td><td class="muted">The IDE telemetry dataset and benchmark for NeurIPS 2026 Datasets & Benchmarks, including splits, baselines, the student leakage fix and the rebuttal.</td><td>merged</td></tr>
+        <tr><td>Berkeley research chats</td><td class="muted">Interviews with Berkeley researchers about how they track their thinking, and the berkeley-research sign-up/booking web app that supports them.</td><td>merged</td></tr>
+        <tr><td>Thematic analysis</td><td class="muted">Next.js and Supabase workspace for codebook authoring and coding of a rideshare think-aloud requirements-engineering study (spec-study-app).</td><td>evidence only</td></tr>
+        <tr><td>papert-lab-proto</td><td class="muted">Early Jan–Feb 2026 throwaway Next.js notebook prototype with per-cell source trails and ChatGPT import, a precursor to the Engelbart canvas.</td><td>evidence only</td></tr>
+        <tr><td>Dynamite</td><td class="muted">Clustering of about 3,100 forum discussion posts with mpnet, UMAP and HDBSCAN, with LLM-labeled clusters.</td><td>profile only</td></tr>
+        <tr><td>ISE 6664 course project</td><td class="muted">Spring 2026 Affective Design & Computing team project on frustration signals in AI-tutoring transcripts.</td><td>profile only</td></tr>
+        <tr><td>Teaching (CS 3604 GTA)</td><td class="muted">Graduate teaching assistant duties for CS 3604: grading, attendance, Canvas administration and final grades.</td><td>profile only</td></tr>
+        <tr><td>Sophia for Educators (archived)</td><td class="muted">Archived educator tool with an instructor dashboard of student questions.</td><td>profile only</td></tr>
+        <tr><td>Earlier Next.js classroom project (2024)</td><td class="muted">Apr–Oct 2024 Next.js, Socket.IO and Supabase classroom group-messaging app with session tracking, transcripts and a session simulator.</td><td>profile only</td></tr>
+        <tr><td>Other</td><td class="muted">Work-related items that fit none of the other categories.</td><td>—</td></tr>
+    </table>
+  </div>
+  <div class="outpane" id="out-w2">
+    <div class="codehead"><span><code>analyses</code> · 1,686 rows</span></div>
+    <table>
+      <tr><th>category</th><th class="n">items</th></tr>
+        <tr><td>Engelbart / Mathetic</td><td class="n">390</td></tr>
+        <tr><td>TutorTrace / VizPI</td><td class="n">224</td></tr>
+        <tr><td>IDETrace</td><td class="n">72</td></tr>
+        <tr><td>Berkeley research chats</td><td class="n">48</td></tr>
+        <tr><td>Thematic analysis</td><td class="n">1</td></tr>
+        <tr><td>papert-lab-proto</td><td class="n">6</td></tr>
+        <tr><td>Dynamite</td><td class="n">24</td></tr>
+        <tr><td>ISE 6664 course project</td><td class="n">63</td></tr>
+        <tr><td>Teaching (CS 3604 GTA)</td><td class="n">29</td></tr>
+        <tr><td>Sophia for Educators (archived)</td><td class="n">16</td></tr>
+        <tr><td>Earlier Next.js classroom project (2024)</td><td class="n">8</td></tr>
+        <tr><td>Other</td><td class="n">95</td></tr>
+      <tr class="total"><td>No category</td><td class="n">785</td></tr>
+      <tr><td>Flagged for a deeper read</td><td class="n">150</td></tr>
+    </table>
+    <div class="codehead"><span>proposed categories · 50 proposals, 20 names</span></div>
+    <table>
+      <tr><th>proposed</th><th class="n">times</th></tr>
+        <tr><td>Zotero literature library</td><td class="n">9</td></tr>
+        <tr><td>Hint timing pilot</td><td class="n">6</td></tr>
+        <tr><td>Juno (4 names)</td><td class="n">8</td></tr>
+        <tr><td>PhD program administration (5 names)</td><td class="n">8</td></tr>
+        <tr><td>AngleBoard</td><td class="n">4</td></tr>
+        <tr><td>TACode (3 names)</td><td class="n">5</td></tr>
+        <tr><td>Claude Code compaction analysis</td><td class="n">3</td></tr>
+        <tr><td>Augmenting cognition reading group</td><td class="n">2</td></tr>
+        <tr><td>Overlay (capture demo)</td><td class="n">2</td></tr>
+        <tr><td>AI literacy / learner autonomy writing</td><td class="n">2</td></tr>
+        <tr><td>SIGCSE 2026 paper (multimodal AI assistant for DSA)</td><td class="n">1</td></tr>
+        <tr><td>Personal portfolio website</td><td class="n">1</td></tr>
+        <tr><td>ClarityX idea (shelved)</td><td class="n">1</td></tr>
+    </table>
+  </div>
+  <div class="outpane" id="out-deep">
+    <div class="codehead"><span><code>analyses</code> · 929 rows</span></div>
+    <table>
+      <tr><th>decision</th><th class="n">items</th></tr>
+      <tr><td>import</td><td class="n">656</td></tr>
+      <tr><td>pending</td><td class="n">190</td></tr>
+      <tr><td>skip</td><td class="n">82</td></tr>
+      <tr><td>failed</td><td class="n">1</td></tr>
+    </table>
+    <table>
+      <tr><th>category</th><th class="n">import</th><th class="n">pending</th><th class="n">skip</th></tr>
+        <tr><td>Engelbart / Mathetic</td><td class="n">326</td><td class="n">71</td><td class="n">1</td></tr>
+        <tr><td>TutorTrace / VizPI</td><td class="n">181</td><td class="n">57</td><td class="n">0</td></tr>
+        <tr><td>IDETrace</td><td class="n">75</td><td class="n">17</td><td class="n">0</td></tr>
+        <tr><td>Berkeley research chats</td><td class="n">51</td><td class="n">8</td><td class="n">0</td></tr>
+        <tr><td>Thematic analysis</td><td class="n">2</td><td class="n">1</td><td class="n">0</td></tr>
+        <tr><td>papert-lab-proto</td><td class="n">6</td><td class="n">4</td><td class="n">0</td></tr>
+        <tr><td>Dynamite</td><td class="n">26</td><td class="n">1</td><td class="n">0</td></tr>
+        <tr><td>ISE 6664 course project</td><td class="n">59</td><td class="n">11</td><td class="n">0</td></tr>
+        <tr><td>Teaching (CS 3604 GTA)</td><td class="n">31</td><td class="n">1</td><td class="n">0</td></tr>
+        <tr><td>Sophia for Educators (archived)</td><td class="n">9</td><td class="n">10</td><td class="n">0</td></tr>
+        <tr><td>Earlier Next.js classroom project (2024)</td><td class="n">3</td><td class="n">4</td><td class="n">2</td></tr>
+        <tr><td>Other</td><td class="n">0</td><td class="n">4</td><td class="n">5</td></tr>
+    </table>
+  </div>
 </section>
 
 </main>
@@ -493,6 +577,54 @@
     { "id": "other", "label": "Other / new topic", "origin": "system" }
   ],
   "created_at": "2026-10-18T04:06:30Z"
+}
+</script>
+
+<script type="application/json" id="j-runs">
+{
+ "id": "run_001",
+ "dataset_id": "benchmark_001",
+ "date": "2026-10-18",
+ "config": {
+  "model": "claude-sonnet-5-5",
+  "cli": "claude -p (headless; no settings, MCP, slash commands, memory or session persistence)",
+  "skills": [
+   "wave1-categories-v1",
+   "wave2-shallow-sort-v1",
+   "deep-pass-v1"
+  ],
+  "slots": 4,
+  "retries": 2,
+  "wave2_batch_size": {
+   "chats_and_sessions": 25,
+   "other": 50
+  },
+  "deep_budget_chars": {
+   "per_item": 60000,
+   "per_unit": 4000
+  },
+  "sample": {
+   "items": 1686,
+   "seed": 17,
+   "rule": "up to 60 per source (Gmail 300), even authentic/synthetic split"
+  },
+  "start": {
+   "user_categories": null,
+   "project_description": null
+  },
+  "person": {
+   "confirm_categories": "accepted unchanged",
+   "pick": "every category except Other"
+  }
+ },
+ "performance": {
+  "minutes": 27,
+  "cost_usd": 38.36,
+  "calls": 994,
+  "input_tokens": 8446937,
+  "output_tokens": 738168
+ },
+ "scored": false
 }
 </script>
 
@@ -1130,6 +1262,36 @@ txModal.querySelector(".txm-close").addEventListener("click", () => txModal.clos
 txModal.addEventListener("click", e => { if (e.target === txModal) txModal.close(); });
 txModal.addEventListener("close", () => { if (txOpener) txOpener.focus(); txOpener = null; });
 
+const TYPICAL_PATH = {
+  "obsidian": "~/Documents/&lt;vault&gt;/ (vaults listed in ~/Library/Application Support/obsidian/obsidian.json)",
+  "notion": "notion.so",
+  "apple-notes": "~/Library/Group Containers/group.com.apple.notes/NoteStore.sqlite",
+  "onenote": "onenote.com (Microsoft 365)",
+  "google-docs": "drive.google.com",
+  "evernote": "evernote.com",
+  "granola": "~/Library/Application Support/Granola/",
+  "google-meet": "Google Drive ▸ Meet Recordings",
+  "zoom": "~/Documents/Zoom/",
+  "gmail": "mail.google.com",
+  "chatgpt": "chatgpt.com",
+  "claude": "claude.ai",
+  "claude-code": "~/.claude/projects/",
+  "codex": "~/.codex/sessions/",
+  "cursor": "~/Library/Application Support/Cursor/User/globalStorage/state.vscdb",
+  "grok": "grok.com",
+  "gemini": "gemini.google.com",
+  "perplexity": "perplexity.ai",
+  "assistant-memory": "ChatGPT, Claude and Gemini settings ▸ memory",
+  "zotero": "~/Zotero/zotero.sqlite",
+  "overleaf": "overleaf.com",
+  "pdfs": "~/Downloads, ~/Documents, ~/Desktop",
+  "github": "github.com and local clones (e.g. ~/Projects/)",
+  "websites": "browser bookmarks and saved pages",
+  "linear": "linear.app",
+  "browser-history": "~/Library/Application Support/Google/Chrome/&lt;profile&gt;/History",
+  "local-notes": "~/Documents, ~/Desktop",
+};
+
 // source list
 const list = document.getElementById("srclist");
 let lastGroup = null;
@@ -1157,7 +1319,7 @@ function showSource(id) {
   const d = document.getElementById("srcdetail");
   d.textContent = "";
   d.append(el("h2", { text: src.label }));
-  d.append(el("div", { class: "muted", text: src.id + "/" }));
+  d.append(el("div", { class: "muted", html: "<code>" + TYPICAL_PATH[src.id] + "</code>" }));
 
   const facts = el("dl", { class: "facts" });
   fact(facts, "Stored as", src.stored);
@@ -1180,6 +1342,12 @@ function showSource(id) {
   if (src.s.prov === "synthetic") det.append(el("p", { class: "muted", html: "<code>modeled_on</code> is an addition from the <code>/goal</code> manifest rule, not part of the original schema." }));
   d.append(det);
 }
+
+// run output tabs
+document.querySelectorAll("#outnav button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll("#outnav button").forEach(x => x.classList.toggle("on", x === b));
+  document.querySelectorAll(".outpane").forEach(p => p.classList.toggle("on", p.id === "out-" + b.dataset.out));
+}));
 
 // tabs
 const TABS = ["dataset", "tables", "sources", "pipeline", "history"];

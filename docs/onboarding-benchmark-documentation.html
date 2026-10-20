@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Onboarding Benchmark and Dataset Documentation</title>
+<title>Onboarding Benchmark Documentation</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   :root { --ink: #1a1a1a; --muted: #6e6e6e; --line: #e8e8e8; --code: #f6f6f6; --accent: #2f6b4f;
@@ -48,7 +48,7 @@
   .srclist button { display: block; width: 100%; padding: 2px 0; border: 0; background: none; text-align: left; font: inherit; color: var(--ink); cursor: pointer; }
   .srclist button:hover { text-decoration: underline; text-underline-offset: 3px; }
   .srclist button.on { color: var(--accent); }
-  .facts { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 12px; margin: 16px 0 0; }
+  .facts { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 10px 12px; margin: 16px 0 0; }
   .facts dt { color: var(--muted); }
   .facts dd { margin: 0; min-width: 0; }
   .facts ul { margin: 0; }
@@ -97,10 +97,15 @@
   .by[data-tip]:hover::after, .by[data-tip]:focus::after { content: attr(data-tip); position: absolute; left: 0; top: calc(100% + 4px); z-index: 10;
     width: max-content; max-width: 240px; padding: 4px 8px; background: #fff; border: 1px solid var(--line); border-radius: 3px;
     color: var(--ink); font-size: 12px; white-space: normal; }
-  table.tables td.go { color: var(--muted); white-space: nowrap; text-align: right; width: 1%; }
+  table.tables td.go { color: var(--muted); white-space: nowrap; width: 1%; padding-left: 32px; padding-right: 4px; }
+  table.tables td.when { padding-right: 32px; }
+  .facts .synth { margin-top: 4px; }
   table.tables tr.tx-row:hover td.go { color: var(--accent); }
   table.tables td:nth-child(4) { width: 1%; }
-  table.tables td.path { white-space: nowrap; color: var(--muted); }
+  table.tables td.when { white-space: nowrap; color: var(--muted); }
+  #txmodal table.runlist { margin-top: 16px; }
+  #txmodal tr.run-pick.on td { background: #f3f3f3; }
+  details.cfgbox > summary { font-size: 14px; font-weight: 600; color: var(--ink); margin-top: 28px; }
   tr.total td { font-weight: 600; }
   #out-w1 td:last-child, #out-w1 th:last-child { white-space: nowrap; }
   a.ext { color: var(--accent); }
@@ -112,7 +117,7 @@
   tr.run-row.open .runname { text-decoration: none; }
   .outpane { display: none; }
   .outpane.on { display: block; }
-  dl.cfg { grid-template-columns: 128px minmax(0, 1fr); margin-bottom: 8px; }
+  dl.cfg { grid-template-columns: 128px minmax(0, 1fr); gap: 4px 12px; margin-bottom: 8px; }
   td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
   table.runs td, table.runs th { white-space: nowrap; }
   table.runs td.wrap { white-space: normal; }
@@ -128,7 +133,7 @@
 <body>
 <div class="page">
 <header>
-  <h1>Onboarding Benchmark and Dataset Documentation</h1>
+  <h1>Onboarding Benchmark Documentation</h1>
   <p>A benchmark for assessing how well agents aggregate, classify and categorize a person's data across <span class="sources-hover" tabindex="0">30 sources<span class="sources-list" role="tooltip">ChatGPT, Claude, Gemini, Grok, Perplexity, assistant memory, Claude Code, Codex, Cursor, GitHub, Gmail, Outlook, Slack, Linear, Google Drive / Docs, Notion, Obsidian, Apple Notes, OneNote, Evernote, Granola, Google Meet, Zoom, Zotero, Overleaf, PDFs, local notes, local files, websites and browser history</span></span>.</p>
   <nav id="tabs">
     <a href="#repo" data-tab="repo" class="on">Repo</a>
@@ -148,11 +153,13 @@
     <p class="muted"><a class="ext" href="https://github.com/Mathetic-PBC/onboarding-benchmark" target="_blank" rel="noopener">github.com/Mathetic-PBC/onboarding-benchmark</a> (private)</p>
 <pre>onboarding-benchmark/
   docs/                            this page
-  skills/                          the three skills the import agent runs
+  skills/                          the skills the import agent runs
     wave1-categories-v1/           builds the category list
     wave2-shallow-sort-v1/         files each item from a short sample
+    wave2-new-categories-v1/       adds the categories wave 2 found that the list was missing
     deep-pass-v1/                  rereads items in full, decides what gets imported
   prompts/                         the same passes as prompt modules
+  run/                             runs the pipeline for one run (BENCH_RUN=run_002)
   scripts/                         import scripts that build the dataset
     synth/                         one generator per source for the synthetic data
   dataset/
@@ -178,13 +185,13 @@
 <section class="panel" id="tab-tables">
   <h2>Tables</h2>
   <table class="tx tables">
-    <tr><th>name</th><th>path</th><th>description</th><th class="n">rows</th><th></th></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-datasets"><td><code>datasets</code></td><td class="path"><code>dataset/tables/datasets.json</code></td><td>one row per benchmark</td><td class="n">1</td><td class="go">Sample ›</td></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-gtprojects"><td><code>ground_truth_projects</code></td><td class="path"><code>dataset/tables/ground_truth_projects.json</code></td><td>ground truth classification of my own projects</td><td class="n">23</td><td class="go">Sample ›</td></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-gencats"><td><code>generated_categories</code></td><td class="path"><code>dataset/tables/generated_categories.json</code></td><td>each category list the import agent generates in a run</td><td class="n">2</td><td class="go">Sample ›</td></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-stage0" data-same="1"><td><code>source_items</code></td><td class="path"><code>dataset/tables/source_items.json</code></td><td>one row per item</td><td class="n">23,558</td><td class="go">Sample ›</td></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-analysis1" data-same="1"><td><code>analyses</code></td><td class="path"><code>dataset/tables/analyses.json</code></td><td>one row per agent pass over an item</td><td class="n">2,615</td><td class="go">Sample ›</td></tr>
-    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-runs"><td><code>runs</code></td><td class="path"><code>dataset/tables/runs.json</code></td><td>one row per benchmark run: its config and performance</td><td class="n">1</td><td class="go">Sample ›</td></tr>
+    <tr><th>name</th><th>what it holds</th><th>last updated</th><th class="n">rows</th><th></th></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-datasets"><td><code>datasets</code></td><td>Represents one collection of data (id, date, person, description)</td><td class="when">Oct 17, 2026, 11:15 PM</td><td class="n">1</td><td class="go">Sample ›</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-stage0" data-same="1"><td><code>source_items</code></td><td>Every piece of data collected from each <span class="sources-hover" tabindex="0">source<span class="sources-list" role="tooltip">ChatGPT, Claude, Gemini, Grok, Perplexity, assistant memory, Claude Code, Codex, Cursor, GitHub, Gmail, Outlook, Slack, Linear, Google Drive / Docs, Notion, Obsidian, Apple Notes, OneNote, Evernote, Granola, Google Meet, Zoom, Zotero, Overleaf, PDFs, local notes, local files, websites and browser history</span></span> (e.g. a chat conversation, an Overleaf zip, an email thread)</td><td class="when">Oct 18, 2026, 11:36 AM</td><td class="n">23,558</td><td class="go">Sample ›</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-gencats"><td><code>generated_categories</code></td><td>Generated categories (projects the agent proposes the user is working on)</td><td class="when">Oct 18, 2026, 4:36 PM</td><td class="n">2</td><td class="go">Sample ›</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-analysis1" data-same="1"><td><code>analyses</code></td><td>Either a classification (wave 2) or a deep understanding and categorization into the library (deep pass)</td><td class="when">Oct 18, 2026, 4:36 PM</td><td class="n">2,615</td><td class="go">Sample ›</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-runs" data-list="runs"><td><code>runs</code></td><td>Represents a benchmark run and all its associated config and performance data</td><td class="when">Oct 20, 2026, 2:30 PM</td><td class="n">4</td><td class="go">Sample ›</td></tr>
+    <tr class="tx-row" tabindex="0" aria-haspopup="dialog" data-json-id="j-gtprojects"><td><code>ground_truth_projects</code></td><td>Ground truth list of my own projects (the answer key the agent is scored against)</td><td class="when">Oct 18, 2026, 10:58 AM</td><td class="n">23</td><td class="go">Sample ›</td></tr>
   </table>
   <dialog id="txmodal" aria-labelledby="txmodal-title">
     <button class="txm-close" type="button" aria-label="Close">×</button>
@@ -203,19 +210,21 @@
 <!-- ============ PIPELINE ============ -->
 <section class="panel" id="tab-pipeline">
   <div class="stagenav" id="stagenav">
-    <button type="button" data-stage="stage0" class="on">Stage 0: source rows</button>
+    <button type="button" data-stage="stage0" class="on">Stage 0: aggregating data</button>
     <button type="button" data-stage="wave1">Wave 1: category list</button>
     <button type="button" data-stage="wave2">Wave 2: shallow pass</button>
     <button type="button" data-stage="deep">Deep pass</button>
-    <button type="button" data-stage="library">Library</button>
   </div>
 
   <div class="stage on" id="st-stage0">
-    <h2>Stage 0: source rows</h2>
-    <p>An import script per platform copies each original into <code>benchmark-data/</code>, hashes it and writes one <code>source_items</code> row per item, in code with no model, and leaves <code>library_item_id</code> null.</p>
+    <h2>Stage 0: aggregating data</h2>
+    <p>Every source is collected the same way. Each item in it, a file or a folder (a chat, an email thread, a document, a repo…), is copied as it is and gets one <code>source_items</code> row in the format below, through these steps. This is all code, with no model, and nothing goes into the library yet.</p>
     <table class="who">
       <tr><th>step</th><th>done by</th></tr>
-      <tr><td>List every item, copy the original, hash it, write its <code>source_items</code> row</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
+      <tr><td>List every item in the source</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
+      <tr><td>Copy the original file or folder into the dataset, unchanged</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
+      <tr><td>Hash its content, so later changes can be spotted</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
+      <tr><td>Write its <code>source_items</code> row: source, title, dates, path to the copy, hash, and metadata (<code>library_item_id</code> left null)</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
     </table>
     <div data-json="j-stage0" data-label="source_items"></div>
     <details>
@@ -246,13 +255,13 @@
         <tr><td><code>ground_truth</code></td><td>hidden from the agent. <code>unlabeled</code> until reviewed; <code>reviewed</code> with empty <code>project_ids</code> means "belongs to no project"</td></tr>
       </table>
       <h3>Project ids used as ground truth in the samples</h3>
-      <p><code>project_engelbart</code>, <code>project_engelbart_import</code>, <code>project_tutortrace</code>, <code>project_idetrace</code>, <code>project_custody_verification</code>, <code>project_berkeley</code>, <code>project_spec_design</code>. They are rows in <code>ground_truth_projects</code> (see the Dataset tab).</p>
+      <p><code>project_engelbart</code>, <code>project_engelbart_import</code>, <code>project_tutortrace</code>, <code>project_idetrace</code>, <code>project_custody_verification</code>, <code>project_berkeley</code>, <code>project_spec_design</code>. They are rows in <code>ground_truth_projects</code> (see the Tables tab).</p>
     </details>
   </div>
 
   <div class="stage" id="st-wave1">
     <h2>Wave 1: category list</h2>
-    <p>Wave 1 asks each source the same question in parallel: what has this person worked on? ChatGPT and Claude are each sent a profile prompt in the signed-in browser and answer from memory. One agent run on the Mac reads the Claude Code and Codex session logs and local git history. One merge agent then turns the three profiles, the project title and description, and any categories the person typed into the category list. It reads no individual items.</p>
+    <p>Builds the list of projects to sort into. ChatGPT, Claude and a local agent (reading Claude Code, Codex and git history) each describe what the person worked on this past year. A merge step turns the three answers into one category list, and the person confirms it. No individual items are read.</p>
     <table class="who">
       <tr><th>step</th><th>done by</th></tr>
       <tr><td>Ask ChatGPT and Claude for a profile of the past year</td><td><span class="by model" tabindex="0" data-tip="a model call">Model</span> <span class="muted">(the assistant, from its memory)</span></td></tr>
@@ -275,7 +284,7 @@
 
   <div class="stage" id="st-wave2">
     <h2>Wave 2: shallow pass</h2>
-    <p>Wave 2 runs concurrently over everything else, including the ChatGPT and Claude chat lists, Claude Code and Codex sessions, Drive, Gmail, notes, PDFs, GitHub and Overleaf. It reads metadata and a short snippet against <code>catset_v2</code>. Items that fit no category become proposed categories, which go back to the list after a duplicate check. The person then picks which categories go to the deep pass.</p>
+    <p>A quick first sort of every item. The agent sees only a short snippet of each (title, date, opening lines) and puts it in a category, or proposes a new one. Proposals that enough items back become new categories, and the items under Other are sorted again against them. Nothing is imported. The person then picks which categories to bring in.</p>
     <table class="who">
       <tr><th>step</th><th>done by</th></tr>
       <tr><td>List every source, build each item's snippet, cut the list into batches of about 50</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
@@ -283,9 +292,14 @@
       <tr><td>Settle items from a free signal (folder, Drive folder, Gmail label)</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
       <tr><td>Assign categories, confidence and evidence, flag items for a deeper read, propose new categories</td><td><span class="by model" tabindex="0" data-tip="a model call">Model</span></td></tr>
       <tr><td>Split each answer into one <code>analyses</code> row per item; drop evidence quotes not found in the item</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
-      <tr><td>Check proposed categories for duplicates and add them to the list</td><td><span class="by model" tabindex="0" data-tip="a model call">Model</span> <span class="muted">(the merge prompt again)</span></td></tr>
+      <tr><td>Group the proposed categories by name, with the items and sources behind each</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
+      <tr><td>Merge proposals that name the same work, match them to categories already on the list, or drop them (<code>wave2-new-categories-v1</code>)</td><td><span class="by model" tabindex="0" data-tip="a model call">Model</span></td></tr>
+      <tr><td>Keep new categories backed by 3+ items or items from 2+ sources, and save the list as <code>catset_v3</code></td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
+      <tr><td>Confirm the new categories</td><td><span class="by person" tabindex="0" data-tip="the person's choice (simulated in a run)">Person</span></td></tr>
+      <tr><td>Sort the items filed under Other, or that proposed a category, again against <code>catset_v3</code></td><td><span class="by model" tabindex="0" data-tip="a model call">Model</span> <span class="muted">(the shallow sort again)</span></td></tr>
       <tr><td>Pick which categories go to the deep pass</td><td><span class="by person" tabindex="0" data-tip="the person's choice (simulated in a run)">Person</span></td></tr>
     </table>
+    <p class="muted">run_001 skipped the new-categories step, so its proposals never became categories. From run_002 on it runs as <code>new_categories</code> then <code>resort</code> in <code>run/pipeline.py</code>; the deep pass then works from <code>catset_v3</code>.</p>
     <h3>How wave 2 runs</h3>
     <ul>
       <li>Listing: every source starts listing in code at the beginning, so nothing waits on the model. Sources read through the signed-in browser (ChatGPT, Claude, Drive, Gmail) may take turns; local sources don't.</li>
@@ -327,7 +341,7 @@
 
   <div class="stage" id="st-deep">
     <h2>Deep pass</h2>
-    <p>The deep pass is the only step that writes to the library. It reads the whole of each item in a picked category, re-judges it, and decides import, skip or pending. On import, code (not the agent) inserts or reuses a library row and writes <code>library_item_id</code> back to the source row.</p>
+    <p>A careful second look at the items in the picked categories. The agent reads each one in full and decides import, skip or unsure (pending). Code then adds the imported items to the library; this is the only step that writes to it.</p>
     <table class="who">
       <tr><th>step</th><th>done by</th></tr>
       <tr><td>Choose the qualifying items and assemble each one's full text (truncated past the budget)</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
@@ -354,19 +368,9 @@
       <p>Writing <code>library_item_id</code> back is what keeps a retry from creating a second library row.</p>
       <p>The report is what the person sees at the end: found, looked at, brought in, skipped and unsure, per source. It says what each judgment was based on, so the limits are visible.</p>
     </details>
-  </div>
 
-
-  <div class="stage" id="st-library">
-  <h2>Before the deep pass</h2>
-  <p class="muted">No <code>library</code> rows for these items. Stage 0, wave 1 and wave 2 add only <code>analyses</code> rows.</p>
-    <table class="who">
-      <tr><th>step</th><th>done by</th></tr>
-      <tr><td>Insert library rows and <code>library_categories</code> links</td><td><span class="by code" tabindex="0" data-tip="deterministic">Code</span></td></tr>
-    </table>
-
-  <h2 style="margin-top:36px">After the deep pass</h2>
-  <p class="muted">One column per new <code>library</code> row; <code>item_003</code> was looked at and never imported.</p>
+  <h3>Library after the deep pass</h3>
+  <p class="muted">Before the deep pass there are no <code>library</code> rows for these items. After it, one column per new row; <code>item_003</code> was looked at and never imported.</p>
   <table class="tx">
     <tr><th>column</th><th><code>e2a8…11</code></th><th><code>f3b9…22</code></th></tr>
     <tr><td>id</td><td><code>e2a8…11</code></td><td><code>f3b9…22</code></td></tr>
@@ -383,7 +387,7 @@
     <tr><td>tags</td><td><code>{}</code></td><td><code>{}</code></td></tr>
   </table>
 
-  <h2 style="margin-top:36px">library_categories</h2>
+  <h3><code>library_categories</code></h3>
   <p class="muted">A proposed join table, not in the code: <code>library.project_id</code> is the Engelbart project, so linking a row to one or more categories needs a separate table.</p>
   <table>
     <tr><th>library_item_id</th><th>category_id</th><th>category_set_id</th><th>analysis_id</th></tr>
@@ -392,7 +396,7 @@
   </table>
 
   <details>
-    <summary>Notes</summary>
+    <summary>Library notes</summary>
     <p>Library columns are copied from <code>LIBRARY_SCHEMA</code> in <code>src/main/store/db.cjs</code>; unlisted columns are null or their default. The link back to the app goes in <code>origin_url</code>, not <code>url</code>, following the comment in <code>db.cjs</code>.</p>
 
     <h3>What each source becomes in the library</h3>
@@ -428,6 +432,7 @@
   </details>
   </div>
 
+
 </section>
 
 <!-- ============ HISTORY ============ -->
@@ -437,13 +442,17 @@
   <div style="overflow-x:auto"><table class="runs">
     <tr><th>run</th><th>date</th><th>model</th><th class="n">items</th><th class="n">categories</th><th>deep pass</th><th class="n">time</th><th class="n">cost</th><th>scored</th></tr>
     <tr class="run-row" tabindex="0" role="button" aria-expanded="false" data-run="run_001"><td><span class="runname">run_001</span></td><td>2026-10-18</td><td>Sonnet 5.5</td><td class="n">1,686</td><td class="n">12</td><td class="wrap">656 import, 190 pending, 82 skip, 1 failed</td><td class="n">27 min</td><td class="n">$38.36</td><td>no</td></tr>
+    <tr class="run-row" tabindex="0" role="button" aria-expanded="false" data-run="run_002"><td><span class="runname">run_002</span></td><td>2026-10-19</td><td>Sonnet (Engelbart)</td><td class="n">204</td><td class="n">5</td><td class="wrap">none: onboarding as it is (204 brought in)</td><td class="n">14 min</td><td class="n">$2.32</td><td>yes</td></tr>
+    <tr class="run-row" tabindex="0" role="button" aria-expanded="false" data-run="run_004"><td><span class="runname">run_004</span></td><td>2026-10-20</td><td>Sonnet (Engelbart)</td><td class="n">74</td><td class="n">–</td><td class="wrap">none: onboarding with Chrome readers (74 brought in)</td><td class="n">6 min</td><td class="n">$1.72</td><td>yes</td></tr>
+    <tr class="run-row" tabindex="0" role="button" aria-expanded="false" data-run="run_005"><td><span class="runname">run_005</span></td><td>2026-10-20</td><td>Sonnet (Engelbart)</td><td class="n">123</td><td class="n">5</td><td class="wrap">none: onboarding by hand, cut short (123 brought in)</td><td class="n">4 min</td><td class="n">$2.58</td><td>yes</td></tr>
   </table></div>
 
   <div class="rundetail" id="run-run_001" hidden>
   <h2 style="margin-top:40px">run_001</h2>
   <p class="muted"><a class="ext" href="https://claude.ai/artifact/QCMosmA2rp2V1HcgQGasxj" target="_blank" rel="noopener">Every item's result ↗</a> (private)</p>
 
-  <h3>Config</h3>
+  <details class="cfgbox">
+  <summary>Config</summary>
   <dl class="facts cfg">
     <dt>Dataset</dt><dd><code>benchmark_001</code></dd>
     <dt>Model</dt><dd><code>claude-sonnet-5-5</code> for every call</dd>
@@ -455,8 +464,10 @@
     <dt>Sample</dt><dd>1,686 items, seed 17; up to 60 per source (Gmail 300), half authentic, half synthetic</dd>
     <dt>Sandbox</dt><dd>23,530 of 23,558 items (28 held back); leak check 0</dd>
     <dt>Start</dt><dd>no typed categories, no project description</dd>
+    <dt>New categories</dt><dd>not run (the step was added after run_001)</dd>
     <dt>Person</dt><dd>category list accepted unchanged; every category except Other picked</dd>
   </dl>
+  </details>
 
   <h3>Performance</h3>
   <table>
@@ -554,6 +565,173 @@
     </table>
   </div>
   </div>
+
+  <div class="rundetail" id="run-run_002" hidden>
+  <h2 style="margin-top:40px">run_002</h2>
+  <p class="muted">Engelbart's own onboarding as it is today, run by a script instead of by hand: the discovery agents named the projects and tools, then one import a tool brought in what pertains to them. It has no wave 1, wave 2 or deep pass, so nothing is sorted into categories; it is scored on what it does instead.</p>
+
+  <details class="cfgbox">
+  <summary>Config</summary>
+  <dl class="facts cfg">
+    <dt>Dataset</dt><dd><code>benchmark_001</code></dd>
+    <dt>Runner</dt><dd>Engelbart's <code>scripts/onboarding-scenario.cjs</code>: the onboarding screens' calls in order, no clicks, on an empty data root</dd>
+    <dt>Engelbart</dt><dd><code>onboarding-bench-recording</code> at <code>fba4a520</code> (with uncommitted changes)</dd>
+    <dt>Scenario</dt><dd><code>run/scenarios/auto-discovered.json</code>: agents (auto), the projects and tools discovery found, past year</dd>
+    <dt>Model</dt><dd>Claude Code · Sonnet · high</dd>
+    <dt>Sources picked</dt><dd>notes: Evernote, Google Docs, Notion, Obsidian, OneNote; transcripts: Google Meet, Granola, Zoom; chats: ChatGPT, Claude, Claude Code, Codex, Gemini; sites; papers: Overleaf, PDFs on this Mac; code</dd>
+    <dt>Sign-ins</dt><dd>Chrome's were not copied (the macOS prompt went unanswered), so every web app's and connector's sign-in step was skipped</dd>
+    <dt>Prompts</dt><dd>discover <code>6053cf6e6f6a</code>, import <code>9cf3db8944a0</code>, memory <code>6a5c869ed429</code>, projects <code>6d834209c126</code>, redact <code>a77f4ba2f777</code></dd>
+  </dl>
+  </details>
+
+  <h3>Performance</h3>
+  <table>
+    <tr><th>agent</th><th class="n">time</th><th class="n">turns</th><th class="n">failed</th><th class="n">input tokens</th><th class="n">output tokens</th><th class="n">cost</th></tr>
+    <tr><td>Recent projects</td><td class="n">0.2 min</td><td class="n">1</td><td class="n">0</td><td class="n">5,897</td><td class="n">1,351</td><td class="n">$0.04</td></tr><tr><td>Tools</td><td class="n">0.2 min</td><td class="n">1</td><td class="n">0</td><td class="n">10,787</td><td class="n">1,540</td><td class="n">$0.02</td></tr><tr><td>Imports</td><td class="n">7.8 min</td><td class="n">16</td><td class="n">0</td><td class="n">1,933,168</td><td class="n">31,347</td><td class="n">$1.88</td></tr><tr><td>MEMORY.md</td><td class="n">0.9 min</td><td class="n">1</td><td class="n">0</td><td class="n">150,290</td><td class="n">7,096</td><td class="n">$0.32</td></tr><tr><td>Secrets check</td><td class="n">0.4 min</td><td class="n">1</td><td class="n">0</td><td class="n">5,309</td><td class="n">4,644</td><td class="n">$0.07</td></tr>
+    <tr class="total"><td>Total</td><td class="n">14.2 min</td><td class="n">20</td><td class="n">0</td><td class="n">2,105,451</td><td class="n">45,978</td><td class="n">$2.32</td></tr>
+  </table>
+  <p class="muted">The imports run side by side, so their minutes add up to more than they took. The total includes 10 minutes waiting on the macOS sign-ins prompt. 1,681,401 of the input tokens were read from the prompt cache.</p>
+
+  <h3>Projects named</h3>
+  <p class="muted">4 of 21 ground truth projects found (discovery names at most 5); 4 of the 5 it named are real projects. Matched by one <code>claude-sonnet-5-5</code> call.</p>
+  <table>
+    <tr><th>named</th><th>ground truth project</th><th>why</th></tr>
+    <tr><td>Engelbart Canvas App</td><td>Engelbart</td><td class="muted">Desktop canvas app is a component of the Engelbart project.</td></tr><tr><td>VizGroup Programming Analytics</td><td>VizPI</td><td class="muted">Behavioral telemetry analytics for programming classrooms matches VizPI; the name differs but the work is plausibly the same.</td></tr><tr><td>Student Behavior Prediction Model</td><td>TutorTrace (UIST 2026)</td><td class="muted">Classifying learner behavioral states in AI-assisted programming matches TutorTrace.</td></tr><tr><td>Berkeley Research</td><td>Berkeley research chats</td><td class="muted">Repos berkeley-research match; same Berkeley research outreach program.</td></tr><tr><td>Thematic Analysis</td><td><span class=muted>none of them</span></td><td class="muted">Generic method; no listed project is clearly thematic analysis.</td></tr>
+  </table>
+
+  <h3>What came in</h3>
+  <p class="muted">204 items brought in (137 notes, 68 library items); 903 things listed by the agents; 219 items they listed and left out.</p>
+  <table>
+    <tr><th>import</th><th class="n">notes</th><th class="n">items</th></tr>
+    <tr><td>Notes: Obsidian</td><td class="n">7</td><td class="n">0</td></tr><tr><td>Notes: OneNote</td><td class="n">0</td><td class="n">0</td></tr><tr><td>Meeting transcripts: Zoom</td><td class="n">0</td><td class="n">0</td></tr><tr><td>AI chats: Codex</td><td class="n">61</td><td class="n">0</td></tr><tr><td>AI chats: Claude Code</td><td class="n">32</td><td class="n">0</td></tr><tr><td>Papers: PDFs on this Mac</td><td class="n">0</td><td class="n">56</td></tr><tr><td>Folders on this Mac</td><td class="n">37</td><td class="n">9</td></tr><tr><td>Pages from your browser history</td><td class="n">0</td><td class="n">2</td></tr><tr><td>Other tools: Loom</td><td class="n">0</td><td class="n">0</td></tr><tr><td>Other tools: LeetCode</td><td class="n">0</td><td class="n">0</td></tr><tr><td>Other tools: Atlassian (Jira/Confluence)</td><td class="n">0</td><td class="n">0</td></tr><tr><td>Other tools: ResearchGate</td><td class="n">0</td><td class="n">0</td></tr><tr><td>Other tools: SSRN</td><td class="n">0</td><td class="n">1</td></tr><tr><td>Other tools: Clipchamp</td><td class="n">0</td><td class="n">0</td></tr><tr><td>Other tools: interviewing.io</td><td class="n">0</td><td class="n">0</td></tr><tr><td>Other tools: Google Sites</td><td class="n">0</td><td class="n">0</td></tr>
+  </table>
+  <table>
+    <tr><th>source</th><th class="n">in the dataset</th><th class="n">brought in</th><th class="n">left out</th></tr>
+    <tr><td>claude-code</td><td class="n">3,737</td><td class="n">30</td><td class="n">7</td></tr><tr><td>claude</td><td class="n">2,235</td><td class="n">0</td><td class="n">7</td></tr><tr><td>google-docs</td><td class="n">1,644</td><td class="n">3</td><td class="n">33</td></tr><tr><td>outlook</td><td class="n">1,484</td><td class="n">0</td><td class="n">19</td></tr><tr><td>local-files</td><td class="n">901</td><td class="n">0</td><td class="n">10</td></tr><tr><td>zotero</td><td class="n">369</td><td class="n">11</td><td class="n">11</td></tr><tr><td>slack</td><td class="n">297</td><td class="n">5</td><td class="n">5</td></tr><tr><td>github</td><td class="n">258</td><td class="n">7</td><td class="n">1</td></tr><tr><td>chatgpt</td><td class="n">198</td><td class="n">0</td><td class="n">10</td></tr><tr><td>pdfs</td><td class="n">194</td><td class="n">36</td><td class="n">77</td></tr><tr><td>local-notes</td><td class="n">189</td><td class="n">0</td><td class="n">1</td></tr><tr><td>codex</td><td class="n">176</td><td class="n">98</td><td class="n">27</td></tr><tr><td>notion</td><td class="n">73</td><td class="n">0</td><td class="n">1</td></tr><tr><td>obsidian</td><td class="n">66</td><td class="n">7</td><td class="n">5</td></tr><tr><td>evernote</td><td class="n">56</td><td class="n">0</td><td class="n">1</td></tr><tr><td>granola</td><td class="n">31</td><td class="n">0</td><td class="n">1</td></tr><tr><td>websites</td><td class="n">29</td><td class="n">0</td><td class="n">1</td></tr><tr><td>overleaf</td><td class="n">28</td><td class="n">0</td><td class="n">1</td></tr><tr><td>assistant-memory</td><td class="n">15</td><td class="n">0</td><td class="n">1</td></tr>
+  </table>
+  <p class="muted">A file is counted under the source of the dataset copy it matched, so a paper in Downloads can show up under google-docs or slack.</p>
+
+  <h3>Against run_001's deep pass</h3>
+  <table>
+    <tr><th></th><th class="n">items</th></tr>
+    <tr><td>deep pass imported</td><td class="n">656</td></tr>
+    <tr><td>onboarding also brought in</td><td class="n">31</td></tr>
+    <tr><td>onboarding saw and left out</td><td class="n">17</td></tr>
+    <tr><td>onboarding never saw</td><td class="n">608</td></tr>
+    <tr><td>onboarding brought in, deep pass skipped</td><td class="n">3</td></tr>
+    <tr class="total"><td>agree, of the 56 both decided on</td><td class="n">64%</td></tr>
+  </table>
+  </div>
+  <div class="rundetail" id="run-run_004" hidden>
+  <h2 style="margin-top:40px">run_004</h2>
+  <p class="muted">The same choices as run_003-one-project (one project, Process Based Assessment, and its apps), replayed by the script, with ChatGPT, Claude and Overleaf read by Engelbart&#x27;s own fixed scripts in the person&#x27;s own Chrome (the Keychain question declined) instead of a browser agent. The projects were given, not discovered, so there is no project score.</p>
+
+  <details class="cfgbox">
+  <summary>Config</summary>
+  <dl class="facts cfg">
+    <dt>Dataset</dt><dd><code>benchmark_001</code></dd>
+    <dt>Runner</dt><dd>Engelbart's <code>scripts/onboarding-scenario.cjs</code>: the onboarding screens' calls in order, no clicks, on an empty data root</dd>
+    <dt>Engelbart</dt><dd><code>engelbart-bench-chrome (detached)</code> at <code>37745f66</code> (with uncommitted changes)</dd>
+    <dt>Scenario</dt><dd>chrome-readers, replay of run_003-one-project</dd>
+    <dt>Model</dt><dd>Claude Code · Sonnet · high</dd>
+    <dt>Sources picked</dt><dd>notes: Obsidian; transcripts: Granola, Zoom; chats: ChatGPT, Claude, Claude Code, Codex; papers: Overleaf, PDFs on this Mac, Zotero; code</dd>
+    <dt>Sign-ins</dt><dd>Keychain declined: ChatGPT, Claude and Overleaf read in the person&#x27;s Chrome through Claude in Chrome, with Engelbart&#x27;s own scripts</dd>
+    <dt>Prompts</dt><dd>import <code>9cf3db8944a0</code>, memory <code>6a5c869ed429</code>, redact <code>a77f4ba2f777</code></dd>
+  </dl>
+  </details>
+
+  <h3>Performance</h3>
+  <table>
+    <tr><th>agent</th><th class="n">time</th><th class="n">turns</th><th class="n">failed</th><th class="n">input tokens</th><th class="n">output tokens</th><th class="n">cost</th></tr>
+    <tr><td>Imports</td><td class="n">11.9 min</td><td class="n">9</td><td class="n">0</td><td class="n">1,566,375</td><td class="n">25,223</td><td class="n">$1.41</td></tr><tr><td>MEMORY.md</td><td class="n">0.8 min</td><td class="n">1</td><td class="n">0</td><td class="n">107,826</td><td class="n">6,795</td><td class="n">$0.25</td></tr><tr><td>Secrets check</td><td class="n">0.4 min</td><td class="n">1</td><td class="n">0</td><td class="n">4,965</td><td class="n">4,329</td><td class="n">$0.06</td></tr>
+    <tr class="total"><td>Total</td><td class="n">6.5 min</td><td class="n">11</td><td class="n">0</td><td class="n">1,679,166</td><td class="n">36,347</td><td class="n">$1.72</td></tr>
+  </table>
+  <p class="muted">The imports run side by side, so their minutes add up to more than they took. 1,374,608 of the input tokens were read from the prompt cache.</p>
+
+  <h3>Projects named</h3>
+  <p class="muted">Not scored: the projects were given (replayed from run_003-one-project), not discovered.</p>
+
+  <h3>What came in</h3>
+  <p class="muted">74 items brought in (45 notes, 37 library items); 1,050 things listed by the agents; 929 items they listed and left out.</p>
+  <table>
+    <tr><th>import</th><th class="n">notes</th><th class="n">items</th></tr>
+    <tr><td>Notes: Obsidian</td><td class="n">0</td><td class="n">0</td></tr><tr><td>Meeting transcripts: Zoom</td><td class="n">0</td><td class="n">0</td></tr><tr><td>AI chats: ChatGPT</td><td class="n">11</td><td class="n">0</td></tr><tr><td>AI chats: Codex</td><td class="n">2</td><td class="n">0</td></tr><tr><td>AI chats: Claude</td><td class="n">11</td><td class="n">0</td></tr><tr><td>AI chats: Claude Code</td><td class="n">13</td><td class="n">0</td></tr><tr><td>Papers: PDFs on this Mac</td><td class="n">0</td><td class="n">22</td></tr><tr><td>Folders on this Mac</td><td class="n">3</td><td class="n">2</td></tr><tr><td>Papers: Overleaf</td><td class="n">5</td><td class="n">13</td></tr>
+  </table>
+  <table>
+    <tr><th>source</th><th class="n">in the dataset</th><th class="n">brought in</th><th class="n">left out</th></tr>
+    <tr><td>claude-code</td><td class="n">3,737</td><td class="n">11</td><td class="n">26</td></tr><tr><td>claude</td><td class="n">2,235</td><td class="n">11</td><td class="n">489</td></tr><tr><td>google-docs</td><td class="n">1,644</td><td class="n">3</td><td class="n">39</td></tr><tr><td>local-files</td><td class="n">901</td><td class="n">0</td><td class="n">6</td></tr><tr><td>zotero</td><td class="n">369</td><td class="n">0</td><td class="n">22</td></tr><tr><td>slack</td><td class="n">297</td><td class="n">5</td><td class="n">5</td></tr><tr><td>chatgpt</td><td class="n">198</td><td class="n">11</td><td class="n">127</td></tr><tr><td>pdfs</td><td class="n">194</td><td class="n">16</td><td class="n">98</td></tr><tr><td>codex</td><td class="n">176</td><td class="n">2</td><td class="n">88</td></tr><tr><td>obsidian</td><td class="n">66</td><td class="n">0</td><td class="n">12</td></tr><tr><td>overleaf</td><td class="n">28</td><td class="n">10</td><td class="n">17</td></tr>
+  </table>
+  <p class="muted">A file is counted under the source of the dataset copy it matched, so a paper in Downloads can show up under google-docs or slack.</p>
+
+  <h3>Against run_001's deep pass</h3>
+  <table>
+    <tr><th></th><th class="n">items</th></tr>
+    <tr><td>deep pass imported</td><td class="n">656</td></tr>
+    <tr><td>onboarding also brought in</td><td class="n">14</td></tr>
+    <tr><td>onboarding saw and left out</td><td class="n">48</td></tr>
+    <tr><td>onboarding never saw</td><td class="n">594</td></tr>
+    <tr><td>onboarding brought in, deep pass skipped</td><td class="n">3</td></tr>
+    <tr class="total"><td>agree, of the 77 both decided on</td><td class="n">34%</td></tr>
+  </table>
+  </div>
+
+  <div class="rundetail" id="run-run_005" hidden>
+  <h2 style="margin-top:40px">run_005</h2>
+  <p class="muted">Engelbart&#x27;s onboarding done by hand in its UI, in test mode, on the combined build: the Keychain approved, so ChatGPT, Claude, Overleaf, Gmail and Google Drive are read by fixed scripts in Engelbart&#x27;s hidden browser (Google Drive&#x27;s for the first time). Cut short: the app was closed while its last job (asking ChatGPT what it remembers) ran, so MEMORY.md was never written; recorded by hand from the session. ChatGPT&#x27;s chat list answered 429 (too many requests) and Claude&#x27;s failed, so neither brought anything in.</p>
+
+  <details class="cfgbox">
+  <summary>Config</summary>
+  <dl class="facts cfg">
+    <dt>Dataset</dt><dd><code>benchmark_001</code></dd>
+    <dt>Runner</dt><dd>Engelbart's own UI, by hand, in test mode</dd>
+    <dt>Engelbart</dt><dd><code>engelbart-bench-full (detached)</code> at <code>41db8dec</code> (with uncommitted changes)</dd>
+    <dt>Scenario</dt><dd>none (done by hand)</dd>
+    <dt>Model</dt><dd>Claude Code · Sonnet · high</dd>
+    <dt>Sources picked</dt><dd>notes: Evernote, Google Docs, Notion, Obsidian, OneNote; transcripts: Google Meet, Granola, Zoom; chats: ChatGPT, Claude, Claude Code, Codex, Gemini; sites; papers: Overleaf, PDFs on this Mac; code</dd>
+    <dt>Sign-ins</dt><dd>Keychain approved: Chrome&#x27;s sign-ins copied into Engelbart&#x27;s hidden browser</dd>
+    <dt>Prompts</dt><dd>discover <code>6053cf6e6f6a</code>, import <code>1ae073f30d0c</code>, projects <code>6d834209c126</code>, recall <code>975b2a62fce0</code></dd>
+    <dt>Note</dt><dd>Cut short: the app was closed while its last job (asking ChatGPT what it remembers) ran, so MEMORY.md was never written. Recorded by hand from the session; the imports are complete.</dd>
+  </dl>
+  </details>
+
+  <h3>Performance</h3>
+  <table>
+    <tr><th>agent</th><th class="n">time</th><th class="n">turns</th><th class="n">failed</th><th class="n">input tokens</th><th class="n">output tokens</th><th class="n">cost</th></tr>
+    <tr><td>Recent projects</td><td class="n">0.2 min</td><td class="n">1</td><td class="n">0</td><td class="n">5,879</td><td class="n">1,318</td><td class="n">$0.03</td></tr><tr><td>Tools</td><td class="n">0.1 min</td><td class="n">1</td><td class="n">0</td><td class="n">10,829</td><td class="n">1,301</td><td class="n">$0.03</td></tr><tr><td>Imports</td><td class="n">12.7 min</td><td class="n">21</td><td class="n">0</td><td class="n">2,997,741</td><td class="n">28,788</td><td class="n">$2.42</td></tr><tr><td>Recalls</td><td class="n">0.9 min</td><td class="n">3</td><td class="n">0</td><td class="n">171,932</td><td class="n">2,224</td><td class="n">$0.09</td></tr>
+    <tr class="total"><td>Total</td><td class="n">3.9 min</td><td class="n">26</td><td class="n">0</td><td class="n">3,186,381</td><td class="n">33,631</td><td class="n">$2.58</td></tr>
+  </table>
+  <p class="muted">The imports run side by side, so their minutes add up to more than they took. 2,693,052 of the input tokens were read from the prompt cache.</p>
+
+  <h3>Projects named</h3>
+  <p class="muted">3 of 21 ground truth projects found (discovery names at most 5); 3 of the 5 it named are real projects. Matched by one <code>claude-sonnet-5-5</code> call.</p>
+  <table>
+    <tr><th>named</th><th>ground truth project</th><th>why</th></tr>
+    <tr><td>Engelbart Research Notebook App</td><td>Engelbart</td><td class="muted">Engelbart is Mathetic&#x27;s research notebook app.</td></tr><tr><td>Process-Based Assessment</td><td><span class=muted>none of them</span></td><td class="muted">No listed project is about process-based assessment.</td></tr><tr><td>Predicting Student Behavior Model</td><td>TutorTrace (UIST 2026)</td><td class="muted">TutorTrace classifies learner behavioral states during AI-assisted programming; closest behavior-prediction work.</td></tr><tr><td>VizGroup Collaborative Programming Analytics</td><td><span class=muted>none of them</span></td><td class="muted">VizPI is individual telemetry; no listed collaborative VizGroup project.</td></tr><tr><td>Berkeley Research Site</td><td>Berkeley research chats</td><td class="muted">Berkeley research chats include landing site berkeley.mathetic.com.</td></tr>
+  </table>
+
+  <h3>What came in</h3>
+  <p class="muted">123 items brought in (97 notes, 28 library items); 634 things listed by the agents; 175 items they listed and left out.</p>
+  <table>
+    <tr><th>import</th><th class="n">notes</th><th class="n">items</th></tr>
+    <tr><td>Notes: Obsidian</td><td class="n">7</td><td class="n">0</td></tr><tr><td>Notes: OneNote</td><td class="n">0</td><td class="n">0</td></tr><tr><td>Notes: Google Drive</td><td class="n">22</td><td class="n">0</td></tr><tr><td>Meeting transcripts: Google Meet</td><td class="n">0</td><td class="n">0</td></tr><tr><td>Meeting transcripts: Zoom</td><td class="n">0</td><td class="n">0</td></tr><tr><td>AI chats: ChatGPT</td><td class="n">0</td><td class="n">0</td></tr><tr><td>AI chats: Codex</td><td class="n">32</td><td class="n">0</td></tr><tr><td>AI chats: Claude</td><td class="n">0</td><td class="n">0</td></tr><tr><td>AI chats: Claude Code</td><td class="n">35</td><td class="n">0</td></tr><tr><td>AI chats: Gemini</td><td class="n">0</td><td class="n">0</td></tr><tr><td>Papers: Overleaf</td><td class="n">1</td><td class="n">3</td></tr><tr><td>Papers: PDFs on this Mac</td><td class="n">0</td><td class="n">14</td></tr><tr><td>GitHub</td><td class="n">0</td><td class="n">4</td></tr><tr><td>Folders on this Mac</td><td class="n">0</td><td class="n">2</td></tr><tr><td>Pages from your browser history</td><td class="n">0</td><td class="n">5</td></tr><tr><td>Other tools: Loom</td><td class="n">0</td><td class="n">0</td></tr><tr><td>Other tools: Atlassian (Jira/Confluence)</td><td class="n">0</td><td class="n">0</td></tr><tr><td>Other tools: SSRN</td><td class="n">0</td><td class="n">0</td></tr><tr><td>Other tools: ResearchGate</td><td class="n">0</td><td class="n">0</td></tr><tr><td>Other tools: Clipchamp</td><td class="n">0</td><td class="n">0</td></tr><tr><td>Other tools: LeetCode</td><td class="n">0</td><td class="n">0</td></tr>
+  </table>
+  <table>
+    <tr><th>source</th><th class="n">in the dataset</th><th class="n">brought in</th><th class="n">left out</th></tr>
+    <tr><td>claude-code</td><td class="n">3,737</td><td class="n">32</td><td class="n">5</td></tr><tr><td>claude</td><td class="n">2,235</td><td class="n">0</td><td class="n">6</td></tr><tr><td>google-docs</td><td class="n">1,644</td><td class="n">21</td><td class="n">26</td></tr><tr><td>local-files</td><td class="n">901</td><td class="n">0</td><td class="n">2</td></tr><tr><td>github</td><td class="n">258</td><td class="n">3</td><td class="n">3</td></tr><tr><td>pdfs</td><td class="n">194</td><td class="n">14</td><td class="n">43</td></tr><tr><td>codex</td><td class="n">176</td><td class="n">32</td><td class="n">58</td></tr><tr><td>notion</td><td class="n">73</td><td class="n">0</td><td class="n">1</td></tr><tr><td>obsidian</td><td class="n">66</td><td class="n">7</td><td class="n">6</td></tr><tr><td>evernote</td><td class="n">56</td><td class="n">0</td><td class="n">2</td></tr><tr><td>granola</td><td class="n">31</td><td class="n">0</td><td class="n">1</td></tr><tr><td>websites</td><td class="n">29</td><td class="n">0</td><td class="n">2</td></tr><tr><td>overleaf</td><td class="n">28</td><td class="n">2</td><td class="n">21</td></tr>
+  </table>
+  <p class="muted">A file is counted under the source of the dataset copy it matched, so a paper in Downloads can show up under google-docs or slack.</p>
+
+  <h3>Against run_001's deep pass</h3>
+  <table>
+    <tr><th></th><th class="n">items</th></tr>
+    <tr><td>deep pass imported</td><td class="n">656</td></tr>
+    <tr><td>onboarding also brought in</td><td class="n">17</td></tr>
+    <tr><td>onboarding saw and left out</td><td class="n">18</td></tr>
+    <tr><td>onboarding never saw</td><td class="n">621</td></tr>
+    <tr><td>onboarding brought in, deep pass skipped</td><td class="n">1</td></tr>
+    <tr class="total"><td>agree, of the 44 both decided on</td><td class="n">57%</td></tr>
+  </table>
+  </div>
 </section>
 
 </main>
@@ -589,51 +767,1276 @@
 </script>
 
 <script type="application/json" id="j-runs">
-{
- "id": "run_001",
- "dataset_id": "benchmark_001",
- "date": "2026-10-18",
- "config": {
-  "model": "claude-sonnet-5-5",
-  "cli": "claude -p (headless; no settings, MCP, slash commands, memory or session persistence)",
-  "skills": [
-   "wave1-categories-v1",
-   "wave2-shallow-sort-v1",
-   "deep-pass-v1"
-  ],
-  "slots": 4,
-  "retries": 2,
-  "wave2_batch_size": {
-   "chats_and_sessions": 25,
-   "other": 50
+[
+ {
+  "id": "run_001",
+  "dataset_id": "benchmark_001",
+  "date": "2026-10-18",
+  "config": {
+   "model": "claude-sonnet-5-5",
+   "cli": "claude -p (headless; no settings, MCP, slash commands, memory or session persistence)",
+   "skills": [
+    "wave1-categories-v1",
+    "wave2-shallow-sort-v1",
+    "deep-pass-v1"
+   ],
+   "slots": 4,
+   "retries": 2,
+   "wave2_batch_size": {
+    "chats_and_sessions": 25,
+    "other": 50
+   },
+   "deep_budget_chars": {
+    "per_item": 60000,
+    "per_unit": 4000
+   },
+   "sample": {
+    "items": 1686,
+    "seed": 17,
+    "rule": "up to 60 per source (Gmail 300), even authentic/synthetic split"
+   },
+   "sandbox": {
+    "items": 23530,
+    "of": 23558,
+    "held_back": 28,
+    "leak_check_hits": 0
+   },
+   "new_categories": "not run (the step was added after run_001)",
+   "start": {
+    "user_categories": null,
+    "project_description": null
+   },
+   "person": {
+    "confirm_categories": "accepted unchanged",
+    "pick": "every category except Other"
+   }
   },
-  "deep_budget_chars": {
-   "per_item": 60000,
-   "per_unit": 4000
+  "results": {
+   "categories": 12,
+   "wave2": {
+    "rows": 1686,
+    "no_category": 785,
+    "flagged_for_deep_read": 150,
+    "proposed_categories": 50
+   },
+   "deep_pass": {
+    "rows": 929,
+    "import": 656,
+    "pending": 190,
+    "skip": 82,
+    "failed": 1
+   }
   },
-  "sample": {
-   "items": 1686,
-   "seed": 17,
-   "rule": "up to 60 per source (Gmail 300), even authentic/synthetic split"
+  "performance": {
+   "minutes": 27,
+   "cost_usd": 38.36,
+   "calls": 994,
+   "input_tokens": 8446937,
+   "output_tokens": 738168,
+   "by_stage": {
+    "wave1": {
+     "seconds": 54,
+     "calls": 4,
+     "failed": 0,
+     "input_tokens": 206058,
+     "output_tokens": 12027,
+     "cost_usd": 0.41
+    },
+    "wave2": {
+     "minutes": 7.6,
+     "calls": 62,
+     "failed": 0,
+     "input_tokens": 1412042,
+     "output_tokens": 313698,
+     "cost_usd": 8.64
+    },
+    "deep": {
+     "minutes": 18.3,
+     "calls": 928,
+     "failed": 1,
+     "input_tokens": 6828837,
+     "output_tokens": 412443,
+     "cost_usd": 29.32
+    }
+   }
   },
-  "start": {
-   "user_categories": null,
-   "project_description": null
-  },
-  "person": {
-   "confirm_categories": "accepted unchanged",
-   "pick": "every category except Other"
-  }
+  "scored": false
  },
- "performance": {
-  "minutes": 27,
-  "cost_usd": 38.36,
-  "calls": 994,
-  "input_tokens": 8446937,
-  "output_tokens": 738168
+ {
+  "id": "run_002",
+  "dataset_id": "benchmark_001",
+  "date": "2026-10-19",
+  "config": {
+   "runner": "engelbart-script",
+   "scenario": "auto-discovered",
+   "mode": "auto",
+   "engelbart": {
+    "repo": "engelbart-bench-recording",
+    "branch": "onboarding-bench-recording",
+    "commit": "fba4a520",
+    "dirty": true
+   },
+   "provider": "anthropic",
+   "model": "Sonnet",
+   "effort": "high",
+   "agent": "Claude Code",
+   "permissions": {
+    "files": true,
+    "browser": true,
+    "recall": true,
+    "notes": false
+   },
+   "sources_picked": {
+    "notes": [
+     "Evernote",
+     "Google Docs",
+     "Notion",
+     "Obsidian",
+     "OneNote"
+    ],
+    "transcripts": [
+     "Google Meet",
+     "Granola",
+     "Zoom"
+    ],
+    "chats": [
+     "ChatGPT",
+     "Claude",
+     "Claude Code",
+     "Codex",
+     "Gemini"
+    ],
+    "sites": [
+     "on"
+    ],
+    "papers": [
+     "Overleaf",
+     "PDFs on this Mac"
+    ],
+    "code": [
+     "on"
+    ]
+   },
+   "custom_instructions": false,
+   "data_root": null,
+   "prompts": {
+    "discover": [
+     "6053cf6e6f6a"
+    ],
+    "import": [
+     "9cf3db8944a0"
+    ],
+    "memory": [
+     "6a5c869ed429"
+    ],
+    "projects": [
+     "6d834209c126"
+    ],
+    "redact": [
+     "a77f4ba2f777"
+    ]
+   }
+  },
+  "results": {
+   "categories": 5,
+   "jobs": {
+    "import:done": 16,
+    "memory:done": 1,
+    "redact:done": 1
+   },
+   "notes": 137,
+   "items": 68,
+   "imported": 204,
+   "imported_from_tool_calls": 67,
+   "matched_to_source_items": 197,
+   "match": {
+    "exact": 197,
+    "none": 6,
+    "ambiguous": 1
+   },
+   "listed": 903,
+   "skipped_matched": {
+    "listed, not chosen": 219
+   },
+   "tool_calls": {
+    "list_note_files": 2,
+    "list_chats": 4,
+    "list_pdfs": 8,
+    "browser_open": 8,
+    "browser_read": 3,
+    "needs_you": 6,
+    "import_note_files": 1,
+    "read_chat": 2,
+    "browser_history": 10,
+    "browser_bookmarks": 2,
+    "links_in_notes": 2,
+    "add_to_library": 13,
+    "import_chats": 3,
+    "folder_overview": 1,
+    "browser_wait": 1,
+    "browser_screenshot": 1,
+    "import_pdfs": 1
+   },
+   "score": {
+    "projects": {
+     "named": 5,
+     "named_real": 4,
+     "found": 4,
+     "of": 21,
+     "recall": 0.19,
+     "precision": 0.8,
+     "missed": [
+      "Augmenting-cognition reading group",
+      "CS 3604 teaching assistantship",
+      "ClarityX",
+      "Claude Code plugins / human-driven compaction",
+      "Dynamite",
+      "Endurance training",
+      "EthicConvo",
+      "IDETrace (NeurIPS submission)",
+      "ISE 6664 course project",
+      "Juno",
+      "Mathetic / Papert Lab (company)",
+      "Music production",
+      "Personal portfolio site",
+      "PlotPact",
+      "Sophia / Sophia for Educators",
+      "TACode",
+      "VT PhD administration"
+     ],
+     "matches": [
+      {
+       "named": "Engelbart Canvas App",
+       "project_id": "project_engelbart",
+       "why": "Desktop canvas app is a component of the Engelbart project."
+      },
+      {
+       "named": "VizGroup Programming Analytics",
+       "project_id": "project_vizpi",
+       "why": "Behavioral telemetry analytics for programming classrooms matches VizPI; the name differs but the work is plausibly the same."
+      },
+      {
+       "named": "Student Behavior Prediction Model",
+       "project_id": "project_tutortrace",
+       "why": "Classifying learner behavioral states in AI-assisted programming matches TutorTrace."
+      },
+      {
+       "named": "Berkeley Research",
+       "project_id": "project_berkeley_research_chats",
+       "why": "Repos berkeley-research match; same Berkeley research outreach program."
+      },
+      {
+       "named": "Thematic Analysis",
+       "project_id": null,
+       "why": "Generic method; no listed project is clearly thematic analysis."
+      }
+     ],
+     "judge": "claude-sonnet-5-5",
+     "judge_cost_usd": 0.0048,
+     "note": "discovery names at most 5 projects, so recall is capped at 5 of the list"
+    },
+    "by_source": {
+     "gmail": {
+      "items": 11039,
+      "imported": 0,
+      "skipped": 0
+     },
+     "claude-code": {
+      "items": 3737,
+      "imported": 30,
+      "skipped": 7
+     },
+     "claude": {
+      "items": 2235,
+      "imported": 0,
+      "skipped": 7
+     },
+     "google-docs": {
+      "items": 1644,
+      "imported": 3,
+      "skipped": 33
+     },
+     "outlook": {
+      "items": 1484,
+      "imported": 0,
+      "skipped": 19
+     },
+     "local-files": {
+      "items": 901,
+      "imported": 0,
+      "skipped": 10
+     },
+     "zotero": {
+      "items": 369,
+      "imported": 11,
+      "skipped": 11
+     },
+     "slack": {
+      "items": 297,
+      "imported": 5,
+      "skipped": 5
+     },
+     "github": {
+      "items": 258,
+      "imported": 7,
+      "skipped": 1
+     },
+     "linear": {
+      "items": 209,
+      "imported": 0,
+      "skipped": 0
+     },
+     "chatgpt": {
+      "items": 198,
+      "imported": 0,
+      "skipped": 10
+     },
+     "pdfs": {
+      "items": 194,
+      "imported": 36,
+      "skipped": 77
+     },
+     "local-notes": {
+      "items": 189,
+      "imported": 0,
+      "skipped": 1
+     },
+     "codex": {
+      "items": 176,
+      "imported": 98,
+      "skipped": 27
+     },
+     "notion": {
+      "items": 73,
+      "imported": 0,
+      "skipped": 1
+     },
+     "obsidian": {
+      "items": 66,
+      "imported": 7,
+      "skipped": 5
+     },
+     "gemini": {
+      "items": 63,
+      "imported": 0,
+      "skipped": 0
+     },
+     "evernote": {
+      "items": 56,
+      "imported": 0,
+      "skipped": 1
+     },
+     "apple-notes": {
+      "items": 54,
+      "imported": 0,
+      "skipped": 0
+     },
+     "perplexity": {
+      "items": 48,
+      "imported": 0,
+      "skipped": 0
+     },
+     "onenote": {
+      "items": 40,
+      "imported": 0,
+      "skipped": 0
+     },
+     "cursor": {
+      "items": 38,
+      "imported": 0,
+      "skipped": 0
+     },
+     "grok": {
+      "items": 35,
+      "imported": 0,
+      "skipped": 0
+     },
+     "granola": {
+      "items": 31,
+      "imported": 0,
+      "skipped": 1
+     },
+     "websites": {
+      "items": 29,
+      "imported": 0,
+      "skipped": 1
+     },
+     "overleaf": {
+      "items": 28,
+      "imported": 0,
+      "skipped": 1
+     },
+     "google-meet": {
+      "items": 26,
+      "imported": 0,
+      "skipped": 0
+     },
+     "browser-history": {
+      "items": 18,
+      "imported": 0,
+      "skipped": 0
+     },
+     "assistant-memory": {
+      "items": 15,
+      "imported": 0,
+      "skipped": 1
+     },
+     "zoom": {
+      "items": 8,
+      "imported": 0,
+      "skipped": 0
+     }
+    },
+    "sources_reached": [
+     "claude-code",
+     "codex",
+     "github",
+     "google-docs",
+     "obsidian",
+     "pdfs",
+     "slack",
+     "zotero"
+    ],
+    "vs_run_001_deep_pass": {
+     "deep_pass_items": 738,
+     "deep_pass_imports": 656,
+     "decided_by_both": 56,
+     "agree": 36,
+     "agreement": 0.643,
+     "deep_imports_onboarding_also_imported": 31,
+     "deep_imports_onboarding_skipped": 17,
+     "deep_imports_onboarding_never_saw": 608,
+     "onboarding_imports_deep_skipped": 3
+    }
+   }
+  },
+  "performance": {
+   "minutes": 14.2,
+   "turns": 20,
+   "failed_turns": 0,
+   "by_kind": {
+    "projects": {
+     "turns": 1,
+     "failed": 0,
+     "minutes": 0.2,
+     "input_tokens": 5897,
+     "cache_read_tokens": 0,
+     "output_tokens": 1351,
+     "cost_usd": 0.0371,
+     "turns_without_usage": 0
+    },
+    "discover": {
+     "turns": 1,
+     "failed": 0,
+     "minutes": 0.2,
+     "input_tokens": 10787,
+     "cache_read_tokens": 10785,
+     "output_tokens": 1540,
+     "cost_usd": 0.0165,
+     "turns_without_usage": 0
+    },
+    "import": {
+     "turns": 16,
+     "failed": 0,
+     "minutes": 7.8,
+     "input_tokens": 1933168,
+     "cache_read_tokens": 1580203,
+     "output_tokens": 31347,
+     "cost_usd": 1.8831,
+     "turns_without_usage": 0
+    },
+    "memory": {
+     "turns": 1,
+     "failed": 0,
+     "minutes": 0.9,
+     "input_tokens": 150290,
+     "cache_read_tokens": 90413,
+     "output_tokens": 7096,
+     "cost_usd": 0.3195,
+     "turns_without_usage": 0
+    },
+    "redact": {
+     "turns": 1,
+     "failed": 0,
+     "minutes": 0.4,
+     "input_tokens": 5309,
+     "cache_read_tokens": 0,
+     "output_tokens": 4644,
+     "cost_usd": 0.0677,
+     "turns_without_usage": 0
+    }
+   },
+   "input_tokens": 2105451,
+   "cache_read_tokens": 1681401,
+   "output_tokens": 45978,
+   "cost_usd": 2.3239,
+   "turns_without_usage": 0
+  },
+  "scored": true
  },
- "scored": false
-}
+ {
+  "id": "run_004",
+  "dataset_id": "benchmark_001",
+  "date": "2026-10-20",
+  "config": {
+   "runner": "engelbart-script",
+   "scenario": "chrome-readers, replay of run_003-one-project",
+   "mode": "auto",
+   "engelbart": {
+    "repo": "engelbart-bench-chrome",
+    "branch": "HEAD",
+    "commit": "37745f66",
+    "dirty": true
+   },
+   "provider": "anthropic",
+   "model": "Sonnet",
+   "effort": "high",
+   "agent": "Claude Code",
+   "permissions": {
+    "files": true,
+    "browser": true,
+    "recall": true,
+    "notes": false
+   },
+   "sources_picked": {
+    "notes": [
+     "Obsidian"
+    ],
+    "transcripts": [
+     "Granola",
+     "Zoom"
+    ],
+    "chats": [
+     "ChatGPT",
+     "Claude",
+     "Claude Code",
+     "Codex"
+    ],
+    "papers": [
+     "Overleaf",
+     "PDFs on this Mac",
+     "Zotero"
+    ],
+    "code": [
+     "on"
+    ]
+   },
+   "custom_instructions": false,
+   "data_root": null,
+   "prompts": {
+    "import": [
+     "9cf3db8944a0"
+    ],
+    "memory": [
+     "6a5c869ed429"
+    ],
+    "redact": [
+     "a77f4ba2f777"
+    ]
+   }
+  },
+  "results": {
+   "categories": 0,
+   "jobs": {
+    "import:done": 9,
+    "memory:done": 1,
+    "redact:done": 1
+   },
+   "notes": 45,
+   "items": 37,
+   "imported": 74,
+   "imported_from_tool_calls": 0,
+   "matched_to_source_items": 69,
+   "match": {
+    "exact": 64,
+    "none": 2,
+    "tokens": 5,
+    "ambiguous": 3
+   },
+   "listed": 1050,
+   "skipped_matched": {
+    "listed, not chosen": 929
+   },
+   "tool_calls": {
+    "list_note_files": 2,
+    "list_chats": 7,
+    "read_chat": 7,
+    "list_pdfs": 7,
+    "import_chats": 2,
+    "web_chats": 6,
+    "overleaf_projects": 1,
+    "folder_overview": 2,
+    "import_pdfs": 2,
+    "web_chat_read": 41,
+    "import_overleaf_projects": 1,
+    "import_note_files": 1,
+    "import_web_chats": 2
+   },
+   "score": {
+    "projects": {
+     "named": 0,
+     "named_real": 0,
+     "found": 0,
+     "of": 21,
+     "recall": 0.0,
+     "precision": null,
+     "missed": [
+      "Augmenting-cognition reading group",
+      "Berkeley research chats",
+      "CS 3604 teaching assistantship",
+      "ClarityX",
+      "Claude Code plugins / human-driven compaction",
+      "Dynamite",
+      "Endurance training",
+      "Engelbart",
+      "EthicConvo",
+      "IDETrace (NeurIPS submission)",
+      "ISE 6664 course project",
+      "Juno",
+      "Mathetic / Papert Lab (company)",
+      "Music production",
+      "Personal portfolio site",
+      "PlotPact",
+      "Sophia / Sophia for Educators",
+      "TACode",
+      "TutorTrace (UIST 2026)",
+      "VT PhD administration",
+      "VizPI"
+     ],
+     "matches": [],
+     "judge": "claude-sonnet-5-5",
+     "judge_cost_usd": 0,
+     "note": "discovery names at most 5 projects, so recall is capped at 5 of the list"
+    },
+    "by_source": {
+     "gmail": {
+      "items": 11039,
+      "imported": 0,
+      "skipped": 0
+     },
+     "claude-code": {
+      "items": 3737,
+      "imported": 11,
+      "skipped": 26
+     },
+     "claude": {
+      "items": 2235,
+      "imported": 11,
+      "skipped": 489
+     },
+     "google-docs": {
+      "items": 1644,
+      "imported": 3,
+      "skipped": 39
+     },
+     "outlook": {
+      "items": 1484,
+      "imported": 0,
+      "skipped": 0
+     },
+     "local-files": {
+      "items": 901,
+      "imported": 0,
+      "skipped": 6
+     },
+     "zotero": {
+      "items": 369,
+      "imported": 0,
+      "skipped": 22
+     },
+     "slack": {
+      "items": 297,
+      "imported": 5,
+      "skipped": 5
+     },
+     "github": {
+      "items": 258,
+      "imported": 0,
+      "skipped": 0
+     },
+     "linear": {
+      "items": 209,
+      "imported": 0,
+      "skipped": 0
+     },
+     "chatgpt": {
+      "items": 198,
+      "imported": 11,
+      "skipped": 127
+     },
+     "pdfs": {
+      "items": 194,
+      "imported": 16,
+      "skipped": 98
+     },
+     "local-notes": {
+      "items": 189,
+      "imported": 0,
+      "skipped": 0
+     },
+     "codex": {
+      "items": 176,
+      "imported": 2,
+      "skipped": 88
+     },
+     "notion": {
+      "items": 73,
+      "imported": 0,
+      "skipped": 0
+     },
+     "obsidian": {
+      "items": 66,
+      "imported": 0,
+      "skipped": 12
+     },
+     "gemini": {
+      "items": 63,
+      "imported": 0,
+      "skipped": 0
+     },
+     "evernote": {
+      "items": 56,
+      "imported": 0,
+      "skipped": 0
+     },
+     "apple-notes": {
+      "items": 54,
+      "imported": 0,
+      "skipped": 0
+     },
+     "perplexity": {
+      "items": 48,
+      "imported": 0,
+      "skipped": 0
+     },
+     "onenote": {
+      "items": 40,
+      "imported": 0,
+      "skipped": 0
+     },
+     "cursor": {
+      "items": 38,
+      "imported": 0,
+      "skipped": 0
+     },
+     "grok": {
+      "items": 35,
+      "imported": 0,
+      "skipped": 0
+     },
+     "granola": {
+      "items": 31,
+      "imported": 0,
+      "skipped": 0
+     },
+     "websites": {
+      "items": 29,
+      "imported": 0,
+      "skipped": 0
+     },
+     "overleaf": {
+      "items": 28,
+      "imported": 10,
+      "skipped": 17
+     },
+     "google-meet": {
+      "items": 26,
+      "imported": 0,
+      "skipped": 0
+     },
+     "browser-history": {
+      "items": 18,
+      "imported": 0,
+      "skipped": 0
+     },
+     "assistant-memory": {
+      "items": 15,
+      "imported": 0,
+      "skipped": 0
+     },
+     "zoom": {
+      "items": 8,
+      "imported": 0,
+      "skipped": 0
+     }
+    },
+    "sources_reached": [
+     "chatgpt",
+     "claude",
+     "claude-code",
+     "codex",
+     "google-docs",
+     "overleaf",
+     "pdfs",
+     "slack"
+    ],
+    "vs_run_001_deep_pass": {
+     "deep_pass_items": 738,
+     "deep_pass_imports": 656,
+     "decided_by_both": 77,
+     "agree": 26,
+     "agreement": 0.338,
+     "deep_imports_onboarding_also_imported": 14,
+     "deep_imports_onboarding_skipped": 48,
+     "deep_imports_onboarding_never_saw": 594,
+     "onboarding_imports_deep_skipped": 3
+    }
+   }
+  },
+  "performance": {
+   "minutes": 6.5,
+   "turns": 11,
+   "failed_turns": 0,
+   "by_kind": {
+    "import": {
+     "turns": 9,
+     "failed": 0,
+     "minutes": 11.9,
+     "input_tokens": 1566375,
+     "cache_read_tokens": 1310681,
+     "output_tokens": 25223,
+     "cost_usd": 1.4058,
+     "turns_without_usage": 0
+    },
+    "memory": {
+     "turns": 1,
+     "failed": 0,
+     "minutes": 0.8,
+     "input_tokens": 107826,
+     "cache_read_tokens": 63927,
+     "output_tokens": 6795,
+     "cost_usd": 0.2499,
+     "turns_without_usage": 0
+    },
+    "redact": {
+     "turns": 1,
+     "failed": 0,
+     "minutes": 0.4,
+     "input_tokens": 4965,
+     "cache_read_tokens": 0,
+     "output_tokens": 4329,
+     "cost_usd": 0.0631,
+     "turns_without_usage": 0
+    }
+   },
+   "input_tokens": 1679166,
+   "cache_read_tokens": 1374608,
+   "output_tokens": 36347,
+   "cost_usd": 1.7188,
+   "turns_without_usage": 0
+  },
+  "scored": true
+ },
+ {
+  "id": "run_005",
+  "dataset_id": "benchmark_001",
+  "date": "2026-10-20",
+  "config": {
+   "runner": "engelbart-ui",
+   "scenario": null,
+   "mode": "auto",
+   "engelbart": {
+    "repo": "engelbart-bench-full",
+    "branch": "HEAD",
+    "commit": "41db8dec",
+    "dirty": true
+   },
+   "provider": "anthropic",
+   "model": "Sonnet",
+   "effort": "high",
+   "agent": "Claude Code",
+   "permissions": {
+    "files": true,
+    "browser": true,
+    "recall": true,
+    "notes": false
+   },
+   "sources_picked": {
+    "notes": [
+     "Evernote",
+     "Google Docs",
+     "Notion",
+     "Obsidian",
+     "OneNote"
+    ],
+    "transcripts": [
+     "Google Meet",
+     "Granola",
+     "Zoom"
+    ],
+    "chats": [
+     "ChatGPT",
+     "Claude",
+     "Claude Code",
+     "Codex",
+     "Gemini"
+    ],
+    "sites": [
+     "on"
+    ],
+    "papers": [
+     "Overleaf",
+     "PDFs on this Mac"
+    ],
+    "code": [
+     "on"
+    ]
+   },
+   "custom_instructions": false,
+   "data_root": null,
+   "prompts": {
+    "discover": [
+     "6053cf6e6f6a"
+    ],
+    "import": [
+     "1ae073f30d0c"
+    ],
+    "projects": [
+     "6d834209c126"
+    ],
+    "recall": [
+     "975b2a62fce0"
+    ]
+   },
+   "note": "Cut short: the app was closed while its last job (asking ChatGPT what it remembers) ran, so MEMORY.md was never written. Recorded by hand from the session; the imports are complete."
+  },
+  "results": {
+   "categories": 5,
+   "jobs": {
+    "import:done": 21,
+    "recall:running": 1,
+    "recall:done": 2
+   },
+   "notes": 97,
+   "items": 28,
+   "imported": 123,
+   "imported_from_tool_calls": 0,
+   "matched_to_source_items": 111,
+   "match": {
+    "exact": 89,
+    "tokens": 22,
+    "none": 11,
+    "ambiguous": 1
+   },
+   "listed": 634,
+   "skipped_matched": {
+    "listed, not chosen": 175,
+    "asked for, not brought in": 1
+   },
+   "tool_calls": {
+    "list_note_files": 2,
+    "browser_open": 24,
+    "browser_read": 17,
+    "google_drive_files": 9,
+    "web_chats": 9,
+    "import_note_files": 1,
+    "needs_you": 6,
+    "browser_type": 2,
+    "browser_wait": 12,
+    "list_chats": 2,
+    "browser_screenshot": 7,
+    "import_chats": 2,
+    "save_memory": 1,
+    "overleaf_projects": 1,
+    "import_overleaf_projects": 1,
+    "list_pdfs": 6,
+    "github_repos": 2,
+    "add_to_library": 16,
+    "import_google_files": 1,
+    "browser_history": 8,
+    "browser_bookmarks": 2,
+    "import_pdfs": 1,
+    "links_in_notes": 2,
+    "folder_overview": 2
+   },
+   "score": {
+    "projects": {
+     "named": 5,
+     "named_real": 3,
+     "found": 3,
+     "of": 21,
+     "recall": 0.143,
+     "precision": 0.6,
+     "missed": [
+      "Augmenting-cognition reading group",
+      "CS 3604 teaching assistantship",
+      "ClarityX",
+      "Claude Code plugins / human-driven compaction",
+      "Dynamite",
+      "Endurance training",
+      "EthicConvo",
+      "IDETrace (NeurIPS submission)",
+      "ISE 6664 course project",
+      "Juno",
+      "Mathetic / Papert Lab (company)",
+      "Music production",
+      "Personal portfolio site",
+      "PlotPact",
+      "Sophia / Sophia for Educators",
+      "TACode",
+      "VT PhD administration",
+      "VizPI"
+     ],
+     "matches": [
+      {
+       "named": "Engelbart Research Notebook App",
+       "project_id": "project_engelbart",
+       "why": "Engelbart is Mathetic's research notebook app."
+      },
+      {
+       "named": "Process-Based Assessment",
+       "project_id": null,
+       "why": "No listed project is about process-based assessment."
+      },
+      {
+       "named": "Predicting Student Behavior Model",
+       "project_id": "project_tutortrace",
+       "why": "TutorTrace classifies learner behavioral states during AI-assisted programming; closest behavior-prediction work."
+      },
+      {
+       "named": "VizGroup Collaborative Programming Analytics",
+       "project_id": null,
+       "why": "VizPI is individual telemetry; no listed collaborative VizGroup project."
+      },
+      {
+       "named": "Berkeley Research Site",
+       "project_id": "project_berkeley_research_chats",
+       "why": "Berkeley research chats include landing site berkeley.mathetic.com."
+      }
+     ],
+     "judge": "claude-sonnet-5-5",
+     "judge_cost_usd": 0.0047,
+     "note": "discovery names at most 5 projects, so recall is capped at 5 of the list"
+    },
+    "by_source": {
+     "gmail": {
+      "items": 11039,
+      "imported": 0,
+      "skipped": 0
+     },
+     "claude-code": {
+      "items": 3737,
+      "imported": 32,
+      "skipped": 5
+     },
+     "claude": {
+      "items": 2235,
+      "imported": 0,
+      "skipped": 6
+     },
+     "google-docs": {
+      "items": 1644,
+      "imported": 21,
+      "skipped": 26
+     },
+     "outlook": {
+      "items": 1484,
+      "imported": 0,
+      "skipped": 0
+     },
+     "local-files": {
+      "items": 901,
+      "imported": 0,
+      "skipped": 2
+     },
+     "zotero": {
+      "items": 369,
+      "imported": 0,
+      "skipped": 0
+     },
+     "slack": {
+      "items": 297,
+      "imported": 0,
+      "skipped": 0
+     },
+     "github": {
+      "items": 258,
+      "imported": 3,
+      "skipped": 3
+     },
+     "linear": {
+      "items": 209,
+      "imported": 0,
+      "skipped": 0
+     },
+     "chatgpt": {
+      "items": 198,
+      "imported": 0,
+      "skipped": 0
+     },
+     "pdfs": {
+      "items": 194,
+      "imported": 14,
+      "skipped": 43
+     },
+     "local-notes": {
+      "items": 189,
+      "imported": 0,
+      "skipped": 0
+     },
+     "codex": {
+      "items": 176,
+      "imported": 32,
+      "skipped": 58
+     },
+     "notion": {
+      "items": 73,
+      "imported": 0,
+      "skipped": 1
+     },
+     "obsidian": {
+      "items": 66,
+      "imported": 7,
+      "skipped": 6
+     },
+     "gemini": {
+      "items": 63,
+      "imported": 0,
+      "skipped": 0
+     },
+     "evernote": {
+      "items": 56,
+      "imported": 0,
+      "skipped": 2
+     },
+     "apple-notes": {
+      "items": 54,
+      "imported": 0,
+      "skipped": 0
+     },
+     "perplexity": {
+      "items": 48,
+      "imported": 0,
+      "skipped": 0
+     },
+     "onenote": {
+      "items": 40,
+      "imported": 0,
+      "skipped": 0
+     },
+     "cursor": {
+      "items": 38,
+      "imported": 0,
+      "skipped": 0
+     },
+     "grok": {
+      "items": 35,
+      "imported": 0,
+      "skipped": 0
+     },
+     "granola": {
+      "items": 31,
+      "imported": 0,
+      "skipped": 1
+     },
+     "websites": {
+      "items": 29,
+      "imported": 0,
+      "skipped": 2
+     },
+     "overleaf": {
+      "items": 28,
+      "imported": 2,
+      "skipped": 21
+     },
+     "google-meet": {
+      "items": 26,
+      "imported": 0,
+      "skipped": 0
+     },
+     "browser-history": {
+      "items": 18,
+      "imported": 0,
+      "skipped": 0
+     },
+     "assistant-memory": {
+      "items": 15,
+      "imported": 0,
+      "skipped": 0
+     },
+     "zoom": {
+      "items": 8,
+      "imported": 0,
+      "skipped": 0
+     }
+    },
+    "sources_reached": [
+     "claude-code",
+     "codex",
+     "github",
+     "google-docs",
+     "obsidian",
+     "overleaf",
+     "pdfs"
+    ],
+    "vs_run_001_deep_pass": {
+     "deep_pass_items": 738,
+     "deep_pass_imports": 656,
+     "decided_by_both": 44,
+     "agree": 25,
+     "agreement": 0.568,
+     "deep_imports_onboarding_also_imported": 17,
+     "deep_imports_onboarding_skipped": 18,
+     "deep_imports_onboarding_never_saw": 621,
+     "onboarding_imports_deep_skipped": 1
+    }
+   }
+  },
+  "performance": {
+   "minutes": 3.9,
+   "turns": 26,
+   "failed_turns": 0,
+   "by_kind": {
+    "projects": {
+     "turns": 1,
+     "failed": 0,
+     "minutes": 0.2,
+     "input_tokens": 5879,
+     "cache_read_tokens": 730,
+     "output_tokens": 1318,
+     "cost_usd": 0.0338,
+     "turns_without_usage": 0
+    },
+    "discover": {
+     "turns": 1,
+     "failed": 0,
+     "minutes": 0.1,
+     "input_tokens": 10829,
+     "cache_read_tokens": 6374,
+     "output_tokens": 1301,
+     "cost_usd": 0.0315,
+     "turns_without_usage": 0
+    },
+    "import": {
+     "turns": 21,
+     "failed": 0,
+     "minutes": 12.7,
+     "input_tokens": 2997741,
+     "cache_read_tokens": 2527572,
+     "output_tokens": 28788,
+     "cost_usd": 2.4209,
+     "turns_without_usage": 0
+    },
+    "recall": {
+     "turns": 3,
+     "failed": 0,
+     "minutes": 0.9,
+     "input_tokens": 171932,
+     "cache_read_tokens": 158376,
+     "output_tokens": 2224,
+     "cost_usd": 0.0922,
+     "turns_without_usage": 1
+    }
+   },
+   "input_tokens": 3186381,
+   "cache_read_tokens": 2693052,
+   "output_tokens": 33631,
+   "cost_usd": 2.5784,
+   "turns_without_usage": 1
+  },
+  "scored": true
+ }
+]
 </script>
 
 <!-- ============ PIPELINE JSON ============ -->
@@ -1263,6 +2666,33 @@ document.querySelectorAll("[data-json]").forEach(ph => {
   ph.replaceWith(codeBlock(obj, ph.dataset.label));
 });
 
+// runs table: newest first, a row shows that run's full row
+function runList(runs) {
+  const wrap = el("div");
+  const t = el("table", { class: "runlist" });
+  t.append(el("tr", null, ["run", "date", "model", "items", "cost"].map(h => el("th", { text: h }))));
+  const out = el("div");
+  const pick = (r, tr) => {
+    t.querySelectorAll("tr.run-pick").forEach(x => x.classList.toggle("on", x === tr));
+    out.textContent = "";
+    out.append(codeBlock(r, r.id));
+  };
+  runs.slice().sort((a, b) => b.date.localeCompare(a.date)).forEach(r => {
+    const tr = el("tr", { class: "tx-row run-pick", tabindex: "0" }, [
+      el("td", null, [el("code", { text: r.id })]),
+      el("td", { text: r.date }),
+      el("td", { text: r.config.model }),
+      el("td", { text: (r.config.sample ? r.config.sample.items : r.results.imported).toLocaleString("en-US") }),
+      el("td", { text: "$" + r.performance.cost_usd.toFixed(2) }),
+    ]);
+    tr.addEventListener("click", () => pick(r, tr));
+    tr.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(r, tr); } });
+    t.append(tr);
+  });
+  wrap.append(t, el("p", { class: "muted", text: "Click a run to see its row." }), out);
+  return wrap;
+}
+
 // tables: click a row to open its sample in a modal
 const txModal = document.getElementById("txmodal");
 const txBody = txModal.querySelector(".txm-body");
@@ -1272,14 +2702,15 @@ function openTx(row) {
   const obj = JSON.parse(document.getElementById(row.dataset.jsonId).textContent);
   txBody.textContent = "";
   const h = el("h2", { id: "txmodal-title" }, [el("code", { text: name })]);
-  txBody.append(h, el("p", { class: "txm-desc", html: row.cells[2].innerHTML }));
-  txBody.append(codeBlock(obj, name));
+  txBody.append(h, el("p", { class: "txm-desc", html: row.cells[1].innerHTML }));
+  if (row.dataset.list) txBody.append(runList(obj));
+  else txBody.append(codeBlock(obj, name));
   if (row.dataset.same) txBody.append(el("p", { class: "muted txm-note", text: "Same sample as the Pipeline tab." }));
   txOpener = row;
   txModal.showModal();
   txBody.scrollTop = 0;
 }
-document.querySelectorAll("table.tx tr.tx-row").forEach(row => {
+document.querySelectorAll("table.tables tr.tx-row").forEach(row => {
   row.addEventListener("click", () => openTx(row));
   row.addEventListener("keydown", e => {
     if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openTx(row); }
@@ -1339,36 +2770,51 @@ function fact(dl, term, node) {
   dl.append(dd);
 }
 
-// how each source was collected (dataset/PROGRESS.md, FAILURES.md); "both" sources also have synthetic items
+// how each source's data was gotten (dataset/PROGRESS.md, FAILURES.md, scripts/); every source also has synthetic items
 const STRATEGY = {
-  "obsidian": "Copied both vaults that Obsidian's <code>obsidian.json</code> lists, as files.",
-  "notion": "Synthetic only: the web app was signed out, and signing in wasn't allowed. Generated as a Notion export (Markdown + CSV).",
-  "apple-notes": "Every note read through AppleScript (the iCloud account) and saved as a file.",
-  "onenote": "Synthetic only: signing in needed SSO, and there's no desktop app. Generated as OneNote pages (HTML, the Graph API's shape).",
-  "google-docs": "Downloaded from Drive in both Google accounts while signed in. Folders, Sites, Apps Script and a few binaries couldn't be downloaded.",
-  "evernote": "Synthetic only: signed out, and no desktop app. Generated as <code>.enex</code> notebook exports.",
-  "granola": "Partial: the local store is encrypted and there's no web app, so only notes shared by public link (found in Slack and Linear) were saved.",
-  "google-meet": "None exist (neither Drive has Meet recordings, transcripts or Gemini notes). Synthetic transcripts and Gemini notes as <code>.docx</code> in Meet Recordings.",
-  "zoom": "The local recordings folder, copied. zoom.us was signed out.",
-  "gmail": "Raw <code>.eml</code> for every message of the last year, plus Sent, Starred and Important of any age, from the signed-in account; spot-checked against the Gmail API.",
-  "chatgpt": "Stopgap until the official export: read from chatgpt.com while signed in. The last year's chats only (the person's choice).",
-  "claude": "Stopgap until the official export: every conversation and project read from claude.ai while signed in.",
-  "claude-code": "Copied <code>~/.claude</code>: every project's sessions, history, plans and the desktop app's session metadata.",
-  "codex": "Copied <code>~/.codex</code>: rollouts, history, indexes and its databases.",
-  "cursor": "Synthetic only: Cursor isn't installed. Generated as its <code>state.vscdb</code> SQLite.",
-  "grok": "Synthetic only: signed out. Generated as Grok's account data export.",
-  "gemini": "Raw activity JSON from both Google accounts' Gemini, read while signed in. No Gems.",
-  "perplexity": "Synthetic only: signed out. Generated as one <code>.json</code> per thread.",
-  "assistant-memory": "Memory, profile and custom instructions from Claude's and ChatGPT's settings; Gemini's was empty.",
-  "zotero": "A mirror of Engelbart's own Zotero copy (<code>~/.engelbart/.zotero</code>): zotero.org was signed out and the desktop app isn't installed.",
-  "overleaf": "Each project's source zip, downloaded after the person signed in.",
-  "pdfs": "Every PDF in the person's own folders (exclusions logged).",
-  "github": "Local repos copied, plus mirror clones of every repo the account can list, with issues, PRs, comments and releases as API JSON (through the <code>gh</code> CLI).",
-  "websites": "Chrome's 3 bookmarks only; no saved pages exist.",
-  "linear": "Through the Linear MCP connector (read-only): issues with comments, documents and projects.",
-  "browser-history": "Chrome's History databases from 3 profiles, plus the Codex app's browser. Safari's needed Full Disk Access.",
-  "local-notes": "Note-type files (md, txt, docx, html, pages) outside Obsidian and the repos."
+  "obsidian": "Copied from disk: both vaults listed in Obsidian's <code>obsidian.json</code> (8 and 23 files), as plain files.",
+  "notion": "Not collected: notion.so was signed out, and signing in wasn't allowed.",
+  "apple-notes": "Read through AppleScript, since Full Disk Access isn't granted and the notes database can't be opened: all 27 notes in the iCloud account, saved as files.",
+  "onenote": "Not collected: signing in needed SSO, and there's no desktop app.",
+  "google-docs": "Two Google accounts, read-only. vt.edu: listed through the Google Drive connector, then Docs, Sheets and Slides exported from docs.google.com as <code>.docx</code>, <code>.xlsx</code>, <code>.pptx</code> and other files downloaded (1,271). gmail.com: listed from the Drive web pages in the signed-in browser, since the connector only covers vt.edu (303). Page scripts send each file to a local receiver (<code>receiver.py</code>) and <code>place_gdrive.py</code> files them. Folders, Sites, Apps Script and 34 files Drive refused to serve weren't collected.",
+  "evernote": "Not collected: evernote.com was signed out, and there's no desktop app.",
+  "granola": "Partial: the desktop app's local store is encrypted and there's no web app, so only the 9 notes whose public share links appear in Slack and Linear were fetched (<code>place_granola.py</code>). No transcripts.",
+  "google-meet": "None exist: both Drives were searched (connector and Drive web) and have no Meet recordings, transcripts or Gemini notes.",
+  "zoom": "Copied the Zoom app's local recordings folder from disk (1 meeting). zoom.us was signed out, so cloud recordings weren't checked.",
+  "gmail": "Read from mail.google.com in the signed-in browser: a page script lists threads from Gmail's own views (All Mail, Sent, Starred, Important), downloads each message's raw <code>.eml</code> through \"Show original\" and sends it to a local receiver (<code>receiver.py</code>); <code>place_gmail.py</code> files them by thread. Scope: everything from the last year, plus Sent, Starred and Important of any age (11,316 messages). Spot-checked against the Gmail API.",
+  "chatgpt": "Stopgap until the official export: read from chatgpt.com in the signed-in browser through the site's own endpoints (the chat list, then each chat), sent to the local receiver and filed by <code>place_chatgpt.py</code>. Limited to about one chat a minute, so only the last year's 139 chats (plus 9 older) were collected.",
+  "claude": "Stopgap until the official export: all 2,182 conversations and 10 projects read from claude.ai in the signed-in browser through the site's own endpoints, sent to the local receiver and filed by <code>place_claude_web.py</code>.",
+  "claude-code": "Copied from disk (<code>collect_claude_code.py</code>): every session in <code>~/.claude/projects</code> (1,708), plus history, plans and the desktop app's session metadata. Claude Code had already deleted sessions older than about 30 days; some survive only as indexes in <code>~/.claude-vault</code>.",
+  "codex": "Copied from disk (<code>collect_codex.py</code>): <code>~/.codex</code> rollouts (95), history, indexes and its databases.",
+  "cursor": "None exist: Cursor isn't installed.",
+  "grok": "Not collected: grok.com was signed out.",
+  "gemini": "Read from gemini.google.com in the signed-in browser for both Google accounts (41 chats), through the site's own list and read calls; filed by <code>place_gemini.py</code>. No Gems.",
+  "perplexity": "Not collected: perplexity.ai was signed out.",
+  "assistant-memory": "Read from each assistant's settings page in the signed-in browser, with no prompt sent: Claude's memory and profile, and ChatGPT's 59 memories, custom instructions and profile. Gemini's was empty.",
+  "zotero": "Copied Engelbart's own synced Zotero mirror (<code>~/.engelbart/.zotero</code>: 102 items, 6 PDFs), since zotero.org was signed out and the desktop app isn't installed.",
+  "overleaf": "Read from overleaf.com after the person signed in: the project list from the dashboard, then each of the 22 projects' source zip (Download &gt; Source); filed by <code>place_overleaf.py</code>.",
+  "pdfs": "Copied from disk (<code>collect_pdfs.py</code>): 157 PDFs from the person's own folders (Downloads, Desktop, Documents, iCloud Drive, Projects). PDFs already collected under another source were skipped.",
+  "github": "Copied the 72 local repos from disk (<code>collect_local_repos.py</code>), and mirror-cloned the 29 repos the account can list on github.com, with their issues, PRs, comments and releases as JSON, through the <code>gh</code> CLI (<code>collect_github_remote.sh</code>).",
+  "websites": "Exported Chrome's 3 bookmarks as links; the person has no saved web pages.",
+  "linear": "Read through the Linear MCP connector (read-only), since linear.app was signed out: 146 issues with comments, 3 documents and 2 projects; filed by <code>place_linear.py</code>.",
+  "browser-history": "Copied from disk (<code>collect_browser_history.py</code>): Chrome's History and Bookmarks databases from 3 profiles, plus the Codex app's browser. Safari's needs Full Disk Access.",
+  "local-notes": "Copied from disk (<code>collect_local_files.py</code>): 152 note-type files (md, txt, docx, html, pages) outside Obsidian and the repos."
 };
+
+// synthetic items per source (PROGRESS.md, Phase 2), each made by scripts/synth/gen_<source>.py from PERSON.md
+const SYNTH = {
+  "obsidian": 35, "notion": 73, "apple-notes": 27, "onenote": 40, "google-docs": 70, "evernote": 56,
+  "granola": 22, "google-meet": 26, "zoom": 7, "gmail": 178, "chatgpt": 50, "claude": 43, "claude-code": 32,
+  "codex": 22, "cursor": 38, "grok": 35, "gemini": 22, "perplexity": 48, "assistant-memory": 8, "zotero": 41,
+  "overleaf": 6, "pdfs": 37, "github": 9, "websites": 27, "linear": 51, "browser-history": 4, "local-notes": 37
+};
+
+function strategy(id) {
+  const box = el("div");
+  box.append(el("div", { html: "<span class=\"muted\">Authentic:</span> " + STRATEGY[id] }));
+  box.append(el("div", { class: "synth", html: "<span class=\"muted\">Synthetic:</span> " + SYNTH[id] + " items, generated by <code>synth/gen_" + id.replace(/-/g, "_") + ".py</code> from <code>PERSON.md</code>." }));
+  return box;
+}
 
 function showSource(id) {
   const i = SOURCES.findIndex(s => s.id === id);
@@ -1380,9 +2826,9 @@ function showSource(id) {
   d.append(el("div", { class: "muted", html: "<code>" + TYPICAL_PATH[src.id] + "</code>" }));
 
   const facts = el("dl", { class: "facts" });
+  fact(facts, "Strategy:", strategy(src.id));
   fact(facts, "Stored as:", src.stored);
   fact(facts, "Entry:", src.item);
-  fact(facts, "Strategy:", STRATEGY[src.id] + (src.mix === "both" ? " Synthetic items added alongside." : ""));
   d.append(facts);
 
   d.append(codeBlock(buildRow(src, i), "source_items row"));
@@ -1422,7 +2868,7 @@ document.querySelectorAll("#outnav button").forEach(b => b.addEventListener("cli
 
 // tabs
 const TABS = ["repo", "tables", "sources", "pipeline", "history"];
-const STAGES = ["stage0", "wave1", "wave2", "deep", "library"];
+const STAGES = ["stage0", "wave1", "wave2", "deep"];
 function openStage(name) {
   document.querySelectorAll("#stagenav button").forEach(b => b.classList.toggle("on", b.dataset.stage === name));
   document.querySelectorAll("#tab-pipeline .stage").forEach(st => st.classList.toggle("on", st.id === "st-" + name));
@@ -1442,7 +2888,7 @@ document.querySelectorAll("#tabs a").forEach(a => a.addEventListener("click", e 
   history.replaceState(null, "", "#" + a.dataset.tab);
 }));
 const [start, stage] = location.hash.slice(1).split("/");
-if (start === "library") { openTab("pipeline"); openStage("library"); }
+if (start === "library" || stage === "library") { openTab("pipeline"); openStage("deep"); }
 else if (start === "dataset") openTab("repo");
 else if (TABS.includes(start)) openTab(start);
 if (start === "pipeline" && STAGES.includes(stage)) openStage(stage);

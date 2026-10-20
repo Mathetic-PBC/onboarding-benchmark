@@ -26,6 +26,13 @@
     "seed": 17,
     "rule": "up to 60 per source (Gmail 300), even authentic/synthetic split"
    },
+   "sandbox": {
+    "items": 23530,
+    "of": 23558,
+    "held_back": 28,
+    "leak_check_hits": 0
+   },
+   "new_categories": "not run (the step was added after run_001)",
    "start": {
     "user_categories": null,
     "project_description": null
@@ -35,13 +42,1229 @@
     "pick": "every category except Other"
    }
   },
+  "results": {
+   "categories": 12,
+   "wave2": {
+    "rows": 1686,
+    "no_category": 785,
+    "flagged_for_deep_read": 150,
+    "proposed_categories": 50
+   },
+   "deep_pass": {
+    "rows": 929,
+    "import": 656,
+    "pending": 190,
+    "skip": 82,
+    "failed": 1
+   }
+  },
   "performance": {
    "minutes": 27,
    "cost_usd": 38.36,
    "calls": 994,
    "input_tokens": 8446937,
-   "output_tokens": 738168
+   "output_tokens": 738168,
+   "by_stage": {
+    "wave1": {
+     "seconds": 54,
+     "calls": 4,
+     "failed": 0,
+     "input_tokens": 206058,
+     "output_tokens": 12027,
+     "cost_usd": 0.41
+    },
+    "wave2": {
+     "minutes": 7.6,
+     "calls": 62,
+     "failed": 0,
+     "input_tokens": 1412042,
+     "output_tokens": 313698,
+     "cost_usd": 8.64
+    },
+    "deep": {
+     "minutes": 18.3,
+     "calls": 928,
+     "failed": 1,
+     "input_tokens": 6828837,
+     "output_tokens": 412443,
+     "cost_usd": 29.32
+    }
+   }
   },
   "scored": false
+ },
+ {
+  "id": "run_002",
+  "dataset_id": "benchmark_001",
+  "date": "2026-10-19",
+  "config": {
+   "runner": "engelbart-script",
+   "scenario": "auto-discovered",
+   "mode": "auto",
+   "engelbart": {
+    "repo": "engelbart-bench-recording",
+    "branch": "onboarding-bench-recording",
+    "commit": "fba4a520",
+    "dirty": true
+   },
+   "provider": "anthropic",
+   "model": "Sonnet",
+   "effort": "high",
+   "agent": "Claude Code",
+   "permissions": {
+    "files": true,
+    "browser": true,
+    "recall": true,
+    "notes": false
+   },
+   "sources_picked": {
+    "notes": [
+     "Evernote",
+     "Google Docs",
+     "Notion",
+     "Obsidian",
+     "OneNote"
+    ],
+    "transcripts": [
+     "Google Meet",
+     "Granola",
+     "Zoom"
+    ],
+    "chats": [
+     "ChatGPT",
+     "Claude",
+     "Claude Code",
+     "Codex",
+     "Gemini"
+    ],
+    "sites": [
+     "on"
+    ],
+    "papers": [
+     "Overleaf",
+     "PDFs on this Mac"
+    ],
+    "code": [
+     "on"
+    ]
+   },
+   "custom_instructions": false,
+   "data_root": null,
+   "prompts": {
+    "discover": [
+     "6053cf6e6f6a"
+    ],
+    "import": [
+     "9cf3db8944a0"
+    ],
+    "memory": [
+     "6a5c869ed429"
+    ],
+    "projects": [
+     "6d834209c126"
+    ],
+    "redact": [
+     "a77f4ba2f777"
+    ]
+   }
+  },
+  "results": {
+   "categories": 5,
+   "jobs": {
+    "import:done": 16,
+    "memory:done": 1,
+    "redact:done": 1
+   },
+   "notes": 137,
+   "items": 68,
+   "imported": 204,
+   "imported_from_tool_calls": 67,
+   "matched_to_source_items": 197,
+   "match": {
+    "exact": 197,
+    "none": 6,
+    "ambiguous": 1
+   },
+   "listed": 903,
+   "skipped_matched": {
+    "listed, not chosen": 219
+   },
+   "tool_calls": {
+    "list_note_files": 2,
+    "list_chats": 4,
+    "list_pdfs": 8,
+    "browser_open": 8,
+    "browser_read": 3,
+    "needs_you": 6,
+    "import_note_files": 1,
+    "read_chat": 2,
+    "browser_history": 10,
+    "browser_bookmarks": 2,
+    "links_in_notes": 2,
+    "add_to_library": 13,
+    "import_chats": 3,
+    "folder_overview": 1,
+    "browser_wait": 1,
+    "browser_screenshot": 1,
+    "import_pdfs": 1
+   },
+   "score": {
+    "projects": {
+     "named": 5,
+     "named_real": 4,
+     "found": 4,
+     "of": 21,
+     "recall": 0.19,
+     "precision": 0.8,
+     "missed": [
+      "Augmenting-cognition reading group",
+      "CS 3604 teaching assistantship",
+      "ClarityX",
+      "Claude Code plugins / human-driven compaction",
+      "Dynamite",
+      "Endurance training",
+      "EthicConvo",
+      "IDETrace (NeurIPS submission)",
+      "ISE 6664 course project",
+      "Juno",
+      "Mathetic / Papert Lab (company)",
+      "Music production",
+      "Personal portfolio site",
+      "PlotPact",
+      "Sophia / Sophia for Educators",
+      "TACode",
+      "VT PhD administration"
+     ],
+     "matches": [
+      {
+       "named": "Engelbart Canvas App",
+       "project_id": "project_engelbart",
+       "why": "Desktop canvas app is a component of the Engelbart project."
+      },
+      {
+       "named": "VizGroup Programming Analytics",
+       "project_id": "project_vizpi",
+       "why": "Behavioral telemetry analytics for programming classrooms matches VizPI; the name differs but the work is plausibly the same."
+      },
+      {
+       "named": "Student Behavior Prediction Model",
+       "project_id": "project_tutortrace",
+       "why": "Classifying learner behavioral states in AI-assisted programming matches TutorTrace."
+      },
+      {
+       "named": "Berkeley Research",
+       "project_id": "project_berkeley_research_chats",
+       "why": "Repos berkeley-research match; same Berkeley research outreach program."
+      },
+      {
+       "named": "Thematic Analysis",
+       "project_id": null,
+       "why": "Generic method; no listed project is clearly thematic analysis."
+      }
+     ],
+     "judge": "claude-sonnet-5-5",
+     "judge_cost_usd": 0.0048,
+     "note": "discovery names at most 5 projects, so recall is capped at 5 of the list"
+    },
+    "by_source": {
+     "gmail": {
+      "items": 11039,
+      "imported": 0,
+      "skipped": 0
+     },
+     "claude-code": {
+      "items": 3737,
+      "imported": 30,
+      "skipped": 7
+     },
+     "claude": {
+      "items": 2235,
+      "imported": 0,
+      "skipped": 7
+     },
+     "google-docs": {
+      "items": 1644,
+      "imported": 3,
+      "skipped": 33
+     },
+     "outlook": {
+      "items": 1484,
+      "imported": 0,
+      "skipped": 19
+     },
+     "local-files": {
+      "items": 901,
+      "imported": 0,
+      "skipped": 10
+     },
+     "zotero": {
+      "items": 369,
+      "imported": 11,
+      "skipped": 11
+     },
+     "slack": {
+      "items": 297,
+      "imported": 5,
+      "skipped": 5
+     },
+     "github": {
+      "items": 258,
+      "imported": 7,
+      "skipped": 1
+     },
+     "linear": {
+      "items": 209,
+      "imported": 0,
+      "skipped": 0
+     },
+     "chatgpt": {
+      "items": 198,
+      "imported": 0,
+      "skipped": 10
+     },
+     "pdfs": {
+      "items": 194,
+      "imported": 36,
+      "skipped": 77
+     },
+     "local-notes": {
+      "items": 189,
+      "imported": 0,
+      "skipped": 1
+     },
+     "codex": {
+      "items": 176,
+      "imported": 98,
+      "skipped": 27
+     },
+     "notion": {
+      "items": 73,
+      "imported": 0,
+      "skipped": 1
+     },
+     "obsidian": {
+      "items": 66,
+      "imported": 7,
+      "skipped": 5
+     },
+     "gemini": {
+      "items": 63,
+      "imported": 0,
+      "skipped": 0
+     },
+     "evernote": {
+      "items": 56,
+      "imported": 0,
+      "skipped": 1
+     },
+     "apple-notes": {
+      "items": 54,
+      "imported": 0,
+      "skipped": 0
+     },
+     "perplexity": {
+      "items": 48,
+      "imported": 0,
+      "skipped": 0
+     },
+     "onenote": {
+      "items": 40,
+      "imported": 0,
+      "skipped": 0
+     },
+     "cursor": {
+      "items": 38,
+      "imported": 0,
+      "skipped": 0
+     },
+     "grok": {
+      "items": 35,
+      "imported": 0,
+      "skipped": 0
+     },
+     "granola": {
+      "items": 31,
+      "imported": 0,
+      "skipped": 1
+     },
+     "websites": {
+      "items": 29,
+      "imported": 0,
+      "skipped": 1
+     },
+     "overleaf": {
+      "items": 28,
+      "imported": 0,
+      "skipped": 1
+     },
+     "google-meet": {
+      "items": 26,
+      "imported": 0,
+      "skipped": 0
+     },
+     "browser-history": {
+      "items": 18,
+      "imported": 0,
+      "skipped": 0
+     },
+     "assistant-memory": {
+      "items": 15,
+      "imported": 0,
+      "skipped": 1
+     },
+     "zoom": {
+      "items": 8,
+      "imported": 0,
+      "skipped": 0
+     }
+    },
+    "sources_reached": [
+     "claude-code",
+     "codex",
+     "github",
+     "google-docs",
+     "obsidian",
+     "pdfs",
+     "slack",
+     "zotero"
+    ],
+    "vs_run_001_deep_pass": {
+     "deep_pass_items": 738,
+     "deep_pass_imports": 656,
+     "decided_by_both": 56,
+     "agree": 36,
+     "agreement": 0.643,
+     "deep_imports_onboarding_also_imported": 31,
+     "deep_imports_onboarding_skipped": 17,
+     "deep_imports_onboarding_never_saw": 608,
+     "onboarding_imports_deep_skipped": 3
+    }
+   }
+  },
+  "performance": {
+   "minutes": 14.2,
+   "turns": 20,
+   "failed_turns": 0,
+   "by_kind": {
+    "projects": {
+     "turns": 1,
+     "failed": 0,
+     "minutes": 0.2,
+     "input_tokens": 5897,
+     "cache_read_tokens": 0,
+     "output_tokens": 1351,
+     "cost_usd": 0.0371,
+     "turns_without_usage": 0
+    },
+    "discover": {
+     "turns": 1,
+     "failed": 0,
+     "minutes": 0.2,
+     "input_tokens": 10787,
+     "cache_read_tokens": 10785,
+     "output_tokens": 1540,
+     "cost_usd": 0.0165,
+     "turns_without_usage": 0
+    },
+    "import": {
+     "turns": 16,
+     "failed": 0,
+     "minutes": 7.8,
+     "input_tokens": 1933168,
+     "cache_read_tokens": 1580203,
+     "output_tokens": 31347,
+     "cost_usd": 1.8831,
+     "turns_without_usage": 0
+    },
+    "memory": {
+     "turns": 1,
+     "failed": 0,
+     "minutes": 0.9,
+     "input_tokens": 150290,
+     "cache_read_tokens": 90413,
+     "output_tokens": 7096,
+     "cost_usd": 0.3195,
+     "turns_without_usage": 0
+    },
+    "redact": {
+     "turns": 1,
+     "failed": 0,
+     "minutes": 0.4,
+     "input_tokens": 5309,
+     "cache_read_tokens": 0,
+     "output_tokens": 4644,
+     "cost_usd": 0.0677,
+     "turns_without_usage": 0
+    }
+   },
+   "input_tokens": 2105451,
+   "cache_read_tokens": 1681401,
+   "output_tokens": 45978,
+   "cost_usd": 2.3239,
+   "turns_without_usage": 0
+  },
+  "scored": true
+ },
+ {
+  "id": "run_004",
+  "dataset_id": "benchmark_001",
+  "date": "2026-10-20",
+  "config": {
+   "runner": "engelbart-script",
+   "scenario": "chrome-readers, replay of run_003-one-project",
+   "mode": "auto",
+   "engelbart": {
+    "repo": "engelbart-bench-chrome",
+    "branch": "HEAD",
+    "commit": "37745f66",
+    "dirty": true
+   },
+   "provider": "anthropic",
+   "model": "Sonnet",
+   "effort": "high",
+   "agent": "Claude Code",
+   "permissions": {
+    "files": true,
+    "browser": true,
+    "recall": true,
+    "notes": false
+   },
+   "sources_picked": {
+    "notes": [
+     "Obsidian"
+    ],
+    "transcripts": [
+     "Granola",
+     "Zoom"
+    ],
+    "chats": [
+     "ChatGPT",
+     "Claude",
+     "Claude Code",
+     "Codex"
+    ],
+    "papers": [
+     "Overleaf",
+     "PDFs on this Mac",
+     "Zotero"
+    ],
+    "code": [
+     "on"
+    ]
+   },
+   "custom_instructions": false,
+   "data_root": null,
+   "prompts": {
+    "import": [
+     "9cf3db8944a0"
+    ],
+    "memory": [
+     "6a5c869ed429"
+    ],
+    "redact": [
+     "a77f4ba2f777"
+    ]
+   }
+  },
+  "results": {
+   "categories": 0,
+   "jobs": {
+    "import:done": 9,
+    "memory:done": 1,
+    "redact:done": 1
+   },
+   "notes": 45,
+   "items": 37,
+   "imported": 74,
+   "imported_from_tool_calls": 0,
+   "matched_to_source_items": 69,
+   "match": {
+    "exact": 64,
+    "none": 2,
+    "tokens": 5,
+    "ambiguous": 3
+   },
+   "listed": 1050,
+   "skipped_matched": {
+    "listed, not chosen": 929
+   },
+   "tool_calls": {
+    "list_note_files": 2,
+    "list_chats": 7,
+    "read_chat": 7,
+    "list_pdfs": 7,
+    "import_chats": 2,
+    "web_chats": 6,
+    "overleaf_projects": 1,
+    "folder_overview": 2,
+    "import_pdfs": 2,
+    "web_chat_read": 41,
+    "import_overleaf_projects": 1,
+    "import_note_files": 1,
+    "import_web_chats": 2
+   },
+   "score": {
+    "projects": {
+     "named": 0,
+     "named_real": 0,
+     "found": 0,
+     "of": 21,
+     "recall": 0.0,
+     "precision": null,
+     "missed": [
+      "Augmenting-cognition reading group",
+      "Berkeley research chats",
+      "CS 3604 teaching assistantship",
+      "ClarityX",
+      "Claude Code plugins / human-driven compaction",
+      "Dynamite",
+      "Endurance training",
+      "Engelbart",
+      "EthicConvo",
+      "IDETrace (NeurIPS submission)",
+      "ISE 6664 course project",
+      "Juno",
+      "Mathetic / Papert Lab (company)",
+      "Music production",
+      "Personal portfolio site",
+      "PlotPact",
+      "Sophia / Sophia for Educators",
+      "TACode",
+      "TutorTrace (UIST 2026)",
+      "VT PhD administration",
+      "VizPI"
+     ],
+     "matches": [],
+     "judge": "claude-sonnet-5-5",
+     "judge_cost_usd": 0,
+     "note": "discovery names at most 5 projects, so recall is capped at 5 of the list"
+    },
+    "by_source": {
+     "gmail": {
+      "items": 11039,
+      "imported": 0,
+      "skipped": 0
+     },
+     "claude-code": {
+      "items": 3737,
+      "imported": 11,
+      "skipped": 26
+     },
+     "claude": {
+      "items": 2235,
+      "imported": 11,
+      "skipped": 489
+     },
+     "google-docs": {
+      "items": 1644,
+      "imported": 3,
+      "skipped": 39
+     },
+     "outlook": {
+      "items": 1484,
+      "imported": 0,
+      "skipped": 0
+     },
+     "local-files": {
+      "items": 901,
+      "imported": 0,
+      "skipped": 6
+     },
+     "zotero": {
+      "items": 369,
+      "imported": 0,
+      "skipped": 22
+     },
+     "slack": {
+      "items": 297,
+      "imported": 5,
+      "skipped": 5
+     },
+     "github": {
+      "items": 258,
+      "imported": 0,
+      "skipped": 0
+     },
+     "linear": {
+      "items": 209,
+      "imported": 0,
+      "skipped": 0
+     },
+     "chatgpt": {
+      "items": 198,
+      "imported": 11,
+      "skipped": 127
+     },
+     "pdfs": {
+      "items": 194,
+      "imported": 16,
+      "skipped": 98
+     },
+     "local-notes": {
+      "items": 189,
+      "imported": 0,
+      "skipped": 0
+     },
+     "codex": {
+      "items": 176,
+      "imported": 2,
+      "skipped": 88
+     },
+     "notion": {
+      "items": 73,
+      "imported": 0,
+      "skipped": 0
+     },
+     "obsidian": {
+      "items": 66,
+      "imported": 0,
+      "skipped": 12
+     },
+     "gemini": {
+      "items": 63,
+      "imported": 0,
+      "skipped": 0
+     },
+     "evernote": {
+      "items": 56,
+      "imported": 0,
+      "skipped": 0
+     },
+     "apple-notes": {
+      "items": 54,
+      "imported": 0,
+      "skipped": 0
+     },
+     "perplexity": {
+      "items": 48,
+      "imported": 0,
+      "skipped": 0
+     },
+     "onenote": {
+      "items": 40,
+      "imported": 0,
+      "skipped": 0
+     },
+     "cursor": {
+      "items": 38,
+      "imported": 0,
+      "skipped": 0
+     },
+     "grok": {
+      "items": 35,
+      "imported": 0,
+      "skipped": 0
+     },
+     "granola": {
+      "items": 31,
+      "imported": 0,
+      "skipped": 0
+     },
+     "websites": {
+      "items": 29,
+      "imported": 0,
+      "skipped": 0
+     },
+     "overleaf": {
+      "items": 28,
+      "imported": 10,
+      "skipped": 17
+     },
+     "google-meet": {
+      "items": 26,
+      "imported": 0,
+      "skipped": 0
+     },
+     "browser-history": {
+      "items": 18,
+      "imported": 0,
+      "skipped": 0
+     },
+     "assistant-memory": {
+      "items": 15,
+      "imported": 0,
+      "skipped": 0
+     },
+     "zoom": {
+      "items": 8,
+      "imported": 0,
+      "skipped": 0
+     }
+    },
+    "sources_reached": [
+     "chatgpt",
+     "claude",
+     "claude-code",
+     "codex",
+     "google-docs",
+     "overleaf",
+     "pdfs",
+     "slack"
+    ],
+    "vs_run_001_deep_pass": {
+     "deep_pass_items": 738,
+     "deep_pass_imports": 656,
+     "decided_by_both": 77,
+     "agree": 26,
+     "agreement": 0.338,
+     "deep_imports_onboarding_also_imported": 14,
+     "deep_imports_onboarding_skipped": 48,
+     "deep_imports_onboarding_never_saw": 594,
+     "onboarding_imports_deep_skipped": 3
+    }
+   }
+  },
+  "performance": {
+   "minutes": 6.5,
+   "turns": 11,
+   "failed_turns": 0,
+   "by_kind": {
+    "import": {
+     "turns": 9,
+     "failed": 0,
+     "minutes": 11.9,
+     "input_tokens": 1566375,
+     "cache_read_tokens": 1310681,
+     "output_tokens": 25223,
+     "cost_usd": 1.4058,
+     "turns_without_usage": 0
+    },
+    "memory": {
+     "turns": 1,
+     "failed": 0,
+     "minutes": 0.8,
+     "input_tokens": 107826,
+     "cache_read_tokens": 63927,
+     "output_tokens": 6795,
+     "cost_usd": 0.2499,
+     "turns_without_usage": 0
+    },
+    "redact": {
+     "turns": 1,
+     "failed": 0,
+     "minutes": 0.4,
+     "input_tokens": 4965,
+     "cache_read_tokens": 0,
+     "output_tokens": 4329,
+     "cost_usd": 0.0631,
+     "turns_without_usage": 0
+    }
+   },
+   "input_tokens": 1679166,
+   "cache_read_tokens": 1374608,
+   "output_tokens": 36347,
+   "cost_usd": 1.7188,
+   "turns_without_usage": 0
+  },
+  "scored": true
+ },
+ {
+  "id": "run_005",
+  "dataset_id": "benchmark_001",
+  "date": "2026-10-20",
+  "config": {
+   "runner": "engelbart-ui",
+   "scenario": null,
+   "mode": "auto",
+   "engelbart": {
+    "repo": "engelbart-bench-full",
+    "branch": "HEAD",
+    "commit": "41db8dec",
+    "dirty": true
+   },
+   "provider": "anthropic",
+   "model": "Sonnet",
+   "effort": "high",
+   "agent": "Claude Code",
+   "permissions": {
+    "files": true,
+    "browser": true,
+    "recall": true,
+    "notes": false
+   },
+   "sources_picked": {
+    "notes": [
+     "Evernote",
+     "Google Docs",
+     "Notion",
+     "Obsidian",
+     "OneNote"
+    ],
+    "transcripts": [
+     "Google Meet",
+     "Granola",
+     "Zoom"
+    ],
+    "chats": [
+     "ChatGPT",
+     "Claude",
+     "Claude Code",
+     "Codex",
+     "Gemini"
+    ],
+    "sites": [
+     "on"
+    ],
+    "papers": [
+     "Overleaf",
+     "PDFs on this Mac"
+    ],
+    "code": [
+     "on"
+    ]
+   },
+   "custom_instructions": false,
+   "data_root": null,
+   "prompts": {
+    "discover": [
+     "6053cf6e6f6a"
+    ],
+    "import": [
+     "1ae073f30d0c"
+    ],
+    "projects": [
+     "6d834209c126"
+    ],
+    "recall": [
+     "975b2a62fce0"
+    ]
+   },
+   "note": "Cut short: the app was closed while its last job (asking ChatGPT what it remembers) ran, so MEMORY.md was never written. Recorded by hand from the session; the imports are complete."
+  },
+  "results": {
+   "categories": 5,
+   "jobs": {
+    "import:done": 21,
+    "recall:running": 1,
+    "recall:done": 2
+   },
+   "notes": 97,
+   "items": 28,
+   "imported": 123,
+   "imported_from_tool_calls": 0,
+   "matched_to_source_items": 111,
+   "match": {
+    "exact": 89,
+    "tokens": 22,
+    "none": 11,
+    "ambiguous": 1
+   },
+   "listed": 634,
+   "skipped_matched": {
+    "listed, not chosen": 175,
+    "asked for, not brought in": 1
+   },
+   "tool_calls": {
+    "list_note_files": 2,
+    "browser_open": 24,
+    "browser_read": 17,
+    "google_drive_files": 9,
+    "web_chats": 9,
+    "import_note_files": 1,
+    "needs_you": 6,
+    "browser_type": 2,
+    "browser_wait": 12,
+    "list_chats": 2,
+    "browser_screenshot": 7,
+    "import_chats": 2,
+    "save_memory": 1,
+    "overleaf_projects": 1,
+    "import_overleaf_projects": 1,
+    "list_pdfs": 6,
+    "github_repos": 2,
+    "add_to_library": 16,
+    "import_google_files": 1,
+    "browser_history": 8,
+    "browser_bookmarks": 2,
+    "import_pdfs": 1,
+    "links_in_notes": 2,
+    "folder_overview": 2
+   },
+   "score": {
+    "projects": {
+     "named": 5,
+     "named_real": 3,
+     "found": 3,
+     "of": 21,
+     "recall": 0.143,
+     "precision": 0.6,
+     "missed": [
+      "Augmenting-cognition reading group",
+      "CS 3604 teaching assistantship",
+      "ClarityX",
+      "Claude Code plugins / human-driven compaction",
+      "Dynamite",
+      "Endurance training",
+      "EthicConvo",
+      "IDETrace (NeurIPS submission)",
+      "ISE 6664 course project",
+      "Juno",
+      "Mathetic / Papert Lab (company)",
+      "Music production",
+      "Personal portfolio site",
+      "PlotPact",
+      "Sophia / Sophia for Educators",
+      "TACode",
+      "VT PhD administration",
+      "VizPI"
+     ],
+     "matches": [
+      {
+       "named": "Engelbart Research Notebook App",
+       "project_id": "project_engelbart",
+       "why": "Engelbart is Mathetic's research notebook app."
+      },
+      {
+       "named": "Process-Based Assessment",
+       "project_id": null,
+       "why": "No listed project is about process-based assessment."
+      },
+      {
+       "named": "Predicting Student Behavior Model",
+       "project_id": "project_tutortrace",
+       "why": "TutorTrace classifies learner behavioral states during AI-assisted programming; closest behavior-prediction work."
+      },
+      {
+       "named": "VizGroup Collaborative Programming Analytics",
+       "project_id": null,
+       "why": "VizPI is individual telemetry; no listed collaborative VizGroup project."
+      },
+      {
+       "named": "Berkeley Research Site",
+       "project_id": "project_berkeley_research_chats",
+       "why": "Berkeley research chats include landing site berkeley.mathetic.com."
+      }
+     ],
+     "judge": "claude-sonnet-5-5",
+     "judge_cost_usd": 0.0047,
+     "note": "discovery names at most 5 projects, so recall is capped at 5 of the list"
+    },
+    "by_source": {
+     "gmail": {
+      "items": 11039,
+      "imported": 0,
+      "skipped": 0
+     },
+     "claude-code": {
+      "items": 3737,
+      "imported": 32,
+      "skipped": 5
+     },
+     "claude": {
+      "items": 2235,
+      "imported": 0,
+      "skipped": 6
+     },
+     "google-docs": {
+      "items": 1644,
+      "imported": 21,
+      "skipped": 26
+     },
+     "outlook": {
+      "items": 1484,
+      "imported": 0,
+      "skipped": 0
+     },
+     "local-files": {
+      "items": 901,
+      "imported": 0,
+      "skipped": 2
+     },
+     "zotero": {
+      "items": 369,
+      "imported": 0,
+      "skipped": 0
+     },
+     "slack": {
+      "items": 297,
+      "imported": 0,
+      "skipped": 0
+     },
+     "github": {
+      "items": 258,
+      "imported": 3,
+      "skipped": 3
+     },
+     "linear": {
+      "items": 209,
+      "imported": 0,
+      "skipped": 0
+     },
+     "chatgpt": {
+      "items": 198,
+      "imported": 0,
+      "skipped": 0
+     },
+     "pdfs": {
+      "items": 194,
+      "imported": 14,
+      "skipped": 43
+     },
+     "local-notes": {
+      "items": 189,
+      "imported": 0,
+      "skipped": 0
+     },
+     "codex": {
+      "items": 176,
+      "imported": 32,
+      "skipped": 58
+     },
+     "notion": {
+      "items": 73,
+      "imported": 0,
+      "skipped": 1
+     },
+     "obsidian": {
+      "items": 66,
+      "imported": 7,
+      "skipped": 6
+     },
+     "gemini": {
+      "items": 63,
+      "imported": 0,
+      "skipped": 0
+     },
+     "evernote": {
+      "items": 56,
+      "imported": 0,
+      "skipped": 2
+     },
+     "apple-notes": {
+      "items": 54,
+      "imported": 0,
+      "skipped": 0
+     },
+     "perplexity": {
+      "items": 48,
+      "imported": 0,
+      "skipped": 0
+     },
+     "onenote": {
+      "items": 40,
+      "imported": 0,
+      "skipped": 0
+     },
+     "cursor": {
+      "items": 38,
+      "imported": 0,
+      "skipped": 0
+     },
+     "grok": {
+      "items": 35,
+      "imported": 0,
+      "skipped": 0
+     },
+     "granola": {
+      "items": 31,
+      "imported": 0,
+      "skipped": 1
+     },
+     "websites": {
+      "items": 29,
+      "imported": 0,
+      "skipped": 2
+     },
+     "overleaf": {
+      "items": 28,
+      "imported": 2,
+      "skipped": 21
+     },
+     "google-meet": {
+      "items": 26,
+      "imported": 0,
+      "skipped": 0
+     },
+     "browser-history": {
+      "items": 18,
+      "imported": 0,
+      "skipped": 0
+     },
+     "assistant-memory": {
+      "items": 15,
+      "imported": 0,
+      "skipped": 0
+     },
+     "zoom": {
+      "items": 8,
+      "imported": 0,
+      "skipped": 0
+     }
+    },
+    "sources_reached": [
+     "claude-code",
+     "codex",
+     "github",
+     "google-docs",
+     "obsidian",
+     "overleaf",
+     "pdfs"
+    ],
+    "vs_run_001_deep_pass": {
+     "deep_pass_items": 738,
+     "deep_pass_imports": 656,
+     "decided_by_both": 44,
+     "agree": 25,
+     "agreement": 0.568,
+     "deep_imports_onboarding_also_imported": 17,
+     "deep_imports_onboarding_skipped": 18,
+     "deep_imports_onboarding_never_saw": 621,
+     "onboarding_imports_deep_skipped": 1
+    }
+   }
+  },
+  "performance": {
+   "minutes": 3.9,
+   "turns": 26,
+   "failed_turns": 0,
+   "by_kind": {
+    "projects": {
+     "turns": 1,
+     "failed": 0,
+     "minutes": 0.2,
+     "input_tokens": 5879,
+     "cache_read_tokens": 730,
+     "output_tokens": 1318,
+     "cost_usd": 0.0338,
+     "turns_without_usage": 0
+    },
+    "discover": {
+     "turns": 1,
+     "failed": 0,
+     "minutes": 0.1,
+     "input_tokens": 10829,
+     "cache_read_tokens": 6374,
+     "output_tokens": 1301,
+     "cost_usd": 0.0315,
+     "turns_without_usage": 0
+    },
+    "import": {
+     "turns": 21,
+     "failed": 0,
+     "minutes": 12.7,
+     "input_tokens": 2997741,
+     "cache_read_tokens": 2527572,
+     "output_tokens": 28788,
+     "cost_usd": 2.4209,
+     "turns_without_usage": 0
+    },
+    "recall": {
+     "turns": 3,
+     "failed": 0,
+     "minutes": 0.9,
+     "input_tokens": 171932,
+     "cache_read_tokens": 158376,
+     "output_tokens": 2224,
+     "cost_usd": 0.0922,
+     "turns_without_usage": 1
+    }
+   },
+   "input_tokens": 3186381,
+   "cache_read_tokens": 2693052,
+   "output_tokens": 33631,
+   "cost_usd": 2.5784,
+   "turns_without_usage": 1
+  },
+  "scored": true
  }
 ]

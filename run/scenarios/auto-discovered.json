@@ -1,0 +1,17 @@
+{
+ "name": "auto-discovered",
+ "provider": "anthropic",
+ "mode": "auto",
+ "keychain": "allowed",
+ "browser": "chrome",
+ "browserAgents": "declined",
+ "discover": true,
+ "projects": "discovered",
+ "apps": "discovered",
+ "additional": "discovered",
+ "roles": ["Researcher"],
+ "days": 365,
+ "folders": "ask",
+ "needs": "skip",
+ "timeoutMinutes": 150
+}

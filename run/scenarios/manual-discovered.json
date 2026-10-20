@@ -1,0 +1,17 @@
+{
+ "name": "manual-discovered",
+ "provider": "anthropic",
+ "mode": "manual",
+ "keychain": "allowed",
+ "browser": "chrome",
+ "discover": true,
+ "projects": "discovered",
+ "apps": "discovered",
+ "additional": "discovered",
+ "roles": ["Researcher"],
+ "days": 365,
+ "folders": "ask",
+ "needs": "skip",
+ "answers": "everything",
+ "timeoutMinutes": 150
+}
